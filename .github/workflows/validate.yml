@@ -1,0 +1,58 @@
+name: Validate derived core vs official catalogue
+
+# Builds the CH / DE / FR banks, then cross-checks the *derived* CH/FR common core
+# against the *official* German ELWIS catalogue on shared harmonised scope
+# (src/validate.py). This is the deterministic coverage instrument: it reports
+# which harmonised concepts the official bank tests that a derived bank under-
+# covers. It is INFORMATIONAL — a "gap" can be a keyword-pattern miss or a genuine
+# national difference, so it posts to the job summary and never fails the run. The
+# token-spending LLM divergence flagger (`run.py validate --deep`) stays manual.
+
+on:
+  schedule:
+    - cron: "0 7 1 * *"         # monthly, 1st at 07:00 UTC (after the weekly staleness run)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate
+  cancel-in-progress: true
+
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      # Each bank build is best-effort: if one fails, coverage simply omits it
+      # (load_bank skips a missing bank file) rather than sinking the whole run.
+      - name: Build FR banks
+        continue-on-error: true
+        run: python run.py fr
+      - name: Build DE bank (official ELWIS catalogue)
+        continue-on-error: true
+        run: |
+          python run.py build --country DE
+          python run.py questions --country DE
+          python tools/subagent_draft.py ingest de DE || true
+      - name: Build CH bank
+        continue-on-error: true
+        run: |
+          python run.py build
+          python run.py questions
+          python tools/subagent_draft.py ingest fr CH || true
+
+      - name: Coverage cross-check
+        run: |
+          {
+            echo '## Harmonised-core coverage vs the official German catalogue'
+            echo '```'
+            python run.py validate
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"

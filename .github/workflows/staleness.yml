@@ -1,0 +1,54 @@
+name: Upstream source staleness
+
+# Re-fetches the upstream law / question catalogues and diffs them against the
+# blessed data/sources.lock.json. A law-grade drift (an amended ordinance, a new
+# ELWIS Stand) makes `check-sources` exit non-zero; this opens — or comments on —
+# a tracking issue so an amendment surfaces the week it lands instead of whenever
+# someone happens to notice. Reference-source drift (Wikipedia/HTML prose) is
+# reported in the log but never opens an issue.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"          # every Monday 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: staleness
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+
+      - name: Diff upstream against the lock
+        id: diff
+        run: |
+          set +e
+          python run.py check-sources | tee report.txt
+          echo "drift=$?" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Open or update the drift issue
+        if: steps.diff.outputs.drift != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Upstream source drift detected"
+          body=$'A scheduled `check-sources` run found law-grade upstream drift.\n\n```\n'"$(cat report.txt)"$'\n```\n\nRe-derive the affected bank, then run `python run.py check-sources --update` and commit the refreshed `data/sources.lock.json`.'
+          existing=$(gh issue list --state open --label staleness --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh label create staleness --color B60205 --description "Upstream law/catalogue drift" 2>/dev/null || true
+            gh issue create --title "$title" --label staleness --body "$body"
+          fi

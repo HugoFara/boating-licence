@@ -1,0 +1,120 @@
+{
+  "blessed": "2026-05-30",
+  "note": "Blessed upstream versions; `python run.py check-sources` diffs live upstream against this. Update with --update after re-deriving the affected bank.",
+  "sources": {
+    "binschstro": {
+      "kind": "gii",
+      "grade": "law",
+      "legal_version": "Zuletzt geändert durch Art. 4 V v. 14.10.2025 I Nr. 242",
+      "digest": "4d126c4e9e328a3d"
+    },
+    "bso": {
+      "kind": "fedlex",
+      "grade": "law",
+      "legal_version": "2022-05-01",
+      "digest": "20745cc0c8697115"
+    },
+    "colreg": {
+      "kind": "pdf",
+      "grade": "law",
+      "legal_version": "Fri, 14 May 2004 11:10:02 GMT",
+      "digest": "f9b308f26583cc0d"
+    },
+    "elwis": {
+      "kind": "elwis",
+      "grade": "law",
+      "legal_version": "binnen:2023-08;see:2023-08",
+      "digest": "13c83799d9fcb3b7"
+    },
+    "geneve": {
+      "kind": "html",
+      "grade": "reference",
+      "legal_version": "Sat, 30 May 2026 06:33:40 GMT",
+      "digest": "4907f57092a8f986"
+    },
+    "kvr": {
+      "kind": "gii",
+      "grade": "law",
+      "legal_version": "Zuletzt geändert durch Art. 1 V v. 7.12.2021 I 5188",
+      "digest": "e6e5a56d6a5191b2"
+    },
+    "legi": {
+      "kind": "legi",
+      "grade": "law",
+      "legal_version": "2026-05-30 (1346 units, corpus-pinned)",
+      "digest": "8bd24d19db68862f"
+    },
+    "matelotage_wp": {
+      "kind": "wikipedia",
+      "grade": "reference",
+      "legal_version": "",
+      "digest": "2feea83d92ca6965"
+    },
+    "matelotage_wp_de": {
+      "kind": "wikipedia",
+      "grade": "reference",
+      "legal_version": "",
+      "digest": "6808353464ef3c05"
+    },
+    "matelotage_wp_it": {
+      "kind": "wikipedia",
+      "grade": "reference",
+      "legal_version": "",
+      "digest": "7a6f30deea28ac21"
+    },
+    "meteo_signaux": {
+      "kind": "html",
+      "grade": "reference",
+      "legal_version": "Sat, 30 May 2026 09:45:43 GMT",
+      "digest": "7f88e2191615d47e"
+    },
+    "meteo_vents": {
+      "kind": "html",
+      "grade": "reference",
+      "legal_version": "Fri, 29 May 2026 19:47:39 GMT",
+      "digest": "0847a440a03dd8bd"
+    },
+    "meteo_wp_de": {
+      "kind": "wikipedia",
+      "grade": "reference",
+      "legal_version": "",
+      "digest": "cc0f16b32fde7390"
+    },
+    "meteo_wp_it": {
+      "kind": "wikipedia",
+      "grade": "reference",
+      "legal_version": "",
+      "digest": "ae97094246fe4796"
+    },
+    "oni": {
+      "kind": "fedlex",
+      "grade": "law",
+      "legal_version": "2022-01-01",
+      "digest": "c270bf072e1b0aca"
+    },
+    "rheinschpv": {
+      "kind": "gii",
+      "grade": "law",
+      "legal_version": "Zuletzt geändert durch Art. 1 § 1 Abs. 1 Nr. 2 iVm Abs. 2 Nr. 2 (Anlage 2 Anlageband) V v. 5.4.2023 II Nr. 105",
+      "digest": "d903b94d5b7f6396"
+    },
+    "rnl": {
+      "kind": "fedlex",
+      "grade": "law",
+      "legal_version": "2019-06-01",
+      "digest": "f6f138dd5f080936"
+    },
+    "seeschstro": {
+      "kind": "gii",
+      "grade": "law",
+      "legal_version": "Neugefasst durch Bek. v. 22.10.1998 I 3209; 1999 I 193;",
+      "digest": "5cfb6098310292bf"
+    },
+    "spfv": {
+      "kind": "gii",
+      "grade": "law",
+      "legal_version": "Zuletzt geändert durch Art. 72 Abs. 4 G v. 23.10.2024 I Nr. 323",
+      "digest": "7aac1d0c35c425a3"
+    }
+  }
+}

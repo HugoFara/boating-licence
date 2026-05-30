@@ -902,6 +902,48 @@ def cmd_web(args):
           f"Preview: python -m http.server -d web 8000  →  http://localhost:8000")
 
 
+def cmd_validate(args):
+    """Cross-check the derived CH/FR common core against the official German
+    catalogue on shared harmonised scope. Default: deterministic coverage. With
+    --deep: an LLM divergence flagger (costs tokens; emits pairs for human review)."""
+    from src import validate
+    if not args.deep:
+        print(validate.format_coverage(validate.coverage()))
+        return
+    if args.dry_run:
+        n = [0]
+        validate.flag_divergences(args.bank, base=args.base, limit=args.limit,
+                                  on_prompt=lambda p: (print(p, "\n" + "─" * 60),
+                                                       n.__setitem__(0, n[0] + 1)))
+        print(f"\n[dry-run] {n[0]} prompt(s) would be sent — no API call made.")
+        return
+    flags = validate.flag_divergences(args.bank, base=args.base, limit=args.limit)
+    if not flags:
+        print(f"No divergences flagged in {args.bank} {args.base} "
+              f"(checked up to {args.limit}).")
+        return
+    print(f"{len(flags)} divergence(s) flagged for review "
+          f"({args.bank} vs official DE, {args.base}):\n")
+    for f in flags:
+        print(f"  [{f['verdict']}] {f['concept']} · {f['question_id']}")
+        print(f"    {f['stem']}")
+        print(f"    → {f['reason']}\n")
+
+
+def cmd_check_sources(args):
+    """Diff live upstream sources against data/sources.lock.json and report drift.
+    Exits non-zero on a law-grade change so a scheduled CI job can fail loudly."""
+    from src import staleness
+    changes, significant = staleness.check(
+        refresh=not args.offline, update=args.update)
+    print(staleness.format_report(changes))
+    if args.update:
+        print(f"\nLock re-blessed → {os.path.relpath(staleness.LOCK_PATH)}")
+        return
+    if significant:
+        sys.exit(1)
+
+
 def main():
     ap = argparse.ArgumentParser(description="Boat-permit pipeline")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -957,10 +999,30 @@ def main():
     sub.add_parser("web", help="bundle the bank into the static web/ player")
     sub.add_parser("fr", help="build the France permis plaisance banks + web/fr/ "
                               "players (seed-driven; see docs/france.md)")
+    cs = sub.add_parser("check-sources", help="diff live upstream law/catalogues "
+                                              "against data/sources.lock.json")
+    cs.add_argument("--offline", action="store_true",
+                    help="hash the on-disk raw cache only (skip the network re-fetch)")
+    cs.add_argument("--update", action="store_true",
+                    help="re-bless: rewrite the lock to the current upstream state")
+    v = sub.add_parser("validate", help="cross-check the derived CH/FR core against "
+                                        "the official German catalogue (shared scope)")
+    v.add_argument("--deep", action="store_true",
+                   help="LLM divergence flagger (costs tokens); default is "
+                        "deterministic coverage")
+    v.add_argument("--bank", default="CH", choices=["CH", "FR"],
+                   help="which derived bank to flag against DE (--deep only)")
+    v.add_argument("--base", default="cevni", choices=["universal", "cevni", "colregs"],
+                   help="harmonised base to compare (--deep only)")
+    v.add_argument("--limit", type=int, default=20,
+                   help="max derived questions to adjudicate (--deep only)")
+    v.add_argument("--dry-run", action="store_true",
+                   help="print the prompts that would be sent; no API call (--deep)")
     args = ap.parse_args()
     {"fetch": cmd_fetch, "parse": cmd_parse, "build": cmd_build,
      "questions": cmd_questions, "draft": cmd_draft, "review": cmd_review,
-     "web": cmd_web, "fr": cmd_fr}[args.cmd](args)
+     "web": cmd_web, "fr": cmd_fr, "check-sources": cmd_check_sources,
+     "validate": cmd_validate}[args.cmd](args)
 
 
 if __name__ == "__main__":
