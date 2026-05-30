@@ -132,10 +132,34 @@ can't silently drift from the source. This already caught an error: `A.4241-48-1
 (sailing-vessel lights) → `A.4241-48-13` (motorised small-craft lights). Each unit
 carries a deep per-article Légifrance URL and the in-force date.
 
-*Verified out-of-band* (authorities LEGI doesn't carry): COLREG/RIPAM (ingested via
-the `INT` layer), CEVNI (UNECE), IALA R1001, ITU Radio Regs, SHOM, the EU Directive
-2013/53, the *arrêtés des préfets maritimes*, and Division 240 (annexed tables not
-cleanly in LEGI).
+## Ingested reference corpus (IALA + SHOM)
+
+The **côtière** content rests on sources LEGI doesn't carry: the **IALA** Maritime
+Buoyage System (Region A) and **SHOM** tides/charts. These are *not* openly licensed
+for verbatim redistribution (IALA R1001 is © IALA; SHOM ouvrages carry SHOM terms —
+its open *data* is Licence Ouverte). What is freely usable is the **factual content**
+(a mark's colour/shape/topmark/light; the tidal datum; the coefficient range) — not
+copyrightable. So `src/fr/reference_fr.py` ingests those facts, each **verified
+against and cited to the primary source** (read from IALA R1001 Ed.2.0 Tables 1–9 and
+the SHOM *Prédiction de marée* fiche), as `KnowledgeUnit`s — **not copied prose**:
+
+| `source_id` | facts | themes |
+|---|---|---|
+| `iala_a` | 10 — lateral / preferred-channel / 4 cardinals / isolated-danger / safe-water / special marks (Region A: colour, shape, topmark, light) | `balisage` |
+| `shom` | 9 — zéro hydrographique, marnage, coefficient (20–120), vives/mortes-eaux, flot/jusant, semi-diurnal cycle, characteristic levels, rule of twelfths, étale | `meteo_maree` |
+
+```bash
+python -m src.fr.reference_fr build   # → src/fr/reference_kb.json + data/kb.fr.sqlite
+```
+
+Committed at `src/fr/reference_kb.json`; `tests/test_reference.py` pins the shape and
+load-bearing facts (Region-A lateral colours, the 20–120 coefficient range, the
+chart-datum definition). This grounds future **côtière** question derivation the way
+`legi_kb.json` grounds the inland one.
+
+*Still verified out-of-band* (no ingestion): COLREG/RIPAM (ingested via the `INT`
+layer), CEVNI (UNECE), ITU Radio Regs, the EU Directive 2013/53, the *arrêtés des
+préfets maritimes*, and Division 240 (annexed tables not cleanly in LEGI).
 
 ## Question scope & the common-core pool
 
