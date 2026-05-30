@@ -17,6 +17,8 @@ data/questions.json.*
 # Subagent-drafting intermediates (regenerable: emit / verify-emit / merge),
 # all languages. The durable inputs — data/draft_answers/ and data/verdicts/ —
 # ARE committed, so the approved prose bank rebuilds via `subagent_draft.py ingest`.
+# data/seed_review.json (the manual-review ledger) is likewise committed: it
+# restores hand-set approvals/rejections that the regenerable DB would lose.
 data/draft_jobs*.json
 data/verify_jobs*.json
 data/verdicts*.json

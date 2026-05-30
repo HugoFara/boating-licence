@@ -157,12 +157,18 @@ def cmd_draft(args):
         kb.close()
         conn = qschema.connect(QDB_PATH)
         qschema.write_questions(conn, qs)
+        # Seeds load as PENDING by design; re-apply any recorded review decisions
+        # so a rebuilt bank keeps its approvals/rejections (durable, committed).
+        from src.questions import seed_review
+        applied = seed_review.apply(conn)
+        conn.commit()
         qschema.export_json(conn, QJSON_PATH, exportable_only=True)
         status = qschema.counts_by_status(conn)
         conn.close()
         print(f"✓ seed loaded: {st['kept']}/{st['entries']} questions added as PENDING "
               f"({st['weak_grounding']} weak-grounding, {st['invalid']} invalid, "
               f"{st['missing_unit']} missing unit)")
+        print(f"  ledger re-applied: {applied['approved']} approved, {applied['rejected']} rejected")
         print(f"  bank by status: {status}")
         print("  review with: python run.py review --list")
         return
@@ -217,6 +223,11 @@ def cmd_review(args):
         n = qschema.set_review_status(conn, args.approve or [], "approved")
         n += qschema.set_review_status(conn, args.reject or [], "rejected")
         conn.commit()
+        # Record the decision durably: questions.sqlite is regenerable, so the
+        # ledger is what survives a rebuild (see src/questions/seed_review.py).
+        from src.questions import seed_review
+        seed_review.record({**{i: "approved" for i in (args.approve or [])},
+                            **{i: "rejected" for i in (args.reject or [])}})
         print(f"updated {n} question(s); bank by status: {qschema.counts_by_status(conn)}")
         conn.close()
         return
