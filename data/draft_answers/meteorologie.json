@@ -1,0 +1,74 @@
+{"drafts": [
+  {"ref": "MétéoSuisse : La vaudaire", "questions": [
+    {"stem": "Quelle affirmation est correcte au sujet de la vaudaire d'orage ?", "polarity": "affirmative", "choices": [
+      {"text": "Elle est froide : dès son apparition, la température baisse et l'humidité augmente.", "correct": true},
+      {"text": "Elle est chaude et sèche, faisant monter la température dès son apparition.", "correct": false},
+      {"text": "Elle se manifeste exclusivement de décembre à mars.", "correct": false}
+    ], "explanation": "Selon MétéoSuisse : La vaudaire, la vaudaire d'orage est froide, avec baisse de température et hausse d'humidité dès son apparition."},
+    {"stem": "Concernant les deux types de vaudaire, laquelle de ces affirmations est FAUSSE ?", "polarity": "negative", "choices": [
+      {"text": "La vaudaire de foehn apparaît principalement en mars-avril ainsi qu'en octobre-novembre.", "correct": false},
+      {"text": "La vaudaire d'orage apparaît d'avril à septembre.", "correct": false},
+      {"text": "La vaudaire de foehn est un vent froid et humide chargé de précipitations.", "correct": true}
+    ], "explanation": "Selon MétéoSuisse : La vaudaire, la vaudaire de foehn redescend asséchée et réchauffée après avoir abandonné son humidité au sud des Alpes."}
+  ]},
+  {"ref": "MétéoSuisse : Le joran", "questions": [
+    {"stem": "De quelle direction et de quelle origine vient le joran ?", "polarity": "affirmative", "choices": [
+      {"text": "C'est un vent de NW, relativement froid, qui descend du Jura vers le Léman.", "correct": true},
+      {"text": "C'est un vent de SE, chaud, qui remonte de la vallée du Rhône.", "correct": false},
+      {"text": "C'est un vent de NE qui souffle depuis les Préalpes vaudoises.", "correct": false}
+    ], "explanation": "Selon MétéoSuisse : Le joran, le joran est un vent de NW relativement froid qui descend du Jura vers le Léman."},
+    {"stem": "Comment comparer le joran d'orage et le joran qui se lève après un front froid ?", "polarity": "affirmative", "choices": [
+      {"text": "Le joran d'orage est souvent dangereux car brutal et parfois violent.", "correct": true},
+      {"text": "Les rafales du joran de front froid sont nettement plus fortes que celles du joran d'orage.", "correct": false},
+      {"text": "Le joran d'orage souffle de manière régulière et est apprécié des navigateurs.", "correct": false}
+    ], "explanation": "Selon MétéoSuisse : Le joran, le joran d'orage est brutal et parfois violent, donc souvent dangereux, contrairement au joran régulier de front froid."}
+  ]},
+  {"ref": "MétéoSuisse : La bise", "questions": [
+    {"stem": "Quelle situation de pression provoque l'établissement de la bise ?", "polarity": "affirmative", "choices": [
+      {"text": "Une haute pression sur les îles Britanniques et une basse pression sur l'Italie.", "correct": true},
+      {"text": "Une basse pression sur les îles Britanniques et une haute pression sur l'Italie.", "correct": false},
+      {"text": "Une haute pression sur l'Italie et une basse pression sur la Savoie.", "correct": false}
+    ], "explanation": "Selon MétéoSuisse : La bise, elle s'établit lorsqu'une haute pression recouvre les îles Britanniques et une basse pression l'Italie."},
+    {"stem": "Parmi ces affirmations sur la bise, laquelle est correcte ?", "polarity": "affirmative", "choices": [
+      {"text": "Sa vitesse est comprise entre 3 et 9 Bf et son début comme sa fin sont progressifs.", "correct": true},
+      {"text": "Elle survient brusquement, comme le foehn, et précède toujours la pluie.", "correct": false},
+      {"text": "Les bises d'été sont plus longues que celles d'hiver.", "correct": false}
+    ], "explanation": "Selon MétéoSuisse : La bise, sa vitesse va de 3 à 9 Bf, son début et sa fin sont progressifs (contrairement au foehn)."}
+  ]},
+  {"ref": "MétéoSuisse : Le Bornan", "questions": [
+    {"stem": "Quelles affirmations sont exactes au sujet du bornan ?", "polarity": "affirmative", "choices": [
+      {"text": "Il peut atteindre 30 à 40 kt et ses effets se font sentir surtout entre Rolle et Lutry.", "correct": true},
+      {"text": "C'est un des plus violents vents d'orage du Léman, qui se produit en été.", "correct": true},
+      {"text": "Il est un vent froid hivernal canalisé par la vallée du Rhône.", "correct": false}
+    ], "explanation": "Selon MétéoSuisse : Le Bornan, il atteint 30 à 40 kt entre Rolle et Lutry et est un des plus violents vents d'orage estivaux du Léman."},
+    {"stem": "Quels sont les signes précurseurs annonçant le bornan ?", "polarity": "affirmative", "choices": [
+      {"text": "Le bourgeonnement de gros cumulus et de cumulonimbus sur les reliefs, en particulier les Préalpes savoyardes.", "correct": true},
+      {"text": "Un ciel parfaitement dégagé et stable au-dessus de la Dent d'Oche.", "correct": false},
+      {"text": "L'apparition d'un rouleau nuageux bordant le Jura.", "correct": false}
+    ], "explanation": "Selon MétéoSuisse : Le Bornan, le bourgeonnement de cumulus et cumulonimbus sur les reliefs, surtout les Préalpes savoyardes, en est le signe précurseur."}
+  ]},
+  {"ref": "MétéoSuisse : Le Vent", "questions": [
+    {"stem": "À quelle situation météorologique correspond Le Vent (sudois) ?", "polarity": "affirmative", "choices": [
+      {"text": "Une basse pression sur les îles Britanniques et une haute pression sur le sud de l'Europe.", "correct": true},
+      {"text": "Une haute pression sur les îles Britanniques et une basse pression sur le sud de l'Europe.", "correct": false},
+      {"text": "Une bise de NE canalisée entre le Jura et les Préalpes.", "correct": false}
+    ], "explanation": "Selon MétéoSuisse : Le Vent, il correspond à une basse pression sur les îles Britanniques et une haute pression sur le sud de l'Europe."},
+    {"stem": "Parmi ces affirmations sur Le Vent, laquelle est FAUSSE ?", "polarity": "negative", "choices": [
+      {"text": "Sa direction est SW sur le Petit-Lac et le Grand-Lac.", "correct": false},
+      {"text": "C'est un vent régulier soufflant en toute saison, entre 3 et 7 Bf.", "correct": false},
+      {"text": "En hiver, il faiblit et ne dépasse jamais une brise modérée.", "correct": true}
+    ], "explanation": "Selon MétéoSuisse : Le Vent, en hiver lors de profondes dépressions il peut être tempétueux et dépasser les 100 km/h."}
+  ]},
+  {"ref": "MétéoSuisse : Les brises", "questions": [
+    {"stem": "Quelle est l'origine des brises alternées observées à proximité des lacs ?", "polarity": "affirmative", "choices": [
+      {"text": "La différence de température entre l'eau, plus chaude de nuit, et la terre, plus chaude de jour.", "correct": true},
+      {"text": "L'arrivée d'une perturbation atlantique sur le Léman.", "correct": false},
+      {"text": "La canalisation de l'air froid descendant du Jura.", "correct": false}
+    ], "explanation": "Selon MétéoSuisse : Les brises, elles ont pour origine la différence de température entre l'eau (plus chaude de nuit) et la terre (plus chaude de jour)."},
+    {"stem": "Quelles affirmations sont correctes au sujet des brises diurnes et nocturnes ?", "polarity": "affirmative", "choices": [
+      {"text": "Les brises diurnes soufflent du lac vers la côte.", "correct": true},
+      {"text": "Les brises nocturnes se lèvent généralement entre 17 et 19 h.", "correct": true},
+      {"text": "Les brises nocturnes soufflent de la côte vers le lac et sont des vents très violents.", "correct": false}
+    ], "explanation": "Selon MétéoSuisse : Les brises, les brises diurnes soufflent du lac vers la côte et les nocturnes (vents faibles) se lèvent entre 17 et 19 h."}
+  ]}
+]}

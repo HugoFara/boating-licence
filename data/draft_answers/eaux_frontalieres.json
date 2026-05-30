@@ -1,0 +1,74 @@
+{"drafts": [
+  {"ref": "RNL art. 86f", "questions": [
+    {"stem": "Quelle force de sustentation minimale en eau douce les moyens de sauvetage collectifs d'un bateau à passagers doivent-ils offrir par personne ?", "polarity": "affirmative", "choices": [
+      {"text": "Au moins 750 N par personne", "correct": true},
+      {"text": "Au moins 500 N par personne", "correct": false},
+      {"text": "Au moins 100 N par personne", "correct": false}
+    ], "explanation": "Selon le RNL art. 86f, al. 2, let. b, la force de sustentation en eau douce doit être d'au moins 750 N par personne."},
+    {"stem": "Concernant les moyens de sauvetage collectifs gonflables à bord des bateaux à passagers, quelles affirmations sont exactes ?", "polarity": "affirmative", "choices": [
+      {"text": "Ils doivent être composés d'au moins deux compartiments à air séparés", "correct": true},
+      {"text": "Ils doivent conserver une assiette stable même si la moitié seulement des compartiments à air est gonflée", "correct": true},
+      {"text": "Ils doivent se gonfler uniquement par commande manuelle, jamais automatiquement", "correct": false}
+    ], "explanation": "Le RNL art. 86f, al. 3, exige au moins deux compartiments séparés et une assiette stable même avec la moitié des compartiments gonflés, le gonflage pouvant être automatique ou manuel."}
+  ]},
+  {"ref": "RNL art. 64", "questions": [
+    {"stem": "Selon les règles de priorité, de quel(s) bateau(x) un bateau à voile doit-il s'écarter ?", "polarity": "affirmative", "choices": [
+      {"text": "Des bateaux à passagers prioritaires et des convois remorqués", "correct": true},
+      {"text": "Des bateaux à marchandises", "correct": true},
+      {"text": "Des bateaux à rames", "correct": false}
+    ], "explanation": "Selon le RNL art. 64, al. 2, le bateau à voile s'écarte notamment des bateaux à passagers prioritaires, des convois remorqués et des bateaux à marchandises, mais pas des bateaux à rames."},
+    {"stem": "D'après le RNL art. 64, quelle affirmation est FAUSSE concernant les planches à voile et les kitesurfs ?", "polarity": "negative", "choices": [
+      {"text": "Les autres bateaux doivent s'écarter des planches à voile et des kitesurfs", "correct": true},
+      {"text": "Les planches à voile et les kitesurfs s'écartent de tous les autres bateaux", "correct": false},
+      {"text": "Tout bateau doit s'écarter d'un bateau incapable de manœuvrer qui signale sa présence", "correct": false}
+    ], "explanation": "Le RNL art. 64, al. 2, let. f, précise au contraire que les planches à voile et les kitesurfs s'écartent de tous les autres bateaux."}
+  ]},
+  {"ref": "RNL art. 62", "questions": [
+    {"stem": "Lorsque deux bateaux suivent des routes qui se croisent avec un danger d'abordage possible, lequel doit s'écarter ?", "polarity": "affirmative", "choices": [
+      {"text": "Le bateau qui voit l'autre par tribord", "correct": true},
+      {"text": "Le bateau qui voit l'autre par bâbord", "correct": false},
+      {"text": "Le bateau le plus rapide des deux", "correct": false}
+    ], "explanation": "Selon le RNL art. 62, let. b, le bateau qui voit l'autre par tribord doit s'écarter."},
+    {"stem": "Quand deux bateaux suivent des routes directement opposées avec un risque d'abordage, comment doivent-ils manœuvrer ?", "polarity": "affirmative", "choices": [
+      {"text": "Chacun vient sur tribord pour passer bâbord sur bâbord", "correct": true},
+      {"text": "Chacun vient sur bâbord pour passer tribord sur tribord", "correct": false},
+      {"text": "Les deux maintiennent leur cap et leur vitesse sans aucune manœuvre", "correct": false}
+    ], "explanation": "Le RNL art. 62, let. c, prévoit que chaque bateau vient sur tribord de façon à passer bâbord sur bâbord."}
+  ]},
+  {"ref": "RNL art. 86a", "questions": [
+    {"stem": "Parmi les équipements de communication et d'information, lesquels ne s'appliquent qu'aux bateaux à passagers effectuant un trajet international ?", "polarity": "affirmative", "choices": [
+      {"text": "L'appareil radar", "correct": true},
+      {"text": "L'indicateur de vitesse de giration", "correct": true},
+      {"text": "L'installation radio pouvant émettre sur le canal d'alerte 16", "correct": false}
+    ], "explanation": "Selon le RNL art. 86a, al. 2, seules les prescriptions de l'al. 1, let. a (radar) et b (indicateur de vitesse de giration) ne s'appliquent qu'aux trajets internationaux."},
+    {"stem": "Quel canal radio est désigné comme canal d'alerte (Détresse lac) dans l'équipement des bateaux à passagers ?", "polarity": "affirmative", "choices": [
+      {"text": "Le canal 16", "correct": true},
+      {"text": "Le canal 12", "correct": false},
+      {"text": "Le canal K", "correct": false}
+    ], "explanation": "Le RNL art. 86a, al. 1, let. c, désigne le canal 16 comme canal d'alerte (Détresse lac), le canal 12 étant opérationnel et le canal K de coordination de commandement."}
+  ]},
+  {"ref": "RNL art. 16", "questions": [
+    {"stem": "À quelle condition l'autorisation d'une manifestation nautique est-elle notamment accordée selon le RNL art. 16 ?", "polarity": "affirmative", "choices": [
+      {"text": "Si l'assurance responsabilité civile prescrite a été conclue", "correct": true},
+      {"text": "Si la manifestation se déroule exclusivement en eaux suisses", "correct": false},
+      {"text": "Si tous les participants possèdent un permis de catégorie A", "correct": false}
+    ], "explanation": "Le RNL art. 16, al. 2, let. b, exige que l'assurance responsabilité civile prescrite ait été conclue."},
+    {"stem": "D'après le RNL art. 16, quelle affirmation est exacte concernant les manifestations sur l'eau ?", "polarity": "affirmative", "choices": [
+      {"text": "En autorisant une manifestation, l'autorité peut permettre des dérogations à certaines dispositions du Règlement si la sécurité de la navigation n'en est pas affectée", "correct": true},
+      {"text": "Les manifestations nautiques ne nécessitent jamais d'autorisation préalable", "correct": false},
+      {"text": "En cas de manifestation binationale, une seule autorité décide sans informer l'autre", "correct": false}
+    ], "explanation": "Le RNL art. 16, al. 3, autorise des dérogations à certaines dispositions si la sécurité de la navigation n'est pas affectée."}
+  ]},
+  {"ref": "RNL art. 84", "questions": [
+    {"stem": "Selon le RNL art. 84, à quelles conditions l'embarquement et le débarquement des passagers sont-ils autorisés ?", "polarity": "affirmative", "choices": [
+      {"text": "Uniquement aux installations admises par l'autorité compétente et après que le conducteur s'est assuré que le bateau est correctement amarré", "correct": true},
+      {"text": "À n'importe quel endroit de la rive dès que le bateau ralentit", "correct": false},
+      {"text": "Sans amarrage si la sécurité des passagers paraît garantie", "correct": false}
+    ], "explanation": "Le RNL art. 84, al. 1, autorise l'embarquement et le débarquement uniquement aux installations admises et après vérification de l'amarrage et de la sécurité."},
+    {"stem": "Concernant l'ordre d'utilisation des débarcadères, quelle affirmation est FAUSSE selon le RNL art. 84 ?", "polarity": "negative", "choices": [
+      {"text": "Les passagers embarquant peuvent accéder au débarcadère en même temps que les passagers débarquent", "correct": true},
+      {"text": "Un passager ne peut monter à bord ou descendre sans l'autorisation formelle du conducteur ou de son mandataire", "correct": false},
+      {"text": "La règle d'attente ne s'applique pas aux débarcadères équipés d'entrées et de sorties indépendantes", "correct": false}
+    ], "explanation": "Le RNL art. 84, al. 4, impose au contraire que les passagers embarquant n'accèdent au débarcadère qu'après que les passagers débarquant l'ont quitté, sauf entrées/sorties indépendantes."}
+  ]}
+]}

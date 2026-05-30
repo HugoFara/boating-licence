@@ -1,0 +1,202 @@
+{"drafts": [
+  {
+    "ref": "ONI art. 143a",
+    "questions": [
+      {
+        "stem": "Pour qu'un bateau à marchandises chargé et prêt au départ soit considéré comme ayant une stabilité suffisante, quelles conditions le texte exige-t-il ?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "L'angle de gîte ne dépasse pas 5 degrés et le côté du pont, à l'endroit le plus bas, ne plonge pas dans l'eau.", "correct": true},
+          {"text": "L'angle de gîte ne dépasse pas 15 degrés et le pont peut plonger jusqu'à 5 cm.", "correct": false},
+          {"text": "L'angle de gîte ne dépasse pas 10 degrés, quelle que soit la position du pont.", "correct": false}
+        ],
+        "explanation": "Selon l'ONI art. 143a, al. 2, l'angle de gîte ne doit pas dépasser 5 degrés et le côté le plus bas du pont ne doit pas plonger dans l'eau."
+      },
+      {
+        "stem": "Que prévoit l'ONI art. 143a concernant la hauteur métacentrique du bateau chargé prêt au départ ?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Elle ne doit pas être inférieure à 1 m.", "correct": true},
+          {"text": "Elle ne doit pas être inférieure à 0,5 m.", "correct": false},
+          {"text": "Elle ne doit pas dépasser 1 m.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 143a, al. 2 précise que la hauteur métacentrique du bateau chargé prêt au départ ne doit pas être inférieure à 1 m."
+      }
+    ]
+  },
+  {
+    "ref": "ONI art. 148g",
+    "questions": [
+      {
+        "stem": "Concernant le marquage «CE» sur les bateaux de sport mis sur le marché, que dit l'ONI art. 148g ?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "L'obligation d'apposer le marquage «CE» n'est pas applicable, mais s'il a déjà été apposé conformément aux dispositions de l'UE, il peut rester apposé.", "correct": true},
+          {"text": "Le marquage «CE» est obligatoire pour tous les bateaux de sport mis sur le marché.", "correct": false},
+          {"text": "Le marquage «CE» doit être retiré s'il a été apposé selon les dispositions de l'UE.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 148g, al. 2 prévoit que le marquage «CE» n'est pas obligatoire mais peut rester apposé s'il l'a déjà été conformément aux dispositions de l'UE."
+      },
+      {
+        "stem": "Dans quelle langue la documentation relative à un bateau de sport doit-elle être présentée à l'autorité compétente selon l'ONI art. 148g ?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Dans une langue officielle de la Suisse ou en anglais.", "correct": true},
+          {"text": "Exclusivement en allemand.", "correct": false},
+          {"text": "Uniquement dans la langue du fabricant.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 148g, al. 6 exige que la documentation soit présentée dans une langue officielle de la Suisse ou en anglais."
+      }
+    ]
+  },
+  {
+    "ref": "ONI art. 134",
+    "questions": [
+      {
+        "stem": "Quelle poussée hydrostatique minimale les engins de sauvetage individuels doivent-ils avoir selon l'ONI art. 134 (hors exception de l'art. 134a) ?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Au moins 75 N.", "correct": true},
+          {"text": "Au moins 100 N.", "correct": false},
+          {"text": "Au moins 50 N.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 134, al. 2 fixe la poussée hydrostatique des engins individuels à au moins 75 N."
+      },
+      {
+        "stem": "Selon l'ONI art. 134, à partir de quels seuils un bateau de plaisance ou de sport doit-il être pourvu d'un engin de sauvetage supplémentaire pouvant être jeté à l'eau ?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Une puissance supérieure à 30 kW, ou une surface vélique dépassant 15 m2 pour les bateaux à voile.", "correct": true},
+          {"text": "Une puissance supérieure à 15 kW, ou une surface vélique dépassant 30 m2.", "correct": false},
+          {"text": "Une puissance supérieure à 50 kW, ou une surface vélique dépassant 10 m2.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 134, al. 5 vise les bateaux de plus de 30 kW et les voiliers dont la surface vélique dépasse 15 m2."
+      }
+    ]
+  },
+  {
+    "ref": "ONI art. 144",
+    "questions": [
+      {
+        "stem": "Selon l'ONI art. 144, quel est le franc-bord d'un bateau à marchandises non ponté en zone 2 ?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "100 cm.", "correct": true},
+          {"text": "50 cm.", "correct": false},
+          {"text": "30 cm.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 144, al. 2, let. b fixe le franc-bord des bateaux non pontés à 100 cm en zone 2."
+      },
+      {
+        "stem": "D'après l'ONI art. 144, quel est le franc-bord prescrit pour les engins flottants ?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "90 cm en zone 2 et 45 cm en zone 3.", "correct": true},
+          {"text": "30 cm en zone 2 et 15 cm en zone 3.", "correct": false},
+          {"text": "100 cm en zone 2 et 50 cm en zone 3.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 144, al. 5 fixe le franc-bord des engins flottants à 90 cm en zone 2 et 45 cm en zone 3."
+      }
+    ]
+  },
+  {
+    "ref": "ONI art. 150",
+    "questions": [
+      {
+        "stem": "Selon l'ONI art. 150, quel est en règle générale l'effectif de l'équipage d'un bateau à marchandises motorisé d'une capacité de charge supérieure à 1000 t ?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "2 matelots.", "correct": true},
+          {"text": "1 matelot.", "correct": false},
+          {"text": "3 matelots.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 150, al. 2, let. a prévoit 2 matelots pour les bateaux motorisés de plus de 1000 t de capacité de charge."
+      },
+      {
+        "stem": "L'ONI art. 150 permet de diminuer l'équipage d'un matelot, sur les bateaux de moins de 350 tonnes et par bonne visibilité. Laquelle de ces conditions est exigée ?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Le temps de voyage entre les lieux de départ et d'arrivée ne dépasse pas 45 minutes.", "correct": true},
+          {"text": "Le temps de voyage entre les lieux de départ et d'arrivée ne dépasse pas 90 minutes.", "correct": false},
+          {"text": "Le bateau doit transporter exclusivement des marchandises dangereuses.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 150, al. 4, let. b fixe à 45 minutes au maximum le temps de voyage permettant cette diminution."
+      }
+    ]
+  },
+  {
+    "ref": "ONI art. 163",
+    "questions": [
+      {
+        "stem": "Selon l'ONI art. 163, dans quel cas un numéro de construction n'est-il pas nécessaire ?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Pour les bateaux qui ne sont pas construits par des professionnels.", "correct": true},
+          {"text": "Pour tous les bateaux de plaisance, sans exception.", "correct": false},
+          {"text": "Pour les bateaux à passagers prioritaires.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 163, al. 1, let. g prévoit qu'un numéro de construction n'est pas nécessaire pour les bateaux non construits par des professionnels."
+      },
+      {
+        "stem": "D'après l'ONI art. 163, l'octroi d'autres dérogations (non énumérées) requiert en principe :",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "L'assentiment de l'OFT.", "correct": true},
+          {"text": "L'accord du Conseil fédéral.", "correct": false},
+          {"text": "Aucune autorisation supplémentaire.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 163, al. 3 prévoit que d'autres dérogations ne peuvent être accordées qu'avec l'assentiment de l'OFT."
+      }
+    ]
+  },
+  {
+    "ref": "ONI art. 146",
+    "questions": [
+      {
+        "stem": "Selon l'ONI art. 146, de combien de cloisons un bateau à marchandises doit-il au moins être doté ?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Au moins une cloison d'abordage et deux cloisons pour la salle des machines.", "correct": true},
+          {"text": "Au moins trois cloisons d'abordage à l'avant.", "correct": false},
+          {"text": "Au moins une cloison pour la salle des machines uniquement.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 146, al. 2 exige au moins une cloison d'abordage et deux cloisons pour la salle des machines."
+      },
+      {
+        "stem": "Laquelle de ces affirmations sur la cloison d'abordage est FAUSSE selon l'ONI art. 146 ?",
+        "polarity": "negative",
+        "choices": [
+          {"text": "Elle peut comporter des portes et des écoutilles si elles sont étanches.", "correct": true},
+          {"text": "Elle doit être étanche et construite d'un côté à l'autre de la coque.", "correct": false},
+          {"text": "Elle doit être construite du fond de cale jusqu'au pont.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 146, al. 5 interdit toute porte, écoutille ou ouverture dans la cloison d'abordage."
+      }
+    ]
+  },
+  {
+    "ref": "ONI art. 96a",
+    "questions": [
+      {
+        "stem": "Quelle couverture minimale d'assurance-responsabilité civile est exigée pour la délivrance d'un permis de navigation collectif selon l'ONI art. 96a ?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Deux millions de francs par accident.", "correct": true},
+          {"text": "Un million de francs par accident.", "correct": false},
+          {"text": "Cinq millions de francs par accident.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 96a, al. 1, let. c exige une couverture minimale de deux millions de francs par accident."
+      },
+      {
+        "stem": "Selon l'ONI art. 96a, dans quel cas un permis de navigation collectif peut-il être utilisé ?",
+        "polarity": "affirmative",
+        "choices": [
+          {"text": "Pour les courses de dépannage et de remorquage.", "correct": true},
+          {"text": "Pour le transport commercial régulier de passagers.", "correct": false},
+          {"text": "Pour toute course privée de loisir du propriétaire.", "correct": false}
+        ],
+        "explanation": "L'ONI art. 96a, al. 3, let. a autorise l'usage du permis collectif pour les courses de dépannage et de remorquage."
+      }
+    ]
+  }
+]}

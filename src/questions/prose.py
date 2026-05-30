@@ -45,18 +45,21 @@ DEFAULT_MODEL = "claude-sonnet-4-6"
 
 
 # --- source selection ----------------------------------------------------------
-def select_units(kb: sqlite3.Connection, theme: str, limit: int = 0) -> list[dict]:
-    """Prose/article KB units of a theme that are substantial enough to ask about
-    and short enough to draft from cleanly. Figures are excluded (templated)."""
+def select_units(kb: sqlite3.Connection, theme: str, limit: int = 0,
+                 lang: str = "fr") -> list[dict]:
+    """Prose/article KB units of a theme + language that are substantial enough to
+    ask about and short enough to draft from cleanly. Figures are excluded
+    (templated). The lang filter matters since the KB is multilingual — drafting
+    must target one language at a time."""
     kb.row_factory = sqlite3.Row
     rows = kb.execute(
-        """SELECT id, ref, title, text, theme, source_name, source_url,
+        """SELECT id, ref, title, text, theme, lang, source_name, source_url,
                   legal_version, licence
            FROM units
-           WHERE theme = ? AND kind != 'annex_figure'
+           WHERE theme = ? AND lang = ? AND kind != 'annex_figure'
                  AND length(text) BETWEEN ? AND ?
            ORDER BY length(text) DESC""",
-        (theme, _MIN_LEN, _MAX_LEN)).fetchall()
+        (theme, lang, _MIN_LEN, _MAX_LEN)).fetchall()
     out = [dict(r) for r in rows]
     return out[:limit] if limit else out
 
@@ -197,6 +200,7 @@ def parse_drafts(raw: str, unit: dict) -> list[Question]:
         out.append(Question(
             id=make_question_id(unit["id"], it["stem"], f"v{i}"),
             theme=unit["theme"], kind=kind, stem=it["stem"].strip(),
+            lang=unit.get("lang", "fr"),
             choices=choices, polarity=it.get("polarity", "affirmative"),
             points=3, explanation=it.get("explanation", "").strip(),
             review_status="pending", distractor_strategy="n/a",
@@ -220,15 +224,16 @@ def seed_questions(kb: sqlite3.Connection, entries: list[dict],
     out: list[Question] = []
     for i, e in enumerate(entries):
         u = kb.execute(
-            "SELECT id, ref, theme, source_name, source_url, legal_version, "
-            "licence, text FROM units WHERE ref = ? LIMIT 1", (e["ref"],)).fetchone()
+            "SELECT id, ref, theme, lang, source_name, source_url, legal_version, "
+            "licence, text FROM units WHERE ref = ? AND lang = ? LIMIT 1",
+            (e["ref"], e.get("lang", "fr"))).fetchone()
         if u is None:
             stats["missing_unit"] += 1
             continue
         kind = _KIND_BY_THEME.get(u["theme"], "rule_mc")
         q = Question(
             id=make_question_id(u["id"], e["stem"], f"seed{i}"),
-            theme=u["theme"], kind=kind, stem=e["stem"],
+            theme=u["theme"], kind=kind, stem=e["stem"], lang=u["lang"],
             choices=[Choice(text=t, is_correct=c) for t, c in e["choices"]],
             polarity=e.get("polarity", "affirmative"), points=3,
             explanation=e.get("explanation", ""), review_status="pending",
@@ -250,11 +255,13 @@ def seed_questions(kb: sqlite3.Connection, entries: list[dict],
 
 def draft_for_theme(kb: sqlite3.Connection, drafter: Drafter, theme: str,
                     limit: int = 0, per_unit: int = 2,
-                    min_grounding: float = 0.34) -> tuple[list[Question], dict]:
-    """Draft questions for one theme. Returns (pending questions, stats). Drops
-    schema-invalid drafts and those whose correct answer is too weakly grounded
-    in the source (likely hallucination); the rest are kept for human review."""
-    units = select_units(kb, theme, limit)
+                    min_grounding: float = 0.34, lang: str = "fr"
+                    ) -> tuple[list[Question], dict]:
+    """Draft questions for one theme + language. Returns (pending questions,
+    stats). Drops schema-invalid drafts and those whose correct answer is too
+    weakly grounded in the source (likely hallucination); the rest are kept for
+    human review."""
+    units = select_units(kb, theme, limit, lang)
     stats = {"theme": theme, "units": len(units), "drafted": 0, "kept": 0,
              "invalid": 0, "weak_grounding": 0, "errored": 0}
     kept: list[Question] = []

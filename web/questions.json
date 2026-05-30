@@ -13,6 +13,132 @@
   },
   "questions": [
     {
+      "id": "q-oni-oniart142-d5cfcfd2-817324cd",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Selon l'art. 142 ONI, à quelle ordonnance se réfèrent les définitions de l'« analyse des risques », du « rapport de sécurité » et du « devoir de diligence » ?",
+      "choices": [
+        {
+          "text": "À l'ordonnance du 14 mars 1994 sur la construction des bateaux (OCEB).",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "À l'ordonnance sur la navigation intérieure (ONI) elle-même.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Au règlement de la navigation sur le Léman (RNL).",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_142-d5cfcfd2",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 142 ONI renvoie pour ces notions aux articles de l'OCEB (ordonnance du 14 mars 1994 sur la construction des bateaux).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart142-d5cfcfd2-aefac3d2",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Parmi ces affirmations sur les définitions de l'art. 142 ONI, laquelle est FAUSSE ?",
+      "choices": [
+        {
+          "text": "Le « devoir de diligence » est défini à l'art. 142 ONI sans renvoi à une autre ordonnance.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le « rapport de sécurité » est un rapport au sens des art. 2, let. e, et 17, al. 3, OCEB.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le « rapport d'examen d'expert » est un rapport au sens de l'art. 2, let. f, OCEB.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_142-d5cfcfd2",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon l'art. 142, let. e, ONI, le « devoir de diligence » est défini par renvoi à l'art. 5 OCEB, et non sans renvoi.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart142-d5cfcfd2-afaf3463",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "D'après l'art. 142 ONI, comment sont définis les « experts » au sens des dispositions particulières de cette section ?",
+      "choices": [
+        {
+          "text": "Comme les personnes visées à l'art. 5a, al. 1, let. a, OCEB.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Comme les agents de l'autorité compétente du lieu de stationnement.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Comme les membres d'une société de classification reconnue.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_142-d5cfcfd2",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon l'art. 142, let. c, ONI, les « experts » sont les personnes visées à l'art. 5a, al. 1, let. a, OCEB.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniart2-2bf27aad-01b54b7e",
       "theme": "definitions",
       "kind": "definition_mc",
@@ -55,6 +181,639 @@
       ]
     },
     {
+      "id": "q-rnl-rnlart71-ba2d9252-53949420",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Parmi ces affirmations sur le temps bouché au sens de l'art. 71 RNL, laquelle est FAUSSE ?",
+      "choices": [
+        {
+          "text": "La navigation par temps bouché ne s'applique qu'à la navigation de nuit.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La navigation par temps de neige est considérée comme une navigation par temps bouché.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La navigation par temps de bruine est considérée comme une navigation par temps bouché.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_71-ba2d9252",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 71 RNL précise que le temps bouché vaut tant de jour que de nuit, et non uniquement de nuit.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart71-ba2d9252-81aaa7b5",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "D'après l'art. 71 RNL, la navigation par temps bouché concerne-t-elle aussi des situations non explicitement énumérées ?",
+      "choices": [
+        {
+          "text": "Oui, elle vise aussi toutes autres conditions limitant de la même manière la visibilité.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Non, seules les conditions précisément citées (brume, brouillard, etc.) sont visées.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Oui, mais uniquement les conditions causées par la fumée d'un incendie.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_71-ba2d9252",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 71 RNL étend la notion à toutes autres conditions limitant de la même manière la visibilité.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart71-ba2d9252-b9f294ea",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Selon l'art. 71 RNL, qu'est-ce qui est considéré comme une navigation par temps bouché ?",
+      "choices": [
+        {
+          "text": "Toute navigation, de jour comme de nuit, par brume, brouillard, bruine, neige ou gros grains avec pluie.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Uniquement la navigation de nuit par brouillard épais.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Uniquement la navigation de jour lorsque la pluie est accompagnée de vent fort.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_71-ba2d9252",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'art. 71 RNL définit le temps bouché comme toute navigation, de jour comme de nuit, par brume, brouillard, bruine, neige ou gros grains avec pluie.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart16-b7510c8f-16542548",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "D'après le RNL art. 16, quelle affirmation est exacte concernant les manifestations sur l'eau ?",
+      "choices": [
+        {
+          "text": "En autorisant une manifestation, l'autorité peut permettre des dérogations à certaines dispositions du Règlement si la sécurité de la navigation n'en est pas affectée",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les manifestations nautiques ne nécessitent jamais d'autorisation préalable",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "En cas de manifestation binationale, une seule autorité décide sans informer l'autre",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_16-b7510c8f",
+        "ref": "RNL art. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Le RNL art. 16, al. 3, autorise des dérogations à certaines dispositions si la sécurité de la navigation n'est pas affectée.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart16-b7510c8f-1f0ecf56",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "À quelle condition l'autorisation d'une manifestation nautique est-elle notamment accordée selon le RNL art. 16 ?",
+      "choices": [
+        {
+          "text": "Si l'assurance responsabilité civile prescrite a été conclue",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Si la manifestation se déroule exclusivement en eaux suisses",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Si tous les participants possèdent un permis de catégorie A",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_16-b7510c8f",
+        "ref": "RNL art. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Le RNL art. 16, al. 2, let. b, exige que l'assurance responsabilité civile prescrite ait été conclue.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart62-ff70e033-43abc2ca",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Lorsque deux bateaux suivent des routes qui se croisent avec un danger d'abordage possible, lequel doit s'écarter ?",
+      "choices": [
+        {
+          "text": "Le bateau qui voit l'autre par tribord",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le bateau qui voit l'autre par bâbord",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le bateau le plus rapide des deux",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_62-ff70e033",
+        "ref": "RNL art. 62",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon le RNL art. 62, let. b, le bateau qui voit l'autre par tribord doit s'écarter.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart62-ff70e033-558e424b",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Quand deux bateaux suivent des routes directement opposées avec un risque d'abordage, comment doivent-ils manœuvrer ?",
+      "choices": [
+        {
+          "text": "Chacun vient sur tribord pour passer bâbord sur bâbord",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Chacun vient sur bâbord pour passer tribord sur tribord",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les deux maintiennent leur cap et leur vitesse sans aucune manœuvre",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_62-ff70e033",
+        "ref": "RNL art. 62",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Le RNL art. 62, let. c, prévoit que chaque bateau vient sur tribord de façon à passer bâbord sur bâbord.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart64-284d0c2c-18625847",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Selon les règles de priorité, de quel(s) bateau(x) un bateau à voile doit-il s'écarter ?",
+      "choices": [
+        {
+          "text": "Des bateaux à passagers prioritaires et des convois remorqués",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Des bateaux à marchandises",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Des bateaux à rames",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_64-284d0c2c",
+        "ref": "RNL art. 64",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon le RNL art. 64, al. 2, le bateau à voile s'écarte notamment des bateaux à passagers prioritaires, des convois remorqués et des bateaux à marchandises, mais pas des bateaux à rames.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart64-284d0c2c-fb5747eb",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "D'après le RNL art. 64, quelle affirmation est FAUSSE concernant les planches à voile et les kitesurfs ?",
+      "choices": [
+        {
+          "text": "Les autres bateaux doivent s'écarter des planches à voile et des kitesurfs",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les planches à voile et les kitesurfs s'écartent de tous les autres bateaux",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Tout bateau doit s'écarter d'un bateau incapable de manœuvrer qui signale sa présence",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_64-284d0c2c",
+        "ref": "RNL art. 64",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Le RNL art. 64, al. 2, let. f, précise au contraire que les planches à voile et les kitesurfs s'écartent de tous les autres bateaux.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart84-4e300df7-0e7561f9",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Concernant l'ordre d'utilisation des débarcadères, quelle affirmation est FAUSSE selon le RNL art. 84 ?",
+      "choices": [
+        {
+          "text": "Les passagers embarquant peuvent accéder au débarcadère en même temps que les passagers débarquent",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un passager ne peut monter à bord ou descendre sans l'autorisation formelle du conducteur ou de son mandataire",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La règle d'attente ne s'applique pas aux débarcadères équipés d'entrées et de sorties indépendantes",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_84-4e300df7",
+        "ref": "RNL art. 84",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Le RNL art. 84, al. 4, impose au contraire que les passagers embarquant n'accèdent au débarcadère qu'après que les passagers débarquant l'ont quitté, sauf entrées/sorties indépendantes.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart84-4e300df7-1c8a3d01",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Selon le RNL art. 84, à quelles conditions l'embarquement et le débarquement des passagers sont-ils autorisés ?",
+      "choices": [
+        {
+          "text": "Uniquement aux installations admises par l'autorité compétente et après que le conducteur s'est assuré que le bateau est correctement amarré",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "À n'importe quel endroit de la rive dès que le bateau ralentit",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sans amarrage si la sécurité des passagers paraît garantie",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_84-4e300df7",
+        "ref": "RNL art. 84",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Le RNL art. 84, al. 1, autorise l'embarquement et le débarquement uniquement aux installations admises et après vérification de l'amarrage et de la sécurité.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart86a-00f78534-609936c5",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Parmi les équipements de communication et d'information, lesquels ne s'appliquent qu'aux bateaux à passagers effectuant un trajet international ?",
+      "choices": [
+        {
+          "text": "L'appareil radar",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "L'indicateur de vitesse de giration",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "L'installation radio pouvant émettre sur le canal d'alerte 16",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_86a-00f78534",
+        "ref": "RNL art. 86a",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon le RNL art. 86a, al. 2, seules les prescriptions de l'al. 1, let. a (radar) et b (indicateur de vitesse de giration) ne s'appliquent qu'aux trajets internationaux.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart86a-00f78534-eeb3d37b",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Quel canal radio est désigné comme canal d'alerte (Détresse lac) dans l'équipement des bateaux à passagers ?",
+      "choices": [
+        {
+          "text": "Le canal 16",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le canal 12",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le canal K",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_86a-00f78534",
+        "ref": "RNL art. 86a",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Le RNL art. 86a, al. 1, let. c, désigne le canal 16 comme canal d'alerte (Détresse lac), le canal 12 étant opérationnel et le canal K de coordination de commandement.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart86f-185c6500-3ce33e08",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Concernant les moyens de sauvetage collectifs gonflables à bord des bateaux à passagers, quelles affirmations sont exactes ?",
+      "choices": [
+        {
+          "text": "Ils doivent être composés d'au moins deux compartiments à air séparés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ils doivent conserver une assiette stable même si la moitié seulement des compartiments à air est gonflée",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ils doivent se gonfler uniquement par commande manuelle, jamais automatiquement",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_86f-185c6500",
+        "ref": "RNL art. 86f",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Le RNL art. 86f, al. 3, exige au moins deux compartiments séparés et une assiette stable même avec la moitié des compartiments gonflés, le gonflage pouvant être automatique ou manuel.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart86f-185c6500-edf7bf9b",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Quelle force de sustentation minimale en eau douce les moyens de sauvetage collectifs d'un bateau à passagers doivent-ils offrir par personne ?",
+      "choices": [
+        {
+          "text": "Au moins 750 N par personne",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Au moins 500 N par personne",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Au moins 100 N par personne",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_86f-185c6500",
+        "ref": "RNL art. 86f",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon le RNL art. 86f, al. 2, let. b, la force de sustentation en eau douce doit être d'au moins 750 N par personne.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniart134-df53e657-8ab76ad8",
       "theme": "lois",
       "kind": "rule_mc",
@@ -92,6 +851,1605 @@
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:curated.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart134-df53e657-a940bc26",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Quelle poussée hydrostatique minimale les engins de sauvetage individuels doivent-ils avoir selon l'ONI art. 134 (hors exception de l'art. 134a) ?",
+      "choices": [
+        {
+          "text": "Au moins 75 N.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Au moins 100 N.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Au moins 50 N.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_134-df53e657",
+        "ref": "ONI art. 134",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 134, al. 2 fixe la poussée hydrostatique des engins individuels à au moins 75 N.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart134-df53e657-f7855b82",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Selon l'ONI art. 134, à partir de quels seuils un bateau de plaisance ou de sport doit-il être pourvu d'un engin de sauvetage supplémentaire pouvant être jeté à l'eau ?",
+      "choices": [
+        {
+          "text": "Une puissance supérieure à 30 kW, ou une surface vélique dépassant 15 m2 pour les bateaux à voile.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une puissance supérieure à 15 kW, ou une surface vélique dépassant 30 m2.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Une puissance supérieure à 50 kW, ou une surface vélique dépassant 10 m2.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_134-df53e657",
+        "ref": "ONI art. 134",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 134, al. 5 vise les bateaux de plus de 30 kW et les voiliers dont la surface vélique dépasse 15 m2.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart143a-26df4c56-2fcf560c",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Que prévoit l'ONI art. 143a concernant la hauteur métacentrique du bateau chargé prêt au départ ?",
+      "choices": [
+        {
+          "text": "Elle ne doit pas être inférieure à 1 m.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Elle ne doit pas être inférieure à 0,5 m.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Elle ne doit pas dépasser 1 m.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_143a-26df4c56",
+        "ref": "ONI art. 143a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 143a, al. 2 précise que la hauteur métacentrique du bateau chargé prêt au départ ne doit pas être inférieure à 1 m.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart143a-26df4c56-5e74c4ba",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Pour qu'un bateau à marchandises chargé et prêt au départ soit considéré comme ayant une stabilité suffisante, quelles conditions le texte exige-t-il ?",
+      "choices": [
+        {
+          "text": "L'angle de gîte ne dépasse pas 5 degrés et le côté du pont, à l'endroit le plus bas, ne plonge pas dans l'eau.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "L'angle de gîte ne dépasse pas 15 degrés et le pont peut plonger jusqu'à 5 cm.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "L'angle de gîte ne dépasse pas 10 degrés, quelle que soit la position du pont.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_143a-26df4c56",
+        "ref": "ONI art. 143a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon l'ONI art. 143a, al. 2, l'angle de gîte ne doit pas dépasser 5 degrés et le côté le plus bas du pont ne doit pas plonger dans l'eau.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart144-82fa0c6a-11f7fd4c",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "D'après l'ONI art. 144, quel est le franc-bord prescrit pour les engins flottants ?",
+      "choices": [
+        {
+          "text": "90 cm en zone 2 et 45 cm en zone 3.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "30 cm en zone 2 et 15 cm en zone 3.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "100 cm en zone 2 et 50 cm en zone 3.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_144-82fa0c6a",
+        "ref": "ONI art. 144",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 144, al. 5 fixe le franc-bord des engins flottants à 90 cm en zone 2 et 45 cm en zone 3.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart144-82fa0c6a-92ee1624",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Selon l'ONI art. 144, quel est le franc-bord d'un bateau à marchandises non ponté en zone 2 ?",
+      "choices": [
+        {
+          "text": "100 cm.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "50 cm.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "30 cm.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_144-82fa0c6a",
+        "ref": "ONI art. 144",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 144, al. 2, let. b fixe le franc-bord des bateaux non pontés à 100 cm en zone 2.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart146-e6f12005-67f3713c",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Selon l'ONI art. 146, de combien de cloisons un bateau à marchandises doit-il au moins être doté ?",
+      "choices": [
+        {
+          "text": "Au moins une cloison d'abordage et deux cloisons pour la salle des machines.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Au moins trois cloisons d'abordage à l'avant.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Au moins une cloison pour la salle des machines uniquement.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_146-e6f12005",
+        "ref": "ONI art. 146",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 146, al. 2 exige au moins une cloison d'abordage et deux cloisons pour la salle des machines.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart146-e6f12005-eca6cb88",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Laquelle de ces affirmations sur la cloison d'abordage est FAUSSE selon l'ONI art. 146 ?",
+      "choices": [
+        {
+          "text": "Elle peut comporter des portes et des écoutilles si elles sont étanches.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Elle doit être étanche et construite d'un côté à l'autre de la coque.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Elle doit être construite du fond de cale jusqu'au pont.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_146-e6f12005",
+        "ref": "ONI art. 146",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 146, al. 5 interdit toute porte, écoutille ou ouverture dans la cloison d'abordage.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart148g-5963b92c-40c7d785",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Concernant le marquage «CE» sur les bateaux de sport mis sur le marché, que dit l'ONI art. 148g ?",
+      "choices": [
+        {
+          "text": "L'obligation d'apposer le marquage «CE» n'est pas applicable, mais s'il a déjà été apposé conformément aux dispositions de l'UE, il peut rester apposé.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le marquage «CE» est obligatoire pour tous les bateaux de sport mis sur le marché.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le marquage «CE» doit être retiré s'il a été apposé selon les dispositions de l'UE.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_148g-5963b92c",
+        "ref": "ONI art. 148g",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 148g, al. 2 prévoit que le marquage «CE» n'est pas obligatoire mais peut rester apposé s'il l'a déjà été conformément aux dispositions de l'UE.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart148g-5963b92c-482a3efc",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Dans quelle langue la documentation relative à un bateau de sport doit-elle être présentée à l'autorité compétente selon l'ONI art. 148g ?",
+      "choices": [
+        {
+          "text": "Dans une langue officielle de la Suisse ou en anglais.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Exclusivement en allemand.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Uniquement dans la langue du fabricant.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_148g-5963b92c",
+        "ref": "ONI art. 148g",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 148g, al. 6 exige que la documentation soit présentée dans une langue officielle de la Suisse ou en anglais.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart150-092b6842-b8583231",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "L'ONI art. 150 permet de diminuer l'équipage d'un matelot, sur les bateaux de moins de 350 tonnes et par bonne visibilité. Laquelle de ces conditions est exigée ?",
+      "choices": [
+        {
+          "text": "Le temps de voyage entre les lieux de départ et d'arrivée ne dépasse pas 45 minutes.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le temps de voyage entre les lieux de départ et d'arrivée ne dépasse pas 90 minutes.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le bateau doit transporter exclusivement des marchandises dangereuses.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_150-092b6842",
+        "ref": "ONI art. 150",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 150, al. 4, let. b fixe à 45 minutes au maximum le temps de voyage permettant cette diminution.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart150-092b6842-e9e77154",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Selon l'ONI art. 150, quel est en règle générale l'effectif de l'équipage d'un bateau à marchandises motorisé d'une capacité de charge supérieure à 1000 t ?",
+      "choices": [
+        {
+          "text": "2 matelots.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "1 matelot.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "3 matelots.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_150-092b6842",
+        "ref": "ONI art. 150",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 150, al. 2, let. a prévoit 2 matelots pour les bateaux motorisés de plus de 1000 t de capacité de charge.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart163-1f9efaa2-1cd3c64f",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Selon l'ONI art. 163, dans quel cas un numéro de construction n'est-il pas nécessaire ?",
+      "choices": [
+        {
+          "text": "Pour les bateaux qui ne sont pas construits par des professionnels.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Pour tous les bateaux de plaisance, sans exception.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Pour les bateaux à passagers prioritaires.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_163-1f9efaa2",
+        "ref": "ONI art. 163",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 163, al. 1, let. g prévoit qu'un numéro de construction n'est pas nécessaire pour les bateaux non construits par des professionnels.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart163-1f9efaa2-baf912f2",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "D'après l'ONI art. 163, l'octroi d'autres dérogations (non énumérées) requiert en principe :",
+      "choices": [
+        {
+          "text": "L'assentiment de l'OFT.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "L'accord du Conseil fédéral.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Aucune autorisation supplémentaire.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_163-1f9efaa2",
+        "ref": "ONI art. 163",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 163, al. 3 prévoit que d'autres dérogations ne peuvent être accordées qu'avec l'assentiment de l'OFT.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart96a-83a6b5e5-5626de42",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Quelle couverture minimale d'assurance-responsabilité civile est exigée pour la délivrance d'un permis de navigation collectif selon l'ONI art. 96a ?",
+      "choices": [
+        {
+          "text": "Deux millions de francs par accident.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un million de francs par accident.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Cinq millions de francs par accident.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_96a-83a6b5e5",
+        "ref": "ONI art. 96a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 96a, al. 1, let. c exige une couverture minimale de deux millions de francs par accident.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart96a-83a6b5e5-9a9c82e3",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Selon l'ONI art. 96a, dans quel cas un permis de navigation collectif peut-il être utilisé ?",
+      "choices": [
+        {
+          "text": "Pour les courses de dépannage et de remorquage.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Pour le transport commercial régulier de passagers.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Pour toute course privée de loisir du propriétaire.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_96a-83a6b5e5",
+        "ref": "ONI art. 96a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L'ONI art. 96a, al. 3, let. a autorise l'usage du permis collectif pour les courses de dépannage et de remorquage.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseintér-8113da82",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Que confirme le texte au sujet du nœud de chaise hors tension ?",
+      "choices": [
+        {
+          "text": "Il est facile à défaire, même mouillé et après avoir subi une traction très forte ou un resserrement dû au dessèchement.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il devient impossible à défaire dès qu'il est mouillé.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il ne peut être réglé qu'en exerçant une forte tension sur le dormant.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__intérêts-e96bddce",
+        "ref": "Matelotage — Nœud de chaise : Intérêts",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud de chaise : Intérêts, hors tension il est facile à défaire même mouillé et après une forte traction.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseintér-ab116486",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Selon le texte, comment réagit le nœud de chaise lorsque la tension augmente ?",
+      "choices": [
+        {
+          "text": "Plus la tension est forte, plus il se bloque, tout en se dénouant tout aussi aisément.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Plus la tension est forte, plus il a tendance à glisser et à se défaire.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La tension n'a aucun effet sur son blocage, qui dépend d'un système mécanique intermédiaire.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__intérêts-e96bddce",
+        "ref": "Matelotage — Nœud de chaise : Intérêts",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud de chaise : Intérêts, plus la tension est forte, plus le nœud se bloque et se dénoue aisément.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseprése-168ffae5",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "D'après le texte, le nœud de chaise est aussi appelé :",
+      "choices": [
+        {
+          "text": "Nœud de bouline.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nœud de cabestan.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nœud de pendu.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__présentation-7a92f259",
+        "ref": "Matelotage — Nœud de chaise : Présentation",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud de chaise : Présentation, le nœud de chaise est aussi nommé nœud de bouline.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseroide-1c6e7354",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Pourquoi le nœud de chaise est-il qualifié de roi des nœuds, selon le texte ?",
+      "choices": [
+        {
+          "text": "C'est un nœud de boucle fiable qui ne glisse pas sous tension et se dénoue facilement même après de fortes tensions.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "C'est le seul nœud impossible à dénouer une fois serré.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il ne peut être réalisé qu'avec un outil spécialisé et à deux mains.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__roi_des_nœuds-0611e1ab",
+        "ref": "Matelotage — Nœud de chaise : Roi des nœuds",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud de chaise : Roi des nœuds, sa qualité de nœud de boucle fiable qui ne glisse pas et se dénoue facilement le justifie.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseroide-24376407",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Concernant les méthodes de réalisation du nœud de chaise, quelle(s) affirmation(s) le texte confirme-t-il ?",
+      "choices": [
+        {
+          "text": "Il existe plusieurs méthodes de réalisation, jusqu'à 18 avec les variantes.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il ne reste que deux méthodes classiques reconnues pour l'enseignement, tricotée ou préparée.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une seule méthode unique de réalisation est admise dans le monde entier.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__roi_des_nœuds-0611e1ab",
+        "ref": "Matelotage — Nœud de chaise : Roi des nœuds",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud de chaise : Roi des nœuds, il existe jusqu'à 18 méthodes avec variantes mais deux méthodes classiques d'enseignement.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienganses-27-7c977b8a",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "D'après le texte, qu'est-ce qu'une ganse ?",
+      "choices": [
+        {
+          "text": "Une portion de cordage courbée, sans croisement ni chevauchement.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un croisement serré de deux extrémités de corde.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Une corde tressée à partir de trois brins métalliques.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__ganses-277e3817",
+        "ref": "Matelotage — Nœud (lien) : Ganses",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud (lien) : Ganses, la ganse est une portion de cordage courbée sans croisement ni chevauchement.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienganses-27-9d4c9c9b",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Selon le texte, qu'illustre le nœud de pendu concernant les nœuds gansés ?",
+      "choices": [
+        {
+          "text": "Il peut être facilement défait si la boucle est libre, mais se resserre autour de l'entrave sous le poids du pendu.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il ne peut jamais être défait, que la boucle soit libre ou entravée.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il se desserre automatiquement dès qu'on applique un poids sur la boucle.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__ganses-277e3817",
+        "ref": "Matelotage — Nœud (lien) : Ganses",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud (lien) : Ganses, le nœud de pendu se défait si la boucle est libre mais se resserre sous le poids du pendu.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienpropriété-3cfc46c6",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Quel critère, selon le texte, permet d'évaluer et de choisir le nœud le mieux adapté ?",
+      "choices": [
+        {
+          "text": "La solidité du nœud, notamment s'il fragilise ou non la corde en cas de violents à-coups.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La couleur de la corde utilisée pour le confectionner.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le prix d'achat de la cordelette.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__propriétés-e84eb439",
+        "ref": "Matelotage — Nœud (lien) : Propriétés",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud (lien) : Propriétés, la solidité du nœud est primordiale, surtout en cas de violents à-coups.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienpropriété-97dd2d57",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Selon le texte, quelle est la résistance d'une corde munie d'un nœud de chaise comparée à un nœud de cabestan ?",
+      "choices": [
+        {
+          "text": "Le nœud de chaise conserve une résistance exceptionnelle de 89 %, alors que le cabestan la réduit de moitié.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le nœud de cabestan conserve 89 % de la résistance, contre la moitié pour le nœud de chaise.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les deux nœuds réduisent la résistance de la corde exactement de moitié.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__propriétés-e84eb439",
+        "ref": "Matelotage — Nœud (lien) : Propriétés",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud (lien) : Propriétés, le cabestan réduit la résistance de moitié alors que le nœud de chaise atteint 89 %.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienprésentat-1351cbab",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "D'après le texte, quelle affirmation sur l'usage des nœuds est correcte ?",
+      "choices": [
+        {
+          "text": "L'art des nœuds trouve principalement son essor dans la marine à la voile puis dans le nautisme de sport ou de loisir.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les nœuds n'ont jamais été utilisés en dehors du domaine maritime.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La connaissance des nœuds est devenue totalement inutile depuis l'apparition d'équipements spécialisés.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__présentation-f5b44408",
+        "ref": "Matelotage — Nœud (lien) : Présentation",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud (lien) : Présentation, les nœuds trouvent leur essor dans la marine à la voile puis dans le nautisme.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienprésentat-5935262d",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Selon le texte, qu'est-ce qu'un nœud ?",
+      "choices": [
+        {
+          "text": "L'enlacement ou l'entrecroisement d'une ou de plusieurs cordes ou autres objets flexibles de forme filaire.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Exclusivement l'entrecroisement de deux câbles métalliques rigides.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un assemblage de planches destiné à renforcer une coque.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__présentation-f5b44408",
+        "ref": "Matelotage — Nœud (lien) : Présentation",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "D'après Matelotage — Nœud (lien) : Présentation, un nœud est l'enlacement ou l'entrecroisement d'objets flexibles de forme filaire.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselabise-22689f11-190b00bf",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Quelle situation de pression provoque l'établissement de la bise ?",
+      "choices": [
+        {
+          "text": "Une haute pression sur les îles Britanniques et une basse pression sur l'Italie.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une basse pression sur les îles Britanniques et une haute pression sur l'Italie.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Une haute pression sur l'Italie et une basse pression sur la Savoie.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__la_bise-22689f11",
+        "ref": "MétéoSuisse : La bise",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon MétéoSuisse : La bise, elle s'établit lorsqu'une haute pression recouvre les îles Britanniques et une basse pression l'Italie.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselabise-22689f11-ae5ef355",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Parmi ces affirmations sur la bise, laquelle est correcte ?",
+      "choices": [
+        {
+          "text": "Sa vitesse est comprise entre 3 et 9 Bf et son début comme sa fin sont progressifs.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Elle survient brusquement, comme le foehn, et précède toujours la pluie.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les bises d'été sont plus longues que celles d'hiver.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__la_bise-22689f11",
+        "ref": "MétéoSuisse : La bise",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon MétéoSuisse : La bise, sa vitesse va de 3 à 9 Bf, son début et sa fin sont progressifs (contrairement au foehn).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselavaudaire-f5cb790-9ae5eb0f",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Quelle affirmation est correcte au sujet de la vaudaire d'orage ?",
+      "choices": [
+        {
+          "text": "Elle est froide : dès son apparition, la température baisse et l'humidité augmente.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Elle est chaude et sèche, faisant monter la température dès son apparition.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Elle se manifeste exclusivement de décembre à mars.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__la_vaudaire-f5cb7902",
+        "ref": "MétéoSuisse : La vaudaire",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon MétéoSuisse : La vaudaire, la vaudaire d'orage est froide, avec baisse de température et hausse d'humidité dès son apparition.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselavaudaire-f5cb790-e8ab368d",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Concernant les deux types de vaudaire, laquelle de ces affirmations est FAUSSE ?",
+      "choices": [
+        {
+          "text": "La vaudaire de foehn apparaît principalement en mars-avril ainsi qu'en octobre-novembre.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La vaudaire d'orage apparaît d'avril à septembre.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La vaudaire de foehn est un vent froid et humide chargé de précipitations.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__la_vaudaire-f5cb7902",
+        "ref": "MétéoSuisse : La vaudaire",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "fr",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon MétéoSuisse : La vaudaire, la vaudaire de foehn redescend asséchée et réchauffée après avoir abandonné son humidité au sud des Alpes.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselebornan-d1fc474f-1a7c5cc0",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Quels sont les signes précurseurs annonçant le bornan ?",
+      "choices": [
+        {
+          "text": "Le bourgeonnement de gros cumulus et de cumulonimbus sur les reliefs, en particulier les Préalpes savoyardes.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un ciel parfaitement dégagé et stable au-dessus de la Dent d'Oche.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "L'apparition d'un rouleau nuageux bordant le Jura.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__le_bornan-d1fc474f",
+        "ref": "MétéoSuisse : Le Bornan",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon MétéoSuisse : Le Bornan, le bourgeonnement de cumulus et cumulonimbus sur les reliefs, surtout les Préalpes savoyardes, en est le signe précurseur.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselebornan-d1fc474f-2b428f7c",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Quelles affirmations sont exactes au sujet du bornan ?",
+      "choices": [
+        {
+          "text": "Il peut atteindre 30 à 40 kt et ses effets se font sentir surtout entre Rolle et Lutry.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "C'est un des plus violents vents d'orage du Léman, qui se produit en été.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il est un vent froid hivernal canalisé par la vallée du Rhône.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__le_bornan-d1fc474f",
+        "ref": "MétéoSuisse : Le Bornan",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon MétéoSuisse : Le Bornan, il atteint 30 à 40 kt entre Rolle et Lutry et est un des plus violents vents d'orage estivaux du Léman.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselejoran-cd094d9d-70ee105d",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Comment comparer le joran d'orage et le joran qui se lève après un front froid ?",
+      "choices": [
+        {
+          "text": "Le joran d'orage est souvent dangereux car brutal et parfois violent.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les rafales du joran de front froid sont nettement plus fortes que celles du joran d'orage.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le joran d'orage souffle de manière régulière et est apprécié des navigateurs.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__le_joran-cd094d9d",
+        "ref": "MétéoSuisse : Le joran",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon MétéoSuisse : Le joran, le joran d'orage est brutal et parfois violent, donc souvent dangereux, contrairement au joran régulier de front froid.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselejoran-cd094d9d-baea55b3",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "De quelle direction et de quelle origine vient le joran ?",
+      "choices": [
+        {
+          "text": "C'est un vent de NW, relativement froid, qui descend du Jura vers le Léman.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "C'est un vent de SE, chaud, qui remonte de la vallée du Rhône.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "C'est un vent de NE qui souffle depuis les Préalpes vaudoises.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__le_joran-cd094d9d",
+        "ref": "MétéoSuisse : Le joran",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon MétéoSuisse : Le joran, le joran est un vent de NW relativement froid qui descend du Jura vers le Léman.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselesbrises-7381ec08-54b8b44c",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Quelles affirmations sont correctes au sujet des brises diurnes et nocturnes ?",
+      "choices": [
+        {
+          "text": "Les brises diurnes soufflent du lac vers la côte.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les brises nocturnes se lèvent généralement entre 17 et 19 h.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les brises nocturnes soufflent de la côte vers le lac et sont des vents très violents.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__les_brises-7381ec08",
+        "ref": "MétéoSuisse : Les brises",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon MétéoSuisse : Les brises, les brises diurnes soufflent du lac vers la côte et les nocturnes (vents faibles) se lèvent entre 17 et 19 h.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselesbrises-7381ec08-aab93e17",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Quelle est l'origine des brises alternées observées à proximité des lacs ?",
+      "choices": [
+        {
+          "text": "La différence de température entre l'eau, plus chaude de nuit, et la terre, plus chaude de jour.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "L'arrivée d'une perturbation atlantique sur le Léman.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La canalisation de l'air froid descendant du Jura.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__les_brises-7381ec08",
+        "ref": "MétéoSuisse : Les brises",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon MétéoSuisse : Les brises, elles ont pour origine la différence de température entre l'eau (plus chaude de nuit) et la terre (plus chaude de jour).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselevent-4923b0ba-6dfc23b6",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "À quelle situation météorologique correspond Le Vent (sudois) ?",
+      "choices": [
+        {
+          "text": "Une basse pression sur les îles Britanniques et une haute pression sur le sud de l'Europe.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une haute pression sur les îles Britanniques et une basse pression sur le sud de l'Europe.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Une bise de NE canalisée entre le Jura et les Préalpes.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__le_vent-4923b0ba",
+        "ref": "MétéoSuisse : Le Vent",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Selon MétéoSuisse : Le Vent, il correspond à une basse pression sur les îles Britanniques et une haute pression sur le sud de l'Europe.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:fr.v1",
       "correct": [
         0
       ]

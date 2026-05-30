@@ -1,0 +1,54 @@
+{"drafts": [
+  {"ref": "ONI art. 142", "questions": [
+    {"stem": "Selon l'art. 142 ONI, à quelle ordonnance se réfèrent les définitions de l'« analyse des risques », du « rapport de sécurité » et du « devoir de diligence » ?",
+     "polarity": "affirmative",
+     "choices": [
+       {"text": "À l'ordonnance du 14 mars 1994 sur la construction des bateaux (OCEB).", "correct": true},
+       {"text": "À l'ordonnance sur la navigation intérieure (ONI) elle-même.", "correct": false},
+       {"text": "Au règlement de la navigation sur le Léman (RNL).", "correct": false}
+     ],
+     "explanation": "L'art. 142 ONI renvoie pour ces notions aux articles de l'OCEB (ordonnance du 14 mars 1994 sur la construction des bateaux)."},
+    {"stem": "D'après l'art. 142 ONI, comment sont définis les « experts » au sens des dispositions particulières de cette section ?",
+     "polarity": "affirmative",
+     "choices": [
+       {"text": "Comme les personnes visées à l'art. 5a, al. 1, let. a, OCEB.", "correct": true},
+       {"text": "Comme les agents de l'autorité compétente du lieu de stationnement.", "correct": false},
+       {"text": "Comme les membres d'une société de classification reconnue.", "correct": false}
+     ],
+     "explanation": "Selon l'art. 142, let. c, ONI, les « experts » sont les personnes visées à l'art. 5a, al. 1, let. a, OCEB."},
+    {"stem": "Parmi ces affirmations sur les définitions de l'art. 142 ONI, laquelle est FAUSSE ?",
+     "polarity": "negative",
+     "choices": [
+       {"text": "Le « devoir de diligence » est défini à l'art. 142 ONI sans renvoi à une autre ordonnance.", "correct": true},
+       {"text": "Le « rapport de sécurité » est un rapport au sens des art. 2, let. e, et 17, al. 3, OCEB.", "correct": false},
+       {"text": "Le « rapport d'examen d'expert » est un rapport au sens de l'art. 2, let. f, OCEB.", "correct": false}
+     ],
+     "explanation": "Selon l'art. 142, let. e, ONI, le « devoir de diligence » est défini par renvoi à l'art. 5 OCEB, et non sans renvoi."}
+  ]},
+  {"ref": "RNL art. 71", "questions": [
+    {"stem": "Selon l'art. 71 RNL, qu'est-ce qui est considéré comme une navigation par temps bouché ?",
+     "polarity": "affirmative",
+     "choices": [
+       {"text": "Toute navigation, de jour comme de nuit, par brume, brouillard, bruine, neige ou gros grains avec pluie.", "correct": true},
+       {"text": "Uniquement la navigation de nuit par brouillard épais.", "correct": false},
+       {"text": "Uniquement la navigation de jour lorsque la pluie est accompagnée de vent fort.", "correct": false}
+     ],
+     "explanation": "L'art. 71 RNL définit le temps bouché comme toute navigation, de jour comme de nuit, par brume, brouillard, bruine, neige ou gros grains avec pluie."},
+    {"stem": "D'après l'art. 71 RNL, la navigation par temps bouché concerne-t-elle aussi des situations non explicitement énumérées ?",
+     "polarity": "affirmative",
+     "choices": [
+       {"text": "Oui, elle vise aussi toutes autres conditions limitant de la même manière la visibilité.", "correct": true},
+       {"text": "Non, seules les conditions précisément citées (brume, brouillard, etc.) sont visées.", "correct": false},
+       {"text": "Oui, mais uniquement les conditions causées par la fumée d'un incendie.", "correct": false}
+     ],
+     "explanation": "L'art. 71 RNL étend la notion à toutes autres conditions limitant de la même manière la visibilité."},
+    {"stem": "Parmi ces affirmations sur le temps bouché au sens de l'art. 71 RNL, laquelle est FAUSSE ?",
+     "polarity": "negative",
+     "choices": [
+       {"text": "La navigation par temps bouché ne s'applique qu'à la navigation de nuit.", "correct": true},
+       {"text": "La navigation par temps de neige est considérée comme une navigation par temps bouché.", "correct": false},
+       {"text": "La navigation par temps de bruine est considérée comme une navigation par temps bouché.", "correct": false}
+     ],
+     "explanation": "L'art. 71 RNL précise que le temps bouché vaut tant de jour que de nuit, et non uniquement de nuit."}
+  ]}
+]}

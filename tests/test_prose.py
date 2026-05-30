@@ -20,8 +20,8 @@ def _kb():
     c = sqlite3.connect(":memory:")
     c.execute("""CREATE TABLE units (id TEXT, ref TEXT, title TEXT, text TEXT,
                  theme TEXT, kind TEXT, source_name TEXT, source_url TEXT,
-                 legal_version TEXT, licence TEXT)""")
-    c.execute("INSERT INTO units VALUES (?,?,?,?,?,?,?,?,?,?)",
+                 legal_version TEXT, licence TEXT, lang TEXT)""")
+    c.execute("INSERT INTO units VALUES (?,?,?,?,?,?,?,?,?,?,?)",
               ("u-frontiere", "RNL art. 64", "Priorités",
                "Tout bateau doit s'écarter d'un bateau incapable de manœuvrer "
                "qui signale sa présence. En cas de rencontre et de dépassement, "
@@ -29,7 +29,7 @@ def _kb():
                "et des convois remorqués, puis des bateaux à marchandises, puis "
                "des bateaux de pêche professionnelle en opération.",
                "eaux_frontalieres", "article", "RNL", "https://x",
-               "2019-06-01", "Public domain"))
+               "2019-06-01", "Public domain", "fr"))
     c.commit()
     return c
 

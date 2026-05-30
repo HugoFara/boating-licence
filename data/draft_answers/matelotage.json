@@ -1,0 +1,74 @@
+{"drafts": [
+  {"ref": "Matelotage — Nœud (lien) : Présentation", "questions": [
+    {"stem": "Selon le texte, qu'est-ce qu'un nœud ?", "polarity": "affirmative", "choices": [
+      {"text": "L'enlacement ou l'entrecroisement d'une ou de plusieurs cordes ou autres objets flexibles de forme filaire.", "correct": true},
+      {"text": "Exclusivement l'entrecroisement de deux câbles métalliques rigides.", "correct": false},
+      {"text": "Un assemblage de planches destiné à renforcer une coque.", "correct": false}
+    ], "explanation": "D'après Matelotage — Nœud (lien) : Présentation, un nœud est l'enlacement ou l'entrecroisement d'objets flexibles de forme filaire."},
+    {"stem": "D'après le texte, quelle affirmation sur l'usage des nœuds est correcte ?", "polarity": "affirmative", "choices": [
+      {"text": "L'art des nœuds trouve principalement son essor dans la marine à la voile puis dans le nautisme de sport ou de loisir.", "correct": true},
+      {"text": "Les nœuds n'ont jamais été utilisés en dehors du domaine maritime.", "correct": false},
+      {"text": "La connaissance des nœuds est devenue totalement inutile depuis l'apparition d'équipements spécialisés.", "correct": false}
+    ], "explanation": "D'après Matelotage — Nœud (lien) : Présentation, les nœuds trouvent leur essor dans la marine à la voile puis dans le nautisme."}
+  ]},
+  {"ref": "Matelotage — Nœud de chaise : Roi des nœuds", "questions": [
+    {"stem": "Pourquoi le nœud de chaise est-il qualifié de roi des nœuds, selon le texte ?", "polarity": "affirmative", "choices": [
+      {"text": "C'est un nœud de boucle fiable qui ne glisse pas sous tension et se dénoue facilement même après de fortes tensions.", "correct": true},
+      {"text": "C'est le seul nœud impossible à dénouer une fois serré.", "correct": false},
+      {"text": "Il ne peut être réalisé qu'avec un outil spécialisé et à deux mains.", "correct": false}
+    ], "explanation": "D'après Matelotage — Nœud de chaise : Roi des nœuds, sa qualité de nœud de boucle fiable qui ne glisse pas et se dénoue facilement le justifie."},
+    {"stem": "Concernant les méthodes de réalisation du nœud de chaise, quelle(s) affirmation(s) le texte confirme-t-il ?", "polarity": "affirmative", "choices": [
+      {"text": "Il existe plusieurs méthodes de réalisation, jusqu'à 18 avec les variantes.", "correct": true},
+      {"text": "Il ne reste que deux méthodes classiques reconnues pour l'enseignement, tricotée ou préparée.", "correct": true},
+      {"text": "Une seule méthode unique de réalisation est admise dans le monde entier.", "correct": false}
+    ], "explanation": "D'après Matelotage — Nœud de chaise : Roi des nœuds, il existe jusqu'à 18 méthodes avec variantes mais deux méthodes classiques d'enseignement."}
+  ]},
+  {"ref": "Matelotage — Nœud (lien) : Propriétés", "questions": [
+    {"stem": "Selon le texte, quelle est la résistance d'une corde munie d'un nœud de chaise comparée à un nœud de cabestan ?", "polarity": "affirmative", "choices": [
+      {"text": "Le nœud de chaise conserve une résistance exceptionnelle de 89 %, alors que le cabestan la réduit de moitié.", "correct": true},
+      {"text": "Le nœud de cabestan conserve 89 % de la résistance, contre la moitié pour le nœud de chaise.", "correct": false},
+      {"text": "Les deux nœuds réduisent la résistance de la corde exactement de moitié.", "correct": false}
+    ], "explanation": "D'après Matelotage — Nœud (lien) : Propriétés, le cabestan réduit la résistance de moitié alors que le nœud de chaise atteint 89 %."},
+    {"stem": "Quel critère, selon le texte, permet d'évaluer et de choisir le nœud le mieux adapté ?", "polarity": "affirmative", "choices": [
+      {"text": "La solidité du nœud, notamment s'il fragilise ou non la corde en cas de violents à-coups.", "correct": true},
+      {"text": "La couleur de la corde utilisée pour le confectionner.", "correct": false},
+      {"text": "Le prix d'achat de la cordelette.", "correct": false}
+    ], "explanation": "D'après Matelotage — Nœud (lien) : Propriétés, la solidité du nœud est primordiale, surtout en cas de violents à-coups."}
+  ]},
+  {"ref": "Matelotage — Nœud de chaise : Présentation", "questions": [
+    {"stem": "D'après le texte, le nœud de chaise est aussi appelé :", "polarity": "affirmative", "choices": [
+      {"text": "Nœud de bouline.", "correct": true},
+      {"text": "Nœud de cabestan.", "correct": false},
+      {"text": "Nœud de pendu.", "correct": false}
+    ], "explanation": "D'après Matelotage — Nœud de chaise : Présentation, le nœud de chaise est aussi nommé nœud de bouline."},
+    {"stem": "Laquelle de ces affirmations sur le nœud de chaise est FAUSSE selon le texte ?", "polarity": "negative", "choices": [
+      {"text": "C'est un nœud coulant qui se resserre toujours davantage sous tension.", "correct": true},
+      {"text": "C'est un nœud de boucle non coulant, solide, fiable et rapide à exécuter.", "correct": false},
+      {"text": "Il est réalisable d'une main, ce qui en fait un nœud parfait pour la sécurité en condition difficile.", "correct": false}
+    ], "explanation": "D'après Matelotage — Nœud de chaise : Présentation, le nœud de chaise est un nœud de boucle non coulant, et non coulant."}
+  ]},
+  {"ref": "Matelotage — Nœud de chaise : Intérêts", "questions": [
+    {"stem": "Selon le texte, comment réagit le nœud de chaise lorsque la tension augmente ?", "polarity": "affirmative", "choices": [
+      {"text": "Plus la tension est forte, plus il se bloque, tout en se dénouant tout aussi aisément.", "correct": true},
+      {"text": "Plus la tension est forte, plus il a tendance à glisser et à se défaire.", "correct": false},
+      {"text": "La tension n'a aucun effet sur son blocage, qui dépend d'un système mécanique intermédiaire.", "correct": false}
+    ], "explanation": "D'après Matelotage — Nœud de chaise : Intérêts, plus la tension est forte, plus le nœud se bloque et se dénoue aisément."},
+    {"stem": "Que confirme le texte au sujet du nœud de chaise hors tension ?", "polarity": "affirmative", "choices": [
+      {"text": "Il est facile à défaire, même mouillé et après avoir subi une traction très forte ou un resserrement dû au dessèchement.", "correct": true},
+      {"text": "Il devient impossible à défaire dès qu'il est mouillé.", "correct": false},
+      {"text": "Il ne peut être réglé qu'en exerçant une forte tension sur le dormant.", "correct": false}
+    ], "explanation": "D'après Matelotage — Nœud de chaise : Intérêts, hors tension il est facile à défaire même mouillé et après une forte traction."}
+  ]},
+  {"ref": "Matelotage — Nœud (lien) : Ganses", "questions": [
+    {"stem": "D'après le texte, qu'est-ce qu'une ganse ?", "polarity": "affirmative", "choices": [
+      {"text": "Une portion de cordage courbée, sans croisement ni chevauchement.", "correct": true},
+      {"text": "Un croisement serré de deux extrémités de corde.", "correct": false},
+      {"text": "Une corde tressée à partir de trois brins métalliques.", "correct": false}
+    ], "explanation": "D'après Matelotage — Nœud (lien) : Ganses, la ganse est une portion de cordage courbée sans croisement ni chevauchement."},
+    {"stem": "Selon le texte, qu'illustre le nœud de pendu concernant les nœuds gansés ?", "polarity": "affirmative", "choices": [
+      {"text": "Il peut être facilement défait si la boucle est libre, mais se resserre autour de l'entrave sous le poids du pendu.", "correct": true},
+      {"text": "Il ne peut jamais être défait, que la boucle soit libre ou entravée.", "correct": false},
+      {"text": "Il se desserre automatiquement dès qu'on applique un poids sur la boucle.", "correct": false}
+    ], "explanation": "D'après Matelotage — Nœud (lien) : Ganses, le nœud de pendu se défait si la boucle est libre mais se resserre sous le poids du pendu."}
+  ]}
+]}

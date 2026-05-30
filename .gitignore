@@ -14,6 +14,13 @@ data/questions.sqlite
 data/questions.json
 data/questions.json.*
 
+# Subagent-drafting intermediates (regenerable: emit / verify-emit / merge).
+# The durable inputs — data/draft_answers/ and data/verdicts/ — ARE committed,
+# so the approved prose bank can be rebuilt via `tools/subagent_draft.py ingest`.
+data/draft_jobs.json
+data/verify_jobs.json
+data/verdicts.json
+
 # Static-player data bundle (rebuild with `python run.py web`). NOW COMMITTED so
 # GitHub Pages can serve it (the data is public-domain law). Regenerate with
 # `python run.py web` after changing the bank, then commit the diff.
