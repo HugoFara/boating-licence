@@ -30,6 +30,8 @@ from __future__ import annotations
 import re
 from typing import TYPE_CHECKING
 
+from . import jurisdictions
+
 if TYPE_CHECKING:                      # avoid any import cycle; we only duck-type
     from .questions.schema import Question
 
@@ -71,6 +73,12 @@ def classify(q: "Question") -> str:
     """
     text = _haystack(q)
     theme = q.theme
+
+    # CEVNI-excluded regime guard (e.g. Lake Constance / BSO): its signage is NOT
+    # harmonised, so it can never enter the European core whatever its theme. The
+    # list of excluded regimes is a jurisdiction fact (src.jurisdictions).
+    if jurisdictions.excluded_regime(text):
+        return "local"
 
     # Bilateral frontier waters are inherently country-pair-specific.
     if theme == "eaux_frontalieres" or _FRONTIER.search(text):

@@ -69,9 +69,19 @@ Lake Constance is **explicitly outside CEVNI** — it has its own tri-national
 *Bodensee-Schifffahrts-Ordnung* (BSO) and the *Bodenseeschifferpatent*. Its signs
 are therefore **not** portable and must not be classified `cevni`. The Bodensee
 permits are owned by the German country module (`src/countries/de.py`, the
-`Bodensee-*` permits); if/when Bodensee questions enter the bank, add a guard in
-`classify()` so BSO-sourced signage is scoped `local` (or a dedicated `bso`
-scope), not folded into the European core.
+`Bodensee-*` permits).
+
+This is **wired**, not just documented: `BODENSEE` is a `shared_water`
+jurisdiction with `cevni_relation = "excluded"` in `src/jurisdictions.py`, and
+`classify()` calls `jurisdictions.excluded_regime()` first — so any BSO-sourced
+question is scoped `local` and can never enter the European core, whatever its
+theme. To add another non-CEVNI regime later, declare it in
+`src/jurisdictions.py` (`_EXCLUDED_MARKERS`); no change to `cevni.py` is needed.
+
+The jurisdiction layer (`src/jurisdictions.py`) is the descriptive regime view
+*over* `src/countries`: it derives each country's display data from the country
+registry (no duplication) and adds what a `Country` can't model — the CEVNI
+relation itself, plus supra-national (CEVNI) and shared-water (Bodensee) regimes.
 
 ## Files
 

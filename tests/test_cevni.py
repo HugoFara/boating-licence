@@ -64,6 +64,15 @@ def test_universal_themes_are_cevni():
         assert cevni.classify(_q(theme, "contenu portable")) == "cevni"
 
 
+def test_bodensee_signage_is_guarded_out_of_the_core():
+    # A harmonised-looking signalisation question, but tied to the non-CEVNI
+    # Bodensee regime (BSO) — must NOT be classified cevni.
+    q = _q("signalisation", "Que signifie ce signal ?",
+           ref="BSO Annexe", source="Bodensee-Schifffahrts-Ordnung")
+    assert cevni.classify(q) == "local"
+    assert q not in cevni.core_bank([q])
+
+
 def test_core_bank_is_a_clean_subset():
     qs = [
         _q("signalisation", "panneau"),               # cevni
