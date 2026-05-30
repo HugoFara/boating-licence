@@ -116,13 +116,15 @@ def cmd_questions(args):
     # drafts in the bank (cascade clears their choices automatically).
     conn.execute("DELETE FROM questions WHERE generator LIKE 'tmpl:%'")
     conn.commit()
-    cfg = qschema.profile(getattr(args, "permis", "A"))   # cat-A default; cat-D adds voile
+    # cat-A default / cat-D adds voile; canton overlays the time limit (GE default).
+    cfg = qschema.profile(getattr(args, "permis", "A"), getattr(args, "canton", None))
     qschema.set_meta(conn, kb_version=kb_version, generated=_dt.date.today().isoformat(),
                      generators=figures.GENERATOR,
                      exam_questions=cfg.questions, total_points=cfg.total_points,
                      points_per_question=cfg.points_per_question,
                      pass_points=cfg.pass_points, time_limit_min=cfg.time_limit_min,
                      scoring=cfg.scoring, canton=cfg.canton_default,
+                     canton_code=cfg.canton_code,
                      permis=cfg.permis, permis_label=cfg.label)
     qschema.write_questions(conn, qs)
     n_export = qschema.export_json(conn, QJSON_PATH, exportable_only=True)
@@ -315,12 +317,17 @@ def cmd_web(args):
     per_lang = {}
     for lg in langs:
         per_lang[lg] = bundle(f"questions.{lg}.json", lg)
+    from src import cantons
     manifest = {
         "default": qschema.DEFAULT_LANG,
         "supported": sorted(qschema.LANGS),
         "available": {lg: {"count": per_lang[lg],
                            "unofficial": lg not in qschema.GROUNDED_LANGS}
                       for lg in langs},
+        # Per-canton variance for the player's canton picker (single source of
+        # truth: src/cantons.py). Content/pass mark are national; the timer varies.
+        "cantons": cantons.as_manifest(),
+        "canton_default": cantons.DEFAULT_CANTON,
     }
     # Offline-study downloads: Anki decks (.apkg + editable .tsv) and a Moodle
     # GIFT file, one set per language, for the in-page download links.
@@ -369,6 +376,12 @@ def main():
     q.add_argument("--permis", default="A", choices=["A", "D"],
                    help="recreational permit profile: A (motorboat, default) or "
                         "D (sailing — adds the voile theme; scaffolded, no source yet)")
+    from src import cantons as _cantons
+    q.add_argument("--canton", default=_cantons.DEFAULT_CANTON,
+                   choices=sorted(_cantons.CANTONS),
+                   help="canton whose variance (exam time limit) to stamp as the "
+                        f"build default; the player lets users switch (default: "
+                        f"{_cantons.DEFAULT_CANTON})")
 
     d = sub.add_parser("draft", help="LLM-draft prose/law questions (pending review)")
     d.add_argument("--theme", help="comma-separated themes (default: all prose themes)")

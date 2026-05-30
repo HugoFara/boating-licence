@@ -21,6 +21,7 @@ let MANIFEST = {};         // languages.json (per-language counts + Anki downloa
 let FELL_BACK = false;     // true when UI lang has no native bank (showing FR)
 let UNOFFICIAL = false;    // true when the loaded bank is an unofficial translation
 let SELECTED = null;       // Set of chosen domain (theme) ids, null = all present
+let CANTON = null;         // chosen canton code, null = the bank's build default
 let state = null;          // current run
 
 const T = (key, vars) => t(LANG, key, vars);
@@ -70,6 +71,7 @@ async function loadContent() {
     timeLimitMin: +META.time_limit_min || 50,
     scoring: META.scoring || "all_or_nothing",
     canton: META.canton || "VD/Léman",
+    cantonCode: META.canton_code || (MANIFEST.canton_default || ""),
   };
   return true;
 }
@@ -93,6 +95,7 @@ async function setLang(lang) {
   applyStaticStrings();
   await loadContent();
   restoreDomains();
+  restoreCanton();
   renderStart();
   show("start");
 }
@@ -202,6 +205,66 @@ function renderAnki() {
     <span class="fine">${T("ankiHint")}</span>`;
 }
 
+/* --- Per-canton variance ----------------------------------------------------
+ * The exam is intercantonally standardised (VKS): only the time limit varies by
+ * canton. The build stamps a default; here the learner can pick their canton so
+ * the timer matches. The list comes from the manifest (src/cantons.py). */
+function cantonList() {
+  return Array.isArray(MANIFEST.cantons) ? MANIFEST.cantons : [];
+}
+
+/* The effective canton: the user's pick, else the bank's build default, else the
+ * manifest default. Returns the canton record, or null if no table is present. */
+function currentCanton() {
+  const list = cantonList();
+  if (!list.length) return null;
+  const want = CANTON || CFG.cantonCode || MANIFEST.canton_default;
+  return list.find((c) => c.code === want) || list[0];
+}
+
+function examMinutes() {
+  const c = currentCanton();
+  return (c && +c.time_limit_min) || CFG.timeLimitMin;
+}
+
+function cantonLabel() {
+  const c = currentCanton();
+  return c ? `${c.name} (${c.code})` : CFG.canton;
+}
+
+function restoreCanton() {
+  try {
+    const saved = localStorage.getItem("canton");
+    CANTON = saved && cantonList().some((c) => c.code === saved) ? saved : null;
+  } catch (e) { CANTON = null; }
+}
+
+function selectCanton(code) {
+  CANTON = code;
+  try { localStorage.setItem("canton", code); } catch (e) { /* private mode */ }
+  renderStart();
+}
+
+/* Single-select chips. Hidden when the manifest carries no canton table or only
+ * one canton (nothing to choose). */
+function renderCantons() {
+  const box = $("cantons");
+  if (!box) return;
+  const list = cantonList();
+  if (list.length <= 1) { box.innerHTML = ""; $("t-canton").textContent = ""; return; }
+  const active = currentCanton();
+  $("t-canton").textContent = T("chooseCanton");
+  box.innerHTML = list.map((c) => {
+    const on = active && c.code === active.code;
+    return `<button class="chip ${on ? "on" : ""}" data-canton="${c.code}"
+      aria-pressed="${on}" title="${escapeHtml(c.note || "")}">${escapeHtml(c.name)}
+      <span class="chipn">${c.time_limit_min}′</span></button>`;
+  }).join("");
+  box.querySelectorAll(".chip").forEach((b) => {
+    b.onclick = () => selectCanton(b.dataset.canton);
+  });
+}
+
 function renderStart() {
   const note = $("fallback-note");
   if (UNOFFICIAL) {
@@ -222,6 +285,7 @@ function renderStart() {
   $("btn-exam").disabled = $("btn-practice").disabled = false;
 
   renderDomains();
+  renderCantons();
   renderAnki();
 
   const avail = bankForRun().length;          // questions in the chosen domains
@@ -230,9 +294,9 @@ function renderStart() {
     ? " " + T("cfgPartial", { target: CFG.questions }) : "";
   $("config-summary").innerHTML = `
     <div><b>${T("cfgQuestions")}</b> ${examN}${partial}</div>
-    <div><b>${T("cfgDuration")}</b> ${CFG.timeLimitMin} ${T("minUnit")}</div>
+    <div><b>${T("cfgDuration")}</b> ${examMinutes()} ${T("minUnit")}</div>
     <div><b>${T("cfgSuccess")}</b> ${CFG.passPoints}/${CFG.totalPoints} ${T("points")}</div>
-    <div><b>${T("cfgScale")}</b> ${T("ptsPerQuestion", { n: CFG.pointsPer })} · ${escapeHtml(CFG.canton)}</div>
+    <div><b>${T("cfgScale")}</b> ${T("ptsPerQuestion", { n: CFG.pointsPer })} · ${escapeHtml(cantonLabel())}</div>
     <div><b>${T("cfgAvailable")}</b> ${T("availableQuestions", { n: avail })}</div>`;
   $("meta-foot").textContent =
     `${META.generated || ""} · KB ${META.kb_version || ""} · ${T("availableQuestions", { n: BANK.length })}`;
@@ -253,6 +317,7 @@ async function boot() {
   await loadManifest();
   await loadContent();
   restoreDomains();
+  restoreCanton();
   renderStart();
   show("start");
 }
@@ -286,7 +351,7 @@ function startRun(mode) {
     answers: {},               // id -> array of selected indices
     revealed: false,
     startedAt: Date.now(),
-    deadline: mode === "exam" ? Date.now() + CFG.timeLimitMin * 60000 : null,
+    deadline: mode === "exam" ? Date.now() + examMinutes() * 60000 : null,
   };
   $("timer").classList.toggle("hidden", mode !== "exam");
   if (mode === "exam") tick();

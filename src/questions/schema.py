@@ -27,9 +27,10 @@ from __future__ import annotations
 import hashlib
 import json
 import sqlite3
-from dataclasses import dataclass, field, asdict
+from dataclasses import dataclass, field, asdict, replace
 
 from .. import themes
+from .. import cantons
 
 # --- controlled vocabularies (validation rejects anything outside these) -------
 KINDS = {"figure_recognition", "rule_mc", "definition_mc", "meteo_mc",
@@ -92,16 +93,18 @@ class ExamConfig:
     """A permit/cantonal exam profile. Defaults are cat-A (motorboat) under the
     intercantonal VKS standard the Léman cantons apply — confirmed officially for
     Geneva (OCV, which delegates to vks/schiffsfuehrerausweis.ch) and Vaud: 60 q,
-    180 pts, pass 165, 50 min. The pass mark is national; the timer is the cantonal
-    detail (Bern uses 45 min). `permis` + `themes` select the recreational category;
-    use `profile()` to get a named one rather than constructing this directly."""
+    180 pts, pass 165, 50 min. The pass mark and content are national; the timer is
+    the cantonal detail (Bern uses 45 min). `permis` + `themes` select the
+    recreational category and `canton`/`canton_code` the cantonal variance; use
+    `profile()` to get a resolved one rather than constructing this directly."""
     questions: int = 60
     total_points: int = 180
     points_per_question: int = 3
     pass_points: int = 165
     time_limit_min: int = 50
     scoring: str = "all_or_nothing"   # | "partial"
-    canton_default: str = "Léman (GE/VD) · standard VKS"
+    canton_default: str = "Genève (GE) · standard VKS"
+    canton_code: str = cantons.DEFAULT_CANTON
     permis: str = "A"
     label: str = "Permis A — bateau à moteur"
     themes: tuple[str, ...] = field(default_factory=lambda: themes.PERMIS_THEMES["A"])
@@ -120,12 +123,18 @@ PROFILES: dict[str, "ExamConfig"] = {
 }
 
 
-def profile(permis: str = "A") -> "ExamConfig":
-    """Return the exam profile for a recreational permit category ('A' or 'D')."""
+def profile(permis: str = "A", canton: str | None = None) -> "ExamConfig":
+    """Return the exam profile for a recreational permit category ('A'/'D'),
+    overlaid with a canton's variance (the time limit + a display label). The
+    content and pass mark are national, so only the cantonal fields change."""
     key = (permis or "A").upper()
     if key not in PROFILES:
         raise ValueError(f"unknown permis {permis!r}; choose from {sorted(PROFILES)}")
-    return PROFILES[key]
+    ct = cantons.get(canton)
+    return replace(PROFILES[key],
+                   time_limit_min=ct.time_limit_min,
+                   canton_code=ct.code,
+                   canton_default=f"{ct.name} ({ct.code}) · standard VKS")
 
 
 def make_question_id(unit_id: str, stem: str, variant: str = "") -> str:

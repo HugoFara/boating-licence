@@ -9,7 +9,10 @@
     "pass_points": "165",
     "time_limit_min": "50",
     "scoring": "all_or_nothing",
-    "canton": "Léman (GE/VD) · standard VKS"
+    "canton": "Genève (GE) · standard VKS",
+    "canton_code": "GE",
+    "permis": "A",
+    "permis_label": "Permis A — bateau à moteur"
   },
   "questions": [
     {

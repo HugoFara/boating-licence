@@ -24,6 +24,30 @@
       "unofficial": false
     }
   },
+  "cantons": [
+    {
+      "code": "GE",
+      "name": "Genève",
+      "time_limit_min": 50,
+      "leman": true,
+      "note": "OCV — Office cantonal des véhicules; national VKS standard."
+    },
+    {
+      "code": "VD",
+      "name": "Vaud",
+      "time_limit_min": 50,
+      "leman": true,
+      "note": "National VKS standard."
+    },
+    {
+      "code": "BE",
+      "name": "Berne / Bern",
+      "time_limit_min": 45,
+      "leman": false,
+      "note": "Documented 45-minute variant of the VKS exam (not on the Léman)."
+    }
+  ],
+  "canton_default": "GE",
   "anki": {
     "de": {
       "apkg": "anki/boat-permit.de.apkg",

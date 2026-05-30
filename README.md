@@ -51,8 +51,9 @@ Three independently re-runnable stages, each reading the previous one's output:
 | **Parse** | `python run.py parse` | Turns each raw source into structured `KnowledgeUnit`s (pure, no network). One parser per source type. |
 | **Normalize** | (part of `build`) | Merges into one SQLite KB, localizes image assets, links articles ↔ figures, tags every unit to an exam theme, stamps a version. |
 
-Limit to specific sources with `--only oni,rnl`. The current KB holds **602
-units** across articles, annex figures, and prose sections.
+Limit to specific sources with `--only oni,rnl`. The current KB holds **1,746
+units** across articles, annex figures, and prose sections, built in three
+languages (≈602 FR · 592 DE · 552 IT).
 
 **Law fetch:** Fedlex pages are JS-rendered, so we never scrape the page HTML.
 We resolve the **Akoma Ntoso XML** (article text) and its referenced annex images
@@ -80,7 +81,8 @@ bank (`questions.<lang>.json`), reads the exam config from its `meta`, and runs 
 modes: a chronometered **exam** (60 questions, balanced across themes) and a
 **practice** mode with source-cited corrections. You can **study by domain**
 (toggle which exam themes a run draws from) and the results screen breaks the
-**score down per domain**. Scoring mirrors the real exam exactly. The player also
+**score down per domain**. A **canton picker** sets the exam timer to your
+canton's (50 min GE/VD · 45 min Bern). Scoring mirrors the real exam exactly. The player also
 offers the **Anki deck** and a **Moodle GIFT** file for the active language as
 one-click downloads, for study offline or in another platform. The UI ships in
 four languages with a language switcher (see below).
@@ -105,10 +107,10 @@ per-language:
 
 | Lang | Official law source | Content status |
 |------|---------------------|----------------|
-| FR | ✅ Fedlex | grounded — the operative language for the Geneva/Léman exam |
-| DE | ✅ Fedlex | grounded (planned) — same fetch pipeline, different ELI |
-| IT | ✅ Fedlex | grounded (planned) — same |
-| EN | ❌ none exists | unofficial study translation only (Swiss law isn't published in English) |
+| FR | ✅ Fedlex | grounded · **211 questions** — the operative language for the Geneva/Léman exam |
+| DE | ✅ Fedlex | grounded · **185 questions** — same fetch pipeline, different ELI |
+| IT | ✅ Fedlex | grounded · **189 questions** — same |
+| EN | ❌ none exists | unofficial study translation · **210 questions** (Swiss law isn't published in English) |
 
 The figure PNGs are language-neutral; only captions/legends re-fetch per language.
 The player loads the active language's bank and **falls back to French** (with a
@@ -125,8 +127,15 @@ question, and `run.py web` emits one `questions.<lang>.json` per language plus a
 ≈ 5 fully-wrong questions). Each question has 3 answers of which **1–2 are correct**
 (multi-select), scored **all-or-nothing** per question (3 pts only if the selected
 set matches exactly). The exam is standardized intercantonally by the VKS; Geneva's
-OCV administers this national standard. The 50-minute timer is the one cantonal
-detail (Bern uses 45).
+OCV administers this national standard.
+
+**Per-canton variance.** Because the VKS standardizes the count, points, pass mark
+and question content nationally, the *only* thing a canton varies is the **time
+limit** — 50 minutes on the Léman (GE/VD), 45 in Bern. That variance is modelled in
+`src/cantons.py` (the single source of truth), overlaid onto a permit profile by
+`ExamConfig`/`profile()`, exported into `languages.json`, and surfaced as a **canton
+picker** in the player so the timer matches the learner's canton. Only verified
+values are encoded; anything unconfirmed inherits the 50-minute VKS standard.
 
 ## Sources
 
@@ -154,8 +163,9 @@ auditable (source default + keyword heuristics over `ref`/`title`/`text`); see
 `src/questions/schema.py` model recreational-permit categories. **Cat-A** is the
 fully-grounded six-theme target. **Cat-D** (voile / sailing) is *scaffolded*: it
 shares the entire cat-A core and adds a seventh theme, `voile`, for sailing
-technique (points of sail, sail trim, manoeuvres). Select it with
-`python run.py questions --permis D`. The voile theme has **no public-domain law
+technique (points of sail, sail trim, manoeuvres). Select the permit and the
+build-default canton with `python run.py questions --permis D --canton VD`. The
+voile theme has **no public-domain law
 source** — sailing technique isn't ordinance text — so it carries no questions
 until a freely-licensed source is authored behind the review gate; the tagging
 rule is deliberately high-precision so cat-A right-of-way law that mentions
@@ -175,7 +185,8 @@ src/
   parsers/             Akoma Ntoso law, MediaWiki prose, generic HTML
   normalize.py         stage 3 — merge -> SQLite + asset localization
   schema.py            KnowledgeUnit + SQLite DDL + JSON export
-  themes.py            exam taxonomy + tagging rules
+  themes.py            exam taxonomy + tagging rules (+ per-permit theme sets)
+  cantons.py           per-canton exam variance (the time limit; VKS otherwise)
   questions/
     schema.py          canonical question schema, scoring, review gate, JSON export
     figures.py         templated figure-recognition generator
