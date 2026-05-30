@@ -71,16 +71,20 @@ _L = {
 _THEME_LABELS = {
     "fr": {"definitions": "Définitions", "meteorologie": "Météorologie",
            "lois": "Lois sur la navigation", "signalisation": "Signalisation",
-           "matelotage": "Matelotage", "eaux_frontalieres": "Eaux frontalières"},
+           "matelotage": "Matelotage", "eaux_frontalieres": "Eaux frontalières",
+           "voile": "Navigation à voile"},
     "de": {"definitions": "Begriffe", "meteorologie": "Meteorologie",
            "lois": "Schifffahrtsrecht", "signalisation": "Signale",
-           "matelotage": "Seemannschaft", "eaux_frontalieres": "Grenzgewässer"},
+           "matelotage": "Seemannschaft", "eaux_frontalieres": "Grenzgewässer",
+           "voile": "Segeln"},
     "it": {"definitions": "Definizioni", "meteorologie": "Meteorologia",
            "lois": "Norme di navigazione", "signalisation": "Segnaletica",
-           "matelotage": "Marineria", "eaux_frontalieres": "Acque di confine"},
+           "matelotage": "Marineria", "eaux_frontalieres": "Acque di confine",
+           "voile": "Navigazione a vela"},
     "en": {"definitions": "Definitions", "meteorologie": "Meteorology",
            "lois": "Navigation law", "signalisation": "Signs",
-           "matelotage": "Seamanship", "eaux_frontalieres": "Border waters"},
+           "matelotage": "Seamanship", "eaux_frontalieres": "Border waters",
+           "voile": "Sailing"},
 }
 
 

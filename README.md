@@ -144,8 +144,25 @@ detail (Bern uses 45).
 1. Définitions · 2. Météorologie · 3. Lois sur la navigation en eaux intérieures ·
 4. Signalisation et signaux acoustiques · 5. Matelotage · 6. Eaux frontalières
 
-Tagging is rule-based and auditable (source default + keyword heuristics over
-`ref`/`title`/`text`); see `src/themes.py`. It is intentionally easy to tune.
+These six are the **cat-A** (motorboat) exam core. Tagging is rule-based and
+auditable (source default + keyword heuristics over `ref`/`title`/`text`); see
+`src/themes.py`. It is intentionally easy to tune.
+
+### Permit profiles (cat-A / cat-D scaffold)
+
+`src/themes.py` (`PERMIS_THEMES`) and `ExamConfig`/`profile()` in
+`src/questions/schema.py` model recreational-permit categories. **Cat-A** is the
+fully-grounded six-theme target. **Cat-D** (voile / sailing) is *scaffolded*: it
+shares the entire cat-A core and adds a seventh theme, `voile`, for sailing
+technique (points of sail, sail trim, manoeuvres). Select it with
+`python run.py questions --permis D`. The voile theme has **no public-domain law
+source** — sailing technique isn't ordinance text — so it carries no questions
+until a freely-licensed source is authored behind the review gate; the tagging
+rule is deliberately high-precision so cat-A right-of-way law that mentions
+"bateau à voile" stays in `lois`, and a stock cat-A build does not warn about the
+empty theme. The player and Anki/GIFT exporters already render the `voile` label
+in all four languages, so a cat-D bank lights up the existing study-by-domain UI
+the moment it has content.
 
 ## Layout
 

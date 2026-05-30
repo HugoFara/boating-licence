@@ -12,6 +12,9 @@ import re
 import unicodedata
 
 # Canonical theme ids (stable keys) -> human label (French, as on the exam).
+# The first six are the cat-A (motorboat) exam core. `voile` is appended last so
+# the existing ids keep their index/order; it is the cat-D (sailing) extension
+# theme — see PERMIS_THEMES and EXTENSION_THEMES below.
 THEMES: dict[str, str] = {
     "definitions": "Définitions",
     "meteorologie": "Météorologie",
@@ -19,7 +22,26 @@ THEMES: dict[str, str] = {
     "signalisation": "Signalisation et signaux acoustiques",
     "matelotage": "Matelotage",
     "eaux_frontalieres": "Eaux frontalières",
+    "voile": "Navigation à voile",
 }
+
+# Which themes each recreational-permit exam draws from. Cat-A (bateau à moteur)
+# is the six-theme core the rest of the project is grounded in; cat-D (voile)
+# shares that whole core and ADDS the sailing-theory theme on top. This is the
+# single source of truth for the per-permit theme set (ExamConfig reads it).
+PERMIS_THEMES: dict[str, tuple[str, ...]] = {
+    "A": ("definitions", "meteorologie", "lois", "signalisation",
+          "matelotage", "eaux_frontalieres"),
+    "D": ("definitions", "meteorologie", "lois", "signalisation",
+          "matelotage", "eaux_frontalieres", "voile"),
+}
+
+# Themes that are scaffolded ahead of having a source. No public-domain law text
+# defines sailing *technique* (points of sail, sail trim, capsize recovery…), so
+# `voile` carries no KB units until a freely-licensed source is authored behind
+# the review gate. The normalize stage excuses these from its "missing theme"
+# warning so a stock build stays clean.
+EXTENSION_THEMES: frozenset[str] = frozenset({"voile"})
 
 # Keyword heuristics, evaluated in priority order. The first theme whose pattern
 # matches the unit's searchable text wins, unless the unit carries an explicit
@@ -67,6 +89,15 @@ _RULES: list[tuple[str, re.Pattern[str]]] = [
     ("matelotage", re.compile(
         r"\b(matelotage|n[oœ]ud|amarr|mouillage|ancre|cordage|bitte|taquet|"
         r"demi-cl[eé]|chaise)\b")),
+    # Sailing *technique* (the cat-D voile theme). Deliberately high-precision and
+    # NOT the bare word "voile": cat-A right-of-way law mentions "bateau à voile"
+    # and must stay in `lois`. We match the manoeuvre/rigging vocabulary instead,
+    # which doesn't occur in the motorboat navigation rules.
+    ("voile", re.compile(
+        r"\b(allures?|pr[eè]s (du vent|serr[eé])|vent arri[eè]re|au largue|"
+        r"empann(age|er)|virement de bord|virer de bord|louvoy|"
+        r"g[iî]t(e|er)|dessal(age|er)|gr[eé]ement|gr[eé]er|grand-voile|"
+        r"foc|g[eé]nois|spi(nnaker)?|b[oô]me|surface v[eé]lique|border la voile)\b")),
     ("eaux_frontalieres", re.compile(
         r"\b(l[eé]man|fronti[eè]re|franco-suisse|france|eaux fronta)\b")),
     # Note: there is no loose "definitions" keyword rule. A bare "définition" /

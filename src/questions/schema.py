@@ -89,10 +89,12 @@ class Question:
 
 @dataclass
 class ExamConfig:
-    """A cantonal exam profile. Defaults are the intercantonal VKS standard the
-    Léman cantons apply — confirmed officially for Geneva (OCV, which delegates to
-    vks/schiffsfuehrerausweis.ch) and Vaud: 60 q, 180 pts, pass 165, 50 min. The
-    pass mark is national; the timer is the cantonal detail (Bern uses 45 min)."""
+    """A permit/cantonal exam profile. Defaults are cat-A (motorboat) under the
+    intercantonal VKS standard the Léman cantons apply — confirmed officially for
+    Geneva (OCV, which delegates to vks/schiffsfuehrerausweis.ch) and Vaud: 60 q,
+    180 pts, pass 165, 50 min. The pass mark is national; the timer is the cantonal
+    detail (Bern uses 45 min). `permis` + `themes` select the recreational category;
+    use `profile()` to get a named one rather than constructing this directly."""
     questions: int = 60
     total_points: int = 180
     points_per_question: int = 3
@@ -100,6 +102,30 @@ class ExamConfig:
     time_limit_min: int = 50
     scoring: str = "all_or_nothing"   # | "partial"
     canton_default: str = "Léman (GE/VD) · standard VKS"
+    permis: str = "A"
+    label: str = "Permis A — bateau à moteur"
+    themes: tuple[str, ...] = field(default_factory=lambda: themes.PERMIS_THEMES["A"])
+
+
+# Recreational-permit profiles. Cat-A is the project's grounded target. Cat-D
+# (voile) is SCAFFOLDING: it shares the same VKS exam structure and the whole
+# cat-A core, and adds the `voile` theme — but that theme has no public-domain
+# source, so a cat-D bank only becomes meaningful once sailing-theory questions
+# are authored behind the review gate. Numeric params mirror the national standard
+# pending a verified cat-D source; only the theme set differs today.
+PROFILES: dict[str, "ExamConfig"] = {
+    "A": ExamConfig(),
+    "D": ExamConfig(permis="D", label="Permis D — voile",
+                    themes=themes.PERMIS_THEMES["D"]),
+}
+
+
+def profile(permis: str = "A") -> "ExamConfig":
+    """Return the exam profile for a recreational permit category ('A' or 'D')."""
+    key = (permis or "A").upper()
+    if key not in PROFILES:
+        raise ValueError(f"unknown permis {permis!r}; choose from {sorted(PROFILES)}")
+    return PROFILES[key]
 
 
 def make_question_id(unit_id: str, stem: str, variant: str = "") -> str:

@@ -116,13 +116,14 @@ def cmd_questions(args):
     # drafts in the bank (cascade clears their choices automatically).
     conn.execute("DELETE FROM questions WHERE generator LIKE 'tmpl:%'")
     conn.commit()
-    cfg = qschema.ExamConfig()        # Vaud/Léman defaults (cantonal — configurable)
+    cfg = qschema.profile(getattr(args, "permis", "A"))   # cat-A default; cat-D adds voile
     qschema.set_meta(conn, kb_version=kb_version, generated=_dt.date.today().isoformat(),
                      generators=figures.GENERATOR,
                      exam_questions=cfg.questions, total_points=cfg.total_points,
                      points_per_question=cfg.points_per_question,
                      pass_points=cfg.pass_points, time_limit_min=cfg.time_limit_min,
-                     scoring=cfg.scoring, canton=cfg.canton_default)
+                     scoring=cfg.scoring, canton=cfg.canton_default,
+                     permis=cfg.permis, permis_label=cfg.label)
     qschema.write_questions(conn, qs)
     n_export = qschema.export_json(conn, QJSON_PATH, exportable_only=True)
     conn.close()
@@ -364,7 +365,10 @@ def main():
         p.add_argument("--lang", default="fr",
                        help="comma-separated content languages (fr,de,it); "
                             "non-fr covers the law (fedlex) sources only")
-    sub.add_parser("questions", help="generate the Phase-2 question bank from the KB")
+    q = sub.add_parser("questions", help="generate the Phase-2 question bank from the KB")
+    q.add_argument("--permis", default="A", choices=["A", "D"],
+                   help="recreational permit profile: A (motorboat, default) or "
+                        "D (sailing — adds the voile theme; scaffolded, no source yet)")
 
     d = sub.add_parser("draft", help="LLM-draft prose/law questions (pending review)")
     d.add_argument("--theme", help="comma-separated themes (default: all prose themes)")

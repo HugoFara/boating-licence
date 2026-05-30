@@ -19,6 +19,7 @@ const THEME_LABELS = {
     signalisation: "Signalisation et signaux acoustiques",
     matelotage: "Matelotage",
     eaux_frontalieres: "Eaux frontalières",
+    voile: "Navigation à voile",
   },
   de: {
     definitions: "Begriffe",
@@ -27,6 +28,7 @@ const THEME_LABELS = {
     signalisation: "Signale und Schallzeichen",
     matelotage: "Seemannschaft",
     eaux_frontalieres: "Grenzgewässer",
+    voile: "Segeln",
   },
   it: {
     definitions: "Definizioni",
@@ -35,6 +37,7 @@ const THEME_LABELS = {
     signalisation: "Segnaletica e segnali acustici",
     matelotage: "Marineria",
     eaux_frontalieres: "Acque di confine",
+    voile: "Navigazione a vela",
   },
   en: {
     definitions: "Definitions",
@@ -43,6 +46,7 @@ const THEME_LABELS = {
     signalisation: "Signs and sound signals",
     matelotage: "Seamanship",
     eaux_frontalieres: "Border waters",
+    voile: "Sailing",
   },
 };
 

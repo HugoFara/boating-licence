@@ -20,7 +20,7 @@ import requests
 from . import schema
 from .schema import KnowledgeUnit
 from .sources import SOURCES
-from .themes import THEMES
+from .themes import THEMES, EXTENSION_THEMES
 
 BASE = os.path.join(os.path.dirname(__file__), "..")
 ASSET_DIR = os.path.join(BASE, "data", "assets")
@@ -125,7 +125,10 @@ def normalize(parsed: dict[str, list[KnowledgeUnit]], db_path: str,
         "by_lang": dict(Counter(u.lang for u in units)),
         "assets": sum(len(u.assets) for u in units),
         "themes_propagated": propagated,
-        "themes_missing": [t for t in THEMES if t not in {u.theme for u in units}],
+        # Extension themes (e.g. cat-D `voile`) are scaffolded ahead of a source,
+        # so a stock cat-A build legitimately has no units for them — don't warn.
+        "themes_missing": [t for t in THEMES if t not in {u.theme for u in units}
+                           and t not in EXTENSION_THEMES],
     }
 
     if json_path:
