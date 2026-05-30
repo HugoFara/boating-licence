@@ -44,16 +44,25 @@ def test_ch_reexports_existing_modules_unchanged():
     assert set(c.permits) == set(("A", "D"))
 
 
-def test_de_sources_are_gii_with_slugs():
+def test_de_sources_are_law_with_clean_provenance():
     c = de.COUNTRY
     assert c.code == "DE" and c.default_lang == "de" and c.langs == ("de",)
     assert c.sources, "Germany must register law sources"
     for s in c.sources:
-        assert s.kind == "gii", f"{s.id} should be a gii source"
-        assert s.gii_slug, f"{s.id} needs a gesetze-im-internet slug"
         assert s.default_theme in c.themes
-    ids = {s.id for s in c.sources}
-    assert {"seeschstro", "binschstro", "kvr", "spfv"} <= ids
+        if s.kind == "gii":
+            assert s.gii_slug, f"{s.id} needs a gesetze-im-internet slug"
+        elif s.kind == "fedlex":
+            assert s.eli, f"{s.id} needs a Fedlex ELI fragment"
+        else:
+            raise AssertionError(f"{s.id}: unexpected source kind {s.kind!r}")
+    by_kind = {s.id: s.kind for s in c.sources}
+    # the gii federal spine ...
+    assert {"seeschstro", "binschstro", "kvr", "spfv"} <= set(by_kind)
+    assert all(by_kind[i] == "gii" for i in ("seeschstro", "binschstro", "kvr", "spfv"))
+    # ... plus the Bodensee-Schifffahrts-Ordnung via Fedlex (SR 747.223.1), the
+    # public-domain grounding for the law-seeded Bodensee question set.
+    assert by_kind.get("bso") == "fedlex"
 
 
 def test_de_permits_cover_the_chosen_scope():

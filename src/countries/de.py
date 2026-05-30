@@ -34,16 +34,35 @@ REFORM_NOTE = (
     "abgeschlossen — als ausstehend behandeln.")
 
 LEGAL_BASIS = (
-    "Bundesrecht (SeeSchStrO, BinSchStrO, KVR, SpFV, RheinSchPV) ist gemeinfrei "
-    "nach §5(1) UrhG. Die amtlichen ELWIS-Fragenkataloge (SBF See/Binnen) sind "
-    "sehr wahrscheinlich amtliche Werke nach §5(2) UrhG: wörtliche Wiedergabe mit "
-    "Quellenangabe und ohne Änderung zulässig.")
+    "Bundesrecht (SeeSchStrO, BinSchStrO, KVR, SpFV, RheinSchPV) sowie die "
+    "Bodensee-Schifffahrts-Ordnung (BSO, SR 747.223.1) sind gemeinfrei nach "
+    "§5(1) UrhG. Die amtlichen ELWIS-Fragenkataloge (SBF See/Binnen) sind sehr "
+    "wahrscheinlich amtliche Werke nach §5(2) UrhG: wörtliche Wiedergabe mit "
+    "Quellenangabe und ohne Änderung zulässig. Der Bodensee-Fragenkatalog ist "
+    "dagegen nicht frei lizenziert — Bodensee-Fragen werden daher aus der BSO "
+    "selbst abgeleitet (Clean-Room, Abgleich nur intern).")
 
 
 # --- federal law (kind="gii": gesetze-im-internet.de/<slug>/xml.zip) -----------
 _GII_LICENCE = "Public domain — German federal law (§5(1) UrhG, freely reusable)."
 
+# The Bodensee-Schifffahrts-Ordnung is NOT on gesetze-im-internet.de (it is
+# Länder-/Staatsvertragsrecht, DE/AT/CH), but Switzerland consolidates it on
+# Fedlex as SR 747.223.1 and serves it as Akoma-Ntoso XML (+ PDF/A annexes) —
+# the very same path as the Swiss law spine, so no new parser. A Verordnung is
+# public domain (§5(1) UrhG / gemeinfrei). This grounds the *law-seeded* Bodensee
+# question set: we author from the BSO and never need the (non-free) BSO question
+# catalogue. See docs/bodensee-licence-request.md for the parallel reference ask.
+_BSO_LICENCE = ("Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 "
+                "(§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex.")
+
 SOURCES: list[Source] = [
+    Source(
+        id="bso", kind="fedlex", lang="de", eli="cc/1976/1338_1338_1338",
+        want_pdf=True,
+        name="Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        url="https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        default_theme="verkehrsregeln", licence=_BSO_LICENCE),
     Source(
         id="seeschstro", kind="gii", lang="de", gii_slug="seeschstro_1971",
         name="Seeschifffahrtsstraßen-Ordnung (SeeSchStrO)",
@@ -99,10 +118,15 @@ REFERENCES: tuple[Reference, ...] = (
             "Fragenkatalog-SKS/Fragenkatalog-SKS-node.html",
         note=_CATALOG_NOTE + " §5-Status etwas schwächer (DSV/DMYV-Mitautorschaft)."),
     Reference(
-        name="Bodensee-Schifffahrts-Ordnung (BSO)",
-        url="https://www.gesetze-bayern.de/Content/Document/BayBodSchO",
-        note="Länder-/Staatsvertragsrecht (DE/AT/CH); nur auf Landesportalen als "
-             "PDF/HTML, kein gii-XML. Für Bodensee-Patent maßgeblich."),
+        name="Amtlicher Fragenkatalog Bodenseeschifferpatent (Kat. A/D, Stand 01/2023)",
+        url="https://www.lrakn.de/service-und-verwaltung/aemter/strassenverkehr+und+schifffahrt/bodenseeschifferpatent",
+        note="NICHT frei lizenziert (anders als ELWIS): keine Nachnutzungsfreigabe, "
+             "kein amtlicher Volltext-Download; einzige vollständige Gratiskopie ist "
+             "privat (© A. Sieber, schifferpatent.org). Daher NICHT ingestiert. Plan: "
+             "eigene Fragen aus der BSO (Source 'bso', §5(1) UrhG) ableiten und den "
+             "Katalog nur intern zum Abgleich/Divergenz-Filter nutzen (Clean-Room). "
+             "Referenzexemplar beim Schifffahrtsamt angefragt — siehe "
+             "docs/bodensee-licence-request.md."),
 )
 
 
