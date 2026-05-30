@@ -42,6 +42,45 @@
     "option": "eaux_interieures",
     "theme": "ecluses",
     "source": "rgp",
+    "ref": "RGP, art. A4241-53-27",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Une ouverture de pont fixe est marquée par un ou plusieurs feux rouges. Que devez-vous en conclure ?",
+      "explanation": "Lorsque certaines ouvertures de ponts fixes sont indiquées par un ou plusieurs feux rouges (ou le signal général d'interdiction A.1), ces ouvertures sont interdites à la navigation."
+    },
+    "en": {
+      "stem": "An opening of a fixed bridge is marked by one or more red lights. What must you conclude?",
+      "explanation": "When certain openings of fixed bridges are indicated by one or more red lights (or the general prohibition signal A.1), those openings are forbidden to navigation."
+    },
+    "choices": [
+      {
+        "fr": "L'ouverture est interdite à la navigation.",
+        "en": "The opening is forbidden to navigation.",
+        "correct": true
+      },
+      {
+        "fr": "L'ouverture est recommandée de préférence dans les deux sens.",
+        "en": "The opening is recommended as the preferred passage in both directions.",
+        "correct": false
+      },
+      {
+        "fr": "L'ouverture est réservée aux bateaux montants uniquement.",
+        "en": "The opening is reserved for upbound boats only.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-53-27",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909330"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "ecluses",
+    "source": "rgp",
     "ref": "RGP, art. A4241-53-32",
     "polarity": "affirmative",
     "fr": {
@@ -114,6 +153,162 @@
       "num": "A4241-54-9",
       "source_id": "code_transports",
       "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909518"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "ecluses",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-21",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Votre bateau vient de causer des dommages à un ouvrage d'art. Quelle est votre obligation immédiate ?",
+      "explanation": "En cas de dommages causés aux ouvrages d'art, le conducteur avise sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau."
+    },
+    "en": {
+      "stem": "Your boat has just caused damage to an engineering structure. What is your immediate obligation?",
+      "explanation": "In the event of damage to engineering structures, the conductor must, without delay, notify the authority in charge of navigation policing and the waterway manager."
+    },
+    "choices": [
+      {
+        "fr": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau.",
+        "en": "Notify without delay the navigation police authority and the waterway manager.",
+        "correct": true
+      },
+      {
+        "fr": "Attendre la fin de la navigation pour signaler les dommages au seul propriétaire de l'ouvrage.",
+        "en": "Wait until the end of the voyage to report the damage to the structure's owner alone.",
+        "correct": false
+      },
+      {
+        "fr": "Réparer vous-même l'ouvrage avant de poursuivre votre route.",
+        "en": "Repair the structure yourself before continuing on your way.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-21",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232845"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "ecluses",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-71",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Concernant les passerelles et autres dépendances des écluses et barrages, quelle règle s'applique ?",
+      "explanation": "Il est interdit de stationner et de circuler sur les passerelles et autres dépendances des écluses et barrages, à moins qu'elles ne soient aménagées pour servir de passage public ; il est également interdit de se tenir sur les ponts mobiles pendant la manœuvre."
+    },
+    "en": {
+      "stem": "Regarding the footbridges and other appurtenances of locks and dams, which rule applies?",
+      "explanation": "It is forbidden to stand and move about on the footbridges and other appurtenances of locks and dams, unless they are arranged to serve as a public passage; it is also forbidden to stand on movable bridges during operation."
+    },
+    "choices": [
+      {
+        "fr": "Il est interdit d'y stationner et d'y circuler, sauf si elles sont aménagées pour servir de passage public.",
+        "en": "Standing and moving about on them is forbidden, unless they are arranged to serve as a public passage.",
+        "correct": true
+      },
+      {
+        "fr": "On peut s'y tenir librement, y compris sur les ponts mobiles pendant la manœuvre.",
+        "en": "One may stand on them freely, including on movable bridges during operation.",
+        "correct": false
+      },
+      {
+        "fr": "La circulation y est autorisée à condition de porter un équipement individuel de flottabilité.",
+        "en": "Moving about on them is allowed provided one wears a personal flotation device.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-71",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232977"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "environnement",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-23",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Un déversement, à partir de votre bateau, d'une substance de nature à créer un danger pour la navigation s'est produit. Que devez-vous faire ?",
+      "explanation": "Jeter ou laisser tomber dans les eaux intérieures un objet ou une substance de nature à créer une entrave ou un danger est interdit ; en cas de tel déversement à partir d'un bateau, le conducteur avise sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau en indiquant aussi exactement que possible la nature et l'endroit du déversement."
+    },
+    "en": {
+      "stem": "A discharge from your boat of a substance liable to create a danger to navigation has occurred. What must you do?",
+      "explanation": "Throwing or letting fall into inland waters an object or substance liable to create an obstruction or danger is forbidden; if such a discharge occurs from a boat, the conductor must notify without delay the navigation police authority and the waterway manager, indicating as exactly as possible the nature and location of the discharge."
+    },
+    "choices": [
+      {
+        "fr": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire, en indiquant la nature et l'endroit du déversement.",
+        "en": "Notify without delay the navigation police authority and the manager, indicating the nature and location of the discharge.",
+        "correct": true
+      },
+      {
+        "fr": "Ne rien signaler tant que le déversement n'entrave pas totalement la section d'eau.",
+        "en": "Report nothing as long as the discharge does not fully obstruct the water section.",
+        "correct": false
+      },
+      {
+        "fr": "Prévenir uniquement les autres bateaux par un signal sonore, sans aviser d'autorité.",
+        "en": "Warn only the other boats by a sound signal, without notifying any authority.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-23",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232849"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "environnement",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-65",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Quel document relatif aux huiles usées doit être conservé à bord d'un bateau motorisé ?",
+      "explanation": "Un carnet de contrôle des huiles usées valable est conservé à bord de tout bateau ou engin flottant motorisé, à l'exception des menues embarcations."
+    },
+    "en": {
+      "stem": "Which document concerning waste oils must be kept on board a motorized boat?",
+      "explanation": "A valid waste-oil control logbook must be kept on board every motorized boat or floating craft, except small craft."
+    },
+    "choices": [
+      {
+        "fr": "Un carnet de contrôle des huiles usées valable, à bord de tout bateau ou engin flottant motorisé (sauf menues embarcations).",
+        "en": "A valid waste-oil control logbook, on board every motorized boat or floating craft (except small craft).",
+        "correct": true
+      },
+      {
+        "fr": "Un carnet de contrôle des huiles usées, obligatoire uniquement à bord des menues embarcations.",
+        "en": "A waste-oil control logbook, required only on board small craft.",
+        "correct": false
+      },
+      {
+        "fr": "Une attestation annuelle de vidange délivrée par le gestionnaire de la voie d'eau.",
+        "en": "An annual oil-change certificate issued by the waterway manager.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-65",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232961"
     }
   },
   {
@@ -276,6 +471,84 @@
     "option": "eaux_interieures",
     "theme": "regles_route",
     "source": "rgp",
+    "ref": "RGP, art. A4241-53-13",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Sur un secteur où la route à suivre est imposée par signalisation, quelle obligation s'impose aux bateaux montants vis-à-vis des avalants ?",
+      "explanation": "Le texte prévoit que, dans ces secteurs, les montants ne doivent en aucun cas gêner la marche des avalants ; en particulier, en cas d'obligation de croiser le chenal, ils doivent au besoin diminuer leur vitesse ou s'arrêter pour permettre aux avalants d'accomplir leur manœuvre."
+    },
+    "en": {
+      "stem": "On a stretch where the course to follow is imposed by signs, what obligation applies to upstream-bound vessels with regard to downstream-bound vessels?",
+      "explanation": "The text provides that, in such stretches, upstream-bound vessels must in no case impede the progress of downstream-bound vessels; in particular, where they have to cross the channel, they must if necessary reduce speed or stop to let downstream-bound vessels complete their manoeuvre."
+    },
+    "choices": [
+      {
+        "fr": "Ils ne doivent en aucun cas gêner la marche des avalants et doivent au besoin ralentir ou s'arrêter.",
+        "en": "They must in no case impede downstream-bound vessels and must if necessary slow down or stop.",
+        "correct": true
+      },
+      {
+        "fr": "Ils ont la priorité et les avalants doivent s'écarter pour les laisser passer.",
+        "en": "They have priority and downstream-bound vessels must keep clear to let them pass.",
+        "correct": false
+      },
+      {
+        "fr": "Ils doivent émettre un son prolongé avant de croiser le chenal.",
+        "en": "They must sound a prolonged blast before crossing the channel.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-53-13",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909241"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "regles_route",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-53-18",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Sauf en cours de dépassement ou de croisement, à quelle distance minimale un bateau peut-il naviguer d'un convoi poussé portant la signalisation prévue ?",
+      "explanation": "Le texte interdit, sauf en cours de dépassement ou de croisement, de naviguer à moins de 50 m d'un bateau, d'une formation à couple ou d'un convoi poussé portant la signalisation prévue (chiffres 2 et 3 de l'article A. 4241-48-14)."
+    },
+    "en": {
+      "stem": "Other than when overtaking or crossing, what is the minimum distance at which a vessel may navigate from a signalled pushed convoy?",
+      "explanation": "The text prohibits, except when overtaking or crossing, navigating within 50 m of a vessel, a side-by-side formation or a pushed convoy carrying the prescribed marking (paragraphs 2 and 3 of article A. 4241-48-14)."
+    },
+    "choices": [
+      {
+        "fr": "Pas moins de 50 m.",
+        "en": "No closer than 50 m.",
+        "correct": true
+      },
+      {
+        "fr": "Pas moins de 10 m.",
+        "en": "No closer than 10 m.",
+        "correct": false
+      },
+      {
+        "fr": "Pas moins de 100 m.",
+        "en": "No closer than 100 m.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-53-18",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909251"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "regles_route",
+    "source": "rgp",
     "ref": "RGP, art. A4241-53-19",
     "polarity": "affirmative",
     "fr": {
@@ -354,6 +627,45 @@
     "option": "eaux_interieures",
     "theme": "regles_route",
     "source": "rgp",
+    "ref": "RGP, art. A4241-53-20",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Comment doit-on considérer un bateau qui se laisse descendre cap à l'amont avec sa machine en marche avant ?",
+      "explanation": "Le texte interdit en principe la navigation à la dérive, mais précise que les bateaux qui se laissent descendre cap à l'amont avec machine en marche avant sont considérés comme montants et non comme naviguant à la dérive."
+    },
+    "en": {
+      "stem": "How should a vessel that drifts downstream bow-pointed upstream with its engine running ahead be regarded?",
+      "explanation": "The text in principle prohibits drifting, but specifies that vessels descending bow-pointed upstream with their engine running ahead are regarded as proceeding upstream, not as drifting."
+    },
+    "choices": [
+      {
+        "fr": "Comme un bateau montant, et non comme naviguant à la dérive.",
+        "en": "As a vessel proceeding upstream, not as drifting.",
+        "correct": true
+      },
+      {
+        "fr": "Comme un bateau naviguant à la dérive, donc en infraction.",
+        "en": "As a drifting vessel, and therefore in breach of the rules.",
+        "correct": false
+      },
+      {
+        "fr": "Comme un bateau avalant tenu de céder le passage.",
+        "en": "As a vessel proceeding downstream required to give way.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-53-20",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909255"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "regles_route",
+    "source": "rgp",
     "ref": "RGP, art. A4241-53-25",
     "polarity": "affirmative",
     "fr": {
@@ -426,6 +738,162 @@
       "num": "A4241-53-37",
       "source_id": "code_transports",
       "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909354"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "regles_route",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-53-4",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Un conducteur constate un danger d'abordage. Que doit-il faire ?",
+      "explanation": "Le texte prévoit que tout conducteur qui constate un danger d'abordage doit émettre une série de sons très brefs. Il précise par ailleurs que le passage ou le dépassement n'est permis que lorsque le chenal présente une largeur incontestablement suffisante pour le passage simultané, et que les bateaux suivant des routes excluant tout danger d'abordage ne doivent modifier ni leur route ni leur vitesse d'une manière qui puisse faire surgir un tel danger."
+    },
+    "en": {
+      "stem": "A boatmaster observes a risk of collision. What must he do?",
+      "explanation": "The text states that any boatmaster who observes a risk of collision must sound a series of very short blasts. It also specifies that passing or overtaking is only allowed where the channel is unquestionably wide enough for simultaneous passage, and that vessels on courses excluding any risk of collision must not alter course or speed in a way that could create such a risk."
+    },
+    "choices": [
+      {
+        "fr": "Émettre une série de sons très brefs.",
+        "en": "Sound a series of very short blasts.",
+        "correct": true
+      },
+      {
+        "fr": "Émettre un son prolongé unique.",
+        "en": "Sound a single prolonged blast.",
+        "correct": false
+      },
+      {
+        "fr": "Augmenter sa vitesse pour dégager le chenal au plus vite.",
+        "en": "Increase speed to clear the channel as quickly as possible.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-53-4",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909219"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "regles_route",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-10",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Concernant la vitesse du bateau, quelle obligation incombe au conducteur ?",
+      "explanation": "Le texte impose au conducteur de veiller à ce que la vitesse de son bateau soit compatible avec les caractéristiques des eaux intérieures et des ouvrages d'art ; elle ne peut être inférieure ou supérieure aux vitesses minimales ou maximales édictées par les règlements particuliers de police."
+    },
+    "en": {
+      "stem": "Regarding the vessel's speed, what obligation falls on the boatmaster?",
+      "explanation": "The text requires the boatmaster to ensure that his vessel's speed is compatible with the characteristics of the inland waters and of the engineering structures; it may be neither below nor above the minimum or maximum speeds laid down by the special navigation police regulations."
+    },
+    "choices": [
+      {
+        "fr": "Veiller à une vitesse compatible avec les caractéristiques des eaux et des ouvrages d'art, sans descendre sous les minima ni dépasser les maxima fixés.",
+        "en": "Ensure a speed compatible with the characteristics of the waters and structures, neither below the minimum nor above the maximum limits set.",
+        "correct": true
+      },
+      {
+        "fr": "Maintenir en permanence la vitesse maximale autorisée pour fluidifier le trafic.",
+        "en": "Always maintain the maximum authorised speed to keep traffic flowing.",
+        "correct": false
+      },
+      {
+        "fr": "Adapter librement sa vitesse, aucune limite minimale ne pouvant lui être imposée.",
+        "en": "Freely set his speed, as no minimum limit may ever be imposed on him.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-10",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232821"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "regles_route",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-4",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Un membre d'équipage détermine temporairement la route et la vitesse du bateau. Quelle est sa situation au regard des prescriptions de conduite ?",
+      "explanation": "Le texte prévoit que les membres de l'équipage et les autres personnes se trouvant à bord qui déterminent temporairement la route et la vitesse du bateau sont également responsables, dans cette mesure, de l'observation des prescriptions imposées au conducteur en matière de conduite."
+    },
+    "en": {
+      "stem": "A crew member temporarily determines the vessel's course and speed. What is his position with regard to the steering rules?",
+      "explanation": "The text provides that crew members and other persons on board who temporarily determine the vessel's course and speed are also responsible, to that extent, for compliance with the steering requirements imposed on the boatmaster."
+    },
+    "choices": [
+      {
+        "fr": "Il est également responsable, dans cette mesure, de l'observation des prescriptions imposées au conducteur.",
+        "en": "He is also responsible, to that extent, for compliance with the requirements imposed on the boatmaster.",
+        "correct": true
+      },
+      {
+        "fr": "Il n'encourt aucune responsabilité, seul le conducteur titulaire restant responsable.",
+        "en": "He bears no responsibility, the appointed boatmaster alone remaining liable.",
+        "correct": false
+      },
+      {
+        "fr": "Il devient le seul responsable, déchargeant entièrement le conducteur.",
+        "en": "He becomes solely responsible, fully relieving the boatmaster.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-4",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232803"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "regles_route",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-6",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Pendant la navigation, où doit se trouver le conducteur ?",
+      "explanation": "Le texte dispose qu'en cours de route le conducteur doit être à bord. Il ajoute que le conducteur d'un engin flottant motorisé doit également être à bord dès lors que l'engin est au travail, même en l'absence de déplacement, ces dispositions n'étant pas applicables aux matériels flottants."
+    },
+    "en": {
+      "stem": "While the vessel is under way, where must the boatmaster be?",
+      "explanation": "The text states that while under way the boatmaster must be on board. It adds that the operator of a motorised floating appliance must also be on board whenever the appliance is at work, even if it is not moving, these provisions not applying to floating equipment."
+    },
+    "choices": [
+      {
+        "fr": "À bord du bateau.",
+        "en": "On board the vessel.",
+        "correct": true
+      },
+      {
+        "fr": "À terre, à condition de garder le bateau en vue.",
+        "en": "Ashore, provided he keeps the vessel in sight.",
+        "correct": false
+      },
+      {
+        "fr": "À bord uniquement lorsque le bateau se déplace effectivement.",
+        "en": "On board only when the vessel is actually moving.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-6",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232811"
     }
   },
   {
@@ -547,6 +1015,279 @@
   },
   {
     "option": "eaux_interieures",
+    "theme": "securite",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-15",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Au titre du devoir général de vigilance et de la bonne pratique de la navigation, quelle obligation s'impose au conducteur ?",
+      "explanation": "Le conducteur prend toutes les mesures de précaution commandées par le devoir général de vigilance et la bonne pratique de la navigation afin notamment de ne pas mettre en danger la vie des personnes, de ne pas endommager les bateaux et leurs dispositifs d'ancrage ou d'amarrage, les rives, ouvrages et installations, de ne pas entraver la navigation et de ne pas porter atteinte à l'environnement."
+    },
+    "en": {
+      "stem": "Under the general duty of vigilance and good navigational practice, what obligation rests on the boatmaster?",
+      "explanation": "The boatmaster takes all precautionary measures required by the general duty of vigilance and good navigational practice, in order in particular to avoid endangering people's lives, damaging vessels and their anchoring or mooring gear, the banks, structures and installations, creating obstructions to navigation, and harming the environment."
+    },
+    "choices": [
+      {
+        "fr": "Prendre toutes les mesures de précaution commandées par le devoir de vigilance pour éviter notamment de mettre en danger la vie des personnes, de causer des dommages, d'entraver la navigation et de porter atteinte à l'environnement.",
+        "en": "Take all precautionary measures required by the duty of vigilance, in order in particular to avoid endangering people's lives, causing damage, obstructing navigation and harming the environment.",
+        "correct": true
+      },
+      {
+        "fr": "Prendre des précautions uniquement lorsqu'un autre bateau se trouve à proximité immédiate.",
+        "en": "Take precautions only when another vessel is in the immediate vicinity.",
+        "correct": false
+      },
+      {
+        "fr": "Se limiter à protéger son propre bateau, la sécurité des autres usagers relevant exclusivement de l'autorité de police.",
+        "en": "Limit himself to protecting his own vessel, the safety of other users being the sole responsibility of the policing authority.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-15",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232833"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "securite",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-16",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Quelle obligation s'impose à toute personne se trouvant à bord d'un bateau ?",
+      "explanation": "Toute personne se trouvant à bord est tenue de se conformer aux ordres qui lui sont donnés par le conducteur dans l'intérêt de la sécurité de la navigation et de l'ordre à bord."
+    },
+    "en": {
+      "stem": "What obligation applies to any person on board a vessel?",
+      "explanation": "Any person on board must comply with the orders given to them by the boatmaster in the interest of the safety of navigation and order on board."
+    },
+    "choices": [
+      {
+        "fr": "Se conformer aux ordres donnés par le conducteur dans l'intérêt de la sécurité de la navigation et de l'ordre à bord.",
+        "en": "Comply with the orders given by the boatmaster in the interest of the safety of navigation and order on board.",
+        "correct": true
+      },
+      {
+        "fr": "N'obéir au conducteur que si elle fait partie de l'équipage rémunéré du bateau.",
+        "en": "Obey the boatmaster only if she is part of the vessel's paid crew.",
+        "correct": false
+      },
+      {
+        "fr": "Suivre uniquement les ordres relatifs à l'embarquement et au débarquement.",
+        "en": "Follow only the orders relating to boarding and disembarking.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-16",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232835"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "securite",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-18",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Lorsqu'un sinistre se déclare à bord, que doit faire le conducteur ?",
+      "explanation": "Si un sinistre se déclare à bord, le conducteur prend toutes les mesures prévues et nécessaires pour le maîtriser et prévient sans délai le gestionnaire ou le propriétaire de la voie d'eau intérieure compétent ainsi que le centre opérationnel départemental d'incendie et de secours (CODIS) territorialement compétent."
+    },
+    "en": {
+      "stem": "When a disaster (fire or incident) breaks out on board, what must the boatmaster do?",
+      "explanation": "If a disaster breaks out on board, the boatmaster takes all foreseen and necessary measures to bring it under control and immediately notifies the competent manager or owner of the inland waterway as well as the territorially competent departmental operational fire and rescue centre (CODIS)."
+    },
+    "choices": [
+      {
+        "fr": "Prendre toutes les mesures nécessaires pour maîtriser le sinistre et prévenir sans délai le gestionnaire ou le propriétaire de la voie d'eau ainsi que le CODIS territorialement compétent.",
+        "en": "Take all necessary measures to control the incident and immediately notify the waterway manager or owner as well as the territorially competent CODIS.",
+        "correct": true
+      },
+      {
+        "fr": "Attendre l'arrivée des secours avant d'entreprendre toute action de lutte contre le sinistre.",
+        "en": "Wait for the rescue services to arrive before undertaking any action to fight the incident.",
+        "correct": false
+      },
+      {
+        "fr": "Prévenir uniquement les autres bateaux naviguant à proximité, sans avertir d'autorité.",
+        "en": "Warn only the other vessels navigating nearby, without alerting any authority.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-18",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232839"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "securite",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-19",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Concernant les ancres relevées et les objets dépassant des côtés d'un bateau, quelle règle s'applique ?",
+      "explanation": "Il est interdit de laisser déborder sur les côtés du bateau des objets de nature à compromettre la sécurité des autres usagers, des ouvrages ou installations ; en outre, les ancres relevées ne doivent pas dépasser le fond ou la quille du bateau ou le plan inférieur du matériel flottant."
+    },
+    "en": {
+      "stem": "Regarding raised anchors and objects protruding from the sides of a vessel, which rule applies?",
+      "explanation": "It is prohibited to let objects protrude from the sides of the vessel that could compromise the safety of other users, structures or installations; moreover, raised anchors must not extend below the bottom or keel of the vessel or below the lower plane of floating equipment."
+    },
+    "choices": [
+      {
+        "fr": "Aucun objet susceptible de compromettre la sécurité ne doit déborder sur les côtés, et les ancres relevées ne doivent pas dépasser le fond ou la quille du bateau.",
+        "en": "No object liable to compromise safety may protrude from the sides, and raised anchors must not extend below the bottom or keel of the vessel.",
+        "correct": true
+      },
+      {
+        "fr": "Les objets peuvent déborder sur les côtés à condition d'être signalés par un pavillon de jour.",
+        "en": "Objects may protrude from the sides provided they are marked by a flag during the day.",
+        "correct": false
+      },
+      {
+        "fr": "Les ancres relevées doivent rester au-dessus de la ligne de flottaison, mais peuvent dépasser la quille du bateau.",
+        "en": "Raised anchors must stay above the waterline but may extend below the keel of the vessel.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-19",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232841"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "securite",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-22",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Que doit faire le conducteur d'un bateau qui perd un objet ou rencontre un obstacle sur la voie d'eau ?",
+      "explanation": "Le conducteur avise sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau en indiquant aussi exactement que possible l'endroit de l'incident ; si l'objet crée ou risque de créer une obstruction totale ou partielle, il doit s'employer à ce que la voie d'eau soit dégagée dans les plus courts délais."
+    },
+    "en": {
+      "stem": "What must the boatmaster do when his vessel loses an object or encounters an obstacle on the waterway?",
+      "explanation": "The boatmaster immediately notifies the navigation policing authority and the waterway manager, indicating as exactly as possible the place of the incident; if the object creates or may create a total or partial obstruction, he must endeavour to have the waterway cleared as quickly as possible."
+    },
+    "choices": [
+      {
+        "fr": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau en précisant l'endroit, et s'employer à dégager la voie en cas d'obstruction.",
+        "en": "Immediately notify the navigation policing authority and the waterway manager, stating the location, and endeavour to clear the waterway in case of obstruction.",
+        "correct": true
+      },
+      {
+        "fr": "Signaler l'incident dans son carnet de bord et le déclarer à l'autorité lors de la prochaine escale.",
+        "en": "Record the incident in his logbook and report it to the authority at the next stopover.",
+        "correct": false
+      },
+      {
+        "fr": "Récupérer lui-même l'objet sans avoir à informer aucune autorité.",
+        "en": "Recover the object himself without having to inform any authority.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-22",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232847"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "securite",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-24",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Lorsqu'un bateau est échoué ou coulé, quelle est l'obligation de son conducteur ?",
+      "explanation": "Lorsqu'un bateau est échoué ou coulé, son conducteur avise sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau ; si le bateau crée ou risque de créer une obstruction totale ou partielle, le conducteur doit s'employer à ce que la voie d'eau soit dégagée dans les plus courts délais."
+    },
+    "en": {
+      "stem": "When a vessel runs aground or sinks, what is the obligation of its boatmaster?",
+      "explanation": "When a vessel is aground or sunk, its boatmaster immediately notifies the navigation policing authority and the waterway manager; if the vessel creates or may create a total or partial obstruction, the boatmaster must endeavour to have the waterway cleared as quickly as possible."
+    },
+    "choices": [
+      {
+        "fr": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau, et s'employer à dégager la voie en cas d'obstruction.",
+        "en": "Immediately notify the navigation policing authority and the waterway manager, and endeavour to clear the waterway in case of obstruction.",
+        "correct": true
+      },
+      {
+        "fr": "N'avertir les autorités que si le bateau transporte des marchandises dangereuses.",
+        "en": "Notify the authorities only if the vessel is carrying dangerous goods.",
+        "correct": false
+      },
+      {
+        "fr": "Laisser le bateau en place et attendre l'intervention obligatoire du gestionnaire sans intervenir.",
+        "en": "Leave the vessel in place and wait for the manager's mandatory intervention without acting.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-24",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232851"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "securite",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-25",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Quelle obligation pèse sur le conducteur d'un bateau en périodes de glaces ou de crues ?",
+      "explanation": "En périodes de glaces ou de crues, le conducteur renforce les amarres de son bateau ; la glace est brisée autour de la flottaison par le conducteur ou sous sa responsabilité."
+    },
+    "en": {
+      "stem": "What obligation rests on a boatmaster during periods of ice or flooding?",
+      "explanation": "During periods of ice or flooding, the boatmaster strengthens his vessel's mooring lines; the ice is broken around the waterline by the boatmaster or under his responsibility."
+    },
+    "choices": [
+      {
+        "fr": "Renforcer les amarres de son bateau, la glace étant brisée autour de la flottaison par lui ou sous sa responsabilité.",
+        "en": "Strengthen his vessel's mooring lines, the ice being broken around the waterline by him or under his responsibility.",
+        "correct": true
+      },
+      {
+        "fr": "Détacher entièrement le bateau de la rive pour le laisser dériver librement avec les glaces.",
+        "en": "Completely detach the vessel from the bank to let it drift freely with the ice.",
+        "correct": false
+      },
+      {
+        "fr": "Confier obligatoirement le brisage de la glace au gestionnaire de la voie d'eau, jamais au conducteur.",
+        "en": "Mandatorily entrust the ice-breaking to the waterway manager, never to the boatmaster.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-25",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232853"
+    }
+  },
+  {
+    "option": "eaux_interieures",
     "theme": "signalisation_fluviale",
     "source": "rgp",
     "ref": "RGP, art. A4241-48-16",
@@ -621,6 +1362,45 @@
       "num": "A4241-48-2",
       "source_id": "code_transports",
       "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039023130"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-48-3",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Sauf prescription contraire, quelle forme doivent avoir les panneaux et pavillons prescrits par la réglementation de la signalisation à bord ?",
+      "explanation": "Sauf prescriptions contraires, les panneaux et pavillons prescrits doivent être rectangulaires ; leurs couleurs ne doivent être ni passées ni salies et leurs dimensions suffisantes pour assurer la bonne visibilité."
+    },
+    "en": {
+      "stem": "Unless otherwise prescribed, what shape must the panels and flags required by the on-board signalling rules have?",
+      "explanation": "Unless otherwise prescribed, the required panels and flags must be rectangular; their colours must be neither faded nor soiled, and their dimensions sufficient to ensure good visibility."
+    },
+    "choices": [
+      {
+        "fr": "Rectangulaire",
+        "en": "Rectangular",
+        "correct": true
+      },
+      {
+        "fr": "Triangulaire",
+        "en": "Triangular",
+        "correct": false
+      },
+      {
+        "fr": "Circulaire",
+        "en": "Circular",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-48-3",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908932"
     }
   },
   {
@@ -744,6 +1524,84 @@
     "option": "eaux_interieures",
     "theme": "signalisation_fluviale",
     "source": "rgp",
+    "ref": "RGP, art. A4241-48-6",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Lorsqu'un feu de signalisation prescrit cesse de fonctionner, que doit faire le conducteur ?",
+      "explanation": "Lorsqu'un feu de signalisation prescrit ne fonctionne pas, il doit être remplacé sans délai par un feu de secours ; le rétablissement d'un feu ayant la puissance prescrite a lieu dans les plus brefs délais."
+    },
+    "en": {
+      "stem": "When a prescribed signalling light fails to work, what must the operator do?",
+      "explanation": "When a prescribed signalling light is not working, it must be replaced without delay by an emergency light; restoration of a light of the prescribed intensity must take place as quickly as possible."
+    },
+    "choices": [
+      {
+        "fr": "Le remplacer sans délai par un feu de secours",
+        "en": "Replace it without delay with an emergency light",
+        "correct": true
+      },
+      {
+        "fr": "Interrompre la navigation jusqu'à la réparation définitive du feu",
+        "en": "Stop navigating until the light is permanently repaired",
+        "correct": false
+      },
+      {
+        "fr": "Attendre le prochain port pour signaler la panne, sans autre mesure",
+        "en": "Wait until the next port to report the failure, with no other measure",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-48-6",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908938"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
+    "ref": "RGP, art. A4241-48-7",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Que dit la réglementation au sujet de l'emploi de lumières, projecteurs, panneaux, pavillons ou flammes à bord ?",
+      "explanation": "Il est interdit d'utiliser des lumières, projecteurs, panneaux, pavillons ou autres objets qui risquent d'être confondus avec les feux ou signaux réglementaires, de nuire à leur visibilité ou de compliquer leur identification, ainsi que des lumières ou projecteurs produisant un éblouissement dangereux ou gênant pour la navigation."
+    },
+    "en": {
+      "stem": "What does the regulation say about the use of lights, searchlights, panels, flags or pennants on board?",
+      "explanation": "It is forbidden to use lights, searchlights, panels, flags or other objects liable to be confused with the regulatory lights or signals, to impair their visibility or to complicate their identification, as well as lights or searchlights producing dazzle that could endanger or hinder navigation."
+    },
+    "choices": [
+      {
+        "fr": "Il est interdit d'utiliser des lumières ou objets risquant d'être confondus avec les feux et signaux réglementaires",
+        "en": "It is forbidden to use lights or objects liable to be confused with the regulatory lights and signals",
+        "correct": true
+      },
+      {
+        "fr": "Tout éclairage publicitaire est autorisé pourvu qu'il soit éteint la nuit",
+        "en": "Any advertising lighting is allowed provided it is switched off at night",
+        "correct": false
+      },
+      {
+        "fr": "Les projecteurs éblouissants sont permis s'ils sont orientés vers la rive",
+        "en": "Dazzling searchlights are permitted if they are aimed towards the bank",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-48-7",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908940"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
     "ref": "RGP, art. A4241-49-2",
     "polarity": "affirmative",
     "fr": {
@@ -822,6 +1680,45 @@
     "option": "eaux_interieures",
     "theme": "signalisation_fluviale",
     "source": "rgp",
+    "ref": "RGP, art. A4241-49-4",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Pour demander du secours, quel signal sonore un bateau en détresse peut-il émettre ?",
+      "explanation": "Un bateau en détresse qui veut demander du secours peut émettre des volées de cloche ou des sons prolongés répétés ; ces signaux remplacent ou complètent les signaux visuels de détresse."
+    },
+    "en": {
+      "stem": "To call for help, what sound signal may a vessel in distress give?",
+      "explanation": "A vessel in distress wishing to call for help may sound bell peals or repeated prolonged blasts; these signals replace or supplement the visual distress signals."
+    },
+    "choices": [
+      {
+        "fr": "Des volées de cloche ou des sons prolongés répétés",
+        "en": "Bell peals or repeated prolonged blasts",
+        "correct": true
+      },
+      {
+        "fr": "Un seul son bref suivi d'un silence d'une minute",
+        "en": "A single short blast followed by a one-minute silence",
+        "correct": false
+      },
+      {
+        "fr": "Trois sons brefs émis une seule fois",
+        "en": "Three short blasts given only once",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-49-4",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909186"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
     "ref": "RGP, art. A4241-51-1",
     "polarity": "affirmative",
     "fr": {
@@ -894,6 +1791,123 @@
       "num": "A4241-51-2",
       "source_id": "code_transports",
       "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909202"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-48",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Comment sont fixés le type d'équipement et les modalités d'utilisation de la signalisation visuelle que portent les bateaux ?",
+      "explanation": "Les bateaux portent une signalisation visuelle dont le type d'équipement, les modalités d'installation et les modalités d'utilisation sont définis par arrêté du ministre chargé des transports, lequel peut aussi prévoir une signalisation particulière pour certains types de bateaux ou situations."
+    },
+    "en": {
+      "stem": "How are the type of equipment and the conditions of use of the visual signalling carried by vessels set?",
+      "explanation": "Vessels carry visual signalling whose type of equipment, installation conditions and conditions of use are defined by order of the minister responsible for transport, who may also provide for special signalling for certain types of vessels or situations."
+    },
+    "choices": [
+      {
+        "fr": "Par arrêté du ministre chargé des transports",
+        "en": "By order of the minister responsible for transport",
+        "correct": true
+      },
+      {
+        "fr": "Par décision libre de chaque conducteur selon les circonstances",
+        "en": "By each operator's free choice according to the circumstances",
+        "correct": false
+      },
+      {
+        "fr": "Par le seul gestionnaire de la voie d'eau, sans cadre national",
+        "en": "By the waterway manager alone, without any national framework",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-48",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232913"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-49",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "En matière d'équipement, quelle obligation s'applique aux bateaux, à l'exception des menues embarcations ?",
+      "explanation": "Tous les bateaux sont équipés d'un dispositif permettant d'émettre des signaux sonores ; en outre, les bateaux, à l'exception des menues embarcations, sont équipés d'une installation de radiotéléphonie."
+    },
+    "en": {
+      "stem": "Regarding equipment, what obligation applies to vessels, except for small craft?",
+      "explanation": "All vessels must carry a device enabling them to give sound signals; in addition, vessels, except for small craft, must be equipped with a radiotelephone installation."
+    },
+    "choices": [
+      {
+        "fr": "Être équipés d'une installation de radiotéléphonie",
+        "en": "Be equipped with a radiotelephone installation",
+        "correct": true
+      },
+      {
+        "fr": "Embarquer obligatoirement un appareil radar de navigation",
+        "en": "Carry a navigation radar device as a requirement",
+        "correct": false
+      },
+      {
+        "fr": "Disposer en toutes circonstances d'un système d'identification automatique (AIS)",
+        "en": "Have an automatic identification system (AIS) in all circumstances",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-49",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038225665"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "signalisation_fluviale",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-50",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Dans quel cas l'usage d'un appareil radar de navigation s'impose-t-il à un bateau ?",
+      "explanation": "L'usage d'un appareil radar de navigation est imposé, pour des raisons de sécurité, à certains bateaux ou dans certaines situations de navigation déterminés par arrêté du ministre chargé des transports."
+    },
+    "en": {
+      "stem": "In what case is the use of a navigation radar device mandatory for a vessel?",
+      "explanation": "The use of a navigation radar device is required, for safety reasons, for certain vessels or in certain navigation situations determined by order of the minister responsible for transport."
+    },
+    "choices": [
+      {
+        "fr": "Pour certains bateaux ou certaines situations de navigation déterminés par arrêté ministériel",
+        "en": "For certain vessels or certain navigation situations determined by ministerial order",
+        "correct": true
+      },
+      {
+        "fr": "Pour tous les bateaux sans exception dès qu'ils naviguent de nuit",
+        "en": "For all vessels without exception as soon as they navigate at night",
+        "correct": false
+      },
+      {
+        "fr": "Uniquement pour les menues embarcations motorisées",
+        "en": "Only for motorised small craft",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-50",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232919"
     }
   },
   {
@@ -1056,6 +2070,45 @@
     "option": "eaux_interieures",
     "theme": "voies_navigables",
     "source": "rgp",
+    "ref": "RGP, art. A4241-54-6",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "À une aire de stationnement où est implanté un panneau d'indication signalant des aires de stationnement particulières (type E.5.4 à E.5.15), qui peut y stationner ?",
+      "explanation": "Le règlement précise que seules les catégories de bateaux auxquelles le panneau s'applique peuvent stationner, et uniquement du côté de la voie où le panneau est placé."
+    },
+    "en": {
+      "stem": "At a berthing area where a special-berth indication sign (type E.5.4 to E.5.15) is set up, who may berth there?",
+      "explanation": "The rules state that only the categories of vessel to which the sign applies may berth, and only on the side of the waterway where the sign is placed."
+    },
+    "choices": [
+      {
+        "fr": "Seules les catégories de bateaux auxquelles le panneau s'applique, et uniquement du côté de la voie où le panneau est placé.",
+        "en": "Only the categories of vessel to which the sign applies, and only on the side of the waterway where the sign is placed.",
+        "correct": true
+      },
+      {
+        "fr": "Tous les bateaux, des deux côtés de la voie, sans restriction de catégorie.",
+        "en": "All vessels, on both sides of the waterway, with no category restriction.",
+        "correct": false
+      },
+      {
+        "fr": "Les catégories de bateaux visées par le panneau, mais des deux côtés de la voie indifféremment.",
+        "en": "The categories of vessel covered by the sign, but on either side of the waterway indifferently.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "A4241-54-6",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909512"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "voies_navigables",
+    "source": "rgp",
     "ref": "RGP, art. A4241-54-8",
     "polarity": "affirmative",
     "fr": {
@@ -1089,6 +2142,162 @@
       "num": "A4241-54-8",
       "source_id": "code_transports",
       "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909516"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "voies_navigables",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-27",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Quelle exigence le chargement d'un bateau doit-il respecter à l'égard de la visibilité pour la conduite ?",
+      "explanation": "Le chargement à bord ne doit pas étendre la zone de non-visibilité directe ou indirecte nécessaire à la conduite du bateau, dans les conditions fixées par arrêté ministériel."
+    },
+    "en": {
+      "stem": "What requirement must a vessel's loading meet with regard to visibility for steering?",
+      "explanation": "The load on board must not extend the zone of direct or indirect non-visibility required to steer the vessel, under conditions set by ministerial order."
+    },
+    "choices": [
+      {
+        "fr": "Le chargement ne doit pas étendre la zone de non-visibilité directe ou indirecte pour la conduite du bateau.",
+        "en": "The load must not extend the zone of direct or indirect non-visibility for steering the vessel.",
+        "correct": true
+      },
+      {
+        "fr": "Le chargement peut réduire la visibilité tant qu'une vigie est postée à l'avant du bateau.",
+        "en": "The load may reduce visibility as long as a lookout is posted at the bow of the vessel.",
+        "correct": false
+      },
+      {
+        "fr": "Le chargement ne doit jamais dépasser la hauteur de la timonerie, quelle que soit la visibilité.",
+        "en": "The load must never exceed the height of the wheelhouse, regardless of visibility.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-27",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232861"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "voies_navigables",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-39",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Comment le conducteur d'un bateau doit-il réagir aux ordres particuliers donnés par les fonctionnaires et agents chargés de la police de la navigation en vue de la sécurité ou du bon ordre de la navigation ?",
+      "explanation": "Le conducteur se conforme aux ordres particuliers qui lui sont donnés par ces fonctionnaires et agents en vue de la sécurité ou du bon ordre de la navigation."
+    },
+    "en": {
+      "stem": "How must the master of a vessel respond to the specific orders given by the officials and agents in charge of navigation policing for the safety or good order of navigation?",
+      "explanation": "The master complies with the specific orders given by these officials and agents for the safety or good order of navigation."
+    },
+    "choices": [
+      {
+        "fr": "Il se conforme aux ordres particuliers donnés en vue de la sécurité ou du bon ordre de la navigation.",
+        "en": "He complies with the specific orders given for the safety or good order of navigation.",
+        "correct": true
+      },
+      {
+        "fr": "Il peut refuser de s'y conformer s'il estime sa propre route prioritaire.",
+        "en": "He may refuse to comply if he considers his own course to have priority.",
+        "correct": false
+      },
+      {
+        "fr": "Il n'est tenu de s'y conformer que sur les voies maritimes, jamais sur les voies intérieures.",
+        "en": "He is required to comply only on maritime waterways, never on inland waterways.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-39",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232891"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "voies_navigables",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-40",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Quelle obligation incombe au conducteur d'un bateau envers les fonctionnaires et agents chargés de la police de la navigation qui constatent des infractions ?",
+      "explanation": "Le conducteur doit donner à ces fonctionnaires et agents les facilités nécessaires pour leur permettre d'exercer leur mission de constatation des infractions."
+    },
+    "en": {
+      "stem": "What obligation does the master of a vessel have towards the officials and agents in charge of navigation policing who record offences?",
+      "explanation": "The master must give these officials and agents the facilities needed to enable them to carry out their task of recording offences."
+    },
+    "choices": [
+      {
+        "fr": "Leur donner les facilités nécessaires pour exercer leur mission de constatation des infractions.",
+        "en": "Give them the facilities needed to carry out their task of recording offences.",
+        "correct": true
+      },
+      {
+        "fr": "Quitter immédiatement les lieux pour ne pas entraver leur intervention.",
+        "en": "Leave the scene immediately so as not to hinder their intervention.",
+        "correct": false
+      },
+      {
+        "fr": "N'accorder son aide que si les agents lui présentent au préalable un mandat judiciaire.",
+        "en": "Provide assistance only if the agents first present him with a judicial warrant.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-40",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232893"
+    }
+  },
+  {
+    "option": "eaux_interieures",
+    "theme": "voies_navigables",
+    "source": "rgp",
+    "ref": "RGP, art. R4241-41",
+    "polarity": "affirmative",
+    "fr": {
+      "stem": "Que doit faire le conducteur d'un bateau à l'égard des documents dont la présence à bord est obligatoire ?",
+      "explanation": "Tout conducteur est tenu de présenter les documents obligatoires à bord à toute réquisition des agents chargés de la police de la navigation."
+    },
+    "en": {
+      "stem": "What must the master of a vessel do regarding the documents that must be kept on board?",
+      "explanation": "Every master is required to produce the documents that must be on board upon any request by the agents in charge of navigation policing."
+    },
+    "choices": [
+      {
+        "fr": "Les présenter à toute réquisition des agents chargés de la police de la navigation.",
+        "en": "Produce them upon any request by the agents in charge of navigation policing.",
+        "correct": true
+      },
+      {
+        "fr": "Les transmettre uniquement par voie postale dans les huit jours suivant la demande.",
+        "en": "Send them by post only, within eight days of the request.",
+        "correct": false
+      },
+      {
+        "fr": "Les présenter seulement aux agents porteurs d'une réquisition écrite d'un juge.",
+        "en": "Produce them only to agents holding a written requisition from a judge.",
+        "correct": false
+      }
+    ],
+    "status": "pending",
+    "generator": "derive:legi.v1",
+    "article": {
+      "num": "R4241-41",
+      "source_id": "code_transports",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232895"
     }
   }
 ]

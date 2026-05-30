@@ -74,6 +74,45 @@ TARGETS: list[tuple[str, str, str]] = [
     ("1", "decret_2007", "reglementation"),   # définition « bateau de plaisance »
     ("10", "decret_2007", "reglementation"),  # initiation à la conduite des VNM
     ("11", "decret_2007", "reglementation"),  # voies et plans d'eau intérieurs
+
+    # ===================== BATCH 2 (RGP arrêté + décret) =====================
+    # --- Règles de route -----------------------------------------------------
+    ("A4241-53-4", "rgp", "regles_route"),    # passage/dépassement — principes généraux
+    ("A4241-53-18", "rgp", "regles_route"),   # navigation à la même hauteur / s'approcher
+    ("A4241-53-20", "rgp", "regles_route"),   # navigation à la dérive et arrêt
+    ("A4241-53-13", "rgp", "regles_route"),   # secteurs où la route est prescrite
+    ("R4241-10", "rgp", "regles_route"),      # vitesse adaptée aux circonstances
+    ("R4241-6", "rgp", "regles_route"),       # le conducteur doit être à bord en route
+    ("R4241-4", "rgp", "regles_route"),       # équipage/passagers se conforment aux ordres
+    # --- Sécurité / devoirs du conducteur ------------------------------------
+    ("R4241-15", "rgp", "securite"),          # mesures de précaution (prudence)
+    ("R4241-16", "rgp", "securite"),          # personnes à bord obéissent au conducteur
+    ("R4241-18", "rgp", "securite"),          # sinistre/incendie à bord
+    ("R4241-19", "rgp", "securite"),          # objets débordant sur les côtés
+    ("R4241-22", "rgp", "securite"),          # perte d'objet / obstacle rencontré
+    ("R4241-24", "rgp", "securite"),          # bateau échoué ou coulé
+    ("R4241-25", "rgp", "securite"),          # renforcer les amarres (crue/danger)
+    # --- Voies navigables & contrôle -----------------------------------------
+    ("A4241-54-6", "rgp", "voies_navigables"),  # aires de stationnement particulières
+    ("R4241-27", "rgp", "voies_navigables"),    # chargement et zone de non-visibilité
+    ("R4241-41", "rgp", "voies_navigables"),    # présenter les documents aux agents
+    ("R4241-40", "rgp", "voies_navigables"),    # donner aux agents les moyens de contrôle
+    ("R4241-39", "rgp", "voies_navigables"),    # se conformer aux ordres des agents
+    # --- Écluses, ponts, ouvrages --------------------------------------------
+    ("A4241-53-27", "rgp", "ecluses"),        # passage des ponts fixes
+    ("R4241-71", "rgp", "ecluses"),           # passerelles d'écluse — interdictions
+    ("R4241-21", "rgp", "ecluses"),           # dommages aux ouvrages d'art
+    # --- Signalisation des bateaux -------------------------------------------
+    ("A4241-48-3", "rgp", "signalisation_fluviale"),   # pavillons, panneaux et flammes
+    ("A4241-48-7", "rgp", "signalisation_fluviale"),   # interdiction lumières éblouissantes
+    ("A4241-48-6", "rgp", "signalisation_fluviale"),   # feux de secours
+    ("A4241-49-4", "rgp", "signalisation_fluviale"),   # signaux de détresse sonores
+    ("R4241-49", "rgp", "signalisation_fluviale"),     # dispositif d'émission de signaux sonores
+    ("R4241-50", "rgp", "signalisation_fluviale"),     # radar par visibilité réduite
+    ("R4241-48", "rgp", "signalisation_fluviale"),     # signalisation visuelle des bateaux
+    # --- Environnement -------------------------------------------------------
+    ("R4241-23", "rgp", "environnement"),     # jeter/laisser tomber dans les eaux
+    ("R4241-65", "rgp", "environnement"),     # carnet de contrôle des huiles usées
 ]
 
 # The source a seed/draft `source` id resolves to in the ingested KB.
@@ -150,11 +189,14 @@ def ingest(draft_glob: str | None = None) -> dict:
     and be well-formed. Existing approvals/rejections are preserved by ref."""
     idx = _kb_index()
     targets = {f"{_REF_PREFIX[s]}{n}": (n, s, t) for n, s, t in TARGETS}
-    prior = {d["ref"]: d for d in load_drafts()}
+    # Start from the existing committed drafts (durable record) and overlay any
+    # new/updated drafts from the scratch files — so earlier batches survive even
+    # if their scratch draft files are gone, and approvals/rejections are kept.
+    merged = {d["ref"]: d for d in load_drafts()}
     raw: list[dict] = []
     for f in sorted(glob.glob(draft_glob or os.path.join(JOBS_DIR, "draft_*.json"))):
         raw += json.load(open(f, encoding="utf-8"))
-    out, problems = [], []
+    problems = []
     for d in raw:
         ref = d.get("ref", "")
         if ref not in targets:
@@ -165,7 +207,7 @@ def ingest(draft_glob: str | None = None) -> dict:
             "option": "eaux_interieures", "theme": theme, "source": src, "ref": ref,
             "polarity": d.get("polarity", "affirmative"),
             "fr": d["fr"], "en": d["en"], "choices": d["choices"],
-            "status": prior.get(ref, {}).get("status", "pending"),
+            "status": merged.get(ref, {}).get("status", "pending"),
             "generator": GENERATOR,
             "article": {"num": num, "source_id": _SEED_SRC_TO_KB[src],
                         "url": idx[(_SEED_SRC_TO_KB[src], num)]["source_url"]}}
@@ -173,8 +215,8 @@ def ingest(draft_glob: str | None = None) -> dict:
         if errs:
             problems.append(f"{ref}: {'; '.join(errs)}")
             continue
-        out.append(entry)
-    out.sort(key=lambda e: (e["theme"], e["ref"]))
+        merged[ref] = entry
+    out = sorted(merged.values(), key=lambda e: (e["theme"], e["ref"]))
     with open(DRAFTS_JSON, "w", encoding="utf-8") as fh:
         json.dump(out, fh, ensure_ascii=False, indent=2)
     return {"ingested": len(out), "problems": problems,
