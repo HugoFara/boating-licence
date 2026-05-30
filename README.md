@@ -174,19 +174,77 @@ empty theme. The player and Anki/GIFT exporters already render the `voile` label
 in all four languages, so a cat-D bank lights up the existing study-by-domain UI
 the moment it has content.
 
+## Beyond Switzerland — multi-country (Germany)
+
+The project began Switzerland-implicit; it now has a **country dimension** so the
+same machinery can serve other national exams.
+
+- **`src/countries/`** — the registry. One file per country (`ch.py`, `de.py`,
+  `fr.py`, …) declaring its law sources, exam-theme taxonomy + tagger, permit
+  catalogue and regional regimes — the config the fetch→parse→normalize pipeline
+  consumes. The Swiss module is a thin adapter over the original flat modules, so
+  CH is unchanged. Adding a country = one new file + one registry line, so
+  parallel work doesn't collide.
+- **`src/cevni.py`** — inland-navigation rules are national implementations of
+  **CEVNI** (the UNECE inland-waterways code), so the harmonised signs/buoyage/
+  signals form a shared core reusable across signatory countries; this classifies
+  which questions are portable vs country-/water-specific.
+
+Run a country build with `--country` (default `CH`, so nothing changes by
+default):
+
+```bash
+python run.py build --country DE      # German SBF law (de) into the KB
+```
+
+### Germany — Sportbootführerschein
+
+Germany is a far richer target than the Swiss original on two counts the research
+established:
+
+- **Federal law is machine-readable and public-domain.** gesetze-im-internet.de
+  serves each ordinance as structured XML at `<slug>/xml.zip` — the German
+  analogue of Fedlex. `run.py build --country DE` pulls **SeeSchStrO, BinSchStrO,
+  the KVR/COLREG, the SpFV and the RheinSchPV** (≈1,750 article units, incl. the
+  buoyage/light/sign diagrams), tagged to a German taxonomy (`countries/de_themes.py`:
+  Verkehrsregeln, Schifffahrtszeichen, Lichter/Signale, Wetterkunde, …). German
+  federal law is free of copyright under **§5(1) UrhG**.
+- **The official question catalogues are very likely free to reuse.** Unlike the
+  off-limits Swiss asa bank, the ELWIS *amtliche Fragenkataloge* for SBF See/Binnen
+  (≈300 questions each) are most likely **amtliche Werke under §5(2) UrhG** —
+  reusable verbatim, with source attribution and no modification. They are recorded
+  as `references` in `countries/de.py` (the legal finding lives in code) but are
+  **not ingested yet** — that is a dedicated follow-up.
+
+Permit types modelled (data + block-based exam rules): the federal **SBF See** and
+**SBF Binnen** (motor / sail / both), the voluntary **SKS / SSS / SHS**, and the
+trinational **Bodensee-Schifferpatent** (cat A motor / D sail) — the German
+parallel to the project's shared-lake (Lac Léman) origin. Buoyage is **IALA Region
+A** (red to port when entering). A 2025–26 reform is in flux (licence threshold
+11.03 kW; a possible move to association certificates ~2028) and is flagged as
+*pending*, not settled law (`countries/de.py:REFORM_NOTE`).
+
+> Scope note: this is the country scaffold + **law** ingestion. German *question*
+> generation, catalogue ingestion, block-based grading in the player and a player
+> country-switcher UI are follow-ups.
+
 ## Layout
 
 ```
 run.py                 CLI orchestrator (build / questions / draft / review / web)
 src/
   sources.py           approved source registry (provenance + licence)
-  fetch.py             stage 1 — fetch + cache (Fedlex SPARQL, MediaWiki API, HTTP)
+  fetch.py             stage 1 — fetch + cache (Fedlex SPARQL, gesetze-im-internet
+                         xml.zip, MediaWiki API, HTTP)
   parse.py             stage 2 — dispatch to parsers
-  parsers/             Akoma Ntoso law, MediaWiki prose, generic HTML
+  parsers/             Akoma Ntoso (CH), gii (DE law XML), MediaWiki prose, HTML
   normalize.py         stage 3 — merge -> SQLite + asset localization
   schema.py            KnowledgeUnit + SQLite DDL + JSON export
-  themes.py            exam taxonomy + tagging rules (+ per-permit theme sets)
+  themes.py            CH exam taxonomy + tagging rules (+ per-permit theme sets)
   cantons.py           per-canton exam variance (the time limit; VKS otherwise)
+  countries/           country registry (ch.py/de.py/fr.py: sources, tagger,
+                         themes, permits, regions) consumed by the pipeline
+  cevni.py             CEVNI-core classification (which questions are portable)
   questions/
     schema.py          canonical question schema, scoring, review gate, JSON export
     figures.py         templated figure-recognition generator

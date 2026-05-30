@@ -15,7 +15,7 @@ from dataclasses import dataclass, field
 class Source:
     id: str                 # stable short id, also the raw-cache subdir
     name: str               # human label (carried into provenance)
-    kind: str               # "fedlex" | "wikipedia" | "html"
+    kind: str               # "fedlex" | "gii" | "wikipedia" | "html"
     url: str                # canonical reference URL (for provenance)
     default_theme: str | None = None   # tagging fallback hint
     licence: str = ""       # licence / reuse note recorded per unit
@@ -26,6 +26,7 @@ class Source:
     lang: str = "fr"
     # kind-specific knobs:
     eli: str = ""           # fedlex: ELI fragment used to resolve files via SPARQL
+    gii_slug: str = ""      # gii: gesetze-im-internet.de law slug (-> <slug>/xml.zip)
     want_pdf: bool = False  # fedlex: also fetch PDF/A for annex figures
     titles: tuple[str, ...] = field(default_factory=tuple)  # wikipedia page titles
 

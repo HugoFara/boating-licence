@@ -63,20 +63,21 @@ def _localize_asset(path: str, source_id: str, lang: str = "fr") -> str | None:
     return None
 
 
-def _propagate_themes(units: list[KnowledgeUnit]) -> int:
-    """Cross-language theme propagation for articles. `themes.tag_theme` keys on
-    French wording, so a German/Italian article keyword-tags poorly and falls to
-    its source default. But the same article is parallel across languages under a
-    language-neutral ref ("ONI art. 23" is identical in fr/de/it), so each non-FR
-    article inherits its FR sibling's (correctly-tagged) theme. Returns the count
-    of units whose theme was corrected. No-op when FR isn't in the build, and
-    figures keep their language-independent default ('signalisation'). Idempotent."""
-    fr_theme = {u.ref: u.theme for u in units
-                if u.lang == "fr" and u.kind == "article"}
+def _propagate_themes(units: list[KnowledgeUnit], base_lang: str = "fr") -> int:
+    """Cross-language theme propagation for articles. The Swiss `themes.tag_theme`
+    keys on French wording, so a German/Italian article keyword-tags poorly and
+    falls to its source default. But the same article is parallel across languages
+    under a language-neutral ref ("ONI art. 23" is identical in fr/de/it), so each
+    non-base-language article inherits its base sibling's (correctly-tagged) theme.
+    Returns the count of units whose theme was corrected. No-op when the base
+    language isn't in the build (e.g. a single-language German build), and figures
+    keep their language-independent default ('signalisation'). Idempotent."""
+    base_theme = {u.ref: u.theme for u in units
+                  if u.lang == base_lang and u.kind == "article"}
     changed = 0
     for u in units:
-        if u.lang != "fr" and u.kind == "article":
-            target = fr_theme.get(u.ref)
+        if u.lang != base_lang and u.kind == "article":
+            target = base_theme.get(u.ref)
             if target is not None and target != u.theme:
                 u.theme = target
                 changed += 1
@@ -84,8 +85,16 @@ def _propagate_themes(units: list[KnowledgeUnit]) -> int:
 
 
 def normalize(parsed: dict[str, list[KnowledgeUnit]], db_path: str,
-              version: str, json_path: str | None = None) -> dict:
-    """Write all parsed units into the SQLite KB. Returns a stats dict."""
+              version: str, json_path: str | None = None,
+              themes_table: dict | None = None,
+              extension_themes: frozenset | None = None,
+              base_lang: str = "fr", country_code: str = "CH") -> dict:
+    """Write all parsed units into the SQLite KB. Returns a stats dict. The theme
+    table / extension set / base language default to the Swiss ones, so the
+    original CH build is unchanged; pass a country's values for other builds."""
+    themes_table = THEMES if themes_table is None else themes_table
+    extension_themes = (EXTENSION_THEMES if extension_themes is None
+                        else extension_themes)
     units: list[KnowledgeUnit] = []
     seen_ids: set[str] = set()
     # Iterate parsed values in insertion order (FR first, then any DE/IT) so the
@@ -104,7 +113,7 @@ def normalize(parsed: dict[str, list[KnowledgeUnit]], db_path: str,
             u.assets = kept
             units.append(u)
 
-    propagated = _propagate_themes(units)
+    propagated = _propagate_themes(units, base_lang)
 
     conn = schema.connect(db_path)
     # fresh build: clear prior rows so re-runs are clean
@@ -113,7 +122,8 @@ def normalize(parsed: dict[str, list[KnowledgeUnit]], db_path: str,
     conn.execute("DELETE FROM units")
     conn.commit()
     schema.write_units(conn, units)
-    schema.set_meta(conn, kb_version=version, unit_count=len(units),
+    schema.set_meta(conn, kb_version=version, country=country_code,
+                    unit_count=len(units),
                     source_count=len({u.source_id for u in units}),
                     languages=",".join(sorted({u.lang for u in units})))
 
@@ -125,10 +135,12 @@ def normalize(parsed: dict[str, list[KnowledgeUnit]], db_path: str,
         "by_lang": dict(Counter(u.lang for u in units)),
         "assets": sum(len(u.assets) for u in units),
         "themes_propagated": propagated,
-        # Extension themes (e.g. cat-D `voile`) are scaffolded ahead of a source,
-        # so a stock cat-A build legitimately has no units for them — don't warn.
-        "themes_missing": [t for t in THEMES if t not in {u.theme for u in units}
-                           and t not in EXTENSION_THEMES],
+        # Extension themes (e.g. cat-D `voile`, or German catalogue-only topics)
+        # are scaffolded ahead of a source, so a law-only build legitimately has
+        # no units for them — don't warn.
+        "themes_missing": [t for t in themes_table
+                           if t not in {u.theme for u in units}
+                           and t not in extension_themes],
     }
 
     if json_path:

@@ -10,10 +10,13 @@ resolve structured files (Akoma Ntoso XML + PDF/A) via the SPARQL endpoint.
 from __future__ import annotations
 
 import datetime as _dt
+import io
 import json
 import os
+import re
 import time
 import urllib.parse
+import zipfile
 
 import requests
 
@@ -21,6 +24,7 @@ from .sources import Source, SOURCES
 
 RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "raw")
 SPARQL = "https://fedlex.data.admin.ch/sparqlendpoint"
+GII_BASE = "https://www.gesetze-im-internet.de"
 HEADERS = {"User-Agent": "boat-permit-study/0.1 (Phase 1 aggregator; personal study tool)"}
 WP_API = "https://fr.wikipedia.org/w/api.php"
 
@@ -163,6 +167,71 @@ def fetch_fedlex(src: Source, force: bool = False, lang: str = "fr") -> dict:
 
 
 # --------------------------------------------------------------------------
+# gesetze-im-internet.de (German federal law): each ordinance ships as a single
+# <slug>/xml.zip — one gii-norm XML plus any bundled annex images. Public domain
+# under §5(1) UrhG. The German analogue of the Fedlex path; German law is
+# single-language, so there is no per-language manifestation to resolve.
+# --------------------------------------------------------------------------
+
+def _gii_version(xml_path: str) -> str:
+    """Best-effort 'as-of' for a gii act: the 'Stand' comment if present, else the
+    promulgation (Ausfertigung) date — read from the framing header norm."""
+    from lxml import etree
+    root = etree.parse(xml_path).getroot()
+    stand = root.findtext(".//standangabe/standkommentar")
+    if stand and stand.strip():
+        return re.sub(r"\s+", " ", stand).strip()
+    aus = root.findtext(".//ausfertigung-datum")
+    return (aus or "").strip()
+
+
+def fetch_gii(src: Source, force: bool = False, lang: str = "de") -> dict:
+    """Fetch one German ordinance. Mirrors fetch_fedlex's cache layout: FR (n/a
+    here) would stay flat, other languages live under data/raw/<id>/<lang>/."""
+    cache_key = src.id if lang == "fr" else os.path.join(src.id, lang)
+    manifest_path = _raw_path(cache_key, "manifest.json")
+    if os.path.exists(manifest_path) and not force:
+        with open(manifest_path, encoding="utf-8") as fh:
+            return json.load(fh)
+
+    slug = src.gii_slug or src.id
+    url = f"{GII_BASE}/{slug}/xml.zip"
+    zf = zipfile.ZipFile(io.BytesIO(_get(url).content))
+
+    files: dict = {}
+    images: dict = {}
+    xml_local = ""
+    for name in zf.namelist():
+        if name.endswith("/"):
+            continue
+        data = zf.read(name)
+        base = os.path.basename(name)
+        if base.lower().endswith(".xml"):
+            xml_local = _raw_path(cache_key, "act.xml")
+            with open(xml_local, "wb") as fh:
+                fh.write(data)
+            files["xml"] = {"url": url, "path": os.path.relpath(xml_local)}
+        else:                                  # bundled annex image, keyed by name
+            local = _raw_path(cache_key, "images", base)
+            with open(local, "wb") as fh:
+                fh.write(data)
+            images[base] = {"path": os.path.relpath(local), "bytes": len(data)}
+    if not xml_local:
+        raise RuntimeError(f"[{src.id}] no XML found in {url}")
+    if images:
+        files["images"] = images
+
+    manifest = {
+        "source_id": src.id, "kind": src.kind, "lang": lang, "retrieved": _today(),
+        "legal_version": _gii_version(xml_local), "files": files,
+        "canonical_url": src.url,
+    }
+    with open(manifest_path, "w", encoding="utf-8") as fh:
+        json.dump(manifest, fh, ensure_ascii=False, indent=2)
+    return manifest
+
+
+# --------------------------------------------------------------------------
 # Wikipedia: pull parsed HTML + revision id per page via the MediaWiki API.
 # --------------------------------------------------------------------------
 
@@ -228,7 +297,10 @@ def fetch_html(src: Source, force: bool = False) -> dict:
     return manifest
 
 
-_DISPATCH = {"fedlex": fetch_fedlex, "wikipedia": fetch_wikipedia, "html": fetch_html}
+_DISPATCH = {"fedlex": fetch_fedlex, "gii": fetch_gii,
+             "wikipedia": fetch_wikipedia, "html": fetch_html}
+# Law sources fetched as a per-language manifestation of one act.
+_PER_LANG_KINDS = {"fedlex", "gii"}
 
 
 def fetch_source(src: Source, force: bool = False) -> dict:
@@ -264,10 +336,10 @@ def fetch_for_langs(langs: list[str], sources: list[Source] | None = None,
     '<id>/<lang>' (non-fr law)."""
     out = {}
     for src in (sources or SOURCES):
-        if src.kind == "fedlex":
+        if src.kind in _PER_LANG_KINDS:
             for lang in langs:
                 key = src.id if lang == "fr" else f"{src.id}/{lang}"
-                out[key] = fetch_fedlex(src, force=force, lang=lang)
+                out[key] = _DISPATCH[src.kind](src, force=force, lang=lang)
         elif src.lang in langs:
             out[src.id] = fetch_source(src, force=force)
     return out

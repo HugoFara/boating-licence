@@ -11,15 +11,18 @@ import os
 
 from .sources import Source, SOURCES
 from .schema import KnowledgeUnit
-from .parsers import akn, wikipedia, html_generic
+from .parsers import akn, gii, wikipedia, html_generic
 
 RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "raw")
 
 _PARSERS = {
     "fedlex": akn.parse,
+    "gii": gii.parse,
     "wikipedia": wikipedia.parse,
     "html": html_generic.parse,
 }
+# Law kinds whose act is parsed once per requested language (per-lang raw cache).
+_PER_LANG_KINDS = {"fedlex", "gii"}
 
 
 def _manifest(source_id: str, lang: str = "fr") -> dict:
@@ -29,10 +32,10 @@ def _manifest(source_id: str, lang: str = "fr") -> dict:
 
 
 def parse_source(src: Source, lang: str = "fr") -> list[KnowledgeUnit]:
-    # fedlex: the requested language's manifestation lives under a per-lang subdir
-    # for non-fr (data/raw/<id>/<lang>/); language-specific sources (wikipedia/html)
-    # are cached flat in their own language.
-    if src.kind == "fedlex":
+    # law (fedlex/gii): the requested language's manifestation lives under a
+    # per-lang subdir for non-fr (data/raw/<id>/<lang>/); language-specific
+    # sources (wikipedia/html) are cached flat in their own language.
+    if src.kind in _PER_LANG_KINDS:
         return _PARSERS[src.kind](src, _manifest(src.id, lang))
     return _PARSERS[src.kind](src, _manifest(src.id))
 
@@ -45,7 +48,7 @@ def parse_all(sources: list[Source] | None = None,
     lang-specific source) or '<id>@<lang>' (non-fr law)."""
     out: dict[str, list[KnowledgeUnit]] = {}
     for src in (sources or SOURCES):
-        if src.kind == "fedlex":
+        if src.kind in _PER_LANG_KINDS:
             for lang in langs:
                 key = src.id if lang == "fr" else f"{src.id}@{lang}"
                 out[key] = parse_source(src, lang)
