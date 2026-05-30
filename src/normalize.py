@@ -63,6 +63,26 @@ def _localize_asset(path: str, source_id: str, lang: str = "fr") -> str | None:
     return None
 
 
+def _propagate_themes(units: list[KnowledgeUnit]) -> int:
+    """Cross-language theme propagation for articles. `themes.tag_theme` keys on
+    French wording, so a German/Italian article keyword-tags poorly and falls to
+    its source default. But the same article is parallel across languages under a
+    language-neutral ref ("ONI art. 23" is identical in fr/de/it), so each non-FR
+    article inherits its FR sibling's (correctly-tagged) theme. Returns the count
+    of units whose theme was corrected. No-op when FR isn't in the build, and
+    figures keep their language-independent default ('signalisation'). Idempotent."""
+    fr_theme = {u.ref: u.theme for u in units
+                if u.lang == "fr" and u.kind == "article"}
+    changed = 0
+    for u in units:
+        if u.lang != "fr" and u.kind == "article":
+            target = fr_theme.get(u.ref)
+            if target is not None and target != u.theme:
+                u.theme = target
+                changed += 1
+    return changed
+
+
 def normalize(parsed: dict[str, list[KnowledgeUnit]], db_path: str,
               version: str, json_path: str | None = None) -> dict:
     """Write all parsed units into the SQLite KB. Returns a stats dict."""
@@ -84,6 +104,8 @@ def normalize(parsed: dict[str, list[KnowledgeUnit]], db_path: str,
             u.assets = kept
             units.append(u)
 
+    propagated = _propagate_themes(units)
+
     conn = schema.connect(db_path)
     # fresh build: clear prior rows so re-runs are clean
     conn.execute("DELETE FROM cross_refs")
@@ -102,6 +124,7 @@ def normalize(parsed: dict[str, list[KnowledgeUnit]], db_path: str,
         "by_source": dict(Counter(u.source_id for u in units)),
         "by_lang": dict(Counter(u.lang for u in units)),
         "assets": sum(len(u.assets) for u in units),
+        "themes_propagated": propagated,
         "themes_missing": [t for t in THEMES if t not in {u.theme for u in units}],
     }
 

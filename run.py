@@ -98,6 +98,8 @@ def cmd_build(args):
     print(f"  by lang:   {stats['by_lang']}")
     print(f"  by source: {stats['by_source']}")
     print(f"  by kind:   {stats['by_kind']}")
+    if stats.get("themes_propagated"):
+        print(f"  themes propagated to DE/IT siblings: {stats['themes_propagated']}")
     print("  by theme:")
     for tid, label in THEMES.items():
         print(f"     {stats['by_theme'].get(tid, 0):4}  {label}")
