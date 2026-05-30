@@ -1,0 +1,110 @@
+{
+  "q-rnl-rnlart16-b7510c8f-16542548": {
+    "stem": "According to RNL art. 16, which statement is correct concerning events on the water?",
+    "choices": [
+      "When authorising an event, the authority may permit derogations from certain provisions of the Regulation provided that the safety of navigation is not affected",
+      "Nautical events never require prior authorisation",
+      "In the case of a binational event, a single authority decides without informing the other"
+    ],
+    "explanation": "RNL art. 16, para. 3, allows derogations from certain provisions provided that the safety of navigation is not affected."
+  },
+  "q-rnl-rnlart16-b7510c8f-1f0ecf56": {
+    "stem": "Under which condition in particular is authorisation for a nautical event granted according to RNL art. 16?",
+    "choices": [
+      "If the prescribed civil liability insurance has been taken out",
+      "If the event takes place exclusively in Swiss waters",
+      "If all participants hold a category A permit"
+    ],
+    "explanation": "RNL art. 16, para. 2, let. b, requires that the prescribed civil liability insurance has been taken out."
+  },
+  "q-rnl-rnlart62-ff70e033-43abc2ca": {
+    "stem": "When two vessels follow crossing courses with a possible danger of collision, which one must give way?",
+    "choices": [
+      "The vessel that sees the other on its starboard side",
+      "The vessel that sees the other on its port side",
+      "The faster of the two vessels"
+    ],
+    "explanation": "According to RNL art. 62, let. b, the vessel that sees the other on its starboard side must give way."
+  },
+  "q-rnl-rnlart62-ff70e033-558e424b": {
+    "stem": "When two vessels follow directly opposite courses with a risk of collision, how must they manoeuvre?",
+    "choices": [
+      "Each turns to starboard so as to pass port to port",
+      "Each turns to port so as to pass starboard to starboard",
+      "Both maintain their course and speed without any manoeuvre"
+    ],
+    "explanation": "RNL art. 62, let. c, provides that each vessel turns to starboard so as to pass port to port."
+  },
+  "q-rnl-rnlart64-284d0c2c-18625847": {
+    "stem": "According to the right-of-way rules, which vessel(s) must a sailing vessel give way to?",
+    "choices": [
+      "Passenger vessels having right of way and towed convoys",
+      "Cargo vessels",
+      "Rowing boats"
+    ],
+    "explanation": "According to RNL art. 64, para. 2, the sailing vessel gives way in particular to passenger vessels having right of way, towed convoys and cargo vessels, but not to rowing boats."
+  },
+  "q-rnl-rnlart64-284d0c2c-fb5747eb": {
+    "stem": "According to RNL art. 64, which statement is FALSE concerning sailboards and kitesurfs?",
+    "choices": [
+      "Other vessels must give way to sailboards and kitesurfs",
+      "Sailboards and kitesurfs give way to all other vessels",
+      "Every vessel must give way to a vessel unable to manoeuvre that signals its presence"
+    ],
+    "explanation": "RNL art. 64, para. 2, let. f, states on the contrary that sailboards and kitesurfs give way to all other vessels."
+  },
+  "q-rnl-rnlart84-4e300df7-0e7561f9": {
+    "stem": "Concerning the order of use of landing stages, which statement is FALSE according to RNL art. 84?",
+    "choices": [
+      "Boarding passengers may access the landing stage at the same time as passengers are disembarking",
+      "A passenger may not board or disembark without the formal authorisation of the operator or their agent",
+      "The waiting rule does not apply to landing stages equipped with independent entrances and exits"
+    ],
+    "explanation": "RNL art. 84, para. 4, requires on the contrary that boarding passengers access the landing stage only after the disembarking passengers have left it, except where there are independent entrances/exits."
+  },
+  "q-rnl-rnlart84-4e300df7-1c8a3d01": {
+    "stem": "According to RNL art. 84, under what conditions are the boarding and disembarking of passengers authorised?",
+    "choices": [
+      "Only at facilities permitted by the competent authority and after the operator has ensured that the vessel is properly moored",
+      "At any point on the shore as soon as the vessel slows down",
+      "Without mooring if the safety of the passengers appears to be guaranteed"
+    ],
+    "explanation": "RNL art. 84, para. 1, authorises boarding and disembarking only at permitted facilities and after verification of the mooring and of safety."
+  },
+  "q-rnl-rnlart86a-00f78534-609936c5": {
+    "stem": "Among the communication and information equipment, which items apply only to passenger vessels making an international trip?",
+    "choices": [
+      "The radar device",
+      "The rate-of-turn indicator",
+      "The radio installation capable of transmitting on alert channel 16"
+    ],
+    "explanation": "According to RNL art. 86a, para. 2, only the requirements of para. 1, let. a (radar) and b (rate-of-turn indicator) apply solely to international trips."
+  },
+  "q-rnl-rnlart86a-00f78534-eeb3d37b": {
+    "stem": "Which radio channel is designated as the alert channel (Lake Distress) in the equipment of passenger vessels?",
+    "choices": [
+      "Channel 16",
+      "Channel 12",
+      "Channel K"
+    ],
+    "explanation": "RNL art. 86a, para. 1, let. c, designates channel 16 as the alert channel (Lake Distress), channel 12 being operational and channel K being the command coordination channel."
+  },
+  "q-rnl-rnlart86f-185c6500-3ce33e08": {
+    "stem": "Concerning the inflatable collective lifesaving devices on board passenger vessels, which statements are correct?",
+    "choices": [
+      "They must consist of at least two separate air compartments",
+      "They must maintain a stable trim even if only half of the air compartments are inflated",
+      "They must inflate only by manual command, never automatically"
+    ],
+    "explanation": "RNL art. 86f, para. 3, requires at least two separate compartments and a stable trim even with half of the compartments inflated, the inflation being able to be automatic or manual."
+  },
+  "q-rnl-rnlart86f-185c6500-edf7bf9b": {
+    "stem": "What minimum buoyancy in fresh water must the collective lifesaving devices of a passenger vessel provide per person?",
+    "choices": [
+      "At least 750 N per person",
+      "At least 500 N per person",
+      "At least 100 N per person"
+    ],
+    "explanation": "According to RNL art. 86f, para. 2, let. b, the buoyancy in fresh water must be at least 750 N per person."
+  }
+}

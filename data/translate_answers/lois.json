@@ -1,0 +1,155 @@
+{
+  "q-oni-oniart134-df53e657-8ab76ad8": {
+    "stem": "What minimum buoyancy must an individual lifesaving device have (general case)?",
+    "choices": [
+      "At least 75 N",
+      "At least 750 N",
+      "At least 50 N"
+    ],
+    "explanation": "ONI art. 134, al. 2: at least 75 N (except for vessels referred to in art. 134a)."
+  },
+  "q-oni-oniart134-df53e657-a940bc26": {
+    "stem": "What minimum buoyancy must individual lifesaving devices have according to ONI art. 134 (excluding the exception of art. 134a)?",
+    "choices": [
+      "At least 75 N.",
+      "At least 100 N.",
+      "At least 50 N."
+    ],
+    "explanation": "ONI art. 134, al. 2 sets the buoyancy of individual devices at at least 75 N."
+  },
+  "q-oni-oniart134-df53e657-f7855b82": {
+    "stem": "According to ONI art. 134, above which thresholds must a pleasure or sport boat be provided with an additional lifesaving device that can be thrown into the water?",
+    "choices": [
+      "A power output greater than 30 kW, or a sail area exceeding 15 m2 for sailing boats.",
+      "A power output greater than 15 kW, or a sail area exceeding 30 m2.",
+      "A power output greater than 50 kW, or a sail area exceeding 10 m2."
+    ],
+    "explanation": "ONI art. 134, al. 5 applies to boats of more than 30 kW and to sailing boats whose sail area exceeds 15 m2."
+  },
+  "q-oni-oniart143a-26df4c56-2fcf560c": {
+    "stem": "What does ONI art. 143a provide regarding the metacentric height of the loaded boat ready to depart?",
+    "choices": [
+      "It must not be less than 1 m.",
+      "It must not be less than 0.5 m.",
+      "It must not exceed 1 m."
+    ],
+    "explanation": "ONI art. 143a, al. 2 specifies that the metacentric height of the loaded boat ready to depart must not be less than 1 m."
+  },
+  "q-oni-oniart143a-26df4c56-5e74c4ba": {
+    "stem": "For a loaded cargo boat ready to depart to be considered as having sufficient stability, what conditions does the text require?",
+    "choices": [
+      "The heeling angle does not exceed 5 degrees and the side of the deck, at its lowest point, does not dip into the water.",
+      "The heeling angle does not exceed 15 degrees and the deck may dip up to 5 cm.",
+      "The heeling angle does not exceed 10 degrees, regardless of the position of the deck."
+    ],
+    "explanation": "According to ONI art. 143a, al. 2, the heeling angle must not exceed 5 degrees and the lowest side of the deck must not dip into the water."
+  },
+  "q-oni-oniart144-82fa0c6a-11f7fd4c": {
+    "stem": "According to ONI art. 144, what is the prescribed freeboard for floating equipment?",
+    "choices": [
+      "90 cm in zone 2 and 45 cm in zone 3.",
+      "30 cm in zone 2 and 15 cm in zone 3.",
+      "100 cm in zone 2 and 50 cm in zone 3."
+    ],
+    "explanation": "ONI art. 144, al. 5 sets the freeboard of floating equipment at 90 cm in zone 2 and 45 cm in zone 3."
+  },
+  "q-oni-oniart144-82fa0c6a-92ee1624": {
+    "stem": "According to ONI art. 144, what is the freeboard of an undecked cargo boat in zone 2?",
+    "choices": [
+      "100 cm.",
+      "50 cm.",
+      "30 cm."
+    ],
+    "explanation": "ONI art. 144, al. 2, let. b sets the freeboard of undecked boats at 100 cm in zone 2."
+  },
+  "q-oni-oniart146-e6f12005-67f3713c": {
+    "stem": "According to ONI art. 146, with how many bulkheads must a cargo boat at least be fitted?",
+    "choices": [
+      "At least one collision bulkhead and two bulkheads for the engine room.",
+      "At least three collision bulkheads at the bow.",
+      "At least one bulkhead for the engine room only."
+    ],
+    "explanation": "ONI art. 146, al. 2 requires at least one collision bulkhead and two bulkheads for the engine room."
+  },
+  "q-oni-oniart146-e6f12005-eca6cb88": {
+    "stem": "Which of these statements about the collision bulkhead is FALSE according to ONI art. 146?",
+    "choices": [
+      "It may include doors and hatches if they are watertight.",
+      "It must be watertight and built from one side of the hull to the other.",
+      "It must be built from the bottom of the hold up to the deck."
+    ],
+    "explanation": "ONI art. 146, al. 5 prohibits any door, hatch or opening in the collision bulkhead."
+  },
+  "q-oni-oniart148g-5963b92c-40c7d785": {
+    "stem": "Regarding the «CE» marking on sport boats placed on the market, what does ONI art. 148g say?",
+    "choices": [
+      "The obligation to affix the «CE» marking is not applicable, but if it has already been affixed in accordance with the EU provisions, it may remain affixed.",
+      "The «CE» marking is mandatory for all sport boats placed on the market.",
+      "The «CE» marking must be removed if it was affixed in accordance with the EU provisions."
+    ],
+    "explanation": "ONI art. 148g, al. 2 provides that the «CE» marking is not mandatory but may remain affixed if it has already been affixed in accordance with the EU provisions."
+  },
+  "q-oni-oniart148g-5963b92c-482a3efc": {
+    "stem": "In which language must the documentation relating to a sport boat be presented to the competent authority according to ONI art. 148g?",
+    "choices": [
+      "In an official language of Switzerland or in English.",
+      "Exclusively in German.",
+      "Only in the manufacturer's language."
+    ],
+    "explanation": "ONI art. 148g, al. 6 requires that the documentation be presented in an official language of Switzerland or in English."
+  },
+  "q-oni-oniart150-092b6842-b8583231": {
+    "stem": "ONI art. 150 allows the crew to be reduced by one deckhand, on boats of less than 350 tonnes and in good visibility. Which of these conditions is required?",
+    "choices": [
+      "The travel time between the points of departure and arrival does not exceed 45 minutes.",
+      "The travel time between the points of departure and arrival does not exceed 90 minutes.",
+      "The boat must transport exclusively dangerous goods."
+    ],
+    "explanation": "ONI art. 150, al. 4, let. b sets a maximum of 45 minutes of travel time allowing this reduction."
+  },
+  "q-oni-oniart150-092b6842-e9e77154": {
+    "stem": "According to ONI art. 150, what is as a general rule the crew complement of a motorized cargo boat with a loading capacity greater than 1000 t?",
+    "choices": [
+      "2 deckhands.",
+      "1 deckhand.",
+      "3 deckhands."
+    ],
+    "explanation": "ONI art. 150, al. 2, let. a provides for 2 deckhands for motorized boats of more than 1000 t loading capacity."
+  },
+  "q-oni-oniart163-1f9efaa2-1cd3c64f": {
+    "stem": "According to ONI art. 163, in which case is a construction number not necessary?",
+    "choices": [
+      "For boats that are not built by professionals.",
+      "For all pleasure boats, without exception.",
+      "For priority passenger boats."
+    ],
+    "explanation": "ONI art. 163, al. 1, let. g provides that a construction number is not necessary for boats not built by professionals."
+  },
+  "q-oni-oniart163-1f9efaa2-baf912f2": {
+    "stem": "According to ONI art. 163, the granting of other derogations (not listed) requires in principle:",
+    "choices": [
+      "The consent of the OFT.",
+      "The agreement of the Federal Council.",
+      "No additional authorization."
+    ],
+    "explanation": "ONI art. 163, al. 3 provides that other derogations may only be granted with the consent of the OFT."
+  },
+  "q-oni-oniart96a-83a6b5e5-5626de42": {
+    "stem": "What minimum third-party liability insurance coverage is required for the issuance of a collective navigation permit according to ONI art. 96a?",
+    "choices": [
+      "Two million francs per accident.",
+      "One million francs per accident.",
+      "Five million francs per accident."
+    ],
+    "explanation": "ONI art. 96a, al. 1, let. c requires a minimum coverage of two million francs per accident."
+  },
+  "q-oni-oniart96a-83a6b5e5-9a9c82e3": {
+    "stem": "According to ONI art. 96a, in which case may a collective navigation permit be used?",
+    "choices": [
+      "For breakdown-assistance and towing trips.",
+      "For regular commercial passenger transport.",
+      "For any private leisure trip of the owner."
+    ],
+    "explanation": "ONI art. 96a, al. 3, let. a authorizes the use of the collective permit for breakdown-assistance and towing trips."
+  }
+}

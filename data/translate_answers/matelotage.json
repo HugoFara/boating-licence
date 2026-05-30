@@ -1,0 +1,101 @@
+{
+  "q-matelotagewp-matelotagenœuddechaiseintér-8113da82": {
+    "stem": "What does the text confirm about the bowline when it is not under tension?",
+    "choices": [
+      "It is easy to undo, even when wet and after having been subjected to a very strong pull or to tightening caused by drying out.",
+      "It becomes impossible to undo as soon as it gets wet.",
+      "It can only be adjusted by applying strong tension to the standing part."
+    ],
+    "explanation": "According to Matelotage — Nœud de chaise : Intérêts, when not under tension it is easy to undo even when wet and after a strong pull."
+  },
+  "q-matelotagewp-matelotagenœuddechaiseintér-ab116486": {
+    "stem": "According to the text, how does the bowline react when tension increases?",
+    "choices": [
+      "The stronger the tension, the more it locks, while still untying just as easily.",
+      "The stronger the tension, the more it tends to slip and come undone.",
+      "Tension has no effect on its locking, which depends on an intermediate mechanical system."
+    ],
+    "explanation": "According to Matelotage — Nœud de chaise : Intérêts, the stronger the tension, the more the knot locks and the more easily it unties."
+  },
+  "q-matelotagewp-matelotagenœuddechaiseprése-168ffae5": {
+    "stem": "According to the text, the bowline is also called:",
+    "choices": [
+      "Bowline knot (nœud de bouline).",
+      "Clove hitch.",
+      "Hangman's knot."
+    ],
+    "explanation": "According to Matelotage — Nœud de chaise : Présentation, the bowline is also called the nœud de bouline."
+  },
+  "q-matelotagewp-matelotagenœuddechaiseroide-1c6e7354": {
+    "stem": "Why is the bowline described as the king of knots, according to the text?",
+    "choices": [
+      "It is a reliable loop knot that does not slip under tension and unties easily even after strong tension.",
+      "It is the only knot that is impossible to untie once tightened.",
+      "It can only be made with a specialized tool and with two hands."
+    ],
+    "explanation": "According to Matelotage — Nœud de chaise : Roi des nœuds, its quality as a reliable loop knot that does not slip and unties easily justifies it."
+  },
+  "q-matelotagewp-matelotagenœuddechaiseroide-24376407": {
+    "stem": "Regarding the methods for making the bowline, which statement(s) does the text confirm?",
+    "choices": [
+      "There are several methods for making it, up to 18 including the variants.",
+      "Only two classic methods are recognized for teaching, knitted or prepared.",
+      "A single unique method of making it is accepted throughout the world."
+    ],
+    "explanation": "According to Matelotage — Nœud de chaise : Roi des nœuds, there are up to 18 methods including variants but two classic teaching methods."
+  },
+  "q-matelotagewp-matelotagenœudlienganses-27-7c977b8a": {
+    "stem": "According to the text, what is a bight (ganse)?",
+    "choices": [
+      "A curved portion of rope, with no crossing or overlapping.",
+      "A tight crossing of two rope ends.",
+      "A rope braided from three metal strands."
+    ],
+    "explanation": "According to Matelotage — Nœud (lien) : Ganses, a bight is a curved portion of rope with no crossing or overlapping."
+  },
+  "q-matelotagewp-matelotagenœudlienganses-27-9d4c9c9b": {
+    "stem": "According to the text, what does the hangman's knot illustrate regarding bight knots?",
+    "choices": [
+      "It can be easily undone if the loop is free, but tightens around the restraint under the weight of the hanged person.",
+      "It can never be undone, whether the loop is free or restrained.",
+      "It loosens automatically as soon as weight is applied to the loop."
+    ],
+    "explanation": "According to Matelotage — Nœud (lien) : Ganses, the hangman's knot comes undone if the loop is free but tightens under the weight of the hanged person."
+  },
+  "q-matelotagewp-matelotagenœudlienpropriété-3cfc46c6": {
+    "stem": "According to the text, which criterion makes it possible to evaluate and choose the most suitable knot?",
+    "choices": [
+      "The strength of the knot, in particular whether or not it weakens the rope in case of violent jerks.",
+      "The color of the rope used to make it.",
+      "The purchase price of the cord."
+    ],
+    "explanation": "According to Matelotage — Nœud (lien) : Propriétés, the strength of the knot is paramount, especially in case of violent jerks."
+  },
+  "q-matelotagewp-matelotagenœudlienpropriété-97dd2d57": {
+    "stem": "According to the text, what is the strength of a rope fitted with a bowline compared to a clove hitch?",
+    "choices": [
+      "The bowline retains an exceptional strength of 89%, whereas the clove hitch halves it.",
+      "The clove hitch retains 89% of the strength, against half for the bowline.",
+      "Both knots reduce the rope's strength by exactly half."
+    ],
+    "explanation": "According to Matelotage — Nœud (lien) : Propriétés, the clove hitch reduces strength by half whereas the bowline reaches 89%."
+  },
+  "q-matelotagewp-matelotagenœudlienprésentat-1351cbab": {
+    "stem": "According to the text, which statement about the use of knots is correct?",
+    "choices": [
+      "The art of knots mainly developed in sailing vessels and then in sport or leisure boating.",
+      "Knots have never been used outside the maritime domain.",
+      "Knowledge of knots has become completely useless since the appearance of specialized equipment."
+    ],
+    "explanation": "According to Matelotage — Nœud (lien) : Présentation, knots developed in sailing vessels and then in boating."
+  },
+  "q-matelotagewp-matelotagenœudlienprésentat-5935262d": {
+    "stem": "According to the text, what is a knot?",
+    "choices": [
+      "The intertwining or interlacing of one or more ropes or other flexible, thread-like objects.",
+      "Exclusively the interlacing of two rigid metal cables.",
+      "An assembly of planks intended to reinforce a hull."
+    ],
+    "explanation": "According to Matelotage — Nœud (lien) : Présentation, a knot is the intertwining or interlacing of flexible, thread-like objects."
+  }
+}

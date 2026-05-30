@@ -1,0 +1,623 @@
+{
+  "q-oni-oniannexe2fig1-466f4128-2087b471": {
+    "stem": "What does this light signal mean?",
+    "choices": [
+      "Steady light visible from all sides",
+      "Quick-flashing light",
+      "Blue quick-flashing light"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 1 — \"Steady light visible from all sides\"."
+  },
+  "q-oni-oniannexe2fig2-a59b06e5-ba408c9c": {
+    "stem": "What does this light signal mean?",
+    "choices": [
+      "Blue quick-flashing light",
+      "Steady light visible from all sides",
+      "Quick-flashing light"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 2 — \"Quick-flashing light\"."
+  },
+  "q-oni-oniannexe2fig22-f87cb685-71648c56": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "No mooring",
+      "Green ball",
+      "The clearance height of the passage is limited"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 22 — \"Green ball\"."
+  },
+  "q-oni-oniannexe2fig27-6270f90c-7dae90bf": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Mandatory stop under certain conditions",
+      "Two white flags one above the other",
+      "Anchoring permitted"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 27 — \"Two white flags one above the other\"."
+  },
+  "q-oni-oniannexe2fig29-98cd55c4-72812774": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Yellow ball",
+      "Police boats and boats of other services",
+      "Yellow buoys marking each anchor"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 29 — \"Yellow buoys marking each anchor\"."
+  },
+  "q-oni-oniannexe2fig3-72140816-8ad7580e": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "No turning",
+      "Passage permitted",
+      "Ball"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 3 — \"Ball\"."
+  },
+  "q-oni-oniannexe2fig30-b7c4f864-44fd3d4b": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Yellow buoys marking each anchor",
+      "No anchoring",
+      "Police boats and boats of other services"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 30 — \"Police boats and boats of other services\"."
+  },
+  "q-oni-oniannexe2fig31-056d2c35-e187b283": {
+    "stem": "What does this light signal mean?",
+    "choices": [
+      "Quick-flashing light",
+      "Blue quick-flashing light",
+      "Steady light visible from all sides"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 31 — \"Blue quick-flashing light\"."
+  },
+  "q-oni-oniannexe2fig34-38f8c8ba-70ce9a19": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Pass only in the direction indicated",
+      "Yellow ball",
+      "Mandatory stop under certain conditions"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 34 — \"Yellow ball\"."
+  },
+  "q-oni-oniannexe2fig39-a1ae0684-db554fd9": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Waving a red flag",
+      "The width of the passage is limited",
+      "Pass only in the direction indicated"
+    ],
+    "explanation": "ONI Annexe 2 – fig. 39 — \"Waving a red flag\"."
+  },
+  "q-oni-oniannexe3fig1-74a2f981-b124ec78": {
+    "stem": "What does this sound signal mean?",
+    "choices": [
+      "Two lights one above the other",
+      "Peals of a bell",
+      "Yellow buoys marking each anchor"
+    ],
+    "explanation": "ONI Annexe 3 – fig. 1 — \"Peals of a bell\"."
+  },
+  "q-oni-oniannexe4fig10-2d7777ba-614e394c": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No anchoring",
+      "End of a prohibition or an obligation",
+      "Water-skiing prohibited"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 10 — \"No anchoring\"."
+  },
+  "q-oni-oniannexe4fig11-86d01b18-13d1c141": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No passage for motorized boats",
+      "No overtaking",
+      "No mooring"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 11 — \"No mooring\"."
+  },
+  "q-oni-oniannexe4fig12-d6bb7ee4-af613bcd": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No passage for motorized boats",
+      "No turning",
+      "End of a prohibition or an obligation"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 12 — \"No turning\"."
+  },
+  "q-oni-oniannexe4fig17-61ced693-1558cf8f": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Ferry not moving freely",
+      "Swimming prohibited",
+      "Recommended direction"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 17 — \"Swimming prohibited\"."
+  },
+  "q-oni-oniannexe4fig19-0c739b2b-a93fb465": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Mandatory to exercise particular vigilance",
+      "Mandatory stop under certain conditions",
+      "Mandatory to sound the whistle"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 19 — \"Mandatory stop under certain conditions\"."
+  },
+  "q-oni-oniannexe4fig2-b85b61a6-4577f0dd": {
+    "stem": "What does this light signal mean?",
+    "choices": [
+      "Recommended direction",
+      "Two lights one above the other",
+      "No berthing"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 2 — \"Two lights one above the other\"."
+  },
+  "q-oni-oniannexe4fig21-c2e3f480-3a83ceb9": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Mandatory stop under certain conditions",
+      "Mandatory to sound the whistle",
+      "Mandatory to exercise particular vigilance"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 21 — \"Mandatory to sound the whistle\"."
+  },
+  "q-oni-oniannexe4fig22-3acf3a06-c1a701ca": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Mandatory stop under certain conditions",
+      "Mandatory to exercise particular vigilance",
+      "Mandatory to sound the whistle"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 22 — \"Mandatory to exercise particular vigilance\"."
+  },
+  "q-oni-oniannexe4fig23-d9a5d7ea-090a0f29": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Kitesurfing permitted",
+      "Recommended direction",
+      "The clearance height of the passage is limited"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 23 — \"The clearance height of the passage is limited\"."
+  },
+  "q-oni-oniannexe4fig24-0ed67ba2-f75cc56b": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "The width of the passage is limited",
+      "Storm warning",
+      "Recommended direction"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 24 — \"The width of the passage is limited\"."
+  },
+  "q-oni-oniannexe4fig26-3e933a73-9dcf4c71": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "The draught is limited",
+      "Strong-wind warning",
+      "Storm warning"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 26 — \"The draught is limited\"."
+  },
+  "q-oni-oniannexe4fig28-33e20058-7d4e166b": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "The width of the passage is limited",
+      "Boat landing place",
+      "Pass only in the direction indicated"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 28 — \"Pass only in the direction indicated\"."
+  },
+  "q-oni-oniannexe4fig29-d377bcde-851eaa0c": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Recommended direction",
+      "Pass only in the direction indicated",
+      "The draught is limited"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 29 — \"Pass only in the direction indicated\"."
+  },
+  "q-oni-oniannexe4fig3-c85afc25-685d8e58": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "End of a prohibition or an obligation",
+      "No passage for motorized boats",
+      "No turning"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 3 — \"No passage for motorized boats\"."
+  },
+  "q-oni-oniannexe4fig32-a2542491-f27de223": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Mooring permitted",
+      "Passage permitted",
+      "Anchoring permitted"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 32 — \"Passage permitted\"."
+  },
+  "q-oni-oniannexe4fig33-8a38ab30-147cf4af": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Berthing permitted",
+      "Water-skiing permitted",
+      "Passage permitted"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 33 — \"Berthing permitted\"."
+  },
+  "q-oni-oniannexe4fig34-b147eedf-d8374a75": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Anchoring permitted",
+      "Water-skiing permitted",
+      "Berthing permitted"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 34 — \"Anchoring permitted\"."
+  },
+  "q-oni-oniannexe4fig35-abb18840-b5d2dc8d": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Anchoring permitted",
+      "Passage permitted",
+      "Mooring permitted"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 35 — \"Mooring permitted\"."
+  },
+  "q-oni-oniannexe4fig36-731760fd-37fa3ce6": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Water-skiing permitted",
+      "Mooring permitted",
+      "Windsurfing permitted"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 36 — \"Water-skiing permitted\"."
+  },
+  "q-oni-oniannexe4fig37-20ae10a4-3b10ae57": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Mooring permitted",
+      "Windsurfing permitted",
+      "Berthing permitted"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 37 — \"Windsurfing permitted\"."
+  },
+  "q-oni-oniannexe4fig38-470196ba-a5d6bd93": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Kitesurfing permitted",
+      "Storm warning",
+      "Swimming prohibited"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 38 — \"Kitesurfing permitted\"."
+  },
+  "q-oni-oniannexe4fig39-654d2f1f-43f73869": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Pass only in the direction indicated",
+      "Storm warning",
+      "Recommended direction"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 39 — \"Recommended direction\"."
+  },
+  "q-oni-oniannexe4fig4-a404cf3f-723b1422": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No passage for motorized boats",
+      "Water-skiing prohibited",
+      "No anchoring"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 4 — \"Water-skiing prohibited\"."
+  },
+  "q-oni-oniannexe4fig40-475e10a4-3aa9c269": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Recommended direction",
+      "Kitesurfing permitted",
+      "Ferry not moving freely"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 40 — \"Ferry not moving freely\"."
+  },
+  "q-oni-oniannexe4fig41-673f5d47-9b98efe4": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Dam",
+      "The draught is limited",
+      "High-voltage overhead lines"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 41 — \"Dam\"."
+  },
+  "q-oni-oniannexe4fig42-81bf56ce-d1fd4d31": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Strong-wind warning",
+      "Pass only in the direction indicated",
+      "Boat launching place"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 42 — \"Boat launching place\"."
+  },
+  "q-oni-oniannexe4fig43-c5029c48-c78050c0": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Boat launching place",
+      "Dam",
+      "Boat landing place"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 43 — \"Boat landing place\"."
+  },
+  "q-oni-oniannexe4fig44-6ba9ee97-aef1c69c": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No passage for sailing boats",
+      "No passage for motorized boats",
+      "End of a prohibition or an obligation"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 44 — \"End of a prohibition or an obligation\"."
+  },
+  "q-oni-oniannexe4fig45-484dce70-22bb2c72": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "High-voltage overhead lines",
+      "Dam",
+      "Kitesurfing permitted"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 45 — \"High-voltage overhead lines\"."
+  },
+  "q-oni-oniannexe4fig5-41303a8b-96776c22": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No passage for sailing boats",
+      "No turning",
+      "No passage for motorized boats"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 5 — \"No passage for sailing boats\"."
+  },
+  "q-oni-oniannexe4fig6-3fd0dd21-4a7ae6f9": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No passage for motorized boats",
+      "End of a prohibition or an obligation",
+      "No windsurfing"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 6 — \"No windsurfing\"."
+  },
+  "q-oni-oniannexe4fig63-d93729c2-858887af": {
+    "stem": "What does this sound signal mean?",
+    "choices": [
+      "Continuous peals of a bell",
+      "Mandatory stop under certain conditions",
+      "No anchoring"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 63 — \"Continuous peals of a bell\"."
+  },
+  "q-oni-oniannexe4fig64-cf3ef722-77012ed6": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Swimming prohibited",
+      "Wailing of a siren",
+      "Pass only in the direction indicated"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 64 — \"Wailing of a siren\"."
+  },
+  "q-oni-oniannexe4fig7-b49d058f-02fe18ff": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No turning",
+      "No overtaking",
+      "No meeting or overtaking"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 7 — \"No overtaking\"."
+  },
+  "q-oni-oniannexe4fig8-84092d86-b0e742b3": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No passage for sailing boats",
+      "Water-skiing prohibited",
+      "No meeting or overtaking"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 8 — \"No meeting or overtaking\"."
+  },
+  "q-oni-oniannexe4fig9-c530e67e-86c5a239": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No turning",
+      "No berthing",
+      "End of a prohibition or an obligation"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 9 — \"No berthing\"."
+  },
+  "q-rnl-rnlannexeifig34-1152b879-a07fde0a": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Either a red flag and a white flag",
+      "No passage outside the area indicated",
+      "Boats navigating alone or tugboats"
+    ],
+    "explanation": "RNL Annexe I – fig. 34 — \"Either a red flag and a white flag\"."
+  },
+  "q-rnl-rnlannexeifig4-4bacf613-fba94d57": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Pushed convoys",
+      "Boats navigating alone or tugboats",
+      "Pleasure boats"
+    ],
+    "explanation": "RNL Annexe I – fig. 4 — \"Boats navigating alone or tugboats\"."
+  },
+  "q-rnl-rnlannexeifig5-466235f4-94936a99": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Pleasure boats",
+      "Boats navigating alone or tugboats",
+      "Pushed convoys"
+    ],
+    "explanation": "RNL Annexe I – fig. 5 — \"Pushed convoys\"."
+  },
+  "q-rnl-rnlannexeifig6-62565189-f18062bd": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Pushed convoys",
+      "Pleasure boats",
+      "Boats navigating alone or tugboats"
+    ],
+    "explanation": "RNL Annexe I – fig. 6 — \"Pleasure boats\"."
+  },
+  "q-rnl-rnlannexeiiifig1-81fc5ae2-89882c88": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No anchoring",
+      "No passage",
+      "No berthing"
+    ],
+    "explanation": "RNL Annexe III – fig. 1 — \"No passage\"."
+  },
+  "q-rnl-rnlannexeiiifig10-12f829a8-f065d8a0": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No passage outside the area indicated",
+      "No windsurfing",
+      "No berthing"
+    ],
+    "explanation": "RNL Annexe III – fig. 10 — \"No passage outside the area indicated\"."
+  },
+  "q-rnl-rnlannexeiiifig11-b424faec-3d97a862": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No passage",
+      "No windsurfing",
+      "No berthing"
+    ],
+    "explanation": "RNL Annexe III – fig. 11 — \"No windsurfing\"."
+  },
+  "q-rnl-rnlannexeiiifig12-18b5664b-27f6653c": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No windsurfing",
+      "No swimming",
+      "No passage"
+    ],
+    "explanation": "RNL Annexe III – fig. 12 — \"No swimming\"."
+  },
+  "q-rnl-rnlannexeiiifig13-1a229905-07e9d0ac": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No kitesurfing",
+      "No windsurfing",
+      "No berthing"
+    ],
+    "explanation": "RNL Annexe III – fig. 13 — \"No kitesurfing\"."
+  },
+  "q-rnl-rnlannexeiiifig16-34dbd04e-d33ed785": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Anchoring permitted",
+      "No windsurfing",
+      "Mandatory to exercise particular vigilance"
+    ],
+    "explanation": "RNL Annexe III – fig. 16 — \"Mandatory to exercise particular vigilance\"."
+  },
+  "q-rnl-rnlannexeiiifig18-23ef0bf0-32db08e5": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Anchoring permitted",
+      "Berthing permitted",
+      "Windsurfing permitted"
+    ],
+    "explanation": "RNL Annexe III – fig. 18 — \"Berthing permitted\"."
+  },
+  "q-rnl-rnlannexeiiifig19-0606de94-e3e7ebda": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Berthing permitted",
+      "Anchoring permitted",
+      "Mooring permitted"
+    ],
+    "explanation": "RNL Annexe III – fig. 19 — \"Anchoring permitted\"."
+  },
+  "q-rnl-rnlannexeiiifig2-a1a757d0-22347c25": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Two light signals",
+      "Anchoring permitted",
+      "Boats navigating alone or tugboats"
+    ],
+    "explanation": "RNL Annexe III – fig. 2 — \"Two light signals\"."
+  },
+  "q-rnl-rnlannexeiiifig20-66973f4b-708145d5": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Berthing permitted",
+      "Anchoring permitted",
+      "Mooring permitted"
+    ],
+    "explanation": "RNL Annexe III – fig. 20 — \"Mooring permitted\"."
+  },
+  "q-rnl-rnlannexeiiifig21-4ce439e5-9f37e0ae": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "Windsurfing permitted",
+      "Anchoring permitted",
+      "Berthing permitted"
+    ],
+    "explanation": "RNL Annexe III – fig. 21 — \"Windsurfing permitted\"."
+  },
+  "q-rnl-rnlannexeiiifig22-30fe300a-41a19d6e": {
+    "stem": "What does this sign mean?",
+    "choices": [
+      "Kitesurfing permitted",
+      "Mandatory to exercise particular vigilance",
+      "No passage"
+    ],
+    "explanation": "RNL Annexe III – fig. 22 — \"Kitesurfing permitted\"."
+  },
+  "q-rnl-rnlannexeiiifig3-d0511f8f-18257c2e": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No passage for motorized boats",
+      "No windsurfing",
+      "No swimming"
+    ],
+    "explanation": "RNL Annexe III – fig. 3 — \"No passage for motorized boats\"."
+  },
+  "q-rnl-rnlannexeiiifig5-2a1fcb5a-a27bf06c": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No overtaking",
+      "No anchoring",
+      "No passage"
+    ],
+    "explanation": "RNL Annexe III – fig. 5 — \"No overtaking\"."
+  },
+  "q-rnl-rnlannexeiiifig6-d4425b6a-f1141d2e": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No mooring",
+      "No kitesurfing",
+      "No berthing"
+    ],
+    "explanation": "RNL Annexe III – fig. 6 — \"No berthing\"."
+  },
+  "q-rnl-rnlannexeiiifig7-bb9b0b1a-39e40a4c": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No passage outside the area indicated",
+      "No anchoring",
+      "No swimming"
+    ],
+    "explanation": "RNL Annexe III – fig. 7 — \"No anchoring\"."
+  },
+  "q-rnl-rnlannexeiiifig8-10ceee7f-54642a28": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No passage",
+      "No mooring",
+      "No kitesurfing"
+    ],
+    "explanation": "RNL Annexe III – fig. 8 — \"No mooring\"."
+  },
+  "q-rnl-rnlannexeiiifig9-c3092770-75535a6b": {
+    "stem": "What does this board mean?",
+    "choices": [
+      "No kitesurfing",
+      "No anchoring",
+      "No passage outside the area indicated"
+    ],
+    "explanation": "RNL Annexe III – fig. 9 — \"No passage outside the area indicated\"."
+  }
+}

@@ -265,6 +265,48 @@
       ]
     },
     {
+      "id": "q-oni-oniart142-d5cfcfd2-3672f8fd",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "According to ONI art. 142, which ordinance do the definitions of \"risk analysis\", \"safety report\" and \"duty of diligence\" refer to?",
+      "choices": [
+        {
+          "text": "To the ordinance of 14 March 1994 on the construction of vessels (OCEB).",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "To the Inland Navigation Ordinance (ONI) itself.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "To the Navigation Regulations for Lake Geneva (RNL).",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_142-d5cfcfd2",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 142 refers, for these concepts, to the articles of the OCEB (ordinance of 14 March 1994 on the construction of vessels).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniart142-d5cfcfd2-817324cd",
       "theme": "definitions",
       "kind": "definition_mc",
@@ -391,6 +433,90 @@
       ]
     },
     {
+      "id": "q-oni-oniart142-d5cfcfd2-d09c7f3f",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Among these statements about the definitions in ONI art. 142, which one is FALSE?",
+      "choices": [
+        {
+          "text": "The \"duty of diligence\" is defined in ONI art. 142 without reference to another ordinance.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The \"safety report\" is a report within the meaning of art. 2, let. e, and art. 17, para. 3, OCEB.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The \"expert examination report\" is a report within the meaning of art. 2, let. f, OCEB.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_142-d5cfcfd2",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to ONI art. 142, let. e, the \"duty of diligence\" is defined by reference to art. 5 OCEB, and not without reference.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart142-d5cfcfd2-f9d06e2e",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "According to ONI art. 142, how are the \"experts\" defined within the meaning of the special provisions of this section?",
+      "choices": [
+        {
+          "text": "As the persons referred to in art. 5a, para. 1, let. a, OCEB.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "As the officers of the competent authority of the place of mooring.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "As the members of a recognized classification society.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_142-d5cfcfd2",
+        "ref": "ONI art. 142",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to ONI art. 142, let. c, the \"experts\" are the persons referred to in art. 5a, para. 1, let. a, OCEB.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniart2-2bf27aad-01b54b7e",
       "theme": "definitions",
       "kind": "definition_mc",
@@ -428,6 +554,48 @@
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:curated.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart2-2bf27aad-de726c75",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Within the meaning of the ONI, what does the term \"motorized vessel\" designate?",
+      "choices": [
+        {
+          "text": "A vessel with mechanical propulsion",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A non-propelled vessel towed by another vessel",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A floating device such as a dredger or a crane",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_2-2bf27aad",
+        "ref": "ONI art. 2",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 2: a \"motorized vessel\" is a vessel with mechanical propulsion.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -601,6 +769,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlart71-ba2d9252-5d9ad386",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "According to RNL art. 71, does navigation in restricted visibility also concern situations that are not explicitly listed?",
+      "choices": [
+        {
+          "text": "Yes, it also covers any other conditions limiting visibility in the same manner.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No, only the conditions specifically cited (mist, fog, etc.) are covered.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Yes, but only conditions caused by smoke from a fire.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_71-ba2d9252",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 71 extends the concept to any other conditions limiting visibility in the same manner.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlart71-ba2d9252-81aaa7b5",
       "theme": "definitions",
       "kind": "definition_mc",
@@ -638,6 +848,90 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart71-ba2d9252-ac555567",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "According to RNL art. 71, what is considered navigation in restricted visibility?",
+      "choices": [
+        {
+          "text": "Any navigation, by day as by night, in mist, fog, drizzle, snow or heavy squalls with rain.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Only navigation at night in thick fog.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Only navigation by day when the rain is accompanied by strong wind.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_71-ba2d9252",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 71 defines restricted visibility as any navigation, by day as by night, in mist, fog, drizzle, snow or heavy squalls with rain.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart71-ba2d9252-b6ad0be5",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Among these statements about restricted visibility within the meaning of RNL art. 71, which one is FALSE?",
+      "choices": [
+        {
+          "text": "Navigation in restricted visibility applies only to navigation at night.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Navigation in snowy weather is considered navigation in restricted visibility.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Navigation in drizzly weather is considered navigation in restricted visibility.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_71-ba2d9252",
+        "ref": "RNL art. 71",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 71 states that restricted visibility applies both by day and by night, and not only at night.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -1694,6 +1988,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlart16-b7510c8f-d1f31b5c",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Under which condition in particular is authorisation for a nautical event granted according to RNL art. 16?",
+      "choices": [
+        {
+          "text": "If the prescribed civil liability insurance has been taken out",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "If the event takes place exclusively in Swiss waters",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "If all participants hold a category A permit",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_16-b7510c8f",
+        "ref": "RNL art. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 16, para. 2, let. b, requires that the prescribed civil liability insurance has been taken out.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlart62-ff70e033-43abc2ca",
       "theme": "eaux_frontalieres",
       "kind": "frontiere_mc",
@@ -1778,6 +2114,90 @@
       ]
     },
     {
+      "id": "q-rnl-rnlart62-ff70e033-8bbd322b",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "When two vessels follow directly opposite courses with a risk of collision, how must they manoeuvre?",
+      "choices": [
+        {
+          "text": "Each turns to starboard so as to pass port to port",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Each turns to port so as to pass starboard to starboard",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Both maintain their course and speed without any manoeuvre",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_62-ff70e033",
+        "ref": "RNL art. 62",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 62, let. c, provides that each vessel turns to starboard so as to pass port to port.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart62-ff70e033-8cc77ef7",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "When two vessels follow crossing courses with a possible danger of collision, which one must give way?",
+      "choices": [
+        {
+          "text": "The vessel that sees the other on its starboard side",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The vessel that sees the other on its port side",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The faster of the two vessels",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_62-ff70e033",
+        "ref": "RNL art. 62",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to RNL art. 62, let. b, the vessel that sees the other on its starboard side must give way.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlart64-284d0c2c-18625847",
       "theme": "eaux_frontalieres",
       "kind": "frontiere_mc",
@@ -1815,6 +2235,91 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart64-284d0c2c-a9e2a5f1",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "According to RNL art. 64, which statement is FALSE concerning sailboards and kitesurfs?",
+      "choices": [
+        {
+          "text": "Other vessels must give way to sailboards and kitesurfs",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sailboards and kitesurfs give way to all other vessels",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Every vessel must give way to a vessel unable to manoeuvre that signals its presence",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_64-284d0c2c",
+        "ref": "RNL art. 64",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 64, para. 2, let. f, states on the contrary that sailboards and kitesurfs give way to all other vessels.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart64-284d0c2c-bf5c412c",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "According to the right-of-way rules, which vessel(s) must a sailing vessel give way to?",
+      "choices": [
+        {
+          "text": "Passenger vessels having right of way and towed convoys",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Cargo vessels",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Rowing boats",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_64-284d0c2c",
+        "ref": "RNL art. 64",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to RNL art. 64, para. 2, the sailing vessel gives way in particular to passenger vessels having right of way, towed convoys and cargo vessels, but not to rowing boats.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0,
         1
@@ -1947,6 +2452,132 @@
       ]
     },
     {
+      "id": "q-rnl-rnlart84-4e300df7-385c5f4f",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "According to RNL art. 84, under what conditions are the boarding and disembarking of passengers authorised?",
+      "choices": [
+        {
+          "text": "Only at facilities permitted by the competent authority and after the operator has ensured that the vessel is properly moored",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "At any point on the shore as soon as the vessel slows down",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Without mooring if the safety of the passengers appears to be guaranteed",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_84-4e300df7",
+        "ref": "RNL art. 84",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 84, para. 1, authorises boarding and disembarking only at permitted facilities and after verification of the mooring and of safety.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart84-4e300df7-67a725ae",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Concerning the order of use of landing stages, which statement is FALSE according to RNL art. 84?",
+      "choices": [
+        {
+          "text": "Boarding passengers may access the landing stage at the same time as passengers are disembarking",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A passenger may not board or disembark without the formal authorisation of the operator or their agent",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The waiting rule does not apply to landing stages equipped with independent entrances and exits",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_84-4e300df7",
+        "ref": "RNL art. 84",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 84, para. 4, requires on the contrary that boarding passengers access the landing stage only after the disembarking passengers have left it, except where there are independent entrances/exits.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart86a-00f78534-0861debe",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Which radio channel is designated as the alert channel (Lake Distress) in the equipment of passenger vessels?",
+      "choices": [
+        {
+          "text": "Channel 16",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Channel 12",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Channel K",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_86a-00f78534",
+        "ref": "RNL art. 86a",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 86a, para. 1, let. c, designates channel 16 as the alert channel (Lake Distress), channel 12 being operational and channel K being the command coordination channel.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlart86a-00f78534-609936c5",
       "theme": "eaux_frontalieres",
       "kind": "frontiere_mc",
@@ -1984,6 +2615,49 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart86a-00f78534-eb018a29",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Among the communication and information equipment, which items apply only to passenger vessels making an international trip?",
+      "choices": [
+        {
+          "text": "The radar device",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The rate-of-turn indicator",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The radio installation capable of transmitting on alert channel 16",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_86a-00f78534",
+        "ref": "RNL art. 86a",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to RNL art. 86a, para. 2, only the requirements of para. 1, let. a (radar) and b (rate-of-turn indicator) apply solely to international trips.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0,
         1
@@ -2032,6 +2706,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlart86f-185c6500-0c8038aa",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "What minimum buoyancy in fresh water must the collective lifesaving devices of a passenger vessel provide per person?",
+      "choices": [
+        {
+          "text": "At least 750 N per person",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "At least 500 N per person",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "At least 100 N per person",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_86f-185c6500",
+        "ref": "RNL art. 86f",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to RNL art. 86f, para. 2, let. b, the buoyancy in fresh water must be at least 750 N per person.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlart86f-185c6500-3ce33e08",
       "theme": "eaux_frontalieres",
       "kind": "frontiere_mc",
@@ -2069,6 +2785,49 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart86f-185c6500-d26c4b04",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Concerning the inflatable collective lifesaving devices on board passenger vessels, which statements are correct?",
+      "choices": [
+        {
+          "text": "They must consist of at least two separate air compartments",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "They must maintain a stable trim even if only half of the air compartments are inflated",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "They must inflate only by manual command, never automatically",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_86f-185c6500",
+        "ref": "RNL art. 86f",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 86f, para. 3, requires at least two separate compartments and a stable trim even with half of the compartments inflated, the inflation being able to be automatic or manual.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0,
         1
@@ -3461,6 +4220,132 @@
       ]
     },
     {
+      "id": "q-oni-oniart134-df53e657-020997c6",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "What minimum buoyancy must individual lifesaving devices have according to ONI art. 134 (excluding the exception of art. 134a)?",
+      "choices": [
+        {
+          "text": "At least 75 N.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "At least 100 N.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "At least 50 N.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_134-df53e657",
+        "ref": "ONI art. 134",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 134, al. 2 sets the buoyancy of individual devices at at least 75 N.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart134-df53e657-3d8f18d6",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "According to ONI art. 134, above which thresholds must a pleasure or sport boat be provided with an additional lifesaving device that can be thrown into the water?",
+      "choices": [
+        {
+          "text": "A power output greater than 30 kW, or a sail area exceeding 15 m2 for sailing boats.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A power output greater than 15 kW, or a sail area exceeding 30 m2.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A power output greater than 50 kW, or a sail area exceeding 10 m2.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_134-df53e657",
+        "ref": "ONI art. 134",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 134, al. 5 applies to boats of more than 30 kW and to sailing boats whose sail area exceeds 15 m2.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart134-df53e657-7afccc1f",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "What minimum buoyancy must an individual lifesaving device have (general case)?",
+      "choices": [
+        {
+          "text": "At least 75 N",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "At least 750 N",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "At least 50 N",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_134-df53e657",
+        "ref": "ONI art. 134",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 134, al. 2: at least 75 N (except for vessels referred to in art. 134a).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniart134-df53e657-8ab76ad8",
       "theme": "lois",
       "kind": "rule_mc",
@@ -3629,6 +4514,48 @@
       ]
     },
     {
+      "id": "q-oni-oniart143a-26df4c56-438fe381",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "For a loaded cargo boat ready to depart to be considered as having sufficient stability, what conditions does the text require?",
+      "choices": [
+        {
+          "text": "The heeling angle does not exceed 5 degrees and the side of the deck, at its lowest point, does not dip into the water.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The heeling angle does not exceed 15 degrees and the deck may dip up to 5 cm.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The heeling angle does not exceed 10 degrees, regardless of the position of the deck.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_143a-26df4c56",
+        "ref": "ONI art. 143a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to ONI art. 143a, al. 2, the heeling angle must not exceed 5 degrees and the lowest side of the deck must not dip into the water.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniart143a-26df4c56-5e74c4ba",
       "theme": "lois",
       "kind": "rule_mc",
@@ -3666,6 +4593,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart143a-26df4c56-f70cd9b2",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "What does ONI art. 143a provide regarding the metacentric height of the loaded boat ready to depart?",
+      "choices": [
+        {
+          "text": "It must not be less than 1 m.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It must not be less than 0.5 m.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "It must not exceed 1 m.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_143a-26df4c56",
+        "ref": "ONI art. 143a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 143a, al. 2 specifies that the metacentric height of the loaded boat ready to depart must not be less than 1 m.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -3713,6 +4682,48 @@
       ]
     },
     {
+      "id": "q-oni-oniart144-82fa0c6a-4d75de58",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "According to ONI art. 144, what is the prescribed freeboard for floating equipment?",
+      "choices": [
+        {
+          "text": "90 cm in zone 2 and 45 cm in zone 3.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "30 cm in zone 2 and 15 cm in zone 3.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "100 cm in zone 2 and 50 cm in zone 3.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_144-82fa0c6a",
+        "ref": "ONI art. 144",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 144, al. 5 sets the freeboard of floating equipment at 90 cm in zone 2 and 45 cm in zone 3.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniart144-82fa0c6a-92ee1624",
       "theme": "lois",
       "kind": "rule_mc",
@@ -3755,6 +4766,48 @@
       ]
     },
     {
+      "id": "q-oni-oniart144-82fa0c6a-d0e87234",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "According to ONI art. 144, what is the freeboard of an undecked cargo boat in zone 2?",
+      "choices": [
+        {
+          "text": "100 cm.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "50 cm.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "30 cm.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_144-82fa0c6a",
+        "ref": "ONI art. 144",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 144, al. 2, let. b sets the freeboard of undecked boats at 100 cm in zone 2.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniart146-e6f12005-67f3713c",
       "theme": "lois",
       "kind": "rule_mc",
@@ -3792,6 +4845,90 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart146-e6f12005-ab00c057",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Which of these statements about the collision bulkhead is FALSE according to ONI art. 146?",
+      "choices": [
+        {
+          "text": "It may include doors and hatches if they are watertight.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It must be watertight and built from one side of the hull to the other.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "It must be built from the bottom of the hold up to the deck.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_146-e6f12005",
+        "ref": "ONI art. 146",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 146, al. 5 prohibits any door, hatch or opening in the collision bulkhead.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart146-e6f12005-e946225b",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "According to ONI art. 146, with how many bulkheads must a cargo boat at least be fitted?",
+      "choices": [
+        {
+          "text": "At least one collision bulkhead and two bulkheads for the engine room.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "At least three collision bulkheads at the bow.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "At least one bulkhead for the engine room only.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_146-e6f12005",
+        "ref": "ONI art. 146",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 146, al. 2 requires at least one collision bulkhead and two bulkheads for the engine room.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -3923,6 +5060,132 @@
       ]
     },
     {
+      "id": "q-oni-oniart148g-5963b92c-9c9d48f2",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Regarding the «CE» marking on sport boats placed on the market, what does ONI art. 148g say?",
+      "choices": [
+        {
+          "text": "The obligation to affix the «CE» marking is not applicable, but if it has already been affixed in accordance with the EU provisions, it may remain affixed.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The «CE» marking is mandatory for all sport boats placed on the market.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The «CE» marking must be removed if it was affixed in accordance with the EU provisions.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_148g-5963b92c",
+        "ref": "ONI art. 148g",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 148g, al. 2 provides that the «CE» marking is not mandatory but may remain affixed if it has already been affixed in accordance with the EU provisions.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart148g-5963b92c-fb63b421",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "In which language must the documentation relating to a sport boat be presented to the competent authority according to ONI art. 148g?",
+      "choices": [
+        {
+          "text": "In an official language of Switzerland or in English.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Exclusively in German.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Only in the manufacturer's language.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_148g-5963b92c",
+        "ref": "ONI art. 148g",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 148g, al. 6 requires that the documentation be presented in an official language of Switzerland or in English.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart150-092b6842-4b540149",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "ONI art. 150 allows the crew to be reduced by one deckhand, on boats of less than 350 tonnes and in good visibility. Which of these conditions is required?",
+      "choices": [
+        {
+          "text": "The travel time between the points of departure and arrival does not exceed 45 minutes.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The travel time between the points of departure and arrival does not exceed 90 minutes.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The boat must transport exclusively dangerous goods.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_150-092b6842",
+        "ref": "ONI art. 150",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 150, al. 4, let. b sets a maximum of 45 minutes of travel time allowing this reduction.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniart150-092b6842-b8583231",
       "theme": "lois",
       "kind": "rule_mc",
@@ -4007,6 +5270,48 @@
       ]
     },
     {
+      "id": "q-oni-oniart150-092b6842-f132f133",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "According to ONI art. 150, what is as a general rule the crew complement of a motorized cargo boat with a loading capacity greater than 1000 t?",
+      "choices": [
+        {
+          "text": "2 deckhands.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "1 deckhand.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "3 deckhands.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_150-092b6842",
+        "ref": "ONI art. 150",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 150, al. 2, let. a provides for 2 deckhands for motorized boats of more than 1000 t loading capacity.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniart163-1f9efaa2-1cd3c64f",
       "theme": "lois",
       "kind": "rule_mc",
@@ -4044,6 +5349,90 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart163-1f9efaa2-2cbbddc1",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "According to ONI art. 163, in which case is a construction number not necessary?",
+      "choices": [
+        {
+          "text": "For boats that are not built by professionals.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "For all pleasure boats, without exception.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "For priority passenger boats.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_163-1f9efaa2",
+        "ref": "ONI art. 163",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 163, al. 1, let. g provides that a construction number is not necessary for boats not built by professionals.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart163-1f9efaa2-82d4fd8b",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "According to ONI art. 163, the granting of other derogations (not listed) requires in principle:",
+      "choices": [
+        {
+          "text": "The consent of the OFT.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The agreement of the Federal Council.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No additional authorization.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_163-1f9efaa2",
+        "ref": "ONI art. 163",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 163, al. 3 provides that other derogations may only be granted with the consent of the OFT.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -4133,6 +5522,48 @@
       ]
     },
     {
+      "id": "q-oni-oniart96a-83a6b5e5-7f8734f7",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "According to ONI art. 96a, in which case may a collective navigation permit be used?",
+      "choices": [
+        {
+          "text": "For breakdown-assistance and towing trips.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "For regular commercial passenger transport.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "For any private leisure trip of the owner.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_96a-83a6b5e5",
+        "ref": "ONI art. 96a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 96a, al. 3, let. a authorizes the use of the collective permit for breakdown-assistance and towing trips.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniart96a-83a6b5e5-9a9c82e3",
       "theme": "lois",
       "kind": "rule_mc",
@@ -4175,6 +5606,90 @@
       ]
     },
     {
+      "id": "q-oni-oniart96a-83a6b5e5-d9307017",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "What minimum third-party liability insurance coverage is required for the issuance of a collective navigation permit according to ONI art. 96a?",
+      "choices": [
+        {
+          "text": "Two million francs per accident.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "One million francs per accident.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Five million francs per accident.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_96a-83a6b5e5",
+        "ref": "ONI art. 96a",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 96a, al. 1, let. c requires a minimum coverage of two million francs per accident.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseintér-434f37a7",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "What does the text confirm about the bowline when it is not under tension?",
+      "choices": [
+        {
+          "text": "It is easy to undo, even when wet and after having been subjected to a very strong pull or to tightening caused by drying out.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It becomes impossible to undo as soon as it gets wet.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "It can only be adjusted by applying strong tension to the standing part.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__intérêts-e96bddce",
+        "ref": "Matelotage — Nœud de chaise : Intérêts",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud de chaise : Intérêts, when not under tension it is easy to undo even when wet and after a strong pull.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-matelotagewp-matelotagenœuddechaiseintér-8113da82",
       "theme": "matelotage",
       "kind": "matelotage_mc",
@@ -4212,6 +5727,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseintér-83239d56",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, how does the bowline react when tension increases?",
+      "choices": [
+        {
+          "text": "The stronger the tension, the more it locks, while still untying just as easily.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The stronger the tension, the more it tends to slip and come undone.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Tension has no effect on its locking, which depends on an intermediate mechanical system.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__intérêts-e96bddce",
+        "ref": "Matelotage — Nœud de chaise : Intérêts",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud de chaise : Intérêts, the stronger the tension, the more the knot locks and the more easily it unties.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -4296,6 +5853,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseprése-6e8aa766",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, the bowline is also called:",
+      "choices": [
+        {
+          "text": "Bowline knot (nœud de bouline).",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Clove hitch.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Hangman's knot.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__présentation-7a92f259",
+        "ref": "Matelotage — Nœud de chaise : Présentation",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud de chaise : Présentation, the bowline is also called the nœud de bouline.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -4386,6 +5985,133 @@
       ]
     },
     {
+      "id": "q-matelotagewp-matelotagenœuddechaiseroide-3f4a81a1",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Why is the bowline described as the king of knots, according to the text?",
+      "choices": [
+        {
+          "text": "It is a reliable loop knot that does not slip under tension and unties easily even after strong tension.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It is the only knot that is impossible to untie once tightened.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "It can only be made with a specialized tool and with two hands.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__roi_des_nœuds-0611e1ab",
+        "ref": "Matelotage — Nœud de chaise : Roi des nœuds",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud de chaise : Roi des nœuds, its quality as a reliable loop knot that does not slip and unties easily justifies it.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœuddechaiseroide-f42e5f81",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Regarding the methods for making the bowline, which statement(s) does the text confirm?",
+      "choices": [
+        {
+          "text": "There are several methods for making it, up to 18 including the variants.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Only two classic methods are recognized for teaching, knitted or prepared.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A single unique method of making it is accepted throughout the world.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__roi_des_nœuds-0611e1ab",
+        "ref": "Matelotage — Nœud de chaise : Roi des nœuds",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud de chaise : Roi des nœuds, there are up to 18 methods including variants but two classic teaching methods.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienganses-27-28ba601c",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, what does the hangman's knot illustrate regarding bight knots?",
+      "choices": [
+        {
+          "text": "It can be easily undone if the loop is free, but tightens around the restraint under the weight of the hanged person.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It can never be undone, whether the loop is free or restrained.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "It loosens automatically as soon as weight is applied to the loop.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__ganses-277e3817",
+        "ref": "Matelotage — Nœud (lien) : Ganses",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud (lien) : Ganses, the hangman's knot comes undone if the loop is free but tightens under the weight of the hanged person.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-matelotagewp-matelotagenœudlienganses-27-7c977b8a",
       "theme": "matelotage",
       "kind": "matelotage_mc",
@@ -4470,6 +6196,48 @@
       ]
     },
     {
+      "id": "q-matelotagewp-matelotagenœudlienganses-27-c0d99855",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, what is a bight (ganse)?",
+      "choices": [
+        {
+          "text": "A curved portion of rope, with no crossing or overlapping.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A tight crossing of two rope ends.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A rope braided from three metal strands.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__ganses-277e3817",
+        "ref": "Matelotage — Nœud (lien) : Ganses",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud (lien) : Ganses, a bight is a curved portion of rope with no crossing or overlapping.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-matelotagewp-matelotagenœudlienpropriété-3cfc46c6",
       "theme": "matelotage",
       "kind": "matelotage_mc",
@@ -4507,6 +6275,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienpropriété-8de17e1b",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, what is the strength of a rope fitted with a bowline compared to a clove hitch?",
+      "choices": [
+        {
+          "text": "The bowline retains an exceptional strength of 89%, whereas the clove hitch halves it.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The clove hitch retains 89% of the strength, against half for the bowline.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Both knots reduce the rope's strength by exactly half.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__propriétés-e84eb439",
+        "ref": "Matelotage — Nœud (lien) : Propriétés",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud (lien) : Propriétés, the clove hitch reduces strength by half whereas the bowline reaches 89%.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -4554,6 +6364,48 @@
       ]
     },
     {
+      "id": "q-matelotagewp-matelotagenœudlienpropriété-af89cb8d",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, which criterion makes it possible to evaluate and choose the most suitable knot?",
+      "choices": [
+        {
+          "text": "The strength of the knot, in particular whether or not it weakens the rope in case of violent jerks.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The color of the rope used to make it.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The purchase price of the cord.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__propriétés-e84eb439",
+        "ref": "Matelotage — Nœud (lien) : Propriétés",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud (lien) : Propriétés, the strength of the knot is paramount, especially in case of violent jerks.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-matelotagewp-matelotagenœudlienprésentat-1351cbab",
       "theme": "matelotage",
       "kind": "matelotage_mc",
@@ -4596,6 +6448,48 @@
       ]
     },
     {
+      "id": "q-matelotagewp-matelotagenœudlienprésentat-27c16d5a",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, which statement about the use of knots is correct?",
+      "choices": [
+        {
+          "text": "The art of knots mainly developed in sailing vessels and then in sport or leisure boating.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Knots have never been used outside the maritime domain.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Knowledge of knots has become completely useless since the appearance of specialized equipment.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__présentation-f5b44408",
+        "ref": "Matelotage — Nœud (lien) : Présentation",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud (lien) : Présentation, knots developed in sailing vessels and then in boating.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-matelotagewp-matelotagenœudlienprésentat-5935262d",
       "theme": "matelotage",
       "kind": "matelotage_mc",
@@ -4633,6 +6527,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-matelotagewp-matelotagenœudlienprésentat-802b92e8",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "According to the text, what is a knot?",
+      "choices": [
+        {
+          "text": "The intertwining or interlacing of one or more ropes or other flexible, thread-like objects.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Exclusively the interlacing of two rigid metal cables.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An assembly of planks intended to reinforce a hull.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_lien__présentation-f5b44408",
+        "ref": "Matelotage — Nœud (lien) : Présentation",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_(lien)",
+        "as_of": "235796348",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to Matelotage — Nœud (lien) : Présentation, a knot is the intertwining or interlacing of flexible, thread-like objects.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -5441,6 +7377,48 @@
       ]
     },
     {
+      "id": "q-meteovents-météosuisselabise-22689f11-4b3bcbb4",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Among these statements about la bise, which one is correct?",
+      "choices": [
+        {
+          "text": "Its speed is between 3 and 9 Bf, and both its onset and its end are gradual.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It arises abruptly, like the föhn, and always precedes rain.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Summer bises last longer than winter ones.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__la_bise-22689f11",
+        "ref": "MétéoSuisse : La bise",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to MétéoSuisse: La bise, its speed ranges from 3 to 9 Bf, and its onset and end are gradual (unlike the föhn).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-meteovents-météosuisselabise-22689f11-ae5ef355",
       "theme": "meteorologie",
       "kind": "meteo_mc",
@@ -5478,6 +7456,90 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselabise-22689f11-b98b681a",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Which pressure situation causes la bise to set in?",
+      "choices": [
+        {
+          "text": "High pressure over the British Isles and low pressure over Italy.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Low pressure over the British Isles and high pressure over Italy.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "High pressure over Italy and low pressure over Savoy.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__la_bise-22689f11",
+        "ref": "MétéoSuisse : La bise",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to MétéoSuisse: La bise, it sets in when high pressure covers the British Isles and low pressure covers Italy.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselavaudaire-f5cb790-37f5685c",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Which statement is correct about the storm vaudaire?",
+      "choices": [
+        {
+          "text": "It is cold: as soon as it appears, the temperature drops and the humidity rises.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It is warm and dry, raising the temperature as soon as it appears.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "It occurs exclusively from December to March.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__la_vaudaire-f5cb7902",
+        "ref": "MétéoSuisse : La vaudaire",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to MétéoSuisse: La vaudaire, the storm vaudaire is cold, with a drop in temperature and a rise in humidity as soon as it appears.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -5522,6 +7584,48 @@
       "generator": "subagent:fr.v1",
       "correct": [
         0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselavaudaire-f5cb790-b505be53",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Concerning the two types of vaudaire, which of these statements is FALSE?",
+      "choices": [
+        {
+          "text": "The föhn vaudaire appears mainly in March-April as well as in October-November.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The storm vaudaire appears from April to September.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The föhn vaudaire is a cold, humid wind laden with precipitation.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__la_vaudaire-f5cb7902",
+        "ref": "MétéoSuisse : La vaudaire",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "en",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to MétéoSuisse: La vaudaire, the föhn vaudaire comes back down dried out and warmed after having shed its humidity on the southern side of the Alps.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
       ]
     },
     {
@@ -5652,6 +7756,175 @@
       ]
     },
     {
+      "id": "q-meteovents-météosuisselebornan-d1fc474f-67c3a3ef",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "What are the warning signs that announce le Bornan?",
+      "choices": [
+        {
+          "text": "The build-up of large cumulus and cumulonimbus clouds over the high ground, particularly the Savoy Prealps.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A perfectly clear and stable sky above the Dent d'Oche.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The appearance of a roll cloud bordering the Jura.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__le_bornan-d1fc474f",
+        "ref": "MétéoSuisse : Le Bornan",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to MétéoSuisse: Le Bornan, the build-up of cumulus and cumulonimbus clouds over the high ground, especially the Savoy Prealps, is its warning sign.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselebornan-d1fc474f-ff8c6b5b",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Which statements are correct about le Bornan?",
+      "choices": [
+        {
+          "text": "It can reach 30 to 40 kt and its effects are felt mainly between Rolle and Lutry.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It is one of the most violent storm winds of Lake Geneva, occurring in summer.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It is a cold winter wind channelled by the Rhône valley.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__le_bornan-d1fc474f",
+        "ref": "MétéoSuisse : Le Bornan",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to MétéoSuisse: Le Bornan, it reaches 30 to 40 kt between Rolle and Lutry and is one of the most violent summer storm winds of Lake Geneva.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselejoran-cd094d9d-5b912ce7",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "From which direction and origin does le joran come?",
+      "choices": [
+        {
+          "text": "It is a NW wind, relatively cold, that comes down from the Jura towards Lake Geneva.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It is a SE wind, warm, that comes up from the Rhône valley.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "It is a NE wind that blows from the Vaud Prealps.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__le_joran-cd094d9d",
+        "ref": "MétéoSuisse : Le joran",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to MétéoSuisse: Le joran, the joran is a relatively cold NW wind that comes down from the Jura towards Lake Geneva.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselejoran-cd094d9d-6ab55d25",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "How do the storm joran and the joran that rises after a cold front compare?",
+      "choices": [
+        {
+          "text": "The storm joran is often dangerous because it is sudden and sometimes violent.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The gusts of the cold-front joran are clearly stronger than those of the storm joran.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The storm joran blows steadily and is appreciated by sailors.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__le_joran-cd094d9d",
+        "ref": "MétéoSuisse : Le joran",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to MétéoSuisse: Le joran, the storm joran is sudden and sometimes violent, hence often dangerous, unlike the steady cold-front joran.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-meteovents-météosuisselejoran-cd094d9d-70ee105d",
       "theme": "meteorologie",
       "kind": "meteo_mc",
@@ -5733,6 +8006,91 @@
       "generator": "subagent:fr.v1",
       "correct": [
         0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselesbrises-7381ec08-0b097fc2",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "What is the origin of the alternating breezes observed near lakes?",
+      "choices": [
+        {
+          "text": "The difference in temperature between the water, warmer at night, and the land, warmer during the day.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The arrival of an Atlantic disturbance over Lake Geneva.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The channelling of cold air coming down from the Jura.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__les_brises-7381ec08",
+        "ref": "MétéoSuisse : Les brises",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to MétéoSuisse: Les brises, they originate from the difference in temperature between the water (warmer at night) and the land (warmer during the day).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselesbrises-7381ec08-44063844",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Which statements are correct about daytime and nighttime breezes?",
+      "choices": [
+        {
+          "text": "Daytime breezes blow from the lake towards the shore.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nighttime breezes generally rise between 5 and 7 p.m.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nighttime breezes blow from the shore towards the lake and are very violent winds.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__les_brises-7381ec08",
+        "ref": "MétéoSuisse : Les brises",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to MétéoSuisse: Les brises, daytime breezes blow from the lake towards the shore and nighttime ones (weak winds) rise between 5 and 7 p.m.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0,
+        1
       ]
     },
     {
@@ -5858,6 +8216,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselevent-4923b0ba-fc409519",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "Which weather situation does Le Vent (sudois) correspond to?",
+      "choices": [
+        {
+          "text": "Low pressure over the British Isles and high pressure over southern Europe.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "High pressure over the British Isles and low pressure over southern Europe.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A NE bise channelled between the Jura and the Prealps.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__le_vent-4923b0ba",
+        "ref": "MétéoSuisse : Le Vent",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "According to MétéoSuisse: Le Vent, it corresponds to low pressure over the British Isles and high pressure over southern Europe.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -6869,6 +9269,90 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig61-729183ab-f8d636dd",
+      "theme": "meteorologie",
+      "kind": "figure_recognition",
+      "stem": "What does this signal mean?",
+      "choices": [
+        {
+          "text": "Boat landing area",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The width of the passage is limited",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Strong wind warning",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_61-729183ab",
+        "ref": "ONI Annexe 4 – fig. 61",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image115.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 61 — « Strong wind warning ».",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig62-4c0da81f-7b8892da",
+      "theme": "meteorologie",
+      "kind": "figure_recognition",
+      "stem": "What does this signal mean?",
+      "choices": [
+        {
+          "text": "Storm warning",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Dam",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Strong wind warning",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_62-4c0da81f",
+        "ref": "ONI Annexe 4 – fig. 62",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image116.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 62 — « Storm warning ».",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
       ]
     },
     {
@@ -10106,6 +12590,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig1-466f4128-adba28ab",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this light signal mean?",
+      "choices": [
+        {
+          "text": "Steady light visible from all sides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Quick-flashing light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Blue quick-flashing light",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_1-466f4128",
+        "ref": "ONI Annexe 2 – fig. 1",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image6.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 1 — \"Steady light visible from all sides\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig2-a59b06e5-ba408c9c",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -10148,6 +12674,90 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig2-a59b06e5-dd939f47",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this light signal mean?",
+      "choices": [
+        {
+          "text": "Blue quick-flashing light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Steady light visible from all sides",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Quick-flashing light",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_2-a59b06e5",
+        "ref": "ONI Annexe 2 – fig. 2",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image9.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 2 — \"Quick-flashing light\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig22-f87cb685-5b821c7e",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "No mooring",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Green ball",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The clearance height of the passage is limited",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_22-f87cb685",
+        "ref": "ONI Annexe 2 – fig. 22",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image30.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 22 — \"Green ball\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig22-f87cb685-71648c56",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -10185,6 +12795,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig27-6270f90c-7407e9b2",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Mandatory stop under certain conditions",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Two white flags one above the other",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Anchoring permitted",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_27-6270f90c",
+        "ref": "ONI Annexe 2 – fig. 27",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image35.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 27 — \"Two white flags one above the other\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
       "correct": [
         1
       ]
@@ -10274,6 +12926,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig29-98cd55c4-d726e2d2",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Yellow ball",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Police boats and boats of other services",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Yellow buoys marking each anchor",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_29-98cd55c4",
+        "ref": "ONI Annexe 2 – fig. 29",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image37.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 29 — \"Yellow buoys marking each anchor\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig3-72140816-8ad7580e",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -10311,6 +13005,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig3-72140816-b4054b28",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "No turning",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Passage permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ball",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_3-72140816",
+        "ref": "ONI Annexe 2 – fig. 3",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image11.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 3 — \"Ball\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
       "correct": [
         2
       ]
@@ -10358,6 +13094,90 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig30-b7c4f864-bba9d2a3",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Yellow buoys marking each anchor",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No anchoring",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Police boats and boats of other services",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_30-b7c4f864",
+        "ref": "ONI Annexe 2 – fig. 30",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image38.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 30 — \"Police boats and boats of other services\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig31-056d2c35-7e11146e",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this light signal mean?",
+      "choices": [
+        {
+          "text": "Quick-flashing light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Blue quick-flashing light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Steady light visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_31-056d2c35",
+        "ref": "ONI Annexe 2 – fig. 31",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image39.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 31 — \"Blue quick-flashing light\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig31-056d2c35-e187b283",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -10395,6 +13215,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig34-38f8c8ba-1e95dac4",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Pass only in the direction indicated",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Yellow ball",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mandatory stop under certain conditions",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_34-38f8c8ba",
+        "ref": "ONI Annexe 2 – fig. 34",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image42.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 34 — \"Yellow ball\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
       "correct": [
         1
       ]
@@ -10484,6 +13346,90 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig39-a1ae0684-e241f96a",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Waving a red flag",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The width of the passage is limited",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Pass only in the direction indicated",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_39-a1ae0684",
+        "ref": "ONI Annexe 2 – fig. 39",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image47.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 39 — \"Waving a red flag\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe3fig1-74a2f981-0fa9d939",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sound signal mean?",
+      "choices": [
+        {
+          "text": "Two lights one above the other",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Peals of a bell",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Yellow buoys marking each anchor",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_3__fig_1-74a2f981",
+        "ref": "ONI Annexe 3 – fig. 1",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image54.png",
+      "points": 3,
+      "explanation": "ONI Annexe 3 – fig. 1 — \"Peals of a bell\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
       "id": "q-oni-oniannexe3fig1-74a2f981-b124ec78",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -10523,6 +13469,48 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig10-2d7777ba-52fc619c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No anchoring",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "End of a prohibition or an obligation",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Water-skiing prohibited",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_10-2d7777ba",
+        "ref": "ONI Annexe 4 – fig. 10",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image64.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 10 — \"No anchoring\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
       ]
     },
     {
@@ -10610,6 +13598,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig11-86d01b18-71b19f59",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No passage for motorized boats",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No overtaking",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No mooring",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_11-86d01b18",
+        "ref": "ONI Annexe 4 – fig. 11",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image65.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 11 — \"No mooring\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig12-d6bb7ee4-af613bcd",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -10652,6 +13682,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig12-d6bb7ee4-d18ebf7c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No passage for motorized boats",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No turning",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "End of a prohibition or an obligation",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_12-d6bb7ee4",
+        "ref": "ONI Annexe 4 – fig. 12",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image66.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 12 — \"No turning\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig17-61ced693-1558cf8f",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -10689,6 +13761,90 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig17-61ced693-5d1d956c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Ferry not moving freely",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Swimming prohibited",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Recommended direction",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_17-61ced693",
+        "ref": "ONI Annexe 4 – fig. 17",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image71.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 17 — \"Swimming prohibited\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig19-0c739b2b-0eb33eca",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Mandatory to exercise particular vigilance",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mandatory stop under certain conditions",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mandatory to sound the whistle",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_19-0c739b2b",
+        "ref": "ONI Annexe 4 – fig. 19",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image73.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 19 — \"Mandatory stop under certain conditions\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
       "correct": [
         1
       ]
@@ -10778,6 +13934,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig2-b85b61a6-aef347a7",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this light signal mean?",
+      "choices": [
+        {
+          "text": "Recommended direction",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Two lights one above the other",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No berthing",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_2-b85b61a6",
+        "ref": "ONI Annexe 4 – fig. 2",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image56.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 2 — \"Two lights one above the other\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig21-c2e3f480-3a83ceb9",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -10815,6 +14013,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig21-c2e3f480-9e61d10d",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Mandatory stop under certain conditions",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mandatory to sound the whistle",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mandatory to exercise particular vigilance",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_21-c2e3f480",
+        "ref": "ONI Annexe 4 – fig. 21",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image75.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 21 — \"Mandatory to sound the whistle\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
       "correct": [
         1
       ]
@@ -10862,6 +14102,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig22-3acf3a06-e58d0091",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Mandatory stop under certain conditions",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mandatory to exercise particular vigilance",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mandatory to sound the whistle",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_22-3acf3a06",
+        "ref": "ONI Annexe 4 – fig. 22",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image76.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 22 — \"Mandatory to exercise particular vigilance\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig23-d9a5d7ea-090a0f29",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -10904,6 +14186,90 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig23-d9a5d7ea-84d576fb",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Kitesurfing permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Recommended direction",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The clearance height of the passage is limited",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_23-d9a5d7ea",
+        "ref": "ONI Annexe 4 – fig. 23",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image77.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 23 — \"The clearance height of the passage is limited\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig24-0ed67ba2-26c22855",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "The width of the passage is limited",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Storm warning",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Recommended direction",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_24-0ed67ba2",
+        "ref": "ONI Annexe 4 – fig. 24",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image78.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 24 — \"The width of the passage is limited\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig24-0ed67ba2-f75cc56b",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -10941,6 +14307,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig26-3e933a73-920d01c7",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "The draught is limited",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Strong-wind warning",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Storm warning",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_26-3e933a73",
+        "ref": "ONI Annexe 4 – fig. 26",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image80.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 26 — \"The draught is limited\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -11030,6 +14438,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig28-33e20058-a81959cf",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "The width of the passage is limited",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Boat landing place",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Pass only in the direction indicated",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_28-33e20058",
+        "ref": "ONI Annexe 4 – fig. 28",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image82.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 28 — \"Pass only in the direction indicated\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig29-d377bcde-851eaa0c",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -11072,6 +14522,90 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig29-d377bcde-dd649b0d",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Recommended direction",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Pass only in the direction indicated",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The draught is limited",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_29-d377bcde",
+        "ref": "ONI Annexe 4 – fig. 29",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image83.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 29 — \"Pass only in the direction indicated\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig3-c85afc25-332eccb5",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "End of a prohibition or an obligation",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No passage for motorized boats",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No turning",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_3-c85afc25",
+        "ref": "ONI Annexe 4 – fig. 3",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image57.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 3 — \"No passage for motorized boats\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig3-c85afc25-685d8e58",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -11109,6 +14643,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig32-a2542491-ce4e36f4",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Mooring permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Passage permitted",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Anchoring permitted",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_32-a2542491",
+        "ref": "ONI Annexe 4 – fig. 32",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image86.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 32 — \"Passage permitted\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
       "correct": [
         1
       ]
@@ -11198,6 +14774,90 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig33-8a38ab30-5fc76c18",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Berthing permitted",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Water-skiing permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Passage permitted",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_33-8a38ab30",
+        "ref": "ONI Annexe 4 – fig. 33",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image87.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 33 — \"Berthing permitted\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig34-b147eedf-a264b837",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Anchoring permitted",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Water-skiing permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Berthing permitted",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_34-b147eedf",
+        "ref": "ONI Annexe 4 – fig. 34",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image88.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 34 — \"Anchoring permitted\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig34-b147eedf-d8374a75",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -11237,6 +14897,48 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig35-abb18840-87df9985",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Anchoring permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Passage permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mooring permitted",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_35-abb18840",
+        "ref": "ONI Annexe 4 – fig. 35",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image89.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 35 — \"Mooring permitted\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
       ]
     },
     {
@@ -11324,6 +15026,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig36-731760fd-91ef6e56",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Water-skiing permitted",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mooring permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Windsurfing permitted",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_36-731760fd",
+        "ref": "ONI Annexe 4 – fig. 36",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image90.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 36 — \"Water-skiing permitted\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig37-20ae10a4-3b10ae57",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -11366,6 +15110,90 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig37-20ae10a4-957f7338",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Mooring permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Windsurfing permitted",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Berthing permitted",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_37-20ae10a4",
+        "ref": "ONI Annexe 4 – fig. 37",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image91.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 37 — \"Windsurfing permitted\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig38-470196ba-64824688",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Kitesurfing permitted",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Storm warning",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Swimming prohibited",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_38-470196ba",
+        "ref": "ONI Annexe 4 – fig. 38",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image92.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 38 — \"Kitesurfing permitted\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig38-470196ba-a5d6bd93",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -11405,6 +15233,48 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig39-654d2f1f-33bb34c4",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Pass only in the direction indicated",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Storm warning",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Recommended direction",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_39-654d2f1f",
+        "ref": "ONI Annexe 4 – fig. 39",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image93.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 39 — \"Recommended direction\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
       ]
     },
     {
@@ -11492,6 +15362,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig4-a404cf3f-9a04d32e",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No passage for motorized boats",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Water-skiing prohibited",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No anchoring",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_4-a404cf3f",
+        "ref": "ONI Annexe 4 – fig. 4",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image58.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 4 — \"Water-skiing prohibited\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig40-475e10a4-3aa9c269",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -11529,6 +15441,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig40-475e10a4-bca4e824",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Recommended direction",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Kitesurfing permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ferry not moving freely",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_40-475e10a4",
+        "ref": "ONI Annexe 4 – fig. 40",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image94.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 40 — \"Ferry not moving freely\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
       "correct": [
         2
       ]
@@ -11576,6 +15530,90 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig41-673f5d47-aac91aba",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Dam",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The draught is limited",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "High-voltage overhead lines",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_41-673f5d47",
+        "ref": "ONI Annexe 4 – fig. 41",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image95.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 41 — \"Dam\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig42-81bf56ce-b4625280",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Strong-wind warning",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Pass only in the direction indicated",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Boat launching place",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_42-81bf56ce",
+        "ref": "ONI Annexe 4 – fig. 42",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image96.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 42 — \"Boat launching place\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig42-81bf56ce-d1fd4d31",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -11613,6 +15651,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig43-c5029c48-06978bde",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Boat launching place",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Dam",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Boat landing place",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_43-c5029c48",
+        "ref": "ONI Annexe 4 – fig. 43",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image97.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 43 — \"Boat landing place\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
       "correct": [
         2
       ]
@@ -11660,6 +15740,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig44-6ba9ee97-9037df8f",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No passage for sailing boats",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No passage for motorized boats",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "End of a prohibition or an obligation",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_44-6ba9ee97",
+        "ref": "ONI Annexe 4 – fig. 44",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image98.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 44 — \"End of a prohibition or an obligation\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig44-6ba9ee97-aef1c69c",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -11702,6 +15824,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig45-484dce70-11fb3242",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "High-voltage overhead lines",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Dam",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Kitesurfing permitted",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_45-484dce70",
+        "ref": "ONI Annexe 4 – fig. 45",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image99.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 45 — \"High-voltage overhead lines\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig45-484dce70-22bb2c72",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -11739,6 +15903,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig5-41303a8b-49afb139",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No passage for sailing boats",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No turning",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No passage for motorized boats",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_5-41303a8b",
+        "ref": "ONI Annexe 4 – fig. 5",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image59.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 5 — \"No passage for sailing boats\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -11786,6 +15992,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig6-3fd0dd21-2280f456",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No passage for motorized boats",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "End of a prohibition or an obligation",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No windsurfing",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_6-3fd0dd21",
+        "ref": "ONI Annexe 4 – fig. 6",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image60.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 6 — \"No windsurfing\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig6-3fd0dd21-4a7ae6f9",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -11828,6 +16076,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig63-d93729c2-4772e7a1",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sound signal mean?",
+      "choices": [
+        {
+          "text": "Continuous peals of a bell",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mandatory stop under certain conditions",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No anchoring",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_63-d93729c2",
+        "ref": "ONI Annexe 4 – fig. 63",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image117.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 63 — \"Continuous peals of a bell\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig63-d93729c2-858887af",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -11867,6 +16157,48 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig64-cf3ef722-1e69aa0a",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Swimming prohibited",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wailing of a siren",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Pass only in the direction indicated",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_64-cf3ef722",
+        "ref": "ONI Annexe 4 – fig. 64",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image118.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 64 — \"Wailing of a siren\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
       ]
     },
     {
@@ -11954,6 +16286,90 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig7-b49d058f-7f440462",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No turning",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No overtaking",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No meeting or overtaking",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_7-b49d058f",
+        "ref": "ONI Annexe 4 – fig. 7",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image61.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 7 — \"No overtaking\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig8-84092d86-6d075eb9",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No passage for sailing boats",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Water-skiing prohibited",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No meeting or overtaking",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_8-84092d86",
+        "ref": "ONI Annexe 4 – fig. 8",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image62.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 8 — \"No meeting or overtaking\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig8-84092d86-b0e742b3",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -11993,6 +16409,48 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig9-c530e67e-6281e520",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No turning",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No berthing",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "End of a prohibition or an obligation",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_9-c530e67e",
+        "ref": "ONI Annexe 4 – fig. 9",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/oni/image63.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 9 — \"No berthing\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
       ]
     },
     {
@@ -13676,6 +18134,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig34-1152b879-08abbf2d",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Either a red flag and a white flag",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No passage outside the area indicated",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Boats navigating alone or tugboats",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_34-1152b879",
+        "ref": "RNL Annexe I – fig. 34",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image39.png",
+      "points": 3,
+      "explanation": "RNL Annexe I – fig. 34 — \"Either a red flag and a white flag\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig34-1152b879-a07fde0a",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -13715,6 +18215,48 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig4-4bacf613-79a3ca91",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Pushed convoys",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Boats navigating alone or tugboats",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Pleasure boats",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_4-4bacf613",
+        "ref": "RNL Annexe I – fig. 4",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image9.png",
+      "points": 3,
+      "explanation": "RNL Annexe I – fig. 4 — \"Boats navigating alone or tugboats\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
       ]
     },
     {
@@ -13802,6 +18344,90 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig5-466235f4-f2f518b6",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Pleasure boats",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Boats navigating alone or tugboats",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Pushed convoys",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_5-466235f4",
+        "ref": "RNL Annexe I – fig. 5",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image10.png",
+      "points": 3,
+      "explanation": "RNL Annexe I – fig. 5 — \"Pushed convoys\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig6-62565189-ad1c8a52",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Pushed convoys",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Pleasure boats",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Boats navigating alone or tugboats",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_6-62565189",
+        "ref": "RNL Annexe I – fig. 6",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image11.png",
+      "points": 3,
+      "explanation": "RNL Annexe I – fig. 6 — \"Pleasure boats\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig6-62565189-f18062bd",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -13883,6 +18509,90 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig1-81fc5ae2-c254c3d6",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No anchoring",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No passage",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No berthing",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_1-81fc5ae2",
+        "ref": "RNL Annexe III – fig. 1",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image50.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 1 — \"No passage\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig10-12f829a8-c7ba1769",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No passage outside the area indicated",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No windsurfing",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No berthing",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_10-12f829a8",
+        "ref": "RNL Annexe III – fig. 10",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image59.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 10 — \"No passage outside the area indicated\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
       ]
     },
     {
@@ -13970,6 +18680,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeiiifig11-b424faec-7da6bda1",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No passage",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No windsurfing",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No berthing",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_11-b424faec",
+        "ref": "RNL Annexe III – fig. 11",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image60.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 11 — \"No windsurfing\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeiiifig12-18b5664b-27f6653c",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -14007,6 +18759,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig12-18b5664b-6d43e710",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No windsurfing",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No swimming",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No passage",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_12-18b5664b",
+        "ref": "RNL Annexe III – fig. 12",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image61.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 12 — \"No swimming\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
       "correct": [
         1
       ]
@@ -14051,6 +18845,90 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig13-1a229905-4e8bfbfd",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No kitesurfing",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No windsurfing",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No berthing",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_13-1a229905",
+        "ref": "RNL Annexe III – fig. 13",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image62.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 13 — \"No kitesurfing\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig16-34dbd04e-80d7b7f5",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Anchoring permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No windsurfing",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mandatory to exercise particular vigilance",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_16-34dbd04e",
+        "ref": "RNL Annexe III – fig. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image65.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 16 — \"Mandatory to exercise particular vigilance\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
       ]
     },
     {
@@ -14133,6 +19011,90 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig18-23ef0bf0-c0049346",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Anchoring permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Berthing permitted",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Windsurfing permitted",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_18-23ef0bf0",
+        "ref": "RNL Annexe III – fig. 18",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image67.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 18 — \"Berthing permitted\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig19-0606de94-a3bab816",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Berthing permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Anchoring permitted",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mooring permitted",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_19-0606de94",
+        "ref": "RNL Annexe III – fig. 19",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image68.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 19 — \"Anchoring permitted\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
       "correct": [
         1
       ]
@@ -14222,6 +19184,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeiiifig2-a1a757d0-c72eb751",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Two light signals",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Anchoring permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Boats navigating alone or tugboats",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_2-a1a757d0",
+        "ref": "RNL Annexe III – fig. 2",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image51.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 2 — \"Two light signals\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeiiifig20-66973f4b-708145d5",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -14261,6 +19265,90 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         2
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig20-66973f4b-ac467467",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Berthing permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Anchoring permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mooring permitted",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_20-66973f4b",
+        "ref": "RNL Annexe III – fig. 20",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image69.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 20 — \"Mooring permitted\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig21-4ce439e5-10e7049b",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "Windsurfing permitted",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Anchoring permitted",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Berthing permitted",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_21-4ce439e5",
+        "ref": "RNL Annexe III – fig. 21",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image70.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 21 — \"Windsurfing permitted\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
       ]
     },
     {
@@ -14348,6 +19436,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeiiifig22-30fe300a-d82f9ae6",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this sign mean?",
+      "choices": [
+        {
+          "text": "Kitesurfing permitted",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mandatory to exercise particular vigilance",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No passage",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_22-30fe300a",
+        "ref": "RNL Annexe III – fig. 22",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image71.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 22 — \"Kitesurfing permitted\".",
+      "review_status": "approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeiiifig3-d0511f8f-18257c2e",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -14385,6 +19515,90 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig3-d0511f8f-3cf4885e",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No passage for motorized boats",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No windsurfing",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No swimming",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_3-d0511f8f",
+        "ref": "RNL Annexe III – fig. 3",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image52.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 3 — \"No passage for motorized boats\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig5-2a1fcb5a-191026c3",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No overtaking",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No anchoring",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No passage",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_5-2a1fcb5a",
+        "ref": "RNL Annexe III – fig. 5",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image54.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 5 — \"No overtaking\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
       "correct": [
         0
       ]
@@ -14432,6 +19646,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeiiifig6-d4425b6a-8d7b005b",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No mooring",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No kitesurfing",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No berthing",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_6-d4425b6a",
+        "ref": "RNL Annexe III – fig. 6",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image55.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 6 — \"No berthing\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeiiifig6-d4425b6a-f1141d2e",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -14471,6 +19727,48 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         2
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig7-bb9b0b1a-1b157a70",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No passage outside the area indicated",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No anchoring",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No swimming",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_7-bb9b0b1a",
+        "ref": "RNL Annexe III – fig. 7",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image56.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 7 — \"No anchoring\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
       ]
     },
     {
@@ -14516,6 +19814,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeiiifig8-10ceee7f-502ec508",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No passage",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No mooring",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No kitesurfing",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_8-10ceee7f",
+        "ref": "RNL Annexe III – fig. 8",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image57.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 8 — \"No mooring\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeiiifig8-10ceee7f-54642a28",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -14555,6 +19895,48 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig9-c3092770-0763350f",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "What does this board mean?",
+      "choices": [
+        {
+          "text": "No kitesurfing",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No anchoring",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No passage outside the area indicated",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_9-c3092770",
+        "ref": "RNL Annexe III – fig. 9",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image58.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 9 — \"No passage outside the area indicated\".",
+      "review_status": "approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "translation:en.v1",
+      "correct": [
+        2
       ]
     },
     {

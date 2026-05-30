@@ -1,0 +1,119 @@
+{
+  "q-meteovents-météosuisselabise-22689f11-190b00bf": {
+    "stem": "Which pressure situation causes la bise to set in?",
+    "choices": [
+      "High pressure over the British Isles and low pressure over Italy.",
+      "Low pressure over the British Isles and high pressure over Italy.",
+      "High pressure over Italy and low pressure over Savoy."
+    ],
+    "explanation": "According to MétéoSuisse: La bise, it sets in when high pressure covers the British Isles and low pressure covers Italy."
+  },
+  "q-meteovents-météosuisselabise-22689f11-ae5ef355": {
+    "stem": "Among these statements about la bise, which one is correct?",
+    "choices": [
+      "Its speed is between 3 and 9 Bf, and both its onset and its end are gradual.",
+      "It arises abruptly, like the föhn, and always precedes rain.",
+      "Summer bises last longer than winter ones."
+    ],
+    "explanation": "According to MétéoSuisse: La bise, its speed ranges from 3 to 9 Bf, and its onset and end are gradual (unlike the föhn)."
+  },
+  "q-meteovents-météosuisselavaudaire-f5cb790-9ae5eb0f": {
+    "stem": "Which statement is correct about the storm vaudaire?",
+    "choices": [
+      "It is cold: as soon as it appears, the temperature drops and the humidity rises.",
+      "It is warm and dry, raising the temperature as soon as it appears.",
+      "It occurs exclusively from December to March."
+    ],
+    "explanation": "According to MétéoSuisse: La vaudaire, the storm vaudaire is cold, with a drop in temperature and a rise in humidity as soon as it appears."
+  },
+  "q-meteovents-météosuisselavaudaire-f5cb790-e8ab368d": {
+    "stem": "Concerning the two types of vaudaire, which of these statements is FALSE?",
+    "choices": [
+      "The föhn vaudaire appears mainly in March-April as well as in October-November.",
+      "The storm vaudaire appears from April to September.",
+      "The föhn vaudaire is a cold, humid wind laden with precipitation."
+    ],
+    "explanation": "According to MétéoSuisse: La vaudaire, the föhn vaudaire comes back down dried out and warmed after having shed its humidity on the southern side of the Alps."
+  },
+  "q-meteovents-météosuisselebornan-d1fc474f-1a7c5cc0": {
+    "stem": "What are the warning signs that announce le Bornan?",
+    "choices": [
+      "The build-up of large cumulus and cumulonimbus clouds over the high ground, particularly the Savoy Prealps.",
+      "A perfectly clear and stable sky above the Dent d'Oche.",
+      "The appearance of a roll cloud bordering the Jura."
+    ],
+    "explanation": "According to MétéoSuisse: Le Bornan, the build-up of cumulus and cumulonimbus clouds over the high ground, especially the Savoy Prealps, is its warning sign."
+  },
+  "q-meteovents-météosuisselebornan-d1fc474f-2b428f7c": {
+    "stem": "Which statements are correct about le Bornan?",
+    "choices": [
+      "It can reach 30 to 40 kt and its effects are felt mainly between Rolle and Lutry.",
+      "It is one of the most violent storm winds of Lake Geneva, occurring in summer.",
+      "It is a cold winter wind channelled by the Rhône valley."
+    ],
+    "explanation": "According to MétéoSuisse: Le Bornan, it reaches 30 to 40 kt between Rolle and Lutry and is one of the most violent summer storm winds of Lake Geneva."
+  },
+  "q-meteovents-météosuisselejoran-cd094d9d-70ee105d": {
+    "stem": "How do the storm joran and the joran that rises after a cold front compare?",
+    "choices": [
+      "The storm joran is often dangerous because it is sudden and sometimes violent.",
+      "The gusts of the cold-front joran are clearly stronger than those of the storm joran.",
+      "The storm joran blows steadily and is appreciated by sailors."
+    ],
+    "explanation": "According to MétéoSuisse: Le joran, the storm joran is sudden and sometimes violent, hence often dangerous, unlike the steady cold-front joran."
+  },
+  "q-meteovents-météosuisselejoran-cd094d9d-baea55b3": {
+    "stem": "From which direction and origin does le joran come?",
+    "choices": [
+      "It is a NW wind, relatively cold, that comes down from the Jura towards Lake Geneva.",
+      "It is a SE wind, warm, that comes up from the Rhône valley.",
+      "It is a NE wind that blows from the Vaud Prealps."
+    ],
+    "explanation": "According to MétéoSuisse: Le joran, the joran is a relatively cold NW wind that comes down from the Jura towards Lake Geneva."
+  },
+  "q-meteovents-météosuisselesbrises-7381ec08-54b8b44c": {
+    "stem": "Which statements are correct about daytime and nighttime breezes?",
+    "choices": [
+      "Daytime breezes blow from the lake towards the shore.",
+      "Nighttime breezes generally rise between 5 and 7 p.m.",
+      "Nighttime breezes blow from the shore towards the lake and are very violent winds."
+    ],
+    "explanation": "According to MétéoSuisse: Les brises, daytime breezes blow from the lake towards the shore and nighttime ones (weak winds) rise between 5 and 7 p.m."
+  },
+  "q-meteovents-météosuisselesbrises-7381ec08-aab93e17": {
+    "stem": "What is the origin of the alternating breezes observed near lakes?",
+    "choices": [
+      "The difference in temperature between the water, warmer at night, and the land, warmer during the day.",
+      "The arrival of an Atlantic disturbance over Lake Geneva.",
+      "The channelling of cold air coming down from the Jura."
+    ],
+    "explanation": "According to MétéoSuisse: Les brises, they originate from the difference in temperature between the water (warmer at night) and the land (warmer during the day)."
+  },
+  "q-meteovents-météosuisselevent-4923b0ba-6dfc23b6": {
+    "stem": "Which weather situation does Le Vent (sudois) correspond to?",
+    "choices": [
+      "Low pressure over the British Isles and high pressure over southern Europe.",
+      "High pressure over the British Isles and low pressure over southern Europe.",
+      "A NE bise channelled between the Jura and the Prealps."
+    ],
+    "explanation": "According to MétéoSuisse: Le Vent, it corresponds to low pressure over the British Isles and high pressure over southern Europe."
+  },
+  "q-oni-oniannexe4fig61-729183ab-312fd2c6": {
+    "stem": "What does this signal mean?",
+    "choices": [
+      "Boat landing area",
+      "The width of the passage is limited",
+      "Strong wind warning"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 61 — « Strong wind warning »."
+  },
+  "q-oni-oniannexe4fig62-4c0da81f-dad372e6": {
+    "stem": "What does this signal mean?",
+    "choices": [
+      "Storm warning",
+      "Dam",
+      "Strong wind warning"
+    ],
+    "explanation": "ONI Annexe 4 – fig. 62 — « Storm warning »."
+  }
+}

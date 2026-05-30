@@ -1,0 +1,65 @@
+{
+  "q-oni-oniart142-d5cfcfd2-817324cd": {
+    "stem": "According to ONI art. 142, which ordinance do the definitions of \"risk analysis\", \"safety report\" and \"duty of diligence\" refer to?",
+    "choices": [
+      "To the ordinance of 14 March 1994 on the construction of vessels (OCEB).",
+      "To the Inland Navigation Ordinance (ONI) itself.",
+      "To the Navigation Regulations for Lake Geneva (RNL)."
+    ],
+    "explanation": "ONI art. 142 refers, for these concepts, to the articles of the OCEB (ordinance of 14 March 1994 on the construction of vessels)."
+  },
+  "q-oni-oniart142-d5cfcfd2-aefac3d2": {
+    "stem": "Among these statements about the definitions in ONI art. 142, which one is FALSE?",
+    "choices": [
+      "The \"duty of diligence\" is defined in ONI art. 142 without reference to another ordinance.",
+      "The \"safety report\" is a report within the meaning of art. 2, let. e, and art. 17, para. 3, OCEB.",
+      "The \"expert examination report\" is a report within the meaning of art. 2, let. f, OCEB."
+    ],
+    "explanation": "According to ONI art. 142, let. e, the \"duty of diligence\" is defined by reference to art. 5 OCEB, and not without reference."
+  },
+  "q-oni-oniart142-d5cfcfd2-afaf3463": {
+    "stem": "According to ONI art. 142, how are the \"experts\" defined within the meaning of the special provisions of this section?",
+    "choices": [
+      "As the persons referred to in art. 5a, para. 1, let. a, OCEB.",
+      "As the officers of the competent authority of the place of mooring.",
+      "As the members of a recognized classification society."
+    ],
+    "explanation": "According to ONI art. 142, let. c, the \"experts\" are the persons referred to in art. 5a, para. 1, let. a, OCEB."
+  },
+  "q-oni-oniart2-2bf27aad-01b54b7e": {
+    "stem": "Within the meaning of the ONI, what does the term \"motorized vessel\" designate?",
+    "choices": [
+      "A vessel with mechanical propulsion",
+      "A non-propelled vessel towed by another vessel",
+      "A floating device such as a dredger or a crane"
+    ],
+    "explanation": "ONI art. 2: a \"motorized vessel\" is a vessel with mechanical propulsion."
+  },
+  "q-rnl-rnlart71-ba2d9252-53949420": {
+    "stem": "Among these statements about restricted visibility within the meaning of RNL art. 71, which one is FALSE?",
+    "choices": [
+      "Navigation in restricted visibility applies only to navigation at night.",
+      "Navigation in snowy weather is considered navigation in restricted visibility.",
+      "Navigation in drizzly weather is considered navigation in restricted visibility."
+    ],
+    "explanation": "RNL art. 71 states that restricted visibility applies both by day and by night, and not only at night."
+  },
+  "q-rnl-rnlart71-ba2d9252-81aaa7b5": {
+    "stem": "According to RNL art. 71, does navigation in restricted visibility also concern situations that are not explicitly listed?",
+    "choices": [
+      "Yes, it also covers any other conditions limiting visibility in the same manner.",
+      "No, only the conditions specifically cited (mist, fog, etc.) are covered.",
+      "Yes, but only conditions caused by smoke from a fire."
+    ],
+    "explanation": "RNL art. 71 extends the concept to any other conditions limiting visibility in the same manner."
+  },
+  "q-rnl-rnlart71-ba2d9252-b9f294ea": {
+    "stem": "According to RNL art. 71, what is considered navigation in restricted visibility?",
+    "choices": [
+      "Any navigation, by day as by night, in mist, fog, drizzle, snow or heavy squalls with rain.",
+      "Only navigation at night in thick fog.",
+      "Only navigation by day when the rain is accompanied by strong wind."
+    ],
+    "explanation": "RNL art. 71 defines restricted visibility as any navigation, by day as by night, in mist, fog, drizzle, snow or heavy squalls with rain."
+  }
+}

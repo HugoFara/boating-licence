@@ -20,6 +20,9 @@ data/questions.json.*
 data/draft_jobs*.json
 data/verify_jobs*.json
 data/verdicts*.json
+# EN translation intermediates (durable: translate_answers/ + translate_verdicts/).
+data/translate_jobs.json
+data/translate_verify.json
 
 # Static-player data bundle (rebuild with `python run.py web`). NOW COMMITTED so
 # GitHub Pages can serve it (the data is public-domain law). Regenerate with
