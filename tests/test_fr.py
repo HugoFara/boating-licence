@@ -16,6 +16,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src import themes                                      # noqa: E402
 from src import countries                                   # noqa: E402
+from src import scope                                        # noqa: E402
 from src.questions import schema                             # noqa: E402
 from src.fr import themes_fr, exam_fr, sources_fr, build_fr  # noqa: E402
 from src.fr.seed_fr import SEED                              # noqa: E402
@@ -96,6 +97,55 @@ def test_france_registered_in_country_registry():
         assert p.exam.questions == 40 and p.exam.pass_points == 35
     assert fr.sources == ()                 # seed-driven, provenance inline
     assert fr.references                    # but the law is documented
+
+
+def test_scope_routes_fr_questions_to_the_right_base():
+    # France de-silos into the shared scope layer (src/scope.py): every question
+    # classifies, and the maritime/inland split follows the regime tree — RIPAM
+    # (côtière) → colregs, the inland code (eaux intérieures) → cevni. No leak across
+    # tracks, and the permit/equipment statute stays out of any portable base.
+    by_option = build_fr.build_questions()
+    for opt, by_lang in by_option.items():
+        scopes = {scope.classify(q) for q in by_lang["fr"]}
+        assert scopes <= scope.SCOPES
+        if opt == "cotiere":
+            assert "colregs" in scopes and "cevni" not in scopes
+        else:
+            assert "cevni" in scopes and "colregs" not in scopes
+        # FR and EN variants of the same item must land in the same base.
+        for fr_q, en_q in zip(by_lang["fr"], by_lang["en"]):
+            assert scope.classify(fr_q) == scope.classify(en_q)
+    # Spot-check the theme routing that the whole split rests on.
+    pick = {(e["option"], e["theme"]): e for e in SEED}
+    cases = {
+        ("cotiere", "balisage"): "colregs",
+        ("cotiere", "regles_route"): "colregs",
+        ("cotiere", "reglementation"): "national",
+        ("eaux_interieures", "voies_navigables"): "cevni",
+        ("eaux_interieures", "regles_route"): "cevni",
+        ("eaux_interieures", "reglementation"): "national",
+    }
+    qs = {(e["option"], e["theme"]): build_fr._question(e, "fr", i)
+          for i, e in enumerate(SEED)}
+    for key, want in cases.items():
+        if key in pick:
+            assert scope.classify(qs[key]) == want, f"{key} → {scope.classify(qs[key])}"
+
+
+def test_core_bundle_holds_only_portable_questions():
+    # The harmonised core a learner can drill is universal ∪ cevni ∪ colregs — the
+    # national/local overlay (permis, Division-240 kit) must never enter it.
+    by_option = build_fr.build_questions()
+    for opt, by_lang in by_option.items():
+        core = scope.core_bank(by_lang["fr"])
+        assert core, f"{opt}: empty core"
+        assert all(scope.classify(q) in scope.BASES for q in core)
+        # the core is a strict subset of the national bank (overlays dropped)
+        assert len(core) < len(by_lang["fr"])
+        bases = scope.bases_present(by_lang["fr"])
+        assert "universal" in bases
+        assert ("colregs" in bases) == (opt == "cotiere")
+        assert ("cevni" in bases) == (opt == "eaux_interieures")
 
 
 def test_stable_ids_are_unique():

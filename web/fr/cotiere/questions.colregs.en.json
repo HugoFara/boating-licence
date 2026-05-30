@@ -1,0 +1,716 @@
+{
+  "meta": {
+    "exam_questions": 40,
+    "total_points": 40,
+    "points_per_question": 1,
+    "pass_points": 35,
+    "time_limit_min": 30,
+    "scoring": "all_or_nothing",
+    "canton": "National (France)",
+    "canton_code": "FR",
+    "permis": "cotiere",
+    "permis_label": "Permis plaisance — option côtière",
+    "country": "FR",
+    "generated": "2026-05-30",
+    "kb_version": "",
+    "lang": "en",
+    "unofficial": "true",
+    "ui_title": "French boating licence — coastal option (practice)",
+    "ui_h1": "French boating licence — coastal option",
+    "ui_subtitle": "Theory exam · sea navigation up to 6 miles from a shelter",
+    "ui_demo": "<strong>Question bank in progress.</strong> Questions derived from freely-reusable French law (RIPAM, IALA region A buoyage, Division 240, the 28 Sept. 2007 order). Not an official exam; the bank keeps growing.",
+    "ui_sourcenote": "Source: French law (official act, freely reusable under the Open Licence / Etalab) — RIPAM, RGP, the 28 September 2007 order, Division 240. No question taken from an operator's bank.",
+    "ui_multihint": "Only one answer is correct.",
+    "pool": "colregs"
+  },
+  "questions": [
+    {
+      "id": "q-fr-ialaa-0-876ff971",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "Coming from seaward (IALA region A), what colour and shape is a PORT-hand lateral mark?",
+      "choices": [
+        {
+          "text": "Red, can-shaped",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Green, conical",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Yellow, spherical",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-0",
+        "ref": "Balisage IALA région A — marques latérales",
+        "source": "Balisage maritime — système IALA région A (référentiel permis plaisance)",
+        "url": "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "IALA region A: the port mark is red and can-shaped; keep it on your left when entering.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-1-4ff6ebdb",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "Coming from seaward (region A), what colour and shape is a STARBOARD-hand lateral mark?",
+      "choices": [
+        {
+          "text": "Green, conical",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Red, can-shaped",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Black and red, with spheres",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-1",
+        "ref": "Balisage IALA région A — marques latérales",
+        "source": "Balisage maritime — système IALA région A (référentiel permis plaisance)",
+        "url": "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "IALA region A: the starboard mark is green and conical; keep it on your right when entering.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-2-3f95a40e",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "How is a NORTH cardinal mark's topmark recognised, and which side do you pass?",
+      "choices": [
+        {
+          "text": "Two cones pointing up; pass to the north",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Two cones pointing down; pass to the south",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Two cones point-to-point; pass to the west",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-2",
+        "ref": "Balisage IALA — marque cardinale Nord",
+        "source": "Balisage maritime — système IALA région A (référentiel permis plaisance)",
+        "url": "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "North cardinal: two black cones, points UP; safe water is to the north, so pass to the north of the mark.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-3-94416808",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "What does a black mark with red horizontal bands, topped by two black spheres, indicate?",
+      "choices": [
+        {
+          "text": "An isolated danger surrounded by safe water",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The main harbour entrance",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A supervised swimming area",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-3",
+        "ref": "Balisage IALA — marque de danger isolé",
+        "source": "Balisage maritime — système IALA région A (référentiel permis plaisance)",
+        "url": "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "It is an isolated-danger mark: moored ON a small danger surrounded by safe water; white light, group flashing (2).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-4-9ddb6365",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "What does a mark with red and white vertical stripes and a red spherical topmark indicate?",
+      "choices": [
+        {
+          "text": "Safe water all around; pass on either side",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "An isolated danger to avoid",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The starboard side of a channel",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-4",
+        "ref": "Balisage IALA — marque d'eaux saines",
+        "source": "Balisage maritime — système IALA région A (référentiel permis plaisance)",
+        "url": "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Safe-water mark (mid-channel / landfall): you may pass it on either side.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ripam-5-20861326",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Two power-driven vessels meet on directly opposite (head-on) courses with risk of collision. What must each do?",
+      "choices": [
+        {
+          "text": "Each alters to starboard",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Each alters to port",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The faster one keeps clear, the other holds course",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-ripam-5",
+        "ref": "RIPAM règle 14 — Navires faisant des routes opposées",
+        "source": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "COLREG rule 14: each alters course to STARBOARD so they pass port to port.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ripam-6-251f6772",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Two power-driven vessels are on crossing courses with risk of collision. Which one must keep out of the way?",
+      "choices": [
+        {
+          "text": "The one that has the other on its starboard side",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The one that has the other on its port side",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The larger of the two vessels",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-ripam-6",
+        "ref": "RIPAM règle 15 — Routes qui se croisent",
+        "source": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "COLREG rule 15: the vessel that has the other on its OWN starboard side gives way; the other (stand-on) keeps course and speed.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ripam-7-7b18dbcc",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "One vessel is overtaking another. Which must keep out of the way?",
+      "choices": [
+        {
+          "text": "The overtaking vessel",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The vessel being overtaken",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Always the sailing vessel",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-ripam-7",
+        "ref": "RIPAM règle 13 — Navire qui en rattrape un autre",
+        "source": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "COLREG rule 13: the OVERTAKING vessel keeps clear of the one being overtaken, whatever the type of either vessel.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ripam-8-89459ac4",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Not overtaking and outside a narrow channel, a power-driven vessel meets a vessel under sail. Which one keeps clear?",
+      "choices": [
+        {
+          "text": "The power-driven vessel",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The sailing vessel",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Neither, both hold their course",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-ripam-8",
+        "ref": "RIPAM règle 18 — Responsabilités réciproques",
+        "source": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "COLREG rule 18: the power-driven vessel keeps out of the way of the sailing vessel.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ripam-9-9439f045",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "You are the stand-on vessel that must keep course and speed, but the other vessel takes no action and collision becomes imminent. What may you do?",
+      "choices": [
+        {
+          "text": "Manoeuvre to avoid the collision yourself",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Hold course and speed no matter what",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Speed up to cross ahead",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-ripam-9",
+        "ref": "RIPAM règle 17 — Navire privilégié",
+        "source": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "COLREG rule 17: if the give-way vessel fails to act, the stand-on vessel may, then must, manoeuvre to avoid collision on its own.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ripam-10-101515fc",
+      "theme": "feux_signaux",
+      "kind": "rule_mc",
+      "stem": "At night, an underway power-driven vessel under 50 m shows sidelights. What colour is the PORT sidelight?",
+      "choices": [
+        {
+          "text": "Red",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Green",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "White",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-ripam-10",
+        "ref": "RIPAM règle 23 — Feux d'un navire à moteur",
+        "source": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "COLREG: port sidelight RED, starboard green; plus a white masthead light and a white sternlight.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ripam-11-6d40be16",
+      "theme": "feux_signaux",
+      "kind": "rule_mc",
+      "stem": "In sight of another vessel, a power-driven vessel sounds ONE short blast. What is it signalling?",
+      "choices": [
+        {
+          "text": "“I am altering to starboard”",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "“I am altering to port”",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "“I am operating astern”",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-ripam-11",
+        "ref": "RIPAM règle 34 — Signaux de manœuvre (1 son bref)",
+        "source": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "COLREG rule 34: one short blast = “I am altering my course to starboard”.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ripam-12-b4a03f8b",
+      "theme": "feux_signaux",
+      "kind": "rule_mc",
+      "stem": "What do THREE short blasts from a power-driven vessel in sight of another mean?",
+      "choices": [
+        {
+          "text": "“I am operating astern propulsion”",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "“I am altering to port”",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "“I am aground”",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-ripam-12",
+        "ref": "RIPAM règle 34 — Signaux de manœuvre (3 sons brefs)",
+        "source": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "COLREG rule 34: three short blasts = “I am operating astern propulsion”.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ripam-13-c1c556d1",
+      "theme": "feux_signaux",
+      "kind": "rule_mc",
+      "stem": "What do at least FIVE short and rapid blasts mean?",
+      "choices": [
+        {
+          "text": "Doubt / a warning about the other's manoeuvre",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "An invitation to cross ahead",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A distress call",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-ripam-13",
+        "ref": "RIPAM règle 34 — Signal de doute",
+        "source": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "COLREG rule 34(d): at least five short rapid blasts signal doubt about the other vessel's intentions or manoeuvre (a warning).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ripam-14-d9567bf5",
+      "theme": "feux_signaux",
+      "kind": "rule_mc",
+      "stem": "In restricted visibility (fog), what signal does a power-driven vessel underway and making way sound?",
+      "choices": [
+        {
+          "text": "One prolonged blast at least every 2 minutes",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Three short blasts every minute",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No signal is required",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-ripam-14",
+        "ref": "RIPAM règle 35 — Signaux par visibilité réduite",
+        "source": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "COLREG rule 35: one prolonged blast at intervals of no more than 2 minutes.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-division240-15-a8104676",
+      "theme": "feux_signaux",
+      "kind": "rule_mc",
+      "stem": "Which of these is a recognised PYROTECHNIC distress signal at sea?",
+      "choices": [
+        {
+          "text": "A red parachute flare",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A flashing green light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A hoisted yellow flag",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-division_240-15",
+        "ref": "Signaux de détresse en mer",
+        "source": "Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres",
+        "url": "https://www.mer.gouv.fr/la-division-240",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "A red parachute rocket flare is a recognised distress signal; orange smoke also serves by day.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "meta": {
+    "exam_questions": 40,
+    "total_points": 40,
+    "points_per_question": 1,
+    "pass_points": 35,
+    "time_limit_min": 30,
+    "scoring": "all_or_nothing",
+    "canton": "National (France)",
+    "canton_code": "FR",
+    "permis": "eaux_interieures",
+    "permis_label": "Permis plaisance — option eaux intérieures",
+    "country": "FR",
+    "generated": "2026-05-30",
+    "kb_version": "",
+    "lang": "fr",
+    "unofficial": "false",
+    "ui_title": "Permis plaisance — option eaux intérieures (entraînement)",
+    "ui_h1": "Permis plaisance — option eaux intérieures",
+    "ui_subtitle": "Examen théorique · rivières, canaux et lacs",
+    "ui_demo": "<strong>Banque en construction.</strong> Questions dérivées du droit français librement réutilisable (règlement général de police de la navigation intérieure, arrêté du 28 sept. 2007). Ce n'est pas un examen officiel ; la banque continue de s'étoffer.",
+    "ui_sourcenote": "Source : droit français (acte officiel, librement réutilisable sous Licence Ouverte / Etalab) — RIPAM, RGP, arrêté du 28 septembre 2007, Division 240. Aucune question issue d'une banque d'opérateur.",
+    "ui_multihint": "Une seule réponse est correcte.",
+    "pool": "cevni"
+  },
+  "questions": [
+    {
+      "id": "q-fr-rgp-31-deefd8ff",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "Au sens du règlement général de police (RGP), qu'est-ce qu'une « menue embarcation » ?",
+      "choices": [
+        {
+          "text": "Un bateau de moins de 20 mètres",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Tout bateau de moins de 24 mètres",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un bateau de moins de 15 mètres uniquement",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-31",
+        "ref": "RGP — définition de la menue embarcation",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "C'est, en règle générale, un bateau dont la longueur de coque est inférieure à 20 mètres (hors bateaux à passagers, remorqueurs, etc.).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-32-d4491bf7",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "Où le stationnement (l'arrêt) d'un bateau est-il en principe interdit sur une voie navigable ?",
+      "choices": [
+        {
+          "text": "Sous les ponts et dans les passages étroits",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le long de tous les quais aménagés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nulle part, le stationnement est libre",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-32",
+        "ref": "RGP — stationnement",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le stationnement est interdit là où il gêne la navigation (sous les ponts, dans les passages étroits) et partout où la signalisation l'interdit.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-33-fe0e0796",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "Pour limiter le batillage (les remous qui érodent les berges et secouent les bateaux amarrés), que doit faire le conducteur près des rives ?",
+      "choices": [
+        {
+          "text": "Réduire sa vitesse",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Augmenter sa vitesse pour passer vite",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Naviguer au plus près de la berge",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-33",
+        "ref": "RGP — batillage",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Il doit réduire sa vitesse à l'approche des rives, des ports et des bateaux stationnés, afin de limiter les remous (batillage).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-34-4ecce94e",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "À l'entrée d'une écluse, que signifie un feu ROUGE ?",
+      "choices": [
+        {
+          "text": "Entrée interdite, il faut attendre",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Entrée autorisée",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sortie de l'écluse seulement",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-34",
+        "ref": "RGP — signalisation des écluses",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Un feu rouge interdit l'entrée dans l'écluse ; on attend. Le feu vert autorise l'entrée.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-35-0a721938",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "Quel feu autorise l'entrée dans une écluse ?",
+      "choices": [
+        {
+          "text": "Le feu vert",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le feu rouge",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Deux feux rouges",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-35",
+        "ref": "RGP — feu vert d'écluse",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le feu vert autorise l'entrée. Deux feux rouges signifient que l'écluse est hors service.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-36-b406e698",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "Dans le sas d'une écluse, comment doit-on tenir ses amarres pendant l'éclusée ?",
+      "choices": [
+        {
+          "text": "Les tenir et les ajuster, sans les frapper à poste fixe",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les frapper solidement à un taquet fixe",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Retirer toutes les amarres",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-36",
+        "ref": "RGP — amarrage dans le sas",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le niveau d'eau varie : il faut tenir les amarres et les filer ou les reprendre au fur et à mesure, sans jamais les frapper à poste fixe (risque de rupture ou de gîte).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-37-04389b84",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Sur une voie navigable, que signifie un panneau rectangulaire à bord rouge barré d'une bande blanche horizontale ?",
+      "choices": [
+        {
+          "text": "Interdiction de passer",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obligation de s'arrêter pour faire le plein",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Recommandation de ralentir",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-37",
+        "ref": "RGP — panneau d'interdiction (A.1)",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "C'est un panneau d'interdiction (type A.1) : interdiction de passer / d'aller au-delà.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-38-8014089e",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Sur une voie intérieure, que signifie en règle générale UN son prolongé émis par un bateau ?",
+      "choices": [
+        {
+          "text": "« Attention »",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "« Je fais demi-tour »",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "« Je suis à l'arrêt »",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-38",
+        "ref": "RGP — signaux sonores (son prolongé)",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Un son prolongé est le signal « Attention » ; il attire l'attention des autres bateaux.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-39-f9455639",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "De nuit, un bateau motorisé faisant route en eaux intérieures porte un feu à bâbord. De quelle couleur est-il ?",
+      "choices": [
+        {
+          "text": "Rouge",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Vert",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Jaune",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-39",
+        "ref": "RGP — feux de nuit d'un bateau motorisé",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Comme en mer : feu de côté bâbord rouge, tribord vert, plus un feu de mât blanc et un feu de poupe.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-40-bcdfb94d",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "De nuit, un bateau stationnant à l'écart de la rive, hors d'un port, porte le plus souvent :",
+      "choices": [
+        {
+          "text": "Un feu blanc visible de tous côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu rouge clignotant",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Aucun feu",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-40",
+        "ref": "RGP — marque de jour d'un bateau à l'arrêt",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Il porte un feu blanc ordinaire visible de tous les côtés, pour signaler sa présence aux autres bateaux.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-41-022ec02f",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "En eaux intérieures, vis-à-vis des grands bateaux, des bacs et des bateaux assurant un service régulier, les menues embarcations (plaisance) doivent :",
+      "choices": [
+        {
+          "text": "S'écarter de leur route",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Garder leur route, étant prioritaires",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les obliger à s'arrêter",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-41",
+        "ref": "RGP — priorité des menues embarcations",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Les menues embarcations doivent laisser la route libre aux grands bateaux, aux bacs et aux convois : elles s'en écartent.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-42-e4fe5195",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "En règle générale sur une voie intérieure, de quel côté un bateau doit-il tenir sa route ?",
+      "choices": [
+        {
+          "text": "Sur sa droite (tribord)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sur sa gauche (bâbord)",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Au milieu du chenal",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-42",
+        "ref": "RGP — règle générale de route",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Chaque bateau tient en principe sa droite (tribord) ; on se croise alors bâbord sur bâbord, sauf signalisation contraire.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-43-e6f605db",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Dans un passage étroit (sous un pont, un chenal resserré) où le croisement est impossible, que doit faire le conducteur ?",
+      "choices": [
+        {
+          "text": "S'assurer que le passage est libre avant de s'engager",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "S'engager toujours en premier",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Accélérer pour forcer le passage",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-43",
+        "ref": "RGP — passage des ponts et passages étroits",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Il s'assure que le passage est libre avant de s'engager, et cède le passage selon la signalisation ; la priorité va au bateau avalant (descendant le courant) sur les rivières.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    }
+  ]
+}

@@ -73,6 +73,46 @@ _MARITIME = re.compile(
     r"hochsee\w*|k[üu]ste\w*|sbf[- ]?see|navigation maritime|"
     r"feu\w* de mer|mille\w* nautique|c[oô]ti[eè]r\w*|\bmaritime\b)", re.I)
 
+# --- France (permis plaisance) -------------------------------------------------
+# France's question themes are a distinct namespace from the Swiss core (see
+# src/fr/themes_fr.py); they never collide, so a French question is recognised by
+# its theme alone and routed by a France-tuned branch — the Swiss path above stays
+# byte-identical. The routing mirrors the regime tree: RIPAM (côtière) → COLREGS,
+# RGP / inland code (eaux intérieures) → CEVNI, the permit/radio statute and the
+# Division-240 equipment regime → national, and portable seamanship → universal.
+_FR_MARITIME_THEMES = {"balisage", "feux_signaux"}        # sea buoyage / lights → colregs
+_FR_INLAND_THEMES = {"voies_navigables", "ecluses",       # inland traffic code → cevni
+                     "signalisation_fluviale"}
+_FR_NATIONAL_THEMES = {"reglementation"}                  # permis, radio licence, statute
+_FR_TRAFFIC_AMBIG = {"regles_route"}                      # COLREGS at sea, CEVNI inland
+_FR_UNIVERSAL_THEMES = {"meteo_maree", "environnement"}   # portable seamanship
+_FR_THEMES = (_FR_MARITIME_THEMES | _FR_INLAND_THEMES | _FR_NATIONAL_THEMES
+              | _FR_TRAFFIC_AMBIG | _FR_UNIVERSAL_THEMES | {"securite"})
+
+# Within `securite`: the French Division-240 equipment regime (which exact flares,
+# the basique/côtier/hauturier categories) is country statute → national; generic
+# safety (wear a lifejacket, a red flare means distress) is portable → universal.
+_FR_EQUIP_STATUTE = re.compile(
+    r"(division\s*240|cat[ée]gorie\s+(de\s+navigation|basique|c[oô]ti|hauturi|semi))",
+    re.I)
+
+
+def _classify_fr(theme: str, text: str) -> str:
+    """Scope a French question (its theme is in :data:`_FR_THEMES`). France is
+    seed-driven and self-contained, so this branch is keyed on the French theme set
+    + the same maritime/statute markers, narrowest first."""
+    if theme in _FR_NATIONAL_THEMES:
+        return "national"
+    if theme == "securite":
+        return "national" if _FR_EQUIP_STATUTE.search(text) else "universal"
+    if theme in _FR_MARITIME_THEMES:
+        return "colregs"
+    if theme in _FR_INLAND_THEMES:
+        return "cevni"
+    if theme in _FR_TRAFFIC_AMBIG:                 # règles de barre et de route
+        return "colregs" if _MARITIME.search(text) else "cevni"
+    return "universal"                             # meteo_maree, environnement
+
 
 def _haystack(q: "Question") -> str:
     p = q.provenance
@@ -87,6 +127,11 @@ def classify(q: "Question") -> str:
     traffic → ``cevni``), and finally portable seamanship (``universal``)."""
     text = _haystack(q)
     theme = q.theme
+
+    # 0. France (permis plaisance) — a distinct theme namespace, routed by its own
+    #    France-tuned branch so the Swiss rules below stay untouched.
+    if theme in _FR_THEMES:
+        return _classify_fr(theme, text)
 
     # 1. A water that REPLACES the base with its own code (Bodensee/BSO): its
     #    signage is never portable, whatever the theme. "Which waters are excluded"

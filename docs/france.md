@@ -89,6 +89,25 @@ exam questions are operator-confidential. So — exactly as for Switzerland — 
 tool **derives** its questions from the primary legal texts above, each with a
 provenance citation, and ships them behind the same review gate.
 
+## Question scope & the common-core pool
+
+France participates in the shared **scope** layer (`src/scope.py`, see
+[`scope.md`](scope.md)). Every French question is classified into one rung of the
+regime tree:
+
+| option | base (portable core) | overlay (France-only) |
+|---|---|---|
+| côtière | `colregs` (RIPAM rules, IALA-A buoyage, sea lights) + `universal` (météo/marées, environnement, generic safety) | `national` (permis & radio statute, Division-240 kit) |
+| eaux intérieures | `cevni` (RGP inland code, locks, inland signs) + `universal` | `national` |
+
+`build_fr.py` emits the portable subset as per-base sub-bundles
+(`web/fr/<option>/questions.<base>.<lang>.json`) and lists them in the option
+manifest's `core` block, so each player offers a **National ⟷ Common core** toggle:
+the national bank is the full 40-question exam scope; the common core drills only
+the cross-country-portable rules (24 côtière / 17 eaux intérieures today). France
+is seed-driven, so its core is *France-local* (it is not yet merged into the global
+CH/DE core) — see `scope.md` › *Seed-driven countries*.
+
 ## Build
 
 ```bash
@@ -96,4 +115,5 @@ python run.py fr            # build both France option banks + bundle web/fr/
 python -m http.server -d web 8000   # http://localhost:8000/fr/
 ```
 
-See `src/countries.py` (country registry) and `src/fr/` (France content).
+See `src/countries/fr.py` (country registry descriptor), `src/fr/` (France
+content + `build_fr.py`), and `src/scope.py` (the France classifier branch).

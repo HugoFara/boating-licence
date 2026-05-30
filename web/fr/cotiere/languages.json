@@ -16,6 +16,28 @@
   },
   "country": "FR",
   "option": "cotiere",
+  "core": {
+    "universal": {
+      "fr": {
+        "path": "questions.universal.fr.json",
+        "count": 8
+      },
+      "en": {
+        "path": "questions.universal.en.json",
+        "count": 8
+      }
+    },
+    "colregs": {
+      "fr": {
+        "path": "questions.colregs.fr.json",
+        "count": 16
+      },
+      "en": {
+        "path": "questions.colregs.en.json",
+        "count": 16
+      }
+    }
+  },
   "anki": {
     "fr": {
       "apkg": "anki/boat-permit.fr.apkg",

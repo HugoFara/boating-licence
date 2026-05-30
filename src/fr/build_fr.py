@@ -20,6 +20,7 @@ import os
 
 from ..questions import schema as qschema
 from ..questions.schema import Question, Choice, Provenance, make_question_id, validate
+from .. import scope
 from . import sources_fr, exam_fr, themes_fr
 from .seed_fr import SEED
 
@@ -159,6 +160,36 @@ def _bank_json(questions: list[Question], cfg, chrome_lang: dict, lang: str,
     return {"meta": meta, "questions": qs}
 
 
+# --- harmonised core (the portable, cross-country subset) ----------------------
+def _core_bundles(out_dir: str, by_lang: dict[str, list[Question]], cfg,
+                  chrome: dict[str, dict], generated: str) -> dict:
+    """Write this option's per-base core sub-bundles and return the manifest `core`
+    block (`{base: {lang: {path, count}}}`).
+
+    France is seed-driven and self-contained, so — unlike the Swiss/German banks,
+    which `run.py cmd_web` classifies into one shared global core — France emits its
+    *own* per-base bundles here, alongside the national bank. The player (web/app.js)
+    reads the `core` block identically and offers the National ⟷ Common core toggle;
+    France's core is just France-local. Scope is derived (src/scope.py), never stored,
+    so the national `questions.<lang>.json` written above stay byte-identical."""
+    core: dict[str, dict] = {}
+    for base in scope.BASES:
+        per: dict[str, dict] = {}
+        for lg, qs in by_lang.items():
+            sub = [q for q in qs if scope.classify(q) == base]
+            if not sub:
+                continue
+            path = f"questions.{base}.{lg}.json"
+            payload = _bank_json(sub, cfg, chrome[lg], lg, generated)
+            payload["meta"]["pool"] = base
+            _write(os.path.join(out_dir, path),
+                   json.dumps(payload, ensure_ascii=False, indent=2))
+            per[lg] = {"path": path, "count": len(sub)}
+        if per:
+            core[base] = per
+    return core
+
+
 # --- web bundling --------------------------------------------------------------
 def _write(path: str, text: str) -> None:
     os.makedirs(os.path.dirname(path), exist_ok=True)
@@ -187,6 +218,10 @@ def _player_html(asset_prefix: str, nav: str, title: str) -> str:
     <div id="loop-proof" class="banner"></div>
     <div id="fallback-note" class="banner soft hidden"></div>
     <div id="config-summary" class="config"></div>
+    <div class="domains-block">
+      <span id="t-pool" class="domains-label"></span>
+      <div id="pools" class="domains"></div>
+    </div>
     <div class="domains-block">
       <span id="t-domains" class="domains-label"></span>
       <div id="domains" class="domains"></div>
@@ -336,6 +371,14 @@ def build() -> dict:
                 gift_avail[lg] = {"gift": f"gift/boat-permit.{lg}.gift", "count": ng}
         conn.close()
 
+        # Harmonised-core sub-bundles (universal/cevni/colregs), classified by
+        # src/scope.py. France-local (see _core_bundles): they light up the player's
+        # National ⟷ Common core toggle so a learner can drill just the portable
+        # subset (RIPAM/IALA at sea, the inland code on rivers) without the French
+        # permit/equipment statute.
+        core = _core_bundles(out_dir, {lg: by_lang[lg] for lg in langs_present},
+                             cfg, chrome, generated)
+
         # Manifest: no `cantons` key → the player hides its region picker (the French
         # exam is national). `supported` is fr/en only → langbar shows just those.
         manifest = {
@@ -343,6 +386,7 @@ def build() -> dict:
             "available": {lg: {"count": len(by_lang[lg]),
                                "unofficial": lg != "fr"} for lg in langs_present},
             "country": "FR", "option": option,
+            "core": core,
             "anki": anki_avail, "gift": gift_avail,
         }
         _write(os.path.join(out_dir, "languages.json"),
@@ -355,5 +399,9 @@ def build() -> dict:
         stats["options"][option] = {
             "questions_fr": len(by_lang["fr"]), "questions_en": len(by_lang["en"]),
             "anki": sorted(anki_avail), "gift": sorted(gift_avail),
-            "themes": sorted({q.theme for q in by_lang["fr"]})}
+            "themes": sorted({q.theme for q in by_lang["fr"]}),
+            # FR-language core counts per base (the portable subset offered by the
+            # National ⟷ Common core toggle); national/local stay out of the core.
+            "core": {b: core[b]["fr"]["count"] for b in scope.BASES
+                     if core.get(b, {}).get("fr")}}
     return stats

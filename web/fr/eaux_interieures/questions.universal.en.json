@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "exam_questions": 40,
+    "total_points": 40,
+    "points_per_question": 1,
+    "pass_points": 35,
+    "time_limit_min": 30,
+    "scoring": "all_or_nothing",
+    "canton": "National (France)",
+    "canton_code": "FR",
+    "permis": "eaux_interieures",
+    "permis_label": "Permis plaisance — option eaux intérieures",
+    "country": "FR",
+    "generated": "2026-05-30",
+    "kb_version": "",
+    "lang": "en",
+    "unofficial": "true",
+    "ui_title": "French boating licence — inland-waters option (practice)",
+    "ui_h1": "French boating licence — inland-waters option",
+    "ui_subtitle": "Theory exam · rivers, canals and lakes",
+    "ui_demo": "<strong>Question bank in progress.</strong> Questions derived from freely-reusable French law (the inland-navigation police regulation, the 28 Sept. 2007 order). Not an official exam; the bank keeps growing.",
+    "ui_sourcenote": "Source: French law (official act, freely reusable under the Open Licence / Etalab) — RIPAM, RGP, the 28 September 2007 order, Division 240. No question taken from an operator's bank.",
+    "ui_multihint": "Only one answer is correct.",
+    "pool": "universal"
+  },
+  "questions": [
+    {
+      "id": "q-fr-rgp-45-ca6a21b5",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "A vessel's identification mark (registration) must be:",
+      "choices": [
+        {
+          "text": "Displayed visibly and legibly on the hull",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Kept only in the boat's papers",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Optional for pleasure craft",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-45",
+        "ref": "RGP — marque d'identification",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "It must be displayed visibly and legibly on the hull, so the vessel can be identified.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-46-5d1f4d63",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Before getting under way, what must the skipper check (duty of care)?",
+      "choices": [
+        {
+          "text": "The boat's condition, the safety gear and the weather",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Only the fuel level",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nothing — checks are the lock's job",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-46",
+        "ref": "RGP — devoir de vigilance avant le départ",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Ensure the boat and engine are sound, the safety equipment is aboard, and the conditions (water level, weather) are suitable.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-50-6c0172e9",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "On inland waters, discharging hydrocarbons, waste water or rubbish into the waterway is:",
+      "choices": [
+        {
+          "text": "Prohibited",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Allowed in small amounts",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Free outside harbours",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-50",
+        "ref": "RGP — rejets dans la voie d'eau",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Prohibited: such discharges pollute the waterway and must be collected and disposed of in the proper facilities.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-51-a1621835",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "To limit bank erosion and disturbance to wildlife, the boater should above all:",
+      "choices": [
+        {
+          "text": "Reduce speed and wash near the banks",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Run at full speed in the centre",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Moor in the reed beds",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-51",
+        "ref": "RGP — protection des berges et de la faune",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Reduce speed and wash when approaching banks, reed beds and sensitive natural areas.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    }
+  ]
+}

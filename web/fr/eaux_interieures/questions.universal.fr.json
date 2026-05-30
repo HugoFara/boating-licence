@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "exam_questions": 40,
+    "total_points": 40,
+    "points_per_question": 1,
+    "pass_points": 35,
+    "time_limit_min": 30,
+    "scoring": "all_or_nothing",
+    "canton": "National (France)",
+    "canton_code": "FR",
+    "permis": "eaux_interieures",
+    "permis_label": "Permis plaisance — option eaux intérieures",
+    "country": "FR",
+    "generated": "2026-05-30",
+    "kb_version": "",
+    "lang": "fr",
+    "unofficial": "false",
+    "ui_title": "Permis plaisance — option eaux intérieures (entraînement)",
+    "ui_h1": "Permis plaisance — option eaux intérieures",
+    "ui_subtitle": "Examen théorique · rivières, canaux et lacs",
+    "ui_demo": "<strong>Banque en construction.</strong> Questions dérivées du droit français librement réutilisable (règlement général de police de la navigation intérieure, arrêté du 28 sept. 2007). Ce n'est pas un examen officiel ; la banque continue de s'étoffer.",
+    "ui_sourcenote": "Source : droit français (acte officiel, librement réutilisable sous Licence Ouverte / Etalab) — RIPAM, RGP, arrêté du 28 septembre 2007, Division 240. Aucune question issue d'une banque d'opérateur.",
+    "ui_multihint": "Une seule réponse est correcte.",
+    "pool": "universal"
+  },
+  "questions": [
+    {
+      "id": "q-fr-rgp-45-50761044",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "La marque d'identification (immatriculation) d'un bateau doit être :",
+      "choices": [
+        {
+          "text": "Apposée visiblement et lisiblement sur la coque",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Conservée uniquement dans les papiers du bord",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Facultative pour la plaisance",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-45",
+        "ref": "RGP — marque d'identification",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Elle doit être apposée de manière apparente et lisible sur la coque, pour permettre d'identifier le bateau.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-46-1e591ba8",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Avant d'appareiller, que doit notamment vérifier le chef de bord (devoir de vigilance) ?",
+      "choices": [
+        {
+          "text": "L'état du bateau, le matériel de sécurité et la météo",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Uniquement le niveau de carburant",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Rien, la vérification incombe à l'écluse",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-46",
+        "ref": "RGP — devoir de vigilance avant le départ",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Il s'assure du bon état du bateau et du moteur, de la présence du matériel de sécurité et des conditions (niveau d'eau, météo).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-50-3de1a3e1",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "En eaux intérieures, le rejet d'hydrocarbures, d'eaux usées ou de détritus dans la voie d'eau est :",
+      "choices": [
+        {
+          "text": "Interdit",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorisé en faible quantité",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Libre en dehors des ports",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-50",
+        "ref": "RGP — rejets dans la voie d'eau",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Il est interdit : ces rejets polluent la voie d'eau et doivent être collectés et déposés dans les installations prévues.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-51-7d3dfd4e",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "Pour limiter l'érosion des berges et le dérangement de la faune, le plaisancier doit surtout :",
+      "choices": [
+        {
+          "text": "Réduire sa vitesse et son batillage près des rives",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Naviguer à pleine vitesse au centre",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "S'amarrer dans les roselières",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-51",
+        "ref": "RGP — protection des berges et de la faune",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Réduire sa vitesse et son batillage à l'approche des rives, des roselières et des zones naturelles sensibles.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    }
+  ]
+}

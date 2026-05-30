@@ -16,6 +16,28 @@
   },
   "country": "FR",
   "option": "eaux_interieures",
+  "core": {
+    "universal": {
+      "fr": {
+        "path": "questions.universal.fr.json",
+        "count": 4
+      },
+      "en": {
+        "path": "questions.universal.en.json",
+        "count": 4
+      }
+    },
+    "cevni": {
+      "fr": {
+        "path": "questions.cevni.fr.json",
+        "count": 13
+      },
+      "en": {
+        "path": "questions.cevni.en.json",
+        "count": 13
+      }
+    }
+  },
   "anki": {
     "fr": {
       "apkg": "anki/boat-permit.fr.apkg",

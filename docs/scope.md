@@ -86,6 +86,20 @@ make the split accurate for a new country:
 3. Run `python run.py web` and check the build summary's `harmonised core:` line +
    `scope.scope_counts()` look right (national statute should not leak into a base).
 
+### Seed-driven countries (France) build a *local* core
+
+France is the exception to "join the global core for free": it is **seed-driven**
+(no Fedlex fetch/parse) and ships its own self-contained players under `web/fr/`,
+so its questions never enter `data/questions.sqlite` and `cmd_web` never sees them.
+Instead `src/fr/build_fr.py` calls `scope.classify()` itself and emits France's
+**own** per-base sub-bundles (`web/fr/<option>/questions.<base>.<lang>.json`) plus
+the same `core` manifest block — so the player's National ⟷ Common core toggle
+lights up with a *France-local* core (RIPAM/IALA at sea → `colregs`; the inland code
+→ `cevni`). The classifier carries a France branch (`_classify_fr`, keyed on the
+distinct French theme namespace), so the Swiss/German routing above is untouched.
+A future migration that folds France into the shared bank would let it join the
+global cross-country core like any other country; until then its core is its own.
+
 ## Not CEVNI: Lake Constance (Bodensee), and divergent waters
 
 Lake Constance is **explicitly outside CEVNI** — its tri-national

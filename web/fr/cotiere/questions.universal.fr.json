@@ -1,0 +1,372 @@
+{
+  "meta": {
+    "exam_questions": 40,
+    "total_points": 40,
+    "points_per_question": 1,
+    "pass_points": 35,
+    "time_limit_min": 30,
+    "scoring": "all_or_nothing",
+    "canton": "National (France)",
+    "canton_code": "FR",
+    "permis": "cotiere",
+    "permis_label": "Permis plaisance — option côtière",
+    "country": "FR",
+    "generated": "2026-05-30",
+    "kb_version": "",
+    "lang": "fr",
+    "unofficial": "false",
+    "ui_title": "Permis plaisance — option côtière (entraînement)",
+    "ui_h1": "Permis plaisance — option côtière",
+    "ui_subtitle": "Examen théorique · navigation maritime jusqu'à 6 milles d'un abri",
+    "ui_demo": "<strong>Banque en construction.</strong> Questions dérivées du droit français librement réutilisable (RIPAM, balisage IALA région A, Division 240, arrêté du 28 sept. 2007). Ce n'est pas un examen officiel ; la banque continue de s'étoffer.",
+    "ui_sourcenote": "Source : droit français (acte officiel, librement réutilisable sous Licence Ouverte / Etalab) — RIPAM, RGP, arrêté du 28 septembre 2007, Division 240. Aucune question issue d'une banque d'opérateur.",
+    "ui_multihint": "Une seule réponse est correcte.",
+    "pool": "universal"
+  },
+  "questions": [
+    {
+      "id": "q-fr-arrete2007-16-8d7d0513",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Jusqu'à quelle distance d'un abri le permis plaisance option côtière autorise-t-il la navigation ?",
+      "choices": [
+        {
+          "text": "6 milles nautiques",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "2 milles nautiques",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sans aucune limite de distance",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-16",
+        "ref": "Permis plaisance — option côtière (portée)",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "L'option côtière autorise la navigation jusqu'à 6 milles nautiques d'un abri, de jour comme de nuit, quelle que soit la puissance.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-20-1f19302f",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Sur une carte marine, par rapport à quel niveau les profondeurs (sondes) sont-elles indiquées ?",
+      "choices": [
+        {
+          "text": "Le zéro hydrographique (plus basses mers)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le niveau moyen de la mer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le niveau de pleine mer",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-20",
+        "ref": "Lecture de carte — zéro hydrographique",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Les sondes sont rapportées au zéro hydrographique, proche du niveau des plus basses mers : la profondeur réelle est généralement supérieure.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-21-db03a4c1",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Qu'appelle-t-on le « marnage » ?",
+      "choices": [
+        {
+          "text": "La différence de hauteur entre pleine mer et basse mer",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La vitesse du courant de marée",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La durée d'une marée",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-21",
+        "ref": "Marées — marnage",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le marnage est la différence de hauteur d'eau entre une pleine mer et la basse mer qui la suit (ou la précède).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-22-ad847441",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Entre quelles valeurs le coefficient de marée varie-t-il ?",
+      "choices": [
+        {
+          "text": "Entre 20 et 120",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Entre 0 et 100",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Entre 1 et 12",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-22",
+        "ref": "Marées — coefficient",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le coefficient de marée varie de 20 (très faible morte-eau) à 120 (très forte vive-eau) ; 95 marque le seuil des grandes marées.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-23-f178c2b3",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "L'échelle de Beaufort, qui mesure la force du vent, est graduée de 0 à combien ?",
+      "choices": [
+        {
+          "text": "12",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "10",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "100",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-23",
+        "ref": "Météorologie — échelle de Beaufort",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "L'échelle de Beaufort va de la force 0 (calme) à la force 12 (ouragan).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-24-c8aeb198",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "À quoi sert la « règle des douzièmes » ?",
+      "choices": [
+        {
+          "text": "Estimer la hauteur d'eau à une heure donnée de la marée",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Calculer la force du vent",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mesurer la dérive due au courant",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-24",
+        "ref": "Marées — règle des douzièmes",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Elle permet d'estimer la hauteur d'eau à un instant donné entre la basse mer et la pleine mer (1/12, 2/12, 3/12, 3/12, 2/12, 1/12 par heure).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-29-c062559e",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "En mer, que dit la réglementation sur le rejet des détritus et des hydrocarbures ?",
+      "choices": [
+        {
+          "text": "Il est interdit",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il est libre au-delà de 3 milles",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il est autorisé la nuit",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-29",
+        "ref": "Rejets en mer",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le rejet à la mer des détritus, ordures et hydrocarbures est interdit ; les déchets doivent être rapportés à terre.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-arrete2007-30-e61dcf12",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "Que doit faire le plaisancier de ses déchets produits à bord ?",
+      "choices": [
+        {
+          "text": "Les rapporter à terre dans les installations portuaires",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les jeter au large",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les brûler à bord",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-arrete_2007-30",
+        "ref": "Gestion des déchets à bord",
+        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+        "as_of": "2022-06-01",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Il doit les conserver à bord puis les déposer à terre dans les installations de collecte du port.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    }
+  ]
+}

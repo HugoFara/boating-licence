@@ -377,9 +377,10 @@ def cmd_fr(args):
     print(f"✓ France banks built + bundled: {build_fr.FR_WEB}/")
     print(f"  generated {stats['generated']}")
     for option, s in stats["options"].items():
+        core = ", ".join(f"{b}({n})" for b, n in s.get("core", {}).items()) or "—"
         print(f"  {option:18} {s['questions_fr']} FR · {s['questions_en']} EN  "
-              f"(themes: {len(s['themes'])}; anki {','.join(s['anki']) or '—'}; "
-              f"gift {','.join(s['gift']) or '—'})")
+              f"(themes: {len(s['themes'])}; core: {core}; "
+              f"anki {','.join(s['anki']) or '—'}; gift {','.join(s['gift']) or '—'})")
     print(f"  preview: python -m http.server -d web 8000  →  "
           f"http://localhost:8000/fr/")
 
