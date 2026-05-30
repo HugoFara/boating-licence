@@ -99,6 +99,14 @@ const STRINGS = {
     stateOf: "(état {date})",
     figureTag: "[figure]",
     footTagline: "Outil d’étude libre · construit à partir de sources primaires de droit",
+    chooseDomains: "Réviser par domaine :",
+    domainAll: "Tout sélectionner",
+    domainNone: "Tout désélectionner",
+    byDomain: "Score par domaine",
+    ankiTitle: "Réviser hors-ligne avec Anki :",
+    ankiApkg: "Paquet Anki (.apkg, {n} cartes)",
+    ankiTsv: "Tableau éditable (.tsv)",
+    ankiHint: "Importez le .apkg dans Anki (ordinateur/mobile). Le .tsv permet de proposer des corrections.",
     loadError:
       "<b>Impossible de charger les questions.</b> Lancez d’abord " +
       "<code>python run.py questions &amp;&amp; python run.py web</code>, puis servez le dossier.",
@@ -155,6 +163,14 @@ const STRINGS = {
     stateOf: "(Stand {date})",
     figureTag: "[Abbildung]",
     footTagline: "Freies Lernwerkzeug · aus primären Rechtsquellen aufgebaut",
+    chooseDomains: "Nach Themen üben:",
+    domainAll: "Alle auswählen",
+    domainNone: "Alle abwählen",
+    byDomain: "Ergebnis nach Thema",
+    ankiTitle: "Offline lernen mit Anki:",
+    ankiApkg: "Anki-Paket (.apkg, {n} Karten)",
+    ankiTsv: "Editierbare Tabelle (.tsv)",
+    ankiHint: "Importieren Sie das .apkg in Anki (Desktop/Mobil). Mit dem .tsv können Sie Korrekturen vorschlagen.",
     loadError:
       "<b>Fragen konnten nicht geladen werden.</b> Führen Sie zuerst " +
       "<code>python run.py questions &amp;&amp; python run.py web</code> aus und hosten Sie den Ordner.",
@@ -211,6 +227,14 @@ const STRINGS = {
     stateOf: "(stato {date})",
     figureTag: "[figura]",
     footTagline: "Strumento di studio libero · costruito da fonti giuridiche primarie",
+    chooseDomains: "Ripassa per tema:",
+    domainAll: "Seleziona tutto",
+    domainNone: "Deseleziona tutto",
+    byDomain: "Punteggio per tema",
+    ankiTitle: "Studia offline con Anki:",
+    ankiApkg: "Pacchetto Anki (.apkg, {n} carte)",
+    ankiTsv: "Tabella modificabile (.tsv)",
+    ankiHint: "Importa il .apkg in Anki (desktop/mobile). Il .tsv serve a proporre correzioni.",
     loadError:
       "<b>Impossibile caricare le domande.</b> Esegui prima " +
       "<code>python run.py questions &amp;&amp; python run.py web</code>, poi servi la cartella.",
@@ -266,6 +290,14 @@ const STRINGS = {
     stateOf: "(as of {date})",
     figureTag: "[figure]",
     footTagline: "Free study tool · built from primary legal sources",
+    chooseDomains: "Study by topic:",
+    domainAll: "Select all",
+    domainNone: "Deselect all",
+    byDomain: "Score by topic",
+    ankiTitle: "Study offline with Anki:",
+    ankiApkg: "Anki deck (.apkg, {n} cards)",
+    ankiTsv: "Editable table (.tsv)",
+    ankiHint: "Import the .apkg into Anki (desktop/mobile). The .tsv lets you suggest corrections.",
     loadError:
       "<b>Could not load the questions.</b> First run " +
       "<code>python run.py questions &amp;&amp; python run.py web</code>, then serve the folder.",

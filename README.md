@@ -67,16 +67,34 @@ signalisation diagrams (lights, buoys, boards), captioned from their annex table
 | **Figures** | `python run.py questions` | Deterministically generates figure-recognition questions from the captioned annex diagrams. Confusion-set distractors keyed by signal type; sha1-seeded so the output is stable. Auto-approved. |
 | **Draft** | `python run.py draft --theme … ` | Drafts prose questions with an LLM, strictly source-grounded (a lexical grounding guard drops likely hallucinations). Lands in the bank as **`pending`**. Needs an API key — see `requirements.txt`. A built-in **seed set** of hand-authored questions is available via `--seed`. |
 | **Review** | `python run.py review --list / --approve / --reject` | Human review gate. Only `auto_approved` + `approved` questions are ever exported. |
-| **Web** | `python run.py web` | Re-exports the approved bank to `questions.json` and bundles it with the figure assets into `web/`. |
+| **Web** | `python run.py web` | Re-exports the approved bank to `questions.json`, bundles it with the figure assets into `web/`, and writes the per-language **Anki decks** (`web/anki/`) the player offers as a download. |
+| **Anki** | `python tools/anki.py export [lang]` | Exports the bank to a real `.apkg` (zip + SQLite, figures bundled, one **subdeck per theme**) and an editable `.tsv`. `python tools/anki.py import file.tsv --apply` folds edits back as **pending** drafts. Standard library only. |
 
-The bank currently exports **73 reviewed questions** (71 templated figures + an
-approved seed pair), with more prose questions sitting behind the review gate.
+The bank currently exports **795 reviewed questions** across FR/DE/IT/EN
+(figure-recognition + grounded prose + night-lighting rules), with more drafts
+sitting behind the review gate.
 
 **The player** (`web/`) is dependency-free vanilla JS. It loads the per-language
 bank (`questions.<lang>.json`), reads the exam config from its `meta`, and runs two
 modes: a chronometered **exam** (60 questions, balanced across themes) and a
-**practice** mode with source-cited corrections. Scoring mirrors the real exam
-exactly. The UI ships in four languages with a language switcher (see below).
+**practice** mode with source-cited corrections. You can **study by domain**
+(toggle which exam themes a run draws from) and the results screen breaks the
+**score down per domain**. Scoring mirrors the real exam exactly. The player also
+offers the **Anki deck** for the active language as a one-click download, for
+spaced-repetition study offline. The UI ships in four languages with a language
+switcher (see below).
+
+#### Anki round-trip
+
+An Anki note is `(guid, fields, tags, media)`. Mapping `Question` onto it pins the
+schema to an SRS-friendly shape: a stable per-question id (→ the note GUID), a
+clean front/back split, `theme`/`lang`/`kind` as tags, provenance on the card, and
+figures as bundled media. The mapping is **lossless for the editable text** (stem,
+choice texts, explanation) but **structure-locked**: which options are correct, the
+image, and provenance stay owned by the bank, so an edit re-imported from Anki/TSV
+can never silently flip an answer — it lands as a `pending` draft for re-review.
+All package ids are derived from content (sha1) and zip mtimes are pinned, so a
+rebuild is byte-identical.
 
 ### Languages
 
@@ -145,7 +163,11 @@ src/
     figures.py         templated figure-recognition generator
     prose.py           LLM-draft pipeline + grounding guard
     seed_prose.py      hand-authored seed questions
+tools/
+  anki.py              Anki .apkg/.tsv export + round-trip import (stdlib only)
+  subagent_*.py        no-API-key drafting/figure/translation pipelines
 web/                   dependency-free static player (index.html, app.js, style.css)
+  anki/                prebuilt per-language Anki decks (the in-page download)
 tests/                 plain-assert tests (run: python tests/test_*.py)
 data/                  generated (gitignored): raw cache, assets, *.sqlite, *.json
 ```

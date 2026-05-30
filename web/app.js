@@ -17,8 +17,10 @@ let LANG = DEFAULT_LANG;   // active UI language (from i18n.js)
 let BANK = [];             // all questions for the active content language
 let CFG = {};              // exam config from meta
 let META = {};             // raw meta of the loaded bank
+let MANIFEST = {};         // languages.json (per-language counts + Anki downloads)
 let FELL_BACK = false;     // true when UI lang has no native bank (showing FR)
 let UNOFFICIAL = false;    // true when the loaded bank is an unofficial translation
+let SELECTED = null;       // Set of chosen domain (theme) ids, null = all present
 let state = null;          // current run
 
 const T = (key, vars) => t(LANG, key, vars);
@@ -42,6 +44,15 @@ async function fetchBank(lang) {
     } catch (e) { /* try next */ }
   }
   return null;
+}
+
+/* The build manifest (languages.json) carries per-language Anki download links.
+ * Optional: the player still works if it's missing (downloads just hide). */
+async function loadManifest() {
+  try {
+    const r = await fetch("languages.json", { cache: "no-store" });
+    if (r.ok) MANIFEST = await r.json();
+  } catch (e) { MANIFEST = {}; }
 }
 
 async function loadContent() {
@@ -81,6 +92,7 @@ async function setLang(lang) {
   renderLangbar();
   applyStaticStrings();
   await loadContent();
+  restoreDomains();
   renderStart();
   show("start");
 }
@@ -97,6 +109,91 @@ function applyStaticStrings() {
   $("btn-restart").textContent = T("btnRestart");
   $("t-correction").textContent = T("detailedCorrection");
   $("t-foottagline").textContent = T("footTagline");
+}
+
+/* Themes present in the loaded bank, in the canonical exam order, with counts. */
+function domainsPresent() {
+  const order = Object.keys(THEME_LABELS[DEFAULT_LANG]);
+  const count = {};
+  for (const q of BANK) count[q.theme] = (count[q.theme] || 0) + 1;
+  const present = Object.keys(count);
+  present.sort((a, b) => order.indexOf(a) - order.indexOf(b));
+  return present.map((t) => ({ theme: t, n: count[t] }));
+}
+
+/* The active domain filter: the chosen set, or every present domain by default. */
+function activeDomains() {
+  const present = domainsPresent().map((d) => d.theme);
+  if (!SELECTED) return present;
+  const chosen = present.filter((t) => SELECTED.has(t));
+  return chosen.length ? chosen : present;
+}
+
+function bankForRun() {
+  const dom = new Set(activeDomains());
+  return BANK.filter((q) => dom.has(q.theme));
+}
+
+function toggleDomain(theme) {
+  const present = domainsPresent().map((d) => d.theme);
+  if (!SELECTED) SELECTED = new Set(present);        // first click: start from all
+  SELECTED.has(theme) ? SELECTED.delete(theme) : SELECTED.add(theme);
+  if (SELECTED.size === 0) SELECTED.add(theme);      // never allow an empty set
+  try { localStorage.setItem("domains", JSON.stringify([...SELECTED])); } catch (e) {}
+  renderStart();
+}
+
+/* Restore a saved domain selection, dropping any theme absent from this bank. */
+function restoreDomains() {
+  try {
+    const saved = JSON.parse(localStorage.getItem("domains") || "null");
+    if (Array.isArray(saved)) {
+      const present = new Set(domainsPresent().map((d) => d.theme));
+      const keep = saved.filter((t) => present.has(t));
+      SELECTED = keep.length ? new Set(keep) : null;
+    }
+  } catch (e) { SELECTED = null; }
+}
+
+function renderDomains() {
+  const box = $("domains");
+  if (!box) return;
+  const dom = domainsPresent();
+  if (dom.length <= 1) { box.innerHTML = ""; return; }   // nothing to choose
+  const sel = new Set(activeDomains());
+  const all = sel.size === dom.length;
+  $("t-domains").textContent = T("chooseDomains");
+  // "Select all" appears only while a subset is active (an empty set is forbidden,
+  // so there's no meaningful "deselect all" state).
+  box.innerHTML = dom.map((d) => {
+    const on = sel.has(d.theme);
+    return `<button class="chip ${on ? "on" : ""}" data-theme="${d.theme}"
+      aria-pressed="${on}">${escapeHtml(themeLabel(LANG, d.theme))}
+      <span class="chipn">${d.n}</span></button>`;
+  }).join("") +
+    (all ? "" : `<button class="chip allbtn" data-all="1">${T("domainAll")}</button>`);
+  box.querySelectorAll(".chip").forEach((b) => {
+    b.onclick = () => {
+      if (b.dataset.all) {
+        SELECTED = null;                         // null = every present domain
+        try { localStorage.removeItem("domains"); } catch (e) {}
+        renderStart();
+      } else { toggleDomain(b.dataset.theme); }
+    };
+  });
+}
+
+/* Offline-study downloads: the prebuilt Anki deck + editable TSV for this lang. */
+function renderAnki() {
+  const box = $("anki-dl");
+  if (!box) return;
+  const a = (MANIFEST.anki || {})[LANG];
+  if (!a) { box.classList.add("hidden"); box.innerHTML = ""; return; }
+  box.classList.remove("hidden");
+  box.innerHTML = `<span class="anki-label">${T("ankiTitle")}</span>
+    <a class="dlbtn" href="${a.apkg}" download>${T("ankiApkg", { n: a.count })}</a>
+    <a class="dlbtn ghost" href="${a.tsv}" download>${T("ankiTsv")}</a>
+    <span class="fine">${T("ankiHint")}</span>`;
 }
 
 function renderStart() {
@@ -118,7 +215,10 @@ function renderStart() {
   }
   $("btn-exam").disabled = $("btn-practice").disabled = false;
 
-  const avail = BANK.length;
+  renderDomains();
+  renderAnki();
+
+  const avail = bankForRun().length;          // questions in the chosen domains
   const examN = Math.min(CFG.questions, avail);
   const partial = examN < CFG.questions
     ? " " + T("cfgPartial", { target: CFG.questions }) : "";
@@ -129,7 +229,7 @@ function renderStart() {
     <div><b>${T("cfgScale")}</b> ${T("ptsPerQuestion", { n: CFG.pointsPer })} · ${escapeHtml(CFG.canton)}</div>
     <div><b>${T("cfgAvailable")}</b> ${T("availableQuestions", { n: avail })}</div>`;
   $("meta-foot").textContent =
-    `${META.generated || ""} · KB ${META.kb_version || ""} · ${T("availableQuestions", { n: avail })}`;
+    `${META.generated || ""} · KB ${META.kb_version || ""} · ${T("availableQuestions", { n: BANK.length })}`;
 
   $("btn-exam").onclick = () => startRun("exam");
   $("btn-practice").onclick = () => startRun("practice");
@@ -144,7 +244,9 @@ async function boot() {
   document.addEventListener("keydown", onKeydown);
   renderLangbar();
   applyStaticStrings();
+  await loadManifest();
   await loadContent();
+  restoreDomains();
   renderStart();
   show("start");
 }
@@ -170,8 +272,9 @@ function drawBalanced(questions, n) {
 }
 
 function startRun(mode) {
-  const n = Math.min(CFG.questions, BANK.length);
-  const questions = mode === "practice" ? shuffle(BANK.slice()) : drawBalanced(BANK.slice(), n);
+  const pool = bankForRun();
+  const n = Math.min(CFG.questions, pool.length);
+  const questions = mode === "practice" ? shuffle(pool.slice()) : drawBalanced(pool.slice(), n);
   state = {
     mode, questions, i: 0,
     answers: {},               // id -> array of selected indices
@@ -325,9 +428,33 @@ function finish() {
     ${state.questions.length < CFG.questions
       ? `<p class="fine">${T("partialExam", { n: state.questions.length, target: CFG.questions })}</p>` : ""}`;
 
+  $("breakdown").innerHTML = domainBreakdownHtml();
   $("review").innerHTML = state.questions.map((q, n) => reviewItem(q, n)).join("");
   $("timer").classList.add("hidden");
   show("results");
+}
+
+/* Score per domain (theme) for the just-finished run: correct/total questions
+ * plus a little bar, in the canonical theme order. Always shown, even for a
+ * single-domain run, so the learner sees where they stand by topic. */
+function domainBreakdownHtml() {
+  const order = Object.keys(THEME_LABELS[DEFAULT_LANG]);
+  const by = {};
+  for (const q of state.questions) {
+    const b = (by[q.theme] ||= { ok: 0, n: 0 });
+    b.n++; if (scoreQuestion(q) > 0) b.ok++;
+  }
+  const rows = Object.keys(by)
+    .sort((a, b) => order.indexOf(a) - order.indexOf(b))
+    .map((t) => {
+      const { ok, n } = by[t];
+      const pct = Math.round((ok / n) * 100);
+      return `<div class="dom-row">
+        <span class="dom-name">${escapeHtml(themeLabel(LANG, t))}</span>
+        <span class="dom-bar"><i style="width:${pct}%"></i></span>
+        <span class="dom-score">${ok}/${n}</span></div>`;
+    }).join("");
+  return `<h3 class="dom-h">${T("byDomain")}</h3>${rows}`;
 }
 
 function reviewItem(q, n) {

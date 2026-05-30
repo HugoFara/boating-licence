@@ -139,3 +139,47 @@ button:disabled { opacity: .5; cursor: default; }
   max-width: 720px; margin: 0 auto; padding: 16px 18px 40px;
   color: var(--muted); font-size: .82rem; border-top: 1px solid var(--line);
 }
+
+/* Domain (theme) picker on the start screen — chips that toggle which themes a
+   practice/exam run draws from. */
+.domains-block { margin: 14px 0 4px; }
+.domains-label { font-size: .9rem; color: var(--muted); }
+.domains { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px;
+  border: 1px solid var(--line); border-radius: 999px; background: var(--card);
+  color: var(--muted); font-size: .9rem; cursor: pointer; transition: all .12s;
+}
+.chip:hover { border-color: var(--accent); color: var(--accent-dark); }
+.chip.on { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+.chip .chipn {
+  font-size: .78rem; font-variant-numeric: tabular-nums; opacity: .8;
+  padding: 0 6px; border-radius: 999px; background: rgba(0,0,0,.08);
+}
+.chip.on .chipn { background: rgba(255,255,255,.22); }
+.chip.allbtn { border-style: dashed; }
+
+/* Anki download row under the start actions. */
+.anki-dl {
+  margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--line);
+  display: flex; flex-wrap: wrap; align-items: center; gap: 10px;
+}
+.anki-dl .anki-label { font-weight: 600; color: var(--accent-dark); width: 100%; }
+.dlbtn {
+  display: inline-block; padding: 7px 14px; border-radius: 8px;
+  background: var(--accent); color: #fff; text-decoration: none; font-size: .9rem;
+  border: 1px solid var(--accent);
+}
+.dlbtn:hover { background: var(--accent-dark); }
+.dlbtn.ghost { background: var(--card); color: var(--accent-dark); }
+.dlbtn.ghost:hover { background: #eef5f8; }
+.anki-dl .fine { width: 100%; margin: 2px 0 0; }
+
+/* Per-domain score breakdown on the results screen. */
+.breakdown { margin: 6px 0 18px; }
+.dom-h { font-size: 1rem; margin: 0 0 8px; }
+.dom-row { display: flex; align-items: center; gap: 10px; margin: 5px 0; font-size: .9rem; }
+.dom-name { flex: 0 0 40%; }
+.dom-bar { flex: 1; height: 8px; background: var(--line); border-radius: 999px; overflow: hidden; }
+.dom-bar i { display: block; height: 100%; background: var(--ok); }
+.dom-score { flex: 0 0 3.2em; text-align: right; font-variant-numeric: tabular-nums; color: var(--muted); }

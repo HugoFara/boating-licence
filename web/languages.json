@@ -23,5 +23,31 @@
       "count": 189,
       "unofficial": false
     }
+  },
+  "anki": {
+    "de": {
+      "apkg": "anki/boat-permit.de.apkg",
+      "tsv": "anki/boat-permit.de.tsv",
+      "count": 185,
+      "images": 69
+    },
+    "en": {
+      "apkg": "anki/boat-permit.en.apkg",
+      "tsv": "anki/boat-permit.en.tsv",
+      "count": 210,
+      "images": 91
+    },
+    "fr": {
+      "apkg": "anki/boat-permit.fr.apkg",
+      "tsv": "anki/boat-permit.fr.tsv",
+      "count": 211,
+      "images": 91
+    },
+    "it": {
+      "apkg": "anki/boat-permit.it.apkg",
+      "tsv": "anki/boat-permit.it.tsv",
+      "count": 189,
+      "images": 71
+    }
   }
 }
