@@ -52,10 +52,11 @@ const STRINGS = {
     h1: "Permis bateau — examen théorique",
     subtitle: "Catégorie A (bateau à moteur) · Lac Léman",
     demoBanner:
-      "<strong>Démo (preuve de concept).</strong> Cette version ne contient pour " +
-      "l’instant que des questions de <em>signalisation</em>, générées automatiquement " +
-      "à partir du droit fédéral (ONI/RNL). Ce n’est pas un examen blanc représentatif : " +
-      "les autres thèmes (lois, météo, matelotage…) seront ajoutés ultérieurement.",
+      "<strong>Banque en construction.</strong> Les six thèmes sont désormais " +
+      "couverts, mais la <em>signalisation</em> reste sur-représentée par rapport à " +
+      "l’examen réel. Les questions sont dérivées de sources libres (droit fédéral " +
+      "ONI/RNL et références sous licence ouverte) : ce n’est pas un examen blanc " +
+      "officiel, et la banque continue de s’étoffer.",
     fallbackBanner:
       "Questions affichées en français — la traduction {lang} est en cours de constitution.",
     unofficialBanner:
@@ -117,10 +118,11 @@ const STRINGS = {
     h1: "Bootsprüfung — Theorieprüfung",
     subtitle: "Kategorie A (Motorboot) · Genfersee",
     demoBanner:
-      "<strong>Demo (Machbarkeitsnachweis).</strong> Diese Version enthält vorerst nur " +
-      "Fragen zur <em>Signalisation</em>, automatisch aus dem Bundesrecht (BSV/SVL) erzeugt. " +
-      "Es ist keine repräsentative Musterprüfung: Die übrigen Themen (Recht, Wetter, " +
-      "Seemannschaft…) werden später ergänzt.",
+      "<strong>Fragenkatalog im Aufbau.</strong> Alle sechs Themen sind nun " +
+      "abgedeckt, doch die <em>Signalisation</em> ist gegenüber der echten Prüfung " +
+      "noch übervertreten. Die Fragen stammen aus frei nutzbaren Quellen " +
+      "(Bundesrecht BSV/SVL und offen lizenzierte Referenzen): Es ist keine " +
+      "offizielle Musterprüfung, und der Katalog wächst weiter.",
     fallbackBanner:
       "Fragen werden auf Französisch angezeigt — die {lang}-Übersetzung wird noch erstellt.",
     unofficialBanner:
@@ -182,10 +184,11 @@ const STRINGS = {
     h1: "Licenza nautica — esame teorico",
     subtitle: "Categoria A (battello a motore) · Lago Lemano",
     demoBanner:
-      "<strong>Demo (prova di concetto).</strong> Questa versione contiene per ora solo " +
-      "domande di <em>segnaletica</em>, generate automaticamente dal diritto federale (ONI/RNL). " +
-      "Non è un esame simulato rappresentativo: gli altri temi (norme, meteo, marineria…) " +
-      "saranno aggiunti in seguito.",
+      "<strong>Banca dati in costruzione.</strong> Tutti e sei i temi sono ora " +
+      "coperti, ma la <em>segnaletica</em> resta sovrarappresentata rispetto " +
+      "all’esame reale. Le domande derivano da fonti libere (diritto federale " +
+      "ONI/RNL e riferimenti con licenza aperta): non è un esame simulato ufficiale " +
+      "e la banca dati continua ad ampliarsi.",
     fallbackBanner:
       "Domande mostrate in francese — la traduzione {lang} è in corso di realizzazione.",
     unofficialBanner:
@@ -247,10 +250,11 @@ const STRINGS = {
     h1: "Boat licence — theory exam",
     subtitle: "Category A (motorboat) · Lake Geneva",
     demoBanner:
-      "<strong>Demo (proof of concept).</strong> This version currently holds only " +
-      "<em>signage</em> questions, generated automatically from Swiss federal law (ONI/RNL). " +
-      "It is not a representative mock exam: the other themes (law, weather, seamanship…) " +
-      "will be added later.",
+      "<strong>Question bank in progress.</strong> All six themes are now covered, " +
+      "but <em>signage</em> is still over-represented relative to the real exam. " +
+      "The questions are derived from freely-reusable sources (Swiss federal law " +
+      "ONI/RNL and openly-licensed references): this is not an official mock exam, " +
+      "and the bank keeps growing.",
     fallbackBanner:
       "Questions shown in French — the {lang} translation is still being built.",
     unofficialBanner:
