@@ -3,9 +3,6 @@ __pycache__/
 .venv/
 venv/
 
-# Private design handoff — never commit
-boat-exam-app-handoff.md
-
 # Regenerable pipeline outputs (rebuild with `python run.py build`)
 data/raw/
 data/assets/
