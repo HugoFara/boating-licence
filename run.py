@@ -269,9 +269,13 @@ def cmd_web(args):
     def bundle(out_name: str, lang: str | None) -> int:
         """Export one bank file (optionally language-filtered), rewrite its image
         paths into web/, and write it under web/<out_name>."""
-        tmp = QJSON_PATH if lang is None else f"{QJSON_PATH}.{lang}"
+        # lang=None exports the canonical data/questions.json (kept); per-language
+        # exports go to a throwaway temp that's removed once bundled.
+        tmp = QJSON_PATH if lang is None else f"{QJSON_PATH}.{lang}.tmp"
         n = qschema.export_json(conn, tmp, exportable_only=True, lang=lang)
         data = json.load(open(tmp, encoding="utf-8"))
+        if lang is not None:
+            os.remove(tmp)
         for q in data["questions"]:
             q["image"] = relocate(q.get("image"))
             for c in q["choices"]:
