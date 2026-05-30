@@ -25,6 +25,15 @@ body {
   max-width: 720px; margin: 0 auto; padding: 12px 18px 0;
   display: flex; gap: 6px; justify-content: flex-end; flex-wrap: wrap;
 }
+/* Country / option switcher (Switzerland ↔ France). */
+.countrybar {
+  max-width: 720px; margin: 0 auto; padding: 12px 18px 0;
+  display: flex; gap: 8px; flex-wrap: wrap; align-items: center;
+  font-size: .82rem; color: var(--muted);
+}
+.countrybar a { color: var(--accent-dark); text-decoration: none; }
+.countrybar a:hover { text-decoration: underline; }
+.countrybar .on { font-weight: 600; color: var(--ink, #222); }
 .langbtn {
   padding: 5px 11px; font-size: .82rem; border-radius: 999px;
   border: 1px solid var(--line); background: var(--card); color: var(--muted);

@@ -20,6 +20,17 @@ const THEME_LABELS = {
     matelotage: "Matelotage",
     eaux_frontalieres: "Eaux frontalières",
     voile: "Navigation à voile",
+    // France — permis plaisance (côtière + eaux intérieures)
+    securite: "Sécurité et matériel d'armement",
+    balisage: "Balisage et signalisation maritime",
+    regles_route: "Règles de barre et de route",
+    feux_signaux: "Feux, marques et signaux",
+    meteo_maree: "Météorologie et marées",
+    reglementation: "Réglementation, permis et radio",
+    environnement: "Protection de l'environnement",
+    voies_navigables: "Voies navigables et stationnement",
+    ecluses: "Écluses, barrages et ouvrages",
+    signalisation_fluviale: "Signalisation des voies et des bateaux",
   },
   de: {
     definitions: "Begriffe",
@@ -47,6 +58,17 @@ const THEME_LABELS = {
     matelotage: "Seamanship",
     eaux_frontalieres: "Border waters",
     voile: "Sailing",
+    // France — permis plaisance (coastal + inland-waters)
+    securite: "Safety and required equipment",
+    balisage: "Maritime buoyage and marks",
+    regles_route: "Steering and sailing rules",
+    feux_signaux: "Lights, shapes and signals",
+    meteo_maree: "Weather and tides",
+    reglementation: "Regulations, licence and radio",
+    environnement: "Environmental protection",
+    voies_navigables: "Waterways and mooring",
+    ecluses: "Locks, dams and structures",
+    signalisation_fluviale: "Waterway and vessel signs",
   },
 };
 
@@ -106,6 +128,12 @@ const STRINGS = {
     footTagline: "Outil d’étude libre · construit à partir de sources primaires de droit",
     chooseDomains: "Réviser par domaine :",
     chooseCanton: "Canton (durée de l’examen) :",
+    poolLabel: "Banque de questions :",
+    poolNational: "Banque nationale",
+    poolCevni: "Tronc commun CEVNI",
+    poolHint: "Le tronc commun CEVNI ne retient que les questions harmonisées au " +
+      "niveau européen (signalisation, règles de route, matelotage) — réutilisables " +
+      "d’un pays à l’autre. La banque nationale ajoute le droit propre au pays.",
     domainAll: "Tout sélectionner",
     domainNone: "Tout désélectionner",
     byDomain: "Score par domaine",
@@ -173,6 +201,12 @@ const STRINGS = {
     footTagline: "Freies Lernwerkzeug · aus primären Rechtsquellen aufgebaut",
     chooseDomains: "Nach Themen üben:",
     chooseCanton: "Kanton (Prüfungsdauer):",
+    poolLabel: "Fragenpool:",
+    poolNational: "Nationaler Pool",
+    poolCevni: "CEVNI-Kern",
+    poolHint: "Der CEVNI-Kern enthält nur die europaweit harmonisierten Fragen " +
+      "(Signale, Fahrregeln, Seemannschaft) — länderübergreifend nutzbar. Der " +
+      "nationale Pool ergänzt das landeseigene Recht.",
     domainAll: "Alle auswählen",
     domainNone: "Alle abwählen",
     byDomain: "Ergebnis nach Thema",
@@ -240,6 +274,12 @@ const STRINGS = {
     footTagline: "Strumento di studio libero · costruito da fonti giuridiche primarie",
     chooseDomains: "Ripassa per tema:",
     chooseCanton: "Cantone (durata dell’esame):",
+    poolLabel: "Banca delle domande:",
+    poolNational: "Banca nazionale",
+    poolCevni: "Tronco comune CEVNI",
+    poolHint: "Il tronco comune CEVNI contiene solo le domande armonizzate a livello " +
+      "europeo (segnaletica, regole di rotta, marineria) — riutilizzabili tra i paesi. " +
+      "La banca nazionale aggiunge il diritto proprio del paese.",
     domainAll: "Seleziona tutto",
     domainNone: "Deseleziona tutto",
     byDomain: "Punteggio per tema",
@@ -306,6 +346,12 @@ const STRINGS = {
     footTagline: "Free study tool · built from primary legal sources",
     chooseDomains: "Study by topic:",
     chooseCanton: "Canton (exam duration):",
+    poolLabel: "Question pool:",
+    poolNational: "National bank",
+    poolCevni: "CEVNI core",
+    poolHint: "The CEVNI core keeps only the questions harmonised across Europe " +
+      "(signs, navigation rules, seamanship) — reusable from one country to the next. " +
+      "The national bank adds each country's own law.",
     domainAll: "Select all",
     domainNone: "Deselect all",
     byDomain: "Score by topic",

@@ -13,6 +13,9 @@ data/kb.json
 data/questions.sqlite
 data/questions.json
 data/questions.json.*
+# France per-option banks (rebuild with `python run.py fr`); the durable source is
+# src/fr/seed_fr.py and the deployable bundle is committed under web/fr/.
+data/questions.fr_*.sqlite
 
 # Subagent-drafting intermediates (regenerable: emit / verify-emit / merge),
 # all languages. The durable inputs — data/draft_answers/ and data/verdicts/ —

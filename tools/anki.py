@@ -89,7 +89,10 @@ _THEME_LABELS = {
 
 
 def _theme_label(lang: str, theme: str) -> str:
-    return _THEME_LABELS.get(lang, _THEME_LABELS["fr"]).get(theme, theme)
+    # Swiss themes have localized labels here; other countries' themes (FR/DE) fall
+    # back to the shared theme registry, then to the raw id.
+    local = _THEME_LABELS.get(lang, _THEME_LABELS["fr"]).get(theme)
+    return local or themes.label(theme)
 
 
 # --- deterministic 63-bit ids from a name (no timestamps / randomness) ---------
@@ -234,7 +237,11 @@ def _build_apkg(questions: list[Question], lang: str, out_path: str) -> int:
     L = _L.get(lang, _L["fr"])
     top = f'{L["deck"]} ({lang.upper()})'
     # One subdeck per theme actually used, plus the (required) default deck id 1.
-    used_themes = sorted({q.theme for q in questions}, key=lambda t: list(themes.THEMES).index(t))
+    # Order by the Swiss taxonomy where applicable; other countries' themes (FR/DE)
+    # aren't in it, so they sort after, stably by id.
+    _order = list(themes.THEMES)
+    used_themes = sorted({q.theme for q in questions},
+                         key=lambda t: (_order.index(t) if t in _order else len(_order), t))
     decks = {"1": _deck_entry(1, "Default")}
     theme_did: dict[str, int] = {}
     for th in used_themes:

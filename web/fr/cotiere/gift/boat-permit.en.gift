@@ -1,0 +1,239 @@
+// Boat-permit question bank — GIFT export for Moodle.
+// Self-contained: figures are embedded as base64 data URIs.
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
+
+::q-fr-arrete2007-16-9aaf4472:: [html]Up to what distance from a shelter does the côtière option of the permis plaisance authorise navigation? {
+=6 nautical miles
+~2 nautical miles
+~With no distance limit
+####[html]The côtière option allows navigation up to 6 nautical miles from a shelter, day and night, regardless of engine power.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Permis plaisance — option côtière (portée) — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Météorologie et marées
+
+::q-fr-arrete2007-20-a842f466:: [html]On a nautical chart, relative to what level are the depths (soundings) given? {
+=Chart datum (lowest tides)
+~Mean sea level
+~High-water level
+####[html]Soundings are referred to chart datum, close to the level of the lowest tides\: actual depth is usually greater.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Lecture de carte — zéro hydrographique — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+::q-fr-arrete2007-21-e1af3b37:: [html]What is the “tidal range” (marnage)? {
+=The height difference between high and low water
+~The speed of the tidal stream
+~The duration of a tide
+####[html]The tidal range is the height difference between a high water and the following (or preceding) low water.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Marées — marnage — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+::q-fr-arrete2007-22-bcabe2a1:: [html]Between what values does the tidal coefficient vary? {
+=Between 20 and 120
+~Between 0 and 100
+~Between 1 and 12
+####[html]The tidal coefficient ranges from 20 (very weak neap) to 120 (very strong spring); 95 marks the threshold of large tides.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Marées — coefficient — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+::q-fr-arrete2007-23-f9ae6851:: [html]The Beaufort scale, measuring wind force, is graduated from 0 to what value? {
+=12
+~10
+~100
+####[html]The Beaufort scale runs from force 0 (calm) to force 12 (hurricane).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Météorologie — échelle de Beaufort — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+::q-fr-arrete2007-24-8934506c:: [html]What is the “rule of twelfths” used for? {
+=To estimate the water height at a given hour of the tide
+~To calculate the wind force
+~To measure drift from the current
+####[html]It estimates the height of water at a given time between low and high water (1/12, 2/12, 3/12, 3/12, 2/12, 1/12 per hour).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Marées — règle des douzièmes — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
+
+::q-fr-arrete2007-25-aaec67df:: [html]Which VHF channel is reserved for distress, urgency and safety watch, and for calling? {
+=Channel 16
+~Channel 6
+~Channel 72
+####[html]Channel 16 is the international distress, urgency, safety and calling channel.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">VHF — canal 16 — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+::q-fr-arrete2007-26-4ad8a2a2:: [html]A radio message beginning with “MAYDAY” corresponds to which priority level? {
+=Distress
+~Urgency
+~Safety
+####[html]“MAYDAY” \= distress\: grave and imminent danger, immediate help. “PAN PAN” \= urgency; “SÉCURITÉ” \= safety.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">VHF — message MAYDAY — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
+
+::q-fr-arrete2007-29-46227b59:: [html]At sea, what does the regulation say about discharging rubbish and hydrocarbons? {
+=It is prohibited
+~It is free beyond 3 miles
+~It is allowed at night
+####[html]Discharging rubbish and hydrocarbons into the sea is prohibited; waste must be brought back ashore.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Rejets en mer — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+::q-fr-arrete2007-30-4a1422dc:: [html]What should the boater do with waste produced aboard? {
+=Bring it ashore to harbour facilities
+~Throw it overboard offshore
+~Burn it aboard
+####[html]Keep it aboard and dispose of it ashore in the harbour's collection facilities.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Gestion des déchets à bord — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
+
+::q-fr-decret2007-27-f69a337c:: [html]Above what engine power is the permis plaisance required? {
+=More than 4.5 kW (≈ 6 hp)
+~More than 1 kW
+~More than 50 hp
+####[html]The licence is required to drive a motor pleasure boat whose power exceeds 4.5 kW (about 6 hp).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000648362/">Obligation de permis — puissance — Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur</a>
+}
+
+::q-fr-decret2007-28-9326fd3a:: [html]From what age can the permis plaisance (côtière option) be obtained? {
+=16 years
+~14 years
+~18 years
+####[html]The minimum age to obtain the permis plaisance is 16.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000648362/">Âge minimal du permis plaisance — Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Feux, marques et signaux
+
+::q-fr-division240-15-a8104676:: [html]Which of these is a recognised PYROTECHNIC distress signal at sea? {
+=A red parachute flare
+~A flashing green light
+~A hoisted yellow flag
+####[html]A red parachute rocket flare is a recognised distress signal; orange smoke also serves by day.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Signaux de détresse en mer — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
+
+::q-fr-division240-17-0f8ae75d:: [html]For coastal navigation (up to 6 miles from a shelter), what minimum buoyancy must the personal flotation device have under Division 240? {
+=100 N
+~50 N
+~10 N
+####[html]Division 240\: at least 100 newtons for the coastal zone (beyond 2 and up to 6 miles); 50 N inshore, 150 N offshore.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Division 240 — équipement individuel de flottabilité — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
+}
+
+::q-fr-division240-18-c511784b:: [html]Which navigation programme does design category “C” of a pleasure boat correspond to? {
+=Inshore (force 6, 2 m waves)
+~Unrestricted ocean
+~Sheltered waters only
+####[html]Category C \= “inshore”\: designed for winds up to force 6 and waves up to 2 m. (A \= ocean, B \= offshore, D \= sheltered waters.)<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Catégories de conception — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
+}
+
+::q-fr-division240-19-1298e401:: [html]How many people may legally be carried aboard a pleasure boat? {
+=The maximum set by the builder
+~As many as there are lifejackets aboard
+~No limit at sea
+####[html]At most the number set by the builder, shown on the boat's builder's plate / design category.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Nombre de personnes embarquées — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Balisage et signalisation maritime
+
+::q-fr-ialaa-0-876ff971:: [html]Coming from seaward (IALA region A), what colour and shape is a PORT-hand lateral mark? {
+=Red, can-shaped
+~Green, conical
+~Yellow, spherical
+####[html]IALA region A\: the port mark is red and can-shaped; keep it on your left when entering.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA région A — marques latérales — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+}
+
+::q-fr-ialaa-1-4ff6ebdb:: [html]Coming from seaward (region A), what colour and shape is a STARBOARD-hand lateral mark? {
+=Green, conical
+~Red, can-shaped
+~Black and red, with spheres
+####[html]IALA region A\: the starboard mark is green and conical; keep it on your right when entering.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA région A — marques latérales — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+}
+
+::q-fr-ialaa-2-3f95a40e:: [html]How is a NORTH cardinal mark's topmark recognised, and which side do you pass? {
+=Two cones pointing up; pass to the north
+~Two cones pointing down; pass to the south
+~Two cones point-to-point; pass to the west
+####[html]North cardinal\: two black cones, points UP; safe water is to the north, so pass to the north of the mark.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA — marque cardinale Nord — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+}
+
+::q-fr-ialaa-3-94416808:: [html]What does a black mark with red horizontal bands, topped by two black spheres, indicate? {
+=An isolated danger surrounded by safe water
+~The main harbour entrance
+~A supervised swimming area
+####[html]It is an isolated-danger mark\: moored ON a small danger surrounded by safe water; white light, group flashing (2).<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA — marque de danger isolé — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+}
+
+::q-fr-ialaa-4-9ddb6365:: [html]What does a mark with red and white vertical stripes and a red spherical topmark indicate? {
+=Safe water all around; pass on either side
+~An isolated danger to avoid
+~The starboard side of a channel
+####[html]Safe-water mark (mid-channel / landfall)\: you may pass it on either side.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA — marque d'eaux saines — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Feux, marques et signaux
+
+::q-fr-ripam-10-101515fc:: [html]At night, an underway power-driven vessel under 50 m shows sidelights. What colour is the PORT sidelight? {
+=Red
+~Green
+~White
+####[html]COLREG\: port sidelight RED, starboard green; plus a white masthead light and a white sternlight.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 23 — Feux d'un navire à moteur — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+::q-fr-ripam-11-6d40be16:: [html]In sight of another vessel, a power-driven vessel sounds ONE short blast. What is it signalling? {
+=“I am altering to starboard”
+~“I am altering to port”
+~“I am operating astern”
+####[html]COLREG rule 34\: one short blast \= “I am altering my course to starboard”.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 34 — Signaux de manœuvre (1 son bref) — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+::q-fr-ripam-12-b4a03f8b:: [html]What do THREE short blasts from a power-driven vessel in sight of another mean? {
+=“I am operating astern propulsion”
+~“I am altering to port”
+~“I am aground”
+####[html]COLREG rule 34\: three short blasts \= “I am operating astern propulsion”.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 34 — Signaux de manœuvre (3 sons brefs) — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+::q-fr-ripam-13-c1c556d1:: [html]What do at least FIVE short and rapid blasts mean? {
+=Doubt / a warning about the other's manoeuvre
+~An invitation to cross ahead
+~A distress call
+####[html]COLREG rule 34(d)\: at least five short rapid blasts signal doubt about the other vessel's intentions or manoeuvre (a warning).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 34 — Signal de doute — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+::q-fr-ripam-14-d9567bf5:: [html]In restricted visibility (fog), what signal does a power-driven vessel underway and making way sound? {
+=One prolonged blast at least every 2 minutes
+~Three short blasts every minute
+~No signal is required
+####[html]COLREG rule 35\: one prolonged blast at intervals of no more than 2 minutes.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 35 — Signaux par visibilité réduite — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Règles de barre et de route
+
+::q-fr-ripam-5-20861326:: [html]Two power-driven vessels meet on directly opposite (head-on) courses with risk of collision. What must each do? {
+=Each alters to starboard
+~Each alters to port
+~The faster one keeps clear, the other holds course
+####[html]COLREG rule 14\: each alters course to STARBOARD so they pass port to port.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 14 — Navires faisant des routes opposées — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+::q-fr-ripam-6-251f6772:: [html]Two power-driven vessels are on crossing courses with risk of collision. Which one must keep out of the way? {
+=The one that has the other on its starboard side
+~The one that has the other on its port side
+~The larger of the two vessels
+####[html]COLREG rule 15\: the vessel that has the other on its OWN starboard side gives way; the other (stand-on) keeps course and speed.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 15 — Routes qui se croisent — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+::q-fr-ripam-7-7b18dbcc:: [html]One vessel is overtaking another. Which must keep out of the way? {
+=The overtaking vessel
+~The vessel being overtaken
+~Always the sailing vessel
+####[html]COLREG rule 13\: the OVERTAKING vessel keeps clear of the one being overtaken, whatever the type of either vessel.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 13 — Navire qui en rattrape un autre — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+::q-fr-ripam-8-89459ac4:: [html]Not overtaking and outside a narrow channel, a power-driven vessel meets a vessel under sail. Which one keeps clear? {
+=The power-driven vessel
+~The sailing vessel
+~Neither, both hold their course
+####[html]COLREG rule 18\: the power-driven vessel keeps out of the way of the sailing vessel.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 18 — Responsabilités réciproques — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+::q-fr-ripam-9-9439f045:: [html]You are the stand-on vessel that must keep course and speed, but the other vessel takes no action and collision becomes imminent. What may you do? {
+=Manoeuvre to avoid the collision yourself
+~Hold course and speed no matter what
+~Speed up to cross ahead
+####[html]COLREG rule 17\: if the give-way vessel fails to act, the stand-on vessel may, then must, manoeuvre to avoid collision on its own.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 17 — Navire privilégié — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}

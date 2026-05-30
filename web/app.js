@@ -22,25 +22,52 @@ let FELL_BACK = false;     // true when UI lang has no native bank (showing FR)
 let UNOFFICIAL = false;    // true when the loaded bank is an unofficial translation
 let SELECTED = null;       // Set of chosen domain (theme) ids, null = all present
 let CANTON = null;         // chosen canton code, null = the bank's build default
+let POOL = "national";     // chosen question pool: "national" | "cevni"
 let state = null;          // current run
 
 const T = (key, vars) => t(LANG, key, vars);
 
+/* Country/option-specific chrome (title, subtitle, banners…) can override the
+ * built-in Swiss UI strings via the bank meta (ui_* keys), so one shared player
+ * serves Switzerland and France. Falls back to the i18n table when absent. */
+const S = (metaKey, i18nKey, vars) => {
+  const v = META && META[metaKey];
+  if (v == null || v === "") return T(i18nKey, vars);
+  let s = String(v);
+  if (vars) for (const k in vars) s = s.replaceAll("{" + k + "}", vars[k]);
+  return s;
+};
+
+/* Languages to offer: the manifest's `supported` list when present (so France
+ * shows only FR/EN), else all four. */
+function supportedLangs() {
+  const s = (MANIFEST.supported || []).filter((l) => LANGS.includes(l));
+  return s.length ? s : LANGS;
+}
+
 /* Try the requested language's bank, then the French canonical files. Returns
  * the parsed payload and records whether we fell back. */
 async function fetchBank(lang) {
-  const candidates = lang === DEFAULT_LANG
+  // National pool: the per-language bank (falling back to FR/canonical). CEVNI
+  // pool: the cross-country core sub-bundle, falling back through its own FR copy
+  // and finally the national bank, so the player still works if no core build is
+  // present for a language.
+  const national = lang === DEFAULT_LANG
     ? ["questions.fr.json", "questions.json"]
     : [`questions.${lang}.json`, "questions.fr.json", "questions.json"];
+  const cevni = lang === DEFAULT_LANG
+    ? ["questions.cevni.fr.json"]
+    : [`questions.cevni.${lang}.json`, "questions.cevni.fr.json"];
+  const candidates = POOL === "cevni" ? cevni.concat(national) : national;
   for (const url of candidates) {
     try {
       const r = await fetch(url, { cache: "no-store" });
       if (!r.ok) continue;
       const data = await r.json();
       if ((data.questions || []).length === 0) continue;
-      FELL_BACK = url === "questions.json" || url === "questions.fr.json"
-        ? lang !== DEFAULT_LANG && (data.meta || {}).lang !== lang
-        : false;
+      // Language fallback is independent of the pool: we wanted `lang` but the
+      // bank we actually loaded reports another language.
+      FELL_BACK = lang !== DEFAULT_LANG && (data.meta || {}).lang !== lang;
       return data;
     } catch (e) { /* try next */ }
   }
@@ -78,7 +105,7 @@ async function loadContent() {
 
 /* Build the language switcher; clicking re-loads content + re-renders. */
 function renderLangbar() {
-  $("langbar").innerHTML = LANGS.map((l) =>
+  $("langbar").innerHTML = supportedLangs().map((l) =>
     `<button class="langbtn ${l === LANG ? "on" : ""}" data-lang="${l}"
        aria-pressed="${l === LANG}">${LANG_NAMES[l]}</button>`).join("");
   $("langbar").querySelectorAll(".langbtn").forEach((b) => {
@@ -87,27 +114,28 @@ function renderLangbar() {
 }
 
 async function setLang(lang) {
-  LANG = LANGS.includes(lang) ? lang : DEFAULT_LANG;
+  LANG = supportedLangs().includes(lang) ? lang : DEFAULT_LANG;
   try { localStorage.setItem("lang", LANG); } catch (e) { /* private mode */ }
   document.documentElement.lang = LANG;
-  document.title = T("pageTitle");
   renderLangbar();
+  await loadContent();                 // META (incl. ui_* chrome) ready after this
+  document.title = S("ui_title", "pageTitle");
   applyStaticStrings();
-  await loadContent();
   restoreDomains();
   restoreCanton();
   renderStart();
   show("start");
 }
 
-/* Fill the non-question UI chrome from the translation table. */
+/* Fill the non-question UI chrome. Country/option-specific bits (title, subtitle,
+ * banner, source note) come from the bank meta via S() when present, else i18n. */
 function applyStaticStrings() {
-  $("t-h1").textContent = T("h1");
-  $("t-subtitle").textContent = T("subtitle");
-  $("loop-proof").innerHTML = T("demoBanner");
+  $("t-h1").textContent = S("ui_h1", "h1");
+  $("t-subtitle").textContent = S("ui_subtitle", "subtitle");
+  $("loop-proof").innerHTML = S("ui_demo", "demoBanner");
   $("btn-exam").textContent = T("btnExam");
   $("btn-practice").textContent = T("btnPractice");
-  $("t-sourcenote").textContent = T("sourceNote");
+  $("t-sourcenote").textContent = S("ui_sourcenote", "sourceNote");
   $("t-resulttitle").textContent = T("resultTitle");
   $("btn-restart").textContent = T("btnRestart");
   $("t-correction").textContent = T("detailedCorrection");
@@ -265,6 +293,51 @@ function renderCantons() {
   });
 }
 
+/* --- Question pool (national bank vs CEVNI core) ----------------------------
+ * The CEVNI core is the cross-country–portable subset (harmonised signs, rules,
+ * seamanship); the national bank adds country-specific law. The build ships the
+ * core as questions.cevni.<lang>.json and advertises it in the manifest, so the
+ * toggle simply re-loads a different bundle. */
+function poolAvailable() {
+  return Object.keys((MANIFEST.cevni) || {}).length > 0;
+}
+
+function restorePool() {
+  try {
+    const saved = localStorage.getItem("pool");
+    POOL = saved === "cevni" && poolAvailable() ? "cevni" : "national";
+  } catch (e) { POOL = "national"; }
+}
+
+async function selectPool(p) {
+  const want = p === "cevni" && poolAvailable() ? "cevni" : "national";
+  if (want === POOL) return;
+  POOL = want;
+  try { localStorage.setItem("pool", POOL); } catch (e) { /* private mode */ }
+  await loadContent();          // a different bundle: reload, then re-render
+  restoreDomains();             // the themes present differ between pools
+  renderStart();
+  show("start");
+}
+
+/* Two chips (National ⟷ CEVNI core). Hidden when no core bundle was built. */
+function renderPools() {
+  const box = $("pools");
+  if (!box) return;
+  const label = $("t-pool");
+  if (!poolAvailable()) { box.innerHTML = ""; if (label) label.textContent = ""; return; }
+  if (label) label.textContent = T("poolLabel");
+  const opts = [["national", T("poolNational")], ["cevni", T("poolCevni")]];
+  box.innerHTML = opts.map(([code, name]) => {
+    const on = POOL === code;
+    return `<button class="chip ${on ? "on" : ""}" data-pool="${code}"
+      aria-pressed="${on}" title="${escapeHtml(T("poolHint"))}">${escapeHtml(name)}</button>`;
+  }).join("");
+  box.querySelectorAll(".chip").forEach((b) => {
+    b.onclick = () => selectPool(b.dataset.pool);
+  });
+}
+
 function renderStart() {
   const note = $("fallback-note");
   if (UNOFFICIAL) {
@@ -284,6 +357,7 @@ function renderStart() {
   }
   $("btn-exam").disabled = $("btn-practice").disabled = false;
 
+  renderPools();
   renderDomains();
   renderCantons();
   renderAnki();
@@ -310,12 +384,17 @@ function renderStart() {
 async function boot() {
   LANG = detectLang();
   document.documentElement.lang = LANG;
-  document.title = T("pageTitle");
   document.addEventListener("keydown", onKeydown);
-  renderLangbar();
-  applyStaticStrings();
   await loadManifest();
+  restorePool();                        // POOL must be set before loadContent reads it
+  // Clamp to a language this build actually offers (France ships only FR/EN).
+  if (!supportedLangs().includes(LANG)) {
+    LANG = supportedLangs().includes(MANIFEST.default) ? MANIFEST.default : supportedLangs()[0];
+  }
+  renderLangbar();
   await loadContent();
+  document.title = S("ui_title", "pageTitle");
+  applyStaticStrings();
   restoreDomains();
   restoreCanton();
   renderStart();
@@ -381,7 +460,7 @@ function renderQuestion() {
 
   $("question").innerHTML = `${fig}
     <div class="stem">${escapeHtml(q.stem)}</div>
-    <div class="hint">${escapeHtml(T("multiHint"))} ${escapeHtml(T("kbdHint"))}</div>
+    <div class="hint">${escapeHtml(S("ui_multihint", "multiHint"))} ${escapeHtml(T("kbdHint"))}</div>
     <div id="choices">${choices}</div>
     <div id="explain-slot"></div>`;
 
@@ -485,7 +564,12 @@ function scoreQuestion(q) {
 function finish() {
   let earned = 0, total = 0;
   for (const q of state.questions) { earned += scoreQuestion(q); total += (q.points || CFG.pointsPer); }
-  const passMark = state.mode === "exam"
+  // The pass mark is the configured threshold for a full sitting, but scaled to
+  // the points actually on the paper when fewer questions are available (a
+  // domain-filtered practice, or a bank still smaller than the exam size — e.g.
+  // France's growing seed). Otherwise a partial bank could never reach the
+  // absolute threshold and would always "fail".
+  const passMark = total >= CFG.totalPoints
     ? CFG.passPoints
     : Math.round((CFG.passPoints / CFG.totalPoints) * total);
   const passed = earned >= passMark;

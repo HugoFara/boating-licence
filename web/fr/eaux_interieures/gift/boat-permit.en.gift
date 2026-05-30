@@ -1,0 +1,167 @@
+// Boat-permit question bank — GIFT export for Moodle.
+// Self-contained: figures are embedded as base64 data URIs.
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
+
+::q-fr-decret2007-47-41da6400:: [html]What licence is needed to drive a motor pleasure boat over 4.5 kW on rivers and canals? {
+=The permis plaisance inland-waters option
+~No licence is needed
+~The côtière option always suffices
+####[html]The permis plaisance “eaux intérieures” option (the côtière option is for the sea).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000648362/">Titre requis en eaux intérieures — Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
+
+::q-fr-division240-44-67aacccc:: [html]Aboard a small craft on inland waters, what must each person have? {
+=A personal flotation device
+~A compulsory drysuit
+~Nothing, if they can swim
+####[html]Every person aboard must have a suitable personal flotation device (lifejacket / buoyancy aid).<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Équipement individuel de flottabilité (eaux intérieures) — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Voies navigables et stationnement
+
+::q-fr-rgp-31-3e38ff13:: [html]Under the inland navigation police regulation (RGP), what is a “small craft” (menue embarcation)? {
+=A vessel under 20 metres
+~Any vessel under 24 metres
+~A vessel under 15 metres only
+####[html]As a rule, a vessel with a hull length under 20 metres (excluding passenger vessels, tugs, etc.).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — définition de la menue embarcation — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-32-c6e46c56:: [html]Where is mooring (stopping) of a vessel generally prohibited on a waterway? {
+=Under bridges and in narrow passages
+~Along every fitted quay
+~Nowhere — mooring is unrestricted
+####[html]Mooring is forbidden where it hampers navigation (under bridges, in narrow passages) and wherever a sign prohibits it.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — stationnement — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-33-3d3f6860:: [html]To limit wash (the wake that erodes banks and rocks moored boats), what must the driver do near the banks? {
+=Reduce speed
+~Increase speed to pass quickly
+~Hug the bank as close as possible
+####[html]Reduce speed when approaching banks, harbours and moored boats, to limit the wash.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — batillage — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Écluses, barrages et ouvrages
+
+::q-fr-rgp-34-78089edb:: [html]At a lock entrance, what does a RED light mean? {
+=Entry forbidden, you must wait
+~Entry authorised
+~Exit from the lock only
+####[html]A red light forbids entry into the lock; wait. A green light authorises entry.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — signalisation des écluses — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-35-6cb14a0c:: [html]Which light authorises entry into a lock? {
+=The green light
+~The red light
+~Two red lights
+####[html]A green light authorises entry. Two red lights mean the lock is out of service.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — feu vert d'écluse — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-36-38007515:: [html]In a lock chamber, how should you handle your lines during locking? {
+=Tend and adjust them, never made fast to a fixed point
+~Make them fast hard to a fixed cleat
+~Remove all the lines
+####[html]The water level changes\: tend the lines and pay out or take in as needed, never make them fast to a fixed point (risk of parting or listing).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — amarrage dans le sas — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Signalisation des voies et des bateaux
+
+::q-fr-rgp-37-3b473a4d:: [html]On a waterway, what does a rectangular sign with a red border and a white horizontal bar mean? {
+=No passage / no entry
+~Obligation to stop and refuel
+~Recommendation to slow down
+####[html]It is a prohibition sign (type A.1)\: no entry / passage forbidden.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — panneau d'interdiction (A.1) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-38-e5fad222:: [html]On an inland waterway, what does ONE prolonged blast from a vessel generally mean? {
+=“Attention”
+~“I am turning around”
+~“I am stopped”
+####[html]One prolonged blast is the “Attention” signal; it draws other vessels' attention.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — signaux sonores (son prolongé) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-39-6a5b82d6:: [html]At night, a power-driven vessel underway on inland waters shows a light to port. What colour is it? {
+=Red
+~Green
+~Yellow
+####[html]As at sea\: port sidelight red, starboard green, plus a white masthead light and a sternlight.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — feux de nuit d'un bateau motorisé — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-40-db220b78:: [html]At night, a vessel moored away from the bank, outside a harbour, most often shows\: {
+=An all-round white light
+~A flashing red light
+~No light
+####[html]An ordinary white light visible all round, to signal its presence to other vessels.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — marque de jour d'un bateau à l'arrêt — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Règles de barre et de route
+
+::q-fr-rgp-41-4fb09503:: [html]On inland waters, with respect to large vessels, ferries and vessels on a regular service, small craft (pleasure boats) must\: {
+=Keep out of their way
+~Hold their course, having priority
+~Force them to stop
+####[html]Small craft must leave the way clear for large vessels, ferries and convoys\: they keep out of their way.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — priorité des menues embarcations — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-42-9a5b159c:: [html]As a general rule on an inland waterway, to which side should a vessel keep? {
+=To its right (starboard)
+~To its left (port)
+~In the middle of the channel
+####[html]Each vessel keeps to its right (starboard) as a rule; vessels then pass port to port, unless signs indicate otherwise.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — règle générale de route — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-43-920a13db:: [html]In a narrow passage (under a bridge, a tight channel) where crossing is impossible, what must the driver do? {
+=Make sure the passage is clear before entering
+~Always enter first
+~Speed up to force through
+####[html]Make sure the passage is clear before entering and give way per the signs; on rivers priority goes to the down-bound vessel (going with the current).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — passage des ponts et passages étroits — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
+
+::q-fr-rgp-45-ca6a21b5:: [html]A vessel's identification mark (registration) must be\: {
+=Displayed visibly and legibly on the hull
+~Kept only in the boat's papers
+~Optional for pleasure craft
+####[html]It must be displayed visibly and legibly on the hull, so the vessel can be identified.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — marque d'identification — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-46-5d1f4d63:: [html]Before getting under way, what must the skipper check (duty of care)? {
+=The boat's condition, the safety gear and the weather
+~Only the fuel level
+~Nothing — checks are the lock's job
+####[html]Ensure the boat and engine are sound, the safety equipment is aboard, and the conditions (water level, weather) are suitable.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — devoir de vigilance avant le départ — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
+
+::q-fr-rgp-48-3cdfaa24:: [html]Besides the general police regulation (RGP), a particular waterway may also be governed by\: {
+=A particular police regulation (RPP)
+~The road traffic code alone
+~No other rule
+####[html]A particular police regulation (RPP) adapts the general rules to the local circumstances of a given waterway or reach.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — règlements particuliers de police — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-49-84a6303a:: [html]Driving a boat under the influence of alcohol is\: {
+=Prohibited
+~Allowed on canals
+~Tolerated at night
+####[html]Prohibited\: the skipper must be fit to steer and react, as when driving a vehicle.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — conduite et état alcoolique — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+$CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
+
+::q-fr-rgp-50-6c0172e9:: [html]On inland waters, discharging hydrocarbons, waste water or rubbish into the waterway is\: {
+=Prohibited
+~Allowed in small amounts
+~Free outside harbours
+####[html]Prohibited\: such discharges pollute the waterway and must be collected and disposed of in the proper facilities.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — rejets dans la voie d'eau — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}
+
+::q-fr-rgp-51-a1621835:: [html]To limit bank erosion and disturbance to wildlife, the boater should above all\: {
+=Reduce speed and wash near the banks
+~Run at full speed in the centre
+~Moor in the reed beds
+####[html]Reduce speed and wash when approaching banks, reed beds and sensitive natural areas.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP — protection des berges et de la faune — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
+}

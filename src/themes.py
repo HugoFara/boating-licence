@@ -130,5 +130,25 @@ def tag_theme(ref: str = "", title: str = "", text: str = "",
     return "lois"
 
 
+# Themes contributed by other countries' content modules. Switzerland's six-theme
+# core (above) is the project's grounded default and the tagging target; other
+# jurisdictions (e.g. France, src/fr/themes_fr.py) have their own exam taxonomies
+# that don't share these ids. They register here on import so question validation
+# (`is_valid`) accepts them, without this module having to import or know about
+# them. Empty on a stock Swiss build — no behaviour change there.
+_REGISTERED: dict[str, str] = {}
+
+
+def register_themes(mapping: dict[str, str]) -> None:
+    """Register a country's theme ids → labels so validation accepts them. Additive
+    and idempotent; ids are global, so countries must keep them distinct."""
+    _REGISTERED.update(mapping)
+
+
+def label(theme_id: str) -> str:
+    """Human label for a theme id, across the Swiss core and any registered set."""
+    return THEMES.get(theme_id) or _REGISTERED.get(theme_id, theme_id)
+
+
 def is_valid(theme_id: str) -> bool:
-    return theme_id in THEMES
+    return theme_id in THEMES or theme_id in _REGISTERED
