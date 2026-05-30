@@ -1,0 +1,81 @@
+{
+  "default": "de",
+  "supported": [
+    "de"
+  ],
+  "available": {
+    "de": {
+      "count": 515,
+      "unofficial": false
+    }
+  },
+  "permits": [
+    {
+      "code": "SBF-Binnen-Motor",
+      "label": "Sportbootführerschein Binnen (Motor)",
+      "questions": 30,
+      "time_limit_min": 45,
+      "blocks": [
+        {
+          "block": "basis",
+          "count": 7,
+          "min_correct": 5
+        },
+        {
+          "block": "spezifisch_binnen",
+          "count": 23,
+          "min_correct": 18
+        }
+      ]
+    },
+    {
+      "code": "SBF-Binnen-Motor-Segeln",
+      "label": "Sportbootführerschein Binnen (Motor und Segeln)",
+      "questions": 37,
+      "time_limit_min": 60,
+      "blocks": [
+        {
+          "block": "basis",
+          "count": 7,
+          "min_correct": 5
+        },
+        {
+          "block": "spezifisch_binnen",
+          "count": 23,
+          "min_correct": 18
+        },
+        {
+          "block": "segeln",
+          "count": 7,
+          "min_correct": 5
+        }
+      ]
+    },
+    {
+      "code": "SBF-See",
+      "label": "Sportbootführerschein See",
+      "questions": 30,
+      "time_limit_min": 60,
+      "blocks": [
+        {
+          "block": "basis",
+          "count": 7,
+          "min_correct": 5
+        },
+        {
+          "block": "spezifisch_see",
+          "count": 23,
+          "min_correct": 18
+        }
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "code": "national",
+      "name": "Bundesweit (SBF See/Binnen)",
+      "primary": true
+    }
+  ],
+  "country_default": "DE"
+}

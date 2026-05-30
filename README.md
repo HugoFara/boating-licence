@@ -231,10 +231,18 @@ A** (red to port when entering). A 2025–26 reform is in flux (licence threshol
 11.03 kW; a possible move to association certificates ~2028) and is flagged as
 *pending*, not settled law (`countries/de.py:REFORM_NOTE`).
 
-> Scope note: the country scaffold, **law** ingestion and the official **question
-> catalogue** ingestion (+ a Python block grader) are done. Wiring the German bank
-> into the web player — a country switcher serving `questions.de.json` with
-> block-based scoring — is the remaining follow-up.
+The German bank is served by the player too: the countrybar's **🇩🇪 Deutschland**
+opens `web/de/` (its own bundle reusing the shared engine), where a **permit
+picker** (SBF Binnen-Motor / Binnen-Motor+Segeln / See) drives the real
+**block-structured exam** — the paper is composed per block (e.g. 7 Basisfragen +
+23 Spezifisch) and graded by the per-block minima (≥5/7 **and** ≥18/23), not the
+Swiss point total. The German UI, theme labels and the §5/ELWIS source note come
+from the bank meta + `i18n.js`.
+
+> Scope note: country scaffold, **law** + official **question-catalogue**
+> ingestion, the block grader, and the **web player** (country switcher + block
+> exam) are done. Remaining: the Bodensee regime (its BSO catalogue isn't on the
+> federal portals, so there are no questions to serve yet).
 
 ## Layout
 

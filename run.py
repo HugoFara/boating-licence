@@ -178,9 +178,11 @@ def cmd_questions(args):
 
 def _de_block_rules(country) -> dict:
     """Per-permit block pass-minima, keyed by the ingested questions' block ids, so
-    the (deferred) block-aware player and schema.grade_exam_blocks can grade a
-    German sitting. Only the federal SBF permits that draw on the ELWIS catalogue
-    are included (the voluntary/Bodensee permits have no public MC catalogue)."""
+    the block-aware web player and schema.grade_exam_blocks can grade a German
+    sitting. Only the federal SBF permits that draw on the ELWIS catalogue are
+    included (the voluntary/Bodensee permits have no public MC catalogue), and only
+    those with at least one enforceable per-block minimum (drops the sail-only
+    Binnen permit, which the law scores on an overall total we don't model)."""
     from src.questions import elwis
     rules = {}
     for code, p in country.permits.items():
@@ -189,8 +191,12 @@ def _de_block_rules(country) -> dict:
             continue
         mapped = [{"block": elwis.BLOCK_NAME_TO_ID.get(b.name, b.name),
                    "count": b.count, "min_correct": b.min_correct} for b in e.blocks]
-        if all(b["block"] in elwis.BLOCK_NAME_TO_ID.values() for b in mapped):
-            rules[code] = {"questions": e.questions, "blocks": mapped}
+        if not all(b["block"] in elwis.BLOCK_NAME_TO_ID.values() for b in mapped):
+            continue
+        if not any(b["min_correct"] > 0 for b in mapped):
+            continue
+        rules[code] = {"label": p.label, "questions": e.questions,
+                       "time_limit_min": e.time_limit_min, "blocks": mapped}
     return rules
 
 
@@ -214,7 +220,19 @@ def _questions_de(args, country):
         generated=_dt.date.today().isoformat(), generators=elwis.GENERATOR,
         catalogue_version="2023-08", scoring="blocks",
         licence=elwis.LICENCE, source="ELWIS (WSV des Bundes) — www.elwis.de",
-        block_rules=json.dumps(_de_block_rules(country), ensure_ascii=False))
+        block_rules=json.dumps(_de_block_rules(country), ensure_ascii=False),
+        # German UI chrome for the shared web player (read via app.js S()).
+        ui_title="Sportbootführerschein — Theorie (Übung)",
+        ui_h1="Sportbootführerschein — Theorieprüfung",
+        ui_subtitle="Freies Lernwerkzeug · die amtlichen ELWIS-Fragenkataloge "
+                    "(SBF Binnen + See), wörtlich übernommen. Kein amtlicher Test.",
+        ui_demo="<strong>Wähle deine Führerscheinart.</strong> Die Prüfung ist "
+                "blockweise aufgebaut (Basisfragen + spezifische Fragen) — jeder "
+                "Block hat ein eigenes Bestehensminimum.",
+        ui_sourcenote="Quelle: amtliche Fragenkataloge der Wasserstraßen- und "
+                      "Schifffahrtsverwaltung des Bundes (www.elwis.de), wörtlich "
+                      "und mit Quellenangabe wiedergegeben (§5(2) UrhG). "
+                      "Bundesrecht ist gemeinfrei (§5(1) UrhG).")
     qschema.write_questions(conn, qs, is_valid_theme=de_themes.is_valid)
     n_export = qschema.export_json(conn, qjson, exportable_only=True)
     conn.close()
@@ -364,6 +382,148 @@ def cmd_fr(args):
               f"gift {','.join(s['gift']) or '—'})")
     print(f"  preview: python -m http.server -d web 8000  →  "
           f"http://localhost:8000/fr/")
+
+
+def _player_html_de(nav: str) -> str:
+    """A German player page reusing the shared engine (../app.js, ../i18n.js).
+    Mirrors web/index.html's DOM so the engine drives it unchanged; the German
+    chrome + theme labels come from the bank meta (ui_*) and i18n.js."""
+    return f"""<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sportbootführerschein — Theorie (Übung)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<nav class="countrybar" aria-label="country">{nav}</nav>
+<nav id="langbar" aria-label="language"></nav>
+<main id="app">
+  <section id="screen-start" class="screen">
+    <h1 id="t-h1"></h1>
+    <p class="sub" id="t-subtitle"></p>
+    <div id="loop-proof" class="banner"></div>
+    <div id="fallback-note" class="banner soft hidden"></div>
+    <div id="config-summary" class="config"></div>
+    <div class="domains-block">
+      <span id="t-pool" class="domains-label"></span>
+      <div id="pools" class="domains"></div>
+    </div>
+    <div class="domains-block">
+      <span id="t-domains" class="domains-label"></span>
+      <div id="domains" class="domains"></div>
+    </div>
+    <div class="domains-block">
+      <span id="t-canton" class="domains-label"></span>
+      <div id="cantons" class="domains"></div>
+    </div>
+    <div class="actions">
+      <button id="btn-exam" class="primary"></button>
+      <button id="btn-practice"></button>
+    </div>
+    <p class="fine" id="t-sourcenote"></p>
+    <div id="anki-dl" class="anki-dl hidden"></div>
+  </section>
+  <section id="screen-quiz" class="screen hidden">
+    <header class="quizbar">
+      <span id="progress"></span>
+      <span id="timer" class="timer hidden"></span>
+    </header>
+    <div id="question"></div>
+    <div class="actions">
+      <button id="btn-action" class="primary"></button>
+    </div>
+  </section>
+  <section id="screen-results" class="screen hidden">
+    <h2 id="t-resulttitle"></h2>
+    <div id="score"></div>
+    <div id="breakdown" class="breakdown"></div>
+    <div class="actions">
+      <button id="btn-restart" class="primary"></button>
+    </div>
+    <h3 id="t-correction"></h3>
+    <div id="review"></div>
+  </section>
+</main>
+<footer class="sitefoot">
+  <span id="t-foottagline"></span> ·
+  <span id="meta-foot"></span>
+</footer>
+<script src="../i18n.js"></script>
+<script src="../app.js"></script>
+</body>
+</html>
+"""
+
+
+def _build_de_web(web: str) -> dict | None:
+    """Bundle the German bank into web/de/ (its own questions + manifest + index),
+    reusing the shared player engine. Returns a small stats dict, or None if the
+    DE bank hasn't been built (run `python run.py questions --country DE` first)."""
+    import shutil
+    from src.questions import schema as qschema
+    qdb, _ = _qpaths("DE")
+    if not os.path.exists(qdb):
+        return None
+    web_de = os.path.join(web, "de")
+    assets_out = os.path.join(web_de, "assets")
+    if os.path.exists(assets_out):
+        shutil.rmtree(assets_out)
+    os.makedirs(web_de, exist_ok=True)
+    conn = qschema.connect(qdb)
+    copied = 0
+
+    def relocate(p):
+        nonlocal copied
+        if not p:
+            return p
+        rel = p[len("data/"):] if p.startswith("data/") else p
+        src = os.path.join(os.path.dirname(__file__), p)
+        dst = os.path.join(web_de, rel)
+        if os.path.exists(src):
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            shutil.copy2(src, dst)
+            copied += 1
+        return rel
+
+    def bundle(out_name, lang):
+        tmp = os.path.join(web_de, f"_{out_name}.tmp")
+        qschema.export_json(conn, tmp, exportable_only=True, lang=lang)
+        data = json.load(open(tmp, encoding="utf-8"))
+        os.remove(tmp)
+        for q in data["questions"]:
+            q["image"] = relocate(q.get("image"))
+            for c in q["choices"]:
+                c["image"] = relocate(c.get("image"))
+        with open(os.path.join(web_de, out_name), "w", encoding="utf-8") as fh:
+            json.dump(data, fh, ensure_ascii=False, indent=2)
+        return len(data["questions"])
+
+    total = bundle("questions.json", None)          # back-compat (all langs = de)
+    n_de = bundle("questions.de.json", "de")         # the player's preferred bundle
+    meta = {k: v for k, v in conn.execute("SELECT key, value FROM meta")}
+    conn.close()
+
+    # The permit picker + block grading read these from the manifest.
+    block_rules = json.loads(meta.get("block_rules", "{}"))
+    permits = [{"code": code, **rule} for code, rule in block_rules.items()]
+    manifest = {
+        "default": "de", "supported": ["de"],
+        "available": {"de": {"count": n_de, "unofficial": False}},
+        "permits": permits,
+        "regions": [{"code": "national", "name": "Bundesweit (SBF See/Binnen)",
+                     "primary": True}],
+        "country_default": "DE",
+    }
+    with open(os.path.join(web_de, "languages.json"), "w", encoding="utf-8") as fh:
+        json.dump(manifest, fh, ensure_ascii=False, indent=2)
+
+    nav = ('<a href="../">🇨🇭 Suisse</a> · <a href="../fr/">🇫🇷 France</a> · '
+           '<span class="on">🇩🇪 Deutschland</span>')
+    with open(os.path.join(web_de, "index.html"), "w", encoding="utf-8") as fh:
+        fh.write(_player_html_de(nav))
+    return {"questions": n_de, "permits": len(permits), "copied": copied}
 
 
 def cmd_web(args):
@@ -518,6 +678,15 @@ def cmd_web(args):
           f"national({counts['national']}) local({counts['local']})")
     print(f"  countries: {', '.join(countries.codes())}  ·  "
           f"jurisdictions: {len(jurisdictions.codes())} regimes")
+
+    # Germany: its own bundle under web/de/ (reuses ../app.js + ../i18n.js), with
+    # the permit picker + block-based exam. Emitted only once the DE bank is built.
+    de = _build_de_web(web)
+    if de:
+        print(f"  🇩🇪 web/de/: {de['questions']} questions · "
+              f"{de['permits']} permits · {de['copied']} images")
+    else:
+        print("  🇩🇪 web/de/: skipped (run `python run.py questions --country DE`)")
     print(f"  preview: python -m http.server -d web 8000  →  http://localhost:8000")
 
 

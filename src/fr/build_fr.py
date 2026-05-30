@@ -245,7 +245,7 @@ def _landing_html() -> str:
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<nav class="countrybar"><a href="../">🇨🇭 Suisse</a> · <span class="on">🇫🇷 France</span></nav>
+<nav class="countrybar"><a href="../">🇨🇭 Suisse</a> · <span class="on">🇫🇷 France</span> · <a href="../de/">🇩🇪 Deutschland</a></nav>
 <main id="app">
   <section class="screen">
     <h1>Permis plaisance — France</h1>
@@ -278,7 +278,7 @@ def _nav(option: str) -> str:
         else:
             links.append(f'<a href="../{code}/">{label}</a>')
     return ('<a href="../../">🇨🇭 Suisse</a> · <a href="../">🇫🇷 France</a> · '
-            + " · ".join(links))
+            '<a href="../../de/">🇩🇪 Deutschland</a> · ' + " · ".join(links))
 
 
 def build() -> dict:

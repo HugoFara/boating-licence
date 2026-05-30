@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sportbootführerschein — Theorie (Übung)</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<nav class="countrybar" aria-label="country"><a href="../">🇨🇭 Suisse</a> · <a href="../fr/">🇫🇷 France</a> · <span class="on">🇩🇪 Deutschland</span></nav>
+<nav id="langbar" aria-label="language"></nav>
+<main id="app">
+  <section id="screen-start" class="screen">
+    <h1 id="t-h1"></h1>
+    <p class="sub" id="t-subtitle"></p>
+    <div id="loop-proof" class="banner"></div>
+    <div id="fallback-note" class="banner soft hidden"></div>
+    <div id="config-summary" class="config"></div>
+    <div class="domains-block">
+      <span id="t-pool" class="domains-label"></span>
+      <div id="pools" class="domains"></div>
+    </div>
+    <div class="domains-block">
+      <span id="t-domains" class="domains-label"></span>
+      <div id="domains" class="domains"></div>
+    </div>
+    <div class="domains-block">
+      <span id="t-canton" class="domains-label"></span>
+      <div id="cantons" class="domains"></div>
+    </div>
+    <div class="actions">
+      <button id="btn-exam" class="primary"></button>
+      <button id="btn-practice"></button>
+    </div>
+    <p class="fine" id="t-sourcenote"></p>
+    <div id="anki-dl" class="anki-dl hidden"></div>
+  </section>
+  <section id="screen-quiz" class="screen hidden">
+    <header class="quizbar">
+      <span id="progress"></span>
+      <span id="timer" class="timer hidden"></span>
+    </header>
+    <div id="question"></div>
+    <div class="actions">
+      <button id="btn-action" class="primary"></button>
+    </div>
+  </section>
+  <section id="screen-results" class="screen hidden">
+    <h2 id="t-resulttitle"></h2>
+    <div id="score"></div>
+    <div id="breakdown" class="breakdown"></div>
+    <div class="actions">
+      <button id="btn-restart" class="primary"></button>
+    </div>
+    <h3 id="t-correction"></h3>
+    <div id="review"></div>
+  </section>
+</main>
+<footer class="sitefoot">
+  <span id="t-foottagline"></span> ·
+  <span id="meta-foot"></span>
+</footer>
+<script src="../i18n.js"></script>
+<script src="../app.js"></script>
+</body>
+</html>

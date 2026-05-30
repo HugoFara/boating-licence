@@ -22,6 +22,7 @@ let FELL_BACK = false;     // true when UI lang has no native bank (showing FR)
 let UNOFFICIAL = false;    // true when the loaded bank is an unofficial translation
 let SELECTED = null;       // Set of chosen domain (theme) ids, null = all present
 let CANTON = null;         // chosen canton code, null = the bank's build default
+let PERMIT = null;         // chosen permit code (DE block exams), null = first listed
 let POOL = "national";     // chosen question pool: "national" | "core"
 let state = null;          // current run
 
@@ -152,6 +153,7 @@ async function setLang(lang) {
   applyStaticStrings();
   restoreDomains();
   restoreCanton();
+  restorePermit();
   renderStart();
   show("start");
 }
@@ -280,6 +282,10 @@ function currentCanton() {
 }
 
 function examMinutes() {
+  if (blocksMode()) {                       // German SBF: time is per permit
+    const p = currentPermit();
+    return (p && +p.time_limit_min) || CFG.timeLimitMin;
+  }
   const c = currentCanton();
   return (c && +c.time_limit_min) || CFG.timeLimitMin;
 }
@@ -319,6 +325,61 @@ function renderCantons() {
   }).join("");
   box.querySelectorAll(".chip").forEach((b) => {
     b.onclick = () => selectCanton(b.dataset.canton);
+  });
+}
+
+/* --- Permit picker + block exams (German SBF) -------------------------------
+ * Switzerland scores on points (all_or_nothing); Germany's SBF exam is
+ * block-structured: a permit fixes the composition (e.g. 7 Basisfragen + 23
+ * Spezifisch) and each block has its own pass minimum. The permit list + block
+ * rules come from the manifest (run.py emits them from countries/de.py); when
+ * present this picker reuses the canton slot, since a blocks-mode bank ships no
+ * cantons. `MANIFEST.permits[i] = {code,label,questions,time_limit_min,
+ * blocks:[{block,count,min_correct}], pass_total?}`. */
+function permitList() {
+  return Array.isArray(MANIFEST.permits) ? MANIFEST.permits : [];
+}
+
+/* Blocks mode is on only when the bank says so AND a permit table is present. */
+function blocksMode() {
+  return CFG.scoring === "blocks" && permitList().length > 0;
+}
+
+function currentPermit() {
+  const list = permitList();
+  if (!list.length) return null;
+  return list.find((p) => p.code === PERMIT) || list[0];
+}
+
+function restorePermit() {
+  try {
+    const saved = localStorage.getItem("permit");
+    PERMIT = saved && permitList().some((p) => p.code === saved) ? saved : null;
+  } catch (e) { PERMIT = null; }
+}
+
+function selectPermit(code) {
+  PERMIT = code;
+  try { localStorage.setItem("permit", code); } catch (e) { /* private mode */ }
+  renderStart();
+}
+
+/* Single-select permit chips, rendered into the canton slot. */
+function renderPermits() {
+  const box = $("cantons");
+  if (!box) return;
+  const list = permitList();
+  const active = currentPermit();
+  $("t-canton").textContent = T("choosePermit");
+  box.innerHTML = list.map((p) => {
+    const on = active && p.code === active.code;
+    const spec = (p.blocks || []).map((b) => b.count).reduce((a, b) => a + b, 0);
+    return `<button class="chip ${on ? "on" : ""}" data-permit="${p.code}"
+      aria-pressed="${on}">${escapeHtml(p.label)}
+      <span class="chipn">${spec}</span></button>`;
+  }).join("");
+  box.querySelectorAll(".chip").forEach((b) => {
+    b.onclick = () => selectPermit(b.dataset.permit);
   });
 }
 
@@ -389,19 +450,23 @@ function renderStart() {
 
   renderPools();
   renderDomains();
-  renderCantons();
+  if (blocksMode()) renderPermits(); else renderCantons();
   renderAnki();
 
   const avail = bankForRun().length;          // questions in the chosen domains
-  const examN = Math.min(CFG.questions, avail);
-  const partial = examN < CFG.questions
-    ? " " + T("cfgPartial", { target: CFG.questions }) : "";
-  $("config-summary").innerHTML = `
-    <div><b>${T("cfgQuestions")}</b> ${examN}${partial}</div>
-    <div><b>${T("cfgDuration")}</b> ${examMinutes()} ${T("minUnit")}</div>
-    <div><b>${T("cfgSuccess")}</b> ${CFG.passPoints}/${CFG.totalPoints} ${T("points")}</div>
-    <div><b>${T("cfgScale")}</b> ${T("ptsPerQuestion", { n: CFG.pointsPer })} · ${escapeHtml(cantonLabel())}</div>
-    <div><b>${T("cfgAvailable")}</b> ${T("availableQuestions", { n: avail })}</div>`;
+  if (blocksMode()) {
+    $("config-summary").innerHTML = blockConfigHtml(avail);
+  } else {
+    const examN = Math.min(CFG.questions, avail);
+    const partial = examN < CFG.questions
+      ? " " + T("cfgPartial", { target: CFG.questions }) : "";
+    $("config-summary").innerHTML = `
+      <div><b>${T("cfgQuestions")}</b> ${examN}${partial}</div>
+      <div><b>${T("cfgDuration")}</b> ${examMinutes()} ${T("minUnit")}</div>
+      <div><b>${T("cfgSuccess")}</b> ${CFG.passPoints}/${CFG.totalPoints} ${T("points")}</div>
+      <div><b>${T("cfgScale")}</b> ${T("ptsPerQuestion", { n: CFG.pointsPer })} · ${escapeHtml(cantonLabel())}</div>
+      <div><b>${T("cfgAvailable")}</b> ${T("availableQuestions", { n: avail })}</div>`;
+  }
   $("meta-foot").textContent =
     `${META.generated || ""} · KB ${META.kb_version || ""} · ${T("availableQuestions", { n: BANK.length })}`;
 
@@ -427,6 +492,7 @@ async function boot() {
   applyStaticStrings();
   restoreDomains();
   restoreCanton();
+  restorePermit();
   renderStart();
   show("start");
 }
@@ -451,10 +517,27 @@ function drawBalanced(questions, n) {
   return shuffle(out);
 }
 
+/* German SBF exam draw: take each block's `count` random questions, so the paper
+ * has the real composition (e.g. 7 Basisfragen + 23 Spezifisch). Spans all blocks
+ * regardless of the practice domain filter — an exam is a full sitting. */
+function drawByBlocks(permit) {
+  const out = [];
+  for (const b of (permit.blocks || [])) {
+    const pool = shuffle(BANK.filter((q) => q.block === b.block));
+    out.push(...pool.slice(0, b.count));
+  }
+  return shuffle(out);
+}
+
 function startRun(mode) {
-  const pool = bankForRun();
-  const n = Math.min(CFG.questions, pool.length);
-  const questions = mode === "practice" ? shuffle(pool.slice()) : drawBalanced(pool.slice(), n);
+  let questions;
+  if (mode === "exam" && blocksMode()) {
+    questions = drawByBlocks(currentPermit());
+  } else {
+    const pool = bankForRun();
+    const n = Math.min(CFG.questions, pool.length);
+    questions = mode === "practice" ? shuffle(pool.slice()) : drawBalanced(pool.slice(), n);
+  }
   state = {
     mode, questions, i: 0,
     answers: {},               // id -> array of selected indices
@@ -592,6 +675,7 @@ function scoreQuestion(q) {
 }
 
 function finish() {
+  if (blocksMode()) return finishBlocks();
   let earned = 0, total = 0;
   for (const q of state.questions) { earned += scoreQuestion(q); total += (q.points || CFG.pointsPer); }
   // The pass mark is the configured threshold for a full sitting, but scaled to
@@ -613,6 +697,66 @@ function finish() {
     ${state.questions.length < CFG.questions
       ? `<p class="fine">${T("partialExam", { n: state.questions.length, target: CFG.questions })}</p>` : ""}`;
 
+  $("breakdown").innerHTML = domainBreakdownHtml();
+  $("review").innerHTML = state.questions.map((q, n) => reviewItem(q, n)).join("");
+  $("timer").classList.add("hidden");
+  show("results");
+}
+
+/* German block label, e.g. "basis" -> "Basisfragen". Falls back to the id. */
+function blockLabel(id) {
+  const s = T("blk_" + id);
+  return s === "blk_" + id ? id : s;
+}
+
+/* Start-screen config summary for a block exam: the permit, its composition and
+ * the per-block pass minima (the real SBF rule), plus the timer. */
+function blockConfigHtml(avail) {
+  const p = currentPermit();
+  const blocks = p.blocks || [];
+  const total = blocks.reduce((a, b) => a + b.count, 0);
+  const minima = blocks
+    .map((b) => `${blockLabel(b.block)} ≥${b.min_correct}/${b.count}`).join(" · ");
+  return `
+    <div><b>${T("cfgPermit")}</b> ${escapeHtml(p.label)}</div>
+    <div><b>${T("cfgQuestions")}</b> ${total}</div>
+    <div><b>${T("cfgDuration")}</b> ${examMinutes()} ${T("minUnit")}</div>
+    <div><b>${T("cfgSuccess")}</b> ${escapeHtml(minima)}</div>
+    <div><b>${T("cfgAvailable")}</b> ${T("availableQuestions", { n: avail })}</div>`;
+}
+
+/* Block-based grading (mirrors src/questions/schema.grade_exam_blocks): count
+ * exact-match correct per block; an exam passes iff every block clears its
+ * minimum. Practice runs (no fixed composition) just show correct/total + the
+ * by-domain breakdown, with no pass verdict. */
+function finishBlocks() {
+  const permit = currentPermit();
+  const byBlock = {};
+  let correct = 0;
+  for (const q of state.questions) {
+    const ok = scoreQuestion(q) > 0;
+    const b = (byBlock[q.block] ||= { ok: 0, n: 0 });
+    b.n++; if (ok) { b.ok++; correct++; }
+  }
+  const mins = Math.round((Date.now() - state.startedAt) / 60000);
+
+  let badge = "", rows = "";
+  if (state.mode === "exam" && permit) {
+    let passed = true;
+    rows = (permit.blocks || []).map((bl) => {
+      const got = (byBlock[bl.block] || { ok: 0 }).ok;
+      const ok = got >= bl.min_correct;
+      passed = passed && ok;
+      return `<div class="scoreline">${escapeHtml(blockLabel(bl.block))}:
+        <b>${got}/${bl.count}</b> ${T("blkMin", { n: bl.min_correct })} ${ok ? "✓" : "✗"}</div>`;
+    }).join("");
+    badge = `<div class="badge ${passed ? "pass" : "fail"}">${passed ? T("passed") : T("failed")}</div>`;
+  }
+
+  $("score").innerHTML = `${badge}
+    <div class="scoreline">${T("scoreLineCount", { correct: `<b>${correct}</b>`, total: state.questions.length })}</div>
+    ${rows}
+    <div class="scoreline">${escapeHtml(T("duration"))} ${mins} ${T("minUnit")}</div>`;
   $("breakdown").innerHTML = domainBreakdownHtml();
   $("review").innerHTML = state.questions.map((q, n) => reviewItem(q, n)).join("");
   $("timer").classList.add("hidden");
