@@ -47,12 +47,8 @@ SEED = [
                  ("Il se resserre de plus en plus sous tension jusqu’à devenir indénouable", False),
                  ("Il sert uniquement à raccorder deux cordages de même diamètre", False)],
      "explanation": "Le nœud de chaise est une boucle fiable qui ne glisse pas et se dénoue aisément."},
-    {"ref": "Matelotage — Nœud de chaise : Roi des nœuds", "polarity": "affirmative",
-     "stem": "Combien de méthodes classiques sont retenues pour l’enseignement du nœud de chaise ?",
-     "choices": [("Deux (la tricotée et la préparée)", True),
-                 ("Dix-huit méthodes équivalentes", False),
-                 ("Une seule méthode officielle", False)],
-     "explanation": "Il subsiste deux méthodes classiques d’enseignement : tricotée ou préparée."},
+    # (Dropped on review: a "how many teaching methods exist for the bowline?"
+    #  item — grounded in the WP text but pure trivia, no exam relevance.)
 
     # --- Eaux frontalières (RNL art. 64 — Priorités) ------------------------
     {"ref": "RNL art. 64", "polarity": "affirmative",

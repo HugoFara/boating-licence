@@ -601,6 +601,48 @@
       ]
     },
     {
+      "id": "q-oni-oniart2-2bf27aad-ee65754e",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Qu’est-ce qu’un « convoi poussé » selon l’ONI ?",
+      "choices": [
+        {
+          "text": "Une composition de bateaux non propulsés réunis en un ensemble rigide, poussée par au moins un bateau à moteur",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une composition de bateaux non propulsés remorquée par au moins un bateau à moteur",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Tout groupe de bateaux de plaisance naviguant ensemble",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_2-2bf27aad",
+        "ref": "ONI art. 2",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 2 : le convoi poussé est un ensemble rigide poussé ; remorqué = convoi remorqué.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-de-rnlart71-b854fa2a-b68dcea4",
       "theme": "definitions",
       "kind": "definition_mc",
@@ -1988,6 +2030,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlart16-b7510c8f-75a2bba2",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "According to RNL art. 16, which statement is correct concerning events on the water?",
+      "choices": [
+        {
+          "text": "When authorising an event, the authority may permit derogations from certain provisions of the Regulation provided that the safety of navigation is not affected",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nautical events never require prior authorisation",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "In the case of a binational event, a single authority decides without informing the other",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_16-b7510c8f",
+        "ref": "RNL art. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 16, para. 3, allows derogations from certain provisions provided that the safety of navigation is not affected.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlart16-b7510c8f-d1f31b5c",
       "theme": "eaux_frontalieres",
       "kind": "frontiere_mc",
@@ -2241,6 +2325,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlart64-284d0c2c-7ddb9699",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "En cas de rencontre, de quels bateaux tout bateau — hormis les bateaux à passagers prioritaires et les convois remorqués — doit-il s’écarter ?",
+      "choices": [
+        {
+          "text": "Des bateaux à marchandises",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Des bateaux de plaisance",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Des bateaux de sport naviguant à la voile",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_64-284d0c2c",
+        "ref": "RNL art. 64",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 64, al. 2 let. b : il s’écarte des bateaux à marchandises.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlart64-284d0c2c-a9e2a5f1",
       "theme": "eaux_frontalieres",
       "kind": "frontiere_mc",
@@ -2278,6 +2404,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlart64-284d0c2c-ac1fdc24",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "Face à un bateau incapable de manœuvrer qui signale sa présence, que doit faire tout autre bateau ?",
+      "choices": [
+        {
+          "text": "S’écarter de ce bateau",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Maintenir son cap et sa vitesse",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le dépasser par tribord",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_64-284d0c2c",
+        "ref": "RNL art. 64",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 64, al. 1 : tout bateau doit s’écarter d’un bateau incapable de manœuvrer qui signale sa présence.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
       "correct": [
         0
       ]
@@ -4430,6 +4598,49 @@
       ]
     },
     {
+      "id": "q-oni-oniart134-df53e657-aedca456",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Lesquels de ces engins sont des moyens de sauvetage INDIVIDUELS au sens de l’ONI ?",
+      "choices": [
+        {
+          "text": "Les gilets de sauvetage avec cols",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les bouées de sauvetage",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les îlots de sauvetage pour l’embarquement",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_134-df53e657",
+        "ref": "ONI art. 134",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 134 : gilets avec cols et bouées = individuels ; les îlots d’embarquement sont collectifs.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "correct": [
+        0,
+        1
+      ]
+    },
+    {
       "id": "q-oni-oniart134-df53e657-f7855b82",
       "theme": "lois",
       "kind": "rule_mc",
@@ -5985,6 +6196,48 @@
       ]
     },
     {
+      "id": "q-matelotagewp-matelotagenœuddechaiseroide-3b91fa7c",
+      "theme": "matelotage",
+      "kind": "matelotage_mc",
+      "stem": "Pourquoi le nœud de chaise est-il qualifié de « roi des nœuds » ?",
+      "choices": [
+        {
+          "text": "C’est un nœud de boucle fiable qui ne glisse pas sous tension et se dénoue facilement",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il se resserre de plus en plus sous tension jusqu’à devenir indénouable",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il sert uniquement à raccorder deux cordages de même diamètre",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__roi_des_nœuds-0611e1ab",
+        "ref": "Matelotage — Nœud de chaise : Roi des nœuds",
+        "source": "Wikipédia — nœuds marins (matelotage)",
+        "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
+        "as_of": "236353098",
+        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Le nœud de chaise est une boucle fiable qui ne glisse pas et se dénoue aisément.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-matelotagewp-matelotagenœuddechaiseroide-3f4a81a1",
       "theme": "matelotage",
       "kind": "matelotage_mc",
@@ -7414,6 +7667,48 @@
       "review_status": "approved",
       "distractor_strategy": "n/a",
       "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-meteovents-météosuisselabise-22689f11-7e9f258e",
+      "theme": "meteorologie",
+      "kind": "meteo_mc",
+      "stem": "À quelle période la bise est-elle nettement dominante sur le Léman ?",
+      "choices": [
+        {
+          "text": "Dans la première moitié de l’année, notamment au printemps",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "En plein été, de juillet à août",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Uniquement lors des nuits d’automne",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "meteo_vents-météosuisse__la_bise-22689f11",
+        "ref": "MétéoSuisse : La bise",
+        "source": "MétéoSuisse — Les vents du Léman",
+        "url": "https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
+        "as_of": "Fri, 29 May 2026 19:47:39 GMT",
+        "licence": "Official Swiss public-sector content — reuse with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "MétéoSuisse : la bise est dominante dans la première moitié de l’année, surtout au printemps.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
       "correct": [
         0
       ]

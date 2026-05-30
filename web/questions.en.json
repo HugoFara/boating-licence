@@ -309,6 +309,48 @@
       ]
     },
     {
+      "id": "q-rnl-rnlart16-b7510c8f-75a2bba2",
+      "theme": "eaux_frontalieres",
+      "kind": "frontiere_mc",
+      "stem": "According to RNL art. 16, which statement is correct concerning events on the water?",
+      "choices": [
+        {
+          "text": "When authorising an event, the authority may permit derogations from certain provisions of the Regulation provided that the safety of navigation is not affected",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nautical events never require prior authorisation",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "In the case of a binational event, a single authority decides without informing the other",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_art_16-b7510c8f",
+        "ref": "RNL art. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL art. 16, para. 3, allows derogations from certain provisions provided that the safety of navigation is not affected.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "translation:en.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlart16-b7510c8f-d1f31b5c",
       "theme": "eaux_frontalieres",
       "kind": "frontiere_mc",
