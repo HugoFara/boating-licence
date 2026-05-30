@@ -496,6 +496,393 @@
       "correct": [
         0
       ]
+    },
+    {
+      "id": "q-fr-shom-90-c6cbcbcc",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Selon la règle des douzièmes, de quelle fraction du marnage l'eau monte-t-elle au cours de chaque heure successive, de la basse mer à la pleine mer ?",
+      "choices": [
+        {
+          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "2/12, 2/12, 2/12, 2/12, 2/12, 2/12",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-90",
+        "ref": "Règle des douzièmes (méthode de l'annuaire des marées)",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://maree.shom.fr/",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "D'après la règle des douzièmes, le marnage évolue heure par heure de 1/12, 2/12, 3/12, 3/12, 2/12 puis 1/12.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-91-246b7a6b",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Entre quelles valeurs s'échelonnent les coefficients de marée admis, de la morte-eau extrême à la vive-eau extrême ?",
+      "choices": [
+        {
+          "text": "De 20 à 120",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "De 0 à 100",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "De 45 à 95",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-91",
+        "ref": "SHOM — coefficient de marée",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le coefficient de marée caractérise l'amplitude de la marée. Les valeurs admises vont de 20 (morte-eau extrême) à 120 (vive-eau extrême) ; 45 correspond à la morte-eau moyenne et 95 à la vive-eau moyenne.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-92-ed6551b6",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Comment désigne-t-on la marée descendante, durant laquelle le niveau baisse vers la basse mer ?",
+      "choices": [
+        {
+          "text": "Le jusant",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le flot",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "L'étale",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-92",
+        "ref": "SHOM — flot et jusant",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le flot est la marée montante, pendant laquelle le niveau monte vers la pleine mer ; le jusant est la marée descendante, pendant laquelle le niveau baisse vers la basse mer.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-93-f73d0dc3",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Une zone côtière présente un marnage supérieur à 4 m. Comment ce régime de marée est-il qualifié ?",
+      "choices": [
+        {
+          "text": "Macrotidal",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mésotidal",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Microtidal",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-93",
+        "ref": "SHOM — marnage",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le marnage est la différence de hauteur d'eau entre une pleine mer et la basse mer consécutive. Un marnage inférieur à 2 m est microtidal, de 2 à 4 m mésotidal, et supérieur à 4 m macrotidal.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-94-8d318b78",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Sur les côtes de la Manche et de l'Atlantique, la marée est de type semi-diurne. Combien de pleines mers et de basses mers observe-t-on en une journée ?",
+      "choices": [
+        {
+          "text": "Deux pleines mers et deux basses mers",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une pleine mer et une basse mer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Trois pleines mers et trois basses mers",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-94",
+        "ref": "SHOM — marée semi-diurne et cycle",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Une marée semi-diurne produit deux pleines mers et deux basses mers par jour, le cycle de marée durant environ 12 h 25.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-95-a40de779",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "À quel coefficient de marée correspondent les pleines et basses mers de vive-eau moyenne (PMVE/BMVE) ?",
+      "choices": [
+        {
+          "text": "Coefficient 95",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Coefficient 120",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Coefficient 45",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-95",
+        "ref": "SHOM — niveaux caractéristiques de la marée",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Les pleines et basses mers de vive-eau moyenne (PMVE/BMVE) correspondent au coefficient 95, alors que les plus hautes et basses mers astronomiques correspondent au coefficient 120.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-96-8074cf17",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Lorsque la Terre, la Lune et le Soleil sont alignés (pleine ou nouvelle lune), quel type de marée observe-t-on ?",
+      "choices": [
+        {
+          "text": "Des vives-eaux (grand marnage)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Des mortes-eaux (faible marnage)",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Une absence de marée (étale permanent)",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-96",
+        "ref": "SHOM — vives-eaux et mortes-eaux",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "En syzygie, c'est-à-dire à la pleine ou à la nouvelle lune lorsque la Terre, la Lune et le Soleil sont alignés, les ondes de marée s'additionnent : ce sont les vives-eaux, à grand marnage. En quadrature, au premier ou au dernier quartier, les ondes s'opposent et donnent les mortes-eaux, à faible marnage.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-97-724fa27f",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "À quel niveau de référence le zéro hydrographique, auquel sont rapportées les sondes des cartes marines, est-il choisi en France ?",
+      "choices": [
+        {
+          "text": "Au voisinage des plus basses mers astronomiques",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Au niveau moyen de la mer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Au voisinage des plus hautes mers astronomiques",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-97",
+        "ref": "SHOM — zéro hydrographique (ZH)",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le zéro hydrographique est le niveau de référence commun aux cartes marines et aux annuaires des marées. En France il est fixé au voisinage des plus basses mers astronomiques (PBMA), niveau sous lequel la mer ne descend que très exceptionnellement ; la profondeur réelle est donc en général supérieure à la sonde portée sur la carte.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-98-d9052c29",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Qu'appelle-t-on l'étale de niveau ?",
+      "choices": [
+        {
+          "text": "Le court moment, à la pleine ou à la basse mer, où le niveau de l'eau ne varie plus",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le moment où le courant de marée s'inverse, qui coïncide toujours avec la pleine ou la basse mer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le moment où la vitesse du courant de marée est maximale entre deux marées",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-98",
+        "ref": "SHOM — étale",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://maree.shom.fr/",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "L'étale de niveau est le court moment, à la pleine ou à la basse mer, où le niveau de l'eau ne varie plus ; il est distinct de la renverse du courant (étale de courant), qui ne coïncide pas nécessairement avec lui.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
     }
   ]
 }

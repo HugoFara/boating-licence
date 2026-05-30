@@ -62,9 +62,8 @@ def _question(entry: dict, lang: str, idx: int) -> Question:
         explanation=loc.get("explanation", ""),
         # Served items are approved: hand-authored seeds (durable in seed_fr.py) or
         # law-derived drafts that passed review (status flipped to "approved").
-        review_status="approved",
-        distractor_strategy="derived" if gen.startswith("derive") else "curated",
-        generator=gen,
+        review_status="approved", distractor_strategy="curated",
+        generator=gen,   # "seed:fr.v1" or "derive:legi.v1" / "derive:ref.v1"
         provenance=Provenance(
             unit_id=unit_key, ref=entry["ref"], source=src.name,
             url=art.get("url") or src.url,

@@ -18,7 +18,7 @@ from src import themes                                      # noqa: E402
 from src import countries                                   # noqa: E402
 from src import scope                                        # noqa: E402
 from src.questions import schema                             # noqa: E402
-from src.fr import themes_fr, exam_fr, sources_fr, build_fr  # noqa: E402
+from src.fr import themes_fr, exam_fr, sources_fr, build_fr, derive_fr  # noqa: E402
 from src.fr.seed_fr import SEED                              # noqa: E402
 
 
@@ -69,7 +69,9 @@ def test_build_questions_are_valid_and_approved():
                 assert q.provenance.url and q.provenance.licence
                 assert len(q.correct) == 1             # single-answer
         total += len(by_lang["fr"])
-    assert total == len(SEED)                          # one FR question per seed entry
+    # the served bank = one FR question per seed entry + any approved law-/
+    # reference-derived draft (pending drafts are excluded by the review gate).
+    assert total == len(SEED) + len(derive_fr.approved_entries())
 
 
 def test_exam_profiles_match_the_national_format():

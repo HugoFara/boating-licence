@@ -496,6 +496,393 @@
       "correct": [
         0
       ]
+    },
+    {
+      "id": "q-fr-shom-90-31578e7b",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "According to the rule of twelfths, by which fraction of the tidal range does the water rise during each successive hour, from low water to high water?",
+      "choices": [
+        {
+          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "2/12, 2/12, 2/12, 2/12, 2/12, 2/12",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-90",
+        "ref": "Règle des douzièmes (méthode de l'annuaire des marées)",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://maree.shom.fr/",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Under the rule of twelfths, the tidal range changes hour by hour by 1/12, 2/12, 3/12, 3/12, 2/12 then 1/12.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-91-363308a9",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Between which values do the recognised tidal coefficients range, from extreme neap to extreme spring?",
+      "choices": [
+        {
+          "text": "From 20 to 120",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "From 0 to 100",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "From 45 to 95",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-91",
+        "ref": "SHOM — coefficient de marée",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The tidal coefficient characterises the amplitude of the tide. Recognised values run from 20 (extreme neap) to 120 (extreme spring); 45 is the average neap and 95 the average spring.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-92-a1dec8bc",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "What is the name for the falling tide, during which the level drops towards low water?",
+      "choices": [
+        {
+          "text": "The ebb (jusant)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The flood (flot)",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Slack water",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-92",
+        "ref": "SHOM — flot et jusant",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The flood (flot) is the rising tide, during which the level rises towards high water; the ebb (jusant) is the falling tide, during which the level drops towards low water.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-93-f1a14814",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "A coastal area has a tidal range greater than 4 m. How is this tidal regime described?",
+      "choices": [
+        {
+          "text": "Macrotidal",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mesotidal",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Microtidal",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-93",
+        "ref": "SHOM — marnage",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Tidal range is the height difference between a high water and the following low water. A range below 2 m is microtidal, 2 to 4 m is mesotidal, and above 4 m is macrotidal.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-94-310690db",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "On the Channel and Atlantic coasts the tide is of the semi-diurnal type. How many high waters and low waters occur in one day?",
+      "choices": [
+        {
+          "text": "Two high waters and two low waters",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "One high water and one low water",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Three high waters and three low waters",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-94",
+        "ref": "SHOM — marée semi-diurne et cycle",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "A semi-diurnal tide produces two high waters and two low waters per day, the tidal cycle lasting about 12 h 25.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-95-64c38832",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Which tidal coefficient corresponds to the mean spring high and low waters (PMVE/BMVE)?",
+      "choices": [
+        {
+          "text": "Coefficient 95",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Coefficient 120",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Coefficient 45",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-95",
+        "ref": "SHOM — niveaux caractéristiques de la marée",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The mean spring high and low waters (PMVE/BMVE) correspond to coefficient 95, whereas the highest and lowest astronomical tides correspond to coefficient 120.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-96-65aa3cb6",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "When the Earth, Moon and Sun are aligned (full or new moon), which type of tide occurs?",
+      "choices": [
+        {
+          "text": "Spring tides (large range)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Neap tides (small range)",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No tide (permanent slack water)",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-96",
+        "ref": "SHOM — vives-eaux et mortes-eaux",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "At syzygy — full or new moon, when Earth, Moon and Sun are aligned — the tidal waves add together: these are spring tides, with a large range. At quadrature (first or last quarter) the waves oppose each other, producing neap tides with a small range.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-97-97a77483",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "In France, to which reference level is the chart datum — to which the soundings on nautical charts are referred — set?",
+      "choices": [
+        {
+          "text": "Near the lowest astronomical tides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "At mean sea level",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Near the highest astronomical tides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-97",
+        "ref": "SHOM — zéro hydrographique (ZH)",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Chart datum is the common reference level for nautical charts and tide tables. In France it is set near the lowest astronomical tides (LAT/PBMA), a level the sea only very exceptionally falls below; the actual depth is therefore generally greater than the charted sounding.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-98-05277738",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "What is meant by slack water of level (étale de niveau)?",
+      "choices": [
+        {
+          "text": "The brief moment, at high or low water, when the water level no longer changes",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The moment when the tidal current reverses, always coinciding with high or low water",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The moment when the tidal current speed is at its maximum between two tides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-98",
+        "ref": "SHOM — étale",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://maree.shom.fr/",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Slack water of level is the brief moment, at high or low water, when the water level no longer changes; it is distinct from the turn of the tidal current (slack of current), which does not necessarily coincide with it.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
     }
   ]
 }

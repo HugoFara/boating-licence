@@ -285,9 +285,12 @@ def load_drafts() -> list[dict]:
 
 
 def approved_entries() -> list[dict]:
-    """Approved drafts in seed shape (for build_fr to serve)."""
-    return [{k: d[k] for k in ("option", "theme", "source", "ref", "polarity",
-                               "fr", "en", "choices")}
+    """Approved drafts in seed shape (for build_fr to serve). Keeps `generator`
+    and `article` so build_fr stamps the right generator + the deep per-unit
+    Légifrance/IALA/SHOM URL as provenance (not the generic source URL)."""
+    keys = ("option", "theme", "source", "ref", "polarity", "fr", "en", "choices",
+            "generator", "article")
+    return [{k: d[k] for k in keys if k in d}
             for d in load_drafts() if d.get("status") == "approved"]
 
 

@@ -30,7 +30,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "IALA R1001 §2.1.3 — marque latérale bâbord (région A)",
@@ -69,7 +69,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "IALA R1001 §2.1.3 — marque latérale tribord (région A)",
@@ -108,7 +108,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "IALA R1001 §2.1.5 — marques de chenal préféré (région A)",
@@ -147,7 +147,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "IALA R1001 §2.2.4 — marque cardinale Est",
@@ -186,7 +186,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "IALA R1001 §2.2.4 — marque cardinale Nord",
@@ -225,7 +225,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "IALA R1001 §2.2.4 — marque cardinale Ouest",
@@ -264,7 +264,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "IALA R1001 §2.2.4 — marque cardinale Sud",
@@ -303,7 +303,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "IALA R1001 §2.3 — marque de danger isolé",
@@ -342,7 +342,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "IALA R1001 §2.4 — marque d'eaux saines",
@@ -381,7 +381,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "IALA R1001 §2.5 — marque spéciale",
@@ -420,7 +420,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "Règle des douzièmes (méthode de l'annuaire des marées)",
@@ -459,7 +459,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "SHOM — coefficient de marée",
@@ -498,7 +498,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "SHOM — flot et jusant",
@@ -537,7 +537,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "SHOM — marnage",
@@ -576,7 +576,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "SHOM — marée semi-diurne et cycle",
@@ -615,7 +615,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "SHOM — niveaux caractéristiques de la marée",
@@ -654,7 +654,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "SHOM — vives-eaux et mortes-eaux",
@@ -693,7 +693,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "SHOM — zéro hydrographique (ZH)",
@@ -732,7 +732,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:ref.v1",
     "article": {
       "unit_ref": "SHOM — étale",

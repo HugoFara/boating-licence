@@ -1742,6 +1742,823 @@
       "correct": [
         0
       ]
+    },
+    {
+      "id": "q-fr-ialaa-80-b7036cad",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "In our waters, when entering a channel from seaward, what is the colour and the shape of the optional topmark on a port-hand mark?",
+      "choices": [
+        {
+          "text": "Red, with a red cylinder (can) topmark",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Green, with a green cone topmark point up",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Red, with a red cone topmark point up",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-80",
+        "ref": "IALA R1001 §2.1.3 — marque latérale bâbord (région A)",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The port-hand mark is red and can-shaped, and its optional topmark is a single red cylinder (can). You leave it to port (on your left) when entering.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-81-eb29fc62",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "In our waters, when entering a channel from seaward, which light and optional topmark identify a starboard-hand mark?",
+      "choices": [
+        {
+          "text": "Green light, with a green cone topmark point up",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Red light, with a red cylinder (can) topmark",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Green light, with a green cone topmark point down",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-81",
+        "ref": "IALA R1001 §2.1.3 — marque latérale tribord (région A)",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The starboard-hand mark is green and cone-shaped; it shows a green light and its optional topmark is a single green cone point up. You leave it to starboard (on your right) when entering.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-82-b788096f",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "Where a channel divides, you see a red mark with a single broad green horizontal band. What does it tell you?",
+      "choices": [
+        {
+          "text": "The preferred channel is to starboard",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The preferred channel is to port",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The channel is blocked and you must turn back",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-82",
+        "ref": "IALA R1001 §2.1.5 — marques de chenal préféré (région A)",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "A red mark with a broad green horizontal band (red can topmark) shows that the preferred channel is to starboard. Such preferred-channel marks display a composite group-flashing (2+1) light.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-83-5adeeedc",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "Which topmark and light rhythm identify an East cardinal mark, which must be passed on its east side?",
+      "choices": [
+        {
+          "text": "Two black cones base to base; white VQ(3) every 5 s or Q(3) every 10 s",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Two black cones point to point; white VQ(9) every 10 s",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Two black cones base to base; white group-occulting light",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-83",
+        "ref": "IALA R1001 §2.2.4 — marque cardinale Est",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The East cardinal has two black cones base to base, a black body with a broad yellow horizontal band, and a white VQ(3) every 5 s or Q(3) every 10 s light. You pass to the east of the mark.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-84-d21d6198",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "A cardinal mark shows two black cones one above the other, both pointing up, with a body black above and yellow below. On which side should you pass?",
+      "choices": [
+        {
+          "text": "To the north of the mark",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "To the south of the mark",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "To the east of the mark",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-84",
+        "ref": "IALA R1001 §2.2.4 — marque cardinale Nord",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "This topmark (two black cones point up, body black over yellow, white very-quick or quick flashing light) marks a North cardinal: the safe water is to the north, so you pass to the north of the mark.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-85-b9779455",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "A mark shows two black cones arranged point to point, a yellow body with a single broad black horizontal band, and a white light flashing in groups of nine. On which side must you pass?",
+      "choices": [
+        {
+          "text": "To the west of the mark",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "To the east of the mark",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "To the north of the mark",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-85",
+        "ref": "IALA R1001 §2.2.4 — marque cardinale Ouest",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The two black cones point to point, the yellow body with a broad black horizontal band and the white VQ(9) every 10 s (or Q(9) every 15 s) light identify the West cardinal mark: you pass to the west of it.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-86-bc1e54cb",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "A mark carries two black cones with points downward, a yellow body on top and black below, and shows a white light of quick flashes Q(6) followed by one long flash. Which mark is it?",
+      "choices": [
+        {
+          "text": "A South cardinal mark",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A North cardinal mark",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A West cardinal mark",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-86",
+        "ref": "IALA R1001 §2.2.4 — marque cardinale Sud",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The two cones pointing downward, the body yellow above and black below, and the white light VQ(6)+one long flash every 10 s (or Q(6)+one long flash every 15 s) identify the South cardinal mark: you pass to the south of it.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-87-ef34ff29",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "A mark has a black body with one or more broad red horizontal bands, a topmark of two black spheres one above the other, and a white light flashing in groups of two. What does it indicate?",
+      "choices": [
+        {
+          "text": "An isolated danger surrounded by safe water, on which it is moored",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Safe water all around, which may be passed on either side",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A particular regulated zone, not a danger in itself",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-87",
+        "ref": "IALA R1001 §2.3 — marque de danger isolé",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The black body with broad red horizontal bands, the topmark of two black spheres and the white group-flashing (2) light identify the isolated danger mark, moored on (or above) an isolated danger surrounded by safe water.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-88-69a3fc74",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "A mark shows red and white vertical stripes, a topmark of a single red sphere, and a white isophase light (or occulting, one long flash every 10 s, or Morse \"A\"). What may you do when passing it?",
+      "choices": [
+        {
+          "text": "Pass it on either side: safe water all around",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Pass only to the north: isolated danger all around",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Avoid it on one side only: it is moored on a danger",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-88",
+        "ref": "IALA R1001 §2.4 — marque d'eaux saines",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The red and white vertical stripes, the single red sphere topmark and the white isophase / occulting / one long flash every 10 s / Morse \"A\" light identify a safe-water mark (mid-channel, landfall): you may pass it on either side.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-89-d639b705",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "A mark is entirely yellow, may carry a yellow St Andrew's cross (\"X\") topmark, and shows a yellow light. What does it delimit?",
+      "choices": [
+        {
+          "text": "A particular zone or feature (ODAS, regulated area, pipeline, anchorage…)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "An isolated danger surrounded by safe water",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The starboard side of the channel to follow",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-89",
+        "ref": "IALA R1001 §2.5 — marque spéciale",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "An all-yellow mark, with an optional yellow St Andrew's cross topmark and a yellow light (rhythm different from those reserved for cardinals, isolated danger and safe water) is a special mark: it delimits a particular zone or feature (ODAS, regulated area, pipeline, anchorage area…), not a danger in itself.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-90-31578e7b",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "According to the rule of twelfths, by which fraction of the tidal range does the water rise during each successive hour, from low water to high water?",
+      "choices": [
+        {
+          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "2/12, 2/12, 2/12, 2/12, 2/12, 2/12",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-90",
+        "ref": "Règle des douzièmes (méthode de l'annuaire des marées)",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://maree.shom.fr/",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Under the rule of twelfths, the tidal range changes hour by hour by 1/12, 2/12, 3/12, 3/12, 2/12 then 1/12.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-91-363308a9",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Between which values do the recognised tidal coefficients range, from extreme neap to extreme spring?",
+      "choices": [
+        {
+          "text": "From 20 to 120",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "From 0 to 100",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "From 45 to 95",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-91",
+        "ref": "SHOM — coefficient de marée",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The tidal coefficient characterises the amplitude of the tide. Recognised values run from 20 (extreme neap) to 120 (extreme spring); 45 is the average neap and 95 the average spring.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-92-a1dec8bc",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "What is the name for the falling tide, during which the level drops towards low water?",
+      "choices": [
+        {
+          "text": "The ebb (jusant)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The flood (flot)",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Slack water",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-92",
+        "ref": "SHOM — flot et jusant",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The flood (flot) is the rising tide, during which the level rises towards high water; the ebb (jusant) is the falling tide, during which the level drops towards low water.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-93-f1a14814",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "A coastal area has a tidal range greater than 4 m. How is this tidal regime described?",
+      "choices": [
+        {
+          "text": "Macrotidal",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mesotidal",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Microtidal",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-93",
+        "ref": "SHOM — marnage",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Tidal range is the height difference between a high water and the following low water. A range below 2 m is microtidal, 2 to 4 m is mesotidal, and above 4 m is macrotidal.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-94-310690db",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "On the Channel and Atlantic coasts the tide is of the semi-diurnal type. How many high waters and low waters occur in one day?",
+      "choices": [
+        {
+          "text": "Two high waters and two low waters",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "One high water and one low water",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Three high waters and three low waters",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-94",
+        "ref": "SHOM — marée semi-diurne et cycle",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "A semi-diurnal tide produces two high waters and two low waters per day, the tidal cycle lasting about 12 h 25.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-95-64c38832",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "Which tidal coefficient corresponds to the mean spring high and low waters (PMVE/BMVE)?",
+      "choices": [
+        {
+          "text": "Coefficient 95",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Coefficient 120",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Coefficient 45",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-95",
+        "ref": "SHOM — niveaux caractéristiques de la marée",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The mean spring high and low waters (PMVE/BMVE) correspond to coefficient 95, whereas the highest and lowest astronomical tides correspond to coefficient 120.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-96-65aa3cb6",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "When the Earth, Moon and Sun are aligned (full or new moon), which type of tide occurs?",
+      "choices": [
+        {
+          "text": "Spring tides (large range)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Neap tides (small range)",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No tide (permanent slack water)",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-96",
+        "ref": "SHOM — vives-eaux et mortes-eaux",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "At syzygy — full or new moon, when Earth, Moon and Sun are aligned — the tidal waves add together: these are spring tides, with a large range. At quadrature (first or last quarter) the waves oppose each other, producing neap tides with a small range.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-97-97a77483",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "In France, to which reference level is the chart datum — to which the soundings on nautical charts are referred — set?",
+      "choices": [
+        {
+          "text": "Near the lowest astronomical tides",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "At mean sea level",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Near the highest astronomical tides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-97",
+        "ref": "SHOM — zéro hydrographique (ZH)",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://refmar.shom.fr/sites/default/files/2025-01/GT-TSH_CatD_Fiche_Prediction_maree.pdf",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Chart datum is the common reference level for nautical charts and tide tables. In France it is set near the lowest astronomical tides (LAT/PBMA), a level the sea only very exceptionally falls below; the actual depth is therefore generally greater than the charted sounding.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-98-05277738",
+      "theme": "meteo_maree",
+      "kind": "meteo_mc",
+      "stem": "What is meant by slack water of level (étale de niveau)?",
+      "choices": [
+        {
+          "text": "The brief moment, at high or low water, when the water level no longer changes",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The moment when the tidal current reverses, always coinciding with high or low water",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The moment when the tidal current speed is at its maximum between two tides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-shom-98",
+        "ref": "SHOM — étale",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://maree.shom.fr/",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Slack water of level is the brief moment, at high or low water, when the water level no longer changes; it is distinct from the turn of the tidal current (slack of current), which does not necessarily coincide with it.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
     }
   ]
 }
