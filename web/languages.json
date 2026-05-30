@@ -1,0 +1,15 @@
+{
+  "default": "fr",
+  "supported": [
+    "de",
+    "en",
+    "fr",
+    "it"
+  ],
+  "available": {
+    "fr": {
+      "count": 73,
+      "unofficial": false
+    }
+  }
+}

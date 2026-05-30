@@ -1,0 +1,3084 @@
+{
+  "meta": {
+    "kb_version": "2026-05-30",
+    "generated": "2026-05-30",
+    "generators": "tmpl:figure_recognition.v1",
+    "exam_questions": "60",
+    "total_points": "180",
+    "points_per_question": "3",
+    "pass_points": "165",
+    "time_limit_min": "50",
+    "scoring": "all_or_nothing",
+    "canton": "Léman (GE/VD) · standard VKS",
+    "lang": "fr",
+    "unofficial": "false"
+  },
+  "questions": [
+    {
+      "id": "q-oni-oniart2-2bf27aad-01b54b7e",
+      "theme": "definitions",
+      "kind": "definition_mc",
+      "stem": "Au sens de l’ONI, que désigne le terme « bateau motorisé » ?",
+      "choices": [
+        {
+          "text": "Un bateau à propulsion mécanique",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un bateau non propulsé remorqué par un autre bateau",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un engin flottant tel qu’une drague ou une grue",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_2-2bf27aad",
+        "ref": "ONI art. 2",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 2 : le « bateau motorisé » est un bateau à propulsion mécanique.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniart134-df53e657-8ab76ad8",
+      "theme": "lois",
+      "kind": "rule_mc",
+      "stem": "Quelle poussée hydrostatique minimale un moyen de sauvetage individuel doit-il avoir (cas général) ?",
+      "choices": [
+        {
+          "text": "Au moins 75 N",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Au moins 750 N",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Au moins 50 N",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_art_134-df53e657",
+        "ref": "ONI art. 134",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI art. 134, al. 2 : au moins 75 N (sauf bateaux visés à l’art. 134a).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig61-729183ab-312fd2c6",
+      "theme": "meteorologie",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Lieu de mise à terre de bateaux",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La largeur de la passe est limitée",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Avis de fort vent",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_61-729183ab",
+        "ref": "ONI Annexe 4 – fig. 61",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image115.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 61 — « Avis de fort vent ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig62-4c0da81f-dad372e6",
+      "theme": "meteorologie",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Avis de tempête",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Barrage",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Avis de fort vent",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_62-4c0da81f",
+        "ref": "ONI Annexe 4 – fig. 62",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image116.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 62 — « Avis de tempête ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig1-466f4128-2087b471",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie cette signalisation lumineuse ?",
+      "choices": [
+        {
+          "text": "Feu fixe visible de tous les côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Feu scintillant",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Feu bleu scintillant",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_1-466f4128",
+        "ref": "ONI Annexe 2 – fig. 1",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image6.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 1 — « Feu fixe visible de tous les côtés ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig2-a59b06e5-ba408c9c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie cette signalisation lumineuse ?",
+      "choices": [
+        {
+          "text": "Feu bleu scintillant",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Feu fixe visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Feu scintillant",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_2-a59b06e5",
+        "ref": "ONI Annexe 2 – fig. 2",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image9.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 2 — « Feu scintillant ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig22-f87cb685-71648c56",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Interdiction de s’amarrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ballon vert",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La hauteur de la passe est limitée",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_22-f87cb685",
+        "ref": "ONI Annexe 2 – fig. 22",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image30.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 22 — « Ballon vert ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig27-6270f90c-7dae90bf",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Obligation de s’arrêter dans certaines conditions",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Deux pavillons blancs superposés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorisation d’ancrer",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_27-6270f90c",
+        "ref": "ONI Annexe 2 – fig. 27",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image35.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 27 — « Deux pavillons blancs superposés ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig29-98cd55c4-72812774",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Ballon jaune",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bateaux de la police et d’autres services",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bouées jaunes signalant chaque ancrage",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_29-98cd55c4",
+        "ref": "ONI Annexe 2 – fig. 29",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image37.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 29 — « Bouées jaunes signalant chaque ancrage ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig3-72140816-8ad7580e",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Interdiction de virer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorisation de passer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ballon",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_3-72140816",
+        "ref": "ONI Annexe 2 – fig. 3",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image11.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 3 — « Ballon ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig30-b7c4f864-44fd3d4b",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Bouées jaunes signalant chaque ancrage",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction d’ancrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bateaux de la police et d’autres services",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_30-b7c4f864",
+        "ref": "ONI Annexe 2 – fig. 30",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image38.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 30 — « Bateaux de la police et d’autres services ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig31-056d2c35-e187b283",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie cette signalisation lumineuse ?",
+      "choices": [
+        {
+          "text": "Feu scintillant",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Feu bleu scintillant",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Feu fixe visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_31-056d2c35",
+        "ref": "ONI Annexe 2 – fig. 31",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image39.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 31 — « Feu bleu scintillant ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig34-38f8c8ba-70ce9a19",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "B. dans le seul sens indiqué",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ballon jaune",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obligation de s’arrêter dans certaines conditions",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_34-38f8c8ba",
+        "ref": "ONI Annexe 2 – fig. 34",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image42.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 34 — « Ballon jaune ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig39-a1ae0684-db554fd9",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Balancer un pavillon rouge",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La largeur de la passe est limitée",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "B. dans le seul sens indiqué",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_39-a1ae0684",
+        "ref": "ONI Annexe 2 – fig. 39",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image47.png",
+      "points": 3,
+      "explanation": "ONI Annexe 2 – fig. 39 — « Balancer un pavillon rouge ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe3fig1-74a2f981-b124ec78",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal sonore ?",
+      "choices": [
+        {
+          "text": "Deux feux superposés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Volées de cloches",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Bouées jaunes signalant chaque ancrage",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_3__fig_1-74a2f981",
+        "ref": "ONI Annexe 3 – fig. 1",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image54.png",
+      "points": 3,
+      "explanation": "ONI Annexe 3 – fig. 1 — « Volées de cloches ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig10-2d7777ba-614e394c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction d’ancrer",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Fin d’une interdiction ou d’une obligation",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction du ski nautique",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_10-2d7777ba",
+        "ref": "ONI Annexe 4 – fig. 10",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image64.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 10 — « Interdiction d’ancrer ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig11-86d01b18-13d1c141",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de passer pour bateaux motorisés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de tout dépassement",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de s’amarrer",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_11-86d01b18",
+        "ref": "ONI Annexe 4 – fig. 11",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image65.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 11 — « Interdiction de s’amarrer ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig12-d6bb7ee4-af613bcd",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de passer pour bateaux motorisés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de virer",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Fin d’une interdiction ou d’une obligation",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_12-d6bb7ee4",
+        "ref": "ONI Annexe 4 – fig. 12",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image66.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 12 — « Interdiction de virer ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig17-61ced693-1558cf8f",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Bac ne naviguant pas librement",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Baignade interdite",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Direction recommandée",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_17-61ced693",
+        "ref": "ONI Annexe 4 – fig. 17",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image71.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 17 — « Baignade interdite ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig19-0c739b2b-a93fb465",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Obligation d’observer une vigilance particulière",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obligation de s’arrêter dans certaines conditions",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obligation de siffler",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_19-0c739b2b",
+        "ref": "ONI Annexe 4 – fig. 19",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image73.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 19 — « Obligation de s’arrêter dans certaines conditions ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig2-b85b61a6-4577f0dd",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie cette signalisation lumineuse ?",
+      "choices": [
+        {
+          "text": "Direction recommandée",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Deux feux superposés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction de stationner",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_2-b85b61a6",
+        "ref": "ONI Annexe 4 – fig. 2",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image56.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 2 — « Deux feux superposés ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig21-c2e3f480-3a83ceb9",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Obligation de s’arrêter dans certaines conditions",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obligation de siffler",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obligation d’observer une vigilance particulière",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_21-c2e3f480",
+        "ref": "ONI Annexe 4 – fig. 21",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image75.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 21 — « Obligation de siffler ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig22-3acf3a06-c1a701ca",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Obligation de s’arrêter dans certaines conditions",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obligation d’observer une vigilance particulière",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obligation de siffler",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_22-3acf3a06",
+        "ref": "ONI Annexe 4 – fig. 22",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image76.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 22 — « Obligation d’observer une vigilance particulière ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig23-d9a5d7ea-090a0f29",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Kitesurfs autorisés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Direction recommandée",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La hauteur de la passe est limitée",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_23-d9a5d7ea",
+        "ref": "ONI Annexe 4 – fig. 23",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image77.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 23 — « La hauteur de la passe est limitée ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig24-0ed67ba2-f75cc56b",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "La largeur de la passe est limitée",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Avis de tempête",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Direction recommandée",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_24-0ed67ba2",
+        "ref": "ONI Annexe 4 – fig. 24",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image78.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 24 — « La largeur de la passe est limitée ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig26-3e933a73-9dcf4c71",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Le tirant d’eau est limité",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Avis de fort vent",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Avis de tempête",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_26-3e933a73",
+        "ref": "ONI Annexe 4 – fig. 26",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image80.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 26 — « Le tirant d’eau est limité ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig28-33e20058-7d4e166b",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "La largeur de la passe est limitée",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Lieu de mise à terre de bateaux",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "B. dans le seul sens indiqué",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_28-33e20058",
+        "ref": "ONI Annexe 4 – fig. 28",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image82.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 28 — « B. dans le seul sens indiqué ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig29-d377bcde-851eaa0c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Direction recommandée",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "B. dans le seul sens indiqué",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le tirant d’eau est limité",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_29-d377bcde",
+        "ref": "ONI Annexe 4 – fig. 29",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image83.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 29 — « B. dans le seul sens indiqué ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig3-c85afc25-685d8e58",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Fin d’une interdiction ou d’une obligation",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de passer pour bateaux motorisés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction de virer",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_3-c85afc25",
+        "ref": "ONI Annexe 4 – fig. 3",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image57.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 3 — « Interdiction de passer pour bateaux motorisés ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig32-a2542491-f27de223",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Autorisation d’amarrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorisation de passer",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorisation d’ancrer",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_32-a2542491",
+        "ref": "ONI Annexe 4 – fig. 32",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image86.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 32 — « Autorisation de passer ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig33-8a38ab30-147cf4af",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Autorisation de stationner",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorisation du ski nautique",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorisation de passer",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_33-8a38ab30",
+        "ref": "ONI Annexe 4 – fig. 33",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image87.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 33 — « Autorisation de stationner ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig34-b147eedf-d8374a75",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Autorisation d’ancrer",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorisation du ski nautique",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorisation de stationner",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_34-b147eedf",
+        "ref": "ONI Annexe 4 – fig. 34",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image88.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 34 — « Autorisation d’ancrer ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig35-abb18840-b5d2dc8d",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Autorisation d’ancrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorisation de passer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorisation d’amarrer",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_35-abb18840",
+        "ref": "ONI Annexe 4 – fig. 35",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image89.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 35 — « Autorisation d’amarrer ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig36-731760fd-37fa3ce6",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Autorisation du ski nautique",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorisation d’amarrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorisation de naviguer à la planche à voile",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_36-731760fd",
+        "ref": "ONI Annexe 4 – fig. 36",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image90.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 36 — « Autorisation du ski nautique ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig37-20ae10a4-3b10ae57",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Autorisation d’amarrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorisation de naviguer à la planche à voile",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorisation de stationner",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_37-20ae10a4",
+        "ref": "ONI Annexe 4 – fig. 37",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image91.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 37 — « Autorisation de naviguer à la planche à voile ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig38-470196ba-a5d6bd93",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Kitesurfs autorisés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Avis de tempête",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Baignade interdite",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_38-470196ba",
+        "ref": "ONI Annexe 4 – fig. 38",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image92.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 38 — « Kitesurfs autorisés ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig39-654d2f1f-43f73869",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "B. dans le seul sens indiqué",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Avis de tempête",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Direction recommandée",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_39-654d2f1f",
+        "ref": "ONI Annexe 4 – fig. 39",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image93.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 39 — « Direction recommandée ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig4-a404cf3f-723b1422",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de passer pour bateaux motorisés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction du ski nautique",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction d’ancrer",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_4-a404cf3f",
+        "ref": "ONI Annexe 4 – fig. 4",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image58.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 4 — « Interdiction du ski nautique ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig40-475e10a4-3aa9c269",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Direction recommandée",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Kitesurfs autorisés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bac ne naviguant pas librement",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_40-475e10a4",
+        "ref": "ONI Annexe 4 – fig. 40",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image94.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 40 — « Bac ne naviguant pas librement ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig41-673f5d47-9b98efe4",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Barrage",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le tirant d’eau est limité",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Lignes aériennes à haute tension",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_41-673f5d47",
+        "ref": "ONI Annexe 4 – fig. 41",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image95.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 41 — « Barrage ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig42-81bf56ce-d1fd4d31",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Avis de fort vent",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "B. dans le seul sens indiqué",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Lieu de mise à l’eau de bateaux",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_42-81bf56ce",
+        "ref": "ONI Annexe 4 – fig. 42",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image96.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 42 — « Lieu de mise à l’eau de bateaux ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig43-c5029c48-c78050c0",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Lieu de mise à l’eau de bateaux",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Barrage",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Lieu de mise à terre de bateaux",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_43-c5029c48",
+        "ref": "ONI Annexe 4 – fig. 43",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image97.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 43 — « Lieu de mise à terre de bateaux ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig44-6ba9ee97-aef1c69c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de passer pour bateaux à voile",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de passer pour bateaux motorisés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Fin d’une interdiction ou d’une obligation",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_44-6ba9ee97",
+        "ref": "ONI Annexe 4 – fig. 44",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image98.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 44 — « Fin d’une interdiction ou d’une obligation ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig45-484dce70-22bb2c72",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Lignes aériennes à haute tension",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Barrage",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Kitesurfs autorisés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_45-484dce70",
+        "ref": "ONI Annexe 4 – fig. 45",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image99.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 45 — « Lignes aériennes à haute tension ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig5-41303a8b-96776c22",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de passer pour bateaux à voile",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction de virer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de passer pour bateaux motorisés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_5-41303a8b",
+        "ref": "ONI Annexe 4 – fig. 5",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image59.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 5 — « Interdiction de passer pour bateaux à voile ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig6-3fd0dd21-4a7ae6f9",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de passer pour bateaux motorisés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Fin d’une interdiction ou d’une obligation",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de naviguer à la planche à voile",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_6-3fd0dd21",
+        "ref": "ONI Annexe 4 – fig. 6",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image60.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 6 — « Interdiction de naviguer à la planche à voile ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig63-d93729c2-858887af",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal sonore ?",
+      "choices": [
+        {
+          "text": "Volées de cloches continues",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obligation de s’arrêter dans certaines conditions",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction d’ancrer",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_63-d93729c2",
+        "ref": "ONI Annexe 4 – fig. 63",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image117.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 63 — « Volées de cloches continues ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig64-cf3ef722-77012ed6",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Baignade interdite",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Hurlement d’une sirène",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "B. dans le seul sens indiqué",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_64-cf3ef722",
+        "ref": "ONI Annexe 4 – fig. 64",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image118.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 64 — « Hurlement d’une sirène ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig7-b49d058f-02fe18ff",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de virer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de tout dépassement",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction de toute rencontre et dépassement",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_7-b49d058f",
+        "ref": "ONI Annexe 4 – fig. 7",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image61.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 7 — « Interdiction de tout dépassement ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig8-84092d86-b0e742b3",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de passer pour bateaux à voile",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction du ski nautique",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de toute rencontre et dépassement",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_8-84092d86",
+        "ref": "ONI Annexe 4 – fig. 8",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image62.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 8 — « Interdiction de toute rencontre et dépassement ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig9-c530e67e-86c5a239",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de virer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de stationner",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Fin d’une interdiction ou d’une obligation",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_9-c530e67e",
+        "ref": "ONI Annexe 4 – fig. 9",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/oni/image63.png",
+      "points": 3,
+      "explanation": "ONI Annexe 4 – fig. 9 — « Interdiction de stationner ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig34-1152b879-a07fde0a",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Soit pavillon rouge et pavillon blanc",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction de passer en dehors de l’espace indiqué",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bateaux naviguant isolément ou remorqueurs",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_34-1152b879",
+        "ref": "RNL Annexe I – fig. 34",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image39.png",
+      "points": 3,
+      "explanation": "RNL Annexe I – fig. 34 — « Soit pavillon rouge et pavillon blanc ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig4-4bacf613-fba94d57",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Convois poussés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bateaux naviguant isolément ou remorqueurs",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Bateaux de plaisance",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_4-4bacf613",
+        "ref": "RNL Annexe I – fig. 4",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image9.png",
+      "points": 3,
+      "explanation": "RNL Annexe I – fig. 4 — « Bateaux naviguant isolément ou remorqueurs ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig5-466235f4-94936a99",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Bateaux de plaisance",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bateaux naviguant isolément ou remorqueurs",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Convois poussés",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_5-466235f4",
+        "ref": "RNL Annexe I – fig. 5",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image10.png",
+      "points": 3,
+      "explanation": "RNL Annexe I – fig. 5 — « Convois poussés ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig6-62565189-f18062bd",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Convois poussés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bateaux de plaisance",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Bateaux naviguant isolément ou remorqueurs",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_6-62565189",
+        "ref": "RNL Annexe I – fig. 6",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image11.png",
+      "points": 3,
+      "explanation": "RNL Annexe I – fig. 6 — « Bateaux de plaisance ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig1-81fc5ae2-89882c88",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction d’ancrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de passer",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction de stationner",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_1-81fc5ae2",
+        "ref": "RNL Annexe III – fig. 1",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image50.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 1 — « Interdiction de passer ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig10-12f829a8-f065d8a0",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de passer en dehors de l’espace indiqué",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction de pratiquer la planche à voile",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de stationner",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_10-12f829a8",
+        "ref": "RNL Annexe III – fig. 10",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image59.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 10 — « Interdiction de passer en dehors de l’espace indiqué ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig11-b424faec-3d97a862",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de passer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de pratiquer la planche à voile",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction de stationner",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_11-b424faec",
+        "ref": "RNL Annexe III – fig. 11",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image60.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 11 — « Interdiction de pratiquer la planche à voile ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig12-18b5664b-27f6653c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de pratiquer la planche à voile",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de se baigner",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction de passer",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_12-18b5664b",
+        "ref": "RNL Annexe III – fig. 12",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image61.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 12 — « Interdiction de se baigner ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig13-1a229905-07e9d0ac",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction des kitesurfs",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction de pratiquer la planche à voile",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de stationner",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_13-1a229905",
+        "ref": "RNL Annexe III – fig. 13",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image62.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 13 — « Interdiction des kitesurfs ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig16-34dbd04e-d33ed785",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Autorisation d’ancrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de pratiquer la planche à voile",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Obligation d’observer une vigilance particulière",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_16-34dbd04e",
+        "ref": "RNL Annexe III – fig. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image65.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 16 — « Obligation d’observer une vigilance particulière ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig18-23ef0bf0-32db08e5",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Autorisation d’ancrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorisation de stationner",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorisation de pratiquer la planche à voile",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_18-23ef0bf0",
+        "ref": "RNL Annexe III – fig. 18",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image67.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 18 — « Autorisation de stationner ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig19-0606de94-e3e7ebda",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Autorisation de stationner",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorisation d’ancrer",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorisation de s’amarrer",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_19-0606de94",
+        "ref": "RNL Annexe III – fig. 19",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image68.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 19 — « Autorisation d’ancrer ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig2-a1a757d0-22347c25",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Deux signaux lumineux",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorisation d’ancrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bateaux naviguant isolément ou remorqueurs",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_2-a1a757d0",
+        "ref": "RNL Annexe III – fig. 2",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image51.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 2 — « Deux signaux lumineux ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig20-66973f4b-708145d5",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Autorisation de stationner",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorisation d’ancrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorisation de s’amarrer",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_20-66973f4b",
+        "ref": "RNL Annexe III – fig. 20",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image69.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 20 — « Autorisation de s’amarrer ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig21-4ce439e5-9f37e0ae",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Autorisation de pratiquer la planche à voile",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autorisation d’ancrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autorisation de stationner",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_21-4ce439e5",
+        "ref": "RNL Annexe III – fig. 21",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image70.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 21 — « Autorisation de pratiquer la planche à voile ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig22-30fe300a-41a19d6e",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce signal ?",
+      "choices": [
+        {
+          "text": "Kitesurfs autorisés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obligation d’observer une vigilance particulière",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de passer",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_22-30fe300a",
+        "ref": "RNL Annexe III – fig. 22",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image71.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 22 — « Kitesurfs autorisés ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "sibling_random",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig3-d0511f8f-18257c2e",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de passer pour bateaux motorisés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction de pratiquer la planche à voile",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de se baigner",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_3-d0511f8f",
+        "ref": "RNL Annexe III – fig. 3",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image52.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 3 — « Interdiction de passer pour bateaux motorisés ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig5-2a1fcb5a-a27bf06c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de tout dépassement",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction d’ancrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de passer",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_5-2a1fcb5a",
+        "ref": "RNL Annexe III – fig. 5",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image54.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 5 — « Interdiction de tout dépassement ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig6-d4425b6a-f1141d2e",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de s’amarrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction des kitesurfs",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de stationner",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_6-d4425b6a",
+        "ref": "RNL Annexe III – fig. 6",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image55.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 6 — « Interdiction de stationner ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig7-bb9b0b1a-39e40a4c",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de passer en dehors de l’espace indiqué",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction d’ancrer",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction de se baigner",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_7-bb9b0b1a",
+        "ref": "RNL Annexe III – fig. 7",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image56.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 7 — « Interdiction d’ancrer ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig8-10ceee7f-54642a28",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction de passer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de s’amarrer",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interdiction des kitesurfs",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_8-10ceee7f",
+        "ref": "RNL Annexe III – fig. 8",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image57.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 8 — « Interdiction de s’amarrer ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeiiifig9-c3092770-75535a6b",
+      "theme": "signalisation",
+      "kind": "figure_recognition",
+      "stem": "Que signifie ce panneau ?",
+      "choices": [
+        {
+          "text": "Interdiction des kitesurfs",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction d’ancrer",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Interdiction de passer en dehors de l’espace indiqué",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_iii__fig_9-c3092770",
+        "ref": "RNL Annexe III – fig. 9",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": "assets/rnl/image58.png",
+      "points": 3,
+      "explanation": "RNL Annexe III – fig. 9 — « Interdiction de passer en dehors de l’espace indiqué ».",
+      "review_status": "auto_approved",
+      "distractor_strategy": "confusion_set",
+      "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        2
+      ]
+    }
+  ]
+}
