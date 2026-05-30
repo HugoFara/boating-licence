@@ -48,6 +48,161 @@
     }
   ],
   "canton_default": "GE",
+  "countries": [
+    {
+      "code": "CH",
+      "name": "Suisse / Schweiz / Svizzera",
+      "default_lang": "fr",
+      "langs": [
+        "fr",
+        "de",
+        "it",
+        "en"
+      ],
+      "permits": [
+        {
+          "code": "A",
+          "label": "Permis A — bateau à moteur"
+        },
+        {
+          "code": "D",
+          "label": "Permis D — voile"
+        }
+      ],
+      "regions": [
+        {
+          "code": "GE",
+          "name": "Genève",
+          "time_limit_min": 50,
+          "primary": true,
+          "note": "OCV — Office cantonal des véhicules; national VKS standard."
+        },
+        {
+          "code": "VD",
+          "name": "Vaud",
+          "time_limit_min": 50,
+          "primary": true,
+          "note": "National VKS standard."
+        },
+        {
+          "code": "BE",
+          "name": "Berne / Bern",
+          "time_limit_min": 45,
+          "primary": false,
+          "note": "Documented 45-minute variant of the VKS exam (not on the Léman)."
+        }
+      ]
+    },
+    {
+      "code": "DE",
+      "name": "Deutschland",
+      "default_lang": "de",
+      "langs": [
+        "de"
+      ],
+      "permits": [
+        {
+          "code": "SBF-Binnen-Motor",
+          "label": "Sportbootführerschein Binnen (Motor)"
+        },
+        {
+          "code": "SBF-Binnen-Motor-Segeln",
+          "label": "Sportbootführerschein Binnen (Motor und Segeln)"
+        },
+        {
+          "code": "SBF-Binnen-Segeln",
+          "label": "Sportbootführerschein Binnen (Segeln)"
+        },
+        {
+          "code": "SBF-See",
+          "label": "Sportbootführerschein See"
+        },
+        {
+          "code": "SKS",
+          "label": "Sportküstenschifferschein (SKS)"
+        },
+        {
+          "code": "SSS",
+          "label": "Sportseeschifferschein (SSS)"
+        },
+        {
+          "code": "SHS",
+          "label": "Sporthochseeschifferschein (SHS)"
+        },
+        {
+          "code": "Bodensee-A",
+          "label": "Bodensee-Schifferpatent Kategorie A (Motor)"
+        },
+        {
+          "code": "Bodensee-D",
+          "label": "Bodensee-Schifferpatent Kategorie D (Segel)"
+        }
+      ],
+      "regions": [
+        {
+          "code": "national",
+          "name": "Bundesweit (SBF See/Binnen)",
+          "time_limit_min": null,
+          "primary": true,
+          "note": "Föderal einheitlich nach SpFV; keine Länder-Varianz."
+        },
+        {
+          "code": "bodensee",
+          "name": "Bodensee (BSO, DE/AT/CH)",
+          "time_limit_min": null,
+          "primary": false,
+          "note": "Eigenes trinationales Patent-Regime; ersetzt am See den Bund-SBF (niedrigere Leistungsschwelle 4,4 kW)."
+        }
+      ]
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "default_lang": "fr",
+      "langs": [
+        "fr",
+        "en"
+      ],
+      "permits": [
+        {
+          "code": "cotiere",
+          "label": "Permis plaisance — option côtière"
+        },
+        {
+          "code": "eaux_interieures",
+          "label": "Permis plaisance — option eaux intérieures"
+        }
+      ],
+      "regions": [
+        {
+          "code": "national",
+          "name": "National (France)",
+          "time_limit_min": null,
+          "primary": true,
+          "note": "Examen national identique partout ; opérateurs agréés."
+        }
+      ]
+    }
+  ],
+  "country_default": "CH",
+  "cevni": {
+    "de": {
+      "path": "questions.cevni.de.json",
+      "count": 163
+    },
+    "en": {
+      "path": "questions.cevni.en.json",
+      "count": 184
+    },
+    "fr": {
+      "path": "questions.cevni.fr.json",
+      "count": 183
+    },
+    "it": {
+      "path": "questions.cevni.it.json",
+      "count": 178
+    }
+  },
   "anki": {
     "de": {
       "apkg": "anki/boat-permit.de.apkg",
