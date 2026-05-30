@@ -310,6 +310,221 @@
       ]
     },
     {
+      "id": "q-fr-ialaa-80-62d2b4ea",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "Dans nos eaux, en entrant dans un chenal depuis le large, quel feu et quel voyant éventuel caractérisent une marque latérale de tribord ?",
+      "choices": [
+        {
+          "text": "Feu vert, voyant cône vert pointe vers le haut",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Feu rouge, voyant cylindre rouge",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Feu vert, voyant cône vert pointe vers le bas",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-80",
+        "ref": "IALA R1001 §2.1.3 — marque latérale tribord (région A)",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "La marque latérale de tribord est verte, de forme conique ; son feu est vert et son voyant éventuel est un cône vert pointe vers le haut. On la laisse sur tribord (à droite) en entrant.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-81-af57b880",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "À l'endroit où un chenal se divise, vous voyez une marque rouge portant une large bande horizontale verte. Que vous indique-t-elle ?",
+      "choices": [
+        {
+          "text": "Le chenal préféré est à tribord",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le chenal préféré est à bâbord",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le chenal est obstrué, il faut faire demi-tour",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-81",
+        "ref": "IALA R1001 §2.1.5 — marques de chenal préféré (région A)",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Une marque rouge à large bande horizontale verte (voyant cylindre rouge) signale que le chenal préféré est à tribord. Ces marques de chenal préféré portent un feu à éclats groupés composés (2+1).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-82-6ac27b05",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "Quel voyant et quel rythme de feu caractérisent une marque cardinale Est, que l'on doit contourner par l'est ?",
+      "choices": [
+        {
+          "text": "Deux cônes noirs base à base ; feu blanc VQ(3) toutes les 5 s ou Q(3) toutes les 10 s",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Deux cônes noirs pointes opposées (pointe à pointe) ; feu blanc VQ(9) toutes les 10 s",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Deux cônes noirs base à base ; feu blanc à occultations groupées",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-82",
+        "ref": "IALA R1001 §2.2.4 — marque cardinale Est",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "La cardinale Est porte deux cônes noirs base à base, un corps noir à large bande horizontale jaune, et un feu blanc VQ(3) toutes les 5 s ou Q(3) toutes les 10 s. On passe à l'est de la marque.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-83-19ee5b04",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "Une marque montre deux cônes noirs disposés pointe à pointe, un corps jaune avec une large bande horizontale noire, et un feu blanc à scintillements groupés par neuf. De quel côté devez-vous passer ?",
+      "choices": [
+        {
+          "text": "À l'ouest de la marque",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "À l'est de la marque",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Au nord de la marque",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-83",
+        "ref": "IALA R1001 §2.2.4 — marque cardinale Ouest",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le voyant à deux cônes noirs pointe à pointe, le corps jaune à large bande horizontale noire et le feu blanc VQ(9) toutes les 10 s (ou Q(9) toutes les 15 s) sont ceux de la marque cardinale Ouest : on passe à l'ouest de la marque.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-84-fd2b4db8",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "Une marque porte deux cônes noirs pointes vers le bas, un corps jaune en haut et noir en bas, et montre un feu blanc à scintillements rapides Q(6) suivis d'un éclat long. De quelle marque s'agit-il ?",
+      "choices": [
+        {
+          "text": "Une marque cardinale Sud",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une marque cardinale Nord",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Une marque cardinale Ouest",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-84",
+        "ref": "IALA R1001 §2.2.4 — marque cardinale Sud",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le voyant à deux cônes pointes vers le bas, le corps jaune au-dessus et noir en dessous, et le feu blanc VQ(6)+un éclat long toutes les 10 s (ou Q(6)+un éclat long toutes les 15 s) caractérisent la marque cardinale Sud : on passe au sud de la marque.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-fr-ripam-10-5b110323",
       "theme": "feux_signaux",
       "kind": "rule_mc",

@@ -499,6 +499,92 @@
       ]
     },
     {
+      "id": "q-bso-de-bsoart4-bc1c359c-0d3e250b",
+      "theme": "lichter_signale",
+      "kind": "rule_mc",
+      "stem": "Welche Anforderung gilt nach der BSO für die Schallzeichen hinsichtlich der Tonhöhe?",
+      "choices": [
+        {
+          "text": "Sie müssen in Tönen von gleich bleibender Höhe gegeben werden",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sie müssen in Tönen von ansteigender Höhe gegeben werden",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sie müssen in Tönen von abwechselnd hoher und tiefer Lage gegeben werden",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_4-bc1c359c",
+        "ref": "BSO art. 4",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 4 müssen die vorgesehenen Schallzeichen in Tönen von gleich bleibender Höhe gegeben werden.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_signale",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart4-bc1c359c-9e43a5e5",
+      "theme": "lichter_signale",
+      "kind": "rule_mc",
+      "stem": "Wie lange dauert nach der BSO ein kurzer Ton?",
+      "choices": [
+        {
+          "text": "Etwa 1 Sekunde",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Etwa 4 Sekunden",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Etwa 10 Sekunden",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_4-bc1c359c",
+        "ref": "BSO art. 4",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 4 ist unter einem kurzen Ton ein Ton in der Dauer von etwa 1 Sekunde zu verstehen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_signale",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-elwis-binnen-2023-08-q007-415fdf24",
       "theme": "lichter_signale",
       "kind": "official_mc",
@@ -6691,6 +6777,350 @@
       ]
     },
     {
+      "id": "q-bso-de-bsoart0-2677540b-08cdc522",
+      "theme": "recht_dokumente",
+      "kind": "rule_mc",
+      "stem": "Ab welcher Brücke gilt die Verordnung für den Neuen Rhein bis zur Mündung in den Bodensee?",
+      "choices": [
+        {
+          "text": "Ab der Brücke Hard-Fussach.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ab der Brücke Rheineck-Gaissau.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ab der Strassenbrücke Schaffhausen-Feuerthalen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_0-2677540b",
+        "ref": "BSO art. 0",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Die Verordnung gilt für den Neuen Rhein von der Brücke Hard-Fussach bis zur Mündung in den Bodensee (BSO Art. 0).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_allgemeines",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart0-2677540b-effbded4",
+      "theme": "recht_dokumente",
+      "kind": "rule_mc",
+      "stem": "Für welches Gewässer gilt diese Verordnung?",
+      "choices": [
+        {
+          "text": "Den Bodensee einschliesslich Untersee.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Den Bodensee ausschliesslich des Untersees.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nur den Untersee ohne den übrigen Bodensee.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_0-2677540b",
+        "ref": "BSO art. 0",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Diese Verordnung gilt für den Bodensee einschliesslich Untersee (BSO Art. 0).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_allgemeines",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart10-f320d52b-3df68d0b",
+      "theme": "recht_dokumente",
+      "kind": "rule_mc",
+      "stem": "Bis zu welchem Punkt gilt der Abschnitt für die Strecke ab dem Frauenpfahl in der Konstanzer Bucht?",
+      "choices": [
+        {
+          "text": "Bis zur Landestelle Ermatingen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Bis zur Strassenbrücke Schaffhausen-Feuerthalen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bis zur obersten Steganlage Eschenz.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_10-f320d52b",
+        "ref": "BSO art. 10",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Der Abschnitt gilt für die Strecke vom Frauenpfahl in der Konstanzer Bucht bis zur Landestelle Ermatingen (BSO Art. 10).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_allgemeines",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart10-f320d52b-8bb7d277",
+      "theme": "recht_dokumente",
+      "kind": "rule_mc",
+      "stem": "Für welche Strecke gelten die Vorschriften dieses Abschnittes unter anderem?",
+      "choices": [
+        {
+          "text": "Den Alten Rhein von der Brücke Rheineck-Gaissau bis zur Mündung in den Bodensee (Ende Spundwand).",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Den Neuen Rhein von der Brücke Hard-Fussach bis zur Mündung in den Bodensee.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Den gesamten Bodensee einschliesslich Untersee.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_10-f320d52b",
+        "ref": "BSO art. 10",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Die Vorschriften dieses Abschnittes gelten unter anderem für den Alten Rhein von der Brücke Rheineck-Gaissau bis zur Mündung in den Bodensee (Ende Spundwand) (BSO Art. 10).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_allgemeines",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart14-fe8b1d2e-b235e77d",
+      "theme": "recht_dokumente",
+      "kind": "rule_mc",
+      "stem": "Welche Voraussetzung gilt für die Inbetriebnahme eines Fahrzeugs mit Maschinenantrieb?",
+      "choices": [
+        {
+          "text": "Es darf nur in Betrieb genommen werden, wenn es durch die zuständige Behörde zugelassen ist.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Es darf ohne behördliche Zulassung in Betrieb genommen werden, sofern der Eigentümer einwilligt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es darf in Betrieb genommen werden, sobald es mit einem Kennzeichen versehen ist.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_14-fe8b1d2e",
+        "ref": "BSO art. 14",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Fahrzeuge mit Maschinenantrieb dürfen nur in Betrieb genommen werden, wenn sie durch die zuständige Behörde zugelassen sind (BSO Art. 14).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_allgemeines",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart14-fe8b1d2e-b69daef0",
+      "theme": "recht_dokumente",
+      "kind": "rule_mc",
+      "stem": "Nach wie vielen Jahren erlischt die Zulassung von Vergnügungsfahrzeugen mit Maschinenantrieb?",
+      "choices": [
+        {
+          "text": "Die Zulassung erlischt nach drei Jahren.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Die Zulassung erlischt nach fünf Jahren.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Zulassung erlischt nach zehn Jahren.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_14-fe8b1d2e",
+        "ref": "BSO art. 14",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Die Zulassung von Vergnügungsfahrzeugen mit Maschinenantrieb erlischt nach drei Jahren (BSO Art. 14).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_allgemeines",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart2-3caa49e5-01a76db4",
+      "theme": "recht_dokumente",
+      "kind": "rule_mc",
+      "stem": "Welche Fahrzeuge sind von der Pflicht zur Anbringung eines Kennzeichens ausgenommen?",
+      "choices": [
+        {
+          "text": "Fahrzeuge, deren Länge über alles unter 2,50 m liegt und die nicht mit Maschinenantrieb ausgestattet sind.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Fahrzeuge, deren Länge über alles unter 5,00 m liegt, auch wenn sie einen Maschinenantrieb haben.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Alle Segelfahrzeuge unabhängig von ihrer Länge und Ausstattung.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_2-3caa49e5",
+        "ref": "BSO art. 2",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Ausgenommen sind Fahrzeuge, deren Länge über alles unter 2,50 m liegt und die nicht mit Maschinenantrieb ausgestattet sind (BSO Art. 2).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_allgemeines",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart2-3caa49e5-f24ff893",
+      "theme": "recht_dokumente",
+      "kind": "rule_mc",
+      "stem": "Wo muss das von der Behörde zugeteilte Kennzeichen am Fahrzeug angebracht werden?",
+      "choices": [
+        {
+          "text": "Auf beiden Seiten des Fahrzeuges an gut sichtbarer Stelle.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nur am Heck des Fahrzeuges an gut sichtbarer Stelle.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ausschliesslich auf der Steuerbordseite des Fahrzeuges.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_2-3caa49e5",
+        "ref": "BSO art. 2",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Das zugeteilte Kennzeichen ist auf beiden Seiten des Fahrzeuges an gut sichtbarer Stelle anzubringen (BSO Art. 2).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_allgemeines",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-elwis-binnen-2023-08-q059-203f6ae1",
       "theme": "recht_dokumente",
       "kind": "official_mc",
@@ -7406,6 +7836,92 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart5-af65ae5e-edf15089",
+      "theme": "schifffahrtszeichen",
+      "kind": "rule_mc",
+      "stem": "Welche Pflicht haben die Schiffsführer hinsichtlich der Schifffahrtszeichen nach BSO Art. 5?",
+      "choices": [
+        {
+          "text": "Sie haben die Anordnungen zu befolgen, die ihnen durch die Schifffahrtszeichen erteilt werden.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sie dürfen die Anordnungen der Schifffahrtszeichen nach eigenem Ermessen ignorieren.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sie müssen Schifffahrtszeichen nur bei Nacht und schlechter Sicht beachten.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_5-af65ae5e",
+        "ref": "BSO art. 5",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 5 Abs. 1 haben die Schiffsführer die Anordnungen zu befolgen, die ihnen durch die Schifffahrtszeichen nach Absatz 2 erteilt werden.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_zeichen",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart5-af65ae5e-f02a8cc0",
+      "theme": "schifffahrtszeichen",
+      "kind": "rule_mc",
+      "stem": "Wer regelt nach der BSO, wo und welche Schifffahrtszeichen anzubringen oder zu entfernen sind?",
+      "choices": [
+        {
+          "text": "Die zuständige Behörde bestimmt, wo und welche Schifffahrtszeichen anzubringen oder zu entfernen sind.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Jeder Schiffsführer entscheidet selbst, wo Schifffahrtszeichen anzubringen oder zu entfernen sind.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Eigentümer der angrenzenden Ufergrundstücke bestimmen, welche Schifffahrtszeichen anzubringen sind.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_5-af65ae5e",
+        "ref": "BSO art. 5",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 5 Abs. 3 bestimmt die zuständige Behörde, wo und welche Schifffahrtszeichen anzubringen oder zu entfernen sind.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_zeichen",
       "correct": [
         0
       ]
@@ -11251,6 +11767,92 @@
       ]
     },
     {
+      "id": "q-bso-de-bsoart6-74c6a2dd-77641c60",
+      "theme": "seemannschaft",
+      "kind": "rule_mc",
+      "stem": "Wie muss der Schiffsführer ein Manöver ausführen, das bei Anwendung der Fahrregeln erforderlich wird?",
+      "choices": [
+        {
+          "text": "Deutlich und rechtzeitig.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nur nach vorheriger Anzeige bei der zuständigen Behörde.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Möglichst langsam und erst nach Rücksprache mit der Besatzung.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_6-74c6a2dd",
+        "ref": "BSO art. 6",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 6 Abs. 1 hat der Schiffsführer jedes Manöver, das bei Anwendung der Fahrregeln erforderlich wird, deutlich und rechtzeitig auszuführen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_umwelt_seemannschaft",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart6-74c6a2dd-a2486469",
+      "theme": "seemannschaft",
+      "kind": "rule_mc",
+      "stem": "Ab welcher Blutalkoholkonzentration gilt das Fahrverbot bei Vergnügungsfahrzeugen (nicht Fahrgast- oder Güterschiffe) nach der BSO?",
+      "choices": [
+        {
+          "text": "Ab 0,8 oder mehr Promille.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ab 0,1 oder mehr Promille.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ab 1,2 oder mehr Promille.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_6-74c6a2dd",
+        "ref": "BSO art. 6",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 6 Abs. 3 gilt das Fahrverbot insbesondere bei einer Blutalkoholkonzentration von 0,8 oder mehr Promille (bzw. 0,40 mg/l in der Atemluft); der Wert von 0,1 Promille gilt nur für Fahrgast- oder Güterschiffe.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_umwelt_seemannschaft",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-elwis-binnen-2023-08-q003-1efea484",
       "theme": "seemannschaft",
       "kind": "official_mc",
@@ -14656,6 +15258,651 @@
       "block": "basis",
       "correct": [
         1
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart1-ef2ab81d-62d54143",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "Welche Aussage zur Verantwortung und Anwesenheit des Schiffsführers ist NICHT richtig?",
+      "choices": [
+        {
+          "text": "Der Schiffsführer darf das Fahrzeug während der Fahrt verlassen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Der Schiffsführer muss während der Fahrt an Bord sein.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Er ist für die Befolgung der Vorschriften dieser Verordnung auf seinem Fahrzeug verantwortlich.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_1-ef2ab81d",
+        "ref": "BSO art. 1",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 1 muss der Schiffsführer während der Fahrt an Bord sein und ist für die Befolgung der Vorschriften verantwortlich.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart1-ef2ab81d-648fee1b",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "Welche Aussage über den Schiffsführer eines Fahrzeuges mit Maschinenantrieb ist richtig?",
+      "choices": [
+        {
+          "text": "Er muss mindestens 14 Jahre alt sein.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Er muss mindestens 18 Jahre alt sein.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ein Mindestalter ist nicht vorgeschrieben.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_1-ef2ab81d",
+        "ref": "BSO art. 1",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 1 muss der Schiffsführer eines Fahrzeuges mit Maschinenantrieb mindestens 14 Jahre alt sein.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart11-93189f57-0b2c7d96",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "Wie müssen Fischnetze, Reusen und andere Fischereigeräte, die die Schifffahrt behindern können, gekennzeichnet sein?",
+      "choices": [
+        {
+          "text": "Durch weisse Bojen (Döpper) in genügender Anzahl.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Durch rote Bojen in genügender Anzahl.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Durch gelbe Flaggen am Ufer.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_11-93189f57",
+        "ref": "BSO art. 11",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 11 müssen Fischereigeräte, welche die Schifffahrt behindern können, durch weisse Bojen (Döpper) in genügender Anzahl bezeichnet sein.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart11-93189f57-b25ffe37",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "Welche Aussage zum Einbringen von Fischereigeräten auf den Kursen der Vorrangfahrzeuge und in den Fahrrinnen der Rheinstrecken ist richtig?",
+      "choices": [
+        {
+          "text": "Sie dürfen nur so eingebracht werden, dass die Schifffahrt nicht behindert werden kann.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sie dürfen dort uneingeschränkt eingebracht werden.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sie dürfen dort nur nachts eingebracht werden.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_11-93189f57",
+        "ref": "BSO art. 11",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 11 dürfen Fischereigeräte auf diesen Kursen und Fahrrinnen nur so eingebracht werden, dass die Schifffahrt nicht behindert werden kann.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart12-b8c3b1b9-79d256cb",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "Ab welcher Segelfläche ist zur Führung eines Segelfahrzeuges ein Schifferpatent erforderlich?",
+      "choices": [
+        {
+          "text": "Bei mehr als 12 m2 Segelfläche.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Bei mehr als 6 m2 Segelfläche.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bei jeder Segelfläche, unabhängig von der Grösse.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_12-b8c3b1b9",
+        "ref": "BSO art. 12",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 12 ist für ein Segelfahrzeug mit mehr als 12 m2 Segelfläche ein Schifferpatent erforderlich.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart12-b8c3b1b9-8898a258",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "Ab welcher Maschinenleistung ist zur Führung eines Fahrzeuges mit Maschinenantrieb ein Schifferpatent erforderlich?",
+      "choices": [
+        {
+          "text": "Wenn die Maschinenleistung 4,4 kW übersteigt.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Wenn die Maschinenleistung 2,2 kW übersteigt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenn die Maschinenleistung 10 kW übersteigt.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_12-b8c3b1b9",
+        "ref": "BSO art. 12",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 12 ist für ein Fahrzeug mit Maschinenantrieb, dessen Maschinenleistung 4,4 kW übersteigt, ein Schifferpatent erforderlich.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart13-0fc6cb11-6c893a2e",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "Was kann bei Zweifeln bezüglich Bau und Ausrüstung verlangt werden?",
+      "choices": [
+        {
+          "text": "Anlässlich von Untersuchungen können entsprechende Nachweise verlangt werden.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Das Fahrzeug wird ohne weitere Prüfung sofort stillgelegt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es darf keinerlei Nachweis verlangt werden.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_13-0fc6cb11",
+        "ref": "BSO art. 13",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 13 können bei Zweifeln über Bau und Ausrüstung anlässlich von Untersuchungen entsprechende Nachweise verlangt werden.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart13-0fc6cb11-e69006d2",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "Welche Grundregel gilt für Bau, Ausrüstung und Unterhalt von Fahrzeugen?",
+      "choices": [
+        {
+          "text": "Sie müssen so gebaut, ausgerüstet und unterhalten sein, dass die Verpflichtungen aus der Verordnung erfüllt werden können und die Sicherheit der Schifffahrt gewährleistet ist.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sie müssen lediglich ein gültiges Kennzeichen tragen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sie müssen nur so gebaut sein, dass sie schwimmfähig sind.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_13-0fc6cb11",
+        "ref": "BSO art. 13",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 13 müssen Fahrzeuge so gebaut, ausgerüstet und unterhalten sein, dass die Verpflichtungen aus der Verordnung erfüllt werden können und die Sicherheit der Schifffahrt gewährleistet ist.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart15-b19e7099-56e2e0b9",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "Welcher Massstab gilt für die Besatzung aller Fahrzeuge?",
+      "choices": [
+        {
+          "text": "Sie muss nach Zahl und Eignung ausreichen, um die Sicherheit der an Bord befindlichen Personen, der Schifffahrt und der sonstigen Gewässerbenutzer zu gewährleisten.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sie muss aus mindestens drei Personen bestehen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sie wird allein durch die Länge des Fahrzeuges bestimmt.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_15-b19e7099",
+        "ref": "BSO art. 15",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 15 muss die Besatzung nach Zahl und Eignung ausreichen, um die Sicherheit der Personen, der Schifffahrt und der sonstigen Gewässerbenutzer zu gewährleisten.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart16-06685588-aa30d99d",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "Welche Fahrzeuge geniessen nach den Sonderrechten eine Befreiung von bestimmten Vorschriften?",
+      "choices": [
+        {
+          "text": "Fahrzeuge für hoheitliche Aufgaben, im gewässerkundlichen Dienst sowie für Zwecke der Rettung und Hilfeleistung.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Alle Vergnügungsfahrzeuge mit Maschinenantrieb.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sämtliche Segelfahrzeuge mit mehr als 12 m2 Segelfläche.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_16-06685588",
+        "ref": "BSO art. 16",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 16 sind Fahrzeuge für hoheitliche Aufgaben, im gewässerkundlichen Dienst sowie für Rettung und Hilfeleistung von bestimmten Vorschriften befreit.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart16-06685588-d2a1afc2",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "In welchem Umfang sind die begünstigten Fahrzeuge von den genannten Abschnitten der Verordnung befreit?",
+      "choices": [
+        {
+          "text": "So weit, als es die Erfüllung ihrer Aufgaben unbedingt erfordert.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Vollständig und ohne jede Einschränkung.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nur nachts und bei schlechter Sicht.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_16-06685588",
+        "ref": "BSO art. 16",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 16 gilt die Befreiung nur so weit, als es die Erfüllung ihrer Aufgaben unbedingt erfordert.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart7-666f4ee5-d053ea2d",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "Wie lange dürfen Fahrzeuge ausserhalb der Häfen, Landestellen und anderer zugelassener Anlagen ohne behördliche Erlaubnis stilliegen?",
+      "choices": [
+        {
+          "text": "Nicht länger als 24 Stunden.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Nicht länger als 12 Stunden.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nicht länger als 48 Stunden.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_7-666f4ee5",
+        "ref": "BSO art. 7",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 7 dürfen Fahrzeuge ausserhalb zugelassener Anlagen nur mit behördlicher Erlaubnis länger als 24 Stunden stilliegen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart7-666f4ee5-d443fccf",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "Was müssen Fahrzeuge bei der Wahl ihres Liegeplatzes und beim Festmachen beachten?",
+      "choices": [
+        {
+          "text": "Sie dürfen die Schifffahrt, insbesondere die Vorrangfahrzeuge, nicht behindern und müssen den Wasserstandsschwankungen folgen können.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sie dürfen ihren Liegeplatz frei wählen, da Vorrangfahrzeuge keine Rolle spielen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sie müssen fest verankert sein, ohne den Wasserstandsschwankungen folgen zu können.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_7-666f4ee5",
+        "ref": "BSO art. 7",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 7 dürfen Fahrzeuge die Schifffahrt, insbesondere die Vorrangfahrzeuge, nicht behindern und müssen den Wasserstandsschwankungen folgen können.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart9-5f849215-32a6247d",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "Wo dürfen Fahrgastschiffe zum Zweck des Ein- und Aussteigens von Fahrgästen anlegen?",
+      "choices": [
+        {
+          "text": "Nur an Landestellen, die von der zuständigen Behörde hierfür zugelassen sind.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "An jeder beliebigen Uferstelle.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nur an Landestellen, die der Schiffsführer selbst bestimmt.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_9-5f849215",
+        "ref": "BSO art. 9",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 9 dürfen Fahrgastschiffe nur an Landestellen anlegen, die von der zuständigen Behörde hierfür zugelassen sind.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bso-de-bsoart9-5f849215-7be90be4",
+      "theme": "verkehrsregeln",
+      "kind": "rule_mc",
+      "stem": "Welche Aussage zum Schiffsverkehr an Landestellen ist richtig?",
+      "choices": [
+        {
+          "text": "Sind verantwortliche Personen mit der Regelung des Verkehrs betraut, haben die Schiffsführer deren Anweisungen zu befolgen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Anweisungen verantwortlicher Personen sind für Schiffsführer unverbindlich.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Beim Anlegen an Landestellen für den allgemeinen Verkehr haben Fahrgastschiffe keinen Vorrang.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "bso-de-bso_art_9-5f849215",
+        "ref": "BSO art. 9",
+        "source": "Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de",
+        "as_of": "2022-05-01",
+        "licence": "Public domain — Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1 (§5(1) UrhG / gemeinfrei). Trinational DE/AT/CH, konsolidiert über Fedlex."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Nach BSO Art. 9 haben die Schiffsführer die Anweisungen der mit der Verkehrsregelung betrauten verantwortlichen Personen zu befolgen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:de.de.v1",
+      "block": "bodensee_fahrregeln",
+      "correct": [
+        0
       ]
     },
     {

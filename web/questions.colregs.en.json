@@ -310,6 +310,221 @@
       ]
     },
     {
+      "id": "q-fr-ialaa-80-ca88f348",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "In our waters, when entering a channel from seaward, which light and optional topmark identify a starboard-hand mark?",
+      "choices": [
+        {
+          "text": "Green light, with a green cone topmark point up",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Red light, with a red cylinder (can) topmark",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Green light, with a green cone topmark point down",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-80",
+        "ref": "IALA R1001 §2.1.3 — marque latérale tribord (région A)",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The starboard-hand mark is green and cone-shaped; it shows a green light and its optional topmark is a single green cone point up. You leave it to starboard (on your right) when entering.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-81-7e567e51",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "Where a channel divides, you see a red mark with a single broad green horizontal band. What does it tell you?",
+      "choices": [
+        {
+          "text": "The preferred channel is to starboard",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The preferred channel is to port",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The channel is blocked and you must turn back",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-81",
+        "ref": "IALA R1001 §2.1.5 — marques de chenal préféré (région A)",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "A red mark with a broad green horizontal band (red can topmark) shows that the preferred channel is to starboard. Such preferred-channel marks display a composite group-flashing (2+1) light.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-82-e7003771",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "Which topmark and light rhythm identify an East cardinal mark, which must be passed on its east side?",
+      "choices": [
+        {
+          "text": "Two black cones base to base; white VQ(3) every 5 s or Q(3) every 10 s",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Two black cones point to point; white VQ(9) every 10 s",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Two black cones base to base; white group-occulting light",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-82",
+        "ref": "IALA R1001 §2.2.4 — marque cardinale Est",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The East cardinal has two black cones base to base, a black body with a broad yellow horizontal band, and a white VQ(3) every 5 s or Q(3) every 10 s light. You pass to the east of the mark.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-83-7fca7fc1",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "A mark shows two black cones arranged point to point, a yellow body with a single broad black horizontal band, and a white light flashing in groups of nine. On which side must you pass?",
+      "choices": [
+        {
+          "text": "To the west of the mark",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "To the east of the mark",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "To the north of the mark",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-83",
+        "ref": "IALA R1001 §2.2.4 — marque cardinale Ouest",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The two black cones point to point, the yellow body with a broad black horizontal band and the white VQ(9) every 10 s (or Q(9) every 15 s) light identify the West cardinal mark: you pass to the west of it.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-ialaa-84-6fbc29bb",
+      "theme": "balisage",
+      "kind": "rule_mc",
+      "stem": "A mark carries two black cones with points downward, a yellow body on top and black below, and shows a white light of quick flashes Q(6) followed by one long flash. Which mark is it?",
+      "choices": [
+        {
+          "text": "A South cardinal mark",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A North cardinal mark",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A West cardinal mark",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-iala_a-84",
+        "ref": "IALA R1001 §2.2.4 — marque cardinale Sud",
+        "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "url": "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        "as_of": "",
+        "licence": "IALA R1001 — standard international ; contenu factuel (couleurs, voyants, marques) librement citable."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The two cones pointing downward, the body yellow above and black below, and the white light VQ(6)+one long flash every 10 s (or Q(6)+one long flash every 15 s) identify the South cardinal mark: you pass to the south of it.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:ref.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-fr-ripam-10-101515fc",
       "theme": "feux_signaux",
       "kind": "rule_mc",

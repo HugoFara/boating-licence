@@ -1,0 +1,147 @@
+{
+  "default": "fr",
+  "supported": [
+    "de",
+    "en",
+    "fr",
+    "it"
+  ],
+  "available": {
+    "de": {
+      "count": 185,
+      "unofficial": false
+    },
+    "en": {
+      "count": 210,
+      "unofficial": true
+    },
+    "fr": {
+      "count": 203,
+      "unofficial": false
+    },
+    "it": {
+      "count": 189,
+      "unofficial": false
+    }
+  },
+  "cantons": [
+    {
+      "code": "GE",
+      "name": "Genève",
+      "time_limit_min": 50,
+      "leman": true,
+      "note": "OCV — Office cantonal des véhicules; national VKS standard."
+    },
+    {
+      "code": "VD",
+      "name": "Vaud",
+      "time_limit_min": 50,
+      "leman": true,
+      "note": "National VKS standard."
+    },
+    {
+      "code": "BE",
+      "name": "Berne / Bern",
+      "time_limit_min": 45,
+      "leman": false,
+      "note": "Documented 45-minute variant of the VKS exam (not on the Léman)."
+    }
+  ],
+  "canton_default": "GE",
+  "core": {
+    "universal": {
+      "de": {
+        "path": "../questions.universal.de.json",
+        "count": 117
+      },
+      "en": {
+        "path": "../questions.universal.en.json",
+        "count": 109
+      },
+      "fr": {
+        "path": "../questions.universal.fr.json",
+        "count": 48
+      },
+      "it": {
+        "path": "../questions.universal.it.json",
+        "count": 25
+      }
+    },
+    "cevni": {
+      "de": {
+        "path": "../questions.cevni.de.json",
+        "count": 367
+      },
+      "en": {
+        "path": "../questions.cevni.en.json",
+        "count": 230
+      },
+      "fr": {
+        "path": "../questions.cevni.fr.json",
+        "count": 229
+      },
+      "it": {
+        "path": "../questions.cevni.it.json",
+        "count": 153
+      }
+    },
+    "colregs": {
+      "de": {
+        "path": "../questions.colregs.de.json",
+        "count": 179
+      },
+      "en": {
+        "path": "../questions.colregs.en.json",
+        "count": 25
+      },
+      "fr": {
+        "path": "../questions.colregs.fr.json",
+        "count": 25
+      }
+    }
+  },
+  "anki": {
+    "de": {
+      "apkg": "anki/boat-permit.de.apkg",
+      "tsv": "anki/boat-permit.de.tsv",
+      "count": 185,
+      "images": 69
+    },
+    "en": {
+      "apkg": "anki/boat-permit.en.apkg",
+      "tsv": "anki/boat-permit.en.tsv",
+      "count": 210,
+      "images": 91
+    },
+    "fr": {
+      "apkg": "anki/boat-permit.fr.apkg",
+      "tsv": "anki/boat-permit.fr.tsv",
+      "count": 203,
+      "images": 91
+    },
+    "it": {
+      "apkg": "anki/boat-permit.it.apkg",
+      "tsv": "anki/boat-permit.it.tsv",
+      "count": 189,
+      "images": 71
+    }
+  },
+  "gift": {
+    "de": {
+      "gift": "gift/boat-permit.de.gift",
+      "count": 185
+    },
+    "en": {
+      "gift": "gift/boat-permit.en.gift",
+      "count": 210
+    },
+    "fr": {
+      "gift": "gift/boat-permit.fr.gift",
+      "count": 203
+    },
+    "it": {
+      "gift": "gift/boat-permit.it.gift",
+      "count": 189
+    }
+  }
+}

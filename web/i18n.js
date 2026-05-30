@@ -94,6 +94,13 @@ const THEME_LABELS = {
     voies_navigables: "Waterways and mooring",
     ecluses: "Locks, dams and structures",
     signalisation_fluviale: "Waterway and vessel signs",
+    // International / harmonised — COLREG 1972 (the INT player)
+    general: "General (application, definitions)",
+    steering_sailing: "Steering and sailing rules",
+    lights_shapes: "Lights and shapes",
+    sound_light_signals: "Sound and light signals",
+    exemptions: "Exemptions",
+    annexes: "Technical annexes",
   },
 };
 

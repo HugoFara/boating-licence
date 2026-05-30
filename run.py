@@ -418,16 +418,16 @@ def cmd_fr(args):
           f"http://localhost:8000/fr/")
 
 
-def _player_html_de(nav: str) -> str:
-    """A German player page reusing the shared engine (../app.js, ../i18n.js).
-    Mirrors web/index.html's DOM so the engine drives it unchanged; the German
-    chrome + theme labels come from the bank meta (ui_*) and i18n.js."""
+def _player_html(lang: str, nav: str, title: str) -> str:
+    """A player page reusing the shared engine (../app.js, ../i18n.js) from a
+    country sub-bundle (web/<code>/). Mirrors the player DOM so the engine drives
+    it unchanged; chrome + theme labels come from the bank meta (ui_*) and i18n.js."""
     return f"""<!DOCTYPE html>
-<html lang="de">
+<html lang="{lang}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sportbootführerschein — Theorie (Übung)</title>
+  <title>{title}</title>
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -489,6 +489,23 @@ def _player_html_de(nav: str) -> str:
 </body>
 </html>
 """
+
+
+# The cross-country nav shown at the top of every player. From a country
+# sub-bundle (web/<code>/) the landing is one level up (prefix "../"); the France
+# option players sit one level deeper, so they pass prefix "../../".
+_COUNTRY_NAV = [("", "🏠 Accueil"), ("int", "🌍 Code commun"), ("ch", "🇨🇭 Suisse"),
+                ("de", "🇩🇪 Deutschland"), ("fr", "🇫🇷 France")]
+
+
+def _countrybar(active: str, prefix: str = "../") -> str:
+    parts = []
+    for code, label in _COUNTRY_NAV:
+        if code == active:
+            parts.append(f'<span class="on">{label}</span>')
+        else:
+            parts.append(f'<a href="{prefix}{code + "/" if code else ""}">{label}</a>')
+    return " · ".join(parts)
 
 
 def _build_de_web(web: str, core_avail: dict | None = None) -> dict | None:
@@ -570,35 +587,218 @@ def _build_de_web(web: str, core_avail: dict | None = None) -> dict | None:
     with open(os.path.join(web_de, "languages.json"), "w", encoding="utf-8") as fh:
         json.dump(manifest, fh, ensure_ascii=False, indent=2)
 
-    nav = ('<a href="../">🇨🇭 Suisse</a> · <a href="../fr/">🇫🇷 France</a> · '
-           '<span class="on">🇩🇪 Deutschland</span>')
+    title = meta.get("ui_title") or "Sportbootführerschein — Theorie (Übung)"
     with open(os.path.join(web_de, "index.html"), "w", encoding="utf-8") as fh:
-        fh.write(_player_html_de(nav))
+        fh.write(_player_html("de", _countrybar("de"), title))
     return {"questions": n_de, "permits": len(permits), "copied": copied}
 
 
-def cmd_web(args):
-    """Package the exported bank into a self-contained static site under web/
-    (deployable to GitHub Pages): web/questions.json + web/assets/ with image
-    paths rewritten relative to the page. The HTML/CSS/JS are committed source."""
-    import json
+def _build_ch_web(web: str, core_avail: dict | None = None) -> dict | None:
+    """Bundle the Swiss bank into web/ch/ — multilingual (fr/de/it + unofficial en),
+    canton picker (no permits), Anki/GIFT downloads, and the shared common-core
+    toggle. Chrome comes from i18n.js STRINGS (no ui_* override). Returns stats or
+    None if the CH bank isn't built."""
     import shutil
     from src.questions import schema as qschema
-    # The web/ root is the Swiss player (deferred restructure — see plan); it is
-    # built from the CH bank. The harmonised core below still pools every bank.
-    ROOT_COUNTRY = "CH"
-    qdb_root, qjson_root = _qpaths(ROOT_COUNTRY)
-    if not os.path.exists(qdb_root):
-        sys.exit("no question bank — run `python run.py questions --country CH` first")
-    conn = qschema.connect(qdb_root)
+    from src import cantons
+    from tools import anki, gift
+    qdb, _ = _qpaths("CH")
+    if not os.path.exists(qdb):
+        return None
+    web_ch = os.path.join(web, "ch")
+    for sub in ("assets", "anki", "gift"):
+        d = os.path.join(web_ch, sub)
+        if os.path.exists(d):
+            shutil.rmtree(d)
+    os.makedirs(web_ch, exist_ok=True)
+    conn = qschema.connect(qdb)
+    copied = 0
+
+    def relocate(p):
+        nonlocal copied
+        if not p:
+            return p
+        rel = p[len("data/"):] if p.startswith("data/") else p
+        src = os.path.join(os.path.dirname(__file__), p)
+        dst = os.path.join(web_ch, rel)
+        if os.path.exists(src):
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            shutil.copy2(src, dst)
+            copied += 1
+        return rel
+
+    def bundle(out_name, lang):
+        tmp = os.path.join(web_ch, f"_{out_name}.tmp")
+        qschema.export_json(conn, tmp, exportable_only=True, lang=lang)
+        data = json.load(open(tmp, encoding="utf-8"))
+        os.remove(tmp)
+        for q in data["questions"]:
+            q["image"] = relocate(q.get("image"))
+            for c in q["choices"]:
+                c["image"] = relocate(c.get("image"))
+        with open(os.path.join(web_ch, out_name), "w", encoding="utf-8") as fh:
+            json.dump(data, fh, ensure_ascii=False, indent=2)
+        return len(data["questions"])
+
+    total = bundle("questions.json", None)
+    langs = qschema.languages_present(conn, exportable_only=True)
+    per_lang = {lg: bundle(f"questions.{lg}.json", lg) for lg in langs}
+
+    anki_dir, gift_dir = os.path.join(web_ch, "anki"), os.path.join(web_ch, "gift")
+    anki_avail, gift_avail = {}, {}
+    for lg in langs:
+        n, n_img = anki.export_to(conn, anki_dir, lg)
+        if n:
+            anki_avail[lg] = {"apkg": f"anki/boat-permit.{lg}.apkg",
+                              "tsv": f"anki/boat-permit.{lg}.tsv",
+                              "count": n, "images": n_img}
+        ng = gift.export_to(conn, gift_dir, lg)
+        if ng:
+            gift_avail[lg] = {"gift": f"gift/boat-permit.{lg}.gift", "count": ng}
+    conn.close()
+
+    manifest = {
+        "default": qschema.DEFAULT_LANG,
+        "supported": sorted(qschema.LANGS),
+        "available": {lg: {"count": per_lang[lg],
+                           "unofficial": lg not in qschema.GROUNDED_LANGS}
+                      for lg in langs},
+        "cantons": cantons.as_manifest(),
+        "canton_default": cantons.DEFAULT_CANTON,
+        "core": _core_refs(core_avail, sorted(qschema.LANGS)),
+        "anki": anki_avail, "gift": gift_avail,
+    }
+    with open(os.path.join(web_ch, "languages.json"), "w", encoding="utf-8") as fh:
+        json.dump(manifest, fh, ensure_ascii=False, indent=2)
+    title = "Permis bateau Léman — examen théorique (entraînement)"
+    with open(os.path.join(web_ch, "index.html"), "w", encoding="utf-8") as fh:
+        fh.write(_player_html("fr", _countrybar("ch"), title))
+    return {"questions": total, "langs": list(langs), "copied": copied,
+            "anki": list(anki_avail), "gift": list(gift_avail)}
+
+
+def _build_int_web(web: str, core_avail: dict | None = None) -> dict | None:
+    """Bundle the INT/COLREG bank into web/int/ — a small English player on the
+    harmonised maritime code (COLREG 1972, USCG public domain) plus the shared
+    common-core toggle (defaulting to the COLREGS core). No cantons, no permits.
+    The COLREG bank carries no exam meta, so a simple practice config is stamped in.
+    Returns stats or None if the INT bank isn't built."""
+    import shutil
+    from src.questions import schema as qschema
+    qdb, _ = _qpaths("INT")
+    if not os.path.exists(qdb):
+        return None
+    web_int = os.path.join(web, "int")
+    assets_out = os.path.join(web_int, "assets")
+    if os.path.exists(assets_out):
+        shutil.rmtree(assets_out)
+    os.makedirs(web_int, exist_ok=True)
+    conn = qschema.connect(qdb)
+    copied = 0
+
+    def relocate(p):
+        nonlocal copied
+        if not p:
+            return p
+        rel = p[len("data/"):] if p.startswith("data/") else p
+        src = os.path.join(os.path.dirname(__file__), p)
+        dst = os.path.join(web_int, rel)
+        if os.path.exists(src):
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            shutil.copy2(src, dst)
+            copied += 1
+        return rel
+
+    def bundle(out_name, lang):
+        tmp = os.path.join(web_int, f"_{out_name}.tmp")
+        n = qschema.export_json(conn, tmp, exportable_only=True, lang=lang)
+        data = json.load(open(tmp, encoding="utf-8"))
+        os.remove(tmp)
+        cap = min(30, n) or n
+        data["meta"].update({
+            "ui_title": "COLREG 1972 — collision regulations (practice)",
+            "ui_h1": "COLREG 1972 — international collision regulations",
+            "ui_subtitle": "International Regulations for Preventing Collisions at "
+                           "Sea, 1972 — practice (not an official exam).",
+            "ui_sourcenote": "Source: COLREG 1972 · USCG Navigation Rules "
+                             "(public domain, 17 U.S.C. §105).",
+            "exam_questions": cap, "total_points": cap, "points_per_question": 1,
+            "pass_points": int(cap * 0.8), "time_limit_min": 30,
+            "scoring": "all_or_nothing", "canton": "", "canton_code": "",
+        })
+        for q in data["questions"]:
+            q["image"] = relocate(q.get("image"))
+            for c in q["choices"]:
+                c["image"] = relocate(c.get("image"))
+        with open(os.path.join(web_int, out_name), "w", encoding="utf-8") as fh:
+            json.dump(data, fh, ensure_ascii=False, indent=2)
+        return len(data["questions"])
+
+    bundle("questions.json", None)
+    n_en = bundle("questions.en.json", "en")
+    conn.close()
+    manifest = {
+        "default": "en", "supported": ["en"],
+        "available": {"en": {"count": n_en, "unofficial": False}},
+        "core": _core_refs(core_avail, ["en"]),
+        "default_track": "maritime",
+    }
+    with open(os.path.join(web_int, "languages.json"), "w", encoding="utf-8") as fh:
+        json.dump(manifest, fh, ensure_ascii=False, indent=2)
+    with open(os.path.join(web_int, "index.html"), "w", encoding="utf-8") as fh:
+        fh.write(_player_html("en", _countrybar("int"),
+                              "COLREG 1972 — collision regulations (practice)"))
+    return {"questions": n_en, "copied": copied}
+
+
+def _core_refs(core_avail: dict | None, langs: list[str]) -> dict:
+    """Rewrite the shared harmonised-core manifest for a country sub-bundle: keep
+    the given languages, point each base bundle one level up (the core JSON lives
+    at the web/ root, shared by all players)."""
+    out: dict[str, dict] = {}
+    for base, per in (core_avail or {}).items():
+        entry = {lg: {"path": "../" + per[lg]["path"], "count": per[lg]["count"]}
+                 for lg in langs if lg in per}
+        if entry:
+            out[base] = entry
+    return out
+
+
+def cmd_web(args):
+    """Bundle the static site under web/. The root web/ is a country-picker landing
+    (committed source); each country is its own player sub-bundle (web/ch, web/de,
+    web/int; France via `run.py fr`) reusing the shared engine (web/app.js,
+    i18n.js, style.css). The GLOBAL harmonised core (questions.<base>.<lang>.json
+    + its images in web/assets/) lives at the root and is shared by every player,
+    referenced one level up as ../."""
+    import json
+    import shutil
+    import glob as _glob
+    from src.questions import schema as qschema
+    from src import scope, countries, jurisdictions
     web = os.path.join(os.path.dirname(__file__), "web")
     assets_out = os.path.join(web, "assets")
     if os.path.exists(assets_out):
         shutil.rmtree(assets_out)
+    # Remove stale root artifacts from the pre-restructure CH-at-root layout: the
+    # national bundles + manifest + Anki/GIFT now live under web/ch/, and web/
+    # index.html is the committed landing. (The shared core questions.<base>.<lang>
+    # .json and web/assets/ are rebuilt below.)
+    for stale in (["questions.json", "languages.json"]
+                  + [f"questions.{lg}.json" for lg in qschema.LANGS]):
+        sp = os.path.join(web, stale)
+        if os.path.exists(sp):
+            os.remove(sp)
+    for d in ("anki", "gift"):
+        dp = os.path.join(web, d)
+        if os.path.exists(dp):
+            shutil.rmtree(dp)
     copied = 0
 
-    def relocate(p: str | None) -> str | None:
-        """Copy a data/-relative asset into web/ and return its page-relative path."""
+    def relocate_core(p):
+        """Copy a core-question image into the SHARED web/assets/ (root) and return
+        a ../-relative path, so every country sub-bundle (web/<code>/) resolves it
+        to the one shared copy."""
         nonlocal copied
         if not p:
             return p
@@ -609,57 +809,14 @@ def cmd_web(args):
             os.makedirs(os.path.dirname(dst), exist_ok=True)
             shutil.copy2(src, dst)
             copied += 1
-        return rel
+        return "../" + rel
 
-    def bundle(out_name: str, lang: str | None, keep_ids: set | None = None,
-               pool: str | None = None) -> int:
-        """Export one bank file (optionally language-filtered), rewrite its image
-        paths into web/, and write it under web/<out_name>.
-
-        `keep_ids`, when given, restricts the bundle to those question ids and
-        stamps `meta.pool = pool` — used for the harmonised-core base sub-bundles
-        (universal/cevni/colregs). National bundles pass `keep_ids=None` and are
-        therefore written exactly as before."""
-        # lang=None exports the canonical data/questions.json (kept); per-language
-        # exports go to a throwaway temp that's removed once bundled.
-        tmp = qjson_root if lang is None else f"{qjson_root}.{lang}.tmp"
-        n = qschema.export_json(conn, tmp, exportable_only=True, lang=lang)
-        data = json.load(open(tmp, encoding="utf-8"))
-        if lang is not None:
-            os.remove(tmp)
-        if keep_ids is not None:
-            data["questions"] = [q for q in data["questions"] if q["id"] in keep_ids]
-            data["meta"]["pool"] = pool
-        for q in data["questions"]:
-            q["image"] = relocate(q.get("image"))
-            for c in q["choices"]:
-                c["image"] = relocate(c.get("image"))
-        with open(os.path.join(web, out_name), "w", encoding="utf-8") as fh:
-            json.dump(data, fh, ensure_ascii=False, indent=2)
-        return len(data["questions"])
-
-    # Canonical/back-compat bundle (all exportable questions, every language) +
-    # one per-language bundle the player prefers, with a manifest for the switcher.
-    total = bundle("questions.json", None)
-    langs = qschema.languages_present(conn, exportable_only=True)
-    per_lang = {}
-    for lg in langs:
-        per_lang[lg] = bundle(f"questions.{lg}.json", lg)
-    # Harmonised core — the GLOBAL, cross-country portable subset. We pool the
-    # base-scoped questions (universal / cevni / colregs) from EVERY question bank
-    # (CH here + DE + the per-option FR banks), so a learner studies the merged
-    # harmonised material — the German SBF-See and the French côtière COLREGS
-    # questions together — not just one country's. Pooled per (base, language) and
-    # deduped by id; the four national questions.<lang>.json above stay
-    # byte-identical (this only adds questions.<base>.<lang>.json). Scope is derived
-    # by src/scope.py, never stored. COLREGS is grounded in the canonical 1972 text
-    # (the INT layer — public-domain USCG reproduction); CEVNI via national inland
-    # enactments (its UNECE text is not redistributable).
-    #   NOTE: the pool is language-bounded — a German See question enters a French
-    #   learner's core only once translated; until then each language's core is the
-    #   union of that language's banks.
-    import glob as _glob
-    from src import scope
+    # Harmonised core — the GLOBAL, cross-country portable subset, pooled from EVERY
+    # bank (CH + DE + INT + the per-option FR banks) per (base, language) and deduped
+    # by id. Scope is derived by src/scope.py, never stored. Lives at the web/ root
+    # (questions.<base>.<lang>.json + shared images in web/assets/); each player
+    # references it via ../. COLREGS is grounded in the canonical 1972 text (the INT
+    # layer — public-domain USCG reproduction); CEVNI via national inland enactments.
     data_dir = os.path.join(os.path.dirname(__file__), "data")
     bank_paths = sorted(_glob.glob(os.path.join(data_dir, "questions*.sqlite")))
     _GROUNDING = {
@@ -673,6 +830,7 @@ def cmd_web(args):
     seen: dict[str, set] = {b: set() for b in scope.BASES}
     pooled_counts = {b: 0 for b in scope.BASES}
     overlay_counts = {"national": 0, "local": 0}
+    pool_tmp = os.path.join(data_dir, "_pool.tmp")
     for bp in bank_paths:
         bconn = qschema.connect(bp)
         bq = [q for q in qschema.load_questions(bconn)
@@ -682,23 +840,21 @@ def cmd_web(args):
             if s in overlay_counts:
                 overlay_counts[s] += 1
         for lg in qschema.languages_present(bconn, exportable_only=True):
-            tmp = f"{qjson_root}.pool.{lg}.tmp"
-            qschema.export_json(bconn, tmp, exportable_only=True, lang=lg)
-            data = json.load(open(tmp, encoding="utf-8"))
-            os.remove(tmp)
+            qschema.export_json(bconn, pool_tmp, exportable_only=True, lang=lg)
+            data = json.load(open(pool_tmp, encoding="utf-8"))
+            os.remove(pool_tmp)
             for qd in data["questions"]:
                 base = id_scope.get(qd["id"])
                 if base not in scope.BASES or qd["id"] in seen[base]:
                     continue
                 seen[base].add(qd["id"])
-                qd["image"] = relocate(qd.get("image"))
+                qd["image"] = relocate_core(qd.get("image"))
                 for c in qd["choices"]:
-                    c["image"] = relocate(c.get("image"))
+                    c["image"] = relocate_core(c.get("image"))
                 pooled[base].setdefault(lg, []).append(qd)
                 pooled_counts[base] += 1
         bconn.close()
     core_avail: dict[str, dict] = {}                  # {base: {lang: {path, count}}}
-    core_langs: set = set()
     for base in scope.BASES:
         per: dict[str, dict] = {}
         for lg, qs in sorted(pooled[base].items()):
@@ -711,95 +867,39 @@ def cmd_web(args):
             with open(os.path.join(web, path), "w", encoding="utf-8") as fh:
                 json.dump(payload, fh, ensure_ascii=False, indent=2)
             per[lg] = {"path": path, "count": len(qs)}
-            core_langs.add(lg)
         if per:
             core_avail[base] = per
 
-    from src import cantons, countries, jurisdictions
-    # The country dimension (above canton) is owned by the src/countries registry
-    # (CH built natively, DE by the German agent). Read it here for display only —
-    # code/name/langs/permits/regions — so the player's picker stays populated from
-    # the live registry rather than a copy.
-    # Only playable (permit-bearing) countries belong in the player's picker; the
-    # supra-national INT layer is sourcing-only (no permits, no bank) so it is
-    # excluded here even though it is a full registry member.
-    country_manifest = [{
-        "code": c.code, "name": c.name, "default_lang": c.default_lang,
-        "langs": list(c.langs),
-        "permits": [{"code": p.code, "label": p.label,
-                     "track": jurisdictions.permit_track(p)}
-                    for p in c.permits.values()],
-        "regions": c.region_manifest(),
-    } for c in (countries.get(code) for code in countries.codes()) if c.permits]
-    manifest = {
-        "default": qschema.DEFAULT_LANG,
-        "supported": sorted(qschema.LANGS),
-        "available": {lg: {"count": per_lang[lg],
-                           "unofficial": lg not in qschema.GROUNDED_LANGS}
-                      for lg in langs},
-        # Per-canton variance for the player's canton picker (single source of
-        # truth: src/cantons.py). Content/pass mark are national; the timer varies.
-        "cantons": cantons.as_manifest(),
-        "canton_default": cantons.DEFAULT_CANTON,
-        # Country registry (the dimension above canton) + the harmonised-core pool,
-        # split by base (universal/cevni/colregs) per language. The player composes
-        # the available bases into one "common core" pool (src/scope.py).
-        "countries": country_manifest,
-        # The web/ root currently bundles CH (deferred restructure); the manifest's
-        # default reflects the bundled country, not the registry default (INT).
-        "country_default": ROOT_COUNTRY,
-        "core": core_avail,
-    }
-    # Offline-study downloads: Anki decks (.apkg + editable .tsv) and a Moodle
-    # GIFT file, one set per language, for the in-page download links.
-    from tools import anki, gift
-    anki_dir = os.path.join(web, "anki")
-    gift_dir = os.path.join(web, "gift")
-    for d in (anki_dir, gift_dir):
-        if os.path.exists(d):
-            shutil.rmtree(d)
-    anki_avail, gift_avail = {}, {}
-    for lg in langs:
-        n, n_img = anki.export_to(conn, anki_dir, lg)
-        if n:
-            anki_avail[lg] = {"apkg": f"anki/boat-permit.{lg}.apkg",
-                              "tsv": f"anki/boat-permit.{lg}.tsv",
-                              "count": n, "images": n_img}
-        ng = gift.export_to(conn, gift_dir, lg)
-        if ng:
-            gift_avail[lg] = {"gift": f"gift/boat-permit.{lg}.gift", "count": ng}
-    manifest["anki"] = anki_avail
-    manifest["gift"] = gift_avail
-
-    with open(os.path.join(web, "languages.json"), "w", encoding="utf-8") as fh:
-        json.dump(manifest, fh, ensure_ascii=False, indent=2)
-    conn.close()
-
-    print(f"✓ static site bundled: {web}/")
-    print(f"  {total} questions · {copied} images copied")
-    anki_summary = ", ".join(f"{lg}({anki_avail[lg]['count']})" for lg in anki_avail)
-    print(f"  Anki decks: {anki_summary or 'none'} · GIFT: {', '.join(gift_avail) or 'none'}")
-    print(f"  languages with content: {', '.join(f'{lg}({per_lang[lg]})' for lg in langs) or 'none'}")
+    print(f"✓ static site bundled: {web}/  (landing = web/index.html, committed)")
     core_summary = ", ".join(f"{b}({pooled_counts[b]})" for b in scope.BASES
                              if pooled_counts[b])
-    colregs_lang = ", ".join(f"{lg}:{e['count']}"
-                             for lg, e in sorted(core_avail.get("colregs", {}).items()))
     print(f"  global harmonised core (pooled over {len(bank_paths)} banks): "
-          f"{core_summary or 'none'}  ·  overlays: national({overlay_counts['national']}) "
-          f"local({overlay_counts['local']})")
-    print(f"  colregs core per language: {colregs_lang or 'none'}")
-    print(f"  countries: {', '.join(countries.codes())}  ·  "
-          f"jurisdictions: {len(jurisdictions.codes())} regimes")
+          f"{core_summary or 'none'} · {copied} core images → web/assets/ · "
+          f"overlays national({overlay_counts['national']}) local({overlay_counts['local']})")
 
-    # Germany: its own bundle under web/de/ (reuses ../app.js + ../i18n.js), with
-    # the permit picker + block-based exam. Emitted only once the DE bank is built.
+    # Per-country player sub-bundles (each reuses ../app.js + ../i18n.js).
+    ch = _build_ch_web(web, core_avail)
+    if ch:
+        print(f"  🇨🇭 web/ch/: {ch['questions']} questions · "
+              f"langs {','.join(ch['langs'])} · {ch['copied']} images · "
+              f"anki {','.join(ch['anki']) or '—'} gift {','.join(ch['gift']) or '—'}")
+    else:
+        print("  🇨🇭 web/ch/: skipped (run `python run.py questions --country CH`)")
+    intl = _build_int_web(web, core_avail)
+    if intl:
+        print(f"  🌍 web/int/: {intl['questions']} COLREG questions (en) + common core")
+    else:
+        print("  🌍 web/int/: skipped (build the INT/COLREG bank first)")
     de = _build_de_web(web, core_avail)
     if de:
         print(f"  🇩🇪 web/de/: {de['questions']} questions · "
               f"{de['permits']} permits · {de['copied']} images")
     else:
         print("  🇩🇪 web/de/: skipped (run `python run.py questions --country DE`)")
-    print(f"  preview: python -m http.server -d web 8000  →  http://localhost:8000")
+    print(f"  countries: {', '.join(countries.codes())} · "
+          f"jurisdictions: {len(jurisdictions.codes())} regimes")
+    print(f"  France: run `python run.py fr` (web/fr/). "
+          f"Preview: python -m http.server -d web 8000  →  http://localhost:8000")
 
 
 def main():

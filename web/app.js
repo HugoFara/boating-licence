@@ -356,11 +356,13 @@ function currentPermit() {
 }
 
 /* The navigation track of the active permit: "maritime" (sea → COLREGS core) or
- * "inland" (→ CEVNI core). Defaults to inland when no permit table is present
- * (e.g. the Swiss player), so the common-core pool stays inland there. */
+ * "inland" (→ CEVNI core). With no permit table the bundle may pin a
+ * `default_track` in its manifest (the INT/COLREG player sets "maritime"); absent
+ * that it falls back to inland (e.g. the Swiss player), keeping the core inland. */
 function activeTrack() {
   const p = currentPermit();
-  return p && p.track === "maritime" ? "maritime" : "inland";
+  if (p) return p.track === "maritime" ? "maritime" : "inland";
+  return MANIFEST.default_track === "maritime" ? "maritime" : "inland";
 }
 
 function restorePermit() {

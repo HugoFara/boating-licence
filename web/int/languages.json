@@ -1,0 +1,33 @@
+{
+  "default": "en",
+  "supported": [
+    "en"
+  ],
+  "available": {
+    "en": {
+      "count": 56,
+      "unofficial": false
+    }
+  },
+  "core": {
+    "universal": {
+      "en": {
+        "path": "../questions.universal.en.json",
+        "count": 109
+      }
+    },
+    "cevni": {
+      "en": {
+        "path": "../questions.cevni.en.json",
+        "count": 230
+      }
+    },
+    "colregs": {
+      "en": {
+        "path": "../questions.colregs.en.json",
+        "count": 25
+      }
+    }
+  },
+  "default_track": "maritime"
+}
