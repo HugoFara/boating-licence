@@ -72,10 +72,15 @@ SOURCES: list[Source] = [
 ]
 
 
-# --- documented but not (yet) ingested ----------------------------------------
-_CATALOG_NOTE = ("Amtliches Werk (§5(2) UrhG) — Wiederverwendung wörtlich, mit "
-                 "Quellenangabe (WSV/ELWIS, Stand) und ohne Änderung. Ingestion "
-                 "in einer eigenen Folgeaufgabe.")
+# --- the official question catalogues (INGESTED — see src/questions/elwis.py) --
+# The ELWIS Nutzungsbedingungen grant reuse explicitly: content may be reused,
+# even commercially, "solange der Inhalt unverändert bleibt und als Quelle
+# www.elwis.de angegeben wird" (≈ §5(2) UrhG amtliches Werk). So these are
+# ingested verbatim with attribution by `run.py questions --country DE`; the URLs
+# here are the canonical landing pages (the ingester discovers the section pages).
+_CATALOG_NOTE = ("Amtliches Werk (§5(2) UrhG) — wörtlich + mit Quellenangabe "
+                 "(www.elwis.de) + ohne Änderung wiederverwendbar. Ingestiert "
+                 "durch run.py questions --country DE (src/questions/elwis.py).")
 
 REFERENCES: tuple[Reference, ...] = (
     Reference(

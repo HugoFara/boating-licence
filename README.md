@@ -209,12 +209,19 @@ established:
   buoyage/light/sign diagrams), tagged to a German taxonomy (`countries/de_themes.py`:
   Verkehrsregeln, Schifffahrtszeichen, Lichter/Signale, Wetterkunde, …). German
   federal law is free of copyright under **§5(1) UrhG**.
-- **The official question catalogues are very likely free to reuse.** Unlike the
-  off-limits Swiss asa bank, the ELWIS *amtliche Fragenkataloge* for SBF See/Binnen
-  (≈300 questions each) are most likely **amtliche Werke under §5(2) UrhG** —
-  reusable verbatim, with source attribution and no modification. They are recorded
-  as `references` in `countries/de.py` (the legal finding lives in code) but are
-  **not ingested yet** — that is a dedicated follow-up.
+- **The official question catalogues are free to reuse — and ingested.** Unlike
+  the off-limits Swiss asa bank, the ELWIS *amtliche Fragenkataloge* for SBF
+  See/Binnen are reusable: ELWIS's Nutzungsbedingungen grant reuse (even
+  commercial) *"solange der Inhalt unverändert bleibt und als Quelle www.elwis.de
+  angegeben wird"* (an amtliches Werk under **§5(2) UrhG**). `run.py questions
+  --country DE` ingests both catalogues **verbatim** (≈515 questions after deduping
+  the shared Basisfragen 1–72), each tagged to a German theme + exam block, the
+  sign/light figures pulled as assets, and every question carrying the §5
+  attribution on its provenance. Because reuse is conditional on *no modification*,
+  the German bank is German-only (no translation) and the answer options are only
+  ever **re-ordered for display** (deterministically), never reworded. Block-based
+  grading (≥5/7 Basis **and** ≥18/23 spezifisch, vs the Swiss point total) is in
+  `questions/schema.py:grade_exam_blocks`.
 
 Permit types modelled (data + block-based exam rules): the federal **SBF See** and
 **SBF Binnen** (motor / sail / both), the voluntary **SKS / SSS / SHS**, and the
@@ -224,9 +231,10 @@ A** (red to port when entering). A 2025–26 reform is in flux (licence threshol
 11.03 kW; a possible move to association certificates ~2028) and is flagged as
 *pending*, not settled law (`countries/de.py:REFORM_NOTE`).
 
-> Scope note: this is the country scaffold + **law** ingestion. German *question*
-> generation, catalogue ingestion, block-based grading in the player and a player
-> country-switcher UI are follow-ups.
+> Scope note: the country scaffold, **law** ingestion and the official **question
+> catalogue** ingestion (+ a Python block grader) are done. Wiring the German bank
+> into the web player — a country switcher serving `questions.de.json` with
+> block-based scoring — is the remaining follow-up.
 
 ## Layout
 
@@ -246,8 +254,9 @@ src/
                          themes, permits, regions) consumed by the pipeline
   cevni.py             CEVNI-core classification (which questions are portable)
   questions/
-    schema.py          canonical question schema, scoring, review gate, JSON export
-    figures.py         templated figure-recognition generator
+    schema.py          canonical question schema, scoring (incl. block grading), JSON export
+    figures.py         templated figure-recognition generator (CH)
+    elwis.py           ingest the official German SBF catalogues verbatim (§5(2))
     prose.py           LLM-draft pipeline + grounding guard
     seed_prose.py      hand-authored seed questions
 tools/

@@ -16,6 +16,10 @@ data/questions.json.*
 # France per-option banks (rebuild with `python run.py fr`); the durable source is
 # src/fr/seed_fr.py and the deployable bundle is committed under web/fr/.
 data/questions.fr_*.sqlite
+# Germany bank (rebuild with `python run.py questions --country DE`); the durable
+# source is the official ELWIS catalogue, ingested verbatim by src/questions/elwis.py.
+data/questions.de.sqlite
+data/questions.de.json
 
 # Subagent-drafting intermediates (regenerable: emit / verify-emit / merge),
 # all languages. The durable inputs — data/draft_answers/ and data/verdicts/ —

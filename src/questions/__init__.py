@@ -10,7 +10,7 @@ from .schema import (  # noqa: F401
     Choice, Provenance, Question, ExamConfig, PROFILES, profile, cantons,
     KINDS, POLARITIES, REVIEW_STATUSES, DISTRACTOR_STRATEGIES, EXPORTABLE_STATUSES,
     LANGS, DEFAULT_LANG, GROUNDED_LANGS,
-    make_question_id, validate, score, grade_exam,
+    make_question_id, validate, score, grade_exam, grade_exam_blocks,
     connect, write_questions, set_meta, set_review_status, counts_by_status,
     export_json, load_questions, languages_present,
 )

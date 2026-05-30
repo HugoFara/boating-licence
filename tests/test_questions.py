@@ -13,7 +13,7 @@ import json
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.questions import (Question, Choice, Provenance, ExamConfig,  # noqa: E402
-    make_question_id, validate, score, grade_exam,
+    make_question_id, validate, score, grade_exam, grade_exam_blocks,
     connect, write_questions, set_meta, export_json, load_questions)
 
 
@@ -73,6 +73,55 @@ def test_pass_boundary():
     assert r5 == {"earned": 165.0, "total": 180, "pass_points": 165,
                   "fault_points": 15.0, "passed": True}, r5
     assert r6["passed"] is False and r6["earned"] == 162.0, r6
+
+
+def _blk_q(qid, block, correct_first=True):
+    """A 2-option block-tagged question; first option correct unless told otherwise."""
+    return Question(id=qid, theme="lois", kind="official_mc", stem="s", block=block,
+                    choices=[Choice("a", is_correct=correct_first),
+                             Choice("b", is_correct=not correct_first)],
+                    provenance=_prov())
+
+
+def test_block_grading_passes_when_every_block_meets_minimum():
+    # SBF-See shape: 7 Basis (need ≥5) + 23 spezifisch (need ≥18).
+    qs = ([_blk_q(f"b{i}", "basis") for i in range(7)]
+          + [_blk_q(f"s{i}", "spezifisch_see") for i in range(23)])
+    answers = {q.id: [0] for q in qs}                 # all correct (option a)
+    res = grade_exam_blocks(qs, answers,
+                            [("basis", 5), ("spezifisch_see", 18)])
+    assert res["passed"] is True
+    assert {b["block"]: b["correct"] for b in res["blocks"]} == \
+        {"basis": 7, "spezifisch_see": 23}
+
+
+def test_block_grading_fails_when_one_block_short_despite_high_total():
+    # Ace every spezifisch question but flunk Basis (only 3/7 right < 5) — the
+    # grand total is high, yet a short block must still fail the sitting.
+    qs = ([_blk_q(f"b{i}", "basis") for i in range(7)]
+          + [_blk_q(f"s{i}", "spezifisch_see") for i in range(23)])
+    answers = {q.id: [0] for q in qs}
+    for i in range(4):                                # 4 Basis answered wrong
+        answers[f"b{i}"] = [1]
+    res = grade_exam_blocks(qs, answers,
+                            [("basis", 5), ("spezifisch_see", 18)])
+    assert res["total_correct"] == 26 and res["total_questions"] == 30
+    assert res["passed"] is False
+    basis = [b for b in res["blocks"] if b["block"] == "basis"][0]
+    assert basis["correct"] == 3 and basis["passed"] is False
+
+
+def test_block_grading_pass_total_for_no_minimum_permits():
+    # SBF-Binnen-Segeln: blocks have no standalone minimum (min_correct 0) but the
+    # sitting needs ≥20/25 overall — `pass_total` enforces that.
+    qs = [_blk_q(f"q{i}", "basis") for i in range(25)]
+    answers = {q.id: [0] for q in qs}
+    for i in range(6):                                # 19/25 correct → below 20
+        answers[f"q{i}"] = [1]
+    blocks = [("basis", 0)]
+    assert grade_exam_blocks(qs, answers, blocks, pass_total=20)["passed"] is False
+    answers["q0"] = [0]                               # back to 20/25 → passes
+    assert grade_exam_blocks(qs, answers, blocks, pass_total=20)["passed"] is True
 
 
 def test_persistence_and_export_gate():

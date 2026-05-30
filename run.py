@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import argparse
 import datetime as _dt
+import json
 import os
 import sqlite3
 import sys
@@ -27,6 +28,18 @@ DB_PATH = os.path.join(os.path.dirname(__file__), "data", "kb.sqlite")
 JSON_PATH = os.path.join(os.path.dirname(__file__), "data", "kb.json")
 QDB_PATH = os.path.join(os.path.dirname(__file__), "data", "questions.sqlite")
 QJSON_PATH = os.path.join(os.path.dirname(__file__), "data", "questions.json")
+
+
+def _qpaths(code: str) -> tuple[str, str]:
+    """Question-bank output paths for a country. CH keeps the original
+    (back-compat) filenames; other countries are namespaced (questions.de.sqlite)
+    so building one country never clobbers another's bank."""
+    data = os.path.join(os.path.dirname(__file__), "data")
+    if code == countries.DEFAULT:
+        return QDB_PATH, QJSON_PATH
+    s = code.lower()
+    return (os.path.join(data, f"questions.{s}.sqlite"),
+            os.path.join(data, f"questions.{s}.json"))
 
 
 def _country(args):
@@ -112,7 +125,13 @@ def cmd_build(args):
 
 
 def cmd_questions(args):
-    """Phase 2: generate the question bank from the KB (templated figures for now)."""
+    """Phase 2: build the question bank. Switzerland generates templated figure
+    questions from its KB; Germany ingests the official ELWIS catalogues verbatim
+    (see _questions_de). Default (no --country) is the unchanged Swiss path."""
+    country = _country(args)
+    if country.code == "DE":
+        return _questions_de(args, country)
+
     from src.questions import figures, schema as qschema
     if not os.path.exists(DB_PATH):
         sys.exit("no knowledge base — run `python run.py build` first")
@@ -155,6 +174,61 @@ def cmd_questions(args):
           f"{stats['no_distractors']} lacking distractors, "
           f"{stats['non_public']} non-public-domain "
           f"(of {stats['figures']} figures)")
+
+
+def _de_block_rules(country) -> dict:
+    """Per-permit block pass-minima, keyed by the ingested questions' block ids, so
+    the (deferred) block-aware player and schema.grade_exam_blocks can grade a
+    German sitting. Only the federal SBF permits that draw on the ELWIS catalogue
+    are included (the voluntary/Bodensee permits have no public MC catalogue)."""
+    from src.questions import elwis
+    rules = {}
+    for code, p in country.permits.items():
+        e = p.exam
+        if not (e.questions and e.blocks):
+            continue
+        mapped = [{"block": elwis.BLOCK_NAME_TO_ID.get(b.name, b.name),
+                   "count": b.count, "min_correct": b.min_correct} for b in e.blocks]
+        if all(b["block"] in elwis.BLOCK_NAME_TO_ID.values() for b in mapped):
+            rules[code] = {"questions": e.questions, "blocks": mapped}
+    return rules
+
+
+def _questions_de(args, country):
+    """Build the German bank from the official ELWIS Fragenkataloge (SBF Binnen +
+    See), verbatim and §5-attributed, with German themes + exam blocks. Needs no
+    KB — the catalogue is the source — and writes a country-namespaced bank."""
+    from src.questions import elwis, schema as qschema
+    from src.countries import de_themes
+
+    print("→ ingest official ELWIS catalogues (Binnen + See) — verbatim, §5(2)")
+    qs, stats = elwis.ingest(force=getattr(args, "force", False))
+
+    qdb, qjson = _qpaths(country.code)
+    conn = qschema.connect(qdb)
+    # Re-ingest only the ELWIS questions; leave any other drafts in place.
+    conn.execute("DELETE FROM questions WHERE generator LIKE 'elwis:%'")
+    conn.commit()
+    qschema.set_meta(
+        conn, country=country.code, kb_version="",
+        generated=_dt.date.today().isoformat(), generators=elwis.GENERATOR,
+        catalogue_version="2023-08", scoring="blocks",
+        licence=elwis.LICENCE, source="ELWIS (WSV des Bundes) — www.elwis.de",
+        block_rules=json.dumps(_de_block_rules(country), ensure_ascii=False))
+    qschema.write_questions(conn, qs, is_valid_theme=de_themes.is_valid)
+    n_export = qschema.export_json(conn, qjson, exportable_only=True)
+    conn.close()
+
+    print(f"\n✓ German question bank built: {qdb}")
+    print(f"  {stats['total']} questions ingested  (exported: {n_export})  "
+          f"[{stats['basis_deduped']} shared Basisfragen deduped]")
+    print(f"  by catalogue: {stats['by_catalogue']}")
+    print(f"  by block: {stats['by_block']}  ·  {stats['with_image']} with a figure")
+    print("  by theme:")
+    for tid, label in country.themes.items():
+        if stats["by_theme"].get(tid):
+            print(f"     {stats['by_theme'][tid]:4}  {label}")
+    print(f"  bundle to web: deferred (player country switcher) — JSON at {qjson}")
 
 
 def cmd_draft(args):
@@ -445,6 +519,11 @@ def main():
                             "country's (CH: fr,de,it / DE: de). Law acts are "
                             "fetched once per language")
     q = sub.add_parser("questions", help="generate the Phase-2 question bank from the KB")
+    q.add_argument("--country", default=countries.DEFAULT, choices=countries.codes(),
+                   help=f"country bank to build (default {countries.DEFAULT}); "
+                        "DE ingests the official ELWIS catalogues verbatim")
+    q.add_argument("--force", action="store_true",
+                   help="re-fetch the source catalogue, ignoring the cache (DE)")
     q.add_argument("--permis", default="A", choices=["A", "D"],
                    help="recreational permit profile: A (motorboat, default) or "
                         "D (sailing — adds the voile theme; scaffolded, no source yet)")

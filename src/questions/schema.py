@@ -34,7 +34,7 @@ from .. import cantons
 
 # --- controlled vocabularies (validation rejects anything outside these) -------
 KINDS = {"figure_recognition", "rule_mc", "definition_mc", "meteo_mc",
-         "matelotage_mc", "frontiere_mc"}
+         "matelotage_mc", "frontiere_mc", "official_mc"}
 POLARITIES = {"affirmative", "negative"}           # negative = "lequel n'est PAS…"
 REVIEW_STATUSES = {"auto_approved", "pending", "approved", "rejected"}
 DISTRACTOR_STRATEGIES = {"sibling_random", "confusion_set", "curated", "n/a"}
@@ -81,6 +81,8 @@ class Question:
     review_status: str = "pending"
     distractor_strategy: str = "n/a"
     generator: str = ""           # template id or model tag that produced it
+    block: str = ""               # exam-paper block id (DE: basis/spezifisch_*/segeln/
+                                  # navigation); "" for countries with no block structure
 
     @property
     def correct(self) -> list[int]:
@@ -146,13 +148,15 @@ def make_question_id(unit_id: str, stem: str, variant: str = "") -> str:
 
 
 # --- validation ----------------------------------------------------------------
-def validate(q: Question) -> list[str]:
+def validate(q: Question, is_valid_theme=themes.is_valid) -> list[str]:
     """Return a list of human-readable problems ('' list = valid). Auditable, not
-    a black box: every rule failure names itself."""
+    a black box: every rule failure names itself. `is_valid_theme` lets a non-Swiss
+    country pass its own taxonomy validator (e.g. de_themes.is_valid); the default
+    keeps the Swiss behaviour unchanged."""
     errs: list[str] = []
     if not q.stem.strip():
         errs.append("empty stem")
-    if not themes.is_valid(q.theme):
+    if not is_valid_theme(q.theme):
         errs.append(f"unknown theme {q.theme!r}")
     if q.kind not in KINDS:
         errs.append(f"unknown kind {q.kind!r}")
@@ -220,6 +224,47 @@ def grade_exam(questions: list[Question], answers: dict[str, list[int]],
     }
 
 
+def grade_exam_blocks(questions: list[Question], answers: dict[str, list[int]],
+                      blocks: list[tuple[str, int]], pass_total: int | None = None
+                      ) -> dict:
+    """Grade a *block-structured* sitting (the German SBF rule, distinct from the
+    Swiss point total). Each question carries a `block` id; `blocks` is a list of
+    `(block_id, min_correct)` requirements. A question counts as correct when its
+    selected set matches its correct set exactly. The sitting **passes iff every
+    block meets its `min_correct`** (a `min_correct` of 0 means the block has no
+    standalone minimum) — and, if `pass_total` is given, the overall correct count
+    also reaches it (covers permits scored on a grand total rather than per-block
+    minima, e.g. SBF-Binnen-Segeln's "≥20/25").
+
+    Pure and side-effect free, mirroring `score()`/`grade_exam()`; the player's
+    block-aware scorer can be wired to this later without changing the contract."""
+    correct_by_block: dict[str, int] = {}
+    answered_by_block: dict[str, int] = {}
+    for q in questions:
+        answered_by_block[q.block] = answered_by_block.get(q.block, 0) + 1
+        if set(answers.get(q.id, [])) == set(q.correct):
+            correct_by_block[q.block] = correct_by_block.get(q.block, 0) + 1
+    block_results = []
+    all_blocks_pass = True
+    for bid, min_correct in blocks:
+        got = correct_by_block.get(bid, 0)
+        passed = got >= min_correct
+        all_blocks_pass = all_blocks_pass and passed
+        block_results.append({
+            "block": bid, "answered": answered_by_block.get(bid, 0),
+            "correct": got, "min_correct": min_correct, "passed": passed,
+        })
+    total_correct = sum(correct_by_block.values())
+    passed = all_blocks_pass and (pass_total is None or total_correct >= pass_total)
+    return {
+        "blocks": block_results,
+        "total_correct": total_correct,
+        "total_questions": len(questions),
+        "pass_total": pass_total,
+        "passed": passed,
+    }
+
+
 # --- persistence (mirrors the KB store conventions) ----------------------------
 DDL = """
 CREATE TABLE IF NOT EXISTS meta (
@@ -239,6 +284,7 @@ CREATE TABLE IF NOT EXISTS questions (
     review_status       TEXT NOT NULL,
     distractor_strategy TEXT,
     generator           TEXT,
+    block               TEXT NOT NULL DEFAULT '',
     prov_unit_id        TEXT NOT NULL,
     prov_ref            TEXT,
     prov_source         TEXT,
@@ -272,15 +318,20 @@ def _migrate(conn: sqlite3.Connection) -> None:
     cols = {r[1] for r in conn.execute("PRAGMA table_info(questions)")}
     if "lang" not in cols:   # pre-i18n bank: backfill the content language
         conn.execute("ALTER TABLE questions ADD COLUMN lang TEXT NOT NULL DEFAULT 'fr'")
+    if "block" not in cols:  # pre-block bank: backfill the exam-block column
+        conn.execute("ALTER TABLE questions ADD COLUMN block TEXT NOT NULL DEFAULT ''")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_q_lang ON questions(lang)")
     conn.commit()
 
 
-def write_questions(conn: sqlite3.Connection, questions: list[Question]) -> None:
+def write_questions(conn: sqlite3.Connection, questions: list[Question],
+                    is_valid_theme=themes.is_valid) -> None:
     """Idempotent upsert (replace by id), validating each first; raises on the
-    first invalid question so a bad batch never half-lands."""
+    first invalid question so a bad batch never half-lands. `is_valid_theme` is
+    forwarded to `validate` so a non-Swiss bank validates against its own
+    taxonomy (default: the Swiss one)."""
     for q in questions:
-        problems = validate(q)
+        problems = validate(q, is_valid_theme=is_valid_theme)
         if problems:
             raise ValueError(f"invalid question {q.id}: {'; '.join(problems)}")
     cur = conn.cursor()
@@ -290,12 +341,12 @@ def write_questions(conn: sqlite3.Connection, questions: list[Question]) -> None
         cur.execute(
             """INSERT INTO questions
                (id, theme, kind, lang, polarity, stem, image, points, explanation,
-                review_status, distractor_strategy, generator,
+                review_status, distractor_strategy, generator, block,
                 prov_unit_id, prov_ref, prov_source, prov_url, prov_as_of, prov_licence)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
             (q.id, q.theme, q.kind, q.lang, q.polarity, q.stem, q.image, q.points,
              q.explanation, q.review_status, q.distractor_strategy, q.generator,
-             p.unit_id, p.ref, p.source, p.url, p.as_of, p.licence))
+             q.block, p.unit_id, p.ref, p.source, p.url, p.as_of, p.licence))
         for i, c in enumerate(q.choices):
             cur.execute(
                 "INSERT INTO choices (question_id, idx, text, image, is_correct) "
@@ -339,6 +390,7 @@ def _row_to_question(conn: sqlite3.Connection, r: sqlite3.Row) -> Question:
         stem=r["stem"], image=r["image"], points=r["points"],
         explanation=r["explanation"], review_status=r["review_status"],
         distractor_strategy=r["distractor_strategy"], generator=r["generator"],
+        block=(r["block"] if "block" in r.keys() else ""),
         choices=choices,
         provenance=Provenance(
             unit_id=r["prov_unit_id"], ref=r["prov_ref"], source=r["prov_source"],
