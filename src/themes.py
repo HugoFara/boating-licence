@@ -25,12 +25,23 @@ THEMES: dict[str, str] = {
 # matches the unit's searchable text wins, unless the unit carries an explicit
 # theme already (e.g. a prose source pinned by its parser).
 _RULES: list[tuple[str, re.Pattern[str]]] = [
+    # Storm-warning signals are a Météorologie exam topic, not Signalisation —
+    # this narrow rule runs first so "avis de tempête / fort vent / feux d'alerte"
+    # wins over the generic signal/feux match below. Buoy & light signs (which
+    # never use this wording) stay in Signalisation.
+    ("meteorologie", re.compile(
+        r"(avis de (fort )?vent|avis de temp[eê]te|signaux d.avis|"
+        r"signaux de temp[eê]te|feux d.alerte|signaux de fort vent)")),
     ("signalisation", re.compile(
         r"\b(signal|signalisation|signaux|balis|bou[eé]e|feu[x]?|pavillon|"
         r"acoustique|sonore|marque|panneau)\b")),
+    # Note: bare "vent" is deliberately NOT a keyword — it false-matches
+    # "bateaux à voile" right-of-way rules and "surface vélique". Real météo is
+    # caught by the storm rule above, the named winds here, and source defaults
+    # (the MétéoSuisse "Le Vent" sections fall back to their meteorologie default).
     ("meteorologie", re.compile(
-        r"\b(m[eé]t[eé]o|vent|bise|joran|vaudaire|bornan|s[eé]chard|temp[eê]te|"
-        r"orage|avis de (fort )?vent|rafale|nu[ae]ge)\b")),
+        r"\b(m[eé]t[eé]o|bise|joran|vaudaire|bornan|s[eé]chard|temp[eê]te|"
+        r"orage|rafale|nu[ae]ge|grain)\b")),
     ("matelotage", re.compile(
         r"\b(matelotage|n[oœ]ud|amarr|mouillage|ancre|cordage|bitte|taquet|"
         r"demi-cl[eé]|chaise)\b")),

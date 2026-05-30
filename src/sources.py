@@ -19,6 +19,7 @@ class Source:
     url: str                # canonical reference URL (for provenance)
     default_theme: str | None = None   # tagging fallback hint
     licence: str = ""       # licence / reuse note recorded per unit
+    pin_theme: str | None = None  # mono-thematic source: pin instead of keyword-tag
     # kind-specific knobs:
     eli: str = ""           # fedlex: ELI fragment used to resolve files via SPARQL
     want_pdf: bool = False  # fedlex: also fetch PDF/A for annex figures
@@ -65,6 +66,7 @@ SOURCES: list[Source] = [
         kind="html",
         url="https://www.meteosuisse.admin.ch/portrait/meteosuisse-blog/fr/2023/05/les-vents-du-leman.html",
         default_theme="meteorologie",
+        pin_theme="meteorologie",   # whole page is about Léman winds
         licence="Official Swiss public-sector content — reuse with attribution.",
     ),
     Source(
@@ -73,6 +75,7 @@ SOURCES: list[Source] = [
         kind="html",
         url="https://sisl.ch/blog-dynamic/52-signaux-d-avis-de-tempete-sur-le-leman-changements-2016",
         default_theme="meteorologie",
+        pin_theme="meteorologie",   # storm-warning signals are a météo topic
         licence="SISL — licence not formally open; explanatory cross-check only, "
                 "canonical rule is the RNL legal text.",
     ),

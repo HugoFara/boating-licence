@@ -63,8 +63,8 @@ def parse(src: Source, manifest: dict) -> list[KnowledgeUnit]:
             return
         label = name or "Présentation"
         ref = f"{src.name.split('—')[0].strip()} : {label}"
-        theme = themes.tag_theme(ref=ref, title=label, text=text,
-                                 default=src.default_theme)
+        theme = src.pin_theme or themes.tag_theme(
+            ref=ref, title=label, text=text, default=src.default_theme)
         units.append(KnowledgeUnit(
             id=make_id(src.id, ref), theme=theme, kind="prose_section",
             ref=ref, title=label, text=text, assets=[], cross_refs=[], **prov))
