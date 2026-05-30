@@ -141,6 +141,7 @@ async function boot() {
   LANG = detectLang();
   document.documentElement.lang = LANG;
   document.title = T("pageTitle");
+  document.addEventListener("keydown", onKeydown);
   renderLangbar();
   applyStaticStrings();
   await loadContent();
@@ -197,26 +198,23 @@ function renderQuestion() {
     const body = c.image
       ? `<div class="figure" style="height:120px"><img src="${c.image}" alt=""></div>`
       : escapeHtml(c.text);
+    // The digit badge doubles as the keyboard shortcut hint (press 1/2/3…).
     return `<label class="choice" data-idx="${idx}">
+      <span class="keyhint">${idx + 1}</span>
       <input type="checkbox" ${sel.has(idx) ? "checked" : ""}> <span>${body}</span>
     </label>`;
   }).join("");
 
   $("question").innerHTML = `${fig}
     <div class="stem">${escapeHtml(q.stem)}</div>
-    <div class="hint">${escapeHtml(T("multiHint"))}</div>
+    <div class="hint">${escapeHtml(T("multiHint"))} ${escapeHtml(T("kbdHint"))}</div>
     <div id="choices">${choices}</div>
     <div id="explain-slot"></div>`;
 
   state.revealed = false;
   $("question").querySelectorAll(".choice").forEach((el) => {
-    el.querySelector("input").onchange = (ev) => {
-      const idx = +el.dataset.idx;
-      const a = (state.answers[q.id] ||= []);
-      const pos = a.indexOf(idx);
-      if (ev.target.checked && pos < 0) a.push(idx);
-      if (!ev.target.checked && pos >= 0) a.splice(pos, 1);
-    };
+    el.querySelector("input").onchange = (ev) =>
+      applySelection(q, +el.dataset.idx, ev.target.checked);
   });
 
   const last = state.i === total - 1;
@@ -224,6 +222,42 @@ function renderQuestion() {
     setAction(T("btnValidate"));
   } else {
     setAction(last ? T("btnFinish") : T("btnNext"));
+  }
+}
+
+/* Update the selected-index list + the checkbox for one choice. Shared by the
+ * checkbox onchange and the digit-key shortcut so they can't drift. */
+function applySelection(q, idx, checked) {
+  const a = (state.answers[q.id] ||= []);
+  const pos = a.indexOf(idx);
+  if (checked && pos < 0) a.push(idx);
+  if (!checked && pos >= 0) a.splice(pos, 1);
+}
+
+/* Toggle a choice by index from the keyboard (no-op once answers are revealed). */
+function toggleChoice(idx) {
+  if (!state || state.revealed) return;
+  const q = state.questions[state.i];
+  if (idx < 0 || idx >= q.choices.length) return;
+  const el = $("question").querySelector(`.choice[data-idx="${idx}"]`);
+  if (!el) return;
+  const input = el.querySelector("input");
+  input.checked = !input.checked;
+  applySelection(q, idx, input.checked);
+}
+
+/* Quiz keyboard shortcuts: digit 1-9 toggles a choice, Enter validates/advances
+ * (the same as clicking the action button). Inactive outside the quiz screen. */
+function onKeydown(e) {
+  if (e.metaKey || e.ctrlKey || e.altKey) return;
+  if (!state || $("screen-quiz").classList.contains("hidden")) return;
+  if (e.key === "Enter") {
+    if (e.target && e.target.tagName === "BUTTON") return;  // let the button's own click fire
+    e.preventDefault();
+    onAction();
+  } else if (/^[1-9]$/.test(e.key)) {
+    e.preventDefault();
+    toggleChoice(+e.key - 1);
   }
 }
 

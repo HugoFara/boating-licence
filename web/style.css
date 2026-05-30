@@ -93,6 +93,15 @@ button:disabled { opacity: .5; cursor: default; }
 }
 .choice:hover { border-color: var(--accent); }
 .choice input { width: 18px; height: 18px; flex: 0 0 auto; }
+/* Digit badge = the keyboard shortcut for the choice (press 1/2/3…). */
+.keyhint {
+  flex: 0 0 auto; min-width: 22px; height: 22px; padding: 0 5px;
+  display: inline-flex; align-items: center; justify-content: center;
+  border: 1px solid var(--line); border-radius: 5px; background: var(--bg);
+  color: var(--muted); font-size: .78rem; font-variant-numeric: tabular-nums;
+}
+.choice.correct .keyhint { border-color: var(--ok); color: var(--ok); }
+.choice.wrong .keyhint { border-color: var(--bad); color: var(--bad); }
 .choice.correct { background: var(--ok-bg); border-color: var(--ok); }
 .choice.wrong { background: var(--bad-bg); border-color: var(--bad); }
 .choice.locked { cursor: default; }
