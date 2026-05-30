@@ -42,15 +42,21 @@ def _get(url: str, **kw) -> requests.Response:
 
 
 # --------------------------------------------------------------------------
-# Fedlex (law): resolve newest French XML (+ optional PDF/A) for an ELI.
+# Fedlex (law): resolve the newest XML (+ optional PDF/A) for an ELI, in any of
+# the official languages. Swiss law is published officially in FR/DE/IT (and
+# sometimes RM); each is a distinct `jolux:language` expression of the same act,
+# so only the EU-authority language URI changes — the ELI is language-neutral.
 # --------------------------------------------------------------------------
+
+# EU Publications Office authority codes used by Fedlex's jolux:language.
+_LANG_URI = {"fr": "FRA", "de": "DEU", "it": "ITA", "rm": "ROH"}
 
 _FEDLEX_Q = """
 PREFIX jolux: <http://data.legilux.public.lu/resource/ontology/jolux#>
 SELECT ?file ?date WHERE {{
   ?expr jolux:isEmbodiedBy ?manif .
   ?manif jolux:isExemplifiedBy ?file .
-  ?expr jolux:language <http://publications.europa.eu/resource/authority/language/FRA> .
+  ?expr jolux:language <http://publications.europa.eu/resource/authority/language/{languri}> .
   ?cons jolux:isRealizedBy ?expr .
   ?cons jolux:dateApplicability ?date .
   FILTER(CONTAINS(STR(?file), "{eli}"))
@@ -60,9 +66,9 @@ ORDER BY DESC(?date) LIMIT 1
 """
 
 
-def _resolve_fedlex_file(eli: str, fmt: str) -> tuple[str, str] | None:
-    """Return (file_url, consolidation_date) for the newest FR `fmt` manifestation."""
-    q = _FEDLEX_Q.format(eli=eli, fmt=fmt)
+def _resolve_fedlex_file(eli: str, fmt: str, lang: str = "fr") -> tuple[str, str] | None:
+    """Return (file_url, consolidation_date) for the newest `lang` `fmt` manifestation."""
+    q = _FEDLEX_Q.format(eli=eli, fmt=fmt, languri=_LANG_URI[lang])
     r = _get(SPARQL, params={"query": q},
              headers={**HEADERS, "Accept": "application/sparql-results+json"})
     rows = r.json()["results"]["bindings"]
@@ -72,7 +78,7 @@ def _resolve_fedlex_file(eli: str, fmt: str) -> tuple[str, str] | None:
     return b["file"]["value"], b["date"]["value"]
 
 
-def _fetch_xml_images(source_id: str, xml_url: str, xml_bytes: bytes) -> dict:
+def _fetch_xml_images(cache_key: str, xml_url: str, xml_bytes: bytes) -> dict:
     """Download every distinct image referenced by the act XML. Returns
     {src_ref: {"path": local, "bytes": n}} keyed by the ref used in the XML."""
     from lxml import etree
@@ -87,27 +93,34 @@ def _fetch_xml_images(source_id: str, xml_url: str, xml_bytes: bytes) -> dict:
             content = _get(url).content
         except requests.HTTPError:
             continue
-        local = _raw_path(source_id, "images", os.path.basename(ref))
+        local = _raw_path(cache_key, "images", os.path.basename(ref))
         with open(local, "wb") as fh:
             fh.write(content)
         out[ref] = {"path": os.path.relpath(local), "bytes": len(content), "url": url}
     return out
 
 
-def fetch_fedlex(src: Source, force: bool = False) -> dict:
-    manifest_path = _raw_path(src.id, "manifest.json")
+def fetch_fedlex(src: Source, force: bool = False, lang: str = "fr") -> dict:
+    """Fetch one act in one language. French keeps the legacy cache layout
+    (data/raw/<id>/); other languages live in a per-language subdir
+    (data/raw/<id>/<lang>/) so the FR build is untouched."""
+    if lang not in _LANG_URI:
+        raise ValueError(f"unsupported fedlex language {lang!r}")
+    cache_key = src.id if lang == "fr" else os.path.join(src.id, lang)
+    manifest_path = _raw_path(cache_key, "manifest.json")
     if os.path.exists(manifest_path) and not force:
         with open(manifest_path, encoding="utf-8") as fh:
             return json.load(fh)
 
     files: dict[str, str] = {}
     version = ""
-    xml = _resolve_fedlex_file(src.eli, "xml")
+    xml = _resolve_fedlex_file(src.eli, "xml", lang)
     if not xml:
-        raise RuntimeError(f"[{src.id}] no Fedlex FR XML found for ELI {src.eli}")
+        raise RuntimeError(
+            f"[{src.id}] no Fedlex {lang.upper()} XML found for ELI {src.eli}")
     xml_url, version = xml
     xml_bytes = _get(xml_url).content
-    xml_local = _raw_path(src.id, "act.xml")
+    xml_local = _raw_path(cache_key, "act.xml")
     with open(xml_local, "wb") as fh:
         fh.write(xml_bytes)
     files["xml"] = {"url": xml_url, "path": os.path.relpath(xml_local)}
@@ -115,21 +128,21 @@ def fetch_fedlex(src: Source, force: bool = False) -> dict:
     # Annex figures: the XML references images relatively ("image/imageN.png").
     # They resolve from the same filestore directory as the XML — pull them so
     # the signalisation theme has its diagrams, named and in article context.
-    images = _fetch_xml_images(src.id, xml_url, xml_bytes)
+    images = _fetch_xml_images(cache_key, xml_url, xml_bytes)
     if images:
         files["images"] = images
 
     if src.want_pdf:
-        pdf = _resolve_fedlex_file(src.eli, "pdf-a")
+        pdf = _resolve_fedlex_file(src.eli, "pdf-a", lang)
         if pdf:
             pdf_url, _ = pdf
-            pdf_local = _raw_path(src.id, "act.pdf")
+            pdf_local = _raw_path(cache_key, "act.pdf")
             with open(pdf_local, "wb") as fh:
                 fh.write(_get(pdf_url).content)
             files["pdf"] = {"url": pdf_url, "path": os.path.relpath(pdf_local)}
 
     manifest = {
-        "source_id": src.id, "kind": src.kind, "retrieved": _today(),
+        "source_id": src.id, "kind": src.kind, "lang": lang, "retrieved": _today(),
         "legal_version": version, "files": files, "canonical_url": src.url,
     }
     with open(manifest_path, "w", encoding="utf-8") as fh:
@@ -210,4 +223,19 @@ def fetch_all(sources: list[Source] | None = None, force: bool = False) -> dict[
     out = {}
     for src in (sources or SOURCES):
         out[src.id] = fetch_source(src, force=force)
+    return out
+
+
+def fetch_fedlex_langs(langs: list[str], sources: list[Source] | None = None,
+                       force: bool = False) -> dict[str, dict]:
+    """Fetch the law (fedlex) sources in additional official languages (de/it).
+    Non-fedlex sources (Wikipedia/météo/cantonal) are FR-specific and skipped —
+    their language equivalents are separate pages, handled outside this path.
+    Keyed '<id>/<lang>'."""
+    out = {}
+    for src in (sources or SOURCES):
+        if src.kind != "fedlex":
+            continue
+        for lang in langs:
+            out[f"{src.id}/{lang}"] = fetch_fedlex(src, force=force, lang=lang)
     return out

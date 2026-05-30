@@ -43,12 +43,18 @@ def _select(only: str | None):
 
 def cmd_fetch(args):
     srcs = _select(args.only)
-    man = fetch.fetch_all(srcs, force=args.force)
+    langs = [x.strip() for x in (getattr(args, "lang", None) or "fr").split(",") if x.strip()]
+    man = {}
+    if "fr" in langs:                       # FR pulls every source (law + refs)
+        man.update(fetch.fetch_all(srcs, force=args.force))
+    extra = [l for l in langs if l != "fr"]  # DE/IT pull only the law sources
+    if extra:
+        man.update(fetch.fetch_fedlex_langs(extra, srcs, force=args.force))
     for sid, m in man.items():
-        keys = m.get("files", m.get("pages", {}))
         n_img = len(m.get("files", {}).get("images", {})) if "files" in m else 0
-        extra = f" (+{n_img} images)" if n_img else ""
-        print(f"  fetched {sid:16} version={m.get('legal_version','')!r}{extra}")
+        tail = f" (+{n_img} images)" if n_img else ""
+        lang = m.get("lang", "fr")
+        print(f"  fetched {sid:18} [{lang}] version={m.get('legal_version','')!r}{tail}")
 
 
 def cmd_parse(args):
@@ -315,6 +321,10 @@ def main():
         p = sub.add_parser(name)
         p.add_argument("--force", action="store_true", help="ignore the raw cache")
         p.add_argument("--only", help="comma-separated source ids")
+        if name == "fetch":
+            p.add_argument("--lang", default="fr",
+                           help="comma-separated languages for law sources "
+                                "(fr,de,it); non-fr pulls fedlex acts only")
     sub.add_parser("questions", help="generate the Phase-2 question bank from the KB")
 
     d = sub.add_parser("draft", help="LLM-draft prose/law questions (pending review)")
