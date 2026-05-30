@@ -297,8 +297,36 @@ def fetch_html(src: Source, force: bool = False) -> dict:
     return manifest
 
 
+def fetch_pdf(src: Source, force: bool = False) -> dict:
+    """Cache a PDF document verbatim (e.g. the USCG COLREG International Rules).
+    Single-language, like the HTML/Wikipedia sources — the file is fetched only
+    when the source's own `lang` is requested; its text is segmented at parse time
+    (no per-language manifestation to resolve)."""
+    manifest_path = _raw_path(src.id, "manifest.json")
+    if os.path.exists(manifest_path) and not force:
+        with open(manifest_path, encoding="utf-8") as fh:
+            return json.load(fh)
+
+    r = _get(src.url)
+    local = _raw_path(src.id, "doc.pdf")
+    with open(local, "wb") as fh:
+        fh.write(r.content)
+    manifest = {
+        "source_id": src.id, "kind": src.kind, "lang": src.lang,
+        "retrieved": _today(),
+        "legal_version": r.headers.get("Last-Modified", ""),
+        "files": {"pdf": {"url": src.url, "path": os.path.relpath(local),
+                          "bytes": len(r.content)}},
+        "canonical_url": src.url,
+        "final_url": r.url,
+    }
+    with open(manifest_path, "w", encoding="utf-8") as fh:
+        json.dump(manifest, fh, ensure_ascii=False, indent=2)
+    return manifest
+
+
 _DISPATCH = {"fedlex": fetch_fedlex, "gii": fetch_gii,
-             "wikipedia": fetch_wikipedia, "html": fetch_html}
+             "wikipedia": fetch_wikipedia, "html": fetch_html, "pdf": fetch_pdf}
 # Law sources fetched as a per-language manifestation of one act.
 _PER_LANG_KINDS = {"fedlex", "gii"}
 

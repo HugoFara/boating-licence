@@ -16,8 +16,8 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from src import cantons, countries, sources, themes                  # noqa: E402
-from src.countries import ch, de, de_themes                          # noqa: E402
+from src import cantons, countries, jurisdictions, sources, themes   # noqa: E402
+from src.countries import ch, de, de_themes, intl, intl_themes        # noqa: E402
 
 
 def test_registry_well_formed():
@@ -103,6 +103,40 @@ def test_de_regions_and_references():
 
 def test_de_tagger_is_the_de_themes_tagger():
     assert de.COUNTRY.tagger is de_themes.tag_theme
+
+
+def test_int_is_a_sourcing_only_universal_layer():
+    c = intl.COUNTRY
+    assert c.code == "INT" and c.default_lang == "en" and c.langs == ("en",)
+    # No permits / no playable bank — this layer only grounds the harmonised bases.
+    assert c.permits == {}
+    assert c.tagger is intl_themes.tag_theme
+    # COLREG is ingested as a public-domain PDF (USCG); every source is valid.
+    by_kind = {s.id: s.kind for s in c.sources}
+    assert by_kind.get("colreg") == "pdf"
+    for s in c.sources:
+        assert s.default_theme in c.themes
+        assert s.kind == "pdf" and s.url and s.lang == "en"
+    # CEVNI is documented but NOT ingested (UN licence barrier).
+    assert any("CEVNI" in r.name for r in c.references)
+    assert all("cevni" != s.id for s in c.sources)
+
+
+def test_int_contributes_no_national_jurisdiction_node():
+    # The supra-national layer is a base, not a national implementer: it must not
+    # spawn INT-INLAND / INT-MARITIME regime nodes in the jurisdictions tree.
+    codes = jurisdictions.codes()
+    assert "INT-INLAND" not in codes and "INT-MARITIME" not in codes
+    # The harmonised bases it grounds still exist.
+    assert {"UNIVERSAL", "CEVNI", "COLREGS"} <= set(codes)
+
+
+def test_pdf_is_a_registered_source_kind():
+    # The COLREG PDF path must be wired in both fetch and parse dispatch tables.
+    from src import fetch, parse as parse_stage
+    assert "pdf" in fetch._DISPATCH
+    assert "pdf" in parse_stage._PARSERS
+    assert "pdf" not in fetch._PER_LANG_KINDS      # single-language, like html
 
 
 if __name__ == "__main__":

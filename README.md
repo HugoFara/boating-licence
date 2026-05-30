@@ -195,7 +195,34 @@ default):
 
 ```bash
 python run.py build --country DE      # German SBF law (de) into the KB
+python run.py build --country INT     # the harmonised codes (COLREG) into the KB
 ```
+
+### Harmonised codes — the supra-national layer (`INT`)
+
+Above the national exams sit the **harmonised navigation codes** that every
+country's bank shares: **COLREGS** (the maritime collision rules) and **CEVNI**
+(the European inland-waterways code) — the `is_base` roots of the regime tree in
+`src/jurisdictions.py`. They were previously grounded only *indirectly*, via
+national enactments (`scope.py` buckets KVR into `colregs`, BinSchStrO into
+`cevni`). The `INT` registry member (`src/countries/intl.py`) grounds them in
+their **canonical text** instead. It is a sourcing-only layer — no permits, no
+player bundle — so it never appears in the player picker and spawns no national
+regime node.
+
+- **COLREG — ingested.** The verbatim International Regulations (1972) are a
+  **US-Government work** (public domain, 17 USC §105) as published by the US Coast
+  Guard. `run.py build --country INT` fetches the USCG "Navigation Rules" PDF and
+  the parser (`src/parsers/colreg.py`, a new `kind="pdf"`) keeps only its
+  *International* pages (it prints International + US-Inland on facing pages),
+  segmenting the 38 Rules + Annexes I–IV by COLREG Part. The IMO's own
+  consolidated edition is copyrighted and is **not** used.
+- **CEVNI — not ingested (licence barrier).** The canonical UNECE text (Resolution
+  No. 24, Rev.6) is all-rights-reserved: UN policy requires written permission and
+  forbids redistribution/derivatives, so it fails the project's reuse rule. It is
+  recorded as a `Reference` only; a permission request is drafted at
+  `docs/cevni-licence-request.md`. Until granted, the CEVNI base stays grounded via
+  the public-domain national inland enactments already ingested.
 
 ### Germany — Sportbootführerschein
 

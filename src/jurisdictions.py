@@ -111,9 +111,14 @@ def _build() -> dict[str, Jurisdiction]:
         note="IMO maritime collision regs (RIPAM/KVR/RIPAM); the shared sea core.")
 
     # 2. Country regimes, derived from the operational registry — one node per
-    #    track the country's permits cover (inland and/or maritime).
+    #    track the country's permits cover (inland and/or maritime). A
+    #    sourcing-only member (no permits — the supra-national INT layer that
+    #    grounds the bases themselves) is NOT a national implementer, so it
+    #    contributes no national node.
     for code in countries.codes():
         c = countries.get(code)
+        if not c.permits:
+            continue
         tracks = sorted({permit_track(p) for p in c.permits.values()},
                         key=lambda t: t != "inland")
         for track in tracks:

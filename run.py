@@ -619,12 +619,15 @@ def cmd_web(args):
     # (CH built natively, DE by the German agent). Read it here for display only —
     # code/name/langs/permits/regions — so the player's picker stays populated from
     # the live registry rather than a copy.
+    # Only playable (permit-bearing) countries belong in the player's picker; the
+    # supra-national INT layer is sourcing-only (no permits, no bank) so it is
+    # excluded here even though it is a full registry member.
     country_manifest = [{
         "code": c.code, "name": c.name, "default_lang": c.default_lang,
         "langs": list(c.langs),
         "permits": [{"code": p.code, "label": p.label} for p in c.permits.values()],
         "regions": c.region_manifest(),
-    } for c in (countries.get(code) for code in countries.codes())]
+    } for c in (countries.get(code) for code in countries.codes()) if c.permits]
     manifest = {
         "default": qschema.DEFAULT_LANG,
         "supported": sorted(qschema.LANGS),

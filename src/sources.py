@@ -15,7 +15,7 @@ from dataclasses import dataclass, field
 class Source:
     id: str                 # stable short id, also the raw-cache subdir
     name: str               # human label (carried into provenance)
-    kind: str               # "fedlex" | "gii" | "wikipedia" | "html"
+    kind: str               # "fedlex" | "gii" | "wikipedia" | "html" | "pdf"
     url: str                # canonical reference URL (for provenance)
     default_theme: str | None = None   # tagging fallback hint
     licence: str = ""       # licence / reuse note recorded per unit

@@ -6,13 +6,17 @@ original Swiss build runs unchanged when no country is specified.
 
 from __future__ import annotations
 
-from . import ch, de, fr
+from . import ch, de, fr, intl
 from .base import Country
 
 COUNTRIES: dict[str, Country] = {
     ch.COUNTRY.code: ch.COUNTRY,
     de.COUNTRY.code: de.COUNTRY,
     fr.COUNTRY.code: fr.COUNTRY,
+    # The supra-national layer (harmonised codes: COLREG ingested, CEVNI pending).
+    # A sourcing-only member: no permits, so the player skips it and the
+    # jurisdictions tree treats it as a base, not a national implementer.
+    intl.COUNTRY.code: intl.COUNTRY,
 }
 
 DEFAULT = "CH"
