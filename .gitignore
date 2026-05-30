@@ -25,6 +25,11 @@ data/verdicts*.json
 # EN translation intermediates (durable: translate_answers/ + translate_verdicts/).
 data/translate_jobs.json
 data/translate_verify.json
+# Figure-question intermediates (durable: figure_answers/ + figure_verdicts/ —
+# committed so the night-lighting bank rebuilds via `subagent_figures.py ingest`).
+data/figure_jobs*.json
+data/figure_verify*.json
+data/figure_verdicts*.json
 
 # Static-player data bundle (rebuild with `python run.py web`). NOW COMMITTED so
 # GitHub Pages can serve it (the data is public-domain law). Regenerate with

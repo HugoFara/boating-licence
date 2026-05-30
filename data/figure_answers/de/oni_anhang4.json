@@ -1,0 +1,184 @@
+{
+  "drafts": [
+    {
+      "ref": "ONI Anhang 4 – fig. 1",
+      "questions": [
+        {
+          "stem": "Welche Bedeutung hat das allgemeine Verbotszeichen am Fahrwasser?",
+          "choices": [
+            { "text": "Verbot der Durchfahrt", "correct": true },
+            { "text": "Gebot, unter bestimmten Bedingungen anzuhalten", "correct": false },
+            { "text": "Empfohlene Durchfahrt für Verkehr in beiden Richtungen", "correct": false }
+          ],
+          "explanation": "BSV Anhang 4, Abb. 1: allgemeines Verbotszeichen, Verbot der Durchfahrt.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Anhang 4 – fig. 16",
+      "questions": [
+        {
+          "stem": "Ein Zeichen bedeutet «Durchfahrt verboten, aber Weiterfahrt vorbereiten». Was müssen Sie tun?",
+          "choices": [
+            { "text": "Noch nicht durchfahren, aber die Weiterfahrt vorbereiten", "correct": true },
+            { "text": "Sofort und endgültig anhalten, jede Weiterfahrt ist untersagt", "correct": false },
+            { "text": "Die Durchfahrt ist frei, ohne Einschränkung weiterfahren", "correct": false }
+          ],
+          "explanation": "BSV Anhang 4, Abb. 16: Durchfahrt verboten, aber Weiterfahrt vorbereiten.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Anhang 4 – fig. 19",
+      "questions": [
+        {
+          "stem": "Welche Bedeutung hat das Gebotszeichen, das anhalten verlangt?",
+          "choices": [
+            { "text": "Gebot, unter bestimmten Bedingungen anzuhalten", "correct": true },
+            { "text": "Verbot der Durchfahrt für alle Schiffe", "correct": false },
+            { "text": "Empfohlene Durchfahrt bei Brücken", "correct": false }
+          ],
+          "explanation": "BSV Anhang 4, Abb. 19: Gebot, unter bestimmten Bedingungen anzuhalten.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Anhang 4 – fig. 25",
+      "questions": [
+        {
+          "stem": "Ein Zeichen zeigt an, dass das Fahrwasser eingeengt ist, mit einer Zahl. Was bedeutet diese Zahl?",
+          "choices": [
+            { "text": "Den Abstand in Metern, in dem sich Schiffe vom Ufer entfernt halten sollen", "correct": true },
+            { "text": "Die höchstzulässige Geschwindigkeit in km/h", "correct": false },
+            { "text": "Die Wassertiefe in Metern im eingeengten Bereich", "correct": false }
+          ],
+          "explanation": "BSV Anhang 4, Abb. 25: eingeengtes Fahrwasser; die Zahl gibt den Abstand in Metern zum Ufer an.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Anhang 4 – fig. 27",
+      "questions": [
+        {
+          "stem": "Welche Bedeutung hat das Zeichen für die empfohlene Durchfahrt bei Brücken (für Verkehr in beiden Richtungen)?",
+          "choices": [
+            { "text": "Empfohlene Durchfahrt bei Brücken für Verkehr in beiden Richtungen", "correct": true },
+            { "text": "Verbot der Durchfahrt unter der Brücke", "correct": false },
+            { "text": "Empfohlene Durchfahrt nur für Verkehr in einer Richtung", "correct": false }
+          ],
+          "explanation": "BSV Anhang 4, Abb. 27: empfohlene Durchfahrt bei Brücken für Verkehr in beiden Richtungen.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Anhang 4 – fig. 48",
+      "questions": [
+        {
+          "stem": "Welche Bedeutung hat das Zeichen, das zum Anhalten zwecks Zollabfertigung auffordert?",
+          "choices": [
+            { "text": "Anhalten zwecks Zollabfertigung", "correct": true },
+            { "text": "Verbot der Durchfahrt", "correct": false },
+            { "text": "Empfohlene Durchfahrt bei Brücken", "correct": false }
+          ],
+          "explanation": "BSV Anhang 4, Abb. 48: Anhalten zwecks Zollabfertigung.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Anhang 4 – fig. 49",
+      "questions": [
+        {
+          "stem": "Wie wird ein einzelnes Hindernis im Gewässer bezeichnet?",
+          "choices": [
+            { "text": "Durch einen Kegel mit der Spitze nach unten, rot bemalt oder unbemalt", "correct": true },
+            { "text": "Durch einen Kegel mit der Spitze nach oben, grün bemalt", "correct": false },
+            { "text": "Durch einen Zylinder, rot bemalt", "correct": false }
+          ],
+          "explanation": "BSV Anhang 4, Abb. 49: einzelne Hindernisse, Kegel mit Spitze nach unten, rot bemalt oder unbemalt.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Anhang 4 – fig. 50",
+      "questions": [
+        {
+          "stem": "Mit welchen Zeichen wird ein Fahrwasser bezeichnet?",
+          "choices": [
+            { "text": "Roter Zylinder und grüner Kegel mit der Spitze nach oben", "correct": true },
+            { "text": "Grüner Zylinder und roter Kegel mit der Spitze nach unten", "correct": false },
+            { "text": "Roter Kegel mit der Spitze nach unten und grüner Zylinder", "correct": false }
+          ],
+          "explanation": "BSV Anhang 4, Abb. 50: Fahrwasserbezeichnung mit rotem Zylinder und grünem Kegel mit Spitze nach oben.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Anhang 4 – fig. 52",
+      "questions": [
+        {
+          "stem": "Eine Untiefe in Ufernähe wird bezeichnet: Welches Zeichen steht auf der seeseitigen Seite?",
+          "choices": [
+            { "text": "Ein Zylinder", "correct": true },
+            { "text": "Ein Kegel", "correct": false },
+            { "text": "Ein Kegel mit der Spitze nach unten", "correct": false }
+          ],
+          "explanation": "BSV Anhang 4, Abb. 52: Untiefe in Ufernähe, seeseitig Zylinder, landseitig Kegel.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Anhang 4 – fig. 53",
+      "questions": [
+        {
+          "stem": "Ein Fahrwasser in untiefem Gebiet wird markiert. Welche Zeichen stehen auf der vom Gewässer aus gesehen rechten Seite?",
+          "choices": [
+            { "text": "Grüne Kegel", "correct": true },
+            { "text": "Rote Zylinder", "correct": false },
+            { "text": "Rote Kegel mit der Spitze nach unten", "correct": false }
+          ],
+          "explanation": "BSV Anhang 4, Abb. 53: vom Gewässer aus gesehen rechts grüne Kegel, links rote Zylinder.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Anhang 4 – fig. 54",
+      "questions": [
+        {
+          "stem": "Wie wird ein ausgedehntes Hindernis im nördlichen Quadrant bezeichnet?",
+          "choices": [
+            { "text": "Zwei übereinander angebrachte Kegel, beide mit der Spitze nach oben", "correct": true },
+            { "text": "Zwei übereinander angebrachte Kegel, beide mit der Spitze nach unten", "correct": false },
+            { "text": "Zwei Kegel, der untere mit der Spitze nach unten, der obere mit der Spitze nach oben", "correct": false }
+          ],
+          "explanation": "BSV Anhang 4, Abb. 54: nördlicher Quadrant, zwei Kegel, beide Spitze nach oben.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Anhang 4 – fig. 55",
+      "questions": [
+        {
+          "stem": "Die Zeichen einer ausgedehnten Untiefe zeigen an, in welchen Quadranten sich tiefes Wasser befindet. Welche Quadranten sind das im Beispiel?",
+          "choices": [
+            { "text": "Im nördlichen und im westlichen Quadrant", "correct": true },
+            { "text": "Im östlichen und im südlichen Quadrant", "correct": false },
+            { "text": "Im nördlichen und im östlichen Quadrant", "correct": false }
+          ],
+          "explanation": "BSV Anhang 4, Abb. 55: tiefes Wasser im nördlichen und westlichen Quadrant.",
+          "polarity": "affirmative"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+{"drafts": [
+  {"ref": "RNL Anhang I – fig. 10", "questions": [
+    {"stem": "Ein Segelschiff fährt nachts unter Motor (mit oder ohne gesetzte Segel). Welche Lichter führt es nach RNL?", "choices": [
+      {"text": "Topplicht weiss, Seitenlichter grün und rot, Hecklicht weiss", "correct": true},
+      {"text": "Nur ein weisses gewöhnliches Rundumlicht", "correct": false},
+      {"text": "Seitenlichter und Hecklicht in einem Dreifarben-Topplicht an der Mastspitze", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 10", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 11", "questions": [
+    {"stem": "Ein Segelschiff fährt nachts unter Motor und nutzt die Variante mit Dreifarben-Topplicht. Welche Bezeichnung ist korrekt?", "choices": [
+      {"text": "Topplicht weiss; Seitenlichter und Hecklicht vereint in einem Dreifarben-Topplicht an oder nahe der Mastspitze", "correct": true},
+      {"text": "Topplicht weiss, getrennte Seitenlichter grün und rot, separates weisses Hecklicht", "correct": false},
+      {"text": "Nur ein weisses gewöhnliches Rundumlicht", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 11", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 12", "questions": [
+    {"stem": "Ein Motorschiff mit höchstens 6 kW Antriebsleistung bzw. ein Vergnügungsschiff von höchstens 7 m Länge und höchstens 7 Knoten darf nachts welches Licht führen?", "choices": [
+      {"text": "Ein weisses gewöhnliches Licht", "correct": true},
+      {"text": "Topplicht weiss, Seitenlichter grün und rot, Hecklicht weiss", "correct": false},
+      {"text": "Ein Dreifarben-Topplicht an der Mastspitze", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 12", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 14", "questions": [
+    {"stem": "Welche Lichter führen geschleppte Schiffe und schwimmende Geräte nachts nach RNL?", "choices": [
+      {"text": "Topplicht und Hecklicht, je ein weisses gewöhnliches Licht", "correct": true},
+      {"text": "Seitenlichter grün und rot sowie ein weisses Hecklicht", "correct": false},
+      {"text": "Ein gelbes gewöhnliches Rundumlicht", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 14", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 16", "questions": [
+    {"stem": "Welches Licht führt ein einzeln oder im Schleppverband fahrendes Schiff ohne Maschinenantrieb nachts nach RNL?", "choices": [
+      {"text": "Ein weisses gewöhnliches Rundumlicht", "correct": true},
+      {"text": "Topplicht weiss, Seitenlichter grün und rot, Hecklicht weiss", "correct": false},
+      {"text": "Ein gelbes gewöhnliches Rundumlicht", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 16", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 17", "questions": [
+    {"stem": "Welches Licht darf ein Segelschiff, das unter Segel fährt, nachts mindestens führen?", "choices": [
+      {"text": "Ein weisses gewöhnliches Rundumlicht", "correct": true},
+      {"text": "Ein grüner Ball, von allen Seiten sichtbar", "correct": false},
+      {"text": "Ein blaues Blitzlicht", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 17", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 18", "questions": [
+    {"stem": "Ein Segelschiff unter Segel führt nachts Seitenlichter und ein Hecklicht. Welche Farben sind korrekt?", "choices": [
+      {"text": "Seitenlichter grün und rot, Hecklicht weiss", "correct": true},
+      {"text": "Seitenlichter rot und weiss, Hecklicht grün", "correct": false},
+      {"text": "Seitenlichter grün und rot, Hecklicht ebenfalls grün", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 18", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 19", "questions": [
+    {"stem": "Ein Segelschiff unter Segel nutzt nachts die zusammengefasste Lichtervariante. Wie ist diese korrekt bezeichnet?", "choices": [
+      {"text": "Ein Dreifarben-Topplicht an oder nahe an der Mastspitze", "correct": true},
+      {"text": "Ein weisses gewöhnliches Rundumlicht", "correct": false},
+      {"text": "Getrennte Seitenlichter grün und rot mit weissem Topplicht", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 19", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 21", "questions": [
+    {"stem": "Wie bezeichnet ein manövrierunfähiges Schiff sich nachts zusätzlich nach RNL?", "choices": [
+      {"text": "Schwenken eines roten Lichtes und/oder Abgabe des vorgeschriebenen Schallzeichens", "correct": true},
+      {"text": "Zwei schwarze Bälle übereinander, von allen Seiten sichtbar", "correct": false},
+      {"text": "Ein blaues Blitzlicht", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 21", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 22", "questions": [
+    {"stem": "Welche zusätzliche Lichterbezeichnung darf ein manövrierunfähiges Schiff nachts führen?", "choices": [
+      {"text": "Zwei rote Rundumlichter mindestens 1 m übereinander, von allen Seiten sichtbar", "correct": true},
+      {"text": "Schwenken eines weissen Lichtes", "correct": false},
+      {"text": "Ein grüner Ball, von allen Seiten sichtbar", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 22", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 23", "questions": [
+    {"stem": "Welches Licht führen alle Schiffe und schwimmenden Geräte beim Stillliegen nachts nach RNL?", "choices": [
+      {"text": "Ein weisses gewöhnliches Licht", "correct": true},
+      {"text": "Ein rotes gewöhnliches Licht über einem weissen gewöhnlichen Licht", "correct": false},
+      {"text": "Ein gelber Ball, von allen Seiten sichtbar", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 23", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 25", "questions": [
+    {"stem": "Ein Schiff, das Arbeiten, Peilungen oder Messungen durchführt, zeigt nachts auf der Seite, wo die Durchfahrt nicht frei ist, welches Licht?", "choices": [
+      {"text": "Ein rotes gewöhnliches Licht", "correct": true},
+      {"text": "Ein rotes und ein weisses gewöhnliches Licht", "correct": false},
+      {"text": "Ein weisses gewöhnliches Rundumlicht", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 25", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 26", "questions": [
+    {"stem": "Wie werden Verankerungen nachts nach RNL bezeichnet?", "choices": [
+      {"text": "Bojen mit weissem gewöhnlichem Licht", "correct": true},
+      {"text": "Bojen mit gelbem gewöhnlichem Licht", "correct": false},
+      {"text": "Bojen mit rotem gewöhnlichem Licht", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 26", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 27", "questions": [
+    {"stem": "Wie bezeichnen sich Fahrgastschiffe mit Vorrang in Fahrt bei Tag nach RNL?", "choices": [
+      {"text": "Grüner Ball, von allen Seiten sichtbar", "correct": true},
+      {"text": "Gelber Ball, von allen Seiten sichtbar", "correct": false},
+      {"text": "Zwei schwarze Bälle übereinander", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 27", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 28", "questions": [
+    {"stem": "Wie bezeichnet sich ein manövrierunfähiges Schiff bei Tag nach RNL?", "choices": [
+      {"text": "Schwenken einer roten Flagge und/oder Abgabe des vorgeschriebenen Schallzeichens", "correct": true},
+      {"text": "Zwei schwarze Bälle im Abstand von etwa 1 m übereinander", "correct": false},
+      {"text": "Grüner Ball, von allen Seiten sichtbar", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 28", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 29", "questions": [
+    {"stem": "Welche zusätzliche Tagbezeichnung darf ein manövrierunfähiges Schiff führen?", "choices": [
+      {"text": "Zwei schwarze Bälle im Abstand von etwa 1 m übereinander, von allen Seiten sichtbar", "correct": true},
+      {"text": "Zwei rote Rundumlichter übereinander", "correct": false},
+      {"text": "Schwenken einer roten Flagge", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 29", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 30", "questions": [
+    {"stem": "Ein Schiff, das Arbeiten, Peilungen oder Messungen durchführt, zeigt bei Tag auf der Seite, wo die Durchfahrt nicht frei ist, welches Zeichen?", "choices": [
+      {"text": "Eine rote Flagge", "correct": true},
+      {"text": "Eine rot-weisse Flagge", "correct": false},
+      {"text": "Eine rote und eine weisse Flagge nebeneinander", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 30", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 32", "questions": [
+    {"stem": "Schiffe oder Anlagen, die gegen Wellenschlag zu schützen sind, führen bei Nacht welche Lichter?", "choices": [
+      {"text": "Ein rotes gewöhnliches Licht und ein weisses gewöhnliches Licht", "correct": true},
+      {"text": "Nur ein weisses gewöhnliches Rundumlicht", "correct": false},
+      {"text": "Zwei rote Rundumlichter übereinander", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 32", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 33", "questions": [
+    {"stem": "Schiffe, die gegen Wellenschlag zu schützen sind, zeigen bei Tag welches Zeichen?", "choices": [
+      {"text": "Eine rot-weisse Flagge", "correct": true},
+      {"text": "Eine rote Flagge", "correct": false},
+      {"text": "Zwei schwarze Bälle übereinander", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 33", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 35", "questions": [
+    {"stem": "Welches Lichtzeichen führen Schiffe der Überwachungsbehörden, der Feuerwehr und der Rettungsdienste im Einsatz?", "choices": [
+      {"text": "Ein blaues Blitzlicht", "correct": true},
+      {"text": "Ein grünes helles Rundumlicht", "correct": false},
+      {"text": "Ein gelbes gewöhnliches Rundumlicht", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 35", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 37", "questions": [
+    {"stem": "Womit signalisiert ein Schiff der Überwachungsbehörden, dass es mit anderen Schiffen Verbindung aufnehmen will?", "choices": [
+      {"text": "Mit der Flagge, Buchstabe «K»", "correct": true},
+      {"text": "Mit einem blauen Blitzlicht", "correct": false},
+      {"text": "Mit einer rot-weissen Flagge", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 37", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 38", "questions": [
+    {"stem": "Wie gibt man ein Notzeichen bei Nacht nach RNL?", "choices": [
+      {"text": "Rotes, kreisförmig geschwenktes Licht", "correct": true},
+      {"text": "Schwenken einer roten Flagge", "correct": false},
+      {"text": "Ein blaues Blitzlicht", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 38", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 40", "questions": [
+    {"stem": "Wie wird das Tauchen vom Land aus nach RNL gekennzeichnet?", "choices": [
+      {"text": "Mit der Tafel, Buchstabe «A»", "correct": true},
+      {"text": "Mit einem weissen Ball, von allen Seiten sichtbar", "correct": false},
+      {"text": "Mit einer roten Flagge", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 40", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 41", "questions": [
+    {"stem": "Wie kennzeichnet sich ein Schiff, das zum Tauchen vom Gewässer aus eingesetzt ist?", "choices": [
+      {"text": "Mit der Tafel, Buchstabe «A»", "correct": true},
+      {"text": "Mit einem gelben Ball, von allen Seiten sichtbar", "correct": false},
+      {"text": "Mit zwei schwarzen Bällen übereinander", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 41", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 42", "questions": [
+    {"stem": "Wie kennzeichnet sich ein Schiff, das mit der Schleppangel fischt und Schwimmer oder Spreizer schleppt?", "choices": [
+      {"text": "Weisser Ball, von allen Seiten sichtbar", "correct": true},
+      {"text": "Gelber Ball, von allen Seiten sichtbar", "correct": false},
+      {"text": "Grüner Ball, von allen Seiten sichtbar", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 42", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 43", "questions": [
+    {"stem": "Wie kennzeichnen sich Schiffe der Berufsfischer beim Fang nach RNL?", "choices": [
+      {"text": "Gelber Ball, von allen Seiten sichtbar", "correct": true},
+      {"text": "Weisser Ball, von allen Seiten sichtbar", "correct": false},
+      {"text": "Grüner Ball, von allen Seiten sichtbar", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 43", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 8", "questions": [
+    {"stem": "Berufsfischer- und Vergnügungsschiffe mit Maschinenantrieb sowie Segelschiffe unter Motor führen nachts in dieser Variante welche Lichter?", "choices": [
+      {"text": "Ein weisses Rundumlicht sowie Seitenlichter grün und rot", "correct": true},
+      {"text": "Topplicht weiss, Hecklicht weiss, ohne Seitenlichter", "correct": false},
+      {"text": "Nur ein Dreifarben-Topplicht an der Mastspitze", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 8", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Anhang I – fig. 9", "questions": [
+    {"stem": "Vergnügungsschiffe mit Maschinenantrieb sowie Segelschiffe unter Motor führen nachts in dieser Variante welche Lichter?", "choices": [
+      {"text": "Ein weisses Rundumlicht sowie Seitenlichter grün und rot", "correct": true},
+      {"text": "Ein einzelnes weisses gewöhnliches Licht", "correct": false},
+      {"text": "Topplicht weiss und ein weisses Hecklicht ohne Seitenlichter", "correct": false}
+    ], "explanation": "RNL Anhang I, Abb. 9", "polarity": "affirmative"}
+  ]}
+]}

@@ -1,0 +1,170 @@
+{"drafts": [
+  {"ref": "RNL Annexe I – fig. 10", "questions": [
+    {"stem": "De nuit, quels feux un bateau à voile naviguant au moteur (voiles hissées ou non) doit-il porter ?", "choices": [
+      {"text": "Un feu de mât blanc, des feux de côté vert et rouge, et un feu de poupe blanc", "correct": true},
+      {"text": "Un feu blanc visible de tous les côtés et des feux de côté vert et rouge, sans feu de mât", "correct": false},
+      {"text": "Uniquement un feu ordinaire blanc visible de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 10 — feu de mât blanc, feux de côté vert et rouge, feu de poupe blanc.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 11", "questions": [
+    {"stem": "Un bateau à voile naviguant au moteur peut, au lieu de feux de côté et d'un feu de poupe séparés, combiner ces feux. Comment et où ce feu combiné est-il disposé, en plus du feu de mât blanc ?", "choices": [
+      {"text": "Un feu tricolore combinant feux de côté et feu de poupe, placé à la pointe du mât ou à proximité", "correct": true},
+      {"text": "Un feu bicolore placé dans la zone avant, le feu de poupe restant séparé", "correct": false},
+      {"text": "Un feu blanc visible de tous les côtés placé à la poupe", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 11 — feu de mât blanc et feu tricolore (côtés + poupe) à la pointe du mât ou à proximité.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 14", "questions": [
+    {"stem": "De nuit, quels feux un bateau ou engin flottant remorqué doit-il porter ?", "choices": [
+      {"text": "Un feu de mât ordinaire blanc et un feu de poupe ordinaire blanc", "correct": true},
+      {"text": "Un feu de mât blanc, des feux de côté vert et rouge, et un feu de poupe blanc", "correct": false},
+      {"text": "Un seul feu ordinaire blanc visible de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 14 — feu de mât ordinaire blanc et feu de poupe ordinaire blanc.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 16", "questions": [
+    {"stem": "De nuit, comment un bateau non motorisé naviguant isolément ou en convoi remorqué se signale-t-il ?", "choices": [
+      {"text": "Par un feu ordinaire blanc visible de tous les côtés", "correct": true},
+      {"text": "Par un feu de mât blanc et des feux de côté vert et rouge", "correct": false},
+      {"text": "Par un feu ordinaire jaune visible de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 16 — feu ordinaire blanc visible de tous les côtés.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 17", "questions": [
+    {"stem": "De nuit, par quel feu un bateau naviguant à voile (sans moteur) peut-il se signaler de la manière la plus simple ?", "choices": [
+      {"text": "Un feu ordinaire blanc visible de tous les côtés", "correct": true},
+      {"text": "Un feu de mât blanc accompagné de feux de côté vert et rouge", "correct": false},
+      {"text": "Un feu tricolore placé à la pointe du mât", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 17 — feu ordinaire blanc visible de tous les côtés.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 18", "questions": [
+    {"stem": "De nuit, un bateau naviguant à voile portant des feux de côté et un feu de poupe : quels sont ces feux ?", "choices": [
+      {"text": "Feux de côté vert et rouge et feu de poupe blanc", "correct": true},
+      {"text": "Feux de côté vert et rouge, feu de poupe blanc et feu de mât blanc", "correct": false},
+      {"text": "Un feu ordinaire jaune visible de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 18 — feux de côté vert et rouge, feu de poupe blanc (pas de feu de mât).", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 21", "questions": [
+    {"stem": "De nuit, comment un bateau devenu incapable de manœuvrer signale-t-il sa situation, en plus de ses feux ordinaires ?", "choices": [
+      {"text": "En balançant un feu rouge et/ou en émettant le signal sonore réglementaire", "correct": true},
+      {"text": "En balançant un feu blanc visible de tous les côtés", "correct": false},
+      {"text": "En montrant un ballon vert visible de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 21 — un feu rouge balancé et/ou le signal sonore réglementaire.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 22", "questions": [
+    {"stem": "De nuit, comment un bateau incapable de manœuvrer peut-il se signaler au moyen de feux fixes visibles de tous les côtés ?", "choices": [
+      {"text": "Deux feux rouges superposés, à environ 1 m l'un au-dessus de l'autre, visibles de tous les côtés", "correct": true},
+      {"text": "Deux feux blancs superposés à environ 1 m l'un de l'autre", "correct": false},
+      {"text": "Un feu rouge au-dessus d'un feu blanc, tous deux visibles de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 22 — deux feux rouges superposés à environ 1 m de distance, visibles de tous les côtés.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 24", "questions": [
+    {"stem": "De nuit, comment un engin flottant en stationnement doit-il être signalé ?", "choices": [
+      {"text": "Éclairé de telle manière que ses contours soient reconnaissables", "correct": true},
+      {"text": "Par un feu ordinaire rouge au-dessus d'un feu ordinaire blanc", "correct": false},
+      {"text": "Par un ballon noir visible de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 24 — engin flottant en stationnement éclairé de façon à rendre ses contours reconnaissables.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 25", "questions": [
+    {"stem": "De nuit, un bateau effectuant des travaux ou des opérations de sondage : que montre-t-il du côté où le passage est libre, et du côté où il n'est pas libre ?", "choices": [
+      {"text": "Côté libre : feu ordinaire rouge au-dessus d'un feu ordinaire blanc ; côté non libre : feu ordinaire rouge", "correct": true},
+      {"text": "Côté libre : feu ordinaire blanc seul ; côté non libre : feu ordinaire blanc au-dessus d'un feu rouge", "correct": false},
+      {"text": "Côté libre : feu vert ; côté non libre : feu rouge", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 25 — côté libre : feu ordinaire rouge et feu ordinaire blanc ; côté non libre : feu ordinaire rouge.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 26", "questions": [
+    {"stem": "De nuit, comment les ancrages d'un bateau sont-ils signalés sur l'eau ?", "choices": [
+      {"text": "Par des bouées portant un feu ordinaire blanc", "correct": true},
+      {"text": "Par des bouées portant un feu ordinaire rouge", "correct": false},
+      {"text": "Par des ballons noirs visibles de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 26 — ancrages signalés par des bouées portant un feu ordinaire blanc.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 27", "questions": [
+    {"stem": "De jour, par quel signal un bateau à passagers prioritaire indique-t-il sa priorité ?", "choices": [
+      {"text": "Un ballon vert, visible de tous les côtés", "correct": true},
+      {"text": "Un ballon jaune, visible de tous les côtés", "correct": false},
+      {"text": "Un ballon blanc, visible de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 27 — ballon vert visible de tous les côtés.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 28", "questions": [
+    {"stem": "De jour, comment un bateau incapable de manœuvrer signale-t-il sa situation au moyen d'un pavillon ?", "choices": [
+      {"text": "En balançant un pavillon rouge et/ou en émettant le signal sonore réglementaire", "correct": true},
+      {"text": "En balançant un pavillon blanc visible de tous les côtés", "correct": false},
+      {"text": "En hissant un ballon vert visible de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 28 — un pavillon rouge balancé et/ou le signal sonore réglementaire.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 29", "questions": [
+    {"stem": "De jour, comment un bateau incapable de manœuvrer peut-il se signaler au moyen de marques fixes visibles de tous les côtés ?", "choices": [
+      {"text": "Deux ballons noirs superposés, à environ 1 m l'un au-dessus de l'autre, visibles de tous les côtés", "correct": true},
+      {"text": "Deux ballons verts superposés visibles de tous les côtés", "correct": false},
+      {"text": "Un ballon blanc visible de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 29 — deux ballons noirs superposés à environ 1 m de distance, visibles de tous les côtés.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 30", "questions": [
+    {"stem": "De jour, un bateau effectuant des travaux : que montre-t-il du côté où le passage est libre, et du côté où il n'est pas libre ?", "choices": [
+      {"text": "Côté libre : un pavillon rouge et blanc (ou un pavillon rouge et un pavillon blanc) ; côté non libre : un pavillon rouge", "correct": true},
+      {"text": "Côté libre : un pavillon rouge ; côté non libre : un pavillon rouge et blanc", "correct": false},
+      {"text": "Côté libre : un ballon vert ; côté non libre : un ballon noir", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 30 — côté libre : pavillon rouge et blanc ; côté non libre : pavillon rouge.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 32", "questions": [
+    {"stem": "De nuit, comment un bateau ou un établissement flottant à protéger contre les remous se signale-t-il ?", "choices": [
+      {"text": "Par un feu ordinaire rouge au-dessus d'un feu ordinaire blanc", "correct": true},
+      {"text": "Par un feu ordinaire blanc au-dessus d'un feu ordinaire rouge", "correct": false},
+      {"text": "Par deux feux rouges superposés visibles de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 32 — de nuit : feu ordinaire rouge au-dessus d'un feu ordinaire blanc.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 35", "questions": [
+    {"stem": "Quel feu spécial portent les bateaux des autorités de contrôle, des services d'incendie et de sauvetage lorsqu'ils sont en intervention ?", "choices": [
+      {"text": "Un feu bleu scintillant", "correct": true},
+      {"text": "Un feu vert clair visible de tous les côtés", "correct": false},
+      {"text": "Un feu jaune scintillant", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 35 — feu bleu scintillant pour les bateaux en intervention.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 37", "questions": [
+    {"stem": "Quel pavillon un bateau des autorités de contrôle hisse-t-il lorsqu'il veut entrer en communication avec un autre bateau ?", "choices": [
+      {"text": "Le pavillon lettre « K »", "correct": true},
+      {"text": "Le panneau lettre « A »", "correct": false},
+      {"text": "Un pavillon rouge", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 37 — pavillon lettre « K » pour entrer en communication.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 38", "questions": [
+    {"stem": "Comment un bateau en détresse appelle-t-il à l'aide, de nuit comme de jour ?", "choices": [
+      {"text": "De nuit : un feu rouge agité circulairement ; de jour : un pavillon rouge ou autre objet agité circulairement", "correct": true},
+      {"text": "De nuit : un feu blanc balancé ; de jour : un ballon vert hissé", "correct": false},
+      {"text": "De nuit : deux feux rouges superposés ; de jour : deux ballons noirs superposés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 38 — détresse : feu rouge (nuit) ou pavillon/objet rouge (jour) agité circulairement.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 40", "questions": [
+    {"stem": "Quel signal indique une plongée subaquatique effectuée à partir de la rive ?", "choices": [
+      {"text": "Un panneau portant la lettre « A »", "correct": true},
+      {"text": "Un pavillon portant la lettre « K »", "correct": false},
+      {"text": "Un ballon jaune visible de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 40 — panneau lettre « A » pour la plongée à partir de la rive.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 41", "questions": [
+    {"stem": "Quel signal porte un bateau utilisé pour la plongée subaquatique lorsque la plongée se fait à partir d'un plan d'eau ?", "choices": [
+      {"text": "Un panneau portant la lettre « A »", "correct": true},
+      {"text": "Un ballon blanc visible de tous les côtés", "correct": false},
+      {"text": "Un pavillon portant la lettre « K »", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 41 — panneau lettre « A » pour la plongée à partir d'un plan d'eau.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 42", "questions": [
+    {"stem": "Quel signal porte un bateau pêchant à la traîne et remorquant un ou plusieurs flotteurs ou écarteurs ?", "choices": [
+      {"text": "Un ballon blanc, visible de tous les côtés", "correct": true},
+      {"text": "Un ballon jaune, visible de tous les côtés", "correct": false},
+      {"text": "Un ballon vert, visible de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 42 — ballon blanc visible de tous les côtés pour la pêche à la traîne.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 43", "questions": [
+    {"stem": "Quel signal porte un bateau de pêche professionnelle en opération ?", "choices": [
+      {"text": "Un ballon jaune, visible de tous les côtés", "correct": true},
+      {"text": "Un ballon blanc, visible de tous les côtés", "correct": false},
+      {"text": "Un ballon vert, visible de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 43 — ballon jaune visible de tous les côtés pour la pêche professionnelle en opération.", "polarity": "affirmative"}
+  ]},
+  {"ref": "RNL Annexe I – fig. 8", "questions": [
+    {"stem": "De nuit, quels feux un bateau de plaisance motorisé (ou à voile naviguant au moteur) peut-il porter selon cette configuration simplifiée ?", "choices": [
+      {"text": "Un feu blanc visible de tous les côtés et des feux de côté vert et rouge", "correct": true},
+      {"text": "Un feu de mât blanc, des feux de côté vert et rouge et un feu de poupe blanc séparé", "correct": false},
+      {"text": "Un feu ordinaire jaune visible de tous les côtés", "correct": false}
+    ], "explanation": "RNL Annexe I, fig. 8 — feu blanc visible de tous les côtés et feux de côté vert et rouge.", "polarity": "affirmative"}
+  ]}
+]}

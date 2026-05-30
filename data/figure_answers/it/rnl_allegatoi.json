@@ -1,0 +1,409 @@
+{
+  "drafts": [
+    {
+      "ref": "RNL Allegato I – fig. 10",
+      "questions": [
+        {
+          "stem": "Di notte, quali fanali deve portare un veliero che naviga a motore (con o senza vela)?",
+          "choices": [
+            {"text": "Fuoco d'albero bianco, fuochi laterali verde e rosso, fuoco di poppa bianco", "correct": true},
+            {"text": "Un solo fuoco d'albero tricolore sulla punta dell'albero", "correct": false},
+            {"text": "Un unico fuoco ordinario bianco visibile per tutto l'orizzonte", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 10",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 11",
+      "questions": [
+        {
+          "stem": "Su un veliero che naviga a motore, in cosa possono essere riuniti i fuochi laterali e il fuoco di poppa?",
+          "choices": [
+            {"text": "In un fuoco d'albero tricolore collocato sulla punta dell'albero o nelle sue vicinanze", "correct": true},
+            {"text": "In un unico fuoco di poppa bianco visibile per tutto l'orizzonte", "correct": false},
+            {"text": "In un fuoco ordinario bianco a prua", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 11",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 12",
+      "questions": [
+        {
+          "stem": "Quale fanale può portare di notte una nave la cui potenza propulsiva non supera 6 kW, o un'imbarcazione da diporto lunga al massimo 7 m con velocità non superiore a 7 nodi?",
+          "choices": [
+            {"text": "Un fuoco ordinario bianco", "correct": true},
+            {"text": "Un fuoco d'albero tricolore", "correct": false},
+            {"text": "Fuochi laterali verde e rosso più un fuoco di poppa bianco", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 12",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 14",
+      "questions": [
+        {
+          "stem": "Quali fanali portano di notte le navi e gli impianti galleggianti rimorchiati?",
+          "choices": [
+            {"text": "Un fuoco d'albero bianco ordinario e un fuoco di poppa bianco ordinario", "correct": true},
+            {"text": "Fuochi laterali verde e rosso e un fuoco di poppa bianco", "correct": false},
+            {"text": "Un fuoco d'albero tricolore", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 14",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 16",
+      "questions": [
+        {
+          "stem": "Quale fanale porta di notte una nave senza motore che naviga isolata o in convoglio rimorchiato?",
+          "choices": [
+            {"text": "Un fuoco ordinario bianco visibile per tutto l'orizzonte", "correct": true},
+            {"text": "Un fuoco d'albero bianco con fuochi laterali verde e rosso", "correct": false},
+            {"text": "Un fuoco ordinario rosso visibile per tutto l'orizzonte", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 16",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 17",
+      "questions": [
+        {
+          "stem": "Quale fanale può portare di notte un veliero che naviga a vela?",
+          "choices": [
+            {"text": "Un fuoco ordinario bianco visibile per tutto l'orizzonte", "correct": true},
+            {"text": "Un fuoco d'albero tricolore sulla punta dell'albero", "correct": false},
+            {"text": "Un fuoco d'albero bianco con fuoco di poppa bianco", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 17",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 18",
+      "questions": [
+        {
+          "stem": "Quali fanali può portare di notte un veliero che naviga a vela, oltre ai fuochi laterali verde e rosso?",
+          "choices": [
+            {"text": "Un fuoco di poppa bianco", "correct": true},
+            {"text": "Un fuoco d'albero bianco", "correct": false},
+            {"text": "Un fuoco di poppa rosso", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 18",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 19",
+      "questions": [
+        {
+          "stem": "Dove va collocato il fuoco d'albero tricolore su un veliero che naviga a vela?",
+          "choices": [
+            {"text": "Sulla punta dell'albero o nelle sue vicinanze", "correct": true},
+            {"text": "A poppa, sopra il fuoco di poppa", "correct": false},
+            {"text": "A prua, al livello della coperta", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 19",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 22",
+      "questions": [
+        {
+          "stem": "Quale segnaletica notturna completiva mostra una nave senza manovrabilità secondo il par. 1 lett. b?",
+          "choices": [
+            {"text": "Due fuochi rossi sovrapposti a distanza di almeno 1 m, visibili da tutti i lati", "correct": true},
+            {"text": "Un solo fuoco rosso agitato", "correct": false},
+            {"text": "Due palloni neri sovrapposti", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 22",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 23",
+      "questions": [
+        {
+          "stem": "Quale fanale porta in stazionamento, di notte, ogni nave o apparecchio galleggiante?",
+          "choices": [
+            {"text": "Un fuoco ordinario bianco", "correct": true},
+            {"text": "Un fuoco ordinario rosso", "correct": false},
+            {"text": "Un fuoco d'albero tricolore", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 23",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 25",
+      "questions": [
+        {
+          "stem": "Di notte, su una nave o apparecchio galleggiante che effettua lavori, quali fuochi indicano il lato dove il transito è libero?",
+          "choices": [
+            {"text": "Un fuoco ordinario rosso e un fuoco ordinario bianco", "correct": true},
+            {"text": "Un solo fuoco ordinario rosso", "correct": false},
+            {"text": "Due fuochi rossi sovrapposti", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 25",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 26",
+      "questions": [
+        {
+          "stem": "Come vengono segnalate di notte le ancore che possono costituire un pericolo?",
+          "choices": [
+            {"text": "Con boe che portano un fuoco ordinario bianco", "correct": true},
+            {"text": "Con boe che portano un fuoco ordinario rosso", "correct": false},
+            {"text": "Con palloni gialli visibili da tutti i lati", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 26",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 27",
+      "questions": [
+        {
+          "stem": "Quale segnale diurno portano le navi passeggeri prioritarie?",
+          "choices": [
+            {"text": "Un pallone verde visibile da tutti i lati", "correct": true},
+            {"text": "Un pallone bianco visibile da tutti i lati", "correct": false},
+            {"text": "Un pallone giallo visibile da tutti i lati", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 27",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 28",
+      "questions": [
+        {
+          "stem": "Quale segnale diurno mostra una nave senza manovrabilità secondo il par. 1 lett. a?",
+          "choices": [
+            {"text": "Una bandiera rossa agitata e/o il segnale acustico regolamentare", "correct": true},
+            {"text": "Due palloni neri sovrapposti", "correct": false},
+            {"text": "Un pallone verde visibile da tutti i lati", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 28",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 29",
+      "questions": [
+        {
+          "stem": "Quale segnale diurno mostra una nave senza manovrabilità secondo il par. 1 lett. b?",
+          "choices": [
+            {"text": "Due palloni neri sovrapposti a circa 1 m di distanza, visibili da tutti i lati", "correct": true},
+            {"text": "Un pallone verde visibile da tutti i lati", "correct": false},
+            {"text": "Una bandiera rossa agitata", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 29",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 30",
+      "questions": [
+        {
+          "stem": "Di giorno, su una nave che effettua lavori, come viene segnalato il lato dove il transito non è libero?",
+          "choices": [
+            {"text": "Con una bandiera rossa", "correct": true},
+            {"text": "Con una bandiera rossa e bianca", "correct": false},
+            {"text": "Con una bandiera bianca", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 30",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 32",
+      "questions": [
+        {
+          "stem": "Di notte, quali fuochi portano le navi e gli impianti galleggianti da proteggere contro gli urti d'onda?",
+          "choices": [
+            {"text": "Un fuoco ordinario rosso e un fuoco ordinario bianco", "correct": true},
+            {"text": "Due fuochi rossi sovrapposti", "correct": false},
+            {"text": "Un solo fuoco ordinario bianco", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 32",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 35",
+      "questions": [
+        {
+          "stem": "Quale fanale distingue le navi d'intervento delle autorità di sorveglianza, dei servizi antincendio e di salvataggio?",
+          "choices": [
+            {"text": "Un fuoco intermittente azzurro", "correct": true},
+            {"text": "Un fuoco intermittente rosso", "correct": false},
+            {"text": "Un fuoco ordinario giallo visibile da tutti i lati", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 35",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 37",
+      "questions": [
+        {
+          "stem": "Quale bandiera mostra una nave delle autorità di sorveglianza che vuole mettersi in comunicazione con altre navi?",
+          "choices": [
+            {"text": "La bandiera della lettera «K»", "correct": true},
+            {"text": "Una bandiera rossa", "correct": false},
+            {"text": "La tavola della lettera «A»", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 37",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 38",
+      "questions": [
+        {
+          "stem": "Quale segnale di pericolo si dà di notte per chiedere soccorso?",
+          "choices": [
+            {"text": "Un fuoco rosso agitato circolarmente", "correct": true},
+            {"text": "Una bandiera rossa agitata circolarmente", "correct": false},
+            {"text": "Un fuoco intermittente azzurro", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 38",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 39",
+      "questions": [
+        {
+          "stem": "Quale segnale di pericolo si dà di giorno per chiedere soccorso?",
+          "choices": [
+            {"text": "Una bandiera rossa o altro oggetto agitati circolarmente", "correct": true},
+            {"text": "Un fuoco rosso agitato circolarmente", "correct": false},
+            {"text": "Un pallone nero visibile da tutti i lati", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 39",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 40",
+      "questions": [
+        {
+          "stem": "Quale segnale contrassegna i tuffi subacquei effettuati da terra?",
+          "choices": [
+            {"text": "Una tavola secondo la lettera «A»", "correct": true},
+            {"text": "Una bandiera secondo la lettera «K»", "correct": false},
+            {"text": "Un pallone bianco visibile da tutti i lati", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 40",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 41",
+      "questions": [
+        {
+          "stem": "Quale segnale portano le navi usate per i tuffi subacquei effettuati al largo?",
+          "choices": [
+            {"text": "Una tavola secondo la lettera «A»", "correct": true},
+            {"text": "Un pallone giallo visibile da tutti i lati", "correct": false},
+            {"text": "Una bandiera rossa", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 41",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 42",
+      "questions": [
+        {
+          "stem": "Quale segnale diurno mostra una nave che pesca alla traina trainando uno o più galleggianti o espansori?",
+          "choices": [
+            {"text": "Un pallone bianco visibile da tutti i lati", "correct": true},
+            {"text": "Un pallone giallo visibile da tutti i lati", "correct": false},
+            {"text": "Un pallone verde visibile da tutti i lati", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 42",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 43",
+      "questions": [
+        {
+          "stem": "Quale segnale diurno mostra una nave da pesca professionale al lavoro?",
+          "choices": [
+            {"text": "Un pallone giallo visibile da tutti i lati", "correct": true},
+            {"text": "Un pallone bianco visibile da tutti i lati", "correct": false},
+            {"text": "Un pallone verde visibile da tutti i lati", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 43",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 8",
+      "questions": [
+        {
+          "stem": "Di notte, quali fanali può portare un'imbarcazione da diporto motorizzata (o nave da pesca professionale o veliero a motore) con un solo fuoco visibile per tutto l'orizzonte?",
+          "choices": [
+            {"text": "Un fuoco bianco visibile per tutto l'orizzonte più fuochi laterali verde e rosso", "correct": true},
+            {"text": "Un fuoco d'albero bianco, fuochi laterali e un fuoco di poppa bianco", "correct": false},
+            {"text": "Un solo fuoco d'albero tricolore", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 8",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "RNL Allegato I – fig. 9",
+      "questions": [
+        {
+          "stem": "Di notte, quali fanali può portare un'imbarcazione da diporto motorizzata o un veliero a motore (con o senza vela) secondo il par. 3 lett. c e d?",
+          "choices": [
+            {"text": "Un fuoco bianco visibile per tutto l'orizzonte più fuochi laterali verde e rosso", "correct": true},
+            {"text": "Un solo fuoco ordinario bianco visibile per tutto l'orizzonte", "correct": false},
+            {"text": "Un fuoco d'albero bianco e un fuoco di poppa bianco senza fuochi laterali", "correct": false}
+          ],
+          "explanation": "RNL Allegato I, fig. 9",
+          "polarity": "affirmative"
+        }
+      ]
+    }
+  ]
+}

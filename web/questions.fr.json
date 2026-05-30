@@ -2836,6 +2836,174 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig10-ff141136-da02f7af",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, quels feux un bateau à voile naviguant au moteur (voiles hissées ou non) doit-il porter ?",
+      "choices": [
+        {
+          "text": "Un feu de mât blanc, des feux de côté vert et rouge, et un feu de poupe blanc",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Uniquement un feu ordinaire blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un feu de mât blanc et un feu tricolore combinant les feux de côté et le feu de poupe à la pointe du mât",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_10-ff141136",
+        "ref": "ONI Annexe 2 – fig. 10",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 10 — feu de mât blanc, feux de côté vert/rouge, feu de poupe blanc.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig11-a7ce07dd-021a8527",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Un bateau à voile naviguant au moteur peut combiner ses feux de côté et son feu de poupe en un seul feu tricolore. Où ce feu tricolore est-il placé, et quel autre feu reste exigé ?",
+      "choices": [
+        {
+          "text": "Un feu de mât blanc, et le feu tricolore placé à la pointe du mât ou à proximité de celle-ci",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu de mât blanc, et le feu tricolore placé sur la poupe au ras de l'eau",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Aucun feu de mât, et un feu de poupe blanc séparé du feu tricolore",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_11-a7ce07dd",
+        "ref": "ONI Annexe 2 – fig. 11",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 11 — feu de mât blanc; feux de côté et feu de poupe combinés en un feu tricolore à la pointe du mât ou à proximité.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig14-45636e4f-f71e248a",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, quel feu un bateau non motorisé naviguant isolément ou en convoi remorqué doit-il porter ?",
+      "choices": [
+        {
+          "text": "Un feu ordinaire blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu de mât blanc avec feux de côté vert et rouge",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un feu ordinaire jaune visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_14-45636e4f",
+        "ref": "ONI Annexe 2 – fig. 14",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 14 — bateaux non motorisés, isolés ou remorqués: feu ordinaire blanc visible de tous les côtés.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig15-42ccc9b1-20822384",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, quel feu un bateau naviguant à la voile (sans moteur) doit-il au minimum porter ?",
+      "choices": [
+        {
+          "text": "Un feu ordinaire blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Des feux de côté vert et rouge et un feu de poupe blanc",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un feu de mât blanc et un feu tricolore en haut du mât",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_15-42ccc9b1",
+        "ref": "ONI Annexe 2 – fig. 15",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 15 — bateaux naviguant à voile: feu ordinaire blanc visible de tous les côtés.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig17-77b94b84-cb761fb4",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -2875,6 +3043,90 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         2
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig18-ec6e52d1-c0d19d8f",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, un bateau porte deux feux superposés visibles de tous les côtés, un feu de poupe et un feu bicolore (ou des feux de côté séparés). Quelles sont les couleurs des deux feux superposés ?",
+      "choices": [
+        {
+          "text": "Le feu supérieur rouge, le feu inférieur vert",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le feu supérieur vert, le feu inférieur rouge",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les deux feux blancs",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_18-ec6e52d1",
+        "ref": "ONI Annexe 2 – fig. 18",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 18 — deux feux superposés visibles de tous les côtés: le supérieur rouge, l'inférieur vert.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig19-afd9bcc6-74e76f73",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, quel feu un bateau en stationnement doit-il porter ?",
+      "choices": [
+        {
+          "text": "Un feu ordinaire blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu ordinaire rouge visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Des feux de côté vert et rouge",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_19-afd9bcc6",
+        "ref": "ONI Annexe 2 – fig. 19",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 19 — bateaux en stationnement: feu ordinaire blanc visible de tous les côtés.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
       ]
     },
     {
@@ -2920,6 +3172,90 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig20-188a22fa-4dc0d6cb",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, lorsque la sécurité de la navigation l'exige, comment les engins flottants doivent-ils être signalés ?",
+      "choices": [
+        {
+          "text": "Par un éclairage permettant de distinguer leur contour",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Par un feu ordinaire jaune visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Par un feu de mât blanc et des feux de côté vert et rouge",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_20-188a22fa",
+        "ref": "ONI Annexe 2 – fig. 20",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 20 — engins flottants: lorsque la sécurité l'exige, éclairage permettant de distinguer le contour.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig21-a4c59f38-15b5ccdf",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Outre les feux de route habituels, quel feu distinctif un bateau prioritaire doit-il porter de nuit ?",
+      "choices": [
+        {
+          "text": "Un feu clair vert visible de tous les côtés, placé au moins 1 m plus haut que le feu de mât",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu clair rouge visible de tous les côtés, placé au moins 1 m plus haut que le feu de mât",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un feu ordinaire jaune visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_21-a4c59f38",
+        "ref": "ONI Annexe 2 – fig. 21",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 21 — bateaux prioritaires: un feu clair vert visible de tous les côtés, au moins 1 m au-dessus du feu de mât.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig22-f87cb685-71648c56",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -2959,6 +3295,48 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig23-78f17195-0b4083e1",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Pour signaler qu'il doit être protégé contre les remous, quels feux supplémentaires un bateau porte-t-il de nuit, en plus des feux prescrits ?",
+      "choices": [
+        {
+          "text": "Un feu ordinaire rouge visible de tous les côtés au-dessus d'un feu ordinaire blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu ordinaire blanc au-dessus d'un feu ordinaire rouge, tous deux visibles de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Deux feux ordinaires rouges superposés visibles de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_23-78f17195",
+        "ref": "ONI Annexe 2 – fig. 23",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 23 — protection contre les remous: feu rouge visible de tous les côtés au-dessus d'un feu blanc visible de tous les côtés.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
       ]
     },
     {
@@ -3256,6 +3634,90 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig32-8474c209-75ed07a8",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Quel signal un bateau de la police, des gardes-frontière ou de la surveillance de la pêche hisse-t-il lorsqu'il veut prendre contact avec un autre bateau ?",
+      "choices": [
+        {
+          "text": "Le pavillon lettre «K», dont la moitié côté hampe est jaune et l'autre moitié bleue",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le pavillon lettre «K», dont la moitié supérieure est rouge et l'autre moitié blanche",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un pavillon entièrement rouge",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_32-8474c209",
+        "ref": "ONI Annexe 2 – fig. 32",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 32 — pavillon lettre «K», moitié côté hampe jaune, l'autre moitié bleue.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig33-f3928ea5-eda240bd",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, quel feu un bateau de pêche professionnelle doit-il porter ?",
+      "choices": [
+        {
+          "text": "Un feu ordinaire jaune visible de tous les côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu ordinaire blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un feu ordinaire rouge visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_33-f3928ea5",
+        "ref": "ONI Annexe 2 – fig. 33",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 33 — bateaux de pêche professionnelle: feu ordinaire jaune visible de tous les côtés.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig34-38f8c8ba-70ce9a19",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -3298,6 +3760,132 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig35-49c140b6-402a00cf",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Quel signal de jour un bateau qui pêche à la traîne doit-il montrer ?",
+      "choices": [
+        {
+          "text": "Un ballon blanc",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un ballon vert visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un feu ordinaire jaune visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_35-49c140b6",
+        "ref": "ONI Annexe 2 – fig. 35",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 35 — bateaux qui pêchent à la traîne: ballon blanc.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig36-f348b5a7-e9b8bb56",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "En cas de plongée subaquatique effectuée à partir de la rive, quel signal doit être montré ?",
+      "choices": [
+        {
+          "text": "Le panneau lettre «A» (guidon à deux pointes, moitié côté hampe blanche, l'autre moitié bleue)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le pavillon lettre «K» (moitié côté hampe jaune, l'autre moitié bleue)",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un ballon blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_36-f348b5a7",
+        "ref": "ONI Annexe 2 – fig. 36",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 36 — plongée à partir de la rive: panneau lettre «A», guidon à deux pointes blanc/bleu.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig37-6c099ecd-a0366ec7",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "En cas de plongée subaquatique effectuée à partir d'un plan d'eau, comment le panneau lettre «A» doit-il être présenté ?",
+      "choices": [
+        {
+          "text": "Le panneau lettre «A» (guidon blanc/bleu) visible de tous les côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le panneau lettre «A» orienté uniquement vers la rive",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un pavillon rouge visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_37-6c099ecd",
+        "ref": "ONI Annexe 2 – fig. 37",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 37 — plongée à partir d'un plan d'eau: panneau lettre «A» (guidon blanc/bleu) visible de tous les côtés.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe2fig39-a1ae0684-db554fd9",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -3335,6 +3923,90 @@
       "review_status": "auto_approved",
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig4-6f7c0dce-5b9aefe1",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, quels feux un bateau motorisé naviguant isolément (ou un remorqueur) doit-il porter ?",
+      "choices": [
+        {
+          "text": "Un feu de mât (ou de proue) clair blanc, des feux de côté clair vert et clair rouge, et un feu de poupe ordinaire blanc",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Uniquement un feu ordinaire blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un feu clair blanc et un feu clair vert visible de tous les côtés placé plus haut que le feu de mât",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_4-6f7c0dce",
+        "ref": "ONI Annexe 2 – fig. 4",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 4 — bateaux motorisés isolés/remorqueurs: feu de mât clair blanc, feux de côté clair vert/rouge, feu de poupe ordinaire blanc.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig40-dc3b2f2d-60fa671a",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, comment un bateau en détresse signale-t-il sa situation ?",
+      "choices": [
+        {
+          "text": "En balançant circulairement un feu",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "En balançant un feu (sans mouvement circulaire)",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "En montrant deux feux rouges fixes superposés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_40-dc3b2f2d",
+        "ref": "ONI Annexe 2 – fig. 40",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 40 — bateaux en détresse: balancer circulairement un feu.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
       "correct": [
         0
       ]
@@ -3424,6 +4096,258 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe2fig43-f7b06d9e-947594fe",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, comment un engin flottant (ou un bateau au travail, échoué ou coulé) signale-t-il les côtés où le passage est libre ?",
+      "choices": [
+        {
+          "text": "Par un feu ordinaire rouge et un feu ordinaire blanc",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Par un feu ordinaire rouge seul",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Par un feu ordinaire vert et un feu ordinaire blanc",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_43-f7b06d9e",
+        "ref": "ONI Annexe 2 – fig. 43",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 43 — côté où le passage est libre: feu ordinaire rouge + feu ordinaire blanc; côté non libre: feu ordinaire rouge seul.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig44-1e963c8a-41be78c5",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De jour, quel pavillon signale le côté où le passage n'est PAS libre près d'un engin flottant ou d'un bateau au travail ?",
+      "choices": [
+        {
+          "text": "Un pavillon rouge",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un pavillon dont la moitié supérieure est rouge et la moitié inférieure blanche",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un pavillon entièrement blanc",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_44-1e963c8a",
+        "ref": "ONI Annexe 2 – fig. 44",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 44 — côté où le passage n'est pas libre: pavillon rouge; côté libre: pavillon rouge/blanc.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig45-46d6d361-4c73921b",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De jour, quel signal indique le côté où le passage est libre près d'un engin flottant ou d'un bateau au travail (variante à deux pavillons) ?",
+      "choices": [
+        {
+          "text": "Deux pavillons superposés, le supérieur rouge et l'inférieur blanc",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Deux pavillons superposés, le supérieur blanc et l'inférieur rouge",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un pavillon rouge unique",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_45-46d6d361",
+        "ref": "ONI Annexe 2 – fig. 45",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 45 — côté libre: deux pavillons superposés, supérieur rouge, inférieur blanc; côté non libre: pavillon rouge.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig5-b9cc2457-0d1812fc",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, où est placé le feu de mât (feu clair blanc) d'un convoi poussé ?",
+      "choices": [
+        {
+          "text": "Sur le bateau de tête",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sur le bateau pousseur, à l'arrière du convoi",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Au centre du convoi, sur le bateau le plus visible",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_5-b9cc2457",
+        "ref": "ONI Annexe 2 – fig. 5",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 5 — convois poussés: feu de mât clair blanc placé sur le bateau de tête.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig8-abe2e33a-1a2b7850",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, quels feux un bateau de pêche professionnelle, de sport ou de plaisance motorisé (ou un voilier au moteur) peut-il porter selon cette variante simplifiée ?",
+      "choices": [
+        {
+          "text": "Un feu blanc visible de tous les côtés et des feux de côté vert et rouge",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu de mât blanc, des feux de côté vert/rouge et un feu de poupe blanc séparé",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Uniquement un feu ordinaire blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_8-abe2e33a",
+        "ref": "ONI Annexe 2 – fig. 8",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 8 — feu blanc visible de tous les côtés + feux de côté vert et rouge.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe2fig9-ea35d966-a3f6fbb6",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Selon cette variante, comment les feux de côté d'un bateau de sport/plaisance motorisé (ou voilier au moteur) portant un feu blanc visible de tous les côtés peuvent-ils être disposés dans la zone avant ?",
+      "choices": [
+        {
+          "text": "Côte à côte dans la zone avant, ou comme feu bicolore",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Combinés avec le feu de poupe en un feu tricolore au sommet du mât",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Remplacés par un seul feu ordinaire jaune visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_2__fig_9-ea35d966",
+        "ref": "ONI Annexe 2 – fig. 9",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 2, fig. 9 — feu blanc visible de tous les côtés + feux de côté vert/rouge, placés côte à côte dans la zone avant ou comme feu bicolore.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe3fig1-74a2f981-b124ec78",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -3463,6 +4387,48 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         1
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig1-9fc6fa6d-38447aa2",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Que signifie le signal général d'interdiction (panneau circulaire à bordure rouge avec barre rouge) placé sur un plan d'eau ?",
+      "choices": [
+        {
+          "text": "Interdiction de passer",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le chenal est limité à une certaine distance de la rive",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Passe recommandée pour franchir un pont",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_1-9fc6fa6d",
+        "ref": "ONI Annexe 4 – fig. 1",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 1 — signal général d'interdiction: interdiction de passer.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
       ]
     },
     {
@@ -4138,6 +5104,48 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig25-2aad3948-650cf03e",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Sur le signal « Le chenal est limité », que représente le chiffre porté sur le panneau ?",
+      "choices": [
+        {
+          "text": "La distance, en mètres, à laquelle les bateaux doivent se tenir par rapport à la rive",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La vitesse maximale autorisée en km/h",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La profondeur minimale de l'eau en mètres",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_25-2aad3948",
+        "ref": "ONI Annexe 4 – fig. 25",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 25 — chenal limité: le chiffre indique en mètres la distance à garder par rapport à la rive.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig26-3e933a73-9dcf4c71",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -4175,6 +5183,48 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig27-ba251a55-5d179299",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Que signale le panneau « Passe recommandée des ponts » de type a ?",
+      "choices": [
+        {
+          "text": "Une passe recommandée pour franchir le pont dans les deux sens",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une passe recommandée à sens unique seulement",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Une interdiction de franchir le pont",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_27-ba251a55",
+        "ref": "ONI Annexe 4 – fig. 27",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 27 — passe recommandée des ponts, a: dans les deux sens.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
       "correct": [
         0
       ]
@@ -5020,6 +6070,90 @@
       ]
     },
     {
+      "id": "q-oni-oniannexe4fig46-de851140-c3876778",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Un panneau indique « 12 km/h » accompagné de la mention « 1000 m ». Comment l'interpréter ?",
+      "choices": [
+        {
+          "text": "Obligation de ne pas dépasser 12 km/h à partir d'une distance de 1000 m",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Distance minimale de 12 m à respecter pendant 1000 km",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Profondeur de 12 m sur une longueur de chenal de 1000 m",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_46-de851140",
+        "ref": "ONI Annexe 4 – fig. 46",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 46 — exemple: obligation de ne pas dépasser 12 km/h à 1000 m.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig49-ad8400ee-33ef26ec",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Comment est signalé un obstacle isolé ?",
+      "choices": [
+        {
+          "text": "Par un cône pointe en bas, peint en rouge ou non peint",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Par un cône pointe en haut, peint en vert ou non peint",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Par un cylindre peint en rouge ou non peint",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_49-ad8400ee",
+        "ref": "ONI Annexe 4 – fig. 49",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 49 — obstacles isolés: cône pointe en bas peint en rouge ou non peint.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-oni-oniannexe4fig5-41303a8b-96776c22",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -5057,6 +6191,216 @@
       "review_status": "auto_approved",
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig50-d3e83c17-db7f9c4a",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Dans la signalisation du chenal, par quelles marques en sont délimités les deux côtés ?",
+      "choices": [
+        {
+          "text": "Des cylindres peints en rouge et des cônes pointe en haut peints en vert",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Des cônes pointe en bas peints en rouge et des cylindres verts",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Des flotteurs jaunes munis de réflecteurs radar",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_50-d3e83c17",
+        "ref": "ONI Annexe 4 – fig. 50",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 50 — chenal: cylindres rouges et cônes verts pointe en haut.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig52-979bca5a-daf9d185",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Pour signaler un haut-fonds à proximité de la rive, quelles marques utilise-t-on côté large et côté terre ?",
+      "choices": [
+        {
+          "text": "Côté large: des cylindres; côté terre: des cônes",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Côté large: des cônes; côté terre: des cylindres",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Côté large et côté terre: des flotteurs jaunes",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_52-979bca5a",
+        "ref": "ONI Annexe 4 – fig. 52",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 52 — haut-fonds près de la rive: côté large cylindres, côté terre cônes.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig53-12f3a908-564ca9f5",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Pour un chenal balisé dans une zone de hauts-fonds, comment sont marqués les côtés droit et gauche vus du large ?",
+      "choices": [
+        {
+          "text": "Côté droit: des cônes verts; côté gauche: des cylindres rouges",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Côté droit: des cylindres rouges; côté gauche: des cônes verts",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les deux côtés: des cônes pointe en bas peints en rouge",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_53-12f3a908",
+        "ref": "ONI Annexe 4 – fig. 53",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 53 — chenal en zone de hauts-fonds: côté droit (vu du large) cônes verts, côté gauche cylindres rouges.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig54-c3024fd8-7dcd9bb0",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Comment une marque cardinale signale-t-elle le quadrant Nord d'un obstacle étendu ?",
+      "choices": [
+        {
+          "text": "Deux cônes superposés, les deux pointes en haut",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Deux cônes superposés, les deux pointes en bas",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Deux cônes superposés, le cône inférieur pointe en bas et le supérieur pointe en haut",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_54-c3024fd8",
+        "ref": "ONI Annexe 4 – fig. 54",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 54 — quadrant Nord: deux cônes superposés, les deux pointes en haut.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-oni-oniannexe4fig55-ab288aa3-7fd073f9",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Des marques cardinales signalent un haut-fonds étendu en indiquant les quadrants Nord et Ouest. Qu'indiquent-elles ?",
+      "choices": [
+        {
+          "text": "Que les eaux profondes se trouvent dans les quadrants Nord et Ouest",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Que l'obstacle se trouve dans les quadrants Nord et Ouest",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Que le passage est interdit dans les quadrants Nord et Ouest",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "oni-oni_annexe_4__fig_55-ab288aa3",
+        "ref": "ONI Annexe 4 – fig. 55",
+        "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+        "as_of": "2022-01-01",
+        "licence": "Public domain — Swiss federal law (freely reusable)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "ONI Annexe 4, fig. 55 — les marques indiquent que les eaux profondes se trouvent dans les quadrants Nord et Ouest.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
       "correct": [
         0
       ]
@@ -5314,6 +6658,258 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig10-14b9e7fd-28c54298",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, quels feux un bateau à voile naviguant au moteur (voiles hissées ou non) doit-il porter ?",
+      "choices": [
+        {
+          "text": "Un feu de mât blanc, des feux de côté vert et rouge, et un feu de poupe blanc",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu blanc visible de tous les côtés et des feux de côté vert et rouge, sans feu de mât",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Uniquement un feu ordinaire blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_10-14b9e7fd",
+        "ref": "RNL Annexe I – fig. 10",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 10 — feu de mât blanc, feux de côté vert et rouge, feu de poupe blanc.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig11-a62f797a-9ca81c6f",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Un bateau à voile naviguant au moteur peut, au lieu de feux de côté et d'un feu de poupe séparés, combiner ces feux. Comment et où ce feu combiné est-il disposé, en plus du feu de mât blanc ?",
+      "choices": [
+        {
+          "text": "Un feu tricolore combinant feux de côté et feu de poupe, placé à la pointe du mât ou à proximité",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu bicolore placé dans la zone avant, le feu de poupe restant séparé",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un feu blanc visible de tous les côtés placé à la poupe",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_11-a62f797a",
+        "ref": "RNL Annexe I – fig. 11",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 11 — feu de mât blanc et feu tricolore (côtés + poupe) à la pointe du mât ou à proximité.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig14-3c63d9dd-f83e0153",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, quels feux un bateau ou engin flottant remorqué doit-il porter ?",
+      "choices": [
+        {
+          "text": "Un feu de mât ordinaire blanc et un feu de poupe ordinaire blanc",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu de mât blanc, des feux de côté vert et rouge, et un feu de poupe blanc",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un seul feu ordinaire blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_14-3c63d9dd",
+        "ref": "RNL Annexe I – fig. 14",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 14 — feu de mât ordinaire blanc et feu de poupe ordinaire blanc.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig16-876eb8a5-7c8d85d1",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, comment un bateau non motorisé naviguant isolément ou en convoi remorqué se signale-t-il ?",
+      "choices": [
+        {
+          "text": "Par un feu ordinaire blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Par un feu de mât blanc et des feux de côté vert et rouge",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Par un feu ordinaire jaune visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_16-876eb8a5",
+        "ref": "RNL Annexe I – fig. 16",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 16 — feu ordinaire blanc visible de tous les côtés.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig17-98ce7451-f4d4f025",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, par quel feu un bateau naviguant à voile (sans moteur) peut-il se signaler de la manière la plus simple ?",
+      "choices": [
+        {
+          "text": "Un feu ordinaire blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu de mât blanc accompagné de feux de côté vert et rouge",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un feu tricolore placé à la pointe du mât",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_17-98ce7451",
+        "ref": "RNL Annexe I – fig. 17",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 17 — feu ordinaire blanc visible de tous les côtés.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig18-71d213c1-d6939ea8",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, un bateau naviguant à voile portant des feux de côté et un feu de poupe : quels sont ces feux ?",
+      "choices": [
+        {
+          "text": "Feux de côté vert et rouge et feu de poupe blanc",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Feux de côté vert et rouge, feu de poupe blanc et feu de mât blanc",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un feu ordinaire jaune visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_18-71d213c1",
+        "ref": "RNL Annexe I – fig. 18",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 18 — feux de côté vert et rouge, feu de poupe blanc (pas de feu de mât).",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig19-5a1f0630-36d63fdc",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -5398,6 +6994,426 @@
       ]
     },
     {
+      "id": "q-rnl-rnlannexeifig21-b53b2ab6-f516b1c0",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, comment un bateau devenu incapable de manœuvrer signale-t-il sa situation, en plus de ses feux ordinaires ?",
+      "choices": [
+        {
+          "text": "En balançant un feu rouge et/ou en émettant le signal sonore réglementaire",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "En balançant un feu blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "En montrant un ballon vert visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_21-b53b2ab6",
+        "ref": "RNL Annexe I – fig. 21",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 21 — un feu rouge balancé et/ou le signal sonore réglementaire.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig22-a4ed91e3-c9832330",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, comment un bateau incapable de manœuvrer peut-il se signaler au moyen de feux fixes visibles de tous les côtés ?",
+      "choices": [
+        {
+          "text": "Deux feux rouges superposés, à environ 1 m l'un au-dessus de l'autre, visibles de tous les côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Deux feux blancs superposés à environ 1 m l'un de l'autre",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un feu rouge au-dessus d'un feu blanc, tous deux visibles de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_22-a4ed91e3",
+        "ref": "RNL Annexe I – fig. 22",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 22 — deux feux rouges superposés à environ 1 m de distance, visibles de tous les côtés.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig24-b5accf5f-12f3ae86",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, comment un engin flottant en stationnement doit-il être signalé ?",
+      "choices": [
+        {
+          "text": "Éclairé de telle manière que ses contours soient reconnaissables",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Par un feu ordinaire rouge au-dessus d'un feu ordinaire blanc",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Par un ballon noir visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_24-b5accf5f",
+        "ref": "RNL Annexe I – fig. 24",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 24 — engin flottant en stationnement éclairé de façon à rendre ses contours reconnaissables.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig25-3522004d-1396f956",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, un bateau effectuant des travaux ou des opérations de sondage : que montre-t-il du côté où le passage est libre, et du côté où il n'est pas libre ?",
+      "choices": [
+        {
+          "text": "Côté libre : feu ordinaire rouge au-dessus d'un feu ordinaire blanc ; côté non libre : feu ordinaire rouge",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Côté libre : feu ordinaire blanc seul ; côté non libre : feu ordinaire blanc au-dessus d'un feu rouge",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Côté libre : feu vert ; côté non libre : feu rouge",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_25-3522004d",
+        "ref": "RNL Annexe I – fig. 25",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 25 — côté libre : feu ordinaire rouge et feu ordinaire blanc ; côté non libre : feu ordinaire rouge.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig26-dc7b5242-bedc3637",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, comment les ancrages d'un bateau sont-ils signalés sur l'eau ?",
+      "choices": [
+        {
+          "text": "Par des bouées portant un feu ordinaire blanc",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Par des bouées portant un feu ordinaire rouge",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Par des ballons noirs visibles de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_26-dc7b5242",
+        "ref": "RNL Annexe I – fig. 26",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 26 — ancrages signalés par des bouées portant un feu ordinaire blanc.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig27-7ff66719-f5c7379d",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De jour, par quel signal un bateau à passagers prioritaire indique-t-il sa priorité ?",
+      "choices": [
+        {
+          "text": "Un ballon vert, visible de tous les côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un ballon jaune, visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un ballon blanc, visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_27-7ff66719",
+        "ref": "RNL Annexe I – fig. 27",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 27 — ballon vert visible de tous les côtés.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig28-d7ffe00b-222da613",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De jour, comment un bateau incapable de manœuvrer signale-t-il sa situation au moyen d'un pavillon ?",
+      "choices": [
+        {
+          "text": "En balançant un pavillon rouge et/ou en émettant le signal sonore réglementaire",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "En balançant un pavillon blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "En hissant un ballon vert visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_28-d7ffe00b",
+        "ref": "RNL Annexe I – fig. 28",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 28 — un pavillon rouge balancé et/ou le signal sonore réglementaire.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig29-c89b6222-c6604edf",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De jour, comment un bateau incapable de manœuvrer peut-il se signaler au moyen de marques fixes visibles de tous les côtés ?",
+      "choices": [
+        {
+          "text": "Deux ballons noirs superposés, à environ 1 m l'un au-dessus de l'autre, visibles de tous les côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Deux ballons verts superposés visibles de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un ballon blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_29-c89b6222",
+        "ref": "RNL Annexe I – fig. 29",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 29 — deux ballons noirs superposés à environ 1 m de distance, visibles de tous les côtés.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig30-0b7fee06-d9fb1e5c",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De jour, un bateau effectuant des travaux : que montre-t-il du côté où le passage est libre, et du côté où il n'est pas libre ?",
+      "choices": [
+        {
+          "text": "Côté libre : un pavillon rouge et blanc (ou un pavillon rouge et un pavillon blanc) ; côté non libre : un pavillon rouge",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Côté libre : un pavillon rouge ; côté non libre : un pavillon rouge et blanc",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Côté libre : un ballon vert ; côté non libre : un ballon noir",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_30-0b7fee06",
+        "ref": "RNL Annexe I – fig. 30",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 30 — côté libre : pavillon rouge et blanc ; côté non libre : pavillon rouge.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig32-79bb39ae-66f05d59",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, comment un bateau ou un établissement flottant à protéger contre les remous se signale-t-il ?",
+      "choices": [
+        {
+          "text": "Par un feu ordinaire rouge au-dessus d'un feu ordinaire blanc",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Par un feu ordinaire blanc au-dessus d'un feu ordinaire rouge",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Par deux feux rouges superposés visibles de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_32-79bb39ae",
+        "ref": "RNL Annexe I – fig. 32",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 32 — de nuit : feu ordinaire rouge au-dessus d'un feu ordinaire blanc.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
       "id": "q-rnl-rnlannexeifig34-1152b879-a07fde0a",
       "theme": "signalisation",
       "kind": "figure_recognition",
@@ -5435,6 +7451,132 @@
       "review_status": "auto_approved",
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig35-d034546c-db71770b",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Quel feu spécial portent les bateaux des autorités de contrôle, des services d'incendie et de sauvetage lorsqu'ils sont en intervention ?",
+      "choices": [
+        {
+          "text": "Un feu bleu scintillant",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu vert clair visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un feu jaune scintillant",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_35-d034546c",
+        "ref": "RNL Annexe I – fig. 35",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 35 — feu bleu scintillant pour les bateaux en intervention.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig37-adfe31a5-c4ffb0ae",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Quel pavillon un bateau des autorités de contrôle hisse-t-il lorsqu'il veut entrer en communication avec un autre bateau ?",
+      "choices": [
+        {
+          "text": "Le pavillon lettre « K »",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le panneau lettre « A »",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un pavillon rouge",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_37-adfe31a5",
+        "ref": "RNL Annexe I – fig. 37",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 37 — pavillon lettre « K » pour entrer en communication.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig38-a273c571-a67f81ea",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Comment un bateau en détresse appelle-t-il à l'aide, de nuit comme de jour ?",
+      "choices": [
+        {
+          "text": "De nuit : un feu rouge agité circulairement ; de jour : un pavillon rouge ou autre objet agité circulairement",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "De nuit : un feu blanc balancé ; de jour : un ballon vert hissé",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "De nuit : deux feux rouges superposés ; de jour : deux ballons noirs superposés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_38-a273c571",
+        "ref": "RNL Annexe I – fig. 38",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 38 — détresse : feu rouge (nuit) ou pavillon/objet rouge (jour) agité circulairement.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
       "correct": [
         0
       ]
@@ -5479,6 +7621,174 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         1
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig40-0560d461-1141976f",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Quel signal indique une plongée subaquatique effectuée à partir de la rive ?",
+      "choices": [
+        {
+          "text": "Un panneau portant la lettre « A »",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un pavillon portant la lettre « K »",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un ballon jaune visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_40-0560d461",
+        "ref": "RNL Annexe I – fig. 40",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 40 — panneau lettre « A » pour la plongée à partir de la rive.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig41-7dd1f930-951aa068",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Quel signal porte un bateau utilisé pour la plongée subaquatique lorsque la plongée se fait à partir d'un plan d'eau ?",
+      "choices": [
+        {
+          "text": "Un panneau portant la lettre « A »",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un ballon blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un pavillon portant la lettre « K »",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_41-7dd1f930",
+        "ref": "RNL Annexe I – fig. 41",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 41 — panneau lettre « A » pour la plongée à partir d'un plan d'eau.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig42-12aa6344-8d38ded9",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Quel signal porte un bateau pêchant à la traîne et remorquant un ou plusieurs flotteurs ou écarteurs ?",
+      "choices": [
+        {
+          "text": "Un ballon blanc, visible de tous les côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un ballon jaune, visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un ballon vert, visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_42-12aa6344",
+        "ref": "RNL Annexe I – fig. 42",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 42 — ballon blanc visible de tous les côtés pour la pêche à la traîne.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig43-9140f412-43e53483",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "Quel signal porte un bateau de pêche professionnelle en opération ?",
+      "choices": [
+        {
+          "text": "Un ballon jaune, visible de tous les côtés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un ballon blanc, visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un ballon vert, visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_43-9140f412",
+        "ref": "RNL Annexe I – fig. 43",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 43 — ballon jaune visible de tous les côtés pour la pêche professionnelle en opération.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
       ]
     },
     {
@@ -5605,6 +7915,48 @@
       "generator": "tmpl:figure_recognition.v1",
       "correct": [
         2
+      ]
+    },
+    {
+      "id": "q-rnl-rnlannexeifig8-928d2012-8bd6725c",
+      "theme": "signalisation",
+      "kind": "rule_mc",
+      "stem": "De nuit, quels feux un bateau de plaisance motorisé (ou à voile naviguant au moteur) peut-il porter selon cette configuration simplifiée ?",
+      "choices": [
+        {
+          "text": "Un feu blanc visible de tous les côtés et des feux de côté vert et rouge",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un feu de mât blanc, des feux de côté vert et rouge et un feu de poupe blanc séparé",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un feu ordinaire jaune visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "rnl-rnl_annexe_i__fig_8-928d2012",
+        "ref": "RNL Annexe I – fig. 8",
+        "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+        "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+        "as_of": "2019-06-01",
+        "licence": "Public domain — Franco-Swiss convention / Swiss federal law."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RNL Annexe I, fig. 8 — feu blanc visible de tous les côtés et feux de côté vert et rouge.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "figure:fr.v1",
+      "correct": [
+        0
       ]
     },
     {

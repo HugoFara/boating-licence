@@ -1,0 +1,349 @@
+{
+  "drafts": [
+    {
+      "ref": "ONI Annexe 2 – fig. 10",
+      "questions": [
+        {
+          "stem": "De nuit, quels feux un bateau à voile naviguant au moteur (voiles hissées ou non) doit-il porter ?",
+          "choices": [
+            {"text": "Un feu de mât blanc, des feux de côté vert et rouge, et un feu de poupe blanc", "correct": true},
+            {"text": "Uniquement un feu ordinaire blanc visible de tous les côtés", "correct": false},
+            {"text": "Un feu de mât blanc et un feu tricolore combinant les feux de côté et le feu de poupe à la pointe du mât", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 10 — feu de mât blanc, feux de côté vert/rouge, feu de poupe blanc.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 11",
+      "questions": [
+        {
+          "stem": "Un bateau à voile naviguant au moteur peut combiner ses feux de côté et son feu de poupe en un seul feu tricolore. Où ce feu tricolore est-il placé, et quel autre feu reste exigé ?",
+          "choices": [
+            {"text": "Un feu de mât blanc, et le feu tricolore placé à la pointe du mât ou à proximité de celle-ci", "correct": true},
+            {"text": "Un feu de mât blanc, et le feu tricolore placé sur la poupe au ras de l'eau", "correct": false},
+            {"text": "Aucun feu de mât, et un feu de poupe blanc séparé du feu tricolore", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 11 — feu de mât blanc; feux de côté et feu de poupe combinés en un feu tricolore à la pointe du mât ou à proximité.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 14",
+      "questions": [
+        {
+          "stem": "De nuit, quel feu un bateau non motorisé naviguant isolément ou en convoi remorqué doit-il porter ?",
+          "choices": [
+            {"text": "Un feu ordinaire blanc visible de tous les côtés", "correct": true},
+            {"text": "Un feu de mât blanc avec feux de côté vert et rouge", "correct": false},
+            {"text": "Un feu ordinaire jaune visible de tous les côtés", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 14 — bateaux non motorisés, isolés ou remorqués: feu ordinaire blanc visible de tous les côtés.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 15",
+      "questions": [
+        {
+          "stem": "De nuit, quel feu un bateau naviguant à la voile (sans moteur) doit-il au minimum porter ?",
+          "choices": [
+            {"text": "Un feu ordinaire blanc visible de tous les côtés", "correct": true},
+            {"text": "Des feux de côté vert et rouge et un feu de poupe blanc", "correct": false},
+            {"text": "Un feu de mât blanc et un feu tricolore en haut du mât", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 15 — bateaux naviguant à voile: feu ordinaire blanc visible de tous les côtés.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 18",
+      "questions": [
+        {
+          "stem": "De nuit, un bateau porte deux feux superposés visibles de tous les côtés, un feu de poupe et un feu bicolore (ou des feux de côté séparés). Quelles sont les couleurs des deux feux superposés ?",
+          "choices": [
+            {"text": "Le feu supérieur rouge, le feu inférieur vert", "correct": true},
+            {"text": "Le feu supérieur vert, le feu inférieur rouge", "correct": false},
+            {"text": "Les deux feux blancs", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 18 — deux feux superposés visibles de tous les côtés: le supérieur rouge, l'inférieur vert.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 19",
+      "questions": [
+        {
+          "stem": "De nuit, quel feu un bateau en stationnement doit-il porter ?",
+          "choices": [
+            {"text": "Un feu ordinaire blanc visible de tous les côtés", "correct": true},
+            {"text": "Un feu ordinaire rouge visible de tous les côtés", "correct": false},
+            {"text": "Des feux de côté vert et rouge", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 19 — bateaux en stationnement: feu ordinaire blanc visible de tous les côtés.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 20",
+      "questions": [
+        {
+          "stem": "De nuit, lorsque la sécurité de la navigation l'exige, comment les engins flottants doivent-ils être signalés ?",
+          "choices": [
+            {"text": "Par un éclairage permettant de distinguer leur contour", "correct": true},
+            {"text": "Par un feu ordinaire jaune visible de tous les côtés", "correct": false},
+            {"text": "Par un feu de mât blanc et des feux de côté vert et rouge", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 20 — engins flottants: lorsque la sécurité l'exige, éclairage permettant de distinguer le contour.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 21",
+      "questions": [
+        {
+          "stem": "Outre les feux de route habituels, quel feu distinctif un bateau prioritaire doit-il porter de nuit ?",
+          "choices": [
+            {"text": "Un feu clair vert visible de tous les côtés, placé au moins 1 m plus haut que le feu de mât", "correct": true},
+            {"text": "Un feu clair rouge visible de tous les côtés, placé au moins 1 m plus haut que le feu de mât", "correct": false},
+            {"text": "Un feu ordinaire jaune visible de tous les côtés", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 21 — bateaux prioritaires: un feu clair vert visible de tous les côtés, au moins 1 m au-dessus du feu de mât.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 23",
+      "questions": [
+        {
+          "stem": "Pour signaler qu'il doit être protégé contre les remous, quels feux supplémentaires un bateau porte-t-il de nuit, en plus des feux prescrits ?",
+          "choices": [
+            {"text": "Un feu ordinaire rouge visible de tous les côtés au-dessus d'un feu ordinaire blanc visible de tous les côtés", "correct": true},
+            {"text": "Un feu ordinaire blanc au-dessus d'un feu ordinaire rouge, tous deux visibles de tous les côtés", "correct": false},
+            {"text": "Deux feux ordinaires rouges superposés visibles de tous les côtés", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 23 — protection contre les remous: feu rouge visible de tous les côtés au-dessus d'un feu blanc visible de tous les côtés.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 32",
+      "questions": [
+        {
+          "stem": "Quel signal un bateau de la police, des gardes-frontière ou de la surveillance de la pêche hisse-t-il lorsqu'il veut prendre contact avec un autre bateau ?",
+          "choices": [
+            {"text": "Le pavillon lettre «K», dont la moitié côté hampe est jaune et l'autre moitié bleue", "correct": true},
+            {"text": "Le pavillon lettre «K», dont la moitié supérieure est rouge et l'autre moitié blanche", "correct": false},
+            {"text": "Un pavillon entièrement rouge", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 32 — pavillon lettre «K», moitié côté hampe jaune, l'autre moitié bleue.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 33",
+      "questions": [
+        {
+          "stem": "De nuit, quel feu un bateau de pêche professionnelle doit-il porter ?",
+          "choices": [
+            {"text": "Un feu ordinaire jaune visible de tous les côtés", "correct": true},
+            {"text": "Un feu ordinaire blanc visible de tous les côtés", "correct": false},
+            {"text": "Un feu ordinaire rouge visible de tous les côtés", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 33 — bateaux de pêche professionnelle: feu ordinaire jaune visible de tous les côtés.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 35",
+      "questions": [
+        {
+          "stem": "Quel signal de jour un bateau qui pêche à la traîne doit-il montrer ?",
+          "choices": [
+            {"text": "Un ballon blanc", "correct": true},
+            {"text": "Un ballon vert visible de tous les côtés", "correct": false},
+            {"text": "Un feu ordinaire jaune visible de tous les côtés", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 35 — bateaux qui pêchent à la traîne: ballon blanc.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 36",
+      "questions": [
+        {
+          "stem": "En cas de plongée subaquatique effectuée à partir de la rive, quel signal doit être montré ?",
+          "choices": [
+            {"text": "Le panneau lettre «A» (guidon à deux pointes, moitié côté hampe blanche, l'autre moitié bleue)", "correct": true},
+            {"text": "Le pavillon lettre «K» (moitié côté hampe jaune, l'autre moitié bleue)", "correct": false},
+            {"text": "Un ballon blanc visible de tous les côtés", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 36 — plongée à partir de la rive: panneau lettre «A», guidon à deux pointes blanc/bleu.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 37",
+      "questions": [
+        {
+          "stem": "En cas de plongée subaquatique effectuée à partir d'un plan d'eau, comment le panneau lettre «A» doit-il être présenté ?",
+          "choices": [
+            {"text": "Le panneau lettre «A» (guidon blanc/bleu) visible de tous les côtés", "correct": true},
+            {"text": "Le panneau lettre «A» orienté uniquement vers la rive", "correct": false},
+            {"text": "Un pavillon rouge visible de tous les côtés", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 37 — plongée à partir d'un plan d'eau: panneau lettre «A» (guidon blanc/bleu) visible de tous les côtés.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 38",
+      "questions": [
+        {
+          "stem": "De nuit, comment un bateau incapable de manœuvrer signale-t-il son état ?",
+          "choices": [
+            {"text": "En balançant un feu", "correct": true},
+            {"text": "En balançant circulairement un feu", "correct": false},
+            {"text": "En montrant un feu ordinaire rouge fixe visible de tous les côtés", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 38 — bateaux incapables de manœuvrer: balancer un feu.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 4",
+      "questions": [
+        {
+          "stem": "De nuit, quels feux un bateau motorisé naviguant isolément (ou un remorqueur) doit-il porter ?",
+          "choices": [
+            {"text": "Un feu de mât (ou de proue) clair blanc, des feux de côté clair vert et clair rouge, et un feu de poupe ordinaire blanc", "correct": true},
+            {"text": "Uniquement un feu ordinaire blanc visible de tous les côtés", "correct": false},
+            {"text": "Un feu clair blanc et un feu clair vert visible de tous les côtés placé plus haut que le feu de mât", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 4 — bateaux motorisés isolés/remorqueurs: feu de mât clair blanc, feux de côté clair vert/rouge, feu de poupe ordinaire blanc.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 40",
+      "questions": [
+        {
+          "stem": "De nuit, comment un bateau en détresse signale-t-il sa situation ?",
+          "choices": [
+            {"text": "En balançant circulairement un feu", "correct": true},
+            {"text": "En balançant un feu (sans mouvement circulaire)", "correct": false},
+            {"text": "En montrant deux feux rouges fixes superposés", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 40 — bateaux en détresse: balancer circulairement un feu.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 43",
+      "questions": [
+        {
+          "stem": "De nuit, comment un engin flottant (ou un bateau au travail, échoué ou coulé) signale-t-il les côtés où le passage est libre ?",
+          "choices": [
+            {"text": "Par un feu ordinaire rouge et un feu ordinaire blanc", "correct": true},
+            {"text": "Par un feu ordinaire rouge seul", "correct": false},
+            {"text": "Par un feu ordinaire vert et un feu ordinaire blanc", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 43 — côté où le passage est libre: feu ordinaire rouge + feu ordinaire blanc; côté non libre: feu ordinaire rouge seul.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 44",
+      "questions": [
+        {
+          "stem": "De jour, quel pavillon signale le côté où le passage n'est PAS libre près d'un engin flottant ou d'un bateau au travail ?",
+          "choices": [
+            {"text": "Un pavillon rouge", "correct": true},
+            {"text": "Un pavillon dont la moitié supérieure est rouge et la moitié inférieure blanche", "correct": false},
+            {"text": "Un pavillon entièrement blanc", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 44 — côté où le passage n'est pas libre: pavillon rouge; côté libre: pavillon rouge/blanc.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 45",
+      "questions": [
+        {
+          "stem": "De jour, quel signal indique le côté où le passage est libre près d'un engin flottant ou d'un bateau au travail (variante à deux pavillons) ?",
+          "choices": [
+            {"text": "Deux pavillons superposés, le supérieur rouge et l'inférieur blanc", "correct": true},
+            {"text": "Deux pavillons superposés, le supérieur blanc et l'inférieur rouge", "correct": false},
+            {"text": "Un pavillon rouge unique", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 45 — côté libre: deux pavillons superposés, supérieur rouge, inférieur blanc; côté non libre: pavillon rouge.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 5",
+      "questions": [
+        {
+          "stem": "De nuit, où est placé le feu de mât (feu clair blanc) d'un convoi poussé ?",
+          "choices": [
+            {"text": "Sur le bateau de tête", "correct": true},
+            {"text": "Sur le bateau pousseur, à l'arrière du convoi", "correct": false},
+            {"text": "Au centre du convoi, sur le bateau le plus visible", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 5 — convois poussés: feu de mât clair blanc placé sur le bateau de tête.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 8",
+      "questions": [
+        {
+          "stem": "De nuit, quels feux un bateau de pêche professionnelle, de sport ou de plaisance motorisé (ou un voilier au moteur) peut-il porter selon cette variante simplifiée ?",
+          "choices": [
+            {"text": "Un feu blanc visible de tous les côtés et des feux de côté vert et rouge", "correct": true},
+            {"text": "Un feu de mât blanc, des feux de côté vert/rouge et un feu de poupe blanc séparé", "correct": false},
+            {"text": "Uniquement un feu ordinaire blanc visible de tous les côtés", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 8 — feu blanc visible de tous les côtés + feux de côté vert et rouge.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Annexe 2 – fig. 9",
+      "questions": [
+        {
+          "stem": "Selon cette variante, comment les feux de côté d'un bateau de sport/plaisance motorisé (ou voilier au moteur) portant un feu blanc visible de tous les côtés peuvent-ils être disposés dans la zone avant ?",
+          "choices": [
+            {"text": "Côte à côte dans la zone avant, ou comme feu bicolore", "correct": true},
+            {"text": "Combinés avec le feu de poupe en un feu tricolore au sommet du mât", "correct": false},
+            {"text": "Remplacés par un seul feu ordinaire jaune visible de tous les côtés", "correct": false}
+          ],
+          "explanation": "ONI Annexe 2, fig. 9 — feu blanc visible de tous les côtés + feux de côté vert/rouge, placés côte à côte dans la zone avant ou comme feu bicolore.",
+          "polarity": "affirmative"
+        }
+      ]
+    }
+  ]
+}

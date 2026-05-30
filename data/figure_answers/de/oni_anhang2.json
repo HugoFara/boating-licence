@@ -1,0 +1,77 @@
+{"drafts": [
+  {"ref": "ONI Anhang 2 – fig. 10", "questions": [
+    {"stem": "Welche Lichter führt ein Segelschiff, das mit oder ohne gesetzte Segel unter Motor fährt?", "choices": [{"text": "Topplicht weiss, Seitenlichter grün und rot, Hecklicht weiss", "correct": true}, {"text": "Topplicht weiss sowie Seitenlichter und Hecklicht vereint in einem Dreifarben-Topplicht an der Mastspitze", "correct": false}, {"text": "Nur ein weisses gewöhnliches Rundumlicht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 10.", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 11", "questions": [
+    {"stem": "Ein Segelschiff fährt unter Motor und führt die Seitenlichter und das Hecklicht in einem Dreifarben-Topplicht an der Mastspitze. Welches zusätzliche Licht ist vorgeschrieben?", "choices": [{"text": "Ein weisses Topplicht", "correct": true}, {"text": "Ein gelbes gewöhnliches Rundumlicht", "correct": false}, {"text": "Ein grünes helles Rundumlicht mindestens 1 m über dem Topplicht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 11.", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 12", "questions": [
+    {"stem": "Welches Licht genügt nachts auf einem Sportboot, dessen Länge 7 m und dessen Geschwindigkeit 7 Knoten nicht übersteigt (oder dessen Antriebsleistung höchstens 6 kW beträgt)?", "choices": [{"text": "Ein weisses gewöhnliches Licht", "correct": true}, {"text": "Topplicht weiss hell, Seitenlichter grün und rot hell sowie Hecklicht weiss", "correct": false}, {"text": "Ein gelbes gewöhnliches Rundumlicht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 12.", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 14", "questions": [
+    {"stem": "Welches Licht führt ein einzeln oder im Schleppverband fahrendes Schiff ohne Maschinenantrieb?", "choices": [{"text": "Ein weisses gewöhnliches Rundumlicht", "correct": true}, {"text": "Topplicht weiss hell sowie Seitenlichter grün und rot", "correct": false}, {"text": "Ein gelbes gewöhnliches Rundumlicht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 14 (Art. 25 Abs. 1).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 15", "questions": [
+    {"stem": "Welches Licht darf ein Segelschiff führen, das unter Segel fährt?", "choices": [{"text": "Ein weisses gewöhnliches Rundumlicht", "correct": true}, {"text": "Topplicht weiss, Seitenlichter grün und rot, Hecklicht weiss", "correct": false}, {"text": "Ein gelbes gewöhnliches Rundumlicht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 15.", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 18", "questions": [
+    {"stem": "Bei zwei senkrecht übereinander angebrachten Rundumlichtern (zusätzlich zu Hecklicht und Seitenlichtern): welche Farben haben diese Rundumlichter?", "choices": [{"text": "Das obere Licht ist rot, das untere grün", "correct": true}, {"text": "Das obere Licht ist grün, das untere rot", "correct": false}, {"text": "Beide Lichter sind weiss", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 18 (Abs. 3).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 19", "questions": [
+    {"stem": "Welches Licht führt ein stillliegendes Schiff?", "choices": [{"text": "Ein weisses gewöhnliches Rundumlicht", "correct": true}, {"text": "Ein rotes gewöhnliches Rundumlicht über einem weissen Rundumlicht", "correct": false}, {"text": "Ein gelbes gewöhnliches Rundumlicht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 19 (Art. 26 Abs. 1).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 21", "questions": [
+    {"stem": "Welches zusätzliche Licht kennzeichnet ein Vorrangschiff über dem Topplicht?", "choices": [{"text": "Ein grünes helles Rundumlicht mindestens 1 m höher als das Topplicht", "correct": true}, {"text": "Ein rotes gewöhnliches Rundumlicht über einem weissen Rundumlicht", "correct": false}, {"text": "Ein gelbes gewöhnliches Rundumlicht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 21 (Art. 27 Bst. a).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 23", "questions": [
+    {"stem": "Mit welchem zusätzlichen Signal kennzeichnet ein Schiff, dass es Schutz gegen Wellenschlag verlangt (nachts)?", "choices": [{"text": "Ein rotes gewöhnliches Rundumlicht über einem weissen gewöhnlichen Rundumlicht", "correct": true}, {"text": "Ein grünes helles Rundumlicht über dem Topplicht", "correct": false}, {"text": "Ein weisses gewöhnliches Rundumlicht über einem weissen Rundumlicht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 23 (Art. 28 Bst. a).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 24", "questions": [
+    {"stem": "Mit welcher Flagge verlangt ein Schiff bei Tag Schutz gegen Wellenschlag?", "choices": [{"text": "Eine Flagge, deren obere Hälfte rot und deren untere Hälfte weiss ist", "correct": true}, {"text": "Eine Flagge, deren obere Hälfte weiss und deren untere Hälfte rot ist", "correct": false}, {"text": "Zwei weisse Flaggen übereinander", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 24 (Art. 28 Bst. b).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 26", "questions": [
+    {"stem": "Wie wird nachts eine gefährliche Verankerung gekennzeichnet?", "choices": [{"text": "Ein weisses gewöhnliches Rundumlicht über dem weissen Rundumlicht des stillliegenden Schiffes", "correct": true}, {"text": "Ein rotes gewöhnliches Rundumlicht über einem weissen Rundumlicht", "correct": false}, {"text": "Ein gelbes gewöhnliches Rundumlicht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 26 (Art. 29 Abs. 1 Bst. a).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 28", "questions": [
+    {"stem": "Wie werden einzelne Verankerungen gekennzeichnet, wenn es die Sicherheit der Schifffahrt erfordert?", "choices": [{"text": "Durch weisse Rundumlichter", "correct": true}, {"text": "Durch rote Rundumlichter", "correct": false}, {"text": "Durch gelbe Rundumlichter", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 28 (Art. 29 Abs. 2).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 32", "questions": [
+    {"stem": "Schiffe der Polizei, der Grenzbewachung oder der Fischereiaufsicht zeigen welches Zeichen, wenn sie mit anderen Schiffen Verbindung aufnehmen wollen?", "choices": [{"text": "Die Flagge «K», deren Hälfte am Stock gelb und deren andere Hälfte blau ist", "correct": true}, {"text": "Eine Flagge, deren obere Hälfte rot und deren untere Hälfte weiss ist", "correct": false}, {"text": "Den Doppelstander «A», dessen eine Hälfte weiss und dessen andere blau ist", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 32 (Art. 30 Abs. 2).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 33", "questions": [
+    {"stem": "Welches Licht dürfen Schiffe der Berufsfischer führen?", "choices": [{"text": "Ein gelbes gewöhnliches Rundumlicht", "correct": true}, {"text": "Ein weisses gewöhnliches Rundumlicht", "correct": false}, {"text": "Ein rotes gewöhnliches Rundumlicht über einem weissen Rundumlicht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 33 (Art. 31 Abs. 1 Bst. a).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 35", "questions": [
+    {"stem": "Welches Zeichen führen Schiffe, die mit der Schleppangel fischen (bei Tag)?", "choices": [{"text": "Einen weissen Ball", "correct": true}, {"text": "Eine rote Flagge", "correct": false}, {"text": "Zwei weisse Flaggen übereinander", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 35 (Art. 31 Abs. 2).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 36", "questions": [
+    {"stem": "Welches Zeichen kennzeichnet das Tauchen vom Land aus?", "choices": [{"text": "Die Tafel «A» (Doppelstander, eine Hälfte am Stock weiss, die andere blau)", "correct": true}, {"text": "Die Flagge «K» (Hälfte am Stock gelb, die andere blau)", "correct": false}, {"text": "Ein weisser Ball", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 36 (Art. 32 Abs. 1).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 37", "questions": [
+    {"stem": "Wie wird das Tauchen vom Gewässer aus gekennzeichnet?", "choices": [{"text": "Durch die von allen Seiten sichtbare Tafel «A» (Doppelstander, eine Hälfte weiss, die andere blau)", "correct": true}, {"text": "Durch einen weissen Ball", "correct": false}, {"text": "Durch eine rote Flagge", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 37 (Art. 32 Abs. 2).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 38", "questions": [
+    {"stem": "Mit welchem Zeichen macht sich ein manövrierunfähiges Schiff nachts bemerkbar?", "choices": [{"text": "Durch das Schwenken eines Lichtes", "correct": true}, {"text": "Durch das kreisförmige Schwenken eines Lichtes", "correct": false}, {"text": "Durch ein rotes Rundumlicht über einem weissen Rundumlicht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 38 (Art. 51 Abs. 1).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 4", "questions": [
+    {"stem": "Welche Lichter führt ein einzeln fahrendes oder schleppendes Schiff mit Maschinenantrieb?", "choices": [{"text": "Topp- oder Buglicht weiss hell, Seitenlichter grün und rot hell, Hecklicht weiss gewöhnlich", "correct": true}, {"text": "Ein weisses gewöhnliches Rundumlicht", "correct": false}, {"text": "Weisses Rundumlicht mit Seitenlichtern grün und rot, ohne Hecklicht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 4 (Art. 24 Abs. 1).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 40", "questions": [
+    {"stem": "Mit welchem Zeichen zeigt ein Schiff an, dass es in Not ist und Hilfe braucht?", "choices": [{"text": "Durch das kreisförmige Schwenken eines Lichtes", "correct": true}, {"text": "Durch das Schwenken eines Lichtes hin und her", "correct": false}, {"text": "Durch ein gelbes gewöhnliches Rundumlicht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 40 (Art. 58 Bst. a).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 42", "questions": [
+    {"stem": "Welche Körpergeste ist ein Notzeichen, um Hilfe anzufordern?", "choices": [{"text": "Langsames und wiederholtes Heben und Senken der ausgestreckten Arme", "correct": true}, {"text": "Kreisförmiges Schwenken eines Armes über dem Kopf", "correct": false}, {"text": "Einmaliges Heben beider Arme", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 42 (Art. 58 Bst. f).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 43", "questions": [
+    {"stem": "Wie kennzeichnet ein Schiff bei der Arbeit nachts die Seite, an der vorbeigefahren werden kann, bzw. die Seite, an der nicht vorbeigefahren werden kann?", "choices": [{"text": "Vorbei: rotes und weisses gewöhnliches Licht; nicht vorbei: rotes gewöhnliches Licht", "correct": true}, {"text": "Vorbei: nur weisses Licht; nicht vorbei: grünes Licht", "correct": false}, {"text": "Vorbei: rotes Licht; nicht vorbei: rotes und weisses Licht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 43 (Art. 71 Abs. 1 Bst. a).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 44", "questions": [
+    {"stem": "Wie kennzeichnet ein Schiff bei der Arbeit bei Tag mit Flaggen die Seite, an der vorbeigefahren werden kann, bzw. die Seite, an der nicht vorbeigefahren werden kann?", "choices": [{"text": "Vorbei: Flagge oben rot, unten weiss; nicht vorbei: rote Flagge", "correct": true}, {"text": "Vorbei: rote Flagge; nicht vorbei: Flagge oben rot, unten weiss", "correct": false}, {"text": "Vorbei: weisse Flagge; nicht vorbei: zwei weisse Flaggen übereinander", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 44 (Art. 71 Abs. 1 Bst. b).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 5", "questions": [
+    {"stem": "Wo ist bei einem Schubverband das weisse helle Topplicht anzubringen?", "choices": [{"text": "Auf dem vordersten Schiff", "correct": true}, {"text": "Auf dem hintersten Schiff", "correct": false}, {"text": "Auf jedem Schiff des Verbandes", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 5.", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Anhang 2 – fig. 8", "questions": [
+    {"stem": "Eine zulässige Variante für Berufsfischer-, Sport- und Vergnügungsschiffe mit Maschinenantrieb sowie Segelschiffe unter Motor besteht aus einem weissen Rundumlicht und welchen weiteren Lichtern?", "choices": [{"text": "Seitenlichter grün und rot", "correct": true}, {"text": "Einem zusätzlichen weissen Hecklicht und keinen Seitenlichtern", "correct": false}, {"text": "Einem gelben Rundumlicht", "correct": false}], "explanation": "BSV/ONI Anhang 2, Abb. 8 (Abs. 2 Bst. b und 3 Bst. d).", "polarity": "affirmative"}
+  ]}
+]}

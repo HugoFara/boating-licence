@@ -8,7 +8,7 @@
   ],
   "available": {
     "de": {
-      "count": 121,
+      "count": 185,
       "unofficial": false
     },
     "en": {
@@ -16,11 +16,11 @@
       "unofficial": true
     },
     "fr": {
-      "count": 155,
+      "count": 211,
       "unofficial": false
     },
     "it": {
-      "count": 123,
+      "count": 189,
       "unofficial": false
     }
   }

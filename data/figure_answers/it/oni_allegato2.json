@@ -1,0 +1,89 @@
+{"drafts": [
+  {"ref": "ONI Allegato 2 – fig. 10", "questions": [
+    {"stem": "Di notte, quali fanali deve mostrare un battello a vela che naviga a motore (con o senza vela), nella configurazione con fanale d'albero?", "choices": [{"text": "Fanale d'albero bianco, fanali laterali verde e rosso, fanale di poppa bianco", "correct": true}, {"text": "Solo un fanale ordinario a luce bianca visibile per tutto l'orizzonte", "correct": false}, {"text": "Fanali laterali verde e rosso e fanale di poppa bianco, senza fanale d'albero", "correct": false}], "explanation": "ONI Allegato 2, fig. 10.", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 11", "questions": [
+    {"stem": "Un battello a vela che naviga a motore può riunire i fanali laterali e il fanale di poppa in un unico fanale. Di che tipo di fanale si tratta e dove va collocato?", "choices": [{"text": "Un fanale d'albero tricolore, collocato sulla punta dell'albero o nelle sue vicinanze", "correct": true}, {"text": "Un fanale laterale combinato, collocato nella parte anteriore del natante", "correct": false}, {"text": "Un fanale ordinario a luce bianca, visibile per tutto l'orizzonte", "correct": false}], "explanation": "ONI Allegato 2, fig. 11.", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 12", "questions": [
+    {"stem": "Quale fanale deve mostrare di notte un natante la cui potenza propulsiva non supera 6 kW, oppure un'imbarcazione sportiva o da diporto lunga al massimo 7 m con velocità non superiore a 7 nodi?", "choices": [{"text": "Un fanale ordinario a luce bianca", "correct": true}, {"text": "Un fanale d'albero tricolore sulla punta dell'albero", "correct": false}, {"text": "Fanale d'albero bianco con fanali laterali verde e rosso", "correct": false}], "explanation": "ONI Allegato 2, fig. 12.", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 14", "questions": [
+    {"stem": "Quale fanale deve mostrare di notte un natante senza motore che naviga isolato o in convoglio rimorchiato?", "choices": [{"text": "Un fanale ordinario a luce bianca visibile per tutto l'orizzonte", "correct": true}, {"text": "Fanali laterali verde e rosso e un fanale di poppa bianco", "correct": false}, {"text": "Un fanale ordinario a luce gialla visibile per tutto l'orizzonte", "correct": false}], "explanation": "ONI Allegato 2, fig. 14 (art. 25 cpv. 1).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 15", "questions": [
+    {"stem": "Quale fanale deve mostrare di notte un battello a vela che naviga a vela (senza motore)?", "choices": [{"text": "Un fanale ordinario a luce bianca visibile per tutto l'orizzonte", "correct": true}, {"text": "Un fanale d'albero bianco con fanali laterali verde e rosso", "correct": false}, {"text": "Due fanali visibili per tutto l'orizzonte, uno rosso e uno verde, sovrapposti", "correct": false}], "explanation": "ONI Allegato 2, fig. 15.", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 18", "questions": [
+    {"stem": "Per i fanali a luce visibile per tutto l'orizzonte collocati verticalmente uno sopra l'altro, quale combinazione di colori è corretta?", "choices": [{"text": "Il fanale superiore a luce rossa, quello inferiore a luce verde", "correct": true}, {"text": "Il fanale superiore a luce verde, quello inferiore a luce rossa", "correct": false}, {"text": "Entrambi i fanali a luce bianca", "correct": false}], "explanation": "ONI Allegato 2, fig. 18 (cpv. 3).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 19", "questions": [
+    {"stem": "Quale fanale deve mostrare di notte un natante in stazionamento?", "choices": [{"text": "Una luce ordinaria bianca, visibile per tutto l'orizzonte", "correct": true}, {"text": "Una luce ordinaria rossa sopra una luce ordinaria bianca", "correct": false}, {"text": "Una luce ordinaria gialla, visibile per tutto l'orizzonte", "correct": false}], "explanation": "ONI Allegato 2, fig. 19 (art. 26 cpv. 1).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 21", "questions": [
+    {"stem": "Oltre ai fanali d'albero, laterali e di poppa, quale segnale luminoso supplementare distingue di notte un battello con precedenza?", "choices": [{"text": "Un fanale chiaro a luce verde visibile per tutto l'orizzonte, almeno 1 m più in alto del fanale d'albero", "correct": true}, {"text": "Un fanale chiaro a luce rossa visibile per tutto l'orizzonte, almeno 1 m più in alto del fanale d'albero", "correct": false}, {"text": "Una luce ordinaria gialla visibile per tutto l'orizzonte", "correct": false}], "explanation": "ONI Allegato 2, fig. 21 (art. 27 lett. a).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 23", "questions": [
+    {"stem": "Come segnala di notte un natante adibito alla protezione contro il moto ondoso, in più dei fanali prescritti?", "choices": [{"text": "Una luce ordinaria rossa visibile per tutto l'orizzonte, collocata sopra la luce ordinaria bianca visibile per tutto l'orizzonte", "correct": true}, {"text": "Una luce ordinaria bianca visibile per tutto l'orizzonte, collocata sopra un'altra luce bianca visibile per tutto l'orizzonte", "correct": false}, {"text": "Una luce ordinaria verde visibile per tutto l'orizzonte, collocata sopra la luce bianca", "correct": false}], "explanation": "ONI Allegato 2, fig. 23 (art. 28 lett. a).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 24", "questions": [
+    {"stem": "Quale bandiera segnala di giorno la protezione contro il moto ondoso?", "choices": [{"text": "Una bandiera con la metà superiore rossa e la metà inferiore bianca", "correct": true}, {"text": "Una bandiera con la metà superiore bianca e la metà inferiore rossa", "correct": false}, {"text": "Due bandiere bianche sovrapposte", "correct": false}], "explanation": "ONI Allegato 2, fig. 24 (art. 28 lett. b).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 25", "questions": [
+    {"stem": "In alternativa alla bandiera bicolore, quale segnale diurno può essere usato per la protezione contro il moto ondoso?", "choices": [{"text": "Due bandiere, quella superiore rossa e quella inferiore bianca", "correct": true}, {"text": "Due bandiere bianche sovrapposte", "correct": false}, {"text": "Due bandiere, quella superiore bianca e quella inferiore rossa", "correct": false}], "explanation": "ONI Allegato 2, fig. 25 (art. 28 lett. b).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 26", "questions": [
+    {"stem": "Come segnala di notte un natante con ancoraggi pericolosi?", "choices": [{"text": "Una luce ordinaria bianca visibile per tutto l'orizzonte, collocata sopra la luce bianca di stazionamento visibile per tutto l'orizzonte", "correct": true}, {"text": "Una luce ordinaria rossa visibile per tutto l'orizzonte, collocata sopra la luce bianca di stazionamento", "correct": false}, {"text": "Una sola luce ordinaria gialla visibile per tutto l'orizzonte", "correct": false}], "explanation": "ONI Allegato 2, fig. 26 (art. 29 cpv. 1 lett. a).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 27", "questions": [
+    {"stem": "Quale segnale diurno indica la presenza di ancoraggi pericolosi?", "choices": [{"text": "Due bandiere bianche sovrapposte", "correct": true}, {"text": "Una bandiera con la metà superiore rossa e la metà inferiore bianca", "correct": false}, {"text": "Due bandiere, quella superiore rossa e quella inferiore bianca", "correct": false}], "explanation": "ONI Allegato 2, fig. 27 (art. 29 cpv. 1 lett. b).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 28", "questions": [
+    {"stem": "Quando la sicurezza della navigazione lo esige, come vanno contrassegnati di notte i singoli ancoraggi che si estendono nello specchio d'acqua?", "choices": [{"text": "Con luci bianche visibili da tutti i lati che contrassegnano ciascun ancoraggio", "correct": true}, {"text": "Con luci rosse visibili da tutti i lati che contrassegnano ciascun ancoraggio", "correct": false}, {"text": "Con palloni bianchi posti su ciascun ancoraggio", "correct": false}], "explanation": "ONI Allegato 2, fig. 28 (art. 29 cpv. 2).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 32", "questions": [
+    {"stem": "I battelli della polizia, della sorveglianza di frontiera o della vigilanza sulla pesca che intendono entrare in comunicazione con altri natanti issano una bandiera. Quale?", "choices": [{"text": "La bandiera della lettera «K», con la metà lato asta gialla e l'altra metà blu", "correct": true}, {"text": "La bandiera della lettera «A», con la metà lato asta bianca e l'altra metà blu", "correct": false}, {"text": "Una bandiera con la metà superiore rossa e la metà inferiore bianca", "correct": false}], "explanation": "ONI Allegato 2, fig. 32 (art. 30 cpv. 2).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 33", "questions": [
+    {"stem": "Quale fanale distingue di notte un'imbarcazione di un pescatore professionista durante la pesca?", "choices": [{"text": "Una luce ordinaria gialla visibile per tutto l'orizzonte", "correct": true}, {"text": "Una luce ordinaria bianca visibile per tutto l'orizzonte", "correct": false}, {"text": "Una luce ordinaria rossa sopra una luce ordinaria bianca", "correct": false}], "explanation": "ONI Allegato 2, fig. 33 (art. 31 cpv. 1 lett. a).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 35", "questions": [
+    {"stem": "Quale segnale diurno deve mostrare un'imbarcazione impegnata nella pesca con la sciabica?", "choices": [{"text": "Un pallone bianco", "correct": true}, {"text": "Una bandiera della lettera «A», metà bianca e metà blu", "correct": false}, {"text": "Due bandiere bianche sovrapposte", "correct": false}], "explanation": "ONI Allegato 2, fig. 35 (art. 31 cpv. 2).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 36", "questions": [
+    {"stem": "Quale segnale contrassegna un'immersione subacquea svolta da riva?", "choices": [{"text": "Una tavola della lettera «A» (a due punte), con la metà lato asta bianca e l'altra metà blu", "correct": true}, {"text": "Una bandiera della lettera «K», con la metà lato asta gialla e l'altra metà blu", "correct": false}, {"text": "Una bandiera con la metà superiore rossa e la metà inferiore bianca", "correct": false}], "explanation": "ONI Allegato 2, fig. 36 (art. 32 cpv. 1).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 37", "questions": [
+    {"stem": "Come va contrassegnata un'immersione subacquea svolta al largo?", "choices": [{"text": "Con una tavola della lettera «A» (metà bianca, metà blu) visibile per tutto l'orizzonte", "correct": true}, {"text": "Con un pallone bianco visibile per tutto l'orizzonte", "correct": false}, {"text": "Con una luce ordinaria gialla visibile per tutto l'orizzonte", "correct": false}], "explanation": "ONI Allegato 2, fig. 37 (art. 32 cpv. 2).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 38", "questions": [
+    {"stem": "Come segnala la propria condizione, di notte, un natante impossibilitato a manovrare?", "choices": [{"text": "Agitando un fanale", "correct": true}, {"text": "Agitando un fanale con movimento rotatorio", "correct": false}, {"text": "Mostrando una luce ordinaria rossa sopra una bianca", "correct": false}], "explanation": "ONI Allegato 2, fig. 38 (art. 51 cpv. 1).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 4", "questions": [
+    {"stem": "Quali fanali deve mostrare di notte un battello motorizzato isolato o che ne rimorchia altri?", "choices": [{"text": "Fanale d'albero (o di prua) bianco, fanali laterali verde e rosso, fanale di poppa bianco", "correct": true}, {"text": "Solo un fanale ordinario a luce bianca visibile per tutto l'orizzonte", "correct": false}, {"text": "Fanale d'albero bianco e, almeno 1 m più in alto, un fanale verde visibile per tutto l'orizzonte", "correct": false}], "explanation": "ONI Allegato 2, fig. 4 (art. 24 cpv. 1).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 40", "questions": [
+    {"stem": "Come si segnala di notte un natante in difficoltà che chiede soccorso?", "choices": [{"text": "Agitando un fanale con movimento rotatorio", "correct": true}, {"text": "Agitando un fanale senza movimento rotatorio", "correct": false}, {"text": "Mostrando una luce ordinaria rossa fissa visibile per tutto l'orizzonte", "correct": false}], "explanation": "ONI Allegato 2, fig. 40 (art. 58 lett. a).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 42", "questions": [
+    {"stem": "Quale gesto costituisce un segnale di soccorso da parte di una persona in difficoltà?", "choices": [{"text": "Alzare e abbassare lentamente le braccia allargate", "correct": true}, {"text": "Agitare un fanale con movimento rotatorio", "correct": false}, {"text": "Tenere entrambe le braccia immobili sopra la testa", "correct": false}], "explanation": "ONI Allegato 2, fig. 42 (art. 58 lett. f).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 43", "questions": [
+    {"stem": "Di notte, come va segnalato un impianto galleggiante (o un natante incagliato/affondato) sul lato dove il passaggio è libero e su quello dove è ostacolato?", "choices": [{"text": "Lato libero: un fanale ordinario rosso e un fanale ordinario bianco; lato ostacolato: un fanale ordinario rosso", "correct": true}, {"text": "Lato libero: un fanale ordinario rosso; lato ostacolato: un fanale ordinario rosso e uno bianco", "correct": false}, {"text": "Lato libero: due fanali ordinari bianchi; lato ostacolato: un fanale ordinario rosso", "correct": false}], "explanation": "ONI Allegato 2, fig. 43 (art. 71 cpv. 1 lett. a).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 44", "questions": [
+    {"stem": "Di giorno, come si segnala con bandiere un impianto galleggiante sul lato dove il passaggio è libero e su quello dove è ostacolato?", "choices": [{"text": "Lato libero: bandiera con metà superiore rossa e metà inferiore bianca; lato ostacolato: bandiera rossa", "correct": true}, {"text": "Lato libero: bandiera rossa; lato ostacolato: bandiera con metà rossa e metà bianca", "correct": false}, {"text": "Lato libero: bandiera bianca; lato ostacolato: due bandiere bianche sovrapposte", "correct": false}], "explanation": "ONI Allegato 2, fig. 44 (art. 71 cpv. 1 lett. b).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 45", "questions": [
+    {"stem": "In alternativa alla bandiera bicolore, come si segnala di giorno il lato libero e il lato ostacolato di un impianto galleggiante?", "choices": [{"text": "Lato libero: due bandiere sovrapposte, quella superiore rossa e quella inferiore bianca; lato ostacolato: bandiera rossa", "correct": true}, {"text": "Lato libero: due bandiere bianche sovrapposte; lato ostacolato: bandiera rossa", "correct": false}, {"text": "Lato libero: bandiera rossa; lato ostacolato: due bandiere rossa e bianca sovrapposte", "correct": false}], "explanation": "ONI Allegato 2, fig. 45 (art. 71 cpv. 1 lett. b).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 5", "questions": [
+    {"stem": "Quali fanali contraddistinguono di notte un convoglio spinto?", "choices": [{"text": "Fanale d'albero bianco sul natante di testa, fanali laterali verde e rosso, fanale di poppa bianco", "correct": true}, {"text": "Un fanale ordinario a luce bianca visibile per tutto l'orizzonte sul natante di testa", "correct": false}, {"text": "Fanale d'albero tricolore sulla punta dell'albero del natante di testa", "correct": false}], "explanation": "ONI Allegato 2, fig. 5 (art. 24).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 8", "questions": [
+    {"stem": "In una delle configurazioni ammesse, imbarcazioni dei pescatori professionisti, imbarcazioni sportive e da diporto motorizzate e battelli a vela a motore mostrano un fanale a luce bianca visibile per tutto l'orizzonte. Quali altri fanali completano questa configurazione?", "choices": [{"text": "Fanali laterali verde e rosso", "correct": true}, {"text": "Un fanale di poppa bianco e un fanale d'albero bianco", "correct": false}, {"text": "Un fanale verde visibile per tutto l'orizzonte posto più in alto", "correct": false}], "explanation": "ONI Allegato 2, fig. 8 (art. 24 cpv. 2 lett. b e 3 lett. d).", "polarity": "affirmative"}
+  ]},
+  {"ref": "ONI Allegato 2 – fig. 9", "questions": [
+    {"stem": "Imbarcazioni sportive e da diporto motorizzate e battelli a vela a motore (con o senza vela) usano un fanale a luce bianca visibile per tutto l'orizzonte assieme ai fanali laterali. Cosa è ammesso per i fanali laterali?", "choices": [{"text": "Possono essere collocati nella parte anteriore uno accanto all'altro oppure riuniti in un fanale laterale combinato", "correct": true}, {"text": "Devono essere riuniti in un fanale d'albero tricolore sulla punta dell'albero", "correct": false}, {"text": "Devono essere sostituiti da un'unica luce ordinaria gialla visibile per tutto l'orizzonte", "correct": false}], "explanation": "ONI Allegato 2, fig. 9 (art. 24 cpv. 3 lett. c e d).", "polarity": "affirmative"}
+  ]}
+]}

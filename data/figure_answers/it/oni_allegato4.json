@@ -1,0 +1,149 @@
+{
+  "drafts": [
+    {
+      "ref": "ONI Allegato 4 – fig. 1",
+      "questions": [
+        {
+          "stem": "Quale significato ha il segnale di divieto generale di passaggio?",
+          "choices": [
+            { "text": "Divieto di passaggio", "correct": true },
+            { "text": "Obbligo di ridurre la velocità", "correct": false },
+            { "text": "Passaggio raccomandato in entrambi i sensi", "correct": false }
+          ],
+          "explanation": "ONI Allegato 4, fig. 1.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Allegato 4 – fig. 25",
+      "questions": [
+        {
+          "stem": "Su un segnale che indica il restringimento della via navigabile, cosa rappresenta il numero riportato?",
+          "choices": [
+            { "text": "La distanza in metri dalla riva alla quale devono tenersi i natanti", "correct": true },
+            { "text": "La velocità massima ammessa in chilometri orari", "correct": false },
+            { "text": "La profondità minima dell'acqua in metri", "correct": false }
+          ],
+          "explanation": "ONI Allegato 4, fig. 25.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Allegato 4 – fig. 27",
+      "questions": [
+        {
+          "stem": "Quale segnale indica il passaggio raccomandato sotto i ponti per la navigazione nei due sensi?",
+          "choices": [
+            { "text": "Passaggio raccomandato sotto i ponti, per la navigazione nei due sensi", "correct": true },
+            { "text": "Passaggio raccomandato sotto i ponti, riservato a un solo senso di marcia", "correct": false },
+            { "text": "Divieto di passaggio sotto i ponti", "correct": false }
+          ],
+          "explanation": "ONI Allegato 4, fig. 27.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Allegato 4 – fig. 47",
+      "questions": [
+        {
+          "stem": "Quale significato ha il segnale relativo allo stazionamento dei natanti?",
+          "choices": [
+            { "text": "Autorizzazione di stazionamento", "correct": true },
+            { "text": "Divieto di stazionamento", "correct": false },
+            { "text": "Obbligo di stazionamento", "correct": false }
+          ],
+          "explanation": "ONI Allegato 4, fig. 47.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Allegato 4 – fig. 49",
+      "questions": [
+        {
+          "stem": "Come è segnalato un ostacolo isolato?",
+          "choices": [
+            { "text": "Con un cono con il vertice verso il basso, verniciato in rosso o non verniciato", "correct": true },
+            { "text": "Con un cono con il vertice verso l'alto, verniciato in verde", "correct": false },
+            { "text": "Con un cilindro verniciato in rosso", "correct": false }
+          ],
+          "explanation": "ONI Allegato 4, fig. 49.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Allegato 4 – fig. 50",
+      "questions": [
+        {
+          "stem": "Nella segnalazione dell'idrovia, quale forma e colore hanno i segnali che ne delimitano i lati?",
+          "choices": [
+            { "text": "Cilindri verniciati in rosso e coni con il vertice verso l'alto verniciati in verde", "correct": true },
+            { "text": "Cilindri verniciati in verde e coni con il vertice verso il basso verniciati in rosso", "correct": false },
+            { "text": "Coni verniciati in rosso e cilindri verniciati in verde", "correct": false }
+          ],
+          "explanation": "ONI Allegato 4, fig. 50.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Allegato 4 – fig. 51",
+      "questions": [
+        {
+          "stem": "Per segnalare un basso fondale in prossimità della riva, quali segnali si trovano sul lato verso il largo e quali sul lato verso terra?",
+          "choices": [
+            { "text": "Cilindri sul lato verso il largo e coni sul lato verso terra", "correct": true },
+            { "text": "Coni sul lato verso il largo e cilindri sul lato verso terra", "correct": false },
+            { "text": "Cilindri su entrambi i lati", "correct": false }
+          ],
+          "explanation": "ONI Allegato 4, fig. 51.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Allegato 4 – fig. 52",
+      "questions": [
+        {
+          "stem": "Nella segnalazione di un'idrovia in zona di bassi fondali, quali segnali si trovano sul lato destro e quali sul lato sinistro visti dal largo?",
+          "choices": [
+            { "text": "Coni verdi sul lato destro e cilindri rossi sul lato sinistro, visti dal largo", "correct": true },
+            { "text": "Cilindri rossi sul lato destro e coni verdi sul lato sinistro, visti dal largo", "correct": false },
+            { "text": "Coni verdi su entrambi i lati, visti dal largo", "correct": false }
+          ],
+          "explanation": "ONI Allegato 4, fig. 52.",
+          "polarity": "affirmative"
+        }
+      ]
+    },
+    {
+      "ref": "ONI Allegato 4 – fig. 53",
+      "questions": [
+        {
+          "stem": "Come è segnalato un ostacolo esteso nel quadrante nord?",
+          "choices": [
+            { "text": "Due coni sovrapposti con i due vertici rivolti verso l'alto", "correct": true },
+            { "text": "Due coni sovrapposti con i due vertici rivolti verso il basso", "correct": false },
+            { "text": "Due coni sovrapposti con i vertici contrapposti", "correct": false }
+          ],
+          "explanation": "ONI Allegato 4, fig. 53.",
+          "polarity": "affirmative"
+        },
+        {
+          "stem": "Come è segnalato un ostacolo esteso nel quadrante sud?",
+          "choices": [
+            { "text": "Due coni sovrapposti con i due vertici rivolti verso il basso", "correct": true },
+            { "text": "Due coni sovrapposti con i due vertici rivolti verso l'alto", "correct": false },
+            { "text": "Un solo cono con il vertice rivolto verso il basso", "correct": false }
+          ],
+          "explanation": "ONI Allegato 4, fig. 53.",
+          "polarity": "affirmative"
+        }
+      ]
+    }
+  ]
+}

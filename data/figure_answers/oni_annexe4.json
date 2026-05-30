@@ -1,0 +1,33 @@
+{"drafts": [
+  {"ref": "ONI Annexe 4 – fig. 1", "questions": [
+     {"stem": "Que signifie le signal général d'interdiction (panneau circulaire à bordure rouge avec barre rouge) placé sur un plan d'eau ?", "choices": [{"text":"Interdiction de passer","correct":true},{"text":"Le chenal est limité à une certaine distance de la rive","correct":false},{"text":"Passe recommandée pour franchir un pont","correct":false}], "explanation":"ONI Annexe 4, fig. 1 — signal général d'interdiction: interdiction de passer.", "polarity":"affirmative"}
+  ]},
+  {"ref": "ONI Annexe 4 – fig. 25", "questions": [
+     {"stem": "Sur le signal « Le chenal est limité », que représente le chiffre porté sur le panneau ?", "choices": [{"text":"La distance, en mètres, à laquelle les bateaux doivent se tenir par rapport à la rive","correct":true},{"text":"La vitesse maximale autorisée en km/h","correct":false},{"text":"La profondeur minimale de l'eau en mètres","correct":false}], "explanation":"ONI Annexe 4, fig. 25 — chenal limité: le chiffre indique en mètres la distance à garder par rapport à la rive.", "polarity":"affirmative"}
+  ]},
+  {"ref": "ONI Annexe 4 – fig. 27", "questions": [
+     {"stem": "Que signale le panneau « Passe recommandée des ponts » de type a ?", "choices": [{"text":"Une passe recommandée pour franchir le pont dans les deux sens","correct":true},{"text":"Une passe recommandée à sens unique seulement","correct":false},{"text":"Une interdiction de franchir le pont","correct":false}], "explanation":"ONI Annexe 4, fig. 27 — passe recommandée des ponts, a: dans les deux sens.", "polarity":"affirmative"}
+  ]},
+  {"ref": "ONI Annexe 4 – fig. 46", "questions": [
+     {"stem": "Un panneau indique « 12 km/h » accompagné de la mention « 1000 m ». Comment l'interpréter ?", "choices": [{"text":"Obligation de ne pas dépasser 12 km/h à partir d'une distance de 1000 m","correct":true},{"text":"Distance minimale de 12 m à respecter pendant 1000 km","correct":false},{"text":"Profondeur de 12 m sur une longueur de chenal de 1000 m","correct":false}], "explanation":"ONI Annexe 4, fig. 46 — exemple: obligation de ne pas dépasser 12 km/h à 1000 m.", "polarity":"affirmative"}
+  ]},
+  {"ref": "ONI Annexe 4 – fig. 49", "questions": [
+     {"stem": "Comment est signalé un obstacle isolé ?", "choices": [{"text":"Par un cône pointe en bas, peint en rouge ou non peint","correct":true},{"text":"Par un cône pointe en haut, peint en vert ou non peint","correct":false},{"text":"Par un cylindre peint en rouge ou non peint","correct":false}], "explanation":"ONI Annexe 4, fig. 49 — obstacles isolés: cône pointe en bas peint en rouge ou non peint.", "polarity":"affirmative"}
+  ]},
+  {"ref": "ONI Annexe 4 – fig. 50", "questions": [
+     {"stem": "Dans la signalisation du chenal, par quelles marques en sont délimités les deux côtés ?", "choices": [{"text":"Des cylindres peints en rouge et des cônes pointe en haut peints en vert","correct":true},{"text":"Des cônes pointe en bas peints en rouge et des cylindres verts","correct":false},{"text":"Des flotteurs jaunes munis de réflecteurs radar","correct":false}], "explanation":"ONI Annexe 4, fig. 50 — chenal: cylindres rouges et cônes verts pointe en haut.", "polarity":"affirmative"}
+  ]},
+  {"ref": "ONI Annexe 4 – fig. 52", "questions": [
+     {"stem": "Pour signaler un haut-fonds à proximité de la rive, quelles marques utilise-t-on côté large et côté terre ?", "choices": [{"text":"Côté large: des cylindres; côté terre: des cônes","correct":true},{"text":"Côté large: des cônes; côté terre: des cylindres","correct":false},{"text":"Côté large et côté terre: des flotteurs jaunes","correct":false}], "explanation":"ONI Annexe 4, fig. 52 — haut-fonds près de la rive: côté large cylindres, côté terre cônes.", "polarity":"affirmative"}
+  ]},
+  {"ref": "ONI Annexe 4 – fig. 53", "questions": [
+     {"stem": "Pour un chenal balisé dans une zone de hauts-fonds, comment sont marqués les côtés droit et gauche vus du large ?", "choices": [{"text":"Côté droit: des cônes verts; côté gauche: des cylindres rouges","correct":true},{"text":"Côté droit: des cylindres rouges; côté gauche: des cônes verts","correct":false},{"text":"Les deux côtés: des cônes pointe en bas peints en rouge","correct":false}], "explanation":"ONI Annexe 4, fig. 53 — chenal en zone de hauts-fonds: côté droit (vu du large) cônes verts, côté gauche cylindres rouges.", "polarity":"affirmative"}
+  ]},
+  {"ref": "ONI Annexe 4 – fig. 54", "questions": [
+     {"stem": "Comment une marque cardinale signale-t-elle le quadrant Nord d'un obstacle étendu ?", "choices": [{"text":"Deux cônes superposés, les deux pointes en haut","correct":true},{"text":"Deux cônes superposés, les deux pointes en bas","correct":false},{"text":"Deux cônes superposés, le cône inférieur pointe en bas et le supérieur pointe en haut","correct":false}], "explanation":"ONI Annexe 4, fig. 54 — quadrant Nord: deux cônes superposés, les deux pointes en haut.", "polarity":"affirmative"},
+     {"stem": "Que signale une marque formée de deux cônes superposés ayant les deux pointes en bas ?", "choices": [{"text":"Le quadrant Sud d'un obstacle étendu","correct":true},{"text":"Le quadrant Nord d'un obstacle étendu","correct":false},{"text":"Le quadrant Est d'un obstacle étendu","correct":false}], "explanation":"ONI Annexe 4, fig. 54 — quadrant Sud: deux cônes superposés, les deux pointes en bas.", "polarity":"affirmative"}
+  ]},
+  {"ref": "ONI Annexe 4 – fig. 55", "questions": [
+     {"stem": "Des marques cardinales signalent un haut-fonds étendu en indiquant les quadrants Nord et Ouest. Qu'indiquent-elles ?", "choices": [{"text":"Que les eaux profondes se trouvent dans les quadrants Nord et Ouest","correct":true},{"text":"Que l'obstacle se trouve dans les quadrants Nord et Ouest","correct":false},{"text":"Que le passage est interdit dans les quadrants Nord et Ouest","correct":false}], "explanation":"ONI Annexe 4, fig. 55 — les marques indiquent que les eaux profondes se trouvent dans les quadrants Nord et Ouest.", "polarity":"affirmative"}
+  ]}
+]}
