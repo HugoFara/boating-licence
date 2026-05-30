@@ -39,9 +39,9 @@ DEFAULT_SCOPE = "cevni"
 # Within `lois`: country *statute* (permits, registration, insurance, sanctions)
 # rather than the CEVNI navigation rules. Country-specific → national.
 _NATIONAL_ADMIN = re.compile(
-    r"\b(permis|autoris|immatricul|assuranc|attestation|certificat|"
+    r"\b(permis|autoris\w*|immatricul\w*|assuranc\w*|attestation|certificat|"
     r"plaque|taxe|redevance|registre|examen|sanction|amende|retrait|"
-    r"responsabilit|ofrou|ocv|office cantonal)\b", re.I)
+    r"responsabilit\w*|ofrou|ocv|office cantonal)\b", re.I)
 
 # Within `meteorologie`: tied to Lac Léman specifically (named local winds, or the
 # lake's storm-warning signal operation) → local. Generic weather stays cevni.
