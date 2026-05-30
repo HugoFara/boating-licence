@@ -105,6 +105,14 @@ configuration que consomme le pipeline. Ajouter un pays revient à un seul nouve
 fichier + une ligne de registre (`src/countries/registry.py`), de sorte que les travaux
 en parallèle n'entrent pas en collision.
 
+**Documentation détaillée par pays** — les spécificités complètes vivent dans des
+documents dédiés, chacun rédigé dans la langue du pays :
+[`docs/france.md`](docs/france.md) (français) ·
+[`docs/germany.md`](docs/germany.md) (Deutsch) ·
+[`docs/switzerland.md`](docs/switzerland.md) (français) ·
+[`docs/italy.md`](docs/italy.md) (italiano — prévu, pas encore réalisé).
+L'architecture transversale se trouve dans [`docs/scope.md`](docs/scope.md).
+
 ### 🇫🇷 France — permis plaisance
 
 Le **permis plaisance** en deux options : **côtière** (maritime, ≤6 NM d'un abri, de

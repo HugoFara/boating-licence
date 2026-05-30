@@ -100,6 +100,13 @@ law sources, exam-theme taxonomy + tagger, permit catalogue, exam rules and regi
 regimes — the config the pipeline consumes. Adding a country is one new file + one
 registry line (`src/countries/registry.py`), so parallel work doesn't collide.
 
+**Per-country deep dives** — detailed specifics live in dedicated docs, each written
+in the country's own language: [`docs/france.md`](docs/france.md) (français) ·
+[`docs/germany.md`](docs/germany.md) (Deutsch) ·
+[`docs/switzerland.md`](docs/switzerland.md) (français) ·
+[`docs/italy.md`](docs/italy.md) (italiano — planned, not yet built). The
+cross-country architecture is in [`docs/scope.md`](docs/scope.md).
+
 ### 🇫🇷 France — permis plaisance
 
 The **permis plaisance** in two options: **côtière** (maritime, ≤6 NM from a shelter,

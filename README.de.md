@@ -106,6 +106,14 @@ Prüfungsregeln und die regionalen Regelungen deklariert — die Konfiguration, 
 Pipeline verarbeitet. Das Hinzufügen eines Landes ist eine neue Datei + eine
 Registry-Zeile (`src/countries/registry.py`), sodass parallele Arbeit nicht kollidiert.
 
+**Vertiefende Länderdokumentation** — die ausführlichen Besonderheiten stehen in
+eigenen Dokumenten, jeweils in der Sprache des Landes verfasst:
+[`docs/france.md`](docs/france.md) (français) ·
+[`docs/germany.md`](docs/germany.md) (Deutsch) ·
+[`docs/switzerland.md`](docs/switzerland.md) (français) ·
+[`docs/italy.md`](docs/italy.md) (italiano — geplant, noch nicht umgesetzt). Die
+länderübergreifende Architektur steht in [`docs/scope.md`](docs/scope.md).
+
 ### 🇫🇷 Frankreich — permis plaisance
 
 Der **permis plaisance** in zwei Optionen: **côtière** (maritim, ≤6 NM von einem

@@ -107,6 +107,14 @@ catalogo delle patenti, le regole d'esame e i regimi regionali — la configuraz
 la pipeline consuma. Aggiungere un Paese richiede un solo file nuovo + una sola riga
 nel registro (`src/countries/registry.py`), così il lavoro in parallelo non collide.
 
+**Approfondimenti per Paese** — le specifiche dettagliate vivono in documenti
+dedicati, ciascuno redatto nella lingua del Paese:
+[`docs/france.md`](docs/france.md) (français) ·
+[`docs/germany.md`](docs/germany.md) (Deutsch) ·
+[`docs/switzerland.md`](docs/switzerland.md) (français) ·
+[`docs/italy.md`](docs/italy.md) (italiano — pianificato, non ancora realizzato).
+L'architettura trasversale è in [`docs/scope.md`](docs/scope.md).
+
 ### 🇫🇷 Francia — permis plaisance
 
 Il **permis plaisance** in due opzioni: **côtière** (marittima, ≤6 NM da un riparo,
