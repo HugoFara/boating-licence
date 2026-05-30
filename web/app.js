@@ -1,19 +1,11 @@
 "use strict";
 /* Static quiz player for the boat-permit question bank.
- * No dependencies. Loads questions.json (bank + exam config from its meta),
- * runs a chronometered mock exam or a free-practice mode, scores point-based
- * (all-or-nothing per question, mirroring src/questions/schema.score), and shows
- * a source-cited correction. Figures render in a fixed-size box (style.css) so
- * resolution/crop can't leak the answer. */
-
-const THEME_LABELS = {
-  definitions: "Définitions",
-  meteorologie: "Météorologie",
-  lois: "Lois sur la navigation",
-  signalisation: "Signalisation et signaux acoustiques",
-  matelotage: "Matelotage",
-  eaux_frontalieres: "Eaux frontalières",
-};
+ * No dependencies. Loads the per-language bank (questions.<lang>.json, falling
+ * back to French) plus the exam config from its meta, runs a chronometered mock
+ * exam or a free-practice mode, scores point-based (all-or-nothing per question,
+ * mirroring src/questions/schema.score), and shows a source-cited correction.
+ * Figures render in a fixed-size box (style.css) so resolution/crop can't leak
+ * the answer. UI strings + theme labels come from i18n.js. */
 
 const $ = (id) => document.getElementById(id);
 const screens = ["start", "quiz", "results"];
@@ -21,46 +13,138 @@ function show(name) {
   screens.forEach((s) => $("screen-" + s).classList.toggle("hidden", s !== name));
 }
 
-let BANK = [];      // all questions
-let CFG = {};       // exam config from meta
-let state = null;   // current run
+let LANG = DEFAULT_LANG;   // active UI language (from i18n.js)
+let BANK = [];             // all questions for the active content language
+let CFG = {};              // exam config from meta
+let META = {};             // raw meta of the loaded bank
+let FELL_BACK = false;     // true when UI lang has no native bank (showing FR)
+let UNOFFICIAL = false;    // true when the loaded bank is an unofficial translation
+let state = null;          // current run
 
-async function boot() {
-  let data;
-  try {
-    data = await (await fetch("questions.json", { cache: "no-store" })).json();
-  } catch (e) {
-    $("config-summary").innerHTML =
-      "<b>Impossible de charger les questions.</b> Lancez d’abord " +
-      "<code>python run.py questions &amp;&amp; python run.py web</code>, puis servez le dossier.";
+const T = (key, vars) => t(LANG, key, vars);
+
+/* Try the requested language's bank, then the French canonical files. Returns
+ * the parsed payload and records whether we fell back. */
+async function fetchBank(lang) {
+  const candidates = lang === DEFAULT_LANG
+    ? ["questions.fr.json", "questions.json"]
+    : [`questions.${lang}.json`, "questions.fr.json", "questions.json"];
+  for (const url of candidates) {
+    try {
+      const r = await fetch(url, { cache: "no-store" });
+      if (!r.ok) continue;
+      const data = await r.json();
+      if ((data.questions || []).length === 0) continue;
+      FELL_BACK = url === "questions.json" || url === "questions.fr.json"
+        ? lang !== DEFAULT_LANG && (data.meta || {}).lang !== lang
+        : false;
+      return data;
+    } catch (e) { /* try next */ }
+  }
+  return null;
+}
+
+async function loadContent() {
+  FELL_BACK = false; UNOFFICIAL = false;
+  const data = await fetchBank(LANG);
+  if (!data) { BANK = []; META = {}; return false; }
+  BANK = data.questions || [];
+  META = data.meta || {};
+  UNOFFICIAL = String(META.unofficial || "") === "true" || META.unofficial === true;
+  CFG = {
+    questions: +META.exam_questions || 60,
+    totalPoints: +META.total_points || 180,
+    pointsPer: +META.points_per_question || 3,
+    passPoints: +META.pass_points || 165,
+    timeLimitMin: +META.time_limit_min || 50,
+    scoring: META.scoring || "all_or_nothing",
+    canton: META.canton || "VD/Léman",
+  };
+  return true;
+}
+
+/* Build the language switcher; clicking re-loads content + re-renders. */
+function renderLangbar() {
+  $("langbar").innerHTML = LANGS.map((l) =>
+    `<button class="langbtn ${l === LANG ? "on" : ""}" data-lang="${l}"
+       aria-pressed="${l === LANG}">${LANG_NAMES[l]}</button>`).join("");
+  $("langbar").querySelectorAll(".langbtn").forEach((b) => {
+    b.onclick = () => setLang(b.dataset.lang);
+  });
+}
+
+async function setLang(lang) {
+  LANG = LANGS.includes(lang) ? lang : DEFAULT_LANG;
+  try { localStorage.setItem("lang", LANG); } catch (e) { /* private mode */ }
+  document.documentElement.lang = LANG;
+  document.title = T("pageTitle");
+  renderLangbar();
+  applyStaticStrings();
+  await loadContent();
+  renderStart();
+  show("start");
+}
+
+/* Fill the non-question UI chrome from the translation table. */
+function applyStaticStrings() {
+  $("t-h1").textContent = T("h1");
+  $("t-subtitle").textContent = T("subtitle");
+  $("loop-proof").innerHTML = T("demoBanner");
+  $("btn-exam").textContent = T("btnExam");
+  $("btn-practice").textContent = T("btnPractice");
+  $("t-sourcenote").textContent = T("sourceNote");
+  $("t-resulttitle").textContent = T("resultTitle");
+  $("btn-restart").textContent = T("btnRestart");
+  $("t-correction").textContent = T("detailedCorrection");
+  $("t-foottagline").textContent = T("footTagline");
+}
+
+function renderStart() {
+  const note = $("fallback-note");
+  if (UNOFFICIAL) {
+    note.innerHTML = T("unofficialBanner");
+    note.classList.remove("hidden");
+  } else if (FELL_BACK) {
+    note.innerHTML = T("fallbackBanner", { lang: LANG_NAMES[LANG] });
+    note.classList.remove("hidden");
+  } else {
+    note.classList.add("hidden");
+  }
+
+  if (BANK.length === 0) {
+    $("config-summary").innerHTML = T("loadError");
+    $("btn-exam").disabled = $("btn-practice").disabled = true;
     return;
   }
-  BANK = data.questions || [];
-  const m = data.meta || {};
-  CFG = {
-    questions: +m.exam_questions || 60,
-    totalPoints: +m.total_points || 180,
-    pointsPer: +m.points_per_question || 3,
-    passPoints: +m.pass_points || 165,
-    timeLimitMin: +m.time_limit_min || 50,
-    scoring: m.scoring || "all_or_nothing",
-    canton: m.canton || "VD/Léman",
-  };
+  $("btn-exam").disabled = $("btn-practice").disabled = false;
+
   const avail = BANK.length;
   const examN = Math.min(CFG.questions, avail);
+  const partial = examN < CFG.questions
+    ? " " + T("cfgPartial", { target: CFG.questions }) : "";
   $("config-summary").innerHTML = `
-    <div><b>Questions</b> ${examN}${examN < CFG.questions ? ` (sur ${CFG.questions} visés — banque en cours de constitution)` : ""}</div>
-    <div><b>Durée</b> ${CFG.timeLimitMin} min</div>
-    <div><b>Réussite</b> ${CFG.passPoints}/${CFG.totalPoints} points</div>
-    <div><b>Barème</b> ${CFG.pointsPer} pts/question · ${CFG.canton}</div>
-    <div><b>Disponibles</b> ${avail} questions</div>`;
+    <div><b>${T("cfgQuestions")}</b> ${examN}${partial}</div>
+    <div><b>${T("cfgDuration")}</b> ${CFG.timeLimitMin} ${T("minUnit")}</div>
+    <div><b>${T("cfgSuccess")}</b> ${CFG.passPoints}/${CFG.totalPoints} ${T("points")}</div>
+    <div><b>${T("cfgScale")}</b> ${T("ptsPerQuestion", { n: CFG.pointsPer })} · ${escapeHtml(CFG.canton)}</div>
+    <div><b>${T("cfgAvailable")}</b> ${T("availableQuestions", { n: avail })}</div>`;
   $("meta-foot").textContent =
-    `banque ${m.generated || ""} · KB ${m.kb_version || ""} · ${avail} questions`;
+    `${META.generated || ""} · KB ${META.kb_version || ""} · ${T("availableQuestions", { n: avail })}`;
 
   $("btn-exam").onclick = () => startRun("exam");
   $("btn-practice").onclick = () => startRun("practice");
   $("btn-restart").onclick = () => show("start");
   $("btn-action").onclick = onAction;
+}
+
+async function boot() {
+  LANG = detectLang();
+  document.documentElement.lang = LANG;
+  document.title = T("pageTitle");
+  renderLangbar();
+  applyStaticStrings();
+  await loadContent();
+  renderStart();
   show("start");
 }
 
@@ -70,14 +154,14 @@ async function boot() {
 function drawBalanced(questions, n) {
   const byTheme = {};
   for (const q of questions) (byTheme[q.theme] ||= []).push(q);
-  for (const t in byTheme) shuffle(byTheme[t]);
+  for (const tk in byTheme) shuffle(byTheme[tk]);
   const themes = Object.keys(byTheme);
   const out = [];
   let progress = true;
   while (out.length < n && progress) {
     progress = false;
-    for (const t of themes) {
-      if (byTheme[t].length) { out.push(byTheme[t].pop()); progress = true; }
+    for (const tk of themes) {
+      if (byTheme[tk].length) { out.push(byTheme[tk].pop()); progress = true; }
       if (out.length >= n) break;
     }
   }
@@ -103,13 +187,12 @@ function startRun(mode) {
 function renderQuestion() {
   const q = state.questions[state.i];
   const total = state.questions.length;
-  $("progress").textContent = `Question ${state.i + 1} / ${total}` +
-    `  ·  ${THEME_LABELS[q.theme] || q.theme}`;
+  $("progress").textContent = T("progress", { i: state.i + 1, n: total }) +
+    "  ·  " + themeLabel(LANG, q.theme);
   const sel = new Set(state.answers[q.id] || []);
-  const multi = (q.correct || []).length > 1;
 
   const fig = q.image
-    ? `<div class="figure"><img src="${q.image}" alt="signal à identifier"></div>` : "";
+    ? `<div class="figure"><img src="${q.image}" alt="${escapeHtml(T("altSignal"))}"></div>` : "";
   const choices = q.choices.map((c, idx) => {
     const body = c.image
       ? `<div class="figure" style="height:120px"><img src="${c.image}" alt=""></div>`
@@ -121,7 +204,7 @@ function renderQuestion() {
 
   $("question").innerHTML = `${fig}
     <div class="stem">${escapeHtml(q.stem)}</div>
-    <div class="hint">Une ou deux réponses peuvent être correctes.</div>
+    <div class="hint">${escapeHtml(T("multiHint"))}</div>
     <div id="choices">${choices}</div>
     <div id="explain-slot"></div>`;
 
@@ -138,9 +221,9 @@ function renderQuestion() {
 
   const last = state.i === total - 1;
   if (state.mode === "practice") {
-    setAction("Valider");
+    setAction(T("btnValidate"));
   } else {
-    setAction(last ? "Terminer" : "Suivante");
+    setAction(last ? T("btnFinish") : T("btnNext"));
   }
 }
 
@@ -149,7 +232,7 @@ function onAction() {
   if (state.mode === "practice" && !state.revealed) {
     revealAnswer(q);
     state.revealed = true;
-    setAction(state.i === state.questions.length - 1 ? "Voir le résultat" : "Suivante");
+    setAction(state.i === state.questions.length - 1 ? T("btnSeeResult") : T("btnNext"));
     return;
   }
   if (state.i < state.questions.length - 1) {
@@ -175,12 +258,12 @@ function revealAnswer(q) {
 
 function explainHtml(q) {
   const p = q.provenance || {};
-  const asof = p.as_of ? ` (état ${p.as_of})` : "";
+  const asof = p.as_of ? " " + T("stateOf", { date: escapeHtml(p.as_of) }) : "";
   const src = p.url
     ? `<a href="${p.url}" target="_blank" rel="noopener">${escapeHtml(p.ref || p.source)}</a>`
     : escapeHtml(p.ref || p.source || "");
   return `<div class="explain">${escapeHtml(q.explanation || "")}
-    <div class="src">Source&nbsp;: ${src} — ${escapeHtml(p.source || "")}${asof}</div></div>`;
+    <div class="src">${escapeHtml(T("sourceLabel"))}&nbsp;: ${src} — ${escapeHtml(p.source || "")}${asof}</div></div>`;
 }
 
 /* all-or-nothing: full points iff the selected set equals the correct set. */
@@ -201,14 +284,12 @@ function finish() {
   const mins = Math.round((Date.now() - state.startedAt) / 60000);
 
   $("score").innerHTML = `
-    <div class="badge ${passed ? "pass" : "fail"}">${passed ? "Réussi" : "Échoué"}</div>
-    <div class="scoreline"><b>${earned}</b> / ${total} points
-      (seuil ${passMark})</div>
-    <div class="scoreline">Points de faute&nbsp;: <b>${total - earned}</b></div>
-    <div class="scoreline">Durée&nbsp;: ${mins} min</div>
+    <div class="badge ${passed ? "pass" : "fail"}">${passed ? T("passed") : T("failed")}</div>
+    <div class="scoreline">${T("scoreLine", { earned: `<b>${earned}</b>`, total, pass: passMark })}</div>
+    <div class="scoreline">${escapeHtml(T("faultPoints"))} <b>${total - earned}</b></div>
+    <div class="scoreline">${escapeHtml(T("duration"))} ${mins} ${T("minUnit")}</div>
     ${state.questions.length < CFG.questions
-      ? `<p class="fine">Examen partiel&nbsp;: ${state.questions.length} questions
-         disponibles sur ${CFG.questions}. Score indicatif.</p>` : ""}`;
+      ? `<p class="fine">${T("partialExam", { n: state.questions.length, target: CFG.questions })}</p>` : ""}`;
 
   $("review").innerHTML = state.questions.map((q, n) => reviewItem(q, n)).join("");
   $("timer").classList.add("hidden");
@@ -221,8 +302,8 @@ function reviewItem(q, n) {
   const opts = q.choices.map((c, idx) => {
     const isC = (q.correct || []).includes(idx);
     const cls = isC ? "c" : (sel.has(idx) ? "x" : "");
-    const tag = isC ? " ✓" : (sel.has(idx) ? " ✗ (votre choix)" : "");
-    return `<li class="${cls}">${escapeHtml(c.text || "[figure]")}${tag}</li>`;
+    const tag = isC ? " ✓" : (sel.has(idx) ? " ✗ " + T("yourChoice") : "");
+    return `<li class="${cls}">${escapeHtml(c.text || T("figureTag"))}${tag}</li>`;
   }).join("");
   return `<div class="review-item">
     <span class="mark ${ok ? "ok" : "no"}">${ok ? "✓" : "✗"}</span>

@@ -245,20 +245,15 @@ def cmd_web(args):
     from src.questions import schema as qschema
     if not os.path.exists(QDB_PATH):
         sys.exit("no question bank — run `python run.py questions` first")
-    # Re-export from the authoritative bank so newly approved/rejected drafts are
-    # reflected (the gate is applied here: exportable_only).
     conn = qschema.connect(QDB_PATH)
-    qschema.export_json(conn, QJSON_PATH, exportable_only=True)
-    conn.close()
     web = os.path.join(os.path.dirname(__file__), "web")
     assets_out = os.path.join(web, "assets")
     if os.path.exists(assets_out):
         shutil.rmtree(assets_out)
-
-    data = json.load(open(QJSON_PATH, encoding="utf-8"))
     copied = 0
 
     def relocate(p: str | None) -> str | None:
+        """Copy a data/-relative asset into web/ and return its page-relative path."""
         nonlocal copied
         if not p:
             return p
@@ -271,15 +266,41 @@ def cmd_web(args):
             copied += 1
         return rel
 
-    for q in data["questions"]:
-        q["image"] = relocate(q.get("image"))
-        for c in q["choices"]:
-            c["image"] = relocate(c.get("image"))
-    with open(os.path.join(web, "questions.json"), "w", encoding="utf-8") as fh:
-        json.dump(data, fh, ensure_ascii=False, indent=2)
+    def bundle(out_name: str, lang: str | None) -> int:
+        """Export one bank file (optionally language-filtered), rewrite its image
+        paths into web/, and write it under web/<out_name>."""
+        tmp = QJSON_PATH if lang is None else f"{QJSON_PATH}.{lang}"
+        n = qschema.export_json(conn, tmp, exportable_only=True, lang=lang)
+        data = json.load(open(tmp, encoding="utf-8"))
+        for q in data["questions"]:
+            q["image"] = relocate(q.get("image"))
+            for c in q["choices"]:
+                c["image"] = relocate(c.get("image"))
+        with open(os.path.join(web, out_name), "w", encoding="utf-8") as fh:
+            json.dump(data, fh, ensure_ascii=False, indent=2)
+        return n
+
+    # Canonical/back-compat bundle (all exportable questions, every language) +
+    # one per-language bundle the player prefers, with a manifest for the switcher.
+    total = bundle("questions.json", None)
+    langs = qschema.languages_present(conn, exportable_only=True)
+    per_lang = {}
+    for lg in langs:
+        per_lang[lg] = bundle(f"questions.{lg}.json", lg)
+    manifest = {
+        "default": qschema.DEFAULT_LANG,
+        "supported": sorted(qschema.LANGS),
+        "available": {lg: {"count": per_lang[lg],
+                           "unofficial": lg not in qschema.GROUNDED_LANGS}
+                      for lg in langs},
+    }
+    with open(os.path.join(web, "languages.json"), "w", encoding="utf-8") as fh:
+        json.dump(manifest, fh, ensure_ascii=False, indent=2)
+    conn.close()
 
     print(f"✓ static site bundled: {web}/")
-    print(f"  {len(data['questions'])} questions · {copied} images copied")
+    print(f"  {total} questions · {copied} images copied")
+    print(f"  languages with content: {', '.join(f'{lg}({per_lang[lg]})' for lg in langs) or 'none'}")
     print(f"  preview: python -m http.server -d web 8000  →  http://localhost:8000")
 
 

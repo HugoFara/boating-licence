@@ -19,6 +19,20 @@ body {
   background: var(--bg);
 }
 #app { max-width: 720px; margin: 0 auto; padding: 24px 18px 48px; }
+
+/* Language switcher — top bar, current language highlighted. */
+#langbar {
+  max-width: 720px; margin: 0 auto; padding: 12px 18px 0;
+  display: flex; gap: 6px; justify-content: flex-end; flex-wrap: wrap;
+}
+.langbtn {
+  padding: 5px 11px; font-size: .82rem; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--card); color: var(--muted);
+}
+.langbtn:hover { border-color: var(--accent); color: var(--accent-dark); }
+.langbtn.on {
+  background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600;
+}
 .screen { animation: fade .2s ease; }
 .hidden { display: none !important; }
 @keyframes fade { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; } }
@@ -31,6 +45,11 @@ h2 { font-size: 1.4rem; }
 .banner {
   background: #fff7e6; border: 1px solid #f0d089; border-radius: 8px;
   padding: 12px 14px; margin: 16px 0; font-size: .92rem;
+}
+/* Softer notice for fallback / unofficial-translation banners. */
+.banner.soft {
+  background: #eef5f8; border-color: #bcd6e0; color: var(--accent-dark);
+  font-size: .88rem;
 }
 .config {
   background: var(--card); border: 1px solid var(--line); border-radius: 8px;

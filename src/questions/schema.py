@@ -39,6 +39,12 @@ REVIEW_STATUSES = {"auto_approved", "pending", "approved", "rejected"}
 DISTRACTOR_STRATEGIES = {"sibling_random", "confusion_set", "curated", "n/a"}
 # Only these may be published to the static (public) player:
 EXPORTABLE_STATUSES = {"auto_approved", "approved"}
+# Supported content languages. FR/DE/IT have officially-published Swiss law to
+# ground questions against; EN has none, so English content is an unofficial
+# study translation (flagged in export meta). `fr` is the canonical default.
+LANGS = {"fr", "de", "it", "en"}
+DEFAULT_LANG = "fr"
+GROUNDED_LANGS = {"fr", "de", "it"}   # an official Fedlex source exists
 
 
 @dataclass
@@ -66,6 +72,7 @@ class Question:
     stem: str
     choices: list[Choice]
     provenance: Provenance
+    lang: str = "fr"              # content language; one of LANGS
     polarity: str = "affirmative"
     image: str | None = None      # the figure being asked about (figure questions)
     points: int = 3
@@ -120,6 +127,8 @@ def validate(q: Question) -> list[str]:
         errs.append(f"unknown review_status {q.review_status!r}")
     if q.distractor_strategy not in DISTRACTOR_STRATEGIES:
         errs.append(f"unknown distractor_strategy {q.distractor_strategy!r}")
+    if q.lang not in LANGS:
+        errs.append(f"unknown lang {q.lang!r}")
     n = len(q.choices)
     if not (2 <= n <= 4):
         errs.append(f"{n} choices (expected 2–4, exam uses 3)")
@@ -186,6 +195,7 @@ CREATE TABLE IF NOT EXISTS questions (
     id                  TEXT PRIMARY KEY,
     theme               TEXT NOT NULL,
     kind                TEXT NOT NULL,
+    lang                TEXT NOT NULL DEFAULT 'fr',
     polarity            TEXT NOT NULL,
     stem                TEXT NOT NULL,
     image               TEXT,
@@ -218,7 +228,17 @@ def connect(db_path: str) -> sqlite3.Connection:
     conn = sqlite3.connect(db_path)
     conn.execute("PRAGMA foreign_keys = ON")
     conn.executescript(DDL)
+    _migrate(conn)
     return conn
+
+
+def _migrate(conn: sqlite3.Connection) -> None:
+    """Idempotent, additive migrations for banks created by an earlier schema."""
+    cols = {r[1] for r in conn.execute("PRAGMA table_info(questions)")}
+    if "lang" not in cols:   # pre-i18n bank: backfill the content language
+        conn.execute("ALTER TABLE questions ADD COLUMN lang TEXT NOT NULL DEFAULT 'fr'")
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_q_lang ON questions(lang)")
+    conn.commit()
 
 
 def write_questions(conn: sqlite3.Connection, questions: list[Question]) -> None:
@@ -234,11 +254,11 @@ def write_questions(conn: sqlite3.Connection, questions: list[Question]) -> None
         p = q.provenance
         cur.execute(
             """INSERT INTO questions
-               (id, theme, kind, polarity, stem, image, points, explanation,
+               (id, theme, kind, lang, polarity, stem, image, points, explanation,
                 review_status, distractor_strategy, generator,
                 prov_unit_id, prov_ref, prov_source, prov_url, prov_as_of, prov_licence)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
-            (q.id, q.theme, q.kind, q.polarity, q.stem, q.image, q.points,
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+            (q.id, q.theme, q.kind, q.lang, q.polarity, q.stem, q.image, q.points,
              q.explanation, q.review_status, q.distractor_strategy, q.generator,
              p.unit_id, p.ref, p.source, p.url, p.as_of, p.licence))
         for i, c in enumerate(q.choices):
@@ -279,7 +299,8 @@ def _row_to_question(conn: sqlite3.Connection, r: sqlite3.Row) -> Question:
                    "SELECT text, image, is_correct FROM choices "
                    "WHERE question_id=? ORDER BY idx", (r["id"],))]
     return Question(
-        id=r["id"], theme=r["theme"], kind=r["kind"], polarity=r["polarity"],
+        id=r["id"], theme=r["theme"], kind=r["kind"],
+        lang=(r["lang"] if "lang" in r.keys() else "fr"), polarity=r["polarity"],
         stem=r["stem"], image=r["image"], points=r["points"],
         explanation=r["explanation"], review_status=r["review_status"],
         distractor_strategy=r["distractor_strategy"], generator=r["generator"],
@@ -305,22 +326,42 @@ def load_questions(conn: sqlite3.Connection, review_status: str | None = None
     return out
 
 
+def languages_present(conn: sqlite3.Connection,
+                      exportable_only: bool = True) -> list[str]:
+    """Distinct content languages that have at least one (exportable) question."""
+    sql = "SELECT DISTINCT lang FROM questions"
+    if exportable_only:
+        ph = ",".join("?" * len(EXPORTABLE_STATUSES))
+        sql += f" WHERE review_status IN ({ph})"
+        rows = conn.execute(sql, tuple(EXPORTABLE_STATUSES)).fetchall()
+    else:
+        rows = conn.execute(sql).fetchall()
+    return sorted(r[0] for r in rows)
+
+
 def export_json(conn: sqlite3.Connection, path: str,
-                exportable_only: bool = True) -> int:
+                exportable_only: bool = True, lang: str | None = None) -> int:
     """Dump the bank to one JSON file (what the static player consumes). By
     default only review-cleared questions are emitted — the public licence/quality
-    gate. Returns the number written."""
+    gate. When `lang` is given, only that language's questions are written and the
+    meta is stamped with `lang` (+ `unofficial` for non-grounded languages, i.e.
+    EN). Returns the number written."""
     conn.row_factory = sqlite3.Row
     rows = conn.execute("SELECT * FROM questions ORDER BY theme, id").fetchall()
     out = []
     for r in rows:
         if exportable_only and r["review_status"] not in EXPORTABLE_STATUSES:
             continue
+        if lang is not None and r["lang"] != lang:
+            continue
         q = _row_to_question(conn, r)
         d = asdict(q)
         d["correct"] = q.correct          # convenience for the player
         out.append(d)
     meta = {k: v for k, v in conn.execute("SELECT key, value FROM meta")}
+    if lang is not None:
+        meta["lang"] = lang
+        meta["unofficial"] = "true" if lang not in GROUNDED_LANGS else "false"
     conn.row_factory = None
     with open(path, "w", encoding="utf-8") as fh:
         json.dump({"meta": meta, "questions": out}, fh, ensure_ascii=False, indent=2)

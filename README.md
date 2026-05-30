@@ -72,10 +72,33 @@ signalisation diagrams (lights, buoys, boards), captioned from their annex table
 The bank currently exports **73 reviewed questions** (71 templated figures + an
 approved seed pair), with more prose questions sitting behind the review gate.
 
-**The player** (`web/`) is dependency-free vanilla JS. It loads `questions.json`,
-reads the exam config from its `meta`, and runs two modes: a chronometered **exam**
-(60 questions, balanced across themes) and a **practice** mode with source-cited
-corrections. Scoring mirrors the real exam exactly.
+**The player** (`web/`) is dependency-free vanilla JS. It loads the per-language
+bank (`questions.<lang>.json`), reads the exam config from its `meta`, and runs two
+modes: a chronometered **exam** (60 questions, balanced across themes) and a
+**practice** mode with source-cited corrections. Scoring mirrors the real exam
+exactly. The UI ships in four languages with a language switcher (see below).
+
+### Languages
+
+The exam is offered in the official Swiss languages; the player UI is translated
+into **French, German, Italian, and English**, and question content is built
+per-language:
+
+| Lang | Official law source | Content status |
+|------|---------------------|----------------|
+| FR | ✅ Fedlex | grounded — the operative language for the Geneva/Léman exam |
+| DE | ✅ Fedlex | grounded (planned) — same fetch pipeline, different ELI |
+| IT | ✅ Fedlex | grounded (planned) — same |
+| EN | ❌ none exists | unofficial study translation only (Swiss law isn't published in English) |
+
+The figure PNGs are language-neutral; only captions/legends re-fetch per language.
+The player loads the active language's bank and **falls back to French** (with a
+visible notice) for any language whose bank isn't built yet. English content, when
+present, is flagged **unofficial** — only the FR/DE/IT versions are authoritative.
+
+The UI strings live in `web/i18n.js`; question language is the `lang` field on each
+question, and `run.py web` emits one `questions.<lang>.json` per language plus a
+`languages.json` manifest.
 
 ### Exam format (verified against official VKS / OCV sources)
 

@@ -1,0 +1,294 @@
+"use strict";
+/* UI translations for the player. The four languages match the project scope:
+ * FR/DE/IT have officially-published Swiss law to ground questions against; EN
+ * has no official legal text, so English content (when present) is a clearly
+ * labelled *unofficial study translation*. These tables cover the UI chrome
+ * only — question text comes from the per-language questions.<lang>.json bank,
+ * falling back to French where a language's bank isn't built yet. */
+
+const LANGS = ["fr", "de", "it", "en"];
+const DEFAULT_LANG = "fr";
+
+const LANG_NAMES = { fr: "Français", de: "Deutsch", it: "Italiano", en: "English" };
+
+const THEME_LABELS = {
+  fr: {
+    definitions: "Définitions",
+    meteorologie: "Météorologie",
+    lois: "Lois sur la navigation",
+    signalisation: "Signalisation et signaux acoustiques",
+    matelotage: "Matelotage",
+    eaux_frontalieres: "Eaux frontalières",
+  },
+  de: {
+    definitions: "Begriffe",
+    meteorologie: "Meteorologie",
+    lois: "Schifffahrtsrecht",
+    signalisation: "Signale und Schallzeichen",
+    matelotage: "Seemannschaft",
+    eaux_frontalieres: "Grenzgewässer",
+  },
+  it: {
+    definitions: "Definizioni",
+    meteorologie: "Meteorologia",
+    lois: "Norme di navigazione",
+    signalisation: "Segnaletica e segnali acustici",
+    matelotage: "Marineria",
+    eaux_frontalieres: "Acque di confine",
+  },
+  en: {
+    definitions: "Definitions",
+    meteorologie: "Meteorology",
+    lois: "Navigation law",
+    signalisation: "Signs and sound signals",
+    matelotage: "Seamanship",
+    eaux_frontalieres: "Border waters",
+  },
+};
+
+const STRINGS = {
+  fr: {
+    pageTitle: "Permis bateau Léman — examen théorique (entraînement)",
+    h1: "Permis bateau — examen théorique",
+    subtitle: "Catégorie A (bateau à moteur) · Lac Léman",
+    demoBanner:
+      "<strong>Démo (preuve de concept).</strong> Cette version ne contient pour " +
+      "l’instant que des questions de <em>signalisation</em>, générées automatiquement " +
+      "à partir du droit fédéral (ONI/RNL). Ce n’est pas un examen blanc représentatif : " +
+      "les autres thèmes (lois, météo, matelotage…) seront ajoutés ultérieurement.",
+    fallbackBanner:
+      "Questions affichées en français — la traduction {lang} est en cours de constitution.",
+    unofficialBanner:
+      "Traduction d’étude non officielle. Le droit suisse n’est pas publié en anglais ; " +
+      "seules les versions FR/DE/IT font foi.",
+    cfgQuestions: "Questions",
+    cfgDuration: "Durée",
+    cfgSuccess: "Réussite",
+    cfgScale: "Barème",
+    cfgAvailable: "Disponibles",
+    cfgPartial: "(sur {target} visés — banque en cours de constitution)",
+    minUnit: "min",
+    points: "points",
+    ptsPerQuestion: "{n} pts/question",
+    availableQuestions: "{n} questions",
+    btnExam: "Examen blanc (chronométré)",
+    btnPractice: "Entraînement libre",
+    btnRestart: "Recommencer",
+    btnValidate: "Valider",
+    btnNext: "Suivante",
+    btnFinish: "Terminer",
+    btnSeeResult: "Voir le résultat",
+    sourceNote:
+      "Source : ordonnances fédérales (domaine public). Aucune question issue " +
+      "d’une banque sous licence.",
+    progress: "Question {i} / {n}",
+    multiHint: "Une ou deux réponses peuvent être correctes.",
+    altSignal: "signal à identifier",
+    resultTitle: "Résultat",
+    detailedCorrection: "Correction détaillée",
+    passed: "Réussi",
+    failed: "Échoué",
+    scoreLine: "{earned} / {total} points (seuil {pass})",
+    faultPoints: "Points de faute :",
+    duration: "Durée :",
+    partialExam:
+      "Examen partiel : {n} questions disponibles sur {target}. Score indicatif.",
+    yourChoice: "(votre choix)",
+    sourceLabel: "Source",
+    stateOf: "(état {date})",
+    figureTag: "[figure]",
+    footTagline: "Outil d’étude libre · construit à partir de sources primaires de droit",
+    loadError:
+      "<b>Impossible de charger les questions.</b> Lancez d’abord " +
+      "<code>python run.py questions &amp;&amp; python run.py web</code>, puis servez le dossier.",
+  },
+  de: {
+    pageTitle: "Bootsprüfung Genfersee — Theorieprüfung (Übung)",
+    h1: "Bootsprüfung — Theorieprüfung",
+    subtitle: "Kategorie A (Motorboot) · Genfersee",
+    demoBanner:
+      "<strong>Demo (Machbarkeitsnachweis).</strong> Diese Version enthält vorerst nur " +
+      "Fragen zur <em>Signalisation</em>, automatisch aus dem Bundesrecht (BSV/SVL) erzeugt. " +
+      "Es ist keine repräsentative Musterprüfung: Die übrigen Themen (Recht, Wetter, " +
+      "Seemannschaft…) werden später ergänzt.",
+    fallbackBanner:
+      "Fragen werden auf Französisch angezeigt — die {lang}-Übersetzung wird noch erstellt.",
+    unofficialBanner:
+      "Inoffizielle Lernübersetzung. Das Schweizer Recht wird nicht auf Englisch publiziert; " +
+      "verbindlich sind nur die Fassungen FR/DE/IT.",
+    cfgQuestions: "Fragen",
+    cfgDuration: "Dauer",
+    cfgSuccess: "Bestehen",
+    cfgScale: "Bewertung",
+    cfgAvailable: "Verfügbar",
+    cfgPartial: "(von {target} angestrebt — Fragenpool im Aufbau)",
+    minUnit: "Min.",
+    points: "Punkte",
+    ptsPerQuestion: "{n} Pkt./Frage",
+    availableQuestions: "{n} Fragen",
+    btnExam: "Musterprüfung (mit Zeit)",
+    btnPractice: "Freies Üben",
+    btnRestart: "Neu starten",
+    btnValidate: "Bestätigen",
+    btnNext: "Weiter",
+    btnFinish: "Abschliessen",
+    btnSeeResult: "Ergebnis anzeigen",
+    sourceNote:
+      "Quelle: eidgenössische Verordnungen (gemeinfrei). Keine Frage aus einer " +
+      "lizenzierten Sammlung.",
+    progress: "Frage {i} / {n}",
+    multiHint: "Eine oder zwei Antworten können richtig sein.",
+    altSignal: "zu erkennendes Signal",
+    resultTitle: "Ergebnis",
+    detailedCorrection: "Detaillierte Auflösung",
+    passed: "Bestanden",
+    failed: "Nicht bestanden",
+    scoreLine: "{earned} / {total} Punkte (Grenze {pass})",
+    faultPoints: "Fehlerpunkte:",
+    duration: "Dauer:",
+    partialExam:
+      "Teilprüfung: {n} von {target} Fragen verfügbar. Richtwert.",
+    yourChoice: "(Ihre Wahl)",
+    sourceLabel: "Quelle",
+    stateOf: "(Stand {date})",
+    figureTag: "[Abbildung]",
+    footTagline: "Freies Lernwerkzeug · aus primären Rechtsquellen aufgebaut",
+    loadError:
+      "<b>Fragen konnten nicht geladen werden.</b> Führen Sie zuerst " +
+      "<code>python run.py questions &amp;&amp; python run.py web</code> aus und hosten Sie den Ordner.",
+  },
+  it: {
+    pageTitle: "Licenza nautica Lemano — esame teorico (allenamento)",
+    h1: "Licenza nautica — esame teorico",
+    subtitle: "Categoria A (battello a motore) · Lago Lemano",
+    demoBanner:
+      "<strong>Demo (prova di concetto).</strong> Questa versione contiene per ora solo " +
+      "domande di <em>segnaletica</em>, generate automaticamente dal diritto federale (ONI/RNL). " +
+      "Non è un esame simulato rappresentativo: gli altri temi (norme, meteo, marineria…) " +
+      "saranno aggiunti in seguito.",
+    fallbackBanner:
+      "Domande mostrate in francese — la traduzione {lang} è in corso di realizzazione.",
+    unofficialBanner:
+      "Traduzione di studio non ufficiale. Il diritto svizzero non è pubblicato in inglese; " +
+      "fanno fede solo le versioni FR/DE/IT.",
+    cfgQuestions: "Domande",
+    cfgDuration: "Durata",
+    cfgSuccess: "Promozione",
+    cfgScale: "Punteggio",
+    cfgAvailable: "Disponibili",
+    cfgPartial: "(su {target} previste — banca in costruzione)",
+    minUnit: "min",
+    points: "punti",
+    ptsPerQuestion: "{n} pti/domanda",
+    availableQuestions: "{n} domande",
+    btnExam: "Esame simulato (cronometrato)",
+    btnPractice: "Allenamento libero",
+    btnRestart: "Ricomincia",
+    btnValidate: "Conferma",
+    btnNext: "Avanti",
+    btnFinish: "Termina",
+    btnSeeResult: "Vedi il risultato",
+    sourceNote:
+      "Fonte: ordinanze federali (dominio pubblico). Nessuna domanda tratta da una " +
+      "banca sotto licenza.",
+    progress: "Domanda {i} / {n}",
+    multiHint: "Una o due risposte possono essere corrette.",
+    altSignal: "segnale da identificare",
+    resultTitle: "Risultato",
+    detailedCorrection: "Correzione dettagliata",
+    passed: "Promosso",
+    failed: "Bocciato",
+    scoreLine: "{earned} / {total} punti (soglia {pass})",
+    faultPoints: "Punti di errore:",
+    duration: "Durata:",
+    partialExam:
+      "Esame parziale: {n} domande disponibili su {target}. Punteggio indicativo.",
+    yourChoice: "(la tua scelta)",
+    sourceLabel: "Fonte",
+    stateOf: "(stato {date})",
+    figureTag: "[figura]",
+    footTagline: "Strumento di studio libero · costruito da fonti giuridiche primarie",
+    loadError:
+      "<b>Impossibile caricare le domande.</b> Esegui prima " +
+      "<code>python run.py questions &amp;&amp; python run.py web</code>, poi servi la cartella.",
+  },
+  en: {
+    pageTitle: "Lake Geneva boat licence — theory exam (practice)",
+    h1: "Boat licence — theory exam",
+    subtitle: "Category A (motorboat) · Lake Geneva",
+    demoBanner:
+      "<strong>Demo (proof of concept).</strong> This version currently holds only " +
+      "<em>signage</em> questions, generated automatically from Swiss federal law (ONI/RNL). " +
+      "It is not a representative mock exam: the other themes (law, weather, seamanship…) " +
+      "will be added later.",
+    fallbackBanner:
+      "Questions shown in French — the {lang} translation is still being built.",
+    unofficialBanner:
+      "Unofficial study translation. Swiss law is not published in English; only the " +
+      "FR/DE/IT versions are authoritative.",
+    cfgQuestions: "Questions",
+    cfgDuration: "Duration",
+    cfgSuccess: "Pass mark",
+    cfgScale: "Scoring",
+    cfgAvailable: "Available",
+    cfgPartial: "(of {target} targeted — bank still being built)",
+    minUnit: "min",
+    points: "points",
+    ptsPerQuestion: "{n} pts/question",
+    availableQuestions: "{n} questions",
+    btnExam: "Mock exam (timed)",
+    btnPractice: "Free practice",
+    btnRestart: "Restart",
+    btnValidate: "Check",
+    btnNext: "Next",
+    btnFinish: "Finish",
+    btnSeeResult: "See result",
+    sourceNote:
+      "Source: federal ordinances (public domain). No question taken from a licensed bank.",
+    progress: "Question {i} / {n}",
+    multiHint: "One or two answers may be correct.",
+    altSignal: "signal to identify",
+    resultTitle: "Result",
+    detailedCorrection: "Detailed correction",
+    passed: "Passed",
+    failed: "Failed",
+    scoreLine: "{earned} / {total} points (threshold {pass})",
+    faultPoints: "Fault points:",
+    duration: "Duration:",
+    partialExam:
+      "Partial exam: {n} of {target} questions available. Indicative score.",
+    yourChoice: "(your choice)",
+    sourceLabel: "Source",
+    stateOf: "(as of {date})",
+    figureTag: "[figure]",
+    footTagline: "Free study tool · built from primary legal sources",
+    loadError:
+      "<b>Could not load the questions.</b> First run " +
+      "<code>python run.py questions &amp;&amp; python run.py web</code>, then serve the folder.",
+  },
+};
+
+/* Pick the active language: explicit ?lang=, then saved choice, then the
+ * browser's preferred language, then French. Only the four supported codes. */
+function detectLang() {
+  const fromQuery = new URLSearchParams(location.search).get("lang");
+  const saved = (() => { try { return localStorage.getItem("lang"); } catch { return null; } })();
+  const nav = (navigator.languages || [navigator.language || ""]).map((l) => l.slice(0, 2));
+  for (const cand of [fromQuery, saved, ...nav]) {
+    if (cand && LANGS.includes(cand)) return cand;
+  }
+  return DEFAULT_LANG;
+}
+
+/* Translate `key` for `lang` with {placeholder} interpolation, falling back to
+ * French for any string a translation happens to miss. */
+function t(lang, key, vars) {
+  let s = (STRINGS[lang] && STRINGS[lang][key]) ?? STRINGS[DEFAULT_LANG][key] ?? key;
+  if (vars) for (const k in vars) s = s.replaceAll("{" + k + "}", vars[k]);
+  return s;
+}
+
+function themeLabel(lang, theme) {
+  return (THEME_LABELS[lang] && THEME_LABELS[lang][theme]) ||
+    THEME_LABELS[DEFAULT_LANG][theme] || theme;
+}

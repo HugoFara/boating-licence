@@ -9,7 +9,8 @@ no unreviewed (e.g. LLM-drafted) question can reach a learner.
 from .schema import (  # noqa: F401
     Choice, Provenance, Question, ExamConfig,
     KINDS, POLARITIES, REVIEW_STATUSES, DISTRACTOR_STRATEGIES, EXPORTABLE_STATUSES,
+    LANGS, DEFAULT_LANG, GROUNDED_LANGS,
     make_question_id, validate, score, grade_exam,
     connect, write_questions, set_meta, set_review_status, counts_by_status,
-    export_json, load_questions,
+    export_json, load_questions, languages_present,
 )
