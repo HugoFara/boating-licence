@@ -56,14 +56,38 @@ your own law.
 Scope is **derived, never stored** — computed at export time, so the `Question`
 schema and the per-language national bundles
 (`web/questions.{fr,de,it,en}.json`) are **untouched and byte-identical**. The core
-ships as **additive** sibling files, one per base:
+ships as **additive** sibling files, one per base.
 
-* `run.py` `cmd_web` builds `web/questions.<base>.<lang>.json` (the base's subset,
-  `meta.pool = "<base>"`) for each base that has content, and lists them in
-  `web/languages.json` under a `core` block (`{base: {lang: {path, count}}}`).
-* The player (`web/app.js`) offers a **National ⟷ Common core** pool toggle. The
-  core pool **composes** the available base bundles (universal + cevni + colregs)
-  into one bank, deduped by id. The toggle hides itself when no core bundle exists.
+### The core is *global* — pooled across every bank
+
+`cmd_web` does **not** classify one country's bank in isolation. It pools the
+base-scoped questions from **every** question bank on disk
+(`data/questions*.sqlite` — CH + DE + the per-option FR banks), so a learner
+studies the *merged* harmonised material — the German SBF-See and the French
+côtière COLREGS questions in one pool, not one country's slice. Mechanics:
+
+* For each bank, classify its exportable questions, export per language, and collect
+  the base-scoped ones; pool per `(base, language)`, **dedupe by id**.
+* Write `web/questions.<base>.<lang>.json` (`meta.pool = "<base>"`,
+  `meta.grounding` naming the canonical basis) and list them in `languages.json`
+  under a `core` block (`{base: {lang: {path, count}}}`).
+* **Grounding:** `colregs` is anchored to the canonical **COLREG 1972** text (the
+  `INT` layer — a public-domain USCG reproduction); `cevni` to the national inland
+  enactments (the UNECE CEVNI text is not redistributable, so there is no canonical
+  bundle — see `src/countries/intl.py`).
+
+> **Language-bounded.** The pool is per language: a German See question enters a
+> French learner's core only once **translated**. Until then each language's core is
+> the union of *that language's* banks (e.g. `colregs` today: `de=179, fr=20,
+> en=20`). The merge is what makes translation pay off across countries.
+
+### Track-gated consumption
+
+The player (`web/app.js`) offers a **National ⟷ Common core** toggle, and composes
+the core **by the active permit's track** (`activeTrack()`): an inland permit gets
+`universal + cevni`, a sea permit `universal + colregs` — never both traffic codes
+at once. Each bundle is fetched with its own FR fallback and merged, deduped. The
+manifest carries each permit's `track`; the toggle hides itself when no core exists.
 
 > Invariant to preserve: after `python run.py web`, `git diff` must show **zero**
 > change to the four national `questions.<lang>.json`. Only `languages.json`
@@ -79,26 +103,32 @@ make the split accurate for a new country:
    `maritime`) on each permit in `src/countries/<code>.py`; when unset, the
    jurisdiction layer infers it from the permit code/label. Each track yields a
    regime node under `CEVNI` (inland) or `COLREGS` (maritime).
-2. Skim `src/scope.py` and extend the keyword sets so *its* statute lands in
-   `national`, *its* local waters in `local`, and *its* sea content in `colregs`
-   (the `_MARITIME` markers). The defaults are tuned for Switzerland; a German or
-   French bank needs its own admin/frontier/local/maritime vocabulary.
-3. Run `python run.py web` and check the build summary's `harmonised core:` line +
-   `scope.scope_counts()` look right (national statute should not leak into a base).
+2. Give `src/scope.py` a branch for the country's theme namespace if it differs
+   from the Swiss one (the disjoint namespaces let each branch run without touching
+   the others). Switzerland uses the default theme rules; **France** has
+   `_classify_fr` (keyed on `_FR_THEMES`); **Germany** has `_classify_de` (keyed on
+   `_DE_THEMES`) which reads the **exam block** — `spezifisch_see` → `colregs`,
+   `spezifisch_binnen` → `cevni` — because the German bank mixes both tracks under
+   shared themes. Extend the markers (`_MARITIME`, `_NATIONAL_*`, `_LOCAL_*`) for the
+   country's sea / statute / local-water vocabulary.
+3. Run `python run.py web` and check the build summary's `global harmonised core:`
+   line (per-base counts, pooled over N banks) — national statute should not leak
+   into a base, and sea content should land in `colregs`, not `universal`.
 
-### Seed-driven countries (France) build a *local* core
+> The Bodensee/excluded-regime guard runs **before** any country branch, so a
+> German-themed BSO question still scopes `local`, never a base.
 
-France is the exception to "join the global core for free": it is **seed-driven**
-(no Fedlex fetch/parse) and ships its own self-contained players under `web/fr/`,
-so its questions never enter `data/questions.sqlite` and `cmd_web` never sees them.
-Instead `src/fr/build_fr.py` calls `scope.classify()` itself and emits France's
-**own** per-base sub-bundles (`web/fr/<option>/questions.<base>.<lang>.json`) plus
-the same `core` manifest block — so the player's National ⟷ Common core toggle
-lights up with a *France-local* core (RIPAM/IALA at sea → `colregs`; the inland code
-→ `cevni`). The classifier carries a France branch (`_classify_fr`, keyed on the
-distinct French theme namespace), so the Swiss/German routing above is untouched.
-A future migration that folds France into the shared bank would let it join the
-global cross-country core like any other country; until then its core is its own.
+### Seed-driven countries (France): both global and local
+
+France is **seed-driven** (no Fedlex fetch/parse) and ships its own self-contained
+players under `web/fr/<option>/`, each with its own local per-base core emitted by
+`src/fr/build_fr.py`. It *also* joins the global pool: its per-option banks
+(`data/questions.fr_*.sqlite`) are on disk, so `cmd_web` pools them into the global
+core like any other bank. So France's questions live in **both** its boutique
+players (local core) and the shared global core; per language the two are equivalent
+today (a French côtière question is the same wherever it's served). Folding France's
+players onto the global bundles is a later simplification; functionally the merge
+already includes France.
 
 ## Not CEVNI: Lake Constance (Bodensee), and divergent waters
 

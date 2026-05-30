@@ -12,6 +12,7 @@
   "permits": [
     {
       "code": "SBF-Binnen-Motor",
+      "track": "inland",
       "label": "Sportbootführerschein Binnen (Motor)",
       "questions": 30,
       "time_limit_min": 45,
@@ -30,6 +31,7 @@
     },
     {
       "code": "SBF-Binnen-Motor-Segeln",
+      "track": "inland",
       "label": "Sportbootführerschein Binnen (Motor und Segeln)",
       "questions": 37,
       "time_limit_min": 60,
@@ -53,6 +55,7 @@
     },
     {
       "code": "SBF-See",
+      "track": "maritime",
       "label": "Sportbootführerschein See",
       "questions": 30,
       "time_limit_min": 60,
@@ -77,5 +80,25 @@
       "primary": true
     }
   ],
-  "country_default": "DE"
+  "country_default": "DE",
+  "core": {
+    "universal": {
+      "de": {
+        "path": "../questions.universal.de.json",
+        "count": 117
+      }
+    },
+    "cevni": {
+      "de": {
+        "path": "../questions.cevni.de.json",
+        "count": 367
+      }
+    },
+    "colregs": {
+      "de": {
+        "path": "../questions.colregs.de.json",
+        "count": 179
+      }
+    }
+  }
 }

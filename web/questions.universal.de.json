@@ -1,23 +1,4957 @@
 {
   "meta": {
-    "kb_version": "2026-05-30",
-    "generated": "2026-05-30",
-    "generators": "tmpl:figure_recognition.v1",
-    "exam_questions": "60",
-    "total_points": "180",
-    "points_per_question": "3",
-    "pass_points": "165",
-    "time_limit_min": "50",
-    "scoring": "all_or_nothing",
-    "canton": "Genève (GE) · standard VKS",
-    "canton_code": "GE",
-    "permis": "A",
-    "permis_label": "Permis A — bateau à moteur",
     "lang": "de",
-    "unofficial": "false",
-    "pool": "universal"
+    "pool": "universal",
+    "scope": "universal",
+    "unofficial": false,
+    "generated": "2026-05-30",
+    "grounding": "Portable seamanship — valid under any code."
   },
   "questions": [
+    {
+      "id": "q-elwis-binnen-2023-08-q237-7e265365",
+      "theme": "gezeiten",
+      "kind": "official_mc",
+      "stem": "Wie hat sich ein Schiffsführer bei Hochwasser zu verhalten?",
+      "choices": [
+        {
+          "text": "Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen sind nicht zu beachten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Er muss die Geschwindigkeit anpassen und soweit wie möglich in seiner Fahrtrichtung rechts fahren, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Er muss die Geschwindigkeit anpassen und soweit wie möglich in seiner Fahrtrichtung links fahren, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q237",
+        "ref": "Frage 237",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q233-48512bc6",
+      "theme": "gezeiten",
+      "kind": "official_mc",
+      "stem": "Welchen Effekt können Wind und gegenläufiger Tidenstrom im Bereich von Seegaten haben?",
+      "choices": [
+        {
+          "text": "Keinen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Steile und aufbäumende Seen (Brecher).",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Der Tidenstrom wird durch den Wind verstärkt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der Tidenstrom glättet die Windsee.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q233",
+        "ref": "Frage 233",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q249-2adbf0f5",
+      "theme": "gezeiten",
+      "kind": "official_mc",
+      "stem": "Was versteht man unter Ebbe?",
+      "choices": [
+        {
+          "text": "Das Fallen des Wassers vom Hochwasser zum folgenden Niedrigwasser.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Die Differenz zwischen Hoch- und Niedrigwasser.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der niedrigste Wasserstand einer Tide.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Den Zeitraum vom Hochwasser zum folgenden Niedrigwasser.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q249",
+        "ref": "Frage 249",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q250-4b9e4ee3",
+      "theme": "gezeiten",
+      "kind": "official_mc",
+      "stem": "Was versteht man unter Flut?",
+      "choices": [
+        {
+          "text": "Der höchste Wasserstand einer Tide.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das Steigen des Wassers vom Niedrigwasser zum folgenden Hochwasser.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Die Differenz zwischen Hoch- und Niedrigwasser.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Den Zeitraum vom Niedrigwasser zum folgenden Hochwasser.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q250",
+        "ref": "Frage 250",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q251-6051a186",
+      "theme": "gezeiten",
+      "kind": "official_mc",
+      "stem": "Was versteht man unter einer Tide?",
+      "choices": [
+        {
+          "text": "Der Zeitraum zwischen einem Hochwasser und dem nächstfolgenden Niedrigwasser.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Niedrigwasser.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Der Zeitraum zwischen einem Hochwasser und dem nächstfolgenden Hochwasser.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Hochwasser.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q251",
+        "ref": "Frage 251",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q252-ec88fb78",
+      "theme": "gezeiten",
+      "kind": "official_mc",
+      "stem": "Was versteht man unter einem Niedrigwasser?",
+      "choices": [
+        {
+          "text": "Fallen des Wassers nach Eintritt des höchsten Wasserstands.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Eintritt des niedrigsten Wasserstands beim Übergang vom Fallen zum Steigen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Steigen des Wassers nach Eintritt des niedrigsten Wasserstands.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Eintritt des höchsten Wasserstands beim Übergang vom Steigen zum Fallen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q252",
+        "ref": "Frage 252",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q253-a2aade30",
+      "theme": "gezeiten",
+      "kind": "official_mc",
+      "stem": "Was versteht man unter einem Hochwasser?",
+      "choices": [
+        {
+          "text": "Fallen des Wassers nach Eintritt des höchsten Wasserstands.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Eintritt des niedrigsten Wasserstands beim Übergang vom Fallen zum Steigen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Eintritt des höchsten Wasserstands beim Übergang vom Steigen zum Fallen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Steigen des Wassers nach Eintritt des niedrigsten Wasserstands.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q253",
+        "ref": "Frage 253",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q254-42e38165",
+      "theme": "gezeiten",
+      "kind": "official_mc",
+      "stem": "Was versteht man unter \"Tidenhub\"?",
+      "choices": [
+        {
+          "text": "Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Hochwasser.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Unterschied zwischen den Höhen zweier aufeinanderfolgender Hochwasser.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Unterschied zwischen den Höhen des Hoch- und des Niedrigwassers.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Niedrigwasser.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q254",
+        "ref": "Frage 254",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q255-456e62c0",
+      "theme": "gezeiten",
+      "kind": "official_mc",
+      "stem": "Wo sind für einen bestimmten Ort die Angaben über Hoch- und Niedrigwasserzeiten und den Tidenhub zu finden?",
+      "choices": [
+        {
+          "text": "In der Flutvorhersage des Bundesamtes für Seeschifffahrt und Hydrographie.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "In den Gezeitentafeln oder dem Gezeitenkalender des Bundesamtes für Seeschifffahrt und Hydrographie.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Im Mondphasenkalender der Bundesanstalt für Gewässerkunde.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Im Gezeitenatlas des Bundesamtes für Seeschifffahrt und Hydrographie.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q255",
+        "ref": "Frage 255",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q261-3fea12d6",
+      "theme": "gezeiten",
+      "kind": "official_mc",
+      "stem": "Welche Angaben liefert die Beaufort-Skala?",
+      "choices": [
+        {
+          "text": "Windstärken von 0 bis 12 und die Auswirkungen auf die See.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Windstärken von 0 bis 12 und die Auswirkungen auf die Küste.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Wellenhöhe und die Windgeschwindigkeit bei Sturmstärke.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Den Tidenhub an der Küste bei Vollmond und bei Neumond.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q261",
+        "ref": "Frage 261",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q003-1efea484",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wann ist ein Fahrzeug in Fahrt?",
+      "choices": [
+        {
+          "text": "Wenn es weder vor Anker liegt noch an Land festgemacht ist noch Fahrt über Grund macht.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenn es weder vor Anker liegt noch an Land festgemacht ist noch auf Grund sitzt.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Wenn es weder auf Grund sitzt noch vor Anker liegt noch manövrierbehindert oder manövrierunfähig ist.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenn es weder an Land festgemacht ist noch vor Anker liegt noch Fahrt durchs Wasser macht.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q003",
+        "ref": "Frage 3",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Basisfragen/Basisfragen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "basis",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q034-bde2d95c",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Warum soll ein kleines Fahrzeug nicht dicht an ein großes in Fahrt befindliches Fahrzeug heranfahren?",
+      "choices": [
+        {
+          "text": "Da es dem großen in Fahrt befindlichen Fahrzeug sonst nicht ausweichen kann.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Dichtes Heranfahren ist ein Verstoß gegen die Grundregeln für das Verhalten im Verkehr.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es kann durch dessen Bug- oder Heckwelle Seeschlag erleiden.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es kann durch dessen Bug- oder Heckwelle kentern oder durch den Sog mit dem Fahrzeug kollidieren.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q034",
+        "ref": "Frage 34",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Basisfragen/Basisfragen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "basis",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q037-562cad1a",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Welche Gefahren können entstehen, wenn ein kleines von einem größeren Fahrzeug überholt wird?",
+      "choices": [
+        {
+          "text": "Das kleinere Fahrzeug kann durch Stau, Sog oder Schwell aus dem Kurs laufen und kollidieren oder kentern, in flachen Gewässern extrem versetzt werden.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das größere Fahrzeug kann durch Wellenbildung aus dem Kurs laufen und kollidieren oder querschlagen, in flachen Gewässern auf Grund laufen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das kleinere Fahrzeug kann durch Stau, Sog oder Schwell aus dem Kurs laufen und kollidieren oder querschlagen, in flachen Gewässern auf Grund laufen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Das größere Fahrzeug kann durch Stau, Sog oder Schwell aus dem Kurs laufen und kollidieren oder querschlagen, in flachen Gewässern auf Grund laufen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q037",
+        "ref": "Frage 37",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Basisfragen/Basisfragen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "basis",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q039-1683414d",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Woran kann man erkennen, ob der Anker hält?",
+      "choices": [
+        {
+          "text": "Wenn beim Handauflegen auf die Ankerkette oder -leine kein Rucken zu verspüren ist und sich die Ankerpeilung nicht ändert.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Wenn beim Handauflegen auf die Ankerkette oder -leine kein Rucken zu verspüren ist und das Fahrzeug nicht schwojt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenn beim Handauflegen auf die Ankerkette oder -leine kein Rucken zu verspüren ist und sich die Ankerpeilung ändert.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenn Ankerkette oder -leine nicht vibrieren und sich der anliegende Magnetkompasskurs nicht verändert.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q039",
+        "ref": "Frage 39",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Basisfragen/Basisfragen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "basis",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q049-26d21dbc",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Was muss beim Tanken beachtet werden?",
+      "choices": [
+        {
+          "text": "Fenster schließen, keine elektrischen Schalter betätigen, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Motor abstellen, keine elektrischen Schalter betätigen, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Motor abstellen, Feuerlöscher bereithalten, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Motor in Leerlaufstellung, keine elektrischen Schalter betätigen, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q049",
+        "ref": "Frage 49",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Basisfragen/Basisfragen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "basis",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q060-3e487884",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Welche Vorkehrungen sind für das längere Verlassen des Fahrzeugs zu treffen?",
+      "choices": [
+        {
+          "text": "Alle Seeventile schließen und den Hauptschalter des Bordnetzes ausschalten.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Fahrzeug seefest hinterlassen und den Hafenmeister verständigen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Tagestank schließen und Kraftstofffilter entwässern.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Kraftstoff- und Wassertank auffüllen und das Bordnetz aufladen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q060",
+        "ref": "Frage 60",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Basisfragen/Basisfragen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "basis",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q067-23dfb942",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie oft muss man aufblasbare Rettungsmittel warten lassen?",
+      "choices": [
+        {
+          "text": "Jährlich und nach jedem Einsatz oder Übungsgebrauch.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Jährlich, jeweils vor Beginn der Wassersportsaison.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Entsprechend der Herstellerangabe, mindestens alle 3 Jahre.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Entsprechend der Herstellerangabe, mindestens alle 2 Jahre.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q067",
+        "ref": "Frage 67",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Basisfragen/Basisfragen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "basis",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q103-253a3b70",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Was ist in Kanälen verboten?",
+      "choices": [
+        {
+          "text": "Überholen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenden.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ankern.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Begegnen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q103",
+        "ref": "Frage 103",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q106-ef09c873",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie sind Anker am Tage bezeichnet, die die Schifffahrt behindern können?",
+      "choices": [
+        {
+          "text": "Mit einem weißen Döpper.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mit einem roten Döpper.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mit einem gelben Döpper.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mit einem grünen Döpper.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q106",
+        "ref": "Frage 106",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q117-28797aba",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Welche Bedeutung haben vor einer Schleuse ein rotes oder ein rotes und ein grünes Licht?",
+      "choices": [
+        {
+          "text": "Ausfahrt verboten, Öffnen der Schleuse wird vorbereitet.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Einfahrt verboten, Schließen der Schleuse wird vorbereitet.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Einfahrt verboten, Öffnen der Schleuse wird vorbereitet.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ausfahrt verboten, Schließen der Schleuse wird vorbereitet.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q117",
+        "ref": "Frage 117",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q118-ee90c6a6",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "In welcher Reihenfolge fahren Fahrzeuge, die nicht Kleinfahrzeuge sind, und Kleinfahrzeuge, die gemeinsam geschleust werden sollen, in die Schleuse ein?",
+      "choices": [
+        {
+          "text": "Kleinfahrzeuge fahren nach den Fahrzeugen, die nicht Kleinfahrzeuge sind und ohne Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Kleinfahrzeuge fahren vor den Fahrzeugen, die nicht Kleinfahrzeuge sind und ohne Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Kleinfahrzeuge fahren vor den Fahrzeugen, die nicht Kleinfahrzeuge sind und vor Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Kleinfahrzeuge fahren erst nach den Fahrzeugen, die nicht Kleinfahrzeuge sind und nach Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q118",
+        "ref": "Frage 118",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q119-10d22428",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Mehrere Kleinfahrzeuge sollen gemeinsam vom Oberwasser in das Unterwasser geschleust werden. Worauf ist bei deren Einfahrt in die Schleuse und während des Schleusens besonders zu achten?",
+      "choices": [
+        {
+          "text": "Das letzte Kleinfahrzeug muss so weit einfahren, dass es beim Leeren der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Das erste Kleinfahrzeug muss so weit einfahren, dass es beim Füllen der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das erste Kleinfahrzeug muss so weit einfahren, dass es beim Leeren der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das letzte Kleinfahrzeug muss so weit einfahren, dass es beim Füllen der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q119",
+        "ref": "Frage 119",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q213-4af1d1a0",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Was ist mit Abfällen jeglicher Art zu tun, die an Bord anfallen?",
+      "choices": [
+        {
+          "text": "An Bord sammeln und nur in geschlossenen Behältern über Bord werfen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An Bord sammeln. Die Abgabe ist an jeder Schleuse möglich.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An Bord sammeln und bei einer Liegestelle an Land stellen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An Bord sammeln und an Land in den entsprechenden Abfallsammelbehältern umweltgerecht entsorgen.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q213",
+        "ref": "Frage 213",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q245-ab69ad33",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Warum ist es bei der Schleusendurchfahrt verboten, Autoreifen als Fender zu benutzen?",
+      "choices": [
+        {
+          "text": "Autoreifen erzeugen schwarze Farbspuren am Boot und an der Schleusenmauer.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autoreifen sind nicht schwimmfähig und können in den Schleusen zu erheblichen Störungen führen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Autoreifen sind schwimmfähig und können in der Schleuse zu erheblichen Störungen führen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Autoreifen erzeugen eine zu hohe Reibung.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q245",
+        "ref": "Frage 245",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q254-70f0619d",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Was wird unter einem \"Kimmkieler\" verstanden?",
+      "choices": [
+        {
+          "text": "Eine Yacht mit zwei Seitenschwertern.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Eine Yacht mit zwei Kielen hintereinander.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Eine Yacht mit zwei Seitenkielen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Eine Yacht mit einem Kielschwert.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q254",
+        "ref": "Frage 254",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q255-85a8df35",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Worin besteht der Vorteil eines Kimmkielers gegenüber anderen Kielbooten?",
+      "choices": [
+        {
+          "text": "Der Kiel lässt sich aufholen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Er kann problemlos aufrecht trocken fallen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sein Tiefgang ist größer.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Abdrift ist geringer als bei anderen Kielbooten.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q255",
+        "ref": "Frage 255",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q256-fef53834",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Was wird unter einer \"Kielschwertyacht\" verstanden?",
+      "choices": [
+        {
+          "text": "Eine Yacht mit einem Ballastkiel und einem zusätzlichen Schwert.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Eine Yacht mit flach gehendem Ballastkiel und zusätzlichem aufholbarem Schwert.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Eine Yacht mit einem aufholbaren Ballastkiel.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Eine Yacht mit zwei Seitenkielen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q256",
+        "ref": "Frage 256",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q257-02db3002",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wodurch wirken die Bodenlenzventile einer Jolle, die unterhalb der Wasserlinie liegen?",
+      "choices": [
+        {
+          "text": "Durch das Druckgefälle zwischen Luft- und Wasserdruck.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Durch die Schwerkraft fließt das Wasser außenbords.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Durch die Massenträgheit, die das Boot besitzt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Durch den Sog, der bei Fahrt durchs Wasser entsteht.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q257",
+        "ref": "Frage 257",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q258-9778c513",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Was wird unter \"Formstabilität\" verstanden?",
+      "choices": [
+        {
+          "text": "Die Fähigkeit eines Schiffes, sich nach einer Kenterung wieder von selbst aufzurichten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Fähigkeit eines Schiffes beim Loslassen der Pinne den Kurs beizubehalten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Fähigkeit eines Schiffes über Jahre die Rumpfform auch bei starker Beanspruchung beizubehalten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Fähigkeit eines Schiffes, durch seine Rumpfform der Krängung entgegenzuwirken.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q258",
+        "ref": "Frage 258",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q259-b9225359",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Was wird unter \"Gewichtsstabilität\" verstanden?",
+      "choices": [
+        {
+          "text": "Die Fähigkeit eines Schiffes, durch seinen tief liegenden Ballast der Krängung entgegenzuwirken.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Die Möglichkeit durch ein hohes Crewgewicht der Krängung entgegenzuwirken.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Möglichkeit durch zusätzlichen Innenballast die Krängung zu verringern.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Fähigkeit eines Schiffes, durch seine Rumpfform der Krängung entgegenzuwirken.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q259",
+        "ref": "Frage 259",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q260-f457fe2c",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Welche Boote sind vorwiegend \"gewichtsstabil\"?",
+      "choices": [
+        {
+          "text": "Kielyachten sind vorwiegend \"gewichtsstabil\".",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Katamarane sind vorwiegend \"gewichtsstabil\".",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Jollen sind vorwiegend \"gewichtsstabil\".",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Trimarane sind vorwiegend \"gewichtsstabil\".",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q260",
+        "ref": "Frage 260",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q261-76b08381",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Welche Boote sind vorwiegend \"formstabil\"?",
+      "choices": [
+        {
+          "text": "Kielyachten sind vorwiegend \"formstabil\".",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Kielschwertyachten sind vorwiegend \"formstabil\".",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Jollen sind vorwiegend \"formstabil\".",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Kimmkieler sind vorwiegend \"formstabil\".",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q261",
+        "ref": "Frage 261",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q262-bb6a8f0e",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wodurch kann bei formstabilen Booten bei viel Wind die Stabilität erhöht werden?",
+      "choices": [
+        {
+          "text": "Durch Umpumpen von Wasserballast.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Durch Ausfahren von sogenannten Trimmklappen oder eines Zusatzschwertes.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Durch Verlagerung von Innenballast.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Durch Ausreiten bzw. durch Benutzung der Trapezeinrichtung.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q262",
+        "ref": "Frage 262",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q263-a12af228",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie verändert sich das aufrichtende Kraftmoment einer Jolle bei Krängung?",
+      "choices": [
+        {
+          "text": "Es nimmt anfangs ab und erreicht ein Maximum, wenn Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es nimmt anfangs ab und erreicht sein Minimum, bis Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es nimmt anfangs zu bis zu einem Maximum, von da wieder ab, bis Auftriebs- und Gewischtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Es nimmt anfangs ab bis zu einem Minimum, von da wieder zu, bis Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q263",
+        "ref": "Frage 263",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q264-c35c55e8",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie verändert sich das aufrichtende Kraftmoment einer Kielyacht bei stetig zunehmender Krängung?",
+      "choices": [
+        {
+          "text": "Es nimmt bis zum Erreichen des kritischen Winkels von 90° ab.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es nimmt bis zum Erreichen des kritischen Winkels zu, der bei etwa 70° liegt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es nimmt zu und erreicht nach Überschreitung des Maximums seinen kritischen Winkel erst bei über 90°.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Es nimmt bis 90° Krängung ab und dann stetig zu.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q264",
+        "ref": "Frage 264",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q266-a929707d",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wodurch kann eine Pinnensteuerung auch bei Krängung des Bootes sicher erreicht und bedient werden?",
+      "choices": [
+        {
+          "text": "Durch Ersetzen der Pinne durch ein Rad.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Durch einen Pinnenausleger.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Durch Verstellen des Travellers.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Durch das Ausreiten mit Hilfe des Trapezes.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q266",
+        "ref": "Frage 266",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q267-d0527c22",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Warum sollte Tauwerk an Bord stets ordentlich aufgeschossen werden?",
+      "choices": [
+        {
+          "text": "Damit es im Gebrauchsfall klar liegt.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Damit es nicht durch UV-Strahlung beschädigt wird.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Damit die Reißfestigkeit erhalten bleibt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Damit es trocknen kann und nicht verrottet.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q267",
+        "ref": "Frage 267",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q268-5f5f259e",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Warum sollten Fallen stets ordentlich aufgeschossen werden?",
+      "choices": [
+        {
+          "text": "Damit sie trocknen können und nicht verrotten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Damit sie nicht durch UV-Strahlung beschädigt werden.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Damit sie nicht mit den Schoten verwechselt werden können.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Damit sie im Gebrauchsfall schnell und sicher gefiert werden können.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q268",
+        "ref": "Frage 268",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q269-4614d7d3",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie heißen die Ecken eines Segels?",
+      "choices": [
+        {
+          "text": "Vorstag, Unterwant, Achterstag.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Kopf, Hals, Schothorn.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Kopf, Hals, Nock.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Vorliek, Unterliek, Achterliek.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q269",
+        "ref": "Frage 269",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q270-8ae6612f",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie heißen die Kanten eines Segels?",
+      "choices": [
+        {
+          "text": "Vorliek, Unterliek, Achterliek.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Kopf, Hals, Nock.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Vorstag, Unterwant, Achterstag.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Kopf, Hals, Schothorn.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q270",
+        "ref": "Frage 270",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q272-73d73a71",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Weshalb dürfen Segel nicht über einen längeren Zeitraum killen?",
+      "choices": [
+        {
+          "text": "Killen lässt das Boot bei stärkerem Wind kentern.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Killen führt zu Beschädigungen an nebeneinander liegenden Schiffen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Killen schädigt das Tuch und lässt Nähte aufgehen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Killen führt zu Verletzungen der Besatzung.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q272",
+        "ref": "Frage 272",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q273-26446116",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Warum müssen auch kleine Schäden an den Segeln sofort repariert werden?",
+      "choices": [
+        {
+          "text": "Weil es nur noch bei Flaute eingesetzt werden kann.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Weil Feuchtigkeit in das Segel eindringen kann.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Weil dadurch der Vortrieb des Segels leidet.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Weil unter Winddruck daraus schnell große Schäden werden.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q273",
+        "ref": "Frage 273",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q274-b7185ba0",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Woran kann wärend der Fahrt die Richtung des wahren Windes erkannt werden?",
+      "choices": [
+        {
+          "text": "An der Zugrichtung von Wolken.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An den Trimmfäden im Großsegel.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An Flaggen oder anderen Anzeichen an Land.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "An der Nationalflagge am Heck.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q274",
+        "ref": "Frage 274",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q275-d23df7ea",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Welcher Wind wird in Fahrt von Standern bzw. Verklickern angezeigt?",
+      "choices": [
+        {
+          "text": "Die Windrichtung.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der scheinbare Wind.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Der wahre Wind.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der Fahrtwind.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q275",
+        "ref": "Frage 275",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q276-4edcc49d",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wann kommen wahrer Wind und scheinbarer Wind auf einem segelnden Boot aus der gleichen Richtung?",
+      "choices": [
+        {
+          "text": "Auf Amwindkurs.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Auf Vorwindkurs.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Auf Raumschotkurs.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Auf Halbwindkurs.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q276",
+        "ref": "Frage 276",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q277-7080d891",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Warum ist der scheinbare Wind auf einem Vorwindkurs schwächer als der wahre Wind?",
+      "choices": [
+        {
+          "text": "Der scheinbare Wind ist unabhängig von der Windrichtung immer schwächer als der wahre Wind.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der wahre Wind vermindert sich um den entgegenstehenden Fahrtwind.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Der wahre Wind wird durch den Fahrtwind abgebremst.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der scheinbare Wind wird durch den Unterdruck am Segel entlang abgebremst.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q277",
+        "ref": "Frage 277",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q278-336175b9",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Warum ist der scheinbare Wind auf einem Kurs hoch am Wind stärker als der wahre Wind?",
+      "choices": [
+        {
+          "text": "Da sich auf diesem Kurs der wahre Wind und der Fahrtwind in Richtung und Stärke addieren.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Da sich auf diesem Kurs eine Düse zwischen Fock- und Großsegel bildet, die den Wind verstärkt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Da der scheinbare Wind unabhängig von der Windrichtung immer stärker als der wahre Wind ist.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Da der wahre Wind beim Amwindkurs stärker ist als bei raumen Kursen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q278",
+        "ref": "Frage 278",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q279-b3891e23",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Auf einem Amwindkurs wurde gerefft. Ein entgegenkommendes Boot gleichen Typs segelt ungerefft. Wie lässt sich das erklären?",
+      "choices": [
+        {
+          "text": "Boote sind stabiler, wenn der Wind achterlicher einfällt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der scheinbare Wind ist auf Amwindkursen stärker, auf Raumschot- und Vorwindkursen schwächer als der wahre Wind.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Der wahre Wind staut sich am Segel bei Raumschotkurs und ist deshalb schwächer.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bei Amwindkurs streicht der Wind am tragflächenartig gewölbten Segel entlang und wird dadurch beschleunigt.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q279",
+        "ref": "Frage 279",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q280-06b386f7",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Warum raumt beim Einfallen einer Bö auf Amwindkurs der scheinbare Wind?",
+      "choices": [
+        {
+          "text": "Da die Windrichtung durch die Segelstellung beeinflusst wird, verändert sich auch der scheinbare Wind.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Da der Fahrtwind zunächst gleich bleibt, der wahre Wind jedoch zunimmt, kommt der daraus resultierende scheinbare Wind raumer.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Da durch die Koreoliskraft der Wind auch seine Richtung ändert, wenn er stärker wird.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Da durch den Trimm des Bootes sich der Kurs automatisch ändert, wenn der Wind zunimmt.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q280",
+        "ref": "Frage 280",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q281-c5e32c9b",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Beim Einfallen einer Bö auf Amwindkurs raumt der scheinbare Wind. Welchen Nutzen kann auf der Kreuz daraus gezogen werden?",
+      "choices": [
+        {
+          "text": "Segel etwas fieren, um die Bö in Krängung umzusetzen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ein Spinnacker kann gesetzt werden.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mitluven, um weitere Höhe zu gewinnen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Abfallen, um maximale Höhe zu segeln.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q281",
+        "ref": "Frage 281",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q282-2f330ac8",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie sollte das Schwert einer Jolle auf Vorwindkurs gefahren werden und warum?",
+      "choices": [
+        {
+          "text": "Es sollte nie ganz aufgeholt werden, da es sonst bei einer Kenterung zum Aufrichten der Jolle nicht mehr greifbar ist.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es sollte gefiert werden. Dadurch wird das Boot stabiler und die Gefahr der Kenterung bei einer unfreiwilligen Halse reduziert.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es sollte bei stärkerem Wind ganz aufgeholt werden, um die Steuerfähigkeit der Jolle zu verbessern.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es sollte aufgeholt werden. Dadurch vermindert sich der Reibungswiderstand, aber auch die Gefahr der Kenterung bei einer unfreiwilligen Halse.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q282",
+        "ref": "Frage 282",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q283-5d250898",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie verändern sich Abdrift und Krängung, wenn das Schwert einer Jolle auf einem Amwindkurs etwas aufgeholt wird?",
+      "choices": [
+        {
+          "text": "Die Abdrift wird größer, die Krängung nimmt zu.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Abdrift nimmt ab, das Boot wird aufgrund des geringeren Wasserwiderstandes schneller.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Abdrift wird kleiner, die Krängung nimmt ab.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Abdrift wird größer, die Krängung nimmt ab.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q283",
+        "ref": "Frage 283",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q284-f011718c",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Mit welcher Krängung sollte eine Jolle üblicherweise gesegelt werden und weshalb?",
+      "choices": [
+        {
+          "text": "Leicht nach Lee geneigt, da sonst die Segel leicht nach Luv überkommen können.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Möglichst nach Luv geneigt, weil dadurch die Abdrift und die Luvgierigkeit abnehmen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Möglichst aufrecht, da sonst Abdrift und Luvgierigkeit zunehmen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Möglichst aufrecht, weil sonst Abdrift und Leegierigkeit zunehmen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q284",
+        "ref": "Frage 284",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q286-eec25ab7",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie wirkt sich ein Holepunkt, der zu weit vorne liegt, auf Stand und Beanspruchung des Vorsegels aus?",
+      "choices": [
+        {
+          "text": "Das Vorliek killt, das Unterliek wird übermäßig gereckt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das Vorliek killt, das Achterliek wird übermäßig gereckt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das Achterliek killt, das Vorliek wird übermäßig gereckt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das Unterliek killt, das Achterliek wird übermäßig gereckt.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q286",
+        "ref": "Frage 286",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q287-64741cfc",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie wirkt sich ein Holepunkt, der zu weit achtern liegt, auf Stand und Beanspruchung des Vorsegels aus?",
+      "choices": [
+        {
+          "text": "Das Unterliek killt, das Achterliek wird übermäßig gereckt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das Achterliek killt, das Vorliek wird übermäßig gereckt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das Vorliek killt, das Unterliek wird übermäßig gereckt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das Achterliek killt, das Unterliek wird übermäßig gereckt.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q287",
+        "ref": "Frage 287",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q288-b9cec31a",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie muss ein Segel bei leichtem Wind getrimmt werden?",
+      "choices": [
+        {
+          "text": "Die Schoten müssen dicht geholt werden.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das Segel soll bauchig stehen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Das Segel soll flach getrimmt werden.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Schoten müssen gefiert werden.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q288",
+        "ref": "Frage 288",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q289-74c291e3",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie muss ein Segel bei starkem Wind getrimmt werden?",
+      "choices": [
+        {
+          "text": "Die Schoten müssen gefiert werden.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Schoten müssen dicht geholt werden.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das Segel soll flach getrimmt werden.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Es soll bauchig getrimmt werden.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q289",
+        "ref": "Frage 289",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q290-430a119f",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie beeinflusst ein Unterliekstrecker den Trimm des Segels?",
+      "choices": [
+        {
+          "text": "Je nach Zugkraft wird der untere Teil des Vorsegels bauchiger oder flacher.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Je nach Zugkraft wird der achtere Teil des Großsegels bauchiger oder flacher.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Je nach Zugkraft wird der achtere Teil des Vorsegels bauchiger oder flacher.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Je nach Zugkraft wird der untere Teil des Großsegels bauchiger oder flacher.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q290",
+        "ref": "Frage 290",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q291-bb70c592",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Um auf Amwindkursen eine Jolle auf Kurs zu halten, muss die Pinne stets stark von der Seite der Segel weggezogen werden. Wie kann der Trimmfehler behoben werden?",
+      "choices": [
+        {
+          "text": "Vorsegel flacher trimmen; Gewichtsverlagerung nach achtern.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Großsegel flacher trimmen; Gewichtsverlagerung nach achtern.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Großsegel flacher trimmen; Gewichtsverlagerung nach vorne.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Vorsegel flacher trimmen; Gewichtsverlagerung nach vorne.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q291",
+        "ref": "Frage 291",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q292-0128b6a9",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Um auf Amwindkursen eine Jolle auf Kurs zu halten, muss die Pinne stets stark zur Seite der Segel hingedrückt werden. Wie kann der Trimmfehler behoben werden?",
+      "choices": [
+        {
+          "text": "Großsegel flacher trimmen, Gewichtsverlagerung nach hinten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Großsegel bauchiger trimmen, Gewichtsverlagerung nach hinten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Großsegel flacher trimmen, Gewichtsverlagerung nach vorn.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Großsegel bauchiger trimmen, Gewichtsverlagerung nach vorn.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q292",
+        "ref": "Frage 292",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q294-a9b27516",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Welchen Einfluss hat zunehmende Krängung auf den Trimm des Bootes?",
+      "choices": [
+        {
+          "text": "Die Luvgierigkeit nimmt zu.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Die Leegierigkeit nimmt zu.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Keinen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bis 45° Krängung nimmt die Luvgierigkeit zu, dann wieder ab.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q294",
+        "ref": "Frage 294",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q295-33bb49b7",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Welche Manöver hat das Boot auf dem eingezeichneten Kurs an den Punkten 1, 2 und 3 gefahren?",
+      "choices": [
+        {
+          "text": "1 Q-Wende, 2 Halse, 3 Wende.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "1 Wende, 2 Q-Wende, 3 Halse.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "1 Halse, 2 Wende, 3 Q-Wende.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "1 Wende, 2 Halse, 3 Q-Wende.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q295",
+        "ref": "Frage 295",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q296-a6bc36f9",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Was ist mit Schwert und Ruder einer Jolle zu tun, wenn das Boot an einer Boje liegen gelassen wird?",
+      "choices": [
+        {
+          "text": "Schwert und Ruder absenken, damit das Boot frei schwojen kann.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Schwert aufholen, Ruder absenken, damit das Boot frei schwojen kann.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Schwert absenken, Ruder aufholen, damit das Boot frei schwojen kann.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Schwert und Ruderblatt aufholen, damit das Boot frei schwojen kann.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q296",
+        "ref": "Frage 296",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q298-03b4e82d",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Ein Segelboot segelt am Wind, plötzlich bricht das Luvwant. Welches Manöver ist sinnvoll?",
+      "choices": [
+        {
+          "text": "Q-Wende.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wende.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Aufschießer.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Halse.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q298",
+        "ref": "Frage 298",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q299-87ca44b2",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Ein Segelboot segelt bei starkem Wind nur unter Großsegel auf Amwindkurs. Plötzlich bricht das Vorstag. Was ist sofort zu unternehmen?",
+      "choices": [
+        {
+          "text": "Einen Aufschießer fahren.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Dichtholen und Anluven.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Eine Halse fahren.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Abfallen auf Vorwindkurs.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q299",
+        "ref": "Frage 299",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q300-83b7de4f",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Ein Segelboot segelt bei starkem Wind nur unter Großsegel auf Amwindkurs. Plötzlich bricht das Vorstag. Womit kann das gebrochene Vorstag schnell provisorisch ersetzt werden?",
+      "choices": [
+        {
+          "text": "Durch die Vor- oder die Achterleine.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Durch die Fockschot oder das Großfall.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Durch die Fockschot oder eine Reffleine.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Durch die Fock oder ein Fall.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q300",
+        "ref": "Frage 300",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q075-41561ea2",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Welche Sportboote sind von der Fahrerlaubnispflicht auf den Seeschifffahrtsstraßen ausgenommen?",
+      "choices": [
+        {
+          "text": "Sportboote, die entweder vor Anker liegen oder an Land festgemacht sind oder auf Grund sitzen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sportboote ohne Antriebsmaschine oder solche mit einer größten, nicht überschreitbaren Nutzleistung von 11,03 Kilowatt (15 PS) bei Verwendung eines Verbrennungsmotors bzw. 7,5 Kilowatt bei Verwendung eines Elektromotors Betriebsart S1 (Dauerbetrieb) oder weniger.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sportboote unter Segel mit einer Rumpflänge unter 20 m und solche deren Antriebsmaschine nicht benutzt wird.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sportboote mit Antriebsmaschine mit einer größeren Nutzleistung als 11,03 Kilowatt (15 PS) bei Verwendung eines Verbrennungsmotors bzw. 7,5 Kilowatt bei Verwendung eines Elektromotors Betriebsart S1 (Dauerbetrieb).",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q075",
+        "ref": "Frage 75",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q077-bfda43de",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Was bedeutet \"seemännische Sorgfaltspflicht\"?",
+      "choices": [
+        {
+          "text": "Die Verpflichtung zur Beachtung der Seeschifffahrtsstraßen-Ordnung (SeeSchStrO), der Kollisionsverhütungsregeln (KVR), der Grundregeln für das Verhalten im Verkehr und der Ausweichregeln mit dem Manöver des letzten Augenblicks.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Verpflichtung zur Beachtung von Vorsichtsmaßregeln der Kollisionsverhütungsregeln (KVR), der Grundregeln für das Verhalten im Verkehr und der Ausweichregeln mit dem Manöver des letzten Augenblicks.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Verpflichtung zur Beachtung der Vorsichtsmaßregeln und Sicherheitsregeln der Verkehrsvorschriften und der Grundregeln für das Verhalten im Verkehr.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Die Verpflichtung zur Beachtung von Vorsichtsmaßregeln über die Verkehrsvorschriften hinaus, die Seemannsbrauch oder besondere Umstände des Falles erfordern.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q077",
+        "ref": "Frage 77",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q079-b62c744f",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Was bedeutet das \"Manöver des letzten Augenblicks\"?",
+      "choices": [
+        {
+          "text": "Ausweichmanöver des Kurshalters oder des Ausweichpflichtigen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ausweichmanöver des Kurshalters.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ausweichmanöver des Kurshalters und des Ausweichpflichtigen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ausweichmanöver des Ausweichpflichtigen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q079",
+        "ref": "Frage 79",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q080-80edf7db",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wann ist das \"Manöver des letzten Augenblicks\" durchzuführen?",
+      "choices": [
+        {
+          "text": "Es muss durchgeführt werden, wenn ein Zusammenstoß durch Manöver des Kurshalters allein nicht mehr vermieden werden kann.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es muss durchgeführt werden, wenn ein Zusammenstoß durch Manöver des Ausweichpflichtigen allein nicht mehr vermieden werden kann.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Es muss kurz vor der Kollision durchgeführt werden, wenn sonst ein Zusammenstoß durch Manöver des Kurshalters allein nicht mehr vermieden werden kann.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es muss im letzten Augenblick von jedem durchgeführt werden, wenn ein Zusammenstoß sonst nicht mehr vermieden werden kann.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q080",
+        "ref": "Frage 80",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q082-03f2e1b4",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wann ist ein Fahrzeug manövrierunfähig?",
+      "choices": [
+        {
+          "text": "Wenn es wegen der Art seines Einsatzes behindert ist und deshalb nicht so wie vorgeschrieben manövrieren und daher einem anderen Fahrzeug nicht ausweichen kann.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenn es wegen außergewöhnlicher Umstände, z. B. Ausfall der Ruder- oder Maschinenanlage, nicht so wie vorgeschrieben manövrieren und daher einem anderen Fahrzeug nicht ausweichen kann.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Wenn es wegen seines Tiefgangs im Verhältnis zu der vorhandenen Tiefe und Breite des befahrbaren Gewässers erheblich behindert ist, von seinem zu verfolgenden Kurs abzuweichen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenn es mit Netzen, Leinen, Schleppnetzen oder anderen Fanggeräten fischt, welche die Manövrierfähigkeit einschränken.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q082",
+        "ref": "Frage 82",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q083-10a284a9",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wann ist ein Fahrzeug manövrierbehindert?",
+      "choices": [
+        {
+          "text": "Wenn es mit Netzen, Leinen, Schleppnetzen oder anderen Fanggeräten fischt, welche die Manövrierfähigkeit einschränken.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenn es wegen seines Tiefgangs im Verhältnis zu der vorhandenen Tiefe und Breite des befahrbaren Gewässers erheblich behindert ist, von seinem zu verfolgenden Kurs abzuweichen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenn es wegen der Art seines Einsatzes behindert ist und deshalb nicht so wie vorgeschrieben manövrieren und daher einem anderen Fahrzeug nicht ausweichen kann.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Wenn es wegen außergewöhnlicher Umstände, z. B. Ausfall der Ruder- oder Maschinenanlage, nicht so wie vorgeschrieben manövrieren und daher einem anderen Fahrzeug nicht ausweichen kann.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q083",
+        "ref": "Frage 83",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q119-a7a8f26d",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Welches Fahrzeug gibt bei verminderter Sicht - im Anschluss an das Signal: lang, kurz, kurz",
+      "choices": [
+        {
+          "text": "Ein manövrierunfähiges Fahrzeug von weniger als 100 m Länge.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ein geschlepptes Fahrzeug oder das letzte bemannte Fahrzeug eines Schleppverbandes in Fahrt.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ein Fahrzeug mit gefährlicher Ladung vor Anker von weniger als 100 m Länge.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ein Maschinenfahrzeug in Fahrt, das seine Maschine gestoppt hat und keine Fahrt durchs Wasser macht.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q119",
+        "ref": "Frage 119",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q136-67f7a134",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie muss sich ein Ausweichpflichtiger gegenüber einem Kurshalter verhalten?",
+      "choices": [
+        {
+          "text": "Die Fahrt ist auf das für die Steuerfähigkeit erforderliche Mindestmaß zu reduzieren; im Zweifelsfall muss ganz aufgestoppt werden.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das Ausweichmanöver muss frühzeitig, durchgreifend und klar erkennbar durchgeführt werden.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Das Manöver des letzten Augenblicks ist durchzuführen. Es muss so ausgewichen werden, wie es zur Vermeidung eines Zusammenstoßes am dienlichsten ist.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der Kurs muss bei Annäherung an den Kurshalter Schritt für Schritt so angepasst werden, dass das Heck des Anderen sicher umfahren wird.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q136",
+        "ref": "Frage 136",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q145-ba19cf1c",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie hat sich ein Maschinenfahrzeug bei Kollisionsgefahr in einem Einbahnweg eines Verkehrstrennungsgebietes gegenüber einem Maschinenfahrzeug zu verhalten, das den Einbahnweg von Steuerbord kommend quert?",
+      "choices": [
+        {
+          "text": "Es muss das Manöver des letzten Augenblicks durchführen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es muss dem anderen Fahrzeug ausweichen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Dem querenden Fahrzeug hat es besondere Aufmerksamkeit zu widmen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Es darf die sichere Durchfahrt des Maschinenfahrzeugs nicht behindern.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q145",
+        "ref": "Frage 145",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q181-1d3c5981",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Welche Höchstgeschwindigkeit darf vor Stellen mit erkennbarem Badebetrieb - außerhalb des Fahrwassers - in einem Abstand von 500 m und weniger vom Ufer nicht überschritten werden?",
+      "choices": [
+        {
+          "text": "4,3 Knoten.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "3,4 Knoten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "4,8 Knoten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "3,8 Knoten.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q181",
+        "ref": "Frage 181",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q229-4b919d63",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Wie hoch, soweit die Nordsee-Befahrens-Verordnung (NordSBefV) nicht ausdrücklich etwas anderes bestimmt, ist die maximale Geschwindigkeit, die ein Maschinenfahrzeug in Nationalparken im Bereich der Nordsee fahren darf?",
+      "choices": [
+        {
+          "text": "10 Knoten Fahrt über Grund.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "12 Knoten über Grund.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "12 Knoten Fahrt durchs Wasser.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "10 Knoten Fahrt durchs Wasser.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q229",
+        "ref": "Frage 229",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q241-4bb8b4ce",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Was versteht man unter dem Geschwindigkeitsbegriff \"Knoten\"?",
+      "choices": [
+        {
+          "text": "Das sind die von Mittag bis Mittag zurückgelegten Seemeilen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das sind die in einer Stunde zurückgelegten Seemeilen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Das sind die an einem Tag zurückgelegten Seemeilen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Das sind die in einer Stunde zurückgelegten Kilometer.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q241",
+        "ref": "Frage 241",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q260-f8c6ea2b",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Was bedeutet folgendes Zeichen?",
+      "choices": [
+        {
+          "text": "Strom in Richtung Nordwest; Stärke: 3 Knoten; Tidegebiet.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wind in Richtung Nordwest; Stärke: Bft. 3; wolkenlos.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Strom aus Richtung Nordwest; Stärke: 3 Knoten; Tidegebiet.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wind aus Richtung Nordwest; Stärke: Bft. 3; wolkenlos.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q260",
+        "ref": "Frage 260",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q285-66c9c08a",
+      "theme": "seemannschaft",
+      "kind": "official_mc",
+      "stem": "Was bedeutet auf einem Schiff eines der folgenden Signale?",
+      "choices": [
+        {
+          "text": "Fahrzeug in Seenot.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Fahrzeug ist manövrierbehindert.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Fahrzeug mit gefährlichen Gütern.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Fahrzeug vor Anker mit mehr als 100 m Länge.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q285",
+        "ref": "Frage 285",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q043-78b12953",
+      "theme": "umweltschutz",
+      "kind": "official_mc",
+      "stem": "Was ist zu unternehmen, wenn Treibstoff oder Öl in die Bilge gelangt?",
+      "choices": [
+        {
+          "text": "Gleichmäßig verteilen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mit Lappen aufnehmen und umweltgerecht entsorgen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Räume lüften und abwarten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mit entsprechendem Mittel neutralisieren.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q043",
+        "ref": "Frage 43",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Basisfragen/Basisfragen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "basis",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q092-7d80b401",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Welche Auswirkungen kann das Erreichen der Hochwassermarke I für die Sportschifffahrt haben?",
+      "choices": [
+        {
+          "text": "Verbot der Schifffahrt bei Nacht und unsichtigem Wetter.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Einstellung der Schifffahrt.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Geschwindigkeitsbeschränkung und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Überholverbot und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q092",
+        "ref": "Frage 92",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q093-9953088b",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Welche Auswirkungen hat das Erreichen der Hochwassermarke II für die Sportschifffahrt?",
+      "choices": [
+        {
+          "text": "Überholverbot und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Verbot der Schifffahrt bei Nacht und unsichtigem Wetter.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Einstellung der Schifffahrt.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Geschwindigkeitsbeschränkung und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q093",
+        "ref": "Frage 93",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q205-bf9488e4",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Welche Sichtbeeinträchtigungen führen zu unsichtigem Wetter?",
+      "choices": [
+        {
+          "text": "Nacht, Schneefall, starker Regen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Nebel, Schneefall, starker Regen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Dunkelheit, Nebel, Schneefall, starker Regen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Dämmerung, Nebel, Schneefall, starker Regen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q205",
+        "ref": "Frage 205",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q206-b18d068d",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Wie muss ein Fahrzeug ausgerüstet sein, um bei unsichtigem Wetter zu fahren?",
+      "choices": [
+        {
+          "text": "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage ohne ATIS.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage für den Seefunkdienst.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage für den Binnenschifffahrtsfunk.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mit einer Radaranlage ohne Wendeanzeiger und einer Sprechfunkanlage für den Binnenschifffahrtsfunk.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q206",
+        "ref": "Frage 206",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q207-10f99a83",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Was ist zu beachten, wenn während der Fahrt unsichtiges Wetter eintritt?",
+      "choices": [
+        {
+          "text": "Auf bestimmten Wasserstraßen ist ohne Radar und Sprechfunk die Fahrt unverzüglich einzustellen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Auf bestimmten Wasserstraßen ist ohne Radar und AIS-- die Fahrt unverzüglich einzustellen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Auf allen Wasserstraßen ist ohne Radar und ECDIS die Fahrt unverzüglich einzustellen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Auf allen Wasserstraßen ist ohne Radar und Sprechfunk die Fahrt unverzüglich einzustellen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q207",
+        "ref": "Frage 207",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q208-77a778af",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Welchen Vorteil bietet ein Radarreflektor auf einem Sportboot?",
+      "choices": [
+        {
+          "text": "Bessere Erkennbarkeit des Sportbootes auf Radarbildschirmen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Bessere Erkennbarkeit des Sportbootes bei Taglicht.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bessere Erkennbarkeit des Sportbootes bei Nacht.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Bessere Erkennbarkeit des Sportbootes bei unsichtigem Wetter.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q208",
+        "ref": "Frage 208",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q217-067dd8f5",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Was ist bei Sturmwarnung vom Schiffsführer eines Sportbootes unter Segel auf einem größeren Gewässer zu veranlassen?",
+      "choices": [
+        {
+          "text": "Rettungsweste anlegen. Segel setzen, versuchen die Gewässermitte anzulaufen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Rettungsweste anlegen. Alle Segel setzen, versuchen, einen Hafen oder eine geschützte Bucht anzulaufen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Rettungsweste bereit halten. Segel bergen, versuchen, einen Hafen oder eine geschützte Bucht anzulaufen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Rettungsweste anlegen. Segel bergen, versuchen einen Hafen oder eine geschützte Bucht anzulaufen.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q217",
+        "ref": "Frage 217",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q219-a828d70d",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Mit welcher Wetterentwicklung ist bei schnellem und stetig fallendem Luftdruck zu rechnen?",
+      "choices": [
+        {
+          "text": "Besseres Wetter, steigende Temperatur.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Schlechtes Wetter, Starkwind oder Sturm.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Besseres Wetter, Sonne.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Schlechtes Wetter ist nicht zu erwarten.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q219",
+        "ref": "Frage 219",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q220-aef639ea",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Welches Wetter ist zu erwarten, wenn der Luftdruck langsam aber stetig steigt?",
+      "choices": [
+        {
+          "text": "Besseres Wetter, steigende Temperatur.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Besseres Wetter, Sonne.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Schlechtes Wetter ist nicht zu erwarten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Schlechtes Wetter, Starkwind oder Sturm.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q220",
+        "ref": "Frage 220",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q253-7920032f",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Was bedeutet Radarfahrt?",
+      "choices": [
+        {
+          "text": "Eine Fahrt am Tage mit Radar.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Eine Fahrt mit Radar.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Eine Fahrt bei unsichtigem Wetter mit Radar.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Eine Fahrt bei Nacht mit Radar.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q253",
+        "ref": "Frage 253",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Binnen/Spezifische-Fragen-Binnen-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "spezifisch_binnen",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-binnen-2023-08-q271-cb2364e0",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Wozu dienen Segellatten?",
+      "choices": [
+        {
+          "text": "Der Möglichkeit das Segel auch bei Starkwind nutzen zu können.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der Erleichterung des Reffens.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der Verhinderung des Killens von Segeln.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Der Formgebung und Aussteifung des Segels.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-binnen-2023-08-q271",
+        "ref": "Frage 271",
+        "source": "ELWIS Fragenkatalog SBF Binnen, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-Binnen/Spezifische-Fragen-Segeln/Spezifische-Fragen-Segeln-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.binnen.2023-08",
+      "block": "segeln",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q089-4a0ecc6e",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Was bedeutet \"in Sicht befindlich\"?",
+      "choices": [
+        {
+          "text": "Wenn jedes Fahrzeug auch bei unsichtigem Wetter optisch wahrgenommen werden kann.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenn beide Fahrzeuge optisch wahrgenommen werden können.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenn jeder Fahrzeugführer vom anderen optisch wahrgenommen werden kann.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wenn jedes Fahrzeug vom anderen optisch wahrgenommen werden kann.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q089",
+        "ref": "Frage 89",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q256-82566a85",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Wie lang sollte eine Schleppleine bei starkem Seegang sein?",
+      "choices": [
+        {
+          "text": "Mindestens zwei- oder dreifache Wellenlänge.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Mindestens zwei- oder dreifache Wellenhöhe.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mindestens zwei- oder dreifache Schiffslänge.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mindestens zwei- oder dreifache Wassertiefe.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q256",
+        "ref": "Frage 256",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q259-f8174f4e",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Warum sollte bei starkem Seegang die Fahrt vermindert werden?",
+      "choices": [
+        {
+          "text": "Um Schäden durch Seeschlag zu vermeiden.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Um Schiffs- und Wellenlänge nicht in Resonanz zu bringen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Um die Schlinger- und Rollbewegungen zu minimieren.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Um das Austauchen der Schraube zu vermeiden und Kraftstoff zu sparen.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q259",
+        "ref": "Frage 259",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q263-9cbc863b",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Womit muss bei rasch fallendem Luftdruck gerechnet werden?",
+      "choices": [
+        {
+          "text": "Mit einer Wetterverschlechterung.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mit einer Wetterbesserung.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mit Schwachwind oder Windstille.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mit Starkwind oder Sturm.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q263",
+        "ref": "Frage 263",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q264-01652816",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Was bedeuten die in der Wetterkarte abgebildeten Isobaren?",
+      "choices": [
+        {
+          "text": "Orte gleichen Luftdrucks.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Orte gleicher Wolkenbildung.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Orte gleicher Windstärke.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Orte gleicher Luftfeuchtigkeit.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q264",
+        "ref": "Frage 264",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q266-cd5f6b24",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Was zeigt die folgende Abbildung?",
+      "choices": [
+        {
+          "text": "Abbildung eines Tiefdruckgebietes auf der Südhalbkugel mit Warmfront vor der Kaltfront, Angabe des Luftdrucks in hPa, Darstellung des Kalt- und Warmluftstroms.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Abbildung eines Tiefdruckgebietes auf der Nordhalbkugel mit Kaltfront vor der Warmfront, Angabe des Luftdrucks in hPa, Warmfront südlich, Kaltfront nördlich des Zentrums.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Abbildung eines Tiefdruckgebietes auf der Südhalbkugel mit Kalt- und Warmfront, Isobaren mit Angabe des Luftdrucks in hPa, kalte und warme Luftströmung.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Abbildung eines Tiefdruckgebietes auf der Nordhalbkugel mit Warm- und Kaltfront, Isobaren mit Angabe des Luftdrucks in hPa, warme und kalte Luftströmung.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q266",
+        "ref": "Frage 266",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q267-76943be0",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Für welche Windstärken wird eine Starkwindwarnung herausgegeben?",
+      "choices": [
+        {
+          "text": "Windstärke 6 und 7 der Beaufortskala.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Windstärke 4 bis 5 der Beaufortskala.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Windstärke 7 bis 8 der Beaufortskala.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Windstärke 5 und 6 der Beaufortskala.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q267",
+        "ref": "Frage 267",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q268-70ff1b2f",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Für welche Windstärken wird eine Sturmwarnung herausgegeben?",
+      "choices": [
+        {
+          "text": "Windstärke 9 und mehr der Beaufortskala.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Windstärke 6 und mehr der Beaufortskala.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Windstärke 7 und mehr der Beaufortskala.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Windstärke 8 und mehr der Beaufortskala.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q268",
+        "ref": "Frage 268",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        3
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q269-104d018c",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Was ist in amtlichen Wetterberichten unter \"frischem Wind\" zu verstehen?",
+      "choices": [
+        {
+          "text": "Windstärke 7 der Beaufortskala.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Windstärke 4 der Beaufortskala.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Windstärke 5 der Beaufortskala.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Windstärke 6 der Beaufortskala.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q269",
+        "ref": "Frage 269",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q275-ee1ea139",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Welche Sicherheitsmaßnahmen sind auf See vor Eintritt von schwerem Wetter (Starkwind, Sturm) zu treffen?",
+      "choices": [
+        {
+          "text": "Verschlusszustand herbeiführen, lose Gegenstände festzurren, Rettungsweste anlegen und andere Rettungsmittel bereithalten; wenn erforderlich und möglich Schutzhafen anlaufen.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Verschlusszustand herbeiführen, lose Gegenstände festzurren, Rettungsweste und andere Rettungsmittel bereithalten, Seenotsignalmittel zum Einsatz vorbereiten.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Türen schließen, lose Gegenstände festzurren, Rettungsweste und andere Rettungsmittel bereithalten, Radar, Ruder und UKW besetzen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Türen schließen, lose Gegenstände festzurren, Rettungsweste und andere Rettungsmittel bereithalten, Seenotsignalmittel zum Einsatz vorbereiten.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q275",
+        "ref": "Frage 275",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q278-13d768ae",
+      "theme": "wetterkunde",
+      "kind": "official_mc",
+      "stem": "Wie verhindert man das Überbordfallen von Personen bei starkem Seegang?",
+      "choices": [
+        {
+          "text": "Sicherheitsleinen bzw. -gurte aufschießen, Sicherheitsgurt anlegen und in die Reling einpicken.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sicherheitsleinen bzw. -gurte spannen, Besatzung an Deck sammeln. Rettungswesten anlegen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Besatzung in der Plicht versammeln, Rettungswesten anlegen, Sicherheitsleinen bzw. -gurte spannen.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Sicherheitsleinen bzw. -gurte spannen, Sicherheitsgurt anlegen und an den dafür vorgesehenen Stellen einpicken.",
+          "image": null,
+          "is_correct": true
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q278",
+        "ref": "Frage 278",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "correct": [
+        3
+      ]
+    },
     {
       "id": "q-oni-de-oniart142-1b69a547-32a86bb7",
       "theme": "definitions",

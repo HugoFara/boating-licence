@@ -115,6 +115,41 @@ def _classify_fr(theme: str, text: str) -> str:
     return "universal"                             # meteo_maree, environnement
 
 
+# --- Germany (Sportbootführerschein) -------------------------------------------
+# Germany's ELWIS bank is a *single* file mixing the SBF-See (maritime) and
+# SBF-Binnen (inland) catalogues under a distinct German theme namespace (see
+# src/countries/de_themes.py). The track that decides COLREGS vs CEVNI for a
+# traffic-code question is carried not by the theme but by the **exam block**:
+# `spezifisch_see` → maritime, `spezifisch_binnen` → inland, `basis`/`segeln` are
+# shared (routed by a maritime marker, defaulting to the inland baseline). As with
+# France the namespace is disjoint from the Swiss themes, so the Swiss path is
+# untouched.
+_DE_NATIONAL_THEMES = {"recht_dokumente"}                  # German law / documents
+_DE_UNIVERSAL_THEMES = {"seemannschaft", "wetterkunde",    # portable seamanship /
+                        "gezeiten", "umweltschutz",        # nature / definitions
+                        "definitionen"}
+_DE_TRAFFIC_THEMES = {"verkehrsregeln", "schifffahrtszeichen",   # the traffic code:
+                      "lichter_signale", "navigation"}          # See→colregs, Binnen→cevni
+_DE_THEMES = _DE_NATIONAL_THEMES | _DE_UNIVERSAL_THEMES | _DE_TRAFFIC_THEMES
+
+
+def _classify_de(theme: str, block: str, text: str) -> str:
+    """Scope a German SBF question (its theme is in :data:`_DE_THEMES`). Track comes
+    from the exam `block`; the base from the theme."""
+    if theme in _DE_NATIONAL_THEMES:
+        return "national"
+    if theme in _DE_UNIVERSAL_THEMES:
+        return "universal"
+    # traffic code (verkehrsregeln / schifffahrtszeichen / lichter / navigation)
+    if block == "spezifisch_see":
+        return "colregs"
+    if block == "spezifisch_binnen":
+        return "cevni"
+    # basis / segeln are shared across both tracks: route by a maritime marker,
+    # else default to the inland (CEVNI-aligned) baseline German basics build on.
+    return "colregs" if _MARITIME.search(text) else "cevni"
+
+
 def _haystack(q: "Question") -> str:
     p = q.provenance
     return " ".join((q.stem or "", getattr(p, "ref", "") or "",
@@ -129,16 +164,19 @@ def classify(q: "Question") -> str:
     text = _haystack(q)
     theme = q.theme
 
-    # 0. France (permis plaisance) — a distinct theme namespace, routed by its own
-    #    France-tuned branch so the Swiss rules below stay untouched.
-    if theme in _FR_THEMES:
-        return _classify_fr(theme, text)
-
-    # 1. A water that REPLACES the base with its own code (Bodensee/BSO): its
-    #    signage is never portable, whatever the theme. "Which waters are excluded"
-    #    is a jurisdiction fact (src.jurisdictions).
+    # 0. A water that REPLACES the base with its own code (Bodensee/BSO): its
+    #    signage is never portable, whatever the country or theme. This is the
+    #    narrowest rule, so it runs first — before any national namespace branch.
     if jurisdictions.excluded_regime(text):
         return "local"
+
+    # 1. National theme namespaces routed by their own branch (the Swiss themes
+    #    below are a disjoint set, so they stay untouched):
+    #      France (permis plaisance) and Germany (Sportbootführerschein).
+    if theme in _FR_THEMES:
+        return _classify_fr(theme, text)
+    if theme in _DE_THEMES:
+        return _classify_de(theme, getattr(q, "block", "") or "", text)
 
     # 2. Named-local water specifics (a lake's winds / its storm-signal operation).
     if theme == "meteorologie" and _LOCAL_METEO.search(text):

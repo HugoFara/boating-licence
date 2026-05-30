@@ -62,11 +62,13 @@
       "permits": [
         {
           "code": "A",
-          "label": "Permis A — bateau à moteur"
+          "label": "Permis A — bateau à moteur",
+          "track": "inland"
         },
         {
           "code": "D",
-          "label": "Permis D — voile"
+          "label": "Permis D — voile",
+          "track": "inland"
         }
       ],
       "regions": [
@@ -103,39 +105,48 @@
       "permits": [
         {
           "code": "SBF-Binnen-Motor",
-          "label": "Sportbootführerschein Binnen (Motor)"
+          "label": "Sportbootführerschein Binnen (Motor)",
+          "track": "inland"
         },
         {
           "code": "SBF-Binnen-Motor-Segeln",
-          "label": "Sportbootführerschein Binnen (Motor und Segeln)"
+          "label": "Sportbootführerschein Binnen (Motor und Segeln)",
+          "track": "inland"
         },
         {
           "code": "SBF-Binnen-Segeln",
-          "label": "Sportbootführerschein Binnen (Segeln)"
+          "label": "Sportbootführerschein Binnen (Segeln)",
+          "track": "inland"
         },
         {
           "code": "SBF-See",
-          "label": "Sportbootführerschein See"
+          "label": "Sportbootführerschein See",
+          "track": "maritime"
         },
         {
           "code": "SKS",
-          "label": "Sportküstenschifferschein (SKS)"
+          "label": "Sportküstenschifferschein (SKS)",
+          "track": "maritime"
         },
         {
           "code": "SSS",
-          "label": "Sportseeschifferschein (SSS)"
+          "label": "Sportseeschifferschein (SSS)",
+          "track": "maritime"
         },
         {
           "code": "SHS",
-          "label": "Sporthochseeschifferschein (SHS)"
+          "label": "Sporthochseeschifferschein (SHS)",
+          "track": "maritime"
         },
         {
           "code": "Bodensee-A",
-          "label": "Bodensee-Schifferpatent Kategorie A (Motor)"
+          "label": "Bodensee-Schifferpatent Kategorie A (Motor)",
+          "track": "inland"
         },
         {
           "code": "Bodensee-D",
-          "label": "Bodensee-Schifferpatent Kategorie D (Segel)"
+          "label": "Bodensee-Schifferpatent Kategorie D (Segel)",
+          "track": "inland"
         }
       ],
       "regions": [
@@ -166,11 +177,13 @@
       "permits": [
         {
           "code": "cotiere",
-          "label": "Permis plaisance — option côtière"
+          "label": "Permis plaisance — option côtière",
+          "track": "maritime"
         },
         {
           "code": "eaux_interieures",
-          "label": "Permis plaisance — option eaux intérieures"
+          "label": "Permis plaisance — option eaux intérieures",
+          "track": "inland"
         }
       ],
       "regions": [
@@ -189,15 +202,15 @@
     "universal": {
       "de": {
         "path": "questions.universal.de.json",
-        "count": 14
+        "count": 117
       },
       "en": {
         "path": "questions.universal.en.json",
-        "count": 22
+        "count": 39
       },
       "fr": {
         "path": "questions.universal.fr.json",
-        "count": 22
+        "count": 39
       },
       "it": {
         "path": "questions.universal.it.json",
@@ -207,19 +220,33 @@
     "cevni": {
       "de": {
         "path": "questions.cevni.de.json",
-        "count": 149
+        "count": 367
       },
       "en": {
         "path": "questions.cevni.en.json",
-        "count": 162
+        "count": 188
       },
       "fr": {
         "path": "questions.cevni.fr.json",
-        "count": 161
+        "count": 187
       },
       "it": {
         "path": "questions.cevni.it.json",
         "count": 153
+      }
+    },
+    "colregs": {
+      "de": {
+        "path": "questions.colregs.de.json",
+        "count": 179
+      },
+      "en": {
+        "path": "questions.colregs.en.json",
+        "count": 20
+      },
+      "fr": {
+        "path": "questions.colregs.fr.json",
+        "count": 20
       }
     }
   },

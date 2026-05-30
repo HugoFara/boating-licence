@@ -18,12 +18,32 @@ from src import scope                                   # noqa: E402
 from src.questions.schema import Question, Choice, Provenance  # noqa: E402
 
 
-def _q(theme, stem="", ref="", source="", qid="t"):
-    """A minimal Question for classification (classify reads theme + ref/source/
-    stem only; the choices/ids are placeholders)."""
-    return Question(id=qid, theme=theme, kind="rule_mc", stem=stem,
+def _q(theme, stem="", ref="", source="", qid="t", block=""):
+    """A minimal Question for classification (classify reads theme + block +
+    ref/source/stem only; the choices/ids are placeholders)."""
+    return Question(id=qid, theme=theme, kind="rule_mc", stem=stem, block=block,
                     choices=[Choice("a", is_correct=True), Choice("b")],
                     provenance=Provenance(unit_id="u", ref=ref, source=source, url=""))
+
+
+def test_german_bank_splits_see_vs_binnen_by_block():
+    # The German ELWIS bank mixes See + Binnen; the exam block decides the track.
+    see = _q("verkehrsregeln", "Vorfahrt", block="spezifisch_see")
+    binnen = _q("schifffahrtszeichen", "Tafelzeichen", block="spezifisch_binnen")
+    assert scope.classify(see) == "colregs"        # SBF-See traffic → maritime base
+    assert scope.classify(binnen) == "cevni"       # SBF-Binnen traffic → inland base
+    # German seamanship/weather/law route by theme regardless of block
+    assert scope.classify(_q("seemannschaft", "Knoten", block="basis")) == "universal"
+    assert scope.classify(_q("wetterkunde", "Wolken", block="spezifisch_see")) == "universal"
+    assert scope.classify(_q("recht_dokumente", "Führerschein", block="basis")) == "national"
+
+
+def test_excluded_regime_beats_a_national_namespace_branch():
+    # A German-themed question tied to the excluded Bodensee regime must scope local,
+    # not colregs/cevni — the guard runs before the country branches.
+    q = _q("schifffahrtszeichen", "Zeichen", source="Bodensee-Schifffahrts-Ordnung",
+           block="spezifisch_see")
+    assert scope.classify(q) == "local"
 
 
 def test_scopes_vocabulary():

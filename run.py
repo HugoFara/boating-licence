@@ -458,10 +458,12 @@ def _player_html_de(nav: str) -> str:
 """
 
 
-def _build_de_web(web: str) -> dict | None:
+def _build_de_web(web: str, core_avail: dict | None = None) -> dict | None:
     """Bundle the German bank into web/de/ (its own questions + manifest + index),
-    reusing the shared player engine. Returns a small stats dict, or None if the
-    DE bank hasn't been built (run `python run.py questions --country DE` first)."""
+    reusing the shared player engine. `core_avail` is the global harmonised-core
+    manifest (from cmd_web) so the DE player can offer the pooled CEVNI/COLREGS core.
+    Returns a small stats dict, or None if the DE bank hasn't been built (run
+    `python run.py questions --country DE` first)."""
     import shutil
     from src.questions import schema as qschema
     qdb, _ = _qpaths("DE")
@@ -506,9 +508,23 @@ def _build_de_web(web: str) -> dict | None:
     meta = {k: v for k, v in conn.execute("SELECT key, value FROM meta")}
     conn.close()
 
-    # The permit picker + block grading read these from the manifest.
+    # The permit picker + block grading read these from the manifest. Each permit
+    # also carries its track (inland/maritime) so the player composes the right
+    # harmonised core (CEVNI for Binnen, COLREGS for See).
+    from src import jurisdictions
+    track_of = {p.code: jurisdictions.permit_track(p)
+                for p in countries.get("DE").permits.values()}
     block_rules = json.loads(meta.get("block_rules", "{}"))
-    permits = [{"code": code, **rule} for code, rule in block_rules.items()]
+    permits = [{"code": code, "track": track_of.get(code, "inland"), **rule}
+               for code, rule in block_rules.items()]
+    # The German player consumes the GLOBAL harmonised core built by cmd_web (at the
+    # web/ root): its German-language base bundles, referenced one level up. So an
+    # SBF-See learner studies the pooled COLREGS core (DE See + any other sea bank).
+    de_core = {}
+    for base, per in (core_avail or {}).items():
+        if "de" in per:
+            de_core[base] = {"de": {"path": "../" + per["de"]["path"],
+                                    "count": per["de"]["count"]}}
     manifest = {
         "default": "de", "supported": ["de"],
         "available": {"de": {"count": n_de, "unofficial": False}},
@@ -516,6 +532,7 @@ def _build_de_web(web: str) -> dict | None:
         "regions": [{"code": "national", "name": "Bundesweit (SBF See/Binnen)",
                      "primary": True}],
         "country_default": "DE",
+        "core": de_core,
     }
     with open(os.path.join(web_de, "languages.json"), "w", encoding="utf-8") as fh:
         json.dump(manifest, fh, ensure_ascii=False, indent=2)
@@ -591,26 +608,73 @@ def cmd_web(args):
     per_lang = {}
     for lg in langs:
         per_lang[lg] = bundle(f"questions.{lg}.json", lg)
-    # Harmonised core: the cross-country/cross-track portable subset, split by base
-    # (universal seamanship / CEVNI inland / COLREGS maritime), classified by
-    # src/scope.py. Shipped as ADDITIVE per-base sub-bundles so the national
-    # questions.<lang>.json above stay byte-identical; the player composes them
-    # into one "common core" pool. Scope is derived here, never stored.
+    # Harmonised core — the GLOBAL, cross-country portable subset. We pool the
+    # base-scoped questions (universal / cevni / colregs) from EVERY question bank
+    # (CH here + DE + the per-option FR banks), so a learner studies the merged
+    # harmonised material — the German SBF-See and the French côtière COLREGS
+    # questions together — not just one country's. Pooled per (base, language) and
+    # deduped by id; the four national questions.<lang>.json above stay
+    # byte-identical (this only adds questions.<base>.<lang>.json). Scope is derived
+    # by src/scope.py, never stored. COLREGS is grounded in the canonical 1972 text
+    # (the INT layer — public-domain USCG reproduction); CEVNI via national inland
+    # enactments (its UNECE text is not redistributable).
+    #   NOTE: the pool is language-bounded — a German See question enters a French
+    #   learner's core only once translated; until then each language's core is the
+    #   union of that language's banks.
+    import glob as _glob
     from src import scope
-    exportable = [q for q in qschema.load_questions(conn)
-                  if q.review_status in qschema.EXPORTABLE_STATUSES]
-    base_ids = scope.ids_by_base(exportable)          # {base: {ids}}
+    data_dir = os.path.join(os.path.dirname(__file__), "data")
+    bank_paths = sorted(_glob.glob(os.path.join(data_dir, "questions*.sqlite")))
+    _GROUNDING = {
+        "colregs": "COLREG — International Regulations for Preventing Collisions at "
+                   "Sea, 1972 (canonical, USCG public-domain) + national transpositions.",
+        "cevni": "National inland-navigation enactments implementing CEVNI "
+                 "(the UNECE CEVNI text is not redistributable).",
+        "universal": "Portable seamanship — valid under any code.",
+    }
+    pooled: dict[str, dict] = {b: {} for b in scope.BASES}    # base -> lang -> [qdict]
+    seen: dict[str, set] = {b: set() for b in scope.BASES}
+    pooled_counts = {b: 0 for b in scope.BASES}
+    overlay_counts = {"national": 0, "local": 0}
+    for bp in bank_paths:
+        bconn = qschema.connect(bp)
+        bq = [q for q in qschema.load_questions(bconn)
+              if q.review_status in qschema.EXPORTABLE_STATUSES]
+        id_scope = {q.id: scope.classify(q) for q in bq}
+        for s in id_scope.values():
+            if s in overlay_counts:
+                overlay_counts[s] += 1
+        for lg in qschema.languages_present(bconn, exportable_only=True):
+            tmp = f"{QJSON_PATH}.pool.{lg}.tmp"
+            qschema.export_json(bconn, tmp, exportable_only=True, lang=lg)
+            data = json.load(open(tmp, encoding="utf-8"))
+            os.remove(tmp)
+            for qd in data["questions"]:
+                base = id_scope.get(qd["id"])
+                if base not in scope.BASES or qd["id"] in seen[base]:
+                    continue
+                seen[base].add(qd["id"])
+                qd["image"] = relocate(qd.get("image"))
+                for c in qd["choices"]:
+                    c["image"] = relocate(c.get("image"))
+                pooled[base].setdefault(lg, []).append(qd)
+                pooled_counts[base] += 1
+        bconn.close()
     core_avail: dict[str, dict] = {}                  # {base: {lang: {path, count}}}
+    core_langs: set = set()
     for base in scope.BASES:
-        ids = base_ids.get(base) or set()
-        if not ids:
-            continue
         per: dict[str, dict] = {}
-        for lg in langs:
+        for lg, qs in sorted(pooled[base].items()):
             path = f"questions.{base}.{lg}.json"
-            nc = bundle(path, lg, keep_ids=ids, pool=base)
-            if nc:
-                per[lg] = {"path": path, "count": nc}
+            payload = {"meta": {"lang": lg, "pool": base, "scope": base,
+                                "unofficial": lg not in qschema.GROUNDED_LANGS,
+                                "generated": _dt.date.today().isoformat(),
+                                "grounding": _GROUNDING.get(base, "")},
+                       "questions": qs}
+            with open(os.path.join(web, path), "w", encoding="utf-8") as fh:
+                json.dump(payload, fh, ensure_ascii=False, indent=2)
+            per[lg] = {"path": path, "count": len(qs)}
+            core_langs.add(lg)
         if per:
             core_avail[base] = per
 
@@ -625,7 +689,9 @@ def cmd_web(args):
     country_manifest = [{
         "code": c.code, "name": c.name, "default_lang": c.default_lang,
         "langs": list(c.langs),
-        "permits": [{"code": p.code, "label": p.label} for p in c.permits.values()],
+        "permits": [{"code": p.code, "label": p.label,
+                     "track": jurisdictions.permit_track(p)}
+                    for p in c.permits.values()],
         "regions": c.region_manifest(),
     } for c in (countries.get(code) for code in countries.codes()) if c.permits]
     manifest = {
@@ -675,17 +741,20 @@ def cmd_web(args):
     anki_summary = ", ".join(f"{lg}({anki_avail[lg]['count']})" for lg in anki_avail)
     print(f"  Anki decks: {anki_summary or 'none'} · GIFT: {', '.join(gift_avail) or 'none'}")
     print(f"  languages with content: {', '.join(f'{lg}({per_lang[lg]})' for lg in langs) or 'none'}")
-    counts = scope.scope_counts(exportable)
-    core_summary = ", ".join(f"{b}({len((base_ids.get(b) or set()))})" for b in scope.BASES
-                             if base_ids.get(b))
-    print(f"  harmonised core: {core_summary or 'none'}  ·  overlays: "
-          f"national({counts['national']}) local({counts['local']})")
+    core_summary = ", ".join(f"{b}({pooled_counts[b]})" for b in scope.BASES
+                             if pooled_counts[b])
+    colregs_lang = ", ".join(f"{lg}:{e['count']}"
+                             for lg, e in sorted(core_avail.get("colregs", {}).items()))
+    print(f"  global harmonised core (pooled over {len(bank_paths)} banks): "
+          f"{core_summary or 'none'}  ·  overlays: national({overlay_counts['national']}) "
+          f"local({overlay_counts['local']})")
+    print(f"  colregs core per language: {colregs_lang or 'none'}")
     print(f"  countries: {', '.join(countries.codes())}  ·  "
           f"jurisdictions: {len(jurisdictions.codes())} regimes")
 
     # Germany: its own bundle under web/de/ (reuses ../app.js + ../i18n.js), with
     # the permit picker + block-based exam. Emitted only once the DE bank is built.
-    de = _build_de_web(web)
+    de = _build_de_web(web, core_avail)
     if de:
         print(f"  🇩🇪 web/de/: {de['questions']} questions · "
               f"{de['permits']} permits · {de['copied']} images")

@@ -75,12 +75,16 @@ async function fetchBank(lang) {
 
   if (POOL === "core") {
     const core = MANIFEST.core || {};
+    // The harmonised core is track-specific: an inland permit studies universal +
+    // CEVNI, a sea permit universal + COLREGS — never mix the two traffic codes.
+    const wantBase = activeTrack() === "maritime" ? "colregs" : "cevni";
+    const bases = Object.keys(core).filter((b) => b === "universal" || b === wantBase);
     const docs = [];
-    for (const base of Object.keys(core)) {
+    for (const base of bases) {
       const entry = core[base] || {};
       const here = entry[lang] && entry[lang].path;
       const fr = entry[DEFAULT_LANG] && entry[DEFAULT_LANG].path;
-      const doc = await loadDoc(lang === DEFAULT_LANG ? [fr] : [here, fr]);
+      const doc = await loadDoc(lang === DEFAULT_LANG ? [here || fr] : [here, fr]);
       if (doc) docs.push(doc);
     }
     if (docs.length) {
@@ -349,6 +353,14 @@ function currentPermit() {
   const list = permitList();
   if (!list.length) return null;
   return list.find((p) => p.code === PERMIT) || list[0];
+}
+
+/* The navigation track of the active permit: "maritime" (sea → COLREGS core) or
+ * "inland" (→ CEVNI core). Defaults to inland when no permit table is present
+ * (e.g. the Swiss player), so the common-core pool stays inland there. */
+function activeTrack() {
+  const p = currentPermit();
+  return p && p.track === "maritime" ? "maritime" : "inland";
 }
 
 function restorePermit() {
