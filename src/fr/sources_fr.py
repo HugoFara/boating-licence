@@ -62,8 +62,71 @@ FR_SOURCES: dict[str, FrSource] = {
     ),
     "iala_a": FrSource(
         "iala_a",
-        "Balisage maritime — système IALA région A (référentiel permis plaisance)",
-        "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur",
+        "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+        "https://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/",
+        licence="IALA R1001 — standard international ; contenu factuel (couleurs, "
+                "voyants, marques) librement citable.",
+    ),
+    "division_245": FrSource(
+        "division_245",
+        "Division 245 (arrêté du 10 février 2016) — matériel d'armement et de "
+        "sécurité des bateaux de plaisance en eaux intérieures",
+        "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032036538/",
+    ),
+    "directive_2013_53": FrSource(
+        "directive_2013_53",
+        "Directive 2013/53/UE relative aux bateaux de plaisance — catégories de "
+        "conception (annexe I, partie A)",
+        "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32013L0053",
+        licence="© Union européenne, eur-lex.europa.eu — réutilisation autorisée "
+                "(décision 2011/833/UE).",
+    ),
+    "itu_rr": FrSource(
+        "itu_rr",
+        "UIT — Règlement des radiocommunications (canaux VHF maritimes, procédures "
+        "de détresse et d'urgence)",
+        "https://www.itu.int/pub/R-REG-RR",
+        licence="UIT — canaux et procédures internationaux ; contenu factuel "
+                "librement citable.",
+    ),
+    "code_transports": FrSource(
+        "code_transports",
+        "Code des transports — navigation intérieure (titre de navigation, "
+        "alcoolémie, règlements particuliers de police)",
+        "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000023086525/",
+    ),
+    "code_environnement": FrSource(
+        "code_environnement",
+        "Code de l'environnement — pollution par les rejets des navires "
+        "(art. L.218-11 et s.) / convention MARPOL",
+        "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074220/",
+    ),
+    "prefet_maritime": FrSource(
+        "prefet_maritime",
+        "Arrêtés des préfets maritimes (bande littorale des 300 m ; mouillage et "
+        "protection de la posidonie)",
+        "https://www.premar-mediterranee.gouv.fr/",
+    ),
+    "shom": FrSource(
+        "shom",
+        "SHOM — Service hydrographique et océanographique de la marine (cartes et "
+        "marées : zéro hydrographique, marnage, coefficient, étale)",
+        "https://www.shom.fr/",
+        licence="SHOM — données et références hydrographiques officielles "
+                "(réutilisation sous Licence Ouverte / Etalab).",
+    ),
+    "meteo_france": FrSource(
+        "meteo_france",
+        "Météo-France / OMM — échelle de Beaufort (force 0 à 12)",
+        "https://meteofrance.com/",
+        licence="Échelle de Beaufort (OMM) — barème international du domaine public.",
+    ),
+    "cevni": FrSource(
+        "cevni",
+        "CEVNI — Code européen des voies de navigation intérieure (CEE-ONU, "
+        "Résolution n° 24)",
+        "https://unece.org/transport/inland-water-transport",
+        licence="CEE-ONU — code européen modèle, librement consultable.",
     ),
 }
 

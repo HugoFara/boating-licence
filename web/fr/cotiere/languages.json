@@ -20,11 +20,11 @@
     "universal": {
       "fr": {
         "path": "questions.universal.fr.json",
-        "count": 10
+        "count": 11
       },
       "en": {
         "path": "questions.universal.en.json",
-        "count": 10
+        "count": 11
       }
     },
     "colregs": {

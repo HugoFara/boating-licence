@@ -47,7 +47,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-40",
-        "ref": "RGP — définition de la menue embarcation",
+        "ref": "RGP (Code des transports, art. R.4000-2, 7°) — menue embarcation (< 20 m)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -90,7 +90,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-41",
-        "ref": "RGP — stationnement",
+        "ref": "RGP, art. A.4241-54-2 — stationnement interdit (ponts, passages étroits)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -133,7 +133,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-42",
-        "ref": "RGP — batillage",
+        "ref": "RGP, art. A.4241-53-21 — vitesse et batillage",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -176,7 +176,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-43",
-        "ref": "RGP — signalisation des écluses",
+        "ref": "RGP, art. A.4241-53-31 §1 — feux d'écluse (rouge = accès interdit)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -186,7 +186,7 @@
       "polarity": "affirmative",
       "image": null,
       "points": 1,
-      "explanation": "Un feu rouge interdit l'entrée dans l'écluse ; on attend. Le feu vert autorise l'entrée.",
+      "explanation": "Un feu rouge isolé signifie « accès interdit » ; on attend. Le feu vert autorise l'entrée ; deux feux rouges = écluse hors service.",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
@@ -219,7 +219,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-44",
-        "ref": "RGP — feu vert d'écluse",
+        "ref": "RGP, art. A.4241-53-31 §1 — feu vert d'écluse (accès autorisé)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -262,7 +262,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-45",
-        "ref": "RGP — amarrage dans le sas",
+        "ref": "RGP, art. A.4241-53-30/-31 — conduite dans le sas d'écluse",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -305,7 +305,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-46",
-        "ref": "RGP — panneau d'interdiction (A.1)",
+        "ref": "RGP, annexe 5, panneau A.1 — interdiction de passer",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -325,7 +325,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-47-f4bfafa9",
+      "id": "q-fr-cevni-47-1da48d7a",
       "theme": "signalisation_fluviale",
       "kind": "rule_mc",
       "stem": "Sur une voie intérieure, que signifie en règle générale UN son prolongé émis par un bateau ?",
@@ -347,12 +347,12 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-47",
-        "ref": "RGP — signaux sonores (son prolongé)",
-        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
-        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "unit_id": "fr-cevni-47",
+        "ref": "CEVNI — signal général « Attention » (un son prolongé)",
+        "source": "CEVNI — Code européen des voies de navigation intérieure (CEE-ONU, Résolution n° 24)",
+        "url": "https://unece.org/transport/inland-water-transport",
         "as_of": "",
-        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+        "licence": "CEE-ONU — code européen modèle, librement consultable."
       },
       "lang": "fr",
       "polarity": "affirmative",
@@ -391,7 +391,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-48",
-        "ref": "RGP — feux de nuit d'un bateau motorisé",
+        "ref": "RGP, art. A.4241-48-12 — feux des menues embarcations (bâbord rouge)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -434,7 +434,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-49",
-        "ref": "RGP — marque de jour d'un bateau à l'arrêt",
+        "ref": "RGP, art. A.4241-48-20 — signalisation en stationnement (feu blanc)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -477,7 +477,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-50",
-        "ref": "RGP — priorité des menues embarcations",
+        "ref": "RGP, art. A.4241-53-3 — menues embarcations s'écartent des grands bateaux et bacs",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -520,7 +520,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-51",
-        "ref": "RGP — règle générale de route",
+        "ref": "RGP, art. A.4241-53-6 §1 — venir sur tribord (croisement bâbord-bâbord)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -563,7 +563,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-52",
-        "ref": "RGP — passage des ponts et passages étroits",
+        "ref": "RGP, art. A.4241-53-8 — passage étroit (priorité à l'avalant)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -583,7 +583,7 @@
       ]
     },
     {
-      "id": "q-fr-division240-53-bc667494",
+      "id": "q-fr-division245-53-383400b3",
       "theme": "securite",
       "kind": "rule_mc",
       "stem": "À bord d'une menue embarcation en eaux intérieures, de quoi chaque personne doit-elle disposer ?",
@@ -605,10 +605,10 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-division_240-53",
-        "ref": "Équipement individuel de flottabilité (eaux intérieures)",
-        "source": "Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres",
-        "url": "https://www.mer.gouv.fr/la-division-240",
+        "unit_id": "fr-division_245-53",
+        "ref": "Arrêté du 10 février 2016 (Division 245), art. 5 — EIF par personne (eaux intérieures)",
+        "source": "Division 245 (arrêté du 10 février 2016) — matériel d'armement et de sécurité des bateaux de plaisance en eaux intérieures",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032036538/",
         "as_of": "",
         "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
       },
@@ -649,7 +649,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-54",
-        "ref": "RGP — marque d'identification",
+        "ref": "RGP, art. A.4241-47-1 — marque d'identification du bateau",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -692,7 +692,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-55",
-        "ref": "RGP — devoir de vigilance avant le départ",
+        "ref": "RGP, art. R.4241-9/-10 — devoir général de prudence du conducteur",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -735,7 +735,7 @@
       ],
       "provenance": {
         "unit_id": "fr-decret_2007-56",
-        "ref": "Titre requis en eaux intérieures",
+        "ref": "Décret n° 2007-1167 du 2 août 2007, art. 2 — option eaux intérieures",
         "source": "Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur",
         "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000648362/",
         "as_of": "",
@@ -778,7 +778,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-57",
-        "ref": "RGP — règlements particuliers de police",
+        "ref": "Code des transports, art. R.4241-31/-32 — règlement particulier de police (RPP)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -798,7 +798,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-58-aa0f13fa",
+      "id": "q-fr-codetransports-58-b939a80a",
       "theme": "reglementation",
       "kind": "rule_mc",
       "stem": "La conduite d'un bateau sous l'emprise d'un état alcoolique est :",
@@ -820,10 +820,10 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-58",
-        "ref": "RGP — conduite et état alcoolique",
-        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
-        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "unit_id": "fr-code_transports-58",
+        "ref": "Code des transports, art. L.4274-14 — conduite en état alcoolique (≥ 0,5 g/L)",
+        "source": "Code des transports — navigation intérieure (titre de navigation, alcoolémie, règlements particuliers de police)",
+        "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000023086525/",
         "as_of": "",
         "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
       },
@@ -864,7 +864,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-59",
-        "ref": "RGP — rejets dans la voie d'eau",
+        "ref": "RGP (Code des transports, art. R.4241-62) — rejet d'hydrocarbures interdit",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -907,7 +907,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-60",
-        "ref": "RGP — protection des berges et de la faune",
+        "ref": "RGP, art. A.4241-53-21 — réduire vitesse et batillage près des berges",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -950,7 +950,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-61",
-        "ref": "RGP — bateau avalant / montant",
+        "ref": "RGP, art. A.4241-53-1 et -53-6 §2 — montant/avalant (priorité à l'avalant)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -993,7 +993,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-62",
-        "ref": "RGP — repérage le long d'une voie d'eau",
+        "ref": "Voie navigable — repérage par points kilométriques (PK)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1036,7 +1036,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-63",
-        "ref": "RGP — tirant d'air sous les ouvrages",
+        "ref": "RGP, annexe 5, panneau C.2 — hauteur libre limitée (tirant d'air)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1079,7 +1079,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-64",
-        "ref": "RGP — conduite de l'écluse",
+        "ref": "RGP, art. A.4241-53-31 §4 et §12 — instructions de l'éclusier",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1122,7 +1122,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-65",
-        "ref": "RGP — deux feux rouges à l'écluse",
+        "ref": "RGP, art. A.4241-53-31 §1(a) — deux feux rouges (écluse hors service)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1165,7 +1165,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-66",
-        "ref": "RGP — panneaux d'interdiction",
+        "ref": "RGP, annexe 5, section A — signaux d'interdiction (bord rouge)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1208,7 +1208,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-67",
-        "ref": "RGP — panneaux d'indication",
+        "ref": "RGP, annexe 5, section E — signaux d'indication (bleus)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1251,7 +1251,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-68",
-        "ref": "RGP — stationnement autorisé (P)",
+        "ref": "RGP, annexe 5, panneau E.5 — stationnement autorisé (P)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1294,7 +1294,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-69",
-        "ref": "RGP — panneaux d'obligation",
+        "ref": "RGP, annexe 5, panneau B.1 — obligation (suivre la flèche)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1320,7 +1320,7 @@
       "stem": "Un panneau portant un nombre (par ex. « 3,50 m ») signale généralement :",
       "choices": [
         {
-          "text": "Une limitation (hauteur, largeur, profondeur ou vitesse)",
+          "text": "Une limitation de hauteur, de largeur ou de profondeur",
           "image": null,
           "is_correct": true
         },
@@ -1337,7 +1337,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-70",
-        "ref": "RGP — panneaux de restriction (valeurs chiffrées)",
+        "ref": "RGP, annexe 5, section C — restriction (hauteur, largeur ou profondeur)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1347,7 +1347,7 @@
       "polarity": "affirmative",
       "image": null,
       "points": 1,
-      "explanation": "Une limitation (restriction) : par exemple la hauteur libre, la largeur ou la profondeur disponible, ou une vitesse maximale.",
+      "explanation": "Une limitation (restriction) : par exemple la hauteur libre, la largeur ou la profondeur disponible (panneaux série C). Une vitesse maximale relève, elle, d'un panneau d'obligation (B.6).",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
@@ -1380,7 +1380,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-71",
-        "ref": "RGP — priorité de l'avalant",
+        "ref": "RGP, art. A.4241-53-6 §2 — priorité de l'avalant",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1423,7 +1423,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-72",
-        "ref": "RGP — rencontre sur plan d'eau sans courant",
+        "ref": "RGP, art. A.4241-53-6 §1 — rencontre (chacun sur tribord)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1466,7 +1466,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-73",
-        "ref": "RGP — dépassement (trématage)",
+        "ref": "RGP, art. A.4241-53-11 §1 — dépassement par bâbord",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1486,7 +1486,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-74-8e03755d",
+      "id": "q-fr-division245-74-117e80a9",
       "theme": "securite",
       "kind": "rule_mc",
       "stem": "Parmi le matériel utile à bord d'une menue embarcation, on doit disposer d'un moyen permettant :",
@@ -1508,10 +1508,10 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-74",
-        "ref": "RGP — moyen d'assèchement",
-        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
-        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "unit_id": "fr-division_245-74",
+        "ref": "Arrêté du 10 février 2016 (Division 245), art. 5 — dispositif d'assèchement",
+        "source": "Division 245 (arrêté du 10 février 2016) — matériel d'armement et de sécurité des bateaux de plaisance en eaux intérieures",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032036538/",
         "as_of": "",
         "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
       },
@@ -1529,7 +1529,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-75-227064f3",
+      "id": "q-fr-division245-75-ed26a856",
       "theme": "securite",
       "kind": "rule_mc",
       "stem": "Pour pouvoir s'arrêter en sécurité à l'écart d'un quai, une embarcation doit disposer :",
@@ -1551,10 +1551,10 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-75",
-        "ref": "RGP — moyen de mouillage",
-        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
-        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "unit_id": "fr-division_245-75",
+        "ref": "Arrêté du 10 février 2016 (Division 245), art. 6 — ligne de mouillage",
+        "source": "Division 245 (arrêté du 10 février 2016) — matériel d'armement et de sécurité des bateaux de plaisance en eaux intérieures",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000032036538/",
         "as_of": "",
         "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
       },
@@ -1572,7 +1572,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-76-071960fd",
+      "id": "q-fr-codetransports-76-7ffa6d89",
       "theme": "reglementation",
       "kind": "rule_mc",
       "stem": "Quel document, propre au bateau, doit pouvoir être présenté à bord en eaux intérieures ?",
@@ -1594,10 +1594,10 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-76",
-        "ref": "RGP — documents de bord (titre de navigation)",
-        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
-        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "unit_id": "fr-code_transports-76",
+        "ref": "Code des transports, art. L.4221-1 — titre de navigation (carte de circulation)",
+        "source": "Code des transports — navigation intérieure (titre de navigation, alcoolémie, règlements particuliers de police)",
+        "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000023086525/",
         "as_of": "",
         "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
       },
@@ -1615,7 +1615,7 @@
       ]
     },
     {
-      "id": "q-fr-arrete2007-77-85609fb5",
+      "id": "q-fr-iturr-77-3d8569a8",
       "theme": "reglementation",
       "kind": "rule_mc",
       "stem": "Pour utiliser une station radio VHF à bord, le chef de bord doit en principe être titulaire :",
@@ -1637,18 +1637,18 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-arrete_2007-77",
-        "ref": "Certificat restreint de radiotéléphoniste (CRR)",
-        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
-        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
-        "as_of": "2022-06-01",
-        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+        "unit_id": "fr-itu_rr-77",
+        "ref": "UIT, Règlement des radiocommunications, art. 47 — certificat d'opérateur (CRR, délivré par l'ANFR)",
+        "source": "UIT — Règlement des radiocommunications (canaux VHF maritimes, procédures de détresse et d'urgence)",
+        "url": "https://www.itu.int/pub/R-REG-RR",
+        "as_of": "",
+        "licence": "UIT — canaux et procédures internationaux ; contenu factuel librement citable."
       },
       "lang": "fr",
       "polarity": "affirmative",
       "image": null,
       "points": 1,
-      "explanation": "Du certificat restreint de radiotéléphoniste (CRR), qui autorise l'emploi d'une VHF.",
+      "explanation": "Du certificat restreint de radiotéléphoniste (CRR), qui autorise l'emploi d'une VHF. Depuis 2011, il n'est plus exigé en eaux territoriales françaises pour une VHF portative sans ASN ; il reste requis pour une VHF fixe ou à ASN et pour la navigation à l'étranger.",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
@@ -1658,7 +1658,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-78-3a0b3cdf",
+      "id": "q-fr-codetransports-78-127c94de",
       "theme": "environnement",
       "kind": "rule_mc",
       "stem": "Que doit faire le plaisancier de ses eaux usées (eaux noires) en eaux intérieures ?",
@@ -1680,10 +1680,10 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-78",
-        "ref": "RGP — eaux usées (eaux noires)",
-        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
-        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "unit_id": "fr-code_transports-78",
+        "ref": "Code des transports, art. R.4241-63 / CDNI (décret 2010-197) — eaux usées (cuve, dépôt à terre)",
+        "source": "Code des transports — navigation intérieure (titre de navigation, alcoolémie, règlements particuliers de police)",
+        "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000023086525/",
         "as_of": "",
         "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
       },
@@ -1724,7 +1724,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-79",
-        "ref": "RGP — avitaillement sans pollution",
+        "ref": "RGP (Code des transports, art. R.4241-62) — prévention de la pollution",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",

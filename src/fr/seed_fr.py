@@ -1,10 +1,17 @@
 """Hand-authored seed question bank for the French *permis plaisance*.
 
-Every entry is derived from a primary legal source (RIPAM, the Arrêté du 28
-septembre 2007 référentiel, the RGP, Division 240, the IALA-A buoyage system) and
-carries that source inline — French official acts are freely reusable under the
-Licence Ouverte / Etalab, so the whole bank is clean. Nothing is copied from an
-operator's exam bank; each item is freshly worded from the rule it tests.
+Every entry is grounded in a primary authoritative source and carries it inline,
+with a precise article/rule reference (verified 2026-05-30 against the actual
+texts, not paraphrased from memory): RIPAM/COLREG, the RGP (Code des
+transports A.4241-x) and CEVNI for inland, the Décret 2007-1167 and Arrêté du 28
+sept. 2007 for the permit, Division 240/245 for safety equipment, the EU Directive
+2013/53/UE for design categories, the IALA R1001 buoyage system, SHOM for
+tides/charts, the ITU Radio Regulations for VHF, the Code de l'environnement /
+MARPOL and the arrêtés des préfets maritimes. Most are French official acts or
+public references freely reusable under the Licence Ouverte / Etalab; international
+standards (IALA/ITU/MARPOL/Beaufort) are cited for their factual content. Nothing
+is copied from an operator's exam bank; each item is freshly worded from the rule
+it tests, and the exact source id lives in `sources_fr.FR_SOURCES`.
 
 Shape — one self-contained dict per question (no external KB lookup, unlike the
 Swiss seed):
@@ -288,8 +295,8 @@ SEED: list[dict] = [
          {"fr": "Aucun signal n'est nécessaire", "en": "No signal is required",
           "correct": False}]},
 
-    {"option": "cotiere", "theme": "feux_signaux", "source": "division_240",
-     "ref": "Signaux de détresse en mer", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "feux_signaux", "source": "ripam",
+     "ref": "RIPAM annexe IV §1(i) — signaux de détresse (fusée à parachute rouge)", "polarity": "affirmative",
      "fr": {"stem": "Parmi ces moyens, lequel est un signal de détresse PYROTECHNIQUE "
             "reconnu en mer ?",
             "explanation": "La fusée à parachute à lumière rouge est un signal de "
@@ -304,8 +311,8 @@ SEED: list[dict] = [
          {"fr": "Un pavillon jaune hissé", "en": "A hoisted yellow flag", "correct": False}]},
 
     # --- Sécurité et matériel d'armement (Division 240) --------------------
-    {"option": "cotiere", "theme": "securite", "source": "arrete_2007",
-     "ref": "Permis plaisance — option côtière (portée)", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "securite", "source": "decret_2007",
+     "ref": "Décret n° 2007-1167 du 2 août 2007, art. 2 — portée de l'option côtière (6 milles)", "polarity": "affirmative",
      "fr": {"stem": "Jusqu'à quelle distance d'un abri le permis plaisance option "
             "côtière autorise-t-il la navigation ?",
             "explanation": "L'option côtière autorise la navigation jusqu'à 6 milles "
@@ -321,7 +328,7 @@ SEED: list[dict] = [
           "correct": False}]},
 
     {"option": "cotiere", "theme": "securite", "source": "division_240",
-     "ref": "Division 240 — équipement individuel de flottabilité",
+     "ref": "Division 240, art. 240-2.04 §3 — EIF niveau 100 (zone côtière 2–6 MN)",
      "polarity": "affirmative",
      "fr": {"stem": "Pour la navigation côtière (jusqu'à 6 milles d'un abri), quelle "
             "flottabilité minimale doit avoir l'équipement individuel de flottabilité "
@@ -337,8 +344,8 @@ SEED: list[dict] = [
          {"fr": "50 N", "en": "50 N", "correct": False},
          {"fr": "10 N", "en": "10 N", "correct": False}]},
 
-    {"option": "cotiere", "theme": "securite", "source": "division_240",
-     "ref": "Catégories de conception", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "securite", "source": "directive_2013_53",
+     "ref": "Directive 2013/53/UE, annexe I, partie A — catégories de conception (C : force 6, vagues 2 m)", "polarity": "affirmative",
      "fr": {"stem": "À quel programme de navigation correspond la catégorie de "
             "conception « C » d'un bateau de plaisance ?",
             "explanation": "Catégorie C = « à proximité de la côte » : conçue pour un "
@@ -356,7 +363,7 @@ SEED: list[dict] = [
           "correct": False}]},
 
     {"option": "cotiere", "theme": "securite", "source": "division_240",
-     "ref": "Nombre de personnes embarquées", "polarity": "affirmative",
+     "ref": "Division 240, art. 240-2.01 §1 — nombre maximal de personnes (plaque constructeur)", "polarity": "affirmative",
      "fr": {"stem": "Combien de personnes peut-on légalement embarquer à bord d'un "
             "bateau de plaisance ?",
             "explanation": "Au maximum le nombre fixé par le constructeur, indiqué sur "
@@ -372,8 +379,8 @@ SEED: list[dict] = [
          {"fr": "Aucune limite en mer", "en": "No limit at sea", "correct": False}]},
 
     # --- Météorologie et marées --------------------------------------------
-    {"option": "cotiere", "theme": "meteo_maree", "source": "arrete_2007",
-     "ref": "Lecture de carte — zéro hydrographique", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "meteo_maree", "source": "shom",
+     "ref": "SHOM — zéro hydrographique (sondes des cartes marines)", "polarity": "affirmative",
      "fr": {"stem": "Sur une carte marine, par rapport à quel niveau les profondeurs "
             "(sondes) sont-elles indiquées ?",
             "explanation": "Les sondes sont rapportées au zéro hydrographique, proche "
@@ -389,8 +396,8 @@ SEED: list[dict] = [
          {"fr": "Le niveau moyen de la mer", "en": "Mean sea level", "correct": False},
          {"fr": "Le niveau de pleine mer", "en": "High-water level", "correct": False}]},
 
-    {"option": "cotiere", "theme": "meteo_maree", "source": "arrete_2007",
-     "ref": "Marées — marnage", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "meteo_maree", "source": "shom",
+     "ref": "SHOM — marnage (pleine mer / basse mer consécutives)", "polarity": "affirmative",
      "fr": {"stem": "Qu'appelle-t-on le « marnage » ?",
             "explanation": "Le marnage est la différence de hauteur d'eau entre une "
             "pleine mer et la basse mer qui la suit (ou la précède)."},
@@ -404,8 +411,8 @@ SEED: list[dict] = [
           "correct": False},
          {"fr": "La durée d'une marée", "en": "The duration of a tide", "correct": False}]},
 
-    {"option": "cotiere", "theme": "meteo_maree", "source": "arrete_2007",
-     "ref": "Marées — coefficient", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "meteo_maree", "source": "shom",
+     "ref": "SHOM — coefficient de marée (échelle 20 à 120)", "polarity": "affirmative",
      "fr": {"stem": "Entre quelles valeurs le coefficient de marée varie-t-il ?",
             "explanation": "Le coefficient de marée varie de 20 (très faible morte-eau) "
             "à 120 (très forte vive-eau) ; 95 marque le seuil des grandes marées."},
@@ -417,8 +424,8 @@ SEED: list[dict] = [
          {"fr": "Entre 0 et 100", "en": "Between 0 and 100", "correct": False},
          {"fr": "Entre 1 et 12", "en": "Between 1 and 12", "correct": False}]},
 
-    {"option": "cotiere", "theme": "meteo_maree", "source": "arrete_2007",
-     "ref": "Météorologie — échelle de Beaufort", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "meteo_maree", "source": "meteo_france",
+     "ref": "Échelle de Beaufort 0–12 (OMM / Météo-France)", "polarity": "affirmative",
      "fr": {"stem": "L'échelle de Beaufort, qui mesure la force du vent, est graduée "
             "de 0 à combien ?",
             "explanation": "L'échelle de Beaufort va de la force 0 (calme) à la force "
@@ -432,8 +439,8 @@ SEED: list[dict] = [
          {"fr": "10", "en": "10", "correct": False},
          {"fr": "100", "en": "100", "correct": False}]},
 
-    {"option": "cotiere", "theme": "meteo_maree", "source": "arrete_2007",
-     "ref": "Marées — règle des douzièmes", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "meteo_maree", "source": "shom",
+     "ref": "Marées — règle des douzièmes (méthode standard, SHOM)", "polarity": "affirmative",
      "fr": {"stem": "À quoi sert la « règle des douzièmes » ?",
             "explanation": "Elle permet d'estimer la hauteur d'eau à un instant donné "
             "entre la basse mer et la pleine mer (1/12, 2/12, 3/12, 3/12, 2/12, 1/12 "
@@ -450,8 +457,8 @@ SEED: list[dict] = [
           "current", "correct": False}]},
 
     # --- Réglementation, permis et radio -----------------------------------
-    {"option": "cotiere", "theme": "reglementation", "source": "arrete_2007",
-     "ref": "VHF — canal 16", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "reglementation", "source": "itu_rr",
+     "ref": "UIT, Règlement des radiocommunications, appendice 18 — VHF canal 16 (156,8 MHz)", "polarity": "affirmative",
      "fr": {"stem": "Quel canal VHF est réservé à la veille de détresse, d'urgence "
             "et de sécurité, ainsi qu'à l'appel ?",
             "explanation": "Le canal 16 est le canal international de détresse, "
@@ -465,8 +472,8 @@ SEED: list[dict] = [
          {"fr": "Le canal 6", "en": "Channel 6", "correct": False},
          {"fr": "Le canal 72", "en": "Channel 72", "correct": False}]},
 
-    {"option": "cotiere", "theme": "reglementation", "source": "arrete_2007",
-     "ref": "VHF — message MAYDAY", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "reglementation", "source": "itu_rr",
+     "ref": "UIT, Règlement des radiocommunications, art. 32 — détresse (MAYDAY)", "polarity": "affirmative",
      "fr": {"stem": "Un message radio commençant par « MAYDAY » correspond à quel "
             "degré de priorité ?",
             "explanation": "« MAYDAY » = détresse : danger grave et imminent, "
@@ -481,7 +488,7 @@ SEED: list[dict] = [
          {"fr": "La sécurité", "en": "Safety", "correct": False}]},
 
     {"option": "cotiere", "theme": "reglementation", "source": "decret_2007",
-     "ref": "Obligation de permis — puissance", "polarity": "affirmative",
+     "ref": "Décret n° 2007-1167 du 2 août 2007, art. 2 — permis exigé au-delà de 4,5 kW", "polarity": "affirmative",
      "fr": {"stem": "À partir de quelle puissance du moteur le permis plaisance "
             "est-il obligatoire ?",
             "explanation": "Le permis est exigé pour conduire un bateau de plaisance "
@@ -496,7 +503,7 @@ SEED: list[dict] = [
          {"fr": "Plus de 50 ch", "en": "More than 50 hp", "correct": False}]},
 
     {"option": "cotiere", "theme": "reglementation", "source": "decret_2007",
-     "ref": "Âge minimal du permis plaisance", "polarity": "affirmative",
+     "ref": "Décret n° 2007-1167 du 2 août 2007, art. 3 — âge minimal (16 ans)", "polarity": "affirmative",
      "fr": {"stem": "À partir de quel âge peut-on obtenir le permis plaisance "
             "(option côtière) ?",
             "explanation": "L'âge minimal pour obtenir le permis plaisance est de "
@@ -510,8 +517,8 @@ SEED: list[dict] = [
          {"fr": "18 ans", "en": "18 years", "correct": False}]},
 
     # --- Protection de l'environnement -------------------------------------
-    {"option": "cotiere", "theme": "environnement", "source": "arrete_2007",
-     "ref": "Rejets en mer", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "environnement", "source": "code_environnement",
+     "ref": "Code de l'environnement, art. L.218-11 et s. / MARPOL annexes I et V", "polarity": "affirmative",
      "fr": {"stem": "En mer, que dit la réglementation sur le rejet des détritus et "
             "des hydrocarbures ?",
             "explanation": "Le rejet à la mer des détritus, ordures et hydrocarbures "
@@ -527,8 +534,8 @@ SEED: list[dict] = [
          {"fr": "Il est autorisé la nuit", "en": "It is allowed at night",
           "correct": False}]},
 
-    {"option": "cotiere", "theme": "environnement", "source": "arrete_2007",
-     "ref": "Gestion des déchets à bord", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "environnement", "source": "code_environnement",
+     "ref": "MARPOL annexe V / Code de l'environnement — déchets rapportés à terre", "polarity": "affirmative",
      "fr": {"stem": "Que doit faire le plaisancier de ses déchets produits à bord ?",
             "explanation": "Il doit les conserver à bord puis les déposer à terre dans "
             "les installations de collecte du port."},
@@ -617,7 +624,7 @@ SEED: list[dict] = [
 
     # Sécurité et matériel d'armement (Division 240)
     {"option": "cotiere", "theme": "securite", "source": "division_240",
-     "ref": "Division 240 — coupe-circuit (arrêt d'urgence)", "polarity": "affirmative",
+     "ref": "Division 240, art. 240-2.01 §7 — coupe-circuit (barre franche / déporté / VNM)", "polarity": "affirmative",
      "fr": {"stem": "Sur un bateau à moteur conduit à la barre franche, pourquoi le "
             "conducteur doit-il porter le coupe-circuit (cordon) relié à lui ?",
             "explanation": "En cas de chute à l'eau, le cordon se détache et coupe "
@@ -636,25 +643,25 @@ SEED: list[dict] = [
           "port", "correct": False}]},
 
     # Météorologie et marées
-    {"option": "cotiere", "theme": "meteo_maree", "source": "arrete_2007",
-     "ref": "Marées — étale", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "meteo_maree", "source": "shom",
+     "ref": "SHOM — étale (de niveau)", "polarity": "affirmative",
      "fr": {"stem": "Qu'appelle-t-on l'« étale » de marée ?",
             "explanation": "C'est le court moment, à la pleine ou à la basse mer, où le "
-            "niveau de l'eau ne varie plus et où le courant de marée est quasiment nul."},
+            "niveau de l'eau ne varie plus (étale de niveau). La renverse du courant — l'étale de courant — est un phénomène voisin mais distinct, qui ne coïncide pas nécessairement."},
      "en": {"stem": "What is the tidal “slack” (étale)?",
             "explanation": "The brief moment, at high or low water, when the level stops "
-            "changing and the tidal stream is almost nil."},
+            "changing (slack of the level). The current's turn (slack of stream) is a related but distinct event that need not coincide."},
      "choices": [
-         {"fr": "Le moment où le niveau ne varie plus (courant nul)", "en": "When the "
-          "level stops changing (no current)", "correct": True},
+         {"fr": "Le moment où le niveau ne varie plus (étale de niveau)", "en": "When the "
+          "water level stops changing (slack of the level)", "correct": True},
          {"fr": "Le moment où le courant est le plus fort", "en": "When the current is "
           "strongest", "correct": False},
          {"fr": "La différence entre pleine et basse mer", "en": "The difference between "
           "high and low water", "correct": False}]},
 
     # Réglementation, permis et radio
-    {"option": "cotiere", "theme": "reglementation", "source": "arrete_2007",
-     "ref": "Bande littorale des 300 mètres — vitesse", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "reglementation", "source": "prefet_maritime",
+     "ref": "Arrêté du préfet maritime (bande des 300 m, 5 nœuds) ; CGCT art. L.2213-23", "polarity": "affirmative",
      "fr": {"stem": "Dans la bande littorale des 300 mètres à partir du rivage, à "
             "quelle vitesse la navigation est-elle en principe limitée ?",
             "explanation": "Sauf disposition locale particulière, la vitesse est limitée "
@@ -668,8 +675,8 @@ SEED: list[dict] = [
          {"fr": "20 nœuds", "en": "20 knots", "correct": False},
          {"fr": "Aucune limite de vitesse", "en": "No speed limit", "correct": False}]},
 
-    {"option": "cotiere", "theme": "reglementation", "source": "arrete_2007",
-     "ref": "VHF — message PAN PAN", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "reglementation", "source": "itu_rr",
+     "ref": "UIT, Règlement des radiocommunications, art. 33 — urgence (PAN PAN)", "polarity": "affirmative",
      "fr": {"stem": "Un message radio commençant par « PAN PAN » correspond à quel "
             "degré de priorité ?",
             "explanation": "« PAN PAN » = urgence : la sécurité d'un navire ou d'une "
@@ -686,8 +693,8 @@ SEED: list[dict] = [
           "correct": False}]},
 
     # Protection de l'environnement
-    {"option": "cotiere", "theme": "environnement", "source": "arrete_2007",
-     "ref": "Mouillage et herbiers protégés", "polarity": "affirmative",
+    {"option": "cotiere", "theme": "environnement", "source": "prefet_maritime",
+     "ref": "PREMAR Méditerranée, arrêté n° 123/2019, art. 6 — mouillage / posidonie", "polarity": "affirmative",
      "fr": {"stem": "En Méditerranée, sur les herbiers de posidonie, le mouillage de "
             "l'ancre est :",
             "explanation": "Réglementé, voire interdit dans de nombreuses zones : l'ancre "
@@ -708,7 +715,7 @@ SEED: list[dict] = [
 
     # --- Voies navigables et stationnement ---------------------------------
     {"option": "eaux_interieures", "theme": "voies_navigables", "source": "rgp",
-     "ref": "RGP — définition de la menue embarcation", "polarity": "affirmative",
+     "ref": "RGP (Code des transports, art. R.4000-2, 7°) — menue embarcation (< 20 m)", "polarity": "affirmative",
      "fr": {"stem": "Au sens du règlement général de police (RGP), qu'est-ce qu'une "
             "« menue embarcation » ?",
             "explanation": "C'est, en règle générale, un bateau dont la longueur de "
@@ -727,7 +734,7 @@ SEED: list[dict] = [
           "metres only", "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "voies_navigables", "source": "rgp",
-     "ref": "RGP — stationnement", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-54-2 — stationnement interdit (ponts, passages étroits)", "polarity": "affirmative",
      "fr": {"stem": "Où le stationnement (l'arrêt) d'un bateau est-il en principe "
             "interdit sur une voie navigable ?",
             "explanation": "Le stationnement est interdit là où il gêne la navigation "
@@ -746,7 +753,7 @@ SEED: list[dict] = [
           "unrestricted", "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "voies_navigables", "source": "rgp",
-     "ref": "RGP — batillage", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-53-21 — vitesse et batillage", "polarity": "affirmative",
      "fr": {"stem": "Pour limiter le batillage (les remous qui érodent les berges et "
             "secouent les bateaux amarrés), que doit faire le conducteur près des rives ?",
             "explanation": "Il doit réduire sa vitesse à l'approche des rives, des "
@@ -764,13 +771,13 @@ SEED: list[dict] = [
 
     # --- Écluses, barrages et ouvrages -------------------------------------
     {"option": "eaux_interieures", "theme": "ecluses", "source": "rgp",
-     "ref": "RGP — signalisation des écluses", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-53-31 §1 — feux d'écluse (rouge = accès interdit)", "polarity": "affirmative",
      "fr": {"stem": "À l'entrée d'une écluse, que signifie un feu ROUGE ?",
-            "explanation": "Un feu rouge interdit l'entrée dans l'écluse ; on attend. "
-            "Le feu vert autorise l'entrée."},
+            "explanation": "Un feu rouge isolé signifie « accès interdit » ; on attend. "
+            "Le feu vert autorise l'entrée ; deux feux rouges = écluse hors service."},
      "en": {"stem": "At a lock entrance, what does a RED light mean?",
-            "explanation": "A red light forbids entry into the lock; wait. A green "
-            "light authorises entry."},
+            "explanation": "A single red light means “no entry”; wait. A green "
+            "light authorises entry; two red lights mean the lock is out of service."},
      "choices": [
          {"fr": "Entrée interdite, il faut attendre", "en": "Entry forbidden, you must "
           "wait", "correct": True},
@@ -779,7 +786,7 @@ SEED: list[dict] = [
           "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "ecluses", "source": "rgp",
-     "ref": "RGP — feu vert d'écluse", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-53-31 §1 — feu vert d'écluse (accès autorisé)", "polarity": "affirmative",
      "fr": {"stem": "Quel feu autorise l'entrée dans une écluse ?",
             "explanation": "Le feu vert autorise l'entrée. Deux feux rouges signifient "
             "que l'écluse est hors service."},
@@ -792,7 +799,7 @@ SEED: list[dict] = [
          {"fr": "Deux feux rouges", "en": "Two red lights", "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "ecluses", "source": "rgp",
-     "ref": "RGP — amarrage dans le sas", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-53-30/-31 — conduite dans le sas d'écluse", "polarity": "affirmative",
      "fr": {"stem": "Dans le sas d'une écluse, comment doit-on tenir ses amarres "
             "pendant l'éclusée ?",
             "explanation": "Le niveau d'eau varie : il faut tenir les amarres et les "
@@ -813,7 +820,7 @@ SEED: list[dict] = [
 
     # --- Signalisation des voies et des bateaux ----------------------------
     {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
-     "ref": "RGP — panneau d'interdiction (A.1)", "polarity": "affirmative",
+     "ref": "RGP, annexe 5, panneau A.1 — interdiction de passer", "polarity": "affirmative",
      "fr": {"stem": "Sur une voie navigable, que signifie un panneau rectangulaire à "
             "bord rouge barré d'une bande blanche horizontale ?",
             "explanation": "C'est un panneau d'interdiction (type A.1) : interdiction "
@@ -829,8 +836,8 @@ SEED: list[dict] = [
          {"fr": "Recommandation de ralentir", "en": "Recommendation to slow down",
           "correct": False}]},
 
-    {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
-     "ref": "RGP — signaux sonores (son prolongé)", "polarity": "affirmative",
+    {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "cevni",
+     "ref": "CEVNI — signal général « Attention » (un son prolongé)", "polarity": "affirmative",
      "fr": {"stem": "Sur une voie intérieure, que signifie en règle générale UN son "
             "prolongé émis par un bateau ?",
             "explanation": "Un son prolongé est le signal « Attention » ; il attire "
@@ -846,7 +853,7 @@ SEED: list[dict] = [
          {"fr": "« Je suis à l'arrêt »", "en": "“I am stopped”", "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
-     "ref": "RGP — feux de nuit d'un bateau motorisé", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-48-12 — feux des menues embarcations (bâbord rouge)", "polarity": "affirmative",
      "fr": {"stem": "De nuit, un bateau motorisé faisant route en eaux intérieures "
             "porte un feu à bâbord. De quelle couleur est-il ?",
             "explanation": "Comme en mer : feu de côté bâbord rouge, tribord vert, plus "
@@ -861,7 +868,7 @@ SEED: list[dict] = [
          {"fr": "Jaune", "en": "Yellow", "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
-     "ref": "RGP — marque de jour d'un bateau à l'arrêt", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-48-20 — signalisation en stationnement (feu blanc)", "polarity": "affirmative",
      "fr": {"stem": "De nuit, un bateau stationnant à l'écart de la rive, hors d'un "
             "port, porte le plus souvent :",
             "explanation": "Il porte un feu blanc ordinaire visible de tous les côtés, "
@@ -878,7 +885,7 @@ SEED: list[dict] = [
 
     # --- Règles de route (fluvial) -----------------------------------------
     {"option": "eaux_interieures", "theme": "regles_route", "source": "rgp",
-     "ref": "RGP — priorité des menues embarcations", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-53-3 — menues embarcations s'écartent des grands bateaux et bacs", "polarity": "affirmative",
      "fr": {"stem": "En eaux intérieures, vis-à-vis des grands bateaux, des bacs et "
             "des bateaux assurant un service régulier, les menues embarcations "
             "(plaisance) doivent :",
@@ -895,7 +902,7 @@ SEED: list[dict] = [
          {"fr": "Les obliger à s'arrêter", "en": "Force them to stop", "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "regles_route", "source": "rgp",
-     "ref": "RGP — règle générale de route", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-53-6 §1 — venir sur tribord (croisement bâbord-bâbord)", "polarity": "affirmative",
      "fr": {"stem": "En règle générale sur une voie intérieure, de quel côté un "
             "bateau doit-il tenir sa route ?",
             "explanation": "Chaque bateau tient en principe sa droite (tribord) ; on "
@@ -912,7 +919,7 @@ SEED: list[dict] = [
           "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "regles_route", "source": "rgp",
-     "ref": "RGP — passage des ponts et passages étroits", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-53-8 — passage étroit (priorité à l'avalant)", "polarity": "affirmative",
      "fr": {"stem": "Dans un passage étroit (sous un pont, un chenal resserré) où le "
             "croisement est impossible, que doit faire le conducteur ?",
             "explanation": "Il s'assure que le passage est libre avant de s'engager, "
@@ -932,8 +939,8 @@ SEED: list[dict] = [
           "correct": False}]},
 
     # --- Sécurité (fluvial) ------------------------------------------------
-    {"option": "eaux_interieures", "theme": "securite", "source": "division_240",
-     "ref": "Équipement individuel de flottabilité (eaux intérieures)",
+    {"option": "eaux_interieures", "theme": "securite", "source": "division_245",
+     "ref": "Arrêté du 10 février 2016 (Division 245), art. 5 — EIF par personne (eaux intérieures)",
      "polarity": "affirmative",
      "fr": {"stem": "À bord d'une menue embarcation en eaux intérieures, de quoi "
             "chaque personne doit-elle disposer ?",
@@ -951,7 +958,7 @@ SEED: list[dict] = [
           "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "securite", "source": "rgp",
-     "ref": "RGP — marque d'identification", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-47-1 — marque d'identification du bateau", "polarity": "affirmative",
      "fr": {"stem": "La marque d'identification (immatriculation) d'un bateau doit "
             "être :",
             "explanation": "Elle doit être apposée de manière apparente et lisible sur "
@@ -968,7 +975,7 @@ SEED: list[dict] = [
           "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "securite", "source": "rgp",
-     "ref": "RGP — devoir de vigilance avant le départ", "polarity": "affirmative",
+     "ref": "RGP, art. R.4241-9/-10 — devoir général de prudence du conducteur", "polarity": "affirmative",
      "fr": {"stem": "Avant d'appareiller, que doit notamment vérifier le chef de bord "
             "(devoir de vigilance) ?",
             "explanation": "Il s'assure du bon état du bateau et du moteur, de la "
@@ -987,7 +994,7 @@ SEED: list[dict] = [
 
     # --- Réglementation (fluvial) ------------------------------------------
     {"option": "eaux_interieures", "theme": "reglementation", "source": "decret_2007",
-     "ref": "Titre requis en eaux intérieures", "polarity": "affirmative",
+     "ref": "Décret n° 2007-1167 du 2 août 2007, art. 2 — option eaux intérieures", "polarity": "affirmative",
      "fr": {"stem": "Quel titre faut-il pour conduire un bateau de plaisance à moteur "
             "de plus de 4,5 kW sur les rivières et canaux ?",
             "explanation": "Il faut le permis plaisance option « eaux intérieures » "
@@ -1005,7 +1012,7 @@ SEED: list[dict] = [
           "suffices", "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "reglementation", "source": "rgp",
-     "ref": "RGP — règlements particuliers de police", "polarity": "affirmative",
+     "ref": "Code des transports, art. R.4241-31/-32 — règlement particulier de police (RPP)", "polarity": "affirmative",
      "fr": {"stem": "Outre le règlement général de police (RGP), une voie d'eau "
             "particulière peut être encadrée par :",
             "explanation": "Un règlement particulier de police (RPP) adapte les règles "
@@ -1021,8 +1028,8 @@ SEED: list[dict] = [
           "correct": False},
          {"fr": "Aucune autre règle", "en": "No other rule", "correct": False}]},
 
-    {"option": "eaux_interieures", "theme": "reglementation", "source": "rgp",
-     "ref": "RGP — conduite et état alcoolique", "polarity": "affirmative",
+    {"option": "eaux_interieures", "theme": "reglementation", "source": "code_transports",
+     "ref": "Code des transports, art. L.4274-14 — conduite en état alcoolique (≥ 0,5 g/L)", "polarity": "affirmative",
      "fr": {"stem": "La conduite d'un bateau sous l'emprise d'un état alcoolique est :",
             "explanation": "Elle est interdite : le chef de bord doit être en état de "
             "gouverner et de réagir, comme pour la conduite d'un véhicule."},
@@ -1036,7 +1043,7 @@ SEED: list[dict] = [
 
     # --- Environnement (fluvial) -------------------------------------------
     {"option": "eaux_interieures", "theme": "environnement", "source": "rgp",
-     "ref": "RGP — rejets dans la voie d'eau", "polarity": "affirmative",
+     "ref": "RGP (Code des transports, art. R.4241-62) — rejet d'hydrocarbures interdit", "polarity": "affirmative",
      "fr": {"stem": "En eaux intérieures, le rejet d'hydrocarbures, d'eaux usées ou "
             "de détritus dans la voie d'eau est :",
             "explanation": "Il est interdit : ces rejets polluent la voie d'eau et "
@@ -1053,7 +1060,7 @@ SEED: list[dict] = [
           "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "environnement", "source": "rgp",
-     "ref": "RGP — protection des berges et de la faune", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-53-21 — réduire vitesse et batillage près des berges", "polarity": "affirmative",
      "fr": {"stem": "Pour limiter l'érosion des berges et le dérangement de la faune, "
             "le plaisancier doit surtout :",
             "explanation": "Réduire sa vitesse et son batillage à l'approche des rives, "
@@ -1073,7 +1080,7 @@ SEED: list[dict] = [
     # --- Compléments option eaux intérieures (banque portée à 40) ----------
     # Voies navigables et stationnement
     {"option": "eaux_interieures", "theme": "voies_navigables", "source": "rgp",
-     "ref": "RGP — bateau avalant / montant", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-53-1 et -53-6 §2 — montant/avalant (priorité à l'avalant)", "polarity": "affirmative",
      "fr": {"stem": "En navigation intérieure, que désigne un bateau « avalant » ?",
             "explanation": "Un avalant descend le courant (il va vers l'aval) ; un "
             "montant le remonte. Sur les rivières, l'avalant, moins manœuvrant, est "
@@ -1091,7 +1098,7 @@ SEED: list[dict] = [
           "the bank", "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "voies_navigables", "source": "rgp",
-     "ref": "RGP — repérage le long d'une voie d'eau", "polarity": "affirmative",
+     "ref": "Voie navigable — repérage par points kilométriques (PK)", "polarity": "affirmative",
      "fr": {"stem": "Le long d'un fleuve ou d'un canal, comment repère-t-on sa "
             "position ?",
             "explanation": "Par les points kilométriques (PK), matérialisés par des "
@@ -1108,7 +1115,7 @@ SEED: list[dict] = [
          {"fr": "Par les milles nautiques", "en": "By nautical miles", "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "voies_navigables", "source": "rgp",
-     "ref": "RGP — tirant d'air sous les ouvrages", "polarity": "affirmative",
+     "ref": "RGP, annexe 5, panneau C.2 — hauteur libre limitée (tirant d'air)", "polarity": "affirmative",
      "fr": {"stem": "Avant de passer sous un pont ou une ligne électrique, que doit "
             "vérifier le conducteur ?",
             "explanation": "Que son tirant d'air (hauteur du bateau au-dessus de l'eau) "
@@ -1127,7 +1134,7 @@ SEED: list[dict] = [
 
     # Écluses, barrages et ouvrages
     {"option": "eaux_interieures", "theme": "ecluses", "source": "rgp",
-     "ref": "RGP — conduite de l'écluse", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-53-31 §4 et §12 — instructions de l'éclusier", "polarity": "affirmative",
      "fr": {"stem": "À l'écluse, qui fixe l'ordre et les modalités d'entrée des "
             "bateaux ?",
             "explanation": "L'éclusier (ou la signalisation / l'automatisme de "
@@ -1143,7 +1150,7 @@ SEED: list[dict] = [
           "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "ecluses", "source": "rgp",
-     "ref": "RGP — deux feux rouges à l'écluse", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-53-31 §1(a) — deux feux rouges (écluse hors service)", "polarity": "affirmative",
      "fr": {"stem": "À une écluse, que signifient DEUX feux rouges ?",
             "explanation": "L'écluse est hors service / fermée à la navigation. Un seul "
             "feu rouge signifie « attendez » et le feu vert autorise l'entrée."},
@@ -1159,7 +1166,7 @@ SEED: list[dict] = [
 
     # Signalisation des voies et des bateaux
     {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
-     "ref": "RGP — panneaux d'interdiction", "polarity": "affirmative",
+     "ref": "RGP, annexe 5, section A — signaux d'interdiction (bord rouge)", "polarity": "affirmative",
      "fr": {"stem": "En navigation intérieure, à quoi reconnaît-on un panneau "
             "d'INTERDICTION ?",
             "explanation": "Les panneaux d'interdiction ont un bord rouge (souvent une "
@@ -1175,7 +1182,7 @@ SEED: list[dict] = [
           "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
-     "ref": "RGP — panneaux d'indication", "polarity": "affirmative",
+     "ref": "RGP, annexe 5, section E — signaux d'indication (bleus)", "polarity": "affirmative",
      "fr": {"stem": "Que donne, en règle générale, un panneau rectangulaire BLEU à "
             "symbole blanc ?",
             "explanation": "Les panneaux bleus rectangulaires donnent une indication ou "
@@ -1192,7 +1199,7 @@ SEED: list[dict] = [
          {"fr": "Un danger immédiat", "en": "An immediate danger", "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
-     "ref": "RGP — stationnement autorisé (P)", "polarity": "affirmative",
+     "ref": "RGP, annexe 5, panneau E.5 — stationnement autorisé (P)", "polarity": "affirmative",
      "fr": {"stem": "Un panneau carré BLEU portant la lettre « P » blanche signifie :",
             "explanation": "Stationnement (amarrage) autorisé à cet endroit."},
      "en": {"stem": "A square BLUE sign bearing a white letter “P” means:",
@@ -1203,7 +1210,7 @@ SEED: list[dict] = [
          {"fr": "Port de plaisance à 1 km", "en": "Marina 1 km ahead", "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
-     "ref": "RGP — panneaux d'obligation", "polarity": "affirmative",
+     "ref": "RGP, annexe 5, panneau B.1 — obligation (suivre la flèche)", "polarity": "affirmative",
      "fr": {"stem": "Un panneau à bord rouge portant une flèche blanche indique :",
             "explanation": "C'est un panneau d'obligation : il impose de suivre la "
             "direction (le côté) indiquée par la flèche."},
@@ -1218,17 +1225,17 @@ SEED: list[dict] = [
          {"fr": "Une zone de baignade", "en": "A bathing area", "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "signalisation_fluviale", "source": "rgp",
-     "ref": "RGP — panneaux de restriction (valeurs chiffrées)", "polarity": "affirmative",
+     "ref": "RGP, annexe 5, section C — restriction (hauteur, largeur ou profondeur)", "polarity": "affirmative",
      "fr": {"stem": "Un panneau portant un nombre (par ex. « 3,50 m ») signale "
             "généralement :",
             "explanation": "Une limitation (restriction) : par exemple la hauteur libre, "
-            "la largeur ou la profondeur disponible, ou une vitesse maximale."},
+            "la largeur ou la profondeur disponible (panneaux série C). Une vitesse maximale relève, elle, d'un panneau d'obligation (B.6)."},
      "en": {"stem": "A sign bearing a number (e.g. “3.50 m”) generally indicates:",
             "explanation": "A restriction: for example the available headroom, width or "
-            "depth, or a maximum speed."},
+            "depth (series C signs). A maximum speed is instead a mandatory sign (B.6)."},
      "choices": [
-         {"fr": "Une limitation (hauteur, largeur, profondeur ou vitesse)", "en": "A "
-          "limit (headroom, width, depth or speed)", "correct": True},
+         {"fr": "Une limitation de hauteur, de largeur ou de profondeur", "en": "A "
+          "limit on headroom, width or depth", "correct": True},
          {"fr": "La distance jusqu'à la prochaine écluse", "en": "The distance to the "
           "next lock", "correct": False},
          {"fr": "Le numéro de la voie d'eau", "en": "The waterway's number",
@@ -1236,7 +1243,7 @@ SEED: list[dict] = [
 
     # Règles de route (fluvial)
     {"option": "eaux_interieures", "theme": "regles_route", "source": "rgp",
-     "ref": "RGP — priorité de l'avalant", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-53-6 §2 — priorité de l'avalant", "polarity": "affirmative",
      "fr": {"stem": "Sur une rivière à courant, lorsqu'un montant et un avalant se "
             "rencontrent, qui est prioritaire ?",
             "explanation": "L'avalant (qui descend le courant) est prioritaire car il "
@@ -1255,7 +1262,7 @@ SEED: list[dict] = [
           "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "regles_route", "source": "rgp",
-     "ref": "RGP — rencontre sur plan d'eau sans courant", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-53-6 §1 — rencontre (chacun sur tribord)", "polarity": "affirmative",
      "fr": {"stem": "Sur un plan d'eau sans courant, deux bateaux à moteur se "
             "rencontrent face à face. Que font-ils ?",
             "explanation": "Chacun vient sur tribord (sa droite) pour se croiser bâbord "
@@ -1271,7 +1278,7 @@ SEED: list[dict] = [
          {"fr": "Ils s'arrêtent tous les deux", "en": "They both stop", "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "regles_route", "source": "rgp",
-     "ref": "RGP — dépassement (trématage)", "polarity": "affirmative",
+     "ref": "RGP, art. A.4241-53-11 §1 — dépassement par bâbord", "polarity": "affirmative",
      "fr": {"stem": "En navigation intérieure, de quel côté un bateau en dépasse-t-il "
             "normalement un autre ?",
             "explanation": "En principe par bâbord (la gauche) du bateau rattrapé, après "
@@ -1291,8 +1298,8 @@ SEED: list[dict] = [
           "correct": False}]},
 
     # Sécurité (fluvial)
-    {"option": "eaux_interieures", "theme": "securite", "source": "rgp",
-     "ref": "RGP — moyen d'assèchement", "polarity": "affirmative",
+    {"option": "eaux_interieures", "theme": "securite", "source": "division_245",
+     "ref": "Arrêté du 10 février 2016 (Division 245), art. 5 — dispositif d'assèchement", "polarity": "affirmative",
      "fr": {"stem": "Parmi le matériel utile à bord d'une menue embarcation, on doit "
             "disposer d'un moyen permettant :",
             "explanation": "D'assécher le bateau (écope, pompe ou seau) en cas d'entrée "
@@ -1308,8 +1315,8 @@ SEED: list[dict] = [
           "depth", "correct": False},
          {"fr": "De recharger la VHF", "en": "Recharging the VHF", "correct": False}]},
 
-    {"option": "eaux_interieures", "theme": "securite", "source": "rgp",
-     "ref": "RGP — moyen de mouillage", "polarity": "affirmative",
+    {"option": "eaux_interieures", "theme": "securite", "source": "division_245",
+     "ref": "Arrêté du 10 février 2016 (Division 245), art. 6 — ligne de mouillage", "polarity": "affirmative",
      "fr": {"stem": "Pour pouvoir s'arrêter en sécurité à l'écart d'un quai, une "
             "embarcation doit disposer :",
             "explanation": "D'un moyen de mouillage adapté (une ancre avec sa ligne) "
@@ -1324,8 +1331,8 @@ SEED: list[dict] = [
          {"fr": "Un radeau de survie", "en": "A liferaft", "correct": False}]},
 
     # Réglementation (fluvial)
-    {"option": "eaux_interieures", "theme": "reglementation", "source": "rgp",
-     "ref": "RGP — documents de bord (titre de navigation)", "polarity": "affirmative",
+    {"option": "eaux_interieures", "theme": "reglementation", "source": "code_transports",
+     "ref": "Code des transports, art. L.4221-1 — titre de navigation (carte de circulation)", "polarity": "affirmative",
      "fr": {"stem": "Quel document, propre au bateau, doit pouvoir être présenté à "
             "bord en eaux intérieures ?",
             "explanation": "La carte de circulation (titre de navigation) du bateau, "
@@ -1342,15 +1349,15 @@ SEED: list[dict] = [
          {"fr": "Le manuel du moteur uniquement", "en": "Only the engine manual",
           "correct": False}]},
 
-    {"option": "eaux_interieures", "theme": "reglementation", "source": "arrete_2007",
-     "ref": "Certificat restreint de radiotéléphoniste (CRR)", "polarity": "affirmative",
+    {"option": "eaux_interieures", "theme": "reglementation", "source": "itu_rr",
+     "ref": "UIT, Règlement des radiocommunications, art. 47 — certificat d'opérateur (CRR, délivré par l'ANFR)", "polarity": "affirmative",
      "fr": {"stem": "Pour utiliser une station radio VHF à bord, le chef de bord doit "
             "en principe être titulaire :",
             "explanation": "Du certificat restreint de radiotéléphoniste (CRR), qui "
-            "autorise l'emploi d'une VHF."},
+            "autorise l'emploi d'une VHF. Depuis 2011, il n'est plus exigé en eaux territoriales françaises pour une VHF portative sans ASN ; il reste requis pour une VHF fixe ou à ASN et pour la navigation à l'étranger."},
      "en": {"stem": "To use a VHF radio aboard, the skipper must, as a rule, hold:",
             "explanation": "The restricted radiotelephone certificate (CRR), which "
-            "authorises the use of a VHF."},
+            "authorises the use of a VHF. Since 2011 it is no longer required in French territorial waters for a hand-held VHF without DSC; it remains required for a fixed or DSC-equipped VHF and for navigating abroad."},
      "choices": [
          {"fr": "Du certificat restreint de radiotéléphoniste (CRR)", "en": "The "
           "restricted radiotelephone certificate (CRR)", "correct": True},
@@ -1360,8 +1367,8 @@ SEED: list[dict] = [
           "correct": False}]},
 
     # Environnement (fluvial)
-    {"option": "eaux_interieures", "theme": "environnement", "source": "rgp",
-     "ref": "RGP — eaux usées (eaux noires)", "polarity": "affirmative",
+    {"option": "eaux_interieures", "theme": "environnement", "source": "code_transports",
+     "ref": "Code des transports, art. R.4241-63 / CDNI (décret 2010-197) — eaux usées (cuve, dépôt à terre)", "polarity": "affirmative",
      "fr": {"stem": "Que doit faire le plaisancier de ses eaux usées (eaux noires) en "
             "eaux intérieures ?",
             "explanation": "Les conserver dans une cuve à bord puis les vider dans les "
@@ -1380,7 +1387,7 @@ SEED: list[dict] = [
           "correct": False}]},
 
     {"option": "eaux_interieures", "theme": "environnement", "source": "rgp",
-     "ref": "RGP — avitaillement sans pollution", "polarity": "affirmative",
+     "ref": "RGP (Code des transports, art. R.4241-62) — prévention de la pollution", "polarity": "affirmative",
      "fr": {"stem": "Lors du plein de carburant, quelle précaution évite la pollution "
             "de l'eau ?",
             "explanation": "Faire le plein sans précipitation et sans remplir à ras "

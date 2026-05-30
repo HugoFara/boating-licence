@@ -1,116 +1,29 @@
 // Boat-permit question bank — GIFT export for Moodle.
 // Self-contained: figures are embedded as base64 data URIs.
 
-$CATEGORY: Permis bateau · Léman (FR)/Sécurité et matériel d'armement
-
-::q-fr-arrete2007-16-8d7d0513:: [html]Jusqu'à quelle distance d'un abri le permis plaisance option côtière autorise-t-il la navigation ? {
-=6 milles nautiques
-~2 milles nautiques
-~Sans aucune limite de distance
-####[html]L'option côtière autorise la navigation jusqu'à 6 milles nautiques d'un abri, de jour comme de nuit, quelle que soit la puissance.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Permis plaisance — option côtière (portée) — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
-}
-
-$CATEGORY: Permis bateau · Léman (FR)/Météorologie et marées
-
-::q-fr-arrete2007-20-1f19302f:: [html]Sur une carte marine, par rapport à quel niveau les profondeurs (sondes) sont-elles indiquées ? {
-=Le zéro hydrographique (plus basses mers)
-~Le niveau moyen de la mer
-~Le niveau de pleine mer
-####[html]Les sondes sont rapportées au zéro hydrographique, proche du niveau des plus basses mers \: la profondeur réelle est généralement supérieure.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Lecture de carte — zéro hydrographique — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
-}
-
-::q-fr-arrete2007-21-db03a4c1:: [html]Qu'appelle-t-on le « marnage » ? {
-=La différence de hauteur entre pleine mer et basse mer
-~La vitesse du courant de marée
-~La durée d'une marée
-####[html]Le marnage est la différence de hauteur d'eau entre une pleine mer et la basse mer qui la suit (ou la précède).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Marées — marnage — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
-}
-
-::q-fr-arrete2007-22-ad847441:: [html]Entre quelles valeurs le coefficient de marée varie-t-il ? {
-=Entre 20 et 120
-~Entre 0 et 100
-~Entre 1 et 12
-####[html]Le coefficient de marée varie de 20 (très faible morte-eau) à 120 (très forte vive-eau) ; 95 marque le seuil des grandes marées.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Marées — coefficient — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
-}
-
-::q-fr-arrete2007-23-f178c2b3:: [html]L'échelle de Beaufort, qui mesure la force du vent, est graduée de 0 à combien ? {
-=12
-~10
-~100
-####[html]L'échelle de Beaufort va de la force 0 (calme) à la force 12 (ouragan).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Météorologie — échelle de Beaufort — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
-}
-
-::q-fr-arrete2007-24-c8aeb198:: [html]À quoi sert la « règle des douzièmes » ? {
-=Estimer la hauteur d'eau à une heure donnée de la marée
-~Calculer la force du vent
-~Mesurer la dérive due au courant
-####[html]Elle permet d'estimer la hauteur d'eau à un instant donné entre la basse mer et la pleine mer (1/12, 2/12, 3/12, 3/12, 2/12, 1/12 par heure).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Marées — règle des douzièmes — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
-}
-
-$CATEGORY: Permis bateau · Léman (FR)/Réglementation, permis et radio
-
-::q-fr-arrete2007-25-1e74146a:: [html]Quel canal VHF est réservé à la veille de détresse, d'urgence et de sécurité, ainsi qu'à l'appel ? {
-=Le canal 16
-~Le canal 6
-~Le canal 72
-####[html]Le canal 16 est le canal international de détresse, d'urgence, de sécurité et d'appel.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">VHF — canal 16 — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
-}
-
-::q-fr-arrete2007-26-8143936e:: [html]Un message radio commençant par « MAYDAY » correspond à quel degré de priorité ? {
-=La détresse
-~L'urgence
-~La sécurité
-####[html]« MAYDAY » \= détresse \: danger grave et imminent, assistance immédiate. « PAN PAN » \= urgence ; « SÉCURITÉ » \= sécurité.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">VHF — message MAYDAY — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
-}
-
 $CATEGORY: Permis bateau · Léman (FR)/Protection de l'environnement
 
-::q-fr-arrete2007-29-c062559e:: [html]En mer, que dit la réglementation sur le rejet des détritus et des hydrocarbures ? {
+::q-fr-codeenvironnement-29-b74737c4:: [html]En mer, que dit la réglementation sur le rejet des détritus et des hydrocarbures ? {
 =Il est interdit
 ~Il est libre au-delà de 3 milles
 ~Il est autorisé la nuit
-####[html]Le rejet à la mer des détritus, ordures et hydrocarbures est interdit ; les déchets doivent être rapportés à terre.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Rejets en mer — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+####[html]Le rejet à la mer des détritus, ordures et hydrocarbures est interdit ; les déchets doivent être rapportés à terre.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074220/">Code de l'environnement, art. L.218-11 et s. / MARPOL annexes I et V — Code de l'environnement — pollution par les rejets des navires (art. L.218-11 et s.) / convention MARPOL</a>
 }
 
-::q-fr-arrete2007-30-e61dcf12:: [html]Que doit faire le plaisancier de ses déchets produits à bord ? {
+::q-fr-codeenvironnement-30-dc574c1c:: [html]Que doit faire le plaisancier de ses déchets produits à bord ? {
 =Les rapporter à terre dans les installations portuaires
 ~Les jeter au large
 ~Les brûler à bord
-####[html]Il doit les conserver à bord puis les déposer à terre dans les installations de collecte du port.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Gestion des déchets à bord — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+####[html]Il doit les conserver à bord puis les déposer à terre dans les installations de collecte du port.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074220/">MARPOL annexe V / Code de l'environnement — déchets rapportés à terre — Code de l'environnement — pollution par les rejets des navires (art. L.218-11 et s.) / convention MARPOL</a>
 }
 
-$CATEGORY: Permis bateau · Léman (FR)/Météorologie et marées
+$CATEGORY: Permis bateau · Léman (FR)/Sécurité et matériel d'armement
 
-::q-fr-arrete2007-36-7293adf3:: [html]Qu'appelle-t-on l'« étale » de marée ? {
-=Le moment où le niveau ne varie plus (courant nul)
-~Le moment où le courant est le plus fort
-~La différence entre pleine et basse mer
-####[html]C'est le court moment, à la pleine ou à la basse mer, où le niveau de l'eau ne varie plus et où le courant de marée est quasiment nul.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Marées — étale — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
-}
-
-$CATEGORY: Permis bateau · Léman (FR)/Réglementation, permis et radio
-
-::q-fr-arrete2007-37-765d2ee1:: [html]Dans la bande littorale des 300 mètres à partir du rivage, à quelle vitesse la navigation est-elle en principe limitée ? {
-=5 nœuds
-~20 nœuds
-~Aucune limite de vitesse
-####[html]Sauf disposition locale particulière, la vitesse est limitée à 5 nœuds dans la bande des 300 mètres, pour la sécurité des baigneurs.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Bande littorale des 300 mètres — vitesse — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
-}
-
-::q-fr-arrete2007-38-0c8ad5b3:: [html]Un message radio commençant par « PAN PAN » correspond à quel degré de priorité ? {
-=L'urgence
-~La détresse
-~La sécurité (bulletin météo)
-####[html]« PAN PAN » \= urgence \: la sécurité d'un navire ou d'une personne est compromise, sans le danger grave et imminent qui justifierait la détresse (MAYDAY).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">VHF — message PAN PAN — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
-}
-
-$CATEGORY: Permis bateau · Léman (FR)/Protection de l'environnement
-
-::q-fr-arrete2007-39-c4fe2758:: [html]En Méditerranée, sur les herbiers de posidonie, le mouillage de l'ancre est \: {
-=Réglementé, voire interdit (herbiers protégés)
-~Libre et sans conséquence
-~Recommandé car l'ancre y tient bien
-####[html]Réglementé, voire interdit dans de nombreuses zones \: l'ancre arrache ces herbiers protégés, essentiels à la vie marine ; on utilise les zones ou bouées de mouillage prévues.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/">Mouillage et herbiers protégés — Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel) (2022-06-01)</a>
+::q-fr-decret2007-16-e2bd606e:: [html]Jusqu'à quelle distance d'un abri le permis plaisance option côtière autorise-t-il la navigation ? {
+=6 milles nautiques
+~2 milles nautiques
+~Sans aucune limite de distance
+####[html]L'option côtière autorise la navigation jusqu'à 6 milles nautiques d'un abri, de jour comme de nuit, quelle que soit la puissance.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000648362/">Décret n° 2007-1167 du 2 août 2007, art. 2 — portée de l'option côtière (6 milles) — Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur</a>
 }
 
 $CATEGORY: Permis bateau · Léman (FR)/Réglementation, permis et radio
@@ -119,53 +32,44 @@ $CATEGORY: Permis bateau · Léman (FR)/Réglementation, permis et radio
 =Plus de 4,5 kW (≈ 6 ch)
 ~Plus de 1 kW
 ~Plus de 50 ch
-####[html]Le permis est exigé pour conduire un bateau de plaisance à moteur d'une puissance supérieure à 4,5 kW (environ 6 ch).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000648362/">Obligation de permis — puissance — Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur</a>
+####[html]Le permis est exigé pour conduire un bateau de plaisance à moteur d'une puissance supérieure à 4,5 kW (environ 6 ch).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000648362/">Décret n° 2007-1167 du 2 août 2007, art. 2 — permis exigé au-delà de 4,5 kW — Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur</a>
 }
 
 ::q-fr-decret2007-28-d66020d5:: [html]À partir de quel âge peut-on obtenir le permis plaisance (option côtière) ? {
 =16 ans
 ~14 ans
 ~18 ans
-####[html]L'âge minimal pour obtenir le permis plaisance est de 16 ans.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000648362/">Âge minimal du permis plaisance — Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur</a>
-}
-
-$CATEGORY: Permis bateau · Léman (FR)/Feux, marques et signaux
-
-::q-fr-division240-15-935694da:: [html]Parmi ces moyens, lequel est un signal de détresse PYROTECHNIQUE reconnu en mer ? {
-=Une fusée à parachute rouge
-~Un feu vert clignotant
-~Un pavillon jaune hissé
-####[html]La fusée à parachute à lumière rouge est un signal de détresse reconnu ; le fumigène orange l'est aussi de jour.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Signaux de détresse en mer — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
+####[html]L'âge minimal pour obtenir le permis plaisance est de 16 ans.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000648362/">Décret n° 2007-1167 du 2 août 2007, art. 3 — âge minimal (16 ans) — Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur</a>
 }
 
 $CATEGORY: Permis bateau · Léman (FR)/Sécurité et matériel d'armement
+
+::q-fr-directive201353-18-90abdaaf:: [html]À quel programme de navigation correspond la catégorie de conception « C » d'un bateau de plaisance ? {
+=À proximité de la côte (force 6, vagues 2 m)
+~En haute mer sans restriction
+~En eaux abritées uniquement
+####[html]Catégorie C \= « à proximité de la côte » \: conçue pour un vent jusqu'à force 6 et des vagues jusqu'à 2 m. (A \= haute mer, B \= au large, D \= eaux abritées.)<br>Source \: <a href\="https\://eur-lex.europa.eu/legal-content/FR/TXT/?uri\=CELEX\:32013L0053">Directive 2013/53/UE, annexe I, partie A — catégories de conception (C \: force 6, vagues 2 m) — Directive 2013/53/UE relative aux bateaux de plaisance — catégories de conception (annexe I, partie A)</a>
+}
 
 ::q-fr-division240-17-0d653305:: [html]Pour la navigation côtière (jusqu'à 6 milles d'un abri), quelle flottabilité minimale doit avoir l'équipement individuel de flottabilité (brassière) selon la Division 240 ? {
 =100 N
 ~50 N
 ~10 N
-####[html]Division 240 \: au moins 100 newtons pour la zone côtière (au-delà de 2 et jusqu'à 6 milles) ; 50 N en basique, 150 N au hauturier.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Division 240 — équipement individuel de flottabilité — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
-}
-
-::q-fr-division240-18-0c49402b:: [html]À quel programme de navigation correspond la catégorie de conception « C » d'un bateau de plaisance ? {
-=À proximité de la côte (force 6, vagues 2 m)
-~En haute mer sans restriction
-~En eaux abritées uniquement
-####[html]Catégorie C \= « à proximité de la côte » \: conçue pour un vent jusqu'à force 6 et des vagues jusqu'à 2 m. (A \= haute mer, B \= au large, D \= eaux abritées.)<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Catégories de conception — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
+####[html]Division 240 \: au moins 100 newtons pour la zone côtière (au-delà de 2 et jusqu'à 6 milles) ; 50 N en basique, 150 N au hauturier.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Division 240, art. 240-2.04 §3 — EIF niveau 100 (zone côtière 2–6 MN) — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
 }
 
 ::q-fr-division240-19-b43bc920:: [html]Combien de personnes peut-on légalement embarquer à bord d'un bateau de plaisance ? {
 =Le nombre maximal fixé par le constructeur
 ~Autant qu'il y a de gilets à bord
 ~Aucune limite en mer
-####[html]Au maximum le nombre fixé par le constructeur, indiqué sur la plaque signalétique / la catégorie de conception du bateau.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Nombre de personnes embarquées — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
+####[html]Au maximum le nombre fixé par le constructeur, indiqué sur la plaque signalétique / la catégorie de conception du bateau.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Division 240, art. 240-2.01 §1 — nombre maximal de personnes (plaque constructeur) — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
 }
 
 ::q-fr-division240-35-ff7a899c:: [html]Sur un bateau à moteur conduit à la barre franche, pourquoi le conducteur doit-il porter le coupe-circuit (cordon) relié à lui ? {
 =Il coupe le moteur si le conducteur tombe à l'eau
 ~Il augmente la vitesse du moteur
 ~Il sert d'antivol au port
-####[html]En cas de chute à l'eau, le cordon se détache et coupe aussitôt le moteur \: le bateau ne part pas seul et ne blesse pas l'homme à la mer.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Division 240 — coupe-circuit (arrêt d'urgence) — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
+####[html]En cas de chute à l'eau, le cordon se détache et coupe aussitôt le moteur \: le bateau ne part pas seul et ne blesse pas l'homme à la mer.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Division 240, art. 240-2.01 §7 — coupe-circuit (barre franche / déporté / VNM) — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
 }
 
 $CATEGORY: Permis bateau · Léman (FR)/Balisage et signalisation maritime
@@ -174,49 +78,99 @@ $CATEGORY: Permis bateau · Léman (FR)/Balisage et signalisation maritime
 =Rouge, cylindrique
 ~Verte, conique
 ~Jaune, sphérique
-####[html]IALA région A \: la marque latérale bâbord est rouge et de forme cylindrique (« boîte ») ; on la laisse sur sa gauche en entrant.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA région A — marques latérales — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+####[html]IALA région A \: la marque latérale bâbord est rouge et de forme cylindrique (« boîte ») ; on la laisse sur sa gauche en entrant.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">Balisage IALA région A — marques latérales — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
 }
 
 ::q-fr-ialaa-1-2f51aa68:: [html]En venant du large (région A), de quelle couleur et de quelle forme est une marque latérale de TRIBORD ? {
 =Verte, conique
 ~Rouge, cylindrique
 ~Noire et rouge, à sphères
-####[html]IALA région A \: la marque latérale tribord est verte et de forme conique ; on la laisse sur sa droite en entrant.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA région A — marques latérales — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+####[html]IALA région A \: la marque latérale tribord est verte et de forme conique ; on la laisse sur sa droite en entrant.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">Balisage IALA région A — marques latérales — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
 }
 
 ::q-fr-ialaa-2-e3e5d086:: [html]Comment reconnaît-on le voyant d'une marque cardinale NORD, et de quel côté faut-il passer ? {
 =Deux cônes pointes vers le haut ; on passe au nord
 ~Deux cônes pointes vers le bas ; on passe au sud
 ~Deux cônes pointes opposées ; on passe à l'ouest
-####[html]Cardinale Nord \: deux cônes noirs superposés, pointes vers le HAUT ; les eaux saines sont au nord, on passe donc au nord de la marque.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA — marque cardinale Nord — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+####[html]Cardinale Nord \: deux cônes noirs superposés, pointes vers le HAUT ; les eaux saines sont au nord, on passe donc au nord de la marque.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">Balisage IALA — marque cardinale Nord — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
 }
 
 ::q-fr-ialaa-3-fb5af820:: [html]Que signale une marque à corps noir avec des bandes rouges horizontales, surmontée de deux sphères noires superposées ? {
 =Un danger isolé entouré d'eaux saines
 ~L'entrée principale d'un port
 ~Une zone de baignade surveillée
-####[html]C'est la marque de danger isolé \: elle est mouillée SUR un danger de faible étendue entouré d'eaux saines ; feu blanc à 2 éclats.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA — marque de danger isolé — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+####[html]C'est la marque de danger isolé \: elle est mouillée SUR un danger de faible étendue entouré d'eaux saines ; feu blanc à 2 éclats.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">Balisage IALA — marque de danger isolé — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
 }
 
 ::q-fr-ialaa-31-0221d523:: [html]Comment reconnaît-on le voyant d'une marque cardinale SUD, et de quel côté faut-il passer ? {
 =Deux cônes pointes vers le bas ; on passe au sud
 ~Deux cônes pointes vers le haut ; on passe au nord
 ~Deux cônes base contre base ; on passe à l'est
-####[html]Cardinale Sud \: deux cônes noirs superposés, pointes vers le BAS ; les eaux saines sont au sud, on passe donc au sud de la marque.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA — marque cardinale Sud — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+####[html]Cardinale Sud \: deux cônes noirs superposés, pointes vers le BAS ; les eaux saines sont au sud, on passe donc au sud de la marque.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">Balisage IALA — marque cardinale Sud — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
 }
 
 ::q-fr-ialaa-32-681ef423:: [html]Que signale une marque entièrement JAUNE, éventuellement surmontée d'une croix de Saint-André (X) jaune ? {
 =Une zone ou un dispositif particulier (marque spéciale)
 ~Un danger isolé à éviter
 ~Le côté tribord du chenal
-####[html]C'est une marque spéciale \: elle délimite une zone ou un dispositif particulier (baignade, chenal, conduite immergée, zone réglementée) et ne marque pas en soi un danger de navigation.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA — marque spéciale — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+####[html]C'est une marque spéciale \: elle délimite une zone ou un dispositif particulier (baignade, chenal, conduite immergée, zone réglementée) et ne marque pas en soi un danger de navigation.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">Balisage IALA — marque spéciale — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
 }
 
 ::q-fr-ialaa-4-fd027b97:: [html]Que signale une marque à bandes verticales rouges et blanches, avec un voyant sphérique rouge ? {
 =Des eaux saines tout autour ; on passe de chaque côté
 ~Un danger isolé à contourner
 ~Le côté tribord d'un chenal
-####[html]Marque d'eaux saines (milieu de chenal / atterrissage) \: on peut la contourner indifféremment des deux côtés.<br>Source \: <a href\="https\://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur">Balisage IALA — marque d'eaux saines — Balisage maritime — système IALA région A (référentiel permis plaisance)</a>
+####[html]Marque d'eaux saines (milieu de chenal / atterrissage) \: on peut la contourner indifféremment des deux côtés.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">Balisage IALA — marque d'eaux saines — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Réglementation, permis et radio
+
+::q-fr-iturr-25-f535a1cf:: [html]Quel canal VHF est réservé à la veille de détresse, d'urgence et de sécurité, ainsi qu'à l'appel ? {
+=Le canal 16
+~Le canal 6
+~Le canal 72
+####[html]Le canal 16 est le canal international de détresse, d'urgence, de sécurité et d'appel.<br>Source \: <a href\="https\://www.itu.int/pub/R-REG-RR">UIT, Règlement des radiocommunications, appendice 18 — VHF canal 16 (156,8 MHz) — UIT — Règlement des radiocommunications (canaux VHF maritimes, procédures de détresse et d'urgence)</a>
+}
+
+::q-fr-iturr-26-f5cb0f8b:: [html]Un message radio commençant par « MAYDAY » correspond à quel degré de priorité ? {
+=La détresse
+~L'urgence
+~La sécurité
+####[html]« MAYDAY » \= détresse \: danger grave et imminent, assistance immédiate. « PAN PAN » \= urgence ; « SÉCURITÉ » \= sécurité.<br>Source \: <a href\="https\://www.itu.int/pub/R-REG-RR">UIT, Règlement des radiocommunications, art. 32 — détresse (MAYDAY) — UIT — Règlement des radiocommunications (canaux VHF maritimes, procédures de détresse et d'urgence)</a>
+}
+
+::q-fr-iturr-38-f3af5877:: [html]Un message radio commençant par « PAN PAN » correspond à quel degré de priorité ? {
+=L'urgence
+~La détresse
+~La sécurité (bulletin météo)
+####[html]« PAN PAN » \= urgence \: la sécurité d'un navire ou d'une personne est compromise, sans le danger grave et imminent qui justifierait la détresse (MAYDAY).<br>Source \: <a href\="https\://www.itu.int/pub/R-REG-RR">UIT, Règlement des radiocommunications, art. 33 — urgence (PAN PAN) — UIT — Règlement des radiocommunications (canaux VHF maritimes, procédures de détresse et d'urgence)</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Météorologie et marées
+
+::q-fr-meteofrance-23-8385e4c2:: [html]L'échelle de Beaufort, qui mesure la force du vent, est graduée de 0 à combien ? {
+=12
+~10
+~100
+####[html]L'échelle de Beaufort va de la force 0 (calme) à la force 12 (ouragan).<br>Source \: <a href\="https\://meteofrance.com/">Échelle de Beaufort 0–12 (OMM / Météo-France) — Météo-France / OMM — échelle de Beaufort (force 0 à 12)</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Réglementation, permis et radio
+
+::q-fr-prefetmaritime-37-cd8d3ce0:: [html]Dans la bande littorale des 300 mètres à partir du rivage, à quelle vitesse la navigation est-elle en principe limitée ? {
+=5 nœuds
+~20 nœuds
+~Aucune limite de vitesse
+####[html]Sauf disposition locale particulière, la vitesse est limitée à 5 nœuds dans la bande des 300 mètres, pour la sécurité des baigneurs.<br>Source \: <a href\="https\://www.premar-mediterranee.gouv.fr/">Arrêté du préfet maritime (bande des 300 m, 5 nœuds) ; CGCT art. L.2213-23 — Arrêtés des préfets maritimes (bande littorale des 300 m ; mouillage et protection de la posidonie)</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Protection de l'environnement
+
+::q-fr-prefetmaritime-39-0d650a9e:: [html]En Méditerranée, sur les herbiers de posidonie, le mouillage de l'ancre est \: {
+=Réglementé, voire interdit (herbiers protégés)
+~Libre et sans conséquence
+~Recommandé car l'ancre y tient bien
+####[html]Réglementé, voire interdit dans de nombreuses zones \: l'ancre arrache ces herbiers protégés, essentiels à la vie marine ; on utilise les zones ou bouées de mouillage prévues.<br>Source \: <a href\="https\://www.premar-mediterranee.gouv.fr/">PREMAR Méditerranée, arrêté n° 123/2019, art. 6 — mouillage / posidonie — Arrêtés des préfets maritimes (bande littorale des 300 m ; mouillage et protection de la posidonie)</a>
 }
 
 $CATEGORY: Permis bateau · Léman (FR)/Feux, marques et signaux
@@ -254,6 +208,13 @@ $CATEGORY: Permis bateau · Léman (FR)/Feux, marques et signaux
 ~Trois sons brefs toutes les minutes
 ~Aucun signal n'est nécessaire
 ####[html]RIPAM règle 35 \: un son prolongé à intervalles ne dépassant pas 2 minutes.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 35 — Signaux par visibilité réduite — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+::q-fr-ripam-15-7563bc71:: [html]Parmi ces moyens, lequel est un signal de détresse PYROTECHNIQUE reconnu en mer ? {
+=Une fusée à parachute rouge
+~Un feu vert clignotant
+~Un pavillon jaune hissé
+####[html]La fusée à parachute à lumière rouge est un signal de détresse reconnu ; le fumigène orange l'est aussi de jour.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM annexe IV §1(i) — signaux de détresse (fusée à parachute rouge) — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
 }
 
 $CATEGORY: Permis bateau · Léman (FR)/Règles de barre et de route
@@ -309,4 +270,41 @@ $CATEGORY: Permis bateau · Léman (FR)/Règles de barre et de route
 ~Garder le cap et la vitesse quoi qu'il arrive
 ~Accélérer pour passer devant
 ####[html]RIPAM règle 17 \: si l'autre n'agit pas, le privilégié peut puis doit manœuvrer pour éviter seul l'abordage.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 17 — Navire privilégié — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Météorologie et marées
+
+::q-fr-shom-20-fa12f0c4:: [html]Sur une carte marine, par rapport à quel niveau les profondeurs (sondes) sont-elles indiquées ? {
+=Le zéro hydrographique (plus basses mers)
+~Le niveau moyen de la mer
+~Le niveau de pleine mer
+####[html]Les sondes sont rapportées au zéro hydrographique, proche du niveau des plus basses mers \: la profondeur réelle est généralement supérieure.<br>Source \: <a href\="https\://www.shom.fr/">SHOM — zéro hydrographique (sondes des cartes marines) — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
+}
+
+::q-fr-shom-21-a38da350:: [html]Qu'appelle-t-on le « marnage » ? {
+=La différence de hauteur entre pleine mer et basse mer
+~La vitesse du courant de marée
+~La durée d'une marée
+####[html]Le marnage est la différence de hauteur d'eau entre une pleine mer et la basse mer qui la suit (ou la précède).<br>Source \: <a href\="https\://www.shom.fr/">SHOM — marnage (pleine mer / basse mer consécutives) — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
+}
+
+::q-fr-shom-22-02981919:: [html]Entre quelles valeurs le coefficient de marée varie-t-il ? {
+=Entre 20 et 120
+~Entre 0 et 100
+~Entre 1 et 12
+####[html]Le coefficient de marée varie de 20 (très faible morte-eau) à 120 (très forte vive-eau) ; 95 marque le seuil des grandes marées.<br>Source \: <a href\="https\://www.shom.fr/">SHOM — coefficient de marée (échelle 20 à 120) — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
+}
+
+::q-fr-shom-24-49051531:: [html]À quoi sert la « règle des douzièmes » ? {
+=Estimer la hauteur d'eau à une heure donnée de la marée
+~Calculer la force du vent
+~Mesurer la dérive due au courant
+####[html]Elle permet d'estimer la hauteur d'eau à un instant donné entre la basse mer et la pleine mer (1/12, 2/12, 3/12, 3/12, 2/12, 1/12 par heure).<br>Source \: <a href\="https\://www.shom.fr/">Marées — règle des douzièmes (méthode standard, SHOM) — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
+}
+
+::q-fr-shom-36-13b76da3:: [html]Qu'appelle-t-on l'« étale » de marée ? {
+=Le moment où le niveau ne varie plus (étale de niveau)
+~Le moment où le courant est le plus fort
+~La différence entre pleine et basse mer
+####[html]C'est le court moment, à la pleine ou à la basse mer, où le niveau de l'eau ne varie plus (étale de niveau). La renverse du courant — l'étale de courant — est un phénomène voisin mais distinct, qui ne coïncide pas nécessairement.<br>Source \: <a href\="https\://www.shom.fr/">SHOM — étale (de niveau) — SHOM — Service hydrographique et océanographique de la marine (cartes et marées \: zéro hydrographique, marnage, coefficient, étale)</a>
 }

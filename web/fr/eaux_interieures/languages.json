@@ -20,11 +20,11 @@
     "universal": {
       "fr": {
         "path": "questions.universal.fr.json",
-        "count": 8
+        "count": 6
       },
       "en": {
         "path": "questions.universal.en.json",
-        "count": 8
+        "count": 6
       }
     },
     "cevni": {

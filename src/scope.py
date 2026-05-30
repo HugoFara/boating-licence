@@ -89,11 +89,12 @@ _FR_UNIVERSAL_THEMES = {"meteo_maree", "environnement"}   # portable seamanship
 _FR_THEMES = (_FR_MARITIME_THEMES | _FR_INLAND_THEMES | _FR_NATIONAL_THEMES
               | _FR_TRAFFIC_AMBIG | _FR_UNIVERSAL_THEMES | {"securite"})
 
-# Within `securite`: the French Division-240 equipment regime (which exact flares,
-# the basique/côtier/hauturier categories) is country statute → national; generic
-# safety (wear a lifejacket, a red flare means distress) is portable → universal.
+# Within `securite`: the French equipment regime — Division 240 (sea) / Division 245
+# (inland): which exact flares, the basique/côtier/hauturier kit — is country statute
+# → national; generic safety (wear a lifejacket, a red flare means distress) and the
+# EU-harmonised design categories are portable → universal.
 _FR_EQUIP_STATUTE = re.compile(
-    r"(division\s*240|cat[ée]gorie\s+(de\s+navigation|basique|c[oô]ti|hauturi|semi))",
+    r"(division\s*24[05]|cat[ée]gorie\s+(de\s+navigation|basique|c[oô]ti|hauturi|semi))",
     re.I)
 
 

@@ -25,7 +25,7 @@
   },
   "questions": [
     {
-      "id": "q-fr-arrete2007-16-8d7d0513",
+      "id": "q-fr-decret2007-16-e2bd606e",
       "theme": "securite",
       "kind": "rule_mc",
       "stem": "Jusqu'à quelle distance d'un abri le permis plaisance option côtière autorise-t-il la navigation ?",
@@ -47,11 +47,11 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-arrete_2007-16",
-        "ref": "Permis plaisance — option côtière (portée)",
-        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
-        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
-        "as_of": "2022-06-01",
+        "unit_id": "fr-decret_2007-16",
+        "ref": "Décret n° 2007-1167 du 2 août 2007, art. 2 — portée de l'option côtière (6 milles)",
+        "source": "Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000648362/",
+        "as_of": "",
         "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
       },
       "lang": "fr",
@@ -68,7 +68,50 @@
       ]
     },
     {
-      "id": "q-fr-arrete2007-20-1f19302f",
+      "id": "q-fr-directive201353-18-90abdaaf",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "À quel programme de navigation correspond la catégorie de conception « C » d'un bateau de plaisance ?",
+      "choices": [
+        {
+          "text": "À proximité de la côte (force 6, vagues 2 m)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "En haute mer sans restriction",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "En eaux abritées uniquement",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-directive_2013_53-18",
+        "ref": "Directive 2013/53/UE, annexe I, partie A — catégories de conception (C : force 6, vagues 2 m)",
+        "source": "Directive 2013/53/UE relative aux bateaux de plaisance — catégories de conception (annexe I, partie A)",
+        "url": "https://eur-lex.europa.eu/legal-content/FR/TXT/?uri=CELEX:32013L0053",
+        "as_of": "",
+        "licence": "© Union européenne, eur-lex.europa.eu — réutilisation autorisée (décision 2011/833/UE)."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Catégorie C = « à proximité de la côte » : conçue pour un vent jusqu'à force 6 et des vagues jusqu'à 2 m. (A = haute mer, B = au large, D = eaux abritées.)",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:fr.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-shom-20-fa12f0c4",
       "theme": "meteo_maree",
       "kind": "meteo_mc",
       "stem": "Sur une carte marine, par rapport à quel niveau les profondeurs (sondes) sont-elles indiquées ?",
@@ -90,12 +133,12 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-arrete_2007-20",
-        "ref": "Lecture de carte — zéro hydrographique",
-        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
-        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
-        "as_of": "2022-06-01",
-        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+        "unit_id": "fr-shom-20",
+        "ref": "SHOM — zéro hydrographique (sondes des cartes marines)",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://www.shom.fr/",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
       },
       "lang": "fr",
       "polarity": "affirmative",
@@ -111,7 +154,7 @@
       ]
     },
     {
-      "id": "q-fr-arrete2007-21-db03a4c1",
+      "id": "q-fr-shom-21-a38da350",
       "theme": "meteo_maree",
       "kind": "meteo_mc",
       "stem": "Qu'appelle-t-on le « marnage » ?",
@@ -133,12 +176,12 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-arrete_2007-21",
-        "ref": "Marées — marnage",
-        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
-        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
-        "as_of": "2022-06-01",
-        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+        "unit_id": "fr-shom-21",
+        "ref": "SHOM — marnage (pleine mer / basse mer consécutives)",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://www.shom.fr/",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
       },
       "lang": "fr",
       "polarity": "affirmative",
@@ -154,7 +197,7 @@
       ]
     },
     {
-      "id": "q-fr-arrete2007-22-ad847441",
+      "id": "q-fr-shom-22-02981919",
       "theme": "meteo_maree",
       "kind": "meteo_mc",
       "stem": "Entre quelles valeurs le coefficient de marée varie-t-il ?",
@@ -176,12 +219,12 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-arrete_2007-22",
-        "ref": "Marées — coefficient",
-        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
-        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
-        "as_of": "2022-06-01",
-        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+        "unit_id": "fr-shom-22",
+        "ref": "SHOM — coefficient de marée (échelle 20 à 120)",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://www.shom.fr/",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
       },
       "lang": "fr",
       "polarity": "affirmative",
@@ -197,7 +240,7 @@
       ]
     },
     {
-      "id": "q-fr-arrete2007-23-f178c2b3",
+      "id": "q-fr-meteofrance-23-8385e4c2",
       "theme": "meteo_maree",
       "kind": "meteo_mc",
       "stem": "L'échelle de Beaufort, qui mesure la force du vent, est graduée de 0 à combien ?",
@@ -219,12 +262,12 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-arrete_2007-23",
-        "ref": "Météorologie — échelle de Beaufort",
-        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
-        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
-        "as_of": "2022-06-01",
-        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+        "unit_id": "fr-meteo_france-23",
+        "ref": "Échelle de Beaufort 0–12 (OMM / Météo-France)",
+        "source": "Météo-France / OMM — échelle de Beaufort (force 0 à 12)",
+        "url": "https://meteofrance.com/",
+        "as_of": "",
+        "licence": "Échelle de Beaufort (OMM) — barème international du domaine public."
       },
       "lang": "fr",
       "polarity": "affirmative",
@@ -240,7 +283,7 @@
       ]
     },
     {
-      "id": "q-fr-arrete2007-24-c8aeb198",
+      "id": "q-fr-shom-24-49051531",
       "theme": "meteo_maree",
       "kind": "meteo_mc",
       "stem": "À quoi sert la « règle des douzièmes » ?",
@@ -262,12 +305,12 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-arrete_2007-24",
-        "ref": "Marées — règle des douzièmes",
-        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
-        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
-        "as_of": "2022-06-01",
-        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+        "unit_id": "fr-shom-24",
+        "ref": "Marées — règle des douzièmes (méthode standard, SHOM)",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://www.shom.fr/",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
       },
       "lang": "fr",
       "polarity": "affirmative",
@@ -283,7 +326,7 @@
       ]
     },
     {
-      "id": "q-fr-arrete2007-29-c062559e",
+      "id": "q-fr-codeenvironnement-29-b74737c4",
       "theme": "environnement",
       "kind": "rule_mc",
       "stem": "En mer, que dit la réglementation sur le rejet des détritus et des hydrocarbures ?",
@@ -305,11 +348,11 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-arrete_2007-29",
-        "ref": "Rejets en mer",
-        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
-        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
-        "as_of": "2022-06-01",
+        "unit_id": "fr-code_environnement-29",
+        "ref": "Code de l'environnement, art. L.218-11 et s. / MARPOL annexes I et V",
+        "source": "Code de l'environnement — pollution par les rejets des navires (art. L.218-11 et s.) / convention MARPOL",
+        "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074220/",
+        "as_of": "",
         "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
       },
       "lang": "fr",
@@ -326,7 +369,7 @@
       ]
     },
     {
-      "id": "q-fr-arrete2007-30-e61dcf12",
+      "id": "q-fr-codeenvironnement-30-dc574c1c",
       "theme": "environnement",
       "kind": "rule_mc",
       "stem": "Que doit faire le plaisancier de ses déchets produits à bord ?",
@@ -348,11 +391,11 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-arrete_2007-30",
-        "ref": "Gestion des déchets à bord",
-        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
-        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
-        "as_of": "2022-06-01",
+        "unit_id": "fr-code_environnement-30",
+        "ref": "MARPOL annexe V / Code de l'environnement — déchets rapportés à terre",
+        "source": "Code de l'environnement — pollution par les rejets des navires (art. L.218-11 et s.) / convention MARPOL",
+        "url": "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074220/",
+        "as_of": "",
         "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
       },
       "lang": "fr",
@@ -369,13 +412,13 @@
       ]
     },
     {
-      "id": "q-fr-arrete2007-36-7293adf3",
+      "id": "q-fr-shom-36-13b76da3",
       "theme": "meteo_maree",
       "kind": "meteo_mc",
       "stem": "Qu'appelle-t-on l'« étale » de marée ?",
       "choices": [
         {
-          "text": "Le moment où le niveau ne varie plus (courant nul)",
+          "text": "Le moment où le niveau ne varie plus (étale de niveau)",
           "image": null,
           "is_correct": true
         },
@@ -391,18 +434,18 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-arrete_2007-36",
-        "ref": "Marées — étale",
-        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
-        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
-        "as_of": "2022-06-01",
-        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+        "unit_id": "fr-shom-36",
+        "ref": "SHOM — étale (de niveau)",
+        "source": "SHOM — Service hydrographique et océanographique de la marine (cartes et marées : zéro hydrographique, marnage, coefficient, étale)",
+        "url": "https://www.shom.fr/",
+        "as_of": "",
+        "licence": "SHOM — données et références hydrographiques officielles (réutilisation sous Licence Ouverte / Etalab)."
       },
       "lang": "fr",
       "polarity": "affirmative",
       "image": null,
       "points": 1,
-      "explanation": "C'est le court moment, à la pleine ou à la basse mer, où le niveau de l'eau ne varie plus et où le courant de marée est quasiment nul.",
+      "explanation": "C'est le court moment, à la pleine ou à la basse mer, où le niveau de l'eau ne varie plus (étale de niveau). La renverse du courant — l'étale de courant — est un phénomène voisin mais distinct, qui ne coïncide pas nécessairement.",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
@@ -412,7 +455,7 @@
       ]
     },
     {
-      "id": "q-fr-arrete2007-39-c4fe2758",
+      "id": "q-fr-prefetmaritime-39-0d650a9e",
       "theme": "environnement",
       "kind": "rule_mc",
       "stem": "En Méditerranée, sur les herbiers de posidonie, le mouillage de l'ancre est :",
@@ -434,11 +477,11 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-arrete_2007-39",
-        "ref": "Mouillage et herbiers protégés",
-        "source": "Arrêté du 28 septembre 2007 relatif au permis de conduire des bateaux de plaisance à moteur (référentiel)",
-        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
-        "as_of": "2022-06-01",
+        "unit_id": "fr-prefet_maritime-39",
+        "ref": "PREMAR Méditerranée, arrêté n° 123/2019, art. 6 — mouillage / posidonie",
+        "source": "Arrêtés des préfets maritimes (bande littorale des 300 m ; mouillage et protection de la posidonie)",
+        "url": "https://www.premar-mediterranee.gouv.fr/",
+        "as_of": "",
         "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
       },
       "lang": "fr",

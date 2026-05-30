@@ -67,16 +67,27 @@ and Légifrance / data.gouv.fr content is published under the **Licence Ouverte 
 Open Licence 2.0 (Etalab)** — free reuse, commercial and non-commercial, worldwide,
 with attribution. This is the France analogue of the Swiss public-domain basis.
 
-Primary sources (`src/fr/sources_fr.py`):
+Primary sources (`src/fr/sources_fr.py`). Every question is grounded in one of these
+and was **verified against the actual text** (2026-05-30), with a precise
+article/rule reference — never paraphrased from memory:
 
 | id | Source | Reference |
 |----|--------|-----------|
-| `arrete_2007` | Arrêté du 28 septembre 2007 (permis plaisance, référentiel) | JORFTEXT000000428843 |
-| `decret_2007` | Décret n° 2007-1167 du 2 août 2007 | JORFTEXT000000648362 |
-| `ripam` | RIPAM — Règlement international pour prévenir les abordages en mer (COLREG) | Légifrance / OMI |
-| `rgp` | Règlement général de police de la navigation intérieure (RGP/RGPNI, CEVNI) | Code des transports R4241-1 s. |
-| `division_240` | Division 240 — matériel de sécurité des navires de plaisance < 24 m | Arrêté / mer.gouv.fr |
-| `iala_a` | Balisage maritime IALA région A | Référentiel / SHOM |
+| `ripam` | RIPAM / COLREG — abordages en mer (incl. annexe IV, signaux de détresse) | Légifrance JORFTEXT000000305722 / OMI |
+| `rgp` | Règlement général de police de la navigation intérieure | Code des transports, art. A.4241-x |
+| `cevni` | CEVNI — Code européen des voies de navigation intérieure | CEE-ONU, Résolution n° 24 |
+| `decret_2007` | Décret n° 2007-1167 du 2 août 2007 (permis : portée, puissance, âge) | JORFTEXT000000648362 |
+| `arrete_2007` | Arrêté du 28 septembre 2007 (référentiel) | JORFTEXT000000428843 |
+| `division_240` | Division 240 — armement/sécurité, navires de plaisance de mer < 24 m | Arrêté / mer.gouv.fr |
+| `division_245` | Division 245 (arrêté du 10 fév. 2016) — armement/sécurité eaux intérieures | JORFTEXT000032036538 |
+| `directive_2013_53` | Directive 2013/53/UE — catégories de conception (A/B/C/D) | EUR-Lex CELEX 32013L0053 |
+| `iala_a` | IALA — Système de balisage maritime, région A | Recommandation R1001 |
+| `shom` | SHOM — marées et cartes (zéro hydrographique, marnage, coefficient, étale) | shom.fr |
+| `meteo_france` | Météo-France / OMM — échelle de Beaufort (0–12) | meteofrance.com |
+| `itu_rr` | UIT — Règlement des radiocommunications (VHF ch.16, MAYDAY/PAN PAN, CRR) | App. 18, art. 32/33/47 |
+| `code_environnement` | Code de l'environnement / MARPOL — rejets en mer | art. L.218-11 s. |
+| `code_transports` | Code des transports — alcoolémie, titre de navigation, RPP | art. L.4274-14, L.4221-1 |
+| `prefet_maritime` | Arrêtés des préfets maritimes — bande des 300 m ; mouillage/posidonie | PREMAR Méditerranée |
 
 **Not ingested:** the operator exam banks (La Poste, Dekra, SGS, Bureau Veritas
 have run the QCM under confidential public contract since June 2022) and any paid

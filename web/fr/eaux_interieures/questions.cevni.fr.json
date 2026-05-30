@@ -48,7 +48,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-40",
-        "ref": "RGP — définition de la menue embarcation",
+        "ref": "RGP (Code des transports, art. R.4000-2, 7°) — menue embarcation (< 20 m)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -91,7 +91,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-41",
-        "ref": "RGP — stationnement",
+        "ref": "RGP, art. A.4241-54-2 — stationnement interdit (ponts, passages étroits)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -134,7 +134,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-42",
-        "ref": "RGP — batillage",
+        "ref": "RGP, art. A.4241-53-21 — vitesse et batillage",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -177,7 +177,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-43",
-        "ref": "RGP — signalisation des écluses",
+        "ref": "RGP, art. A.4241-53-31 §1 — feux d'écluse (rouge = accès interdit)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -187,7 +187,7 @@
       "polarity": "affirmative",
       "image": null,
       "points": 1,
-      "explanation": "Un feu rouge interdit l'entrée dans l'écluse ; on attend. Le feu vert autorise l'entrée.",
+      "explanation": "Un feu rouge isolé signifie « accès interdit » ; on attend. Le feu vert autorise l'entrée ; deux feux rouges = écluse hors service.",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
@@ -220,7 +220,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-44",
-        "ref": "RGP — feu vert d'écluse",
+        "ref": "RGP, art. A.4241-53-31 §1 — feu vert d'écluse (accès autorisé)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -263,7 +263,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-45",
-        "ref": "RGP — amarrage dans le sas",
+        "ref": "RGP, art. A.4241-53-30/-31 — conduite dans le sas d'écluse",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -306,7 +306,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-46",
-        "ref": "RGP — panneau d'interdiction (A.1)",
+        "ref": "RGP, annexe 5, panneau A.1 — interdiction de passer",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -326,7 +326,7 @@
       ]
     },
     {
-      "id": "q-fr-rgp-47-f4bfafa9",
+      "id": "q-fr-cevni-47-1da48d7a",
       "theme": "signalisation_fluviale",
       "kind": "rule_mc",
       "stem": "Sur une voie intérieure, que signifie en règle générale UN son prolongé émis par un bateau ?",
@@ -348,12 +348,12 @@
         }
       ],
       "provenance": {
-        "unit_id": "fr-rgp-47",
-        "ref": "RGP — signaux sonores (son prolongé)",
-        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
-        "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+        "unit_id": "fr-cevni-47",
+        "ref": "CEVNI — signal général « Attention » (un son prolongé)",
+        "source": "CEVNI — Code européen des voies de navigation intérieure (CEE-ONU, Résolution n° 24)",
+        "url": "https://unece.org/transport/inland-water-transport",
         "as_of": "",
-        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+        "licence": "CEE-ONU — code européen modèle, librement consultable."
       },
       "lang": "fr",
       "polarity": "affirmative",
@@ -392,7 +392,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-48",
-        "ref": "RGP — feux de nuit d'un bateau motorisé",
+        "ref": "RGP, art. A.4241-48-12 — feux des menues embarcations (bâbord rouge)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -435,7 +435,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-49",
-        "ref": "RGP — marque de jour d'un bateau à l'arrêt",
+        "ref": "RGP, art. A.4241-48-20 — signalisation en stationnement (feu blanc)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -478,7 +478,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-50",
-        "ref": "RGP — priorité des menues embarcations",
+        "ref": "RGP, art. A.4241-53-3 — menues embarcations s'écartent des grands bateaux et bacs",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -521,7 +521,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-51",
-        "ref": "RGP — règle générale de route",
+        "ref": "RGP, art. A.4241-53-6 §1 — venir sur tribord (croisement bâbord-bâbord)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -564,7 +564,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-52",
-        "ref": "RGP — passage des ponts et passages étroits",
+        "ref": "RGP, art. A.4241-53-8 — passage étroit (priorité à l'avalant)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -607,7 +607,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-61",
-        "ref": "RGP — bateau avalant / montant",
+        "ref": "RGP, art. A.4241-53-1 et -53-6 §2 — montant/avalant (priorité à l'avalant)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -650,7 +650,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-62",
-        "ref": "RGP — repérage le long d'une voie d'eau",
+        "ref": "Voie navigable — repérage par points kilométriques (PK)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -693,7 +693,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-63",
-        "ref": "RGP — tirant d'air sous les ouvrages",
+        "ref": "RGP, annexe 5, panneau C.2 — hauteur libre limitée (tirant d'air)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -736,7 +736,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-64",
-        "ref": "RGP — conduite de l'écluse",
+        "ref": "RGP, art. A.4241-53-31 §4 et §12 — instructions de l'éclusier",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -779,7 +779,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-65",
-        "ref": "RGP — deux feux rouges à l'écluse",
+        "ref": "RGP, art. A.4241-53-31 §1(a) — deux feux rouges (écluse hors service)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -822,7 +822,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-66",
-        "ref": "RGP — panneaux d'interdiction",
+        "ref": "RGP, annexe 5, section A — signaux d'interdiction (bord rouge)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -865,7 +865,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-67",
-        "ref": "RGP — panneaux d'indication",
+        "ref": "RGP, annexe 5, section E — signaux d'indication (bleus)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -908,7 +908,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-68",
-        "ref": "RGP — stationnement autorisé (P)",
+        "ref": "RGP, annexe 5, panneau E.5 — stationnement autorisé (P)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -951,7 +951,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-69",
-        "ref": "RGP — panneaux d'obligation",
+        "ref": "RGP, annexe 5, panneau B.1 — obligation (suivre la flèche)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -977,7 +977,7 @@
       "stem": "Un panneau portant un nombre (par ex. « 3,50 m ») signale généralement :",
       "choices": [
         {
-          "text": "Une limitation (hauteur, largeur, profondeur ou vitesse)",
+          "text": "Une limitation de hauteur, de largeur ou de profondeur",
           "image": null,
           "is_correct": true
         },
@@ -994,7 +994,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-70",
-        "ref": "RGP — panneaux de restriction (valeurs chiffrées)",
+        "ref": "RGP, annexe 5, section C — restriction (hauteur, largeur ou profondeur)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1004,7 +1004,7 @@
       "polarity": "affirmative",
       "image": null,
       "points": 1,
-      "explanation": "Une limitation (restriction) : par exemple la hauteur libre, la largeur ou la profondeur disponible, ou une vitesse maximale.",
+      "explanation": "Une limitation (restriction) : par exemple la hauteur libre, la largeur ou la profondeur disponible (panneaux série C). Une vitesse maximale relève, elle, d'un panneau d'obligation (B.6).",
       "review_status": "approved",
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
@@ -1037,7 +1037,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-71",
-        "ref": "RGP — priorité de l'avalant",
+        "ref": "RGP, art. A.4241-53-6 §2 — priorité de l'avalant",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1080,7 +1080,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-72",
-        "ref": "RGP — rencontre sur plan d'eau sans courant",
+        "ref": "RGP, art. A.4241-53-6 §1 — rencontre (chacun sur tribord)",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
@@ -1123,7 +1123,7 @@
       ],
       "provenance": {
         "unit_id": "fr-rgp-73",
-        "ref": "RGP — dépassement (trématage)",
+        "ref": "RGP, art. A.4241-53-11 §1 — dépassement par bâbord",
         "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
         "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
         "as_of": "",
