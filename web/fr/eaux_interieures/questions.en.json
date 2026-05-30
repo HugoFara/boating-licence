@@ -1742,6 +1742,2328 @@
       "correct": [
         0
       ]
+    },
+    {
+      "id": "q-fr-rgp-92-6b727339",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "At a bridge or weir opening bearing prohibition sign A.10, where is navigation permitted?",
+      "choices": [
+        {
+          "text": "Only in the space between the two panels making up the sign",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Anywhere in the opening, except in the centre of the channel",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Preferably between the two panels, but without prohibition elsewhere",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-92",
+        "ref": "RGP, art. A4241-53-26",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909328",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "When a bridge or weir opening bears the prohibition sign A.10, navigation is forbidden outside the space between the two panels making up that sign; it is therefore allowed only between those two panels.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-93-d38c6683",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "An opening of a fixed bridge is marked by one or more red lights. What must you conclude?",
+      "choices": [
+        {
+          "text": "The opening is forbidden to navigation.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The opening is recommended as the preferred passage in both directions.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The opening is reserved for upbound boats only.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-93",
+        "ref": "RGP, art. A4241-53-27",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909330",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "When certain openings of fixed bridges are indicated by one or more red lights (or the general prohibition signal A.1), those openings are forbidden to navigation.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-94-7badcac5",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "When a vessel holding a right of priority at locks approaches the lock lay-bys or is moored there, how must the other vessels behave?",
+      "choices": [
+        {
+          "text": "They must facilitate its passage as much as possible",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "They keep their turn according to order of arrival",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "They must immediately leave the lock lay-by",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-94",
+        "ref": "RGP, art. A4241-53-32",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909340",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "When vessels holding a right of priority at locks approach the lock lay-bys or are moored there, the other vessels must facilitate their passage as much as possible.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-95-22baf33b",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "During normal navigation periods, what is the maximum duration for which the manager may exceptionally authorise a vessel to moor in lock lay-bys?",
+      "choices": [
+        {
+          "text": "Ten days",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Three days",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Thirty days",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-95",
+        "ref": "RGP, art. A4241-54-9",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909518",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The manager may exceptionally authorise mooring in lock lay-bys during normal navigation periods, provided this does not exceed a maximum of ten days.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-96-a715abca",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "Regarding the footbridges and other appurtenances of locks and dams, which rule applies?",
+      "choices": [
+        {
+          "text": "Standing and moving about on them is forbidden, unless they are arranged to serve as a public passage.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "One may stand on them freely, including on movable bridges during operation.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Moving about on them is allowed provided one wears a personal flotation device.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-96",
+        "ref": "RGP, art. R4241-71",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232977",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "It is forbidden to stand and move about on the footbridges and other appurtenances of locks and dams, unless they are arranged to serve as a public passage; it is also forbidden to stand on movable bridges during operation.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-97-0f361a41",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "A discharge from your boat of a substance liable to create a danger to navigation has occurred. What must you do?",
+      "choices": [
+        {
+          "text": "Notify without delay the navigation police authority and the manager, indicating the nature and location of the discharge.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Report nothing as long as the discharge does not fully obstruct the water section.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Warn only the other boats by a sound signal, without notifying any authority.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-97",
+        "ref": "RGP, art. R4241-23",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232849",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Throwing or letting fall into inland waters an object or substance liable to create an obstruction or danger is forbidden; if such a discharge occurs from a boat, the conductor must notify without delay the navigation police authority and the waterway manager, indicating as exactly as possible the nature and location of the discharge.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-98-579197de",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "Which document concerning waste oils must be kept on board a motorized boat?",
+      "choices": [
+        {
+          "text": "A valid waste-oil control logbook, on board every motorized boat or floating craft (except small craft).",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A waste-oil control logbook, required only on board small craft.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An annual oil-change certificate issued by the waterway manager.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-98",
+        "ref": "RGP, art. R4241-65",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232961",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "A valid waste-oil control logbook must be kept on board every motorized boat or floating craft, except small craft.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-decret2007-99-bd691bcb",
+      "theme": "reglementation",
+      "kind": "rule_mc",
+      "stem": "How is a \"recreational craft\" (bateau de plaisance) defined?",
+      "choices": [
+        {
+          "text": "Any boat or ship, whatever its type or mode of propulsion, intended for leisure or sport purposes",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Only a motorised boat intended for leisure or sport purposes",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Any boat under 20 metres used to carry passengers on a commercial basis",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-decret_2007-99",
+        "ref": "Décret 2007-1167, art. 1",
+        "source": "Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur",
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000006266726",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Under the definitions given, a \"recreational craft\" means any boat or ship, whatever its type or mode of propulsion, intended to be used for leisure or sport purposes. The definition sets no condition as to motorisation or size.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-decret2007-100-0968258d",
+      "theme": "reglementation",
+      "kind": "rule_mc",
+      "stem": "From what age may a person not holding a driving title take part in introductory training to operate motorised watercraft?",
+      "choices": [
+        {
+          "text": "Over sixteen years of age",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Over eighteen years of age",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Over fourteen years of age",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-decret_2007-100",
+        "ref": "Décret 2007-1167, art. 10",
+        "source": "Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur",
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000006885162",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text reserves introductory training in operating motorised watercraft, as well as supervised touring led by a qualified instructor, to persons over sixteen years of age who do not hold a driving title, both in maritime and inland waters.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-decret2007-101-b108f641",
+      "theme": "reglementation",
+      "kind": "rule_mc",
+      "stem": "On the inland waterways and bodies of water listed by the minister, on what condition is the driver of a chartered houseboat exempt from the recreational-boat driving licence?",
+      "choices": [
+        {
+          "text": "When holding a houseboat driving certificate issued in accordance with the provisions set by the minister",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "When the houseboat's length is less than fifteen metres",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "When accompanied by a holder of the recreational licence with the inland-waters endorsement",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-decret_2007-101",
+        "ref": "Décret 2007-1167, art. 11",
+        "source": "Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur",
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000006885164",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text exempts the driver of a chartered houseboat from the licence when holding a houseboat driving certificate issued in accordance with provisions set by the minister responsible for transport, on the waterways and bodies of water whose list is set by that minister.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-102-05aeeaee",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Under what condition may an overtaking vessel begin to overtake?",
+      "choices": [
+        {
+          "text": "Only after making sure that the manoeuvre can be carried out without danger.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Only after receiving explicit permission from the vessel being overtaken.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "As soon as the vessel being overtaken has reduced its speed.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-102",
+        "ref": "RGP, art. A4241-53-10",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909233",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text provides that overtaking is permitted only if the overtaking vessel has made sure that the manoeuvre can be carried out without danger. The responsibility to verify safety thus lies with the overtaking vessel before starting the manoeuvre.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-103-ab66f03e",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "On a stretch where the course to follow is imposed by signs, what obligation applies to upstream-bound vessels with regard to downstream-bound vessels?",
+      "choices": [
+        {
+          "text": "They must in no case impede downstream-bound vessels and must if necessary slow down or stop.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "They have priority and downstream-bound vessels must keep clear to let them pass.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "They must sound a prolonged blast before crossing the channel.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-103",
+        "ref": "RGP, art. A4241-53-13",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909241",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text provides that, in such stretches, upstream-bound vessels must in no case impede the progress of downstream-bound vessels; in particular, where they have to cross the channel, they must if necessary reduce speed or stop to let downstream-bound vessels complete their manoeuvre.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-104-4a1635f6",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Except when overtaking or passing, what is the minimum distance a vessel may approach a pushed convoy carrying the dangerous-goods marking?",
+      "choices": [
+        {
+          "text": "No closer than 50 m.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "No closer than 10 m.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "No closer than 100 m.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-104",
+        "ref": "RGP, art. A4241-53-18",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909251",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text prohibits navigating, except when overtaking or passing, closer than 50 m to a vessel, side-by-side formation or pushed convoy carrying the marking prescribed for the carriage of dangerous goods.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-105-121e7ae5",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "What does the basic rule provide concerning anchors, cables or chains during navigation?",
+      "choices": [
+        {
+          "text": "In principle, it is prohibited to let them drag.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It is always permitted to let them drag in order to slow the vessel down.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "It is mandatory to let them drag when drifting.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-105",
+        "ref": "RGP, art. A4241-53-19",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909253",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text lays down the principle that it is prohibited to let anchors, cables or chains drag. This prohibition has exceptions (manoeuvres, small movements, authorised drifting, etc.), but the basic rule is indeed the prohibition on letting them drag.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-106-fc741ab6",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "What obligation applies to high-speed craft with respect to other vessels?",
+      "choices": [
+        {
+          "text": "They must leave other vessels the space needed to keep their course and to manoeuvre, and may not require those vessels to keep out of their way.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "They have right of way and other vessels must keep clear of their course.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "They may require other vessels to reduce speed as they approach.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-106",
+        "ref": "RGP, art. A4241-53-2",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909213",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text states that high-speed craft must leave other vessels the space needed to keep their course and to manoeuvre, and that they may not require those vessels to keep out of their way. They therefore have no right of way and must themselves leave the necessary space.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-107-9871dea7",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "How should a vessel that drifts downstream bow-pointed upstream with its engine running ahead be regarded?",
+      "choices": [
+        {
+          "text": "As a vessel proceeding upstream, not as drifting.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "As a drifting vessel, and therefore in breach of the rules.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "As a vessel proceeding downstream required to give way.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-107",
+        "ref": "RGP, art. A4241-53-20",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909255",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text in principle prohibits drifting, but specifies that vessels descending bow-pointed upstream with their engine running ahead are regarded as proceeding upstream, not as drifting.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-108-95f02556",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Under what condition may a ferry begin to cross the inland waterway?",
+      "choices": [
+        {
+          "text": "Only after making sure the crossing can be made without danger and without forcing other vessels to make a sudden change in course or speed.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "At any time, since ferries always have right of way over other vessels when crossing.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Only after sounding one prolonged blast to warn all approaching vessels.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-108",
+        "ref": "RGP, art. A4241-53-25",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909267",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text states that ferries may cross only after making sure that the movement of other vessels allows the crossing to be made without danger and without forcing those other vessels to make a sudden change in their course or speed.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-109-7912184c",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "What minimum distance must a vessel keep from the stern of a vessel showing the signals for mine-clearance operations?",
+      "choices": [
+        {
+          "text": "Not within 1,000 m of its stern.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Not within 100 m of its stern.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Not within 500 m of its stern.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-109",
+        "ref": "RGP, art. A4241-53-37",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909354",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text requires that vessels must not approach within 1,000 m of the stern of a vessel showing the signals for vessels engaged in mine-clearance. The minimum distance to be kept is therefore 1,000 m.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-110-fc5702dc",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "A boatmaster observes a risk of collision. What must he do?",
+      "choices": [
+        {
+          "text": "Sound a series of very short blasts.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Sound a single prolonged blast.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Increase speed to clear the channel as quickly as possible.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-110",
+        "ref": "RGP, art. A4241-53-4",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909219",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text states that any boatmaster who observes a risk of collision must sound a series of very short blasts. It also specifies that passing or overtaking is only allowed where the channel is unquestionably wide enough for simultaneous passage, and that vessels on courses excluding any risk of collision must not alter course or speed in a way that could create such a risk.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-111-b3619ec8",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Regarding the vessel's speed, what obligation falls on the boatmaster?",
+      "choices": [
+        {
+          "text": "Ensure a speed compatible with the characteristics of the waters and structures, neither below the minimum nor above the maximum limits set.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Always maintain the maximum authorised speed to keep traffic flowing.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Freely set his speed, as no minimum limit may ever be imposed on him.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-111",
+        "ref": "RGP, art. R4241-10",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232821",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text requires the boatmaster to ensure that his vessel's speed is compatible with the characteristics of the inland waters and of the engineering structures; it may be neither below nor above the minimum or maximum speeds laid down by the special navigation police regulations.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-112-ad253f6c",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "A crew member temporarily determines the vessel's course and speed. What is his position with regard to the steering rules?",
+      "choices": [
+        {
+          "text": "He is also responsible, to that extent, for compliance with the requirements imposed on the boatmaster.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "He bears no responsibility, the appointed boatmaster alone remaining liable.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "He becomes solely responsible, fully relieving the boatmaster.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-112",
+        "ref": "RGP, art. R4241-4",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232803",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text provides that crew members and other persons on board who temporarily determine the vessel's course and speed are also responsible, to that extent, for compliance with the steering requirements imposed on the boatmaster.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-113-455df2f5",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "While the vessel is under way, where must the boatmaster be?",
+      "choices": [
+        {
+          "text": "On board the vessel.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ashore, provided he keeps the vessel in sight.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "On board only when the vessel is actually moving.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-113",
+        "ref": "RGP, art. R4241-6",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232811",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text states that while under way the boatmaster must be on board. It adds that the operator of a motorised floating appliance must also be on board whenever the appliance is at work, even if it is not moving, these provisions not applying to floating equipment.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-division245-114-303d94ff",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "This order applies in particular to vessels whose hull length falls within which range?",
+      "choices": [
+        {
+          "text": "Greater than or equal to 2.50 metres and less than 20 metres",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Greater than or equal to 5 metres and less than 24 metres",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Less than 2.50 metres only",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-division_245-114",
+        "ref": "Division 245, art. 1",
+        "source": "Division 245 (arrêté du 10 février 2016) — matériel d'armement et de sécurité des bateaux de plaisance en eaux intérieures",
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000032045426",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text applies to vessels with a hull length greater than or equal to 2.50 metres and less than 20 metres (and whose length × beam × draught product is under 100 cubic metres).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-division245-115-ffb74065",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "To use a hydrofoil-propelled craft on inland waters (other than lakes and closed bodies of water), what condition must the user meet?",
+      "choices": [
+        {
+          "text": "Hold the recreational licence with the inland-waters endorsement, or be accompanied by a holder of that licence",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Navigate exclusively at night, with a marker light switched on",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Hold the recreational licence with the coastal endorsement, the inland-waters endorsement never being required",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-division_245-115",
+        "ref": "Division 245, art. 11",
+        "source": "Division 245 (arrêté du 10 février 2016) — matériel d'armement et de sécurité des bateaux de plaisance en eaux intérieures",
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000032045436",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text provides that on inland waters the user holds the recreational licence with the inland-waters endorsement, or else is accompanied by a holder of that licence. Night use is excluded because these craft operate only in daytime, and the inland-waters endorsement is waived only on lakes and closed bodies of water.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-116-a04cd5ec",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "What obligation applies to any person on board a vessel?",
+      "choices": [
+        {
+          "text": "Comply with the orders given by the boatmaster in the interest of the safety of navigation and order on board.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obey the boatmaster only if she is part of the vessel's paid crew.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Follow only the orders relating to boarding and disembarking.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-116",
+        "ref": "RGP, art. R4241-16",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232835",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Any person on board must comply with the orders given to them by the boatmaster in the interest of the safety of navigation and order on board.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-117-e91edabc",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "When a disaster (fire or incident) breaks out on board, what must the boatmaster do?",
+      "choices": [
+        {
+          "text": "Take all necessary measures to control the incident and immediately notify the waterway manager or owner as well as the territorially competent CODIS.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Wait for the rescue services to arrive before undertaking any action to fight the incident.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Warn only the other vessels navigating nearby, without alerting any authority.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-117",
+        "ref": "RGP, art. R4241-18",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232839",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "If a disaster breaks out on board, the boatmaster takes all foreseen and necessary measures to bring it under control and immediately notifies the competent manager or owner of the inland waterway as well as the territorially competent departmental operational fire and rescue centre (CODIS).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-118-9d0ffebb",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Regarding raised anchors and objects protruding from the sides of a vessel, which rule applies?",
+      "choices": [
+        {
+          "text": "No object liable to compromise safety may protrude from the sides, and raised anchors must not extend below the bottom or keel of the vessel.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Objects may protrude from the sides provided they are marked by a flag during the day.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Raised anchors must stay above the waterline but may extend below the keel of the vessel.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-118",
+        "ref": "RGP, art. R4241-19",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232841",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "It is prohibited to let objects protrude from the sides of the vessel that could compromise the safety of other users, structures or installations; moreover, raised anchors must not extend below the bottom or keel of the vessel or below the lower plane of floating equipment.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-119-8c3afbe0",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "When a vessel runs aground or sinks, what is the obligation of its boatmaster?",
+      "choices": [
+        {
+          "text": "Immediately notify the navigation policing authority and the waterway manager, and endeavour to clear the waterway in case of obstruction.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Notify the authorities only if the vessel is carrying dangerous goods.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Leave the vessel in place and wait for the manager's mandatory intervention without acting.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-119",
+        "ref": "RGP, art. R4241-24",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232851",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "When a vessel is aground or sunk, its boatmaster immediately notifies the navigation policing authority and the waterway manager; if the vessel creates or may create a total or partial obstruction, the boatmaster must endeavour to have the waterway cleared as quickly as possible.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-120-9c897c89",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "What obligation rests on a boatmaster during periods of ice or flooding?",
+      "choices": [
+        {
+          "text": "Strengthen his vessel's mooring lines, the ice being broken around the waterline by him or under his responsibility.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Completely detach the vessel from the bank to let it drift freely with the ice.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mandatorily entrust the ice-breaking to the waterway manager, never to the boatmaster.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-120",
+        "ref": "RGP, art. R4241-25",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232853",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "During periods of ice or flooding, the boatmaster strengthens his vessel's mooring lines; the ice is broken around the waterline by the boatmaster or under his responsibility.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-121-cabcb6ac",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "By day, what signal must a ferry not navigating freely display?",
+      "choices": [
+        {
+          "text": "A green balloon placed at a height of at least 5 m",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A green cone, point downwards, placed at least 3 m high",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A bright green light visible from all sides",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-121",
+        "ref": "RGP, art. A4241-48-16",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908960",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text provides that, by day, ferries not navigating freely carry a green balloon placed at a height of at least 5 m. The other answers confuse this daytime signal with night lights or a non-existent mark.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-122-99cf67d0",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Unless otherwise prescribed, what characteristic must the prescribed signalling lights display?",
+      "choices": [
+        {
+          "text": "A continuous and uniform light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A regularly flashing light",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A light whose colour changes depending on direction",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-122",
+        "ref": "RGP, art. A4241-48-2",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039023130",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text states that, unless otherwise prescribed, the prescribed lights must show a continuous and uniform light. Options proposing a flashing or colour-changing light do not match this requirement.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-123-00917e02",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Unless otherwise prescribed, what shape must the panels and flags required by the on-board signalling rules have?",
+      "choices": [
+        {
+          "text": "Rectangular",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Triangular",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Circular",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-123",
+        "ref": "RGP, art. A4241-48-3",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908932",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Unless otherwise prescribed, the required panels and flags must be rectangular; their colours must be neither faded nor soiled, and their dimensions sufficient to ensure good visibility.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-124-890f5e9e",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Among the following visual means, which is NOT provided for a vessel in distress to call for help?",
+      "choices": [
+        {
+          "text": "A yellow flag hoisted at the masthead",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Rockets or shells throwing red stars fired one at a time at short intervals",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A light signal made up of the group ...---... (SOS) in Morse code",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-124",
+        "ref": "RGP, art. A4241-48-30",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908992",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "negative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text lists, among others, a flag waved in a circular motion, rockets throwing red stars, and a light signal made up of the SOS group in Morse code. It does not mention a yellow flag hoisted at the masthead, which is therefore not among the authorised distress signals.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-125-d4b7bdcc",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "For a signalling cylinder to be considered sufficiently visible, what minimum dimensions must it have?",
+      "choices": [
+        {
+          "text": "A height of at least 0.80 m and a diameter of at least 0.50 m",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A height of at least 0.60 m and a diameter of at least 0.60 m",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A height of at least 1.00 m and a diameter of at least 0.80 m",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-125",
+        "ref": "RGP, art. A4241-48-4",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908934",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text specifies that the good-visibility condition is met when cylinders have a height of at least 0.80 m and a diameter of at least 0.50 m. The other figures proposed relate to different shapes or do not appear in the article.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-126-d04ea8f2",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Under what condition is the use of lights or signals other than those provided for by the signalling rules permitted?",
+      "choices": [
+        {
+          "text": "For communication between vessels or between vessels and the shore, provided they cannot be confused with the lights or signals mentioned",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Only at night and after authorisation from the authority responsible for navigation policing",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "For any use, as long as the vessel is moored",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-126",
+        "ref": "RGP, art. A4241-48-5",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908936",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The text generally forbids using lights or signals other than those mentioned, but permits, for communication between vessels or between a vessel and the shore, the use of other lights or signals provided they cannot be confused with those mentioned. The other answers add conditions not found in the text.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-127-60ced3bb",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "When a prescribed signalling light fails to work, what must the operator do?",
+      "choices": [
+        {
+          "text": "Replace it without delay with an emergency light",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Stop navigating until the light is permanently repaired",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Wait until the next port to report the failure, with no other measure",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-127",
+        "ref": "RGP, art. A4241-48-6",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908938",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "When a prescribed signalling light is not working, it must be replaced without delay by an emergency light; restoration of a light of the prescribed intensity must take place as quickly as possible.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-128-f35e1e74",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "What does the regulation say about the use of lights, searchlights, panels, flags or pennants on board?",
+      "choices": [
+        {
+          "text": "It is forbidden to use lights or objects liable to be confused with the regulatory lights and signals",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Any advertising lighting is allowed provided it is switched off at night",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Dazzling searchlights are permitted if they are aimed towards the bank",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-128",
+        "ref": "RGP, art. A4241-48-7",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908940",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "It is forbidden to use lights, searchlights, panels, flags or other objects liable to be confused with the regulatory lights or signals, to impair their visibility or to complicate their identification, as well as lights or searchlights producing dazzle that could endanger or hinder navigation.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-129-dced25b3",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "You are operating a vessel that is not a small craft. What does the regulation require regarding the prescribed sound signals?",
+      "choices": [
+        {
+          "text": "It must, when needed, use the prescribed sound signals.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "It may give these signals only when navigating at night.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "It is exempt from giving any prescribed sound signal.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-129",
+        "ref": "RGP, art. A4241-49-2",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909182",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Every vessel, except small craft, must when needed use the sound signals set out in chapter III of annex 4. For such vessels the giving of these signals is an obligation, not a mere option.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-130-4afba183",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Under what condition is the use of sound signals other than the prescribed ones permitted between vessels or between a vessel and the shore?",
+      "choices": [
+        {
+          "text": "Provided they cannot be confused with the prescribed signals.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Provided they are given only when approaching a lock.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Provided they are louder than the prescribed signals.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-130",
+        "ref": "RGP, art. A4241-49-3",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909184",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Using sound signals other than the prescribed ones is forbidden, except, for communication between vessels or between a vessel and the shore, provided they cannot be confused with the prescribed signals.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-131-1634d529",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "To call for help, what sound signal may a vessel in distress give?",
+      "choices": [
+        {
+          "text": "Bell peals or repeated prolonged blasts",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A single short blast followed by a one-minute silence",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Three short blasts given only once",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-131",
+        "ref": "RGP, art. A4241-49-4",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909186",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "A vessel in distress wishing to call for help may sound bell peals or repeated prolonged blasts; these signals replace or supplement the visual distress signals.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-132-3559d3da",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Where are the prohibition, mandatory, restriction, recommendation and information signs of the inland waterway, together with their meaning, defined?",
+      "choices": [
+        {
+          "text": "In annex 5.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "In annex 7.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "In annex 8.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-132",
+        "ref": "RGP, art. A4241-51-1",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909199",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "It is annex 5 that defines the prohibition, mandatory, restriction, recommendation and information signs, as well as the auxiliary signs of the inland waterway and their meaning; boatmasters must comply with them.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-133-66108b3f",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Where are the buoyage rules applicable on the inland waterway, upstream of the first obstacle to seagoing-vessel navigation, defined?",
+      "choices": [
+        {
+          "text": "In annex 8.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "In annex 5.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "In annex 4.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-133",
+        "ref": "RGP, art. A4241-51-2",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909202",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "It is annex 8 that defines the buoyage rules applying upstream of the first obstacle to seagoing-vessel navigation and that specifies under what conditions the various buoyage marks are used.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-134-1f313b87",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Regarding equipment, what obligation applies to vessels, except for small craft?",
+      "choices": [
+        {
+          "text": "Be equipped with a radiotelephone installation",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Carry a navigation radar device as a requirement",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Have an automatic identification system (AIS) in all circumstances",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-134",
+        "ref": "RGP, art. R4241-49",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038225665",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "All vessels must carry a device enabling them to give sound signals; in addition, vessels, except for small craft, must be equipped with a radiotelephone installation.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-135-f5c164ad",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "In what case is the use of a navigation radar device mandatory for a vessel?",
+      "choices": [
+        {
+          "text": "For certain vessels or certain navigation situations determined by ministerial order",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "For all vessels without exception as soon as they navigate at night",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Only for motorised small craft",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-135",
+        "ref": "RGP, art. R4241-50",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232919",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The use of a navigation radar device is required, for safety reasons, for certain vessels or in certain navigation situations determined by order of the minister responsible for transport.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-136-7a1bdac9",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "At a berthing area marked by sign B.12, what obligation applies to all vessels?",
+      "choices": [
+        {
+          "text": "Connect to an operational shore-side electrical connection point to fully cover their electricity needs during the stay",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Switch off all electrical equipment and remain completely powered down during the stay",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Run their onboard generator to feed power into the shore network",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-136",
+        "ref": "RGP, art. A4241-54-10",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039010767",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "At such areas, all vessels must connect to an operational shore-side electrical connection point so as to fully cover their electrical energy needs during the stay.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-137-70fdcb75",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "In a section where anchoring is generally prohibited by a special policing regulation, under what conditions may a vessel nonetheless anchor?",
+      "choices": [
+        {
+          "text": "Only in the areas indicated by sign E.6, and on the side of the waterway where that sign is placed",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Anywhere in the section, provided the vessel is marked at night",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Only with the prior written authorisation of the manager",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-137",
+        "ref": "RGP, art. A4241-54-3",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909506",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "In sections where anchoring is generally prohibited by a special policing regulation, vessels may anchor only in the areas indicated by the authorisation sign E.6, and only on the side of the waterway where that sign is placed.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-138-0f5c1e8c",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "For mooring or warping, which of the following is a vessel NOT permitted to use?",
+      "choices": [
+        {
+          "text": "A handrail or a metal ladder",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A mooring bollard provided for that purpose",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "A mooring ring fitted on the quay",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-138",
+        "ref": "RGP, art. A4241-54-4",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909508",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "negative",
+      "image": null,
+      "points": 1,
+      "explanation": "It is forbidden to use, for mooring or warping, trees, guardrails, posts, bollards (markers), columns, metal ladders, handrails, and any equipment not intended for mooring; a mooring bollard, by contrast, is equipment provided for that purpose.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-139-a7f2aaf1",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "At a berthing/parking area, absent any other instructions, how must vessels arrange themselves?",
+      "choices": [
+        {
+          "text": "Side by side starting from the bank, on the side of the waterway where the sign is placed",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "In a single row aligned along the middle of the channel",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Rafted together starting from the bank opposite the sign",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-139",
+        "ref": "RGP, art. A4241-54-5",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909510",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Failing other instructions, vessels must berth side by side starting from the bank, on the side of the waterway where the sign is placed.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-140-2437cb96",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "At a berthing area where a special-berth indication sign (type E.5.4 to E.5.15) is set up, who may berth there?",
+      "choices": [
+        {
+          "text": "Only the categories of vessel to which the sign applies, and only on the side of the waterway where the sign is placed.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "All vessels, on both sides of the waterway, with no category restriction.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The categories of vessel covered by the sign, but on either side of the waterway indifferently.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-140",
+        "ref": "RGP, art. A4241-54-6",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909512",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The rules state that only the categories of vessel to which the sign applies may berth, and only on the side of the waterway where the sign is placed.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-141-f7611d7d",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "For a berthed vessel with no boatmaster aboard, who is responsible for setting up the required watch or supervision?",
+      "choices": [
+        {
+          "text": "The owner, operator or other person running the vessel",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The authority in charge of navigation policing",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The manager of the harbour or berthing area",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-141",
+        "ref": "RGP, art. A4241-54-8",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909516",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Where the vessel has no boatmaster, responsibility for putting this watch or supervision in place falls on the owner, operator or other person running the vessel.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-142-140fb597",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "What requirement must a vessel's loading meet with regard to visibility for steering?",
+      "choices": [
+        {
+          "text": "The load must not extend the zone of direct or indirect non-visibility for steering the vessel.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "The load may reduce visibility as long as a lookout is posted at the bow of the vessel.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "The load must never exceed the height of the wheelhouse, regardless of visibility.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-142",
+        "ref": "RGP, art. R4241-27",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232861",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The load on board must not extend the zone of direct or indirect non-visibility required to steer the vessel, under conditions set by ministerial order.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-143-01be1c37",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "How must the master of a vessel respond to the specific orders given by the officials and agents in charge of navigation policing for the safety or good order of navigation?",
+      "choices": [
+        {
+          "text": "He complies with the specific orders given for the safety or good order of navigation.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "He may refuse to comply if he considers his own course to have priority.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "He is required to comply only on maritime waterways, never on inland waterways.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-143",
+        "ref": "RGP, art. R4241-39",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232891",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The master complies with the specific orders given by these officials and agents for the safety or good order of navigation.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-144-0ce8afab",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "What obligation does the master of a vessel have towards the officials and agents in charge of navigation policing who record offences?",
+      "choices": [
+        {
+          "text": "Give them the facilities needed to carry out their task of recording offences.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Leave the scene immediately so as not to hinder their intervention.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Provide assistance only if the agents first present him with a judicial warrant.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-144",
+        "ref": "RGP, art. R4241-40",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232893",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "The master must give these officials and agents the facilities needed to enable them to carry out their task of recording offences.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-145-0342c54d",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "What must the master of a vessel do regarding the documents that must be kept on board?",
+      "choices": [
+        {
+          "text": "Produce them upon any request by the agents in charge of navigation policing.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Send them by post only, within eight days of the request.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Produce them only to agents holding a written requisition from a judge.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-145",
+        "ref": "RGP, art. R4241-41",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232895",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Every master is required to produce the documents that must be on board upon any request by the agents in charge of navigation policing.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
     }
   ]
 }

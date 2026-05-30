@@ -281,6 +281,307 @@
       "correct": [
         0
       ]
+    },
+    {
+      "id": "q-fr-rgp-97-8f7252f5",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "Un déversement, à partir de votre bateau, d'une substance de nature à créer un danger pour la navigation s'est produit. Que devez-vous faire ?",
+      "choices": [
+        {
+          "text": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire, en indiquant la nature et l'endroit du déversement.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ne rien signaler tant que le déversement n'entrave pas totalement la section d'eau.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Prévenir uniquement les autres bateaux par un signal sonore, sans aviser d'autorité.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-97",
+        "ref": "RGP, art. R4241-23",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232849",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Jeter ou laisser tomber dans les eaux intérieures un objet ou une substance de nature à créer une entrave ou un danger est interdit ; en cas de tel déversement à partir d'un bateau, le conducteur avise sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau en indiquant aussi exactement que possible la nature et l'endroit du déversement.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-98-d1c7ada3",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "Quel document relatif aux huiles usées doit être conservé à bord d'un bateau motorisé ?",
+      "choices": [
+        {
+          "text": "Un carnet de contrôle des huiles usées valable, à bord de tout bateau ou engin flottant motorisé (sauf menues embarcations).",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un carnet de contrôle des huiles usées, obligatoire uniquement à bord des menues embarcations.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Une attestation annuelle de vidange délivrée par le gestionnaire de la voie d'eau.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-98",
+        "ref": "RGP, art. R4241-65",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232961",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Un carnet de contrôle des huiles usées valable est conservé à bord de tout bateau ou engin flottant motorisé, à l'exception des menues embarcations.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-116-d68fd56f",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Quelle obligation s'impose à toute personne se trouvant à bord d'un bateau ?",
+      "choices": [
+        {
+          "text": "Se conformer aux ordres donnés par le conducteur dans l'intérêt de la sécurité de la navigation et de l'ordre à bord.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "N'obéir au conducteur que si elle fait partie de l'équipage rémunéré du bateau.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Suivre uniquement les ordres relatifs à l'embarquement et au débarquement.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-116",
+        "ref": "RGP, art. R4241-16",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232835",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Toute personne se trouvant à bord est tenue de se conformer aux ordres qui lui sont donnés par le conducteur dans l'intérêt de la sécurité de la navigation et de l'ordre à bord.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-117-03aa7e4b",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Lorsqu'un sinistre se déclare à bord, que doit faire le conducteur ?",
+      "choices": [
+        {
+          "text": "Prendre toutes les mesures nécessaires pour maîtriser le sinistre et prévenir sans délai le gestionnaire ou le propriétaire de la voie d'eau ainsi que le CODIS territorialement compétent.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Attendre l'arrivée des secours avant d'entreprendre toute action de lutte contre le sinistre.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Prévenir uniquement les autres bateaux naviguant à proximité, sans avertir d'autorité.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-117",
+        "ref": "RGP, art. R4241-18",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232839",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Si un sinistre se déclare à bord, le conducteur prend toutes les mesures prévues et nécessaires pour le maîtriser et prévient sans délai le gestionnaire ou le propriétaire de la voie d'eau intérieure compétent ainsi que le centre opérationnel départemental d'incendie et de secours (CODIS) territorialement compétent.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-118-8d7e90ed",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Concernant les ancres relevées et les objets dépassant des côtés d'un bateau, quelle règle s'applique ?",
+      "choices": [
+        {
+          "text": "Aucun objet susceptible de compromettre la sécurité ne doit déborder sur les côtés, et les ancres relevées ne doivent pas dépasser le fond ou la quille du bateau.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les objets peuvent déborder sur les côtés à condition d'être signalés par un pavillon de jour.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les ancres relevées doivent rester au-dessus de la ligne de flottaison, mais peuvent dépasser la quille du bateau.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-118",
+        "ref": "RGP, art. R4241-19",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232841",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Il est interdit de laisser déborder sur les côtés du bateau des objets de nature à compromettre la sécurité des autres usagers, des ouvrages ou installations ; en outre, les ancres relevées ne doivent pas dépasser le fond ou la quille du bateau ou le plan inférieur du matériel flottant.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-119-b1f2d586",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Lorsqu'un bateau est échoué ou coulé, quelle est l'obligation de son conducteur ?",
+      "choices": [
+        {
+          "text": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau, et s'employer à dégager la voie en cas d'obstruction.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "N'avertir les autorités que si le bateau transporte des marchandises dangereuses.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Laisser le bateau en place et attendre l'intervention obligatoire du gestionnaire sans intervenir.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-119",
+        "ref": "RGP, art. R4241-24",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232851",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Lorsqu'un bateau est échoué ou coulé, son conducteur avise sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau ; si le bateau crée ou risque de créer une obstruction totale ou partielle, le conducteur doit s'employer à ce que la voie d'eau soit dégagée dans les plus courts délais.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-120-470ebb80",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Quelle obligation pèse sur le conducteur d'un bateau en périodes de glaces ou de crues ?",
+      "choices": [
+        {
+          "text": "Renforcer les amarres de son bateau, la glace étant brisée autour de la flottaison par lui ou sous sa responsabilité.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Détacher entièrement le bateau de la rive pour le laisser dériver librement avec les glaces.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Confier obligatoirement le brisage de la glace au gestionnaire de la voie d'eau, jamais au conducteur.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-120",
+        "ref": "RGP, art. R4241-25",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232853",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "En périodes de glaces ou de crues, le conducteur renforce les amarres de son bateau ; la glace est brisée autour de la flottaison par le conducteur ou sous sa responsabilité.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
     }
   ]
 }

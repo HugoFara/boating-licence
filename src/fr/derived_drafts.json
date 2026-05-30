@@ -771,7 +771,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-53-26",
@@ -810,7 +810,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-53-27",
@@ -849,7 +849,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-53-32",
@@ -888,7 +888,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-54-9",
@@ -927,7 +927,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "rejected",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-21",
@@ -966,7 +966,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-71",
@@ -1005,7 +1005,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-23",
@@ -1044,7 +1044,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-65",
@@ -1083,7 +1083,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "1",
@@ -1122,7 +1122,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "10",
@@ -1161,7 +1161,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "11",
@@ -1200,7 +1200,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-53-10",
@@ -1239,7 +1239,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-53-13",
@@ -1278,7 +1278,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-53-18",
@@ -1317,7 +1317,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-53-19",
@@ -1356,7 +1356,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-53-2",
@@ -1395,7 +1395,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-53-20",
@@ -1434,7 +1434,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-53-25",
@@ -1473,7 +1473,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-53-37",
@@ -1512,7 +1512,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-53-4",
@@ -1551,7 +1551,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-10",
@@ -1590,7 +1590,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-4",
@@ -1629,7 +1629,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-6",
@@ -1668,7 +1668,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "1",
@@ -1707,7 +1707,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "11",
@@ -1746,7 +1746,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "rejected",
     "generator": "derive:legi.v1",
     "article": {
       "num": "5",
@@ -1785,7 +1785,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "rejected",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-15",
@@ -1824,7 +1824,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-16",
@@ -1863,7 +1863,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-18",
@@ -1902,7 +1902,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-19",
@@ -1941,7 +1941,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "rejected",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-22",
@@ -1980,7 +1980,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-24",
@@ -2019,7 +2019,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-25",
@@ -2058,7 +2058,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-48-16",
@@ -2097,7 +2097,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-48-2",
@@ -2136,7 +2136,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-48-3",
@@ -2175,7 +2175,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-48-30",
@@ -2214,7 +2214,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-48-4",
@@ -2253,7 +2253,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-48-5",
@@ -2292,7 +2292,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-48-6",
@@ -2331,7 +2331,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-48-7",
@@ -2370,7 +2370,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-49-2",
@@ -2409,7 +2409,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-49-3",
@@ -2448,7 +2448,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-49-4",
@@ -2487,7 +2487,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-51-1",
@@ -2526,7 +2526,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-51-2",
@@ -2565,7 +2565,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "rejected",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-48",
@@ -2604,7 +2604,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-49",
@@ -2643,7 +2643,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-50",
@@ -2682,7 +2682,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-54-10",
@@ -2721,7 +2721,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-54-3",
@@ -2760,7 +2760,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-54-4",
@@ -2799,7 +2799,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-54-5",
@@ -2838,7 +2838,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-54-6",
@@ -2877,7 +2877,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "A4241-54-8",
@@ -2916,7 +2916,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-27",
@@ -2955,7 +2955,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-39",
@@ -2994,7 +2994,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-40",
@@ -3033,7 +3033,7 @@
         "correct": false
       }
     ],
-    "status": "pending",
+    "status": "approved",
     "generator": "derive:legi.v1",
     "article": {
       "num": "R4241-41",

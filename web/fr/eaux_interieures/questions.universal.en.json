@@ -281,6 +281,307 @@
       "correct": [
         0
       ]
+    },
+    {
+      "id": "q-fr-rgp-97-0f361a41",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "A discharge from your boat of a substance liable to create a danger to navigation has occurred. What must you do?",
+      "choices": [
+        {
+          "text": "Notify without delay the navigation police authority and the manager, indicating the nature and location of the discharge.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Report nothing as long as the discharge does not fully obstruct the water section.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Warn only the other boats by a sound signal, without notifying any authority.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-97",
+        "ref": "RGP, art. R4241-23",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232849",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Throwing or letting fall into inland waters an object or substance liable to create an obstruction or danger is forbidden; if such a discharge occurs from a boat, the conductor must notify without delay the navigation police authority and the waterway manager, indicating as exactly as possible the nature and location of the discharge.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-98-579197de",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "Which document concerning waste oils must be kept on board a motorized boat?",
+      "choices": [
+        {
+          "text": "A valid waste-oil control logbook, on board every motorized boat or floating craft (except small craft).",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "A waste-oil control logbook, required only on board small craft.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "An annual oil-change certificate issued by the waterway manager.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-98",
+        "ref": "RGP, art. R4241-65",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232961",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "A valid waste-oil control logbook must be kept on board every motorized boat or floating craft, except small craft.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-116-a04cd5ec",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "What obligation applies to any person on board a vessel?",
+      "choices": [
+        {
+          "text": "Comply with the orders given by the boatmaster in the interest of the safety of navigation and order on board.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Obey the boatmaster only if she is part of the vessel's paid crew.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Follow only the orders relating to boarding and disembarking.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-116",
+        "ref": "RGP, art. R4241-16",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232835",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Any person on board must comply with the orders given to them by the boatmaster in the interest of the safety of navigation and order on board.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-117-e91edabc",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "When a disaster (fire or incident) breaks out on board, what must the boatmaster do?",
+      "choices": [
+        {
+          "text": "Take all necessary measures to control the incident and immediately notify the waterway manager or owner as well as the territorially competent CODIS.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Wait for the rescue services to arrive before undertaking any action to fight the incident.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Warn only the other vessels navigating nearby, without alerting any authority.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-117",
+        "ref": "RGP, art. R4241-18",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232839",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "If a disaster breaks out on board, the boatmaster takes all foreseen and necessary measures to bring it under control and immediately notifies the competent manager or owner of the inland waterway as well as the territorially competent departmental operational fire and rescue centre (CODIS).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-118-9d0ffebb",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Regarding raised anchors and objects protruding from the sides of a vessel, which rule applies?",
+      "choices": [
+        {
+          "text": "No object liable to compromise safety may protrude from the sides, and raised anchors must not extend below the bottom or keel of the vessel.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Objects may protrude from the sides provided they are marked by a flag during the day.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Raised anchors must stay above the waterline but may extend below the keel of the vessel.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-118",
+        "ref": "RGP, art. R4241-19",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232841",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "It is prohibited to let objects protrude from the sides of the vessel that could compromise the safety of other users, structures or installations; moreover, raised anchors must not extend below the bottom or keel of the vessel or below the lower plane of floating equipment.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-119-8c3afbe0",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "When a vessel runs aground or sinks, what is the obligation of its boatmaster?",
+      "choices": [
+        {
+          "text": "Immediately notify the navigation policing authority and the waterway manager, and endeavour to clear the waterway in case of obstruction.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Notify the authorities only if the vessel is carrying dangerous goods.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Leave the vessel in place and wait for the manager's mandatory intervention without acting.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-119",
+        "ref": "RGP, art. R4241-24",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232851",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "When a vessel is aground or sunk, its boatmaster immediately notifies the navigation policing authority and the waterway manager; if the vessel creates or may create a total or partial obstruction, the boatmaster must endeavour to have the waterway cleared as quickly as possible.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-120-9c897c89",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "What obligation rests on a boatmaster during periods of ice or flooding?",
+      "choices": [
+        {
+          "text": "Strengthen his vessel's mooring lines, the ice being broken around the waterline by him or under his responsibility.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Completely detach the vessel from the bank to let it drift freely with the ice.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Mandatorily entrust the ice-breaking to the waterway manager, never to the boatmaster.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-120",
+        "ref": "RGP, art. R4241-25",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232853",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "en",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "During periods of ice or flooding, the boatmaster strengthens his vessel's mooring lines; the ice is broken around the waterline by the boatmaster or under his responsibility.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
     }
   ]
 }

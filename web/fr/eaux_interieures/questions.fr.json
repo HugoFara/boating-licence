@@ -1742,6 +1742,2328 @@
       "correct": [
         0
       ]
+    },
+    {
+      "id": "q-fr-rgp-92-251019f2",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "Dans une ouverture de pont ou de barrage portant le signal d'interdiction A.10, où la navigation est-elle autorisée ?",
+      "choices": [
+        {
+          "text": "Uniquement dans l'espace compris entre les deux panneaux constituant le signal",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Partout dans l'ouverture, sauf au centre du chenal",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "De préférence entre les deux panneaux, mais sans interdiction ailleurs",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-92",
+        "ref": "RGP, art. A4241-53-26",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909328",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Lorsqu'une ouverture de pont ou de barrage porte le signal d'interdiction A.10, la navigation est interdite en dehors de l'espace compris entre les deux panneaux constituant ce signal ; elle n'est donc admise qu'entre ces deux panneaux.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-93-06b12b10",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "Une ouverture de pont fixe est marquée par un ou plusieurs feux rouges. Que devez-vous en conclure ?",
+      "choices": [
+        {
+          "text": "L'ouverture est interdite à la navigation.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "L'ouverture est recommandée de préférence dans les deux sens.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "L'ouverture est réservée aux bateaux montants uniquement.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-93",
+        "ref": "RGP, art. A4241-53-27",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909330",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Lorsque certaines ouvertures de ponts fixes sont indiquées par un ou plusieurs feux rouges (ou le signal général d'interdiction A.1), ces ouvertures sont interdites à la navigation.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-94-9128e600",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "Lorsqu'un bateau bénéficiant d'un droit de priorité de passage aux écluses approche des garages d'écluses ou y stationne, comment doivent se comporter les autres bateaux ?",
+      "choices": [
+        {
+          "text": "Ils doivent lui faciliter au maximum le passage",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ils conservent leur tour de passage dans l'ordre d'arrivée",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ils doivent quitter immédiatement le garage de l'écluse",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-94",
+        "ref": "RGP, art. A4241-53-32",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909340",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Lorsque les bateaux disposant d'un droit de priorité de passage aux écluses s'approchent des garages des écluses ou y sont en stationnement, les autres bateaux doivent leur faciliter au maximum le passage.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-95-f072b468",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "Pendant les périodes normales de navigation, quelle est la durée maximale pendant laquelle le gestionnaire peut exceptionnellement autoriser un bateau à stationner dans les garages d'écluses ?",
+      "choices": [
+        {
+          "text": "Dix jours",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Trois jours",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Trente jours",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-95",
+        "ref": "RGP, art. A4241-54-9",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909518",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le gestionnaire peut exceptionnellement autoriser le stationnement dans les garages d'écluses pendant les périodes normales de navigation sans que cette durée n'excède dix jours.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-96-43b23e1a",
+      "theme": "ecluses",
+      "kind": "rule_mc",
+      "stem": "Concernant les passerelles et autres dépendances des écluses et barrages, quelle règle s'applique ?",
+      "choices": [
+        {
+          "text": "Il est interdit d'y stationner et d'y circuler, sauf si elles sont aménagées pour servir de passage public.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "On peut s'y tenir librement, y compris sur les ponts mobiles pendant la manœuvre.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La circulation y est autorisée à condition de porter un équipement individuel de flottabilité.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-96",
+        "ref": "RGP, art. R4241-71",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232977",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Il est interdit de stationner et de circuler sur les passerelles et autres dépendances des écluses et barrages, à moins qu'elles ne soient aménagées pour servir de passage public ; il est également interdit de se tenir sur les ponts mobiles pendant la manœuvre.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-97-8f7252f5",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "Un déversement, à partir de votre bateau, d'une substance de nature à créer un danger pour la navigation s'est produit. Que devez-vous faire ?",
+      "choices": [
+        {
+          "text": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire, en indiquant la nature et l'endroit du déversement.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ne rien signaler tant que le déversement n'entrave pas totalement la section d'eau.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Prévenir uniquement les autres bateaux par un signal sonore, sans aviser d'autorité.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-97",
+        "ref": "RGP, art. R4241-23",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232849",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Jeter ou laisser tomber dans les eaux intérieures un objet ou une substance de nature à créer une entrave ou un danger est interdit ; en cas de tel déversement à partir d'un bateau, le conducteur avise sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau en indiquant aussi exactement que possible la nature et l'endroit du déversement.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-98-d1c7ada3",
+      "theme": "environnement",
+      "kind": "rule_mc",
+      "stem": "Quel document relatif aux huiles usées doit être conservé à bord d'un bateau motorisé ?",
+      "choices": [
+        {
+          "text": "Un carnet de contrôle des huiles usées valable, à bord de tout bateau ou engin flottant motorisé (sauf menues embarcations).",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un carnet de contrôle des huiles usées, obligatoire uniquement à bord des menues embarcations.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Une attestation annuelle de vidange délivrée par le gestionnaire de la voie d'eau.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-98",
+        "ref": "RGP, art. R4241-65",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232961",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Un carnet de contrôle des huiles usées valable est conservé à bord de tout bateau ou engin flottant motorisé, à l'exception des menues embarcations.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-decret2007-99-a67ab2c7",
+      "theme": "reglementation",
+      "kind": "rule_mc",
+      "stem": "Comment se définit un « bateau de plaisance » ?",
+      "choices": [
+        {
+          "text": "Tout bateau ou navire, quel qu'en soit le type ou le mode de propulsion, destiné à des fins de loisir ou de sport",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Uniquement un bateau motorisé destiné à des fins de loisir ou de sport",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Tout bateau de moins de 20 mètres affecté au transport de passagers à titre commercial",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-decret_2007-99",
+        "ref": "Décret 2007-1167, art. 1",
+        "source": "Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur",
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000006266726",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Selon les définitions données, le « bateau de plaisance » s'entend de tout bateau ou navire, quel qu'en soit le type ou le mode de propulsion, qui est destiné à être utilisé à des fins de loisir ou de sport. La définition ne pose aucune condition de motorisation ni de taille.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-decret2007-100-1d3ac028",
+      "theme": "reglementation",
+      "kind": "rule_mc",
+      "stem": "À partir de quel âge une personne non titulaire d'un titre de conduite peut-elle pratiquer l'initiation à la conduite des véhicules nautiques à moteur ?",
+      "choices": [
+        {
+          "text": "Plus de seize ans",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Plus de dix-huit ans",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Plus de quatorze ans",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-decret_2007-100",
+        "ref": "Décret 2007-1167, art. 10",
+        "source": "Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur",
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000006885162",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte réserve la pratique de l'initiation à la conduite des véhicules nautiques à moteur, ainsi que la randonnée encadrée par un moniteur diplômé, aux personnes âgées de plus de seize ans et non titulaires d'un titre de conduite, en eaux maritimes comme en eaux intérieures.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-decret2007-101-d59be6f8",
+      "theme": "reglementation",
+      "kind": "rule_mc",
+      "stem": "Sur les voies et plans d'eau intérieurs figurant sur la liste arrêtée par le ministre, à quelle condition le conducteur d'un coche de plaisance nolisé est-il dispensé du permis de conduire des bateaux de plaisance ?",
+      "choices": [
+        {
+          "text": "Lorsqu'il est muni d'une attestation de conduite d'un coche de plaisance délivrée selon les dispositions arrêtées par le ministre",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Lorsque la longueur du coche de plaisance est inférieure à quinze mètres",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Lorsqu'il est accompagné d'un titulaire du permis plaisance option eaux intérieures",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-decret_2007-101",
+        "ref": "Décret 2007-1167, art. 11",
+        "source": "Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur",
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000006885164",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte dispense le conducteur d'un coche de plaisance nolisé du permis lorsqu'il est muni d'une attestation de conduite d'un coche de plaisance délivrée selon les dispositions arrêtées par le ministre chargé des transports, et ce sur les voies et plans d'eau dont la liste est arrêtée par ce ministre.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-102-d040e51d",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "À quelle condition un rattrapant peut-il entreprendre un dépassement ?",
+      "choices": [
+        {
+          "text": "Seulement après s'être assuré que la manœuvre peut avoir lieu sans danger.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Seulement après avoir reçu l'autorisation explicite du bateau rattrapé.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Dès que le bateau rattrapé a réduit sa vitesse.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-102",
+        "ref": "RGP, art. A4241-53-10",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909233",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte dispose que « le dépassement n'est autorisé que si le rattrapant s'est assuré que cette manœuvre peut avoir lieu sans danger ». La décision et la vérification de sécurité incombent donc au rattrapant avant d'engager la manœuvre.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-103-032da155",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Sur un secteur où la route à suivre est imposée par signalisation, quelle obligation s'impose aux bateaux montants vis-à-vis des avalants ?",
+      "choices": [
+        {
+          "text": "Ils ne doivent en aucun cas gêner la marche des avalants et doivent au besoin ralentir ou s'arrêter.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ils ont la priorité et les avalants doivent s'écarter pour les laisser passer.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ils doivent émettre un son prolongé avant de croiser le chenal.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-103",
+        "ref": "RGP, art. A4241-53-13",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909241",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte prévoit que, dans ces secteurs, les montants ne doivent en aucun cas gêner la marche des avalants ; en particulier, en cas d'obligation de croiser le chenal, ils doivent au besoin diminuer leur vitesse ou s'arrêter pour permettre aux avalants d'accomplir leur manœuvre.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-104-fb0ac409",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Sauf en cours de dépassement ou de croisement, à quelle distance minimale un bateau peut-il s'approcher d'un convoi poussé portant la signalisation des matières dangereuses ?",
+      "choices": [
+        {
+          "text": "Pas moins de 50 m.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Pas moins de 10 m.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Pas moins de 100 m.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-104",
+        "ref": "RGP, art. A4241-53-18",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909251",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte interdit, sauf en cours de dépassement ou de croisement, de naviguer à moins de 50 m d'un bateau, d'une formation à couple ou d'un convoi poussé portant la signalisation prévue pour le transport de matières dangereuses.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-105-ef619edb",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Que prévoit la règle de base concernant les ancres, câbles ou chaînes en cours de navigation ?",
+      "choices": [
+        {
+          "text": "Il est en principe interdit de les laisser traîner.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il est toujours autorisé de les laisser traîner pour ralentir le bateau.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il est obligatoire de les laisser traîner lors de la navigation à la dérive.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-105",
+        "ref": "RGP, art. A4241-53-19",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909253",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte pose comme principe qu'« il est interdit de laisser traîner les ancres, câbles ou chaînes ». Cette interdiction connaît des exceptions (manœuvres, petits mouvements, navigation à la dérive autorisée, etc.), mais la règle de base est bien l'interdiction de les laisser traîner.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-106-8f69dc57",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Quelle obligation s'impose aux bateaux rapides vis-à-vis des autres bateaux ?",
+      "choices": [
+        {
+          "text": "Ils doivent laisser aux autres bateaux l'espace nécessaire pour suivre leur route et pour manœuvrer, sans pouvoir exiger qu'ils s'écartent en leur faveur.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Ils sont prioritaires et les autres bateaux doivent s'écarter de leur route.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Ils peuvent exiger que les autres bateaux réduisent leur vitesse à leur approche.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-106",
+        "ref": "RGP, art. A4241-53-2",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909213",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte précise que « les bateaux rapides doivent laisser aux autres bateaux l'espace nécessaire pour suivre leur route et pour manœuvrer » et qu'« ils ne peuvent exiger que ceux-ci s'écartent en leur faveur ». Ils n'ont donc aucune priorité de passage et doivent eux-mêmes laisser l'espace nécessaire.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-107-c48e56fb",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Comment doit-on considérer un bateau qui se laisse descendre cap à l'amont avec sa machine en marche avant ?",
+      "choices": [
+        {
+          "text": "Comme un bateau montant, et non comme naviguant à la dérive.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Comme un bateau naviguant à la dérive, donc en infraction.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Comme un bateau avalant tenu de céder le passage.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-107",
+        "ref": "RGP, art. A4241-53-20",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909255",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte interdit en principe la navigation à la dérive, mais précise que les bateaux qui se laissent descendre cap à l'amont avec machine en marche avant sont considérés comme montants et non comme naviguant à la dérive.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-108-19d160c4",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "À quelle condition un bac peut-il entreprendre la traversée de la voie de navigation intérieure ?",
+      "choices": [
+        {
+          "text": "Seulement après s'être assuré que la traversée peut se faire sans danger et sans obliger les autres bateaux à modifier brusquement leur route ou leur vitesse.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "À tout moment, car les bacs sont prioritaires sur les autres bateaux lors de la traversée.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Seulement après avoir émis un son prolongé pour avertir tous les bateaux approchants.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-108",
+        "ref": "RGP, art. A4241-53-25",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909267",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte indique que les bacs ne peuvent traverser qu'« après s'être assurés que le mouvement des autres bateaux permet d'effectuer la traversée sans danger et sans que ces autres bateaux soient obligés de modifier brusquement leur route ou leur vitesse ».",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-109-fb202c30",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "À quelle distance minimale un bateau peut-il s'approcher de l'arrière d'un bateau portant la signalisation des bateaux en train de faire du dragage de mines ?",
+      "choices": [
+        {
+          "text": "Pas à moins de 1 000 m de son arrière.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Pas à moins de 100 m de son arrière.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Pas à moins de 500 m de son arrière.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-109",
+        "ref": "RGP, art. A4241-53-37",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909354",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte impose que « les bateaux ne doivent pas s'approcher à moins de 1 000 m de l'arrière d'un bateau portant la signalisation des bateaux en train de faire du dragage de mines ». La distance minimale à respecter est donc de 1 000 m.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-110-a157c21d",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Un conducteur constate un danger d'abordage. Que doit-il faire ?",
+      "choices": [
+        {
+          "text": "Émettre une série de sons très brefs.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Émettre un son prolongé unique.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Augmenter sa vitesse pour dégager le chenal au plus vite.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-110",
+        "ref": "RGP, art. A4241-53-4",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909219",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte prévoit que tout conducteur qui constate un danger d'abordage doit émettre une série de sons très brefs. Il précise par ailleurs que le passage ou le dépassement n'est permis que lorsque le chenal présente une largeur incontestablement suffisante pour le passage simultané, et que les bateaux suivant des routes excluant tout danger d'abordage ne doivent modifier ni leur route ni leur vitesse d'une manière qui puisse faire surgir un tel danger.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-111-65ce29c8",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Concernant la vitesse du bateau, quelle obligation incombe au conducteur ?",
+      "choices": [
+        {
+          "text": "Veiller à une vitesse compatible avec les caractéristiques des eaux et des ouvrages d'art, sans descendre sous les minima ni dépasser les maxima fixés.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Maintenir en permanence la vitesse maximale autorisée pour fluidifier le trafic.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Adapter librement sa vitesse, aucune limite minimale ne pouvant lui être imposée.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-111",
+        "ref": "RGP, art. R4241-10",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232821",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte impose au conducteur de veiller à ce que la vitesse de son bateau soit compatible avec les caractéristiques des eaux intérieures et des ouvrages d'art ; elle ne peut être inférieure ou supérieure aux vitesses minimales ou maximales édictées par les règlements particuliers de police.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-112-67db4b95",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Un membre d'équipage détermine temporairement la route et la vitesse du bateau. Quelle est sa situation au regard des prescriptions de conduite ?",
+      "choices": [
+        {
+          "text": "Il est également responsable, dans cette mesure, de l'observation des prescriptions imposées au conducteur.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il n'encourt aucune responsabilité, seul le conducteur titulaire restant responsable.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il devient le seul responsable, déchargeant entièrement le conducteur.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-112",
+        "ref": "RGP, art. R4241-4",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232803",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte prévoit que les membres de l'équipage et les autres personnes se trouvant à bord qui déterminent temporairement la route et la vitesse du bateau sont également responsables, dans cette mesure, de l'observation des prescriptions imposées au conducteur en matière de conduite.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-113-887cf6d5",
+      "theme": "regles_route",
+      "kind": "rule_mc",
+      "stem": "Pendant la navigation, où doit se trouver le conducteur ?",
+      "choices": [
+        {
+          "text": "À bord du bateau.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "À terre, à condition de garder le bateau en vue.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "À bord uniquement lorsque le bateau se déplace effectivement.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-113",
+        "ref": "RGP, art. R4241-6",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232811",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte dispose qu'en cours de route le conducteur doit être à bord. Il ajoute que le conducteur d'un engin flottant motorisé doit également être à bord dès lors que l'engin est au travail, même en l'absence de déplacement, ces dispositions n'étant pas applicables aux matériels flottants.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-division245-114-3818cbe1",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Cet arrêté s'applique notamment aux bateaux dont la longueur de coque est comprise dans quel intervalle ?",
+      "choices": [
+        {
+          "text": "Supérieure ou égale à 2,50 mètres et inférieure à 20 mètres",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Supérieure ou égale à 5 mètres et inférieure à 24 mètres",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Inférieure à 2,50 mètres uniquement",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-division_245-114",
+        "ref": "Division 245, art. 1",
+        "source": "Division 245 (arrêté du 10 février 2016) — matériel d'armement et de sécurité des bateaux de plaisance en eaux intérieures",
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000032045426",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte s'applique aux bateaux d'une longueur de coque supérieure ou égale à 2,50 mètres et inférieure à 20 mètres (et dont le produit longueur × largeur × tirant d'eau est inférieur à 100 mètres cubes).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-division245-115-a11650b6",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Pour utiliser un engin à sustentation hydropropulsé sur les eaux intérieures (hors lacs et plans d'eau fermés), quelle condition l'utilisateur doit-il remplir ?",
+      "choices": [
+        {
+          "text": "Être titulaire du permis plaisance option eaux intérieures, ou être accompagné par un titulaire de ce permis",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Naviguer exclusivement de nuit, avec un feu de repérage allumé",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Détenir le permis plaisance option côtière, l'option eaux intérieures n'étant jamais exigée",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-division_245-115",
+        "ref": "Division 245, art. 11",
+        "source": "Division 245 (arrêté du 10 février 2016) — matériel d'armement et de sécurité des bateaux de plaisance en eaux intérieures",
+        "url": "https://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000032045436",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte prévoit qu'en eaux intérieures l'utilisateur est titulaire du permis plaisance option eaux intérieures, ou bien qu'il est accompagné par un titulaire de ce permis. La pratique de nuit est exclue puisque ces engins effectuent une navigation diurne, et l'option eaux intérieures n'est dispensée que sur les lacs et plans d'eau fermés.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-116-d68fd56f",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Quelle obligation s'impose à toute personne se trouvant à bord d'un bateau ?",
+      "choices": [
+        {
+          "text": "Se conformer aux ordres donnés par le conducteur dans l'intérêt de la sécurité de la navigation et de l'ordre à bord.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "N'obéir au conducteur que si elle fait partie de l'équipage rémunéré du bateau.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Suivre uniquement les ordres relatifs à l'embarquement et au débarquement.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-116",
+        "ref": "RGP, art. R4241-16",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232835",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Toute personne se trouvant à bord est tenue de se conformer aux ordres qui lui sont donnés par le conducteur dans l'intérêt de la sécurité de la navigation et de l'ordre à bord.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-117-03aa7e4b",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Lorsqu'un sinistre se déclare à bord, que doit faire le conducteur ?",
+      "choices": [
+        {
+          "text": "Prendre toutes les mesures nécessaires pour maîtriser le sinistre et prévenir sans délai le gestionnaire ou le propriétaire de la voie d'eau ainsi que le CODIS territorialement compétent.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Attendre l'arrivée des secours avant d'entreprendre toute action de lutte contre le sinistre.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Prévenir uniquement les autres bateaux naviguant à proximité, sans avertir d'autorité.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-117",
+        "ref": "RGP, art. R4241-18",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232839",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Si un sinistre se déclare à bord, le conducteur prend toutes les mesures prévues et nécessaires pour le maîtriser et prévient sans délai le gestionnaire ou le propriétaire de la voie d'eau intérieure compétent ainsi que le centre opérationnel départemental d'incendie et de secours (CODIS) territorialement compétent.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-118-8d7e90ed",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Concernant les ancres relevées et les objets dépassant des côtés d'un bateau, quelle règle s'applique ?",
+      "choices": [
+        {
+          "text": "Aucun objet susceptible de compromettre la sécurité ne doit déborder sur les côtés, et les ancres relevées ne doivent pas dépasser le fond ou la quille du bateau.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les objets peuvent déborder sur les côtés à condition d'être signalés par un pavillon de jour.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les ancres relevées doivent rester au-dessus de la ligne de flottaison, mais peuvent dépasser la quille du bateau.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-118",
+        "ref": "RGP, art. R4241-19",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232841",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Il est interdit de laisser déborder sur les côtés du bateau des objets de nature à compromettre la sécurité des autres usagers, des ouvrages ou installations ; en outre, les ancres relevées ne doivent pas dépasser le fond ou la quille du bateau ou le plan inférieur du matériel flottant.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-119-b1f2d586",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Lorsqu'un bateau est échoué ou coulé, quelle est l'obligation de son conducteur ?",
+      "choices": [
+        {
+          "text": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau, et s'employer à dégager la voie en cas d'obstruction.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "N'avertir les autorités que si le bateau transporte des marchandises dangereuses.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Laisser le bateau en place et attendre l'intervention obligatoire du gestionnaire sans intervenir.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-119",
+        "ref": "RGP, art. R4241-24",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232851",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Lorsqu'un bateau est échoué ou coulé, son conducteur avise sans délai l'autorité chargée de la police de la navigation et le gestionnaire de la voie d'eau ; si le bateau crée ou risque de créer une obstruction totale ou partielle, le conducteur doit s'employer à ce que la voie d'eau soit dégagée dans les plus courts délais.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-120-470ebb80",
+      "theme": "securite",
+      "kind": "rule_mc",
+      "stem": "Quelle obligation pèse sur le conducteur d'un bateau en périodes de glaces ou de crues ?",
+      "choices": [
+        {
+          "text": "Renforcer les amarres de son bateau, la glace étant brisée autour de la flottaison par lui ou sous sa responsabilité.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Détacher entièrement le bateau de la rive pour le laisser dériver librement avec les glaces.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Confier obligatoirement le brisage de la glace au gestionnaire de la voie d'eau, jamais au conducteur.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-120",
+        "ref": "RGP, art. R4241-25",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232853",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "En périodes de glaces ou de crues, le conducteur renforce les amarres de son bateau ; la glace est brisée autour de la flottaison par le conducteur ou sous sa responsabilité.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-121-baf5baf5",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "De jour, quel signal un bac ne naviguant pas librement doit-il porter ?",
+      "choices": [
+        {
+          "text": "Un ballon vert placé à une hauteur d'au moins 5 m",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un cône vert pointe en bas placé à au moins 3 m",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un feu clair vert visible de tous les côtés",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-121",
+        "ref": "RGP, art. A4241-48-16",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908960",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte prévoit que, de jour, les bacs ne naviguant pas librement portent un ballon vert placé à une hauteur d'au moins 5 m. Les autres réponses confondent ce signal de jour avec des feux de nuit ou une marque inexistante.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-122-2984b11a",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Sauf prescriptions contraires, quelle caractéristique les feux de signalisation prescrits doivent-ils présenter ?",
+      "choices": [
+        {
+          "text": "Une lumière continue et uniforme",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une lumière à éclats réguliers",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Une lumière dont la couleur change selon la direction",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-122",
+        "ref": "RGP, art. A4241-48-2",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039023130",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte indique que, sauf prescriptions contraires, les feux prescrits doivent montrer une lumière continue et uniforme. Les variantes proposant une lumière intermittente ou de couleur changeante ne sont pas conformes à cette exigence.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-123-53337d32",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Sauf prescription contraire, quelle forme doivent avoir les panneaux et pavillons prescrits par la réglementation de la signalisation à bord ?",
+      "choices": [
+        {
+          "text": "Rectangulaire",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Triangulaire",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Circulaire",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-123",
+        "ref": "RGP, art. A4241-48-3",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908932",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Sauf prescriptions contraires, les panneaux et pavillons prescrits doivent être rectangulaires ; leurs couleurs ne doivent être ni passées ni salies et leurs dimensions suffisantes pour assurer la bonne visibilité.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-124-513e5e1d",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Parmi les moyens visuels suivants, lequel n'est PAS prévu pour qu'un bateau en détresse demande du secours ?",
+      "choices": [
+        {
+          "text": "Un pavillon jaune hissé en tête de mât",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Des fusées ou bombes projetant des étoiles rouges lancées une à une à de courts intervalles",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un signal lumineux composé du groupe ...---... (SOS) du code Morse",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-124",
+        "ref": "RGP, art. A4241-48-30",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908992",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "negative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte énumère notamment un pavillon agité circulairement, des fusées projetant des étoiles rouges et un signal lumineux composé du groupe SOS en code Morse. Il ne mentionne pas un pavillon jaune hissé en tête de mât, qui ne figure donc pas parmi les signaux de détresse autorisés.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-125-2236a41b",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Pour qu'un cylindre de signalisation soit considéré comme suffisamment visible, quelles dimensions minimales doit-il avoir ?",
+      "choices": [
+        {
+          "text": "Une hauteur d'au moins 0,80 m et un diamètre d'au moins 0,50 m",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une hauteur d'au moins 0,60 m et un diamètre d'au moins 0,60 m",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Une hauteur d'au moins 1,00 m et un diamètre d'au moins 0,80 m",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-125",
+        "ref": "RGP, art. A4241-48-4",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908934",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte précise que la condition de bonne visibilité est remplie lorsque les cylindres ont une hauteur d'au moins 0,80 m et un diamètre d'au moins 0,50 m. Les autres valeurs proposées correspondent à d'autres formes ou ne figurent pas dans l'article.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-126-da3219b7",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "À quelle condition l'usage de feux ou signaux autres que ceux prévus par la réglementation sur la signalisation est-il admis ?",
+      "choices": [
+        {
+          "text": "Pour la communication entre bateaux ou entre bateaux et la terre, à condition qu'ils ne prêtent pas à confusion avec les feux ou signaux mentionnés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Uniquement de nuit et après autorisation de l'autorité chargée de la police de la navigation",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Pour tout usage, dès lors que le bateau est en stationnement",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-126",
+        "ref": "RGP, art. A4241-48-5",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908936",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le texte interdit en principe d'utiliser des feux ou signaux autres que ceux mentionnés, mais admet, pour la communication entre bateaux ou entre bateaux et la terre, l'usage d'autres feux ou signaux à condition qu'ils ne prêtent pas à confusion avec ceux mentionnés. Les autres réponses ajoutent des conditions absentes du texte.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-127-e10ebee7",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Lorsqu'un feu de signalisation prescrit cesse de fonctionner, que doit faire le conducteur ?",
+      "choices": [
+        {
+          "text": "Le remplacer sans délai par un feu de secours",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Interrompre la navigation jusqu'à la réparation définitive du feu",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Attendre le prochain port pour signaler la panne, sans autre mesure",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-127",
+        "ref": "RGP, art. A4241-48-6",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908938",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Lorsqu'un feu de signalisation prescrit ne fonctionne pas, il doit être remplacé sans délai par un feu de secours ; le rétablissement d'un feu ayant la puissance prescrite a lieu dans les plus brefs délais.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-128-2848d361",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Que dit la réglementation au sujet de l'emploi de lumières, projecteurs, panneaux, pavillons ou flammes à bord ?",
+      "choices": [
+        {
+          "text": "Il est interdit d'utiliser des lumières ou objets risquant d'être confondus avec les feux et signaux réglementaires",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Tout éclairage publicitaire est autorisé pourvu qu'il soit éteint la nuit",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les projecteurs éblouissants sont permis s'ils sont orientés vers la rive",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-128",
+        "ref": "RGP, art. A4241-48-7",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027908940",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Il est interdit d'utiliser des lumières, projecteurs, panneaux, pavillons ou autres objets qui risquent d'être confondus avec les feux ou signaux réglementaires, de nuire à leur visibilité ou de compliquer leur identification, ainsi que des lumières ou projecteurs produisant un éblouissement dangereux ou gênant pour la navigation.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-129-fc3704d8",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Vous conduisez un bateau qui n'est pas une menue embarcation. Que prévoit la réglementation concernant les signaux sonores réglementaires ?",
+      "choices": [
+        {
+          "text": "Il doit, en cas de besoin, faire usage des signaux sonores réglementaires.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il n'a la faculté d'émettre ces signaux que s'il navigue de nuit.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il est dispensé d'émettre tout signal sonore réglementaire.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-129",
+        "ref": "RGP, art. A4241-49-2",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909182",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Tout bateau, à l'exception des menues embarcations, fait usage en cas de besoin des signaux sonores figurant au chapitre III de l'annexe 4. Pour ces bateaux, l'émission de ces signaux est une obligation, et non une simple faculté.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-130-d902476d",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "À quelle condition l'usage de signaux sonores autres que les signaux réglementaires est-il admis entre bateaux ou entre un bateau et la terre ?",
+      "choices": [
+        {
+          "text": "À condition qu'ils ne prêtent pas à confusion avec les signaux réglementaires.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "À condition qu'ils soient émis uniquement à l'approche d'une écluse.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "À condition qu'ils soient plus puissants que les signaux réglementaires.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-130",
+        "ref": "RGP, art. A4241-49-3",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909184",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "L'usage de signaux sonores autres que les signaux réglementaires est interdit, sauf, pour la communication entre bateaux ou entre un bateau et la terre, à la condition qu'ils ne prêtent pas à confusion avec les signaux réglementaires.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-131-cf653c6a",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Pour demander du secours, quel signal sonore un bateau en détresse peut-il émettre ?",
+      "choices": [
+        {
+          "text": "Des volées de cloche ou des sons prolongés répétés",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Un seul son bref suivi d'un silence d'une minute",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Trois sons brefs émis une seule fois",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-131",
+        "ref": "RGP, art. A4241-49-4",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909186",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Un bateau en détresse qui veut demander du secours peut émettre des volées de cloche ou des sons prolongés répétés ; ces signaux remplacent ou complètent les signaux visuels de détresse.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-132-dc003a8c",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Où sont définis les signaux d'interdiction, d'obligation, de restriction, de recommandation et d'indication de la voie de navigation intérieure, ainsi que leur signification ?",
+      "choices": [
+        {
+          "text": "Dans l'annexe 5.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Dans l'annexe 7.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Dans l'annexe 8.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-132",
+        "ref": "RGP, art. A4241-51-1",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909199",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "C'est l'annexe 5 qui définit les signaux d'interdiction, d'obligation, de restriction, de recommandation et d'indication, ainsi que les signaux auxiliaires de la voie de navigation intérieure et leur signification ; les conducteurs doivent s'y conformer.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-133-e4674dda",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Où sont définies les règles de balisage applicables sur la voie de navigation intérieure, en amont du premier obstacle à la navigation des navires ?",
+      "choices": [
+        {
+          "text": "Dans l'annexe 8.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Dans l'annexe 5.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Dans l'annexe 4.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-133",
+        "ref": "RGP, art. A4241-51-2",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909202",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "C'est l'annexe 8 qui définit les règles de balisage s'appliquant en amont du premier obstacle à la navigation des navires et qui précise dans quelles conditions les différentes marques de balisage sont utilisées.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-134-9e0d6512",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "En matière d'équipement, quelle obligation s'applique aux bateaux, à l'exception des menues embarcations ?",
+      "choices": [
+        {
+          "text": "Être équipés d'une installation de radiotéléphonie",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Embarquer obligatoirement un appareil radar de navigation",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Disposer en toutes circonstances d'un système d'identification automatique (AIS)",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-134",
+        "ref": "RGP, art. R4241-49",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038225665",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Tous les bateaux sont équipés d'un dispositif permettant d'émettre des signaux sonores ; en outre, les bateaux, à l'exception des menues embarcations, sont équipés d'une installation de radiotéléphonie.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-135-71c2ecac",
+      "theme": "signalisation_fluviale",
+      "kind": "rule_mc",
+      "stem": "Dans quel cas l'usage d'un appareil radar de navigation s'impose-t-il à un bateau ?",
+      "choices": [
+        {
+          "text": "Pour certains bateaux ou certaines situations de navigation déterminés par arrêté ministériel",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Pour tous les bateaux sans exception dès qu'ils naviguent de nuit",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Uniquement pour les menues embarcations motorisées",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-135",
+        "ref": "RGP, art. R4241-50",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232919",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "L'usage d'un appareil radar de navigation est imposé, pour des raisons de sécurité, à certains bateaux ou dans certaines situations de navigation déterminés par arrêté du ministre chargé des transports.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-136-402869a1",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "À une aire de stationnement signalée par le panneau B.12, quelle obligation s'impose à tous les bateaux ?",
+      "choices": [
+        {
+          "text": "Se raccorder à un point de raccordement au réseau électrique à terre opérationnel pour couvrir intégralement leurs besoins en électricité durant le stationnement",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Couper tout équipement électrique et rester totalement hors tension durant le stationnement",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Faire tourner leur groupe électrogène de bord pour alimenter le réseau à terre",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-136",
+        "ref": "RGP, art. A4241-54-10",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039010767",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "À ces aires, tous les bateaux sont tenus de se raccorder à un point de raccordement au réseau électrique à terre opérationnel afin de couvrir intégralement leurs besoins en énergie électrique durant le stationnement.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-137-485ca384",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "Dans une section où l'ancrage est interdit de façon générale par un règlement particulier de police, dans quelles conditions un bateau peut-il néanmoins ancrer ?",
+      "choices": [
+        {
+          "text": "Seulement dans les secteurs indiqués par le panneau E.6, et du côté de la voie où ce panneau est placé",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Partout dans la section, à condition de signaler le bateau de nuit",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Uniquement avec l'autorisation écrite préalable du gestionnaire",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-137",
+        "ref": "RGP, art. A4241-54-3",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909506",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Dans les sections où l'ancrage est interdit de façon générale par un règlement particulier de police, les bateaux ne peuvent ancrer que dans les secteurs indiqués par le panneau d'autorisation E.6, et seulement du côté de la voie où ce panneau est placé.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-138-a00dc9e8",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "Pour l'amarrage ou le déhalage, lequel des éléments suivants un bateau N'EST-il PAS autorisé à utiliser ?",
+      "choices": [
+        {
+          "text": "Une main courante ou une échelle métallique",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Une bitte d'amarrage prévue à cet effet",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un anneau d'amarrage aménagé sur le quai",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-138",
+        "ref": "RGP, art. A4241-54-4",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909508",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "negative",
+      "image": null,
+      "points": 1,
+      "explanation": "Il est interdit de se servir, pour l'amarrage ou le déhalage, d'arbres, garde-corps, poteaux, bornes, colonnes, échelles métalliques, mains courantes, et de tout équipement non prévu pour l'amarrage ; une bitte d'amarrage est en revanche un équipement prévu à cet effet.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-139-e724c0d6",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "À une aire de stationnement, en l'absence d'autres prescriptions, comment les bateaux doivent-ils se ranger ?",
+      "choices": [
+        {
+          "text": "Bord à bord en partant de la rive, du côté de la voie où le panneau est placé",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "En une seule rangée alignée le long du milieu du chenal",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "À couple en partant de la rive opposée au panneau",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-139",
+        "ref": "RGP, art. A4241-54-5",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909510",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "À défaut d'autres prescriptions, les bateaux sont tenus de se ranger bord à bord en partant de la rive, du côté de la voie où le panneau est placé.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-140-81ac0322",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "À une aire de stationnement où est implanté un panneau d'indication signalant des aires de stationnement particulières (type E.5.4 à E.5.15), qui peut y stationner ?",
+      "choices": [
+        {
+          "text": "Seules les catégories de bateaux auxquelles le panneau s'applique, et uniquement du côté de la voie où le panneau est placé.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Tous les bateaux, des deux côtés de la voie, sans restriction de catégorie.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les catégories de bateaux visées par le panneau, mais des deux côtés de la voie indifféremment.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-140",
+        "ref": "RGP, art. A4241-54-6",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909512",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le règlement précise que seules les catégories de bateaux auxquelles le panneau s'applique peuvent stationner, et uniquement du côté de la voie où le panneau est placé.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-141-6e5b34e3",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "Pour un bateau au stationnement et sans conducteur, à qui incombe la responsabilité de mettre en place la garde ou la surveillance requise ?",
+      "choices": [
+        {
+          "text": "Le propriétaire, l'armateur ou un autre exploitant",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "L'autorité chargée de la police de la navigation",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le gestionnaire du port ou de l'aire de stationnement",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-141",
+        "ref": "RGP, art. A4241-54-8",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027909516",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Lorsque le bateau n'a pas de conducteur, la responsabilité de la mise en place de cette garde ou surveillance incombe au propriétaire, à l'armateur ou à un autre exploitant.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-142-4919dcb8",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "Quelle exigence le chargement d'un bateau doit-il respecter à l'égard de la visibilité pour la conduite ?",
+      "choices": [
+        {
+          "text": "Le chargement ne doit pas étendre la zone de non-visibilité directe ou indirecte pour la conduite du bateau.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le chargement peut réduire la visibilité tant qu'une vigie est postée à l'avant du bateau.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le chargement ne doit jamais dépasser la hauteur de la timonerie, quelle que soit la visibilité.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-142",
+        "ref": "RGP, art. R4241-27",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232861",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le chargement à bord ne doit pas étendre la zone de non-visibilité directe ou indirecte nécessaire à la conduite du bateau, dans les conditions fixées par arrêté ministériel.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-143-09bf8df5",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "Comment le conducteur d'un bateau doit-il réagir aux ordres particuliers donnés par les fonctionnaires et agents chargés de la police de la navigation en vue de la sécurité ou du bon ordre de la navigation ?",
+      "choices": [
+        {
+          "text": "Il se conforme aux ordres particuliers donnés en vue de la sécurité ou du bon ordre de la navigation.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Il peut refuser de s'y conformer s'il estime sa propre route prioritaire.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il n'est tenu de s'y conformer que sur les voies maritimes, jamais sur les voies intérieures.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-143",
+        "ref": "RGP, art. R4241-39",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232891",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le conducteur se conforme aux ordres particuliers qui lui sont donnés par ces fonctionnaires et agents en vue de la sécurité ou du bon ordre de la navigation.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-144-409db11c",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "Quelle obligation incombe au conducteur d'un bateau envers les fonctionnaires et agents chargés de la police de la navigation qui constatent des infractions ?",
+      "choices": [
+        {
+          "text": "Leur donner les facilités nécessaires pour exercer leur mission de constatation des infractions.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Quitter immédiatement les lieux pour ne pas entraver leur intervention.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "N'accorder son aide que si les agents lui présentent au préalable un mandat judiciaire.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-144",
+        "ref": "RGP, art. R4241-40",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232893",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Le conducteur doit donner à ces fonctionnaires et agents les facilités nécessaires pour leur permettre d'exercer leur mission de constatation des infractions.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-fr-rgp-145-631aad11",
+      "theme": "voies_navigables",
+      "kind": "rule_mc",
+      "stem": "Que doit faire le conducteur d'un bateau à l'égard des documents dont la présence à bord est obligatoire ?",
+      "choices": [
+        {
+          "text": "Les présenter à toute réquisition des agents chargés de la police de la navigation.",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Les transmettre uniquement par voie postale dans les huit jours suivant la demande.",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Les présenter seulement aux agents porteurs d'une réquisition écrite d'un juge.",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "fr-rgp-145",
+        "ref": "RGP, art. R4241-41",
+        "source": "Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232895",
+        "as_of": "",
+        "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — French official act, freely reusable with attribution."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 1,
+      "explanation": "Tout conducteur est tenu de présenter les documents obligatoires à bord à toute réquisition des agents chargés de la police de la navigation.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "derive:legi.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
     }
   ]
 }
