@@ -139,6 +139,25 @@ def test_pdf_is_a_registered_source_kind():
     assert "pdf" not in fetch._PER_LANG_KINDS      # single-language, like html
 
 
+def test_subagent_paths_separate_languages_from_countries():
+    # The home country (CH) owns the language-named answer dirs; guest countries
+    # live under countries/<code>/ so a country code cannot collide with a CH
+    # language dir (Germany 'de' must not land on Swiss-German 'de').
+    sys.path.insert(0, os.path.join(
+        os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "tools"))
+    import subagent_draft as sd
+    rstrip = lambda p: p.rstrip(os.sep)
+    ch_fr = rstrip(sd._paths("fr", countries.get("CH"))["answers"])
+    ch_de = rstrip(sd._paths("de", countries.get("CH"))["answers"])
+    de_de = rstrip(sd._paths("de", countries.get("DE"))["answers"])
+    int_en = rstrip(sd._paths("en", countries.get("INT"))["answers"])
+    assert ch_fr.endswith("draft_answers")                       # CH base lang: flat
+    assert ch_de.endswith(os.path.join("draft_answers", "de"))   # CH German: <lang>/
+    assert de_de.endswith(os.path.join("countries", "de"))       # Germany: countries/<code>/
+    assert int_en.endswith(os.path.join("countries", "int"))
+    assert ch_de != de_de                                        # the collision is gone
+
+
 if __name__ == "__main__":
     tests = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for t in tests:

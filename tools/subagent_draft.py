@@ -12,12 +12,14 @@ language-aware. Stages (args: ``<cmd> [lang] [country]``, default ``fr CH``):
   (subagents)                    adversarially verify, write   -> verdicts[/code]/<theme>.json
   verify-apply <lang> <country>  approve the verified drafts (rest stay pending)
 
-Switzerland (the default) keeps the original flat, committed artifacts and the
-unchanged Swiss theme plan / question bank; every other country is namespaced by
-its code (draft_jobs.int.json, draft_answers/int/…, questions.int.sqlite) and
-validated against its own taxonomy. Everything is grounded in public-domain /
-freely-licensed source text; the verification pass is an independent check (a
-different agent, told to default FAIL).
+Switzerland (the default, multilingual home country) owns the language-named
+answer dirs — fr is flat + committed, de/it sit under draft_answers/<lang>/ — and
+keeps the unchanged Swiss theme plan / question bank. Every guest country lives
+under draft_answers/countries/<code>/ (e.g. countries/int/, countries/de/) so a
+2-letter country code can never collide with a CH language dir, and is validated
+against its own taxonomy (bank: questions.<code>.sqlite). Everything is grounded
+in public-domain / freely-licensed source text; the verification pass is an
+independent check (a different agent, told to default FAIL).
 """
 
 from __future__ import annotations
@@ -70,11 +72,21 @@ def _generator(lang: str, country) -> str:
 
 
 def _paths(lang: str, country) -> dict:
-    # CH artifacts stay flat + committed; other countries namespace by code so banks
-    # never collide (e.g. INT 'en' must not clash with a future English country).
-    flat = country.code == countries.DEFAULT
-    sfx = "" if flat else f".{country.code.lower()}"
-    sub = "" if flat else country.code.lower()
+    # The home country (CH) is multilingual and OWNS the language-named dirs: its
+    # base language (fr) is flat + committed, other languages get a <lang>/ subdir
+    # (draft_answers/de/, draft_answers/it/). Guest countries live under
+    # countries/<code>/ so a 2-letter country code can never collide with a CH
+    # language dir — e.g. Germany ('de') must not land on Swiss-German ('de'). A
+    # non-base language of a guest adds one more level (countries/<code>/<lang>/).
+    base = country.default_lang
+    if country.code == countries.DEFAULT:
+        sub = "" if lang == base else lang
+        sfx = "" if lang == base else f".{lang}"
+    else:
+        code = country.code.lower()
+        sub = os.path.join("countries", code) if lang == base \
+            else os.path.join("countries", code, lang)
+        sfx = f".{code}" if lang == base else f".{code}.{lang}"
     return {
         "jobs": os.path.join(DATA, f"draft_jobs{sfx}.json"),
         "answers": os.path.join(DATA, "draft_answers", sub),
