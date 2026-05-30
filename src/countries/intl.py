@@ -20,8 +20,9 @@ Legal boundary (the project's hard rule — only public-domain / clearly-reusabl
 * **CEVNI — NOT INGESTED.** The canonical UNECE text (Resolution No. 24, now
   ECE/TRANS/SC.3/115/Rev.6) is **all-rights-reserved**: UN policy requires written
   permission to reproduce and forbids redistribution / derivative works. It fails
-  the reuse bar, so it is recorded as a :class:`Reference` only; a permission
-  request is drafted at ``docs/cevni-licence-request.md``. Until/unless granted,
+  the reuse bar, so it is recorded as a :class:`Reference` only; a reproduction-
+  permission request has been sent to the rights holders (UNECE) and is pending.
+  Until/unless granted,
   the CEVNI base stays grounded via the public-domain national inland enactments
   already ingested (CH ONI/RNL, DE BinSchStrO/RheinSchPV), which :mod:`src.scope`
   buckets into ``cevni``.
@@ -40,7 +41,8 @@ LEGAL_BASIS = (
     "edition is copyrighted and is not used). CEVNI (UNECE Resolution No. 24) is "
     "all-rights-reserved (UN permission required) and is therefore NOT ingested: "
     "it is documented as a reference and the CEVNI base stays grounded via "
-    "public-domain national inland enactments. See docs/cevni-licence-request.md.")
+    "public-domain national inland enactments. A reproduction-permission request "
+    "has been sent to UNECE and is pending a response from the rights owners.")
 
 _COLREG_LICENCE = (
     "Public domain — US Government work (17 USC §105). Verbatim International "
@@ -68,8 +70,8 @@ REFERENCES: tuple[Reference, ...] = (
              "permission and redistribution/derivatives are forbidden, so it fails "
              "the project's public-domain/clearly-reusable rule. The CEVNI base is "
              "instead grounded via the public-domain national inland enactments "
-             "already ingested (CH ONI/RNL, DE BinSchStrO/RheinSchPV). A permission "
-             "request is drafted at docs/cevni-licence-request.md."),
+             "already ingested (CH ONI/RNL, DE BinSchStrO/RheinSchPV). A reproduction-"
+             "permission request has been sent to the rights owners and is pending."),
 )
 
 # Not a within-country variance, just a single descriptive bucket: the codes here

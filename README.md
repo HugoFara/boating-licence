@@ -220,9 +220,9 @@ regime node.
 - **CEVNI — not ingested (licence barrier).** The canonical UNECE text (Resolution
   No. 24, Rev.6) is all-rights-reserved: UN policy requires written permission and
   forbids redistribution/derivatives, so it fails the project's reuse rule. It is
-  recorded as a `Reference` only; a permission request is drafted at
-  `docs/cevni-licence-request.md`. Until granted, the CEVNI base stays grounded via
-  the public-domain national inland enactments already ingested.
+  recorded as a `Reference` only; a reproduction-permission request has been sent to
+  the rights owners (UNECE) and is pending. Until granted, the CEVNI base stays
+  grounded via the public-domain national inland enactments already ingested.
 
 ### Germany — Sportbootführerschein
 
