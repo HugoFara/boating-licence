@@ -99,9 +99,11 @@ def cmd_questions(args):
     qs, stats = figures.build_figure_questions(kb)
     kb.close()
 
-    if os.path.exists(QDB_PATH):      # clean rebuild (deterministic, like normalize)
-        os.remove(QDB_PATH)
     conn = qschema.connect(QDB_PATH)
+    # Re-generate only the templated figure questions; preserve any LLM/reviewed
+    # drafts in the bank (cascade clears their choices automatically).
+    conn.execute("DELETE FROM questions WHERE generator LIKE 'tmpl:%'")
+    conn.commit()
     cfg = qschema.ExamConfig()        # Vaud/Léman defaults (cantonal — configurable)
     qschema.set_meta(conn, kb_version=kb_version, generated=_dt.date.today().isoformat(),
                      generators=figures.GENERATOR,
@@ -126,14 +128,128 @@ def cmd_questions(args):
           f"(of {stats['figures']} figures)")
 
 
+def cmd_draft(args):
+    """Phase-2 step 5: LLM-draft questions for the prose/law themes into the bank
+    as `pending` (held behind the review gate). Needs a built bank from
+    `run.py questions`; uses the Anthropic API (ANTHROPIC_API_KEY)."""
+    from src.questions import prose, schema as qschema
+    if not os.path.exists(DB_PATH):
+        sys.exit("no knowledge base — run `python run.py build` first")
+    themes = ([t.strip() for t in args.theme.split(",")] if args.theme
+              else list(prose.PROSE_THEMES))
+    kb = sqlite3.connect(DB_PATH)
+
+    if args.seed:           # load the hand-authored curated seed (no API call)
+        from src.questions import seed_prose
+        qs, st = prose.seed_questions(kb, seed_prose.SEED)
+        kb.close()
+        conn = qschema.connect(QDB_PATH)
+        qschema.write_questions(conn, qs)
+        qschema.export_json(conn, QJSON_PATH, exportable_only=True)
+        status = qschema.counts_by_status(conn)
+        conn.close()
+        print(f"✓ seed loaded: {st['kept']}/{st['entries']} questions added as PENDING "
+              f"({st['weak_grounding']} weak-grounding, {st['invalid']} invalid, "
+              f"{st['missing_unit']} missing unit)")
+        print(f"  bank by status: {status}")
+        print("  review with: python run.py review --list")
+        return
+
+    if args.dry_run:        # show the prompt the model would receive, no API call
+        for t in themes:
+            units = prose.select_units(kb, t, limit=1)
+            if units:
+                print(f"--- prompt for {t} / {units[0]['ref']} ---\n")
+                print(prose.build_prompt(units[0], args.per_unit))
+                break
+        return
+
+    try:
+        drafter = prose.AnthropicDrafter(model=args.model)
+    except ImportError:
+        sys.exit("install the SDK: pip install anthropic")
+    except Exception as e:
+        sys.exit(f"cannot init Anthropic client (set ANTHROPIC_API_KEY): {e}")
+
+    allq, totals = [], {"kept": 0, "drafted": 0, "weak_grounding": 0, "invalid": 0}
+    for t in themes:
+        print(f"→ drafting {t} …")
+        qs, st = prose.draft_for_theme(kb, drafter, t, limit=args.limit,
+                                       per_unit=args.per_unit)
+        allq += qs
+        for k in totals:
+            totals[k] += st.get(k, 0)
+        print(f"    {st['kept']} kept / {st['drafted']} drafted "
+              f"({st['weak_grounding']} weak-grounding, {st['invalid']} invalid)")
+    kb.close()
+
+    conn = qschema.connect(QDB_PATH)
+    qschema.write_questions(conn, allq)
+    qschema.export_json(conn, QJSON_PATH, exportable_only=True)
+    status = qschema.counts_by_status(conn)
+    conn.close()
+    print(f"\n✓ {totals['kept']} drafts added as PENDING → {QDB_PATH}")
+    print(f"  bank by status: {status}")
+    print("  review with: python run.py review --list")
+
+
+def cmd_review(args):
+    """Operate the review gate: list pending drafts (with a grounding score), or
+    approve/reject by id. Approved questions reach the public bank on next build."""
+    from src.questions import prose, schema as qschema
+    if not os.path.exists(QDB_PATH):
+        sys.exit("no question bank — run `python run.py questions` first")
+    conn = qschema.connect(QDB_PATH)
+
+    if args.approve or args.reject:
+        n = qschema.set_review_status(conn, args.approve or [], "approved")
+        n += qschema.set_review_status(conn, args.reject or [], "rejected")
+        conn.commit()
+        print(f"updated {n} question(s); bank by status: {qschema.counts_by_status(conn)}")
+        conn.close()
+        return
+
+    if args.list:
+        kb = sqlite3.connect(DB_PATH) if os.path.exists(DB_PATH) else None
+        src_text = {}
+        if kb is not None:
+            kb.row_factory = sqlite3.Row
+            src_text = {r["id"]: r["text"]
+                        for r in kb.execute("SELECT id, text FROM units")}
+        pending = qschema.load_questions(conn, review_status="pending")
+        pending = [q for q in pending if not args.theme or q.theme == args.theme]
+        for q in pending:
+            g = prose.grounding_score(
+                " ".join(c.text for c in q.choices if c.is_correct),
+                src_text.get(q.provenance.unit_id, ""))
+            print(f"\n[{q.id}]  {q.theme} · {q.provenance.ref}  (grounding {g})")
+            print(f"  {q.stem}")
+            for c in q.choices:
+                print(f"    {'[x]' if c.is_correct else '[ ]'} {c.text}")
+            print(f"    → {q.explanation}")
+        print(f"\n{len(pending)} pending. Approve: "
+              f"python run.py review --approve <id> [<id> …]")
+        conn.close()
+        return
+
+    print(f"bank by status: {qschema.counts_by_status(conn)}")
+    conn.close()
+
+
 def cmd_web(args):
     """Package the exported bank into a self-contained static site under web/
     (deployable to GitHub Pages): web/questions.json + web/assets/ with image
     paths rewritten relative to the page. The HTML/CSS/JS are committed source."""
     import json
     import shutil
-    if not os.path.exists(QJSON_PATH):
+    from src.questions import schema as qschema
+    if not os.path.exists(QDB_PATH):
         sys.exit("no question bank — run `python run.py questions` first")
+    # Re-export from the authoritative bank so newly approved/rejected drafts are
+    # reflected (the gate is applied here: exportable_only).
+    conn = qschema.connect(QDB_PATH)
+    qschema.export_json(conn, QJSON_PATH, exportable_only=True)
+    conn.close()
     web = os.path.join(os.path.dirname(__file__), "web")
     assets_out = os.path.join(web, "assets")
     if os.path.exists(assets_out):
@@ -175,10 +291,27 @@ def main():
         p.add_argument("--force", action="store_true", help="ignore the raw cache")
         p.add_argument("--only", help="comma-separated source ids")
     sub.add_parser("questions", help="generate the Phase-2 question bank from the KB")
+
+    d = sub.add_parser("draft", help="LLM-draft prose/law questions (pending review)")
+    d.add_argument("--theme", help="comma-separated themes (default: all prose themes)")
+    d.add_argument("--limit", type=int, default=0, help="max units per theme")
+    d.add_argument("--per-unit", type=int, default=2, help="questions per unit")
+    d.add_argument("--model", default="claude-sonnet-4-6")
+    d.add_argument("--dry-run", action="store_true", help="print a prompt, no API call")
+    d.add_argument("--seed", action="store_true",
+                   help="load the curated hand-authored seed instead of calling the API")
+
+    r = sub.add_parser("review", help="operate the review gate over drafts")
+    r.add_argument("--list", action="store_true", help="list pending drafts")
+    r.add_argument("--theme", help="filter the listing to one theme")
+    r.add_argument("--approve", nargs="+", metavar="ID", help="approve question id(s)")
+    r.add_argument("--reject", nargs="+", metavar="ID", help="reject question id(s)")
+
     sub.add_parser("web", help="bundle the bank into the static web/ player")
     args = ap.parse_args()
     {"fetch": cmd_fetch, "parse": cmd_parse, "build": cmd_build,
-     "questions": cmd_questions, "web": cmd_web}[args.cmd](args)
+     "questions": cmd_questions, "draft": cmd_draft, "review": cmd_review,
+     "web": cmd_web}[args.cmd](args)
 
 
 if __name__ == "__main__":

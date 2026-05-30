@@ -2,3 +2,7 @@ requests>=2.31
 lxml>=5.0
 beautifulsoup4>=4.12
 pymupdf>=1.24
+
+# Only for `python run.py draft` (LLM question drafting). The rest of the
+# pipeline — build, questions, web, review --seed — does not need it.
+anthropic>=0.40

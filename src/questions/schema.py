@@ -252,6 +252,24 @@ def set_meta(conn: sqlite3.Connection, **kv) -> None:
     conn.commit()
 
 
+def set_review_status(conn: sqlite3.Connection, ids: list[str], status: str) -> int:
+    """Move questions through the review gate. Returns the number updated."""
+    if status not in REVIEW_STATUSES:
+        raise ValueError(f"unknown review_status {status!r}")
+    cur = conn.cursor()
+    n = 0
+    for qid in ids:
+        cur.execute("UPDATE questions SET review_status=? WHERE id=?", (status, qid))
+        n += cur.rowcount
+    conn.commit()
+    return n
+
+
+def counts_by_status(conn: sqlite3.Connection) -> dict[str, int]:
+    return {k: v for k, v in conn.execute(
+        "SELECT review_status, COUNT(*) FROM questions GROUP BY review_status")}
+
+
 def _row_to_question(conn: sqlite3.Connection, r: sqlite3.Row) -> Question:
     choices = [Choice(text=c["text"], image=c["image"], is_correct=bool(c["is_correct"]))
                for c in conn.execute(
