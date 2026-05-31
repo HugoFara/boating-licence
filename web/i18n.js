@@ -500,6 +500,7 @@ const LEARN_STRINGS = {
     hcError: "Erreur commise avec assurance — à revoir en priorité.",
     cfgDue: "À réviser",
     dueQuestions: "{n} questions dues",
+    learnWhy: "Pourquoi ? — comprendre la règle",
   },
   de: {
     studySettings: "Übungsoptionen:",
@@ -521,6 +522,7 @@ const LEARN_STRINGS = {
     hcError: "Selbstsicher falsch beantwortet — vorrangig wiederholen.",
     cfgDue: "Fällig",
     dueQuestions: "{n} fällige Fragen",
+    learnWhy: "Warum? — die Regel verstehen",
   },
   it: {
     studySettings: "Opzioni di allenamento:",
@@ -542,6 +544,7 @@ const LEARN_STRINGS = {
     hcError: "Errore commesso con sicurezza — da rivedere con priorità.",
     cfgDue: "Da ripassare",
     dueQuestions: "{n} domande dovute",
+    learnWhy: "Perché? — capire la regola",
   },
   en: {
     studySettings: "Practice options:",
@@ -563,6 +566,7 @@ const LEARN_STRINGS = {
     hcError: "High-confidence error — review this first.",
     cfgDue: "Due",
     dueQuestions: "{n} questions due",
+    learnWhy: "Why? — understand the rule",
   },
 };
 for (const l in LEARN_STRINGS) STRINGS[l] = Object.assign(STRINGS[l] || {}, LEARN_STRINGS[l]);

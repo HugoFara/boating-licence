@@ -19,6 +19,7 @@ import json
 import os
 
 from ..questions import schema as qschema
+from ..questions import principles as principlesmod
 from ..questions.schema import Question, Choice, Provenance, make_question_id, validate
 from .. import scope
 from . import sources_fr, exam_fr, themes_fr, derive_fr
@@ -332,6 +333,15 @@ def build() -> dict:
     from tools import anki, gift
 
     by_option = build_questions()
+    # Tag every question with its generative principle (the "why" cards' join key,
+    # roadmap A/D1) on the exact objects exported below; _bank_json ships it via
+    # asdict, and write_questions persists it to the per-option bank DB.
+    for _opt in by_option.values():
+        for _qs in _opt.values():
+            for _q in _qs:
+                _q.principle = principlesmod.tag_for(
+                    _q.stem, " ".join(c.text for c in _q.choices),
+                    _q.explanation, _q.theme)
     generated = _dt.date.today().isoformat()
     stats: dict = {"options": {}, "generated": generated}
 

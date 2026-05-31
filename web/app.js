@@ -190,6 +190,17 @@ async function fetchBank(lang) {
   return data;
 }
 
+/* The "why" concept bank (concepts.<lang>.json): a principle -> explainer map,
+ * authored at build time behind the review gate and shipped static. Optional —
+ * absent file just means no Learn cards (graceful), keeping the player offline. */
+async function fetchConcepts(lang) {
+  const paths = lang === DEFAULT_LANG
+    ? ["concepts.fr.json", "concepts.json"]
+    : [`concepts.${lang}.json`, "concepts.fr.json", "concepts.json"];
+  const data = await loadDoc(paths);
+  return (data && typeof data === "object" && !Array.isArray(data)) ? data : {};
+}
+
 /* The build manifest (languages.json) carries per-language Anki download links.
  * Optional: the player still works if it's missing (downloads just hide). */
 async function loadManifest() {
@@ -202,9 +213,10 @@ async function loadManifest() {
 async function loadContent() {
   FELL_BACK = false; UNOFFICIAL = false;
   const data = await fetchBank(LANG);
-  if (!data) { BANK = []; META = {}; return false; }
+  if (!data) { BANK = []; META = {}; CONCEPTS = {}; return false; }
   BANK = data.questions || [];
   META = data.meta || {};
+  CONCEPTS = await fetchConcepts(LANG);
   UNOFFICIAL = String(META.unofficial || "") === "true" || META.unofficial === true;
   CFG = {
     questions: +META.exam_questions || 60,
@@ -916,7 +928,29 @@ function revealAnswer(q) {
   // Learn from this answer: a confident-but-wrong pick becomes a leech (hc).
   recordResult(q.id, scoreQuestion(q) > 0, state.confidence[q.id] === "sure");
   saveHistory();
-  $("explain-slot").innerHTML = diagnosticHtml(q, sel, correct) + explainHtml(q);
+  $("explain-slot").innerHTML =
+    diagnosticHtml(q, sel, correct) + explainHtml(q) + conceptHtml(q);
+}
+
+/* The "why" Learn card (roadmap group A): a collapsible explainer for the
+ * generative principle this question tests (IALA logic, the give-way hierarchy…),
+ * so a value or rule stops being arbitrary and becomes reconstructable. Shown
+ * only when a sourced concept exists for q.principle — otherwise nothing. */
+function conceptHtml(q) {
+  const c = q.principle && CONCEPTS[q.principle];
+  if (!c || !c.body) return "";
+  const p = c.prov || {};
+  const ref = p.ref || p.source || "";
+  const src = p.url
+    ? `<a href="${p.url}" target="_blank" rel="noopener">${escapeHtml(ref)}</a>`
+    : escapeHtml(ref);
+  const srcLine = ref
+    ? `<div class="src">${escapeHtml(T("sourceLabel"))}&nbsp;: ${src}</div>` : "";
+  const body = String(c.body).split(/\n\n+/)
+    .map((para) => `<p>${escapeHtml(para)}</p>`).join("");
+  const head = c.title ? `<h4>${escapeHtml(c.title)}</h4>` : "";
+  return `<details class="concept-card"><summary>${escapeHtml(T("learnWhy"))}</summary>
+    <div class="concept-body">${head}${body}${srcLine}</div></details>`;
 }
 
 /* Diagnostic distractor feedback: attach each choice's authored rationale (why

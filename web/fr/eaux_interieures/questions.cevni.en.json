@@ -66,6 +66,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -112,6 +113,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -158,6 +160,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -204,6 +207,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -250,6 +254,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -296,6 +301,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -342,6 +348,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "waterway-signs",
       "correct": [
         0
       ]
@@ -388,6 +395,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "sound-signals",
       "correct": [
         0
       ]
@@ -434,6 +442,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "nav-lights",
       "correct": [
         0
       ]
@@ -480,6 +489,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "waterway-signs",
       "correct": [
         0
       ]
@@ -526,6 +536,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -572,6 +583,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -618,6 +630,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "give-way",
       "correct": [
         0
       ]
@@ -664,6 +677,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -710,6 +724,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -756,6 +771,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -802,6 +818,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -848,6 +865,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -894,6 +912,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "waterway-signs",
       "correct": [
         0
       ]
@@ -940,6 +959,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "waterway-signs",
       "correct": [
         0
       ]
@@ -986,6 +1006,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "waterway-signs",
       "correct": [
         0
       ]
@@ -1032,6 +1053,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "waterway-signs",
       "correct": [
         0
       ]
@@ -1078,6 +1100,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "waterway-signs",
       "correct": [
         0
       ]
@@ -1124,6 +1147,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "give-way",
       "correct": [
         0
       ]
@@ -1170,6 +1194,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -1216,6 +1241,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -1262,6 +1288,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -1308,6 +1335,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -1354,6 +1382,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -1400,6 +1429,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -1446,6 +1476,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "give-way",
       "correct": [
         0
       ]
@@ -1492,6 +1523,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "give-way",
       "correct": [
         0
       ]
@@ -1538,6 +1570,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "sound-signals",
       "correct": [
         0
       ]
@@ -1584,6 +1617,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "give-way",
       "correct": [
         0
       ]
@@ -1630,6 +1664,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "give-way",
       "correct": [
         0
       ]
@@ -1676,6 +1711,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "give-way",
       "correct": [
         0
       ]
@@ -1722,6 +1758,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "give-way",
       "correct": [
         0
       ]
@@ -1768,6 +1805,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "sound-signals",
       "correct": [
         0
       ]
@@ -1814,6 +1852,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "give-way",
       "correct": [
         0
       ]
@@ -1860,6 +1899,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "sound-signals",
       "correct": [
         0
       ]
@@ -1906,6 +1946,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -1952,6 +1993,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -1998,6 +2040,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -2044,6 +2087,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "day-shapes",
       "correct": [
         0
       ]
@@ -2090,6 +2134,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "waterway-signs",
       "correct": [
         0
       ]
@@ -2136,6 +2181,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -2182,6 +2228,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "waterway-signs",
       "correct": [
         0
       ]
@@ -2228,6 +2275,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "day-shapes",
       "correct": [
         0
       ]
@@ -2274,6 +2322,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "waterway-signs",
       "correct": [
         0
       ]
@@ -2320,6 +2369,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "waterway-signs",
       "correct": [
         0
       ]
@@ -2366,6 +2416,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -2412,6 +2463,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "sound-signals",
       "correct": [
         0
       ]
@@ -2458,6 +2510,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "sound-signals",
       "correct": [
         0
       ]
@@ -2504,6 +2557,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "sound-signals",
       "correct": [
         0
       ]
@@ -2550,6 +2604,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -2596,6 +2651,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -2642,6 +2698,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "sound-signals",
       "correct": [
         0
       ]
@@ -2688,6 +2745,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "waterway-signs",
       "correct": [
         0
       ]
@@ -2734,6 +2792,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -2780,6 +2839,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -2826,6 +2886,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -2872,6 +2933,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -2918,6 +2980,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -2964,6 +3027,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -3010,6 +3074,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]
@@ -3056,6 +3121,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -3102,6 +3168,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "",
       "correct": [
         0
       ]
@@ -3148,6 +3215,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
+      "principle": "iala-buoyage",
       "correct": [
         0
       ]

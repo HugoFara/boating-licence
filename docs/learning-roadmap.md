@@ -101,10 +101,40 @@ through to the player automatically.
    B1 recall-first · B2 diagnostic feedback (figures now, `Choice.rationale` field
    wired for prose later) · C1 spaced + interleaved · C2 confidence + hypercorrection.
    Practice-mode settings persist in `localStorage`; exam mode untouched.
-2. **Group A — the "why" content layer.** Design the `concept` type; pilot one
-   theme end-to-end (meteorology for A1; buoyancy / 750 N for A2), then scale
-   authoring through the review gate.
+2. **Group A — the "why" content layer.** Design the `concept` type; pilot the
+   highest-leverage themes end-to-end, then scale authoring through the review gate.
 3. **Group D — transfer.** Principle tags → scenario pools.
+
+### Group A pilot — retargeted by the data (2026-05-31)
+
+The original A1/A2 pilots (meteorology; buoyancy / 750 N) were *hand-picked*. A
+count of the actual banks overturned them — they're the tail, not the head:
+
+| Reconstructable bucket | Questions (all banks, grounded langs) |
+|------------------------|--------------------------------------:|
+| **Signals** (marks, lights, day-shapes, sounds, waterway signs) | **~416** |
+| **Give-way** (steering & sailing rules)                          | **~251** |
+| meteorology *(was the A1 pilot)*                                 | ~49 |
+| safety *(holds the 750 N value)*                                 | 17 |
+
+Signals and give-way both dominate the corpus **and** are the most genuinely
+generative (a small rule-set reconstructs hundreds of answers). So the pilot is
+**signaux + priorité**, with 750 N kept as one A2 specimen inside the safety set.
+
+**Structural foundation built (this pass):**
+- `Concept` content type + additive `Question.principle` join key
+  (`src/questions/schema.py`), with idempotent migration + review-gated export.
+- Deterministic principle tagger (`src/questions/principles.py`): 6 principle
+  slugs across the two families; `python run.py concepts` tags every bank
+  (~870 questions tagged) and the web bundlers run it so the tag ships in the
+  question JSON.
+- Player **"Learn" card** (`web/app.js conceptHtml`): a collapsible per-principle
+  explainer shown at reveal/review, loaded from `concepts.<lang>.json`. Absent
+  bank → no card (graceful, still 100% offline).
+- Tests: `tests/test_concepts.py` (schema round-trip, review gate, tagger).
+
+**Remaining for Group A:** author the sourced concept bodies (sourced-only, never
+invented) behind the review gate — the cards light up the moment content exists.
 
 ## Settings the player gains (practice only)
 

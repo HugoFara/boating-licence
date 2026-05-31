@@ -88,11 +88,50 @@ class Question:
     generator: str = ""           # template id or model tag that produced it
     block: str = ""               # exam-paper block id (DE: basis/spezifisch_*/segeln/
                                   # navigation); "" for countries with no block structure
+    principle: str = ""           # generative rule this question tests, e.g.
+                                  # "iala-lateral" or "give-way-power-sail". Joins a
+                                  # question to its Concept "why" card (roadmap A/D1).
+                                  # Empty = no concept attached (graceful fallback).
 
     @property
     def correct(self) -> list[int]:
         """Indices of the correct choices (the multi-select answer)."""
         return [i for i, c in enumerate(self.choices) if c.is_correct]
+
+
+@dataclass
+class Concept:
+    """A reusable "why" explainer linked to the questions it underlies.
+
+    Concepts are authored at build time behind the review gate (like questions)
+    and shipped static, so the player stays offline. A question reaches its
+    concept through a shared ``principle`` tag, so one concept can underlie many
+    questions across themes. ``kind`` is one of:
+
+      * ``physical``  — meteorology / physics (why fog forms, why 750 N floats a
+                        head clear of the water). Natural law, not statute.
+      * ``legal``     — why the law *picked* a value. **Sourced-only, never
+                        invented** (memory/source-questions-never-recall): where no
+                        source states intent, explain what the value *guarantees*.
+      * ``principle`` — a generative rule the learner can apply to reconstruct
+                        answers (IALA lateral logic, the give-way hierarchy, the
+                        short/long sound-blast grammar).
+    """
+    id: str                       # stable slug, unique per (principle, lang)
+    principle: str                # join key, matches Question.principle
+    kind: str                     # physical | legal | principle
+    title: str
+    body: str                     # the explainer; may use blank-line paragraphs
+    lang: str = "fr"
+    prov_ref: str | None = None
+    prov_source: str | None = None
+    prov_url: str | None = None
+    prov_as_of: str | None = None
+    prov_licence: str | None = None
+    review_status: str = "draft"
+
+
+CONCEPT_KINDS = {"physical", "legal", "principle"}
 
 
 @dataclass
@@ -305,9 +344,26 @@ CREATE TABLE IF NOT EXISTS choices (
     is_correct  INTEGER NOT NULL,
     rationale   TEXT NOT NULL DEFAULT ''
 );
+CREATE TABLE IF NOT EXISTS concepts (
+    id            TEXT NOT NULL,
+    lang          TEXT NOT NULL,
+    principle     TEXT NOT NULL,
+    kind          TEXT NOT NULL,
+    title         TEXT NOT NULL,
+    body          TEXT NOT NULL,
+    prov_ref      TEXT,
+    prov_source   TEXT,
+    prov_url      TEXT,
+    prov_as_of    TEXT,
+    prov_licence  TEXT,
+    review_status TEXT NOT NULL DEFAULT 'draft',
+    PRIMARY KEY (id, lang)
+);
 CREATE INDEX IF NOT EXISTS idx_q_theme   ON questions(theme);
 CREATE INDEX IF NOT EXISTS idx_q_review  ON questions(review_status);
 CREATE INDEX IF NOT EXISTS idx_ch_q      ON choices(question_id);
+CREATE INDEX IF NOT EXISTS idx_c_princ   ON concepts(principle);
+CREATE INDEX IF NOT EXISTS idx_c_lang    ON concepts(lang);
 """
 
 
@@ -326,6 +382,8 @@ def _migrate(conn: sqlite3.Connection) -> None:
         conn.execute("ALTER TABLE questions ADD COLUMN lang TEXT NOT NULL DEFAULT 'fr'")
     if "block" not in cols:  # pre-block bank: backfill the exam-block column
         conn.execute("ALTER TABLE questions ADD COLUMN block TEXT NOT NULL DEFAULT ''")
+    if "principle" not in cols:   # pre-concept bank: backfill the principle tag
+        conn.execute("ALTER TABLE questions ADD COLUMN principle TEXT NOT NULL DEFAULT ''")
     ch_cols = {r[1] for r in conn.execute("PRAGMA table_info(choices)")}
     if "rationale" not in ch_cols:   # pre-feedback bank: backfill the per-choice note
         conn.execute("ALTER TABLE choices ADD COLUMN rationale TEXT NOT NULL DEFAULT ''")
@@ -350,12 +408,13 @@ def write_questions(conn: sqlite3.Connection, questions: list[Question],
         cur.execute(
             """INSERT INTO questions
                (id, theme, kind, lang, polarity, stem, image, points, explanation,
-                review_status, distractor_strategy, generator, block,
+                review_status, distractor_strategy, generator, block, principle,
                 prov_unit_id, prov_ref, prov_source, prov_url, prov_as_of, prov_licence)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
             (q.id, q.theme, q.kind, q.lang, q.polarity, q.stem, q.image, q.points,
              q.explanation, q.review_status, q.distractor_strategy, q.generator,
-             q.block, p.unit_id, p.ref, p.source, p.url, p.as_of, p.licence))
+             q.block, q.principle, p.unit_id, p.ref, p.source, p.url, p.as_of,
+             p.licence))
         for i, c in enumerate(q.choices):
             cur.execute(
                 "INSERT INTO choices (question_id, idx, text, image, is_correct, rationale) "
@@ -402,6 +461,7 @@ def _row_to_question(conn: sqlite3.Connection, r: sqlite3.Row) -> Question:
         explanation=r["explanation"], review_status=r["review_status"],
         distractor_strategy=r["distractor_strategy"], generator=r["generator"],
         block=(r["block"] if "block" in r.keys() else ""),
+        principle=(r["principle"] if "principle" in r.keys() else ""),
         choices=choices,
         provenance=Provenance(
             unit_id=r["prov_unit_id"], ref=r["prov_ref"], source=r["prov_source"],
@@ -463,4 +523,64 @@ def export_json(conn: sqlite3.Connection, path: str,
     conn.row_factory = None
     with open(path, "w", encoding="utf-8") as fh:
         json.dump({"meta": meta, "questions": out}, fh, ensure_ascii=False, indent=2)
+    return len(out)
+
+
+# --- concept persistence + export ("why" layer; roadmap group A / D1) ----------
+def write_concepts(conn: sqlite3.Connection, concepts: list[Concept]) -> None:
+    """Idempotent upsert (replace by id+lang). Validates kind first so a bad batch
+    never half-lands, mirroring write_questions."""
+    for c in concepts:
+        if c.kind not in CONCEPT_KINDS:
+            raise ValueError(f"concept {c.id}: unknown kind {c.kind!r}")
+        if not c.principle.strip():
+            raise ValueError(f"concept {c.id}: empty principle")
+    cur = conn.cursor()
+    for c in concepts:
+        cur.execute("DELETE FROM concepts WHERE id=? AND lang=?", (c.id, c.lang))
+        cur.execute(
+            """INSERT INTO concepts
+               (id, lang, principle, kind, title, body, prov_ref, prov_source,
+                prov_url, prov_as_of, prov_licence, review_status)
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?)""",
+            (c.id, c.lang, c.principle, c.kind, c.title, c.body, c.prov_ref,
+             c.prov_source, c.prov_url, c.prov_as_of, c.prov_licence,
+             c.review_status))
+    conn.commit()
+
+
+def load_concepts(conn: sqlite3.Connection, lang: str | None = None,
+                  exportable_only: bool = False) -> list[Concept]:
+    conn.row_factory = sqlite3.Row
+    sql = "SELECT * FROM concepts"
+    clauses, args = [], []
+    if lang is not None:
+        clauses.append("lang = ?"); args.append(lang)
+    if exportable_only:
+        ph = ",".join("?" * len(EXPORTABLE_STATUSES))
+        clauses.append(f"review_status IN ({ph})"); args.extend(EXPORTABLE_STATUSES)
+    if clauses:
+        sql += " WHERE " + " AND ".join(clauses)
+    rows = conn.execute(sql + " ORDER BY principle, lang", args).fetchall()
+    conn.row_factory = None
+    return [Concept(
+        id=r["id"], principle=r["principle"], kind=r["kind"], title=r["title"],
+        body=r["body"], lang=r["lang"], prov_ref=r["prov_ref"],
+        prov_source=r["prov_source"], prov_url=r["prov_url"],
+        prov_as_of=r["prov_as_of"], prov_licence=r["prov_licence"],
+        review_status=r["review_status"]) for r in rows]
+
+
+def export_concepts_json(conn: sqlite3.Connection, path: str, lang: str,
+                         exportable_only: bool = True) -> int:
+    """Dump one language's review-cleared concepts to JSON, keyed by principle so
+    the player can index by Question.principle. Returns the number written."""
+    concepts = load_concepts(conn, lang=lang, exportable_only=exportable_only)
+    out = {c.principle: {
+        "id": c.id, "kind": c.kind, "title": c.title, "body": c.body,
+        "prov": {"ref": c.prov_ref, "source": c.prov_source, "url": c.prov_url,
+                 "as_of": c.prov_as_of, "licence": c.prov_licence},
+    } for c in concepts}
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(out, fh, ensure_ascii=False, indent=2)
     return len(out)

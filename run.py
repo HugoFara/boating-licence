@@ -558,6 +558,7 @@ def _build_de_web(web: str, core_avail: dict | None = None) -> dict | None:
             json.dump(data, fh, ensure_ascii=False, indent=2)
         return len(data["questions"])
 
+    _learn_layer(conn, web_de, ["de"])               # principle tags + concept cards
     total = bundle("questions.json", None)          # back-compat (all langs = de)
     n_de = bundle("questions.de.json", "de")         # the player's preferred bundle
     meta = {k: v for k, v in conn.execute("SELECT key, value FROM meta")}
@@ -596,6 +597,27 @@ def _build_de_web(web: str, core_avail: dict | None = None) -> dict | None:
     with open(os.path.join(web_de, "index.html"), "w", encoding="utf-8") as fh:
         fh.write(_player_html("de", _countrybar("de"), title))
     return {"questions": n_de, "permits": len(permits), "copied": copied}
+
+
+def _learn_layer(conn, out_dir, langs):
+    """Roadmap group A/D1 plumbing, run per bundle:
+      * tag every question with its generative ``principle`` (deterministic, in
+        place) so the tag ships inside the question JSON via export_json;
+      * export any review-cleared concept "why" cards per language.
+    Concept files are written only when content exists — an empty bank ships no
+    file and the player just shows no Learn card (graceful, still 100% offline).
+    Must run BEFORE the question export so the principle tag is present."""
+    from src.questions import schema as qschema
+    from src.questions import principles as principlesmod
+    principlesmod.tag_questions(conn)
+    for lg in langs:
+        tmp = os.path.join(out_dir, f"_concepts.{lg}.tmp")
+        n = qschema.export_concepts_json(conn, tmp, lg, exportable_only=True)
+        dst = os.path.join(out_dir, f"concepts.{lg}.json")
+        if n:
+            os.replace(tmp, dst)
+        elif os.path.exists(tmp):
+            os.remove(tmp)
 
 
 def _build_ch_web(web: str, core_avail: dict | None = None) -> dict | None:
@@ -645,8 +667,9 @@ def _build_ch_web(web: str, core_avail: dict | None = None) -> dict | None:
             json.dump(data, fh, ensure_ascii=False, indent=2)
         return len(data["questions"])
 
-    total = bundle("questions.json", None)
     langs = qschema.languages_present(conn, exportable_only=True)
+    _learn_layer(conn, web_ch, langs)    # principle tags + concept cards (before export)
+    total = bundle("questions.json", None)
     per_lang = {lg: bundle(f"questions.{lg}.json", lg) for lg in langs}
 
     anki_dir, gift_dir = os.path.join(web_ch, "anki"), os.path.join(web_ch, "gift")
@@ -764,6 +787,7 @@ def _build_int_web(web: str, core_avail: dict | None = None) -> dict | None:
             json.dump(data, fh, ensure_ascii=False, indent=2)
         return len(data["questions"])
 
+    _learn_layer(conn, web_int, ["en"])  # principle tags + concept cards (before export)
     bundle("questions.json", None)
     n_en = bundle("questions.en.json", "en")
     conn.close()
@@ -974,6 +998,30 @@ def cmd_check_sources(args):
         sys.exit(1)
 
 
+def cmd_concepts(args):
+    """Tag every question bank with its generative `principle` — the join key for
+    the "why" concept cards (roadmap group A/D1). Deterministic + idempotent; the
+    web bundlers run this too, so this command is for inspecting coverage or
+    refreshing tags (incl. the France banks) without a full rebundle."""
+    import glob
+    from src.questions import schema as qschema
+    from src.questions import principles as principlesmod
+    total = tagged = 0
+    by: dict[str, int] = {}
+    for qdb in sorted(glob.glob(os.path.join(DATA, "questions.*.sqlite"))):
+        conn = qschema.connect(qdb)
+        st = principlesmod.tag_questions(conn, overwrite=args.overwrite)
+        conn.close()
+        total += st["total"]; tagged += st["tagged"]
+        for k, v in st["by_principle"].items():
+            by[k] = by.get(k, 0) + v
+        print(f"  {os.path.basename(qdb)}: +{st['tagged']} tagged / {st['total']}")
+    print(f"principle coverage: {tagged} newly tagged across {total} questions")
+    for k, v in sorted(by.items()):
+        print(f"  {v:5d}  {k}")
+    print("  rebundle to ship tags: python run.py web   (and python run.py fr)")
+
+
 def main():
     ap = argparse.ArgumentParser(description="Boating-licence pipeline")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -1027,6 +1075,10 @@ def main():
     r.add_argument("--reject", nargs="+", metavar="ID", help="reject question id(s)")
 
     sub.add_parser("web", help="bundle the bank into the static web/ player")
+    cc = sub.add_parser("concepts",
+                        help="tag banks with their generative principle (the 'why' join key)")
+    cc.add_argument("--overwrite", action="store_true",
+                    help="re-tag even questions that already carry a principle")
     sub.add_parser("fr", help="build the France permis plaisance banks + web/fr/ "
                               "players (seed-driven; see docs/france.md)")
     cs = sub.add_parser("check-sources", help="diff live upstream law/catalogues "
@@ -1052,7 +1104,7 @@ def main():
     {"fetch": cmd_fetch, "parse": cmd_parse, "build": cmd_build,
      "questions": cmd_questions, "draft": cmd_draft, "review": cmd_review,
      "web": cmd_web, "fr": cmd_fr, "check-sources": cmd_check_sources,
-     "validate": cmd_validate}[args.cmd](args)
+     "validate": cmd_validate, "concepts": cmd_concepts}[args.cmd](args)
 
 
 if __name__ == "__main__":
