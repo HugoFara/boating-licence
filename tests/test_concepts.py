@@ -5,11 +5,14 @@ gate on export, and the deterministic principle classifier.
 """
 import json
 import os
+import sys
 import tempfile
 
-from src.questions import schema
-from src.questions.schema import Question, Choice, Provenance, Concept
-from src.questions import principles
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from src.questions import schema                                    # noqa: E402
+from src.questions.schema import Question, Choice, Provenance, Concept  # noqa: E402
+from src.questions import principles                                # noqa: E402
 
 
 def _conn():
@@ -122,3 +125,11 @@ def test_tag_questions_fills_and_is_idempotent():
     st2 = principles.tag_questions(conn)
     assert st2["tagged"] == 0
     os.remove(path)
+
+
+if __name__ == "__main__":
+    fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
+    for fn in fns:
+        fn()
+        print(f"ok  {fn.__name__}")
+    print(f"\n{len(fns)} passed")
