@@ -1,0 +1,15 @@
+{
+  "iala-buoyage": {
+    "id": "iala-buoyage.fr",
+    "kind": "principle",
+    "title": "Balisage IALA région A : reconstituer une marque, pas la mémoriser",
+    "body": "En région A (Europe, dont la France), le balisage code le côté du chenal par la COULEUR et la FORME — de sorte qu'on peut retrouver le sens de n'importe quelle marque au lieu d'en apprendre la liste par cœur.\n\nLe sens de référence est « en venant du large » (de la mer vers le port) :\n— Bâbord : marque ROUGE, forme CYLINDRIQUE (« boîte ») ; on la laisse sur sa gauche en entrant.\n— Tribord : marque VERTE, forme CONIQUE ; on la laisse sur sa droite en entrant.\nLa forme répète l'information du côté : même à contre-jour ou de nuit, un cône reste « tribord » et un cylindre « bâbord ».\n\nLes autres marques ne bordent pas un chenal, elles qualifient un point :\n— Eaux saines (milieu de chenal / atterrissage) : bandes VERTICALES rouges et blanches, voyant sphérique rouge — pas de danger, on passe de chaque côté.\n— Marque spéciale : entièrement JAUNE (croix de Saint-André jaune) — signale une zone ou un dispositif (baignade, conduite immergée, zone réglementée), pas un danger en soi.\n\nLa règle pratique tient en une phrase : la couleur et la forme d'une marque latérale disent de quel côté passer — à condition de savoir d'où l'on « vient du large ».",
+    "prov": {
+      "ref": "Balisage IALA région A — marques latérales, eaux saines, marques spéciales",
+      "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+      "url": null,
+      "as_of": null,
+      "licence": null
+    }
+  }
+}

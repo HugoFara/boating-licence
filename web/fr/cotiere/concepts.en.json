@@ -1,0 +1,15 @@
+{
+  "iala-buoyage": {
+    "id": "iala-buoyage.en",
+    "kind": "principle",
+    "title": "IALA Region A buoyage: reconstruct a mark instead of memorising it",
+    "body": "In Region A (Europe, incl. France), buoyage encodes the side of the channel through COLOUR and SHAPE — so you can work out any mark rather than learning a list by heart.\n\nThe reference direction is \"coming from seaward\" (from the sea towards the harbour):\n— Port hand: RED mark, CYLINDRICAL (can) shape; leave it on your left when entering.\n— Starboard hand: GREEN mark, CONICAL shape; leave it on your right when entering.\nThe shape repeats the side: even against the light or at night, a cone is still \"starboard\" and a can \"port\".\n\nOther marks don't edge a channel — they qualify a point:\n— Safe water (mid-channel / landfall): VERTICAL red and white stripes, red spherical topmark — no danger, pass either side.\n— Special mark: all YELLOW (yellow St Andrew's cross) — marks a zone or installation (bathing, submerged pipe, restricted area), not a danger in itself.\n\nThe practical rule fits in one sentence: a lateral mark's colour and shape tell you which side to pass — once you know which way is \"from seaward\".",
+    "prov": {
+      "ref": "Balisage IALA région A — marques latérales, eaux saines, marques spéciales",
+      "source": "IALA — Système de balisage maritime, région A (Recommandation R1001)",
+      "url": null,
+      "as_of": null,
+      "licence": null
+    }
+  }
+}

@@ -20,6 +20,7 @@ import os
 
 from ..questions import schema as qschema
 from ..questions import principles as principlesmod
+from ..questions import seed_concepts
 from ..questions.schema import Question, Choice, Provenance, make_question_id, validate
 from .. import scope
 from . import sources_fr, exam_fr, themes_fr, derive_fr
@@ -371,10 +372,20 @@ def build() -> dict:
 
         # Per-language bank JSON (player-shaped, with per-lang chrome in meta).
         langs_present = [lg for lg in LANGS if by_lang[lg]]
+        # Load the sourced "why" concept cards that apply to this bank (group A);
+        # only the principles present here will ever surface them.
+        qschema.write_concepts(
+            conn, seed_concepts.concepts_for(f"fr_{option}", langs_present))
         for lg in langs_present:
             payload = _bank_json(by_lang[lg], cfg, chrome[lg], lg, generated)
             _write(os.path.join(out_dir, f"questions.{lg}.json"),
                    json.dumps(payload, ensure_ascii=False, indent=2))
+            # concept "why" cards for this language (only written when content exists)
+            ctmp = os.path.join(out_dir, f"_concepts.{lg}.tmp")
+            if qschema.export_concepts_json(conn, ctmp, lg, exportable_only=True):
+                os.replace(ctmp, os.path.join(out_dir, f"concepts.{lg}.json"))
+            elif os.path.exists(ctmp):
+                os.remove(ctmp)
         # Canonical fallback file (FR), matching the player's fetch chain.
         _write(os.path.join(out_dir, "questions.json"),
                json.dumps(_bank_json(by_lang["fr"], cfg, chrome["fr"], "fr", generated),
