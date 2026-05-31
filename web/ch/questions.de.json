@@ -1,7 +1,7 @@
 {
   "meta": {
-    "kb_version": "2026-05-30",
-    "generated": "2026-05-30",
+    "kb_version": "2026-05-31",
+    "generated": "2026-05-31",
     "generators": "tmpl:figure_recognition.v1",
     "exam_questions": "60",
     "total_points": "180",

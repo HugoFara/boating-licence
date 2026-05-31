@@ -36,11 +36,14 @@ PERMIS_THEMES: dict[str, tuple[str, ...]] = {
           "matelotage", "eaux_frontalieres", "voile"),
 }
 
-# Themes that are scaffolded ahead of having a source. No public-domain law text
-# defines sailing *technique* (points of sail, sail trim, capsize recovery…), so
-# `voile` carries no KB units until a freely-licensed source is authored behind
-# the review gate. The normalize stage excuses these from its "missing theme"
-# warning so a stock build stays clean.
+# Extension themes: present in a permit's theme set but NOT part of the official
+# theory exam. `voile` (sailing technique — points of sail, tacking/gybing, rig,
+# capsize) is study content for the cat-D *practical*; the cat-A/cat-D theory paper
+# is identical and excludes it. It is grounded in the dedicated voile_wp Wikipedia
+# sources (pin_theme="voile"; see src/sources.py) — no public-domain law defines
+# sailing technique — and the player surfaces it as a study-only domain for cat-D,
+# kept out of exam-mode draws. The normalize stage also excuses these from its
+# "missing theme" warning so a build with no voile source still stays clean.
 EXTENSION_THEMES: frozenset[str] = frozenset({"voile"})
 
 # Keyword heuristics, evaluated in priority order. The first theme whose pattern
@@ -89,15 +92,14 @@ _RULES: list[tuple[str, re.Pattern[str]]] = [
     ("matelotage", re.compile(
         r"\b(matelotage|n[oœ]ud|amarr|mouillage|ancre|cordage|bitte|taquet|"
         r"demi-cl[eé]|chaise)\b")),
-    # Sailing *technique* (the cat-D voile theme). Deliberately high-precision and
-    # NOT the bare word "voile": cat-A right-of-way law mentions "bateau à voile"
-    # and must stay in `lois`. We match the manoeuvre/rigging vocabulary instead,
-    # which doesn't occur in the motorboat navigation rules.
-    ("voile", re.compile(
-        r"\b(allures?|pr[eè]s (du vent|serr[eé])|vent arri[eè]re|au largue|"
-        r"empann(age|er)|virement de bord|virer de bord|louvoy|"
-        r"g[iî]t(e|er)|dessal(age|er)|gr[eé]ement|gr[eé]er|grand-voile|"
-        r"foc|g[eé]nois|spi(nnaker)?|b[oô]me|surface v[eé]lique|border la voile)\b")),
+    # NB: there is no keyword rule for `voile`. Sailing-technique vocabulary
+    # (surface vélique, gréement, gîte, vent arrière, allures…) also appears in the
+    # *law* — ONI art. 79 defines the cat-D permit by "surface vélique > 15 m²",
+    # art. 134/137/153 mention gréement/gîte — so any keyword rule mis-tags those
+    # articles as voile and pulls them out of `lois`. `voile` is therefore a
+    # PIN-ONLY theme: only the dedicated voile_wp Wikipedia sources (pin_theme=
+    # "voile") carry it; law text keeps its proper theme. See PERMIS_THEMES /
+    # EXTENSION_THEMES above and src/sources.py.
     ("eaux_frontalieres", re.compile(
         r"\b(l[eé]man|fronti[eè]re|franco-suisse|france|eaux fronta)\b")),
     # Note: there is no loose "definitions" keyword rule. A bare "définition" /

@@ -16,7 +16,7 @@
       "unofficial": true
     },
     "fr": {
-      "count": 211,
+      "count": 218,
       "unofficial": false
     },
     "it": {
@@ -32,7 +32,15 @@
       "label": "Permis A — bateau à moteur",
       "note": "Bateau à moteur dont la puissance dépasse 6 kW (4,4 kW sur le lac de Constance).",
       "questions": 60,
-      "mandatory": true
+      "mandatory": true,
+      "themes": [
+        "definitions",
+        "meteorologie",
+        "lois",
+        "signalisation",
+        "matelotage",
+        "eaux_frontalieres"
+      ]
     },
     {
       "code": "D",
@@ -41,8 +49,20 @@
       "label": "Permis D — voile",
       "note": "Bateau à voile dont la surface vélique dépasse 15 m² (12 m² sur le lac de Constance). Examen théorique identique au permis A ; seule l’épreuve pratique diffère.",
       "questions": 60,
-      "mandatory": true
+      "mandatory": true,
+      "themes": [
+        "definitions",
+        "meteorologie",
+        "lois",
+        "signalisation",
+        "matelotage",
+        "eaux_frontalieres",
+        "voile"
+      ]
     }
+  ],
+  "extension_themes": [
+    "voile"
   ],
   "cantons": [
     {
@@ -80,7 +100,7 @@
       },
       "fr": {
         "path": "../questions.universal.fr.json",
-        "count": 53
+        "count": 60
       },
       "it": {
         "path": "../questions.universal.it.json",
@@ -136,7 +156,7 @@
     "fr": {
       "apkg": "anki/boat-permit.fr.apkg",
       "tsv": "anki/boat-permit.fr.tsv",
-      "count": 211,
+      "count": 218,
       "images": 91
     },
     "it": {
@@ -157,7 +177,7 @@
     },
     "fr": {
       "gift": "gift/boat-permit.fr.gift",
-      "count": 211
+      "count": 218
     },
     "it": {
       "gift": "gift/boat-permit.it.gift",

@@ -670,7 +670,8 @@ def _build_ch_web(web: str, core_avail: dict | None = None) -> dict | None:
     # `label`/`note` here are the FR fallback. The player honours these only when
     # the bank is point-scored, so emitting them is harmless for the canton picker.
     from src import jurisdictions
-    ch_permits = countries.get("CH").permits
+    ch_country = countries.get("CH")
+    ch_permits = ch_country.permits
     permits = [{
         "code": p.code,
         "drive": p.drive,
@@ -679,6 +680,7 @@ def _build_ch_web(web: str, core_avail: dict | None = None) -> dict | None:
         "note": p.note,
         "questions": p.exam.questions,
         "mandatory": p.mandatory,
+        "themes": list(p.themes),
     } for p in ch_permits.values()]
     manifest = {
         "default": qschema.DEFAULT_LANG,
@@ -687,6 +689,10 @@ def _build_ch_web(web: str, core_avail: dict | None = None) -> dict | None:
                            "unofficial": lg not in qschema.GROUNDED_LANGS}
                       for lg in langs},
         "permits": permits,
+        # Themes that are study-only (NOT on the official theory exam): the player
+        # shows them as a study domain for permits that include them, but keeps them
+        # out of exam-mode draws. CH: `voile` for cat-D.
+        "extension_themes": sorted(ch_country.extension_themes),
         "cantons": cantons.as_manifest(),
         "canton_default": cantons.DEFAULT_CANTON,
         "core": _core_refs(core_avail, sorted(qschema.LANGS)),

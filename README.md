@@ -170,8 +170,12 @@ The **category-A motorboat** theory exam, standardized intercantonally by the **
   (localized fr/de/it/en); since the theory is shared, the picker is informational and
   the question pool is the same for A and D today. cat-A is the fully-grounded six-theme
   target (Définitions, Météorologie, Lois, Signalisation, Matelotage, Eaux frontalières);
-  cat-D adds an optional `voile` **study** theme (sailing technique — for the practical,
-  not the official theory paper) that awaits a freely-licensed source.
+  cat-D adds a `voile` **study** theme (sailing technique — for the practical, not the
+  official theory paper), grounded in CC BY-SA Wikipedia (`voile_wp`, **pin-only** so
+  the sailing vocab in the law isn't mis-tagged) and authored behind the review gate.
+  The player shows it as a cat-D-only study domain (marked ✦) and **excludes it from
+  exam-mode draws**; cat-A never sees it. Questions are FR today (DE/IT sources ingested
+  for later authoring).
 - **Build:** `python run.py build` + `python run.py questions` → `web/` (the default,
   so a bare build is the Swiss build).
 

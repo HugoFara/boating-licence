@@ -4,10 +4,10 @@ Cat-D shares the whole cat-A core and adds one extension theme, `voile`, for
 sailing technique. This checks the scaffold's invariants:
   * `voile` is a real theme and an exam-profile registry exists (A / D);
   * the cat-D profile draws from the cat-A core PLUS voile;
-  * sailing *technique* vocabulary tags to `voile`, but cat-A right-of-way law
-    that merely mentions "bateau à voile" stays in `lois` (the precision the
-    rule was written for);
-  * `voile` is excused from normalize's "missing theme" warning (no source yet).
+  * `voile` is PIN-ONLY: it is tagged only on the dedicated voile_wp Wikipedia
+    sources (pin_theme), never by keyword — otherwise law articles that mention
+    sailing vocab ("surface vélique", "gréement", "gîte") get stolen out of `lois`;
+  * `voile` is excused from normalize's "missing theme" warning.
 
 Run with `python tests/test_voile.py`.
 """
@@ -51,17 +51,27 @@ def test_unknown_permis_raises():
         raise AssertionError("expected ValueError for unknown permis")
 
 
-def test_sailing_technique_tags_to_voile():
+def test_voile_is_pin_only_never_keyword_tagged():
+    # voile is sourced ONLY from the dedicated voile_wp sources (pin_theme); the
+    # keyword tagger must NEVER return voile. Sailing vocab also appears in the LAW
+    # (ONI art. 79 defines cat-D by "surface vélique > 15 m²", art. 134/137/153
+    # mention gréement/gîte), so a keyword rule would mis-tag those articles.
     for text in ("Les allures : au près, au largue, vent arrière",
                  "Le virement de bord et l'empannage",
                  "Réglage du foc et de la grand-voile",
                  "Surface vélique de 12 m2"):
-        assert themes.tag_theme(text=text) == "voile", text
+        assert themes.tag_theme(text=text) != "voile", text
+
+
+def test_voile_source_pins_the_theme():
+    from src import sources
+    vw = sources.BY_ID["voile_wp"]
+    assert vw.kind == "wikipedia" and vw.pin_theme == "voile"
 
 
 def test_right_of_way_law_stays_lois():
     # cat-A priority rules mention "bateau à voile" but are navigation LAW, not
-    # sailing technique — the voile rule must not steal them.
+    # sailing technique — the voile theme must not steal them.
     text = "Le bateau à voile a la priorité sur le bateau à moteur."
     assert themes.tag_theme(text=text) == "lois"
 

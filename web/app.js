@@ -177,11 +177,31 @@ function applyStaticStrings() {
   $("t-foottagline").textContent = T("footTagline");
 }
 
-/* Themes present in the loaded bank, in the canonical exam order, with counts. */
+/* Study-only themes (e.g. CH `voile`): shown as a study domain for permits that
+ * include them, but kept out of exam-mode draws (they aren't on the theory exam). */
+function extensionThemes() {
+  return new Set(Array.isArray(MANIFEST.extension_themes) ? MANIFEST.extension_themes : []);
+}
+
+/* The active permit's theme set, or null when permits don't scope themes (the DE
+ * blocks permits and the no-permit France/INT players). cat-A → 6 core themes
+ * (voile hidden); cat-D → +voile. */
+function permitThemeSet() {
+  const p = currentPermit();
+  return p && Array.isArray(p.themes) ? new Set(p.themes) : null;
+}
+
+/* Themes present in the loaded bank, in the canonical exam order, with counts.
+ * When the active permit scopes themes, the bank is narrowed to that set — so
+ * cat-A never offers `voile` while cat-D does. */
 function domainsPresent() {
   const order = Object.keys(THEME_LABELS[DEFAULT_LANG]);
+  const scope = permitThemeSet();
   const count = {};
-  for (const q of BANK) count[q.theme] = (count[q.theme] || 0) + 1;
+  for (const q of BANK) {
+    if (scope && !scope.has(q.theme)) continue;
+    count[q.theme] = (count[q.theme] || 0) + 1;
+  }
   const present = Object.keys(count);
   present.sort((a, b) => order.indexOf(a) - order.indexOf(b));
   return present.map((t) => ({ theme: t, n: count[t] }));
@@ -227,14 +247,17 @@ function renderDomains() {
   const dom = domainsPresent();
   if (dom.length <= 1) { box.innerHTML = ""; return; }   // nothing to choose
   const sel = new Set(activeDomains());
+  const ext = extensionThemes();
   const all = sel.size === dom.length;
   $("t-domains").textContent = T("chooseDomains");
   // "Select all" appears only while a subset is active (an empty set is forbidden,
-  // so there's no meaningful "deselect all" state).
+  // so there's no meaningful "deselect all" state). A study-only theme (e.g. voile)
+  // is flagged with a ✦ + tooltip: it's practice content, not part of the exam draw.
   box.innerHTML = dom.map((d) => {
     const on = sel.has(d.theme);
+    const study = ext.has(d.theme);
     return `<button class="chip ${on ? "on" : ""}" data-theme="${d.theme}"
-      aria-pressed="${on}">${escapeHtml(themeLabel(LANG, d.theme))}
+      aria-pressed="${on}"${study ? ` title="${escapeHtml(T("studyOnly"))}"` : ""}>${escapeHtml(themeLabel(LANG, d.theme))}${study ? " ✦" : ""}
       <span class="chipn">${d.n}</span></button>`;
   }).join("") +
     (all ? "" : `<button class="chip allbtn" data-all="1">${T("domainAll")}</button>`);
@@ -589,7 +612,13 @@ function startRun(mode) {
   if (mode === "exam" && blocksMode()) {
     questions = drawByBlocks(currentPermit());
   } else {
-    const pool = bankForRun();
+    let pool = bankForRun();
+    // An exam mirrors the official theory paper, which excludes study-only themes
+    // (CH cat-D `voile` is practical prep, not theory) — drop them from the draw.
+    if (mode === "exam") {
+      const ext = extensionThemes();
+      if (ext.size) pool = pool.filter((q) => !ext.has(q.theme));
+    }
     const n = Math.min(CFG.questions, pool.length);
     questions = mode === "practice" ? shuffle(pool.slice()) : drawBalanced(pool.slice(), n);
   }

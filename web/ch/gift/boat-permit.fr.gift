@@ -1345,7 +1345,7 @@ $CATEGORY: Permis bateau · Léman (FR)/Matelotage
 =C’est un nœud de boucle fiable qui ne glisse pas sous tension et se dénoue facilement
 ~Il se resserre de plus en plus sous tension jusqu’à devenir indénouable
 ~Il sert uniquement à raccorder deux cordages de même diamètre
-####[html]Le nœud de chaise est une boucle fiable qui ne glisse pas et se dénoue aisément.<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Nœud_de_chaise">Matelotage — Nœud de chaise \: Roi des nœuds — Wikipédia — nœuds marins (matelotage) (236353098)</a>
+####[html]Le nœud de chaise est une boucle fiable qui ne glisse pas et se dénoue aisément.<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Nœud_de_chaise">Matelotage — Nœud de chaise \: Roi des nœuds — Wikipédia (FR) — nœuds marins (matelotage) (236353098)</a>
 }
 
 ::q-matelotagewp-matelotagenœudlienganses-27-7c977b8a:: [html]D'après le texte, qu'est-ce qu'une ganse ? {
@@ -1488,4 +1488,55 @@ $CATEGORY: Permis bateau · Léman (FR)/Eaux frontalières
 ~Au moins 500 N par personne
 ~Au moins 100 N par personne
 ####[html]Selon le RNL art. 86f, al. 2, let. b, la force de sustentation en eau douce doit être d'au moins 750 N par personne.<br>Source \: <a href\="https\://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr">RNL art. 86f — Règlement de la navigation sur le Léman (RNL), RS 747.221.1 (2019-06-01)</a>
+}
+
+$CATEGORY: Permis bateau · Léman (FR)/Navigation à voile
+
+::q-voilewp-voilealluremarineleventarrière-e-0a738f3d:: [html]Qu’observe-t-on à l’allure du vent arrière ? {
+=Le roulis s’accentue et l’empannage menace
+~La vitesse devient maximale, supérieure à celle du grand largue
+~Le voilier ne peut plus avancer car il est face au vent
+####[html]Au vent arrière l’écoulement de l’air est perturbé \: la vitesse diminue par rapport au grand largue, le roulis s’accentue et l’empannage menace.<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Allure_(marine)">Voile — Allure (marine) \: Le vent arrière — Wikipédia (FR) — navigation à voile (technique) (223790627)</a>
+}
+
+::q-voilewp-voilealluremarineleventdebout-b2-84b9e882:: [html]À l’allure du vent debout, que doit faire le voilier pour pouvoir progresser à l’aide de ses voiles ? {
+=S’écarter d’environ 45° de l’axe du vent (30° sur les voiliers de régate les plus performants)
+~Maintenir son cap exactement face au vent en bordant ses voiles au maximum
+~Établir le spinnaker pour capter le vent venant de l’avant
+####[html]Face au vent (vent debout) le voilier ne peut pas avancer \: il doit s’écarter d’environ 45° de l’axe du vent (30° en régate) et louvoyer.<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Allure_(marine)">Voile — Allure (marine) \: Le vent debout — Wikipédia (FR) — navigation à voile (technique) (223790627)</a>
+}
+
+::q-voilewp-voilealluremarinetribordamuresbâ-dff7d8c0:: [html]Quand dit-on qu’un voilier est « tribord amures » ? {
+=Lorsque le vent vient de la droite par rapport à l’axe du navire
+~Lorsqu’il navigue vent arrière, les voiles en ciseaux
+~Lorsqu’il a la priorité sur tous les autres bateaux du plan d’eau
+####[html]Le voilier est tribord amures quand le vent vient de la droite (tribord) ; bâbord amures dans le cas inverse. Ces distinctions fondent les règles de priorité entre voiliers.<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Allure_(marine)">Voile — Allure (marine) \: Tribord amures, bâbord amures — Wikipédia (FR) — navigation à voile (technique) (223790627)</a>
+}
+
+::q-voilewp-voilechaviragesourceduphénomène--545c2456:: [html]Sur un dériveur léger de sport, comment nomme-t-on couramment le chavirage et quelle en est la nature ? {
+=Le « dessalage » \: il est courant et sans gravité
+~Le « naufrage » \: il entraîne presque toujours la perte du bateau
+~L’« auloffée » \: elle ne survient qu’au près serré
+####[html]Sur un dériveur léger, le chavirage — dit dessalage — est courant et sans gravité ; il vient d’une recherche excessive de vitesse ou d’un mauvais placement des équipiers.<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Chavirage">Voile — Chavirage \: Source du phénomène — Wikipédia (FR) — navigation à voile (technique) (231891130)</a>
+}
+
+::q-voilewp-voileempannagedéfinition-34dc964-140101a0:: [html]Qu’est-ce qui caractérise l’empannage par rapport au virement de bord ? {
+=Le changement d’amure se fait en passant par le vent arrière
+~Le changement d’amure se fait en passant par le vent debout
+~Il ne modifie pas l’orientation des voiles
+####[html]L’empannage change d’amure en passant par le vent arrière ; passer par le vent debout est au contraire un virement de bord.<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Empannage">Voile — Empannage \: Définition — Wikipédia (FR) — navigation à voile (technique) (236265378)</a>
+}
+
+::q-voilewp-voilefocprésentation-30eec01b-3c162be6:: [html]Qu’est-ce que le foc sur un voilier ? {
+=Une voile d’avant de forme triangulaire, retenue à l’étai par son guindant
+~La voile principale gréée en arrière du mât
+~Un câble du gréement dormant qui maintient le mât
+####[html]Le foc est une voile d’avant triangulaire retenue à l’étai par son guindant ; il joue un rôle primordial dans la réussite du virement de bord.<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Foc">Voile — Foc \: Présentation — Wikipédia (FR) — navigation à voile (technique) (227846382)</a>
+}
+
+::q-voilewp-voilevirementdebordprincipe-90e4-ab0e8dba:: [html]Que se passe-t-il lors d’un virement de bord ? {
+=Le côté du bateau qui était sous le vent passe au vent, et vice-versa
+~Le voilier conserve la même amure tout au long de la manœuvre
+~La manœuvre se fait obligatoirement en passant par le vent arrière
+####[html]Au virement de bord, le côté qui était sous le vent passe au vent (changement d’amure par le vent debout).<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Virement_de_bord">Voile — Virement de bord \: Principe — Wikipédia (FR) — navigation à voile (technique) (220344446)</a>
 }

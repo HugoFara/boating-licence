@@ -35,14 +35,28 @@ sont localisés côté lecteur par code (`permit_<code>` / `permitNote_<code>` d
 **ne change pas** le pool de questions aujourd'hui ; le sélecteur affiche la catégorie
 ciblée et son seuil. Le pool ne divergera qu'une fois le thème `voile` alimenté.
 
-Le `voile` n'a **aucune source de droit relevant du domaine public** (la technique de
-voile n'est pas du texte d'ordonnance) — il ne porte donc aucune question tant qu'une
-source librement licenciée n'est pas rédigée derrière la barrière de relecture (c'est
-l'objet de l'extension « contenu d'étude voile »). Il s'agit d'un **complément
-d'étude** pour l'épreuve pratique, pas d'une partie du sujet théorique officiel. La
-règle de tag est volontairement de haute précision, de sorte que le droit cat-A de
-priorité qui mentionne « bateau à voile » reste dans `lois`, et un build cat-A
-standard n'avertit pas du thème vide.
+La technique de voile n'étant pas du texte d'ordonnance, le thème `voile` est
+**alimenté par Wikipédia** (CC BY-SA, attribution requise) via des sources dédiées
+`voile_wp` / `_de` / `_it` (`src/sources.py`) : allures, virement de bord, empannage,
+louvoyage, gréement, foc, spinnaker, chavirage/dessalage. Les questions sont
+**rédigées à partir du texte de ces unités** (jamais de mémoire) puis passées par la
+barrière de relecture — voir `src/questions/seed_prose.py` et `data/seed_review.json`.
+
+`voile` est un thème **PIN-ONLY et hors examen** :
+
+- **pin-only** : il n'est tagué que sur les sources `voile_wp` (`pin_theme="voile"`).
+  Il n'existe **aucune** règle de mots-clés pour `voile`, car le vocabulaire de voile
+  apparaît aussi dans le *droit* (ONI art. 79 définit la cat-D par « surface vélique
+  > 15 m² », art. 134/137/153 mentionnent gréement/gîte) — une règle de tag volerait
+  ces articles à `lois`. C'est le sens du garde-fou dans `tests/test_voile.py`.
+- **hors examen** : `voile` est dans `EXTENSION_THEMES`. Le lecteur le présente comme
+  un **domaine d'étude pour la cat-D uniquement** (marqué ✦), l'exclut du tirage en
+  *mode examen* (il n'est pas au sujet théorique, identique A/D) et ne l'affiche pas
+  du tout pour la cat-A. Le manifeste porte `permits[].themes` + `extension_themes`
+  pour piloter ce filtrage côté lecteur.
+
+Contenu actuel : questions de voile rédigées en **français** (les sources DE/IT sont
+ingérées pour permettre une rédaction ultérieure dans ces langues).
 
 ## Structure de l'examen
 

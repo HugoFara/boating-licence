@@ -162,6 +162,7 @@ const STRINGS = {
     chooseCanton: "Canton (durée de l’examen) :",
     choosePermit: "Permis (épreuve) :",
     cfgPermit: "Permis",
+    studyOnly: "Thème d’étude (épreuve pratique) — hors examen théorique.",
     permit_A: "Permis A — bateau à moteur",
     permit_D: "Permis D — voile",
     permitNote_A: "Bateau à moteur dont la puissance dépasse 6 kW " +
@@ -250,6 +251,7 @@ const STRINGS = {
     chooseDomains: "Nach Themen üben:",
     chooseCanton: "Kanton (Prüfungsdauer):",
     choosePermit: "Führerscheinart:",
+    studyOnly: "Lernthema (praktische Prüfung) — nicht in der Theorieprüfung.",
     permit_A: "Kat. A — Motorboot",
     permit_D: "Kat. D — Segelboot",
     permitNote_A: "Motorboot mit einer Leistung über 6 kW " +
@@ -339,6 +341,7 @@ const STRINGS = {
     chooseDomains: "Ripassa per tema:",
     chooseCanton: "Cantone (durata dell’esame):",
     choosePermit: "Categoria (esame):",
+    studyOnly: "Tema di studio (prova pratica) — non nell’esame teorico.",
     permit_A: "Cat. A — barca a motore",
     permit_D: "Cat. D — barca a vela",
     permitNote_A: "Barca a motore di potenza superiore a 6 kW " +
@@ -419,6 +422,7 @@ const STRINGS = {
     chooseDomains: "Study by topic:",
     chooseCanton: "Canton (exam duration):",
     choosePermit: "Category (exam):",
+    studyOnly: "Study topic (practical exam) — not on the theory test.",
     permit_A: "Cat. A — motorboat",
     permit_D: "Cat. D — sailing",
     permitNote_A: "Motorboat with more than 6 kW of power " +

@@ -1,7 +1,7 @@
 {
   "meta": {
-    "kb_version": "2026-05-30",
-    "generated": "2026-05-30",
+    "kb_version": "2026-05-31",
+    "generated": "2026-05-31",
     "generators": "tmpl:figure_recognition.v1",
     "exam_questions": "60",
     "total_points": "180",
@@ -1982,10 +1982,10 @@
       "provenance": {
         "unit_id": "matelotage_wp-matelotage__nœud_de_chaise__roi_des_nœuds-0611e1ab",
         "ref": "Matelotage — Nœud de chaise : Roi des nœuds",
-        "source": "Wikipédia — nœuds marins (matelotage)",
+        "source": "Wikipédia (FR) — nœuds marins (matelotage)",
         "url": "https://fr.wikipedia.org/wiki/Nœud_de_chaise",
         "as_of": "236353098",
-        "licence": "CC BY-SA 4.0 — Wikipédia, attribution required."
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
       },
       "lang": "fr",
       "polarity": "affirmative",
@@ -9095,6 +9095,307 @@
       "block": "",
       "correct": [
         2
+      ]
+    },
+    {
+      "id": "q-voilewp-voilealluremarineleventarrière-e-0a738f3d",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Qu’observe-t-on à l’allure du vent arrière ?",
+      "choices": [
+        {
+          "text": "Le roulis s’accentue et l’empannage menace",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La vitesse devient maximale, supérieure à celle du grand largue",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Le voilier ne peut plus avancer car il est face au vent",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__allure_marine__le_vent_arrière-e1125cb6",
+        "ref": "Voile — Allure (marine) : Le vent arrière",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Allure_(marine)",
+        "as_of": "223790627",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Au vent arrière l’écoulement de l’air est perturbé : la vitesse diminue par rapport au grand largue, le roulis s’accentue et l’empannage menace.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilealluremarineleventdebout-b2-84b9e882",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "À l’allure du vent debout, que doit faire le voilier pour pouvoir progresser à l’aide de ses voiles ?",
+      "choices": [
+        {
+          "text": "S’écarter d’environ 45° de l’axe du vent (30° sur les voiliers de régate les plus performants)",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Maintenir son cap exactement face au vent en bordant ses voiles au maximum",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Établir le spinnaker pour capter le vent venant de l’avant",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__allure_marine__le_vent_debout-b2feba4f",
+        "ref": "Voile — Allure (marine) : Le vent debout",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Allure_(marine)",
+        "as_of": "223790627",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Face au vent (vent debout) le voilier ne peut pas avancer : il doit s’écarter d’environ 45° de l’axe du vent (30° en régate) et louvoyer.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilealluremarinetribordamuresbâ-dff7d8c0",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Quand dit-on qu’un voilier est « tribord amures » ?",
+      "choices": [
+        {
+          "text": "Lorsque le vent vient de la droite par rapport à l’axe du navire",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Lorsqu’il navigue vent arrière, les voiles en ciseaux",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Lorsqu’il a la priorité sur tous les autres bateaux du plan d’eau",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__allure_marine__tribord_amures_bâbord_amur-d3eab947",
+        "ref": "Voile — Allure (marine) : Tribord amures, bâbord amures",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Allure_(marine)",
+        "as_of": "223790627",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Le voilier est tribord amures quand le vent vient de la droite (tribord) ; bâbord amures dans le cas inverse. Ces distinctions fondent les règles de priorité entre voiliers.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilechaviragesourceduphénomène--545c2456",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Sur un dériveur léger de sport, comment nomme-t-on couramment le chavirage et quelle en est la nature ?",
+      "choices": [
+        {
+          "text": "Le « dessalage » : il est courant et sans gravité",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le « naufrage » : il entraîne presque toujours la perte du bateau",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "L’« auloffée » : elle ne survient qu’au près serré",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__chavirage__source_du_phénomène-8caa9d29",
+        "ref": "Voile — Chavirage : Source du phénomène",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Chavirage",
+        "as_of": "231891130",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Sur un dériveur léger, le chavirage — dit dessalage — est courant et sans gravité ; il vient d’une recherche excessive de vitesse ou d’un mauvais placement des équipiers.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voileempannagedéfinition-34dc964-140101a0",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Qu’est-ce qui caractérise l’empannage par rapport au virement de bord ?",
+      "choices": [
+        {
+          "text": "Le changement d’amure se fait en passant par le vent arrière",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le changement d’amure se fait en passant par le vent debout",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Il ne modifie pas l’orientation des voiles",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__empannage__définition-34dc9648",
+        "ref": "Voile — Empannage : Définition",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Empannage",
+        "as_of": "236265378",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "L’empannage change d’amure en passant par le vent arrière ; passer par le vent debout est au contraire un virement de bord.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilefocprésentation-30eec01b-3c162be6",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Qu’est-ce que le foc sur un voilier ?",
+      "choices": [
+        {
+          "text": "Une voile d’avant de forme triangulaire, retenue à l’étai par son guindant",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "La voile principale gréée en arrière du mât",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "Un câble du gréement dormant qui maintient le mât",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__foc__présentation-30eec01b",
+        "ref": "Voile — Foc : Présentation",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Foc",
+        "as_of": "227846382",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Le foc est une voile d’avant triangulaire retenue à l’étai par son guindant ; il joue un rôle primordial dans la réussite du virement de bord.",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-voilewp-voilevirementdebordprincipe-90e4-ab0e8dba",
+      "theme": "voile",
+      "kind": "rule_mc",
+      "stem": "Que se passe-t-il lors d’un virement de bord ?",
+      "choices": [
+        {
+          "text": "Le côté du bateau qui était sous le vent passe au vent, et vice-versa",
+          "image": null,
+          "is_correct": true
+        },
+        {
+          "text": "Le voilier conserve la même amure tout au long de la manœuvre",
+          "image": null,
+          "is_correct": false
+        },
+        {
+          "text": "La manœuvre se fait obligatoirement en passant par le vent arrière",
+          "image": null,
+          "is_correct": false
+        }
+      ],
+      "provenance": {
+        "unit_id": "voile_wp-voile__virement_de_bord__principe-90e4d950",
+        "ref": "Voile — Virement de bord : Principe",
+        "source": "Wikipédia (FR) — navigation à voile (technique)",
+        "url": "https://fr.wikipedia.org/wiki/Virement_de_bord",
+        "as_of": "220344446",
+        "licence": "CC BY-SA 4.0 — Wikipédia (FR), attribution required."
+      },
+      "lang": "fr",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Au virement de bord, le côté qui était sous le vent passe au vent (changement d’amure par le vent debout).",
+      "review_status": "approved",
+      "distractor_strategy": "curated",
+      "generator": "seed:curated.v1",
+      "block": "",
+      "correct": [
+        0
       ]
     }
   ]

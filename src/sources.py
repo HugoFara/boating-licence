@@ -83,6 +83,43 @@ SOURCES: list[Source] = [
         default_theme="matelotage", pin_theme="matelotage",
         licence="CC BY-SA 4.0 — Wikipedia (IT), attribution required.",
     ),
+    # --- Voile (sailing technique): CC BY-SA 4.0, one source per language --
+    # Study content for the cat-D (voile) permit. Sailing *technique* (points of
+    # sail, tacking/gybing, rig, heel/capsize) is not in any public-domain
+    # ordinance, so it is sourced from Wikipedia behind the review gate. It is
+    # NOT part of the official theory exam (identical for cat-A and cat-D) — it is
+    # supplementary prep for the practical, surfaced as a study domain for cat-D.
+    Source(
+        id="voile_wp",
+        name="Wikipédia (FR) — navigation à voile (technique)",
+        kind="wikipedia", lang="fr",
+        url="https://fr.wikipedia.org/wiki/Allure_(marine)",
+        titles=("Allure (marine)", "Virement de bord", "Empannage", "Louvoyer",
+                "Gréement", "Grand-voile", "Foc", "Spinnaker", "Dessalage",
+                "Chavirage"),
+        default_theme="voile", pin_theme="voile",
+        licence="CC BY-SA 4.0 — Wikipédia (FR), attribution required.",
+    ),
+    Source(
+        id="voile_wp_de",
+        name="Wikipedia (DE) — Segeln (Technik)",
+        kind="wikipedia", lang="de",
+        url="https://de.wikipedia.org/wiki/Kurse_zum_Wind",
+        titles=("Kurse zum Wind", "Wende (Segeln)", "Halse", "Kreuzen (Segeln)",
+                "Krängung", "Takelung", "Großsegel", "Fock", "Spinnaker", "Segel"),
+        default_theme="voile", pin_theme="voile",
+        licence="CC BY-SA 4.0 — Wikipedia (DE), attribution required.",
+    ),
+    Source(
+        id="voile_wp_it",
+        name="Wikipedia (IT) — vela (tecnica)",
+        kind="wikipedia", lang="it",
+        url="https://it.wikipedia.org/wiki/Andatura_(vela)",
+        titles=("Andatura (vela)", "Bolina", "Virata (nautica)", "Abbattuta",
+                "Fiocco (vela)", "Spinnaker"),
+        default_theme="voile", pin_theme="voile",
+        licence="CC BY-SA 4.0 — Wikipedia (IT), attribution required.",
+    ),
     # --- Météo: official Swiss public-sector, reuse with attribution ------
     Source(
         id="meteo_vents",
