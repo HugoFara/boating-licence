@@ -7324,7 +7324,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         2
       ]
@@ -7536,7 +7536,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         0
       ]
@@ -7642,7 +7642,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         3
       ]
@@ -7801,7 +7801,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         1
       ]
@@ -8013,7 +8013,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         3
       ]
@@ -8119,7 +8119,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         1
       ]
@@ -8649,7 +8649,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         0
       ]
@@ -8755,7 +8755,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         3
       ]
@@ -10186,7 +10186,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "",
+      "principle": "sound-signals",
       "correct": [
         0
       ]
@@ -12836,7 +12836,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "",
+      "principle": "sound-signals",
       "correct": [
         0
       ]
@@ -12889,7 +12889,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "",
+      "principle": "sound-signals",
       "correct": [
         0
       ]
@@ -18348,7 +18348,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "",
+      "principle": "sound-signals",
       "correct": [
         2
       ]

@@ -162,7 +162,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         0
       ]
@@ -215,7 +215,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         2
       ]
@@ -268,7 +268,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         3
       ]
@@ -321,7 +321,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         3
       ]
@@ -427,7 +427,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         0
       ]
@@ -480,7 +480,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         0
       ]
@@ -692,7 +692,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         1
       ]
@@ -745,7 +745,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         1
       ]
@@ -851,7 +851,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         0
       ]
@@ -957,7 +957,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         1
       ]
@@ -1010,7 +1010,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         0
       ]
@@ -1116,7 +1116,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         3
       ]
@@ -1169,7 +1169,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         2
       ]
@@ -1328,7 +1328,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         3
       ]
@@ -2441,7 +2441,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "nav-lights",
       "correct": [
         0
       ]
@@ -5462,7 +5462,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "basis",
-      "principle": "",
+      "principle": "sound-signals",
       "correct": [
         3
       ]
@@ -5515,7 +5515,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "basis",
-      "principle": "",
+      "principle": "sound-signals",
       "correct": [
         1
       ]
@@ -7158,7 +7158,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "",
+      "principle": "sound-signals",
       "correct": [
         0
       ]
