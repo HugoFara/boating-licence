@@ -1,0 +1,65 @@
+{
+  "q-voilewp-voilealluremarineleventarrière-e-0a738f3d": {
+    "stem": "What is observed on a running point of sail (dead downwind)?",
+    "choices": [
+      "Rolling increases and an (accidental) gybe threatens",
+      "Speed becomes maximal, higher than on a broad reach",
+      "The sailboat can no longer make headway because it is head to wind"
+    ],
+    "explanation": "On a run the airflow over the sails is disturbed: speed drops compared with a broad reach, rolling increases and an accidental gybe threatens."
+  },
+  "q-voilewp-voilealluremarineleventdebout-b2-84b9e882": {
+    "stem": "On the head-to-wind point of sail, what must the sailboat do to make headway under sail?",
+    "choices": [
+      "Bear away about 45° from the wind axis (30° on the highest-performance racing yachts)",
+      "Hold its course exactly head to wind, sheeting its sails in fully",
+      "Set the spinnaker to catch the wind coming from ahead"
+    ],
+    "explanation": "Head to wind the sailboat cannot make headway: it must bear away about 45° from the wind axis (30° in racing) and beat to windward (tack)."
+  },
+  "q-voilewp-voilealluremarinetribordamuresbâ-dff7d8c0": {
+    "stem": "When is a sailboat said to be «on starboard tack»?",
+    "choices": [
+      "When the wind comes from the right relative to the boat's axis",
+      "When it sails downwind with the sails wing-on-wing (in scissors)",
+      "When it has right of way over every other boat on the water"
+    ],
+    "explanation": "A sailboat is on starboard tack when the wind comes from the right (starboard), and on port tack in the opposite case. These distinctions underlie the right-of-way rules between sailboats."
+  },
+  "q-voilewp-voilechaviragesourceduphénomène--545c2456": {
+    "stem": "On a light sport dinghy, what is a capsize commonly called and what is its nature?",
+    "choices": [
+      "A «capsize»: it is common and harmless",
+      "A «shipwreck»: it almost always leads to the loss of the boat",
+      "A «rounding up»: it occurs only when close-hauled"
+    ],
+    "explanation": "On a light dinghy the capsize is common and harmless; it results from seeking excessive speed or from poor crew placement."
+  },
+  "q-voilewp-voileempannagedéfinition-34dc964-140101a0": {
+    "stem": "What characterises the gybe (empannage) compared with tacking?",
+    "choices": [
+      "The change of tack is made by passing through the wind astern (downwind)",
+      "The change of tack is made by passing head to wind",
+      "It does not change the set of the sails"
+    ],
+    "explanation": "A gybe changes tack by passing through the wind astern (downwind); passing head to wind is instead a tack (virement de bord)."
+  },
+  "q-voilewp-voilefocprésentation-30eec01b-3c162be6": {
+    "stem": "What is the jib on a sailboat?",
+    "choices": [
+      "A triangular headsail, held to the forestay (stay) by its luff",
+      "The mainsail, rigged abaft the mast",
+      "A standing-rigging wire that holds the mast up"
+    ],
+    "explanation": "The jib is a triangular headsail held to the stay by its luff; it plays a key role in the success of the tack."
+  },
+  "q-voilewp-voilevirementdebordprincipe-90e4-ab0e8dba": {
+    "stem": "What happens during a tack (virement de bord)?",
+    "choices": [
+      "The side of the boat that was leeward becomes windward, and vice versa",
+      "The sailboat keeps the same tack throughout the manoeuvre",
+      "The manoeuvre is necessarily made by passing through the wind astern"
+    ],
+    "explanation": "In a tack, the side that was leeward becomes windward (a change of tack made by passing head to wind)."
+  }
+}

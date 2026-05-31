@@ -33,7 +33,9 @@ from src.questions.schema import Question, Choice, Provenance, make_question_id 
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(BASE, "data")
-QDB_PATH = os.path.join(DATA, "questions.sqlite")
+# The Swiss bank is the translation source/target (per-country namespacing added
+# `questions.<code>.sqlite`; EN is the unofficial translation of the CH FR bank).
+QDB_PATH = os.path.join(DATA, "questions.ch.sqlite")
 JOBS = os.path.join(DATA, "translate_jobs.json")
 ANSWERS_DIR = os.path.join(DATA, "translate_answers")
 VERIFY = os.path.join(DATA, "translate_verify.json")
