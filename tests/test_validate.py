@@ -137,9 +137,70 @@ def test_coverage_summary_shape():
         assert s["official"] == "DE" and s["generated"] == "2026-01-01"
         assert "DE" not in s["banks"]          # the yardstick is never self-scored
         ch = s["banks"]["CH"]["tracks"]["cevni"]
-        assert ch["pct"] == 67                 # round(66.7)
+        assert ch["pct"] == 67                 # round(66.7) — coverage of the slice
         assert ch["missing"] == ["give-way"]
         assert ch["instrumented_pct"] == 75    # 3 of 4 official inland Qs are tagged
+        # The honest composite of the WHOLE base: 2 weighted-covered of 4 total = 50%;
+        # 1 untagged of 4 = 25% unknown. demonstrated == pct(slice) × instrumented.
+        assert ch["demonstrated_pct"] == 50
+        assert ch["unknown_pct"] == 25
+        assert round(ch["pct"] * ch["instrumented_pct"] / 100) == ch["demonstrated_pct"]
+    finally:
+        validate.load_bank = orig
+
+
+def test_whole_base_shares_sum_to_one():
+    orig = validate.load_bank
+    try:
+        _install(_PRINC_BANKS)
+        d = validate.coverage(derived=("CH",))["principle_cov"]["CH"]["cevni"]
+        gap = round(100 - d["demonstrated_pct"] - d["unknown_pct"], 1)
+        # demonstrated + gap + unknown must partition the whole base exactly.
+        assert d["demonstrated_pct"] + gap + d["unknown_pct"] == 100
+        assert gap >= 0 and d["demonstrated_pct"] >= 0 and d["unknown_pct"] >= 0
+    finally:
+        validate.load_bank = orig
+
+
+# A world where one tagged question's examined concept (give-way) is outranked by a
+# higher-priority family (day-shapes) it also mentions — the single-tag artifact.
+_AMBIG_BANKS = {
+    "DE": [
+        _q("verkehrsregeln", "Wer ist ausweichpflichtig? Ein Segler mit schwarzem "
+           "Kegel kreuzt.", block="spezifisch_binnen",
+           principle="day-shapes", qid="a1"),     # fires day-shapes AND give-way
+        _q("verkehrsregeln", "Vorfahrt beim Kreuzen zweier Fahrzeuge",
+           block="spezifisch_binnen", principle="give-way", qid="a2"),
+    ],
+    "CH": [_q("signalisation", "Marque laterale", principle="iala-buoyage", qid="c1")],
+}
+
+
+def test_tagger_audit_flags_ambiguity_and_absorption():
+    orig = validate.load_bank
+    try:
+        _install(_AMBIG_BANKS)
+        t = validate.coverage(derived=("CH",))["tagger"]["cevni"]
+        # a1 fires two families → ambiguous; a2 fires only give-way.
+        assert t["tagged"] == 2 and t["ambiguous"] == 1
+        # give-way is examined in both but assigned to only one (a1 went to day-shapes);
+        # its mentions exceed its assignments → flagged as absorbed by a neighbour.
+        assert t["absorbed"]["give-way"]["assigned"] == 1
+        assert t["absorbed"]["give-way"]["mentioned"] == 2
+    finally:
+        validate.load_bank = orig
+
+
+def test_tail_exposes_derived_theme_concentration():
+    orig = validate.load_bank
+    try:
+        _install(_PRINC_BANKS)
+        tail = validate.coverage(derived=("CH",))["tail"]["cevni"]
+        # The untagged official question is a verkehrsregeln (operational) item...
+        assert tail["by_theme"].get("verkehrsregeln") == 1
+        # ...and CH's inland bank is signage-only here — so the operational tail is
+        # absent, not merely unmeasured. The theme spread must reveal that.
+        assert tail["derived_theme_spread"]["CH"] == {"signalisation": 1}
     finally:
         validate.load_bank = orig
 

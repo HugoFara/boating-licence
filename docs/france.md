@@ -216,12 +216,12 @@ Réussir la théorie ne suffit pas. Ces étapes sont générées depuis `src/cou
 
 Cette banque est **dérivée du droit**, pas du catalogue d'examen officiel. Faute d'accès à la banque officielle, sa couverture est mesurée *indirectement* : sur le tronc harmonisé (CEVNI/COLREGS), le catalogue allemand officiel (ELWIS) sert d'instrument (`src/validate.py`). Régénéré depuis `data/coverage.lock.json` (vérifié le 2026-05-31).
 
-| Base | Couverture (de la part mesurable) | Part mesurable du catalogue officiel | Sujets manquants |
-|---|---|---|---|
-| Matelotage universel | 0 % | 13 % | priorité / route |
-| Code fluvial (CEVNI) | 80 % | 60 % | balisage IALA |
-| Code maritime (COLREGS/RIPAM) | 83 % | 56 % | panneaux de voie |
+| Base | Couverture démontrée (du catalogue entier) | Non mesuré (inconnu) | Sur la part mesurée | Sujets sous-représentés |
+|---|---|---|---|---|
+| Matelotage universel | **0 %** | 91 % | 0 % (de 13 %) | priorité / route |
+| Code fluvial (CEVNI) | **49 %** | 50 % | 98 % (de 54 %) | balisage IALA |
+| Code maritime (COLREGS/RIPAM) | **39 %** | 51 % | 80 % (de 49 %) | panneaux de voie |
 
-**À lire honnêtement :** ces chiffres ne portent que sur la part *étiquetée par sujet* du catalogue officiel (~la moitié) ; le reste n'est pas mesuré. C'est un **plancher**, pas un signal « prêt pour l'examen » — avant l'épreuve, faites un examen blanc à partir d'une source officielle.
+**À lire honnêtement.** Le chiffre à retenir est la **couverture démontrée** : la part du catalogue *entier* qui est à la fois mesurable et présente dans cette banque. La colonne *non mesuré* est de l'**inconnu** — ni couvert, ni en échec : l'instrument ne sait pas, et là où la banque est concentrée sur un seul thème, ce reste est probablement *absent*. (« Sur la part mesurée » est le chiffre flatteur, à ne pas citer seul.) L'instrument lui-même est faillible : ~16 % des questions taguées déclenchent plusieurs principes, donc un « sujet sous-représenté » peut être abordé sans porter ce tag — l'écart joue toujours *vers le bas*, d'où le mot **plancher**. Ce n'est pas un signal « prêt pour l'examen » : avant l'épreuve, faites un examen blanc à partir d'une source officielle.
 
 <!-- coverage:auto:end -->

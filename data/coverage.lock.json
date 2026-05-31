@@ -1,17 +1,32 @@
 {
   "official": "DE",
   "generated": "2026-05-31",
+  "tagger": {
+    "universal": {
+      "ambiguous_pct": 0
+    },
+    "cevni": {
+      "ambiguous_pct": 16
+    },
+    "colregs": {
+      "ambiguous_pct": 8
+    }
+  },
   "banks": {
     "CH": {
       "tracks": {
         "universal": {
+          "demonstrated_pct": 9,
+          "unknown_pct": 91,
           "pct": 100,
           "instrumented_pct": 13,
           "missing": []
         },
         "cevni": {
+          "demonstrated_pct": 42,
+          "unknown_pct": 50,
           "pct": 84,
-          "instrumented_pct": 60,
+          "instrumented_pct": 54,
           "missing": [
             "give-way"
           ]
@@ -21,6 +36,8 @@
     "FR": {
       "tracks": {
         "universal": {
+          "demonstrated_pct": 0,
+          "unknown_pct": 91,
           "pct": 0,
           "instrumented_pct": 13,
           "missing": [
@@ -28,15 +45,19 @@
           ]
         },
         "cevni": {
-          "pct": 80,
-          "instrumented_pct": 60,
+          "demonstrated_pct": 49,
+          "unknown_pct": 50,
+          "pct": 98,
+          "instrumented_pct": 54,
           "missing": [
             "iala-buoyage"
           ]
         },
         "colregs": {
-          "pct": 83,
-          "instrumented_pct": 56,
+          "demonstrated_pct": 39,
+          "unknown_pct": 51,
+          "pct": 80,
+          "instrumented_pct": 49,
           "missing": [
             "waterway-signs"
           ]

@@ -121,6 +121,8 @@
   "coverage": {
     "tracks": {
       "universal": {
+        "demonstrated_pct": 0,
+        "unknown_pct": 91,
         "pct": 0,
         "instrumented_pct": 13,
         "missing": [
@@ -128,8 +130,10 @@
         ]
       },
       "colregs": {
-        "pct": 83,
-        "instrumented_pct": 56,
+        "demonstrated_pct": 39,
+        "unknown_pct": 51,
+        "pct": 80,
+        "instrumented_pct": 49,
         "missing": [
           "waterway-signs"
         ]

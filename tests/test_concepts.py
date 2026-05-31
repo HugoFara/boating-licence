@@ -133,6 +133,26 @@ def test_tag_questions_fills_and_is_idempotent():
     os.remove(path)
 
 
+def test_overwrite_retracts_a_now_unmatched_tag():
+    # A tag must not outlive the keyword that produced it. If a question carries a
+    # tag the current tagger no longer assigns, overwrite=True must CLEAR it to "" —
+    # not just leave it (the stale-tag rot that silently inflates the coverage
+    # instrument). overwrite=False must still preserve it.
+    conn, path = _conn()
+    schema.write_questions(conn, [
+        # stem the current tagger does NOT match, but carrying a stale tag on file:
+        _q("s", theme="matelotage", principle="iala-buoyage",
+           stem="Was bewirkt ein rechtsdrehender Propeller im Rückwärtsgang?"),
+    ])
+    # default (fill-only) leaves the stale tag in place...
+    principles.tag_questions(conn)
+    assert {q.id: q.principle for q in schema.load_questions(conn)}["s"] == "iala-buoyage"
+    # ...overwrite retracts it, because the current tagger returns "" for this text.
+    principles.tag_questions(conn, overwrite=True)
+    assert {q.id: q.principle for q in schema.load_questions(conn)}["s"] == ""
+    os.remove(path)
+
+
 if __name__ == "__main__":
     fns = [v for k, v in sorted(globals().items()) if k.startswith("test_")]
     for fn in fns:

@@ -631,37 +631,38 @@ const PATH_STRINGS = {
 };
 for (const l in PATH_STRINGS) STRINGS[l] = Object.assign(STRINGS[l] || {}, PATH_STRINGS[l]);
 
-/* Catalogue-coverage banner. The honest framing the project trades for: a
- * derived bank (CH/FR) shows its measured coverage of the harmonised core plus
- * the "do a final official-bank mock" caveat — never an implied "ready to pass";
- * the official German bank says so plainly. Fed from MANIFEST.coverage, which the
- * bundler reads from the committed data/coverage.lock.json (src/validate.py). */
+/* Catalogue-coverage banner. The honest framing the project trades for: a derived
+ * bank (CH/FR) leads with its DEMONSTRATED coverage of the whole harmonised code and
+ * the UNKNOWN share the instrument cannot see — never the flattering measured-slice
+ * figure (kept in the docs), never an implied "ready to pass" — plus the "do a final
+ * official-bank mock" caveat; the official German bank says so plainly. Fed from
+ * MANIFEST.coverage, read from the committed data/coverage.lock.json (src/validate.py). */
 const COVERAGE_STRINGS = {
   fr: {
     coverageOfficial: "✓ Ce sont les questions du <b>catalogue officiel ELWIS</b> — l’examen puise dans cette même banque.",
-    coverageDerived: "Banque <b>dérivée du droit</b>, pas du catalogue d’examen officiel. Couverture mesurée du tronc harmonisé&nbsp;: {tracks}. Elle couvre le fondement juridique et le raisonnement — avant l’examen, faites un <b>examen blanc depuis une source officielle</b>.",
-    coverageTrack: "{base} {pct}&nbsp;% (de la part mesurable, {slice}&nbsp;%)",
+    coverageDerived: "Banque <b>dérivée du droit</b>, pas du catalogue d’examen officiel. Part du tronc harmonisé <b>démontrée couverte</b>&nbsp;: {tracks}. Le reste est <i>inconnu</i> (ni couvert, ni en échec). Elle couvre le fondement juridique et le raisonnement — avant l’examen, faites un <b>examen blanc depuis une source officielle</b>.",
+    coverageTrack: "{base} <b>{demo}&nbsp;%</b> (inconnu&nbsp;{unknown}&nbsp;%)",
     coverageBase_cevni: "code fluvial", coverageBase_colregs: "code maritime",
     coverageBase_universal: "matelotage",
   },
   de: {
     coverageOfficial: "✓ Dies sind die Fragen des <b>amtlichen ELWIS-Katalogs</b> — die Prüfung schöpft aus derselben Bank.",
-    coverageDerived: "<b>Aus dem Recht abgeleitete</b> Bank, nicht der amtliche Prüfungskatalog. Gemessene Abdeckung des harmonisierten Kerns: {tracks}. Sie deckt die rechtliche Grundlage und das Verständnis ab — mache vor der Prüfung einen <b>Probetest aus amtlicher Quelle</b>.",
-    coverageTrack: "{base} {pct}&nbsp;% (vom messbaren Teil, {slice}&nbsp;%)",
+    coverageDerived: "<b>Aus dem Recht abgeleitete</b> Bank, nicht der amtliche Prüfungskatalog. <b>Nachgewiesen abgedeckter</b> Anteil des harmonisierten Kerns: {tracks}. Der Rest ist <i>unbekannt</i> (weder abgedeckt noch durchgefallen). Sie deckt die rechtliche Grundlage und das Verständnis ab — mache vor der Prüfung einen <b>Probetest aus amtlicher Quelle</b>.",
+    coverageTrack: "{base} <b>{demo}&nbsp;%</b> (unbekannt&nbsp;{unknown}&nbsp;%)",
     coverageBase_cevni: "Binnen", coverageBase_colregs: "See",
     coverageBase_universal: "Seemannschaft",
   },
   it: {
     coverageOfficial: "✓ Queste sono le domande del <b>catalogo ufficiale ELWIS</b> — l’esame attinge alla stessa banca.",
-    coverageDerived: "Banca <b>derivata dalla legge</b>, non dal catalogo d’esame ufficiale. Copertura misurata del nucleo armonizzato: {tracks}. Copre le basi giuridiche e il ragionamento — prima dell’esame, fai una <b>simulazione da fonte ufficiale</b>.",
-    coverageTrack: "{base} {pct}&nbsp;% (della parte misurabile, {slice}&nbsp;%)",
+    coverageDerived: "Banca <b>derivata dalla legge</b>, non dal catalogo d’esame ufficiale. Quota del nucleo armonizzato <b>dimostrata coperta</b>: {tracks}. Il resto è <i>ignoto</i> (né coperto né bocciato). Copre le basi giuridiche e il ragionamento — prima dell’esame, fai una <b>simulazione da fonte ufficiale</b>.",
+    coverageTrack: "{base} <b>{demo}&nbsp;%</b> (ignoto&nbsp;{unknown}&nbsp;%)",
     coverageBase_cevni: "codice fluviale", coverageBase_colregs: "codice marittimo",
     coverageBase_universal: "marineria",
   },
   en: {
     coverageOfficial: "✓ These are the <b>official ELWIS catalogue</b> questions — the exam draws from this same bank.",
-    coverageDerived: "Bank <b>derived from the law</b>, not the official exam catalogue. Measured coverage of the harmonised core: {tracks}. It covers the legal foundation and the reasoning — before your exam, do a <b>final mock from an official-bank source</b>.",
-    coverageTrack: "{base} {pct}% (of the {slice}% measurable)",
+    coverageDerived: "Bank <b>derived from the law</b>, not the official exam catalogue. Share of the harmonised core <b>demonstrably covered</b>: {tracks}. The rest is <i>unknown</i> (neither covered nor failed). It covers the legal foundation and the reasoning — before your exam, do a <b>final mock from an official-bank source</b>.",
+    coverageTrack: "{base} <b>{demo}%</b> (unknown {unknown}%)",
     coverageBase_cevni: "inland code", coverageBase_colregs: "sea code",
     coverageBase_universal: "seamanship",
   },

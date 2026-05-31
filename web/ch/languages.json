@@ -235,13 +235,17 @@
   "coverage": {
     "tracks": {
       "universal": {
+        "demonstrated_pct": 9,
+        "unknown_pct": 91,
         "pct": 100,
         "instrumented_pct": 13,
         "missing": []
       },
       "cevni": {
+        "demonstrated_pct": 42,
+        "unknown_pct": 50,
         "pct": 84,
-        "instrumented_pct": 60,
+        "instrumented_pct": 54,
         "missing": [
           "give-way"
         ]

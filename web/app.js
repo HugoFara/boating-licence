@@ -692,11 +692,12 @@ function renderPools() {
 }
 
 /* Honest catalogue-coverage banner (MANIFEST.coverage, from the committed
- * data/coverage.lock.json). A derived bank shows its measured coverage of the
- * harmonised traffic code + the "do a final official-bank mock" caveat; the
- * official German bank states it plainly. `universal` is omitted — it is barely
- * instrumented, so its figure is noise (the docs disclose it in full). Absent
- * coverage ⇒ no banner. */
+ * data/coverage.lock.json). A derived bank leads with its DEMONSTRATED coverage of
+ * the whole harmonised code (the only figure to stand behind) and the UNKNOWN share
+ * the instrument cannot see — never the flattering measured-slice number, which the
+ * docs keep for context — plus the "do a final official-bank mock" caveat. The
+ * official German bank states it plainly. `universal` is omitted (barely
+ * instrumented ⇒ noise; the docs disclose it in full). Absent coverage ⇒ no banner. */
 const COVERAGE_TRAFFIC = ["cevni", "colregs"];
 function renderCoverage() {
   const note = $("coverage-note");
@@ -711,8 +712,9 @@ function renderCoverage() {
   }
   const tracks = cov.tracks || {};
   const parts = COVERAGE_TRAFFIC.filter((b) => tracks[b]).map((b) =>
-    T("coverageTrack", { base: T("coverageBase_" + b), pct: tracks[b].pct,
-                         slice: tracks[b].instrumented_pct }));
+    T("coverageTrack", { base: T("coverageBase_" + b),
+                         demo: tracks[b].demonstrated_pct,
+                         unknown: tracks[b].unknown_pct }));
   if (!parts.length) return hide();
   note.innerHTML = T("coverageDerived", { tracks: parts.join(" · ") });
   note.classList.remove("hidden");

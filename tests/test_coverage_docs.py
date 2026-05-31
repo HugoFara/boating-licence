@@ -39,10 +39,29 @@ def test_official_bank_gets_a_note_not_a_score():
 
 def test_derived_banks_carry_the_floor_caveat():
     # CH/FR must carry the honest "not exam-ready" framing, never an implied pass.
+    # The caveat holds an {ambiguous} placeholder filled from the lock at render time,
+    # so check stable, placeholder-free fragments rather than the raw template.
+    fragments = {"fr": ["plancher", "inconnu", "couverture démontrée"],
+                 "de": ["Untergrenze", "unbekannt", "nachgewiesene Abdeckung"]}
     for code in ("CH", "FR"):
+        sec = run._coverage_doc_section(code).lower()
+        for frag in fragments[run._PATH_DOC_LANG[code]]:
+            assert frag.lower() in sec, (code, frag)
+        # the ambiguity figure must be substituted, not left as a literal placeholder
+        assert "{ambiguous}" not in sec
+
+
+def test_whole_bank_composite_is_surfaced():
+    # The reviewer's "third number": demonstrated + unknown of the WHOLE bank must
+    # both reach the doc, not just the flattering measured-slice figure.
+    for code in ("CH", "FR"):
+        lang = run._PATH_DOC_LANG[code]
         sec = run._coverage_doc_section(code)
-        chrome = run._COV_DOC_CHROME[run._PATH_DOC_LANG[code]]
-        assert chrome["caveat"] in sec, code
+        cols = run._COV_DOC_CHROME[lang]["cols"]
+        # the demonstrated + unknown columns are present as headers...
+        assert cols[1] in sec and cols[2] in sec
+        # ...and at least one demonstrated value is bolded (the headline number).
+        assert "**" in sec
 
 
 if __name__ == "__main__":

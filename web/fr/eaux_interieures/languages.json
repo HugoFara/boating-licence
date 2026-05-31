@@ -121,6 +121,8 @@
   "coverage": {
     "tracks": {
       "universal": {
+        "demonstrated_pct": 0,
+        "unknown_pct": 91,
         "pct": 0,
         "instrumented_pct": 13,
         "missing": [
@@ -128,8 +130,10 @@
         ]
       },
       "cevni": {
-        "pct": 80,
-        "instrumented_pct": 60,
+        "demonstrated_pct": 49,
+        "unknown_pct": 50,
+        "pct": 98,
+        "instrumented_pct": 54,
         "missing": [
           "iala-buoyage"
         ]

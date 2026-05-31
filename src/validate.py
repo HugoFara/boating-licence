@@ -42,6 +42,7 @@ import sqlite3
 from dataclasses import dataclass
 
 from . import scope
+from .questions import principles
 from .questions import schema as qschema
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -165,6 +166,14 @@ def _principle(q) -> str:
     return getattr(q, "principle", "") or ""
 
 
+def _tags_present(q) -> list[str]:
+    """Every principle family that fires for the question (not just the assigned
+    one). Used by the tagger audit to find single-tag mis-attribution."""
+    return principles.tags_present(
+        q.stem or "", " ".join(ch.text for ch in q.choices),
+        getattr(q, "explanation", "") or "")
+
+
 def _base_questions(code: str) -> dict[str, list]:
     """The bank's questions bucketed by harmonised base (only the shareable
     universal/cevni/colregs scopes; national/local overlays are dropped)."""
@@ -265,18 +274,88 @@ def coverage(derived: tuple[str, ...] = ("CH", "FR")) -> dict:
             covered = set(off_weights) & present
             w_off = sum(off_weights.values())
             w_cov = sum(n for p, n in off_weights.items() if p in covered)
+            total = counts[OFFICIAL][base]            # whole base, tagged + untagged
             per_base[base] = {
                 "topics_official": len(off_weights),
                 "topics_covered": len(covered),
                 "missing": sorted(set(off_weights) - present),
                 "weighted_official": w_off,
                 "weighted_covered": w_cov,
-                "pct": round(100 * w_cov / w_off, 1) if w_off else None}
+                # `pct` is coverage of the *measured slice* (the flattering reading).
+                "pct": round(100 * w_cov / w_off, 1) if w_off else None,
+                # The honest composite (reviewer's "third number"): the whole base
+                # splits into three disjoint shares that sum to 100% —
+                #   demonstrated : tagged AND carried by the derived bank,
+                #   measured_gap : tagged but the derived bank lacks the topic,
+                #   unknown      : untagged — this instrument cannot see it, so it is
+                #                  neither covered nor failed, it is genuinely unknown.
+                # `demonstrated_pct == pct * (instrumented fraction)`, stated against
+                # the whole bank so a reader cannot mistake the slice figure for it.
+                "demonstrated_pct": round(100 * w_cov / total, 1) if total else None,
+                "unknown_pct": round(100 * (total - w_off) / total, 1) if total else None}
         principle_cov[c] = per_base
+
+    # --- tagger audit: is the single tag the *dominant examined* topic? ----------
+    # The measured slice is BOTH the instrument and a thing we optimise (raising
+    # tagger recall lifts it), so we publish a precision/ambiguity guard separately —
+    # otherwise "instrumentation went up" could quietly mean "the keys got greedier".
+    # Per base: how many tagged official questions fire >1 principle family (the
+    # assigned, highest-priority tag may not be the examined concept), and per
+    # principle the gap between questions ASSIGNED it and questions whose text
+    # MENTIONS it. Where mentioned >> assigned, single-tagging is pushing that
+    # topic's weight onto a higher-priority neighbour — always understating it,
+    # which is precisely why a derived bank's coverage reads as a floor.
+    tagger: dict[str, dict] = {}
+    for base in scope.BASES:
+        offq = banks[OFFICIAL][base]
+        tagged = [q for q in offq if _principle(q)]
+        if not tagged:
+            continue
+        ambiguous = sum(1 for q in tagged if len(_tags_present(q)) > 1)
+        absorbed: dict[str, dict] = {}
+        for slug in principles.PRINCIPLES:
+            assigned = sum(1 for q in offq if _principle(q) == slug)
+            mentioned = sum(1 for q in offq if slug in _tags_present(q))
+            if mentioned > assigned:           # some mentions lost to a neighbour
+                absorbed[slug] = {"assigned": assigned, "mentioned": mentioned}
+        tagger[base] = {
+            "tagged": len(tagged), "ambiguous": ambiguous,
+            "ambiguous_pct": round(100 * ambiguous / len(tagged), 1),
+            "absorbed": absorbed}
+
+    # --- the untagged tail: present-but-unmeasurable vs genuinely absent ---------
+    # An untagged official question is "unknown" to the coverage instrument. But the
+    # two reasons it is unknown are opposite for the user: the derived bank may COVER
+    # that content (we just can't score it) or may LACK it entirely — identical above.
+    # As a cheap discriminator we bucket the untagged official questions by theme and
+    # report, per derived bank, how many questions it carries on the SAME harmonised
+    # base. A bank thin on a base whose tail is large is likely absent there, not
+    # merely unmeasured.
+    def _theme_spread(qs) -> dict:
+        d: dict[str, int] = {}
+        for q in qs:
+            d[q.theme] = d.get(q.theme, 0) + 1
+        return dict(sorted(d.items(), key=lambda kv: -kv[1]))
+
+    tail: dict[str, dict] = {}
+    for base in scope.BASES:
+        untag = [q for q in banks[OFFICIAL][base] if not _principle(q)]
+        if not untag:
+            continue
+        # The raw derived count is a poor present/absent signal: a bank can be large
+        # on a base yet concentrated in ONE theme (CH cevni is ~90% signage), so its
+        # size hides whether it carries the tail's *operational* themes. Report each
+        # derived bank's theme spread on the base so absence-by-concentration shows.
+        tail[base] = {
+            "untagged": len(untag),
+            "by_theme": _theme_spread(untag),
+            "derived_base_counts": {c: counts[c][base] for c in derived},
+            "derived_theme_spread": {c: _theme_spread(banks[c][base]) for c in derived}}
 
     return {"codes": codes, "counts": counts, "matrix": matrix,
             "gaps": gaps, "absent_tracks": absent,
-            "instrumentation": instrumentation, "principle_cov": principle_cov}
+            "instrumentation": instrumentation, "principle_cov": principle_cov,
+            "tagger": tagger, "tail": tail}
 
 
 def format_coverage(report: dict) -> str:
@@ -311,27 +390,55 @@ def format_coverage(report: dict) -> str:
         lines.append("    bank could be complete or sparse there and this instrument "
                      "cannot tell.")
 
-    # --- 2. Coverage on the instrumented slice (the bounded number) ------------
+    # --- 2. The honest three-way split of the WHOLE bank -----------------------
     pcov = report.get("principle_cov", {})
     if pcov:
-        lines += ["", "  Coverage on the topic-instrumented slice — share of what the "
-                      "official bank tests",
-                  "  (weighted by frequency) that the derived bank also carries. "
-                  "Conservative by design:",
-                  "  one principle tag per question, so a topic can read as missing "
-                  "when its content is",
-                  "  folded into a neighbour — read a low score as a FLOOR, not a verdict:"]
+        lines += ["", "  Coverage of the WHOLE harmonised bank — the three shares sum "
+                      "to 100% so the",
+                  "  flattering slice figure cannot be mistaken for the headline:",
+                  "    demonstrated = tagged AND carried by the derived bank "
+                  "(what you can stand behind)",
+                  "    gap          = tagged but the derived bank lacks the topic",
+                  "    unknown      = untagged — unmeasurable here, NOT covered and "
+                  "NOT failed",
+                  "  (slice% = coverage of the measured part only — the number not to "
+                  "quote on its own):"]
         for c in derived:
             for base in scope.BASES:
                 d = pcov.get(c, {}).get(base)
                 if not d or d["pct"] is None:
                     continue
-                miss = (f"   missing: {', '.join(d['missing'])}"
+                demo = d["demonstrated_pct"]
+                unknown = d["unknown_pct"]
+                gap = round(100 - demo - unknown, 1)
+                miss = (f"  missing-tag: {', '.join(d['missing'])}"
                         if d["missing"] else "")
                 lines.append(
-                    f"    {c} {base:8} {d['pct']:>5.0f}%  "
-                    f"({d['topics_covered']}/{d['topics_official']} topics, "
-                    f"{d['weighted_covered']}/{d['weighted_official']} weighted){miss}")
+                    f"    {c} {base:8} demonstrated {demo:>4.0f}%  gap {gap:>4.0f}%  "
+                    f"unknown {unknown:>4.0f}%   (slice {d['pct']:.0f}%){miss}")
+
+    # --- 2b. Tagger audit — guard the instrument against its own greed ----------
+    tagger = report.get("tagger", {})
+    if tagger:
+        lines += ["", "  Tagger audit — the measured slice is also something we "
+                      "optimise, so its precision",
+                  "  is tracked separately. `ambiguous` = tagged questions firing "
+                  ">1 principle family",
+                  "  (the assigned tag is the highest-priority one, which may not be "
+                  "the examined concept).",
+                  "  `absorbed` topics have more mentions than assignments — their "
+                  "weight leaks to a",
+                  "  neighbour, understating them (this is why coverage is a floor):"]
+        for base in scope.BASES:
+            t = tagger.get(base)
+            if not t:
+                continue
+            lines.append(f"    {base:8} {t['ambiguous']}/{t['tagged']} ambiguous "
+                         f"({t['ambiguous_pct']:.0f}%)")
+            for slug, a in t["absorbed"].items():
+                lines.append(f"        {slug:16} assigned {a['assigned']:>3}  "
+                             f"mentioned {a['mentioned']:>3}  "
+                             f"→ {a['mentioned'] - a['assigned']} absorbed by a neighbour")
 
     # --- 3. Fine-grained concept probe (hand-curated; low reach by design) -----
     lines += ["", "  Fine-grained concept probe — a hand-curated checklist. It "
@@ -362,13 +469,37 @@ def format_coverage(report: dict) -> str:
                   "  instrumented fraction above, so this is NOT a clean bill of "
                   "coverage."]
 
+    # --- 4. The untagged tail: present-but-unmeasurable vs genuinely absent -----
+    tail = report.get("tail", {})
+    if tail:
+        lines += ["", "  Untagged tail — WHY each base's 'unknown' share is unknown. "
+                      "The instrument cannot",
+                  "  score these, but a derived bank thin on a base whose tail is "
+                  "large is likely ABSENT",
+                  "  there, not merely unmeasured. Compare each tail's themes to the "
+                  "derived bank's size:"]
+        for base in scope.BASES:
+            t = tail.get(base)
+            if not t:
+                continue
+            top = list(t["by_theme"].items())[:4]
+            lines.append(f"    {base:8} {t['untagged']} untagged official questions — "
+                         "tail themes: " +
+                         ", ".join(f"{th}×{n}" for th, n in top))
+            for c, spread in t["derived_theme_spread"].items():
+                shown = ", ".join(f"{th}×{n}" for th, n in list(spread.items())[:4]) \
+                    or "(none — track absent)"
+                lines.append(f"        {c} on {base}: {shown}")
+
     # --- Bottom line: bounded, never "ready" -----------------------------------
-    lines += ["", "  Bottom line: coverage can be stated only for the topic-tagged "
-                  "slice (~half of the",
-              "  official harmonised bank); the untagged remainder is unmeasured. "
-              "This is a coverage",
-              "  floor, not an exam-readiness signal — do not present any derived "
-              "bank as 'ready to pass'."]
+    lines += ["", "  Bottom line: the demonstrated share above is the only number to "
+                  "stand behind; the",
+              "  'unknown' share is unmeasured (not covered), and where a derived "
+              "bank is thin on a",
+              "  base with a large tail, treat that tail as likely absent. This is a "
+              "coverage floor,",
+              "  not an exam-readiness signal — never present any derived bank as "
+              "'ready to pass'."]
     return "\n".join(lines)
 
 
@@ -386,10 +517,20 @@ LOCK_PATH = os.path.join(DATA, "coverage.lock.json")
 
 def coverage_summary(report: dict | None = None, generated: str = "") -> dict:
     """A compact, serialisable view of :func:`coverage` for humans. Per *derived*
-    bank, per base it implements: the bounded coverage ``pct``, the
-    ``instrumented_pct`` that figure rests on, and the ``missing`` topics the
-    official bank tests. The official bank (DE) is the yardstick, not a derived
-    bank, so it is recorded only as ``official`` — never given a coverage score."""
+    bank, per base it implements:
+
+      * ``demonstrated_pct`` — the honest headline: share of the WHOLE base that is
+        both measurable and carried by the derived bank (the only number to quote);
+      * ``unknown_pct`` — the untagged share this instrument cannot see (unmeasured,
+        not covered, not failed);
+      * ``pct`` / ``instrumented_pct`` — coverage of the measured slice and the size
+        of that slice (kept for context; ``pct`` must never be quoted on its own);
+      * ``missing`` — topics the official bank tests that no derived question carries
+        as its *dominant* tag (a single-tag artifact may understate, never overstate).
+
+    A top-level ``tagger`` block publishes the instrument's own ambiguity rate so a
+    recall gain can't be mistaken for the keys getting greedier. The official bank
+    (DE) is the yardstick, not a derived bank, so it carries no coverage score."""
     report = report or coverage()
     instr = report.get("instrumentation", {})
     banks: dict[str, dict] = {}
@@ -400,13 +541,20 @@ def coverage_summary(report: dict | None = None, generated: str = "") -> dict:
                 continue
             slice_pct = (instr.get(base) or {}).get("pct")
             tracks[base] = {
+                "demonstrated_pct": round(d["demonstrated_pct"])
+                if d.get("demonstrated_pct") is not None else None,
+                "unknown_pct": round(d["unknown_pct"])
+                if d.get("unknown_pct") is not None else None,
                 "pct": round(d["pct"]),
                 "instrumented_pct": round(slice_pct) if slice_pct is not None else None,
                 "missing": list(d.get("missing", [])),
             }
         if tracks:
             banks[code] = {"tracks": tracks}
-    return {"official": OFFICIAL, "generated": generated, "banks": banks}
+    tagger = {base: {"ambiguous_pct": round(t["ambiguous_pct"])}
+              for base, t in report.get("tagger", {}).items()}
+    return {"official": OFFICIAL, "generated": generated,
+            "tagger": tagger, "banks": banks}
 
 
 def write_lock(path: str = LOCK_PATH, generated: str = "") -> dict:
@@ -424,6 +572,32 @@ def load_lock(path: str = LOCK_PATH) -> dict:
         return {"official": OFFICIAL, "generated": "", "banks": {}}
     with open(path, encoding="utf-8") as fh:
         return json.load(fh)
+
+
+def sample_tagged(base: str = "cevni", per_principle: int = 5) -> list[dict]:
+    """A deterministic sample of the OFFICIAL bank's tagged questions on a base, for
+    hand-auditing tagger *precision* (is the assigned tag the examined concept?).
+
+    The ambiguity rate in :func:`coverage` is an automatic proxy; this is the manual
+    ground-truth check the reviewer asked for — re-runnable, so a recall gain can be
+    re-audited rather than trusted. Each row carries the assigned tag and every
+    family that fired, so a reader sees exactly where single-tagging chose between
+    rivals. Sampling is stride-based on the sorted id, so it is stable across runs."""
+    by_slug: dict[str, list] = {}
+    for q in _base_questions(OFFICIAL)[base]:
+        p = _principle(q)
+        if p:
+            by_slug.setdefault(p, []).append(q)
+    out: list[dict] = []
+    for slug in principles.PRINCIPLES:
+        qs = sorted(by_slug.get(slug, []), key=lambda q: q.id)
+        if not qs:
+            continue
+        stride = max(1, len(qs) // per_principle)
+        for q in qs[::stride][:per_principle]:
+            out.append({"assigned": slug, "fired": _tags_present(q),
+                        "id": q.id, "stem": q.stem})
+    return out
 
 
 # --------------------------------------------------------------------------

@@ -622,7 +622,12 @@ def _learn_layer(conn, out_dir, langs):
     Must run BEFORE the question export so the principle tag is present."""
     from src.questions import schema as qschema
     from src.questions import principles as principlesmod
-    principlesmod.tag_questions(conn)
+    # overwrite=True: the principle tag is fully derived from the current keyword set
+    # (no hand-curation), and the question DB persists across builds — so filling only
+    # empties would let a tag survive after the keyword that produced it was tightened
+    # away (a stale tag that silently skews the coverage instrument). Re-tagging every
+    # build keeps the measured slice honest to the tagger as it stands today.
+    principlesmod.tag_questions(conn, overwrite=True)
     for lg in langs:
         tmp = os.path.join(out_dir, f"_concepts.{lg}.tmp")
         n = qschema.export_concepts_json(conn, tmp, lg, exportable_only=True)
@@ -982,6 +987,16 @@ def cmd_validate(args):
     catalogue on shared harmonised scope. Default: deterministic coverage. With
     --deep: an LLM divergence flagger (costs tokens; emits pairs for human review)."""
     from src import validate
+    if args.sample_tags:
+        rows = validate.sample_tagged(base=args.base, per_principle=args.sample_tags)
+        print(f"Tagger-precision sample — {args.base}, official DE "
+              f"(assigned tag · all families that fired):\n")
+        for r in rows:
+            multi = " ⚠ also: " + ", ".join(t for t in r["fired"]
+                                            if t != r["assigned"]) \
+                if len(r["fired"]) > 1 else ""
+            print(f"  [{r['assigned']}]{multi}\n    {r['stem'][:120]}")
+        return
     if not args.deep:
         print(validate.format_coverage(validate.coverage()))
         return
@@ -1134,14 +1149,21 @@ _COV_DOC_CHROME = {
                  "mesurée *indirectement* : sur le tronc harmonisé (CEVNI/COLREGS), le "
                  "catalogue allemand officiel (ELWIS) sert d'instrument (`src/validate.py`). "
                  "Régénéré depuis `data/coverage.lock.json`{date}.",
-        "cols": ["Base", "Couverture (de la part mesurable)",
-                 "Part mesurable du catalogue officiel", "Sujets manquants"],
+        "cols": ["Base", "Couverture démontrée (du catalogue entier)",
+                 "Non mesuré (inconnu)", "Sur la part mesurée",
+                 "Sujets sous-représentés"],
         "none": "—",
-        "caveat": "**À lire honnêtement :** ces chiffres ne portent que sur la part "
-                  "*étiquetée par sujet* du catalogue officiel (~la moitié) ; le reste "
-                  "n'est pas mesuré. C'est un **plancher**, pas un signal « prêt pour "
-                  "l'examen » — avant l'épreuve, faites un examen blanc à partir d'une "
-                  "source officielle.",
+        "caveat": "**À lire honnêtement.** Le chiffre à retenir est la **couverture "
+                  "démontrée** : la part du catalogue *entier* qui est à la fois mesurable "
+                  "et présente dans cette banque. La colonne *non mesuré* est de l'**inconnu** "
+                  "— ni couvert, ni en échec : l'instrument ne sait pas, et là où la banque "
+                  "est concentrée sur un seul thème, ce reste est probablement *absent*. "
+                  "(« Sur la part mesurée » est le chiffre flatteur, à ne pas citer seul.) "
+                  "L'instrument lui-même est faillible : ~{ambiguous} % des questions taguées "
+                  "déclenchent plusieurs principes, donc un « sujet sous-représenté » peut "
+                  "être abordé sans porter ce tag — l'écart joue toujours *vers le bas*, "
+                  "d'où le mot **plancher**. Ce n'est pas un signal « prêt pour l'examen » : "
+                  "avant l'épreuve, faites un examen blanc à partir d'une source officielle.",
         "official": "## Couverture du catalogue\n\nCes questions **sont** le catalogue "
                     "officiel ELWIS (§5(2) UrhG) — l'examen puise dans cette même banque. "
                     "Il n'y a donc pas de couverture à mesurer ici : le catalogue allemand "
@@ -1155,13 +1177,21 @@ _COV_DOC_CHROME = {
                  "*indirekt* gemessen: auf dem harmonisierten Kern (CEVNI/COLREGS) dient "
                  "der amtliche deutsche ELWIS-Katalog als Messlatte (`src/validate.py`). "
                  "Neu erzeugt aus `data/coverage.lock.json`{date}.",
-        "cols": ["Basis", "Abdeckung (des messbaren Teils)",
-                 "Messbarer Teil des amtlichen Katalogs", "Fehlende Themen"],
+        "cols": ["Basis", "Nachgewiesene Abdeckung (Gesamtkatalog)",
+                 "Ungemessen (unbekannt)", "Vom messbaren Teil",
+                 "Unterrepräsentierte Themen"],
         "none": "—",
-        "caveat": "**Ehrlich gelesen:** diese Zahlen betreffen nur den *themen-getaggten* "
-                  "Teil des amtlichen Katalogs (~die Hälfte); der Rest ist ungemessen. Es "
-                  "ist eine **Untergrenze**, kein „prüfungsbereit\"-Signal — mache vor der "
-                  "Prüfung einen Probetest aus einer amtlichen Quelle.",
+        "caveat": "**Ehrlich gelesen.** Maßgeblich ist die **nachgewiesene Abdeckung**: "
+                  "der Anteil des *gesamten* Katalogs, der zugleich messbar und in dieser "
+                  "Bank vorhanden ist. Die Spalte *ungemessen* ist **unbekannt** — weder "
+                  "abgedeckt noch durchgefallen: das Instrument weiß es nicht, und wo die "
+                  "Bank auf ein einziges Thema konzentriert ist, fehlt dieser Rest "
+                  "wahrscheinlich. („Vom messbaren Teil\" ist die schmeichelnde Zahl, nicht "
+                  "allein zu zitieren.) Das Instrument selbst ist fehlbar: ~{ambiguous} % der "
+                  "getaggten Fragen lösen mehrere Prinzipien aus, ein „unterrepräsentiertes "
+                  "Thema\" kann also vorkommen, ohne diesen Tag zu tragen — die Abweichung "
+                  "geht stets *nach unten*, daher **Untergrenze**. Kein „prüfungsbereit\"-"
+                  "Signal — mache vor der Prüfung einen Probetest aus einer amtlichen Quelle.",
         "official": "## Prüfungskatalog-Abdeckung\n\nDiese Fragen **sind** der amtliche "
                     "ELWIS-Katalog (§5(2) UrhG) — die Prüfung schöpft aus derselben Bank. "
                     "Eine Abdeckung ist hier nicht zu messen: der deutsche Katalog ist die "
@@ -1197,11 +1227,20 @@ def _coverage_doc_section(code: str) -> str:
         if not t:
             continue
         slice_pct = t.get("instrumented_pct")
+        demo = t.get("demonstrated_pct")
+        unknown = t.get("unknown_pct")
         miss = ", ".join(topic_label.get(m, m) for m in t.get("missing", [])) or ch["none"]
-        row = [base_label.get(base, base), f"{t['pct']} %",
-               f"{slice_pct} %" if slice_pct is not None else ch["none"], miss]
+        row = [base_label.get(base, base),
+               f"**{demo} %**" if demo is not None else ch["none"],
+               f"{unknown} %" if unknown is not None else ch["none"],
+               f"{t['pct']} % (de {slice_pct} %)" if slice_pct is not None
+               else f"{t['pct']} %",
+               miss]
         lines.append("| " + " | ".join(row) + " |")
-    lines += ["", ch["caveat"]]
+    # The tagger's own ambiguity rate (the cevni figure, the bank's busiest base) is
+    # cited in the caveat so a recall gain can't masquerade as cleaner measurement.
+    ambiguous = (lock.get("tagger", {}).get("cevni", {}) or {}).get("ambiguous_pct", 0)
+    lines += ["", ch["caveat"].replace("{ambiguous}", str(ambiguous))]
     return "\n".join(lines)
 
 
@@ -1368,6 +1407,9 @@ def main():
                    help="max derived questions to adjudicate (--deep only)")
     v.add_argument("--dry-run", action="store_true",
                    help="print the prompts that would be sent; no API call (--deep)")
+    v.add_argument("--sample-tags", type=int, default=0, metavar="N",
+                   help="hand-audit tagger precision: print N tagged official "
+                        "questions per principle (with every family that fired)")
     args = ap.parse_args()
     {"fetch": cmd_fetch, "parse": cmd_parse, "build": cmd_build,
      "questions": cmd_questions, "draft": cmd_draft, "review": cmd_review,

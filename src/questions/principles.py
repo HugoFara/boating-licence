@@ -136,6 +136,20 @@ def tag_for(stem: str, choices_text: str = "", explanation: str = "",
     return _THEME_DEFAULT.get(theme, "")
 
 
+def tags_present(stem: str, choices_text: str = "", explanation: str = "") -> list[str]:
+    """Every principle family whose keywords fire for one question, in priority
+    order — NOT just the first (which is what :func:`tag_for` assigns).
+
+    This is the audit lens behind the floor guarantee: when more than one family
+    fires (e.g. a give-way question whose vessel is identified by a day-shape), the
+    single ``tag_for`` tag is the *highest-priority* family, which may not be the
+    *dominant examined* concept. Comparing the two exposes where single-tagging
+    pushes a topic's measured weight onto a neighbour — always understating the
+    displaced topic, never inflating it (so coverage stays a floor)."""
+    hay = _norm(" ".join([stem, choices_text, explanation]))
+    return [slug for slug, kws in _KEYWORDS if any(kw in hay for kw in kws)]
+
+
 def tag_questions(conn: sqlite3.Connection, overwrite: bool = False) -> dict:
     """Tag every question in a bank in place, writing Question.principle.
 
@@ -163,6 +177,12 @@ def tag_questions(conn: sqlite3.Connection, overwrite: bool = False) -> dict:
             cur.execute("UPDATE questions SET principle=? WHERE id=?", (slug, r["id"]))
             tagged += 1
             by_principle[slug] = by_principle.get(slug, 0) + 1
+        elif overwrite and r["principle"]:
+            # The fresh tagger no longer matches, but a tag is on file: clear it.
+            # Without this an overwrite can change A→B but never A→"", so a tag would
+            # outlive the keyword that produced it (the stale-tag rot that skews the
+            # coverage instrument). Re-tagging must be able to RETRACT, not only revise.
+            cur.execute("UPDATE questions SET principle='' WHERE id=?", (r["id"],))
     conn.commit()
     conn.row_factory = None
     return {"total": len(rows), "tagged": tagged,
