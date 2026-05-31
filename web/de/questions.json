@@ -3126,7 +3126,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         1
       ]
@@ -3338,7 +3338,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         2
       ]
@@ -3391,7 +3391,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         2
       ]
@@ -6200,7 +6200,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "waterway-signs",
       "correct": [
         2
       ]
@@ -11387,7 +11387,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         2
       ]
@@ -11864,7 +11864,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "waterway-signs",
       "correct": [
         0
       ]
@@ -11917,7 +11917,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "waterway-signs",
       "correct": [
         1
       ]
@@ -11970,7 +11970,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "waterway-signs",
       "correct": [
         3
       ]
@@ -12023,7 +12023,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "waterway-signs",
       "correct": [
         3
       ]
@@ -16516,7 +16516,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         1
       ]
@@ -18016,7 +18016,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         2
       ]
@@ -18069,7 +18069,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         0
       ]
@@ -21143,7 +21143,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         1
       ]
@@ -21620,7 +21620,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         2
       ]
@@ -21726,7 +21726,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         0
       ]
@@ -21938,7 +21938,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         0
       ]
@@ -24058,7 +24058,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         0
       ]
@@ -24111,7 +24111,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         2
       ]
@@ -24217,7 +24217,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         2
       ]
@@ -24270,7 +24270,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         2
       ]
@@ -24323,7 +24323,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         1
       ]
@@ -24376,7 +24376,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         1
       ]
@@ -24535,7 +24535,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         1
       ]

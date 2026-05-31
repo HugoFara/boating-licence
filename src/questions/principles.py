@@ -42,7 +42,8 @@ PRINCIPLES: dict[str, str] = {
 # discriminating — a false hit mislabels a question, so prefer precision.
 _KEYWORDS: list[tuple[str, tuple[str, ...]]] = [
     ("sound-signals", (
-        "signal sonore", "son bref", "son prolonge", "coups", "sifflet",
+        "signal sonore", "son bref", "sons bref", "son prolonge", "sons prolonge",
+        "coups", "sifflet",
         "sound signal", "short blast", "long blast", "prolonged blast", "whistle",
         "schallsignal", "kurzer ton", "langer ton", "pfeife", "glocke",
         "segnale sonoro", "suono breve", "suono prolungato", "fischio",
@@ -63,11 +64,13 @@ _KEYWORDS: list[tuple[str, tuple[str, ...]]] = [
     )),
     ("iala-buoyage", (
         "bouee", "balise", "laterale", "cardinale", "espar", "voyant",
-        "eaux saines", "danger isole", "marque speciale", "babord", "tribord",
+        "eaux saines", "danger isole", "marque speciale",
         "buoy", "lateral mark", "cardinal mark", "safe water", "isolated danger",
         "special mark", "port-hand", "starboard-hand", "preferred channel",
-        "tonne", "spierentonne", "seitenzeichen", "kardinal", "schifffahrtszeichen"
-        " lateral", "backbord", "steuerbord",
+        "spierentonne", "seitenzeichen", "kardinalzeichen",
+        # NB: bare babord/tribord/backbord/steuerbord/"tonne" are intentionally
+        # NOT keywords — port/starboard appear in give-way & steering questions too,
+        # so they over-matched. Buoyage is caught by the mark-specific terms above.
         "boa", "gavitello", "laterale", "cardinale", "acque sicure",
     )),
     ("waterway-signs", (

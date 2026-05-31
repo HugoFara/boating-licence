@@ -4873,7 +4873,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         1
       ]

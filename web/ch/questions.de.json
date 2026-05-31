@@ -482,7 +482,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:de.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         0
       ]

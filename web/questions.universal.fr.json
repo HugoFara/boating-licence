@@ -1179,7 +1179,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:curated.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "correct": [
         0
       ]
