@@ -1,7 +1,7 @@
 // Boating-licence question bank — GIFT export for Moodle.
 // Self-contained: figures are embedded as base64 data URIs.
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Definitions
+$CATEGORY: Boating licence · Lake Geneva (EN)/Definitions
 
 ::q-oni-oniart142-d5cfcfd2-3672f8fd:: [html]According to ONI art. 142, which ordinance do the definitions of "risk analysis", "safety report" and "duty of diligence" refer to? {
 =To the ordinance of 14 March 1994 on the construction of vessels (OCEB).
@@ -59,7 +59,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Definitions
 ####[html]RNL art. 71 states that restricted visibility applies both by day and by night, and not only at night.<br>Source \: <a href\="https\://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr">RNL art. 71 — Règlement de la navigation sur le Léman (RNL), RS 747.221.1 (2019-06-01)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Meteorology
+$CATEGORY: Boating licence · Lake Geneva (EN)/Meteorology
 
 ::q-meteovents-météosuisselabise-22689f11-4b3bcbb4:: [html]Among these statements about la bise, which one is correct? {
 =Its speed is between 3 and 9 Bf, and both its onset and its end are gradual.
@@ -159,7 +159,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Meteorology
 ####[html]ONI Annexe 4 – fig. 62 — « Storm warning ».<br>Source \: <a href\="https\://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr">ONI Annexe 4 – fig. 62 — Ordonnance sur la navigation intérieure (ONI), RS 747.201.1 (2022-01-01)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Navigation law
+$CATEGORY: Boating licence · Lake Geneva (EN)/Navigation law
 
 ::q-oni-oniart134-df53e657-020997c6:: [html]What minimum buoyancy must individual lifesaving devices have according to ONI art. 134 (excluding the exception of art. 134a)? {
 =At least 75 N.
@@ -287,7 +287,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Navigation law
 ####[html]ONI art. 96a, al. 1, let. c requires a minimum coverage of two million francs per accident.<br>Source \: <a href\="https\://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr">ONI art. 96a — Ordonnance sur la navigation intérieure (ONI), RS 747.201.1 (2022-01-01)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Signs
+$CATEGORY: Boating licence · Lake Geneva (EN)/Signs
 
 ::q-oni-oniannexe2fig1-466f4128-adba28ab:: [html]<img src\="data\:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEkAAABJCAIAAAD+EZyLAAAAAklEQVR4nGKkkSsAAADFSURBVO3YQQqEQAxE0dz/zAMOjCC4EbSrYlfP/xdI3jKpz7rV2wsY+w9brRW2zLBlhi0zbJlhywxbZtgyw5YZtsyw6dp+NQyqHtt2mWlouW3XKjfSaLsFc/BctgcwOc9iewzT8ma0qXh62zhMxRPbVLDFbeM8pU0Lw4YNGzZs2OawaXnjy2C7EzY7rOa831RrWGy18E9h711Y8cMT1Kzaa7IdNZCOum2dYcsMW2bYMsOWGbbMsGWGLTNsmWHLDFtmJ9t6fQE3AlNYiaFHhwAAAABJRU5ErkJggg\=\=" alt\="">What does this light signal mean? {
 =Steady light visible from all sides
@@ -1297,7 +1297,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Signs
 ####[html]RNL Annexe III – fig. 9 — "No passage outside the area indicated".<br>Source \: <a href\="https\://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr">RNL Annexe III – fig. 9 — Règlement de la navigation sur le Léman (RNL), RS 747.221.1 (2019-06-01)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Seamanship
+$CATEGORY: Boating licence · Lake Geneva (EN)/Seamanship
 
 ::q-matelotagewp-matelotagenœuddechaiseintér-434f37a7:: [html]What does the text confirm about the bowline when it is not under tension? {
 =It is easy to undo, even when wet and after having been subjected to a very strong pull or to tightening caused by drying out.
@@ -1383,7 +1383,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Seamanship
 ####[html]According to Matelotage — Nœud (lien) \: Présentation, a knot is the intertwining or interlacing of flexible, thread-like objects.<br>Source \: <a href\="https\://fr.wikipedia.org/wiki/Nœud_(lien)">Matelotage — Nœud (lien) \: Présentation — Wikipédia — nœuds marins (matelotage) (235796348)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Border waters
+$CATEGORY: Boating licence · Lake Geneva (EN)/Border waters
 
 ::q-rnl-rnlart16-b7510c8f-75a2bba2:: [html]According to RNL art. 16, which statement is correct concerning events on the water? {
 =When authorising an event, the authority may permit derogations from certain provisions of the Regulation provided that the safety of navigation is not affected
@@ -1483,7 +1483,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Border waters
 ####[html]RNL art. 86f, para. 3, requires at least two separate compartments and a stable trim even with half of the compartments inflated, the inflation being able to be automatic or manual.<br>Source \: <a href\="https\://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr">RNL art. 86f — Règlement de la navigation sur le Léman (RNL), RS 747.221.1 (2019-06-01)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Sailing
+$CATEGORY: Boating licence · Lake Geneva (EN)/Sailing
 
 ::q-voilewp-voilealluremarineleventarrière-e-3ffa3208:: [html]What is observed on a running point of sail (dead downwind)? {
 =Rolling increases and an (accidental) gybe threatens

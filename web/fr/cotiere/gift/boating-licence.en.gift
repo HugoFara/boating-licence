@@ -1,7 +1,7 @@
 // Boating-licence question bank — GIFT export for Moodle.
 // Self-contained: figures are embedded as base64 data URIs.
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
+$CATEGORY: Boating licence · Lake Geneva (EN)/Protection de l'environnement
 
 ::q-fr-codeenvironnement-29-741717c9:: [html]At sea, what does the regulation say about discharging rubbish and hydrocarbons? {
 =It is prohibited
@@ -17,7 +17,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
 ####[html]Keep it aboard and dispose of it ashore in the harbour's collection facilities.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006074220/">MARPOL annexe V / Code de l'environnement — déchets rapportés à terre — Code de l'environnement — pollution par les rejets des navires (art. L.218-11 et s.) / convention MARPOL</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
+$CATEGORY: Boating licence · Lake Geneva (EN)/Sécurité et matériel d'armement
 
 ::q-fr-decret2007-16-e52a9bf4:: [html]Up to what distance from a shelter does the côtière option of the permis plaisance authorise navigation? {
 =6 nautical miles
@@ -26,7 +26,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
 ####[html]The côtière option allows navigation up to 6 nautical miles from a shelter, day and night, regardless of engine power.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000648362/">Décret n° 2007-1167 du 2 août 2007, art. 2 — portée de l'option côtière (6 milles) — Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
+$CATEGORY: Boating licence · Lake Geneva (EN)/Réglementation, permis et radio
 
 ::q-fr-decret2007-27-f69a337c:: [html]Above what engine power is the permis plaisance required? {
 =More than 4.5 kW (≈ 6 hp)
@@ -42,7 +42,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
 ####[html]The minimum age to obtain the permis plaisance is 16.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000648362/">Décret n° 2007-1167 du 2 août 2007, art. 3 — âge minimal (16 ans) — Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
+$CATEGORY: Boating licence · Lake Geneva (EN)/Sécurité et matériel d'armement
 
 ::q-fr-directive201353-18-97f7b9e2:: [html]Which navigation programme does design category “C” of a pleasure boat correspond to? {
 =Inshore (force 6, 2 m waves)
@@ -72,7 +72,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
 ####[html]If they fall overboard, the cord pulls free and instantly stops the engine\: the boat cannot run off or injure the person in the water.<br>Source \: <a href\="https\://www.mer.gouv.fr/la-division-240">Division 240, art. 240-2.01 §7 — coupe-circuit (barre franche / déporté / VNM) — Division 240 — matériel de sécurité des navires de plaisance de moins de 24 mètres</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Balisage et signalisation maritime
+$CATEGORY: Boating licence · Lake Geneva (EN)/Balisage et signalisation maritime
 
 ::q-fr-ialaa-0-876ff971:: [html]Coming from seaward (IALA region A), what colour and shape is a PORT-hand lateral mark? {
 =Red, can-shaped
@@ -158,7 +158,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Balisage et signalisation maritime
 ####[html]The two cones pointing downward, the body yellow above and black below, and the white light VQ(6)+one long flash every 10 s (or Q(6)+one long flash every 15 s) identify the South cardinal mark\: you pass to the south of it.<br>Source \: <a href\="https\://www.iala-aism.org/product/r1001-maritime-buoyage-system-mbs/">IALA R1001 §2.2.4 — marque cardinale Sud — IALA — Système de balisage maritime, région A (Recommandation R1001)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
+$CATEGORY: Boating licence · Lake Geneva (EN)/Réglementation, permis et radio
 
 ::q-fr-iturr-25-796a724d:: [html]Which VHF channel is reserved for distress, urgency and safety watch, and for calling? {
 =Channel 16
@@ -181,7 +181,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
 ####[html]“PAN PAN” \= urgency\: the safety of a vessel or person is at risk, without the grave and imminent danger that warrants distress (MAYDAY).<br>Source \: <a href\="https\://www.itu.int/pub/R-REG-RR">UIT, Règlement des radiocommunications, art. 33 — urgence (PAN PAN) — UIT — Règlement des radiocommunications (canaux VHF maritimes, procédures de détresse et d'urgence)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Météorologie et marées
+$CATEGORY: Boating licence · Lake Geneva (EN)/Météorologie et marées
 
 ::q-fr-meteofrance-23-51cb098c:: [html]The Beaufort scale, measuring wind force, is graduated from 0 to what value? {
 =12
@@ -190,7 +190,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Météorologie et marées
 ####[html]The Beaufort scale runs from force 0 (calm) to force 12 (hurricane).<br>Source \: <a href\="https\://meteofrance.com/">Échelle de Beaufort 0–12 (OMM / Météo-France) — Météo-France / OMM — échelle de Beaufort (force 0 à 12)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
+$CATEGORY: Boating licence · Lake Geneva (EN)/Réglementation, permis et radio
 
 ::q-fr-prefetmaritime-37-970b2a28:: [html]Within the 300-metre coastal band from the shore, what is the navigation speed generally limited to? {
 =5 knots
@@ -199,7 +199,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
 ####[html]Unless a local rule says otherwise, speed is limited to 5 knots within the 300-metre band, for the safety of swimmers.<br>Source \: <a href\="https\://www.premar-mediterranee.gouv.fr/">Arrêté du préfet maritime (bande des 300 m, 5 nœuds) ; CGCT art. L.2213-23 — Arrêtés des préfets maritimes (bande littorale des 300 m ; mouillage et protection de la posidonie)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
+$CATEGORY: Boating licence · Lake Geneva (EN)/Protection de l'environnement
 
 ::q-fr-prefetmaritime-39-eaa8492a:: [html]In the Mediterranean, anchoring on Posidonia seagrass beds is\: {
 =Regulated, even prohibited (protected beds)
@@ -208,7 +208,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
 ####[html]Regulated, and prohibited in many areas\: the anchor tears up these protected beds, vital to marine life; use the designated anchoring zones or buoys.<br>Source \: <a href\="https\://www.premar-mediterranee.gouv.fr/">PREMAR Méditerranée, arrêté n° 123/2019, art. 6 — mouillage / posidonie — Arrêtés des préfets maritimes (bande littorale des 300 m ; mouillage et protection de la posidonie)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Feux, marques et signaux
+$CATEGORY: Boating licence · Lake Geneva (EN)/Feux, marques et signaux
 
 ::q-fr-ripam-10-101515fc:: [html]At night, an underway power-driven vessel under 50 m shows sidelights. What colour is the PORT sidelight? {
 =Red
@@ -252,7 +252,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Feux, marques et signaux
 ####[html]A red parachute rocket flare is a recognised distress signal; orange smoke also serves by day.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM annexe IV §1(i) — signaux de détresse (fusée à parachute rouge) — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Règles de barre et de route
+$CATEGORY: Boating licence · Lake Geneva (EN)/Règles de barre et de route
 
 ::q-fr-ripam-33-c15b46e2:: [html]In a narrow channel, to which side must a vessel generally keep? {
 =The channel edge on its starboard side
@@ -261,7 +261,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Règles de barre et de route
 ####[html]COLREG rule 9\: keep as near as is safe to the outer limit of the channel that lies on its STARBOARD side.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 9 — Chenaux étroits — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Feux, marques et signaux
+$CATEGORY: Boating licence · Lake Geneva (EN)/Feux, marques et signaux
 
 ::q-fr-ripam-34-3e1b8edc:: [html]At night, a vessel under 50 m at anchor shows\: {
 =An all-round white light
@@ -270,7 +270,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Feux, marques et signaux
 ####[html]COLREG rule 30\: an all-round white light forward; by day, a black ball forward.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 30 — Navire au mouillage — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Règles de barre et de route
+$CATEGORY: Boating licence · Lake Geneva (EN)/Règles de barre et de route
 
 ::q-fr-ripam-5-20861326:: [html]Two power-driven vessels meet on directly opposite (head-on) courses with risk of collision. What must each do? {
 =Each alters to starboard
@@ -307,7 +307,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Règles de barre et de route
 ####[html]COLREG rule 17\: if the give-way vessel fails to act, the stand-on vessel may, then must, manoeuvre to avoid collision on its own.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/">RIPAM règle 17 — Navire privilégié — RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Météorologie et marées
+$CATEGORY: Boating licence · Lake Geneva (EN)/Météorologie et marées
 
 ::q-fr-shom-20-a8b10521:: [html]On a nautical chart, relative to what level are the depths (soundings) given? {
 =Chart datum (lowest tides)

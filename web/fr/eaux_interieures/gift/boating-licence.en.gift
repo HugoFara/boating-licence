@@ -1,7 +1,7 @@
 // Boating-licence question bank — GIFT export for Moodle.
 // Self-contained: figures are embedded as base64 data URIs.
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Signalisation des voies et des bateaux
+$CATEGORY: Boating licence · Lake Geneva (EN)/Signalisation des voies et des bateaux
 
 ::q-fr-cevni-47-fc5e54b6:: [html]On an inland waterway, what does ONE prolonged blast from a vessel generally mean? {
 =“Attention”
@@ -10,7 +10,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Signalisation des voies et des bateau
 ####[html]One prolonged blast is the “Attention” signal; it draws other vessels' attention.<br>Source \: <a href\="https\://unece.org/transport/inland-water-transport">CEVNI — signal général « Attention » (un son prolongé) — CEVNI — Code européen des voies de navigation intérieure (CEE-ONU, Résolution n° 24)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
+$CATEGORY: Boating licence · Lake Geneva (EN)/Réglementation, permis et radio
 
 ::q-fr-codetransports-58-ce87c1b3:: [html]Driving a boat under the influence of alcohol is\: {
 =Prohibited
@@ -26,7 +26,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
 ####[html]The boat's circulation card (navigation title), together with, where applicable, the driver's licence and proof of insurance.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000023086525/">Code des transports, art. L.4221-1 — titre de navigation (carte de circulation) — Code des transports — navigation intérieure (titre de navigation, alcoolémie, règlements particuliers de police)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
+$CATEGORY: Boating licence · Lake Geneva (EN)/Protection de l'environnement
 
 ::q-fr-codetransports-78-6de9f8e6:: [html]What should the boater do with waste water (black water) on inland waters? {
 =Hold it in a tank and empty it ashore
@@ -35,7 +35,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
 ####[html]Keep it in a holding tank aboard, then empty it at shore collection facilities; discharging it into the waterway is prohibited.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000023086525/">Code des transports, art. R.4241-63 / CDNI (décret 2010-197) — eaux usées (cuve, dépôt à terre) — Code des transports — navigation intérieure (titre de navigation, alcoolémie, règlements particuliers de police)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
+$CATEGORY: Boating licence · Lake Geneva (EN)/Réglementation, permis et radio
 
 ::q-fr-decret2007-100-0968258d:: [html]From what age may a person not holding a driving title take part in introductory training to operate motorised watercraft? {
 =Over sixteen years of age
@@ -65,7 +65,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
 ####[html]Under the definitions given, a "recreational craft" means any boat or ship, whatever its type or mode of propulsion, intended to be used for leisure or sport purposes. The definition sets no condition as to motorisation or size.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/jorf/article_jo/LEGIARTI000006266726">Décret 2007-1167, art. 1 — Décret n° 2007-1167 du 2 août 2007 relatif au permis de conduire des bateaux de plaisance à moteur</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
+$CATEGORY: Boating licence · Lake Geneva (EN)/Sécurité et matériel d'armement
 
 ::q-fr-division245-114-303d94ff:: [html]This order applies in particular to vessels whose hull length falls within which range? {
 =Greater than or equal to 2.50 metres and less than 20 metres
@@ -102,7 +102,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
 ####[html]A suitable means of anchoring (an anchor with its line) to hold the boat.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/loda/id/JORFTEXT000032036538/">Arrêté du 10 février 2016 (Division 245), art. 6 — ligne de mouillage — Division 245 (arrêté du 10 février 2016) — matériel d'armement et de sécurité des bateaux de plaisance en eaux intérieures</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
+$CATEGORY: Boating licence · Lake Geneva (EN)/Réglementation, permis et radio
 
 ::q-fr-iturr-77-446e0b94:: [html]To use a VHF radio aboard, the skipper must, as a rule, hold\: {
 =The restricted radiotelephone certificate (CRR)
@@ -111,7 +111,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
 ####[html]The restricted radiotelephone certificate (CRR), which authorises the use of a VHF. Since 2011 it is no longer required in French territorial waters for a hand-held VHF without DSC; it remains required for a fixed or DSC-equipped VHF and for navigating abroad.<br>Source \: <a href\="https\://www.itu.int/pub/R-REG-RR">UIT, Règlement des radiocommunications, art. 47 — certificat d'opérateur (CRR, délivré par l'ANFR) — UIT — Règlement des radiocommunications (canaux VHF maritimes, procédures de détresse et d'urgence)</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Règles de barre et de route
+$CATEGORY: Boating licence · Lake Geneva (EN)/Règles de barre et de route
 
 ::q-fr-rgp-102-05aeeaee:: [html]Under what condition may an overtaking vessel begin to overtake? {
 =Only after making sure that the manoeuvre can be carried out without danger.
@@ -197,7 +197,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Règles de barre et de route
 ####[html]The text states that while under way the boatmaster must be on board. It adds that the operator of a motorised floating appliance must also be on board whenever the appliance is at work, even if it is not moving, these provisions not applying to floating equipment.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232811">RGP, art. R4241-6 — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
+$CATEGORY: Boating licence · Lake Geneva (EN)/Sécurité et matériel d'armement
 
 ::q-fr-rgp-116-a04cd5ec:: [html]What obligation applies to any person on board a vessel? {
 =Comply with the orders given by the boatmaster in the interest of the safety of navigation and order on board.
@@ -234,7 +234,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
 ####[html]During periods of ice or flooding, the boatmaster strengthens his vessel's mooring lines; the ice is broken around the waterline by the boatmaster or under his responsibility.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232853">RGP, art. R4241-25 — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Signalisation des voies et des bateaux
+$CATEGORY: Boating licence · Lake Geneva (EN)/Signalisation des voies et des bateaux
 
 ::q-fr-rgp-121-cabcb6ac:: [html]By day, what signal must a ferry not navigating freely display? {
 =A green balloon placed at a height of at least 5 m
@@ -341,7 +341,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Signalisation des voies et des bateau
 ####[html]The use of a navigation radar device is required, for safety reasons, for certain vessels or in certain navigation situations determined by order of the minister responsible for transport.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232919">RGP, art. R4241-50 — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Voies navigables et stationnement
+$CATEGORY: Boating licence · Lake Geneva (EN)/Voies navigables et stationnement
 
 ::q-fr-rgp-136-7a1bdac9:: [html]At a berthing area marked by sign B.12, what obligation applies to all vessels? {
 =Connect to an operational shore-side electrical connection point to fully cover their electricity needs during the stay
@@ -434,7 +434,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Voies navigables et stationnement
 ####[html]Reduce speed when approaching banks, harbours and moored boats, to limit the wash.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP, art. A.4241-53-21 — vitesse et batillage — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Écluses, barrages et ouvrages
+$CATEGORY: Boating licence · Lake Geneva (EN)/Écluses, barrages et ouvrages
 
 ::q-fr-rgp-43-e53f0eaf:: [html]At a lock entrance, what does a RED light mean? {
 =Entry forbidden, you must wait
@@ -457,7 +457,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Écluses, barrages et ouvrages
 ####[html]The water level changes\: tend the lines and pay out or take in as needed, never make them fast to a fixed point (risk of parting or listing).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP, art. A.4241-53-30/-31 — conduite dans le sas d'écluse — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Signalisation des voies et des bateaux
+$CATEGORY: Boating licence · Lake Geneva (EN)/Signalisation des voies et des bateaux
 
 ::q-fr-rgp-46-7ffa546c:: [html]On a waterway, what does a rectangular sign with a red border and a white horizontal bar mean? {
 =No passage / no entry
@@ -480,7 +480,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Signalisation des voies et des bateau
 ####[html]An ordinary white light visible all round, to signal its presence to other vessels.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP, art. A.4241-48-20 — signalisation en stationnement (feu blanc) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Règles de barre et de route
+$CATEGORY: Boating licence · Lake Geneva (EN)/Règles de barre et de route
 
 ::q-fr-rgp-50-30f74d5c:: [html]On inland waters, with respect to large vessels, ferries and vessels on a regular service, small craft (pleasure boats) must\: {
 =Keep out of their way
@@ -503,7 +503,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Règles de barre et de route
 ####[html]Make sure the passage is clear before entering and give way per the signs; on rivers priority goes to the down-bound vessel (going with the current).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP, art. A.4241-53-8 — passage étroit (priorité à l'avalant) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
+$CATEGORY: Boating licence · Lake Geneva (EN)/Sécurité et matériel d'armement
 
 ::q-fr-rgp-54-03dfc925:: [html]A vessel's identification mark (registration) must be\: {
 =Displayed visibly and legibly on the hull
@@ -519,7 +519,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Sécurité et matériel d'armement
 ####[html]Ensure the boat and engine are sound, the safety equipment is aboard, and the conditions (water level, weather) are suitable.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP, art. R.4241-9/-10 — devoir général de prudence du conducteur — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
+$CATEGORY: Boating licence · Lake Geneva (EN)/Réglementation, permis et radio
 
 ::q-fr-rgp-57-acb1b55b:: [html]Besides the general police regulation (RGP), a particular waterway may also be governed by\: {
 =A particular police regulation (RPP)
@@ -528,7 +528,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Réglementation, permis et radio
 ####[html]A particular police regulation (RPP) adapts the general rules to the local circumstances of a given waterway or reach.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">Code des transports, art. R.4241-31/-32 — règlement particulier de police (RPP) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
+$CATEGORY: Boating licence · Lake Geneva (EN)/Protection de l'environnement
 
 ::q-fr-rgp-59-32f112e9:: [html]On inland waters, discharging hydrocarbons, waste water or rubbish into the waterway is\: {
 =Prohibited
@@ -544,7 +544,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
 ####[html]Reduce speed and wash when approaching banks, reed beds and sensitive natural areas.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP, art. A.4241-53-21 — réduire vitesse et batillage près des berges — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Voies navigables et stationnement
+$CATEGORY: Boating licence · Lake Geneva (EN)/Voies navigables et stationnement
 
 ::q-fr-rgp-61-0b480791:: [html]On inland waters, what is a “down-bound” (avalant) vessel? {
 =A vessel going downstream
@@ -567,7 +567,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Voies navigables et stationnement
 ####[html]That the air draft (the boat's height above the water) is less than the available headroom, shown by the signs.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP, annexe 5, panneau C.2 — hauteur libre limitée (tirant d'air) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Écluses, barrages et ouvrages
+$CATEGORY: Boating licence · Lake Geneva (EN)/Écluses, barrages et ouvrages
 
 ::q-fr-rgp-64-3d9c8ad0:: [html]At a lock, who sets the order and manner in which vessels enter? {
 =The lock-keeper and the lock's signs
@@ -583,7 +583,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Écluses, barrages et ouvrages
 ####[html]The lock is out of service / closed to navigation. A single red light means “wait”, and a green light authorises entry.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP, art. A.4241-53-31 §1(a) — deux feux rouges (écluse hors service) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Signalisation des voies et des bateaux
+$CATEGORY: Boating licence · Lake Geneva (EN)/Signalisation des voies et des bateaux
 
 ::q-fr-rgp-66-ae886700:: [html]On inland waters, how do you recognise a PROHIBITION sign? {
 =By its red border
@@ -620,7 +620,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Signalisation des voies et des bateau
 ####[html]A restriction\: for example the available headroom, width or depth (series C signs). A maximum speed is instead a mandatory sign (B.6).<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP, annexe 5, section C — restriction (hauteur, largeur ou profondeur) — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Règles de barre et de route
+$CATEGORY: Boating licence · Lake Geneva (EN)/Règles de barre et de route
 
 ::q-fr-rgp-71-6fe61170:: [html]On a flowing river, when an up-bound and a down-bound vessel meet, which has priority? {
 =The down-bound vessel
@@ -643,7 +643,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Règles de barre et de route
 ####[html]As a rule on the port (left) side of the vessel being overtaken, once sure the manoeuvre is safe; the overtaking vessel keeps clear of the one overtaken.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP, art. A.4241-53-11 §1 — dépassement par bâbord — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
+$CATEGORY: Boating licence · Lake Geneva (EN)/Protection de l'environnement
 
 ::q-fr-rgp-79-0edde366:: [html]When refuelling, what precaution prevents water pollution? {
 =Avoid any overflow (do not fill to the brim)
@@ -652,7 +652,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
 ####[html]Refuel unhurriedly and do not fill to the brim (use a funnel, watch the level) to avoid any fuel spilling into the water.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/">RGP (Code des transports, art. R.4241-62) — prévention de la pollution — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Écluses, barrages et ouvrages
+$CATEGORY: Boating licence · Lake Geneva (EN)/Écluses, barrages et ouvrages
 
 ::q-fr-rgp-92-6b727339:: [html]At a bridge or weir opening bearing prohibition sign A.10, where is navigation permitted? {
 =Only in the space between the two panels making up the sign
@@ -689,7 +689,7 @@ $CATEGORY: Boat permit · Lake Geneva (EN)/Écluses, barrages et ouvrages
 ####[html]It is forbidden to stand and move about on the footbridges and other appurtenances of locks and dams, unless they are arranged to serve as a public passage; it is also forbidden to stand on movable bridges during operation.<br>Source \: <a href\="https\://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000027232977">RGP, art. R4241-71 — Règlement général de police de la navigation intérieure (RGP/RGPNI) — Code des transports, art. R. 4241-1 et s.</a>
 }
 
-$CATEGORY: Boat permit · Lake Geneva (EN)/Protection de l'environnement
+$CATEGORY: Boating licence · Lake Geneva (EN)/Protection de l'environnement
 
 ::q-fr-rgp-97-0f361a41:: [html]A discharge from your boat of a substance liable to create a danger to navigation has occurred. What must you do? {
 =Notify without delay the navigation police authority and the manager, indicating the nature and location of the discharge.

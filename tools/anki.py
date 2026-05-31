@@ -66,7 +66,7 @@ _L = {
            "asof": "Stand {d}"},
     "it": {"deck": "Licenza nautica · Lemano", "answer": "Risposta", "source": "Fonte",
            "asof": "stato {d}"},
-    "en": {"deck": "Boat permit · Lake Geneva", "answer": "Answer", "source": "Source",
+    "en": {"deck": "Boating licence · Lake Geneva", "answer": "Answer", "source": "Source",
            "asof": "as of {d}"},
 }
 _THEME_LABELS = {
