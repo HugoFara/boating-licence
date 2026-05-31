@@ -15,6 +15,7 @@ function show(name) {
 
 let LANG = DEFAULT_LANG;   // active UI language (from i18n.js)
 let BANK = [];             // all questions for the active content language
+let CONCEPTS = {};         // principle -> "why" explainer map (optional, may be {})
 let CFG = {};              // exam config from meta
 let META = {};             // raw meta of the loaded bank
 let MANIFEST = {};         // languages.json (per-language counts + Anki downloads)
@@ -194,11 +195,23 @@ async function fetchBank(lang) {
  * authored at build time behind the review gate and shipped static. Optional —
  * absent file just means no Learn cards (graceful), keeping the player offline. */
 async function fetchConcepts(lang) {
+  // A principle->explainer map, not a {questions:[]} bank, so we can't reuse
+  // loadDoc (which requires a non-empty questions array). Return the first
+  // non-empty map; absent/empty file => {} (no Learn cards, graceful).
   const paths = lang === DEFAULT_LANG
     ? ["concepts.fr.json", "concepts.json"]
     : [`concepts.${lang}.json`, "concepts.fr.json", "concepts.json"];
-  const data = await loadDoc(paths);
-  return (data && typeof data === "object" && !Array.isArray(data)) ? data : {};
+  for (const url of paths) {
+    if (!url) continue;
+    try {
+      const r = await fetch(url, { cache: "no-store" });
+      if (!r.ok) continue;
+      const data = await r.json();
+      if (data && typeof data === "object" && !Array.isArray(data)
+          && Object.keys(data).length) return data;
+    } catch (e) { /* try next */ }
+  }
+  return {};
 }
 
 /* The build manifest (languages.json) carries per-language Anki download links.
