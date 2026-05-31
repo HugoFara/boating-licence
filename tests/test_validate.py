@@ -18,10 +18,10 @@ from src import validate                                        # noqa: E402
 from src.questions.schema import Question, Choice, Provenance   # noqa: E402
 
 
-def _q(theme, stem, correct="right", block="", qid=None):
+def _q(theme, stem, correct="right", block="", qid=None, principle=""):
     return Question(
         id=qid or f"{theme}-{abs(hash(stem)) % 10000}", theme=theme, kind="rule_mc",
-        stem=stem, block=block,
+        stem=stem, block=block, principle=principle,
         choices=[Choice(correct, is_correct=True), Choice("wrong")],
         provenance=Provenance(unit_id="u", ref="", source="", url=""))
 
@@ -46,8 +46,8 @@ _BANKS = {
 }
 
 
-def _install(monkeypatch_target=validate):
-    monkeypatch_target.load_bank = lambda code: list(_BANKS.get(code, []))
+def _install(banks=_BANKS, monkeypatch_target=validate):
+    monkeypatch_target.load_bank = lambda code: list(banks.get(code, []))
 
 
 def test_coverage_counts_and_absent_track():
@@ -74,6 +74,68 @@ def test_coverage_flags_a_real_gap():
         assert ("CH", "blue_board") in gap_concepts
         # FR *does* cover blue_board ("panneau bleu") → not a gap for FR.
         assert ("FR", "blue_board") not in gap_concepts
+    finally:
+        validate.load_bank = orig
+
+
+# A principle-tagged world for the bounded-coverage instrument. DE (official) tests
+# two inland topics — iala-buoyage (×2) and give-way (×1) — plus one untagged item;
+# CH covers buoyage but not give-way.
+_PRINC_BANKS = {
+    "DE": [
+        _q("schifffahrtszeichen", "Laterale Tonne A", block="spezifisch_binnen",
+           principle="iala-buoyage", qid="de1"),
+        _q("schifffahrtszeichen", "Laterale Tonne B", block="spezifisch_binnen",
+           principle="iala-buoyage", qid="de2"),
+        _q("verkehrsregeln", "Vorfahrt beim Kreuzen", block="spezifisch_binnen",
+           principle="give-way", qid="de3"),
+        _q("verkehrsregeln", "Eine allgemeine Regel ohne Stichwort",
+           block="spezifisch_binnen", principle="", qid="de4"),  # untagged → unmeasured
+    ],
+    "CH": [
+        _q("signalisation", "Marque laterale dans le chenal",
+           principle="iala-buoyage", qid="ch1"),
+    ],
+}
+
+
+def test_instrumentation_reports_measured_fraction():
+    orig = validate.load_bank
+    try:
+        _install(_PRINC_BANKS)
+        rep = validate.coverage(derived=("CH",))
+        instr = rep["instrumentation"]["cevni"]
+        # 3 of the 4 official inland questions are topic-tagged → 75% measurable.
+        assert instr["official"] == 4
+        assert instr["instrumented"] == 3
+        assert instr["pct"] == 75.0
+    finally:
+        validate.load_bank = orig
+
+
+def test_principle_coverage_is_weighted_and_bounded():
+    orig = validate.load_bank
+    try:
+        _install(_PRINC_BANKS)
+        rep = validate.coverage(derived=("CH",))
+        cev = rep["principle_cov"]["CH"]["cevni"]
+        # CH covers iala-buoyage (2 official) but not give-way (1 official):
+        # 1 of 2 topics, 2 of 3 weighted → 66.7%, give-way flagged missing.
+        assert cev["topics_covered"] == 1 and cev["topics_official"] == 2
+        assert cev["weighted_covered"] == 2 and cev["weighted_official"] == 3
+        assert cev["pct"] == round(100 * 2 / 3, 1)
+        assert cev["missing"] == ["give-way"]
+    finally:
+        validate.load_bank = orig
+
+
+def test_principle_coverage_skips_absent_track():
+    orig = validate.load_bank
+    try:
+        _install()  # default world: DE has a colregs item, CH is inland-only
+        rep = validate.coverage(derived=("CH", "FR"))
+        # CH implements no maritime track, so it must not be scored on colregs.
+        assert "colregs" not in rep["principle_cov"]["CH"]
     finally:
         validate.load_bank = orig
 

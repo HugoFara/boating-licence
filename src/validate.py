@@ -10,10 +10,16 @@ the comparison to genuinely shared scope).
 
 Two instruments, deliberately different in cost and confidence:
 
-  * :func:`coverage` — deterministic, ``$0``, CI-friendly. Treats the official
-    German shared-scope bank as a *checklist* of harmonised concepts and reports
-    which concepts a derived bank under- or over-covers. It answers "is my derived
-    inland core as broad as the official one?", never "is an answer right".
+  * :func:`coverage` — deterministic, ``$0``, CI-friendly. Reports, per harmonised
+    base, (1) an **instrumentation rate** — what fraction of the official bank any
+    instrument can even see, so no figure is read as covering more than it measures;
+    (2) a **bounded coverage figure** on that instrumented slice, via the shared
+    ``principle`` tag, weighted by how often the official bank tests each topic; and
+    (3) a fine-grained, hand-curated **concept probe** (precise but low-reach) that
+    spot-checks individual harmonised concepts. It answers "how much of what the
+    official bank tests — and that I can actually measure — does my derived bank
+    carry?", never "is an answer right". The untagged remainder is reported as
+    explicitly unmeasured rather than silently assumed covered.
 
   * :func:`flag_divergences` — an on-demand **divergence flagger** (LLM). For a
     derived question matched to the official catalogue on a shared concept, it asks
@@ -149,6 +155,15 @@ def _haystack(q) -> str:
                      getattr(p, "source", "") or "")).lower()
 
 
+def _principle(q) -> str:
+    """The question's deterministic principle tag (see src.questions.principles),
+    or "" if untagged. This is the second — and far broader — shared instrument:
+    unlike the hand-written concept checklist it is applied identically to every
+    bank at build time, so it can compare derived banks to the official one over a
+    much larger slice of the catalogue."""
+    return getattr(q, "principle", "") or ""
+
+
 def _base_questions(code: str) -> dict[str, list]:
     """The bank's questions bucketed by harmonised base (only the shareable
     universal/cevni/colregs scopes; national/local overlays are dropped)."""
@@ -167,9 +182,15 @@ def _base_questions(code: str) -> dict[str, list]:
 def coverage(derived: tuple[str, ...] = ("CH", "FR")) -> dict:
     """Compare each derived bank's harmonised-base coverage to the official one.
 
-    Returns a report with (a) per-base question counts per bank and (b) a concept
-    matrix: per concept, how many questions each bank carries, plus the *gaps* —
-    concepts the official bank covers that a derived bank does not.
+    Returns a report with:
+      * ``counts`` — per-base question counts per bank;
+      * ``matrix`` / ``gaps`` / ``absent_tracks`` — the hand-curated concept probe:
+        per concept how many questions each bank carries, the concepts the official
+        bank tests that a derived bank lacks, and tracks a bank doesn't implement;
+      * ``instrumentation`` — per base, how much of the official bank is topic-tagged
+        (the measurable slice; the rest is explicitly unmeasured);
+      * ``principle_cov`` — per derived bank per base, the bounded coverage figure on
+        that instrumented slice (topics + frequency-weighted), with missing topics.
     """
     codes = [OFFICIAL, *derived]
     banks = {c: _base_questions(c) for c in codes}
@@ -205,20 +226,118 @@ def coverage(derived: tuple[str, ...] = ("CH", "FR")) -> dict:
                 gaps.append({"bank": c, "concept": concept.id,
                              "base": concept.base, "label": concept.label,
                              "official_count": off})
+    # --- topic instrumentation + bounded coverage (the principle layer) -------
+    # The hand-written concept checklist above is precise but tiny: it matches only
+    # a sliver of the official bank, so on its own it can flag illustrative gaps but
+    # cannot state a coverage *figure*. The deterministic `principle` tag reaches far
+    # more of the catalogue, so we use it to report two honest numbers:
+    #   (a) instrumentation — what fraction of the official bank ANY instrument can
+    #       even see, per base. A coverage figure must never be read as covering more
+    #       than this; the untagged remainder is genuinely unmeasured.
+    #   (b) coverage — on that instrumented slice, how much of what the official bank
+    #       tests (weighted by how often it tests it) the derived bank also carries.
+    instrumentation: dict[str, dict] = {}
+    for base in scope.BASES:
+        offq = banks[OFFICIAL][base]
+        concepts = [c for c in CONCEPTS if c.base == base]
+        seen = sum(1 for q in offq
+                   if _principle(q)
+                   or any(c.pattern.search(_haystack(q)) for c in concepts))
+        instrumentation[base] = {
+            "official": len(offq), "instrumented": seen,
+            "pct": round(100 * seen / len(offq), 1) if offq else None}
+
+    principle_cov: dict[str, dict] = {}
+    for c in derived:
+        per_base: dict[str, dict] = {}
+        for base in scope.BASES:
+            # Skip a track the derived bank doesn't implement (CH has no maritime
+            # code) and a base the official bank itself doesn't test.
+            if (c, base) in absent_pairs or counts[OFFICIAL][base] == 0:
+                continue
+            off_weights: dict[str, int] = {}
+            for q in banks[OFFICIAL][base]:
+                p = _principle(q)
+                if p:
+                    off_weights[p] = off_weights.get(p, 0) + 1
+            present = {_principle(q) for q in banks[c][base] if _principle(q)}
+            covered = set(off_weights) & present
+            w_off = sum(off_weights.values())
+            w_cov = sum(n for p, n in off_weights.items() if p in covered)
+            per_base[base] = {
+                "topics_official": len(off_weights),
+                "topics_covered": len(covered),
+                "missing": sorted(set(off_weights) - present),
+                "weighted_official": w_off,
+                "weighted_covered": w_cov,
+                "pct": round(100 * w_cov / w_off, 1) if w_off else None}
+        principle_cov[c] = per_base
+
     return {"codes": codes, "counts": counts, "matrix": matrix,
-            "gaps": gaps, "absent_tracks": absent}
+            "gaps": gaps, "absent_tracks": absent,
+            "instrumentation": instrumentation, "principle_cov": principle_cov}
 
 
 def format_coverage(report: dict) -> str:
     codes = report["codes"]
-    lines = ["Harmonised-core coverage vs the official German catalogue", ""]
+    derived = [c for c in codes if c != OFFICIAL]
+    lines = ["Harmonised-core coverage vs the official German catalogue",
+             f"({OFFICIAL} is the official ELWIS catalogue; "
+             f"{'/'.join(derived)} are derived from national law, fidelity unproven.)",
+             ""]
     # Base counts table.
     head = "  base        " + "".join(f"{c:>8}" for c in codes)
     lines += [head, "  " + "-" * (len(head) - 2)]
     for base in scope.BASES:
         lines.append("  " + f"{base:10}" + "  " +
                      "".join(f"{report['counts'][c][base]:>8}" for c in codes))
-    # Concept matrix.
+
+    # --- 1. Measured slice: how much of the official bank we can even see -------
+    instr = report.get("instrumentation", {})
+    if instr:
+        lines += ["", "  Measured slice — fraction of the official bank that is "
+                      "topic-instrumented", "  (any coverage figure below speaks to "
+                      "THIS slice only; the rest is unmeasured):"]
+        for base in scope.BASES:
+            d = instr.get(base)
+            if not d or not d["official"]:
+                continue
+            pct = f"{d['pct']:.0f}%" if d["pct"] is not None else "n/a"
+            lines.append(f"    {base:10} {d['instrumented']:>4}/{d['official']:<4} "
+                         f"({pct}) topic-tagged")
+        lines.append("    The untagged remainder (prose-heavy traffic-rule items) is "
+                     "UNMEASURED — a derived")
+        lines.append("    bank could be complete or sparse there and this instrument "
+                     "cannot tell.")
+
+    # --- 2. Coverage on the instrumented slice (the bounded number) ------------
+    pcov = report.get("principle_cov", {})
+    if pcov:
+        lines += ["", "  Coverage on the topic-instrumented slice — share of what the "
+                      "official bank tests",
+                  "  (weighted by frequency) that the derived bank also carries. "
+                  "Conservative by design:",
+                  "  one principle tag per question, so a topic can read as missing "
+                  "when its content is",
+                  "  folded into a neighbour — read a low score as a FLOOR, not a verdict:"]
+        for c in derived:
+            for base in scope.BASES:
+                d = pcov.get(c, {}).get(base)
+                if not d or d["pct"] is None:
+                    continue
+                miss = (f"   missing: {', '.join(d['missing'])}"
+                        if d["missing"] else "")
+                lines.append(
+                    f"    {c} {base:8} {d['pct']:>5.0f}%  "
+                    f"({d['topics_covered']}/{d['topics_official']} topics, "
+                    f"{d['weighted_covered']}/{d['weighted_official']} weighted){miss}")
+
+    # --- 3. Fine-grained concept probe (hand-curated; low reach by design) -----
+    lines += ["", "  Fine-grained concept probe — a hand-curated checklist. It "
+                  "instruments only a small",
+              "  part of the official bank (see the measured-slice line above), so "
+              "its gaps are",
+              "  illustrative spot-checks, NOT a coverage measure:"]
     lines += ["", "  concept (base)                 " + "".join(f"{c:>8}" for c in codes)]
     for row in report["matrix"]:
         label = f"{row['concept']} ({row['base']})"
@@ -229,16 +348,26 @@ def format_coverage(report: dict) -> str:
         for a in report["absent_tracks"]:
             lines.append(f"    {a['bank']} has no {a['base']} questions "
                          f"(track absent by design)")
-    # Gaps.
+    # Gaps (within the hand-curated probe only — explicitly bounded).
     if report["gaps"]:
-        lines += ["", f"⚠ {len(report['gaps'])} coverage gap(s) — the official bank "
-                      f"tests these harmonised concepts; the derived bank has none:"]
+        lines += ["", f"  {len(report['gaps'])} probe gap(s) — checklist concepts the "
+                      f"official bank tests but the derived bank lacks:"]
         for g in report["gaps"]:
             lines.append(f"    {g['bank']}: {g['concept']} ({g['base']}) — "
                          f"official has {g['official_count']}")
     else:
-        lines += ["", "✓ No coverage gaps: every concept the official bank tests is "
-                      "present in each derived bank."]
+        lines += ["", "  No gaps within the hand-curated probe — but note this probe "
+                      "sees only the small",
+                  "  instrumented fraction above, so this is NOT a clean bill of "
+                  "coverage."]
+
+    # --- Bottom line: bounded, never "ready" -----------------------------------
+    lines += ["", "  Bottom line: coverage can be stated only for the topic-tagged "
+                  "slice (~half of the",
+              "  official harmonised bank); the untagged remainder is unmeasured. "
+              "This is a coverage",
+              "  floor, not an exam-readiness signal — do not present any derived "
+              "bank as 'ready to pass'."]
     return "\n".join(lines)
 
 
