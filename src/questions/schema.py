@@ -36,6 +36,10 @@ from .. import cantons
 KINDS = {"figure_recognition", "rule_mc", "definition_mc", "meteo_mc",
          "matelotage_mc", "frontiere_mc", "official_mc"}
 POLARITIES = {"affirmative", "negative"}           # negative = "lequel n'est PAS…"
+# Learner-facing difficulty ramp (orthogonal to theme/block). "unrated" is the
+# honest default: a question is only easy/medium/hard once a human or a sourced
+# heuristic has actually judged it, never by accident of generation.
+DIFFICULTIES = {"unrated", "easy", "medium", "hard"}
 REVIEW_STATUSES = {"auto_approved", "pending", "approved", "rejected"}
 DISTRACTOR_STRATEGIES = {"sibling_random", "confusion_set", "curated", "n/a"}
 # Only these may be published to the static (public) player:
@@ -92,6 +96,9 @@ class Question:
                                   # "iala-lateral" or "give-way-power-sail". Joins a
                                   # question to its Concept "why" card (roadmap A/D1).
                                   # Empty = no concept attached (graceful fallback).
+    difficulty: str = "unrated"   # one of DIFFICULTIES; an orthogonal study axis
+                                  # (easy→hard ramp, exam balancing). "unrated" until
+                                  # judged — never inferred from generation.
 
     @property
     def correct(self) -> list[int]:
@@ -206,6 +213,8 @@ def validate(q: Question, is_valid_theme=themes.is_valid) -> list[str]:
         errs.append(f"unknown kind {q.kind!r}")
     if q.polarity not in POLARITIES:
         errs.append(f"unknown polarity {q.polarity!r}")
+    if q.difficulty not in DIFFICULTIES:
+        errs.append(f"unknown difficulty {q.difficulty!r}")
     if q.review_status not in REVIEW_STATUSES:
         errs.append(f"unknown review_status {q.review_status!r}")
     if q.distractor_strategy not in DISTRACTOR_STRATEGIES:
@@ -321,6 +330,7 @@ CREATE TABLE IF NOT EXISTS questions (
     kind                TEXT NOT NULL,
     lang                TEXT NOT NULL DEFAULT 'fr',
     polarity            TEXT NOT NULL,
+    difficulty          TEXT NOT NULL DEFAULT 'unrated',
     stem                TEXT NOT NULL,
     image               TEXT,
     points              INTEGER NOT NULL,
@@ -384,10 +394,13 @@ def _migrate(conn: sqlite3.Connection) -> None:
         conn.execute("ALTER TABLE questions ADD COLUMN block TEXT NOT NULL DEFAULT ''")
     if "principle" not in cols:   # pre-concept bank: backfill the principle tag
         conn.execute("ALTER TABLE questions ADD COLUMN principle TEXT NOT NULL DEFAULT ''")
+    if "difficulty" not in cols:  # pre-difficulty bank: backfill the study-ramp tag
+        conn.execute("ALTER TABLE questions ADD COLUMN difficulty TEXT NOT NULL DEFAULT 'unrated'")
     ch_cols = {r[1] for r in conn.execute("PRAGMA table_info(choices)")}
     if "rationale" not in ch_cols:   # pre-feedback bank: backfill the per-choice note
         conn.execute("ALTER TABLE choices ADD COLUMN rationale TEXT NOT NULL DEFAULT ''")
     conn.execute("CREATE INDEX IF NOT EXISTS idx_q_lang ON questions(lang)")
+    conn.execute("CREATE INDEX IF NOT EXISTS idx_q_difficulty ON questions(difficulty)")
     conn.commit()
 
 
@@ -407,14 +420,15 @@ def write_questions(conn: sqlite3.Connection, questions: list[Question],
         p = q.provenance
         cur.execute(
             """INSERT INTO questions
-               (id, theme, kind, lang, polarity, stem, image, points, explanation,
-                review_status, distractor_strategy, generator, block, principle,
-                prov_unit_id, prov_ref, prov_source, prov_url, prov_as_of, prov_licence)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
-            (q.id, q.theme, q.kind, q.lang, q.polarity, q.stem, q.image, q.points,
-             q.explanation, q.review_status, q.distractor_strategy, q.generator,
-             q.block, q.principle, p.unit_id, p.ref, p.source, p.url, p.as_of,
-             p.licence))
+               (id, theme, kind, lang, polarity, difficulty, stem, image, points,
+                explanation, review_status, distractor_strategy, generator, block,
+                principle, prov_unit_id, prov_ref, prov_source, prov_url, prov_as_of,
+                prov_licence)
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+            (q.id, q.theme, q.kind, q.lang, q.polarity, q.difficulty, q.stem, q.image,
+             q.points, q.explanation, q.review_status, q.distractor_strategy,
+             q.generator, q.block, q.principle, p.unit_id, p.ref, p.source, p.url,
+             p.as_of, p.licence))
         for i, c in enumerate(q.choices):
             cur.execute(
                 "INSERT INTO choices (question_id, idx, text, image, is_correct, rationale) "
@@ -462,6 +476,7 @@ def _row_to_question(conn: sqlite3.Connection, r: sqlite3.Row) -> Question:
         distractor_strategy=r["distractor_strategy"], generator=r["generator"],
         block=(r["block"] if "block" in r.keys() else ""),
         principle=(r["principle"] if "principle" in r.keys() else ""),
+        difficulty=(r["difficulty"] if "difficulty" in r.keys() else "unrated"),
         choices=choices,
         provenance=Provenance(
             unit_id=r["prov_unit_id"], ref=r["prov_ref"], source=r["prov_source"],
