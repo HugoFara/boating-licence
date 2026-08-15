@@ -56,11 +56,16 @@ def test_every_spec_is_drawable_by_its_family():
             assert 1 <= len(d["shapes"]) <= 3, d["key"]
             for kind, _colour in d["shapes"]:
                 assert kind in diagrams._PRIMITIVES, f"{d['key']}: {kind}"
-        else:
+        elif d["family"] == "nav-lights":
             assert 1 <= len(d["column"]) <= 5, d["key"]
             for colour in d["column"]:
                 assert colour in diagrams._LIGHT_COLOURS, f"{d['key']}: {colour}"
             assert isinstance(d["sidelights"], bool), d["key"]
+        else:
+            assert d["pattern"], d["key"]
+            for tok in d["pattern"]:
+                assert tok in diagrams._TONE_S or tok == "gap", f"{d['key']}: {tok}"
+            assert d["pattern"][0] != "gap" and d["pattern"][-1] != "gap", d["key"]
 
 
 def test_one_fixed_canvas_per_family_so_figures_are_comparable():
@@ -105,6 +110,49 @@ def test_no_sternlight_is_ever_drawn():
         lows = [float(c.split('cy="')[1].split('"')[0])
                 for c in svg.split("<circle ")[1:]]
         assert max(lows) <= diagrams._SIDE_Y, f"{d['key']} draws a light abaft"
+
+
+def test_every_timeline_fits_its_canvas():
+    """A blast timeline is centred on a shared canvas, so a pattern wider than the
+    canvas silently runs off the edge instead of failing. Two did, because a group
+    separator was charged the inter-group pause twice — once entering the gap and
+    once leaving it."""
+    for d in diagrams.DIAGRAMS:
+        if d["family"] != "sound-signals":
+            continue
+        width = diagrams._pattern_width(d["pattern"], d["repeat"])
+        assert width <= diagrams._SW - 24, (
+            f"{d['key']} is {width:.0f}px wide on a {diagrams._SW:.0f}px canvas")
+
+
+def test_a_group_separator_costs_one_pause_not_two():
+    """The regression above, pinned directly: three long tones, a group break, three
+    more must measure exactly two groups plus ONE inter-group pause."""
+    group = 3 * 4 * diagrams._SEC + 2 * diagrams._PAUSE * diagrams._SEC
+    expected = 2 * group + diagrams._GROUP_PAUSE * diagrams._SEC
+    got = diagrams._pattern_width(
+        ["long", "long", "long", "gap", "long", "long", "long"], False)
+    assert abs(got - expected) < 0.01, f"expected {expected}, got {got}"
+
+
+def test_blast_bars_are_drawn_to_scale():
+    """A long blast is about four times a short one (Anlage 6 Vorbemerkung), and the
+    figure has to say so — that ratio IS the discrimination in the overtaking and
+    harbour signals."""
+    segs, _ = diagrams._segments(["short", "long"])
+    (_, short_w), (_, long_w) = segs
+    assert abs(long_w / short_w - 4.0) < 0.01
+
+
+def test_measure_and_draw_use_the_same_layout():
+    """Centring is computed from _pattern_width and the bars from _segments; if those
+    two ever disagree the figure drifts off centre. Same walk, so check they agree."""
+    for d in diagrams.DIAGRAMS:
+        if d["family"] != "sound-signals":
+            continue
+        segs, span = diagrams._segments(d["pattern"])
+        assert abs(segs[-1][0] + segs[-1][1] - span) < 0.01, d["key"]
+        assert diagrams._pattern_width(d["pattern"], False) == span, d["key"]
 
 
 def test_layout_satisfies_the_annex_it_cites():

@@ -251,8 +251,33 @@ and 107 stay unillustrated rather than have us invent a stacking order — recor
 `_UNPRESCRIBED`. Frage 93/94 (towing convoys) need a second vessel and wait for the
 give-way view; the six inland questions need BinSchStrO sourcing, not KVR.
 
-Next: sound-signals (76 missing — a blast timeline, the simplest family left), then
-the inland light questions, then give-way plan views.
+**Sound signals, done:** 13 diagrams, a blast timeline — each blast a bar whose
+*width* is its duration, separated by the pause the annex prescribes. That is not a
+stylisation: BinSchStrO Anlage 6 already draws its signals as ▬ and ▪ glyphs and
+states the durations behind them ("kurzer Ton: etwa eine Sekunde; langer Ton: etwa
+vier Sekunden; die Pause … etwa eine Sekunde"). Drawing to scale says what the glyphs
+cannot — a long blast is **four times** a short one, which is the entire
+discrimination in the inland set: 2 long + 1 short (overtake to starboard), 2 long +
+2 short (to port), 3 long + 1 short (leaving harbour to starboard), 3 long + 2 short
+(to port). Four things to memorise become one pattern to read.
+
+No second scale is printed on the figure: the inland code fixes the long blast at
+about four seconds and KVR Regel 32 allows four to six, so a numeric axis would claim
+a precision one of the two codes does not have. The ratio is common to both.
+
+Inland and sea signals are kept apart — the same rhythm can mean different things
+under the two codes, so a diagram is only attached to a question from the catalogue
+whose code it was drawn from.
+
+**Reach so far:** 29 German questions that pointed at a figure now have one — 6
+day-shape, 10 nav-light, 13 sound-signal — sourced across BinSchStrO, SeeSchStrO and
+the KVR. Eleven still point at nothing: the four listed above, plus six inland light
+questions and one whose stem is truncated upstream (`Frage 140`, SBF See, ends
+mid-parenthesis at *"(mindestens"* — an ingestion bug in the ELWIS parser, not a
+missing figure).
+
+Next: the inland light questions (BinSchStrO §3), then give-way plan views — which
+also unlock the two towing-convoy questions that need a second vessel.
 
 ### Adding a diagram (the smallest useful contribution)
 

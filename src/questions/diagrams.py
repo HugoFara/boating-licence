@@ -1,4 +1,4 @@
-"""Generated figures — day shapes and navigation lights (illustration system).
+"""Generated figures — day shapes, navigation lights, sound signals.
 
 Why this module exists
 ----------------------
@@ -10,12 +10,13 @@ via Fedlex, public domain; ELWIS GIFs, §5(2) UrhG verbatim-only), so a diagram
 obtained for one country's bank cannot legally be reused in another's. That is the
 opposite of what `docs/scope.md` promises for the harmonised core.
 
-The way out is that both families here are **geometry, not artwork**. The law
-describes day shapes as balls, cones, cylinders, diamonds and hourglasses stacked in
-a vertical line, and it describes lights by colour, arc and vertical order — Regeln
-21–30 for what a vessel shows, Anlage I §2 for where each light sits. So we do not
-*obtain* the picture, we **derive** it — from the article that prescribes it, with
-the same discipline as a question:
+The way out is that every family here is **geometry, not artwork**. The law describes
+day shapes as balls, cones, cylinders, diamonds and hourglasses stacked in a vertical
+line; it describes lights by colour, arc and vertical order (Regeln 21–30 for what a
+vessel shows, Anlage I §2 for where each light sits); and it describes sound signals
+as blasts of stated duration separated by a stated pause. So we do not *obtain* the
+picture, we **derive** it — from the article that prescribes it, with the same
+discipline as a question:
 
   * every diagram carries a ``source`` naming the unit, the article and the exact
     ``quote`` that prescribes the shapes. ``tests/test_diagrams.py`` reads that quote
@@ -48,7 +49,7 @@ import os
 import sqlite3
 
 GENERATOR = "gen:diagram.v1"
-FAMILIES = ("day-shapes", "nav-lights")
+FAMILIES = ("day-shapes", "nav-lights", "sound-signals")
 
 # Where the rendered figures land, relative to the repo root. Under data/assets/ so
 # the per-country and core web bundlers relocate them like any other figure.
@@ -382,7 +383,98 @@ DAY_SHAPES: list[dict] = [
     },
 ]
 
-# ── Nav-lights: the spec ──────────────────────────────────────────────────────
+# ── Sound-signals geometry ────────────────────────────────────────────────────
+# A sound signal is a rhythm, so the figure is a timeline: each blast a bar whose
+# WIDTH is its duration, separated by the pause the annex prescribes. This is not a
+# stylisation — BinSchStrO Anlage 6 already draws its signals as ▬ and ▪ glyphs, and
+# it states the durations behind them: "kurzer Ton: ein Ton von etwa einer Sekunde
+# Dauer; langer Ton: ein Ton von etwa vier Sekunden Dauer. Die Pause zwischen zwei
+# aufeinanderfolgenden Tönen beträgt etwa eine Sekunde." Drawing bars to scale says
+# what the glyphs cannot: a long blast is FOUR times a short one, which is the whole
+# discrimination in the four-question overtaking/harbour set (2 long + 1 short vs
+# 2 long + 2 short vs 3 long + 1 short vs 3 long + 2 short).
+#
+# No second scale is printed on the figure. The inland code fixes the long blast at
+# about four seconds and KVR Regel 32 allows four to six, so a numeric axis would
+# claim a precision one of the two codes does not have. The ratio is common to both.
+_SW, _SH = 340.0, 110.0
+_SEC = 10.0            # px per second — the one scale the whole family shares
+_BAR_TOP, _BAR_H = 42.0, 30.0
+_TONE_S = {"short": 1.0, "long": 4.0, "very-short": 0.25}
+_PAUSE = 1.0           # Anlage 6: about one second between consecutive tones
+_GROUP_PAUSE = 2.6     # the wider air between two repetitions of a whole group
+_TONE_INK = "#1f3a5f"
+_RULE_INK = "#9aa8bd"
+
+
+def _segments(pattern: list[str]) -> tuple[list[tuple[float, float]], float]:
+    """Lay the pattern out once: ``[(x, width), …]`` plus the total width.
+
+    Measuring and drawing walk the SAME list, so a timeline can never be centred by
+    one rule and drawn by another. A ``gap`` token widens the pause that follows it
+    instead of contributing a pause of its own — otherwise a group separator pays the
+    inter-group air twice and the figure runs off its canvas."""
+    out: list[tuple[float, float]] = []
+    x, pause, first = 0.0, 0.0, True
+    for tok in pattern:
+        if tok == "gap":
+            pause = _GROUP_PAUSE
+            continue
+        if not first:
+            x += pause * _SEC
+        w = _TONE_S[tok] * _SEC
+        out.append((x, w))
+        x += w
+        first, pause = False, _PAUSE
+    return out, x
+
+
+def _pattern_width(pattern: list[str], repeat: bool) -> float:
+    """Total drawn width, so the timeline can be centred on the shared canvas."""
+    return _segments(pattern)[1] + (22.0 if repeat else 0.0)
+
+
+def render_sound(pattern: list[str], title: str, repeat: bool = False,
+                 source_ref: str = "") -> str:
+    """A blast timeline, left to right.
+
+    ``pattern`` is a list of ``short`` / ``long`` / ``very-short``, with ``gap`` as a
+    separator where the source prescribes two groups ("zwei Gruppen von drei langen
+    Tönen"). ``repeat`` appends a continuation mark for the signals the source says
+    are repeated rather than given once."""
+    if not pattern or any(t not in _TONE_S and t != "gap" for t in pattern):
+        raise ValueError(f"bad blast pattern {pattern!r}; "
+                         f"tones are {tuple(_TONE_S)} plus 'gap'")
+    credit = (f"\n<!-- Generated figure, derived from {source_ref}; bar width = blast "
+              f"duration, gap = the prescribed pause. Original artwork; project "
+              f"licence (CC BY-SA 4.0), not a reproduction of any source figure. "
+              f"{GENERATOR} -->" if source_ref else "")
+    segs, _span = _segments(pattern)
+    x0 = (_SW - _pattern_width(pattern, repeat)) / 2
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {_SW:g} {_SH:g}" '
+        f'width="{_SW:g}" height="{_SH:g}" role="img" '
+        f'aria-label="{_esc(title)}">{credit}',
+        f'<title>{_esc(title)}</title>',
+        f'<rect width="{_SW:g}" height="{_SH:g}" fill="#ffffff"/>',
+        # the silence line the blasts sit on: it makes the pauses visible as pauses
+        f'<line x1="14" y1="{_BAR_TOP + _BAR_H:g}" x2="{_SW - 14:g}" '
+        f'y2="{_BAR_TOP + _BAR_H:g}" stroke="{_RULE_INK}" stroke-width="1.5"/>',
+    ]
+    for dx, w in segs:
+        parts.append(f'<rect x="{x0 + dx:g}" y="{_BAR_TOP:g}" width="{w:g}" '
+                     f'height="{_BAR_H:g}" rx="2" fill="{_TONE_INK}"/>')
+    if repeat:
+        end = x0 + _span
+        for k in range(3):
+            parts.append(f'<circle cx="{end + 8 + k * 7:g}" '
+                         f'cy="{_BAR_TOP + _BAR_H - 3:g}" r="2" '
+                         f'fill="{_TONE_INK}"/>')
+    parts.append("</svg>")
+    return "\n".join(parts) + "\n"
+
+
+# ── Nav-lights: the spec ──────────────────────────────────────────────────
 # ``column`` is top-to-bottom on the centreline; ``sidelights`` says the vessel is
 # making way through the water (several Rules prescribe the identity lights always
 # and the sidelights only "bei Fahrt durchs Wasser" — that difference is the whole
@@ -518,8 +610,160 @@ NAV_LIGHTS: list[dict] = [
     },
 ]
 
+# ── Sound-signals: the spec ───────────────────────────────────────────────────
+# Two regimes, kept apart on purpose. The inland signals come from BinSchStrO
+# Anlage 6, which tabulates every one of them with its own ▬/▪ glyphs; the sea
+# signals from SeeSchStrO Anlage I/II and the KVR. The same rhythm can mean
+# different things under the two codes, so a diagram is only ever attached to a
+# question from the catalogue whose code it was drawn from.
+SOUND_SIGNALS: list[dict] = [
+    # ── inland (BinSchStrO Anlage 6) ──
+    {
+        "key": "inland-turn-to-starboard",
+        "pattern": ["long", "short"],
+        "title": "Ein langer Ton, ein kurzer Ton",
+        "source": {
+            "unit": "binschstro-de-binschstro_2012_anlage_6",
+            "ref": "BinSchStrO 2012 Anlage 6 Abschnitt D (§ 6.13 Nummer 2 Buchstabe a)",
+            "quote": "1 langer Ton, „Ich wende über Steuerbord“",
+        },
+    },
+    {
+        "key": "inland-turn-to-port",
+        "pattern": ["long", "short", "short"],
+        "title": "Ein langer Ton, zwei kurze Töne",
+        "source": {
+            "unit": "binschstro-de-binschstro_2012_anlage_6",
+            "ref": "BinSchStrO 2012 Anlage 6 Abschnitt D (§ 6.13 Nummer 2 Buchstabe b)",
+            "quote": "1 langer Ton, „Ich wende über Backbord“",
+        },
+    },
+    {
+        "key": "inland-overtake-to-starboard",
+        "pattern": ["long", "long", "short"],
+        "title": "Zwei lange Töne, ein kurzer Ton",
+        "source": {
+            "unit": "binschstro-de-binschstro_2012_anlage_6",
+            "ref": "BinSchStrO 2012 Anlage 6 Abschnitt C (§ 6.10 Nummer 2 Buchstabe b)",
+            "quote": "2 lange Töne, „Ich will auf Ihrer Steuerbordseite überholen“",
+        },
+    },
+    {
+        "key": "inland-overtake-to-port",
+        "pattern": ["long", "long", "short", "short"],
+        "title": "Zwei lange Töne, zwei kurze Töne",
+        "source": {
+            "unit": "binschstro-de-binschstro_2012_anlage_6",
+            "ref": "BinSchStrO 2012 Anlage 6 Abschnitt C (§ 6.10 Nummer 2 Buchstabe a)",
+            "quote": "2 lange Töne, „Ich will auf Ihrer Backbordseite überholen“",
+        },
+    },
+    {
+        "key": "inland-harbour-turn-starboard",
+        "pattern": ["long", "long", "long", "short"],
+        "title": "Drei lange Töne, ein kurzer Ton",
+        "source": {
+            "unit": "binschstro-de-binschstro_2012_anlage_6",
+            "ref": "BinSchStrO 2012 Anlage 6 Abschnitt E (§ 6.16 Nummer 2 Satz 1 "
+                   "Buchstabe a)",
+            "quote": "3 lange Töne, „Ich will meinen Kurs nach Steuerbord richten“",
+        },
+    },
+    {
+        "key": "inland-harbour-turn-port",
+        "pattern": ["long", "long", "long", "short", "short"],
+        "title": "Drei lange Töne, zwei kurze Töne",
+        "source": {
+            "unit": "binschstro-de-binschstro_2012_anlage_6",
+            "ref": "BinSchStrO 2012 Anlage 6 Abschnitt E (§ 6.16 Nummer 2 Satz 1 "
+                   "Buchstabe b)",
+            "quote": "3 lange Töne, „Ich will meinen Kurs nach Backbord richten“",
+        },
+    },
+    {
+        "key": "inland-stay-away",
+        "pattern": ["short", "long", "short", "long"], "repeat": True,
+        "title": "Abwechselnd ein kurzer und ein langer Ton, ununterbrochen "
+                 "wiederholt",
+        "source": {
+            "unit": "binschstro-de-binschstro_2012_anlage_6",
+            "ref": "BinSchStrO 2012 Anlage 6 Abschnitt A (§ 8.09 Nummer 2)",
+            "quote": "ununterbrochene Wiederholung abwech- selnd eines kurzen und "
+                     "eines langen Tones",
+        },
+    },
+    # ── sea (SeeSchStrO / KVR) ──
+    {
+        "key": "sea-general-danger",
+        "pattern": ["long", "short", "short", "short", "short", "gap",
+                    "long", "short", "short", "short", "short"],
+        "title": "Zwei Gruppen von je einem langen und vier kurzen Tönen",
+        "source": {
+            "unit": "seeschstro-de-seeschstro_1971_anlage_ii",
+            "ref": "SeeSchStrO 1971 Anlage II Nummer 2.1",
+            "quote": "ein langer Ton, vier kurze Töne",
+        },
+    },
+    {
+        "key": "sea-bridge-lock-closed",
+        "pattern": ["short", "short", "short", "short"],
+        "title": "Vier kurze Töne",
+        "source": {
+            "unit": "seeschstro-de-seeschstro_1971_anlage_i",
+            "ref": "SeeSchStrO 1971 Anlage I Abschnitt II C.2",
+            "quote": "Schleuse kann vorübergehend nicht geöffnet werden) vier "
+                     "kurze Töne",
+        },
+    },
+    {
+        "key": "sea-official-vessel-stop",
+        "pattern": ["short", "long", "short", "short"],
+        "title": "Ein kurzer Ton, ein langer Ton, zwei kurze Töne",
+        "source": {
+            "unit": "seeschstro-de-seeschstro_1971_anlage_i",
+            "ref": "SeeSchStrO 1971 Anlage I Abschnitt II C.1",
+            "quote": "Anhalten von einem Fahrzeug des öffentlichen Dienstes: ein "
+                     "kurzer Ton, ein langer Ton, zwei kurze Töne",
+        },
+    },
+    {
+        "key": "sea-waterway-closed",
+        "pattern": ["long", "long", "long", "gap", "long", "long", "long"],
+        "title": "Zwei Gruppen von je drei langen Tönen",
+        "source": {
+            "unit": "seeschstro-de-seeschstro_1971_anlage_i",
+            "ref": "SeeSchStrO 1971 Anlage I Abschnitt II C.4",
+            "quote": "Sperrung der Seeschiffahrtsstraße zwei Gruppen von drei "
+                     "langen Tönen",
+        },
+    },
+    {
+        "key": "sea-anchored-warning",
+        "pattern": ["short", "long", "short"],
+        "title": "Ein kurzer, ein langer, ein kurzer Ton",
+        "source": {
+            "unit": "kvr-de-seestro_1972_regel_35",
+            "ref": "SeeStrO 1972 Regel 35 Buchstabe g",
+            "quote": "drei aufeinanderfolgende Töne - kurz, lang, kurz -",
+        },
+    },
+    {
+        "key": "sea-sos",
+        "pattern": ["short", "short", "short", "gap", "long", "long", "long",
+                    "gap", "short", "short", "short"],
+        "title": "Drei kurze, drei lange, drei kurze Töne",
+        "source": {
+            "unit": "kvr-de-seestro_1972_anlage_iv",
+            "ref": "SeeStrO 1972 Anlage IV Nummer 1 Buchstabe d",
+            "quote": "Morsesignal ...---... (SOS)",
+        },
+    },
+]
+
 DIAGRAMS: list[dict] = ([{**d, "family": "day-shapes"} for d in DAY_SHAPES]
-                        + [{**d, "family": "nav-lights"} for d in NAV_LIGHTS])
+                        + [{**d, "family": "nav-lights"} for d in NAV_LIGHTS]
+                        + [{"repeat": False, **d, "family": "sound-signals"}
+                           for d in SOUND_SIGNALS])
 BY_KEY: dict[str, dict] = {d["key"]: d for d in DIAGRAMS}
 
 
@@ -535,6 +779,9 @@ def render_one(d: dict) -> str:
     if d["family"] == "nav-lights":
         return render_lights(d["column"], d["sidelights"], d["title"],
                              d["source"]["ref"])
+    if d["family"] == "sound-signals":
+        return render_sound(d["pattern"], d["title"], d["repeat"],
+                            d["source"]["ref"])
     raise ValueError(f"unknown family {d['family']!r}; expected one of {FAMILIES}")
 
 
@@ -585,8 +832,9 @@ _WHY = ("deictic", "named-in-stem")
 
 # Demonstratives a deictic stem uses to point at its missing figure. Checked at
 # attach time, so a reworded catalogue can't quietly turn a deictic claim false.
-_DEICTIC = ("diese ", "dieses ", "diesen ", "this ", "these ", "ce ", "ces ",
-            "cette ", "questo ", "questi ", "queste ")
+_DEICTIC = ("diese ", "dieses ", "diesen ", "folgende ", "folgendes ", "folgenden ",
+            "this ", "these ", "the following ", "ce ", "ces ", "cette ",
+            "questo ", "questi ", "queste ")
 
 ASSIGNMENTS: list[dict] = [
     {"bank": "de", "catalogue": "SBF See", "ref": "Frage 96", "expect": "200 m",
@@ -633,6 +881,47 @@ ASSIGNMENTS: list[dict] = [
      "expect": "nicht trawlt", "key": "fishing-not-trawling", "why": "deictic"},
     {"bank": "de", "catalogue": "SBF See", "ref": "Frage 115",
      "expect": "vor Anker", "key": "anchored-two-lights", "why": "deictic"},
+
+    # sound-signals. The four inland questions below are one family whose entire
+    # difficulty is counting: 2 long + 1 short, 2 long + 2 short, 3 long + 1 short,
+    # 3 long + 2 short. Drawn to scale they stop being four things to memorise.
+    {"bank": "de", "catalogue": "SBF Binnen", "ref": "Frage 16",
+     "expect": "Bleib-weg", "key": "inland-stay-away", "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF Binnen", "ref": "Frage 162",
+     "expect": "Wenden über Steuerbord", "key": "inland-turn-to-starboard",
+     "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF Binnen", "ref": "Frage 163",
+     "expect": "Wenden über Backbord", "key": "inland-turn-to-port",
+     "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF Binnen", "ref": "Frage 164",
+     "expect": "Überholen an der Steuerbordseite",
+     "key": "inland-overtake-to-starboard", "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF Binnen", "ref": "Frage 165",
+     "expect": "Überholen an der Backbordseite", "key": "inland-overtake-to-port",
+     "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF Binnen", "ref": "Frage 166",
+     "expect": "Kursänderung nach Steuerbord",
+     "key": "inland-harbour-turn-starboard", "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF Binnen", "ref": "Frage 167",
+     "expect": "Kursänderung nach Backbord", "key": "inland-harbour-turn-port",
+     "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 141",
+     "expect": "Ankerlieger macht", "key": "sea-anchored-warning",
+     "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 162",
+     "expect": "Gefahr- und Warnsignal", "key": "sea-general-danger",
+     "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 178",
+     "expect": "nicht geöffnet werden", "key": "sea-bridge-lock-closed",
+     "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 186",
+     "expect": "Polizeifahrzeug fordert", "key": "sea-official-vessel-stop",
+     "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 188",
+     "expect": "Sperrung der Seeschifffahrtsstraße", "key": "sea-waterway-closed",
+     "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 282",
+     "expect": "Seenotsignal", "key": "sea-sos", "why": "deictic"},
 ]
 
 

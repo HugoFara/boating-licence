@@ -1355,9 +1355,12 @@ def cmd_diagrams(args):
     for d in diagrams.DIAGRAMS:
         if d["family"] == "day-shapes":
             what = " + ".join(k for k, _ in d["shapes"])
-        else:
+        elif d["family"] == "nav-lights":
             what = " over ".join(d["column"]) + (" + sidelights" if d["sidelights"]
                                                  else "")
+        else:
+            what = " ".join("|" if t == "gap" else t[0].upper() for t in d["pattern"])
+            what += " …" if d["repeat"] else ""
         print(f"  {d['key']:28s} {what:42s} {d['source']['ref']}")
     total = {"attached": 0, "skipped": 0, "mismatched": 0, "missing": 0}
     for qdb in sorted(glob.glob(os.path.join(DATA, "questions.*.sqlite"))):
