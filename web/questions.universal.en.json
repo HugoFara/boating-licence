@@ -915,7 +915,7 @@
       "distractor_strategy": "n/a",
       "generator": "translation:en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1011,7 +1011,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "translation:en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -1107,7 +1107,7 @@
       "distractor_strategy": "curated",
       "generator": "translation:en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1155,7 +1155,7 @@
       "distractor_strategy": "curated",
       "generator": "translation:en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1203,7 +1203,7 @@
       "distractor_strategy": "curated",
       "generator": "translation:en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1251,7 +1251,7 @@
       "distractor_strategy": "curated",
       "generator": "translation:en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1347,7 +1347,7 @@
       "distractor_strategy": "curated",
       "generator": "translation:en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1395,7 +1395,7 @@
       "distractor_strategy": "curated",
       "generator": "translation:en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1491,7 +1491,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2259,7 +2259,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2307,7 +2307,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2403,7 +2403,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2547,7 +2547,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2595,7 +2595,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2643,7 +2643,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2739,7 +2739,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2787,7 +2787,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2835,7 +2835,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2883,7 +2883,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4715,7 +4715,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:int.en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4763,7 +4763,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:int.en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4811,7 +4811,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:int.en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4859,7 +4859,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:int.en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         1
@@ -5100,7 +5100,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:int.en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0,
@@ -5536,7 +5536,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:int.en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0

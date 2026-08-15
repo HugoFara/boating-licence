@@ -195,7 +195,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
       "block": "",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -291,7 +291,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
       "block": "",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -627,7 +627,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
       "block": "",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -819,7 +819,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "nav-lights",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1203,7 +1203,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "nav-lights",
       "difficulty": "unrated",
       "correct": [
         2
@@ -1587,7 +1587,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         2
@@ -1731,7 +1731,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "nav-lights",
       "difficulty": "unrated",
       "correct": [
         1
@@ -3171,7 +3171,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "nav-lights",
       "difficulty": "unrated",
       "correct": [
         1
@@ -4803,7 +4803,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4851,7 +4851,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -5811,7 +5811,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -9219,7 +9219,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "nav-lights",
+      "principle": "waterway-signs",
       "difficulty": "unrated",
       "correct": [
         0
@@ -9459,7 +9459,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "nav-lights",
+      "principle": "waterway-signs",
       "difficulty": "unrated",
       "correct": [
         0
@@ -9603,7 +9603,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "sound-signals",
       "difficulty": "unrated",
       "correct": [
         0
@@ -9795,7 +9795,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "sound-signals",
       "difficulty": "unrated",
       "correct": [
         0

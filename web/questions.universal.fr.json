@@ -723,7 +723,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
       "block": "",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -819,7 +819,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
       "block": "",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -963,7 +963,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
       "block": "",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1203,7 +1203,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:curated.v1",
       "block": "",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0

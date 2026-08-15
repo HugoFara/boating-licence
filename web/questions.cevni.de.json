@@ -16442,7 +16442,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         1
@@ -16874,7 +16874,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -16928,7 +16928,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         3
@@ -17036,7 +17036,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         2
@@ -18926,7 +18926,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         1

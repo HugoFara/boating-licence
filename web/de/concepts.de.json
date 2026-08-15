@@ -1,0 +1,54 @@
+{
+  "give-way": {
+    "id": "give-way.de",
+    "kind": "principle",
+    "title": "Ausweichpflicht: erst die Wasserstraße, dann die Regel",
+    "body": "Die häufigste Verwechslung im SBF ist nicht eine falsche Regel, sondern die richtige Regel auf der falschen Wasserstraße. Binnen und See beantworten die Frage «wer weicht aus?» nach zwei verschiedenen Prinzipien. Erst klären, wo man ist — dann ist die Antwort eindeutig.\n\nBINNEN (BinSchStrO): der FLUSS entscheidet.\n— Beim Begegnen muss der Bergfahrer dem Talfahrer einen geeigneten Weg freilassen — der Talfahrer ist schwerer zu stoppen, also weicht der aus, der gegen den Strom fährt (§ 6.04 Nr. 1).\n— Lässt der Bergfahrer den Talfahrer an Backbord vorbeifahren, gibt er kein Zeichen. Will er ihn an Steuerbord vorbeilassen, zeigt er rechtzeitig nach Steuerbord: bei Nacht ein weißes helles Funkellicht, bei Tag eine hellblaue Tafel mit Funkellicht (§ 6.04 Nr. 2 und 3).\n— Ein Kleinfahrzeug steht ganz unten: es muss allen übrigen Fahrzeugen den für deren Kurs und zum Manövrieren nötigen Raum lassen und kann nicht verlangen, dass ihm jemand ausweicht; dem blauen Funkellicht weicht es rechtzeitig nach Steuerbord aus (§ 6.02).\n— Überholt wird nur, nachdem sich der Überholende vergewissert hat, dass es ohne Gefahr geht; der Vorausfahrende muss es erleichtern und nötigenfalls langsamer werden (§ 6.09). Überholt werden darf an Backbord oder an Steuerbord (§ 6.10 Nr. 1) — anders als am Meer gibt es hier eine Verständigung per Schallzeichen, wenn der Vorausfahrende seinen Kurs ändern muss.\n\nSEE (KVR): die GEOMETRIE und die Rangordnung entscheiden.\n— Ein Maschinenfahrzeug in Fahrt muss ausweichen: einem manövrierunfähigen, einem manövrierbehinderten, einem fischenden Fahrzeug und einem Segelfahrzeug. Ein Segelfahrzeug muss den ersten drei ausweichen, ein fischendes Fahrzeug den ersten beiden (Regel 18 a bis c).\n— Diese Rangordnung gilt ausdrücklich nur, «sofern in den Regeln 9, 10 und 13 nicht etwas anderes bestimmt ist» — enges Fahrwasser, Verkehrstrennungsgebiet und Überholen gehen vor.\n\nUnd die Ausnahme, die man kennen muss: auf den deutschen Seeschifffahrtsstraßen setzt § 25 SeeSchStrO die KVR-Regeln 9 Buchstabe b bis d, 15 und 18 Buchstabe a bis c außer Kraft. Im Fahrwasser hat die dem Fahrwasserverlauf folgende Schifffahrt Vorfahrt gegenüber Fahrzeugen, die einlaufen, das Fahrwasser queren, darin drehen oder ihren Anker- oder Liegeplatz verlassen — unabhängig davon, ob sie nur dort sicher fahren können. Wer die reine KVR-Kreuzregel anwendet, liegt hier falsch.",
+    "prov": {
+      "ref": "BinSchStrO §§ 6.02, 6.03, 6.04, 6.09, 6.10 · KVR (SeeStrO) Regel 18 · SeeSchStrO § 25",
+      "source": "Binnenschifffahrtsstraßen-Ordnung (BinSchStrO), Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und Kollisionsverhütungsregeln (KVR/SeeStrO)",
+      "url": "https://www.gesetze-im-internet.de/binschstro_2012/",
+      "as_of": null,
+      "licence": "Gemeinfrei — deutsches Bundesrecht, § 5 Abs. 1 UrhG (gesetze-im-internet.de)."
+    }
+  },
+  "nav-lights": {
+    "id": "nav-lights.de",
+    "kind": "principle",
+    "title": "Lichter: die Winkel sind binnen wie see dieselben",
+    "body": "Ein Detail nimmt dem ganzen Kapitel die Hälfte des Lernaufwands: die Sichtbereiche sind in beiden Ordnungen identisch. § 3.01 BinSchStrO und Regel 21 KVR definieren denselben Winkelcode, Wort für Wort deckungsgleich:\n— Topplicht: weiß, über einen Horizontbogen von 225°, von voraus bis beiderseits 22°30' hinter die Querlinie;\n— Seitenlichter: grün an Steuerbord, rot an Backbord, je über 112°30' auf der eigenen Seite;\n— Hecklicht: weiß, über 135°, also 67°30' von achteraus nach jeder Seite;\n— von allen Seiten sichtbares Licht (Rundumlicht): 360°.\n112°30' + 112°30' = 225°, und 225° + 135° = 360°: die Bögen decken den Horizont lückenlos ab. Was man sieht, sagt also, wo man steht — beide Ordnungen, dieselbe Geometrie.\n\nVerschieden ist, WER WAS führt.\n— Binnen, einzeln fahrendes Fahrzeug mit Maschinenantrieb (§ 3.08): Topplicht auf dem vorderen Teil, Seitenlichter in gleicher Höhe in einer Ebene senkrecht zur Längsebene, Hecklicht auf dem Achterschiff. Auf Flüssen müssen die Seitenlichter mindestens 1,00 m tiefer als das Topplicht stehen, auf Kanälen nach Möglichkeit ebenso, jedenfalls nicht höher; sie stehen mindestens 1,00 m hinter dem Topplicht und sind binnenbords so abgeblendet, dass das grüne Licht nicht von Backbord und das rote nicht von Steuerbord zu sehen ist.\n— Binnen, Kleinfahrzeug mit Maschinenantrieb (§ 3.13): zwei zulässige Anordnungen — Topplicht (hell statt stark) in gleicher Höhe wie die Seitenlichter und mindestens 1,00 m vor ihnen, dazu Seitenlichter und Hecklicht; oder Topplicht mindestens 1,00 m höher als die Seitenlichter, die dann auch unmittelbar nebeneinander oder in einer einzigen Laterne am oder nahe am Bug in der Schiffsachse gesetzt sein dürfen.\n— See (Regel 21 b): auf einem Fahrzeug von weniger als 20 Metern Länge dürfen die Seitenlichter in einer Zweifarbenlaterne über der Längsachse geführt werden.\n\nMerkhilfe: die Winkel lernt man einmal, die Anbringungshöhen sind das, was binnen tatsächlich abgefragt wird — und dort ist «1,00 m» die Zahl, die immer wiederkehrt.",
+    "prov": {
+      "ref": "BinSchStrO §§ 3.01, 3.08, 3.13 · KVR (SeeStrO) Regel 21",
+      "source": "Binnenschifffahrtsstraßen-Ordnung (BinSchStrO) und Kollisionsverhütungsregeln (KVR/SeeStrO)",
+      "url": "https://www.gesetze-im-internet.de/binschstro_2012/",
+      "as_of": null,
+      "licence": "Gemeinfrei — deutsches Bundesrecht, § 5 Abs. 1 UrhG (gesetze-im-internet.de)."
+    }
+  },
+  "sound-signals": {
+    "id": "sound-signals.de",
+    "kind": "principle",
+    "title": "Schallzeichen: gleiche Bausteine, zwei Regelwerke",
+    "body": "Die Bausteine sind binnen wie see dieselben, das Vokabular und das Drumherum nicht. Wer die Dauern einmal sitzen hat, muss nur noch wissen, welche Ordnung gerade gilt.\n\nDie Bausteine binnen (Anlage 6 BinSchStrO):\n— kurzer Ton: etwa eine Sekunde;\n— langer Ton: etwa vier Sekunden;\n— Pause zwischen zwei aufeinanderfolgenden Tönen: etwa eine Sekunde;\n— «Folge sehr kurzer Töne»: mindestens SECHS Töne von je etwa einer Viertelsekunde, mit ebenso langen Pausen;\n— eine Gruppe von Glockenschlägen dauert etwa vier Sekunden und kann durch Schläge von Metall auf Metall gleicher Dauer ersetzt werden.\n\nDas binnenländische Grundvokabular (Anlage 6, Abschnitt A):\n— 1 langer Ton: «Achtung»;\n— 1 kurzer Ton: «Ich richte meinen Kurs nach Steuerbord»;\n— 2 kurze Töne: «Ich richte meinen Kurs nach Backbord»;\n— 3 kurze Töne: «Meine Maschine geht rückwärts».\nBeim Überholen kommt eine Verständigung hinzu, die es am Meer nicht gibt: «zwei lange, zwei kurze Töne» heißt «ich will an deiner Backbordseite überholen», «zwei lange, ein kurzer Ton» an Steuerbord (§ 6.10 Nr. 2).\n\nZwei binnenländische Besonderheiten, die gern geprüft werden (§ 4.01):\n— Womit: auf einem Fahrzeug mit Maschinenantrieb, ausgenommen einem Kleinfahrzeug, mit einem mechanisch betriebenen Schallgerät, hoch genug angebracht, dass der Schall nach vorn frei abstrahlt; auf Fahrzeugen ohne Maschinenantrieb und auf Kleinfahrzeugen genügen Schallgerät, Hupe oder Horn.\n— Dazu das LICHT: auf einem Fahrzeug mit Maschinenantrieb muss gleichzeitig mit dem Schallzeichen ein gleich langes gelbes, helles, von allen Seiten sichtbares Lichtzeichen gegeben werden — nicht bei Kleinfahrzeugen und nicht bei Glockenzeichen.\n\nSEE (KVR Regel 32 und 34): ein kurzer Ton dauert etwa eine Sekunde, ein langer Ton vier bis sechs Sekunden — also länger als binnen. Die drei Manöverzeichen lauten gleich (ein kurzer Ton Steuerbord, zwei kurze Backbord, drei kurze rückwärts), und sie dürfen durch Lichtsignale ergänzt werden: ein Blitz, zwei Blitze, drei Blitze in derselben Bedeutung, jeder Blitz etwa eine Sekunde, mit mindestens zehn Sekunden Pause zwischen aufeinanderfolgenden Signalen.",
+    "prov": {
+      "ref": "BinSchStrO § 4.01 und Anlage 6 · KVR (SeeStrO) Regel 32, 34",
+      "source": "Binnenschifffahrtsstraßen-Ordnung (BinSchStrO) und Kollisionsverhütungsregeln (KVR/SeeStrO)",
+      "url": "https://www.gesetze-im-internet.de/binschstro_2012/",
+      "as_of": null,
+      "licence": "Gemeinfrei — deutsches Bundesrecht, § 5 Abs. 1 UrhG (gesetze-im-internet.de)."
+    }
+  },
+  "waterway-signs": {
+    "id": "waterway-signs.de",
+    "kind": "principle",
+    "title": "Schifffahrtszeichen: fünf Familien, dann erst das Bild",
+    "body": "Anlage 7 der BinSchStrO ordnet die Schifffahrtszeichen in fünf Familien, und § 5.01 Nummer 1 nennt sie ausdrücklich: VERBOTE, GEBOTE, BESCHRÄNKUNGEN, EMPFEHLUNGEN und HINWEISE. Dort ist zugleich die Bedeutung jedes Zeichens angegeben.\n\nDiese Reihenfolge ist auch eine Rangfolge der Verbindlichkeit, und genau daran hängt die Prüfungsfrage:\n— Verbot: etwas ist untersagt — Durchfahrt, Ankern, Festmachen, Überholen, Begegnen.\n— Gebot: etwas ist zwingend zu tun — eine Richtung nehmen, anhalten, ein Schallzeichen geben.\n— Beschränkung: eine Grenze ist einzuhalten — Höhe, Breite, Tiefe, Geschwindigkeit.\n— Empfehlung: ein Rat, dem man folgen sollte, aber nicht muss.\n— Hinweis: eine Information, die nichts verlangt.\nDie Pflichtenlage folgt also aus der Familie, das Piktogramm sagt nur, worauf sie sich bezieht.\n\n§ 5.01 Nummer 2 sagt, wen es bindet: der Schiffsführer — oder die nach § 1.03 Nummer 3 für Kurs und Geschwindigkeit verantwortliche Person — hat die Anordnung zu BEFOLGEN sowie auf Empfehlung und Hinweis zu ACHTEN. Zwei verschiedene Verben für zwei verschiedene Verbindlichkeiten; die Formulierung ist die Antwort auf «muss ich das?».\n\nZwei Zeichen wirken unmittelbar auf die Fahrregeln zurück und stehen deshalb im Verkehrskapitel und nicht nur in Anlage 7: das durch Schifffahrtszeichen verbotene Begegnen (§ 6.08) und das Überholverbot durch Schifffahrtszeichen (§ 6.11). Ein Tafelzeichen kann eine Fahrregel also nicht nur ergänzen, sondern aufheben.\n\nAuf See regelt § 5 SeeSchStrO die Schifffahrtszeichen der Seeschifffahrtsstraßen; die Betonnung selbst folgt dem IALA-System und nicht der Tafelzeichen-Systematik der BinSchStrO — noch ein Punkt, an dem zuerst die Frage «welche Wasserstraße?» steht.",
+    "prov": {
+      "ref": "BinSchStrO § 5.01 und Anlage 7 · SeeSchStrO § 5",
+      "source": "Binnenschifffahrtsstraßen-Ordnung (BinSchStrO) und Seeschifffahrtsstraßen-Ordnung (SeeSchStrO)",
+      "url": "https://www.gesetze-im-internet.de/binschstro_2012/",
+      "as_of": null,
+      "licence": "Gemeinfrei — deutsches Bundesrecht, § 5 Abs. 1 UrhG (gesetze-im-internet.de)."
+    }
+  }
+}

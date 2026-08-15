@@ -1,0 +1,54 @@
+{
+  "give-way": {
+    "id": "give-way.fr",
+    "kind": "principle",
+    "title": "Priorités en eaux intérieures : le courant d'abord, la menue embarcation en dernier",
+    "body": "En rivière, la question n'est pas «qui vient de tribord ?» mais «qui descend ?». Le RGP construit ses priorités sur deux idées qui n'existent ni en mer ni sur un lac : le sens du courant, et le statut particulier des menues embarcations.\n\n1. Le montant s'efface devant l'avalant. En cas de rencontre, les montants doivent, compte tenu des circonstances locales et des mouvements des autres bateaux, réserver aux avalants une route appropriée (art. A4241-53-6 §2). L'avalant, porté par le courant, manœuvre moins bien : c'est donc à celui qui remonte de s'adapter. Sur les secteurs où la route est imposée par la signalisation, les montants ne doivent en aucun cas gêner la marche des avalants et doivent au besoin ralentir ou s'arrêter (art. A4241-53-13).\n\n2. La règle de base reste bâbord sur bâbord : en cas de rencontre avec danger d'abordage, chacun vient sur tribord pour passer à bâbord de l'autre (art. A4241-53-6 §1). Le montant qui laisse la route de l'avalant à bâbord ne donne aucun signal ; s'il la laisse à tribord, il doit montrer en temps utile, à tribord, un feu blanc scintillant ou un panneau bleu clair — de jour comme de nuit (§3 et §4).\n\n3. Les menues embarcations sont tout en bas. Lorsqu'une règle de route ne leur est pas applicable dans leur comportement avec d'autres bateaux, elles doivent laisser à TOUS les autres bateaux, y compris les bateaux rapides, l'espace nécessaire pour suivre leur route et manœuvrer, et ne peuvent exiger que ceux-ci s'écartent en leur faveur (art. A4241-53-3). Symétriquement, un bateau rapide ne peut pas non plus exiger qu'on s'écarte devant lui (art. A4241-53-2) : la vitesse ne donne aucun droit.\n\n4. Dépassement. Il n'est autorisé qu'après que le rattrapant s'est assuré qu'il peut avoir lieu sans danger ; le rattrapé doit le faciliter et ralentir si nécessaire — sauf lorsqu'une menue embarcation rattrape un bateau d'une autre catégorie (art. A4241-53-10). En règle générale on dépasse à bâbord, mais les deux côtés sont permis quand aucun risque d'abordage n'en résulte (art. A4241-53-11 §1).\n\n5. Passages étroits (art. A4241-53-8) : les franchir dans le plus court délai possible ; par visibilité restreinte, émettre un son prolongé avant de s'y engager et le répéter si le passage est long ; et lorsqu'un avalant est sur le point de s'y engager, s'arrêter à l'aval du passage pour le laisser sortir.\n\nEnfin les priorités spéciales : en cas de rencontre ou de croisement, les autres bateaux s'écartent d'un bateau portant la signalisation des bateaux à capacité de manœuvre restreinte, puis de celle des bateaux en train de pêcher — et entre ces deux-là, c'est le pêcheur qui s'écarte (art. A4241-53-37).",
+    "prov": {
+      "ref": "RGP — Code des transports, art. A4241-53-2, -53-3, -53-6, -53-8, -53-10, -53-11, -53-13, -53-37",
+      "source": "Règlement général de police de la navigation intérieure (RGP) — Code des transports, 4e partie",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000023076481/",
+      "as_of": null,
+      "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — acte officiel français, réutilisable avec attribution."
+    }
+  },
+  "nav-lights": {
+    "id": "nav-lights.fr",
+    "kind": "principle",
+    "title": "Feux en eaux intérieures : un feu ne vaut que s'il est lisible",
+    "body": "Avant de savoir quel feu montrer, le RGP fixe ce qu'un feu doit ÊTRE. Sauf prescriptions contraires, les feux prescrits montrent une lumière continue et uniforme (art. A4241-48-2) — ni clignotante, ni intermittente, sauf quand le règlement le demande expressément. C'est la règle qui rend un feu interprétable : sa couleur et sa position portent le sens, pas son rythme.\n\nDeux corollaires immédiats :\n— Un feu prescrit qui cesse de fonctionner doit être remplacé SANS DÉLAI par un feu de secours (art. A4241-48-6). Naviguer avec un feu éteint, c'est afficher une autre signalisation que la sienne.\n— Il est interdit d'employer des feux ou signaux autres que ceux prévus ; ils ne sont admis, pour la communication entre bateaux ou entre bateaux et la terre, qu'à condition de ne pas prêter à confusion avec les feux réglementaires (art. A4241-48-5).\n\nLes couleurs suivent la convention universelle : sur une menue embarcation motorisée, le feu de côté de BÂBORD est ROUGE (et celui de tribord vert) — art. A4241-48-13. En stationnement, un bateau porte un feu blanc (art. A4241-48-20).\n\nUn cas propre à la rivière, et très examiné : les feux d'écluse (art. A4241-53-31 §1). Ici le feu ne décrit pas un bateau mais commande un passage — deux feux ROUGES signifient que l'écluse est hors service, un feu rouge que l'accès est interdit, un feu VERT que l'accès est autorisé. C'est le même vocabulaire chromatique que partout ailleurs : rouge = non, vert = oui.",
+    "prov": {
+      "ref": "RGP — Code des transports, art. A4241-48-2, -48-5, -48-6, -48-13, -48-20, A4241-53-31",
+      "source": "Règlement général de police de la navigation intérieure (RGP) — Code des transports, 4e partie",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000023076481/",
+      "as_of": null,
+      "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — acte officiel français, réutilisable avec attribution."
+    }
+  },
+  "sound-signals": {
+    "id": "sound-signals.fr",
+    "kind": "principle",
+    "title": "Signaux sonores en rivière : qui doit, qui peut, et quoi dire",
+    "body": "Le RGP distingue d'abord une obligation d'une faculté. Tout bateau, À L'EXCEPTION des menues embarcations, fait usage en cas de besoin des signaux sonores réglementaires ; les menues embarcations, elles, PEUVENT les émettre (art. A4241-49-2). La même asymétrie qu'ailleurs dans le règlement : la menue embarcation a moins de devoirs, et moins de droits.\n\nLe vocabulaire de base que le règlement mobilise dans ses propres articles :\n— un son prolongé : «Attention» — c'est aussi le signal à émettre avant de s'engager dans un passage étroit par visibilité restreinte, à répéter si le passage est long (art. A4241-53-8) ;\n— une série de sons TRÈS BREFS : le conducteur qui constate un danger d'abordage doit l'émettre (art. A4241-53-4) ;\n— deux sons prolongés suivis de DEUX sons brefs : «je veux dépasser par bâbord» ; suivis d'UN son bref : «par tribord». Le rattrapé qui peut donner suite répond par un son bref ou deux sons brefs selon le côté (art. A4241-53-11 §2 et §3).\nLe nombre de sons brefs n'est donc pas décoratif : il désigne un côté, et le son prolongé qui le précède dit «attention, je demande quelque chose».\n\nDétresse : un bateau qui veut demander du secours peut émettre des volées de cloche ou des sons prolongés répétés ; ces signaux remplacent ou complètent les signaux visuels de détresse (art. A4241-49-4).\n\nDeux limites. Il est interdit d'employer des signaux sonores autres que ceux prévus, ou de les employer dans d'autres conditions ; l'usage d'autres signaux n'est admis, pour la communication entre bateaux ou avec la terre, qu'à condition qu'ils ne prêtent pas à confusion avec les signaux réglementaires (art. A4241-49-3). Et côté équipement, tous les bateaux sont pourvus d'un dispositif permettant d'émettre des signaux sonores, les bateaux autres que les menues embarcations devant en outre disposer d'une installation de radiotéléphonie (art. R4241-49).",
+    "prov": {
+      "ref": "RGP — Code des transports, art. A4241-49-2, -49-3, -49-4, A4241-53-4, -53-8, -53-11, R4241-49",
+      "source": "Règlement général de police de la navigation intérieure (RGP) — Code des transports, 4e partie",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000023076481/",
+      "as_of": null,
+      "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — acte officiel français, réutilisable avec attribution."
+    }
+  },
+  "waterway-signs": {
+    "id": "waterway-signs.fr",
+    "kind": "principle",
+    "title": "Panneaux : la couleur et la bordure disent la famille",
+    "body": "C'est l'annexe 5 qui définit les signaux d'interdiction, d'obligation, de restriction, de recommandation et d'indication, ainsi que les signaux auxiliaires (art. A4241-51-1) — et c'est l'annexe 8 qui définit, séparément, les règles de balisage (art. A4241-51-2). Cinq familles, donc, et un cadre visuel qui les annonce avant qu'on ait lu le symbole.\n\n— Bordure ROUGE : le panneau contraint. Un rectangle à bord rouge portant une bande blanche barrée de rouge est le panneau A.1, «interdiction de passer» — le refus le plus net du règlement. Un panneau à bord rouge portant une flèche blanche n'interdit pas mais IMPOSE : c'est un panneau d'obligation (série B), il faut suivre la direction indiquée.\n— Un NOMBRE affiché (« 3,50 m ») annonce une restriction (série C) : hauteur libre, largeur ou profondeur disponible. Le panneau ne dit pas «interdit», il dit «pas au-delà de».\n— Rectangle BLEU à symbole blanc : une indication ou un renseignement (série E) — stationnement autorisé, bac, point de service. Le carré bleu au « P » blanc est le E.5, stationnement autorisé.\nRetenir les trois cadres — bord rouge, nombre, fond bleu — suffit à classer un panneau inconnu avant même d'en comprendre le pictogramme.\n\nDeux règles de forme complètent le tableau : sauf prescription contraire, les panneaux et pavillons prescrits sont RECTANGULAIRES, et leurs couleurs ne doivent être ni passées ni salies (art. A4241-48-3). Et il est interdit d'utiliser des lumières, projecteurs, panneaux, pavillons ou autres objets risquant d'être confondus avec les feux et signaux réglementaires (art. A4241-48-7) — un signal ne vaut que s'il reste non ambigu.\n\nEnfin, un panneau peut modifier la règle de route elle-même : dans une ouverture de pont ou de barrage portant le signal d'interdiction A.10, la navigation n'est permise que dans l'espace compris entre les deux panneaux qui constituent le signal (art. A4241-53-26).",
+    "prov": {
+      "ref": "RGP — Code des transports, art. A4241-51-1, A4241-51-2, A4241-48-3, A4241-48-7 et annexe 5 (sections A à E)",
+      "source": "Règlement général de police de la navigation intérieure (RGP) — Code des transports, 4e partie",
+      "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000023076481/",
+      "as_of": null,
+      "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — acte officiel français, réutilisable avec attribution."
+    }
+  }
+}

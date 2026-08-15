@@ -434,7 +434,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -866,7 +866,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
       "block": "",
-      "principle": "nav-lights",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1490,7 +1490,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         1
@@ -2018,7 +2018,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         2
@@ -2354,7 +2354,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
       "block": "",
-      "principle": "nav-lights",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2498,7 +2498,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2594,7 +2594,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2978,7 +2978,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4370,7 +4370,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4418,7 +4418,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
       "block": "",
-      "principle": "",
+      "principle": "day-shapes",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4466,7 +4466,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
       "block": "",
-      "principle": "",
+      "principle": "day-shapes",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4514,7 +4514,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
       "block": "",
-      "principle": "",
+      "principle": "day-shapes",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4610,7 +4610,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
       "block": "",
-      "principle": "",
+      "principle": "day-shapes",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4658,7 +4658,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4850,7 +4850,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -5234,7 +5234,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
       "block": "",
-      "principle": "",
+      "principle": "nav-lights",
       "difficulty": "unrated",
       "correct": [
         0
@@ -5522,7 +5522,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
       "block": "",
-      "principle": "",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -6290,7 +6290,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:it.v1",
       "block": "",
-      "principle": "",
+      "principle": "nav-lights",
       "difficulty": "unrated",
       "correct": [
         0

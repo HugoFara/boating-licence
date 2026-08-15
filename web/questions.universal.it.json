@@ -242,7 +242,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0,
@@ -581,7 +581,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:it.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
