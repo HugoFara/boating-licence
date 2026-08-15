@@ -51,6 +51,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -99,6 +100,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -147,6 +149,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -195,6 +198,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -243,6 +247,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -291,6 +296,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -339,6 +345,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -387,6 +394,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -435,6 +443,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -483,6 +492,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -531,6 +541,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -579,6 +590,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -627,6 +639,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0,
@@ -676,6 +689,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -724,6 +738,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -772,6 +787,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -820,6 +836,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -868,6 +885,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -916,6 +934,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -964,6 +983,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1012,6 +1032,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         2
@@ -1060,6 +1081,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1108,6 +1130,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1156,6 +1179,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1204,6 +1228,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1252,6 +1277,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1300,6 +1326,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1348,6 +1375,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1396,6 +1424,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1444,6 +1473,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1492,6 +1522,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1540,6 +1571,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1588,6 +1620,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1636,6 +1669,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1684,6 +1718,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1732,6 +1767,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1780,6 +1816,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1828,6 +1865,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1876,6 +1914,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1924,6 +1963,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1972,6 +2012,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2020,6 +2061,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2068,6 +2110,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2116,6 +2159,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2164,6 +2208,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2212,6 +2257,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2260,6 +2306,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2308,6 +2355,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2356,6 +2404,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2404,6 +2453,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2452,6 +2502,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2500,6 +2551,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "sound-signals",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2548,6 +2600,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2596,6 +2649,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2644,6 +2698,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2692,6 +2747,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2740,6 +2796,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2788,6 +2845,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2836,6 +2894,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -2884,6 +2943,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0

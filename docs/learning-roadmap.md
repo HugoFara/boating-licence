@@ -408,9 +408,38 @@ That completes the five drawable families: **56 diagrams**, every citation verif
 against its own code's KB and required to name what is drawn. Card strips now carry
 `fr_cotiere` 31 figures, `de` 34, `int` 22, `ch` 11, `fr_eaux_interieures` 9.
 
-Remaining figure gap is `waterway-signs` — 60 questions — and that one is genuine
-pictogram artwork, not geometry, so it is the one family where obtaining beats
-deriving. The ONI/ELWIS rasters already cover 127 of its 187 questions.
+### Waterway signs: the family that cannot be derived
+
+This is where deriving runs out, and the reason is worth recording. Every diagram
+above exists because the law *describes the figure in words* — "zwei Bälle senkrecht
+übereinander", "deux cônes noirs base à base", "ein langer Ton, ein kurzer Ton". The
+sign annexes do not do that. ONI Annexe 4, BinSchStrO Anlage 7 and SeeSchStrO Anlage I
+each name what a board **means** and show what it **looks like** only in the
+accompanying graphic. Checked directly: `bord rouge`, `bordure rouge`, `carré bleu`,
+`fond bleu` return **zero** units across the Swiss and German KBs.
+
+Drawing a red-bordered board anyway would be authoring appearance from memory, which
+is the one thing this project forbids
+(`memory/source-questions-never-recall`). So no sign is derived.
+
+What *can* be done is what fixed the German bank: the picture usually already exists.
+Ten of the eleven unillustrated Swiss sign questions had their official ONI/RNL
+graphic sitting in the KB's `assets` table, linked by `prov_unit_id` and simply never
+wired to the prose questions that name it.
+
+**Seven are shown in the stem** (`named-in-stem` — the stem describes the board and
+the answer is its meaning). **Three are unveiled after the answer** (`answer-side`),
+because there the board's appearance *is* what is being asked: *"quel pavillon…?"*,
+*"quale segnaletica notturna…?"*, *"comment le panneau lettre « A » doit-il être
+présenté ?"*. A bulk attach would have spoiled exactly those three.
+
+**A gap worth naming.** The 34 French inland sign questions cite *"RGP, annexe 5,
+panneau A.1"* and assert appearance in their stems ("panneau rectangulaire à bord
+rouge barré d'une bande blanche horizontale"), but RGP annexe 5 is **not ingested** —
+`kb.fr.sqlite` holds the article text only. The questions are hand-authored seeds, so
+their visual claims currently rest on a citation the repo cannot check. Ingesting that
+annex would both close the provenance gap and unlock the figures; until then those
+questions stay unillustrated.
 
 ### Adding a diagram (the smallest useful contribution)
 

@@ -312,6 +312,26 @@ def test_a_mark_never_claims_an_unsourced_colour():
         assert d["body"] == "spar" and not d["bands"], key
 
 
+def test_answer_side_figures_are_unveiled_never_shown_in_the_stem():
+    """Where the picture IS the answer, it must land in reveal_image and leave the
+    stem's own image empty — otherwise the question answers itself."""
+    conn, path = _conn()
+    schema.write_questions(conn, [
+        _q("k", "Quel pavillon un bateau des autorités de contrôle hisse-t-il ?",
+           "Le pavillon lettre « K »", "RNL Annexe I – fig. 37",
+           "Règlement de la navigation sur le Léman (RNL), RS 747.221.1")])
+    conn.execute("UPDATE questions SET lang='fr' WHERE id='k'")
+    conn.commit()
+    st = diagrams.attach(conn, "ch")
+    got = schema.load_questions(conn)[0]
+    assert st["attached"] == 1
+    assert got.reveal_image and got.reveal_image.endswith("image42.png")
+    assert not got.image, "the answer was placed in the stem"
+    # idempotent: the guard looks at the column this assignment actually writes
+    assert diagrams.attach(conn, "ch")["attached"] == 0
+    os.remove(path)
+
+
 def test_every_answer_side_assignment_uses_an_official_figure():
     """An unveiled figure exists to show the learner the real thing they must
     recognise afloat, so it is always the source's own graphic — never one of ours."""

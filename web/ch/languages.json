@@ -257,19 +257,19 @@
       "apkg": "anki/boating-licence.de.apkg",
       "tsv": "anki/boating-licence.de.tsv",
       "count": 190,
-      "images": 69
+      "images": 71
     },
     "en": {
       "apkg": "anki/boating-licence.en.apkg",
       "tsv": "anki/boating-licence.en.tsv",
       "count": 217,
-      "images": 91
+      "images": 92
     },
     "fr": {
       "apkg": "anki/boating-licence.fr.apkg",
       "tsv": "anki/boating-licence.fr.tsv",
       "count": 218,
-      "images": 91
+      "images": 95
     },
     "it": {
       "apkg": "anki/boating-licence.it.apkg",

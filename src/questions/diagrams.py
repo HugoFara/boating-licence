@@ -1775,6 +1775,43 @@ ASSIGNMENTS: list[dict] = [
      "why": "deictic"},
     {"bank": "de", "catalogue": "SBF See", "ref": "Frage 282",
      "expect": "Seenotsignal", "key": "sea-sos", "why": "deictic"},
+    # ── Swiss sign boards: the official ONI graphic, wired to the prose questions
+    # that name it. Seven of the eleven unillustrated ones; the other four are left
+    # alone on purpose, because there the board's APPEARANCE is the answer ("quel
+    # pavillon…?", "quale segnaletica notturna…?") and the picture would give it away.
+    {"bank": "ch", "catalogue": "ONI", "ref": "ONI Anhang 4 – fig. 1", "lang": "de",
+     "expect": "Verbot der Durchfahrt", "asset": "data/assets/oni/de/image55.png",
+     "why": "named-in-stem"},
+    {"bank": "ch", "catalogue": "ONI", "ref": "ONI Anhang 4 – fig. 19", "lang": "de",
+     "expect": "anzuhalten", "asset": "data/assets/oni/de/image73.png",
+     "why": "named-in-stem"},
+    {"bank": "ch", "catalogue": "ONI", "ref": "ONI Annexe 4 – fig. 1", "lang": "fr",
+     "expect": "Interdiction de passer", "asset": "data/assets/oni/image55.png",
+     "why": "named-in-stem"},
+    {"bank": "ch", "catalogue": "ONI", "ref": "ONI Annexe 4 – fig. 25", "lang": "fr",
+     "expect": "distance, en mètres", "asset": "data/assets/oni/image79.png",
+     "why": "named-in-stem"},
+    {"bank": "ch", "catalogue": "ONI", "ref": "ONI Annexe 4 – fig. 27", "lang": "fr",
+     "expect": "passe recommandée", "asset": "data/assets/oni/image81.png",
+     "why": "named-in-stem"},
+    {"bank": "ch", "catalogue": "ONI", "ref": "ONI Annexe 4 – fig. 27", "lang": "en",
+     "expect": "recommended passage", "asset": "data/assets/oni/image81.png",
+     "why": "named-in-stem"},
+    {"bank": "ch", "catalogue": "ONI", "ref": "ONI Annexe 4 – fig. 46", "lang": "fr",
+     "expect": "12 km/h", "asset": "data/assets/oni/image100.png",
+     "why": "named-in-stem"},
+    # ── unveiled after the answer: here the board IS what is being asked for, so it
+    # cannot sit in the stem — but a learner who never sees it cannot recognise it
+    # afloat either. Shown at reveal, beside the explanation.
+    {"bank": "ch", "catalogue": "RNL", "ref": "RNL Annexe I – fig. 37", "lang": "fr",
+     "expect": "pavillon lettre", "asset": "data/assets/rnl/image42.png",
+     "why": "answer-side"},
+    {"bank": "ch", "catalogue": "RNL", "ref": "RNL Allegato I – fig. 22", "lang": "it",
+     "expect": "fuochi rossi", "asset": "data/assets/rnl/it/image27.png",
+     "why": "answer-side"},
+    {"bank": "ch", "catalogue": "ONI", "ref": "ONI Annexe 2 – fig. 37", "lang": "fr",
+     "expect": "guidon blanc/bleu", "asset": "data/assets/oni/image45.png",
+     "why": "answer-side"},
 ]
 
 

@@ -51,6 +51,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -99,6 +100,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -147,6 +149,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -195,6 +198,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -243,6 +247,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0,
@@ -292,6 +297,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -340,6 +346,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -388,6 +395,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -436,6 +444,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -484,6 +493,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0,
@@ -533,6 +543,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0,
@@ -582,6 +593,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -630,6 +642,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -678,6 +691,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -726,6 +740,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -774,6 +789,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -822,6 +838,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -870,6 +887,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -918,6 +936,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -966,6 +985,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1014,6 +1034,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1062,6 +1083,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1110,6 +1132,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1158,6 +1181,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1206,6 +1230,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1254,6 +1279,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1302,6 +1328,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "give-way",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1350,6 +1377,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1398,6 +1426,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1446,6 +1475,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0

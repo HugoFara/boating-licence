@@ -51,6 +51,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -99,6 +100,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -147,6 +149,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -195,6 +198,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -243,6 +247,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -291,6 +296,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -339,6 +345,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -387,6 +394,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -435,6 +443,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -483,6 +492,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -531,6 +541,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -579,6 +590,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -627,6 +639,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -675,6 +688,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "sound-signals",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -723,6 +737,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "sound-signals",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -771,6 +786,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "sound-signals",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -819,6 +835,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "sound-signals",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -867,6 +884,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -915,6 +933,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -963,6 +982,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "give-way",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1011,6 +1031,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "give-way",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1059,6 +1080,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "give-way",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1107,6 +1129,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "give-way",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1155,6 +1178,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "give-way",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
@@ -1203,6 +1227,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "give-way",
+      "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
         0
