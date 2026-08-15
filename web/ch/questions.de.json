@@ -1,7 +1,7 @@
 {
   "meta": {
     "kb_version": "2026-05-31",
-    "generated": "2026-05-31",
+    "generated": "2026-08-15",
     "generators": "tmpl:figure_recognition.v1",
     "exam_questions": "60",
     "total_points": "180",
@@ -3103,13 +3103,13 @@
           "text": "Stelle zum Auswassern von Schiffen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 43."
+          "rationale": "Das ist ein anderes Zeichen: „Stelle zum Auswassern von Schiffen“ (ONI Anhang 4 – fig. 43)."
         },
         {
           "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 24."
+          "rationale": "Das ist ein anderes Zeichen: „Beschränkte Durchfahrtsbreite“ (ONI Anhang 4 – fig. 24)."
         },
         {
           "text": "Gelbe Schwimmkörper als Bezeichnung der einzelnen Verankerungen",
@@ -3157,13 +3157,13 @@
           "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 24."
+          "rationale": "Das ist ein anderes Zeichen: „Beschränkte Durchfahrtsbreite“ (ONI Anhang 4 – fig. 24)."
         },
         {
           "text": "Wehr",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 41."
+          "rationale": "Das ist ein anderes Zeichen: „Wehr“ (ONI Anhang 4 – fig. 41)."
         }
       ],
       "provenance": {
@@ -3445,13 +3445,13 @@
           "text": "Empfohlene Fahrrichtung",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 39."
+          "rationale": "Das ist ein anderes Zeichen: „Empfohlene Fahrrichtung“ (ONI Anhang 4 – fig. 39)."
         },
         {
           "text": "Stelle zum Einwassern von Schiffen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 42."
+          "rationale": "Das ist ein anderes Zeichen: „Stelle zum Einwassern von Schiffen“ (ONI Anhang 4 – fig. 42)."
         }
       ],
       "provenance": {
@@ -3589,13 +3589,13 @@
           "text": "Verbot des Fahrens mit Segelschiffen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 5."
+          "rationale": "Das ist ein anderes Zeichen: „Verbot des Fahrens mit Segelschiffen“ (ONI Anhang 4 – fig. 5)."
         },
         {
           "text": "Erlaubnis zum Stillliegen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 33."
+          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Stillliegen“ (ONI Anhang 4 – fig. 33)."
         }
       ],
       "provenance": {
@@ -3919,7 +3919,7 @@
           "text": "Schwenken einer roten Flagge",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 39."
+          "rationale": "Das ist ein anderes Zeichen: „Schwenken einer roten Flagge“ (ONI Anhang 2 – fig. 39)."
         },
         {
           "text": "Ankerverbot",
@@ -3931,7 +3931,7 @@
           "text": "Verbot, schädlichen Wellenschlag oder Sog zu erzeugen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 13."
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot, schädlichen Wellenschlag oder Sog zu erzeugen“ (ONI Anhang 4 – fig. 13). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -3973,13 +3973,13 @@
           "text": "Verbotenes Stillliegen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 9."
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbotenes Stillliegen“ (ONI Anhang 4 – fig. 9). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 3."
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot der Durchfahrt für Schiffe mit Maschinenantrieb“ (ONI Anhang 4 – fig. 3). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -4021,13 +4021,13 @@
           "text": "Überholverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 7."
+          "rationale": "Richtige Familie, falsches Zeichen: „Überholverbot“ (ONI Anhang 4 – fig. 7). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Oder",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 28."
+          "rationale": "Das ist ein anderes Zeichen: „Oder“ (ONI Anhang 4 – fig. 28)."
         }
       ],
       "provenance": {
@@ -4069,13 +4069,13 @@
           "text": "Schwenken einer roten Flagge",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 39."
+          "rationale": "Das ist ein anderes Zeichen: „Schwenken einer roten Flagge“ (ONI Anhang 2 – fig. 39)."
         },
         {
           "text": "Blaues Blinklicht",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 31."
+          "rationale": "Das ist ein anderes Zeichen: „Blaues Blinklicht“ (ONI Anhang 2 – fig. 31)."
         }
       ],
       "provenance": {
@@ -4111,7 +4111,7 @@
           "text": "Überholverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 7."
+          "rationale": "Richtige Familie, falsches Zeichen: „Überholverbot“ (ONI Anhang 4 – fig. 7). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Verbot, ausserhalb der angezeigten Begrenzungen zu fahren",
@@ -4123,7 +4123,7 @@
           "text": "Schwenken einer roten Flagge",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 39."
+          "rationale": "Das ist ein anderes Zeichen: „Schwenken einer roten Flagge“ (ONI Anhang 2 – fig. 39)."
         }
       ],
       "provenance": {
@@ -4165,13 +4165,13 @@
           "text": "Erlaubnis zum Festmachen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 35."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Festmachen“ (ONI Anhang 4 – fig. 35). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 38."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Fahren mit Drachensegelbrettern“ (ONI Anhang 4 – fig. 38). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -4261,13 +4261,13 @@
           "text": "Erlaubnis zum Ankern",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 34."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Ankern“ (ONI Anhang 4 – fig. 34). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Verbotenes Stillliegen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 9."
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbotenes Stillliegen“ (ONI Anhang 4 – fig. 9). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -4303,7 +4303,7 @@
           "text": "Verbot des Wasserskifahrens",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 4."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot des Wasserskifahrens“ (ONI Anhang 4 – fig. 4). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Gebot, die durch den Pfeil angegebene Richtung einzuschlagen",
@@ -4315,7 +4315,7 @@
           "text": "Empfohlene Fahrrichtung",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 39."
+          "rationale": "Das ist ein anderes Zeichen: „Empfohlene Fahrrichtung“ (ONI Anhang 4 – fig. 39)."
         }
       ],
       "provenance": {
@@ -4399,13 +4399,13 @@
           "text": "Verbot des Wasserskifahrens",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 4."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot des Wasserskifahrens“ (ONI Anhang 4 – fig. 4). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Erlaubnis zum Stillliegen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 33."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Stillliegen“ (ONI Anhang 4 – fig. 33). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Gebot, die in Stundenkilometern (km/h) angegebene Geschwindigkeit nicht zu überschreiten",
@@ -4447,13 +4447,13 @@
           "text": "Verbotenes Stillliegen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 9."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbotenes Stillliegen“ (ONI Anhang 4 – fig. 9). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Erlaubnis zur Durchfahrt",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 32."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zur Durchfahrt“ (ONI Anhang 4 – fig. 32). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Gebot, ein Schallzeichen zu geben",
@@ -4501,13 +4501,13 @@
           "text": "Nicht freifahrende Fähre",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 40."
+          "rationale": "Das ist ein anderes Zeichen: „Nicht freifahrende Fähre“ (ONI Anhang 4 – fig. 40)."
         },
         {
           "text": "Stelle zum Auswassern von Schiffen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 43."
+          "rationale": "Das ist ein anderes Zeichen: „Stelle zum Auswassern von Schiffen“ (ONI Anhang 4 – fig. 43)."
         }
       ],
       "provenance": {
@@ -4543,13 +4543,13 @@
           "text": "Gebot, besondere Vorsicht walten zu lassen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 22."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Gebot, besondere Vorsicht walten zu lassen“ (ONI Anhang 4 – fig. 22). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Stelle zum Auswassern von Schiffen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 43."
+          "rationale": "Das ist ein anderes Zeichen: „Stelle zum Auswassern von Schiffen“ (ONI Anhang 4 – fig. 43)."
         },
         {
           "text": "Beschränkung der Durchfahrtshöhe (über dem Wasserspiegel)",
@@ -4591,13 +4591,13 @@
           "text": "Erlaubnis zum Fahren mit Segelbrettern",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 37."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Fahren mit Segelbrettern“ (ONI Anhang 4 – fig. 37). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 3."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot der Durchfahrt für Schiffe mit Maschinenantrieb“ (ONI Anhang 4 – fig. 3). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Beschränkte Durchfahrtsbreite",
@@ -4687,7 +4687,7 @@
           "text": "Sturmwarnung",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 61."
+          "rationale": "Das ist ein anderes Zeichen: „Sturmwarnung“ (ONI Anhang 4 – fig. 61)."
         },
         {
           "text": "Begrenzte Wassertiefe",
@@ -4699,7 +4699,7 @@
           "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 38."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Fahren mit Drachensegelbrettern“ (ONI Anhang 4 – fig. 38). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -4789,13 +4789,13 @@
           "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 38."
+          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Fahren mit Drachensegelbrettern“ (ONI Anhang 4 – fig. 38)."
         },
         {
           "text": "Überholverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 7."
+          "rationale": "Das ist ein anderes Zeichen: „Überholverbot“ (ONI Anhang 4 – fig. 7)."
         }
       ],
       "provenance": {
@@ -4831,7 +4831,7 @@
           "text": "Sturmwarnung",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 61."
+          "rationale": "Das ist ein anderes Zeichen: „Sturmwarnung“ (ONI Anhang 4 – fig. 61)."
         },
         {
           "text": "Oder",
@@ -4843,7 +4843,7 @@
           "text": "Wendeverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 12."
+          "rationale": "Das ist ein anderes Zeichen: „Wendeverbot“ (ONI Anhang 4 – fig. 12)."
         }
       ],
       "provenance": {
@@ -4879,13 +4879,13 @@
           "text": "Blaues Blinklicht",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 31."
+          "rationale": "Das ist ein anderes Zeichen: „Blaues Blinklicht“ (ONI Anhang 2 – fig. 31)."
         },
         {
           "text": "Überholverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 7."
+          "rationale": "Richtige Familie, falsches Zeichen: „Überholverbot“ (ONI Anhang 4 – fig. 7). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
@@ -4927,13 +4927,13 @@
           "text": "Verbot des Wasserskifahrens",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 4."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot des Wasserskifahrens“ (ONI Anhang 4 – fig. 4). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Stelle zum Auswassern von Schiffen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 43."
+          "rationale": "Das ist ein anderes Zeichen: „Stelle zum Auswassern von Schiffen“ (ONI Anhang 4 – fig. 43)."
         },
         {
           "text": "Empfehlung, sich auf der mit «grün» bezeichneten Fahrwasserseite zu halten",
@@ -4975,7 +4975,7 @@
           "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 24."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Beschränkte Durchfahrtsbreite“ (ONI Anhang 4 – fig. 24). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Empfehlung, sich auf der mit «grün» bezeichneten Fahrwasserseite zu halten",
@@ -4987,7 +4987,7 @@
           "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 38."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Fahren mit Drachensegelbrettern“ (ONI Anhang 4 – fig. 38). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -5029,13 +5029,13 @@
           "text": "Festmacheverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 11."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Festmacheverbot“ (ONI Anhang 4 – fig. 11). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Erlaubnis zum Ankern",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 34."
+          "rationale": "Richtige Familie, falsches Zeichen: „Erlaubnis zum Ankern“ (ONI Anhang 4 – fig. 34). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -5071,13 +5071,13 @@
           "text": "Stelle zum Einwassern von Schiffen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 42."
+          "rationale": "Das ist ein anderes Zeichen: „Stelle zum Einwassern von Schiffen“ (ONI Anhang 4 – fig. 42)."
         },
         {
           "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 24."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Beschränkte Durchfahrtsbreite“ (ONI Anhang 4 – fig. 24). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Erlaubnis zum Stillliegen",
@@ -5119,7 +5119,7 @@
           "text": "Schwenken einer roten Flagge",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 39."
+          "rationale": "Das ist ein anderes Zeichen: „Schwenken einer roten Flagge“ (ONI Anhang 2 – fig. 39)."
         },
         {
           "text": "Erlaubnis zum Ankern",
@@ -5131,7 +5131,7 @@
           "text": "Ankerverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 10."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Ankerverbot“ (ONI Anhang 4 – fig. 10). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -5167,13 +5167,13 @@
           "text": "Gebot, ein Schallzeichen zu geben",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 21."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Gebot, ein Schallzeichen zu geben“ (ONI Anhang 4 – fig. 21). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Festmacheverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 11."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Festmacheverbot“ (ONI Anhang 4 – fig. 11). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Erlaubnis zum Festmachen",
@@ -5215,13 +5215,13 @@
           "text": "Verbot, schädlichen Wellenschlag oder Sog zu erzeugen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 13."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot, schädlichen Wellenschlag oder Sog zu erzeugen“ (ONI Anhang 4 – fig. 13). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Überholverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 7."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Überholverbot“ (ONI Anhang 4 – fig. 7). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Erlaubnis zum Wasserskifahren",
@@ -5269,13 +5269,13 @@
           "text": "Erlaubnis zum Festmachen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 35."
+          "rationale": "Richtige Familie, falsches Zeichen: „Erlaubnis zum Festmachen“ (ONI Anhang 4 – fig. 35). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Verbot des Fahrens mit Segelschiffen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 5."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot des Fahrens mit Segelschiffen“ (ONI Anhang 4 – fig. 5). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -5311,7 +5311,7 @@
           "text": "Gebot, ein Schallzeichen zu geben",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 21."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Gebot, ein Schallzeichen zu geben“ (ONI Anhang 4 – fig. 21). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
@@ -5323,7 +5323,7 @@
           "text": "Verbot des Begegnens und Überholens",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 8."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot des Begegnens und Überholens“ (ONI Anhang 4 – fig. 8). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -5359,7 +5359,7 @@
           "text": "Verbot des Wasserskifahrens",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 4."
+          "rationale": "Das ist ein anderes Zeichen: „Verbot des Wasserskifahrens“ (ONI Anhang 4 – fig. 4)."
         },
         {
           "text": "Empfohlene Fahrrichtung",
@@ -5371,7 +5371,7 @@
           "text": "Ankerverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 10."
+          "rationale": "Das ist ein anderes Zeichen: „Ankerverbot“ (ONI Anhang 4 – fig. 10)."
         }
       ],
       "provenance": {
@@ -5407,7 +5407,7 @@
           "text": "Ankerverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 10."
+          "rationale": "Richtige Familie, falsches Zeichen: „Ankerverbot“ (ONI Anhang 4 – fig. 10). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Verbot des Wasserskifahrens",
@@ -5419,7 +5419,7 @@
           "text": "Starkwindwarnung",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 60."
+          "rationale": "Das ist ein anderes Zeichen: „Starkwindwarnung“ (ONI Anhang 4 – fig. 60)."
         }
       ],
       "provenance": {
@@ -5455,7 +5455,7 @@
           "text": "Badeverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 17."
+          "rationale": "Das ist ein anderes Zeichen: „Badeverbot“ (ONI Anhang 4 – fig. 17)."
         },
         {
           "text": "Nicht freifahrende Fähre",
@@ -5467,7 +5467,7 @@
           "text": "Begrenzte Wassertiefe",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 26."
+          "rationale": "Das ist ein anderes Zeichen: „Begrenzte Wassertiefe“ (ONI Anhang 4 – fig. 26)."
         }
       ],
       "provenance": {
@@ -5503,13 +5503,13 @@
           "text": "Überholverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 7."
+          "rationale": "Das ist ein anderes Zeichen: „Überholverbot“ (ONI Anhang 4 – fig. 7)."
         },
         {
           "text": "Sturmwarnung",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 61."
+          "rationale": "Das ist ein anderes Zeichen: „Sturmwarnung“ (ONI Anhang 4 – fig. 61)."
         },
         {
           "text": "Wehr",
@@ -5557,13 +5557,13 @@
           "text": "Sturmwarnung",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 61."
+          "rationale": "Das ist ein anderes Zeichen: „Sturmwarnung“ (ONI Anhang 4 – fig. 61)."
         },
         {
           "text": "Erlaubnis zum Ankern",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 34."
+          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Ankern“ (ONI Anhang 4 – fig. 34)."
         }
       ],
       "provenance": {
@@ -5599,7 +5599,7 @@
           "text": "Wehr",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 41."
+          "rationale": "Das ist ein anderes Zeichen: „Wehr“ (ONI Anhang 4 – fig. 41)."
         },
         {
           "text": "Stelle zum Auswassern von Schiffen",
@@ -5611,7 +5611,7 @@
           "text": "Erlaubnis zum Ankern",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 34."
+          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Ankern“ (ONI Anhang 4 – fig. 34)."
         }
       ],
       "provenance": {
@@ -5647,13 +5647,13 @@
           "text": "Sturmwarnung",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 61."
+          "rationale": "Das ist ein anderes Zeichen: „Sturmwarnung“ (ONI Anhang 4 – fig. 61)."
         },
         {
           "text": "Ankerverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 10."
+          "rationale": "Das ist ein anderes Zeichen: „Ankerverbot“ (ONI Anhang 4 – fig. 10)."
         },
         {
           "text": "Ende eines Verbotes oder Gebotes",
@@ -5695,7 +5695,7 @@
           "text": "Erlaubnis zum Wasserskifahren",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 36."
+          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Wasserskifahren“ (ONI Anhang 4 – fig. 36)."
         },
         {
           "text": "Hochspannungs-Freileitung",
@@ -5707,7 +5707,7 @@
           "text": "Oder",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 28."
+          "rationale": "Das ist ein anderes Zeichen: „Oder“ (ONI Anhang 4 – fig. 28)."
         }
       ],
       "provenance": {
@@ -5845,13 +5845,13 @@
           "text": "Erlaubnis zur Durchfahrt",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 32."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zur Durchfahrt“ (ONI Anhang 4 – fig. 32). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Festmacheverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 11."
+          "rationale": "Richtige Familie, falsches Zeichen: „Festmacheverbot“ (ONI Anhang 4 – fig. 11). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -6127,7 +6127,7 @@
           "text": "Hochspannungs-Freileitung",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 45."
+          "rationale": "Das ist ein anderes Zeichen: „Hochspannungs-Freileitung“ (ONI Anhang 4 – fig. 45)."
         },
         {
           "text": "Verbot des Fahrens mit Segelbrettern",
@@ -6139,7 +6139,7 @@
           "text": "Erlaubnis zum Stillliegen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 33."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Stillliegen“ (ONI Anhang 4 – fig. 33). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -6175,13 +6175,13 @@
           "text": "Gebot, ein Schallzeichen zu geben",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 21."
+          "rationale": "Das ist ein anderes Zeichen: „Gebot, ein Schallzeichen zu geben“ (ONI Anhang 4 – fig. 21)."
         },
         {
           "text": "Hochspannungs-Freileitung",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 45."
+          "rationale": "Das ist ein anderes Zeichen: „Hochspannungs-Freileitung“ (ONI Anhang 4 – fig. 45)."
         },
         {
           "text": "Starkwindwarnung",
@@ -6223,7 +6223,7 @@
           "text": "Erlaubnis zum Wasserskifahren",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 36."
+          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Wasserskifahren“ (ONI Anhang 4 – fig. 36)."
         },
         {
           "text": "Sturmwarnung",
@@ -6235,7 +6235,7 @@
           "text": "Gebot, ein Schallzeichen zu geben",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 21."
+          "rationale": "Das ist ein anderes Zeichen: „Gebot, ein Schallzeichen zu geben“ (ONI Anhang 4 – fig. 21)."
         }
       ],
       "provenance": {
@@ -6271,13 +6271,13 @@
           "text": "Ende eines Verbotes oder Gebotes",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 44."
+          "rationale": "Das ist ein anderes Zeichen: „Ende eines Verbotes oder Gebotes“ (ONI Anhang 4 – fig. 44)."
         },
         {
           "text": "Blaues Blinklicht",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 31."
+          "rationale": "Das ist ein anderes Zeichen: „Blaues Blinklicht“ (ONI Anhang 2 – fig. 31)."
         },
         {
           "text": "Überholverbot",
@@ -6319,7 +6319,7 @@
           "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 24."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Beschränkte Durchfahrtsbreite“ (ONI Anhang 4 – fig. 24). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Verbot des Begegnens und Überholens",
@@ -6331,7 +6331,7 @@
           "text": "Stelle zum Einwassern von Schiffen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 42."
+          "rationale": "Das ist ein anderes Zeichen: „Stelle zum Einwassern von Schiffen“ (ONI Anhang 4 – fig. 42)."
         }
       ],
       "provenance": {
@@ -6373,13 +6373,13 @@
           "text": "Blaues Blinklicht",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 2 – fig. 31."
+          "rationale": "Das ist ein anderes Zeichen: „Blaues Blinklicht“ (ONI Anhang 2 – fig. 31)."
         },
         {
           "text": "Verbot des Fahrens mit Segelbrettern",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu ONI Anhang 4 – fig. 6."
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot des Fahrens mit Segelbrettern“ (ONI Anhang 4 – fig. 6). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -6805,13 +6805,13 @@
           "text": "Liegeverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 6."
+          "rationale": "Das ist ein anderes Zeichen: „Liegeverbot“ (RNL Anhang III – fig. 6)."
         },
         {
           "text": "Erlaubnis zum Stillliegen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 18."
+          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Stillliegen“ (RNL Anhang III – fig. 18)."
         }
       ],
       "provenance": {
@@ -7381,13 +7381,13 @@
           "text": "Erlaubnis zum Festmachen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 20."
+          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Festmachen“ (RNL Anhang III – fig. 20)."
         },
         {
           "text": "Erlaubnis zum Segelbrettfahren",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 21."
+          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Segelbrettfahren“ (RNL Anhang III – fig. 21)."
         }
       ],
       "provenance": {
@@ -7855,13 +7855,13 @@
           "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 10."
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot, ausserhalb der angezeigten Fläche zu fahren“ (RNL Anhang III – fig. 10). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Gebot, besondere Vorsicht walten zu lassen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 16."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Gebot, besondere Vorsicht walten zu lassen“ (RNL Anhang III – fig. 16). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Verbot der Durchfahrt",
@@ -7909,13 +7909,13 @@
           "text": "Verbot des Drachensegelbrettfahrens",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 13."
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot des Drachensegelbrettfahrens“ (RNL Anhang III – fig. 13). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Zwei Lichtzeichen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 2."
+          "rationale": "Das ist ein anderes Zeichen: „Zwei Lichtzeichen“ (RNL Anhang III – fig. 2)."
         }
       ],
       "provenance": {
@@ -7951,7 +7951,7 @@
           "text": "Erlaubnis zum Ankern",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 19."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Ankern“ (RNL Anhang III – fig. 19). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Verbot des Segelbrettfahrens",
@@ -7963,7 +7963,7 @@
           "text": "Zwei Lichtzeichen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 2."
+          "rationale": "Das ist ein anderes Zeichen: „Zwei Lichtzeichen“ (RNL Anhang III – fig. 2)."
         }
       ],
       "provenance": {
@@ -7999,13 +7999,13 @@
           "text": "Verbot des Segelbrettfahrens",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 11."
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot des Segelbrettfahrens“ (RNL Anhang III – fig. 11). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Zwei Lichtzeichen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 2."
+          "rationale": "Das ist ein anderes Zeichen: „Zwei Lichtzeichen“ (RNL Anhang III – fig. 2)."
         },
         {
           "text": "Badeverbot",
@@ -8047,13 +8047,13 @@
           "text": "Erlaubnis zum Ankern",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 19."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Ankern“ (RNL Anhang III – fig. 19). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Zwei Lichtzeichen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 2."
+          "rationale": "Das ist ein anderes Zeichen: „Zwei Lichtzeichen“ (RNL Anhang III – fig. 2)."
         },
         {
           "text": "Verbot des Drachensegelbrettfahrens",
@@ -8095,7 +8095,7 @@
           "text": "Liegeverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 6."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Liegeverbot“ (RNL Anhang III – fig. 6). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Gebot, die durch den Pfeil angezeigte Richtung einzuschlagen",
@@ -8107,7 +8107,7 @@
           "text": "Erlaubnis zum Festmachen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 20."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Festmachen“ (RNL Anhang III – fig. 20). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -8143,13 +8143,13 @@
           "text": "Erlaubnis zum Ankern",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 19."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Ankern“ (RNL Anhang III – fig. 19). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Erlaubnis zum Drachensegelbrettfahren",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 22."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Drachensegelbrettfahren“ (RNL Anhang III – fig. 22). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Gebot, die in km/h angegebene Geschwindigkeit nicht zu überschreiten",
@@ -8197,13 +8197,13 @@
           "text": "Liegeverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 6."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Liegeverbot“ (RNL Anhang III – fig. 6). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Erlaubnis zum Stillliegen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 18."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Stillliegen“ (RNL Anhang III – fig. 18). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -8245,13 +8245,13 @@
           "text": "Oder eine rote und eine weisse Flagge",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang I – fig. 34."
+          "rationale": "Das ist ein anderes Zeichen: „Oder eine rote und eine weisse Flagge“ (RNL Anhang I – fig. 34)."
         },
         {
           "text": "Ankerverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 7."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Ankerverbot“ (RNL Anhang III – fig. 7). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -8293,13 +8293,13 @@
           "text": "Verbot der Durchfahrt",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 1."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot der Durchfahrt“ (RNL Anhang III – fig. 1). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Überholverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 5."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Überholverbot“ (RNL Anhang III – fig. 5). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -8341,13 +8341,13 @@
           "text": "Oder eine rote und eine weisse Flagge",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang I – fig. 34."
+          "rationale": "Das ist ein anderes Zeichen: „Oder eine rote und eine weisse Flagge“ (RNL Anhang I – fig. 34)."
         },
         {
           "text": "Zwei Lichtzeichen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 2."
+          "rationale": "Das ist ein anderes Zeichen: „Zwei Lichtzeichen“ (RNL Anhang III – fig. 2)."
         }
       ],
       "provenance": {
@@ -8383,7 +8383,7 @@
           "text": "Erlaubnis zum Festmachen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 20."
+          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Festmachen“ (RNL Anhang III – fig. 20)."
         },
         {
           "text": "Zwei Lichtzeichen",
@@ -8395,7 +8395,7 @@
           "text": "Festmacheverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 8."
+          "rationale": "Das ist ein anderes Zeichen: „Festmacheverbot“ (RNL Anhang III – fig. 8)."
         }
       ],
       "provenance": {
@@ -8437,13 +8437,13 @@
           "text": "Verbot des Drachensegelbrettfahrens",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 13."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot des Drachensegelbrettfahrens“ (RNL Anhang III – fig. 13). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Erlaubnis zum Segelbrettfahren",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 21."
+          "rationale": "Richtige Familie, falsches Zeichen: „Erlaubnis zum Segelbrettfahren“ (RNL Anhang III – fig. 21). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -8479,7 +8479,7 @@
           "text": "Liegeverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 6."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Liegeverbot“ (RNL Anhang III – fig. 6). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Erlaubnis zum Segelbrettfahren",
@@ -8491,7 +8491,7 @@
           "text": "Erlaubnis zum Festmachen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 20."
+          "rationale": "Richtige Familie, falsches Zeichen: „Erlaubnis zum Festmachen“ (RNL Anhang III – fig. 20). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -8533,13 +8533,13 @@
           "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 10."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot, ausserhalb der angezeigten Fläche zu fahren“ (RNL Anhang III – fig. 10). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Zwei Lichtzeichen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 2."
+          "rationale": "Das ist ein anderes Zeichen: „Zwei Lichtzeichen“ (RNL Anhang III – fig. 2)."
         }
       ],
       "provenance": {
@@ -8575,7 +8575,7 @@
           "text": "Oder eine rote und eine weisse Flagge",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang I – fig. 34."
+          "rationale": "Das ist ein anderes Zeichen: „Oder eine rote und eine weisse Flagge“ (RNL Anhang I – fig. 34)."
         },
         {
           "text": "A. 2 Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
@@ -8587,7 +8587,7 @@
           "text": "Liegeverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 6."
+          "rationale": "Richtige Familie, falsches Zeichen: „Liegeverbot“ (RNL Anhang III – fig. 6). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -8623,7 +8623,7 @@
           "text": "Badeverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 12."
+          "rationale": "Richtige Familie, falsches Zeichen: „Badeverbot“ (RNL Anhang III – fig. 12). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Verbot des Wasserskifahrens oder des Fahrens mit ähnlichen Geräten",
@@ -8635,7 +8635,7 @@
           "text": "Erlaubnis zum Drachensegelbrettfahren",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 22."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Drachensegelbrettfahren“ (RNL Anhang III – fig. 22). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -8677,13 +8677,13 @@
           "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 10."
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot, ausserhalb der angezeigten Fläche zu fahren“ (RNL Anhang III – fig. 10). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Erlaubnis zum Segelbrettfahren",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 21."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Segelbrettfahren“ (RNL Anhang III – fig. 21). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -8719,7 +8719,7 @@
           "text": "Überholverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 5."
+          "rationale": "Richtige Familie, falsches Zeichen: „Überholverbot“ (RNL Anhang III – fig. 5). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Liegeverbot",
@@ -8731,7 +8731,7 @@
           "text": "Verbot des Segelbrettfahrens",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 11."
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot des Segelbrettfahrens“ (RNL Anhang III – fig. 11). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -8773,13 +8773,13 @@
           "text": "Zwei Lichtzeichen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 2."
+          "rationale": "Das ist ein anderes Zeichen: „Zwei Lichtzeichen“ (RNL Anhang III – fig. 2)."
         },
         {
           "text": "Gebot, besondere Vorsicht walten zu lassen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 16."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Gebot, besondere Vorsicht walten zu lassen“ (RNL Anhang III – fig. 16). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -8815,7 +8815,7 @@
           "text": "Verbot des Segelbrettfahrens",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 11."
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot des Segelbrettfahrens“ (RNL Anhang III – fig. 11). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Festmacheverbot",
@@ -8827,7 +8827,7 @@
           "text": "Verbot des Drachensegelbrettfahrens",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 13."
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot des Drachensegelbrettfahrens“ (RNL Anhang III – fig. 13). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -8863,13 +8863,13 @@
           "text": "Gebot, besondere Vorsicht walten zu lassen",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 16."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Gebot, besondere Vorsicht walten zu lassen“ (RNL Anhang III – fig. 16). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Liegeverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Diese Antwort gehört zu RNL Anhang III – fig. 6."
+          "rationale": "Richtige Familie, falsches Zeichen: „Liegeverbot“ (RNL Anhang III – fig. 6). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",

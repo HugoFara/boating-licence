@@ -793,13 +793,13 @@
           "text": "Feu scintillant",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 2."
+          "rationale": "C'est un autre signal : « Feu scintillant » (ONI Annexe 2 – fig. 2)."
         },
         {
           "text": "Feu bleu scintillant",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 31."
+          "rationale": "C'est un autre signal : « Feu bleu scintillant » (ONI Annexe 2 – fig. 31)."
         }
       ],
       "provenance": {
@@ -819,7 +819,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1027,13 +1027,13 @@
           "text": "Feu scintillant",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 2."
+          "rationale": "C'est un autre signal : « Feu scintillant » (ONI Annexe 2 – fig. 2)."
         },
         {
           "text": "Feu fixe visible de tous les côtés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 1."
+          "rationale": "C'est un autre signal : « Feu fixe visible de tous les côtés » (ONI Annexe 2 – fig. 1)."
         },
         {
           "text": "Feu tricolore placé à la pointe du mât ou à proximité de celle-ci",
@@ -1059,7 +1059,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -1171,13 +1171,13 @@
           "text": "Feu bleu scintillant",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 31."
+          "rationale": "C'est un autre signal : « Feu bleu scintillant » (ONI Annexe 2 – fig. 31)."
         },
         {
           "text": "Feu fixe visible de tous les côtés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 1."
+          "rationale": "C'est un autre signal : « Feu fixe visible de tous les côtés » (ONI Annexe 2 – fig. 1)."
         },
         {
           "text": "Feu scintillant",
@@ -1203,7 +1203,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -1315,7 +1315,7 @@
           "text": "Interdiction de s’amarrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 11."
+          "rationale": "C'est un autre signal : « Interdiction de s’amarrer » (ONI Annexe 4 – fig. 11)."
         },
         {
           "text": "Ballon vert",
@@ -1327,7 +1327,7 @@
           "text": "La hauteur de la passe est limitée",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 23."
+          "rationale": "C'est un autre signal : « La hauteur de la passe est limitée » (ONI Annexe 4 – fig. 23)."
         }
       ],
       "provenance": {
@@ -1347,7 +1347,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -1417,13 +1417,13 @@
           "text": "Balancer un pavillon rouge",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 39."
+          "rationale": "C'est un autre signal : « Balancer un pavillon rouge » (ONI Annexe 2 – fig. 39)."
         },
         {
           "text": "Deux pavillons blancs superposés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 27."
+          "rationale": "C'est un autre signal : « Deux pavillons blancs superposés » (ONI Annexe 2 – fig. 27)."
         }
       ],
       "provenance": {
@@ -1465,13 +1465,13 @@
           "text": "Deux pavillons blancs superposés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 27."
+          "rationale": "C'est un autre signal : « Deux pavillons blancs superposés » (ONI Annexe 2 – fig. 27)."
         },
         {
           "text": "Balancer un pavillon rouge",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 39."
+          "rationale": "C'est un autre signal : « Balancer un pavillon rouge » (ONI Annexe 2 – fig. 39)."
         }
       ],
       "provenance": {
@@ -1507,7 +1507,7 @@
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 19."
+          "rationale": "C'est un autre signal : « Obligation de s’arrêter dans certaines conditions » (ONI Annexe 4 – fig. 19)."
         },
         {
           "text": "Deux pavillons blancs superposés",
@@ -1519,7 +1519,7 @@
           "text": "Autorisation d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 34."
+          "rationale": "C'est un autre signal : « Autorisation d’ancrer » (ONI Annexe 4 – fig. 34)."
         }
       ],
       "provenance": {
@@ -1555,13 +1555,13 @@
           "text": "Ballon jaune",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 34."
+          "rationale": "C'est un autre signal : « Ballon jaune » (ONI Annexe 2 – fig. 34)."
         },
         {
           "text": "Bateaux de la police et d’autres services",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 30."
+          "rationale": "C'est un autre signal : « Bateaux de la police et d’autres services » (ONI Annexe 2 – fig. 30)."
         },
         {
           "text": "Bouées jaunes signalant chaque ancrage",
@@ -1587,7 +1587,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -1603,13 +1603,13 @@
           "text": "Interdiction de virer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 12."
+          "rationale": "C'est un autre signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12)."
         },
         {
           "text": "Autorisation de passer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 32."
+          "rationale": "C'est un autre signal : « Autorisation de passer » (ONI Annexe 4 – fig. 32)."
         },
         {
           "text": "Ballon",
@@ -1635,7 +1635,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -1651,13 +1651,13 @@
           "text": "Bouées jaunes signalant chaque ancrage",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 29."
+          "rationale": "C'est un autre signal : « Bouées jaunes signalant chaque ancrage » (ONI Annexe 2 – fig. 29)."
         },
         {
           "text": "Interdiction d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 10."
+          "rationale": "C'est un autre signal : « Interdiction d’ancrer » (ONI Annexe 4 – fig. 10)."
         },
         {
           "text": "Bateaux de la police et d’autres services",
@@ -1683,7 +1683,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -1699,7 +1699,7 @@
           "text": "Feu scintillant",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 2."
+          "rationale": "C'est un autre signal : « Feu scintillant » (ONI Annexe 2 – fig. 2)."
         },
         {
           "text": "Feu bleu scintillant",
@@ -1711,7 +1711,7 @@
           "text": "Feu fixe visible de tous les côtés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 1."
+          "rationale": "C'est un autre signal : « Feu fixe visible de tous les côtés » (ONI Annexe 2 – fig. 1)."
         }
       ],
       "provenance": {
@@ -1731,7 +1731,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -1843,7 +1843,7 @@
           "text": "B. dans le seul sens indiqué",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 28."
+          "rationale": "C'est un autre signal : « B. dans le seul sens indiqué » (ONI Annexe 4 – fig. 28)."
         },
         {
           "text": "Ballon jaune",
@@ -1855,7 +1855,7 @@
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 19."
+          "rationale": "C'est un autre signal : « Obligation de s’arrêter dans certaines conditions » (ONI Annexe 4 – fig. 19)."
         }
       ],
       "provenance": {
@@ -1875,7 +1875,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -2041,13 +2041,13 @@
           "text": "La largeur de la passe est limitée",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 24."
+          "rationale": "C'est un autre signal : « La largeur de la passe est limitée » (ONI Annexe 4 – fig. 24)."
         },
         {
           "text": "B. dans le seul sens indiqué",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 28."
+          "rationale": "C'est un autre signal : « B. dans le seul sens indiqué » (ONI Annexe 4 – fig. 28)."
         }
       ],
       "provenance": {
@@ -2179,7 +2179,7 @@
           "text": "Balancer un pavillon rouge",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 39."
+          "rationale": "C'est un autre signal : « Balancer un pavillon rouge » (ONI Annexe 2 – fig. 39)."
         },
         {
           "text": "Balancer circulairement un pavillon rouge ou tout autre objet approprié",
@@ -2191,7 +2191,7 @@
           "text": "Deux pavillons blancs superposés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 27."
+          "rationale": "C'est un autre signal : « Deux pavillons blancs superposés » (ONI Annexe 2 – fig. 27)."
         }
       ],
       "provenance": {
@@ -2233,13 +2233,13 @@
           "text": "Autorisation de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 33."
+          "rationale": "C'est un autre signal : « Autorisation de stationner » (ONI Annexe 4 – fig. 33)."
         },
         {
           "text": "B. dans le seul sens indiqué",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 28."
+          "rationale": "C'est un autre signal : « B. dans le seul sens indiqué » (ONI Annexe 4 – fig. 28)."
         }
       ],
       "provenance": {
@@ -2563,7 +2563,7 @@
           "text": "Deux feux superposés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 2."
+          "rationale": "C'est un autre signal : « Deux feux superposés » (ONI Annexe 4 – fig. 2)."
         },
         {
           "text": "Volées de cloches",
@@ -2575,7 +2575,7 @@
           "text": "Bouées jaunes signalant chaque ancrage",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 2 – fig. 29."
+          "rationale": "C'est un autre signal : « Bouées jaunes signalant chaque ancrage » (ONI Annexe 2 – fig. 29)."
         }
       ],
       "provenance": {
@@ -2595,7 +2595,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -2665,13 +2665,13 @@
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 44."
+          "rationale": "C'est un autre signal : « Fin d’une interdiction ou d’une obligation » (ONI Annexe 4 – fig. 44)."
         },
         {
           "text": "Interdiction du ski nautique",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 4."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction du ski nautique » (ONI Annexe 4 – fig. 4). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -2691,7 +2691,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2707,13 +2707,13 @@
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 3."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de tout dépassement",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 7."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de tout dépassement » (ONI Annexe 4 – fig. 7). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de s’amarrer",
@@ -2739,7 +2739,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -2755,7 +2755,7 @@
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 3."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de virer",
@@ -2767,7 +2767,7 @@
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 44."
+          "rationale": "C'est un autre signal : « Fin d’une interdiction ou d’une obligation » (ONI Annexe 4 – fig. 44)."
         }
       ],
       "provenance": {
@@ -2787,7 +2787,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -2809,13 +2809,13 @@
           "text": "Interdiction d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 10."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction d’ancrer » (ONI Annexe 4 – fig. 10). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de virer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 12."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -2835,7 +2835,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2851,13 +2851,13 @@
           "text": "Interdiction de virer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 12."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 9."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de stationner » (ONI Annexe 4 – fig. 9). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de naviguer en dehors des limites indiquées",
@@ -2883,7 +2883,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -2899,13 +2899,13 @@
           "text": "Interdiction de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 9."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de stationner » (ONI Annexe 4 – fig. 9). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de naviguer à la planche à voile",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 6."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de naviguer à la planche à voile » (ONI Annexe 4 – fig. 6). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de naviguer en dehors des limites indiquées",
@@ -2931,7 +2931,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -2953,13 +2953,13 @@
           "text": "Lieu de mise à terre de bateaux",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 43."
+          "rationale": "C'est un autre signal : « Lieu de mise à terre de bateaux » (ONI Annexe 4 – fig. 43)."
         },
         {
           "text": "Hurlement d’une sirène",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 64."
+          "rationale": "C'est un autre signal : « Hurlement d’une sirène » (ONI Annexe 4 – fig. 64)."
         }
       ],
       "provenance": {
@@ -2995,7 +2995,7 @@
           "text": "Bac ne naviguant pas librement",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 40."
+          "rationale": "C'est un autre signal : « Bac ne naviguant pas librement » (ONI Annexe 4 – fig. 40)."
         },
         {
           "text": "Baignade interdite",
@@ -3007,7 +3007,7 @@
           "text": "Direction recommandée",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 39."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Direction recommandée » (ONI Annexe 4 – fig. 39). La bordure et la couleur donnent la famille avant même le pictogramme."
         }
       ],
       "provenance": {
@@ -3043,7 +3043,7 @@
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 22."
+          "rationale": "Bonne famille, mauvais signal : « Obligation d’observer une vigilance particulière » (ONI Annexe 4 – fig. 22). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Obligation de prendre la direction indiquée par la flèche",
@@ -3055,7 +3055,7 @@
           "text": "Obligation de siffler",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 21."
+          "rationale": "Bonne famille, mauvais signal : « Obligation de siffler » (ONI Annexe 4 – fig. 21). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -3075,7 +3075,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -3091,7 +3091,7 @@
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 22."
+          "rationale": "Bonne famille, mauvais signal : « Obligation d’observer une vigilance particulière » (ONI Annexe 4 – fig. 22). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Obligation de s’arrêter dans certaines conditions",
@@ -3103,7 +3103,7 @@
           "text": "Obligation de siffler",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 21."
+          "rationale": "Bonne famille, mauvais signal : « Obligation de siffler » (ONI Annexe 4 – fig. 21). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -3123,7 +3123,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -3139,7 +3139,7 @@
           "text": "Direction recommandée",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 39."
+          "rationale": "C'est un autre signal : « Direction recommandée » (ONI Annexe 4 – fig. 39)."
         },
         {
           "text": "Deux feux superposés",
@@ -3151,7 +3151,7 @@
           "text": "Interdiction de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 9."
+          "rationale": "C'est un autre signal : « Interdiction de stationner » (ONI Annexe 4 – fig. 9)."
         }
       ],
       "provenance": {
@@ -3171,7 +3171,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -3193,13 +3193,13 @@
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 22."
+          "rationale": "Bonne famille, mauvais signal : « Obligation d’observer une vigilance particulière » (ONI Annexe 4 – fig. 22). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 19."
+          "rationale": "Bonne famille, mauvais signal : « Obligation de s’arrêter dans certaines conditions » (ONI Annexe 4 – fig. 19). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -3219,7 +3219,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -3235,7 +3235,7 @@
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 19."
+          "rationale": "Bonne famille, mauvais signal : « Obligation de s’arrêter dans certaines conditions » (ONI Annexe 4 – fig. 19). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Obligation de siffler",
@@ -3247,7 +3247,7 @@
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 22."
+          "rationale": "Bonne famille, mauvais signal : « Obligation d’observer une vigilance particulière » (ONI Annexe 4 – fig. 22). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -3267,7 +3267,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -3283,7 +3283,7 @@
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 19."
+          "rationale": "Bonne famille, mauvais signal : « Obligation de s’arrêter dans certaines conditions » (ONI Annexe 4 – fig. 19). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Obligation d’observer une vigilance particulière",
@@ -3295,7 +3295,7 @@
           "text": "Obligation de siffler",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 21."
+          "rationale": "Bonne famille, mauvais signal : « Obligation de siffler » (ONI Annexe 4 – fig. 21). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -3315,7 +3315,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -3331,13 +3331,13 @@
           "text": "Kitesurfs autorisés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 38."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Kitesurfs autorisés » (ONI Annexe 4 – fig. 38). La bordure et la couleur donnent la famille avant même le pictogramme."
         },
         {
           "text": "Direction recommandée",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 39."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Direction recommandée » (ONI Annexe 4 – fig. 39). La bordure et la couleur donnent la famille avant même le pictogramme."
         },
         {
           "text": "La hauteur de la passe est limitée",
@@ -3385,13 +3385,13 @@
           "text": "Avis de tempête",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 62."
+          "rationale": "C'est un autre signal : « Avis de tempête » (ONI Annexe 4 – fig. 62)."
         },
         {
           "text": "Direction recommandée",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 39."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Direction recommandée » (ONI Annexe 4 – fig. 39). La bordure et la couleur donnent la famille avant même le pictogramme."
         }
       ],
       "provenance": {
@@ -3481,13 +3481,13 @@
           "text": "Avis de fort vent",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 61."
+          "rationale": "C'est un autre signal : « Avis de fort vent » (ONI Annexe 4 – fig. 61)."
         },
         {
           "text": "Avis de tempête",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 62."
+          "rationale": "C'est un autre signal : « Avis de tempête » (ONI Annexe 4 – fig. 62)."
         }
       ],
       "provenance": {
@@ -3571,13 +3571,13 @@
           "text": "La largeur de la passe est limitée",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 24."
+          "rationale": "C'est un autre signal : « La largeur de la passe est limitée » (ONI Annexe 4 – fig. 24)."
         },
         {
           "text": "Lieu de mise à terre de bateaux",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 43."
+          "rationale": "C'est un autre signal : « Lieu de mise à terre de bateaux » (ONI Annexe 4 – fig. 43)."
         },
         {
           "text": "B. dans le seul sens indiqué",
@@ -3619,7 +3619,7 @@
           "text": "Direction recommandée",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 39."
+          "rationale": "C'est un autre signal : « Direction recommandée » (ONI Annexe 4 – fig. 39)."
         },
         {
           "text": "B. dans le seul sens indiqué",
@@ -3631,7 +3631,7 @@
           "text": "Le tirant d’eau est limité",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 26."
+          "rationale": "C'est un autre signal : « Le tirant d’eau est limité » (ONI Annexe 4 – fig. 26)."
         }
       ],
       "provenance": {
@@ -3667,7 +3667,7 @@
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 44."
+          "rationale": "C'est un autre signal : « Fin d’une interdiction ou d’une obligation » (ONI Annexe 4 – fig. 44)."
         },
         {
           "text": "Interdiction de passer pour bateaux motorisés",
@@ -3679,7 +3679,7 @@
           "text": "Interdiction de virer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 12."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -3699,7 +3699,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -3715,7 +3715,7 @@
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 19."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Obligation de s’arrêter dans certaines conditions » (ONI Annexe 4 – fig. 19). La bordure et la couleur donnent la famille avant même le pictogramme."
         },
         {
           "text": "Recommandation de se tenir dans l’espace indiqué en «vert»",
@@ -3727,7 +3727,7 @@
           "text": "Autorisation de passer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 32."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Autorisation de passer » (ONI Annexe 4 – fig. 32). La bordure et la couleur donnent la famille avant même le pictogramme."
         }
       ],
       "provenance": {
@@ -3747,7 +3747,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -3763,7 +3763,7 @@
           "text": "Interdiction de toute rencontre et dépassement",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 8."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Interdiction de toute rencontre et dépassement » (ONI Annexe 4 – fig. 8). La bordure et la couleur donnent la famille avant même le pictogramme."
         },
         {
           "text": "Recommandation de se tenir dans l’espace indiqué en «vert»",
@@ -3775,7 +3775,7 @@
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 44."
+          "rationale": "C'est un autre signal : « Fin d’une interdiction ou d’une obligation » (ONI Annexe 4 – fig. 44)."
         }
       ],
       "provenance": {
@@ -3795,7 +3795,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -3811,7 +3811,7 @@
           "text": "Autorisation d’amarrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 35."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation d’amarrer » (ONI Annexe 4 – fig. 35). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation de passer",
@@ -3823,7 +3823,7 @@
           "text": "Autorisation d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 34."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation d’ancrer » (ONI Annexe 4 – fig. 34). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -3843,7 +3843,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -3865,13 +3865,13 @@
           "text": "Autorisation du ski nautique",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 36."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation du ski nautique » (ONI Annexe 4 – fig. 36). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation de passer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 32."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de passer » (ONI Annexe 4 – fig. 32). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -3891,7 +3891,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -3913,13 +3913,13 @@
           "text": "Autorisation du ski nautique",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 36."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation du ski nautique » (ONI Annexe 4 – fig. 36). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 33."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de stationner » (ONI Annexe 4 – fig. 33). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -3939,7 +3939,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -3955,13 +3955,13 @@
           "text": "Autorisation d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 34."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation d’ancrer » (ONI Annexe 4 – fig. 34). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation de passer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 32."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de passer » (ONI Annexe 4 – fig. 32). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation d’amarrer",
@@ -3987,7 +3987,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -4009,13 +4009,13 @@
           "text": "Autorisation d’amarrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 35."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation d’amarrer » (ONI Annexe 4 – fig. 35). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation de naviguer à la planche à voile",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 37."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de naviguer à la planche à voile » (ONI Annexe 4 – fig. 37). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -4035,7 +4035,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4051,7 +4051,7 @@
           "text": "Autorisation d’amarrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 35."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation d’amarrer » (ONI Annexe 4 – fig. 35). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation de naviguer à la planche à voile",
@@ -4063,7 +4063,7 @@
           "text": "Autorisation de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 33."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de stationner » (ONI Annexe 4 – fig. 33). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -4083,7 +4083,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -4105,13 +4105,13 @@
           "text": "Avis de tempête",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 62."
+          "rationale": "C'est un autre signal : « Avis de tempête » (ONI Annexe 4 – fig. 62)."
         },
         {
           "text": "Baignade interdite",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 17."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Baignade interdite » (ONI Annexe 4 – fig. 17). La bordure et la couleur donnent la famille avant même le pictogramme."
         }
       ],
       "provenance": {
@@ -4147,13 +4147,13 @@
           "text": "B. dans le seul sens indiqué",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 28."
+          "rationale": "C'est un autre signal : « B. dans le seul sens indiqué » (ONI Annexe 4 – fig. 28)."
         },
         {
           "text": "Avis de tempête",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 62."
+          "rationale": "C'est un autre signal : « Avis de tempête » (ONI Annexe 4 – fig. 62)."
         },
         {
           "text": "Direction recommandée",
@@ -4195,7 +4195,7 @@
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 3."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction du ski nautique",
@@ -4207,7 +4207,7 @@
           "text": "Interdiction d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 10."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction d’ancrer » (ONI Annexe 4 – fig. 10). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -4227,7 +4227,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -4243,13 +4243,13 @@
           "text": "Direction recommandée",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 39."
+          "rationale": "C'est un autre signal : « Direction recommandée » (ONI Annexe 4 – fig. 39)."
         },
         {
           "text": "Kitesurfs autorisés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 38."
+          "rationale": "C'est un autre signal : « Kitesurfs autorisés » (ONI Annexe 4 – fig. 38)."
         },
         {
           "text": "Bac ne naviguant pas librement",
@@ -4297,13 +4297,13 @@
           "text": "Le tirant d’eau est limité",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 26."
+          "rationale": "C'est un autre signal : « Le tirant d’eau est limité » (ONI Annexe 4 – fig. 26)."
         },
         {
           "text": "Lignes aériennes à haute tension",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 45."
+          "rationale": "C'est un autre signal : « Lignes aériennes à haute tension » (ONI Annexe 4 – fig. 45)."
         }
       ],
       "provenance": {
@@ -4339,13 +4339,13 @@
           "text": "Avis de fort vent",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 61."
+          "rationale": "C'est un autre signal : « Avis de fort vent » (ONI Annexe 4 – fig. 61)."
         },
         {
           "text": "B. dans le seul sens indiqué",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 28."
+          "rationale": "C'est un autre signal : « B. dans le seul sens indiqué » (ONI Annexe 4 – fig. 28)."
         },
         {
           "text": "Lieu de mise à l’eau de bateaux",
@@ -4387,13 +4387,13 @@
           "text": "Lieu de mise à l’eau de bateaux",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 42."
+          "rationale": "C'est un autre signal : « Lieu de mise à l’eau de bateaux » (ONI Annexe 4 – fig. 42)."
         },
         {
           "text": "Barrage",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 41."
+          "rationale": "C'est un autre signal : « Barrage » (ONI Annexe 4 – fig. 41)."
         },
         {
           "text": "Lieu de mise à terre de bateaux",
@@ -4435,13 +4435,13 @@
           "text": "Interdiction de passer pour bateaux à voile",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 5."
+          "rationale": "C'est un autre signal : « Interdiction de passer pour bateaux à voile » (ONI Annexe 4 – fig. 5)."
         },
         {
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 3."
+          "rationale": "C'est un autre signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3)."
         },
         {
           "text": "Fin d’une interdiction ou d’une obligation",
@@ -4467,7 +4467,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -4489,13 +4489,13 @@
           "text": "Barrage",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 41."
+          "rationale": "C'est un autre signal : « Barrage » (ONI Annexe 4 – fig. 41)."
         },
         {
           "text": "Kitesurfs autorisés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 38."
+          "rationale": "C'est un autre signal : « Kitesurfs autorisés » (ONI Annexe 4 – fig. 38)."
         }
       ],
       "provenance": {
@@ -4633,13 +4633,13 @@
           "text": "Interdiction de virer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 12."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 3."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -4659,7 +4659,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4915,13 +4915,13 @@
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 3."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 44."
+          "rationale": "C'est un autre signal : « Fin d’une interdiction ou d’une obligation » (ONI Annexe 4 – fig. 44)."
         },
         {
           "text": "Interdiction de naviguer à la planche à voile",
@@ -4947,7 +4947,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -4969,13 +4969,13 @@
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 19."
+          "rationale": "C'est un autre signal : « Obligation de s’arrêter dans certaines conditions » (ONI Annexe 4 – fig. 19)."
         },
         {
           "text": "Interdiction d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 10."
+          "rationale": "C'est un autre signal : « Interdiction d’ancrer » (ONI Annexe 4 – fig. 10)."
         }
       ],
       "provenance": {
@@ -4995,7 +4995,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -5011,7 +5011,7 @@
           "text": "Baignade interdite",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 17."
+          "rationale": "C'est un autre signal : « Baignade interdite » (ONI Annexe 4 – fig. 17)."
         },
         {
           "text": "Hurlement d’une sirène",
@@ -5023,7 +5023,7 @@
           "text": "B. dans le seul sens indiqué",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 28."
+          "rationale": "C'est un autre signal : « B. dans le seul sens indiqué » (ONI Annexe 4 – fig. 28)."
         }
       ],
       "provenance": {
@@ -5059,7 +5059,7 @@
           "text": "Interdiction de virer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 12."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de tout dépassement",
@@ -5071,7 +5071,7 @@
           "text": "Interdiction de toute rencontre et dépassement",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 8."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de toute rencontre et dépassement » (ONI Annexe 4 – fig. 8). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -5091,7 +5091,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -5107,13 +5107,13 @@
           "text": "Interdiction de passer pour bateaux à voile",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 5."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux à voile » (ONI Annexe 4 – fig. 5). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction du ski nautique",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 4."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction du ski nautique » (ONI Annexe 4 – fig. 4). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de toute rencontre et dépassement",
@@ -5139,7 +5139,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -5155,7 +5155,7 @@
           "text": "Interdiction de virer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 12."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de stationner",
@@ -5167,7 +5167,7 @@
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 44."
+          "rationale": "C'est un autre signal : « Fin d’une interdiction ou d’une obligation » (ONI Annexe 4 – fig. 44)."
         }
       ],
       "provenance": {
@@ -5187,7 +5187,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -5497,13 +5497,13 @@
           "text": "Soit pavillon rouge et pavillon blanc",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 34."
+          "rationale": "C'est un autre signal : « Soit pavillon rouge et pavillon blanc » (RNL Annexe I – fig. 34)."
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 4."
+          "rationale": "C'est un autre signal : « Bateaux naviguant isolément ou remorqueurs » (RNL Annexe I – fig. 4)."
         }
       ],
       "provenance": {
@@ -5523,7 +5523,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -5545,13 +5545,13 @@
           "text": "Convois poussés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 5."
+          "rationale": "C'est un autre signal : « Convois poussés » (RNL Annexe I – fig. 5)."
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 4."
+          "rationale": "C'est un autre signal : « Bateaux naviguant isolément ou remorqueurs » (RNL Annexe I – fig. 4)."
         }
       ],
       "provenance": {
@@ -6073,13 +6073,13 @@
           "text": "Interdiction de passer en dehors de l’espace indiqué",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 10."
+          "rationale": "C'est un autre signal : « Interdiction de passer en dehors de l’espace indiqué » (RNL Annexe III – fig. 10)."
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 4."
+          "rationale": "C'est un autre signal : « Bateaux naviguant isolément ou remorqueurs » (RNL Annexe I – fig. 4)."
         }
       ],
       "provenance": {
@@ -6259,7 +6259,7 @@
           "text": "Convois poussés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 5."
+          "rationale": "C'est un autre signal : « Convois poussés » (RNL Annexe I – fig. 5)."
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
@@ -6271,7 +6271,7 @@
           "text": "Bateaux de plaisance",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 6."
+          "rationale": "C'est un autre signal : « Bateaux de plaisance » (RNL Annexe I – fig. 6)."
         }
       ],
       "provenance": {
@@ -6499,13 +6499,13 @@
           "text": "Bateaux de plaisance",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 6."
+          "rationale": "C'est un autre signal : « Bateaux de plaisance » (RNL Annexe I – fig. 6)."
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 4."
+          "rationale": "C'est un autre signal : « Bateaux naviguant isolément ou remorqueurs » (RNL Annexe I – fig. 4)."
         },
         {
           "text": "Convois poussés",
@@ -6547,7 +6547,7 @@
           "text": "Convois poussés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 5."
+          "rationale": "C'est un autre signal : « Convois poussés » (RNL Annexe I – fig. 5)."
         },
         {
           "text": "Bateaux de plaisance",
@@ -6559,7 +6559,7 @@
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 4."
+          "rationale": "C'est un autre signal : « Bateaux naviguant isolément ou remorqueurs » (RNL Annexe I – fig. 4)."
         }
       ],
       "provenance": {
@@ -6595,13 +6595,13 @@
           "text": "Convois poussés",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 5."
+          "rationale": "C'est un autre signal : « Convois poussés » (RNL Annexe I – fig. 5)."
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 4."
+          "rationale": "C'est un autre signal : « Bateaux naviguant isolément ou remorqueurs » (RNL Annexe I – fig. 4)."
         },
         {
           "text": "Bateaux de pêche professionnelle, bateaux de plaisance motorisés",
@@ -6691,7 +6691,7 @@
           "text": "Interdiction d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 7."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction d’ancrer » (RNL Annexe III – fig. 7). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de passer",
@@ -6703,7 +6703,7 @@
           "text": "Interdiction de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 6."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de stationner » (RNL Annexe III – fig. 6). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -6723,7 +6723,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -6745,13 +6745,13 @@
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 11."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de pratiquer la planche à voile » (RNL Annexe III – fig. 11). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 6."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de stationner » (RNL Annexe III – fig. 6). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -6771,7 +6771,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -6787,7 +6787,7 @@
           "text": "Interdiction de passer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 1."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer » (RNL Annexe III – fig. 1). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de pratiquer la planche à voile",
@@ -6799,7 +6799,7 @@
           "text": "Interdiction de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 6."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de stationner » (RNL Annexe III – fig. 6). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -6819,7 +6819,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -6835,7 +6835,7 @@
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 11."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de pratiquer la planche à voile » (RNL Annexe III – fig. 11). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de se baigner",
@@ -6847,7 +6847,7 @@
           "text": "Interdiction de passer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 1."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer » (RNL Annexe III – fig. 1). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -6867,7 +6867,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -6889,13 +6889,13 @@
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 11."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de pratiquer la planche à voile » (RNL Annexe III – fig. 11). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 6."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de stationner » (RNL Annexe III – fig. 6). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -6915,7 +6915,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -6937,13 +6937,13 @@
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 16."
+          "rationale": "Bonne famille, mauvais signal : « Obligation d’observer une vigilance particulière » (RNL Annexe III – fig. 16). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 18."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Autorisation de stationner » (RNL Annexe III – fig. 18). La bordure et la couleur donnent la famille avant même le pictogramme."
         }
       ],
       "provenance": {
@@ -6963,7 +6963,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -6985,13 +6985,13 @@
           "text": "Interdiction de tout dépassement",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 5."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Interdiction de tout dépassement » (RNL Annexe III – fig. 5). La bordure et la couleur donnent la famille avant même le pictogramme."
         },
         {
           "text": "Autorisation d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 19."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Autorisation d’ancrer » (RNL Annexe III – fig. 19). La bordure et la couleur donnent la famille avant même le pictogramme."
         }
       ],
       "provenance": {
@@ -7011,7 +7011,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -7027,13 +7027,13 @@
           "text": "Autorisation d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 19."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Autorisation d’ancrer » (RNL Annexe III – fig. 19). La bordure et la couleur donnent la famille avant même le pictogramme."
         },
         {
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 11."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Interdiction de pratiquer la planche à voile » (RNL Annexe III – fig. 11). La bordure et la couleur donnent la famille avant même le pictogramme."
         },
         {
           "text": "Obligation d’observer une vigilance particulière",
@@ -7059,7 +7059,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -7081,13 +7081,13 @@
           "text": "Autorisation de s’amarrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 20."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de s’amarrer » (RNL Annexe III – fig. 20). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 19."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation d’ancrer » (RNL Annexe III – fig. 19). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7107,7 +7107,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -7123,7 +7123,7 @@
           "text": "Autorisation d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 19."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation d’ancrer » (RNL Annexe III – fig. 19). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation de stationner",
@@ -7135,7 +7135,7 @@
           "text": "Autorisation de pratiquer la planche à voile",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 21."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de pratiquer la planche à voile » (RNL Annexe III – fig. 21). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7155,7 +7155,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -7171,7 +7171,7 @@
           "text": "Autorisation de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 18."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de stationner » (RNL Annexe III – fig. 18). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation d’ancrer",
@@ -7183,7 +7183,7 @@
           "text": "Autorisation de s’amarrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 20."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de s’amarrer » (RNL Annexe III – fig. 20). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7203,7 +7203,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -7225,13 +7225,13 @@
           "text": "Autorisation d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 19."
+          "rationale": "C'est un autre signal : « Autorisation d’ancrer » (RNL Annexe III – fig. 19)."
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe I – fig. 4."
+          "rationale": "C'est un autre signal : « Bateaux naviguant isolément ou remorqueurs » (RNL Annexe I – fig. 4)."
         }
       ],
       "provenance": {
@@ -7267,13 +7267,13 @@
           "text": "Autorisation de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 18."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de stationner » (RNL Annexe III – fig. 18). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 19."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation d’ancrer » (RNL Annexe III – fig. 19). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation de s’amarrer",
@@ -7299,7 +7299,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -7321,13 +7321,13 @@
           "text": "Autorisation d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 19."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation d’ancrer » (RNL Annexe III – fig. 19). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 18."
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de stationner » (RNL Annexe III – fig. 18). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7347,7 +7347,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -7369,13 +7369,13 @@
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 16."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Obligation d’observer une vigilance particulière » (RNL Annexe III – fig. 16). La bordure et la couleur donnent la famille avant même le pictogramme."
         },
         {
           "text": "Interdiction de passer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 1."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Interdiction de passer » (RNL Annexe III – fig. 1). La bordure et la couleur donnent la famille avant même le pictogramme."
         }
       ],
       "provenance": {
@@ -7417,13 +7417,13 @@
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 11."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de pratiquer la planche à voile » (RNL Annexe III – fig. 11). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de se baigner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 12."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de se baigner » (RNL Annexe III – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7443,7 +7443,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -7459,7 +7459,7 @@
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 11."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de pratiquer la planche à voile » (RNL Annexe III – fig. 11). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction du ski nautique ou de l’utilisation d’engins analogues",
@@ -7471,7 +7471,7 @@
           "text": "Interdiction de stationner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 6."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de stationner » (RNL Annexe III – fig. 6). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7491,7 +7491,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -7513,13 +7513,13 @@
           "text": "Interdiction d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 7."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction d’ancrer » (RNL Annexe III – fig. 7). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de passer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 1."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer » (RNL Annexe III – fig. 1). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7539,7 +7539,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -7555,13 +7555,13 @@
           "text": "Interdiction de s’amarrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 8."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de s’amarrer » (RNL Annexe III – fig. 8). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction des kitesurfs",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 13."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction des kitesurfs » (RNL Annexe III – fig. 13). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de stationner",
@@ -7587,7 +7587,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -7603,7 +7603,7 @@
           "text": "Interdiction de passer en dehors de l’espace indiqué",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 10."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer en dehors de l’espace indiqué » (RNL Annexe III – fig. 10). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction d’ancrer",
@@ -7615,7 +7615,7 @@
           "text": "Interdiction de se baigner",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 12."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de se baigner » (RNL Annexe III – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7635,7 +7635,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -7651,7 +7651,7 @@
           "text": "Interdiction de passer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 1."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer » (RNL Annexe III – fig. 1). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de s’amarrer",
@@ -7663,7 +7663,7 @@
           "text": "Interdiction des kitesurfs",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 13."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction des kitesurfs » (RNL Annexe III – fig. 13). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7683,7 +7683,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -7699,13 +7699,13 @@
           "text": "Interdiction des kitesurfs",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 13."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction des kitesurfs » (RNL Annexe III – fig. 13). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à RNL Annexe III – fig. 7."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction d’ancrer » (RNL Annexe III – fig. 7). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de passer en dehors de l’espace indiqué",
@@ -7731,7 +7731,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2

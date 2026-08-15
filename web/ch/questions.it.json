@@ -1,7 +1,7 @@
 {
   "meta": {
     "kb_version": "2026-05-31",
-    "generated": "2026-05-31",
+    "generated": "2026-08-15",
     "generators": "tmpl:figure_recognition.v1",
     "exam_questions": "60",
     "total_points": "180",
@@ -3198,7 +3198,7 @@
           "text": "Obbligo di osservare una prudenza particolare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 22."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di osservare una prudenza particolare» (ONI Allegato 4 – fig. 22). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Boe gialle che segnalino ciascun ancoraggio",
@@ -3210,7 +3210,7 @@
           "text": "Divieto per i natanti motorizzati",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 3."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto per i natanti motorizzati» (ONI Allegato 4 – fig. 3). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -3252,13 +3252,13 @@
           "text": "Larghezza limitata del passaggio",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 24."
+          "rationale": "È un altro segnale: «Larghezza limitata del passaggio» (ONI Allegato 4 – fig. 24)."
         },
         {
           "text": "Obbligo di fermarsi in determinate condizioni",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 19."
+          "rationale": "È un altro segnale: «Obbligo di fermarsi in determinate condizioni» (ONI Allegato 4 – fig. 19)."
         }
       ],
       "provenance": {
@@ -3588,13 +3588,13 @@
           "text": "Divieto per i natanti motorizzati",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 3."
+          "rationale": "È un altro segnale: «Divieto per i natanti motorizzati» (ONI Allegato 4 – fig. 3)."
         },
         {
           "text": "Fine di un divieto o di un obbligo",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 44."
+          "rationale": "È un altro segnale: «Fine di un divieto o di un obbligo» (ONI Allegato 4 – fig. 44)."
         }
       ],
       "provenance": {
@@ -3726,13 +3726,13 @@
           "text": "Chiusa",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 41."
+          "rationale": "È un altro segnale: «Chiusa» (ONI Allegato 4 – fig. 41)."
         },
         {
           "text": "Boe gialle che segnalino ciascun ancoraggio",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 29."
+          "rationale": "È un altro segnale: «Boe gialle che segnalino ciascun ancoraggio» (ONI Allegato 2 – fig. 29)."
         },
         {
           "text": "Agitare una bandiera rossa oppure un altro oggetto appropriato con movimento rotatorio",
@@ -4164,13 +4164,13 @@
           "text": "Obbligo di fermarsi in determinate condizioni",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 19."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di fermarsi in determinate condizioni» (ONI Allegato 4 – fig. 19). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Tavole a vela autorizzate",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 37."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Tavole a vela autorizzate» (ONI Allegato 4 – fig. 37). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -4212,13 +4212,13 @@
           "text": "Divieto di incrociare e sorpassare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 8."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di incrociare e sorpassare» (ONI Allegato 4 – fig. 8). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Autorizzazione di passaggio",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 32."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione di passaggio» (ONI Allegato 4 – fig. 32). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -4254,13 +4254,13 @@
           "text": "Tavole a vela autorizzate",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 37."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Tavole a vela autorizzate» (ONI Allegato 4 – fig. 37). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 13."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Divieto di virare",
@@ -4308,13 +4308,13 @@
           "text": "Tavole a vela autorizzate",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 37."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Tavole a vela autorizzate» (ONI Allegato 4 – fig. 37). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto di incrociare e sorpassare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 8."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di incrociare e sorpassare» (ONI Allegato 4 – fig. 8). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -4350,7 +4350,7 @@
           "text": "Kite surf autorizzati",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 38."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Kite surf autorizzati» (ONI Allegato 4 – fig. 38). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto di navigare fuori dei limiti indicati",
@@ -4362,7 +4362,7 @@
           "text": "Divieto d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 11."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto d’ormeggiare» (ONI Allegato 4 – fig. 11). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -4398,7 +4398,7 @@
           "text": "Divieto d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 11."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto d’ormeggiare» (ONI Allegato 4 – fig. 11). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Divieto di navigare fuori dei limiti indicati",
@@ -4410,7 +4410,7 @@
           "text": "Autorizzazione di passaggio",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 32."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione di passaggio» (ONI Allegato 4 – fig. 32). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -4452,13 +4452,13 @@
           "text": "Obbligo di fermarsi in determinate condizioni",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 19."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di fermarsi in determinate condizioni» (ONI Allegato 4 – fig. 19). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto per i natanti motorizzati",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 3."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto per i natanti motorizzati» (ONI Allegato 4 – fig. 3). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -4494,13 +4494,13 @@
           "text": "Posto per toglieredall'acqua i natanti",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 43."
+          "rationale": "È un altro segnale: «Posto per toglieredall'acqua i natanti» (ONI Allegato 4 – fig. 43)."
         },
         {
           "text": "Linea ad alta tensione",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 45."
+          "rationale": "È un altro segnale: «Linea ad alta tensione» (ONI Allegato 4 – fig. 45)."
         },
         {
           "text": "Divieto di balneazione",
@@ -4542,13 +4542,13 @@
           "text": "Agitare una bandiera rossa",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 39."
+          "rationale": "È un altro segnale: «Agitare una bandiera rossa» (ONI Allegato 2 – fig. 39)."
         },
         {
           "text": "Raccomandazione di dirigersi nel senso della freccia",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 39."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Raccomandazione di dirigersi nel senso della freccia» (ONI Allegato 4 – fig. 39). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
@@ -4590,13 +4590,13 @@
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 13."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Luce blu intermittente",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 31."
+          "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
         },
         {
           "text": "Obbligo di fermarsi in determinate condizioni",
@@ -4638,13 +4638,13 @@
           "text": "Divieto di navigare fuori dei limiti indicati",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 14."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di navigare fuori dei limiti indicati» (ONI Allegato 4 – fig. 14). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Agitare una bandiera rossa",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 39."
+          "rationale": "È un altro segnale: «Agitare una bandiera rossa» (ONI Allegato 2 – fig. 39)."
         },
         {
           "text": "Obbligo di non superare la velocità indicata in chilometri orari km/h",
@@ -4692,13 +4692,13 @@
           "text": "Tavole a vela autorizzate",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 37."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Tavole a vela autorizzate» (ONI Allegato 4 – fig. 37). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto di incrociare e sorpassare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 8."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di incrociare e sorpassare» (ONI Allegato 4 – fig. 8). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -4740,13 +4740,13 @@
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 35."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione d’ormeggiare» (ONI Allegato 4 – fig. 35). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Autorizzazione di stazionare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 33."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione di stazionare» (ONI Allegato 4 – fig. 33). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -4782,7 +4782,7 @@
           "text": "Linea ad alta tensione",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 45."
+          "rationale": "È un altro segnale: «Linea ad alta tensione» (ONI Allegato 4 – fig. 45)."
         },
         {
           "text": "Altezza del passaggio limitata (al di sopra del pelo d’acqua)",
@@ -4794,7 +4794,7 @@
           "text": "Posto per mettere in acqua i natanti",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 42."
+          "rationale": "È un altro segnale: «Posto per mettere in acqua i natanti» (ONI Allegato 4 – fig. 42)."
         }
       ],
       "provenance": {
@@ -4830,13 +4830,13 @@
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 35."
+          "rationale": "È un altro segnale: «Autorizzazione d’ormeggiare» (ONI Allegato 4 – fig. 35)."
         },
         {
           "text": "Avviso di tempesta",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 60."
+          "rationale": "È un altro segnale: «Avviso di tempesta» (ONI Allegato 4 – fig. 60)."
         },
         {
           "text": "Larghezza limitata del passaggio",
@@ -4932,13 +4932,13 @@
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 13."
+          "rationale": "È un altro segnale: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13)."
         },
         {
           "text": "Avviso di tempesta",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 60."
+          "rationale": "È un altro segnale: «Avviso di tempesta» (ONI Allegato 4 – fig. 60)."
         }
       ],
       "provenance": {
@@ -5022,13 +5022,13 @@
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 18."
+          "rationale": "È un altro segnale: «Obbligo di prendere la direzione indicata dalla freccia» (ONI Allegato 4 – fig. 18)."
         },
         {
           "text": "Autorizzazione di passaggio",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 32."
+          "rationale": "È un altro segnale: «Autorizzazione di passaggio» (ONI Allegato 4 – fig. 32)."
         },
         {
           "text": "Per la navigazione solo nel senso dal quale il segnale è visibile",
@@ -5070,7 +5070,7 @@
           "text": "Divieto di stazionare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 9."
+          "rationale": "È un altro segnale: «Divieto di stazionare» (ONI Allegato 4 – fig. 9)."
         },
         {
           "text": "Per la navigazione solo nel senso dal quale il segnale è visibile",
@@ -5082,7 +5082,7 @@
           "text": "Fine di un divieto o di un obbligo",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 44."
+          "rationale": "È un altro segnale: «Fine di un divieto o di un obbligo» (ONI Allegato 4 – fig. 44)."
         }
       ],
       "provenance": {
@@ -5118,13 +5118,13 @@
           "text": "Tavole a vela autorizzate",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 37."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Tavole a vela autorizzate» (ONI Allegato 4 – fig. 37). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 18."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di prendere la direzione indicata dalla freccia» (ONI Allegato 4 – fig. 18). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto per i natanti motorizzati",
@@ -5166,7 +5166,7 @@
           "text": "Divieto per lo sci nautico",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 4."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto per lo sci nautico» (ONI Allegato 4 – fig. 4). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Raccomandazione di tenersi entro lo spazio indicato con il colore «verde»",
@@ -5178,7 +5178,7 @@
           "text": "Divieto di balneazione",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 17."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di balneazione» (ONI Allegato 4 – fig. 17). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -5214,13 +5214,13 @@
           "text": "Obbligo di emettere un segnale acustico",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 21."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di emettere un segnale acustico» (ONI Allegato 4 – fig. 21). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Posto per mettere in acqua i natanti",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 42."
+          "rationale": "È un altro segnale: «Posto per mettere in acqua i natanti» (ONI Allegato 4 – fig. 42)."
         },
         {
           "text": "Raccomandazione di tenersi entro lo spazio indicato con il colore «verde»",
@@ -5262,7 +5262,7 @@
           "text": "Autorizzazione di praticare lo sci nautico",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 36."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Autorizzazione di praticare lo sci nautico» (ONI Allegato 4 – fig. 36). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Autorizzazione di passaggio",
@@ -5274,7 +5274,7 @@
           "text": "Obbligo di fermarsi in determinate condizioni",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 19."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di fermarsi in determinate condizioni» (ONI Allegato 4 – fig. 19). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -5316,13 +5316,13 @@
           "text": "Divieto d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 11."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto d’ormeggiare» (ONI Allegato 4 – fig. 11). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Posto per mettere in acqua i natanti",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 42."
+          "rationale": "È un altro segnale: «Posto per mettere in acqua i natanti» (ONI Allegato 4 – fig. 42)."
         }
       ],
       "provenance": {
@@ -5364,13 +5364,13 @@
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 18."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di prendere la direzione indicata dalla freccia» (ONI Allegato 4 – fig. 18). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Luce blu intermittente",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 31."
+          "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
         }
       ],
       "provenance": {
@@ -5406,7 +5406,7 @@
           "text": "Kite surf autorizzati",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 38."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Kite surf autorizzati» (ONI Allegato 4 – fig. 38). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Autorizzazione d’ormeggiare",
@@ -5418,7 +5418,7 @@
           "text": "Fine di un divieto o di un obbligo",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 44."
+          "rationale": "È un altro segnale: «Fine di un divieto o di un obbligo» (ONI Allegato 4 – fig. 44)."
         }
       ],
       "provenance": {
@@ -5454,13 +5454,13 @@
           "text": "Larghezza limitata del passaggio",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 24."
+          "rationale": "È un altro segnale: «Larghezza limitata del passaggio» (ONI Allegato 4 – fig. 24)."
         },
         {
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 13."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Autorizzazione di praticare lo sci nautico",
@@ -5508,13 +5508,13 @@
           "text": "Luce blu intermittente",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 31."
+          "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
         },
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 18."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di prendere la direzione indicata dalla freccia» (ONI Allegato 4 – fig. 18). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -5550,13 +5550,13 @@
           "text": "Autorizzazione di praticare lo sci nautico",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 36."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Autorizzazione di praticare lo sci nautico» (ONI Allegato 4 – fig. 36). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 13."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Kite surf autorizzati",
@@ -5604,13 +5604,13 @@
           "text": "Luce blu intermittente",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 31."
+          "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
         },
         {
           "text": "Larghezza limitata del passaggio",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 24."
+          "rationale": "È un altro segnale: «Larghezza limitata del passaggio» (ONI Allegato 4 – fig. 24)."
         }
       ],
       "provenance": {
@@ -5646,7 +5646,7 @@
           "text": "Autorizzazione di passaggio",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 32."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione di passaggio» (ONI Allegato 4 – fig. 32). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto per lo sci nautico",
@@ -5658,7 +5658,7 @@
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 18."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di prendere la direzione indicata dalla freccia» (ONI Allegato 4 – fig. 18). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -5694,13 +5694,13 @@
           "text": "Divieto per lo sci nautico",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 4."
+          "rationale": "È un altro segnale: «Divieto per lo sci nautico» (ONI Allegato 4 – fig. 4)."
         },
         {
           "text": "Autorizzazione di passaggio",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 32."
+          "rationale": "È un altro segnale: «Autorizzazione di passaggio» (ONI Allegato 4 – fig. 32)."
         },
         {
           "text": "Chiatta di traghetto che non naviga liberamente",
@@ -5742,13 +5742,13 @@
           "text": "Autorizzazione di passaggio",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 32."
+          "rationale": "È un altro segnale: «Autorizzazione di passaggio» (ONI Allegato 4 – fig. 32)."
         },
         {
           "text": "Fine di un divieto o di un obbligo",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 44."
+          "rationale": "È un altro segnale: «Fine di un divieto o di un obbligo» (ONI Allegato 4 – fig. 44)."
         },
         {
           "text": "Chiusa",
@@ -5790,7 +5790,7 @@
           "text": "Autorizzazione di stazionare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 33."
+          "rationale": "È un altro segnale: «Autorizzazione di stazionare» (ONI Allegato 4 – fig. 33)."
         },
         {
           "text": "Posto per mettere in acqua i natanti",
@@ -5802,7 +5802,7 @@
           "text": "Chiatta di traghetto che non naviga liberamente",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 40."
+          "rationale": "È un altro segnale: «Chiatta di traghetto che non naviga liberamente» (ONI Allegato 4 – fig. 40)."
         }
       ],
       "provenance": {
@@ -5844,13 +5844,13 @@
           "text": "Avviso di tempesta",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 60."
+          "rationale": "È un altro segnale: «Avviso di tempesta» (ONI Allegato 4 – fig. 60)."
         },
         {
           "text": "Luce blu intermittente",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 31."
+          "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
         }
       ],
       "provenance": {
@@ -5892,13 +5892,13 @@
           "text": "Divieto per i natanti motorizzati",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 3."
+          "rationale": "È un altro segnale: «Divieto per i natanti motorizzati» (ONI Allegato 4 – fig. 3)."
         },
         {
           "text": "Posto per mettere in acqua i natanti",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 42."
+          "rationale": "È un altro segnale: «Posto per mettere in acqua i natanti» (ONI Allegato 4 – fig. 42)."
         }
       ],
       "provenance": {
@@ -5934,13 +5934,13 @@
           "text": "Autorizzazione di passaggio",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 32."
+          "rationale": "È un altro segnale: «Autorizzazione di passaggio» (ONI Allegato 4 – fig. 32)."
         },
         {
           "text": "Divieto di balneazione",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 17."
+          "rationale": "È un altro segnale: «Divieto di balneazione» (ONI Allegato 4 – fig. 17)."
         },
         {
           "text": "Linea ad alta tensione",
@@ -6084,13 +6084,13 @@
           "text": "Divieto di incrociare e sorpassare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 8."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di incrociare e sorpassare» (ONI Allegato 4 – fig. 8). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 18."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di prendere la direzione indicata dalla freccia» (ONI Allegato 4 – fig. 18). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -6372,13 +6372,13 @@
           "text": "Boe gialle che segnalino ciascun ancoraggio",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 29."
+          "rationale": "È un altro segnale: «Boe gialle che segnalino ciascun ancoraggio» (ONI Allegato 2 – fig. 29)."
         },
         {
           "text": "Luce blu intermittente",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 31."
+          "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
         }
       ],
       "provenance": {
@@ -6420,13 +6420,13 @@
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 13."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Avviso di tempesta",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 60."
+          "rationale": "È un altro segnale: «Avviso di tempesta» (ONI Allegato 4 – fig. 60)."
         }
       ],
       "provenance": {
@@ -6462,13 +6462,13 @@
           "text": "Posto per toglieredall'acqua i natanti",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 43."
+          "rationale": "È un altro segnale: «Posto per toglieredall'acqua i natanti» (ONI Allegato 4 – fig. 43)."
         },
         {
           "text": "Raccomandazione di dirigersi nel senso della freccia",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 39."
+          "rationale": "È un altro segnale: «Raccomandazione di dirigersi nel senso della freccia» (ONI Allegato 4 – fig. 39)."
         },
         {
           "text": "Avviso di tempesta",
@@ -6510,7 +6510,7 @@
           "text": "Divieto di navigare fuori dei limiti indicati",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 14."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di navigare fuori dei limiti indicati» (ONI Allegato 4 – fig. 14). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Divieto di sorpasso",
@@ -6522,7 +6522,7 @@
           "text": "Divieto di cagionare moto ondoso o risucchi",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 13."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -6564,13 +6564,13 @@
           "text": "Divieto di stazionare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 9."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di stazionare» (ONI Allegato 4 – fig. 9). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Luce blu intermittente",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 2 – fig. 31."
+          "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
         }
       ],
       "provenance": {
@@ -6612,13 +6612,13 @@
           "text": "Raccomandazione di dirigersi nel senso della freccia",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 39."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Raccomandazione di dirigersi nel senso della freccia» (ONI Allegato 4 – fig. 39). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a ONI Allegato 4 – fig. 35."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione d’ormeggiare» (ONI Allegato 4 – fig. 35). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -7038,13 +7038,13 @@
           "text": "Divieto d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 8."
+          "rationale": "È un altro segnale: «Divieto d’ormeggiare» (RNL Allegato III – fig. 8)."
         },
         {
           "text": "Autorizzazione di stazionare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 18."
+          "rationale": "È un altro segnale: «Autorizzazione di stazionare» (RNL Allegato III – fig. 18)."
         },
         {
           "text": "Segnaletica notturna supplementare per le navi passeggeri prioritarie in servizio",
@@ -7524,13 +7524,13 @@
           "text": "Divieto di balneazione",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 12."
+          "rationale": "È un altro segnale: «Divieto di balneazione» (RNL Allegato III – fig. 12)."
         },
         {
           "text": "Autorizzazione di stazionare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 18."
+          "rationale": "È un altro segnale: «Autorizzazione di stazionare» (RNL Allegato III – fig. 18)."
         }
       ],
       "provenance": {
@@ -8046,7 +8046,7 @@
           "text": "Divieto d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 8."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto d’ormeggiare» (RNL Allegato III – fig. 8). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Divieto di passaggio",
@@ -8058,7 +8058,7 @@
           "text": "Kite surf autorizzati",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 22."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Kite surf autorizzati» (RNL Allegato III – fig. 22). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -8094,7 +8094,7 @@
           "text": "Autorizzazione di stazionare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 18."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione di stazionare» (RNL Allegato III – fig. 18). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto di navigare fuori dai limiti indicati",
@@ -8106,7 +8106,7 @@
           "text": "Divieto per il kite surf",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 13."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto per il kite surf» (RNL Allegato III – fig. 13). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -8142,13 +8142,13 @@
           "text": "Obbligo di non superare la velocità indicata (in km/h",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 15."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di non superare la velocità indicata (in km/h» (RNL Allegato III – fig. 15). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "O una bandiera rossa e una bandiera bianca",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato I – fig. 34."
+          "rationale": "È un altro segnale: «O una bandiera rossa e una bandiera bianca» (RNL Allegato I – fig. 34)."
         },
         {
           "text": "Divieto per le tavole a vela",
@@ -8196,13 +8196,13 @@
           "text": "Tavole a vela autorizzate",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 21."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Tavole a vela autorizzate» (RNL Allegato III – fig. 21). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Autorizzazione di gettare l’ancora",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 19."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione di gettare l’ancora» (RNL Allegato III – fig. 19). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -8238,7 +8238,7 @@
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 14."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di prendere la direzione indicata dalla freccia» (RNL Allegato III – fig. 14). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto per il kite surf",
@@ -8250,7 +8250,7 @@
           "text": "Divieto per le tavole a vela",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 11."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto per le tavole a vela» (RNL Allegato III – fig. 11). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -8286,7 +8286,7 @@
           "text": "Divieto d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 8."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto d’ormeggiare» (RNL Allegato III – fig. 8). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
@@ -8298,7 +8298,7 @@
           "text": "Obbligo di non superare la velocità indicata (in km/h",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 15."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Obbligo di non superare la velocità indicata (in km/h» (RNL Allegato III – fig. 15). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -8334,7 +8334,7 @@
           "text": "Divieto di stazionare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 6."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di stazionare» (RNL Allegato III – fig. 6). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Obbligo di non superare la velocità indicata (in km/h",
@@ -8346,7 +8346,7 @@
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 20."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione d’ormeggiare» (RNL Allegato III – fig. 20). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -8382,7 +8382,7 @@
           "text": "Divieto per le tavole a vela",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 11."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto per le tavole a vela» (RNL Allegato III – fig. 11). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Obbligo di osservare una prudenza particolare",
@@ -8394,7 +8394,7 @@
           "text": "Kite surf autorizzati",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 22."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Kite surf autorizzati» (RNL Allegato III – fig. 22). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -8436,13 +8436,13 @@
           "text": "Divieto di balneazione",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 12."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di balneazione» (RNL Allegato III – fig. 12). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto per le navi motorizzate",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 3."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto per le navi motorizzate» (RNL Allegato III – fig. 3). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -8478,7 +8478,7 @@
           "text": "Obbligo di osservare una prudenza particolare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 16."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di osservare una prudenza particolare» (RNL Allegato III – fig. 16). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Autorizzazione di stazionare",
@@ -8490,7 +8490,7 @@
           "text": "Obbligo di non superare la velocità indicata (in km/h",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 15."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di non superare la velocità indicata (in km/h» (RNL Allegato III – fig. 15). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -8526,13 +8526,13 @@
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 14."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di prendere la direzione indicata dalla freccia» (RNL Allegato III – fig. 14). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto di stazionare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 6."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di stazionare» (RNL Allegato III – fig. 6). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Autorizzazione di gettare l’ancora",
@@ -8580,13 +8580,13 @@
           "text": "Divieto di balneazione",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 12."
+          "rationale": "È un altro segnale: «Divieto di balneazione» (RNL Allegato III – fig. 12)."
         },
         {
           "text": "Divieto per le navi motorizzate",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 3."
+          "rationale": "È un altro segnale: «Divieto per le navi motorizzate» (RNL Allegato III – fig. 3)."
         }
       ],
       "provenance": {
@@ -8622,7 +8622,7 @@
           "text": "Obbligo di osservare una prudenza particolare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 16."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di osservare una prudenza particolare» (RNL Allegato III – fig. 16). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Autorizzazione d’ormeggiare",
@@ -8634,7 +8634,7 @@
           "text": "Divieto di passaggio",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 1."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di passaggio» (RNL Allegato III – fig. 1). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -8670,13 +8670,13 @@
           "text": "Divieto di gettare l’ancora",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 7."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di gettare l’ancora» (RNL Allegato III – fig. 7). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto di balneazione",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 12."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di balneazione» (RNL Allegato III – fig. 12). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Tavole a vela autorizzate",
@@ -8724,13 +8724,13 @@
           "text": "Tavole a vela autorizzate",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 21."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Tavole a vela autorizzate» (RNL Allegato III – fig. 21). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 20."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Autorizzazione d’ormeggiare» (RNL Allegato III – fig. 20). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -8766,7 +8766,7 @@
           "text": "Divieto di balneazione",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 12."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di balneazione» (RNL Allegato III – fig. 12). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Divieto per le navi motorizzate",
@@ -8778,7 +8778,7 @@
           "text": "O una bandiera rossa e una bandiera bianca",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato I – fig. 34."
+          "rationale": "È un altro segnale: «O una bandiera rossa e una bandiera bianca» (RNL Allegato I – fig. 34)."
         }
       ],
       "provenance": {
@@ -8814,13 +8814,13 @@
           "text": "Tavole a vela autorizzate",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 21."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Tavole a vela autorizzate» (RNL Allegato III – fig. 21). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Kite surf autorizzati",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 22."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Kite surf autorizzati» (RNL Allegato III – fig. 22). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto di praticare lo sci nautico o di usare apparecchi analoghi",
@@ -8862,13 +8862,13 @@
           "text": "Autorizzazione di stazionare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 18."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione di stazionare» (RNL Allegato III – fig. 18). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 20."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione d’ormeggiare» (RNL Allegato III – fig. 20). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto di sorpasso",
@@ -8916,13 +8916,13 @@
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 20."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione d’ormeggiare» (RNL Allegato III – fig. 20). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto di navigare fuori dai limiti indicati",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 10."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di navigare fuori dai limiti indicati» (RNL Allegato III – fig. 10). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -8958,7 +8958,7 @@
           "text": "Obbligo di osservare una prudenza particolare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 16."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di osservare una prudenza particolare» (RNL Allegato III – fig. 16). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto di gettare l’ancora",
@@ -8970,7 +8970,7 @@
           "text": "Divieto di sorpasso",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 5."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di sorpasso» (RNL Allegato III – fig. 5). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -9012,13 +9012,13 @@
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 20."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione d’ormeggiare» (RNL Allegato III – fig. 20). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto per il kite surf",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 13."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto per il kite surf» (RNL Allegato III – fig. 13). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -9054,7 +9054,7 @@
           "text": "Divieto di gettare l’ancora",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 7."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di gettare l’ancora» (RNL Allegato III – fig. 7). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Divieto di navigare fuori dai limiti indicati",
@@ -9066,7 +9066,7 @@
           "text": "Kite surf autorizzati",
           "image": null,
           "is_correct": false,
-          "rationale": "Questa risposta corrisponde a RNL Allegato III – fig. 22."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Kite surf autorizzati» (RNL Allegato III – fig. 22). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {

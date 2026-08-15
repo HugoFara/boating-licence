@@ -979,13 +979,13 @@
           "text": "Lieu de mise à terre de bateaux",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 43."
+          "rationale": "C'est un autre signal : « Lieu de mise à terre de bateaux » (ONI Annexe 4 – fig. 43)."
         },
         {
           "text": "La largeur de la passe est limitée",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 24."
+          "rationale": "C'est un autre signal : « La largeur de la passe est limitée » (ONI Annexe 4 – fig. 24)."
         },
         {
           "text": "Avis de fort vent",
@@ -1033,13 +1033,13 @@
           "text": "Barrage",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 41."
+          "rationale": "C'est un autre signal : « Barrage » (ONI Annexe 4 – fig. 41)."
         },
         {
           "text": "Avis de fort vent",
           "image": null,
           "is_correct": false,
-          "rationale": "Cette réponse correspond à ONI Annexe 4 – fig. 61."
+          "rationale": "C'est un autre signal : « Avis de fort vent » (ONI Annexe 4 – fig. 61)."
         }
       ],
       "provenance": {
