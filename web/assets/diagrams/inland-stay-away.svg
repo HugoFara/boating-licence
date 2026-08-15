@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 110" width="340" height="110" role="img" aria-label="Abwechselnd ein kurzer und ein langer Ton, ununterbrochen wiederholt">
+<!-- Generated figure, derived from BinSchStrO 2012 Anlage 6 Abschnitt A (§ 8.09 Nummer 2); bar width = blast duration, gap = the prescribed pause. Original artwork; project licence (CC BY-SA 4.0), not a reproduction of any source figure. gen:diagram.v1 -->
+<title>Abwechselnd ein kurzer und ein langer Ton, ununterbrochen wiederholt</title>
+<rect width="340" height="110" fill="#ffffff"/>
+<line x1="14" y1="72" x2="326" y2="72" stroke="#9aa8bd" stroke-width="1.5"/>
+<rect x="94" y="42" width="10" height="30" rx="2" fill="#1f3a5f"/>
+<rect x="114" y="42" width="40" height="30" rx="2" fill="#1f3a5f"/>
+<rect x="164" y="42" width="10" height="30" rx="2" fill="#1f3a5f"/>
+<rect x="184" y="42" width="40" height="30" rx="2" fill="#1f3a5f"/>
+<circle cx="232" cy="69" r="2" fill="#1f3a5f"/>
+<circle cx="239" cy="69" r="2" fill="#1f3a5f"/>
+<circle cx="246" cy="69" r="2" fill="#1f3a5f"/>
+</svg>
