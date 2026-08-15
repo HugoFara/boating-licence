@@ -476,7 +476,24 @@ and pictogram, and nothing about colour. So the questions asserting "panneau
 rectangulaire à bord **rouge**" remain unsourced on that one point; the RGP leaves
 sign colours to plates that are themselves monochrome.
 
-Nothing is attached to a question yet. That is the next step, and a reviewed one.
+**Attached (reviewed, 8 questions).** Six questions describe a board in words and ask
+what it means — *"un panneau rectangulaire à bord rouge barré d'une bande blanche
+horizontale"*, *"un panneau carré BLEU portant la lettre « P » blanche"*, *"un panneau
+à bord rouge portant une flèche blanche"* — so the plate restates the stem and can
+give nothing away (`named-in-stem`). Two more name their sign by its code inside an
+article question (*"le signal d'interdiction A.10"*, *"le panneau E.6"*), where the
+picture is context and the answer is a rule. A.1 turned out to be exactly the board
+its question describes, which also settles the provenance doubt: the seed's wording
+matches the official plate.
+
+Not attached, deliberately: the C.2 question asks about air draft and never mentions
+the board; the three "how do you recognise a prohibition / restriction / information
+sign?" questions have the *visual feature as the answer* (« À son bord rouge »), and
+a monochrome plate could not show it in any case; B.12 has no plate.
+
+The French bank is rebuilt from seed on every run, so `build_fr` now re-attaches and
+relocates the figures into each option player — otherwise they would vanish on the
+next build.
 
 What the annexes *did* unlock is buoyage. **Annexe 8** (18 070 characters,
 "Balisage des voies de navigation intérieure") is real text, and its harbour-entrance

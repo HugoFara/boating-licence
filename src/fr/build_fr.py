@@ -354,6 +354,23 @@ def _nav(option: str) -> str:
             '<a href="../">🇫🇷 France</a> · ' + " · ".join(links))
 
 
+def _relocate_asset(path: str, out_dir: str) -> str:
+    """Copy a repo-relative asset into this player's bundle and return the path the
+    page will use. France ships self-contained option players, so an official figure
+    has to travel with the bank rather than be referenced out of data/."""
+    import shutil
+    if not path:
+        return ""
+    rel = path[len("data/"):] if path.startswith("data/") else path
+    src = os.path.join(ROOT, path)
+    if not os.path.exists(src):
+        return ""
+    dst = os.path.join(out_dir, rel)
+    os.makedirs(os.path.dirname(dst), exist_ok=True)
+    shutil.copy2(src, dst)
+    return rel.replace(os.sep, "/")
+
+
 def _copy_card_figures(bank_id: str, out_dir: str) -> int:
     """Copy the generated diagrams this bank's concept cards show into the player
     bundle. Returns how many landed (0 when the bank's code prescribes none)."""
@@ -408,6 +425,19 @@ def build() -> dict:
         conn = qschema.connect(db_path)
         all_q = [q for lg in LANGS for q in by_lang[lg]]
         qschema.write_questions(conn, all_q)
+        # Official source figures for the questions that name a board — the RGP
+        # plates lifted from the Journal officiel (src/fr/rgp_plates.py). The bank is
+        # rebuilt from seed on every run, so this has to happen here or the figures
+        # would vanish; and the JSON below is built from the in-memory objects, not
+        # from the DB, so the attachment is read back onto them.
+        _diagrams.attach(conn, f"fr_{option}")
+        _figs = {qid: (img, rev) for qid, img, rev in conn.execute(
+            "SELECT id, COALESCE(image,''), COALESCE(reveal_image,'') FROM questions "
+            "WHERE COALESCE(image,'') <> '' OR COALESCE(reveal_image,'') <> ''")}
+        for _q in all_q:
+            _img, _rev = _figs.get(_q.id, ("", ""))
+            _q.image = _relocate_asset(_img, out_dir) or None
+            _q.reveal_image = _relocate_asset(_rev, out_dir) or None
 
         # Per-language bank JSON (player-shaped, with per-lang chrome in meta).
         langs_present = [lg for lg in LANGS if by_lang[lg]]

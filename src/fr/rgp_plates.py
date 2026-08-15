@@ -203,10 +203,16 @@ def _rows(im, data, W: int, H: int) -> list[tuple[str, str, int, int]]:
 
 
 def _crop_plate(im, y1: int, y2: int):
-    """The plate alone, taken from the right of the widest blank gutter in its row.
+    """The plate alone, taken from the right of the gutter that separates it from the
+    caption.
 
     The gutter is found per row, not per page: a long caption reaches further right
-    than a short one, and a fixed split leaves stray words glued to the plate."""
+    than a short one, and a fixed split leaves stray words glued to the plate. But a
+    tall entry — A.1 carries three groups of plates with "soit panneaux / soit feux
+    rouges / soit pavillons rouges" written between them — can have its widest blank
+    column run land to the *right* of every plate, which would crop away the picture
+    entirely. So the gutter is a first guess, and a plain column split is the
+    fallback; the first candidate that yields a real picture wins."""
     import numpy as np
     W, _H = im.size
     band = im.crop((0, y1, W, y2))
@@ -220,15 +226,22 @@ def _crop_plate(im, y1: int, y2: int):
                 best_run, best_end = run, x
         else:
             run = 0
-    left = best_end + 1 if best_run >= 12 else int(W * 0.62)
-    plate = band.crop((left, 0, W, y2 - y1))
-    arr = np.array(plate.convert("L")) < 215
-    if not arr.any():
-        return None
-    ys, xs = np.where(arr)
-    return plate.crop((max(0, xs.min() - 6), max(0, ys.min() - 6),
-                       min(plate.width, xs.max() + 7),
-                       min(plate.height, ys.max() + 7)))
+    candidates = []
+    if best_run >= 12:
+        candidates.append(best_end + 1)
+    candidates.append(int(W * 0.62))
+    for left in candidates:
+        plate = band.crop((left, 0, W, y2 - y1))
+        arr = np.array(plate.convert("L")) < 215
+        if not arr.any():
+            continue
+        ys, xs = np.where(arr)
+        out = plate.crop((max(0, xs.min() - 6), max(0, ys.min() - 6),
+                          min(plate.width, xs.max() + 7),
+                          min(plate.height, ys.max() + 7)))
+        if out.width >= 40 and out.height >= 40:
+            return out
+    return None
 
 
 def extract(annexes: tuple[str, ...] = ("annexe-5",)) -> dict:

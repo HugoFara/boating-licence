@@ -9,6 +9,39 @@
   "plates": [
     {
       "annexe": "annexe-5",
+      "code": "A.1",
+      "caption": "de passer (signal général) (voir articles A. 4241-48-",
+      "page": 180,
+      "size": [
+        671,
+        1146
+      ],
+      "path": "data/assets/rgp/annexe-5-A.1.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.10",
+      "caption": "de passer en dehors de l'espace indiqué (dans une",
+      "page": 182,
+      "size": [
+        607,
+        247
+      ],
+      "path": "data/assets/rgp/annexe-5-A.10.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.11",
+      "caption": "de passer, mais préparez-vous à mettre en marche",
+      "page": 182,
+      "size": [
+        675,
+        328
+      ],
+      "path": "data/assets/rgp/annexe-5-A.11.png"
+    },
+    {
+      "annexe": "annexe-5",
       "code": "A.12",
       "caption": "Navigation interdite aux bateaux motorisés",
       "page": 183,
@@ -328,6 +361,17 @@
     },
     {
       "annexe": "annexe-5",
+      "code": "B.9",
+      "caption": "de s'assurer avant de s'engager sur la voie",
+      "page": 186,
+      "size": [
+        649,
+        344
+      ],
+      "path": "data/assets/rgp/annexe-5-B.9.png"
+    },
+    {
+      "annexe": "annexe-5",
       "code": "C.1",
       "caption": "profondeur d'eau est limitée",
       "page": 187,
@@ -350,6 +394,28 @@
     },
     {
       "annexe": "annexe-5",
+      "code": "C.3",
+      "caption": "largeur de la passe ou du chenal est limitée",
+      "page": 187,
+      "size": [
+        615,
+        733
+      ],
+      "path": "data/assets/rgp/annexe-5-C.3.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "C.5",
+      "caption": "chenal est éloigné de la rive droite (gauche) ; le chiffre porté",
+      "page": 187,
+      "size": [
+        322,
+        337
+      ],
+      "path": "data/assets/rgp/annexe-5-C.5.png"
+    },
+    {
+      "annexe": "annexe-5",
       "code": "D.1",
       "caption": "recommandée",
       "page": 187,
@@ -358,6 +424,17 @@
         222
       ],
       "path": "data/assets/rgp/annexe-5-D.1.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "D.2",
+      "caption": "recommandé de se tenir dans l'espace indiqué (dans une",
+      "page": 188,
+      "size": [
+        644,
+        545
+      ],
+      "path": "data/assets/rgp/annexe-5-D.2.png"
     },
     {
       "annexe": "annexe-5",
@@ -570,6 +647,28 @@
     },
     {
       "annexe": "annexe-5",
+      "code": "E.5",
+      "caption": "de stationner (c'est à dire d'ancrer ou de s'amarrer",
+      "page": 189,
+      "size": [
+        325,
+        341
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.1",
+      "caption": "de stationner sur la largeur du plan d'eau comptée",
+      "page": 190,
+      "size": [
+        324,
+        343
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.1.png"
+    },
+    {
+      "annexe": "annexe-5",
       "code": "E.5.10",
       "caption": "Aire de stationnement réservée aux bateaux autres que ceux",
       "page": 191,
@@ -633,6 +732,39 @@
         342
       ],
       "path": "data/assets/rgp/annexe-5-E.5.15.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.2",
+      "caption": "de stationner sur la largeur du plan d'eau comprise",
+      "page": 190,
+      "size": [
+        650,
+        343
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.2.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.3",
+      "caption": "maximal de bateaux autorisés à stationner bord à bord",
+      "page": 190,
+      "size": [
+        324,
+        341
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.3.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.4",
+      "caption": "de stationnement réservée aux bateaux de la navigation",
+      "page": 190,
+      "size": [
+        324,
+        338
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.4.png"
     },
     {
       "annexe": "annexe-5",

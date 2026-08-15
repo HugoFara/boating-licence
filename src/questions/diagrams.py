@@ -1830,6 +1830,44 @@ ASSIGNMENTS: list[dict] = [
     {"bank": "ch", "catalogue": "ONI", "ref": "ONI Annexe 2 – fig. 37", "lang": "fr",
      "expect": "guidon blanc/bleu", "asset": "data/assets/oni/image45.png",
      "why": "answer-side"},
+    # ── French inland sign boards: the official RGP plates, extracted from the
+    # Journal officiel (src/fr/rgp_plates.py) and wired to the questions that name
+    # the board in words. Each stem already describes the sign — and describes it in
+    # COLOUR, which the JO's monochrome plate does not even show — so the picture
+    # restates the stem and can give nothing away. The two keyed on an article name
+    # their sign by its code instead ("le signal d'interdiction A.10").
+    {"bank": "fr_eaux_interieures", "catalogue": "RGP",
+     "ref": "RGP, annexe 5, panneau A.1 — interdiction de passer", "lang": "fr",
+     "expect": "Interdiction de passer",
+     "asset": "data/assets/rgp/annexe-5-A.1.png", "why": "named-in-stem"},
+    {"bank": "fr_eaux_interieures", "catalogue": "RGP",
+     "ref": "RGP, annexe 5, panneau A.1 — interdiction de passer", "lang": "en",
+     "expect": "No passage",
+     "asset": "data/assets/rgp/annexe-5-A.1.png", "why": "named-in-stem"},
+    {"bank": "fr_eaux_interieures", "catalogue": "RGP",
+     "ref": "RGP, annexe 5, panneau B.1 — obligation (suivre la flèche)",
+     "lang": "fr", "expect": "obligation de suivre la direction",
+     "asset": "data/assets/rgp/annexe-5-B.1.png", "why": "named-in-stem"},
+    {"bank": "fr_eaux_interieures", "catalogue": "RGP",
+     "ref": "RGP, annexe 5, panneau B.1 — obligation (suivre la flèche)",
+     "lang": "en", "expect": "obligation to follow the shown direction",
+     "asset": "data/assets/rgp/annexe-5-B.1.png", "why": "named-in-stem"},
+    {"bank": "fr_eaux_interieures", "catalogue": "RGP",
+     "ref": "RGP, annexe 5, panneau E.5 — stationnement autorisé (P)", "lang": "fr",
+     "expect": "Stationnement autorisé",
+     "asset": "data/assets/rgp/annexe-5-E.5.png", "why": "named-in-stem"},
+    {"bank": "fr_eaux_interieures", "catalogue": "RGP",
+     "ref": "RGP, annexe 5, panneau E.5 — stationnement autorisé (P)", "lang": "en",
+     "expect": "Mooring permitted",
+     "asset": "data/assets/rgp/annexe-5-E.5.png", "why": "named-in-stem"},
+    {"bank": "fr_eaux_interieures", "catalogue": "RGP",
+     "ref": "RGP, art. A4241-53-26", "lang": "fr",
+     "expect": "entre les deux panneaux",
+     "asset": "data/assets/rgp/annexe-5-A.10.png", "why": "named-in-stem"},
+    {"bank": "fr_eaux_interieures", "catalogue": "RGP",
+     "ref": "RGP, art. A4241-54-3", "lang": "fr",
+     "expect": "panneau E.6",
+     "asset": "data/assets/rgp/annexe-5-E.6.png", "why": "named-in-stem"},
 ]
 
 
