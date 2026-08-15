@@ -136,6 +136,13 @@ class Concept:
     prov_as_of: str | None = None
     prov_licence: str | None = None
     review_status: str = "draft"
+    figures: str = ""             # comma-separated generated-diagram keys
+                                  # (src/questions/diagrams.py) illustrating this
+                                  # principle's vocabulary. The card is shown at
+                                  # REVEAL, so a figure here can safely depict what
+                                  # a question's answer is — which is exactly why
+                                  # answer-side questions get their picture here
+                                  # and never in their own stem.
 
 
 CONCEPT_KINDS = {"physical", "legal", "principle"}
@@ -367,6 +374,7 @@ CREATE TABLE IF NOT EXISTS concepts (
     prov_as_of    TEXT,
     prov_licence  TEXT,
     review_status TEXT NOT NULL DEFAULT 'draft',
+    figures       TEXT NOT NULL DEFAULT '',
     PRIMARY KEY (id, lang)
 );
 CREATE INDEX IF NOT EXISTS idx_q_theme   ON questions(theme);
@@ -396,6 +404,9 @@ def _migrate(conn: sqlite3.Connection) -> None:
         conn.execute("ALTER TABLE questions ADD COLUMN principle TEXT NOT NULL DEFAULT ''")
     if "difficulty" not in cols:  # pre-difficulty bank: backfill the study-ramp tag
         conn.execute("ALTER TABLE questions ADD COLUMN difficulty TEXT NOT NULL DEFAULT 'unrated'")
+    co_cols = {r[1] for r in conn.execute("PRAGMA table_info(concepts)")}
+    if co_cols and "figures" not in co_cols:  # pre-illustration bank: backfill blank
+        conn.execute("ALTER TABLE concepts ADD COLUMN figures TEXT NOT NULL DEFAULT ''")
     ch_cols = {r[1] for r in conn.execute("PRAGMA table_info(choices)")}
     if "rationale" not in ch_cols:   # pre-feedback bank: backfill the per-choice note
         conn.execute("ALTER TABLE choices ADD COLUMN rationale TEXT NOT NULL DEFAULT ''")
@@ -556,11 +567,11 @@ def write_concepts(conn: sqlite3.Connection, concepts: list[Concept]) -> None:
         cur.execute(
             """INSERT INTO concepts
                (id, lang, principle, kind, title, body, prov_ref, prov_source,
-                prov_url, prov_as_of, prov_licence, review_status)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,?)""",
+                prov_url, prov_as_of, prov_licence, review_status, figures)
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)""",
             (c.id, c.lang, c.principle, c.kind, c.title, c.body, c.prov_ref,
              c.prov_source, c.prov_url, c.prov_as_of, c.prov_licence,
-             c.review_status))
+             c.review_status, c.figures))
     conn.commit()
 
 
@@ -583,7 +594,9 @@ def load_concepts(conn: sqlite3.Connection, lang: str | None = None,
         body=r["body"], lang=r["lang"], prov_ref=r["prov_ref"],
         prov_source=r["prov_source"], prov_url=r["prov_url"],
         prov_as_of=r["prov_as_of"], prov_licence=r["prov_licence"],
-        review_status=r["review_status"]) for r in rows]
+        review_status=r["review_status"],
+        figures=(r["figures"] if "figures" in r.keys() else "") or "")
+        for r in rows]
 
 
 def export_concepts_json(conn: sqlite3.Connection, path: str, lang: str,
@@ -593,6 +606,7 @@ def export_concepts_json(conn: sqlite3.Connection, path: str, lang: str,
     concepts = load_concepts(conn, lang=lang, exportable_only=exportable_only)
     out = {c.principle: {
         "id": c.id, "kind": c.kind, "title": c.title, "body": c.body,
+        "figures": [f for f in (c.figures or "").split(",") if f],
         "prov": {"ref": c.prov_ref, "source": c.prov_source, "url": c.prov_url,
                  "as_of": c.prov_as_of, "licence": c.prov_licence},
     } for c in concepts}

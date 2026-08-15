@@ -643,14 +643,29 @@ def _learn_layer(conn, out_dir, langs, bank_id):
     # away (a stale tag that silently skews the coverage instrument). Re-tagging every
     # build keeps the measured slice honest to the tagger as it stands today.
     principlesmod.tag_questions(conn, overwrite=True)
+    wrote_card = False
     for lg in langs:
         tmp = os.path.join(out_dir, f"_concepts.{lg}.tmp")
         n = qschema.export_concepts_json(conn, tmp, lg, exportable_only=True)
         dst = os.path.join(out_dir, f"concepts.{lg}.json")
         if n:
             os.replace(tmp, dst)
+            wrote_card = True
         elif os.path.exists(tmp):
             os.remove(tmp)
+    if wrote_card:
+        # Ship the figures the cards reference. Question images are relocated by the
+        # bundlers as they export each question, but a card's strip is not attached
+        # to any question, so nothing else would copy it.
+        import shutil
+        keys = diagrams.figures_for_bank_cards(bank_id)
+        if keys:
+            fig_dir = os.path.join(out_dir, "assets", "diagrams")
+            os.makedirs(fig_dir, exist_ok=True)
+            for key in keys:
+                src = os.path.join(os.path.dirname(__file__), diagrams.path_for(key))
+                if os.path.exists(src):
+                    shutil.copy2(src, os.path.join(fig_dir, f"{key}.svg"))
 
 
 def _build_ch_web(web: str, core_avail: dict | None = None) -> dict | None:

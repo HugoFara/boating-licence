@@ -308,9 +308,48 @@ country's bank, which is precisely the constraint the generated set exists to be
 Those 33 diagrams are drawn, sourced and tested; what remains is to attach them to
 the FR/INT/CH questions. That is now the next step, ahead of drawing more.
 
-Next: attach the existing diagrams to the French and INT banks, where the source
-publishes no figure at all and nothing else can fill the gap. Only then draw more
-(give-way plan views).
+### FR / INT / CH: the figures belong on the card, not the stem
+
+Attaching the diagrams outside Germany turned up a hard fact. Counted across the
+three families drawn so far, the French and INT banks contain **zero** questions
+phrased at a figure — no "ce panneau", no "these lights". Every one is answer-side:
+*"De nuit, un navire de moins de 50 m au mouillage montre :"*. Illustrating those
+stems is precisely what the attachment rule forbids, because the picture would be
+the answer.
+
+So they are served where that was always going to work: the **concept card**, which
+opens at reveal. `Concept.figures` (additive) carries the principle's vocabulary
+strip, and the card can safely show what an answer looks like — "what shape does a
+vessel aground show?" cannot carry its own answer, but the card the learner reads
+afterwards can.
+
+**One picture, one citation per code.** A drawing is geometry and travels; a citation
+does not. Telling a French learner his day shape comes from *SeeStrO 1972 Regel 27*
+would be asserting German law at him, and the codes do genuinely diverge — Swiss
+inland balls are painted green, white or yellow where COLREG's are black. So every
+diagram carries a citation **per regime**, each verified against that regime's own
+KB, and a diagram is offered to a bank only if that bank's law can account for it:
+
+| bank | code cited | diagrams |
+|---|---|---:|
+| `de` | KVR · SeeSchStrO · BinSchStrO | 33 |
+| `int` | COLREG 1972 | 18 |
+| `fr_cotiere` | COLREG (as enacted: RIPAM) | 18 |
+| `fr_eaux_interieures` | RGP (Code des transports A4241-*) | 6 |
+| `ch` | ONI · RNL | 5 |
+
+The strips are **derived, not hand-listed** — every diagram of the card's family the
+bank can cite, in spec order — so adding a diagram lights it up on each card entitled
+to it and no list can fall out of date.
+
+Two bugs the tests caught while wiring this, both worth keeping the checks for:
+a COLREG citation that never mentioned a light (the exemption clause, picked for the
+"under 50 m" wording), and an ONI diving-board citation that landed on a *nav-light*
+entry — real quote, wrong drawing, waved through by the does-this-text-exist check.
+There is now a second test requiring a citation to **name what is drawn**.
+
+Next: give-way plan views — the one family with questions in every bank and no
+diagram at all — which also unlock the two towing-convoy questions.
 
 ### Adding a diagram (the smallest useful contribution)
 

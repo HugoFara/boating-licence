@@ -289,6 +289,14 @@ DAY_SHAPES: list[dict] = [
             "ref": "SeeStrO 1972 Regel 27 Buchstabe a Ziffer ii",
             "quote": "zwei Bälle oder ähnliche Signalkörper senkrecht übereinander",
         },
+        "cites": [
+            {"unit": "rnl-rnl_art_38",
+             "ref": "RNL art. 38 al. 1 let. b (RS 747.221.1)",
+             "quote": "deux ballons noirs superposés à 1 m environ de distance"},
+            {"unit": "colreg-en-colreg_rule_27",
+             "ref": "COLREG Rule 27(a)(ii)",
+             "quote": "two balls or similar shapes in a vertical line"},
+        ],
     },
     {
         "key": "ram-ball-diamond-ball",
@@ -300,6 +308,11 @@ DAY_SHAPES: list[dict] = [
             "quote": "Der obere und der untere Signalkörper müssen Bälle, der "
                      "mittlere muß ein Rhombus sein",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_27",
+             "ref": "COLREG Rule 27(b)(ii)",
+             "quote": "The highest and lowest of these shapes shall be balls and the middle one a diamond"},
+        ],
     },
     {
         "key": "aground-three-balls",
@@ -310,6 +323,11 @@ DAY_SHAPES: list[dict] = [
             "ref": "SeeStrO 1972 Regel 30 Buchstabe d Ziffer ii",
             "quote": "drei Bälle senkrecht übereinander",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_30",
+             "ref": "COLREG Rule 30(d)(ii)",
+             "quote": "three balls in a vertical line"},
+        ],
     },
     {
         "key": "draft-cylinder",
@@ -320,6 +338,11 @@ DAY_SHAPES: list[dict] = [
             "ref": "SeeStrO 1972 Regel 28",
             "quote": "oder einen Zylinder dort führen",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_28",
+             "ref": "COLREG Rule 28",
+             "quote": "three all-round red lights in a vertical line, or a cylinder"},
+        ],
     },
     {
         "key": "fishing-hourglass",
@@ -330,6 +353,11 @@ DAY_SHAPES: list[dict] = [
             "ref": "SeeStrO 1972 Regel 26 Buchstabe c Ziffer i",
             "quote": "das obere rot und das untere weiß, oder ein Stundenglas",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_26",
+             "ref": "COLREG Rule 26(c)(i)",
+             "quote": "a shape consisting of two cones with apexes together in a vertical line"},
+        ],
     },
     {
         "key": "tow-diamond",
@@ -340,6 +368,11 @@ DAY_SHAPES: list[dict] = [
             "ref": "SeeStrO 1972 Regel 24 Buchstabe a Ziffer v",
             "quote": "einen rhombusförmigen Signalkörper",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_24",
+             "ref": "COLREG Rule 24(a)(v)",
+             "quote": "a diamond shape where it can best be seen"},
+        ],
     },
     {
         "key": "sail-under-power-cone-down",
@@ -350,6 +383,11 @@ DAY_SHAPES: list[dict] = [
             "ref": "SeeStrO 1972 Regel 25 Buchstabe e",
             "quote": "im Vorschiff einen Kegel - Spitze unten - dort führen",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_25",
+             "ref": "COLREG Rule 25(e)",
+             "quote": "a conical shape, apex downwards"},
+        ],
     },
     {
         "key": "fishing-gear-cone-up",
@@ -360,6 +398,11 @@ DAY_SHAPES: list[dict] = [
             "ref": "SeeStrO 1972 Regel 26 Buchstabe c Ziffer ii",
             "quote": "einen Kegel - Spitze oben - in Richtung des Fanggeräts",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_26",
+             "ref": "COLREG Rule 26(c)(ii)",
+             "quote": "a cone apex upwards in the direction of the gear"},
+        ],
     },
     {
         "key": "anchor-ball",
@@ -369,6 +412,44 @@ DAY_SHAPES: list[dict] = [
             "unit": "kvr-de-seestro_1972_regel_30",
             "ref": "SeeStrO 1972 Regel 30 Buchstabe a Ziffer i",
             "quote": "ein weißes Rundumlicht oder einen Ball",
+        },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_30",
+             "ref": "COLREG Rule 30(a)(i)",
+             "quote": "in the fore part, an all-round white light or one ball"},
+        ],
+    },
+    # Swiss inland balls are PAINTED, and the colour is the whole message — one of
+    # the places the codes genuinely diverge, so these carry no COLREG citation and
+    # are never offered to a maritime bank.
+    {
+        "key": "priority-green-ball",
+        "shapes": [("ball", "#1a8f3c")],
+        "title": "Un ballon vert",
+        "source": {
+            "unit": "oni-oni_art_27",
+            "ref": "ONI art. 27 al. 1 let. b (RS 747.201.1)",
+            "quote": "de jour, un ballon vert visible de tous les côtés",
+        },
+    },
+    {
+        "key": "trawling-white-ball",
+        "shapes": [("ball", "#ffffff")],
+        "title": "Un ballon blanc",
+        "source": {
+            "unit": "oni-oni_art_31",
+            "ref": "ONI art. 31 al. 2 (RS 747.201.1)",
+            "quote": "Les bateaux pêchant de jour à la traîne portent un ballon blanc",
+        },
+    },
+    {
+        "key": "fishing-yellow-ball",
+        "shapes": [("ball", "#f2c317")],
+        "title": "Un ballon jaune",
+        "source": {
+            "unit": "oni-oni_art_31",
+            "ref": "ONI art. 31 al. 1 let. b (RS 747.201.1)",
+            "quote": "de jour, un ballon jaune",
         },
     },
     {
@@ -380,6 +461,12 @@ DAY_SHAPES: list[dict] = [
             "ref": "SeeStrO 1972 Regel 27 Buchstabe e Ziffer ii",
             "quote": 'die Flagge "A" des Internationalen Signalbuchs als Tafel',
         },
+        "cites": [
+            {"unit": "oni-oni_art_32",
+             "ref": "ONI art. 32 al. 1 (RS 747.201.1)",
+             "quote": "un panneau reproduisant la lettre «A» du Code "
+                      "international de signaux"},
+        ],
     },
 ]
 
@@ -505,6 +592,13 @@ NAV_LIGHTS: list[dict] = [
                      "Meter Länge kann ein solches Licht führen, ist jedoch nicht "
                      "dazu verpflichtet",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_23",
+             "ref": "COLREG Rule 23(a)",
+             "quote": "a masthead light forward; (ii) a second masthead light "
+                      "abaft of and higher than the forward one; except that a "
+                      "vessel of less than 50 meters in length shall not be"},
+        ],
     },
     {
         "key": "power-driven-over-50m",
@@ -515,6 +609,11 @@ NAV_LIGHTS: list[dict] = [
             "ref": "SeeStrO 1972 Regel 23 Buchstabe a Ziffer ii",
             "quote": "ein zweites Topplicht achterlicher und höher als das vordere",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_23",
+             "ref": "COLREG Rule 23(a)(ii)",
+             "quote": "a second masthead light abaft of and higher than the forward one"},
+        ],
     },
     {
         "key": "nuc-two-red",
@@ -525,6 +624,11 @@ NAV_LIGHTS: list[dict] = [
             "ref": "SeeStrO 1972 Regel 27 Buchstabe a Ziffer i",
             "quote": "zwei rote Rundumlichter senkrecht übereinander",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_27",
+             "ref": "COLREG Rule 27(a)(i)",
+             "quote": "two all-round red lights in a vertical line"},
+        ],
     },
     {
         "key": "nuc-two-red-making-way",
@@ -537,6 +641,13 @@ NAV_LIGHTS: list[dict] = [
                      "Buchstaben vorgeschriebenen Lichtern Seitenlichter und ein "
                      "Hecklicht",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_27",
+             "ref": "COLREG Rule 27(a)(iii)",
+             "quote": "when making way through the water, in addition to the "
+                      "lights prescribed in this paragraph, sidelights and a "
+                      "sternlight"},
+        ],
     },
     {
         "key": "ram-red-white-red",
@@ -548,6 +659,11 @@ NAV_LIGHTS: list[dict] = [
             "quote": "Das obere und das untere Licht müssen rot, das mittlere muß "
                      "weiß sein",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_27",
+             "ref": "COLREG Rule 27(b)(i)",
+             "quote": "The highest and lowest of these lights shall be red and the middle light shall be white"},
+        ],
     },
     {
         "key": "ram-making-way",
@@ -584,6 +700,11 @@ NAV_LIGHTS: list[dict] = [
             "quote": "zwei Rundumlichter senkrecht übereinander, das obere grün und "
                      "das untere weiß",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_26",
+             "ref": "COLREG Rule 26(b)(i)",
+             "quote": "two all-round lights in a vertical line, the upper being green and the lower white"},
+        ],
     },
     {
         "key": "fishing-not-trawling",
@@ -595,6 +716,11 @@ NAV_LIGHTS: list[dict] = [
             "quote": "zwei Rundumlichter senkrecht übereinander, das obere rot und "
                      "das untere weiß",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_26",
+             "ref": "COLREG Rule 26(c)(i)",
+             "quote": "two all-round lights in a vertical line, the upper being red and the lower white"},
+        ],
     },
     {
         "key": "anchored-two-lights",
@@ -607,6 +733,11 @@ NAV_LIGHTS: list[dict] = [
                      "Buchstabe a Ziffer i vorgeschriebene vordere mindestens 4,5 "
                      "Meter höher als das hintere angebracht sein",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_30",
+             "ref": "COLREG Rule 30(a)(ii)",
+             "quote": "at or near the stern and at a lower level than the light prescribed"},
+        ],
     },
 ]
 
@@ -627,6 +758,11 @@ SOUND_SIGNALS: list[dict] = [
             "ref": "BinSchStrO 2012 Anlage 6 Abschnitt D (§ 6.13 Nummer 2 Buchstabe a)",
             "quote": "1 langer Ton, „Ich wende über Steuerbord“",
         },
+        "cites": [
+            {"unit": "code_transports-code_des_transports_art_a42415314",
+             "ref": "Code des transports, art. A4241-53-14 (RGP)",
+             "quote": "Un son prolongé suivi d'un son bref s'il veut virer sur tribord"},
+        ],
     },
     {
         "key": "inland-turn-to-port",
@@ -637,6 +773,11 @@ SOUND_SIGNALS: list[dict] = [
             "ref": "BinSchStrO 2012 Anlage 6 Abschnitt D (§ 6.13 Nummer 2 Buchstabe b)",
             "quote": "1 langer Ton, „Ich wende über Backbord“",
         },
+        "cites": [
+            {"unit": "code_transports-code_des_transports_art_a42415314",
+             "ref": "Code des transports, art. A4241-53-14 (RGP)",
+             "quote": "Un son prolongé suivi de deux sons brefs s'il veut virer sur bâbord"},
+        ],
     },
     {
         "key": "inland-overtake-to-starboard",
@@ -647,6 +788,11 @@ SOUND_SIGNALS: list[dict] = [
             "ref": "BinSchStrO 2012 Anlage 6 Abschnitt C (§ 6.10 Nummer 2 Buchstabe b)",
             "quote": "2 lange Töne, „Ich will auf Ihrer Steuerbordseite überholen“",
         },
+        "cites": [
+            {"unit": "code_transports-code_des_transports_art_a42415311",
+             "ref": "Code des transports, art. A4241-53-11 (RGP)",
+             "quote": "Deux sons prolongés suivis d'un son bref"},
+        ],
     },
     {
         "key": "inland-overtake-to-port",
@@ -657,6 +803,11 @@ SOUND_SIGNALS: list[dict] = [
             "ref": "BinSchStrO 2012 Anlage 6 Abschnitt C (§ 6.10 Nummer 2 Buchstabe a)",
             "quote": "2 lange Töne, „Ich will auf Ihrer Backbordseite überholen“",
         },
+        "cites": [
+            {"unit": "code_transports-code_des_transports_art_a42415311",
+             "ref": "Code des transports, art. A4241-53-11 (RGP)",
+             "quote": "Deux sons prolongés suivis de deux sons brefs s'il veut dépasser par bâbord"},
+        ],
     },
     {
         "key": "inland-harbour-turn-starboard",
@@ -668,6 +819,11 @@ SOUND_SIGNALS: list[dict] = [
                    "Buchstabe a)",
             "quote": "3 lange Töne, „Ich will meinen Kurs nach Steuerbord richten“",
         },
+        "cites": [
+            {"unit": "code_transports-code_des_transports_art_a42415317",
+             "ref": "Code des transports, art. A4241-53-17 (RGP)",
+             "quote": "Trois sons prolongés suivis d'un son bref"},
+        ],
     },
     {
         "key": "inland-harbour-turn-port",
@@ -679,6 +835,11 @@ SOUND_SIGNALS: list[dict] = [
                    "Buchstabe b)",
             "quote": "3 lange Töne, „Ich will meinen Kurs nach Backbord richten“",
         },
+        "cites": [
+            {"unit": "code_transports-code_des_transports_art_a42415317",
+             "ref": "Code des transports, art. A4241-53-17 (RGP)",
+             "quote": "Trois sons prolongés suivis de de"},
+        ],
     },
     {
         "key": "inland-stay-away",
@@ -746,6 +907,11 @@ SOUND_SIGNALS: list[dict] = [
             "ref": "SeeStrO 1972 Regel 35 Buchstabe g",
             "quote": "drei aufeinanderfolgende Töne - kurz, lang, kurz -",
         },
+        "cites": [
+            {"unit": "colreg-en-colreg_rule_35",
+             "ref": "COLREG Rule 35(g)",
+             "quote": "three blasts in succession, namely one short, one prolonged and one short blast"},
+        ],
     },
     {
         "key": "sea-sos",
@@ -755,10 +921,78 @@ SOUND_SIGNALS: list[dict] = [
         "source": {
             "unit": "kvr-de-seestro_1972_anlage_iv",
             "ref": "SeeStrO 1972 Anlage IV Nummer 1 Buchstabe d",
-            "quote": "Morsesignal ...---... (SOS)",
+            "quote": "das durch eine beliebige Signalart gegebene Morsesignal "
+                     "...---... (SOS)",
         },
     },
 ]
+
+# ── Which law lets a diagram reach which bank ─────────────────────────────────
+# A drawing is geometry, so the SAME picture is valid under several codes — but the
+# citation is not transferable. Telling a French learner that his day shape comes
+# from "SeeStrO 1972 Regel 27" would be asserting German law at him, and worse, the
+# codes genuinely diverge (Swiss inland balls are coloured; COLREG's are black).
+#
+# So every diagram carries one citation PER REGIME, each verified against that
+# regime's own KB, and a diagram may only be offered to a bank whose regime it can
+# cite. The regime is the KB unit-id prefix — no extra field to keep in sync.
+#
+# fr_cotiere reads COLREG because RIPAM *is* COLREG as enacted in France (the regime
+# tree in docs/scope.md records it as `implements`), which is already how the
+# maritime concept cards cite themselves: "COLREG 1972 / RIPAM".
+BANK_REGIMES: dict[str, tuple[str, ...]] = {
+    "de": ("kvr", "seeschstro", "binschstro"),
+    "int": ("colreg",),
+    "fr_cotiere": ("colreg",),
+    "fr_eaux_interieures": ("code_transports",),
+    "ch": ("oni", "rnl"),
+}
+BANK_KB = {"de": "kb.de.sqlite", "int": "kb.int.sqlite",
+           "fr_cotiere": "kb.int.sqlite", "ch": "kb.ch.sqlite",
+           "fr_eaux_interieures": "kb.fr.sqlite"}
+
+
+def regime_of(unit: str) -> str:
+    """The code a KB unit belongs to, read off its id prefix (``colreg-en-…``)."""
+    return (unit or "").split("-", 1)[0]
+
+
+def citations(d: dict) -> list[dict]:
+    """Every citation for a diagram: the article it was drawn from, plus the
+    equivalent article in each other code that prescribes the same figure."""
+    return [d["source"], *d.get("cites", [])]
+
+
+def keys_for_bank(bank_id: str) -> set[str]:
+    """Diagram keys this bank's own law can account for. A diagram with no citation
+    in the bank's regime is simply not offered there — silence beats a picture the
+    learner's code does not actually prescribe."""
+    allowed = set(BANK_REGIMES.get(bank_id, ()))
+    return {d["key"] for d in DIAGRAMS
+            if any(regime_of(c["unit"]) in allowed for c in citations(d))}
+
+
+def figures_for_bank_cards(bank_id: str) -> list[str]:
+    """Every diagram key any of this bank's concept cards can show — what the web
+    bundler must copy alongside ``concepts.<lang>.json``."""
+    out: list[str] = []
+    for family in FAMILIES:
+        out.extend(figures_for(family, bank_id))
+    return out
+
+
+def figures_for(principle: str, bank_id: str) -> list[str]:
+    """The vocabulary strip for one concept card: every diagram of this principle's
+    family that the bank's own code prescribes, in spec order.
+
+    Derived rather than hand-listed, so adding a diagram lights it up on every card
+    entitled to it and no list can quietly fall out of date. Returns [] when the
+    bank's law does not cover the family, which is the graceful case — the card
+    simply shows no strip."""
+    ok = keys_for_bank(bank_id)
+    return [d["key"] for d in DIAGRAMS
+            if d["family"] == principle and d["key"] in ok]
+
 
 DIAGRAMS: list[dict] = ([{**d, "family": "day-shapes"} for d in DAY_SHAPES]
                         + [{**d, "family": "nav-lights"} for d in NAV_LIGHTS]

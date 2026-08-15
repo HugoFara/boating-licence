@@ -21,6 +21,7 @@ import os
 from ..questions import schema as qschema
 from ..questions import principles as principlesmod
 from ..questions import seed_concepts
+from ..questions import diagrams as _diagrams
 from ..questions.schema import Question, Choice, Provenance, make_question_id, validate
 from .. import scope
 from .. import validate as _validate
@@ -353,6 +354,25 @@ def _nav(option: str) -> str:
             '<a href="../">🇫🇷 France</a> · ' + " · ".join(links))
 
 
+def _copy_card_figures(bank_id: str, out_dir: str) -> int:
+    """Copy the generated diagrams this bank's concept cards show into the player
+    bundle. Returns how many landed (0 when the bank's code prescribes none)."""
+    import shutil
+    root = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    keys = _diagrams.figures_for_bank_cards(bank_id)
+    if not keys:
+        return 0
+    dst_dir = os.path.join(out_dir, "assets", "diagrams")
+    os.makedirs(dst_dir, exist_ok=True)
+    n = 0
+    for key in keys:
+        src = os.path.join(root, _diagrams.path_for(key))
+        if os.path.exists(src):
+            shutil.copy2(src, os.path.join(dst_dir, f"{key}.svg"))
+            n += 1
+    return n
+
+
 def build() -> dict:
     """Build both option banks and bundle web/fr/. Returns a small stats dict."""
     import shutil
@@ -405,6 +425,10 @@ def build() -> dict:
                 os.replace(ctmp, os.path.join(out_dir, f"concepts.{lg}.json"))
             elif os.path.exists(ctmp):
                 os.remove(ctmp)
+        # Ship the figures those cards reference. Nothing else copies them: a card's
+        # vocabulary strip hangs off the principle, not off any one question, so it
+        # never passes through the question-image relocation above.
+        _copy_card_figures(f"fr_{option}", out_dir)
         # Canonical fallback file (FR), matching the player's fetch chain.
         _write(os.path.join(out_dir, "questions.json"),
                json.dumps(_bank_json(by_lang["fr"], cfg, chrome["fr"], "fr", generated),

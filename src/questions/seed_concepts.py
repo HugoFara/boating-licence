@@ -2407,10 +2407,21 @@ def concepts_for(bank_id: str, langs) -> list[Concept]:
     languages. Empty list when nothing applies — the build then ships no concept
     file for that bank, and the player simply shows no card (graceful).
     """
+    from . import diagrams
     out: list[Concept] = []
     for e in _SEED:
         if bank_id not in e["applies"]:
             continue
+        # The card's illustration strip is DERIVED, never hand-listed: every
+        # generated diagram of this principle's family that this bank's own code can
+        # cite. Adding a diagram lights it up on each card entitled to it, and a
+        # bank whose law does not prescribe the family simply gets no strip.
+        #
+        # The strip lives on the card and never on a question stem, because the card
+        # is shown at reveal. That is the whole reason these questions can be
+        # illustrated at all: "what shape does a vessel aground show?" cannot carry
+        # its own answer, but the card the learner reads afterwards can.
+        figures = ",".join(diagrams.figures_for(e["principle"], bank_id))
         for lg in langs:
             loc = e["lang"].get(lg)
             if not loc:
@@ -2421,5 +2432,5 @@ def concepts_for(bank_id: str, langs) -> list[Concept]:
                 kind=e["kind"], title=loc["title"], body=loc["body"], lang=lg,
                 prov_ref=p["ref"], prov_source=p["source"], prov_url=p["url"],
                 prov_as_of=p["as_of"], prov_licence=p["licence"],
-                review_status="approved"))
+                review_status="approved", figures=figures))
     return out

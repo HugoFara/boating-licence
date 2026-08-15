@@ -1,10 +1,13 @@
 """Tests for the generated-figure layer (src/questions/diagrams.py).
 
-The load-bearing test here is ``test_every_diagram_is_sourced``: it reads each
-diagram's quoted fragment back out of the KB, so a hand-drawn figure that drifts from
-the article prescribing it fails the build. A wrong diagram teaches a wrong shape,
-which is worse than shipping none — so the spec is verified against the law, not
-against itself.
+Two load-bearing tests. ``test_every_citation_holds_in_its_own_law`` reads each
+diagram's quoted fragment back out of the KB of the code that cites it, so a drawing
+that drifts from the article prescribing it fails the build — one picture may serve
+several countries, but its citation never transfers. And because a citation can be
+perfectly real while sitting on the wrong drawing,
+``test_a_citation_describes_the_figure_it_is_attached_to`` also requires the quote to
+name what is actually drawn. A wrong diagram teaches a wrong shape, which is worse
+than shipping none, so the spec is verified against the law and never against itself.
 """
 import os
 import sqlite3
@@ -174,23 +177,106 @@ def test_titles_never_leak_the_meaning():
             assert word not in low, f"{d['key']} title leaks its meaning: {word}"
 
 
-def test_every_diagram_is_sourced():
-    """Each diagram quotes the fragment of law that prescribes its shapes; that
-    fragment must still be in the KB unit it cites. Skipped when the German KB isn't
-    built (it is generated, not committed) — run `python run.py build --country DE`."""
-    if not os.path.exists(KB_DE):
-        print("    (skipped: data/kb.de.sqlite not built)")
-        return
-    kb = sqlite3.connect(KB_DE)
+_KB_BY_REGIME = {"kvr": "kb.de.sqlite", "binschstro": "kb.de.sqlite",
+                 "seeschstro": "kb.de.sqlite", "colreg": "kb.int.sqlite",
+                 "oni": "kb.ch.sqlite", "rnl": "kb.ch.sqlite",
+                 "code_transports": "kb.fr.sqlite"}
+
+
+def test_every_citation_holds_in_its_own_law():
+    """Each diagram quotes the fragment that prescribes it — once per code that
+    prescribes it — and every fragment must still be in the KB unit it cites.
+
+    This is what lets one drawing serve several countries without lying to any of
+    them: the picture is shared, the citation never is. Skipped per regime when that
+    KB isn't built (they are generated, not committed)."""
+    checked = skipped = 0
     for d in diagrams.DIAGRAMS:
-        src = d["source"]
-        rows = kb.execute("SELECT text FROM units WHERE id LIKE ?",
-                          (src["unit"] + "%",)).fetchall()
-        assert rows, f"{d['key']}: no KB unit {src['unit']!r}"
-        assert any(src["quote"] in r[0] for r in rows), (
-            f"{d['key']}: the cited article no longer contains "
-            f"{src['quote']!r} — re-read {src['ref']} before touching the drawing")
-    kb.close()
+        for c in diagrams.citations(d):
+            regime = diagrams.regime_of(c["unit"])
+            assert regime in _KB_BY_REGIME, f"{d['key']}: unknown regime {regime!r}"
+            path = os.path.join(ROOT, "data", _KB_BY_REGIME[regime])
+            if not os.path.exists(path):
+                skipped += 1
+                continue
+            kb = sqlite3.connect(path)
+            rows = kb.execute("SELECT text FROM units WHERE id LIKE ?",
+                              (c["unit"] + "%",)).fetchall()
+            kb.close()
+            assert rows, f"{d['key']}: no KB unit {c['unit']!r}"
+            assert any(c["quote"] in r[0] for r in rows), (
+                f"{d['key']}: {c['ref']} no longer contains {c['quote']!r} — "
+                f"re-read the article before touching the drawing")
+            checked += 1
+    if skipped:
+        print(f"    ({checked} citations checked, {skipped} skipped: KB not built)")
+
+
+# What each drawn thing is called, across the four languages the codes are
+# published in. A citation that names none of them is not describing this figure.
+_VOCAB = {
+    "ball": ("ball", "bälle", "ballon", "pallone", "balls"),
+    "cone-up": ("kegel", "cone", "cône", "cono", "conical"),
+    "cone-down": ("kegel", "cone", "cône", "cono", "conical"),
+    "cylinder": ("zylinder", "cylinder", "cylindre", "cilindro"),
+    "diamond": ("rhombus", "diamond", "losange", "rombo"),
+    "hourglass": ("stundenglas", "cones", "cônes", "coni"),
+    "flag-a": ("flagge", "flag", "pavillon", "panneau", "tafel", "bandiera"),
+}
+_LIGHT_WORDS = ("licht", "lichter", "light", "feu", "feux", "luce", "luci")
+# "morse" counts: a Morse signal IS a blast grammar, and Anlage IV gives the
+# distress signal as dots and dashes rather than in words.
+_SOUND_WORDS = ("ton", "töne", "blast", "son", "sons", "suono", "glocke",
+                "morse")
+
+
+def test_a_citation_describes_the_figure_it_is_attached_to():
+    """A citation can be perfectly real and still be on the wrong drawing — which is
+    exactly what happened: ONI art. 32's diving board landed on a nav-light entry,
+    and the "does this quote exist in the law" check waved it through because the
+    quote was genuine. So also require the quote to name what is drawn."""
+    for d in diagrams.DIAGRAMS:
+        for c in diagrams.citations(d):
+            q = c["quote"].lower()
+            if d["family"] == "day-shapes":
+                words = {w for kind, _ in d["shapes"] for w in _VOCAB[kind]}
+                assert any(w in q for w in sorted(words)), (
+                    f"{d['key']}: {c['ref']} names none of the shapes drawn "
+                    f"({[k for k, _ in d['shapes']]}) — wrong diagram?")
+            elif d["family"] == "nav-lights":
+                assert any(w in q for w in _LIGHT_WORDS), (
+                    f"{d['key']}: {c['ref']} does not mention a light — "
+                    f"wrong diagram?")
+            else:
+                assert any(w in q for w in _SOUND_WORDS), (
+                    f"{d['key']}: {c['ref']} does not mention a blast — "
+                    f"wrong diagram?")
+
+
+def test_a_diagram_only_reaches_a_bank_its_own_law_covers():
+    """Swiss inland day-shape balls are painted green, white or yellow; COLREG's are
+    black. So a bank may only be offered a diagram it can cite, and the coloured
+    Swiss balls must never surface on a maritime card."""
+    for key in ("priority-green-ball", "trawling-white-ball", "fishing-yellow-ball"):
+        assert key in diagrams.keys_for_bank("ch"), key
+        assert key not in diagrams.keys_for_bank("int"), f"{key} leaked to COLREG"
+        assert key not in diagrams.keys_for_bank("de"), f"{key} leaked to the KVR"
+    # and the sea-only shapes must not surface on the French inland card
+    assert "fishing-hourglass" not in diagrams.keys_for_bank("fr_eaux_interieures")
+
+
+def test_card_strips_are_derived_not_hand_listed():
+    """figures_for() must return only diagrams of the asked-for family, in spec
+    order, and nothing the bank cannot cite."""
+    for bank in diagrams.BANK_REGIMES:
+        for family in diagrams.FAMILIES:
+            keys = diagrams.figures_for(family, bank)
+            assert keys == [k for k in keys], bank
+            for k in keys:
+                assert diagrams.BY_KEY[k]["family"] == family
+                assert k in diagrams.keys_for_bank(bank)
+            order = [d["key"] for d in diagrams.DIAGRAMS if d["key"] in set(keys)]
+            assert keys == order, f"{bank}/{family} is out of spec order"
 
 
 def test_assignments_are_well_formed():

@@ -1040,8 +1040,16 @@ function conceptHtml(q) {
   const body = String(c.body).split(/\n\n+/)
     .map((para) => `<p>${escapeHtml(para)}</p>`).join("");
   const head = c.title ? `<h4>${escapeHtml(c.title)}</h4>` : "";
+  // The vocabulary strip: the generated figures for this principle, drawn from the
+  // article that prescribes each one. It belongs HERE and not on a question stem —
+  // the card opens at reveal, so it can show what an answer looks like, which is
+  // exactly what "what shape does a vessel aground show?" can never do itself.
+  const figs = Array.isArray(c.figures) && c.figures.length
+    ? `<div class="concept-figures">` + c.figures.map((f) =>
+        `<img src="assets/diagrams/${encodeURIComponent(f)}.svg" alt="" loading="lazy">`
+      ).join("") + `</div>` : "";
   return `<details class="concept-card"><summary>${escapeHtml(T("learnWhy"))}</summary>
-    <div class="concept-body">${head}${body}${srcLine}</div></details>`;
+    <div class="concept-body">${head}${figs}${body}${srcLine}</div></details>`;
 }
 
 /* Diagnostic distractor feedback: attach each choice's authored rationale (why

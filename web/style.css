@@ -295,5 +295,19 @@ button:disabled { opacity: .5; cursor: default; }
 .concept-card[open] > summary { border-bottom: 1px solid var(--line); margin-bottom: 8px; }
 .concept-body h4 { margin: 6px 0 8px; font-size: 1rem; }
 .concept-body p { margin: 8px 0; line-height: 1.5; white-space: pre-line; }
+/* The principle's visual vocabulary, laid out as one scrollable row on a white
+   ground — the figures are drawn to a shared scale, so keeping them the same
+   height on one line is what lets the learner compare them rather than read them
+   one at a time. */
+.concept-figures {
+  display: flex; gap: 10px; align-items: center; flex-wrap: wrap;
+  margin: 4px 0 12px; padding: 10px; overflow-x: auto;
+  background: #fff; border: 1px solid var(--line); border-radius: 8px;
+}
+/* One height for everything, width from each figure's own aspect: the upright
+   shapes stay narrow and sit several to a row, while a blast timeline is naturally
+   three times as wide and wraps onto its own line. No per-figure rule, so adding a
+   diagram can never leave a stale selector behind. */
+.concept-figures img { height: 104px; width: auto; max-width: 100%; flex: 0 0 auto; }
 .concept-body .src { color: var(--muted); font-size: .85rem; margin-top: 10px; }
 .concept-body .src a { color: var(--accent-dark); }
