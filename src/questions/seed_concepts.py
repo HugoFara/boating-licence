@@ -845,6 +845,849 @@ _SEED: list[dict] = [
             },
         },
     },
+    {
+        "principle": "waterway-signs",
+        "kind": "principle",
+        # Swiss inland signboards (ONI annexe 4). The French RGP and the German
+        # inland codes carry their own boards, so this is ch-only.
+        "applies": {"ch"},
+        "prov": {
+            "ref": "ONI art. 20, 36, 37, 39 et annexe 4 — signalisation de la voie "
+                   "navigable",
+            "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+            "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+            "as_of": "2022-01-01",
+            "licence": "Public domain — Swiss federal law (freely reusable).",
+        },
+        "lang": {
+            "fr": {
+                "title": "Signaux de la voie navigable : lire la famille avant le pictogramme",
+                "body": (
+                    "Un panneau se lit en deux temps. La FAMILLE dit quel genre "
+                    "d'obligation il crée ; le pictogramme dit seulement de quelle "
+                    "activité il s'agit. Les conducteurs doivent obéir aux "
+                    "prescriptions et tenir compte des recommandations ou "
+                    "indications portées par les signaux de l'annexe 4 (ONI "
+                    "art. 36).\n\n"
+                    "Les familles de l'annexe 4, telles que leurs légendes les "
+                    "nomment :\n"
+                    "— Interdiction : «interdiction de passer» (le signal général "
+                    "d'interdiction), d'ancrer, de s'amarrer, de stationner, de "
+                    "virer, de dépasser, de causer des remous…\n"
+                    "— Obligation : prendre la direction de la flèche, s'arrêter "
+                    "dans certaines conditions, ne pas dépasser la vitesse indiquée, "
+                    "siffler, observer une vigilance particulière.\n"
+                    "— Limitation : la hauteur, la largeur de la passe ou le tirant "
+                    "d'eau sont limités ; la distance à tenir par rapport à la rive "
+                    "est indiquée en mètres.\n"
+                    "— Recommandation : une passe recommandée pour franchir un pont "
+                    "(dans les deux sens ou dans le seul sens indiqué), se tenir "
+                    "dans l'espace indiqué.\n"
+                    "— Autorisation ou indication : autorisation de passer, de "
+                    "stationner, arrêt pour la douane, bac.\n"
+                    "Une fois la famille reconnue, la question «que dois-je faire ?» "
+                    "est déjà tranchée : m'abstenir, exécuter, respecter une limite, "
+                    "suivre un conseil, ou simplement noter une possibilité.\n\n"
+                    "Les plans d'eau, eux, sont délimités par des flotteurs, pas par "
+                    "des panneaux (art. 37) :\n"
+                    "— Bouées jaunes sphériques : plan d'eau interdit à toute "
+                    "navigation, au besoin complété par un panneau A.1.\n"
+                    "— Mêmes bouées avec un panneau A.2, A.3 ou A.4 : interdit à "
+                    "certaines catégories de bateaux seulement.\n"
+                    "— Mêmes bouées avec des panneaux E.5 à terre : plan d'eau ou "
+                    "couloir de départ ouvert au ski nautique et au wakesurfing ; "
+                    "les bouées du couloir côté large sont deux fois plus grosses, "
+                    "sommet rouge à gauche et vert à droite vu du large.\n\n"
+                    "Deux détails qui tombent souvent : les panneaux et pavillons "
+                    "mesurent au moins 60 cm de côté et les ballons au moins 30 cm "
+                    "de diamètre (art. 20) ; et de nuit ou par temps bouché, des "
+                    "installations fixes peuvent émettre les signaux sonores de "
+                    "l'annexe 4 ou des feux à éclats jaunes, tandis que ponts et "
+                    "obstacles portent des réflecteurs radar (art. 39)."
+                ),
+            },
+            "de": {
+                "title": "Schifffahrtszeichen: erst die Familie lesen, dann das Piktogramm",
+                "body": (
+                    "Ein Tafelzeichen liest man in zwei Schritten. Die FAMILIE sagt, "
+                    "welche Art von Pflicht es begründet; das Piktogramm sagt nur, "
+                    "worum es geht. Die Schiffsführer haben die Anweisungen zu "
+                    "befolgen und die Empfehlungen oder Hinweise zu beachten, die "
+                    "die Schifffahrtszeichen nach Anhang 4 anzeigen (BSV Art. 36).\n\n"
+                    "Die Familien des Anhangs 4, wie ihre Legenden sie benennen:\n"
+                    "— Verbot: Durchfahrt verboten (das allgemeine Verbotszeichen), "
+                    "Ankern, Festmachen, Stillliegen, Wenden, Überholen, "
+                    "schädlichen Wellenschlag verursachen…\n"
+                    "— Gebot: die durch den Pfeil angezeigte Richtung nehmen, unter "
+                    "bestimmten Bedingungen anhalten, die angegebene "
+                    "Geschwindigkeit nicht überschreiten, ein Schallzeichen geben, "
+                    "besondere Vorsicht walten lassen.\n"
+                    "— Beschränkung: die Durchfahrtshöhe, die Durchfahrtsbreite oder "
+                    "der Tiefgang sind begrenzt; der einzuhaltende Uferabstand ist "
+                    "in Metern angegeben.\n"
+                    "— Empfehlung: eine empfohlene Durchfahrt unter einer Brücke (in "
+                    "beiden Richtungen oder nur in der angezeigten), sich im "
+                    "bezeichneten Raum halten.\n"
+                    "— Erlaubnis oder Hinweis: Durchfahrt erlaubt, Stillliegen "
+                    "erlaubt, Halt für den Zoll, Fähre.\n"
+                    "Ist die Familie erkannt, ist die Frage «was muss ich tun?» "
+                    "schon beantwortet: unterlassen, ausführen, eine Grenze "
+                    "einhalten, einem Rat folgen oder bloss eine Möglichkeit zur "
+                    "Kenntnis nehmen.\n\n"
+                    "Wasserflächen dagegen werden mit Schwimmkörpern abgegrenzt, "
+                    "nicht mit Tafeln (Art. 37):\n"
+                    "— Gelbe kugelförmige Schwimmkörper: für die Schifffahrt "
+                    "gesperrte Wasserfläche, nötigenfalls mit einer Tafel A.1 "
+                    "ergänzt.\n"
+                    "— Dieselben Schwimmkörper mit Tafel A.2, A.3 oder A.4: nur für "
+                    "bestimmte Schiffsarten gesperrt.\n"
+                    "— Dieselben Schwimmkörper mit Tafeln E.5 am Ufer: für "
+                    "Wasserskifahren und Wakesurfen zugelassene Wasserfläche oder "
+                    "Startgasse; die seeseitigen Schwimmkörper der Startgasse haben "
+                    "den doppelten Durchmesser, vom See her gesehen die linke mit "
+                    "roter, die rechte mit grüner Spitze.\n\n"
+                    "Zwei Details, die gern geprüft werden: Tafeln und Flaggen sind "
+                    "mindestens 60 cm hoch und breit, Bälle haben mindestens 30 cm "
+                    "Durchmesser (Art. 20); und bei Nacht oder unsichtigem Wetter "
+                    "dürfen feste Anlagen die Schallzeichen des Anhangs 4 oder gelbe "
+                    "Blitzlichter geben, während Brücken und Hindernisse "
+                    "Radarreflektoren tragen (Art. 39)."
+                ),
+            },
+            "it": {
+                "title": "Segnali della via navigabile: prima la famiglia, poi il pittogramma",
+                "body": (
+                    "Una tavola si legge in due tempi. La FAMIGLIA dice che tipo di "
+                    "obbligo crea; il pittogramma dice soltanto di quale attività si "
+                    "tratta. I conduttori devono attenersi alle prescrizioni e tener "
+                    "conto delle raccomandazioni o indicazioni portate dai segnali "
+                    "dell'allegato 4 (ONI art. 36).\n\n"
+                    "Le famiglie dell'allegato 4, come le nominano le loro "
+                    "didascalie:\n"
+                    "— Divieto: divieto di passaggio (il segnale generale di "
+                    "divieto), di ancorare, di ormeggiare, di stazionare, di virare, "
+                    "di sorpassare, di provocare onde dannose…\n"
+                    "— Obbligo: prendere la direzione indicata dalla freccia, "
+                    "fermarsi a certe condizioni, non superare la velocità indicata, "
+                    "emettere un segnale acustico, osservare particolare "
+                    "vigilanza.\n"
+                    "— Limitazione: l'altezza o la larghezza del passaggio, oppure "
+                    "il pescaggio, sono limitati; la distanza da tenere dalla riva è "
+                    "indicata in metri.\n"
+                    "— Raccomandazione: un passaggio raccomandato sotto un ponte "
+                    "(nei due sensi o nel solo senso indicato), tenersi nello spazio "
+                    "indicato.\n"
+                    "— Autorizzazione o indicazione: passaggio autorizzato, "
+                    "stazionamento autorizzato, fermata per la dogana, traghetto.\n"
+                    "Riconosciuta la famiglia, la domanda «che cosa devo fare?» è "
+                    "già risolta: astenermi, eseguire, rispettare un limite, seguire "
+                    "un consiglio, o solo prendere atto di una possibilità.\n\n"
+                    "Gli specchi d'acqua invece si delimitano con boe, non con "
+                    "tavole (art. 37):\n"
+                    "— Boe gialle di forma sferica: specchio d'acqua vietato a ogni "
+                    "navigazione, se del caso completato da una tavola A.1.\n"
+                    "— Le stesse boe con una tavola A.2, A.3 o A.4: vietato soltanto "
+                    "a certe categorie di natanti.\n"
+                    "— Le stesse boe con tavole E.5 sulla riva: specchio d'acqua o "
+                    "corridoio di lancio aperto allo sci nautico e al wake surf.\n\n"
+                    "Due dettagli che ricorrono spesso: le tavole e le bandiere "
+                    "misurano almeno 60 cm di lato e i palloni almeno 30 cm di "
+                    "diametro (art. 20); e di notte o in caso di scarsa visibilità "
+                    "impianti fissi possono emettere i segnali acustici "
+                    "dell'allegato 4 o luci gialle lampeggianti, mentre ponti e "
+                    "ostacoli portano riflettori radar (art. 39)."
+                ),
+            },
+            "en": {
+                "title": "Waterway signs: read the family before the pictogram",
+                "body": (
+                    "A signboard is read in two steps. The FAMILY tells you what kind "
+                    "of duty it creates; the pictogram only tells you which activity "
+                    "is meant. Boatmasters must obey the instructions and heed the "
+                    "recommendations or indications given by the signs of annex 4 "
+                    "(ONI art. 36).\n\n"
+                    "The families of annex 4, as its own captions name them:\n"
+                    "— Prohibition: no passage (the general prohibition sign), no "
+                    "anchoring, no mooring, no berthing, no turning, no overtaking, "
+                    "no harmful wash…\n"
+                    "— Obligation: take the direction of the arrow, stop under "
+                    "certain conditions, do not exceed the speed shown, sound a "
+                    "signal, keep a particular lookout.\n"
+                    "— Limitation: the headroom, the width of the passage or the "
+                    "draught is limited; the distance to keep off the bank is given "
+                    "in metres.\n"
+                    "— Recommendation: a recommended passage under a bridge (both "
+                    "ways or only in the direction shown), keep within the marked "
+                    "space.\n"
+                    "— Authorisation or indication: passage permitted, berthing "
+                    "permitted, stop for customs, ferry.\n"
+                    "Once the family is recognised, \"what must I do?\" is already "
+                    "settled: refrain, comply, respect a limit, follow advice, or "
+                    "merely note a possibility.\n\n"
+                    "Areas of water, by contrast, are delimited by floats rather "
+                    "than boards (art. 37):\n"
+                    "— Yellow spherical buoys: water closed to all navigation, if "
+                    "needed completed by an A.1 board.\n"
+                    "— The same buoys with an A.2, A.3 or A.4 board: closed only to "
+                    "certain categories of boat.\n"
+                    "— The same buoys with E.5 boards ashore: water or a start lane "
+                    "open to water-skiing and wakesurfing; the seaward buoys of a "
+                    "start lane are twice the diameter, red top to the left and "
+                    "green top to the right seen from the open water.\n\n"
+                    "Two details that come up often: boards and flags are at least "
+                    "60 cm high and wide, balls at least 30 cm across (art. 20); and "
+                    "by night or in restricted visibility fixed installations may "
+                    "give the sound signals of annex 4 or yellow flashing lights, "
+                    "while bridges and obstacles carry radar reflectors (art. 39)."
+                ),
+            },
+        },
+    },
+    {
+        "principle": "day-shapes",
+        "kind": "principle",
+        "applies": {"ch"},
+        "prov": {
+            "ref": "ONI art. 20, 27, 28, 29, 31, 32 — signalisation de jour "
+                   "(ballons, pavillons)",
+            "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+            "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+            "as_of": "2022-01-01",
+            "licence": "Public domain — Swiss federal law (freely reusable).",
+        },
+        "lang": {
+            "fr": {
+                "title": "Signaux de jour : chaque feu de nuit a son jumeau de jour",
+                "body": (
+                    "L'ordonnance dit deux fois la même chose, une fois pour la nuit "
+                    "et une fois pour le jour. La couleur porte le message ; seul le "
+                    "support change — un feu quand il fait sombre, un ballon ou un "
+                    "pavillon quand il fait clair. Retenir les paires, c'est retenir "
+                    "les deux tableaux d'un coup.\n\n"
+                    "— Bateau prioritaire : de nuit un feu vert clair visible de tous "
+                    "les côtés, si possible 1 m plus haut que le feu de mât ; de jour "
+                    "un ballon VERT visible de tous les côtés (art. 27).\n"
+                    "— Pêcheur professionnel pendant la pose et le relevage des "
+                    "filets : de nuit un feu ordinaire jaune visible de tous les "
+                    "côtés ; de jour un ballon JAUNE. Et de jour, la pêche à la "
+                    "traîne se signale par un ballon BLANC (art. 31).\n"
+                    "— Bateau à protéger des remous (mesures, recherches "
+                    "hydrologiques, sauvetage) : de nuit un feu rouge au-dessus d'un "
+                    "feu blanc ; de jour un pavillon moitié rouge en haut, moitié "
+                    "blanc en bas — ou deux pavillons superposés, rouge sur blanc "
+                    "(art. 28).\n"
+                    "— Ancrages dangereux pour la navigation : de nuit deux feux "
+                    "blancs superposés à au moins 1 m d'intervalle ; de jour deux "
+                    "pavillons BLANCS superposés. Chaque ancrage isolé se signale de "
+                    "nuit par des feux blancs, de jour par des flotteurs jaunes "
+                    "(art. 29).\n"
+                    "— Plongée subaquatique : le pavillon «A» du Code international "
+                    "de signaux — un guidon à deux pointes, blanc côté hampe, bleu "
+                    "de l'autre — hissé à terre, ou placé sur le bateau visible de "
+                    "tous les côtés, et éclairé de nuit (art. 32).\n\n"
+                    "Les dimensions sont prescrites, elles aussi : panneaux et "
+                    "pavillons d'au moins 60 cm de côté, ballons d'au moins 30 cm de "
+                    "diamètre ; un ballon peut être remplacé par un dispositif de "
+                    "même apparence, à condition d'exclure toute confusion (art. 20)."
+                ),
+            },
+            "de": {
+                "title": "Tagzeichen: zu jedem Nachtlicht gehört ein Tagzwilling",
+                "body": (
+                    "Die Verordnung sagt dasselbe zweimal, einmal für die Nacht und "
+                    "einmal für den Tag. Die Farbe trägt die Botschaft; nur der "
+                    "Träger wechselt — ein Licht im Dunkeln, ein Ball oder eine "
+                    "Flagge bei Helligkeit. Wer die Paare behält, behält beide "
+                    "Tabellen auf einmal.\n\n"
+                    "— Vorrangschiff: bei Nacht ein grünes helles Rundumlicht, "
+                    "möglichst 1 m höher als das Topplicht; bei Tag ein von allen "
+                    "Seiten sichtbarer GRÜNER Ball (Art. 27).\n"
+                    "— Berufsfischer während des Setzens und Einholens der Netze: "
+                    "bei Nacht ein gelbes gewöhnliches Rundumlicht; bei Tag ein "
+                    "GELBER Ball. Wer bei Tag mit der Schleppangel fischt, führt "
+                    "einen WEISSEN Ball (Art. 31).\n"
+                    "— Vor Wellenschlag zu schützende Schiffe (Messungen, "
+                    "hydrologische Untersuchungen, Rettungsaktionen): bei Nacht ein "
+                    "rotes über einem weissen Rundumlicht; bei Tag eine Flagge, obere "
+                    "Hälfte rot, untere weiss — oder zwei Flaggen übereinander, rot "
+                    "über weiss (Art. 28).\n"
+                    "— Für die Schifffahrt gefährliche Ankerungen: bei Nacht zwei "
+                    "weisse Rundumlichter übereinander mit mindestens 1 m Abstand; "
+                    "bei Tag zwei WEISSE Flaggen übereinander. Jede einzelne "
+                    "Ankerung wird bei Nacht mit weissen Lichtern, bei Tag mit gelben "
+                    "Schwimmkörpern bezeichnet (Art. 29).\n"
+                    "— Tauchen: die Flagge «A» des Internationalen Signalbuchs — ein "
+                    "Doppelstander, am Stock weiss, aussen blau — an Land gehisst "
+                    "oder auf dem Schiff von allen Seiten sichtbar angebracht und bei "
+                    "Nacht wirksam beleuchtet (Art. 32).\n\n"
+                    "Auch die Masse sind vorgeschrieben: Tafeln und Flaggen "
+                    "mindestens 60 cm hoch und breit, Bälle mindestens 30 cm "
+                    "Durchmesser; ein Ball darf durch eine Einrichtung ersetzt "
+                    "werden, die unmissverständlich gleich wirkt (Art. 20)."
+                ),
+            },
+            "it": {
+                "title": "Segnali diurni: ogni fanale notturno ha il suo gemello di giorno",
+                "body": (
+                    "L'ordinanza dice due volte la stessa cosa, una per la notte e "
+                    "una per il giorno. Il colore porta il messaggio; cambia solo il "
+                    "supporto — un fanale al buio, un pallone o una bandiera con la "
+                    "luce. Ricordare le coppie significa ricordare entrambe le "
+                    "tabelle in una volta.\n\n"
+                    "— Battello con precedenza: di notte un fanale chiaro a luce "
+                    "verde visibile per tutto l'orizzonte, se possibile un metro più "
+                    "in alto del fanale d'albero; di giorno un pallone VERDE visibile "
+                    "da tutti i lati (art. 27).\n"
+                    "— Pescatore professionista durante la posa e il ritiro delle "
+                    "reti: di notte un fanale ordinario a luce gialla visibile per "
+                    "tutto l'orizzonte; di giorno un pallone GIALLO. Chi di giorno "
+                    "pesca con la sciabica porta un pallone BIANCO (art. 31).\n"
+                    "— Natanti da proteggere dalle onde (misurazioni, ricerche "
+                    "idrologiche, salvataggio): di notte un fanale rosso sopra uno "
+                    "bianco; di giorno una bandiera metà rossa in alto e metà bianca "
+                    "in basso — oppure due bandiere sovrapposte, rossa sopra bianca "
+                    "(art. 28).\n"
+                    "— Ancoraggi pericolosi per la navigazione: di notte due fanali "
+                    "bianchi sovrapposti ad almeno un metro di distanza; di giorno "
+                    "due bandiere BIANCHE sovrapposte. Ogni singolo ancoraggio è "
+                    "segnalato di notte con fanali bianchi, di giorno con "
+                    "galleggianti gialli (art. 29).\n"
+                    "— Immersione subacquea: la bandiera «A» del Codice "
+                    "internazionale dei segnali — una fiamma a due punte, bianca "
+                    "verso l'asta e blu dall'altra parte — issata a terra oppure "
+                    "collocata sul battello visibile da tutti i lati e illuminata di "
+                    "notte (art. 32).\n\n"
+                    "Anche le dimensioni sono prescritte: tavole e bandiere di almeno "
+                    "60 cm di lato, palloni di almeno 30 cm di diametro; un pallone "
+                    "può essere sostituito da un dispositivo equivalente, purché "
+                    "impedisca qualsiasi confusione (art. 20)."
+                ),
+            },
+            "en": {
+                "title": "Day signals: every night light has a daytime twin",
+                "body": (
+                    "The ordinance says the same thing twice, once for night and once "
+                    "for day. The colour carries the message; only the carrier "
+                    "changes — a light in the dark, a ball or a flag in daylight. "
+                    "Learn the pairs and you learn both tables at once.\n\n"
+                    "— Priority boat: by night a bright green all-round light, if "
+                    "possible 1 m above the masthead light; by day a GREEN ball "
+                    "visible all round (art. 27).\n"
+                    "— Professional fisherman setting or hauling nets: by night an "
+                    "ordinary yellow all-round light; by day a YELLOW ball. Trolling "
+                    "by day is shown by a WHITE ball (art. 31).\n"
+                    "— Boat to be protected from wash (survey, hydrological research, "
+                    "rescue): by night a red light above a white one; by day a flag "
+                    "red over white — or two flags one above the other, red above "
+                    "white (art. 28).\n"
+                    "— Anchors dangerous to navigation: by night two white all-round "
+                    "lights at least 1 m apart; by day two WHITE flags one above the "
+                    "other. Each individual anchor is marked by white lights at "
+                    "night and yellow floats by day (art. 29).\n"
+                    "— Underwater diving: flag \"A\" of the International Code of "
+                    "Signals — a swallow-tailed pennant, white at the hoist and blue "
+                    "beyond — hoisted ashore, or carried on the boat visible all "
+                    "round, and effectively lit at night (art. 32).\n\n"
+                    "The dimensions are prescribed too: boards and flags at least "
+                    "60 cm high and wide, balls at least 30 cm across; a ball may be "
+                    "replaced by a device of the same appearance provided it excludes "
+                    "any confusion (art. 20)."
+                ),
+            },
+        },
+    },
+    {
+        "principle": "iala-buoyage",
+        "kind": "principle",
+        # Swiss lake/river marking (ONI annexe 4 ch. I). It shares the cone/cylinder
+        # logic with IALA but is its OWN system with its own reference direction —
+        # hence a ch-specific card rather than reusing the maritime Region A one.
+        "applies": {"ch"},
+        "prov": {
+            "ref": "ONI art. 37 et annexe 4, ch. I (fig. 49 à 55) — balisage des "
+                   "chenaux et des obstacles",
+            "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+            "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+            "as_of": "2022-01-01",
+            "licence": "Public domain — Swiss federal law (freely reusable).",
+        },
+        "lang": {
+            "fr": {
+                "title": "Balisage suisse : la forme donne le côté, les cônes donnent le quadrant",
+                "body": (
+                    "Sur les eaux suisses, deux formes suffisent à tenir le système : "
+                    "le CYLINDRE et le CÔNE. Tout se lit dans un sens de référence "
+                    "unique, «vu du large» — c'est-à-dire depuis l'eau libre vers la "
+                    "rive.\n\n"
+                    "Chenal (art. 37, al. 4 ; annexe 4, fig. 50, 51 et 53) :\n"
+                    "— À gauche, vu du large : des CYLINDRES, peints en rouge ou non "
+                    "peints.\n"
+                    "— À droite : des CÔNES pointe en haut, peints en vert ou non "
+                    "peints.\n"
+                    "— De nuit, la même chose en lumière : feux à éclats ROUGES à "
+                    "gauche, VERTS à droite.\n"
+                    "Le même couple sert à border un haut-fond près de la rive : "
+                    "cylindres du côté du large, cônes du côté de la terre "
+                    "(fig. 52).\n\n"
+                    "Obstacle isolé (fig. 49) : un CÔNE POINTE EN BAS, peint en rouge "
+                    "ou non peint. La pointe renversée est le signal «ceci n'est pas "
+                    "un bord de chenal, c'est un objet à éviter».\n\n"
+                    "Obstacles étendus — les marques de quadrant (fig. 54). Deux "
+                    "cônes superposés disent dans quel quadrant se trouve l'eau "
+                    "profonde :\n"
+                    "— Nord : les deux pointes EN HAUT.\n"
+                    "— Sud : les deux pointes EN BAS.\n"
+                    "— Est : cône inférieur pointe en bas, supérieur pointe en haut "
+                    "(les deux bases se touchent).\n"
+                    "— Ouest : cône inférieur pointe en haut, supérieur pointe en bas "
+                    "(les deux pointes se touchent).\n"
+                    "Nord et Sud se retiennent seuls : les pointes montrent le côté "
+                    "où passer. Un exemple de l'annexe donne la lecture complète — "
+                    "les marques indiquent que les eaux profondes se trouvent dans "
+                    "les quadrants Nord et Ouest (fig. 55).\n\n"
+                    "Attention à ne pas mélanger deux systèmes : ce balisage-ci est "
+                    "celui des eaux intérieures suisses. Le balisage maritime IALA "
+                    "région A, avec ses marques latérales rouges et vertes «en venant "
+                    "du large», est un autre référentiel."
+                ),
+            },
+            "de": {
+                "title": "Schweizer Bezeichnung: die Form gibt die Seite, die Kegel den Quadranten",
+                "body": (
+                    "Auf Schweizer Gewässern tragen zwei Formen das ganze System: der "
+                    "ZYLINDER und der KEGEL. Alles wird in einer einzigen "
+                    "Bezugsrichtung gelesen, «vom See her» — also vom freien Wasser "
+                    "gegen das Ufer.\n\n"
+                    "Fahrrinne (Art. 37 Abs. 4; Anhang 4, Fig. 50, 51 und 53):\n"
+                    "— Links, vom See her gesehen: ZYLINDER, rot gestrichen oder "
+                    "ungestrichen.\n"
+                    "— Rechts: KEGEL mit der Spitze nach oben, grün gestrichen oder "
+                    "ungestrichen.\n"
+                    "— Bei Nacht dasselbe als Licht: ROTE Blitzlichter links, GRÜNE "
+                    "rechts.\n"
+                    "Dasselbe Paar begrenzt eine Untiefe nahe dem Ufer: Zylinder auf "
+                    "der Seeseite, Kegel auf der Landseite (Fig. 52).\n\n"
+                    "Einzelnes Hindernis (Fig. 49): ein KEGEL MIT DER SPITZE NACH "
+                    "UNTEN, rot gestrichen oder ungestrichen. Die umgekehrte Spitze "
+                    "heisst «das ist kein Fahrrinnenrand, das ist ein Objekt, das zu "
+                    "meiden ist».\n\n"
+                    "Ausgedehnte Hindernisse — die Quadrantenzeichen (Fig. 54). Zwei "
+                    "übereinander angebrachte Kegel sagen, in welchem Quadranten das "
+                    "tiefe Wasser liegt:\n"
+                    "— Nord: beide Spitzen NACH OBEN.\n"
+                    "— Süd: beide Spitzen NACH UNTEN.\n"
+                    "— Ost: der untere mit der Spitze nach unten, der obere nach oben "
+                    "(die Grundflächen berühren sich).\n"
+                    "— West: der untere mit der Spitze nach oben, der obere nach "
+                    "unten (die Spitzen berühren sich).\n"
+                    "Nord und Süd merkt man sich von selbst: die Spitzen zeigen zur "
+                    "Seite, auf der man vorbeifährt.\n\n"
+                    "Nicht zu verwechseln: dies ist die Bezeichnung der Schweizer "
+                    "Binnengewässer. Das maritime IALA-System der Region A mit seinen "
+                    "roten und grünen Lateralzeichen «von See kommend» ist ein anderer "
+                    "Bezugsrahmen."
+                ),
+            },
+            "it": {
+                "title": "Segnalamento svizzero: la forma dà il lato, i coni il quadrante",
+                "body": (
+                    "Sulle acque svizzere due forme reggono l'intero sistema: il "
+                    "CILINDRO e il CONO. Tutto si legge in un'unica direzione di "
+                    "riferimento, «visto dal largo» — cioè dall'acqua libera verso la "
+                    "riva.\n\n"
+                    "Canale navigabile (art. 37 cpv. 4; allegato 4, fig. 50, 51 e "
+                    "53):\n"
+                    "— A sinistra, visto dal largo: CILINDRI, dipinti di rosso o non "
+                    "dipinti.\n"
+                    "— A destra: CONI con la punta in alto, dipinti di verde o non "
+                    "dipinti.\n"
+                    "— Di notte lo stesso in luce: luci lampeggianti ROSSE a "
+                    "sinistra, VERDI a destra.\n"
+                    "La stessa coppia delimita un basso fondale vicino alla riva: "
+                    "cilindri dal lato del largo, coni dal lato di terra "
+                    "(fig. 52).\n\n"
+                    "Ostacolo isolato (fig. 49): un CONO CON LA PUNTA IN BASSO, "
+                    "dipinto di rosso o non dipinto. La punta rovesciata dice «questo "
+                    "non è un bordo di canale, è un oggetto da evitare».\n\n"
+                    "Ostacoli estesi — i segnali di quadrante (fig. 54). Due coni "
+                    "sovrapposti dicono in quale quadrante si trova l'acqua "
+                    "profonda:\n"
+                    "— Nord: entrambe le punte IN ALTO.\n"
+                    "— Sud: entrambe le punte IN BASSO.\n"
+                    "— Est: il cono inferiore con la punta in basso, quello superiore "
+                    "in alto (le basi si toccano).\n"
+                    "— Ovest: il cono inferiore con la punta in alto, quello "
+                    "superiore in basso (le punte si toccano).\n"
+                    "Nord e Sud si ricordano da soli: le punte indicano il lato da "
+                    "cui passare. Un esempio dell'allegato dà la lettura completa — i "
+                    "segnali indicano che le acque profonde si trovano nei quadranti "
+                    "nord e ovest (fig. 55).\n\n"
+                    "Da non confondere: questo è il segnalamento delle acque interne "
+                    "svizzere. Il sistema marittimo IALA regione A, con i suoi "
+                    "segnali laterali rossi e verdi «venendo dal largo», è un altro "
+                    "riferimento."
+                ),
+            },
+            "en": {
+                "title": "Swiss marking: the shape gives the side, the cones give the quadrant",
+                "body": (
+                    "On Swiss waters two shapes carry the whole system: the CYLINDER "
+                    "and the CONE. Everything is read in a single reference "
+                    "direction, \"seen from the open water\" — that is, from open "
+                    "water towards the shore.\n\n"
+                    "Channel (art. 37, para. 4; annex 4, fig. 50, 51 and 53):\n"
+                    "— On the left, seen from the open water: CYLINDERS, painted red "
+                    "or unpainted.\n"
+                    "— On the right: CONES point upwards, painted green or "
+                    "unpainted.\n"
+                    "— At night the same thing in light: RED flashing lights to the "
+                    "left, GREEN to the right.\n"
+                    "The same pair edges a shoal near the bank: cylinders on the open-"
+                    "water side, cones on the shore side (fig. 52).\n\n"
+                    "Isolated obstacle (fig. 49): a CONE POINT DOWNWARDS, painted red "
+                    "or unpainted. The inverted point says \"this is not a channel "
+                    "edge, this is an object to avoid\".\n\n"
+                    "Extended obstacles — the quadrant marks (fig. 54). Two cones one "
+                    "above the other say which quadrant holds the deep water:\n"
+                    "— North: both points UP.\n"
+                    "— South: both points DOWN.\n"
+                    "— East: lower cone point down, upper point up (the bases meet).\n"
+                    "— West: lower cone point up, upper point down (the points "
+                    "meet).\n"
+                    "North and South remember themselves: the points show the side to "
+                    "pass. An example in the annex gives the full reading — the marks "
+                    "indicate that deep water lies in the North and West quadrants "
+                    "(fig. 55).\n\n"
+                    "Don't mix two systems: this is the marking of Swiss inland "
+                    "waters. Maritime IALA Region A, with its red and green lateral "
+                    "marks \"coming from seaward\", is a different frame of reference."
+                ),
+            },
+        },
+    },
+    {
+        "principle": "sound-signals",
+        "kind": "principle",
+        "applies": {"ch"},
+        "prov": {
+            "ref": "ONI art. 33 et 34 — signaux sonores (émission, durées, "
+                   "vocabulaire)",
+            "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+            "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+            "as_of": "2022-01-01",
+            "licence": "Public domain — Swiss federal law (freely reusable).",
+        },
+        "lang": {
+            "fr": {
+                "title": "Signaux sonores : une grammaire de durées et de nombres",
+                "body": (
+                    "Les signaux sonores forment une langue minuscule : deux durées, "
+                    "un nombre de sons, et c'est tout. Il n'y a rien à retenir par "
+                    "cœur une fois la règle de formation comprise.\n\n"
+                    "Les briques (art. 33, al. 2) : les sons sont de hauteur "
+                    "constante ; un SON BREF dure environ une seconde, un SON "
+                    "PROLONGÉ environ quatre, et l'intervalle entre deux sons "
+                    "successifs environ une seconde. La volée de cloche dure elle "
+                    "aussi environ quatre secondes et peut être remplacée par des "
+                    "coups frappés sur un objet métallique (al. 3).\n\n"
+                    "Le vocabulaire (art. 34) — à n'émettre que lorsque la sécurité "
+                    "de la navigation et des autres usagers l'exige :\n"
+                    "— un son prolongé : «Attention» ou «j'avance en ligne droite» ;\n"
+                    "— un son bref : «Je viens sur tribord» ;\n"
+                    "— deux sons brefs : «Je viens sur bâbord» ;\n"
+                    "— trois sons brefs : «Je bats en arrière» ;\n"
+                    "— quatre sons brefs : «Je suis incapable de manœuvrer» ;\n"
+                    "— une série de sons très brefs : «Danger d'abordage».\n"
+                    "La logique se voit d'un coup d'œil : un son long annonce une "
+                    "intention calme, et plus les sons brefs s'accumulent, plus la "
+                    "situation se dégrade — de la simple manœuvre jusqu'à la perte de "
+                    "contrôle, puis à l'alarme.\n\n"
+                    "Avec quoi les émettre (art. 33, al. 1) : les bateaux à moteur, "
+                    "sauf plaisance et sport, utilisent des avertisseurs actionnés "
+                    "mécaniquement ou électriquement ; les autres bateaux un klaxon "
+                    "ou une corne appropriés ; pour les bateaux à rames et les "
+                    "voiliers jusqu'à 15 m² de surface vélique, un sifflet suffit. "
+                    "Les bateaux de la police en service urgent peuvent employer un "
+                    "avertisseur à deux sons alternés ou une sirène, et avec l'accord "
+                    "de l'autorité les bateaux de l'OFDF, des pompiers, de la lutte "
+                    "contre la pollution et des services de sauvetage également "
+                    "(al. 4)."
+                ),
+            },
+            "de": {
+                "title": "Schallzeichen: eine Grammatik aus Dauer und Anzahl",
+                "body": (
+                    "Die Schallzeichen sind eine winzige Sprache: zwei Dauern, eine "
+                    "Anzahl Töne, mehr nicht. Wer die Bildungsregel verstanden hat, "
+                    "muss nichts auswendig lernen.\n\n"
+                    "Die Bausteine (Art. 33 Abs. 2): Die Töne sind von "
+                    "gleichbleibender Höhe; ein KURZER TON dauert etwa eine Sekunde, "
+                    "ein LANGER TON etwa vier, die Pause zwischen aufeinanderfolgenden "
+                    "Tönen etwa eine Sekunde. Eine Gruppe von Glockenschlägen dauert "
+                    "ebenfalls etwa vier Sekunden und darf durch Schläge auf einen "
+                    "metallenen Gegenstand ersetzt werden (Abs. 3).\n\n"
+                    "Das Vokabular (Art. 34) — nur zu geben, wenn es die Sicherheit "
+                    "der Schifffahrt und der übrigen Benützer des Gewässers "
+                    "gebietet:\n"
+                    "— ein langer Ton: «Achtung» oder «Ich halte meinen Kurs bei»;\n"
+                    "— ein kurzer Ton: «Ich richte meinen Kurs nach Steuerbord»;\n"
+                    "— zwei kurze Töne: «Ich richte meinen Kurs nach Backbord»;\n"
+                    "— drei kurze Töne: «Meine Maschine geht rückwärts»;\n"
+                    "— vier kurze Töne: «Ich bin manövrierunfähig»;\n"
+                    "— eine Folge sehr kurzer Töne: «Gefahr eines "
+                    "Zusammenstosses».\n"
+                    "Die Logik sieht man auf einen Blick: ein langer Ton kündigt eine "
+                    "ruhige Absicht an, und je mehr kurze Töne sich häufen, desto "
+                    "schlimmer die Lage — vom blossen Manöver über den Verlust der "
+                    "Manövrierfähigkeit bis zum Alarm.\n\n"
+                    "Womit (Art. 33 Abs. 1): Motorschiffe, ausgenommen "
+                    "Vergnügungsschiffe und Sportboote, geben sie mit mechanisch oder "
+                    "elektrisch betriebenen Schallgeräten; andere Schiffe mit einer "
+                    "geeigneten Hupe oder einem Horn; für Ruderboote und Segelschiffe "
+                    "bis 15 m² Segelfläche genügt eine Mundpfeife. Polizeischiffe im "
+                    "dringlichen Einsatz dürfen ein Zweiklanghorn oder eine Sirene "
+                    "verwenden, mit Zustimmung der Behörde auch Schiffe des BAZG, der "
+                    "Feuerwehr, der Ölwehr und der Rettungsdienste (Abs. 4)."
+                ),
+            },
+            "it": {
+                "title": "Segnali acustici: una grammatica di durate e di numeri",
+                "body": (
+                    "I segnali acustici sono una lingua minuscola: due durate, un "
+                    "numero di suoni, e basta. Capita la regola di formazione, non "
+                    "resta nulla da imparare a memoria.\n\n"
+                    "I mattoni (art. 33 cpv. 2): i suoni sono di intensità costante; "
+                    "un SUONO BREVE dura circa un secondo, un SUONO PROLUNGATO circa "
+                    "quattro, e l'intervallo fra due suoni successivi circa un "
+                    "secondo. Anche la scampanellata dura circa quattro secondi e può "
+                    "essere sostituita da colpi battuti su un oggetto metallico "
+                    "(cpv. 3).\n\n"
+                    "Il vocabolario (art. 34) — da emettere solo se la sicurezza "
+                    "della navigazione e degli altri utenti lo esige:\n"
+                    "— un suono prolungato: «attenzione» oppure «mantengo la "
+                    "rotta»;\n"
+                    "— un suono breve: «accosto a destra»;\n"
+                    "— due suoni brevi: «accosto a sinistra»;\n"
+                    "— tre suoni brevi: «faccio marcia indietro»;\n"
+                    "— quattro suoni brevi: «sono impossibilitato a manovrare»;\n"
+                    "— una serie di suoni molto brevi: «pericolo di collisione».\n"
+                    "La logica si coglie a colpo d'occhio: un suono lungo annuncia "
+                    "un'intenzione tranquilla, e più i suoni brevi si accumulano, più "
+                    "la situazione peggiora — dalla semplice manovra alla perdita di "
+                    "controllo, fino all'allarme.\n\n"
+                    "Con che cosa (art. 33 cpv. 1): i battelli a motore, eccettuate "
+                    "le imbarcazioni da diporto e sportive, usano sorgenti sonore "
+                    "azionate meccanicamente o elettricamente; gli altri natanti un "
+                    "clacson o un corno idoneo; per i battelli a remi e a vela fino a "
+                    "15 m² di superficie velica basta un semplice fischietto."
+                ),
+            },
+            "en": {
+                "title": "Sound signals: a grammar of durations and counts",
+                "body": (
+                    "Sound signals are a tiny language: two durations, a number of "
+                    "blasts, and that is all. Once the rule of formation is clear "
+                    "there is nothing left to memorise.\n\n"
+                    "The building blocks (art. 33, para. 2): blasts are of constant "
+                    "pitch; a SHORT blast lasts about one second, a PROLONGED blast "
+                    "about four, and the interval between successive blasts about one "
+                    "second. A peal of the bell also lasts about four seconds and may "
+                    "be replaced by strokes on a metal object (para. 3).\n\n"
+                    "The vocabulary (art. 34) — to be given only when the safety of "
+                    "navigation and of other users requires it:\n"
+                    "— one prolonged blast: \"Attention\" or \"I am holding my "
+                    "course\";\n"
+                    "— one short blast: \"I am turning to starboard\";\n"
+                    "— two short blasts: \"I am turning to port\";\n"
+                    "— three short blasts: \"I am going astern\";\n"
+                    "— four short blasts: \"I am unable to manoeuvre\";\n"
+                    "— a series of very short blasts: \"Risk of collision\".\n"
+                    "The logic is visible at a glance: a long blast announces a calm "
+                    "intention, and the more short blasts pile up the worse the "
+                    "situation — from a simple manoeuvre, to loss of control, to "
+                    "alarm.\n\n"
+                    "What to sound them with (art. 33, para. 1): powered boats other "
+                    "than pleasure and sport craft use mechanically or electrically "
+                    "operated horns; other boats a suitable klaxon or horn; for "
+                    "rowing boats and sailing boats up to 15 m² of sail area a "
+                    "whistle is enough. Police boats on urgent service may use a "
+                    "two-tone alternating horn or a siren, and with the authority's "
+                    "agreement so may customs, fire, pollution-control and rescue "
+                    "boats (para. 4)."
+                ),
+            },
+        },
+    },
+    {
+        "principle": "sound-signals",
+        "kind": "principle",
+        "applies": {"int", "fr_cotiere"},
+        "prov": {
+            "ref": "COLREG 1972 / RIPAM — Rules 32, 33, 34, 35, 36",
+            "source": "COLREG — International Regulations for Preventing Collisions "
+                      "at Sea, 1972 (publié en droit français comme RIPAM)",
+            "url": "https://www.navcen.uscg.gov/sites/default/files/pdf/navRules/"
+                   "navrules.pdf",
+            "as_of": None,
+            "licence": "Public domain — US Government work (17 USC §105); French "
+                       "publication: Licence Ouverte / Etalab 2.0.",
+        },
+        "lang": {
+            "en": {
+                "title": "Sound at sea: short blasts say what I am doing, prolonged blasts say I am here",
+                "body": (
+                    "The whole system splits on one question: can the other vessel "
+                    "SEE you? In sight of one another, sound reports a manoeuvre. Out "
+                    "of sight, it reports a presence. Same blasts, two different "
+                    "jobs.\n\n"
+                    "The units (Rule 32): a whistle is any sound signalling appliance "
+                    "capable of producing the prescribed blasts; a short blast lasts "
+                    "about one second; a prolonged blast from four to six seconds.\n\n"
+                    "In sight of another vessel — manoeuvring signals (Rule 34):\n"
+                    "— one short blast: \"I am altering my course to starboard\";\n"
+                    "— two short blasts: \"I am altering my course to port\";\n"
+                    "— three short blasts: \"I am operating astern propulsion\";\n"
+                    "— at least five short and rapid blasts: doubt about the other "
+                    "vessel's intentions or manoeuvre — the warning signal.\n"
+                    "Note the count matches the action, and only the doubt signal is "
+                    "open-ended: five *or more*, because it is an alarm rather than a "
+                    "statement.\n\n"
+                    "In or near restricted visibility — signals of presence "
+                    "(Rule 35): a power-driven vessel making way through the water "
+                    "sounds one prolonged blast at intervals of not more than two "
+                    "minutes. Here the blast is on a clock, not a reaction: nobody "
+                    "can see you, so you announce yourself on a schedule.\n\n"
+                    "What you must carry (Rule 33): a vessel of 100 metres or more "
+                    "shall be provided with a whistle, a bell and a gong. A vessel of "
+                    "less than 12 metres is not obliged to carry the prescribed "
+                    "appliances, but if she does not, she must have some other means "
+                    "of making an efficient sound signal.\n\n"
+                    "And if you signal with light instead (Rule 36): any light used "
+                    "to attract attention must be such that it cannot be mistaken for "
+                    "an aid to navigation, and high-intensity intermittent or "
+                    "revolving lights, such as strobe lights, shall be avoided."
+                ),
+            },
+            "fr": {
+                "title": "Le son en mer : les sons brefs disent ce que je fais, les sons prolongés disent que je suis là",
+                "body": (
+                    "Tout le système se partage sur une seule question : l'autre "
+                    "navire peut-il vous VOIR ? En vue l'un de l'autre, le son "
+                    "annonce une manœuvre. Hors de vue, il annonce une présence. Mêmes "
+                    "sons, deux fonctions différentes.\n\n"
+                    "Les unités (règle 32) : le sifflet est tout appareil capable "
+                    "d'émettre les sons prescrits ; un son bref dure environ une "
+                    "seconde, un son prolongé de quatre à six secondes.\n\n"
+                    "En vue d'un autre navire — signaux de manœuvre (règle 34) :\n"
+                    "— un son bref : «Je viens sur tribord» ;\n"
+                    "— deux sons brefs : «Je viens sur bâbord» ;\n"
+                    "— trois sons brefs : «Mes machines battent en arrière» ;\n"
+                    "— au moins cinq sons brefs et rapprochés : le doute sur les "
+                    "intentions ou la manœuvre de l'autre — le signal "
+                    "d'avertissement.\n"
+                    "Le nombre suit l'action, et seul le signal de doute reste "
+                    "ouvert : cinq sons *ou plus*, parce que c'est une alarme et non "
+                    "une déclaration.\n\n"
+                    "Par visibilité réduite ou à ses abords — signaux de présence "
+                    "(règle 35) : un navire à propulsion mécanique faisant route émet "
+                    "un son prolongé à intervalles ne dépassant pas deux minutes. Ici "
+                    "le son suit une horloge et non une réaction : personne ne vous "
+                    "voit, vous vous annoncez donc à intervalle régulier.\n\n"
+                    "Ce qu'il faut avoir à bord (règle 33) : un navire de 100 m ou "
+                    "plus doit être pourvu d'un sifflet, d'une cloche et d'un gong. Un "
+                    "navire de moins de 12 m n'est pas tenu d'avoir les appareils "
+                    "prescrits, mais s'il ne les a pas, il doit disposer d'un autre "
+                    "moyen d'émettre un signal sonore efficace.\n\n"
+                    "Et si l'on signale par la lumière (règle 36) : tout feu destiné "
+                    "à attirer l'attention doit être tel qu'il ne puisse être "
+                    "confondu avec une aide à la navigation, et il faut éviter les "
+                    "feux intermittents ou tournants de forte intensité, comme les "
+                    "feux à éclats stroboscopiques."
+                ),
+            },
+        },
+    },
+    {
+        "principle": "day-shapes",
+        "kind": "principle",
+        "applies": {"int", "fr_cotiere"},
+        "prov": {
+            "ref": "COLREG 1972 / RIPAM — Rules 20(d), 25(e), 26(c), 28, 30",
+            "source": "COLREG — International Regulations for Preventing Collisions "
+                      "at Sea, 1972 (publié en droit français comme RIPAM)",
+            "url": "https://www.navcen.uscg.gov/sites/default/files/pdf/navRules/"
+                   "navrules.pdf",
+            "as_of": None,
+            "licence": "Public domain — US Government work (17 USC §105); French "
+                       "publication: Licence Ouverte / Etalab 2.0.",
+        },
+        "lang": {
+            "en": {
+                "title": "Day shapes: the daylight half of the light rules",
+                "body": (
+                    "Shapes are not a separate subject. The rules on lights and "
+                    "shapes are complied with in all weathers; lights run from sunset "
+                    "to sunrise, and the shapes are shown by day (Rule 20). So every "
+                    "shape answers the same question a light answers after dark: what "
+                    "kind of vessel is that, and what is she doing?\n\n"
+                    "Three shapes carry almost everything, and each has a settled "
+                    "meaning:\n"
+                    "— The BALL says \"not proceeding normally\". A vessel at anchor "
+                    "shows a black ball forward — the daytime twin of her all-round "
+                    "white anchor light. Aground, she shows three balls in a vertical "
+                    "line, the same escalation her two all-round red lights make at "
+                    "night (Rule 30).\n"
+                    "— The CONE qualifies how a vessel is proceeding. A sailing vessel "
+                    "also being propelled by machinery shows a conical shape, apex "
+                    "DOWNWARDS, forward where it can best be seen (Rule 25(e)) — she "
+                    "looks like a sailing boat but must be treated as a power-driven "
+                    "one, and the cone is the only thing that says so. A vessel "
+                    "fishing other than trawling, with outlying gear extending more "
+                    "than 150 metres, shows a cone apex UPWARDS in the direction of "
+                    "the gear (Rule 26(c)) — here the cone points at the hazard.\n"
+                    "— The CYLINDER is reserved for a vessel constrained by her "
+                    "draught, which may show it in addition to her ordinary lights, "
+                    "or three all-round red lights in a vertical line (Rule 28).\n\n"
+                    "Read that way the day picture is small: count the balls for how "
+                    "stuck she is, look at which way a cone points to know whether it "
+                    "is about her engine or about her gear, and treat a cylinder as a "
+                    "warning about depth."
+                ),
+            },
+            "fr": {
+                "title": "Marques de jour : la moitié diurne des règles sur les feux",
+                "body": (
+                    "Les marques ne sont pas un sujet à part. Les règles sur les feux "
+                    "et les marques s'appliquent par tous les temps ; les feux vont du "
+                    "coucher au lever du soleil, et les marques se montrent de jour "
+                    "(règle 20). Chaque marque répond donc à la question que le feu "
+                    "traite la nuit : quel genre de navire est-ce, et que fait-il ?\n\n"
+                    "Trois formes portent presque tout, chacune avec un sens fixe :\n"
+                    "— La BOULE dit «je ne fais pas route normalement». Au mouillage, "
+                    "un navire montre une boule noire à l'avant — le jumeau diurne de "
+                    "son feu blanc de mouillage visible sur tout l'horizon. Échoué, il "
+                    "montre trois boules en ligne verticale, la même gradation que ses "
+                    "deux feux rouges la nuit (règle 30).\n"
+                    "— Le CÔNE qualifie la façon de faire route. Un voilier qui marche "
+                    "aussi au moteur montre un cône, POINTE EN BAS, à l'avant là où il "
+                    "est le mieux visible (règle 25(e)) — il a l'air d'un voilier mais "
+                    "doit être traité comme un navire à moteur, et seul le cône le "
+                    "dit. Un navire qui pêche autrement qu'au chalut, avec un engin "
+                    "déployé sur plus de 150 m, montre un cône POINTE EN HAUT dans la "
+                    "direction de l'engin (règle 26(c)) — ici le cône désigne le "
+                    "danger.\n"
+                    "— Le CYLINDRE est réservé au navire handicapé par son tirant "
+                    "d'eau, qui peut le montrer en plus de ses feux ordinaires, ou "
+                    "bien trois feux rouges superposés visibles sur tout l'horizon "
+                    "(règle 28).\n\n"
+                    "Lu ainsi, le tableau de jour est court : comptez les boules pour "
+                    "savoir à quel point il est immobilisé, regardez de quel côté "
+                    "pointe un cône pour savoir s'il parle du moteur ou de l'engin de "
+                    "pêche, et prenez un cylindre pour un avertissement de profondeur."
+                ),
+            },
+        },
+    },
 ]
 
 
