@@ -19,6 +19,7 @@ import hashlib
 import random
 import re
 import sqlite3
+import unicodedata
 
 from .schema import Question, Choice, Provenance, make_question_id
 
@@ -47,21 +48,91 @@ _STEM_DEFAULT_BY_LANG = {
 }
 
 # Diagnostic feedback (practice mode): a figure distractor is itself a real, but
-# *different*, signal. We attach to each distractor a note naming the annex figure
-# its caption actually belongs to — so a wrong pick teaches "that's this other
-# sign, look it up", and it stays 100 % sourced (just a pointer into the same law).
-_DISTRACTOR_NOTE = {
-    "fr": "Cette réponse correspond à {ref}.",
-    "de": "Diese Antwort gehört zu {ref}.",
-    "it": "Questa risposta corrisponde a {ref}.",
-    "en": "This answer corresponds to {ref}.",
+# *different*, signal, so a wrong pick can be answered from the law alone.
+#
+# The note leads with the DISCRIMINATION, not the citation. A learner does not
+# retain "this is annex 4 fig. 12"; they retain "you picked an obligation, the
+# answer is a prohibition — the frame tells you the family before the pictogram".
+# So we classify both captions into the annex's own five families and say what
+# separates them; the article reference closes the sentence instead of being it.
+# Everything here stays derived — the families are the ones the annex captions
+# name themselves, never an invented rationale (roadmap A2: sourced-only).
+_SIGN_FAMILIES: list[tuple[str, tuple[str, ...]]] = [
+    ("prohibition", ("interdiction", "interdit", "interdite", "verbot", "verboten",
+                     "divieto", "vietat", "prohibit", "no ")),
+    ("obligation", ("obligation", "obligatoire", "gebot", "geboten", "obbligo",
+                    "obbligatorio", "mandatory", "must ")),
+    ("restriction", ("est limite", "est limitee", "limitation", "beschrank",
+                     "begrenzt", "limitazione", "limitato", "limited", "restrict")),
+    ("recommendation", ("recommandation", "recommande", "empfehl", "raccomand",
+                        "recommended")),
+    ("authorisation", ("autorisation", "autorise", "erlaub", "gestattet",
+                       "autorizzazione", "autorizzat", "permitted", "authorised")),
+]
+
+# {family of the option} × {same / different from the answer's family}. The
+# same-family case is the more useful teaching moment: the learner had the family
+# right and the pictogram wrong, which is a different mistake from a family slip.
+_NOTE_CROSS = {
+    "fr": "Vous avez choisi un signal d'une autre famille : « {cap} » ({ref}). "
+          "La bordure et la couleur donnent la famille avant même le pictogramme.",
+    "de": "Sie haben ein Zeichen einer anderen Familie gewählt: „{cap}“ ({ref}). "
+          "Rand und Farbe nennen die Familie schon vor dem Piktogramm.",
+    "it": "Ha scelto un segnale di un'altra famiglia: «{cap}» ({ref}). "
+          "Il bordo e il colore danno la famiglia prima ancora del pittogramma.",
+    "en": "You picked a sign from another family: \"{cap}\" ({ref}). "
+          "The border and colour give the family before the pictogram does.",
+}
+_NOTE_SAME = {
+    "fr": "Bonne famille, mauvais signal : « {cap} » ({ref}). "
+          "Ici c'est le pictogramme, et lui seul, qui fait la différence.",
+    "de": "Richtige Familie, falsches Zeichen: „{cap}“ ({ref}). "
+          "Hier entscheidet allein das Piktogramm.",
+    "it": "Famiglia giusta, segnale sbagliato: «{cap}» ({ref}). "
+          "Qui è il pittogramma, e solo lui, a fare la differenza.",
+    "en": "Right family, wrong sign: \"{cap}\" ({ref}). "
+          "Here the pictogram alone is what separates them.",
+}
+# Fallback when neither caption classifies (lights, sound signals, buoyage): we
+# can still say what the option really is, which beats a bare pointer.
+_NOTE_PLAIN = {
+    "fr": "C'est un autre signal : « {cap} » ({ref}).",
+    "de": "Das ist ein anderes Zeichen: „{cap}“ ({ref}).",
+    "it": "È un altro segnale: «{cap}» ({ref}).",
+    "en": "That is a different signal: \"{cap}\" ({ref}).",
 }
 
 
-def _distractor_note(lang: str, ref: str | None) -> str:
+def _sign_family(caption: str) -> str:
+    """The annex family a caption names itself into, or "" when it names none.
+    Accent- and case-insensitive; the keyword sets are the annex's own wording in
+    the four shipped languages."""
+    hay = unicodedata.normalize("NFKD", caption or "").lower()
+    hay = "".join(c for c in hay if not unicodedata.combining(c))
+    # "Fin d'une interdiction ou d'une obligation" names two families to cancel
+    # them, so it belongs to neither — without this it classifies as a
+    # prohibition and the note claims a family match that isn't one.
+    if hay.startswith(("fin d", "ende ", "fine d", "end of")):
+        return ""
+    for family, kws in _SIGN_FAMILIES:
+        if any(kw in hay for kw in kws):
+            return family
+    return ""
+
+
+def _distractor_note(lang: str, ref: str | None, caption: str = "",
+                     answer: str = "") -> str:
+    """Mechanism-first note for one wrong option: what it is, how it differs from
+    the answer, and only then where it lives in the law."""
     if not ref:
         return ""
-    return _DISTRACTOR_NOTE.get(lang, _DISTRACTOR_NOTE["fr"]).format(ref=ref)
+    fam, ans_fam = _sign_family(caption), _sign_family(answer)
+    if fam and ans_fam:
+        table = _NOTE_SAME if fam == ans_fam else _NOTE_CROSS
+    else:
+        table = _NOTE_PLAIN
+    tpl = table.get(lang, table["fr"])
+    return tpl.format(cap=caption.rstrip(" ."), ref=ref)
 
 
 def _stem(sigtype: str, lang: str) -> str:
@@ -230,7 +301,8 @@ def build_figure_questions(kb: sqlite3.Connection) -> tuple[list[Question], dict
 
         stem = _stem(f["sigtype"], lang)
         options = [Choice(ans, is_correct=True)] + [
-            Choice(p, rationale=_distractor_note(lang, cap_ref.get((lang, f["source_id"], p))))
+            Choice(p, rationale=_distractor_note(
+                lang, cap_ref.get((lang, f["source_id"], p)), p, ans))
             for p in picks]
         random.Random(seed + 1).shuffle(options)   # answer not always first
 
