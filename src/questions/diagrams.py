@@ -49,7 +49,7 @@ import os
 import sqlite3
 
 GENERATOR = "gen:diagram.v1"
-FAMILIES = ("day-shapes", "nav-lights", "sound-signals")
+FAMILIES = ("day-shapes", "nav-lights", "sound-signals", "give-way")
 
 # Where the rendered figures land, relative to the repo root. Under data/assets/ so
 # the per-country and core web bundlers relocate them like any other figure.
@@ -561,6 +561,167 @@ def render_sound(pattern: list[str], title: str, repeat: bool = False,
     return "\n".join(parts) + "\n"
 
 
+# ── Give-way geometry ─────────────────────────────────────────────────────────
+# A plan view, because right-of-way is the one family whose content IS a geometry:
+# who is where, heading which way. The rules read as word puzzles ("the vessel which
+# has the other on her own starboard side") and resolve instantly as pictures.
+#
+# Two conventions carry the whole diagram, and neither needs a caption — which
+# matters, because one drawing serves four languages:
+#
+#   * the GIVE-WAY vessel gets a curved arrow: she is the one that alters.
+#   * the STAND-ON vessel gets a straight arrow: she holds her course and speed.
+#
+# Nothing is colour-coded red/green, deliberately: those two colours already mean
+# port and starboard everywhere else in this module, and reusing them for roles
+# would collide with the sidelight convention the learner is being taught.
+_GW, _GH = 200.0, 200.0
+_WATER = "#eaf1f8"
+_HULL_GIVE = "#1f3a5f"      # the vessel that must act, drawn solid
+_HULL_STAND = "#ffffff"     # the vessel that must not, drawn open
+_HULL_EDGE = "#1f3a5f"
+_ARROW = "#5b6b80"
+_SECTOR = "#f4c542"
+
+
+def _rot(x: float, y: float, cx: float, cy: float, deg: float) -> tuple[float, float]:
+    """Rotate a point about a centre. Heading 0 points up the page (north)."""
+    import math
+    a = math.radians(deg)
+    dx, dy = x - cx, y - cy
+    return (cx + dx * math.cos(a) - dy * math.sin(a),
+            cy + dx * math.sin(a) + dy * math.cos(a))
+
+
+def _hull(cx: float, cy: float, hdg: float, give_way: bool) -> str:
+    """A hull seen from above, bow along ``hdg``. Length 44, beam 18 — enough to read
+    the heading at card size without becoming a picture of a particular boat."""
+    pts = [(cx, cy - 22), (cx + 9, cy - 6), (cx + 9, cy + 20), (cx - 9, cy + 20),
+           (cx - 9, cy - 6)]
+    got = " ".join(f"{px:.1f},{py:.1f}"
+                   for px, py in (_rot(x, y, cx, cy, hdg) for x, y in pts))
+    fill = _HULL_GIVE if give_way else _HULL_STAND
+    return (f'<polygon points="{got}" fill="{fill}" stroke="{_HULL_EDGE}" '
+            f'stroke-width="2" stroke-linejoin="round"/>')
+
+
+def _course_arrow(cx: float, cy: float, hdg: float, give_way: bool) -> str:
+    """Straight ahead for the stand-on vessel (hold course), curving to starboard for
+    the one that must keep out of the way (she is the one that alters)."""
+    if not give_way:
+        tip = _rot(cx, cy - 54, cx, cy, hdg)
+        base = _rot(cx, cy - 28, cx, cy, hdg)
+        l = _rot(cx - 5, cy - 44, cx, cy, hdg)
+        r = _rot(cx + 5, cy - 44, cx, cy, hdg)
+        return (f'<line x1="{base[0]:.1f}" y1="{base[1]:.1f}" x2="{tip[0]:.1f}" '
+                f'y2="{tip[1]:.1f}" stroke="{_ARROW}" stroke-width="2.5"/>'
+                f'<polygon points="{tip[0]:.1f},{tip[1]:.1f} {l[0]:.1f},{l[1]:.1f} '
+                f'{r[0]:.1f},{r[1]:.1f}" fill="{_ARROW}"/>')
+    start = _rot(cx, cy - 26, cx, cy, hdg)
+    ctrl = _rot(cx + 4, cy - 44, cx, cy, hdg)
+    end = _rot(cx + 30, cy - 50, cx, cy, hdg)
+    tipl = _rot(cx + 22, cy - 56, cx, cy, hdg)
+    tipr = _rot(cx + 24, cy - 40, cx, cy, hdg)
+    return (f'<path d="M{start[0]:.1f},{start[1]:.1f} Q{ctrl[0]:.1f},{ctrl[1]:.1f} '
+            f'{end[0]:.1f},{end[1]:.1f}" fill="none" stroke="{_ARROW}" '
+            f'stroke-width="2.5"/>'
+            f'<polygon points="{end[0]:.1f},{end[1]:.1f} {tipl[0]:.1f},{tipl[1]:.1f} '
+            f'{tipr[0]:.1f},{tipr[1]:.1f}" fill="{_ARROW}"/>')
+
+
+def _boom(cx: float, cy: float, hdg: float, side: str) -> str:
+    """The mainsail boom, which is what Rule 12(b) reads the wind off: the windward
+    side is the one OPPOSITE the mainsail. Drawing the boom is therefore drawing the
+    tack, without a word of explanation."""
+    dx = -30 if side == "port" else 30
+    mast = _rot(cx, cy - 8, cx, cy, hdg)
+    clew = _rot(cx + dx, cy + 20, cx, cy, hdg)
+    belly = _rot(cx + dx * 0.45, cy + 2, cx, cy, hdg)
+    # the sail as seen from above: a curved sliver from the mast to the clew, on the
+    # side the boom is out. Rule 12(b) reads the wind off exactly this — the windward
+    # side is the one opposite the mainsail — so drawing it IS drawing the tack.
+    return (f'<path d="M{mast[0]:.1f},{mast[1]:.1f} Q{belly[0]:.1f},{belly[1]:.1f} '
+            f'{clew[0]:.1f},{clew[1]:.1f}" fill="none" stroke="{_HULL_EDGE}" '
+            f'stroke-width="6" stroke-linecap="round" stroke-opacity="0.55"/>'
+            f'<circle cx="{mast[0]:.1f}" cy="{mast[1]:.1f}" r="3" '
+            f'fill="{_HULL_EDGE}"/>')
+
+
+def _stern_sector(cx: float, cy: float, hdg: float) -> str:
+    """The 135° arc astern — Rule 13(b) defines overtaking as coming up from more than
+    22.5° abaft the beam, which is exactly the arc in which only the sternlight shows.
+    Shading it turns a bearing rule into a place on the water."""
+    import math
+    r = 78.0
+    out = []
+    for edge in (-67.5, 67.5):
+        px, py = _rot(cx, cy + r, cx, cy, hdg + edge)
+        out.append((px, py))
+    big = 0
+    return (f'<path d="M{cx:.1f},{cy:.1f} L{out[0][0]:.1f},{out[0][1]:.1f} '
+            f'A{r:g},{r:g} 0 {big} 1 {out[1][0]:.1f},{out[1][1]:.1f} Z" '
+            f'fill="{_SECTOR}" fill-opacity="0.30" stroke="{_SECTOR}" '
+            f'stroke-width="1.5"/>') if not math.isnan(r) else ""
+
+
+def _river() -> str:
+    """Two banks and a flow arrow. Without the current on the page there is nothing
+    to tell a montant from an avalant, and the whole inland meeting rule is about
+    which of the two is which."""
+    return (f'<rect x="0" y="0" width="26" height="{_GH:g}" fill="#dfe7d8"/>'
+            f'<rect x="{_GW - 26:g}" y="0" width="26" height="{_GH:g}" '
+            f'fill="#dfe7d8"/>'
+            f'<line x1="26" y1="0" x2="26" y2="{_GH:g}" stroke="#b9c8ab" '
+            f'stroke-width="2"/>'
+            f'<line x1="{_GW - 26:g}" y1="0" x2="{_GW - 26:g}" y2="{_GH:g}" '
+            f'stroke="#b9c8ab" stroke-width="2"/>'
+            # flow: downstream is down the page
+            f'<line x1="13" y1="64" x2="13" y2="126" stroke="#8fa87e" '
+            f'stroke-width="2.5"/>'
+            f'<polygon points="13,138 7,124 19,124" fill="#8fa87e"/>'
+            f'<line x1="{_GW - 13:g}" y1="64" x2="{_GW - 13:g}" y2="126" '
+            f'stroke="#8fa87e" stroke-width="2.5"/>'
+            f'<polygon points="{_GW - 13:g},138 {_GW - 19:g},124 '
+            f'{_GW - 7:g},124" fill="#8fa87e"/>')
+
+
+def render_giveway(boats: list[dict], title: str, wind: bool = False,
+                   sector_on: int | None = None, source_ref: str = "",
+                   river: bool = False) -> str:
+    """A plan view of an encounter. ``boats`` are dicts with x, y, hdg, role
+    ('give-way' | 'stand-on') and optional boom side for sailing vessels."""
+    credit = (f"\n<!-- Generated figure, derived from {source_ref}. Solid hull with a "
+              f"curving arrow = the vessel that keeps out of the way; open hull with a "
+              f"straight arrow = the vessel that holds course. Original artwork; "
+              f"project licence (CC BY-SA 4.0). {GENERATOR} -->" if source_ref else "")
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {_GW:g} {_GH:g}" '
+        f'width="{_GW:g}" height="{_GH:g}" role="img" '
+        f'aria-label="{_esc(title)}">{credit}',
+        f'<title>{_esc(title)}</title>',
+        f'<rect width="{_GW:g}" height="{_GH:g}" fill="{_WATER}"/>',
+    ]
+    if river:
+        parts.append(_river())
+    if wind:
+        # Wind down the page, so "the wind on the port side" is readable off the boom.
+        parts.append(f'<line x1="{_GW / 2:g}" y1="8" x2="{_GW / 2:g}" y2="34" '
+                     f'stroke="{_ARROW}" stroke-width="2" stroke-dasharray="4 3"/>')
+        parts.append(f'<polygon points="{_GW / 2:g},40 {_GW / 2 - 5:g},30 '
+                     f'{_GW / 2 + 5:g},30" fill="{_ARROW}"/>')
+    if sector_on is not None:
+        b = boats[sector_on]
+        parts.append(_stern_sector(b["x"], b["y"], b["hdg"]))
+    for b in boats:
+        give = b["role"] == "give-way"
+        parts.append(_course_arrow(b["x"], b["y"], b["hdg"], give))
+        parts.append(_hull(b["x"], b["y"], b["hdg"], give))
+        if b.get("boom"):
+            parts.append(_boom(b["x"], b["y"], b["hdg"], b["boom"]))
+    parts.append("</svg>")
+    return "\n".join(parts) + "\n"
+
+
 # ── Nav-lights: the spec ──────────────────────────────────────────────────
 # ``column`` is top-to-bottom on the centreline; ``sidelights`` says the vessel is
 # making way through the water (several Rules prescribe the identity lights always
@@ -994,10 +1155,115 @@ def figures_for(principle: str, bank_id: str) -> list[str]:
             if d["family"] == principle and d["key"] in ok]
 
 
+# ── Give-way: the spec ────────────────────────────────────────────────────────
+# These live on concept cards only. Every one of them shows WHO gives way, which is
+# the answer to the questions they illustrate — so unlike the other families they
+# must never be attached to a stem, and none appears in ASSIGNMENTS.
+GIVE_WAY: list[dict] = [
+    {
+        "key": "meeting-head-on",
+        "boats": [{"x": 86, "y": 166, "hdg": 0, "role": "give-way"},
+                  {"x": 114, "y": 34, "hdg": 180, "role": "give-way"}],
+        "title": "Deux bateaux à moteur face à face ; chacun vient sur tribord",
+        "source": {
+            "unit": "colreg-en-colreg_rule_14",
+            "ref": "COLREG Rule 14(a)",
+            "quote": "each shall alter her course to starboard so that each shall "
+                     "pass on the port side of the other",
+        },
+        "cites": [
+            {"unit": "code_transports-code_des_transports_art_a4241536",
+             "ref": "Code des transports, art. A4241-53-6 ch. 1 (RGP)",
+             "quote": "chacun doit venir sur tribord pour passer à bâbord "
+                      "de l'autre"},
+        ],
+    },
+    {
+        "key": "crossing-give-way-to-starboard",
+        "boats": [{"x": 74, "y": 150, "hdg": 0, "role": "give-way"},
+                  {"x": 150, "y": 74, "hdg": 270, "role": "stand-on"}],
+        "title": "Routes qui se croisent : celui qui voit l’autre sur tribord s’écarte",
+        "source": {
+            "unit": "colreg-en-colreg_rule_15",
+            "ref": "COLREG Rule 15",
+            "quote": "the vessel which has the other on her own starboard side shall "
+                     "keep out of the way",
+        },
+        "cites": [
+            {"unit": "code_transports-code_des_transports_art_a4241535",
+             "ref": "Code des transports, art. A4241-53-5 ch. 1 (RGP)",
+             "quote": "le bateau qui voit l'autre bateau tribord "
+                      "s'écarte de la route de celui-ci"},
+        ],
+    },
+    {
+        "key": "overtaking-stern-sector",
+        "boats": [{"x": 100, "y": 78, "hdg": 0, "role": "stand-on"},
+                  {"x": 118, "y": 158, "hdg": 350, "role": "give-way"}],
+        "sector_on": 0,
+        "title": "Rattrapage : venir de plus de 22,5° sur l’arrière du travers",
+        "source": {
+            "unit": "colreg-en-colreg_rule_13",
+            "ref": "COLREG Rule 13(a)-(b)",
+            "quote": "coming up with another vessel from a direction more than 22.5 "
+                     "degrees abaft her beam",
+        },
+    },
+    {
+        "key": "sailing-opposite-tacks",
+        "boats": [{"x": 56, "y": 142, "hdg": 25, "role": "give-way",
+                   "boom": "stbd"},
+                  {"x": 146, "y": 138, "hdg": 335, "role": "stand-on",
+                   "boom": "port"}],
+        "wind": True,
+        "title": "Deux voiliers, vent de bordées différentes",
+        "source": {
+            "unit": "colreg-en-colreg_rule_12",
+            "ref": "COLREG Rule 12(a)(i)",
+            "quote": "when each has the wind on a different side, the vessel which "
+                     "has the wind on the port side shall keep out of the way",
+        },
+    },
+    {
+        "key": "inland-upstream-yields",
+        "boats": [{"x": 84, "y": 164, "hdg": 0, "role": "give-way"},
+                  {"x": 118, "y": 38, "hdg": 180, "role": "stand-on"}],
+        "river": True,
+        "title": "Rencontre en rivière : le montant laisse la route à l’avalant",
+        "source": {
+            "unit": "binschstro-de-binschstro_2012__604",
+            "ref": "BinSchStrO 2012 § 6.04 Nummer 1",
+            "quote": "muss der Bergfahrer unter Berücksichtigung der örtlichen "
+                     "Umstände und des übrigen Verkehrs dem Talfahrer einen "
+                     "geeigneten Weg freilassen",
+        },
+        "cites": [
+            {"unit": "code_transports-code_des_transports_art_a4241536",
+             "ref": "Code des transports, art. A4241-53-6 ch. 2 (RGP)",
+             "quote": "les montants doivent, compte tenu des circonstances locales et "
+                      "des mouvements des autres bateaux, réserver aux avalants une "
+                      "route appropriée"},
+        ],
+    },
+    {
+        "key": "keep-to-starboard-side",
+        "boats": [{"x": 86, "y": 166, "hdg": 0, "role": "give-way"},
+                  {"x": 114, "y": 34, "hdg": 180, "role": "give-way"}],
+        "title": "En cas de rencontre, chacun tient sa droite",
+        "source": {
+            "unit": "oni-oni_art_63",
+            "ref": "ONI art. 63 al. 2 (RS 747.201.1)",
+            "quote": "En cas de rencontre, les bateaux doivent tenir leur droite",
+        },
+    },
+]
+
 DIAGRAMS: list[dict] = ([{**d, "family": "day-shapes"} for d in DAY_SHAPES]
                         + [{**d, "family": "nav-lights"} for d in NAV_LIGHTS]
                         + [{"repeat": False, **d, "family": "sound-signals"}
-                           for d in SOUND_SIGNALS])
+                           for d in SOUND_SIGNALS]
+                        + [{"wind": False, "sector_on": None, "river": False,
+                            **d, "family": "give-way"} for d in GIVE_WAY])
 BY_KEY: dict[str, dict] = {d["key"]: d for d in DIAGRAMS}
 
 
@@ -1016,6 +1282,9 @@ def render_one(d: dict) -> str:
     if d["family"] == "sound-signals":
         return render_sound(d["pattern"], d["title"], d["repeat"],
                             d["source"]["ref"])
+    if d["family"] == "give-way":
+        return render_giveway(d["boats"], d["title"], d["wind"], d["sector_on"],
+                              d["source"]["ref"], d["river"])
     raise ValueError(f"unknown family {d['family']!r}; expected one of {FAMILIES}")
 
 

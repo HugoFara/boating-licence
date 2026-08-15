@@ -64,11 +64,16 @@ def test_every_spec_is_drawable_by_its_family():
             for colour in d["column"]:
                 assert colour in diagrams._LIGHT_COLOURS, f"{d['key']}: {colour}"
             assert isinstance(d["sidelights"], bool), d["key"]
-        else:
+        elif d["family"] == "sound-signals":
             assert d["pattern"], d["key"]
             for tok in d["pattern"]:
                 assert tok in diagrams._TONE_S or tok == "gap", f"{d['key']}: {tok}"
             assert d["pattern"][0] != "gap" and d["pattern"][-1] != "gap", d["key"]
+        else:
+            assert len(d["boats"]) == 2, f"{d['key']}: an encounter has two vessels"
+            for b in d["boats"]:
+                assert b["role"] in ("give-way", "stand-on"), f"{d['key']}: {b}"
+                assert b.get("boom") in (None, "port", "stbd"), f"{d['key']}: {b}"
 
 
 def test_one_fixed_canvas_per_family_so_figures_are_comparable():
@@ -228,6 +233,9 @@ _LIGHT_WORDS = ("licht", "lichter", "light", "feu", "feux", "luce", "luci")
 # distress signal as dots and dashes rather than in words.
 _SOUND_WORDS = ("ton", "töne", "blast", "son", "sons", "suono", "glocke",
                 "morse")
+_WAY_WORDS = ("keep out of the way", "alter her course", "abaft her beam",
+              "s'écarte", "s’écarte", "venir sur tribord", "tenir leur droite",
+              "freilassen", "wind on the port side", "réserver aux avalants")
 
 
 def test_a_citation_describes_the_figure_it_is_attached_to():
@@ -247,10 +255,37 @@ def test_a_citation_describes_the_figure_it_is_attached_to():
                 assert any(w in q for w in _LIGHT_WORDS), (
                     f"{d['key']}: {c['ref']} does not mention a light — "
                     f"wrong diagram?")
+            elif d["family"] == "give-way":
+                assert any(w in q for w in _WAY_WORDS), (
+                    f"{d['key']}: {c['ref']} states no duty to keep clear — "
+                    f"wrong diagram?")
             else:
                 assert any(w in q for w in _SOUND_WORDS), (
                     f"{d['key']}: {c['ref']} does not mention a blast — "
                     f"wrong diagram?")
+
+
+def test_give_way_diagrams_are_card_only():
+    """Unlike every other family, a give-way plan view SHOWS who gives way — which is
+    the answer to the questions it illustrates. It is safe on a concept card, which
+    opens at reveal, and never on a stem. Nothing may assign one to a question."""
+    gw = {d["key"] for d in diagrams.DIAGRAMS if d["family"] == "give-way"}
+    assert gw, "expected some give-way diagrams"
+    for a in diagrams.ASSIGNMENTS:
+        assert a["key"] not in gw, (
+            f"{a['key']} would put the answer in the stem of {a['ref']}")
+
+
+def test_the_two_roles_are_drawn_differently():
+    """The give-way vessel alters (curved arrow, solid hull); the stand-on vessel
+    holds course (straight arrow, open hull). If both rendered the same the picture
+    would say nothing, so check the two actually differ."""
+    give = diagrams.render_giveway(
+        [{"x": 100, "y": 100, "hdg": 0, "role": "give-way"}], "t")
+    stand = diagrams.render_giveway(
+        [{"x": 100, "y": 100, "hdg": 0, "role": "stand-on"}], "t")
+    assert "<path" in give and "<path" not in stand      # curve vs straight line
+    assert diagrams._HULL_GIVE in give and diagrams._HULL_STAND in stand
 
 
 def test_a_diagram_only_reaches_a_bank_its_own_law_covers():

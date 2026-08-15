@@ -348,8 +348,37 @@ a COLREG citation that never mentioned a light (the exemption clause, picked for
 entry — real quote, wrong drawing, waved through by the does-this-text-exist check.
 There is now a second test requiring a citation to **name what is drawn**.
 
-Next: give-way plan views — the one family with questions in every bank and no
-diagram at all — which also unlock the two towing-convoy questions.
+### Give-way: plan views, and the one family that must stay off the stem
+
+Six diagrams, and the family where a picture does the most work: the rules read as
+word puzzles — *"the vessel which has the other on her own starboard side"* — and
+resolve instantly as geometry. Two conventions carry each drawing, neither needing a
+caption, which matters when one figure serves four languages:
+
+* the **give-way** vessel is solid, with a **curving** arrow — she is the one that alters;
+* the **stand-on** vessel is open, with a **straight** arrow — she holds course and speed.
+
+Nothing is colour-coded red/green on purpose: those two colours already mean port and
+starboard throughout the nav-light figures, and reusing them for roles would collide
+with the convention the learner is being taught.
+
+`overtaking-stern-sector` shades the 135° arc astern, because Rule 13(b) defines
+overtaking as coming up from more than 22.5° abaft the beam — *"at night she would be
+able to see only the sternlight … but neither of her sidelights"*. That is the same
+arc as the sternlight in the nav-light figures, so the two families explain each
+other. `inland-upstream-yields` draws banks and a flow arrow: without the current on
+the page there is nothing to tell a *montant* from an *avalant*, and the whole inland
+meeting rule is about which is which.
+
+**These are card-only.** Unlike every other family they *show who gives way*, which
+is the answer to the questions they illustrate. Safe on a card that opens at reveal,
+never on a stem — and a test enforces that no assignment can ever place one.
+
+Reach: `int`/`fr_cotiere` 4 (COLREG 12–15), `fr_eaux_interieures` 3 (RGP A4241-53-5/6),
+`de` 1 (BinSchStrO § 6.04), `ch` 1 (ONI art. 63).
+
+Next: buoyage (IALA lateral and cardinal marks, 42 questions with no figure) — the
+last big drawable family, and the one where colour and topmark carry everything.
 
 ### Adding a diagram (the smallest useful contribution)
 
