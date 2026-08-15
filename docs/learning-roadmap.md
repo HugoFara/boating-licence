@@ -269,15 +269,48 @@ Inland and sea signals are kept apart — the same rhythm can mean different thi
 under the two codes, so a diagram is only attached to a question from the catalogue
 whose code it was drawn from.
 
-**Reach so far:** 29 German questions that pointed at a figure now have one — 6
-day-shape, 10 nav-light, 13 sound-signal — sourced across BinSchStrO, SeeSchStrO and
-the KVR. Eleven still point at nothing: the four listed above, plus six inland light
-questions and one whose stem is truncated upstream (`Frage 140`, SBF See, ends
-mid-parenthesis at *"(mindestens"* — an ingestion bug in the ELWIS parser, not a
-missing figure).
+### The German gap was mostly our bug, not a missing source
 
-Next: the inland light questions (BinSchStrO §3), then give-way plan views — which
-also unlock the two towing-convoy questions that need a second vessel.
+Chasing the truncated stem of `Frage 140` turned up the real cause of the German
+figure gap, and it was **not** that ELWIS ships no pictures. Two defects in
+`src/questions/elwis.py`:
+
+1. **84 official figures were silently discarded.** `_is_figure()` accepted images
+   under `/Grafiken/` and `/Anlagen/Anlage-…` only. The figures published *with* a
+   catalogue question live under `/Fragenkatalog-…/` (`Lichter-Frage-105-gif.gif`),
+   so every one of them failed the filter — including the pictures for exactly the
+   questions whose stems say *"diese Lichter"*.
+2. **Nine stems shipped truncated.** ELWIS puts some figures *inside* the question
+   paragraph, which is invalid nesting (`<p>` within `<p>`). The parser closes the
+   stem at the picture and the rest of the sentence survives only as that element's
+   tail, so `Frage 140` ended mid-bracket at *"(mindestens"* and four questions lost
+   their "?". The tail is now sewn back on, and a bracket pair left empty by moving
+   the figure to its own slot is closed up — the only character-level edit, and the
+   original never showed a learner "()".
+
+Fixed by widening the allow-list and by backfilling figures the *cached* pages
+already reference, so the catalogue pages are not re-fetched and the questions stay
+byte-stable (only the 9 repaired stems change id). The German bank goes from **91 to
+145 figures**.
+
+**So the generated diagrams were, for German, largely working around this bug.** Of
+the 29 they filled, ELWIS turns out to publish the official figure for 28; the
+precedence rule — an official source figure always beats a generated one — retired
+them automatically the moment the parser was fixed, which is the design working as
+intended. One is still ours (`Frage 96`), and one question still has no figure at
+all (`Frage 195`, SBF Binnen).
+
+**Where the generated set still earns its keep is unchanged and untouched:** the two
+French banks (292 questions) and INT (57) have **zero** images, and their sources
+publish none. ELWIS figures cannot fill that gap — §5(2) permits reuse *unverändert*
+and they are German-catalogue artefacts, so they are not portable to another
+country's bank, which is precisely the constraint the generated set exists to beat.
+Those 33 diagrams are drawn, sourced and tested; what remains is to attach them to
+the FR/INT/CH questions. That is now the next step, ahead of drawing more.
+
+Next: attach the existing diagrams to the French and INT banks, where the source
+publishes no figure at all and nothing else can fill the gap. Only then draw more
+(give-way plan views).
 
 ### Adding a diagram (the smallest useful contribution)
 

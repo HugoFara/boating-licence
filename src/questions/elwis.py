@@ -123,15 +123,44 @@ def _clean(s: str) -> str:
     return re.sub(r"\s+", " ", (s or "")).replace("\xa0", " ").strip()
 
 
+def _tidy(s: str) -> str:
+    """Close up the hole left where an inline figure was lifted out of a sentence.
+
+    Sewing a stem back together (see ``_parse_section``) leaves " )" or " ?" where the
+    picture used to sit, and — where the catalogue wrapped the figure in brackets
+    ("Wie lang ist die Dauer eines kurzen Tons (▪)?") — an empty pair once the figure
+    moves to its own slot above the stem.
+
+    Whitespace is closed up, and a bracket pair emptied by that relocation is dropped:
+    the original never showed a learner "()", so keeping it would be its own
+    distortion. Nothing else is touched — no word is added, removed or reordered,
+    which is what the ELWIS terms require (reuse permitted *unverändert*). A bracket
+    that still holds text keeps it, empty-looking or not: "(mindestens)" stays."""
+    s = re.sub(r"\s*\(\s*\)", "", s)
+    return re.sub(r"\s+([)\]?.,;:!])", r"\1", s)
+
+
 def _seed(s: str) -> int:
     """Process-stable seed (NOT builtin hash(), which is salted per run)."""
     return int(hashlib.sha1(s.encode()).hexdigest()[:8], 16)
 
 
+# Where ELWIS keeps content figures. Three roots, and an allow-list rather than a
+# chrome deny-list so a new site-furniture directory can never leak in:
+#   /Grafiken/…         BinSchStrO annex graphics
+#   /Anlagen/Anlage-…   SeeSchStrO annex graphics
+#   /Fragenkatalog-…/   figures published WITH a catalogue question, e.g.
+#                       Lichter-Frage-105-gif.gif — these are the official picture
+#                       for questions whose stem says "diese Lichter", and leaving
+#                       them out is what left 84 questions pointing at nothing.
+# Everything else on those pages is under /SiteGlobals/ (icons, layout).
+_FIGURE_ROOTS = ("/grafiken/", "/anlage-", "/fragenkatalog-")
+
+
 def _is_figure(src: str) -> bool:
-    """A content figure (sign/lights graphic), not site chrome (icons/SVG)."""
+    """A content figure (sign/lights/sound graphic), not site chrome (icons/SVG)."""
     s = (src or "").lower()
-    return ("/grafiken/" in s or "/anlage-" in s) and not s.endswith(".svg")
+    return any(root in s for root in _FIGURE_ROOTS) and not s.endswith(".svg")
 
 
 def _asset_basename(src: str) -> str:
@@ -164,6 +193,46 @@ def _section_links(index_html: str) -> list[tuple[str, str]]:
     return out
 
 
+def _backfill_images(manifest: dict, assets: str) -> dict:
+    """Download figures the CACHED pages reference but the manifest never collected.
+
+    Widening ``_is_figure`` retroactively adds figures to pages already on disk, and
+    a plain cache hit would keep serving the old, short image map — 84 questions kept
+    pointing at nothing. This repairs the map in place without re-fetching the
+    catalogue pages, so the questions themselves stay byte-stable (a ``--force``
+    refetch would also pull any newer catalogue edition and churn the whole bank).
+    Idempotent: once every figure is present it is a no-op and does no network I/O."""
+    images = manifest.setdefault("images", {})
+    wanted: dict[str, str] = {}
+    for sec in manifest.get("sections", []):
+        path = os.path.join(_ROOT, sec["path"])
+        if not os.path.exists(path):
+            continue
+        with open(path, encoding="utf-8", errors="replace") as fh:
+            page = _html.fromstring(fh.read())
+        for im in page.iter("img"):
+            src = im.get("src") or ""
+            if not _is_figure(src):
+                continue
+            base = _asset_basename(src)
+            if base not in images and base not in wanted:
+                wanted[base] = urllib.parse.urljoin(sec["url"], src)
+    if not wanted:
+        return manifest
+    os.makedirs(assets, exist_ok=True)
+    for base, full in sorted(wanted.items()):
+        local = os.path.join(assets, base)
+        if not os.path.exists(local):
+            with open(local, "wb") as fh:
+                fh.write(_get(full).content)
+        images[base] = {"path": os.path.relpath(local, _ROOT), "url": full}
+    mpath = os.path.join(_ROOT, os.path.dirname(manifest["sections"][0]["path"]),
+                         "manifest.json")
+    with open(mpath, "w", encoding="utf-8") as fh:
+        json.dump(manifest, fh, ensure_ascii=False, indent=2)
+    return manifest
+
+
 def fetch(cat: Catalogue, force: bool = False) -> dict:
     """Cache a catalogue's section pages under data/raw/elwis/<cat>/<version>/ and
     its figures under data/assets/elwis/<cat>/de/. Returns a manifest mirroring the
@@ -175,7 +244,7 @@ def fetch(cat: Catalogue, force: bool = False) -> dict:
     manifest_path = os.path.join(raw, "manifest.json")
     if os.path.exists(manifest_path) and not force:
         with open(manifest_path, encoding="utf-8") as fh:
-            return json.load(fh)
+            return _backfill_images(json.load(fh), assets)
 
     sections: list[dict] = []
     images: dict[str, dict] = {}
@@ -242,6 +311,17 @@ def _parse_section(html: str, block: str, images: dict) -> list[dict]:
                 cur = {"num": int(m.group(1)), "stem": _clean(m.group(2)),
                        "image": None, "choices": []}
                 mode = "stem"
+            elif (mode == "stem" and cur is not None
+                    and "picture" in (el.get("class") or "")):
+                # ELWIS puts some figures INSIDE the question paragraph, which is
+                # invalid nesting (<p> within <p>): the parser closes the stem at the
+                # picture, so the rest of the sentence survives only as that
+                # element's tail. Sew it back on, or the question ships truncated —
+                # "Welche Bedeutung hat folgendes Schallsignal? (mindestens" was
+                # missing its closing bracket, and nine stems lost their "?".
+                rest = _clean(f"{el.text_content() or ''} {el.tail or ''}")
+                if rest:
+                    cur["stem"] = _tidy(_clean(f"{cur['stem']} {rest}"))
         elif el.tag == "img" and mode == "stem" and cur is not None:
             if cur["image"] is None and _is_figure(el.get("src") or ""):
                 cur["image"] = _figure_path(el, images)
