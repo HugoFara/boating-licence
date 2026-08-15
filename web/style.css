@@ -280,3 +280,20 @@ button:disabled { opacity: .5; cursor: default; }
 .path-step-b { margin: 3px 0; line-height: 1.45; }
 .path-step-src a { color: var(--accent-dark); }
 .path-vol { cursor: help; color: #7a5b00; }
+
+/* "Learn why" concept card (roadmap group A): the sourced explainer behind the
+   principle a question tests, collapsed by default at reveal/review. Bodies are
+   authored as paragraphs whose inner newlines carry enumerations ("— …"), so the
+   paragraphs keep line breaks (pre-line) instead of running the list together. */
+.concept-card {
+  margin-top: 12px; padding: 2px 14px 8px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+}
+.concept-card > summary {
+  cursor: pointer; padding: 8px 2px; font-weight: 600; color: var(--accent-dark);
+}
+.concept-card[open] > summary { border-bottom: 1px solid var(--line); margin-bottom: 8px; }
+.concept-body h4 { margin: 6px 0 8px; font-size: 1rem; }
+.concept-body p { margin: 8px 0; line-height: 1.5; white-space: pre-line; }
+.concept-body .src { color: var(--muted); font-size: .85rem; margin-top: 10px; }
+.concept-body .src a { color: var(--accent-dark); }

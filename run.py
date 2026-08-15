@@ -565,7 +565,7 @@ def _build_de_web(web: str, core_avail: dict | None = None) -> dict | None:
             json.dump(data, fh, ensure_ascii=False, indent=2)
         return len(data["questions"])
 
-    _learn_layer(conn, web_de, ["de"])               # principle tags + concept cards
+    _learn_layer(conn, web_de, ["de"], "de")         # principle tags + concept cards
     total = bundle("questions.json", None)          # back-compat (all langs = de)
     n_de = bundle("questions.de.json", "de")         # the player's preferred bundle
     meta = {k: v for k, v in conn.execute("SELECT key, value FROM meta")}
@@ -612,8 +612,11 @@ def _build_de_web(web: str, core_avail: dict | None = None) -> dict | None:
     return {"questions": n_de, "permits": len(permits), "copied": copied}
 
 
-def _learn_layer(conn, out_dir, langs):
+def _learn_layer(conn, out_dir, langs, bank_id):
     """Roadmap group A/D1 plumbing, run per bundle:
+      * load the hand-authored, sourced concept cards that apply to this bank
+        (``bank_id`` gates them — the inland and maritime regimes give different
+        answers, so a card is only ever written into the banks it is true for);
       * tag every question with its generative ``principle`` (deterministic, in
         place) so the tag ships inside the question JSON via export_json;
       * export any review-cleared concept "why" cards per language.
@@ -622,6 +625,10 @@ def _learn_layer(conn, out_dir, langs):
     Must run BEFORE the question export so the principle tag is present."""
     from src.questions import schema as qschema
     from src.questions import principles as principlesmod
+    from src.questions import seed_concepts
+    # Idempotent: write_concepts replaces by (id, lang), so re-running a build
+    # refreshes the bodies instead of duplicating them.
+    qschema.write_concepts(conn, seed_concepts.concepts_for(bank_id, langs))
     # overwrite=True: the principle tag is fully derived from the current keyword set
     # (no hand-curation), and the question DB persists across builds — so filling only
     # empties would let a tag survive after the keyword that produced it was tightened
@@ -686,7 +693,7 @@ def _build_ch_web(web: str, core_avail: dict | None = None) -> dict | None:
         return len(data["questions"])
 
     langs = qschema.languages_present(conn, exportable_only=True)
-    _learn_layer(conn, web_ch, langs)    # principle tags + concept cards (before export)
+    _learn_layer(conn, web_ch, langs, "ch")   # principle tags + concept cards (before export)
     total = bundle("questions.json", None)
     per_lang = {lg: bundle(f"questions.{lg}.json", lg) for lg in langs}
 
@@ -813,7 +820,7 @@ def _build_int_web(web: str, core_avail: dict | None = None) -> dict | None:
             json.dump(data, fh, ensure_ascii=False, indent=2)
         return len(data["questions"])
 
-    _learn_layer(conn, web_int, ["en"])  # principle tags + concept cards (before export)
+    _learn_layer(conn, web_int, ["en"], "int")  # principle tags + concept cards (before export)
     bundle("questions.json", None)
     n_en = bundle("questions.en.json", "en")
     conn.close()
