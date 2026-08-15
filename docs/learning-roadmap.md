@@ -444,9 +444,22 @@ Annexe 7 ("caractéristiques techniques") gives sizes, retroreflective film clas
 lettering standards; no colour, no shape. Annexe 3 (vessel signals) is the same shape
 of stub. **The RGP puts every figure in Journal Officiel plates and LEGI carries only
 the surrounding prose**, so French inland sign appearance cannot be text-sourced at
-all. The seed questions' visual claims come from those plates; the honest fix is to
-ingest the JO PDF and extract them, exactly as the ONI pipeline already does for
-Switzerland (`data/assets/oni/image*.png`).
+all. The seed questions' visual claims come from those plates.
+
+`src/fr/rgp_plates.py` is the extractor for them. It cannot fetch the file: DILA
+publishes no PDF dataset (their JORF open data is XML text), and Légifrance's
+`/download/pdf` endpoint is JavaScript-gated — with a full browser session it
+returns the portal page, whatever headers are sent. So the JO is placed by hand,
+exactly as the 1.2 GB LEGI dump already is:
+
+    open https://www.legifrance.gouv.fr/jorf/jo/2013/8/29/0200 → download the issue
+    PDF → save as data/raw/rgp_jo/jo_20130829_0200.pdf
+    python -m src.fr.rgp_plates extract
+
+It finds the annexes by the headings they open with rather than by page number (the
+JO's 14632–14723 is not the PDF's) and writes each plate deterministically. It does
+**not** guess which plate is which sign: a figure on the wrong sign code teaches the
+wrong board, so mapping plate → code is a separate reviewed step.
 
 What the annexes *did* unlock is buoyage. **Annexe 8** (18 070 characters,
 "Balisage des voies de navigation intérieure") is real text, and its harbour-entrance
