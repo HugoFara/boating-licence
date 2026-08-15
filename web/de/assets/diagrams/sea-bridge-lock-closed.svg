@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 110" width="340" height="110" role="img" aria-label="Vier kurze Töne">
+<!-- Generated figure, derived from SeeSchStrO 1971 Anlage I Abschnitt II C.2; bar width = blast duration, gap = the prescribed pause. Original artwork; project licence (CC BY-SA 4.0), not a reproduction of any source figure. gen:diagram.v1 -->
+<title>Vier kurze Töne</title>
+<rect width="340" height="110" fill="#ffffff"/>
+<line x1="14" y1="72" x2="326" y2="72" stroke="#9aa8bd" stroke-width="1.5"/>
+<rect x="135" y="42" width="10" height="30" rx="2" fill="#1f3a5f"/>
+<rect x="155" y="42" width="10" height="30" rx="2" fill="#1f3a5f"/>
+<rect x="175" y="42" width="10" height="30" rx="2" fill="#1f3a5f"/>
+<rect x="195" y="42" width="10" height="30" rx="2" fill="#1f3a5f"/>
+</svg>

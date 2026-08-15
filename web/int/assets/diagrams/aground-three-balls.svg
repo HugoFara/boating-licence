@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 200" width="120" height="200" role="img" aria-label="Drei schwarze Bälle senkrecht übereinander">
+<!-- Generated figure, derived from SeeStrO 1972 Regel 30 Buchstabe d Ziffer ii. Original artwork; project licence (CC BY-SA 4.0), not a reproduction of any source figure. gen:diagram.v1 -->
+<title>Drei schwarze Bälle senkrecht übereinander</title>
+<rect x="58.5" y="13" width="3" height="178" fill="#6b7280"/>
+<rect x="43" y="189" width="34" height="4" rx="2" fill="#6b7280"/>
+<circle cx="60.0" cy="42.0" r="17.0" fill="#111" stroke="#111" stroke-width="2.0"/>
+<circle cx="60.0" cy="94.0" r="17.0" fill="#111" stroke="#111" stroke-width="2.0"/>
+<circle cx="60.0" cy="146.0" r="17.0" fill="#111" stroke="#111" stroke-width="2.0"/>
+</svg>

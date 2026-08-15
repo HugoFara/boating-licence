@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 200" width="120" height="200" role="img" aria-label="Die Flagge « A » des Internationalen Signalbuchs als Tafel">
+<!-- Generated figure, derived from SeeStrO 1972 Regel 27 Buchstabe e Ziffer ii. Original artwork; project licence (CC BY-SA 4.0), not a reproduction of any source figure. gen:diagram.v1 -->
+<title>Die Flagge « A » des Internationalen Signalbuchs als Tafel</title>
+<rect x="58.5" y="65" width="3" height="74" fill="#6b7280"/>
+<rect x="43" y="137" width="34" height="4" rx="2" fill="#6b7280"/>
+<path d="M40.45,80.74 L60.0,80.74 L60.0,107.26 L40.45,107.26 Z" fill="#fff" stroke="#111" stroke-width="2.0"/><path d="M60.0,80.74 L79.55,80.74 L70.7525,94.0 L79.55,107.26 L60.0,107.26 Z" fill="#1d4ed8" stroke="#111" stroke-width="2.0" stroke-linejoin="round"/>
+</svg>
