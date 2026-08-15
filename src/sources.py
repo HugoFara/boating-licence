@@ -28,6 +28,11 @@ class Source:
     eli: str = ""           # fedlex: ELI fragment used to resolve files via SPARQL
     gii_slug: str = ""      # gii: gesetze-im-internet.de law slug (-> <slug>/xml.zip)
     bwb_id: str = ""        # bwb: wetten.overheid.nl BWB id (e.g. "BWBR0003628")
+    # bwb: keep only these provision labels ("Artikel 785"). For an act that is
+    # examined for a handful of articles but is otherwise off-topic — the Wetboek
+    # van Koophandel is 1307 articles of commercial law and the boating exam names
+    # exactly one of them. Empty = keep the whole act.
+    only_refs: tuple[str, ...] = field(default_factory=tuple)
     celex: str = ""         # eurlex: base CELEX number (e.g. "32013L0053")
     want_pdf: bool = False  # fedlex: also fetch PDF/A for annex figures
     titles: tuple[str, ...] = field(default_factory=tuple)  # wikipedia page titles

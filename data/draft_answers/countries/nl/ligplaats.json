@@ -1,0 +1,267 @@
+{
+ "drafts": [
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 7.02",
+   "questions": [
+    {
+     "stem": "Waar mag een schip volgens het BPR geen ligplaats nemen?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Onder een brug of onder een hoogspanningslijn, en in het traject van een veerpont",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend in een haven zonder aangewezen ligplaats",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend op een wachtplaats van een sluis",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 7.02, eerste lid: ligplaats nemen is onder meer verboden onder een brug of een hoogspanningslijn, in een engte, waar een andere vaarweg uitmondt en in het traject van een veerpont."
+    },
+    {
+     "stem": "Wat betekent het teken A.5 langs de vaarweg?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Ligplaats nemen is verboden aan de zijde van de vaarweg waar het teken is aangebracht",
+       "correct": true
+      },
+      {
+       "text": "Ankeren is verboden aan de zijde waar het teken is aangebracht",
+       "correct": false
+      },
+      {
+       "text": "Meren is toegestaan aan de zijde waar het teken is aangebracht",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 7.02, eerste lid onder c: bij het teken A.5 is ligplaats nemen verboden aan de zijde van de vaarweg waar het teken is aangebracht."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 7.07",
+   "questions": [
+    {
+     "stem": "Binnen welke afstand mag een schip geen ligplaats nemen van een schip dat het teken van artikel 3.14, eerste lid voert?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Binnen 10 m",
+       "correct": true
+      },
+      {
+       "text": "Binnen 50 m",
+       "correct": false
+      },
+      {
+       "text": "Binnen 100 m",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 7.07, eerste lid onder a: een schip mag geen ligplaats nemen binnen 10 m van een schip dat het teken van artikel 3.14, eerste lid voert."
+    },
+    {
+     "stem": "Binnen welke afstand mag een schip geen ligplaats nemen van een schip dat de tekens van artikel 3.14, derde lid voert?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Binnen 100 m",
+       "correct": true
+      },
+      {
+       "text": "Binnen 10 m",
+       "correct": false
+      },
+      {
+       "text": "Binnen 25 m",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 7.07, eerste lid onder c: het verbod geldt binnen 100 m van een schip dat de tekens van artikel 3.14, derde lid voert."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 7.01",
+   "questions": [
+    {
+     "stem": "Welke algemene eis geldt voor de plaats waar een schip ligplaats neemt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het schip moet zodanig ligplaats nemen dat de scheepvaart niet wordt belemmerd",
+       "correct": true
+      },
+      {
+       "text": "Het schip moet zo dicht mogelijk bij het midden van het vaarwater liggen",
+       "correct": false
+      },
+      {
+       "text": "Het schip moet altijd met de kop tegen de stroom in liggen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 7.01, eerste lid: een schip en een drijvend voorwerp moeten zodanig ligplaats nemen dat de scheepvaart niet wordt belemmerd."
+    },
+    {
+     "stem": "Waarmee moet bij het verankeren of meren van een stilliggend schip in het bijzonder rekening worden gehouden?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Met wind, stroom en verandering van de waterstand, alsmede met zuiging en golfslag",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend met de diepgang van het schip",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend met het aantal opvarenden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 7.01, derde lid: bij het verankeren of meren moet met name rekening worden gehouden met wind, stroom en verandering van de waterstand, alsmede met zuiging en golfslag."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 7.03",
+   "questions": [
+    {
+     "stem": "Wat betekent het teken A.6 langs de vaarweg?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Ankeren en het gebruik van spudpalen zijn verboden aan de zijde waar het teken is aangebracht",
+       "correct": true
+      },
+      {
+       "text": "Meren is verboden aan de zijde waar het teken is aangebracht",
+       "correct": false
+      },
+      {
+       "text": "Ligplaats nemen is toegestaan aan de zijde waar het teken is aangebracht",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 7.03, eerste lid onder b: in een vak aangeduid door het teken A.6 mogen een schip, een drijvend voorwerp en een drijvende inrichting niet ankeren en geen spudpalen gebruiken."
+    },
+    {
+     "stem": "Wat betekent het teken E.6 op een gedeelte van de vaarweg waar ankeren is verboden?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Daar mag toch worden geankerd, aan de zijde waar het teken is aangebracht",
+       "correct": true
+      },
+      {
+       "text": "Daar mag toch worden gemeerd, aan de zijde waar het teken is aangebracht",
+       "correct": false
+      },
+      {
+       "text": "Daar mogen spudpalen worden gebruikt maar niet worden geankerd",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 7.03, tweede lid: waar ankeren verboden is, mag toch worden geankerd in een vak aangeduid door het teken E.6, aan de zijde waar het teken is aangebracht."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 7.04",
+   "questions": [
+    {
+     "stem": "Wat betekent het teken A.7 langs de vaarweg?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Meren is verboden aan de zijde van de vaarweg waar het teken is aangebracht",
+       "correct": true
+      },
+      {
+       "text": "Ankeren is verboden aan de zijde waar het teken is aangebracht",
+       "correct": false
+      },
+      {
+       "text": "Keren is verboden aan de zijde waar het teken is aangebracht",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 7.04, eerste lid onder b: in een vak aangeduid door het teken A.7 mag niet worden gemeerd, aan de zijde waar het teken is aangebracht."
+    },
+    {
+     "stem": "Waarvan mag een schip bij het meren of verhalen geen gebruik maken?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Van andere voorwerpen dan die welke daartoe zijn bestemd",
+       "correct": true
+      },
+      {
+       "text": "Van meerdraden die langer zijn dan tien meter",
+       "correct": false
+      },
+      {
+       "text": "Van de spudpalen van een ander schip",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 7.04, derde lid: bij meren of verhalen mag geen gebruik worden gemaakt van andere voorwerpen dan die welke daartoe zijn bestemd."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 7.10",
+   "questions": [
+    {
+     "stem": "Wat moeten langszijde van elkaar stilliggende schepen doen als één van hen wil vertrekken of verhalen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Elk van de andere schepen moet daaraan de nodige medewerking verlenen",
+       "correct": true
+      },
+      {
+       "text": "De andere schepen mogen medewerking weigeren tot de volgende ochtend",
+       "correct": false
+      },
+      {
+       "text": "Alleen het buitenste schip hoeft medewerking te verlenen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 7.10: wil een schip vertrekken of verhalen, dan moet elk van de andere langszijde stilliggende schepen daaraan de nodige medewerking verlenen."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 7.09",
+   "questions": [
+    {
+     "stem": "Wat moet een aan een aanlegplaats gemeerd schip gedogen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Dat een ander schip langszijde komt of vastmaakt en daarover gemeenschap met de wal heeft",
+       "correct": true
+      },
+      {
+       "text": "Dat een ander schip zijn meerdraden losgooit",
+       "correct": false
+      },
+      {
+       "text": "Dat een ander schip zijn ligplaats overneemt",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 7.09: een aan een aanlegplaats gemeerd schip moet gedogen dat een ander schip langszijde komt of vastmaakt en daarover gemeenschap met de wal heeft, anders dan om te laden of te lossen."
+    }
+   ]
+  }
+ ]
+}

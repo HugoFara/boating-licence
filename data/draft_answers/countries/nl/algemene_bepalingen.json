@@ -1,0 +1,769 @@
+{
+ "drafts": [
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 1.01",
+   "questions": [
+    {
+     "stem": "Wat is volgens het BPR een klein schip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een schip waarvan de lengte minder dan 20 m bedraagt",
+       "correct": true
+      },
+      {
+       "text": "Een schip waarvan de lengte minder dan 15 m bedraagt",
+       "correct": false
+      },
+      {
+       "text": "Een schip waarvan de lengte minder dan 25 m bedraagt",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.01 onder A: een klein schip is een schip waarvan de lengte minder dan 20 m bedraagt, met een aantal uitzonderingen zoals een passagiersschip."
+    },
+    {
+     "stem": "Wat is volgens het BPR een groot schip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een schip niet zijnde een klein schip",
+       "correct": true
+      },
+      {
+       "text": "Elk schip met een lengte van meer dan 40 m",
+       "correct": false
+      },
+      {
+       "text": "Elk schip dat bedrijfsmatig goederen vervoert",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.01 onder A, 3°: een groot schip is een schip niet zijnde een klein schip."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.01",
+   "questions": [
+    {
+     "stem": "Wat is volgens het RPR een duwstel?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een hecht samenstel van schepen waarvan er ten minste één is geplaatst vóór het motorschip dat dient voor het voortbewegen van het samenstel",
+       "correct": true
+      },
+      {
+       "text": "Een samenstel van schepen dat door één of meer motorschepen wordt gesleept",
+       "correct": false
+      },
+      {
+       "text": "Twee schepen die langszijde van elkaar zijn vastgemaakt",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 1.01 onder e: een duwstel is een hecht samenstel van schepen waarvan er ten minste één vóór het voortbewegende motorschip is geplaatst."
+    },
+    {
+     "stem": "Wat is volgens het RPR een sleep?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een samenstel van één of meer schepen, drijvende inrichtingen of drijvende voorwerpen dat door één of meer motorschepen wordt gesleept",
+       "correct": true
+      },
+      {
+       "text": "Een hecht samenstel waarbij een schip vóór het motorschip is geplaatst",
+       "correct": false
+      },
+      {
+       "text": "Een schip dat langszijde van een ander schip is vastgemaakt",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 1.01 onder d: een sleep is een samenstel van één of meer schepen, drijvende inrichtingen of drijvende voorwerpen dat door één of meer motorschepen wordt gesleept."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartwet Artikel 1",
+   "questions": [
+    {
+     "stem": "Wat verstaat de Binnenvaartwet onder binnenwateren?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Wateren die in Nederland zijn gelegen binnen een langs de Nederlandse kust gaande, bij ministeriële regeling aan te wijzen lijn",
+       "correct": true
+      },
+      {
+       "text": "Alle wateren binnen de territoriale zee van Nederland",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend de rivieren en kanalen in beheer bij het Rijk",
+       "correct": false
+      }
+     ],
+     "explanation": "Binnenvaartwet artikel 1: binnenwateren zijn wateren die in Nederland zijn gelegen binnen een langs de Nederlandse kust gaande, bij ministeriële regeling aan te wijzen lijn."
+    },
+    {
+     "stem": "Wie is volgens de Binnenvaartwet een bemanningslid?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Ieder die zich als schipper, stuurman, machinist, matroos of deksman aan boord van een schip bevindt",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend de schipper en de stuurman",
+       "correct": false
+      },
+      {
+       "text": "Iedere passagier die meehelpt bij het meren",
+       "correct": false
+      }
+     ],
+     "explanation": "Binnenvaartwet artikel 1: bemanningslid is ieder die zich als schipper, stuurman, machinist, volmatroos, matroos-motordrijver, matroos, lichtmatroos, lid van het veiligheidspersoneel of deksman aan boord bevindt."
+    }
+   ]
+  },
+  {
+   "ref": "Vaststellingsbesluit Binnenvaartpolitiereglement Artikel 2",
+   "questions": [
+    {
+     "stem": "Op welke vaarwegen geldt het Binnenvaartpolitiereglement níét?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Op de Boven-Rijn, de Waal, het Pannerdensch Kanaal, de Neder-Rijn en de Lek",
+       "correct": true
+      },
+      {
+       "text": "Op het IJsselmeer en het Markermeer",
+       "correct": false
+      },
+      {
+       "text": "Op alle kanalen in beheer bij het Rijk",
+       "correct": false
+      }
+     ],
+     "explanation": "Vaststellingsbesluit BPR artikel 2, eerste lid onder a: het BPR geldt niet op de Boven-Rijn, de Waal, het Pannerdensch Kanaal, de Neder-Rijn en de Lek."
+    },
+    {
+     "stem": "Welk zeegat is eveneens uitgezonderd van het toepassingsgebied van het BPR?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "De Westerschelde met haar mondingen",
+       "correct": true
+      },
+      {
+       "text": "Het IJsselmeer met het Markermeer",
+       "correct": false
+      },
+      {
+       "text": "De Waddenzee met het Eemskanaal",
+       "correct": false
+      }
+     ],
+     "explanation": "Vaststellingsbesluit BPR artikel 2, eerste lid onder c: de Westerschelde met haar mondingen valt buiten het toepassingsgebied van het BPR."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.02",
+   "questions": [
+    {
+     "stem": "Waaruit blijkt op de Rijn dat de schipper de vereiste bekwaamheid bezit?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Uit een geldig kwalificatiecertificaat schipper overeenkomstig het Reglement betreffende het Scheepvaartpersoneel op de Rijn",
+       "correct": true
+      },
+      {
+       "text": "Uit een verklaring van de eigenaar van het schip",
+       "correct": false
+      },
+      {
+       "text": "Uit een aantekening in het scheepsdagboek",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 1.02, eerste lid: de schipper wordt geacht de vereiste bekwaamheid te hebben indien hij houder is van een geldig kwalificatiecertificaat schipper overeenkomstig het Reglement betreffende het Scheepvaartpersoneel op de Rijn."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartbesluit Artikel 1",
+   "questions": [
+    {
+     "stem": "Wat verstaat het Binnenvaartbesluit onder de lengte van een schip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "De grootste lengte van de scheepsromp in meters, het roer en de boegspriet niet inbegrepen",
+       "correct": true
+      },
+      {
+       "text": "De afstand tussen de loodlijnen van het schip",
+       "correct": false
+      },
+      {
+       "text": "De grootste lengte inclusief het roer en de boegspriet",
+       "correct": false
+      }
+     ],
+     "explanation": "Binnenvaartbesluit artikel 1: lengte is de grootste lengte van de scheepsromp in meters, het roer en de boegspriet niet inbegrepen."
+    },
+    {
+     "stem": "Wat verstaat het Binnenvaartbesluit onder een duwboot?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een schip dat is bestemd of wordt gebruikt voor het duwen van schepen en niet bestemd is voor het zelfstandig vervoeren van goederen",
+       "correct": true
+      },
+      {
+       "text": "Een schip dat is bestemd voor het slepen van schepen",
+       "correct": false
+      },
+      {
+       "text": "Een drijvend bouwsel met permanente ligplaats voor de levering van brandstof",
+       "correct": false
+      }
+     ],
+     "explanation": "Binnenvaartbesluit artikel 1: duwboot is een schip dat is bestemd of wordt gebruikt voor het duwen van schepen en niet bestemd is voor het zelfstandig vervoeren van goederen."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 1.02",
+   "questions": [
+    {
+     "stem": "Wie is verantwoordelijk voor de naleving van de bepalingen van het BPR?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "De schipper, tenzij uit die bepalingen blijkt dat de naleving aan anderen is opgedragen",
+       "correct": true
+      },
+      {
+       "text": "De eigenaar van het schip in alle gevallen",
+       "correct": false
+      },
+      {
+       "text": "De bevoegde autoriteit van het vaargebied",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.02, tweede lid: de schipper is verantwoordelijk voor de naleving van de bepalingen van dit reglement, tenzij daaruit blijkt dat de naleving aan anderen is opgedragen."
+    },
+    {
+     "stem": "Moet de schipper tijdens de vaart aan boord zijn?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Ja, de schipper moet tijdens de vaart aan boord zijn",
+       "correct": true
+      },
+      {
+       "text": "Nee, hij mag het schip vanaf de wal aansturen",
+       "correct": false
+      },
+      {
+       "text": "Alleen wanneer het schip een groot schip is",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.02, vierde lid: de schipper moet tijdens de vaart aan boord zijn; de schipper van een drijvend werktuig ook wanneer het werktuig in bedrijf is."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 1.09",
+   "questions": [
+    {
+     "stem": "Welke minimumleeftijd geldt voor het sturen van een snelle motorboot?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "18 jaar",
+       "correct": true
+      },
+      {
+       "text": "16 jaar",
+       "correct": false
+      },
+      {
+       "text": "12 jaar",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.09, eerste lid onder a: voor het sturen van een snelle motorboot geldt een minimumleeftijd van 18 jaar."
+    },
+    {
+     "stem": "Welke minimumleeftijd geldt voor het sturen van een klein open motorschip met een lengte van minder dan 7 m waarvan de hoogst bereikbare snelheid niet meer is dan 13 km per uur?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "12 jaar",
+       "correct": true
+      },
+      {
+       "text": "16 jaar",
+       "correct": false
+      },
+      {
+       "text": "18 jaar",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.09, eerste lid onder c: voor zo'n klein open motorschip geldt een minimumleeftijd van 12 jaar."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.03",
+   "questions": [
+    {
+     "stem": "Wat moet een lid van de bemanning doen ten aanzien van de aanwijzingen van de schipper?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "De aanwijzingen opvolgen die de schipper binnen de grenzen van diens verantwoordelijkheid geeft en meewerken aan de naleving van het reglement",
+       "correct": true
+      },
+      {
+       "text": "De aanwijzingen uitsluitend opvolgen wanneer zij schriftelijk zijn gegeven",
+       "correct": false
+      },
+      {
+       "text": "De aanwijzingen alleen opvolgen bij slecht zicht",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 1.03, eerste lid: een bemanningslid moet de aanwijzingen van de schipper opvolgen en meewerken aan de naleving van dit reglement."
+    },
+    {
+     "stem": "Wie is nog meer verantwoordelijk voor de naleving van het reglement?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Ieder die zich aan boord bevindt en tijdelijk zelfstandig de koers en de snelheid van het schip bepaalt",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend de eigenaar van het schip",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend de bevoegde autoriteit",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 1.03, derde lid: een bemanningslid en ieder ander die tijdelijk zelfstandig de koers en de snelheid bepaalt is eveneens verantwoordelijk voor de naleving van dit reglement."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.09",
+   "questions": [
+    {
+     "stem": "Welke minimumleeftijd geldt op de Rijn voor de persoon die het roer bedient?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "16 jaar",
+       "correct": true
+      },
+      {
+       "text": "18 jaar",
+       "correct": false
+      },
+      {
+       "text": "12 jaar",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 1.09, eerste lid: tijdens de vaart moet het roer worden bediend door ten minste één daartoe bekwaam persoon die de leeftijd van 16 jaar heeft bereikt."
+    },
+    {
+     "stem": "Voor welke schepen geldt die leeftijdsvoorwaarde niet?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Voor kleine schepen zonder motor",
+       "correct": true
+      },
+      {
+       "text": "Voor alle kleine schepen",
+       "correct": false
+      },
+      {
+       "text": "Voor veerponten",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 1.09, tweede lid: de voorwaarde aangaande de leeftijd geldt niet voor kleine schepen zonder motor."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 1.12",
+   "questions": [
+    {
+     "stem": "Wat moet een schip doen met een anker waarvan geen gebruik wordt gemaakt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het anker geheel voorhalen",
+       "correct": true
+      },
+      {
+       "text": "Het anker op de bodem laten liggen",
+       "correct": false
+      },
+      {
+       "text": "Het anker aan een boei bevestigen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.12, tweede lid: een schip moet een anker waarvan geen gebruik wordt gemaakt geheel voorhalen."
+    },
+    {
+     "stem": "Wat moet de schipper doen als zijn schip een voorwerp verliest waardoor gevaar voor de scheepvaart kan ontstaan?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Onverwijld kennis geven aan de dichtstbijzijnde bevoegde autoriteit en zo nauwkeurig mogelijk de plaats aangeven",
+       "correct": true
+      },
+      {
+       "text": "Het voorwerp binnen 24 uur zelf bergen zonder melding",
+       "correct": false
+      },
+      {
+       "text": "Het verlies pas aan het einde van de reis melden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.12, derde lid: de schipper moet onverwijld kennis geven aan de dichtstbijzijnde bevoegde autoriteit en daarbij zo nauwkeurig mogelijk de plaats aangeven waar het voorwerp is verloren."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 2.02",
+   "questions": [
+    {
+     "stem": "Welke kentekens moeten op een klein schip zijn aangebracht?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "De naam van het schip en, op een in het oog vallende plaats, de naam en de woonplaats van de eigenaar",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend een registratienummer aan de buitenzijde",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend de naam van de verzekeraar",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 2.02, eerste lid: op een klein schip moeten de naam van het schip en de naam en woonplaats van de eigenaar zijn aangebracht."
+    },
+    {
+     "stem": "Welk kenteken volstaat op een bijboot van een schip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een kenteken waaruit kan worden opgemaakt wie de eigenaar is",
+       "correct": true
+      },
+      {
+       "text": "De volledige naam en woonplaats van de eigenaar in Latijnse letters",
+       "correct": false
+      },
+      {
+       "text": "Een registratieteken zoals voor snelle motorboten",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 2.02, tweede lid: op een bijboot behoeft slechts een kenteken te zijn aangebracht waaruit kan worden opgemaakt wie de eigenaar is."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 1.08",
+   "questions": [
+    {
+     "stem": "Wanneer moeten opvarenden van een schip bestemd voor bedrijfsmatig vervoer een reddingsvest dragen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Bij het van of aan boord gaan als er gevaar voor in het water vallen bestaat, bij verblijf in de bijboot en bij werkzaamheden buiten boord",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend bij slecht zicht",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend tijdens het schutten in een sluis",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.08, eerste lid: reddingsvesten moeten onder meer worden gedragen bij het van of aan boord gaan met gevaar voor in het water vallen, bij verblijf in de bijboot en bij werkzaamheden buiten boord."
+    },
+    {
+     "stem": "Onder welke voorwaarde mogen werkzaamheden buiten boord worden uitgevoerd?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Uitsluitend bij stilliggende schepen en uitsluitend indien van de overige scheepvaart geen gevaar te verwachten valt",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend tijdens de vaart met verminderde snelheid",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend met toestemming van de bevoegde autoriteit",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.08, tweede lid: werkzaamheden buiten boord mogen uitsluitend bij stilliggende schepen worden uitgevoerd en alleen als van de overige scheepvaart geen gevaar te verwachten valt."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 1.03",
+   "questions": [
+    {
+     "stem": "Wie moet de aanwijzingen opvolgen die de schipper geeft in het belang van de veiligheid van de scheepvaart?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Ieder ander die zich aan boord van het schip bevindt",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend de leden van de bemanning",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend de eigenaar van het schip",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.03, tweede lid: ieder ander die zich aan boord bevindt moet de aanwijzingen opvolgen die de schipper geeft in het belang van de veiligheid van de scheepvaart of van de goede orde aan boord."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.11",
+   "questions": [
+    {
+     "stem": "Wat moet aan boord van een schip op de Rijn aanwezig zijn, met uitzondering van een klein schip en een duwbak?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een bijgewerkt exemplaar van het reglement, eventueel elektronisch raadpleegbaar",
+       "correct": true
+      },
+      {
+       "text": "Een papieren waterkaart van de gehele Rijn",
+       "correct": false
+      },
+      {
+       "text": "Een exemplaar van het Binnenvaartpolitiereglement",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 1.11, eerste lid: aan boord moet een bijgewerkt exemplaar van dit reglement aanwezig zijn; een elektronisch exemplaar dat op ieder moment geraadpleegd kan worden is eveneens toegestaan."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 1.13",
+   "questions": [
+    {
+     "stem": "Wat mag een schip niet doen met een verkeersteken?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Het gebruiken om daaraan te meren of te verhalen, het beschadigen of het ongeschikt maken voor zijn bestemming",
+       "correct": true
+      },
+      {
+       "text": "Het fotograferen vanaf het water",
+       "correct": false
+      },
+      {
+       "text": "Het passeren aan de zijde waar het is aangebracht",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.13, eerste lid: een schip mag verkeerstekens niet gebruiken om daaraan te meren of te verhalen, ze niet beschadigen en ze niet ongeschikt voor hun bestemming maken."
+    },
+    {
+     "stem": "Wat moet de schipper doen als hij een verkeersteken heeft verplaatst of beschadigd?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Onverwijld kennis geven aan de dichtstbijzijnde bevoegde autoriteit",
+       "correct": true
+      },
+      {
+       "text": "Het teken zelf herstellen en niets melden",
+       "correct": false
+      },
+      {
+       "text": "De melding binnen dertig dagen schriftelijk doen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.13, tweede lid: de schipper moet daarvan onverwijld kennis geven aan de dichtstbijzijnde bevoegde autoriteit."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 1.04",
+   "questions": [
+    {
+     "stem": "Wat moet de schipper doen als het reglement geen uitdrukkelijk voorschrift geeft?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Alle voorzorgsmaatregelen nemen die volgens goede zeemanschap of door de omstandigheden zijn geboden",
+       "correct": true
+      },
+      {
+       "text": "De vaart staken tot de bevoegde autoriteit een aanwijzing geeft",
+       "correct": false
+      },
+      {
+       "text": "De regels van het Rijnvaartpolitiereglement toepassen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.04: de schipper moet, ook bij ontbreken van uitdrukkelijke voorschriften, alle voorzorgsmaatregelen nemen die volgens goede zeemanschap of door de omstandigheden zijn geboden."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 1.10",
+   "questions": [
+    {
+     "stem": "Waar staat welke scheepsbescheiden aan boord aanwezig moeten zijn?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "In bijlage 13 van het reglement",
+       "correct": true
+      },
+      {
+       "text": "In bijlage 7 van het reglement",
+       "correct": false
+      },
+      {
+       "text": "In het Handboek voor de radiocommunicatie in de binnenvaart",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.10, eerste lid: aan boord moeten de in bijlage 13 bedoelde scheepsbescheiden en andere documenten aanwezig zijn."
+    },
+    {
+     "stem": "Aan wie moeten de scheepsbescheiden op verzoek worden overhandigd?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Aan de ambtenaren belast met toezicht of opsporing van de bevoegde autoriteit",
+       "correct": true
+      },
+      {
+       "text": "Aan iedere schipper die erom vraagt",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend aan de eigenaar van het schip",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 1.10, eerste lid: de bescheiden moeten op verzoek worden overhandigd aan de ambtenaren belast met toezicht of opsporing van de bevoegde autoriteit."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.04",
+   "questions": [
+    {
+     "stem": "Welk gevolg moet de schipper op de Rijn krachtens de algemene plicht tot waakzaamheid mede voorkomen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Dat het milieu in ernstige mate kan worden beïnvloed",
+       "correct": true
+      },
+      {
+       "text": "Dat het schip te laat op zijn bestemming aankomt",
+       "correct": false
+      },
+      {
+       "text": "Dat het schip brandstof verbruikt boven het gemiddelde",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 1.04 onder d: de schipper moet mede voorkomen dat het milieu in ernstige mate kan worden beïnvloed."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.16",
+   "questions": [
+    {
+     "stem": "Wat moet de schipper doen bij een ongeval dat de opvarenden van zijn schip in gevaar brengt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Alle hem ten dienste staande middelen tot hun redding aanwenden",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend de bevoegde autoriteit waarschuwen en wachten",
+       "correct": false
+      },
+      {
+       "text": "Het schip zo snel mogelijk naar de dichtstbijzijnde haven brengen",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 1.16, eerste lid: bij een ongeval dat de opvarenden in gevaar brengt moet de schipper alle hem ten dienste staande middelen tot hun redding aanwenden."
+    },
+    {
+     "stem": "Wat is de schipper verplicht wanneer een schip in zijn nabijheid door een ongeval is getroffen waarbij personen gevaar lopen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Onverwijld bijstand te verlenen, voor zover dit met de veiligheid van zijn eigen schip is te verenigen",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend de positie van het getroffen schip door te geven",
+       "correct": false
+      },
+      {
+       "text": "Af te wachten tot een reddingsvaartuig ter plaatse is",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 1.16, tweede lid: de schipper is verplicht onverwijld bijstand te verlenen, voor zover dit met de veiligheid van zijn schip is te verenigen."
+    }
+   ]
+  }
+ ]
+}

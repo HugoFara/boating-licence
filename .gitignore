@@ -27,6 +27,11 @@ data/kb.fr.sqlite
 # source is the official ELWIS catalogue, ingested verbatim by src/questions/elwis.py.
 data/questions.de.sqlite
 data/questions.de.json
+# Netherlands bank (rebuild with `python tools/subagent_draft.py ingest nl NL`).
+# Durable source: data/draft_answers/countries/nl/ — the questions are law-seeded,
+# so the answer files ARE the bank, not a cache of one.
+data/questions.nl.sqlite
+data/questions.nl.json
 # International/harmonised bank (COLREG; rebuild with `python tools/subagent_draft.py
 # ingest en INT`). Durable source: data/draft_answers/int/ + data/verdicts/int/.
 data/questions.int.sqlite

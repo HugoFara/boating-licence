@@ -204,11 +204,18 @@ tout bateau de moins de 15 m capable de dépasser 20 km/h (*Binnenvaartbesluit* 
   le droit n'existe pas : « Er bestaat geen auteursrecht op wetten, besluiten en
   verordeningen, door de openbare macht uitgevaardigd. » KOOP publie chaque état
   consolidé en XML structuré, figures d'annexe comprises, en open data.
-- **Pas de catalogue officiel de questions.** Contrairement à ELWIS, le CBR ne publie
-  que des examens types. Les questions néerlandaises doivent donc être **dérivées de la
-  loi** (BPR + Binnenvaartregeling) derrière le gate de revue — la voie déjà suivie pour
-  le corpus Bodensee/BSO. La loi est ingérée (**782 unités, 686 figures officielles**) ;
-  la banque de questions reste à faire.
+- **Pas de catalogue réutilisable — mais le programme d'examen est libre.** L'Auteurswet
+  art. 15b *autoriserait* la réutilisation du matériel publié par une autorité publique,
+  sauf réserve expresse ; le disclaimer de cbr.nl la formule (« Alle intellectuele
+  eigendomsrechten worden voorbehouden »), donc rien du CBR n'est ingéré. Ce qui est
+  libre, c'est le **programme d'examen arrêté par le ministre de l'I&W** — un acte
+  ministériel relevant de l'art. 11 — et il nomme un à un les articles examinables.
+  C'est `src/countries/nl_examscope.py` : 144 dispositions dans six textes.
+- **234 questions dérivées de la loi**, rédigées à partir de ces articles et maintenues
+  **pending** derrière le gate de revue. Elles ont leur propre audit
+  (`tests/test_nl_questions.py`) dont le contrôle le plus tranchant attrape une valeur
+  transposée : un nombre figurant dans une bonne réponse doit apparaître dans l'article
+  cité *à côté des mots de la réponse elle-même*.
 - **Notation par points pondérés, pas par blocs.** KVB I : 40 QCM, 60 min, 1–3 points
   par question, réussite à 56/80. KVB II : 27 questions (23 QCM + 4 ouvertes), 90 min,
   1–4 points, réussite à 35/50. 70 % dans les deux cas. Il n'y a **pas d'épreuve

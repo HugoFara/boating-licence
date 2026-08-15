@@ -45,11 +45,12 @@ DISTRACTOR_STRATEGIES = {"sibling_random", "confusion_set", "curated", "n/a"}
 # Only these may be published to the static (public) player:
 EXPORTABLE_STATUSES = {"auto_approved", "approved"}
 # Supported content languages. FR/DE/IT have officially-published Swiss law to
-# ground questions against; EN has none, so English content is an unofficial
-# study translation (flagged in export meta). `fr` is the canonical default.
-LANGS = {"fr", "de", "it", "en"}
+# ground questions against and NL has officially-published Dutch law; EN has
+# neither, so English content is an unofficial study translation (flagged in
+# export meta). `fr` is the canonical default.
+LANGS = {"fr", "de", "it", "en", "nl"}
 DEFAULT_LANG = "fr"
-GROUNDED_LANGS = {"fr", "de", "it"}   # an official Fedlex source exists
+GROUNDED_LANGS = {"fr", "de", "it", "nl"}  # official law exists in this language
 
 
 @dataclass

@@ -1,0 +1,258 @@
+{
+ "drafts": [
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 9.04",
+   "questions": [
+    {
+     "stem": "Hoe moeten een opvarend en een afvarend schip elkaar ontmoeten op de riviergedeelten waarvoor RPR artikel 9.04 geldt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Zij moeten zo ver stuurboord houden als nodig is om zonder gevaar bakboord op bakboord voorbij te varen",
+       "correct": true
+      },
+      {
+       "text": "Zij moeten zo ver bakboord houden als nodig is om stuurboord op stuurboord voorbij te varen",
+       "correct": false
+      },
+      {
+       "text": "Het afvarende schip bepaalt in alle gevallen de zijde van het voorbijvaren",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 9.04, tweede lid: in afwijking van artikel 6.04 moeten beide schepen zo ver stuurboord houden als nodig is om bakboord op bakboord voorbij te varen."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 9.03",
+   "questions": [
+    {
+     "stem": "Wat mag een schip op een gedeelte van de vaarweg waar ligplaats nemen is toegestaan niet doen zonder toestemming van de bevoegde autoriteit?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Aan herstelwerkzaamheden worden onderworpen, laden of lossen",
+       "correct": true
+      },
+      {
+       "text": "De motor laten draaien om de accu te laden",
+       "correct": false
+      },
+      {
+       "text": "Meer dan één nacht blijven liggen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 9.03, tweede lid: zonder toestemming van de bevoegde autoriteit mag daar niet aan herstelwerkzaamheden worden onderworpen, worden geladen of gelost, of naar de atmosfeer worden geventileerd."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 9.07",
+   "questions": [
+    {
+     "stem": "Waar luistert een groot schip van een door de bevoegde autoriteit aangegeven categorie uit?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Op de in bijlage 9 en bijlage 10 genoemde vaarwegen, op het door de bevoegde autoriteit aangewezen marifoonkanaal",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend op kanaal 16 op alle vaarwegen",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend in havens en op wachtplaatsen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 9.07, tweede lid: zo'n groot schip luistert op de in bijlage 9 en bijlage 10 genoemde vaarwegen uit op het door de bevoegde autoriteit aangewezen marifoonkanaal."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 9.04",
+   "questions": [
+    {
+     "stem": "Aan welke motoreis moet een klein schip voldoen op de in bijlage 15 vermelde vaarwegen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het moet zijn voorzien van een motor die voor onmiddellijk gebruik gereed is en waarmee ten minste 6 kilometer per uur ten opzichte van het water kan worden gehandhaafd",
+       "correct": true
+      },
+      {
+       "text": "Het moet zijn voorzien van een motor van ten minste 10 kilowatt",
+       "correct": false
+      },
+      {
+       "text": "Het moet zijn voorzien van een motor waarmee ten minste 20 kilometer per uur kan worden gehaald",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 9.04, eerste lid: op die vaarwegen mag een klein schip slechts varen met een motor die voor onmiddellijk gebruik gereed is en waarmee ten minste 6 kilometer per uur ten opzichte van het water kan worden gehandhaafd."
+    },
+    {
+     "stem": "Is het op die vaarwegen toegestaan het vaarwater op te kruisen?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Nee, opkruisen is daar niet toegestaan",
+       "correct": true
+      },
+      {
+       "text": "Ja, mits het schip de stuurboordszijde aanhoudt",
+       "correct": false
+      },
+      {
+       "text": "Ja, mits het schip een zeilschip is",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 9.04, derde lid: op de in het eerste lid bedoelde vaarwegen is het niet toegestaan het vaarwater op te kruisen."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 10.08",
+   "questions": [
+    {
+     "stem": "Wat geldt in afwijking van hoofdstuk 6 ten opzichte van een bovenmaats zeegaand schip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een schip is verplicht aan een bovenmaats zeegaand schip voorrang te verlenen",
+       "correct": true
+      },
+      {
+       "text": "Een bovenmaats zeegaand schip verleent voorrang aan alle binnenschepen",
+       "correct": false
+      },
+      {
+       "text": "De gewone vaarregels van hoofdstuk 6 blijven onverkort gelden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 10.08, eerste lid: in afwijking van hoofdstuk 6 is een schip verplicht aan een bovenmaats zeegaand schip voorrang te verlenen."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 9.05",
+   "questions": [
+    {
+     "stem": "Wat is verboden op de voor de doorgaande vaart bestemde gedeelten van de in bijlage 16 opgenomen vaarwegen?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Varen met een zeilplank",
+       "correct": true
+      },
+      {
+       "text": "Varen met een klein motorschip",
+       "correct": false
+      },
+      {
+       "text": "Varen met een roeiboot",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 9.05, eerste lid: op de voor de doorgaande vaart bestemde gedeelten van de in bijlage 16 opgenomen vaarwegen is het verboden te varen met een zeilplank."
+    },
+    {
+     "stem": "Wat is volgens artikel 9.05 verder verboden?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Varen met een door een vlieger voortbewogen plank of klein schip",
+       "correct": true
+      },
+      {
+       "text": "Varen met een zeilschip zonder motor",
+       "correct": false
+      },
+      {
+       "text": "Varen met een bijboot van een groot schip",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 9.05, tweede lid: het is verboden te varen met een door een vlieger voortbewogen plank of klein schip; de bevoegde autoriteit kan vaarwegen aanwijzen waar dit overdag niet geldt."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 10.03",
+   "questions": [
+    {
+     "stem": "Welke bijkomende tekens voert een varend bovenmaats zeegaand schip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "'s Nachts drie rode rondom schijnende lichten in een verticale lijn en overdag een zwarte cilinder",
+       "correct": true
+      },
+      {
+       "text": "'s Nachts drie groene rondom schijnende lichten en overdag een zwarte bol",
+       "correct": false
+      },
+      {
+       "text": "'s Nachts twee blauwe lichten en overdag een blauwe kegel",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 10.03: een varend bovenmaats zeegaand schip voert 's nachts drie rode rondom schijnende lichten in een verticale lijn en overdag een zwarte cilinder."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 9.01",
+   "questions": [
+    {
+     "stem": "Op welke vaarwegen is hoofdstuk 9 van het BPR van toepassing?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Op de in het Vaststellingsbesluit bedoelde vaarwegen voor zover deze in beheer zijn bij het Rijk, en op de in bijlage 10 vermelde vaarwegen",
+       "correct": true
+      },
+      {
+       "text": "Op alle Nederlandse binnenwateren zonder uitzondering",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend op de vaarwegen die in beheer zijn bij de provincies",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 9.01: dit hoofdstuk geldt op de in artikel 2 van het Vaststellingsbesluit bedoelde vaarwegen voor zover in beheer bij het Rijk, en op de in bijlage 10 vermelde vaarwegen."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 10.01",
+   "questions": [
+    {
+     "stem": "Op welke vaarwegen en havens is hoofdstuk 10 van het BPR van toepassing?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Op de vaarwegen en havens genoemd in bijlage 11, waarbij onder een haven ook een laad- of losplaats is begrepen",
+       "correct": true
+      },
+      {
+       "text": "Op alle zeehavens langs de Nederlandse kust",
+       "correct": false
+      },
+      {
+       "text": "Op de vaarwegen genoemd in bijlage 15",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 10.01: dit hoofdstuk is van toepassing op de vaarwegen en havens genoemd in bijlage 11; onder een haven is een laad- of losplaats begrepen."
+    }
+   ]
+  }
+ ]
+}

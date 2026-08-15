@@ -88,7 +88,13 @@ _CHAPTER_THEME: dict[str, str] = {
     "5": "verkeerstekens",
     "6": "vaarregels",
     "7": "ligplaats",
-    "8": "bijzondere_vaarwegen", "9": "bijzondere_vaarwegen",
+    # Chapter 8 ("Aanvullende bepalingen") is not per-waterway at all: it is the
+    # conduct code for fast motorboats, waterskiing and swimming, which the
+    # ministerial exam programme lists beside the steering rules. Filing it as a
+    # per-waterway provision would tell a learner that a waterskiing rule belongs
+    # to a stretch of river.
+    "8": "vaarregels",
+    "9": "bijzondere_vaarwegen",
     "10": "bijzondere_vaarwegen", "11": "bijzondere_vaarwegen",
     "12": "bijzondere_vaarwegen", "13": "bijzondere_vaarwegen",
 }
@@ -119,12 +125,21 @@ _ANNEX_THEME_BPR: dict[str, str] = {
 _POLITIEREGLEMENT = re.compile(r"politiereglement", re.I)
 _BPR = re.compile(r"binnenvaartpolitiereglement", re.I)
 
+_RADIO_TITLE = re.compile(r"\b(marifoon|radar|AIS|ECDIS)\b", re.I)
+_BUOYAGE_TITLE = re.compile(r"markering van (?:het vaarwater|de vaarweg)", re.I)
+
 _ARTICLE_REF = re.compile(r"\bartikel\s+(\d+[A-Z]?)\.\d", re.I)
 _ANNEX_REF = re.compile(r"\bbijlage\s+(\d+)", re.I)
 
 # Keyword fallback, ordered most-specific first. Used for the licensing acts
 # (Binnenvaartwet/-besluit/-regeling) and any unit without a parseable ref.
 _KEYWORDS: tuple[tuple[str, re.Pattern[str]], ...] = (
+    # A definitions article, whatever act it sits in. First, because its own
+    # vocabulary is every other theme's vocabulary: the Binnenvaartbesluit's
+    # definition list mentions a bunker station's "permanente ligplaats" and was
+    # filed as a berthing rule.
+    ("algemene_bepalingen", re.compile(
+        r"wordt,?(?:\s*tenzij anders is bepaald,)?\s*verstaan onder", re.I)),
     ("vaarbewijs", re.compile(
         r"\b(vaarbewijs|vaarbewijzen|kwalificatiecertificaat|dienstboekje|"
         r"examen|geneeskundige verklaring|gezondheidsverklaring|"
@@ -136,9 +151,11 @@ _KEYWORDS: tuple[tuple[str, re.Pattern[str]], ...] = (
     ("optische_tekens", re.compile(
         r"\b(licht(en|voering)?|toplicht|boordlicht\w*|heklicht|rondom schijnend|"
         r"dagmerk\w*|bol|kegel|cilinder|ruit)\b", re.I)),
+    # NOT a bare "ton": in Dutch that is also the tonnage unit, and it filed the
+    # Binnenvaartwet's zone article and a 50-tonne haulage threshold under buoyage.
     ("betonning", re.compile(
-        r"\b(betonning|markering van het vaarwater|boei\w*|ton(nen)?|"
-        r"spitse ton|stompe ton|kardinale)\b", re.I)),
+        r"\b(betonning|bebakening|markering van (?:het vaarwater|de vaarweg)|"
+        r"boei\w*|spitse ton\w*|stompe ton\w*|kardinale|lichtenlijn\w*)\b", re.I)),
     ("verkeerstekens", re.compile(
         r"\b(verkeersteken\w*|verbodsteken\w*|gebodsteken\w*|"
         r"beperkingsteken\w*|aanwijzingsteken\w*|bord)\b", re.I)),
@@ -172,7 +189,17 @@ def tag_theme(ref: str = "", title: str = "", text: str = "",
                 return annexes[m.group(1)]
         m = _ARTICLE_REF.search(haystack_ref)
         if m and m.group(1).upper() in _CHAPTER_THEME:
-            return _CHAPTER_THEME[m.group(1).upper()]
+            theme = _CHAPTER_THEME[m.group(1).upper()]
+            # The BPR splits sound (ch. 4) from radio and radar (ch. 4A); the RPR
+            # combines them in one chapter 4. Where the act itself titles the
+            # article "Marifoon" or "Radar", that heading wins over the chapter.
+            if theme == "geluidsseinen" and _RADIO_TITLE.search(title or ""):
+                return "marifoon_radar"
+            # Likewise RPR 5.02 is titled "Verkeerstekens ter markering van de
+            # vaarweg" — a buoyage rule sitting in the signs chapter.
+            if theme == "verkeerstekens" and _BUOYAGE_TITLE.search(title or ""):
+                return "betonning"
+            return theme
 
     haystack = " ".join((ref, title, text))
     for theme_id, pattern in _KEYWORDS:

@@ -207,11 +207,18 @@ scafo sotto i 15 m capace di superare i 20 km/h (*Binnenvaartbesluit* art. 16).
   che il diritto non esiste: «Er bestaat geen auteursrecht op wetten, besluiten en
   verordeningen, door de openbare macht uitgevaardigd.» KOOP pubblica ogni stato
   consolidato in XML strutturato, figure degli allegati comprese, come open data.
-- **Nessun catalogo ufficiale di domande.** A differenza di ELWIS, il CBR pubblica solo
-  esami di esempio. Le domande olandesi vanno quindi **derivate dalla legge** (BPR +
-  Binnenvaartregeling) dietro il gate di revisione — la stessa via già seguita per il
-  corpus Bodensee/BSO. La legge è acquisita (**782 unità, 686 figure ufficiali**); la
-  banca di domande resta da costruire.
+- **Nessun catalogo riutilizzabile — ma il programma d'esame è libero.** L'Auteurswet
+  art. 15b *permetterebbe* il riuso del materiale pubblicato da un'autorità pubblica,
+  salvo riserva espressa; il disclaimer di cbr.nl la formula («Alle intellectuele
+  eigendomsrechten worden voorbehouden»), quindi nessun materiale del CBR viene
+  acquisito. È invece libero il **programma d'esame stabilito dal Ministro I&W** — un
+  atto ministeriale ai sensi dell'art. 11 — che nomina uno per uno gli articoli
+  esaminabili. È `src/countries/nl_examscope.py`: 144 disposizioni in sei atti.
+- **234 domande derivate dalla legge**, redatte da quegli articoli e tenute **pending**
+  dietro il gate di revisione. Hanno un audit dedicato
+  (`tests/test_nl_questions.py`) il cui controllo più tagliente intercetta un valore
+  trasposto: un numero in una risposta corretta deve comparire nell'articolo citato
+  *accanto alle parole della risposta stessa*.
 - **Punteggio a punti pesati, non a blocchi.** KVB I: 40 domande, 60 min, 1–3 punti
   ciascuna, superato a 56/80. KVB II: 27 domande (23 a scelta multipla + 4 aperte),
   90 min, 1–4 punti, superato a 35/50. Entrambi al 70 %. **Non esiste prova pratica** —

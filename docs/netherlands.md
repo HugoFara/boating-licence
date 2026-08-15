@@ -5,12 +5,10 @@ De juridische en redactionele grens is **dezelfde als bij de Zwitserse kern**: e
 vraag wordt *uit primaire bronnen afgeleid* en draagt een bronvermelding terug naar
 de tekst waaruit zij komt.
 
-Eén verschil met Duitsland is bepalend voor de aanpak: er is **géén officiële
-vragenbank**. Het CBR publiceert alleen voorbeeldexamens, geen catalogus zoals het
-Duitse ELWIS. De Nederlandse vragen worden daarom **uit de wet zelf afgeleid**
+Eén verschil met Duitsland is bepalend voor de aanpak: er is **géén herbruikbare
+vragenbank**. De Nederlandse vragen worden daarom **uit de wet zelf afgeleid**
 (law-seeded, achter de review gate) — dezelfde route die het project al voor de
-Bodensee/BSO-set volgt. Dit document beschrijft de ingestie en het examenmodel
-waarop die vragenset gebouwd wordt.
+Bodensee/BSO-set volgt.
 
 ## De juridische grond — geen auteursrecht, geen licentie nodig
 
@@ -25,6 +23,51 @@ niet is:
 
 De geconsolideerde teksten én de bijbehorende bijlage-illustraties worden door KOOP
 (wetten.overheid.nl) als open data gepubliceerd.
+
+### Waarom de CBR-vragen niet bruikbaar zijn — en waarom dat niet vanzelf sprak
+
+Artikel 11 zegt dat er geen auteursrecht *bestaat* op wetgeving. **Artikel 15b** gaat
+nog een stap verder voor ander overheidsmateriaal: verdere openbaarmaking of
+verveelvoudiging van een door of vanwege de openbare macht openbaar gemaakt werk is
+géén inbreuk, *"tenzij het auteursrecht … uitdrukkelijk is voorbehouden"*. Dat is een
+toestemming bij verstek — sterker dan §5(2) UrhG, waarop de Duitse ELWIS-ingestie
+rust. De voorbeeldexamens van het CBR staan vrij op cbr.nl en dragen zelf geen enkele
+voorbehoudsvermelding.
+
+Het voorbehoud staat echter elders, en het is ondubbelzinnig. De **disclaimer van
+cbr.nl**: *"Alle intellectuele eigendomsrechten worden voorbehouden"* en *"Het is niet
+toegestaan om door middel van scraping of enige andere wijze gegevens van de CBR
+website over te nemen."* Daarmee is precies de uitzondering van artikel 15b ingeroepen
+en valt de standaardtoestemming weg.
+
+Conclusie, en die is hard: **CBR-materiaal wordt niet ingestiet en niet overgenomen.**
+Er bestaat verder geen officiële vragenbank — de open data van het CBR bevat
+examen*statistiek*, geen vragen, en het CBR stelt zelf dat de examenvragen niet als
+verzameling worden gepubliceerd.
+
+### Wat wél bruikbaar bleek: het examenprogramma van de minister
+
+Het CBR publiceert het *Examendocument Klein Vaarbewijs 1*, en hoofdstuk 1 daarvan is
+het **examenprogramma, vastgesteld door de Minister van I&W**. Een ministerieel
+besluit valt onder artikel 11: daarop bestaat geen auteursrecht, en een
+websitedisclaimer kan dat niet terugdraaien.
+
+Dat programma vertaalt de vijf regels van Binnenvaartregeling art. 7.15 naar **bij
+naam genoemde artikelen** van bij naam genoemde wetten. Daaruit is
+`src/countries/nl_examscope.py` opgebouwd: 100 BPR-artikelen, 31 RPR-artikelen en de
+wettelijke ruggengraat (SVW 27/35a/35b, BVW 1/25/27, BVB 1/13-16, WvK 785,
+Vaststellingsbesluit BPR art. 2) — samen 144 vindplaatsen, waarvan er 139 in de
+kennisbank zitten.
+
+Alleen de artikel*nummers* zijn overgenomen: welke bepalingen examenstof zijn, is een
+verzameling feiten en niemands uitdrukkingswijze. De *afbakening* en de *toetsmatrijs*
+van het CBR — de eigen uitwerking waarop het voorbehoud wel rust — zijn niet
+overgenomen.
+
+Dat het uitmaakt, blijkt uit de omvang: de Nederlandse kennisbank telt 860 eenheden en
+556 die lang genoeg zijn om vragen uit af te leiden, maar het overgrote deel daarvan
+(beroepsbemanning, certificering, lijsten met vaarwegnamen) kan op een recreatief
+examen nooit gevraagd worden. Het programma snijdt dat weg.
 
 ## Vaarbewijzen
 
@@ -138,15 +181,65 @@ Rijn (`RHINE`, RPR/CCR) telt Nederland al als deelnemer.
 > — beide vaarbewijzen zijn inland-track, ook die voor de wateren van maritieme aard,
 > die in de wet binnenwateren zijn.
 
+## De vragenbank
+
+**234 vragen**, afgeleid uit 117 artikelen die het examenprogramma noemt
+(`data/questions.nl.sqlite`). Verdeling:
+
+| Thema | Vragen |
+|-------|--------|
+| Vaarregels | 98 |
+| Optische tekens | 54 |
+| Algemene bepalingen | 35 |
+| Vaarbewijs | 14 |
+| Ligplaats nemen | 12 |
+| Bijzondere bepalingen per vaarweg | 11 |
+| Geluidsseinen | 6 |
+| Marifoon en radar | 4 |
+
+Elke vraag heeft precies drie antwoorden, hangt aan één artikel, draagt een
+verklaring met de vindplaats, en is **pending**: law-seeded vragen zijn geen
+officiële catalogus, dus niets bereikt de speler voordat een mens ze goedkeurt
+(`python run.py review --list`).
+
+### De audit (`tests/test_nl_questions.py`)
+
+Omdat deze vragen zijn geschreven en niet overgenomen, krijgen ze een zwaardere
+controle dan een officiële bank nodig zou hebben. Acht controles, waarvan de
+laatste de scherpste is:
+
+* structuur (drie antwoorden, geen dubbele antwoordtekst, geen dubbele vraagstelling);
+* **scope** — elke vraag hangt aan een artikel dat het examenprogramma noemt;
+* **grounding** — de woorden van het juiste antwoord komen voor in het geciteerde
+  artikel (dezelfde lexicale drempel als de draft-pijplijn);
+* **de verklaring citeert het artikel waaraan de vraag hangt** — vangt een
+  copy-paste-fout die verder onzichtbaar blijft;
+* **getallen** — elk getal in een juist antwoord staat in het artikel, én staat daar
+  *naast de woorden van het antwoord zelf*. Enkel lidmaatschap bewijst niets: BPR
+  art. 1.01 is 8000 tekens lang en bevat vrijwel elk klein getal ergens, dus een bank
+  die beweert dat een klein schip korter is dan 15 m zou er glansrijk doorheen komen.
+  Dit is precies de fout die een law-seeded bank maakt — de regel zegt 20 m, de opties
+  zijn 15/20/25, en één verwisseling maakt een fout antwoord waar. De controle is
+  geverifieerd met een opzettelijk omgedraaide sleutel: die wordt gevangen.
+
 ## Wat nog open staat
 
-* **Vragen.** De bank is nog leeg: de law-seeded afleiding uit het BPR en de
-  Binnenvaartregeling (achter de review gate) is de volgende stap.
+* **Goedkeuring.** Alle 234 vragen staan pending. De review gate is bewust dicht: de
+  auteur van deze vragen is niet hun onafhankelijke controleur.
 * **Niet ingestiet.** Scheepvaartreglement Westerschelde 1990, Scheepvaartreglement
   Eemsmonding en Scheepvaartreglement Gemeenschappelijke Maas staan als
   :class:`Reference` vast (vrij van auteursrecht, maar nog niet nodig).
 * **Illustraties.** De 686 platen zijn opgehaald en gekoppeld aan hun bijlage, maar
-  nog niet aan losse tekens (zoals bij de Franse RGP-platen gebeurde).
+  nog niet aan losse tekens (zoals bij de Franse RGP-platen gebeurde). Het echte
+  examen toont bij veel vragen een plaatje; zolang dat ontbreekt, dekt deze bank de
+  tekstvragen en niet de beeldvragen.
+* **Klein Vaarbewijs II.** Het KVB II-programma voegt de Westerschelde, de
+  Eemsmonding, het Kanaal Gent-Terneuzen en de internationale zeevaartbepalingen toe,
+  plus navigatie en meteorologie. Die reglementen zijn nog niet ingestiet, dus
+  `SCOPE_KVB2` is leeg gelaten in plaats van geraden.
+* **De onderwerpen zonder wetstekst.** Motorkennis, manoeuvreren, weerkunde en het
+  gebruik van waterkaarten staan in art. 7.15 maar in geen enkele verordening. Zij
+  blijven extension themes tot er een vrij herbruikbare bron voor is.
 
 <!-- path:auto:start — generated by `python run.py path-docs`; do not edit by hand -->
 

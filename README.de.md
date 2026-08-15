@@ -208,11 +208,19 @@ Markermeer außer der Gouwzee), keine Ermessensfrage. Pflicht für Fahrzeuge von
   dass das Recht gar nicht besteht: „Er bestaat geen auteursrecht op wetten, besluiten
   en verordeningen, door de openbare macht uitgevaardigd." KOOP veröffentlicht jeden
   konsolidierten Stand als strukturiertes XML samt Anlagen-Abbildungen als Open Data.
-- **Kein amtlicher Fragenkatalog.** Anders als ELWIS veröffentlicht das CBR nur
-  Musterprüfungen. Die niederländischen Fragen müssen deshalb **aus dem Gesetz
-  abgeleitet** werden (BPR + Binnenvaartregeling) — hinter dem Review-Gate, genau wie
-  beim Bodensee/BSO-Bestand. Das Recht ist eingelesen (**782 Einheiten, 686 amtliche
-  Abbildungen**); die Fragenbank steht noch aus.
+- **Kein nachnutzbarer Fragenkatalog — aber der Lehrplan ist frei.** Auteurswet
+  Art. 15b würde die Nachnutzung von Material einer öffentlichen Stelle *erlauben*,
+  sofern die Rechte nicht ausdrücklich vorbehalten sind; der Disclaimer von cbr.nl
+  behält sie vor („Alle intellectuele eigendomsrechten worden voorbehouden"), also wird
+  kein CBR-Material eingelesen. Frei ist dagegen das **vom Minister für I&W
+  festgestellte Prüfungsprogramm** — ein ministerieller Rechtsakt nach Art. 11 — und es
+  benennt die prüfungsrelevanten Artikel einzeln. Das ist
+  `src/countries/nl_examscope.py`: 144 Vorschriften aus sechs Rechtsakten.
+- **234 aus dem Gesetz abgeleitete Fragen**, aus diesen Artikeln formuliert und hinter
+  dem Review-Gate auf **pending** gehalten. Sie haben eine eigene Prüfung
+  (`tests/test_nl_questions.py`), deren schärfster Test einen vertauschten Wert fängt:
+  eine Zahl in einer richtigen Antwort muss im zitierten Artikel *neben den Wörtern der
+  Antwort selbst* stehen.
 - **Gewichtete Punkte statt Blöcke.** KVB I: 40 Fragen, 60 Min., 1–3 Punkte je Frage,
   bestanden ab 56/80. KVB II: 27 Fragen (23 MC + 4 offen), 90 Min., 1–4 Punkte,
   bestanden ab 35/50. Beide 70 %. Es gibt **keine praktische Prüfung** — daher wird

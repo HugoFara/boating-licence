@@ -1,0 +1,310 @@
+{
+ "drafts": [
+  {
+   "ref": "Scheepvaartverkeerswet Artikel 27",
+   "questions": [
+    {
+     "stem": "Wat verbiedt de Scheepvaartverkeerswet aan degene die een varend schip voert of stuurt?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Dit te doen onder zodanige invloed van een stof dat hij niet in staat moet worden geacht het schip naar behoren te voeren of te sturen",
+       "correct": true
+      },
+      {
+       "text": "Dit te doen zonder een marifoon aan boord",
+       "correct": false
+      },
+      {
+       "text": "Dit te doen buiten de daglichtperiode",
+       "correct": false
+      }
+     ],
+     "explanation": "SVW artikel 27, eerste lid: het is verboden een varend schip te voeren of te sturen onder zodanige invloed van een stof dat men niet in staat moet worden geacht het schip naar behoren te voeren of te sturen."
+    }
+   ]
+  },
+  {
+   "ref": "Scheepvaartverkeerswet Artikel 35a",
+   "questions": [
+    {
+     "stem": "Wat moet de houder van een vaarbewijs doen tegen wie proces-verbaal wordt opgemaakt wegens een in artikel 35b genoemd voorschrift?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Zijn vaarbewijs op eerste vordering overhandigen aan de opsporingsambtenaar",
+       "correct": true
+      },
+      {
+       "text": "Zijn vaarbewijs binnen veertien dagen opsturen naar het CBR",
+       "correct": false
+      },
+      {
+       "text": "Zijn vaarbewijs laten vernietigen door de officier van justitie",
+       "correct": false
+      }
+     ],
+     "explanation": "SVW artikel 35a, eerste lid: de houder overhandigt zijn vaarbewijs op eerste vordering aan de opsporingsambtenaar."
+    },
+    {
+     "stem": "Boven welk ademalcoholgehalte kan de officier van justitie een ingevorderd vaarbewijs onder zich houden?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Hoger dan 785 microgram alcohol per liter uitgeademde lucht",
+       "correct": true
+      },
+      {
+       "text": "Hoger dan 220 microgram alcohol per liter uitgeademde lucht",
+       "correct": false
+      },
+      {
+       "text": "Hoger dan 350 microgram alcohol per liter uitgeademde lucht",
+       "correct": false
+      }
+     ],
+     "explanation": "SVW artikel 35a, tweede lid onder a: dit geldt onder meer indien het alcoholgehalte van de adem hoger is dan 785 microgram alcohol per liter uitgeademde lucht, dan wel het bloedalcoholgehalte hoger dan 1,8 milligram per milliliter bloed."
+    }
+   ]
+  },
+  {
+   "ref": "Scheepvaartverkeerswet Artikel 35b",
+   "questions": [
+    {
+     "stem": "Voor hoeveel jaren kan de bevoegdheid tot het voeren van schepen ten hoogste worden ontzegd?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Voor ten hoogste vijf jaren",
+       "correct": true
+      },
+      {
+       "text": "Voor ten hoogste twee jaren",
+       "correct": false
+      },
+      {
+       "text": "Voor ten hoogste tien jaren in alle gevallen",
+       "correct": false
+      }
+     ],
+     "explanation": "SVW artikel 35b, eerste lid: de bevoegdheid kan voor ten hoogste vijf jaren worden ontzegd; bij herhaling binnen vijf jaren ten hoogste tien jaren."
+    },
+    {
+     "stem": "Wanneer kan de bevoegdheid tot het voeren van schepen voor ten hoogste tien jaren worden ontzegd?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Indien tijdens het feit nog geen vijf jaren zijn verlopen na het einde van een eerdere ontzegging wegens zo'n feit",
+       "correct": true
+      },
+      {
+       "text": "Indien de schipper jonger is dan achttien jaren",
+       "correct": false
+      },
+      {
+       "text": "Indien het schip een snelle motorboot is",
+       "correct": false
+      }
+     ],
+     "explanation": "SVW artikel 35b, tweede lid: is bij het plegen van het feit nog geen vijf jaren verlopen na een vroegere ontzegging wegens zo'n feit, dan kan de bevoegdheid voor ten hoogste tien jaren worden ontzegd."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartbesluit Artikel 16",
+   "questions": [
+    {
+     "stem": "Voor welke pleziervaartuigen is een klein vaarbewijs vereist?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Voor pleziervaartuigen met een lengte van ten minste 15 meter en minder dan 25 meter",
+       "correct": true
+      },
+      {
+       "text": "Voor pleziervaartuigen met een lengte van ten minste 10 meter en minder dan 20 meter",
+       "correct": false
+      },
+      {
+       "text": "Voor alle pleziervaartuigen ongeacht hun lengte",
+       "correct": false
+      }
+     ],
+     "explanation": "Binnenvaartbesluit artikel 16, eerste lid onder b: een klein vaarbewijs is vereist voor pleziervaartuigen met een lengte van ten minste 15 en minder dan 25 meter."
+    },
+    {
+     "stem": "Vanaf welke snelheid is voor een schip korter dan 15 meter een klein vaarbewijs vereist?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Vanaf een snelheid van meer dan 20 kilometer per uur ten opzichte van het water",
+       "correct": true
+      },
+      {
+       "text": "Vanaf een snelheid van meer dan 13 kilometer per uur ten opzichte van het water",
+       "correct": false
+      },
+      {
+       "text": "Vanaf een snelheid van meer dan 30 kilometer per uur ten opzichte van het water",
+       "correct": false
+      }
+     ],
+     "explanation": "Binnenvaartbesluit artikel 16, eerste lid onder d: een klein vaarbewijs is vereist voor schepen korter dan 15 meter die met de eigen mechanische voortstuwingsmiddelen meer dan 20 kilometer per uur ten opzichte van het water kunnen bereiken."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartwet Artikel 25",
+   "questions": [
+    {
+     "stem": "Wat is verboden volgens de Binnenvaartwet ten aanzien van het gebruik van een schip?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Een schip te gebruiken zonder dat aan de gezagvoerder het vereiste geldige vaarbewijs is afgegeven",
+       "correct": true
+      },
+      {
+       "text": "Een schip te gebruiken zonder dat het is voorzien van een radarreflector",
+       "correct": false
+      },
+      {
+       "text": "Een schip te gebruiken buiten de daglichtperiode zonder marifoon",
+       "correct": false
+      }
+     ],
+     "explanation": "Binnenvaartwet artikel 25, vierde lid: het is verboden een schip te gebruiken zonder dat aan de gezagvoerder het daarvoor vereiste geldige vaarbewijs of de vereiste specifieke vergunning is afgegeven."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartwet Artikel 27",
+   "questions": [
+    {
+     "stem": "Aan wie wordt geen vaarbewijs afgegeven?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Aan degene die de leeftijd van 18 jaar nog niet heeft bereikt",
+       "correct": true
+      },
+      {
+       "text": "Aan degene die de leeftijd van 16 jaar nog niet heeft bereikt",
+       "correct": false
+      },
+      {
+       "text": "Aan degene die de leeftijd van 21 jaar nog niet heeft bereikt",
+       "correct": false
+      }
+     ],
+     "explanation": "Binnenvaartwet artikel 27, eerste lid onder a: een vaarbewijs wordt niet afgegeven aan degene die de leeftijd van 18 jaar nog niet heeft bereikt."
+    },
+    {
+     "stem": "Aan wie wordt verder geen vaarbewijs afgegeven?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Aan degene aan wie ingevolge artikel 35b van de Scheepvaartverkeerswet de bevoegdheid tot het voeren van schepen is ontzegd, gedurende de termijn van ontzegging",
+       "correct": true
+      },
+      {
+       "text": "Aan degene die in de afgelopen vijf jaren geen vaartijd heeft opgebouwd",
+       "correct": false
+      },
+      {
+       "text": "Aan degene die geen ingezetene van Nederland is",
+       "correct": false
+      }
+     ],
+     "explanation": "Binnenvaartwet artikel 27, eerste lid onder c: geen vaarbewijs wordt afgegeven aan degene aan wie de bevoegdheid tot het voeren van schepen is ontzegd, gedurende de termijn van ontzegging."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartbesluit Artikel 14",
+   "questions": [
+    {
+     "stem": "Vanaf welke lengte is voor een schip een kwalificatiecertificaat schipper vereist?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Vanaf een lengte van ten minste 20 meter",
+       "correct": true
+      },
+      {
+       "text": "Vanaf een lengte van ten minste 15 meter",
+       "correct": false
+      },
+      {
+       "text": "Vanaf een lengte van ten minste 25 meter",
+       "correct": false
+      }
+     ],
+     "explanation": "Binnenvaartbesluit artikel 14, eerste lid onder a: een kwalificatiecertificaat schipper is vereist voor schepen met een lengte van ten minste 20 meter."
+    },
+    {
+     "stem": "Voor welke pleziervaartuigen geldt de eis van een kwalificatiecertificaat schipper vanwege de lengte niet?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Voor pleziervaartuigen met een lengte van minder dan 25 meter",
+       "correct": true
+      },
+      {
+       "text": "Voor pleziervaartuigen met een lengte van minder dan 20 meter",
+       "correct": false
+      },
+      {
+       "text": "Voor alle pleziervaartuigen ongeacht hun lengte",
+       "correct": false
+      }
+     ],
+     "explanation": "Binnenvaartbesluit artikel 14, derde lid: het eerste lid onder a is niet van toepassing op pleziervaartuigen met een lengte van minder dan 25 meter."
+    }
+   ]
+  },
+  {
+   "ref": "Wetboek van Koophandel Artikel 785",
+   "questions": [
+    {
+     "stem": "Waartoe is de schipper verplicht wanneer zijn schip bij een aanvaring betrokken is geweest?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Aan de andere betrokken schepen en de personen aan boord daarvan de hulp te verlenen waartoe hij bij machte is zonder zijn eigen schip en opvarenden aan ernstig gevaar bloot te stellen",
+       "correct": true
+      },
+      {
+       "text": "Onmiddellijk door te varen naar de dichtstbijzijnde haven om schade te melden",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend de bevoegde autoriteit in te lichten en verder niets te doen",
+       "correct": false
+      }
+     ],
+     "explanation": "Wetboek van Koophandel artikel 785, eerste lid: de schipper is verplicht hulp te verlenen waartoe hij bij machte is zonder zijn eigen schip en de opvarenden daarvan aan ernstig gevaar bloot te stellen."
+    },
+    {
+     "stem": "Welke gegevens moet de schipper na een aanvaring aan de andere betrokken schepen opgeven?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "De naam van zijn schip, de plaats waar het thuisbehoort, de plaats vanwaar het komt en waarheen het bestemd is",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend de naam en het adres van de eigenaar van het schip",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend het nummer van zijn vaarbewijs",
+       "correct": false
+      }
+     ],
+     "explanation": "Wetboek van Koophandel artikel 785, tweede lid: de schipper moet de naam van zijn schip, de plaats waar het thuisbehoort en de plaats vanwaar het komt en waarheen het bestemd is opgeven, en inzage verstrekken van het bewijs van inschrijving in het register."
+    }
+   ]
+  }
+ ]
+}

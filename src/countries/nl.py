@@ -31,7 +31,7 @@ volatile where it drifts.
 from __future__ import annotations
 
 from ..sources import Source
-from . import nl_themes
+from . import nl_examscope, nl_themes
 from .base import Country, ExamRules, PathStep, Permit, Reference, Region
 
 LEGAL_BASIS = (
@@ -71,6 +71,28 @@ SOURCES: list[Source] = [
         name="Scheepvaartreglement territoriale zee (STZ)",
         url="https://wetten.overheid.nl/BWBR0007914",
         default_theme="vaarregels", licence=_BWB_LICENCE),
+    # Named by the ministerial exam programme (CBR Examendocument KVB1, ch. 1) as
+    # the basis of every scheepvaartreglement and the home of the alcohol limit and
+    # the withdrawal of a vaarbewijs — but absent from the first ingestion pass.
+    Source(
+        id="svw", kind="bwb", lang="nl", bwb_id="BWBR0004364",
+        name="Scheepvaartverkeerswet (SVW)",
+        url="https://wetten.overheid.nl/BWBR0004364",
+        default_theme="vaarbewijs", licence=_BWB_LICENCE),
+    Source(
+        id="vaststellingsbesluit_bpr", kind="bwb", lang="nl", bwb_id="BWBR0003627",
+        name="Vaststellingsbesluit Binnenvaartpolitiereglement",
+        url="https://wetten.overheid.nl/BWBR0003627",
+        default_theme="algemene_bepalingen", licence=_BWB_LICENCE),
+    # The exam names exactly one article of the Wetboek van Koophandel — art. 785,
+    # the duty to render assistance and to exchange details after a collision. The
+    # code has 1307 articles of commercial law, so only that one is ingested.
+    Source(
+        id="wvk", kind="bwb", lang="nl", bwb_id="BWBR0001838",
+        only_refs=("Artikel 785",),
+        name="Wetboek van Koophandel",
+        url="https://wetten.overheid.nl/BWBR0001838",
+        default_theme="veiligheid", licence=_BWB_LICENCE),
     Source(
         id="binnenvaartwet", kind="bwb", lang="nl", bwb_id="BWBR0023009",
         name="Binnenvaartwet",
@@ -254,4 +276,11 @@ COUNTRY = Country(
     references=REFERENCES,
     path=PATH,
     legal_basis=LEGAL_BASIS,
+    # The Dutch code puts its most examinable rules in long articles (head-on,
+    # crossing, small-craft lights, locks all exceed the default 2200-character
+    # ceiling) and its sharpest ones in a single sentence, so the drafting window
+    # is widened at both ends.
+    draft_len=(60, 9000),
+    # Only what the ministerial exam programme names — see nl_examscope.
+    examinable=nl_examscope.examinable,
 )

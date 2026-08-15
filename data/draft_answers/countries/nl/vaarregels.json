@@ -1,0 +1,2131 @@
+{
+ "drafts": [
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.28",
+   "questions": [
+    {
+     "stem": "Met welk geluidssein kan een schip het verzoek tot het bedienen van een sluis kenbaar maken?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Eén lange stoot gevolgd door één korte stoot en één lange stoot",
+       "correct": true
+      },
+      {
+       "text": "Drie korte stoten kort na elkaar",
+       "correct": false
+      },
+      {
+       "text": "Een reeks zeer korte stoten",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.28, vierde lid: het verzoek tot bedienen van een sluis wordt kenbaar gemaakt door één lange stoot gevolgd door één korte stoot en één lange stoot, dan wel door roepen."
+    },
+    {
+     "stem": "Wat moet een schip in een sluis met zijn ankers doen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "De ankers geheel voorhalen",
+       "correct": true
+      },
+      {
+       "text": "Het bakboordanker laten vallen",
+       "correct": false
+      },
+      {
+       "text": "De ankers op de bodem laten slepen om vaart te minderen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.28, zevende lid: in een sluis moet een schip zijn ankers geheel voorhalen; dezelfde verplichting geldt op een wachtplaats voor zover de ankers niet worden gebruikt."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.28",
+   "questions": [
+    {
+     "stem": "Kan een klein schip op de Rijn verlangen afzonderlijk te worden geschut?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Nee, en het mag de sluis pas invaren op aanwijzing van het sluispersoneel",
+       "correct": true
+      },
+      {
+       "text": "Ja, een klein schip wordt altijd afzonderlijk geschut",
+       "correct": false
+      },
+      {
+       "text": "Ja, mits het vóór de grote schepen op de wachtplaats is aangekomen",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.28, derde lid: een klein schip kan niet verlangen afzonderlijk te worden geschut en mag de sluis pas invaren op aanwijzing van het sluispersoneel."
+    },
+    {
+     "stem": "Welke zijwaartse afstand moet een schip in een sluis in acht nemen ten opzichte van een schip dat het teken van artikel 3.14, eerste lid voert?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Ten minste 10 m",
+       "correct": true
+      },
+      {
+       "text": "Ten minste 50 m",
+       "correct": false
+      },
+      {
+       "text": "Ten minste 100 m",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.28, achtste lid: op de wachtplaats en in een sluis geldt een zijwaartse afstand van ten minste 10 m ten opzichte van een schip dat het teken van artikel 3.14, eerste lid voert."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.17",
+   "questions": [
+    {
+     "stem": "De koersen van twee grote motorschepen kruisen elkaar en geen van beide volgt de stuurboordszijde van het vaarwater. Wie moet voorrang verlenen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het schip dat van bakboord nadert verleent voorrang aan het schip dat van stuurboord nadert",
+       "correct": true
+      },
+      {
+       "text": "Het schip dat van stuurboord nadert verleent voorrang aan het schip dat van bakboord nadert",
+       "correct": false
+      },
+      {
+       "text": "Het snelste van de twee schepen verleent voorrang",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.17, vierde lid: bij kruisende koersen van twee grote motorschepen verleent het schip dat van bakboord nadert voorrang aan het schip dat van stuurboord nadert."
+    },
+    {
+     "stem": "De koersen van een groot schip en een klein schip kruisen elkaar en geen van beide volgt de stuurboordszijde van het vaarwater. Wie moet voorrang verlenen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het kleine schip verleent voorrang aan het grote schip",
+       "correct": true
+      },
+      {
+       "text": "Het grote schip verleent voorrang aan het kleine schip",
+       "correct": false
+      },
+      {
+       "text": "Het schip dat van stuurboord nadert verleent voorrang",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.17, derde lid: bij kruisende koersen van een groot en een klein schip verleent het kleine schip voorrang aan het grote schip."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.05",
+   "questions": [
+    {
+     "stem": "Wat moet een afvarend klein schip doen ten opzichte van een opvarend groot schip op de Geldersche IJssel of de Maas?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Voorrang verlenen, bij voorkeur door voorbij te varen aan de zijde die het opvarende grote schip vrijlaat",
+       "correct": true
+      },
+      {
+       "text": "Zijn koers en snelheid behouden en het grote schip laten uitwijken",
+       "correct": false
+      },
+      {
+       "text": "Altijd stuurboord op stuurboord voorbijvaren",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.05, zevende lid: een afvarend klein schip moet voorrang verlenen aan het opvarende grote schip, bij voorkeur door voorbij te varen aan de zijde die dit vrijlaat."
+    },
+    {
+     "stem": "Welk teken toont een opvarend groot schip dat aan stuurboord voor het afvarende schip de weg vrijlaat, overdag?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een lichtblauw bord in combinatie met een wit helder rondom schijnend flikkerlicht",
+       "correct": true
+      },
+      {
+       "text": "Een zwarte bol op het voorschip",
+       "correct": false
+      },
+      {
+       "text": "Een rode wimpel aan stuurboord",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.05, vierde lid: overdag toont het opvarende grote schip aan stuurboord een lichtblauw bord in combinatie met een wit helder rondom schijnend flikkerlicht."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.26",
+   "questions": [
+    {
+     "stem": "Wat betekent één rood vast licht bij de doorvaartopening van een beweegbare brug?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het doorvaren is verboden, de brug wordt bediend",
+       "correct": true
+      },
+      {
+       "text": "Het doorvaren is verboden, de brug wordt niet bediend",
+       "correct": false
+      },
+      {
+       "text": "Het doorvaren is toegestaan",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.26, vierde lid onder b: één rood vast licht (teken A.1) betekent dat het doorvaren verboden is en de brug wordt bediend."
+    },
+    {
+     "stem": "Wat betekent een rood vast licht met daaronder een groen vast licht bij een beweegbare brug?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het doorvaren is verboden, maar dit zal aanstonds worden toegestaan",
+       "correct": true
+      },
+      {
+       "text": "Het doorvaren is in beide richtingen toegestaan",
+       "correct": false
+      },
+      {
+       "text": "Het doorvaren is verboden, de brug wordt niet bediend",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.26, vierde lid onder c: een rood vast licht met daaronder een groen vast licht (teken A.11) betekent dat het doorvaren verboden is maar aanstonds zal worden toegestaan."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.07",
+   "questions": [
+    {
+     "stem": "Wat wordt in het BPR onder een engte verstaan?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een vak van of een plaats in de vaarweg waar het vaarwater niet voldoende ruimte biedt voor het elkaar voorbijvaren van twee schepen",
+       "correct": true
+      },
+      {
+       "text": "Elk vaarwater smaller dan honderd meter",
+       "correct": false
+      },
+      {
+       "text": "Elke bocht in een rivier waar het uitzicht niet vrij is",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.07, eerste lid: een engte is een vak van of plaats in de vaarweg waar het vaarwater niet voldoende ruimte biedt voor het elkaar voorbijvaren van twee schepen of twee samenstellen."
+    },
+    {
+     "stem": "Wie verleent voorrang bij het doorvaren van een engte op een vaarweg waar stroom loopt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het tegen stroom varende schip verleent voorrang aan het voor stroom varende schip",
+       "correct": true
+      },
+      {
+       "text": "Het voor stroom varende schip verleent voorrang aan het tegen stroom varende schip",
+       "correct": false
+      },
+      {
+       "text": "Het kleinste schip verleent altijd voorrang",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.07, vijfde lid: bij het doorvaren van een engte op een vaarweg waar stroom loopt verleent een tegen stroom varend schip voorrang aan een voor stroom varend schip."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.16",
+   "questions": [
+    {
+     "stem": "Wat moet een klein schip doen dat een haven uitvaart en daarbij een hoofdvaarwater invaart of oversteekt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Voorrang verlenen aan een groot schip",
+       "correct": true
+      },
+      {
+       "text": "Medewerking verlangen van het grote schip",
+       "correct": false
+      },
+      {
+       "text": "Drie korte stoten geven en doorvaren",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.16, derde lid: een klein schip moet bij het uitvaren van een haven of nevenvaarwater voorrang verlenen aan een groot schip."
+    },
+    {
+     "stem": "Wat betekent het teken B.9 langs een haven vóór de uitmonding daarvan in het hoofdvaarwater?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een schip dat uit die haven komt moet voorrang verlenen aan een schip op het hoofdvaarwater",
+       "correct": true
+      },
+      {
+       "text": "Een schip op het hoofdvaarwater moet voorrang verlenen aan een schip uit die haven",
+       "correct": false
+      },
+      {
+       "text": "Het uitvaren van die haven is geheel verboden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.16, achtste lid: wordt het teken B.9 getoond, dan moet een schip dat uit de haven of het nevenvaarwater komt voorrang verlenen aan een schip op het hoofdvaarwater."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.04",
+   "questions": [
+    {
+     "stem": "Twee schepen naderen elkaar op tegengestelde koersen zodat gevaar voor aanvaring bestaat. Wie moet voorrang verlenen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het schip dat niet de stuurboordszijde van het vaarwater volgt",
+       "correct": true
+      },
+      {
+       "text": "Het schip dat de stuurboordszijde van het vaarwater volgt",
+       "correct": false
+      },
+      {
+       "text": "Het opvarende schip, ongeacht welke zijde het volgt",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.04, tweede lid: het schip dat niet de stuurboordszijde van het vaarwater volgt verleent voorrang aan het schip dat die zijde wel volgt."
+    },
+    {
+     "stem": "Twee kleine motorschepen naderen elkaar op tegengestelde koersen en geen van beide volgt de stuurboordszijde van het vaarwater. Wat moeten zij doen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Elk van beide wijkt naar stuurboord uit, zodat zij elkaar bakboord op bakboord voorbijvaren",
+       "correct": true
+      },
+      {
+       "text": "Elk van beide wijkt naar bakboord uit, zodat zij elkaar stuurboord op stuurboord voorbijvaren",
+       "correct": false
+      },
+      {
+       "text": "Het schip dat van stuurboord nadert houdt koers en snelheid, het andere wijkt uit",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.04, zevende lid: twee kleine motorschepen wijken elk naar stuurboord uit en varen elkaar bakboord op bakboord voorbij."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.32",
+   "questions": [
+    {
+     "stem": "Wat moet een op radar varend schip doen wanneer met de andere schepen geen marifooncontact tot stand komt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Eén lange stoot geven, de snelheid verminderen en zo nodig stilhouden",
+       "correct": true
+      },
+      {
+       "text": "Twee korte stoten geven en de vaart voortzetten",
+       "correct": false
+      },
+      {
+       "text": "Het radarbeeld uitschakelen en op zicht verder varen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.32, vijfde lid: komt geen marifooncontact tot stand, dan geeft het op radar varende schip één lange stoot en vermindert het de snelheid en houdt zo nodig stil."
+    },
+    {
+     "stem": "Welk sein moet een veerpont in dat geval in plaats van één lange stoot geven?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een lange stoot gevolgd door vier korte stoten",
+       "correct": true
+      },
+      {
+       "text": "Vier korte stoten gevolgd door een lange stoot",
+       "correct": false
+      },
+      {
+       "text": "Een reeks klokslagen van ongeveer vier seconden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.32, vijfde lid onder a: een veerpont moet in dat geval een lange stoot gevolgd door vier korte stoten geven."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.04a",
+   "questions": [
+    {
+     "stem": "Hoe maakt een groot schip overdag het verlangen kenbaar dat het voorbijvaren stuurboord op stuurboord geschiedt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Door aan stuurboord een lichtblauw bord te tonen in combinatie met een wit helder rondom schijnend flikkerlicht",
+       "correct": true
+      },
+      {
+       "text": "Door aan bakboord een lichtblauw bord te tonen",
+       "correct": false
+      },
+      {
+       "text": "Door een groene wimpel aan stuurboord te tonen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.04a, derde lid onder b: het verlangen wordt overdag kenbaar gemaakt door aan stuurboord een lichtblauw bord te tonen in combinatie met een wit helder rondom schijnend flikkerlicht."
+    },
+    {
+     "stem": "Wat moet het schip doen zodra te vrezen is dat zijn verlangen door het andere schip niet is begrepen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een geluidssein van twee korte stoten geven",
+       "correct": true
+      },
+      {
+       "text": "Een geluidssein van één korte stoot geven",
+       "correct": false
+      },
+      {
+       "text": "Een reeks klokslagen geven",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.04a, vijfde lid: het schip moet dan een geluidssein van twee korte stoten geven; het andere schip antwoordt met twee korte stoten."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.03",
+   "questions": [
+    {
+     "stem": "Wat moet het schip doen dat voorrang krijgt van een ander schip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Zijn koers en zijn snelheid behouden",
+       "correct": true
+      },
+      {
+       "text": "Zo snel mogelijk naar stuurboord uitwijken",
+       "correct": false
+      },
+      {
+       "text": "De snelheid verminderen tot het andere schip voorbij is",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.03, vijfde lid: wanneer een schip voorrang moet verlenen, moet het andere schip zijn koers en zijn snelheid behouden."
+    },
+    {
+     "stem": "Onder welke voorwaarde mogen schepen elkaar voorbijvaren op tegengestelde koersen of elkaar voorbijlopen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Slechts indien het vaarwater voldoende ruimte biedt voor gelijktijdige doorvaart",
+       "correct": true
+      },
+      {
+       "text": "Altijd, zolang beide schepen hun stuurboordswal houden",
+       "correct": false
+      },
+      {
+       "text": "Slechts na een afspraak per marifoon",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.03, eerste lid: voorbijvaren en voorbijlopen mag slechts indien het vaarwater voldoende ruimte biedt voor gelijktijdige doorvaart."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.16",
+   "questions": [
+    {
+     "stem": "Welk geluidssein geeft een schip op de Rijn dat na het uitvaren van een haven de vaarweg zal oversteken?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Drie lange stoten",
+       "correct": true
+      },
+      {
+       "text": "Drie lange stoten gevolgd door één korte stoot",
+       "correct": false
+      },
+      {
+       "text": "Drie lange stoten gevolgd door twee korte stoten",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.16, tweede lid: drie lange stoten betekent dat het schip na het uitvaren de vaarweg zal oversteken."
+    },
+    {
+     "stem": "Welk geluidssein geeft een schip op de Rijn dat vóór het invaren of na het uitvaren bakboord uit zal gaan?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Drie lange stoten gevolgd door twee korte stoten",
+       "correct": true
+      },
+      {
+       "text": "Drie lange stoten gevolgd door één korte stoot",
+       "correct": false
+      },
+      {
+       "text": "Twee lange stoten gevolgd door twee korte stoten",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.16, tweede lid: drie lange stoten gevolgd door twee korte stoten betekent dat het schip bakboord uit zal gaan."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.33",
+   "questions": [
+    {
+     "stem": "Welk mistsein moet een niet op radar varend alleenvarend schip geven, en met welke tussenpozen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Eén lange stoot, herhaald met tussenpozen van ten hoogste één minuut",
+       "correct": true
+      },
+      {
+       "text": "Twee lange stoten, herhaald met tussenpozen van ten hoogste twee minuten",
+       "correct": false
+      },
+      {
+       "text": "Een reeks korte stoten, herhaald met tussenpozen van ten hoogste dertig seconden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.33, eerste lid onder a: het mistsein is één lange stoot, te herhalen met tussenpozen van ten hoogste één minuut."
+    },
+    {
+     "stem": "Is een niet op radar varend klein schip verplicht het mistsein te geven?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Nee, het is niet verplicht, maar het mag dit sein geven en herhalen",
+       "correct": true
+      },
+      {
+       "text": "Ja, met tussenpozen van ten hoogste één minuut",
+       "correct": false
+      },
+      {
+       "text": "Ja, maar alleen op de in bijlage 9 vermelde vaarwegen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.33, derde lid: een niet op radar varend klein schip is niet verplicht het mistsein te geven, maar het mag dit sein geven en het sein mag worden herhaald."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.04",
+   "questions": [
+    {
+     "stem": "Wie laat bij het ontmoeten op de Rijn een geschikte weg vrij?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het opvarende schip laat aan het afvarende schip een geschikte weg vrij",
+       "correct": true
+      },
+      {
+       "text": "Het afvarende schip laat aan het opvarende schip een geschikte weg vrij",
+       "correct": false
+      },
+      {
+       "text": "Het kleinste schip laat de weg vrij",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.04, eerste lid: bij het ontmoeten moet een opvarend schip aan een afvarend schip een geschikte weg vrijlaten."
+    },
+    {
+     "stem": "Welk teken toont een opvarend schip op de Rijn dat aan bakboord voor het afvarende schip de weg vrijlaat?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Geen teken",
+       "correct": true
+      },
+      {
+       "text": "Een lichtblauw bord met een wit flikkerlicht",
+       "correct": false
+      },
+      {
+       "text": "Een wit helder flikkerlicht zonder bord",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.04, tweede lid: het opvarende schip dat aan bakboord voor het afvarende schip de weg vrijlaat toont geen teken."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.05",
+   "questions": [
+    {
+     "stem": "Welk geluidssein geeft een afvarend schip op de Rijn dat wil dat het voorbijvaren stuurboord op stuurboord plaatsvindt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Twee korte stoten",
+       "correct": true
+      },
+      {
+       "text": "Eén korte stoot",
+       "correct": false
+      },
+      {
+       "text": "Eén lange stoot",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.05, tweede lid: twee korte stoten betekent dat het afvarende schip wil dat het voorbijvaren stuurboord op stuurboord plaatsvindt."
+    },
+    {
+     "stem": "Welk afvarend passagiersschip mag verlangen dat de weg die een opvarend schip vrijlaat wordt gewijzigd?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een passagiersschip in geregelde dienst waarvan het toegelaten maximum aantal passagiers niet minder dan 300 personen bedraagt",
+       "correct": true
+      },
+      {
+       "text": "Elk passagiersschip, ongeacht het aantal passagiers",
+       "correct": false
+      },
+      {
+       "text": "Een passagiersschip met ten hoogste twaalf passagiers",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.05, eerste lid onder a: dit recht komt toe aan een afvarend passagiersschip in geregelde dienst met een toegelaten maximum aantal passagiers van niet minder dan 300 personen."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.19",
+   "questions": [
+    {
+     "stem": "Wat moet een schip doen dat het «blijf weg» sein hoort en een koers in de richting van het gevaarsgebied voorligt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Zich zover mogelijk van het gevaarsgebied verwijderd houden en zo nodig keren",
+       "correct": true
+      },
+      {
+       "text": "De vaart met een zo groot mogelijke snelheid vervolgen",
+       "correct": false
+      },
+      {
+       "text": "Onmiddellijk ankeren op de plaats waar het zich bevindt",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.19, eerste lid onder a: een schip dat het sein hoort en een koers in de richting van het gevaarsgebied voorligt moet zich zover mogelijk verwijderd houden en zo nodig keren."
+    },
+    {
+     "stem": "Waarvoor moet de schipper onmiddellijk zorg dragen wanneer hij het «blijf weg» sein hoort?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Dat ramen en andere openingen worden gesloten, onbeschermd licht en open vuur worden gedoofd en niet meer wordt gerookt",
+       "correct": true
+      },
+      {
+       "text": "Dat alle motoren op vol vermogen blijven draaien",
+       "correct": false
+      },
+      {
+       "text": "Dat de bemanning aan dek komt om uitkijk te houden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.19, tweede lid: de schipper draagt onmiddellijk zorg dat alle ramen en openingen worden gesloten, onbeschermd licht en open vuur worden gedoofd en dat niet meer wordt gerookt."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.18",
+   "questions": [
+    {
+     "stem": "Binnen welke afstand mag een schip, behalve bij voorbijlopen en voorbijvaren, niet varen van een schip dat de tekens van artikel 3.14, tweede en derde lid voert?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Binnen een afstand van 50 m",
+       "correct": true
+      },
+      {
+       "text": "Binnen een afstand van 10 m",
+       "correct": false
+      },
+      {
+       "text": "Binnen een afstand van 1000 m",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.18, tweede lid: behalve bij voorbijlopen en voorbijvaren mag een schip niet varen binnen een afstand van 50 m van een schip dat deze tekens voert."
+    },
+    {
+     "stem": "Hoe dicht mag een schip een mijnenopruimingsschip dat de tekens van artikel 3.35 voert zo mogelijk niet naderen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Niet dichter dan op een afstand van 1000 m",
+       "correct": true
+      },
+      {
+       "text": "Niet dichter dan op een afstand van 100 m",
+       "correct": false
+      },
+      {
+       "text": "Niet dichter dan op een afstand van 50 m",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.18, derde lid: een schip moet een mijnenopruimingsschip zo mogelijk niet dichter naderen dan op een afstand van 1000 m."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.02a",
+   "questions": [
+    {
+     "stem": "Voor welk schip moet een klein motorschip op de Rijn uitwijken?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Voor een klein schip dat geen motorschip is",
+       "correct": true
+      },
+      {
+       "text": "Voor een klein door spierkracht voortbewogen schip alleen",
+       "correct": false
+      },
+      {
+       "text": "Voor geen enkel klein schip",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.02a, eerste lid: een klein motorschip moet uitwijken voor een klein schip, niet zijnde een motorschip."
+    },
+    {
+     "stem": "Twee kleine zeilschepen liggen over dezelfde boeg en hun koersen kruisen elkaar. Wie moet uitwijken?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het loefwaartse schip wijkt uit voor het lijwaartse schip",
+       "correct": true
+      },
+      {
+       "text": "Het lijwaartse schip wijkt uit voor het loefwaartse schip",
+       "correct": false
+      },
+      {
+       "text": "Het schip dat over stuurboordsboeg ligt wijkt uit",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.02a, vierde lid onder b: liggen beide kleine zeilschepen over dezelfde boeg, dan wijkt het loefwaartse schip uit voor het lijwaartse."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.33",
+   "questions": [
+    {
+     "stem": "Wat moeten schepen die geen gebruik van radar kunnen maken en een ligplaats moeten opzoeken tijdens die vaart zoveel mogelijk aanhouden?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "De zijde van de vaargeul",
+       "correct": true
+      },
+      {
+       "text": "Het midden van de vaargeul",
+       "correct": false
+      },
+      {
+       "text": "De zijde waar de meeste schepen liggen",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.33 onder a: zij moeten zoveel mogelijk de zijde van de vaargeul aanhouden."
+    },
+    {
+     "stem": "Wat moet zo'n schip doen als het het mistsein hoort van een schip waarmee geen marifooncontact tot stand komt en het zich niet in de nabijheid van een oever bevindt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "De vaargeul zoveel mogelijk en zo snel mogelijk vrijmaken",
+       "correct": true
+      },
+      {
+       "text": "De vaart met onverminderde snelheid voortzetten",
+       "correct": false
+      },
+      {
+       "text": "Onmiddellijk het anker laten vallen midden in de vaargeul",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.33 onder d: bevindt het schip zich niet in de nabijheid van een oever, dan moet het de vaargeul zoveel mogelijk en zo snel mogelijk vrijmaken."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.20",
+   "questions": [
+    {
+     "stem": "Tot welke ondergrens moet een schip zijn snelheid verminderen om hinderlijke waterbeweging te vermijden?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Niet beneden de snelheid die nodig is voor veilig sturen",
+       "correct": true
+      },
+      {
+       "text": "Tot volledig stilliggen",
+       "correct": false
+      },
+      {
+       "text": "Tot ten hoogste zes kilometer per uur",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.20, eerste lid: het schip moet tijdig zijn snelheid verminderen, echter niet beneden de snelheid die nodig is voor veilig sturen."
+    },
+    {
+     "stem": "Op welke plaats moet een schip zijn snelheid verminderen ter voorkoming van hinderlijke waterbeweging?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Voor een havenmond en in de nabijheid van een veerpont die dienst doet",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend in een sluis",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend op een vaarweg waar stroom loopt",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.20, eerste lid: de snelheid moet onder meer worden verminderd voor een havenmond en in de nabijheid van een veerpont die dienst doet."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.28a",
+   "questions": [
+    {
+     "stem": "Wat betekenen twee rode vaste lichten boven elkaar bij de invaartopening van een sluis?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het invaren is verboden, de sluis wordt niet bediend",
+       "correct": true
+      },
+      {
+       "text": "Het invaren is verboden, de sluis wordt bediend",
+       "correct": false
+      },
+      {
+       "text": "Het invaren is toegestaan",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.28a, eerste lid onder a: twee rode vaste lichten boven elkaar (teken A.1) betekenen dat het invaren verboden is en de sluis niet wordt bediend."
+    },
+    {
+     "stem": "Wat betekenen twee groene vaste lichten boven elkaar bij de invaartopening van een sluis?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het invaren is toegestaan, de sluis is aan beide zijden open en wordt niet bediend",
+       "correct": true
+      },
+      {
+       "text": "Het invaren is toegestaan, maar de sluis wordt bediend",
+       "correct": false
+      },
+      {
+       "text": "Het invaren is verboden, maar dit zal aanstonds worden toegestaan",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.28a, eerste lid onder e: twee groene vaste lichten boven elkaar betekenen dat het invaren is toegestaan en de sluis aan beide zijden open staat en niet wordt bediend."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.07",
+   "questions": [
+    {
+     "stem": "Wat moet een opvarend schip op de Rijn doen als het constateert dat een afvarend schip op het punt staat een engte binnen te varen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Beneden de engte stilhouden totdat het afvarende schip deze is doorgevaren",
+       "correct": true
+      },
+      {
+       "text": "Zo snel mogelijk de engte binnenvaren om als eerste door te zijn",
+       "correct": false
+      },
+      {
+       "text": "Twee korte stoten geven en zijn koers behouden",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.07, eerste lid onder c: het opvarende schip moet beneden de engte stilhouden totdat het afvarende schip deze is doorgevaren."
+    },
+    {
+     "stem": "Welk geluidssein moet een schip geven alvorens een engte binnen te varen indien het uitzicht beperkt is?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Eén lange stoot",
+       "correct": true
+      },
+      {
+       "text": "Twee korte stoten",
+       "correct": false
+      },
+      {
+       "text": "Een reeks klokslagen",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.07, eerste lid onder b: bij beperkt uitzicht moet een schip alvorens een engte binnen te varen één lange stoot geven en dit sein zo nodig herhalen."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.20",
+   "questions": [
+    {
+     "stem": "Ten opzichte van welk schip geldt op de Rijn de verplichting om snelheid te verminderen bij een gemeerd of stilliggend schip niet?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Ten opzichte van een klein schip",
+       "correct": true
+      },
+      {
+       "text": "Ten opzichte van een passagiersschip",
+       "correct": false
+      },
+      {
+       "text": "Ten opzichte van een veerpont",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.20, tweede lid: het eerste lid onder b en c geldt niet ten opzichte van een klein schip."
+    },
+    {
+     "stem": "Bij welk teken langs de vaarweg moet een schip zijn snelheid verminderen om hinderlijke waterbeweging te vermijden?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Bij het teken A.9",
+       "correct": true
+      },
+      {
+       "text": "Bij het teken A.2",
+       "correct": false
+      },
+      {
+       "text": "Bij het teken E.8",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.20, eerste lid onder e: de snelheid moet worden verminderd in een vak van de vaarweg aangeduid door het teken A.9."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.01",
+   "questions": [
+    {
+     "stem": "Wat wordt in het BPR onder oplopen verstaan?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Naderen door een schip van een ander schip uit een richting van meer dan 22°30´ achterlijker dan dwars van dat schip",
+       "correct": true
+      },
+      {
+       "text": "Naderen van twee schepen op koersen die recht of vrijwel recht aan elkaar tegengesteld zijn",
+       "correct": false
+      },
+      {
+       "text": "Elkaar naderen van twee schepen onder een hoek van precies negentig graden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.01, eerste lid onder b: oplopen is het naderen door een schip van een ander schip uit een richting van meer dan 22°30´ achterlijker dan dwars van dat schip."
+    },
+    {
+     "stem": "Wat is volgens het BPR een opvarend schip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een schip dat vaart in de richting van de bronnen van de rivier",
+       "correct": true
+      },
+      {
+       "text": "Een schip dat vaart vanaf de richting van de bronnen van de rivier",
+       "correct": false
+      },
+      {
+       "text": "Een schip dat gaat varen nadat het heeft stilgelegen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.01, eerste lid onder f: een opvarend schip is een schip dat vaart in de richting van de bronnen van de rivier."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.31",
+   "questions": [
+    {
+     "stem": "Welk geluidssein moet een op een gevaarlijke plaats stilliggend schip geven wanneer het het geluidssein van een naderend schip hoort?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Eén reeks klokslagen, herhaald met tussenpozen van ten hoogste één minuut",
+       "correct": true
+      },
+      {
+       "text": "Eén lange stoot, herhaald met tussenpozen van ten hoogste twee minuten",
+       "correct": false
+      },
+      {
+       "text": "Drie korte stoten, eenmalig",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.31, eerste lid: het schip geeft per marifoon zijn positie op of als geluidssein één reeks klokslagen, te herhalen met tussenpozen van ten hoogste één minuut."
+    },
+    {
+     "stem": "Welk geluidssein mag een zeegaand schip dat op een gevaarlijke plaats stilligt eveneens geven?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Eén korte stoot gevolgd door één lange stoot en één korte stoot",
+       "correct": true
+      },
+      {
+       "text": "Eén lange stoot gevolgd door twee korte stoten",
+       "correct": false
+      },
+      {
+       "text": "Vier korte stoten gevolgd door één lange stoot",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.31, derde lid: een zeegaand schip mag eveneens één korte stoot gevolgd door één lange stoot en één korte stoot geven."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.23",
+   "questions": [
+    {
+     "stem": "Wat mag een naderend schip verlangen wanneer de langskabel van een veerpont het vaarwater kan versperren?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Door tijdig één lange stoot te geven het vrijmaken van het vaarwater verlangen",
+       "correct": true
+      },
+      {
+       "text": "Door twee korte stoten te geven voorrang verlangen",
+       "correct": false
+      },
+      {
+       "text": "Door een reeks klokslagen te geven de veerpont laten stilliggen",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.23, tweede lid onder b: een naderend schip mag door het tijdig geven van één lange stoot het vrijmaken van het vaarwater verlangen."
+    },
+    {
+     "stem": "Hoe lang mag een niet-vrijvarende veerpont zich in het vaarwater bevinden?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Niet langer dan voor het uitoefenen van de dienst nodig is",
+       "correct": true
+      },
+      {
+       "text": "Zolang er passagiers aan boord zijn",
+       "correct": false
+      },
+      {
+       "text": "Zolang de langskabel gespannen staat",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.23, tweede lid onder c: de veerpont mag zich niet langer in het vaarwater bevinden dan voor het uitoefenen van de dienst nodig is."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.17",
+   "questions": [
+    {
+     "stem": "Binnen welke afstand mag een schip op de Rijn, behalve bij voorbijlopen of ontmoeten, niet varen van een schip dat de tekens van artikel 3.14, tweede of derde lid voert?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Binnen een afstand van 50 m",
+       "correct": true
+      },
+      {
+       "text": "Binnen een afstand van 10 m",
+       "correct": false
+      },
+      {
+       "text": "Binnen een afstand van 500 m",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.17, tweede lid: behalve bij voorbijlopen of ontmoeten mag een schip niet varen binnen een afstand van 50 m van een schip dat deze tekens voert."
+    },
+    {
+     "stem": "Wat moet een persoon die waterskiet in acht nemen ten opzichte van een varend schip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Voldoende afstand houden van een varend schip of drijvend voorwerp",
+       "correct": true
+      },
+      {
+       "text": "Zich in het kielzog van het schip laten meevoeren",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend aan bakboord van het schip blijven",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.17, vierde lid: wie waterskiet of watersport bedrijft zonder schip moet voldoende afstand houden van een varend schip of drijvend voorwerp."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.30",
+   "questions": [
+    {
+     "stem": "Waarvan moeten alle schepen op de Rijn bij slecht zicht gebruik maken?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Van radar",
+       "correct": true
+      },
+      {
+       "text": "Van een tweede uitkijk op het voorschip",
+       "correct": false
+      },
+      {
+       "text": "Van het ankerlicht",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.30, eerste lid: bij slecht zicht moeten alle schepen gebruik maken van radar."
+    },
+    {
+     "stem": "Onder welke voorwaarde mag een klein schip op de Rijn bij slecht zicht varen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Slechts indien het uitluistert op kanaal 10 of op het daartoe aangewezen andere kanaal",
+       "correct": true
+      },
+      {
+       "text": "Slechts indien het een mistsein geeft met tussenpozen van één minuut",
+       "correct": false
+      },
+      {
+       "text": "Slechts indien het binnen honderd meter van de oever blijft",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.30, vierde lid: een klein schip mag bij slecht zicht slechts varen indien het op kanaal 10 of op het daartoe aangewezen andere kanaal uitluistert."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.02",
+   "questions": [
+    {
+     "stem": "Waartoe is een alleenvarend klein schip op de Rijn verplicht ten opzichte van een ander schip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "De ruimte laten die dit nodig heeft om zijn koers te volgen en om te manoeuvreren",
+       "correct": true
+      },
+      {
+       "text": "Zijn koers en snelheid onveranderd behouden",
+       "correct": false
+      },
+      {
+       "text": "Steeds achter het andere schip blijven varen",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.02, eerste lid: een alleenvarend klein schip moet aan een ander schip, met inbegrip van een snel schip, de ruimte laten die dit nodig heeft om zijn koers te volgen en om te manoeuvreren."
+    },
+    {
+     "stem": "Gelden de artikelen over ontmoeten en voorbijlopen op de Rijn ook ten aanzien van alleenvarende kleine schepen?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Nee, die artikelen zijn niet van toepassing op of ten aanzien van deze kleine schepen",
+       "correct": true
+      },
+      {
+       "text": "Ja, zij gelden onverkort voor alle schepen",
+       "correct": false
+      },
+      {
+       "text": "Ja, maar uitsluitend bij slecht zicht",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.02, tweede lid: onder meer de artikelen 6.04, 6.05, 6.07, 6.10, 6.11 en 6.12 zijn niet van toepassing op of ten aanzien van deze kleine schepen."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.30",
+   "questions": [
+    {
+     "stem": "Aan welke zijde van het vaarwater moet een varend schip bij slecht zicht zoveel mogelijk varen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Aan de stuurboordszijde van het vaarwater",
+       "correct": true
+      },
+      {
+       "text": "Aan de bakboordszijde van het vaarwater",
+       "correct": false
+      },
+      {
+       "text": "Zoveel mogelijk in het midden van het vaarwater",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.30, tweede lid: een varend schip moet bij slecht zicht zoveel mogelijk aan de stuurboordszijde van het vaarwater varen."
+    },
+    {
+     "stem": "Wat moet een schip bij slecht zicht doen wanneer de vaart niet zonder gevaar kan worden voortgezet?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Op de dichtstbijzijnde daarvoor geschikte plaats gaan stilliggen en het vaarwater zoveel mogelijk vrijmaken",
+       "correct": true
+      },
+      {
+       "text": "De snelheid verhogen om zo snel mogelijk een haven te bereiken",
+       "correct": false
+      },
+      {
+       "text": "Midden in het vaarwater blijven liggen met het ankerlicht aan",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.30, derde en vierde lid: het schip moet op de dichtstbijzijnde daarvoor geschikte plaats gaan stilliggen en daarbij het vaarwater zoveel mogelijk vrijmaken."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.29",
+   "questions": [
+    {
+     "stem": "Wat moet een schip bij slecht zicht doen op de in bijlage 9 vermelde vaarwegen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Op radar varen; kan het niet op radar varen, dan moet het op de dichtstbijzijnde geschikte plaats gaan stilliggen",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend een mistsein geven en de vaart voortzetten",
+       "correct": false
+      },
+      {
+       "text": "De snelheid verdubbelen om het slechte zicht snel achter zich te laten",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.29, derde lid: op de in bijlage 9 vermelde vaarwegen moet een schip bij slecht zicht op radar varen; kan het dat niet, dan moet het gaan stilliggen."
+    },
+    {
+     "stem": "Wanneer vaart een schip volgens het BPR op radar?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Indien het gebruik maakt van radar voor het varen bij slecht zicht",
+       "correct": true
+      },
+      {
+       "text": "Indien er een radarinstallatie aan boord staat, ook als die uit staat",
+       "correct": false
+      },
+      {
+       "text": "Indien het uitluistert op het kanaal voor de nautische informatie",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.29, tweede lid: een schip vaart op radar indien het gebruik maakt van radar voor het varen bij slecht zicht."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.13",
+   "questions": [
+    {
+     "stem": "Wat moet een klein schip bij het keren doen ten opzichte van een groot schip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Voorrang verlenen aan het grote schip",
+       "correct": true
+      },
+      {
+       "text": "Medewerking verlangen van het grote schip",
+       "correct": false
+      },
+      {
+       "text": "Zijn koers en snelheid behouden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.13, derde lid: een klein schip moet bij het keren voorrang verlenen aan een groot schip."
+    },
+    {
+     "stem": "Wat betekent het teken A.8 in een vak van of op een plaats in de vaarweg?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Daar mag een schip niet keren",
+       "correct": true
+      },
+      {
+       "text": "Daar kunnen schepen keren",
+       "correct": false
+      },
+      {
+       "text": "Daar is voorbijlopen verboden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.13, zesde lid: in een vak van of op een plaats in de vaarweg aangeduid door het teken A.8 mag een schip niet keren."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.24",
+   "questions": [
+    {
+     "stem": "Wat is de doorvaartopening van een brug waar het vaarwater niet voldoende ruimte biedt voor het elkaar voorbijvaren van twee schepen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een engte zoals bedoeld in artikel 6.07",
+       "correct": true
+      },
+      {
+       "text": "Een nevenvaarwater",
+       "correct": false
+      },
+      {
+       "text": "Een wachtplaats",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.24, eerste lid: zo'n doorvaartopening van een brug, stuw of aan beide zijden openstaande sluis is een engte zoals bedoeld in artikel 6.07."
+    },
+    {
+     "stem": "Wat betekent het teken A.10 bij de doorvaartopening van een brug of stuw?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een schip mag in die doorvaartopening niet varen buiten de begrenzing die de twee borden aanduiden",
+       "correct": true
+      },
+      {
+       "text": "Het doorvaren van die opening is geheel verboden",
+       "correct": false
+      },
+      {
+       "text": "Het wordt aanbevolen bij voorkeur van die opening gebruik te maken",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.24, tweede lid onder a: bij het teken A.10 mag een schip niet varen buiten de begrenzing die door de twee borden wordt aangeduid."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.25",
+   "questions": [
+    {
+     "stem": "Wat betekent het teken A.1 boven de doorvaartopening van een vaste brug?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een schip mag niet door die doorvaartopening varen",
+       "correct": true
+      },
+      {
+       "text": "Een schip mag daar uitsluitend met verminderde snelheid doorvaren",
+       "correct": false
+      },
+      {
+       "text": "De doorvaart is vrij uit beide richtingen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.25, eerste lid: een schip mag niet varen door de doorvaartopening van een vaste brug waarboven het teken A.1 wordt getoond."
+    },
+    {
+     "stem": "Wat betekent het teken D.1 b boven de doorvaartopening van een vaste brug?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het wordt aanbevolen bij voorkeur van die opening gebruik te maken; de doorvaart uit tegenovergestelde richting is verboden",
+       "correct": true
+      },
+      {
+       "text": "De doorvaartopening is vrij voor de doorvaart uit beide richtingen",
+       "correct": false
+      },
+      {
+       "text": "Het doorvaren is verboden zolang de brug niet wordt bediend",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.25, tweede lid: bij het teken D.1 b wordt aanbevolen bij voorkeur van deze doorvaartopening gebruik te maken en is de doorvaart uit tegenovergestelde richting verboden."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.24",
+   "questions": [
+    {
+     "stem": "Wat betekent het teken D.2 bij de doorvaartopening van een brug of stuw op de Rijn?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het wordt aanbevolen in die opening uitsluitend te varen binnen de begrenzing die de twee borden aanduiden",
+       "correct": true
+      },
+      {
+       "text": "Het varen in die opening is geheel verboden",
+       "correct": false
+      },
+      {
+       "text": "De opening mag uitsluitend door kleine schepen worden gebruikt",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.24, tweede lid onder b: bij het teken D.2 wordt aanbevolen in die opening uitsluitend te varen binnen de begrenzing die door de twee borden wordt aangeduid."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.10",
+   "questions": [
+    {
+     "stem": "Aan welke zijde moet de oploper in beginsel voorbijlopen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Aan bakboord van de opgelopene",
+       "correct": true
+      },
+      {
+       "text": "Aan stuurboord van de opgelopene",
+       "correct": false
+      },
+      {
+       "text": "Steeds aan de zijde waar de meeste ruimte is, ongeacht bakboord of stuurboord",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.10, eerste lid: in beginsel moet de oploper aan bakboord van de opgelopene voorbijlopen; is daartoe ruimte, dan mag hij aan stuurboord voorbijlopen."
+    },
+    {
+     "stem": "Aan welke zijde moet een zeilschip dat een ander zeilschip oploopt zo mogelijk voorbijlopen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Aan loef",
+       "correct": true
+      },
+      {
+       "text": "Aan lij",
+       "correct": false
+      },
+      {
+       "text": "Steeds aan bakboord",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.10, tweede lid: een groot zeilschip dat een ander groot zeilschip oploopt en een klein zeilschip dat een ander zeilschip oploopt moet zo mogelijk aan loef voorbijlopen."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.28b",
+   "questions": [
+    {
+     "stem": "Welke schepen hebben recht op voorschutting?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Schepen van ambtenaren belast met toezicht of opsporing en brandweerboten die om spoedeisende redenen van dienstvervulling onderweg zijn",
+       "correct": true
+      },
+      {
+       "text": "Alle passagiersschepen met een geregelde dienst",
+       "correct": false
+      },
+      {
+       "text": "Alle schepen die als eerste op de wachtplaats zijn aangekomen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.28b, eerste lid: recht op voorschutting hebben schepen van ambtenaren belast met toezicht of opsporing en brandweerboten die om spoedeisende redenen onderweg zijn, en schepen waaraan de bevoegde autoriteit dit recht heeft verleend."
+    },
+    {
+     "stem": "Waaraan herkent u een schip dat recht op voorschutting heeft?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Aan de rode wimpel, bedoeld in artikel 3.17",
+       "correct": true
+      },
+      {
+       "text": "Aan een lichtblauw bord aan stuurboord",
+       "correct": false
+      },
+      {
+       "text": "Aan twee groene lichten boven elkaar",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.28b, tweede lid: een schip moet voorrang verlenen aan een schip dat recht op voorschutting heeft en de rode wimpel voert, bedoeld in artikel 3.17."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.09",
+   "questions": [
+    {
+     "stem": "Wat moet een schip dat wordt opgelopen doen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het voorbijlopen voor zover nodig en mogelijk vergemakkelijken en zo nodig snelheid verminderen",
+       "correct": true
+      },
+      {
+       "text": "Zijn snelheid verhogen zodat het voorbijlopen sneller voorbij is",
+       "correct": false
+      },
+      {
+       "text": "Naar het midden van het vaarwater sturen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.09, tweede lid: het opgelopen schip moet het voorbijlopen voor zover nodig en mogelijk vergemakkelijken en snelheid verminderen indien dat nodig is."
+    },
+    {
+     "stem": "Wanneer mag een schip een ander schip voorbijlopen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Slechts nadat het zich ervan heeft vergewist dat dit zonder gevaar kan geschieden",
+       "correct": true
+      },
+      {
+       "text": "Altijd, zolang het aan bakboord van de opgelopene blijft",
+       "correct": false
+      },
+      {
+       "text": "Slechts na toestemming van de bevoegde autoriteit",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.09, eerste lid: een schip mag een ander schip slechts voorbijlopen nadat het zich ervan heeft vergewist dat dit zonder gevaar kan geschieden."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.14",
+   "questions": [
+    {
+     "stem": "Wat moet een klein schip bij het vertrekken doen ten opzichte van een groot schip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Voorrang verlenen aan het grote schip",
+       "correct": true
+      },
+      {
+       "text": "Medewerking verlangen van het grote schip",
+       "correct": false
+      },
+      {
+       "text": "Een lange stoot geven en vertrekken",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.14, derde lid: een klein schip moet bij het vertrekken voorrang verlenen aan een groot schip."
+    },
+    {
+     "stem": "Op welk vaartuig is het artikel over vertrekken niet van toepassing?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Op een veerpont",
+       "correct": true
+      },
+      {
+       "text": "Op een snel schip",
+       "correct": false
+      },
+      {
+       "text": "Op een duwstel",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.14, vijfde lid: dit artikel is niet van toepassing op en ten aanzien van een veerpont."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.11",
+   "questions": [
+    {
+     "stem": "Wat betekent het teken A.2 in een vak van de vaarweg?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "In dat vak is voorbijlopen verboden",
+       "correct": true
+      },
+      {
+       "text": "In dat vak is keren verboden",
+       "correct": false
+      },
+      {
+       "text": "In dat vak is ligplaats nemen verboden",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.11 onder a: voorbijlopen is verboden in een vak van de vaarweg aangeduid door het teken A.2."
+    },
+    {
+     "stem": "Voor welk duwstel geldt het voorbijloopverbod tussen samenstellen bij het teken A.3 niet?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Voor een duwstel waarvan de grootste lengte niet meer dan 110 m en de grootste breedte niet meer dan 12 m bedragen",
+       "correct": true
+      },
+      {
+       "text": "Voor elk duwstel met ten hoogste twee duwbakken",
+       "correct": false
+      },
+      {
+       "text": "Voor een duwstel dat een blauw bord voert",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.11 onder b: het verbod geldt niet ingeval het een duwstel betreft waarvan de grootste lengte en breedte niet meer dan 110 m respectievelijk 12 m bedragen."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 8.06",
+   "questions": [
+    {
+     "stem": "Hoe snel mag een snelle motorboot ten hoogste varen, tenzij de bevoegde autoriteit anders bepaalt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Niet sneller dan 20 km per uur ten opzichte van het water",
+       "correct": true
+      },
+      {
+       "text": "Niet sneller dan 13 km per uur ten opzichte van het water",
+       "correct": false
+      },
+      {
+       "text": "Niet sneller dan 30 km per uur ten opzichte van het water",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 8.06, eerste lid: een snelle motorboot mag niet sneller varen dan 20 km per uur ten opzichte van het water; de bevoegde autoriteit kan vaarwegen aanwijzen waar dit verbod niet geldt."
+    },
+    {
+     "stem": "Is waterskiën volgens het BPR toegestaan?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Nee, het is verboden, maar de bevoegde autoriteit kan vaarwegen aanwijzen waar het verbod overdag niet geldt",
+       "correct": true
+      },
+      {
+       "text": "Ja, overal waar snel varen is toegestaan",
+       "correct": false
+      },
+      {
+       "text": "Ja, mits de waterskiër een reddingsvest draagt",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 8.06, tweede lid: waterskiën is verboden; de bevoegde autoriteit kan vaarwegen of gedeelten daarvan aanwijzen waarop dit verbod overdag niet van toepassing is."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 8.05",
+   "questions": [
+    {
+     "stem": "Wat moet de bestuurder van een snelle motorboot tijdens het varen doen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Gezeten zijn op de voor hem bestemde zitplaats en te allen tijde gebruik maken van de technische inrichting die de voortstuwing stopt bij onderbreking van de besturing",
+       "correct": true
+      },
+      {
+       "text": "Staande varen met vrij uitzicht naar alle zijden",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend een reddingsvest dragen en verder vrij bewegen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 8.05, eerste lid: de bestuurder moet gezeten zijn op de voor hem bestemde zitplaats en te allen tijde gebruik maken van de technische inrichting bedoeld in artikel 8.03 onder d."
+    },
+    {
+     "stem": "Waarvoor moet de bestuurder van een snelle motorboot verder zorg dragen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Dat de motor geen onnodige geluidhinder veroorzaakt en dat een stilliggende motor niet onnodig lang in werking blijft",
+       "correct": true
+      },
+      {
+       "text": "Dat de motor voortdurend op vol vermogen draait",
+       "correct": false
+      },
+      {
+       "text": "Dat het registratieteken tijdens het varen wordt afgedekt",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 8.05, tweede en derde lid: de bestuurder draagt zorg dat de motor geen onnodige geluidhinder veroorzaakt en dat de motor van een stilliggende snelle motorboot niet onnodig lang of zonder redelijk doel in werking wordt gehouden."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 8.08",
+   "questions": [
+    {
+     "stem": "Waar zijn zwemmen en watersport zonder schip volgens het BPR verboden?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Op een wachtplaats of in de onmiddellijke nabijheid van een brug, een sluis of een stuw, en in gedeelten van de vaarweg bestemd voor de doorgaande scheepvaart",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend in havens die door de bevoegde autoriteit zijn aangewezen",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend tussen zonsondergang en zonsopgang",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 8.08, tweede lid: zwemmen en watersport zonder schip zijn onder meer verboden op een wachtplaats, nabij een brug, sluis of stuw, in de doorgaande vaarweg, in routes van veerponten en in havens."
+    },
+    {
+     "stem": "Wat moet een persoon die zwemt in acht nemen ten opzichte van een varend schip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Voldoende afstand houden van een varend schip, een varend drijvend voorwerp of een drijvend werktuig in bedrijf",
+       "correct": true
+      },
+      {
+       "text": "Zich uitsluitend achter het schip ophouden",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend met een oranje badmuts zwemmen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 8.08, eerste lid: wie zwemt of op andere wijze watersport bedrijft zonder schip moet voldoende afstand houden van een varend schip of drijvend voorwerp dan wel een drijvend werktuig in bedrijf."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 8.02",
+   "questions": [
+    {
+     "stem": "Welke minimumafmetingen heeft het registratieteken van een snelle motorboot?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een hoogte van ten minste 150 mm, een breedte van ten minste 100 mm en een stamdikte van ten minste 20 mm",
+       "correct": true
+      },
+      {
+       "text": "Een hoogte van ten minste 100 mm, een breedte van ten minste 60 mm en een stamdikte van ten minste 15 mm",
+       "correct": false
+      },
+      {
+       "text": "Een hoogte van ten minste 200 mm, een breedte van ten minste 150 mm en een stamdikte van ten minste 30 mm",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 8.02, eerste lid: het registratieteken heeft een hoogte van ten minste 150 mm, een breedte van ten minste 100 mm en een stamdikte van ten minste 20 mm."
+    },
+    {
+     "stem": "Waar moet het registratieteken van een snelle motorboot zijn aangebracht?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Goed waarneembaar en in een van de ondergrond afwijkende kleur aan weerszijden van de boot",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend op het achterschip, boven de waterlijn",
+       "correct": false
+      },
+      {
+       "text": "In de stuurhut, zichtbaar vanaf de zitplaats van de bestuurder",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 8.02, eerste lid: het teken moet goed waarneembaar en in een van de ondergrond afwijkende kleur aan weerszijden van de boot zijn aangebracht."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 8.03",
+   "questions": [
+    {
+     "stem": "Welke veiligheidsuitrusting moet aan boord van een snelle motorboot aanwezig zijn?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een reddingsvest onder handbereik voor ieder der opvarenden en een deugdelijk brandblusapparaat",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend een deugdelijk brandblusapparaat",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend een reddingsvest voor de bestuurder",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 8.03 onder e en f: aan boord moet een reddingsvest onder handbereik voor ieder der opvarenden aanwezig zijn en een deugdelijk brandblusapparaat."
+    },
+    {
+     "stem": "Welke technische inrichting moet een snelle motorboot hebben?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een inrichting waardoor bij het onderbreken van de besturing de middelen tot voortbeweging onmiddellijk tot stilstand of nagenoeg tot stilstand komen",
+       "correct": true
+      },
+      {
+       "text": "Een inrichting die de motor na tien minuten stilliggen automatisch afslaat",
+       "correct": false
+      },
+      {
+       "text": "Een inrichting die het registratieteken verlicht",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 8.03 onder d: de boot moet zijn voorzien van een technische inrichting waardoor bij het onderbreken van de besturing de voortstuwing onmiddellijk tot stilstand of nagenoeg tot stilstand komt; deze eis geldt niet voor een gesloten binnenbesturing."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 8.01",
+   "questions": [
+    {
+     "stem": "Wat moet tijdens het varen met een snelle motorboot aan boord aanwezig zijn?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het registratiebewijs",
+       "correct": true
+      },
+      {
+       "text": "Het bewijs van verzekering",
+       "correct": false
+      },
+      {
+       "text": "Een afschrift van bijlage 15 van het reglement",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 8.01, tweede lid: het registratiebewijs moet tijdens het varen met een snelle motorboot aan boord aanwezig zijn."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.23",
+   "questions": [
+    {
+     "stem": "Wat moet een klein schip doen ten opzichte van een vertrekkende, kerende of overstekende veerpont?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Voorrang verlenen aan de veerpont",
+       "correct": true
+      },
+      {
+       "text": "Zijn koers en snelheid behouden",
+       "correct": false
+      },
+      {
+       "text": "Medewerking verlangen van de veerpont",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.23, derde lid: een klein schip moet voorrang verlenen aan een vertrekkende, kerende of overstekende veerpont."
+    },
+    {
+     "stem": "Wanneer mag een veerpont vertrekken, keren of het vaarwater oversteken?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Slechts nadat hij zich ervan heeft vergewist dat dit zonder gevaar kan geschieden",
+       "correct": true
+      },
+      {
+       "text": "Altijd, omdat een veerpont steeds voorrang heeft",
+       "correct": false
+      },
+      {
+       "text": "Slechts na een geluidssein van drie lange stoten",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.23, eerste lid: een veerpont mag slechts vertrekken, keren of het vaarwater oversteken nadat hij zich ervan heeft vergewist dat dit zonder gevaar kan geschieden."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.29",
+   "questions": [
+    {
+     "stem": "Welke schepen hebben op de Rijn recht op schutting bij voorrang?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Schepen van de bevoegde autoriteit en brandweer-, politie- en douaneboten die om spoedeisende redenen van dienstvervulling onderweg zijn",
+       "correct": true
+      },
+      {
+       "text": "Alle passagiersschepen in geregelde dienst",
+       "correct": false
+      },
+      {
+       "text": "Alle duwstellen met een lengte van meer dan 110 m",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.29: recht op schutting bij voorrang hebben schepen van de bevoegde autoriteit en brandweer-, politie- en douaneboten die om spoedeisende redenen onderweg zijn, en schepen waaraan de bevoegde autoriteit dat recht uitdrukkelijk heeft verleend."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 6.12",
+   "questions": [
+    {
+     "stem": "Wat betekenen de tekens B.1, B.2, B.3 en B.4 in een vak van de vaarweg?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een schip moet de weg volgen die door dat teken kenbaar wordt gemaakt",
+       "correct": true
+      },
+      {
+       "text": "Een schip mag daar niet keren",
+       "correct": false
+      },
+      {
+       "text": "Een schip moet daar zijn snelheid verminderen",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 6.12: in een vak aangeduid door één der tekens B.1, B.2 a, B.2 b, B.3 a, B.3 b, B.4 a of B.4 b moet een schip de weg volgen die door dat teken kenbaar wordt gemaakt."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 8.04",
+   "questions": [
+    {
+     "stem": "Wie draagt er mede zorg voor dat de regels over registratie en inrichting van een snelle motorboot worden nageleefd?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "De eigenaar of houder van de snelle motorboot",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend de bestuurder tijdens het varen",
+       "correct": false
+      },
+      {
+       "text": "De instelling die het registratieteken heeft toegekend",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 8.04: de eigenaar of houder van een snelle motorboot draagt er mede zorg voor dat niet in strijd met de artikelen 8.01, 8.02 en 8.03 wordt gehandeld."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 8.07",
+   "questions": [
+    {
+     "stem": "Waarvoor moet de schipper van een snelle motorboot volgens artikel 8.07 zorg dragen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Dat aan boord niet in strijd met de artikelen 8.05 en 8.06 wordt gehandeld",
+       "correct": true
+      },
+      {
+       "text": "Dat het registratiebewijs jaarlijks wordt vernieuwd",
+       "correct": false
+      },
+      {
+       "text": "Dat de boot uitsluitend overdag vaart",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 8.07: de schipper van een snelle motorboot moet er zorg voor dragen dat niet in strijd met de artikelen 8.05 en 8.06 wordt gehandeld."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.15",
+   "questions": [
+    {
+     "stem": "Waar mag een schip zich niet begeven ten opzichte van een sleep?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "In de tussenruimten tussen de lengten van een sleep",
+       "correct": true
+      },
+      {
+       "text": "Binnen honderd meter achter een sleep",
+       "correct": false
+      },
+      {
+       "text": "Aan de loefzijde van een sleep",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.15: een schip mag zich niet in de tussenruimten tussen de lengten van een sleep begeven."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 6.02",
+   "questions": [
+    {
+     "stem": "Wat is een snel schip volgens het BPR verplicht ten opzichte van andere schepen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Aan andere schepen voorrang te verlenen",
+       "correct": true
+      },
+      {
+       "text": "Zijn koers en snelheid te behouden",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend aan grote schepen voorrang te verlenen",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 6.02: een snel schip is verplicht aan andere schepen voorrang te verlenen."
+    }
+   ]
+  }
+ ]
+}

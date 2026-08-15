@@ -114,10 +114,17 @@ def parse(src: Source, manifest: dict, tagger=None) -> list[KnowledgeUnit]:
                 legal_version=manifest.get("legal_version", ""), licence=src.licence,
                 lang=lang)
 
+    # An act may be ingested for named provisions only (see Source.only_refs):
+    # the exam programme cites one article of a 1307-article commercial code, and
+    # pulling the other 1306 into a boating KB would drown it.
+    keep = set(src.only_refs)
+
     units: list[KnowledgeUnit] = []
     seen: set[str] = set()
     for el in root.iter("artikel", "bijlage"):
         label = _clean(el.get("label") or "")
+        if keep and label not in keep:
+            continue
         nr, title = _heading(el)
         if not label:
             label = f"Bijlage {nr}" if el.tag == "bijlage" else f"Artikel {nr}"

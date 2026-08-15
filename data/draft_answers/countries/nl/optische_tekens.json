@@ -1,0 +1,1175 @@
+{
+ "drafts": [
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.09",
+   "questions": [
+    {
+     "stem": "Welk dagteken voert het motorschip aan de kop van een sleep bestaande uit grote schepen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een gele cilinder die aan de bovenzijde en de benedenzijde is voorzien van twee banden, zwart en wit, met de witte banden aan de uiteinden",
+       "correct": true
+      },
+      {
+       "text": "Een zwarte bol op het voorschip",
+       "correct": false
+      },
+      {
+       "text": "Een blauwe kegel met de punt naar beneden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.09, eerste lid onder b: overdag voert dit motorschip een gele cilinder met aan boven- en benedenzijde twee banden, zwart en wit, de witte banden aan de uiteinden."
+    },
+    {
+     "stem": "Welk licht voert het motorschip aan de kop van een sleep 's nachts op het achterschip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een geel helder of gewoon licht dat schijnt over dezelfde boog van de horizon als een heklicht",
+       "correct": true
+      },
+      {
+       "text": "Een rood helder licht dat rondom schijnt",
+       "correct": false
+      },
+      {
+       "text": "Twee witte lichten in een verticale lijn",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.09, eerste lid onder a: op het achterschip wordt een geel helder of gewoon licht gevoerd dat schijnt over dezelfde boog van de horizon als een heklicht."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.14",
+   "questions": [
+    {
+     "stem": "Welk bijkomend dagteken voert een schip dat bepaalde brandbare stoffen vervoert?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Eén blauwe kegel met de punt naar beneden",
+       "correct": true
+      },
+      {
+       "text": "Twee blauwe kegels met de punt naar beneden",
+       "correct": false
+      },
+      {
+       "text": "Drie blauwe kegels met de punt naar beneden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.14, eerste lid onder b: een schip dat bepaalde brandbare stoffen vervoert voert overdag één blauwe kegel met de punt naar beneden."
+    },
+    {
+     "stem": "Welk bijkomend teken voert een schip dat bepaalde ontplofbare stoffen vervoert 's nachts?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Drie blauwe lichten",
+       "correct": true
+      },
+      {
+       "text": "Eén blauw licht",
+       "correct": false
+      },
+      {
+       "text": "Twee blauwe lichten",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.14, derde lid onder a: een schip dat bepaalde ontplofbare stoffen vervoert voert 's nachts drie blauwe lichten in een verticale lijn."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.13",
+   "questions": [
+    {
+     "stem": "Welk licht mag een alleenvarend klein open motorschip met een lengte van minder dan 7 m en een hoogst bereikbare snelheid van niet meer dan 13 km per uur voeren in plaats van de voorgeschreven lichten?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een wit gewoon rondom schijnend licht",
+       "correct": true
+      },
+      {
+       "text": "Een groen helder rondom schijnend licht",
+       "correct": false
+      },
+      {
+       "text": "Twee witte lichten in een verticale lijn",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.13, tweede lid: zo'n klein open motorschip mag in plaats van de bij het eerste lid voorgeschreven lichten een wit gewoon rondom schijnend licht voeren."
+    },
+    {
+     "stem": "Welk licht mag een klein motorschip voeren in plaats van het heklicht en het toplicht van de tweede lichtvariant?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een wit rondom schijnend licht",
+       "correct": true
+      },
+      {
+       "text": "Een geel rondom schijnend licht",
+       "correct": false
+      },
+      {
+       "text": "Een rood rondom schijnend licht",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.13, eerste lid onder b: in plaats van dat heklicht en dat toplicht mag een wit rondom schijnend licht worden gevoerd."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.10",
+   "questions": [
+    {
+     "stem": "Hoe zijn de drie toplichten van een duwstel geplaatst?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "In de vorm van een gelijkzijdige driehoek met een horizontale basis, het bovenste licht op een hoogte van ten minste 5 m",
+       "correct": true
+      },
+      {
+       "text": "In een verticale lijn met een onderlinge afstand van ongeveer 1 m",
+       "correct": false
+      },
+      {
+       "text": "In een horizontale lijn loodrecht op de lengte-as",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.10, eerste lid: de drie toplichten staan in de vorm van een gelijkzijdige driehoek met een horizontale basis, het bovenste licht op ten minste 5 m hoogte."
+    },
+    {
+     "stem": "Hoeveel heklichten voert de duwboot van een duwstel en hoe zijn zij geplaatst?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Drie heklichten in een horizontale lijn loodrecht op de lengte-as, telkens ongeveer 1,25 m uit elkaar",
+       "correct": true
+      },
+      {
+       "text": "Eén heklicht in de lengte-as van de duwboot",
+       "correct": false
+      },
+      {
+       "text": "Twee heklichten in een verticale lijn ongeveer 1 m uit elkaar",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.10, eerste lid onder c: de duwboot voert drie heklichten in een horizontale lijn loodrecht op de lengte-as, telkens ongeveer 1,25 m uit elkaar."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.20",
+   "questions": [
+    {
+     "stem": "Welk dagteken voert een groot schip dat stilligt zonder direct of indirect aan de oever gemeerd te liggen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een zwarte bol op het voorschip",
+       "correct": true
+      },
+      {
+       "text": "Een gele cilinder op het voorschip",
+       "correct": false
+      },
+      {
+       "text": "Een zwarte kegel met de punt naar beneden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.20, tweede lid onder b: zo'n schip voert overdag een zwarte bol op het voorschip, op een zodanige hoogte dat hij van alle zijden zichtbaar is."
+    },
+    {
+     "stem": "Welk licht voert een groot schip dat direct of indirect aan de oever gemeerd ligt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een wit gewoon rondom schijnend licht aan de zijde van het vaarwater op een hoogte van ten minste 3 m",
+       "correct": true
+      },
+      {
+       "text": "Een rood gewoon rondom schijnend licht op het achterschip",
+       "correct": false
+      },
+      {
+       "text": "Twee groene lichten in een verticale lijn",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.20, eerste lid: het schip voert een wit gewoon rondom schijnend licht aan de zijde van het vaarwater op een hoogte van ten minste 3 m."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 3.13",
+   "questions": [
+    {
+     "stem": "Hoe moeten de boordlichten van een klein motorschip op de Rijn naar de binnenzijde zijn afgeschermd?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Zodanig dat het groene licht niet van bakboordszijde en het rode licht niet van stuurboordszijde kan worden gezien",
+       "correct": true
+      },
+      {
+       "text": "Zodanig dat beide lichten van alle zijden zichtbaar zijn",
+       "correct": false
+      },
+      {
+       "text": "Zodanig dat zij uitsluitend van achteren zichtbaar zijn",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 3.13, eerste lid onder b: de boordlichten moeten naar de binnenzijde zo zijn afgeschermd dat het groene licht niet van bakboordszijde en het rode licht niet van stuurboordszijde kan worden gezien."
+    },
+    {
+     "stem": "Welk licht moet een klein schip voeren dat wordt gesleept of langszijde van een ander schip vastgemaakt wordt voortbewogen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een wit gewoon rondom schijnend licht",
+       "correct": true
+      },
+      {
+       "text": "Een geel helder flikkerlicht",
+       "correct": false
+      },
+      {
+       "text": "Boordlichten en een heklicht",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 3.13, derde lid: zo'n klein schip moet des nachts een wit gewoon rondom schijnend licht voeren; dit geldt niet voor bijboten van schepen."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.34",
+   "questions": [
+    {
+     "stem": "Welke lichten voert 's nachts een varend schip dat wegens werkzaamheden in het vaarwater beperkt is in zijn mogelijkheden om uit te wijken?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Drie rondom schijnende lichten in een verticale lijn: het bovenste en het onderste rood en het middelste wit",
+       "correct": true
+      },
+      {
+       "text": "Drie rondom schijnende lichten in een verticale lijn: het bovenste en het onderste wit en het middelste rood",
+       "correct": false
+      },
+      {
+       "text": "Twee blauwe lichten in een verticale lijn",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.34, eerste lid onder a: het schip voert drie rondom schijnende lichten in een verticale lijn, het bovenste en het onderste rood en het middelste wit."
+    },
+    {
+     "stem": "Welke dagtekens voert zo'n beperkt manoeuvreerbaar schip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een zwarte bol, een zwarte ruit en een zwarte bol in een verticale lijn",
+       "correct": true
+      },
+      {
+       "text": "Een zwarte ruit, een zwarte bol en een zwarte ruit in een verticale lijn",
+       "correct": false
+      },
+      {
+       "text": "Drie zwarte bollen in een verticale lijn",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.34, eerste lid onder b: overdag voert het schip een zwarte bol, een zwarte ruit en een zwarte bol in een verticale lijn."
+    }
+   ]
+  },
+  {
+   "ref": "Rijnvaartpolitiereglement 1995 Artikel 3.25",
+   "questions": [
+    {
+     "stem": "Wat toont een in bedrijf zijnd drijvend werktuig op de Rijn overdag aan de zijde waar de doorvaart vrij is?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Het aanwijzingsbord E.1 of twee groene ruiten in een verticale lijn",
+       "correct": true
+      },
+      {
+       "text": "Het verbodsbord A.1 of een rode bol",
+       "correct": false
+      },
+      {
+       "text": "Een rood-witte vlag",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 3.25, eerste lid onder a: aan de zijde waar de doorvaart vrij is wordt overdag het aanwijzingsbord E.1 of twee groene ruiten in een verticale lijn getoond."
+    },
+    {
+     "stem": "Welk licht toont een in bedrijf zijnd drijvend werktuig op de Rijn 's nachts aan de zijde waar de doorvaart niet vrij is?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een rood helder of gewoon licht",
+       "correct": true
+      },
+      {
+       "text": "Twee groene lichten",
+       "correct": false
+      },
+      {
+       "text": "Een geel flikkerlicht",
+       "correct": false
+      }
+     ],
+     "explanation": "RPR artikel 3.25, eerste lid onder b: aan de zijde waar de doorvaart niet vrij is wordt des nachts een rood helder of gewoon licht getoond."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.25",
+   "questions": [
+    {
+     "stem": "Welk dagteken voert een in bedrijf zijnd drijvend werktuig aan de zijde waar de doorvaart niet vrij is?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een rode bol",
+       "correct": true
+      },
+      {
+       "text": "Twee groene ruiten",
+       "correct": false
+      },
+      {
+       "text": "Een zwarte kegel met de punt naar boven",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.25, eerste lid onder b: aan de zijde waar de doorvaart niet vrij is wordt overdag een rode bol gevoerd, op dezelfde hoogte als de bovenste groene ruit."
+    },
+    {
+     "stem": "Welke lichten voert een in bedrijf zijnd drijvend werktuig 's nachts aan de zijde waar de doorvaart vrij is?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Twee groene rondom schijnende lichten in een verticale lijn met een onderlinge afstand van ongeveer 1 m",
+       "correct": true
+      },
+      {
+       "text": "Twee rode rondom schijnende lichten in een verticale lijn",
+       "correct": false
+      },
+      {
+       "text": "Eén wit rondom schijnend licht",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.25, eerste lid onder a: aan de zijde waar de doorvaart vrij is worden des nachts twee groene rondom schijnende lichten in een verticale lijn gevoerd, ongeveer 1 m uit elkaar."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.11",
+   "questions": [
+    {
+     "stem": "Welk dagteken voert een gekoppeld samenstel bestaande uit grote schepen dat wordt geassisteerd?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een gele bol, voorop op een hoogte van ten minste 5 m",
+       "correct": true
+      },
+      {
+       "text": "Een zwarte bol op het achterschip",
+       "correct": false
+      },
+      {
+       "text": "Een gele cilinder in verticale stand",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.11, tweede lid onder b: een geassisteerd gekoppeld samenstel voert overdag een gele bol, voorop op een hoogte van ten minste 5 m."
+    },
+    {
+     "stem": "Waar voert een gekoppeld samenstel bestaande uit grote schepen zijn heklichten?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een heklicht op het achterschip van elk schip",
+       "correct": true
+      },
+      {
+       "text": "Eén heklicht op het achterschip van het motorschip",
+       "correct": false
+      },
+      {
+       "text": "Drie heklichten op het achterste schip",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.11, eerste lid onder c: het samenstel voert een heklicht op het achterschip van elk schip, zoveel mogelijk in de lengte-as."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.08",
+   "questions": [
+    {
+     "stem": "Welke bijkomende tekens moet een snel schip overdag en 's nachts voeren?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Twee gele krachtige rondom schijnende lichten die snel flikkeren, in een verticale lijn ongeveer 1 m uit elkaar",
+       "correct": true
+      },
+      {
+       "text": "Twee blauwe lichten in een verticale lijn",
+       "correct": false
+      },
+      {
+       "text": "Een gele bol op het voorschip",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.08, vierde lid: een snel schip voert overdag en 's nachts twee gele krachtige rondom schijnende lichten die snel flikkeren, in een verticale lijn ongeveer 1 m uit elkaar."
+    },
+    {
+     "stem": "Welk dagteken voert een groot schip dat onder zeil vaart en tegelijkertijd zijn mechanische middelen tot voortbeweging gebruikt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een zwarte kegel met de punt naar beneden",
+       "correct": true
+      },
+      {
+       "text": "Een zwarte bol",
+       "correct": false
+      },
+      {
+       "text": "Een gele cilinder",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.08, vijfde lid: zo'n schip voert overdag een zwarte kegel met de punt naar beneden."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.26",
+   "questions": [
+    {
+     "stem": "Waarmee moet een schip een anker aanduiden dat een gevaar voor de scheepvaart kan vormen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Met een gele boei voorzien van een radarreflector",
+       "correct": true
+      },
+      {
+       "text": "Met een rode boei voorzien van een wit licht",
+       "correct": false
+      },
+      {
+       "text": "Met twee zwarte bollen boven elkaar",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.26, derde lid: het anker moet worden aangeduid door een gele boei voorzien van een radarreflector."
+    },
+    {
+     "stem": "Welk bijkomend licht voert 's nachts een schip waarvan een anker een gevaar voor de scheepvaart kan vormen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een tweede wit gewoon rondom schijnend licht",
+       "correct": true
+      },
+      {
+       "text": "Een rood helder rondom schijnend licht",
+       "correct": false
+      },
+      {
+       "text": "Een geel snel flikkerend licht",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.26, eerste lid: het schip voert als bijkomend licht een tweede wit gewoon rondom schijnend licht, ongeveer 1 m loodrecht onder het voorgeschreven licht."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.29",
+   "questions": [
+    {
+     "stem": "Welke tekens mag een schip 's nachts tonen dat beschermd wil worden tegen hinderlijke waterbeweging?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een rood en een wit rondom schijnend licht in een verticale lijn, het bovenste rood en het onderste wit",
+       "correct": true
+      },
+      {
+       "text": "Een groen en een wit rondom schijnend licht in een verticale lijn",
+       "correct": false
+      },
+      {
+       "text": "Twee rode rondom schijnende lichten in een verticale lijn",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.29, eerste lid: des nachts een rood en een wit rondom schijnend licht in een verticale lijn ongeveer 1 m uit elkaar, het bovenste rood en het onderste wit."
+    },
+    {
+     "stem": "Welke schepen mogen de tekens ter bescherming tegen hinderlijke waterbeweging tonen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Schepen die zwaar zijn beschadigd of in het vaarwater werkzaamheden verrichten, en schepen die niet in staat zijn te manoeuvreren",
+       "correct": true
+      },
+      {
+       "text": "Alle kleine schepen die aan de oever gemeerd liggen",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend passagiersschepen in geregelde dienst",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.29, tweede lid: deze tekens mogen worden getoond door zwaar beschadigde schepen, schepen die in het vaarwater werkzaamheden verrichten, schepen die niet in staat zijn te manoeuvreren en schepen met schriftelijke toestemming van de bevoegde autoriteit."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.01a",
+   "questions": [
+    {
+     "stem": "Over welke boog van de horizon schijnt een toplicht?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Over een boog van 225°, aan elke zijde van recht vooruit tot 22°30' achterlijker dan dwars",
+       "correct": true
+      },
+      {
+       "text": "Over een boog van 135°, aan elke zijde 67°30' van recht achteruit",
+       "correct": false
+      },
+      {
+       "text": "Over een boog van 360°",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.01a onder a: het toplicht is een wit krachtig licht dat schijnt over een boog van de horizon van 225°, aan elke zijde van recht vooruit tot 22°30' achterlijker dan dwars."
+    },
+    {
+     "stem": "Welke kleur en welke boog hebben de boordlichten?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Groen aan stuurboordszijde en rood aan bakboordszijde, elk over een boog van 112°30'",
+       "correct": true
+      },
+      {
+       "text": "Rood aan stuurboordszijde en groen aan bakboordszijde, elk over een boog van 112°30'",
+       "correct": false
+      },
+      {
+       "text": "Beide wit, elk over een boog van 225°",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.01a onder b: boordlichten zijn een groen helder licht aan stuurboordszijde en een rood helder licht aan bakboordszijde, elk over een boog van de horizon van 112°30'."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.01",
+   "questions": [
+    {
+     "stem": "Wanneer moeten de voor 's nachts voorgeschreven lichten ook overdag worden gevoerd?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Wanneer het zicht dit vereist",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend bij het doorvaren van een sluis",
+       "correct": false
+      },
+      {
+       "text": "Nooit; overdag gelden alleen de dagtekens",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.01, vierde lid: wanneer het zicht dit vereist moeten de voor des nachts voorgeschreven lichten ook des daags worden gevoerd."
+    },
+    {
+     "stem": "Mag een vóór een sluis stilliggend schip dat wacht om te worden geschut de tekens voor een varend schip blijven voeren?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Ja, het mag de lichten en dagtekens blijven voeren die voor een varend schip zijn voorgeschreven",
+       "correct": true
+      },
+      {
+       "text": "Nee, het moet onmiddellijk de tekens van een stilliggend schip voeren",
+       "correct": false
+      },
+      {
+       "text": "Alleen wanneer het een klein schip is",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.01, zesde lid: een vóór een sluis of een beweegbare brug stilliggend wachtend schip mag de lichten en dagtekens blijven voeren die voor een varend schip zijn voorgeschreven."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.04",
+   "questions": [
+    {
+     "stem": "Welke middellijn moet een bol die een schip volgens het BPR voert ten minste hebben?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een middellijn van 60 cm",
+       "correct": true
+      },
+      {
+       "text": "Een middellijn van 50 cm",
+       "correct": false
+      },
+      {
+       "text": "Een middellijn van 80 cm",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.04, derde lid onder b: voor bollen geldt ten minste een middellijn van 60 cm."
+    },
+    {
+     "stem": "Mogen voor kleine schepen kleinere bollen, kegels en ruiten worden gebruikt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Ja, mits de afmetingen in verhouding staan tot de grootte van het kleine schip en een goede zichtbaarheid verzekerd is",
+       "correct": true
+      },
+      {
+       "text": "Nee, de voorgeschreven afmetingen gelden voor elk schip",
+       "correct": false
+      },
+      {
+       "text": "Ja, zonder enige eis aan de zichtbaarheid",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.04, vierde lid: voor kleine schepen mogen voorwerpen van geringere afmetingen worden gebruikt die in verhouding staan tot de grootte van het schip, mits een goede zichtbaarheid wordt verzekerd."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.37",
+   "questions": [
+    {
+     "stem": "Welk dagteken voert een vissersschip?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Twee zwarte kegels met de punten tegen elkaar (diabolo) in een verticale lijn",
+       "correct": true
+      },
+      {
+       "text": "Twee zwarte bollen in een verticale lijn",
+       "correct": false
+      },
+      {
+       "text": "Een zwarte kegel met de punt naar beneden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.37 onder b: een vissersschip voert overdag twee zwarte kegels met de punten tegen elkaar (diabolo) in een verticale lijn."
+    },
+    {
+     "stem": "Welke rondom schijnende lichten voert een vissersschip 's nachts?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een groen licht boven een wit licht in een verticale lijn met een onderlinge afstand van ten minste 1 m",
+       "correct": true
+      },
+      {
+       "text": "Een wit licht boven een groen licht in een verticale lijn",
+       "correct": false
+      },
+      {
+       "text": "Een rood licht boven een groen licht in een verticale lijn",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.37 onder a: een vissersschip voert een groen en een wit rondom schijnend licht in een verticale lijn, het bovenste groen en het onderste wit, ten minste 1 m uit elkaar."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.18",
+   "questions": [
+    {
+     "stem": "Welke bijkomende tekens toont een schip dat onmanoeuvreerbaar wordt 's nachts?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een rood licht waarmee heen en weer wordt gezwaaid, of twee rode rondom schijnende lichten in een verticale lijn",
+       "correct": true
+      },
+      {
+       "text": "Een groen licht waarmee heen en weer wordt gezwaaid",
+       "correct": false
+      },
+      {
+       "text": "Drie blauwe lichten in een verticale lijn",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.18, eerste lid: des nachts een rood licht waarmee heen en weer wordt gezwaaid, of twee rode gewone rondom schijnende lichten in een verticale lijn ongeveer 1 m uit elkaar."
+    },
+    {
+     "stem": "Welke bijkomende dagtekens toont een schip dat onmanoeuvreerbaar wordt?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een rode vlag waarmee heen en weer wordt gezwaaid, of twee zwarte bollen in een verticale lijn",
+       "correct": true
+      },
+      {
+       "text": "Een gele cilinder in verticale stand",
+       "correct": false
+      },
+      {
+       "text": "Twee zwarte kegels met de punten tegen elkaar",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.18, eerste lid: des daags een rode vlag waarmee heen en weer wordt gezwaaid, of twee zwarte bollen in een verticale lijn ongeveer 1 m uit elkaar."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.16",
+   "questions": [
+    {
+     "stem": "Welke lichten voert een niet-vrijvarende veerpont 's nachts?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een wit helder rondom schijnend licht met daarboven, ongeveer 1 m hoger, een groen helder rondom schijnend licht",
+       "correct": true
+      },
+      {
+       "text": "Een groen helder rondom schijnend licht met daarboven een wit helder rondom schijnend licht",
+       "correct": false
+      },
+      {
+       "text": "Twee witte rondom schijnende lichten in een verticale lijn",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.16, eerste lid: een niet-vrijvarende veerpont voert een wit helder rondom schijnend licht en ongeveer 1 m daarboven een groen helder rondom schijnend licht."
+    },
+    {
+     "stem": "Welke lichten voert een vrijvarende veerpont naast het witte en het groene rondom schijnende licht?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Boordlichten en een heklicht",
+       "correct": true
+      },
+      {
+       "text": "Twee gele snel flikkerende lichten",
+       "correct": false
+      },
+      {
+       "text": "Een tweede toplicht op het achterschip",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.16, derde lid: een vrijvarende veerpont voert daarnaast boordlichten en een heklicht die voldoen aan artikel 3.08."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.03",
+   "questions": [
+    {
+     "stem": "Welke afmetingen moeten borden en vlaggen die een schip volgens het BPR voert ten minste hebben?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een lengte en een hoogte van elk ten minste 1 m",
+       "correct": true
+      },
+      {
+       "text": "Een lengte en een hoogte van elk ten minste 0,50 m",
+       "correct": false
+      },
+      {
+       "text": "Een lengte van ten minste 2 m en een hoogte van ten minste 1 m",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.03, derde lid onder a: voor borden en vlaggen geldt een lengte en een hoogte van elk ten minste 1 m."
+    },
+    {
+     "stem": "Welke vorm moeten de borden en vlaggen hebben die een schip volgens het BPR moet voeren?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Rechthoekig, voor zover niet anders wordt bepaald",
+       "correct": true
+      },
+      {
+       "text": "Driehoekig, voor zover niet anders wordt bepaald",
+       "correct": false
+      },
+      {
+       "text": "Rond, voor zover niet anders wordt bepaald",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.03, eerste lid: voor zover niet anders wordt bepaald moeten de borden en vlaggen rechthoekig zijn."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.12",
+   "questions": [
+    {
+     "stem": "Welke rondom schijnende lichten voert een groot zeilschip aan of nabij de top van de mast?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Twee lichten in een verticale lijn, het bovenste rood en het onderste groen",
+       "correct": true
+      },
+      {
+       "text": "Twee lichten in een verticale lijn, het bovenste groen en het onderste rood",
+       "correct": false
+      },
+      {
+       "text": "Twee witte lichten in een verticale lijn",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.12 onder c: een groot zeilschip voert aan of nabij de top van de mast twee rondom schijnende lichten in een verticale lijn, het bovenste rood en het onderste groen."
+    },
+    {
+     "stem": "Welke lichten voert een groot zeilschip verder 's nachts?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Boordlichten en een heklicht",
+       "correct": true
+      },
+      {
+       "text": "Een toplicht en boordlichten",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend een heklicht",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.12 onder a en b: een groot zeilschip voert boordlichten en een heklicht op het achterschip."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.30",
+   "questions": [
+    {
+     "stem": "Welk teken mag een in nood verkerend schip dat hulp wil inroepen overdag tonen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een vlag of ieder ander geschikt voorwerp waarmee in het rond wordt gezwaaid",
+       "correct": true
+      },
+      {
+       "text": "Een gele ruit op een geschikte plaats",
+       "correct": false
+      },
+      {
+       "text": "Twee zwarte kegels met de punten tegen elkaar",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.30, eerste lid: des daags mag een vlag of ieder ander geschikt voorwerp worden getoond waarmee in het rond wordt gezwaaid."
+    },
+    {
+     "stem": "Welk geluidssein mag een schip geven dat medische hulp wil inroepen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Vier korte stoten, gevolgd door één lange stoot",
+       "correct": true
+      },
+      {
+       "text": "Eén lange stoot, gevolgd door vier korte stoten",
+       "correct": false
+      },
+      {
+       "text": "Een reeks klokslagen van ongeveer vier seconden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.30, derde lid: een schip dat medische hulp wil inroepen mag vier korte stoten gevolgd door één lange stoot geven."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.38",
+   "questions": [
+    {
+     "stem": "Welk bijkomend teken voert een schip dat gebruikt wordt bij het duiken?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "De internationale seinvlag «A», dan wel een replica daarvan van niet buigzaam materiaal",
+       "correct": true
+      },
+      {
+       "text": "De internationale seinvlag «B»",
+       "correct": false
+      },
+      {
+       "text": "Een rode vlag met een witte diagonale balk",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.38, eerste lid: het schip voert de internationale seinvlag «A» dan wel een replica daarvan van niet buigzaam materiaal, van alle zijden zichtbaar."
+    },
+    {
+     "stem": "Mag het duikteken ook worden getoond bij duikwerkzaamheden vanaf de wal?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Ja, het bijkomende teken mag ook bij duikwerkzaamheden vanaf de wal worden getoond",
+       "correct": true
+      },
+      {
+       "text": "Nee, het teken geldt uitsluitend voor schepen",
+       "correct": false
+      },
+      {
+       "text": "Alleen met schriftelijke toestemming van de bevoegde autoriteit",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.38, tweede lid: het bijkomende teken mag ook worden getoond bij duikwerkzaamheden die vanaf de wal worden uitgevoerd."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.32",
+   "questions": [
+    {
+     "stem": "Hoe wordt aan boord het verbod om te roken of onbeschermd licht of vuur te gebruiken aangeduid?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Door ronde witte symbolen met een rode rand en een rode diagonale balk en de afbeelding van een brandende lucifer",
+       "correct": true
+      },
+      {
+       "text": "Door ronde witte symbolen met een rode rand en de afbeelding van een afwerende hand",
+       "correct": false
+      },
+      {
+       "text": "Door een blauw bord met een witte vlam",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.32, eerste lid: het verbod wordt aangeduid door ronde witte symbolen met een rode rand en een rode diagonale balk en de afbeelding van een brandende lucifer."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.31",
+   "questions": [
+    {
+     "stem": "Hoe wordt het verbod van toegang aan boord voor onbevoegden aangeduid?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Door ronde witte symbolen met een rode rand en een rode diagonale balk en, in zwart, de afbeelding van een afwerende hand",
+       "correct": true
+      },
+      {
+       "text": "Door ronde witte symbolen met de afbeelding van een brandende lucifer",
+       "correct": false
+      },
+      {
+       "text": "Door een rechthoekig rood bord met een witte balk",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.31, eerste lid: het verbod wordt aangeduid door ronde witte symbolen met een rode rand en een rode diagonale balk en, in zwart, de afbeelding van een afwerende hand."
+    },
+    {
+     "stem": "Welke doorsnede hebben de symbolen die een verbod aan boord aanduiden?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Ongeveer 0,60 m",
+       "correct": true
+      },
+      {
+       "text": "Ongeveer 1 m",
+       "correct": false
+      },
+      {
+       "text": "Ongeveer 0,30 m",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.31, eerste lid: de doorsnede van deze symbolen bedraagt ongeveer 0,60 m."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.07",
+   "questions": [
+    {
+     "stem": "Welke lichten of voorwerpen mag een schip niet zichtbaar doen zijn?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Lichten, vlaggen, borden of voorwerpen die kunnen leiden tot verwarring met de in het reglement vermelde tekens of de herkenning daarvan bemoeilijken",
+       "correct": true
+      },
+      {
+       "text": "Uitsluitend lichten die feller zijn dan de voorgeschreven lichten",
+       "correct": false
+      },
+      {
+       "text": "Uitsluitend vlaggen van een vreemde mogendheid",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.07, eerste lid: verboden zijn lichten, verlichting, zoeklichten, vlaggen, borden, wimpels of andere voorwerpen die tot verwarring met de vermelde tekens kunnen leiden of de waarneembaarheid daarvan bemoeilijken."
+    },
+    {
+     "stem": "Hoe mag een schip zijn zoeklichten niet gebruiken?",
+     "polarity": "negative",
+     "choices": [
+      {
+       "text": "Niet op zodanige wijze dat zij door verblinding gevaar of hinder voor de scheepvaart kunnen veroorzaken",
+       "correct": true
+      },
+      {
+       "text": "Niet gedurende de nachtelijke uren",
+       "correct": false
+      },
+      {
+       "text": "Niet in een sluis of onder een brug",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.07, tweede lid: een schip mag zijn lichten, verlichting of zoeklichten niet zo gebruiken dat zij door verblinding gevaar of hinder voor de scheepvaart kunnen veroorzaken."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.27",
+   "questions": [
+    {
+     "stem": "Welk bijkomend teken mag een schip van ambtenaren belast met toezicht of opsporing tonen?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een blauw rondom schijnend flikkerlicht of licht dat snel flikkert",
+       "correct": true
+      },
+      {
+       "text": "Een geel rondom schijnend flikkerlicht",
+       "correct": false
+      },
+      {
+       "text": "Een rood rondom schijnend flikkerlicht",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.27: een schip van ambtenaren belast met toezicht of opsporing mag een blauw gewoon rondom schijnend flikkerlicht of licht dat snel flikkert tonen; hetzelfde geldt voor een brandweerboot die hulp biedt."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.15",
+   "questions": [
+    {
+     "stem": "Welk dagteken voert een varend passagiersschip waarvan de maximale lengte van de romp minder is dan 20 m?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een gele ruit, van alle zijden zichtbaar",
+       "correct": true
+      },
+      {
+       "text": "Een gele bol op het voorschip",
+       "correct": false
+      },
+      {
+       "text": "Een zwarte kegel met de punt naar beneden",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.15, eerste lid: zo'n passagiersschip voert overdag een gele ruit, op een zodanige hoogte dat hij van alle zijden zichtbaar is."
+    }
+   ]
+  },
+  {
+   "ref": "Binnenvaartpolitiereglement Artikel 3.28",
+   "questions": [
+    {
+     "stem": "Welk bijkomend teken mag een schip tonen dat in of nabij het vaarwater werkzaamheden uitvoert?",
+     "polarity": "affirmative",
+     "choices": [
+      {
+       "text": "Een geel rondom schijnend flikkerlicht of licht dat snel flikkert, met toestemming van de bevoegde autoriteit",
+       "correct": true
+      },
+      {
+       "text": "Een blauw rondom schijnend flikkerlicht",
+       "correct": false
+      },
+      {
+       "text": "Twee rode lichten in een verticale lijn",
+       "correct": false
+      }
+     ],
+     "explanation": "BPR artikel 3.28: zo'n schip mag met toestemming van de bevoegde autoriteit een geel helder of gewoon rondom schijnend flikkerlicht of licht dat snel flikkert tonen."
+    }
+   ]
+  }
+ ]
+}

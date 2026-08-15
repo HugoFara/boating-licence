@@ -57,10 +57,43 @@ _CH_PLAN = {
 }
 
 
+# The Netherlands drafts against its official exam programme rather than against
+# the whole corpus (see countries/nl_examscope.py), so the caps are per-theme
+# budgets over an already-filtered unit set. Weighted the way the exam is: the
+# steering rules and the lights carry it, the per-waterway chapters barely do.
+_NL_PLAN = {
+    "vaarregels": (40, 2),
+    "optische_tekens": (30, 2),
+    "algemene_bepalingen": (20, 2),
+    "geluidsseinen": (10, 2),
+    "ligplaats": (10, 2),
+    "marifoon_radar": (6, 2),
+    "veiligheid": (6, 2),
+    "vaarbewijs": (10, 2),
+    "bijzondere_vaarwegen": (10, 1),
+    "verkeerstekens": (6, 2),
+    "betonning": (6, 2),
+    "milieu": (4, 2),
+}
+
+
 def _plan(country) -> dict:
     if country.code == "CH":                           # CH's hand-curated prose plan
         return _CH_PLAN
+    if country.code == "NL":
+        return _NL_PLAN
     return {theme: (999, 2) for theme in country.themes}
+
+
+def _units(kb, country, theme: str, lang: str, limit: int = 0) -> list:
+    """Draftable units of a theme, honouring the country's drafting window and its
+    official exam scope. A country that declares neither behaves exactly as before."""
+    lo, hi = country.draft_len or (None, None)
+    units = prose.select_units(kb, theme, limit=0, lang=lang,
+                               min_len=lo, max_len=hi)
+    if country.examinable is not None:
+        units = [u for u in units if country.examinable(u["ref"])]
+    return units[:limit] if limit else units
 
 
 def _qdb(country) -> str:
@@ -102,7 +135,7 @@ def cmd_emit(lang: str, country):
     p = _paths(lang, country)
     jobs = {}
     for theme, (n_units, per_unit) in _plan(country).items():
-        units = prose.select_units(kb, theme, limit=n_units, lang=lang)
+        units = _units(kb, country, theme, lang, limit=n_units)
         for u in units:
             u["_per_unit"] = per_unit
         if units:
@@ -132,7 +165,7 @@ def cmd_ingest(lang: str, country):
         if not valid(theme):
             print(f"  {theme:20} (unknown theme — skipped)")
             continue
-        units = prose.select_units(kb, theme, limit=0, lang=lang)
+        units = _units(kb, country, theme, lang)
         by_ref = {u["ref"]: u for u in units}
         data = json.load(open(path, encoding="utf-8"))
         drafts = data["drafts"] if isinstance(data, dict) else data

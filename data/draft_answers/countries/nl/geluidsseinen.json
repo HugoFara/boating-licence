@@ -1,0 +1,50 @@
+{"drafts": [
+ {"ref": "Binnenvaartpolitiereglement Artikel 4.01",
+  "questions": [
+   {"stem": "Hoe lang moet een schip een reeks klokslagen ongeveer laten duren?",
+    "polarity": "affirmative",
+    "choices": [
+     {"text": "Ongeveer vier seconden", "correct": true},
+     {"text": "Ongeveer tien seconden", "correct": false},
+     {"text": "Ongeveer dertig seconden", "correct": false}],
+    "explanation": "BPR artikel 4.01, vijfde lid: een schip moet een reeks klokslagen ongeveer vier seconden doen duren."},
+   {"stem": "Wat moet een groot motorschip gelijktijdig met een geluidssein tonen?",
+    "polarity": "affirmative",
+    "choices": [
+     {"text": "Een geel helder rondom schijnend lichtsein", "correct": true},
+     {"text": "Een rood flikkerend lichtsein aan bakboord", "correct": false},
+     {"text": "Een blauw bord met een wit flikkerend licht", "correct": false}],
+    "explanation": "BPR artikel 4.01, tweede lid: een groot motorschip toont gelijktijdig met een geluidssein een geel helder rondom schijnend lichtsein; dit geldt niet voor klokslagen."}]},
+ {"ref": "Binnenvaartpolitiereglement Artikel 4.02",
+  "questions": [
+   {"stem": "Welke geluidsseinen moet een klein schip ter voorkoming van aanvaring zo nodig geven?",
+    "polarity": "affirmative",
+    "choices": [
+     {"text": "Het attentiesein, het sein «Ik kan niet manoeuvreren» en zo nodig het noodsein", "correct": true},
+     {"text": "Alle manoeuvreerseinen die voor een groot schip zijn voorgeschreven", "correct": false},
+     {"text": "Uitsluitend het mistsein", "correct": false}],
+    "explanation": "BPR artikel 4.02, tweede lid: een klein schip moet zo nodig het attentiesein, het sein «Ik kan niet manoeuvreren» en zo nodig het noodsein geven."},
+   {"stem": "Welke geluidsseinen mag een klein schip volgens het BPR niet geven?",
+    "polarity": "negative",
+    "choices": [
+     {"text": "De manoeuvreerseinen, vermeld in de afdelingen B, C, D en E van bijlage 6", "correct": true},
+     {"text": "Het attentiesein uit afdeling A van bijlage 6", "correct": false},
+     {"text": "Het mistsein uit afdeling G van bijlage 6", "correct": false}],
+    "explanation": "BPR artikel 4.02, derde lid: een klein schip mag niet de manoeuvreerseinen geven die zijn vermeld in de afdelingen B, C, D en E van bijlage 6."}]},
+ {"ref": "Binnenvaartpolitiereglement Artikel 4.03",
+  "questions": [
+   {"stem": "Waarvoor mag een schip zijn geluidsinstallatie, scheepstoeter of hoorn gebruiken?",
+    "polarity": "affirmative",
+    "choices": [
+     {"text": "Alleen voor de geluidsseinen die in het reglement worden vermeld, en alleen onder de daarin voorziene omstandigheden", "correct": true},
+     {"text": "Voor elk sein dat de schipper op dat moment nuttig acht", "correct": false},
+     {"text": "Alleen bij verminderd zicht en verder nooit", "correct": false}],
+    "explanation": "BPR artikel 4.03, eerste lid: de geluidsinstallatie mag slechts worden gebruikt voor de in dit reglement vermelde geluidsseinen en niet onder andere omstandigheden dan daarin voorzien."},
+   {"stem": "Onder welke voorwaarde mag een schip de geluidsinstallatie gebruiken om berichten te wisselen met andere schepen of met de wal?",
+    "polarity": "affirmative",
+    "choices": [
+     {"text": "Mits hierdoor geen verwarring kan ontstaan met de in het reglement vermelde geluidsseinen", "correct": true},
+     {"text": "Alleen wanneer de marifoon aan boord defect is", "correct": false},
+     {"text": "Alleen met toestemming van de bevoegde autoriteit", "correct": false}],
+    "explanation": "BPR artikel 4.03, tweede lid: berichten wisselen met de geluidsinstallatie mag, mits hierdoor geen verwarring kan ontstaan met de vermelde geluidsseinen."}]}
+]}

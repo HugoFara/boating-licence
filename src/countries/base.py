@@ -131,6 +131,16 @@ class Country:
     # prose seeds the Bodensee-Schifferpatent Sachgebiete). None -> prose carries
     # no block (CH point-scored, INT sourcing-only).
     prose_block_for: Callable | None = None
+    # Drafting knobs for countries whose law does not fit the default assumptions
+    # of src/questions/prose.py:
+    #   draft_len  — (min, max) source-chunk length for select_units. None keeps
+    #                the default window, which was tuned on Swiss/German law.
+    #   examinable — (ref) -> bool: is this KB unit inside the country's official
+    #                exam programme? None means "everything the taxonomy holds".
+    #                NL uses it: its KB carries the professional-crewing corpus
+    #                too, which no recreational paper can ask about.
+    draft_len: tuple | None = None
+    examinable: Callable | None = None
 
     def region_manifest(self) -> list[dict]:
         """Regions for the player picker, primary scope first then by code."""

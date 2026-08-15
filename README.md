@@ -201,11 +201,19 @@ under 15 m able to make more than 20 km/h (*Binnenvaartbesluit* art. 16).
   not exist: *"Er bestaat geen auteursrecht op wetten, besluiten en verordeningen,
   door de openbare macht uitgevaardigd."* KOOP publishes every consolidated state as
   structured XML with its annex figures, as open data.
-- **No official question catalogue.** Unlike ELWIS, the CBR publishes only sample
-  exams. So Dutch questions must be **law-seeded** from the BPR and the
-  Binnenvaartregeling behind the review gate — the route already taken for the
-  Bodensee/BSO set. The law is ingested (**782 units, 686 official figures**); the
-  bank is the next step.
+- **No reusable question catalogue — but the syllabus is free.** Auteurswet art. 15b
+  would normally *permit* reuse of a public authority's published material unless
+  rights are expressly reserved; the cbr.nl disclaimer reserves them ("Alle
+  intellectuele eigendomsrechten worden voorbehouden"), so no CBR material is
+  ingested. What *is* free is the **examenprogramma vastgesteld door de Minister van
+  I&W**, an instrument under art. 11, and it names the examinable articles one by
+  one. That is `src/countries/nl_examscope.py`: 144 provisions across six acts.
+- **234 law-seeded questions**, drafted from those articles and held **pending**
+  behind the review gate — nothing ships until a human approves it. They carry a
+  dedicated audit (`tests/test_nl_questions.py`) whose sharpest check catches a
+  transposed value: a number in a correct answer must appear in the cited article
+  *beside the answer's own words*, because a 8000-character definitions article
+  contains almost every small integer somewhere.
 - **The exam is scored on weighted points, not blocks.** KVB I: 40 MCQs, 60 min,
   1–3 points each, pass at 56/80. KVB II: 27 questions (23 MCQ + 4 open), 90 min,
   1–4 points each, pass at 35/50. Both 70 %. There is **no practical exam** — the

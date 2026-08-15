@@ -1,0 +1,34 @@
+{"drafts": [
+ {"ref": "Binnenvaartpolitiereglement Artikel 4.05",
+  "questions": [
+   {"stem": "Welk marifoonkanaal is het schip–schip kanaal, tenzij een ander kanaal als blokkanaal is aangewezen?",
+    "polarity": "affirmative",
+    "choices": [
+     {"text": "Kanaal 10", "correct": true},
+     {"text": "Kanaal 16", "correct": false},
+     {"text": "Kanaal 22", "correct": false}],
+    "explanation": "BPR artikel 4.05, vierde lid: het schip–schip kanaal is kanaal 10, tenzij een ander kanaal als blokkanaal is aangewezen."},
+   {"stem": "Waarop moet een varend groot schip op de in bijlage 9 vermelde vaarwegen uitluisteren?",
+    "polarity": "affirmative",
+    "choices": [
+     {"text": "Gelijktijdig op de kanalen voor het schip–schip verkeer en voor de nautische informatie", "correct": true},
+     {"text": "Uitsluitend op het kanaal voor de nautische informatie", "correct": false},
+     {"text": "Uitsluitend op het kanaal voor het schip–schip verkeer", "correct": false}],
+    "explanation": "BPR artikel 4.05, vierde lid: op de in bijlage 9 vermelde vaarwegen moet een groot schip gelijktijdig uitluisteren op de kanalen voor het schip–schip verkeer en voor de nautische informatie."}]},
+ {"ref": "Binnenvaartpolitiereglement Artikel 4.06",
+  "questions": [
+   {"stem": "Wat moet een snel schip tijdens de vaart doen volgens het BPR?",
+    "polarity": "affirmative",
+    "choices": [
+     {"text": "Gebruik maken van radar", "correct": true},
+     {"text": "Twee marifoons uitluisteren", "correct": false},
+     {"text": "Een gele bal voeren", "correct": false}],
+    "explanation": "BPR artikel 4.06, achtste lid: een snel schip moet tijdens de vaart gebruik maken van radar."},
+   {"stem": "Bij welke lengte mag een schip slechts varen wanneer het is uitgerust met een radarinstallatie en een bochtaanwijzer?",
+    "polarity": "affirmative",
+    "choices": [
+     {"text": "Bij een lengte van meer dan 110 m", "correct": true},
+     {"text": "Bij een lengte van meer dan 20 m", "correct": false},
+     {"text": "Bij een lengte van meer dan 40 m", "correct": false}],
+    "explanation": "BPR artikel 4.06, zevende lid: een schip met een lengte van meer dan 110 m mag slechts varen wanneer het is uitgerust met een radarinstallatie en een bochtaanwijzer die aan het eerste lid voldoen."}]}
+]}

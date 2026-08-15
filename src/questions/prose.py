@@ -42,6 +42,10 @@ _KIND_BY_THEME = {
     # Germany (de) — the distinctively-typed themes; the rest default to rule_mc
     "definitionen": "definition_mc",
     "wetterkunde": "meteo_mc",
+    # Netherlands (nl) — same idea: only the distinctively-typed themes are named,
+    # the traffic-code ones (vaarregels, optische_tekens, …) fall through to rule_mc.
+    "algemene_bepalingen": "definition_mc",
+    "weerkunde": "meteo_mc",
 }
 
 # Themes drafted here (signalisation is covered by templated figures instead).
@@ -53,11 +57,20 @@ DEFAULT_MODEL = "claude-sonnet-4-6"
 
 # --- source selection ----------------------------------------------------------
 def select_units(kb: sqlite3.Connection, theme: str, limit: int = 0,
-                 lang: str = "fr") -> list[dict]:
+                 lang: str = "fr", min_len: int | None = None,
+                 max_len: int | None = None) -> list[dict]:
     """Prose/article KB units of a theme + language that are substantial enough to
     ask about and short enough to draft from cleanly. Figures are excluded
     (templated). The lang filter matters since the KB is multilingual — drafting
-    must target one language at a time."""
+    must target one language at a time.
+
+    ``min_len``/``max_len`` override the default window. The defaults were tuned
+    on Swiss/German law and are kept exactly (those banks are byte-stable), but
+    they are not universal: in the Dutch code the single most examinable articles
+    — head-on and crossing rules, small-craft lights, locks — all run past 2200
+    characters, while a one-sentence rule like "a fast vessel gives way to every
+    other vessel" falls under 200. A country whose law is shaped differently
+    passes its own window (``Country.draft_len``)."""
     kb.row_factory = sqlite3.Row
     rows = kb.execute(
         """SELECT id, ref, title, text, theme, lang, source_name, source_url,
@@ -66,7 +79,9 @@ def select_units(kb: sqlite3.Connection, theme: str, limit: int = 0,
            WHERE theme = ? AND lang = ? AND kind != 'annex_figure'
                  AND length(text) BETWEEN ? AND ?
            ORDER BY length(text) DESC""",
-        (theme, lang, _MIN_LEN, _MAX_LEN)).fetchall()
+        (theme, lang,
+         _MIN_LEN if min_len is None else min_len,
+         _MAX_LEN if max_len is None else max_len)).fetchall()
     out = [dict(r) for r in rows]
     return out[:limit] if limit else out
 
@@ -178,8 +193,32 @@ Source text:
 """
 
 
+def _prompt_nl(unit: dict, n_questions: int) -> str:
+    return f"""Je stelt examenvragen op voor het theorie-examen Klein Vaarbewijs, \
+UITSLUITEND op basis van de hieronder gegeven wettekst. Gebruik GEEN kennis van \
+buiten; elk juist antwoord moet alleen uit de tekst te verantwoorden zijn.
+
+Regels:
+- Formuleer {n_questions} vraag/vragen in het Nederlands.
+- Precies 3 antwoordmogelijkheden per vraag, waarvan er 1 of 2 juist zijn.
+- De afleiders moeten aannemelijk zijn maar volgens de tekst duidelijk ONJUIST \
+(geen dubbelzinnige valstrik, geen afleider die ook juist zou kunnen zijn).
+- „polarity" = „negative" als de vraag vraagt wat NIET het geval is \
+(„Welke uitspraak is onjuist?"), anders „affirmative".
+- „explanation": één zin met de vindplaats ({unit['ref']}).
+- Geef geen bestaande vragenbank woordelijk weer; formuleer zelf uit de tekst.
+
+Vindplaats: {unit['ref']} — {unit['title']}
+
+Brontekst:
+\"\"\"
+{unit['text']}
+\"\"\"
+"""
+
+
 _PROMPTS: dict[str, Callable[[dict, int], str]] = {
-    "fr": _prompt_fr, "de": _prompt_de, "en": _prompt_en,
+    "fr": _prompt_fr, "de": _prompt_de, "en": _prompt_en, "nl": _prompt_nl,
 }
 
 
@@ -238,6 +277,7 @@ _LETTERS = {
     "fr": "a-zàâäéèêëîïôöùûüç",
     "de": "a-zäöüß",
     "en": "a-z",
+    "nl": "a-zàáäéèêëïíîöóôüúûç",
 }
 _STOP_BY_LANG: dict[str, set[str]] = {
     "fr": {"dans", "pour", "avec", "sans", "leur", "elle", "être", "cette", "plus",
@@ -253,6 +293,19 @@ _STOP_BY_LANG: dict[str, set[str]] = {
            "within", "their", "there", "where", "while", "they", "them", "have",
            "been", "being", "does", "then", "whether", "under", "over", "between",
            "because", "about", "would", "could", "should", "whose", "they"},
+    # Dutch: the regex keeps tokens of 4+ letters, so "de/het/een/van/op" never
+    # reach this set — only the longer function words, the modal verbs that
+    # saturate legal Dutch, and the citation furniture ("artikel", "lid",
+    # "reglement", "bijlage") that every provision repeats and that therefore
+    # anchors nothing.
+    "nl": {"deze", "dezelfde", "dient", "dienen", "moet", "moeten", "mogen",
+           "wordt", "worden", "werd", "kunnen", "zijn", "wezen", "heeft",
+           "hebben", "waarbij", "waarvan", "waarop", "waarin", "daarbij",
+           "daarvan", "indien", "tenzij", "voor", "door", "naar", "over",
+           "onder", "tussen", "zoals", "alsmede", "andere", "anders", "alle",
+           "elke", "iedere", "niet", "geen", "meer", "minder", "bedoeld",
+           "bedoelde", "genoemd", "genoemde", "eerste", "tweede", "derde",
+           "vierde", "vijfde", "artikel", "reglement"},
 }
 
 

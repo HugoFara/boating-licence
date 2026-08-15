@@ -605,3 +605,72 @@ Two bugs worth remembering, both of the silent kind:
 * **EU acts are built in English only** so far, though the parser is verified in four
   languages. Building `--country EU --lang nl/de/fr` is a one-line change per bank
   once there are questions to ground.
+
+## The Dutch question bank — what a law-seeded bank costs
+
+234 questions, drafted from the 117 articles the Dutch exam programme names, held
+`pending`. Three things were learned that generalise beyond the Netherlands.
+
+### A permissive default can be switched off by a disclaimer
+
+Dutch law has two layers. **Auteurswet art. 11** says no copyright *exists* on
+legislation — that is what makes the BPR ingestible. **Art. 15b** goes further for
+other government material: further publication of a work published by or on behalf
+of the public authority is not an infringement *"tenzij het auteursrecht …
+uitdrukkelijk is voorbehouden"*. A permission by default, stronger than the §5(2)
+UrhG basis the German ELWIS ingestion rests on.
+
+The CBR's sample exams carry no notice of their own, so art. 15b looked like it
+cleared them. It does not: **cbr.nl's disclaimer** reserves all intellectual
+property rights and forbids taking data from the site "door middel van scraping of
+enige andere wijze". That is exactly the carve-out art. 15b names. So the finding
+runs the other way from where it started — and the lesson is that the reservation
+does not have to be on the document; it only has to be at the publication.
+
+### The syllabus was free even though the questions were not
+
+The same CBR page publishes the *Examendocument Klein Vaarbewijs 1*, whose first
+chapter is the **examenprogramma vastgesteld door de Minister van I&W**. A
+ministerial instrument falls under art. 11 — no copyright, and a website disclaimer
+cannot create one. That programme resolves the five lines of Binnenvaartregeling
+art. 7.15 into named articles of named acts, and it is now
+`src/countries/nl_examscope.py`.
+
+Only the article *numbers* were taken: which provisions are examinable is a set of
+facts, not anyone's expression. The CBR's own afbakening prose and toetsmatrijs
+tables — its elaboration, which the reservation does cover — were not.
+
+The payoff is not decorative. The Dutch KB holds 860 units, 556 long enough to draft
+from, but most of them are professional crewing rules, certification bureaucracy and
+lists of waterway names that no recreational paper can ask about. Scoped to the
+programme, the same effort lands on the ~130 articles that carry the exam. It also
+exposed three acts the first ingestion pass had missed entirely — the
+Scheepvaartverkeerswet (the alcohol limit and the withdrawal of a vaarbewijs), the
+Vaststellingsbesluit BPR (where the BPR applies), and one article of the Wetboek van
+Koophandel (the duty to assist after a collision). The last of those forced a small
+feature: `Source.only_refs`, so an act can be ingested for named provisions only —
+the Wetboek van Koophandel is 1307 articles of commercial law and the exam names one.
+
+### Grounding by membership is not grounding
+
+The drafting pipeline's lexical grounding check passed all 234 questions. That is
+reassuring and nearly worthless on its own, and the audit had to be sharpened twice
+before it caught anything:
+
+* The first number check asked "does this number appear in the article?". Inverting
+  the key on "a small ship is under 20 m" — marking 15 m correct — sailed straight
+  through, because BPR art. 1.01 runs to 8000 characters and contains a 15 somewhere.
+* The check that works asks whether the number appears **beside the answer's own
+  words** (±170 characters, sharing at least two content words). Verified with the
+  same injected fault: it fires.
+
+A related bug surfaced on the way: the Dutch stopword set had silently failed to land
+in `prose.py`, so every Dutch grounding score had been computed against the *French*
+stopword list. Adding it dropped exactly one question below threshold — a paraphrase
+of what two *other* articles say, which is precisely what the guard is for.
+
+### What is deliberately not done
+
+The bank stays `pending`. The project's verify pass is meant to be an independent
+agent told to default FAIL; the author of these questions is not that. Approval is a
+human decision and is recorded as one.
