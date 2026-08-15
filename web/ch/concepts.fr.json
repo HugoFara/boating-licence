@@ -1,4 +1,17 @@
 {
+  "day-shapes": {
+    "id": "day-shapes.fr",
+    "kind": "principle",
+    "title": "Signaux de jour : chaque feu de nuit a son jumeau de jour",
+    "body": "L'ordonnance dit deux fois la même chose, une fois pour la nuit et une fois pour le jour. La couleur porte le message ; seul le support change — un feu quand il fait sombre, un ballon ou un pavillon quand il fait clair. Retenir les paires, c'est retenir les deux tableaux d'un coup.\n\n— Bateau prioritaire : de nuit un feu vert clair visible de tous les côtés, si possible 1 m plus haut que le feu de mât ; de jour un ballon VERT visible de tous les côtés (art. 27).\n— Pêcheur professionnel pendant la pose et le relevage des filets : de nuit un feu ordinaire jaune visible de tous les côtés ; de jour un ballon JAUNE. Et de jour, la pêche à la traîne se signale par un ballon BLANC (art. 31).\n— Bateau à protéger des remous (mesures, recherches hydrologiques, sauvetage) : de nuit un feu rouge au-dessus d'un feu blanc ; de jour un pavillon moitié rouge en haut, moitié blanc en bas — ou deux pavillons superposés, rouge sur blanc (art. 28).\n— Ancrages dangereux pour la navigation : de nuit deux feux blancs superposés à au moins 1 m d'intervalle ; de jour deux pavillons BLANCS superposés. Chaque ancrage isolé se signale de nuit par des feux blancs, de jour par des flotteurs jaunes (art. 29).\n— Plongée subaquatique : le pavillon «A» du Code international de signaux — un guidon à deux pointes, blanc côté hampe, bleu de l'autre — hissé à terre, ou placé sur le bateau visible de tous les côtés, et éclairé de nuit (art. 32).\n\nLes dimensions sont prescrites, elles aussi : panneaux et pavillons d'au moins 60 cm de côté, ballons d'au moins 30 cm de diamètre ; un ballon peut être remplacé par un dispositif de même apparence, à condition d'exclure toute confusion (art. 20).",
+    "prov": {
+      "ref": "ONI art. 20, 27, 28, 29, 31, 32 — signalisation de jour (ballons, pavillons)",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "as_of": "2022-01-01",
+      "licence": "Public domain — Swiss federal law (freely reusable)."
+    }
+  },
   "give-way": {
     "id": "give-way.fr",
     "kind": "principle",
@@ -12,6 +25,19 @@
       "licence": "Public domain — Swiss federal law (freely reusable)."
     }
   },
+  "iala-buoyage": {
+    "id": "iala-buoyage.fr",
+    "kind": "principle",
+    "title": "Balisage suisse : la forme donne le côté, les cônes donnent le quadrant",
+    "body": "Sur les eaux suisses, deux formes suffisent à tenir le système : le CYLINDRE et le CÔNE. Tout se lit dans un sens de référence unique, «vu du large» — c'est-à-dire depuis l'eau libre vers la rive.\n\nChenal (art. 37, al. 4 ; annexe 4, fig. 50, 51 et 53) :\n— À gauche, vu du large : des CYLINDRES, peints en rouge ou non peints.\n— À droite : des CÔNES pointe en haut, peints en vert ou non peints.\n— De nuit, la même chose en lumière : feux à éclats ROUGES à gauche, VERTS à droite.\nLe même couple sert à border un haut-fond près de la rive : cylindres du côté du large, cônes du côté de la terre (fig. 52).\n\nObstacle isolé (fig. 49) : un CÔNE POINTE EN BAS, peint en rouge ou non peint. La pointe renversée est le signal «ceci n'est pas un bord de chenal, c'est un objet à éviter».\n\nObstacles étendus — les marques de quadrant (fig. 54). Deux cônes superposés disent dans quel quadrant se trouve l'eau profonde :\n— Nord : les deux pointes EN HAUT.\n— Sud : les deux pointes EN BAS.\n— Est : cône inférieur pointe en bas, supérieur pointe en haut (les deux bases se touchent).\n— Ouest : cône inférieur pointe en haut, supérieur pointe en bas (les deux pointes se touchent).\nNord et Sud se retiennent seuls : les pointes montrent le côté où passer. Un exemple de l'annexe donne la lecture complète — les marques indiquent que les eaux profondes se trouvent dans les quadrants Nord et Ouest (fig. 55).\n\nAttention à ne pas mélanger deux systèmes : ce balisage-ci est celui des eaux intérieures suisses. Le balisage maritime IALA région A, avec ses marques latérales rouges et vertes «en venant du large», est un autre référentiel.",
+    "prov": {
+      "ref": "ONI art. 37 et annexe 4, ch. I (fig. 49 à 55) — balisage des chenaux et des obstacles",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "as_of": "2022-01-01",
+      "licence": "Public domain — Swiss federal law (freely reusable)."
+    }
+  },
   "nav-lights": {
     "id": "nav-lights.fr",
     "kind": "principle",
@@ -19,6 +45,32 @@
     "body": "Les feux ne décrivent pas le bateau : ils découpent l'horizon. Chaque genre de feu couvre un arc précis (ONI art. 18a, repris mot pour mot par le RNL art. 21), et ces arcs se complètent exactement — c'est ce qui permet de déduire ce qu'on voit au lieu de l'apprendre par cœur.\n\n— Feu de mât : blanc, visible de l'avant sur 225°, soit 112° 30' de chaque bord.\n— Feux de côté : vert à tribord, rouge à bâbord, chacun visible de l'avant sur 112° 30' de son bord.\n— Feu de poupe : blanc, visible de l'arrière sur 135°, soit 67° 30' de chaque bord.\n— Feu visible de tous les côtés : 360°.\n\nDeux additions valent tout le tableau : 112° 30' + 112° 30' = 225°, l'arc du feu de mât ; et 225° + 135° = 360°, l'horizon entier. Un feu bicolore réunit les deux feux de côté dans un seul fanal ; un feu de mât tricolore y ajoute le feu de poupe (art. 18a, al. 3 et 5).\n\nD'où la lecture inverse, celle qui sert la nuit : les deux feux de côté à la fois, on est dans son secteur avant ; un seul rouge ou un seul vert, on voit son flanc ; du blanc de poupe seul, on est derrière elle.\n\nCe que chaque bateau porte suit ensuite une échelle de simplification :\n— Bateau motorisé en cours de route, de nuit et par temps bouché : feu de mât, feux de côté distincts, feu de poupe (art. 24, al. 1).\n— Bateau de sport ou de plaisance motorisé, et voilier naviguant au moteur : quatre combinaisons au choix, du jeu complet au feu bicolore avec un feu blanc visible de tous les côtés (art. 24, al. 3).\n— Voilier ne naviguant qu'à la voile : feux de côté et feu de poupe, ou feu bicolore et feu de poupe, ou feu tricolore, ou un feu blanc visible de tous les côtés (art. 25, al. 2) ; deux feux superposés, rouge au-dessus de vert, peuvent s'y ajouter, mais pas avec un tricolore (art. 25, al. 3).\n— Bateau non motorisé : un feu ordinaire blanc visible de tous les côtés ; sur un bateau à rames, il peut être à éclats (art. 25, al. 1).\n— Propulsion ne dépassant pas 6 kW, ou coque de 7 m au plus et vitesse de 7 nœuds au plus inscrite au permis de navigation : un seul feu blanc visible de tous les côtés suffit (art. 24, al. 5).\n— En stationnement de nuit : feu ordinaire blanc visible de tous les côtés, sauf amarré à la rive ou sur un lieu de stationnement officiellement autorisé (art. 26, al. 1).\n\nSur un bateau de sport ou de plaisance de moins de 12 m, les portées minimales sont de 1 mille pour les feux de côté et le feu bicolore, et de 2 milles pour le feu de mât, le feu de poupe et le feu blanc visible de tous les côtés (art. 19, al. 4).\n\nEnfin, les feux ne sont pas qu'une signature : ils définissent une règle de route. Rattrape celui qui s'approche par l'arrière au point de ne voir, de nuit, que le feu de poupe (art. 46, al. 2) ; le RNL art. 63, al. 2 en donne l'angle — plus de 22° 30' sur l'arrière du travers, aucun feu de côté visible. La géométrie des feux et celle des priorités sont la même.",
     "prov": {
       "ref": "ONI art. 18a, 19, 24, 25, 26 — genres de feux et signalisation de nuit (RNL art. 21, texte identique)",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "as_of": "2022-01-01",
+      "licence": "Public domain — Swiss federal law (freely reusable)."
+    }
+  },
+  "sound-signals": {
+    "id": "sound-signals.fr",
+    "kind": "principle",
+    "title": "Signaux sonores : une grammaire de durées et de nombres",
+    "body": "Les signaux sonores forment une langue minuscule : deux durées, un nombre de sons, et c'est tout. Il n'y a rien à retenir par cœur une fois la règle de formation comprise.\n\nLes briques (art. 33, al. 2) : les sons sont de hauteur constante ; un SON BREF dure environ une seconde, un SON PROLONGÉ environ quatre, et l'intervalle entre deux sons successifs environ une seconde. La volée de cloche dure elle aussi environ quatre secondes et peut être remplacée par des coups frappés sur un objet métallique (al. 3).\n\nLe vocabulaire (art. 34) — à n'émettre que lorsque la sécurité de la navigation et des autres usagers l'exige :\n— un son prolongé : «Attention» ou «j'avance en ligne droite» ;\n— un son bref : «Je viens sur tribord» ;\n— deux sons brefs : «Je viens sur bâbord» ;\n— trois sons brefs : «Je bats en arrière» ;\n— quatre sons brefs : «Je suis incapable de manœuvrer» ;\n— une série de sons très brefs : «Danger d'abordage».\nLa logique se voit d'un coup d'œil : un son long annonce une intention calme, et plus les sons brefs s'accumulent, plus la situation se dégrade — de la simple manœuvre jusqu'à la perte de contrôle, puis à l'alarme.\n\nAvec quoi les émettre (art. 33, al. 1) : les bateaux à moteur, sauf plaisance et sport, utilisent des avertisseurs actionnés mécaniquement ou électriquement ; les autres bateaux un klaxon ou une corne appropriés ; pour les bateaux à rames et les voiliers jusqu'à 15 m² de surface vélique, un sifflet suffit. Les bateaux de la police en service urgent peuvent employer un avertisseur à deux sons alternés ou une sirène, et avec l'accord de l'autorité les bateaux de l'OFDF, des pompiers, de la lutte contre la pollution et des services de sauvetage également (al. 4).",
+    "prov": {
+      "ref": "ONI art. 33 et 34 — signaux sonores (émission, durées, vocabulaire)",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "as_of": "2022-01-01",
+      "licence": "Public domain — Swiss federal law (freely reusable)."
+    }
+  },
+  "waterway-signs": {
+    "id": "waterway-signs.fr",
+    "kind": "principle",
+    "title": "Signaux de la voie navigable : lire la famille avant le pictogramme",
+    "body": "Un panneau se lit en deux temps. La FAMILLE dit quel genre d'obligation il crée ; le pictogramme dit seulement de quelle activité il s'agit. Les conducteurs doivent obéir aux prescriptions et tenir compte des recommandations ou indications portées par les signaux de l'annexe 4 (ONI art. 36).\n\nLes familles de l'annexe 4, telles que leurs légendes les nomment :\n— Interdiction : «interdiction de passer» (le signal général d'interdiction), d'ancrer, de s'amarrer, de stationner, de virer, de dépasser, de causer des remous…\n— Obligation : prendre la direction de la flèche, s'arrêter dans certaines conditions, ne pas dépasser la vitesse indiquée, siffler, observer une vigilance particulière.\n— Limitation : la hauteur, la largeur de la passe ou le tirant d'eau sont limités ; la distance à tenir par rapport à la rive est indiquée en mètres.\n— Recommandation : une passe recommandée pour franchir un pont (dans les deux sens ou dans le seul sens indiqué), se tenir dans l'espace indiqué.\n— Autorisation ou indication : autorisation de passer, de stationner, arrêt pour la douane, bac.\nUne fois la famille reconnue, la question «que dois-je faire ?» est déjà tranchée : m'abstenir, exécuter, respecter une limite, suivre un conseil, ou simplement noter une possibilité.\n\nLes plans d'eau, eux, sont délimités par des flotteurs, pas par des panneaux (art. 37) :\n— Bouées jaunes sphériques : plan d'eau interdit à toute navigation, au besoin complété par un panneau A.1.\n— Mêmes bouées avec un panneau A.2, A.3 ou A.4 : interdit à certaines catégories de bateaux seulement.\n— Mêmes bouées avec des panneaux E.5 à terre : plan d'eau ou couloir de départ ouvert au ski nautique et au wakesurfing ; les bouées du couloir côté large sont deux fois plus grosses, sommet rouge à gauche et vert à droite vu du large.\n\nDeux détails qui tombent souvent : les panneaux et pavillons mesurent au moins 60 cm de côté et les ballons au moins 30 cm de diamètre (art. 20) ; et de nuit ou par temps bouché, des installations fixes peuvent émettre les signaux sonores de l'annexe 4 ou des feux à éclats jaunes, tandis que ponts et obstacles portent des réflecteurs radar (art. 39).",
+    "prov": {
+      "ref": "ONI art. 20, 36, 37, 39 et annexe 4 — signalisation de la voie navigable",
       "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
       "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
       "as_of": "2022-01-01",

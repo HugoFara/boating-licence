@@ -1840,7 +1840,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:int.en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1888,7 +1888,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:int.en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1936,7 +1936,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:int.en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1984,7 +1984,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:int.en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         1
@@ -2225,7 +2225,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:int.en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0,
@@ -2661,7 +2661,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:int.en.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0

@@ -162,7 +162,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -210,7 +210,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "nav-lights",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -834,7 +834,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1026,7 +1026,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:ref.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1074,7 +1074,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:ref.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1122,7 +1122,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:ref.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1170,7 +1170,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:ref.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1218,7 +1218,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:ref.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0

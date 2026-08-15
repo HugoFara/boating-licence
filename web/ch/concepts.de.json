@@ -1,4 +1,17 @@
 {
+  "day-shapes": {
+    "id": "day-shapes.de",
+    "kind": "principle",
+    "title": "Tagzeichen: zu jedem Nachtlicht gehört ein Tagzwilling",
+    "body": "Die Verordnung sagt dasselbe zweimal, einmal für die Nacht und einmal für den Tag. Die Farbe trägt die Botschaft; nur der Träger wechselt — ein Licht im Dunkeln, ein Ball oder eine Flagge bei Helligkeit. Wer die Paare behält, behält beide Tabellen auf einmal.\n\n— Vorrangschiff: bei Nacht ein grünes helles Rundumlicht, möglichst 1 m höher als das Topplicht; bei Tag ein von allen Seiten sichtbarer GRÜNER Ball (Art. 27).\n— Berufsfischer während des Setzens und Einholens der Netze: bei Nacht ein gelbes gewöhnliches Rundumlicht; bei Tag ein GELBER Ball. Wer bei Tag mit der Schleppangel fischt, führt einen WEISSEN Ball (Art. 31).\n— Vor Wellenschlag zu schützende Schiffe (Messungen, hydrologische Untersuchungen, Rettungsaktionen): bei Nacht ein rotes über einem weissen Rundumlicht; bei Tag eine Flagge, obere Hälfte rot, untere weiss — oder zwei Flaggen übereinander, rot über weiss (Art. 28).\n— Für die Schifffahrt gefährliche Ankerungen: bei Nacht zwei weisse Rundumlichter übereinander mit mindestens 1 m Abstand; bei Tag zwei WEISSE Flaggen übereinander. Jede einzelne Ankerung wird bei Nacht mit weissen Lichtern, bei Tag mit gelben Schwimmkörpern bezeichnet (Art. 29).\n— Tauchen: die Flagge «A» des Internationalen Signalbuchs — ein Doppelstander, am Stock weiss, aussen blau — an Land gehisst oder auf dem Schiff von allen Seiten sichtbar angebracht und bei Nacht wirksam beleuchtet (Art. 32).\n\nAuch die Masse sind vorgeschrieben: Tafeln und Flaggen mindestens 60 cm hoch und breit, Bälle mindestens 30 cm Durchmesser; ein Ball darf durch eine Einrichtung ersetzt werden, die unmissverständlich gleich wirkt (Art. 20).",
+    "prov": {
+      "ref": "ONI art. 20, 27, 28, 29, 31, 32 — signalisation de jour (ballons, pavillons)",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "as_of": "2022-01-01",
+      "licence": "Public domain — Swiss federal law (freely reusable)."
+    }
+  },
   "give-way": {
     "id": "give-way.de",
     "kind": "principle",
@@ -12,6 +25,19 @@
       "licence": "Public domain — Swiss federal law (freely reusable)."
     }
   },
+  "iala-buoyage": {
+    "id": "iala-buoyage.de",
+    "kind": "principle",
+    "title": "Schweizer Bezeichnung: die Form gibt die Seite, die Kegel den Quadranten",
+    "body": "Auf Schweizer Gewässern tragen zwei Formen das ganze System: der ZYLINDER und der KEGEL. Alles wird in einer einzigen Bezugsrichtung gelesen, «vom See her» — also vom freien Wasser gegen das Ufer.\n\nFahrrinne (Art. 37 Abs. 4; Anhang 4, Fig. 50, 51 und 53):\n— Links, vom See her gesehen: ZYLINDER, rot gestrichen oder ungestrichen.\n— Rechts: KEGEL mit der Spitze nach oben, grün gestrichen oder ungestrichen.\n— Bei Nacht dasselbe als Licht: ROTE Blitzlichter links, GRÜNE rechts.\nDasselbe Paar begrenzt eine Untiefe nahe dem Ufer: Zylinder auf der Seeseite, Kegel auf der Landseite (Fig. 52).\n\nEinzelnes Hindernis (Fig. 49): ein KEGEL MIT DER SPITZE NACH UNTEN, rot gestrichen oder ungestrichen. Die umgekehrte Spitze heisst «das ist kein Fahrrinnenrand, das ist ein Objekt, das zu meiden ist».\n\nAusgedehnte Hindernisse — die Quadrantenzeichen (Fig. 54). Zwei übereinander angebrachte Kegel sagen, in welchem Quadranten das tiefe Wasser liegt:\n— Nord: beide Spitzen NACH OBEN.\n— Süd: beide Spitzen NACH UNTEN.\n— Ost: der untere mit der Spitze nach unten, der obere nach oben (die Grundflächen berühren sich).\n— West: der untere mit der Spitze nach oben, der obere nach unten (die Spitzen berühren sich).\nNord und Süd merkt man sich von selbst: die Spitzen zeigen zur Seite, auf der man vorbeifährt.\n\nNicht zu verwechseln: dies ist die Bezeichnung der Schweizer Binnengewässer. Das maritime IALA-System der Region A mit seinen roten und grünen Lateralzeichen «von See kommend» ist ein anderer Bezugsrahmen.",
+    "prov": {
+      "ref": "ONI art. 37 et annexe 4, ch. I (fig. 49 à 55) — balisage des chenaux et des obstacles",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "as_of": "2022-01-01",
+      "licence": "Public domain — Swiss federal law (freely reusable)."
+    }
+  },
   "nav-lights": {
     "id": "nav-lights.de",
     "kind": "principle",
@@ -19,6 +45,32 @@
     "body": "Lichter beschreiben nicht das Schiff — sie teilen den Horizont auf. Jede Lichtart deckt einen festen Horizontbogen ab (BSV Art. 18a, wortgleich übernommen in RNL Art. 21), und diese Bögen ergänzen sich genau. Deshalb lässt sich ableiten, was man sieht, statt es auswendig zu lernen.\n\n— Topplicht: weiss, von vorne über 225° sichtbar, nach jeder Seite 112° 30'.\n— Seitenlichter: grün an Steuerbord, rot an Backbord, je von vorne über 112° 30' der betreffenden Seite.\n— Hecklicht: weiss, von hinten über 135° sichtbar, nach jeder Seite 67° 30'.\n— Rundumlicht: 360°.\n\nZwei Additionen ersetzen die ganze Tabelle: 112° 30' + 112° 30' = 225°, der Bogen des Topplichts; und 225° + 135° = 360°, der volle Horizont. Ein Kombinations-Seitenlicht fasst beide Seitenlichter in einer Laterne zusammen, ein Dreifarben-Topplicht zusätzlich das Hecklicht (Art. 18a Abs. 3 und 5).\n\nDaraus folgt die umgekehrte Lesart, die nachts zählt: beide Seitenlichter zugleich — man steht in ihrem vorderen Sektor; nur rot oder nur grün — man sieht ihre Seite; nur weisses Hecklicht — man ist hinter ihr.\n\nWas ein Schiff führen muss, folgt einer Stufenleiter der Vereinfachung:\n— Schiff mit Maschinenantrieb in Fahrt, bei Nacht und bei unsichtigem Wetter: Topplicht, getrennte Seitenlichter, Hecklicht (Art. 24 Abs. 1).\n— Sportboote und Vergnügungsschiffe mit Maschinenantrieb sowie Segelschiffe unter Motor: vier zulässige Kombinationen, vom vollen Satz bis zum Kombinations-Seitenlicht mit weissem Rundumlicht (Art. 24 Abs. 3).\n— Segelschiffe, die nur unter Segel fahren: getrennte Seitenlichter und Hecklicht, oder Kombinations-Seitenlicht und Hecklicht, oder Dreifarben-Topplicht, oder ein weisses Rundumlicht (Art. 25 Abs. 2); zusätzlich sind zwei senkrecht übereinander angebrachte Rundumlichter, rot über grün, erlaubt — aber nicht zusammen mit einem Dreifarben-Topplicht (Art. 25 Abs. 3).\n— Schiff ohne Maschinenantrieb: ein weisses gewöhnliches Rundumlicht; auf Ruderbooten darf es ein Blitzlicht sein (Art. 25 Abs. 1).\n— Antriebsleistung höchstens 6 kW, oder Rumpflänge höchstens 7 m und Höchstgeschwindigkeit 7 Knoten im Schiffsausweis eingetragen: ein einziges weisses Rundumlicht genügt (Art. 24 Abs. 5).\n— Stillliegend bei Nacht: weisses gewöhnliches Rundumlicht, ausser am Ufer oder an einem amtlich bewilligten Liegeplatz festgemacht (Art. 26 Abs. 1).\n\nUnd die Lichter sind nicht nur Kennzeichen, sie definieren eine Fahrregel: Als überholend gilt, wer sich von hinten so nähert, dass bei Nacht nur das Hecklicht erkennbar wäre (Art. 46 Abs. 2); RNL Art. 63 Abs. 2 nennt den Winkel — mehr als 22° 30' achterlicher als querab, kein Seitenlicht sichtbar. Die Geometrie der Lichter ist die Geometrie der Ausweichpflicht.",
     "prov": {
       "ref": "ONI art. 18a, 19, 24, 25, 26 — genres de feux et signalisation de nuit (RNL art. 21, texte identique)",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "as_of": "2022-01-01",
+      "licence": "Public domain — Swiss federal law (freely reusable)."
+    }
+  },
+  "sound-signals": {
+    "id": "sound-signals.de",
+    "kind": "principle",
+    "title": "Schallzeichen: eine Grammatik aus Dauer und Anzahl",
+    "body": "Die Schallzeichen sind eine winzige Sprache: zwei Dauern, eine Anzahl Töne, mehr nicht. Wer die Bildungsregel verstanden hat, muss nichts auswendig lernen.\n\nDie Bausteine (Art. 33 Abs. 2): Die Töne sind von gleichbleibender Höhe; ein KURZER TON dauert etwa eine Sekunde, ein LANGER TON etwa vier, die Pause zwischen aufeinanderfolgenden Tönen etwa eine Sekunde. Eine Gruppe von Glockenschlägen dauert ebenfalls etwa vier Sekunden und darf durch Schläge auf einen metallenen Gegenstand ersetzt werden (Abs. 3).\n\nDas Vokabular (Art. 34) — nur zu geben, wenn es die Sicherheit der Schifffahrt und der übrigen Benützer des Gewässers gebietet:\n— ein langer Ton: «Achtung» oder «Ich halte meinen Kurs bei»;\n— ein kurzer Ton: «Ich richte meinen Kurs nach Steuerbord»;\n— zwei kurze Töne: «Ich richte meinen Kurs nach Backbord»;\n— drei kurze Töne: «Meine Maschine geht rückwärts»;\n— vier kurze Töne: «Ich bin manövrierunfähig»;\n— eine Folge sehr kurzer Töne: «Gefahr eines Zusammenstosses».\nDie Logik sieht man auf einen Blick: ein langer Ton kündigt eine ruhige Absicht an, und je mehr kurze Töne sich häufen, desto schlimmer die Lage — vom blossen Manöver über den Verlust der Manövrierfähigkeit bis zum Alarm.\n\nWomit (Art. 33 Abs. 1): Motorschiffe, ausgenommen Vergnügungsschiffe und Sportboote, geben sie mit mechanisch oder elektrisch betriebenen Schallgeräten; andere Schiffe mit einer geeigneten Hupe oder einem Horn; für Ruderboote und Segelschiffe bis 15 m² Segelfläche genügt eine Mundpfeife. Polizeischiffe im dringlichen Einsatz dürfen ein Zweiklanghorn oder eine Sirene verwenden, mit Zustimmung der Behörde auch Schiffe des BAZG, der Feuerwehr, der Ölwehr und der Rettungsdienste (Abs. 4).",
+    "prov": {
+      "ref": "ONI art. 33 et 34 — signaux sonores (émission, durées, vocabulaire)",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "as_of": "2022-01-01",
+      "licence": "Public domain — Swiss federal law (freely reusable)."
+    }
+  },
+  "waterway-signs": {
+    "id": "waterway-signs.de",
+    "kind": "principle",
+    "title": "Schifffahrtszeichen: erst die Familie lesen, dann das Piktogramm",
+    "body": "Ein Tafelzeichen liest man in zwei Schritten. Die FAMILIE sagt, welche Art von Pflicht es begründet; das Piktogramm sagt nur, worum es geht. Die Schiffsführer haben die Anweisungen zu befolgen und die Empfehlungen oder Hinweise zu beachten, die die Schifffahrtszeichen nach Anhang 4 anzeigen (BSV Art. 36).\n\nDie Familien des Anhangs 4, wie ihre Legenden sie benennen:\n— Verbot: Durchfahrt verboten (das allgemeine Verbotszeichen), Ankern, Festmachen, Stillliegen, Wenden, Überholen, schädlichen Wellenschlag verursachen…\n— Gebot: die durch den Pfeil angezeigte Richtung nehmen, unter bestimmten Bedingungen anhalten, die angegebene Geschwindigkeit nicht überschreiten, ein Schallzeichen geben, besondere Vorsicht walten lassen.\n— Beschränkung: die Durchfahrtshöhe, die Durchfahrtsbreite oder der Tiefgang sind begrenzt; der einzuhaltende Uferabstand ist in Metern angegeben.\n— Empfehlung: eine empfohlene Durchfahrt unter einer Brücke (in beiden Richtungen oder nur in der angezeigten), sich im bezeichneten Raum halten.\n— Erlaubnis oder Hinweis: Durchfahrt erlaubt, Stillliegen erlaubt, Halt für den Zoll, Fähre.\nIst die Familie erkannt, ist die Frage «was muss ich tun?» schon beantwortet: unterlassen, ausführen, eine Grenze einhalten, einem Rat folgen oder bloss eine Möglichkeit zur Kenntnis nehmen.\n\nWasserflächen dagegen werden mit Schwimmkörpern abgegrenzt, nicht mit Tafeln (Art. 37):\n— Gelbe kugelförmige Schwimmkörper: für die Schifffahrt gesperrte Wasserfläche, nötigenfalls mit einer Tafel A.1 ergänzt.\n— Dieselben Schwimmkörper mit Tafel A.2, A.3 oder A.4: nur für bestimmte Schiffsarten gesperrt.\n— Dieselben Schwimmkörper mit Tafeln E.5 am Ufer: für Wasserskifahren und Wakesurfen zugelassene Wasserfläche oder Startgasse; die seeseitigen Schwimmkörper der Startgasse haben den doppelten Durchmesser, vom See her gesehen die linke mit roter, die rechte mit grüner Spitze.\n\nZwei Details, die gern geprüft werden: Tafeln und Flaggen sind mindestens 60 cm hoch und breit, Bälle haben mindestens 30 cm Durchmesser (Art. 20); und bei Nacht oder unsichtigem Wetter dürfen feste Anlagen die Schallzeichen des Anhangs 4 oder gelbe Blitzlichter geben, während Brücken und Hindernisse Radarreflektoren tragen (Art. 39).",
+    "prov": {
+      "ref": "ONI art. 20, 36, 37, 39 et annexe 4 — signalisation de la voie navigable",
       "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
       "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
       "as_of": "2022-01-01",

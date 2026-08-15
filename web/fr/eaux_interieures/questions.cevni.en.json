@@ -162,7 +162,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -546,7 +546,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -594,7 +594,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -786,7 +786,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1218,7 +1218,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1266,7 +1266,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:fr.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1362,7 +1362,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1986,7 +1986,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2034,7 +2034,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2082,7 +2082,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2226,7 +2226,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "waterway-signs",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2274,7 +2274,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "nav-lights",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2466,7 +2466,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "waterway-signs",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2658,7 +2658,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "waterway-signs",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2850,7 +2850,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -3090,7 +3090,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -3138,7 +3138,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -3282,7 +3282,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0

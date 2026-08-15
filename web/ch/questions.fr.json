@@ -1263,7 +1263,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
       "block": "",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1359,7 +1359,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
       "block": "",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -1695,7 +1695,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
       "block": "",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2272,7 +2272,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
       "block": "",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2368,7 +2368,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
       "block": "",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -2512,7 +2512,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:fr.v1",
       "block": "",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -3234,7 +3234,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "nav-lights",
       "difficulty": "unrated",
       "correct": [
         0
@@ -3618,7 +3618,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "nav-lights",
       "difficulty": "unrated",
       "correct": [
         2
@@ -4002,7 +4002,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         2
@@ -4146,7 +4146,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "nav-lights",
       "difficulty": "unrated",
       "correct": [
         1
@@ -5586,7 +5586,7 @@
       "distractor_strategy": "sibling_random",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "nav-lights",
       "difficulty": "unrated",
       "correct": [
         1
@@ -7218,7 +7218,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -7266,7 +7266,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -8226,7 +8226,7 @@
       "distractor_strategy": "n/a",
       "generator": "figure:fr.v1",
       "block": "",
-      "principle": "day-shapes",
+      "principle": "iala-buoyage",
       "difficulty": "unrated",
       "correct": [
         0
@@ -10290,7 +10290,7 @@
       "distractor_strategy": "curated",
       "generator": "seed:curated.v1",
       "block": "",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0

@@ -3089,7 +3089,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -3425,7 +3425,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "nav-lights",
+      "principle": "waterway-signs",
       "difficulty": "unrated",
       "correct": [
         0
@@ -3665,7 +3665,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "nav-lights",
+      "principle": "waterway-signs",
       "difficulty": "unrated",
       "correct": [
         0
@@ -3809,7 +3809,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "sound-signals",
       "difficulty": "unrated",
       "correct": [
         0
@@ -4001,7 +4001,7 @@
       "distractor_strategy": "curated",
       "generator": "derive:legi.v1",
       "block": "",
-      "principle": "waterway-signs",
+      "principle": "sound-signals",
       "difficulty": "unrated",
       "correct": [
         0
