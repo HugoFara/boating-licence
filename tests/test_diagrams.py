@@ -69,6 +69,11 @@ def test_every_spec_is_drawable_by_its_family():
             for tok in d["pattern"]:
                 assert tok in diagrams._TONE_S or tok == "gap", f"{d['key']}: {tok}"
             assert d["pattern"][0] != "gap" and d["pattern"][-1] != "gap", d["key"]
+        elif d["family"] == "iala-buoyage":
+            assert d["body"] in diagrams._BODY_KINDS, f"{d['key']}: {d['body']}"
+            assert d["topmark"] in diagrams._TOPMARKS, f"{d['key']}: {d['topmark']}"
+            for col in list(d["bands"]) + [d["top_colour"]]:
+                assert col in diagrams._PAINT, f"{d['key']}: {col}"
         else:
             assert len(d["boats"]) == 2, f"{d['key']}: an encounter has two vessels"
             for b in d["boats"]:
@@ -185,7 +190,7 @@ def test_titles_never_leak_the_meaning():
 _KB_BY_REGIME = {"kvr": "kb.de.sqlite", "binschstro": "kb.de.sqlite",
                  "seeschstro": "kb.de.sqlite", "colreg": "kb.int.sqlite",
                  "oni": "kb.ch.sqlite", "rnl": "kb.ch.sqlite",
-                 "code_transports": "kb.fr.sqlite"}
+                 "code_transports": "kb.fr.sqlite", "iala_a": "kb.fr.sqlite"}
 
 
 def test_every_citation_holds_in_its_own_law():
@@ -233,6 +238,8 @@ _LIGHT_WORDS = ("licht", "lichter", "light", "feu", "feux", "luce", "luci")
 # distress signal as dots and dashes rather than in words.
 _SOUND_WORDS = ("ton", "töne", "blast", "son", "sons", "suono", "glocke",
                 "morse")
+_MARK_WORDS = ("cône", "cônes", "sphère", "sphères", "cylindr", "conique",
+               "croix", "bande", "jaune", "rouge", "verte")
 _WAY_WORDS = ("keep out of the way", "alter her course", "abaft her beam",
               "s'écarte", "s’écarte", "venir sur tribord", "tenir leur droite",
               "freilassen", "wind on the port side", "réserver aux avalants")
@@ -255,6 +262,9 @@ def test_a_citation_describes_the_figure_it_is_attached_to():
                 assert any(w in q for w in _LIGHT_WORDS), (
                     f"{d['key']}: {c['ref']} does not mention a light — "
                     f"wrong diagram?")
+            elif d["family"] == "iala-buoyage":
+                assert any(w in q for w in _MARK_WORDS), (
+                    f"{d['key']}: {c['ref']} describes no mark — wrong diagram?")
             elif d["family"] == "give-way":
                 assert any(w in q for w in _WAY_WORDS), (
                     f"{d['key']}: {c['ref']} states no duty to keep clear — "
@@ -263,6 +273,43 @@ def test_a_citation_describes_the_figure_it_is_attached_to():
                 assert any(w in q for w in _SOUND_WORDS), (
                     f"{d['key']}: {c['ref']} does not mention a blast — "
                     f"wrong diagram?")
+
+
+def test_the_cardinal_cones_point_at_the_safe_water():
+    """The single highest-consequence drawing in the set. North both up, south both
+    down, east base to base, west point to point — get east and west the wrong way
+    round (as the first draft did) and the figure sends a learner the wrong side of
+    a danger. Read the cone apexes straight out of the SVG."""
+    def apexes(key):
+        """(upper points up?, lower points up?) — a cone's apex is the vertex that
+        sits alone on its own y, so compare each polygon's three y values."""
+        svg = diagrams.render_one(diagrams.BY_KEY[key])
+        out = []
+        for poly in svg.split('<polygon points="')[1:]:
+            pts = [p.split(",") for p in poly.split('"')[0].split()]
+            ys = [float(y) for _x, y in pts]
+            apex_y = min(ys) if ys.count(min(ys)) == 1 else max(ys)
+            out.append((sum(ys) / 3.0, apex_y == min(ys)))
+        out.sort()                       # by centre height: upper cone first
+        return [up for _cy, up in out]
+
+    assert apexes("iala-cardinal-north") == [True, True], "north: both cones up"
+    assert apexes("iala-cardinal-south") == [False, False], "south: both cones down"
+    assert apexes("iala-cardinal-east") == [True, False], "east: bases meet"
+    assert apexes("iala-cardinal-west") == [False, True], "west: points meet"
+    # the Swiss quadrant marks share the geometry exactly
+    assert apexes("quadrant-north-two-cones-up") == [True, True]
+    assert apexes("quadrant-south-two-cones-down") == [False, False]
+
+
+def test_a_mark_never_claims_an_unsourced_colour():
+    """The Swiss annex prescribes the shape on top and leaves the support unpainted
+    ("peint en rouge ou non peint"), so those marks ride a bare spar. Painting a
+    white buoy under them would be asserting a colour no source gives."""
+    for key in ("oni-isolated-obstacle", "quadrant-north-two-cones-up",
+                "quadrant-south-two-cones-down"):
+        d = diagrams.BY_KEY[key]
+        assert d["body"] == "spar" and not d["bands"], key
 
 
 def test_give_way_diagrams_are_card_only():

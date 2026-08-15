@@ -377,8 +377,40 @@ never on a stem — and a test enforces that no assignment can ever place one.
 Reach: `int`/`fr_cotiere` 4 (COLREG 12–15), `fr_eaux_interieures` 3 (RGP A4241-53-5/6),
 `de` 1 (BinSchStrO § 6.04), `ch` 1 (ONI art. 63).
 
-Next: buoyage (IALA lateral and cardinal marks, 42 questions with no figure) — the
-last big drawable family, and the one where colour and topmark carry everything.
+### Buoyage: three channels, and the one drawing that must not be wrong
+
+Fourteen marks. A buoy encodes its meaning in three independent channels — body
+**shape**, body **colour** (bands, or stripes), and **topmark** — so the renderer
+takes exactly those three and can say nothing the source did not.
+
+The cardinal topmark is why this family is worth drawing at all: **the two cones
+point at the safe water.** North both up, south both down, east base to base, west
+point to point. Read that way the four marks stop being a list and become one rule.
+
+And it is the highest-consequence drawing in the whole set, because a learner who
+reads it wrong passes the wrong side of a danger. The first draft had **east and west
+transposed**. `test_the_cardinal_cones_point_at_the_safe_water` now reads the cone
+apexes straight out of the rendered SVG and pins all four (with a negative control
+confirming a swapped mark fails it).
+
+**Two schemes, one shared component.** IALA R1001 region A serves the coastal bank;
+the Swiss inland scheme is a genuinely different system — no black-and-yellow
+cardinal bodies, marks that may be *"peint en rouge ou non peint"*. What the two
+share is precisely the cone pairs, so those diagrams carry a citation in each code
+while the bodies beneath them do not. The Swiss marks ride a bare spar rather than an
+invented white buoy, because the annex prescribes the shape on top and leaves the
+support unpainted — asserting a colour there would be inventing one, and a test
+holds that line.
+
+Reach: `fr_cotiere` 9 (IALA R1001 §2.1–2.5), `ch` 5 (ONI Annexe 4 figs 49/50/54).
+
+That completes the five drawable families: **56 diagrams**, every citation verified
+against its own code's KB and required to name what is drawn. Card strips now carry
+`fr_cotiere` 31 figures, `de` 34, `int` 22, `ch` 11, `fr_eaux_interieures` 9.
+
+Remaining figure gap is `waterway-signs` — 60 questions — and that one is genuine
+pictogram artwork, not geometry, so it is the one family where obtaining beats
+deriving. The ONI/ELWIS rasters already cover 127 of its 187 questions.
 
 ### Adding a diagram (the smallest useful contribution)
 

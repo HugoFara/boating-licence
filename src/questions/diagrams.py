@@ -49,7 +49,8 @@ import os
 import sqlite3
 
 GENERATOR = "gen:diagram.v1"
-FAMILIES = ("day-shapes", "nav-lights", "sound-signals", "give-way")
+FAMILIES = ("day-shapes", "nav-lights", "sound-signals", "give-way",
+            "iala-buoyage")
 
 # Where the rendered figures land, relative to the repo root. Under data/assets/ so
 # the per-country and core web bundlers relocate them like any other figure.
@@ -722,6 +723,173 @@ def render_giveway(boats: list[dict], title: str, wind: bool = False,
     return "\n".join(parts) + "\n"
 
 
+# ── Buoyage geometry ──────────────────────────────────────────────────────────
+# A mark carries its meaning in three independent channels — body SHAPE, body
+# COLOUR (bands or stripes), and TOPMARK — and a learner who reads all three never
+# has to memorise a list. The renderer therefore takes exactly those three, so a
+# figure cannot say anything the source did not.
+#
+# The cardinal topmark is the payoff and the reason this family is worth drawing:
+# the two cones point the way to the safe water. North, both point up; south, both
+# down; east, base to base (a rough E on its side); west, point to point (a waist,
+# W). IALA R1001 and the Swiss ONI annex prescribe the SAME four cone pairs, so one
+# drawing serves both — with a citation each, because the bodies below them differ
+# completely (IALA bands them black and yellow; ONI leaves them plain).
+_BW, _BH = 120.0, 210.0
+_BCX = _BW / 2
+_WATERLINE = 186.0
+_PAINT = {"red": "#d1342f", "green": "#1a8f3c", "black": "#1b1b1b",
+          "yellow": "#f2c317", "white": "#ffffff"}
+_BODY_KINDS = ("can", "cone", "pillar", "sphere", "spar")
+_TOPMARKS = ("can", "cone-up", "cone-down", "two-cones-up", "two-cones-down",
+             "cones-base-to-base", "cones-point-to-point", "two-spheres",
+             "sphere", "cross", None)
+
+
+def _banded(x: float, y: float, w: float, h: float, bands: list[str],
+            vertical: bool) -> str:
+    """Fill a box with the mark's colours: horizontal bands (the usual case) or
+    vertical stripes, which in IALA mean one thing only — safe water."""
+    out = []
+    n = max(1, len(bands))
+    for i, col in enumerate(bands or ["black"]):
+        if vertical:
+            out.append(f'<rect x="{x + i * w / n:.1f}" y="{y:.1f}" '
+                       f'width="{w / n:.1f}" height="{h:.1f}" '
+                       f'fill="{_PAINT[col]}"/>')
+        else:
+            out.append(f'<rect x="{x:.1f}" y="{y + i * h / n:.1f}" '
+                       f'width="{w:.1f}" height="{h / n:.1f}" '
+                       f'fill="{_PAINT[col]}"/>')
+    return "".join(out)
+
+
+def _body(kind: str, bands: list[str], vertical: bool) -> str:
+    """The buoy itself, standing on the waterline. Shape is a channel of its own —
+    in region A a can is always a port-hand mark and a cone always starboard — so it
+    is drawn faithfully rather than as a generic blob."""
+    if kind not in _BODY_KINDS:
+        raise ValueError(f"unknown buoy body {kind!r}; expected {_BODY_KINDS}")
+    top, h = 108.0, _WATERLINE - 108.0
+    if kind == "can":
+        w = 46.0
+        clip = ('<clipPath id="b"><rect x="%.1f" y="%.1f" width="%.1f" height="%.1f" '
+                'rx="3"/></clipPath>' % (_BCX - w / 2, top, w, h))
+        return (f'<defs>{clip}</defs><g clip-path="url(#b)">'
+                f'{_banded(_BCX - w / 2, top, w, h, bands, vertical)}</g>'
+                f'<rect x="{_BCX - w / 2:.1f}" y="{top:.1f}" width="{w:.1f}" '
+                f'height="{h:.1f}" rx="3" fill="none" stroke="#111" '
+                f'stroke-width="1.5"/>')
+    if kind == "cone":
+        w = 52.0
+        pts = (f"{_BCX:.1f},{top:.1f} {_BCX + w / 2:.1f},{_WATERLINE:.1f} "
+               f"{_BCX - w / 2:.1f},{_WATERLINE:.1f}")
+        clip = f'<clipPath id="b"><polygon points="{pts}"/></clipPath>'
+        return (f'<defs>{clip}</defs><g clip-path="url(#b)">'
+                f'{_banded(_BCX - w / 2, top, w, h, bands, vertical)}</g>'
+                f'<polygon points="{pts}" fill="none" stroke="#111" '
+                f'stroke-width="1.5"/>')
+    if kind == "sphere":
+        r = 26.0
+        cy = _WATERLINE - r
+        clip = f'<clipPath id="b"><circle cx="{_BCX}" cy="{cy}" r="{r}"/></clipPath>'
+        return (f'<defs>{clip}</defs><g clip-path="url(#b)">'
+                f'{_banded(_BCX - r, cy - r, 2 * r, 2 * r, bands, vertical)}</g>'
+                f'<circle cx="{_BCX}" cy="{cy}" r="{r}" fill="none" stroke="#111" '
+                f'stroke-width="1.5"/>')
+    if kind == "spar":
+        # a bare post: the Swiss annex prescribes the SHAPE on top and leaves the
+        # support unpainted ("peint en rouge ou non peint"), so nothing is claimed
+        # about a body colour here.
+        return (f'<rect x="{_BCX - 4:.1f}" y="{top:.1f}" width="8" '
+                f'height="{h:.1f}" rx="2" fill="#e9edf2" stroke="#111" '
+                f'stroke-width="1.5"/>')
+    w = 30.0                                   # pillar
+    clip = ('<clipPath id="b"><rect x="%.1f" y="%.1f" width="%.1f" height="%.1f" '
+            'rx="4"/></clipPath>' % (_BCX - w / 2, top, w, h))
+    return (f'<defs>{clip}</defs><g clip-path="url(#b)">'
+            f'{_banded(_BCX - w / 2, top, w, h, bands, vertical)}</g>'
+            f'<rect x="{_BCX - w / 2:.1f}" y="{top:.1f}" width="{w:.1f}" '
+            f'height="{h:.1f}" rx="4" fill="none" stroke="#111" stroke-width="1.5"/>')
+
+
+def _cone(cy: float, up: bool, colour: str, size: float = 15.0) -> str:
+    pts = (f"{_BCX},{cy - size} {_BCX - size * 0.9},{cy + size} "
+           f"{_BCX + size * 0.9},{cy + size}") if up else (
+        f"{_BCX},{cy + size} {_BCX - size * 0.9},{cy - size} "
+        f"{_BCX + size * 0.9},{cy - size}")
+    return (f'<polygon points="{pts}" fill="{_PAINT[colour]}" stroke="#111" '
+            f'stroke-width="1.5" stroke-linejoin="round"/>')
+
+
+def _topmark(kind: str | None, colour: str) -> str:
+    """The topmark, on its own short staff above the body."""
+    if kind is None:
+        return ""
+    if kind not in _TOPMARKS:
+        raise ValueError(f"unknown topmark {kind!r}; expected {_TOPMARKS}")
+    staff = (f'<rect x="{_BCX - 1.5:.1f}" y="42" width="3" height="70" '
+             f'fill="#555"/>')
+    c = _PAINT[colour]
+    if kind == "can":
+        return (staff + f'<rect x="{_BCX - 15:.1f}" y="46" width="30" height="30" '
+                        f'rx="2" fill="{c}" stroke="#111" stroke-width="1.5"/>')
+    if kind == "sphere":
+        return (staff + f'<circle cx="{_BCX}" cy="61" r="16" fill="{c}" '
+                        f'stroke="#111" stroke-width="1.5"/>')
+    if kind == "two-spheres":
+        return (staff + f'<circle cx="{_BCX}" cy="42" r="14" fill="{c}" '
+                        f'stroke="#111" stroke-width="1.5"/>'
+                        f'<circle cx="{_BCX}" cy="76" r="14" fill="{c}" '
+                        f'stroke="#111" stroke-width="1.5"/>')
+    if kind == "cross":
+        return (staff + f'<path d="M{_BCX - 15:.1f},46 L{_BCX + 15:.1f},76 '
+                        f'M{_BCX + 15:.1f},46 L{_BCX - 15:.1f},76" stroke="{c}" '
+                        f'stroke-width="8" stroke-linecap="round"/>')
+    if kind == "cone-up":
+        return staff + _cone(61, True, colour)
+    if kind == "cone-down":
+        return staff + _cone(61, False, colour)
+    # The four cardinal pairs, written as (upper cone points up?, lower cone points
+    # up?) so the geometry is readable straight off the table rather than inferred:
+    #   North  both up            — safe water lies north
+    #   South  both down          — safe water lies south
+    #   East   base to base       — the BASES meet, so upper points up, lower down
+    #   West   point to point     — the POINTS meet, so upper points down, lower up
+    # Getting East and West the wrong way round sends a learner the wrong side of a
+    # danger, so test_diagrams.py pins all four.
+    pairs = {"two-cones-up": (True, True),
+             "two-cones-down": (False, False),
+             "cones-base-to-base": (True, False),
+             "cones-point-to-point": (False, True)}
+    hi_up, lo_up = pairs[kind]
+    return staff + _cone(44, hi_up, colour, 13) + _cone(76, lo_up, colour, 13)
+
+
+def render_buoy(body: str, bands: list[str], topmark: str | None, title: str,
+                topmark_colour: str = "black", vertical: bool = False,
+                source_ref: str = "") -> str:
+    """One mark, seen from the water. Shape, colour and topmark are the three
+    channels the buoyage system encodes in — drawn together, they are what lets a
+    learner read an unfamiliar mark instead of recalling it."""
+    credit = (f"\n<!-- Generated figure, derived from {source_ref}. Original artwork; "
+              f"project licence (CC BY-SA 4.0), not a reproduction of any source "
+              f"figure. {GENERATOR} -->" if source_ref else "")
+    return "\n".join([
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {_BW:g} {_BH:g}" '
+        f'width="{_BW:g}" height="{_BH:g}" role="img" '
+        f'aria-label="{_esc(title)}">{credit}',
+        f'<title>{_esc(title)}</title>',
+        f'<rect width="{_BW:g}" height="{_BH:g}" fill="#ffffff"/>',
+        f'<rect x="0" y="{_WATERLINE:g}" width="{_BW:g}" '
+        f'height="{_BH - _WATERLINE:g}" fill="#dbe8f4"/>',
+        f'<line x1="0" y1="{_WATERLINE:g}" x2="{_BW:g}" y2="{_WATERLINE:g}" '
+        f'stroke="#9fbdd8" stroke-width="2"/>',
+        _topmark(topmark, topmark_colour),
+        _body(body, bands, vertical),
+        "</svg>"]) + "\n"
+
+
 # ── Nav-lights: the spec ──────────────────────────────────────────────────
 # ``column`` is top-to-bottom on the centreline; ``sidelights`` says the vessel is
 # making way through the water (several Rules prescribe the identity lights always
@@ -1104,7 +1272,9 @@ SOUND_SIGNALS: list[dict] = [
 BANK_REGIMES: dict[str, tuple[str, ...]] = {
     "de": ("kvr", "seeschstro", "binschstro"),
     "int": ("colreg",),
-    "fr_cotiere": ("colreg",),
+    # IALA is not part of COLREG — it is its own recommendation — so the
+    # coastal bank cites both: COLREG for the traffic rules, R1001 for the marks.
+    "fr_cotiere": ("colreg", "iala_a"),
     "fr_eaux_interieures": ("code_transports",),
     "ch": ("oni", "rnl"),
 }
@@ -1258,12 +1428,178 @@ GIVE_WAY: list[dict] = [
     },
 ]
 
+# ── Buoyage: the spec ─────────────────────────────────────────────────────────
+# IALA region A for the sea banks, and the Swiss inland scheme, which is a genuinely
+# different system sharing one component: the cardinal cone pairs are identical, so
+# those diagrams carry both citations while the bodies beneath them do not.
+BUOYAGE: list[dict] = [
+    {
+        "key": "iala-port-lateral",
+        "body": "can", "bands": ["red"], "topmark": "can", "top_colour": "red",
+        "title": "Marque cylindrique rouge, voyant cylindre rouge",
+        "source": {
+            "unit": "iala_a-iala_r1001_213__marque_latérale_bâbord_région_a",
+            "ref": "IALA R1001 §2.1.3 — marque latérale bâbord (région A)",
+            "quote": "est ROUGE, de forme cylindrique",
+        },
+    },
+    {
+        "key": "iala-starboard-lateral",
+        "body": "cone", "bands": ["green"], "topmark": "cone-up",
+        "top_colour": "green",
+        "title": "Marque conique verte, voyant cône vert pointe en haut",
+        "source": {
+            "unit": "iala_a-iala_r1001_213__marque_latérale_tribord_région_a",
+            "ref": "IALA R1001 §2.1.3 — marque latérale tribord (région A)",
+            "quote": "est VERTE, de forme conique",
+        },
+    },
+    {
+        "key": "iala-cardinal-north",
+        "body": "pillar", "bands": ["black", "yellow"], "topmark": "two-cones-up",
+        "title": "Deux cônes noirs pointes en haut ; corps noir sur jaune",
+        "source": {
+            "unit": "iala_a-iala_r1001_224__marque_cardinale_nord",
+            "ref": "IALA R1001 §2.2.4 — marque cardinale Nord",
+            "quote": "deux cônes noirs superposés, pointes vers le HAUT ; corps "
+                     "noir au-dessus, jaune en dessous",
+        },
+    },
+    {
+        "key": "iala-cardinal-east",
+        "body": "pillar", "bands": ["black", "yellow", "black"],
+        "topmark": "cones-base-to-base",
+        "title": "Deux cônes noirs base à base ; corps noir à bande jaune",
+        "source": {
+            "unit": "iala_a-iala_r1001_224__marque_cardinale_est",
+            "ref": "IALA R1001 §2.2.4 — marque cardinale Est",
+            "quote": "deux cônes noirs base à base ; corps noir à une large bande "
+                     "horizontale jaune",
+        },
+    },
+    {
+        "key": "iala-cardinal-south",
+        "body": "pillar", "bands": ["yellow", "black"], "topmark": "two-cones-down",
+        "title": "Deux cônes noirs pointes en bas ; corps jaune sur noir",
+        "source": {
+            "unit": "iala_a-iala_r1001_224__marque_cardinale_sud",
+            "ref": "IALA R1001 §2.2.4 — marque cardinale Sud",
+            "quote": "deux cônes noirs pointes vers le BAS ; corps jaune au-dessus, "
+                     "noir en dessous",
+        },
+    },
+    {
+        "key": "iala-cardinal-west",
+        "body": "pillar", "bands": ["yellow", "black", "yellow"],
+        "topmark": "cones-point-to-point",
+        "title": "Deux cônes noirs pointe à pointe ; corps jaune à bande noire",
+        "source": {
+            "unit": "iala_a-iala_r1001_224__marque_cardinale_ouest",
+            "ref": "IALA R1001 §2.2.4 — marque cardinale Ouest",
+            "quote": "deux cônes noirs pointe à pointe ; corps jaune à une large "
+                     "bande horizontale noire",
+        },
+    },
+    {
+        "key": "iala-isolated-danger",
+        "body": "pillar", "bands": ["black", "red", "black"],
+        "topmark": "two-spheres",
+        "title": "Deux sphères noires superposées ; corps noir à bande rouge",
+        "source": {
+            "unit": "iala_a-iala_r1001_23__marque_de_danger_isolé",
+            "ref": "IALA R1001 §2.3 — marque de danger isolé",
+            "quote": "Corps noir à une ou plusieurs larges bandes rouges "
+                     "horizontales ; voyant : deux sphères noires superposées",
+        },
+    },
+    {
+        "key": "iala-safe-water",
+        "body": "pillar", "bands": ["red", "white", "red", "white"],
+        "topmark": "sphere", "top_colour": "red", "vertical": True,
+        "title": "Bandes verticales rouges et blanches ; voyant sphère rouge",
+        "source": {
+            "unit": "iala_a-iala_r1001_24__marque_deaux_saines",
+            "ref": "IALA R1001 §2.4 — marque d'eaux saines",
+            "quote": "Bandes verticales rouges et blanches ; voyant : une sphère "
+                     "rouge",
+        },
+    },
+    {
+        "key": "iala-special",
+        "body": "pillar", "bands": ["yellow"], "topmark": "cross",
+        "top_colour": "yellow",
+        "title": "Marque entièrement jaune, voyant croix jaune",
+        "source": {
+            "unit": "iala_a-iala_r1001_25__marque_spéciale",
+            "ref": "IALA R1001 §2.5 — marque spéciale",
+            "quote": "Entièrement JAUNE ; voyant éventuel : une croix de Saint-André "
+                     "jaune",
+        },
+    },
+    # ── the Swiss inland scheme: its own system, not IALA ──
+    {
+        "key": "oni-fairway-port",
+        "body": "can", "bands": ["red"], "topmark": None,
+        "title": "Cylindre rouge",
+        "source": {
+            "unit": "oni-oni_annexe_4__fig_50",
+            "ref": "ONI Annexe 4 – fig. 50 (RS 747.201.1)",
+            "quote": "cylindres peints en rouge",
+        },
+    },
+    {
+        "key": "oni-fairway-starboard",
+        "body": "cone", "bands": ["green"], "topmark": None,
+        "title": "Cône vert pointe en haut",
+        "source": {
+            "unit": "oni-oni_annexe_4__fig_50",
+            "ref": "ONI Annexe 4 – fig. 50 (RS 747.201.1)",
+            "quote": "cônes pointe en haut peints en vert",
+        },
+    },
+    {
+        "key": "oni-isolated-obstacle",
+        "body": "spar", "bands": [], "topmark": "cone-down",
+        "top_colour": "red",
+        "title": "Cône pointe en bas, peint en rouge",
+        "source": {
+            "unit": "oni-oni_annexe_4__fig_49",
+            "ref": "ONI Annexe 4 – fig. 49 (RS 747.201.1)",
+            "quote": "cône pointe en bas peint en rouge ou non peint",
+        },
+    },
+    {
+        "key": "quadrant-north-two-cones-up",
+        "body": "spar", "bands": [], "topmark": "two-cones-up",
+        "title": "Deux cônes superposés, les deux pointes en haut",
+        "source": {
+            "unit": "oni-oni_annexe_4__fig_54",
+            "ref": "ONI Annexe 4 – fig. 54 (RS 747.201.1)",
+            "quote": "dans le quadrant Nord: deux cônes superposés, les deux pointes "
+                     "en haut",
+        },
+    },
+    {
+        "key": "quadrant-south-two-cones-down",
+        "body": "spar", "bands": [], "topmark": "two-cones-down",
+        "title": "Deux cônes superposés, les deux pointes en bas",
+        "source": {
+            "unit": "oni-oni_annexe_4__fig_54",
+            "ref": "ONI Annexe 4 – fig. 54 (RS 747.201.1)",
+            "quote": "dans le quadrant Sud: deux cônes superposés, les deux pointes "
+                     "en bas",
+        },
+    },
+]
+
 DIAGRAMS: list[dict] = ([{**d, "family": "day-shapes"} for d in DAY_SHAPES]
                         + [{**d, "family": "nav-lights"} for d in NAV_LIGHTS]
                         + [{"repeat": False, **d, "family": "sound-signals"}
                            for d in SOUND_SIGNALS]
                         + [{"wind": False, "sector_on": None, "river": False,
-                            **d, "family": "give-way"} for d in GIVE_WAY])
+                            **d, "family": "give-way"} for d in GIVE_WAY]
+                        + [{"top_colour": "black", "vertical": False, **d,
+                            "family": "iala-buoyage"} for d in BUOYAGE])
 BY_KEY: dict[str, dict] = {d["key"]: d for d in DIAGRAMS}
 
 
@@ -1285,6 +1621,9 @@ def render_one(d: dict) -> str:
     if d["family"] == "give-way":
         return render_giveway(d["boats"], d["title"], d["wind"], d["sector_on"],
                               d["source"]["ref"], d["river"])
+    if d["family"] == "iala-buoyage":
+        return render_buoy(d["body"], d["bands"], d["topmark"], d["title"],
+                           d["top_colour"], d["vertical"], d["source"]["ref"])
     raise ValueError(f"unknown family {d['family']!r}; expected one of {FAMILIES}")
 
 
