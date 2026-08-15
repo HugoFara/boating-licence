@@ -1564,7 +1564,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -1618,7 +1618,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -1888,7 +1888,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -3508,7 +3508,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -4257,7 +4257,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Bild-Frage-295.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4588,7 +4588,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -4642,7 +4642,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -4696,7 +4696,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -4750,7 +4750,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -4804,64 +4804,10 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "give-way",
-      "difficulty": "unrated",
-      "correct": [
-        2
-      ]
-    },
-    {
-      "id": "q-elwis-see-2023-08-q119-a7a8f26d",
-      "theme": "seemannschaft",
-      "kind": "official_mc",
-      "stem": "Welches Fahrzeug gibt bei verminderter Sicht - im Anschluss an das Signal: lang, kurz, kurz",
-      "choices": [
-        {
-          "text": "Ein manövrierunfähiges Fahrzeug von weniger als 100 m Länge.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Ein geschlepptes Fahrzeug oder das letzte bemannte Fahrzeug eines Schleppverbandes in Fahrt.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Ein Fahrzeug mit gefährlicher Ladung vor Anker von weniger als 100 m Länge.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Ein Maschinenfahrzeug in Fahrt, das seine Maschine gestoppt hat und keine Fahrt durchs Wasser macht.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        }
-      ],
-      "provenance": {
-        "unit_id": "elwis-see-2023-08-q119",
-        "ref": "Frage 119",
-        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
-        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
-        "as_of": "2023-08-01",
-        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
-      },
-      "lang": "de",
-      "polarity": "affirmative",
-      "image": null,
-      "points": 3,
-      "explanation": "",
-      "review_status": "auto_approved",
-      "distractor_strategy": "curated",
-      "generator": "elwis:fragenkatalog.see.2023-08",
-      "block": "spezifisch_see",
       "principle": "",
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -4912,7 +4858,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -4966,7 +4912,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -5175,7 +5121,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/see/de/Zeichen-Frage-260-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -5229,7 +5175,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/see/de/Signal-Frage-285-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -6201,7 +6147,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/see/de/Abbildung-Frage-266.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",

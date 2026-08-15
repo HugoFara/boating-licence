@@ -7208,7 +7208,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "day-shapes",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -7316,7 +7316,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -7370,7 +7370,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -7417,14 +7417,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "../assets/diagrams/inland-stay-away.svg",
+      "image": "../assets/elwis/binnen/de/Schallzeichen-Frage-16.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -7478,7 +7478,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -7586,7 +7586,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "day-shapes",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -7640,7 +7640,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "day-shapes",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -7694,7 +7694,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -7748,7 +7748,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -7795,14 +7795,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Lichter-Frage-120.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -7957,14 +7957,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Lichter-Frage-123.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -8011,14 +8011,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Lichter-Frage-124.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -8065,14 +8065,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Lichter-Frage-125.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -8180,7 +8180,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -8288,7 +8288,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -8396,7 +8396,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -8450,7 +8450,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -8504,7 +8504,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -8558,7 +8558,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -8612,7 +8612,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -8666,7 +8666,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "day-shapes",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -8720,7 +8720,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -8828,7 +8828,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -8936,7 +8936,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -9044,7 +9044,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -9199,14 +9199,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "../assets/diagrams/inland-turn-to-starboard.svg",
+      "image": "../assets/elwis/binnen/de/Schallsignal-Frage-162.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -9253,14 +9253,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "../assets/diagrams/inland-turn-to-port.svg",
+      "image": "../assets/elwis/binnen/de/Schallsignal-Frage-163.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -9307,14 +9307,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "../assets/diagrams/inland-overtake-to-starboard.svg",
+      "image": "../assets/elwis/binnen/de/Schallsignal-Frage-164.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -9361,14 +9361,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "../assets/diagrams/inland-overtake-to-port.svg",
+      "image": "../assets/elwis/binnen/de/Schallsignal-Frage-165.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -9415,14 +9415,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "../assets/diagrams/inland-harbour-turn-starboard.svg",
+      "image": "../assets/elwis/binnen/de/Schallsignal-Frage-166.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -9469,14 +9469,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "../assets/diagrams/inland-harbour-turn-port.svg",
+      "image": "../assets/elwis/binnen/de/Schallsignal-Frage-167.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -9530,7 +9530,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -9692,7 +9692,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -9746,7 +9746,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "day-shapes",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -9793,14 +9793,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Bild-Frage-183.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "day-shapes",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -9854,7 +9854,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -9901,14 +9901,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Lichter-Frage-192.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -9955,14 +9955,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Lichter-Frage-192.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -10016,7 +10016,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -10063,7 +10063,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Lichter-Frage-196.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -10124,7 +10124,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -10232,7 +10232,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -10286,7 +10286,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -10394,7 +10394,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -10448,7 +10448,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
-      "principle": "day-shapes",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -10556,7 +10556,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -10610,7 +10610,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -10664,7 +10664,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -10718,7 +10718,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -10772,7 +10772,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -10826,7 +10826,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -10880,7 +10880,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -10934,7 +10934,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -10988,7 +10988,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -11042,7 +11042,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -11096,7 +11096,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -11150,7 +11150,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -11204,7 +11204,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -11258,7 +11258,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -11420,7 +11420,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -11474,7 +11474,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -11521,14 +11521,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Tafelzeichen-Frage-110.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -11582,7 +11582,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -11636,7 +11636,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -11690,7 +11690,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -11737,14 +11737,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Tafelzeichen-Frage-114.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -11791,14 +11791,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Tafelzeichen-Frage-115.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -11852,7 +11852,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -11906,7 +11906,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -11960,7 +11960,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -12014,7 +12014,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -12176,7 +12176,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -12223,14 +12223,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Tafelzeichen-Frage-198.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -12284,7 +12284,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -12331,14 +12331,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Tafelzeichen-Frage-200.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -12392,7 +12392,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -12446,7 +12446,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -12500,7 +12500,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -12554,7 +12554,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -12608,7 +12608,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -12932,7 +12932,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "waterway-signs",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -13047,17 +13047,11 @@
       ]
     },
     {
-      "id": "q-elwis-binnen-2023-08-q004-684e5d30",
+      "id": "q-elwis-binnen-2023-08-q004-9db77b44",
       "theme": "verkehrsregeln",
       "kind": "official_mc",
-      "stem": "Wie lang ist die Dauer eines kurzen Tons (",
+      "stem": "Wie lang ist die Dauer eines kurzen Tons?",
       "choices": [
-        {
-          "text": "Etwa 1 Sekunde.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Etwa 2 Sekunden.",
           "image": null,
@@ -13065,13 +13059,19 @@
           "rationale": ""
         },
         {
-          "text": "Weniger als 4 Sekunden.",
+          "text": "Weniger als 1 Sekunde.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Weniger als 1 Sekunde.",
+          "text": "Etwa 1 Sekunde.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Weniger als 4 Sekunden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -13094,26 +13094,20 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
-      "id": "q-elwis-binnen-2023-08-q005-2e8f19bb",
+      "id": "q-elwis-binnen-2023-08-q005-e1aed325",
       "theme": "verkehrsregeln",
       "kind": "official_mc",
-      "stem": "Wie lang ist die Dauer eines langen Tons (",
+      "stem": "Wie lang ist die Dauer eines langen Tons?",
       "choices": [
         {
-          "text": "Etwa 4 - 6 Sekunden.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Etwa 2 - 6 Sekunden.",
+          "text": "Etwa 6 - 8 Sekunden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -13125,7 +13119,13 @@
           "rationale": ""
         },
         {
-          "text": "Etwa 6 - 8 Sekunden.",
+          "text": "Etwa 4 - 6 Sekunden.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Etwa 2 - 6 Sekunden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -13148,10 +13148,10 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -13364,7 +13364,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -13418,7 +13418,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -13472,7 +13472,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -13580,7 +13580,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -14120,7 +14120,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -16010,7 +16010,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -16064,7 +16064,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "iala-buoyage",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -16334,7 +16334,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -16442,7 +16442,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -16496,7 +16496,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -16550,7 +16550,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -16604,7 +16604,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -16712,7 +16712,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -16766,7 +16766,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -16820,7 +16820,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -16928,7 +16928,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -17036,7 +17036,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -17090,7 +17090,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -17144,7 +17144,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "nav-lights",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -17198,7 +17198,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -17245,14 +17245,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Bild-Frage-180.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -17306,7 +17306,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -17360,7 +17360,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -17407,14 +17407,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Bild-Frage-185.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         0
@@ -17461,14 +17461,14 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Bild-Frage-186.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1
@@ -17515,7 +17515,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Bild-Frage-188.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -17569,7 +17569,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Bild-Frage-189.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -17630,7 +17630,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         3
@@ -18541,7 +18541,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "../assets/elwis/binnen/de/Bild-Frage-243.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -18710,7 +18710,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
-      "principle": "sound-signals",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         2
@@ -18926,7 +18926,7 @@
       "distractor_strategy": "curated",
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
-      "principle": "give-way",
+      "principle": "",
       "difficulty": "unrated",
       "correct": [
         1

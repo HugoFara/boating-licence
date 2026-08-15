@@ -350,7 +350,7 @@
     "universal": {
       "de": {
         "path": "../questions.universal.de.json",
-        "count": 122
+        "count": 121
       }
     },
     "cevni": {
@@ -362,7 +362,7 @@
     "colregs": {
       "de": {
         "path": "../questions.colregs.de.json",
-        "count": 179
+        "count": 180
       }
     }
   }

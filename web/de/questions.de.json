@@ -2,7 +2,7 @@
   "meta": {
     "country": "DE",
     "kb_version": "",
-    "generated": "2026-05-31",
+    "generated": "2026-08-15",
     "generators": "elwis:fragenkatalog",
     "catalogue_version": "2023-08",
     "scoring": "blocks",
@@ -911,7 +911,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/inland-stay-away.svg",
+      "image": "assets/elwis/binnen/de/Schallzeichen-Frage-16.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -1289,7 +1289,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Lichter-Frage-120.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -1451,7 +1451,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Lichter-Frage-123.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -1505,7 +1505,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Lichter-Frage-124.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -1559,7 +1559,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Lichter-Frage-125.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -2693,7 +2693,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/inland-turn-to-starboard.svg",
+      "image": "assets/elwis/binnen/de/Schallsignal-Frage-162.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -2747,7 +2747,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/inland-turn-to-port.svg",
+      "image": "assets/elwis/binnen/de/Schallsignal-Frage-163.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -2801,7 +2801,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/inland-overtake-to-starboard.svg",
+      "image": "assets/elwis/binnen/de/Schallsignal-Frage-164.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -2855,7 +2855,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/inland-overtake-to-port.svg",
+      "image": "assets/elwis/binnen/de/Schallsignal-Frage-165.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -2909,7 +2909,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/inland-harbour-turn-starboard.svg",
+      "image": "assets/elwis/binnen/de/Schallsignal-Frage-166.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -2963,7 +2963,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/inland-harbour-turn-port.svg",
+      "image": "assets/elwis/binnen/de/Schallsignal-Frage-167.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -3287,7 +3287,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Bild-Frage-183.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -3395,7 +3395,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Lichter-Frage-192.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -3449,7 +3449,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Lichter-Frage-192.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -3557,7 +3557,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Lichter-Frage-196.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4097,7 +4097,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/power-driven-under-50m.svg",
+      "image": "assets/elwis/see/de/Lichter-Frage-91-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4151,7 +4151,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/power-driven-over-50m.svg",
+      "image": "assets/elwis/see/de/Lichter-Frage-92-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4205,7 +4205,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Lichter-Frage-93-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4259,7 +4259,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Lichter-Frage-94-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4367,7 +4367,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/nuc-two-red.svg",
+      "image": "assets/elwis/see/de/Lichter-Frage-97-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4421,7 +4421,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/nuc-two-red-making-way.svg",
+      "image": "assets/elwis/see/de/Lichter-Frage-98-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4475,7 +4475,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/nuc-two-balls.svg",
+      "image": "assets/elwis/see/de/Signalkoerper-Frage-99-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4637,7 +4637,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/ram-red-white-red.svg",
+      "image": "assets/elwis/see/de/Lichter-Frage-102-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4691,7 +4691,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/ram-making-way.svg",
+      "image": "assets/elwis/see/de/Lichter-Frage-103-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4745,7 +4745,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/ram-ball-diamond-ball.svg",
+      "image": "assets/elwis/see/de/Signalkoerper-Frage-104-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4799,7 +4799,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Lichter-Frage-105-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4853,7 +4853,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/aground-three-balls.svg",
+      "image": "assets/elwis/see/de/Signalkoerper-Frage-106-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4907,7 +4907,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Lichter-Frage-107-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -4961,7 +4961,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/constrained-by-draught.svg",
+      "image": "assets/elwis/see/de/Lichter-Frage-108-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -5015,7 +5015,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/draft-cylinder.svg",
+      "image": "assets/elwis/see/de/Signalkoerper-Frage-109-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -5069,7 +5069,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/trawler-making-way.svg",
+      "image": "assets/elwis/see/de/Lichter-Frage-110-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -5123,7 +5123,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/fishing-not-trawling.svg",
+      "image": "assets/elwis/see/de/Lichter-Frage-111-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -5177,7 +5177,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/fishing-hourglass.svg",
+      "image": "assets/elwis/see/de/Signalkoerper-Frage-112-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -5285,7 +5285,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/anchored-two-lights.svg",
+      "image": "assets/elwis/see/de/Lichter-Frage-115-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -5299,17 +5299,11 @@
       ]
     },
     {
-      "id": "q-elwis-see-2023-08-q116-0dbb1c7b",
+      "id": "q-elwis-see-2023-08-q116-27fe8fc6",
       "theme": "lichter_signale",
       "kind": "official_mc",
-      "stem": "Sie hören bei verminderter Sicht mindestens alle zwei Minuten einen langen Ton mit der Pfeife (",
+      "stem": "Sie hören bei verminderter Sicht mindestens alle zwei Minuten einen langen Ton mit der Pfeife. Welches Fahrzeug gibt dieses Signal?",
       "choices": [
-        {
-          "text": "Ein Maschinenfahrzeug, das Fahrt durchs Wasser macht.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Ein vor Anker liegendes Fahrzeug von 100 und mehr Meter Länge.",
           "image": null,
@@ -5320,6 +5314,12 @@
           "text": "Ein geschlepptes Fahrzeug oder das letzte bemannte Fahrzeug eines Schleppverbandes in Fahrt.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ein Maschinenfahrzeug, das Fahrt durchs Wasser macht.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -5349,15 +5349,21 @@
       "principle": "sound-signals",
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
-      "id": "q-elwis-see-2023-08-q117-c0818894",
+      "id": "q-elwis-see-2023-08-q117-6a125dd2",
       "theme": "lichter_signale",
       "kind": "official_mc",
-      "stem": "Sie hören bei verminderter Sicht mindestens alle zwei Minuten zwei aufeinander folgende lange Töne mit der Pfeife (",
+      "stem": "Sie hören bei verminderter Sicht mindestens alle zwei Minuten zwei aufeinander folgende lange Töne mit der Pfeife. Welches Fahrzeug gibt dieses Signal?",
       "choices": [
+        {
+          "text": "Ein vor Anker liegendes Fahrzeug von 100 und mehr Meter Länge.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "Ein geschlepptes Fahrzeug oder das letzte bemannte Fahrzeug eines Schleppverbandes in Fahrt.",
           "image": null,
@@ -5374,12 +5380,6 @@
           "text": "Ein Maschinenfahrzeug in Fahrt, das seine Maschine gestoppt hat und keine Fahrt durchs Wasser macht.",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Ein vor Anker liegendes Fahrzeug von 100 und mehr Meter Länge.",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -5403,14 +5403,14 @@
       "principle": "sound-signals",
       "difficulty": "unrated",
       "correct": [
-        2
+        3
       ]
     },
     {
-      "id": "q-elwis-see-2023-08-q118-1fb51e9a",
+      "id": "q-elwis-see-2023-08-q118-7b0b0299",
       "theme": "lichter_signale",
       "kind": "official_mc",
-      "stem": "Welche Fahrzeuge geben bei verminderter Sicht mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz",
+      "stem": "Welche Fahrzeuge geben bei verminderter Sicht mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz?",
       "choices": [
         {
           "text": "Ein manövrierunfähiges Fahrzeug in Fahrt, ein manövrierbehindertes Fahrzeug in Fahrt oder vor Anker, ein tiefgangbehindertes Fahrzeug in Fahrt, ein Segelfahrzeug in Fahrt, ein schleppendes oder schiebendes Fahrzeug in Fahrt, ein fischendes Fahrzeug in Fahrt oder vor Anker.",
@@ -5447,7 +5447,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Schallsignal-Frage-118-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -5458,6 +5458,60 @@
       "difficulty": "unrated",
       "correct": [
         0
+      ]
+    },
+    {
+      "id": "q-elwis-see-2023-08-q119-59524517",
+      "theme": "lichter_signale",
+      "kind": "official_mc",
+      "stem": "Welches Fahrzeug gibt bei verminderter Sicht - im Anschluss an das Signal: lang, kurz, kurz - vier aufeinander folgende Töne mit der Pfeife, und zwar: lang, kurz, kurz, kurz?",
+      "choices": [
+        {
+          "text": "Ein Fahrzeug mit gefährlicher Ladung vor Anker von weniger als 100 m Länge.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ein Maschinenfahrzeug in Fahrt, das seine Maschine gestoppt hat und keine Fahrt durchs Wasser macht.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ein manövrierunfähiges Fahrzeug von weniger als 100 m Länge.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ein geschlepptes Fahrzeug oder das letzte bemannte Fahrzeug eines Schleppverbandes in Fahrt.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "elwis-see-2023-08-q119",
+        "ref": "Frage 119",
+        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
+        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
+        "as_of": "2023-08-01",
+        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
+      },
+      "lang": "de",
+      "polarity": "affirmative",
+      "image": "assets/elwis/see/de/Schallsignal-Frage-118-gif.gif",
+      "points": 3,
+      "explanation": "",
+      "review_status": "auto_approved",
+      "distractor_strategy": "curated",
+      "generator": "elwis:fragenkatalog.see.2023-08",
+      "block": "spezifisch_see",
+      "principle": "sound-signals",
+      "difficulty": "unrated",
+      "correct": [
+        3
       ]
     },
     {
@@ -5474,19 +5528,19 @@
         },
         {
           "text": "Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz",
-          "image": null,
+          "image": "assets/elwis/see/de/Schallsignal-Frage-118-gif.gif",
           "is_correct": true,
           "rationale": ""
         },
         {
           "text": "Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, lang, kurz",
-          "image": null,
+          "image": "assets/elwis/see/de/Schallsignal-Frage-164.gif",
           "is_correct": false,
           "rationale": ""
         },
         {
           "text": "Mit der Pfeife kurz, lang, kurz",
-          "image": null,
+          "image": "assets/elwis/see/de/Schallsignal-d-Frage-120-gif.gif",
           "is_correct": false,
           "rationale": ""
         }
@@ -5522,19 +5576,19 @@
       "choices": [
         {
           "text": "Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, lang, kurz .",
-          "image": null,
+          "image": "assets/elwis/see/de/Schallsignal-Frage-164.gif",
           "is_correct": false,
           "rationale": ""
         },
         {
           "text": "Mit der Pfeife kurz, lang, kurz .",
-          "image": null,
+          "image": "assets/elwis/see/de/Schallsignal-d-Frage-120-gif.gif",
           "is_correct": false,
           "rationale": ""
         },
         {
           "text": "Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz .",
-          "image": null,
+          "image": "assets/elwis/see/de/Schallsignal-Frage-118-gif.gif",
           "is_correct": false,
           "rationale": ""
         },
@@ -5609,7 +5663,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Schallsignal-Frage-122-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -5663,7 +5717,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Schallsignal-Frage-122-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -5690,19 +5744,19 @@
         },
         {
           "text": "Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, kurz, kurz .",
-          "image": null,
+          "image": "assets/elwis/see/de/Schallsignal-Frage-118-gif.gif",
           "is_correct": false,
           "rationale": ""
         },
         {
           "text": "Mindestens alle zwei Minuten drei aufeinander folgende Töne mit der Pfeife, und zwar lang, lang, kurz .",
-          "image": null,
+          "image": "assets/elwis/see/de/Schallsignal-Frage-164.gif",
           "is_correct": false,
           "rationale": ""
         },
         {
           "text": "Mit der Pfeife kurz, lang, kurz .",
-          "image": null,
+          "image": "assets/elwis/see/de/Schallsignal-d-Frage-120-gif.gif",
           "is_correct": true,
           "rationale": ""
         }
@@ -5893,23 +5947,11 @@
       ]
     },
     {
-      "id": "q-elwis-see-2023-08-q140-6a4fb5df",
+      "id": "q-elwis-see-2023-08-q140-d123be4a",
       "theme": "lichter_signale",
       "kind": "official_mc",
-      "stem": "Welche Bedeutung hat folgendes Schallsignal? (mindestens",
+      "stem": "Welche Bedeutung hat folgendes Schallsignal? (mindestens)",
       "choices": [
-        {
-          "text": "Allgemeines Gefahren- und Warnsignal.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Ein ausweichpflichtiges Fahrzeug wird auf seine Ausweichpflicht aufmerksam gemacht.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Seeschifffahrtsstraße gesperrt. Weiterfahrt verboten, sofort aufstoppen.",
           "image": null,
@@ -5920,6 +5962,18 @@
           "text": "Bleib-Weg-Signal, Explosionsgefahr durch gefährliche Güter. Sofort den Gefahrenbereich verlassen. Feuer und Zündfunken vermeiden.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Allgemeines Gefahren- und Warnsignal.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ein ausweichpflichtiges Fahrzeug wird auf seine Ausweichpflicht aufmerksam gemacht.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5933,7 +5987,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Schallsignal-Frage-140-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -5943,7 +5997,7 @@
       "principle": "sound-signals",
       "difficulty": "unrated",
       "correct": [
-        1
+        3
       ]
     },
     {
@@ -5987,7 +6041,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/sea-anchored-warning.svg",
+      "image": "assets/elwis/see/de/Schallsignal-d-Frage-120-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -6257,7 +6311,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/sea-general-danger.svg",
+      "image": "assets/elwis/see/de/Schallsignal-Frage-162-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -6527,7 +6581,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/sea-bridge-lock-closed.svg",
+      "image": "assets/elwis/see/de/Schallsignal-Frage-178-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -6635,7 +6689,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Flaggensignal-Frage-185-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -6689,7 +6743,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/sea-official-vessel-stop.svg",
+      "image": "assets/elwis/see/de/Schallsignal-Frage-186-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -6743,7 +6797,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Gebotszeichen-Frage-187.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -6797,7 +6851,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/sea-waterway-closed.svg",
+      "image": "assets/elwis/see/de/Schallsignal-Frage-188-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -6872,25 +6926,25 @@
       "choices": [
         {
           "text": "Leuchtrakete mit orangem Leuchtstern oder orange brennende Handfackel, rotes Rauchsignal, anhaltendes Ertönen eines Nebelsignalgerätes, dreimaliges Geben per Licht oder Ton, dreimal das Wort MAYDAY über Sprechfunk, seitliches Heben und Senken der Arme, Flaggensignal NC, EPIRB, DSC, Radartransponder.",
-          "image": null,
+          "image": "assets/elwis/see/de/Notsignal-Frage-279-gif.gif",
           "is_correct": false,
           "rationale": ""
         },
         {
           "text": "Leuchtrakete mit rotem Leuchtstern oder rot brennende Handfackel, anhaltendes Ertönen eines Nebelsignalgerätes, dreimaliges Geben per Licht oder Ton, Seewasserfärber, seitliches Heben und Senken der Arme, Ball über oder unter Flaggensignal NC, EPIRB, DSC, Radartransponder.",
-          "image": null,
+          "image": "assets/elwis/see/de/Notsignal-Frage-279-gif.gif",
           "is_correct": false,
           "rationale": ""
         },
         {
           "text": "Leuchtrakete mit rotem Leuchtstern oder rot brennende Handfackel, anhaltendes Ertönen eines Nebelsignalgerätes, dreimaliges Geben per Licht oder Ton, dreimal das Wort MAYDAY über Sprechfunk, seitliches Heben und Senken der Arme, Flaggensignal NC, EPIRB, DSC, Radartransponder.",
-          "image": null,
+          "image": "assets/elwis/see/de/Notsignal-Frage-279d-gif.gif",
           "is_correct": false,
           "rationale": ""
         },
         {
           "text": "Leuchtrakete mit rotem Leuchtstern oder rot brennende Handfackel, anhaltendes Ertönen eines Nebelsignalgerätes, dreimaliges Geben per Licht oder Ton, dreimal das Wort MAYDAY über Sprechfunk, seitliches Heben und Senken der Arme, Flaggensignal NC, EPIRB, DSC, Radartransponder.",
-          "image": null,
+          "image": "assets/elwis/see/de/Notsignal-Frage-279-gif.gif",
           "is_correct": true,
           "rationale": ""
         }
@@ -7013,7 +7067,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": "assets/diagrams/sea-sos.svg",
+      "image": "assets/elwis/see/de/Notsignal-Frage-279-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -7067,7 +7121,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Flaggensignal-Frage-284-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -9923,7 +9977,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Tafelzeichen-Frage-110.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -10139,7 +10193,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Tafelzeichen-Frage-114.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -10193,7 +10247,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Tafelzeichen-Frage-115.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -10625,7 +10679,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Tafelzeichen-Frage-198.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -10733,7 +10787,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Tafelzeichen-Frage-200.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -11921,7 +11975,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Schifffahrtszeichen-Frage-182-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -12029,7 +12083,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Tonne-Frage-190-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -12083,7 +12137,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Schifffahrtszeichen-Frage-191-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -12137,7 +12191,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Schifffahrtszeichen-Frage-192-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -12191,7 +12245,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Schifffahrtszeichen-Frage-193-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -12245,7 +12299,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Schifffahrtszeichen-Frage-194-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -12299,7 +12353,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Tonne-Frage-195-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -12353,7 +12407,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Tonne-Frage-196-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -12623,7 +12677,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Feuer-Frage-204-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -12677,7 +12731,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Feuer-Frage-205-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -12731,7 +12785,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Feuer-Frage-206-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -12785,7 +12839,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Feuer-Frage-207-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -16121,7 +16175,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Bild-Frage-295.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -16675,60 +16729,6 @@
       ]
     },
     {
-      "id": "q-elwis-see-2023-08-q119-a7a8f26d",
-      "theme": "seemannschaft",
-      "kind": "official_mc",
-      "stem": "Welches Fahrzeug gibt bei verminderter Sicht - im Anschluss an das Signal: lang, kurz, kurz",
-      "choices": [
-        {
-          "text": "Ein manövrierunfähiges Fahrzeug von weniger als 100 m Länge.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Ein geschlepptes Fahrzeug oder das letzte bemannte Fahrzeug eines Schleppverbandes in Fahrt.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Ein Fahrzeug mit gefährlicher Ladung vor Anker von weniger als 100 m Länge.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Ein Maschinenfahrzeug in Fahrt, das seine Maschine gestoppt hat und keine Fahrt durchs Wasser macht.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        }
-      ],
-      "provenance": {
-        "unit_id": "elwis-see-2023-08-q119",
-        "ref": "Frage 119",
-        "source": "ELWIS Fragenkatalog SBF See, Stand 01.08.2023 (GDWS/WSV des Bundes)",
-        "url": "https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/Fragenkatalog-See/Spezifische-Fragen-See/Spezifische-Fragen-See-node.html",
-        "as_of": "2023-08-01",
-        "licence": "© Wasserstraßen- und Schifffahrtsverwaltung des Bundes (WSV/ELWIS). Frei nachnutzbar, auch kommerziell, sofern unverändert und mit Quellenangabe www.elwis.de (ELWIS-Nutzungsbedingungen; amtliches Werk nach §5(2) UrhG)."
-      },
-      "lang": "de",
-      "polarity": "affirmative",
-      "image": null,
-      "points": 3,
-      "explanation": "",
-      "review_status": "auto_approved",
-      "distractor_strategy": "curated",
-      "generator": "elwis:fragenkatalog.see.2023-08",
-      "block": "spezifisch_see",
-      "principle": "",
-      "difficulty": "unrated",
-      "correct": [
-        1
-      ]
-    },
-    {
       "id": "q-elwis-see-2023-08-q136-67f7a134",
       "theme": "seemannschaft",
       "kind": "official_mc",
@@ -17039,7 +17039,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Zeichen-Frage-260-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -17093,7 +17093,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Signal-Frage-285-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -17989,17 +17989,11 @@
       ]
     },
     {
-      "id": "q-elwis-binnen-2023-08-q004-684e5d30",
+      "id": "q-elwis-binnen-2023-08-q004-9db77b44",
       "theme": "verkehrsregeln",
       "kind": "official_mc",
-      "stem": "Wie lang ist die Dauer eines kurzen Tons (",
+      "stem": "Wie lang ist die Dauer eines kurzen Tons?",
       "choices": [
-        {
-          "text": "Etwa 1 Sekunde.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Etwa 2 Sekunden.",
           "image": null,
@@ -18007,13 +18001,19 @@
           "rationale": ""
         },
         {
-          "text": "Weniger als 4 Sekunden.",
+          "text": "Weniger als 1 Sekunde.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Weniger als 1 Sekunde.",
+          "text": "Etwa 1 Sekunde.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Weniger als 4 Sekunden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -18039,23 +18039,17 @@
       "principle": "sound-signals",
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
-      "id": "q-elwis-binnen-2023-08-q005-2e8f19bb",
+      "id": "q-elwis-binnen-2023-08-q005-e1aed325",
       "theme": "verkehrsregeln",
       "kind": "official_mc",
-      "stem": "Wie lang ist die Dauer eines langen Tons (",
+      "stem": "Wie lang ist die Dauer eines langen Tons?",
       "choices": [
         {
-          "text": "Etwa 4 - 6 Sekunden.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Etwa 2 - 6 Sekunden.",
+          "text": "Etwa 6 - 8 Sekunden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -18067,7 +18061,13 @@
           "rationale": ""
         },
         {
-          "text": "Etwa 6 - 8 Sekunden.",
+          "text": "Etwa 4 - 6 Sekunden.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Etwa 2 - 6 Sekunden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -18093,7 +18093,7 @@
       "principle": "sound-signals",
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -22187,7 +22187,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Bild-Frage-180.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -22349,7 +22349,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Bild-Frage-185.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -22403,7 +22403,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Bild-Frage-186.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -22457,7 +22457,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Bild-Frage-188.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -22511,7 +22511,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Bild-Frage-189.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -23483,7 +23483,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/binnen/de/Bild-Frage-243.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -23875,13 +23875,19 @@
       ]
     },
     {
-      "id": "q-elwis-see-2023-08-q004-7ea42846",
+      "id": "q-elwis-see-2023-08-q004-c52439c7",
       "theme": "verkehrsregeln",
       "kind": "official_mc",
-      "stem": "Wie lang ist die Dauer eines kurzen Tons (",
+      "stem": "Wie lang ist die Dauer eines kurzen Tons?",
       "choices": [
         {
-          "text": "Weniger als 4 Sekunden.",
+          "text": "Etwa 1 Sekunde.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Etwa 2 Sekunden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -23893,15 +23899,9 @@
           "rationale": ""
         },
         {
-          "text": "Etwa 2 Sekunden.",
+          "text": "Weniger als 4 Sekunden.",
           "image": null,
           "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Etwa 1 Sekunde.",
-          "image": null,
-          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -23925,17 +23925,17 @@
       "principle": "sound-signals",
       "difficulty": "unrated",
       "correct": [
-        3
+        0
       ]
     },
     {
-      "id": "q-elwis-see-2023-08-q005-4e199178",
+      "id": "q-elwis-see-2023-08-q005-15c7728f",
       "theme": "verkehrsregeln",
       "kind": "official_mc",
-      "stem": "Wie lang ist die Dauer eines langen Tons (",
+      "stem": "Wie lang ist die Dauer eines langen Tons?",
       "choices": [
         {
-          "text": "Etwa 1 - 2 Sekunden.",
+          "text": "Etwa 6 - 8 Sekunden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -23947,13 +23947,13 @@
           "rationale": ""
         },
         {
-          "text": "Etwa 2 - 6 Sekunden.",
+          "text": "Etwa 1 - 2 Sekunden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Etwa 6 - 8 Sekunden.",
+          "text": "Etwa 2 - 6 Sekunden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -24887,7 +24887,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Fahrzeug-Frage-133.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -24941,7 +24941,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Fahrzeug-Frage-134-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -25265,7 +25265,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Fahrzeug-Frage-148-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -25319,7 +25319,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Fahrzeug-Frage-149-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -25373,7 +25373,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Fahrzeug-Frage-150-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -25427,7 +25427,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Fahrzeug-Frage-151-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -25535,7 +25535,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Fahrzeug-Frage-154-gif.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -27587,7 +27587,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Abbildung-Frage-265.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",
@@ -28937,7 +28937,7 @@
       },
       "lang": "de",
       "polarity": "affirmative",
-      "image": null,
+      "image": "assets/elwis/see/de/Abbildung-Frage-266.gif",
       "points": 3,
       "explanation": "",
       "review_status": "auto_approved",

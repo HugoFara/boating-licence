@@ -184,7 +184,7 @@
     "universal": {
       "de": {
         "path": "../questions.universal.de.json",
-        "count": 122
+        "count": 121
       },
       "en": {
         "path": "../questions.universal.en.json",
@@ -220,7 +220,7 @@
     "colregs": {
       "de": {
         "path": "../questions.colregs.de.json",
-        "count": 179
+        "count": 180
       },
       "en": {
         "path": "../questions.colregs.en.json",
