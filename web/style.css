@@ -92,6 +92,11 @@ button:disabled { opacity: .5; cursor: default; }
 }
 .figure img { max-width: 90%; max-height: 90%; object-fit: contain; }
 
+/* The unveiled figure: same box as any other figure so it cannot be told apart by
+   size or crop, but shorter and marked, because it arrives as part of the answer
+   rather than as part of the question. */
+.reveal-figure { height: 170px; border-color: var(--accent-dark); margin-bottom: 10px; }
+
 .stem { font-size: 1.12rem; font-weight: 600; margin: 6px 0 14px; }
 .hint { color: var(--muted); font-size: .85rem; margin-bottom: 10px; }
 

@@ -559,6 +559,7 @@ def _build_de_web(web: str, core_avail: dict | None = None) -> dict | None:
         os.remove(tmp)
         for q in data["questions"]:
             q["image"] = relocate(q.get("image"))
+            q["reveal_image"] = relocate(q.get("reveal_image"))
             for c in q["choices"]:
                 c["image"] = relocate(c.get("image"))
         with open(os.path.join(web_de, out_name), "w", encoding="utf-8") as fh:
@@ -709,6 +710,7 @@ def _build_ch_web(web: str, core_avail: dict | None = None) -> dict | None:
         os.remove(tmp)
         for q in data["questions"]:
             q["image"] = relocate(q.get("image"))
+            q["reveal_image"] = relocate(q.get("reveal_image"))
             for c in q["choices"]:
                 c["image"] = relocate(c.get("image"))
         with open(os.path.join(web_ch, out_name), "w", encoding="utf-8") as fh:
@@ -837,6 +839,7 @@ def _build_int_web(web: str, core_avail: dict | None = None) -> dict | None:
         })
         for q in data["questions"]:
             q["image"] = relocate(q.get("image"))
+            q["reveal_image"] = relocate(q.get("reveal_image"))
             for c in q["choices"]:
                 c["image"] = relocate(c.get("image"))
         with open(os.path.join(web_int, out_name), "w", encoding="utf-8") as fh:
@@ -959,6 +962,7 @@ def cmd_web(args):
                     continue
                 seen[base].add(qd["id"])
                 qd["image"] = relocate_core(qd.get("image"))
+                qd["reveal_image"] = relocate_core(qd.get("reveal_image"))
                 for c in qd["choices"]:
                     c["image"] = relocate_core(c.get("image"))
                 pooled[base].setdefault(lg, []).append(qd)
@@ -1373,9 +1377,14 @@ def cmd_diagrams(args):
         elif d["family"] == "nav-lights":
             what = " over ".join(d["column"]) + (" + sidelights" if d["sidelights"]
                                                  else "")
-        else:
+        elif d["family"] == "sound-signals":
             what = " ".join("|" if t == "gap" else t[0].upper() for t in d["pattern"])
             what += " …" if d["repeat"] else ""
+        elif d["family"] == "give-way":
+            what = " vs ".join(b["role"] for b in d["boats"])
+        else:
+            what = f"{d['body']} · {'/'.join(d['bands']) or 'unpainted'}"
+            what += f" · {d['topmark']}" if d["topmark"] else ""
         print(f"  {d['key']:28s} {what:42s} {d['source']['ref']}")
     total = {"attached": 0, "skipped": 0, "mismatched": 0, "missing": 0}
     for qdb in sorted(glob.glob(os.path.join(DATA, "questions.*.sqlite"))):

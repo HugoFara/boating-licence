@@ -1020,7 +1020,19 @@ function revealAnswer(q) {
   recordResult(q.id, scoreQuestion(q) > 0, state.confidence[q.id] === "sure");
   saveHistory();
   $("explain-slot").innerHTML =
-    diagnosticHtml(q, sel, correct) + explainHtml(q) + conceptHtml(q);
+    revealFigureHtml(q) + diagnosticHtml(q, sel, correct) + explainHtml(q)
+    + conceptHtml(q);
+}
+
+/* A figure unveiled only now, after the learner has committed. Some questions ask
+ * for a picture — "which flag does a patrol vessel hoist?" — so showing it in the
+ * stem would answer them. Withholding it entirely is no better: the learner must
+ * recognise that flag on the water, not recite its name. So it is shown here, at the
+ * one moment when the picture teaches instead of tells. */
+function revealFigureHtml(q) {
+  if (!q.reveal_image) return "";
+  return `<div class="figure reveal-figure">
+    <img src="${q.reveal_image}" alt="${escapeHtml(T("altSignal"))}"></div>`;
 }
 
 /* The "why" Learn card (roadmap group A): a collapsible explainer for the

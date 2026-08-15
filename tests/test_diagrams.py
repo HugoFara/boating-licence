@@ -312,6 +312,14 @@ def test_a_mark_never_claims_an_unsourced_colour():
         assert d["body"] == "spar" and not d["bands"], key
 
 
+def test_every_answer_side_assignment_uses_an_official_figure():
+    """An unveiled figure exists to show the learner the real thing they must
+    recognise afloat, so it is always the source's own graphic — never one of ours."""
+    for a in diagrams.ASSIGNMENTS:
+        if a["why"] == "answer-side":
+            assert a.get("asset"), f"{a['ref']}: answer-side needs a source figure"
+
+
 def test_give_way_diagrams_are_card_only():
     """Unlike every other family, a give-way plan view SHOWS who gives way — which is
     the answer to the questions it illustrates. It is safe on a concept card, which
@@ -319,8 +327,8 @@ def test_give_way_diagrams_are_card_only():
     gw = {d["key"] for d in diagrams.DIAGRAMS if d["family"] == "give-way"}
     assert gw, "expected some give-way diagrams"
     for a in diagrams.ASSIGNMENTS:
-        assert a["key"] not in gw, (
-            f"{a['key']} would put the answer in the stem of {a['ref']}")
+        assert a.get("key") not in gw, (
+            f"{a.get('key')} would put the answer in the stem of {a['ref']}")
 
 
 def test_the_two_roles_are_drawn_differently():
@@ -364,10 +372,14 @@ def test_card_strips_are_derived_not_hand_listed():
 def test_assignments_are_well_formed():
     seen = set()
     for a in diagrams.ASSIGNMENTS:
-        assert a["key"] in diagrams.BY_KEY, f"unknown diagram {a['key']}"
+        # a figure is either one we generated (key) or the source's own (asset)
+        assert bool(a.get("key")) != bool(a.get("asset")), f"{a['ref']}: key XOR asset"
+        if a.get("key"):
+            assert a["key"] in diagrams.BY_KEY, f"unknown diagram {a['key']}"
         assert a["why"] in diagrams._WHY, f"{a['ref']}: bad why {a['why']}"
-        # prov_ref alone is NOT unique — SBF See and SBF Binnen both number from 1
-        key = (a["bank"], a["catalogue"], a["ref"])
+        # prov_ref alone is NOT unique — SBF See and SBF Binnen both number from 1,
+        # and one Swiss board is asked in several languages
+        key = (a["bank"], a["catalogue"], a["ref"], a.get("lang"))
         assert key not in seen, f"duplicate assignment {key}"
         seen.add(key)
 

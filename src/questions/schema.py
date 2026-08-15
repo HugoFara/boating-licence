@@ -96,6 +96,13 @@ class Question:
                                   # "iala-lateral" or "give-way-power-sail". Joins a
                                   # question to its Concept "why" card (roadmap A/D1).
                                   # Empty = no concept attached (graceful fallback).
+    reveal_image: str | None = None   # a figure shown ONLY after the learner has
+                                  # answered. Where the picture IS the answer ("quel
+                                  # pavillon hisse-t-il ?"), putting it in the stem
+                                  # would give the question away — but withholding it
+                                  # entirely leaves the learner never seeing the thing
+                                  # they must recognise afloat. So it is unveiled at
+                                  # reveal, next to the explanation.
     difficulty: str = "unrated"   # one of DIFFICULTIES; an orthogonal study axis
                                   # (easy→hard ramp, exam balancing). "unrated" until
                                   # judged — never inferred from generation.
@@ -340,6 +347,7 @@ CREATE TABLE IF NOT EXISTS questions (
     difficulty          TEXT NOT NULL DEFAULT 'unrated',
     stem                TEXT NOT NULL,
     image               TEXT,
+    reveal_image        TEXT,
     points              INTEGER NOT NULL,
     explanation         TEXT,
     review_status       TEXT NOT NULL,
@@ -404,6 +412,8 @@ def _migrate(conn: sqlite3.Connection) -> None:
         conn.execute("ALTER TABLE questions ADD COLUMN principle TEXT NOT NULL DEFAULT ''")
     if "difficulty" not in cols:  # pre-difficulty bank: backfill the study-ramp tag
         conn.execute("ALTER TABLE questions ADD COLUMN difficulty TEXT NOT NULL DEFAULT 'unrated'")
+    if "reveal_image" not in cols:   # pre-unveil bank: backfill the after-answer figure
+        conn.execute("ALTER TABLE questions ADD COLUMN reveal_image TEXT")
     co_cols = {r[1] for r in conn.execute("PRAGMA table_info(concepts)")}
     if co_cols and "figures" not in co_cols:  # pre-illustration bank: backfill blank
         conn.execute("ALTER TABLE concepts ADD COLUMN figures TEXT NOT NULL DEFAULT ''")
@@ -431,15 +441,15 @@ def write_questions(conn: sqlite3.Connection, questions: list[Question],
         p = q.provenance
         cur.execute(
             """INSERT INTO questions
-               (id, theme, kind, lang, polarity, difficulty, stem, image, points,
-                explanation, review_status, distractor_strategy, generator, block,
-                principle, prov_unit_id, prov_ref, prov_source, prov_url, prov_as_of,
-                prov_licence)
-               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+               (id, theme, kind, lang, polarity, difficulty, stem, image,
+                reveal_image, points, explanation, review_status,
+                distractor_strategy, generator, block, principle, prov_unit_id,
+                prov_ref, prov_source, prov_url, prov_as_of, prov_licence)
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
             (q.id, q.theme, q.kind, q.lang, q.polarity, q.difficulty, q.stem, q.image,
-             q.points, q.explanation, q.review_status, q.distractor_strategy,
-             q.generator, q.block, q.principle, p.unit_id, p.ref, p.source, p.url,
-             p.as_of, p.licence))
+             q.reveal_image, q.points, q.explanation, q.review_status,
+             q.distractor_strategy, q.generator, q.block, q.principle, p.unit_id,
+             p.ref, p.source, p.url, p.as_of, p.licence))
         for i, c in enumerate(q.choices):
             cur.execute(
                 "INSERT INTO choices (question_id, idx, text, image, is_correct, rationale) "
@@ -483,6 +493,7 @@ def _row_to_question(conn: sqlite3.Connection, r: sqlite3.Row) -> Question:
         id=r["id"], theme=r["theme"], kind=r["kind"],
         lang=(r["lang"] if "lang" in r.keys() else "fr"), polarity=r["polarity"],
         stem=r["stem"], image=r["image"], points=r["points"],
+        reveal_image=(r["reveal_image"] if "reveal_image" in r.keys() else None),
         explanation=r["explanation"], review_status=r["review_status"],
         distractor_strategy=r["distractor_strategy"], generator=r["generator"],
         block=(r["block"] if "block" in r.keys() else ""),

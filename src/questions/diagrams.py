@@ -1662,15 +1662,21 @@ def render_all(root: str = ".") -> dict:
 #   ``named-in-stem`` the stem already names the shape in words ("… einen schwarzen
 #                     Rhombus führt"), so the picture restates the stem and cannot
 #                     give away an answer the stem was withholding.
+#   ``answer-side``   the picture IS the answer ("quel pavillon hisse-t-il ?"). It
+#                     cannot go in the stem — but withholding it entirely leaves the
+#                     learner never seeing the thing they must recognise afloat, which
+#                     is the whole point of the exam. So it is written to
+#                     ``reveal_image`` and unveiled once the learner has committed.
 #
-# Never attach where the shape is the ANSWER ("what signal does a vessel unable to
-# manoeuvre show?") — that turns a question into a giveaway. Those are served by the
-# concept card at reveal time instead.
+# The third ground is what dissolves the old constraint. Before it, an answer-side
+# question could only be served indirectly, by the principle's concept card; now the
+# question can show its own figure, at the only moment when showing it teaches
+# instead of tells.
 #
 # ``expect`` is a safety interlock: the substring must still occur in the question's
 # correct answer. If the upstream catalogue is renumbered or reworded, the assignment
 # refuses to fire instead of silently illustrating the wrong shape.
-_WHY = ("deictic", "named-in-stem")
+_WHY = ("deictic", "named-in-stem", "answer-side")
 
 # Demonstratives a deictic stem uses to point at its missing figure. Checked at
 # attach time, so a reworded catalogue can't quietly turn a deictic claim false.
@@ -1678,6 +1684,11 @@ _DEICTIC = ("diese ", "dieses ", "diesen ", "folgende ", "folgendes ", "folgende
             "this ", "these ", "the following ", "ce ", "ces ", "cette ",
             "questo ", "questi ", "queste ")
 
+# Some assignments point at an ``asset`` — an official figure already ingested and on
+# disk — rather than a generated ``key``. The Swiss sign annex is the case that needs
+# it: ONI describes what each board MEANS and shows its appearance only in the
+# accompanying graphic, so those boards cannot be derived the way a day shape can.
+# The picture exists; it was simply never wired to the prose questions that name it.
 ASSIGNMENTS: list[dict] = [
     {"bank": "de", "catalogue": "SBF See", "ref": "Frage 96", "expect": "200 m",
      "key": "tow-diamond", "why": "named-in-stem"},
@@ -1784,10 +1795,14 @@ def attach(conn: sqlite3.Connection, bank_id: str, overwrite: bool = False) -> d
             continue
         if a["why"] not in _WHY:
             raise ValueError(f"assignment {a['ref']}: 'why' must be one of {_WHY}")
-        rows = conn.execute(
-            "SELECT id, stem, COALESCE(image,'') FROM questions "
-            "WHERE prov_ref = ? AND prov_source LIKE ?",
-            (a["ref"], f"%{a['catalogue']}%")).fetchall()
+        col = "reveal_image" if a["why"] == "answer-side" else "image"
+        sql = (f"SELECT id, stem, COALESCE({col},'') FROM questions "
+               "WHERE prov_ref = ? AND prov_source LIKE ?")
+        args = [a["ref"], f"%{a['catalogue']}%"]
+        if a.get("lang"):          # the same board, asked in several languages
+            sql += " AND lang = ?"
+            args.append(a["lang"])
+        rows = conn.execute(sql, args).fetchall()
         if not rows:
             stats["missing"] += 1
             continue
@@ -1806,8 +1821,12 @@ def attach(conn: sqlite3.Connection, bank_id: str, overwrite: bool = False) -> d
             if a["why"] == "deictic" and not any(d in stem.lower() for d in _DEICTIC):
                 stats["mismatched"] += 1
                 continue
-            conn.execute("UPDATE questions SET image = ? WHERE id = ?",
-                         (path_for(a["key"]), qid))
+            # ``asset`` points at an OFFICIAL figure already on disk; ``key`` at one
+            # we generated. Official always wins, so where both could apply the
+            # assignment names the asset.
+            img = a["asset"] if a.get("asset") else path_for(a["key"])
+            col = "reveal_image" if a["why"] == "answer-side" else "image"
+            conn.execute(f"UPDATE questions SET {col} = ? WHERE id = ?", (img, qid))
             stats["attached"] += 1
     conn.commit()
     return stats
