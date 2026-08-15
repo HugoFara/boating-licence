@@ -110,8 +110,44 @@ def test_tagger_classifies_each_family():
 def test_tagger_theme_fallback_and_accents():
     # unambiguous theme tags even without a keyword hit
     assert principles.tag_for("Identifiez ce signe.", theme="balisage") == "iala-buoyage"
-    # accent-insensitive: "priorité" matches the de-accented keyword
-    assert principles.tag_for("Qui a la priorité ?") == "give-way"
+    # accent-insensitive: "dépassement" matches the de-accented keyword. (Bare
+    # "priorité" is deliberately NOT a keyword — radio traffic has degrees of
+    # priority too; see test_tagger_precision below.)
+    assert principles.tag_for("Qui a la priorité lors d'un dépassement ?") == "give-way"
+
+
+def test_tagger_precision():
+    """Word-boundary matching and scope exclusion — the false positives that used
+    to render a confident concept card next to an unrelated question."""
+    # "boa" (IT buoy) must not fire from inside board / aboard / starboard
+    assert principles.tag_for("What does this board mean?") == "waterway-signs"
+    assert principles.tag_for("How many people may be carried aboard?") == ""
+    # "cono" must not fire from inside "conoscere"
+    assert principles.tag_for("Che cosa deve conoscere il conduttore?") == ""
+    # "buoy" must not fire from inside "buoyancy"
+    assert principles.tag_for("What minimum buoyancy must a lifejacket have?") == ""
+    # radio priority is not right of way; a knot's crossing is not a crossing
+    assert principles.tag_for("Un message « MAYDAY » correspond à quel degré "
+                              "de priorité ?") == ""
+    assert principles.tag_for("Qu'est-ce qu'un nœud ? Un croisement de brins.",
+                              theme="matelotage") == ""
+    # "kreuzen" alone is tacking, not crossing courses
+    assert principles.tag_for("Was passiert beim Kreuzen gegen den Wind?") == ""
+    assert principles.tag_for("Zwei Fahrzeuge auf kreuzenden Kursen.") == "give-way"
+    # German compounds still inflect (the "*" opt-in)
+    assert principles.tag_for("Welche Topplichter sind vorgeschrieben?") == "nav-lights"
+    # a mark is buoyage even though its topmark is a cone and it shows a light
+    assert principles.tag_for("Quel voyant et quel feu blanc pour une marque "
+                              "cardinale ?") == "iala-buoyage"
+
+
+def test_tagger_stem_wins_over_options():
+    """A figure question names its own signal family in the stem; the captions are
+    bare phrases that would otherwise drag it into another family."""
+    assert principles.tag_for(
+        "Que signifie ce panneau ?",
+        choices_text="Interdiction de dépasser. Obligation d'émettre un signal sonore.",
+    ) == "waterway-signs"
 
 
 def test_tag_questions_fills_and_is_idempotent():
