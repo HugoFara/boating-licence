@@ -456,10 +456,27 @@ exactly as the 1.2 GB LEGI dump already is:
     PDF → save as data/raw/rgp_jo/jo_20130829_0200.pdf
     python -m src.fr.rgp_plates extract
 
-It finds the annexes by the headings they open with rather than by page number (the
-JO's 14632–14723 is not the PDF's) and writes each plate deterministically. It does
-**not** guess which plate is which sign: a figure on the wrong sign code teaches the
-wrong board, so mapping plate → code is a separate reviewed step.
+**Extracted (2026-08-15).** The annexes turned out to be typeset as **page images** —
+72 pages with one scan each and no text layer — so both the annexe boundaries and the
+sign codes are read by OCR (tesseract, French). That is only safe because the JO's
+layout is rigid: each entry is one row with the code in a left column, its caption
+beside it, and the plate alone on the right. So the code→plate pairing is **read off
+the document**, never guessed, and each plate is stored with the caption printed next
+to it so the pairing can be checked at a glance.
+
+**66 plates** from annexe 5 (`data/assets/rgp/`, indexed in `src/fr/rgp_plates.json`).
+Two rows were dropped for having no readable caption — an unverifiable pairing is
+what this project refuses to ship — and 8 codes are missing (A.1, A.10, A.11, B.9,
+D.2, E.3, E.9, E.10), listed by `python -m src.fr.rgp_plates gaps` rather than left
+invisible: a silently missing plate looks exactly like a sign the annexe never had.
+
+**What they do not settle: colour.** The JO prints these annexes in black and white —
+the extracted plates contain no coloured pixel at all. They establish shape, layout
+and pictogram, and nothing about colour. So the questions asserting "panneau
+rectangulaire à bord **rouge**" remain unsourced on that one point; the RGP leaves
+sign colours to plates that are themselves monochrome.
+
+Nothing is attached to a question yet. That is the next step, and a reviewed one.
 
 What the annexes *did* unlock is buoyage. **Annexe 8** (18 070 characters,
 "Balisage des voies de navigation intérieure") is real text, and its harbour-entrance

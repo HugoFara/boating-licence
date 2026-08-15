@@ -1,0 +1,737 @@
+{
+  "source": "Journal officiel de la République française, JO n° 200 du 29 août 2013, texte 54",
+  "url": "https://www.legifrance.gouv.fr/jorf/jo/2013/8/29/0200",
+  "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — Journal officiel de la République française (DILA), librement réutilisable.",
+  "jo_pages": [
+    14632,
+    14723
+  ],
+  "plates": [
+    {
+      "annexe": "annexe-5",
+      "code": "A.12",
+      "caption": "Navigation interdite aux bateaux motorisés",
+      "page": 183,
+      "size": [
+        318,
+        341
+      ],
+      "path": "data/assets/rgp/annexe-5-A.12.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.13",
+      "caption": "Navigation interdite à toutes les embarcations de sport ou de",
+      "page": 183,
+      "size": [
+        318,
+        342
+      ],
+      "path": "data/assets/rgp/annexe-5-A.13.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.14",
+      "caption": "Pratique du ski nautique interdite",
+      "page": 183,
+      "size": [
+        316,
+        338
+      ],
+      "path": "data/assets/rgp/annexe-5-A.14.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.15",
+      "caption": "Navigation interdite aux bateaux à voile",
+      "page": 183,
+      "size": [
+        318,
+        340
+      ],
+      "path": "data/assets/rgp/annexe-5-A.15.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.16",
+      "caption": "Navigation interdite aux bateaux qui ne sont ni motorisés ni à",
+      "page": 183,
+      "size": [
+        318,
+        338
+      ],
+      "path": "data/assets/rgp/annexe-5-A.16.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.17",
+      "caption": "Pratique de la planche à voile interdite",
+      "page": 183,
+      "size": [
+        316,
+        339
+      ],
+      "path": "data/assets/rgp/annexe-5-A.17.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.18",
+      "caption": "de la zone autorisée pour la navigation à grande vitesse",
+      "page": 184,
+      "size": [
+        318,
+        341
+      ],
+      "path": "data/assets/rgp/annexe-5-A.18.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.19",
+      "caption": "de mettre des embarcations à l'eau ou de les en",
+      "page": 184,
+      "size": [
+        318,
+        342
+      ],
+      "path": "data/assets/rgp/annexe-5-A.19.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.2",
+      "caption": "de tout dépassement",
+      "page": 180,
+      "size": [
+        317,
+        475
+      ],
+      "path": "data/assets/rgp/annexe-5-A.2.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.20",
+      "caption": "nautiques interdites",
+      "page": 184,
+      "size": [
+        317,
+        338
+      ],
+      "path": "data/assets/rgp/annexe-5-A.20.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.3",
+      "caption": "Interdiction de dépasser entre convois seulement",
+      "page": 181,
+      "size": [
+        318,
+        477
+      ],
+      "path": "data/assets/rgp/annexe-5-A.3.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.4",
+      "caption": "Interdiction de croiser et de dépasser",
+      "page": 181,
+      "size": [
+        319,
+        509
+      ],
+      "path": "data/assets/rgp/annexe-5-A.4.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.4.1",
+      "caption": "Interdiction de croiser et de dépasser entre convois seulement",
+      "page": 181,
+      "size": [
+        316,
+        508
+      ],
+      "path": "data/assets/rgp/annexe-5-A.4.1.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.5",
+      "caption": "Interdiction de stationner",
+      "page": 181,
+      "size": [
+        316,
+        338
+      ],
+      "path": "data/assets/rgp/annexe-5-A.5.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.5.1",
+      "caption": "Interdiction de stationner sur la largeur indiquée en mètres",
+      "page": 181,
+      "size": [
+        318,
+        340
+      ],
+      "path": "data/assets/rgp/annexe-5-A.5.1.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.6",
+      "caption": "d'ancrer et de laisser traîner les ancres, câbles ou",
+      "page": 182,
+      "size": [
+        318,
+        343
+      ],
+      "path": "data/assets/rgp/annexe-5-A.6.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.7",
+      "caption": "de s'amarrer à la rive",
+      "page": 182,
+      "size": [
+        319,
+        341
+      ],
+      "path": "data/assets/rgp/annexe-5-A.7.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.8",
+      "caption": "de virer",
+      "page": 182,
+      "size": [
+        318,
+        339
+      ],
+      "path": "data/assets/rgp/annexe-5-A.8.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "A.9",
+      "caption": "de créer des remous",
+      "page": 182,
+      "size": [
+        577,
+        342
+      ],
+      "path": "data/assets/rgp/annexe-5-A.9.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "B.1",
+      "caption": "de suivre la direction indiquée par la flèche",
+      "page": 184,
+      "size": [
+        526,
+        374
+      ],
+      "path": "data/assets/rgp/annexe-5-B.1.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "B.10",
+      "caption": "bateaux naviguant sur la voie principale doivent, si",
+      "page": 186,
+      "size": [
+        104,
+        255
+      ],
+      "path": "data/assets/rgp/annexe-5-B.10.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "B.11",
+      "caption": "Obligation d'entrer en liaison radiotéléphonique",
+      "page": 186,
+      "size": [
+        319,
+        734
+      ],
+      "path": "data/assets/rgp/annexe-5-B.11.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "B.2",
+      "caption": "obligation de se diriger vers le coté du chenal situé à bâbord",
+      "page": 184,
+      "size": [
+        319,
+        735
+      ],
+      "path": "data/assets/rgp/annexe-5-B.2.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "B.3",
+      "caption": "a) obligation de tenir le coté du chenal situé à bâbord",
+      "page": 185,
+      "size": [
+        318,
+        731
+      ],
+      "path": "data/assets/rgp/annexe-5-B.3.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "B.4",
+      "caption": "a) obligation de croiser le chenal vers bâbord",
+      "page": 185,
+      "size": [
+        319,
+        729
+      ],
+      "path": "data/assets/rgp/annexe-5-B.4.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "B.5",
+      "caption": "Obligation de s'arrêter dans certaines conditions",
+      "page": 185,
+      "size": [
+        318,
+        340
+      ],
+      "path": "data/assets/rgp/annexe-5-B.5.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "B.6",
+      "caption": "de respecter la limite de vitesse indiquée (en km/h)",
+      "page": 186,
+      "size": [
+        319,
+        340
+      ],
+      "path": "data/assets/rgp/annexe-5-B.6.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "B.7",
+      "caption": "d'émettre un signal sonore",
+      "page": 186,
+      "size": [
+        318,
+        343
+      ],
+      "path": "data/assets/rgp/annexe-5-B.7.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "B.8",
+      "caption": "d'observer une vigilance particulière",
+      "page": 186,
+      "size": [
+        317,
+        341
+      ],
+      "path": "data/assets/rgp/annexe-5-B.8.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "C.1",
+      "caption": "profondeur d'eau est limitée",
+      "page": 187,
+      "size": [
+        642,
+        340
+      ],
+      "path": "data/assets/rgp/annexe-5-C.1.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "C.2",
+      "caption": "hauteur libre au dessus du plan d'eau est limitée",
+      "page": 187,
+      "size": [
+        644,
+        341
+      ],
+      "path": "data/assets/rgp/annexe-5-C.2.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "D.1",
+      "caption": "recommandée",
+      "page": 187,
+      "size": [
+        472,
+        222
+      ],
+      "path": "data/assets/rgp/annexe-5-D.1.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "D.3",
+      "caption": "recommandé de se diriger :",
+      "page": 188,
+      "size": [
+        526,
+        562
+      ],
+      "path": "data/assets/rgp/annexe-5-D.3.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.1",
+      "caption": "de passer (signal général)",
+      "page": 189,
+      "size": [
+        663,
+        583
+      ],
+      "path": "data/assets/rgp/annexe-5-E.1.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.11",
+      "caption": "Fin d'une interdiction ou d'une obligation valable pour un seul",
+      "page": 193,
+      "size": [
+        318,
+        326
+      ],
+      "path": "data/assets/rgp/annexe-5-E.11.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.12",
+      "caption": "Signaux avancés : un ou deux feux blancs",
+      "page": 193,
+      "size": [
+        450,
+        216
+      ],
+      "path": "data/assets/rgp/annexe-5-E.12.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.13",
+      "caption": "Poste d'eau potable",
+      "page": 193,
+      "size": [
+        319,
+        324
+      ],
+      "path": "data/assets/rgp/annexe-5-E.13.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.14",
+      "caption": "Poste téléphonique",
+      "page": 194,
+      "size": [
+        320,
+        324
+      ],
+      "path": "data/assets/rgp/annexe-5-E.14.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.15",
+      "caption": "Navigation autorisée pour les bateaux motorisés",
+      "page": 194,
+      "size": [
+        319,
+        322
+      ],
+      "path": "data/assets/rgp/annexe-5-E.15.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.16",
+      "caption": "Navigation autorisée pour les embarcations de plaisance",
+      "page": 194,
+      "size": [
+        319,
+        324
+      ],
+      "path": "data/assets/rgp/annexe-5-E.16.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.17",
+      "caption": "Pratique du ski nautique autorisée",
+      "page": 194,
+      "size": [
+        319,
+        327
+      ],
+      "path": "data/assets/rgp/annexe-5-E.17.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.18",
+      "caption": "Navigation autorisée pour les bateaux à voile",
+      "page": 194,
+      "size": [
+        319,
+        324
+      ],
+      "path": "data/assets/rgp/annexe-5-E.18.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.19",
+      "caption": "Navigation autorisée pour les bateaux qui ne sont ni motorisés",
+      "page": 194,
+      "size": [
+        319,
+        322
+      ],
+      "path": "data/assets/rgp/annexe-5-E.19.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.2",
+      "caption": "d'une ligne électrique aérienne",
+      "page": 189,
+      "size": [
+        319,
+        341
+      ],
+      "path": "data/assets/rgp/annexe-5-E.2.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.20",
+      "caption": "Pratique de la planche à voile autorisée",
+      "page": 194,
+      "size": [
+        319,
+        324
+      ],
+      "path": "data/assets/rgp/annexe-5-E.20.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.21",
+      "caption": "Zone autorisée pour la navigation à grande vitesse des",
+      "page": 195,
+      "size": [
+        319,
+        324
+      ],
+      "path": "data/assets/rgp/annexe-5-E.21.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.22",
+      "caption": "Autorisation de mettre les embarcations à l'eau ou de les en",
+      "page": 195,
+      "size": [
+        319,
+        324
+      ],
+      "path": "data/assets/rgp/annexe-5-E.22.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.23",
+      "caption": "Possibilité d'obtenir des renseignements nautiques par",
+      "page": 195,
+      "size": [
+        319,
+        324
+      ],
+      "path": "data/assets/rgp/annexe-5-E.23.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.24",
+      "caption": "Motos nautiques autorisées",
+      "page": 195,
+      "size": [
+        319,
+        324
+      ],
+      "path": "data/assets/rgp/annexe-5-E.24.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.25",
+      "caption": "Branchement électrique à terre disponible",
+      "page": 195,
+      "size": [
+        337,
+        325
+      ],
+      "path": "data/assets/rgp/annexe-5-E.25.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.4",
+      "caption": "Bac ne naviguant pas librement",
+      "page": 189,
+      "size": [
+        509,
+        832
+      ],
+      "path": "data/assets/rgp/annexe-5-E.4.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.10",
+      "caption": "Aire de stationnement réservée aux bateaux autres que ceux",
+      "page": 191,
+      "size": [
+        317,
+        345
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.10.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.11",
+      "caption": "Aire de stationnement réservée aux bateaux autres que ceux",
+      "page": 191,
+      "size": [
+        317,
+        344
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.11.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.12",
+      "caption": "Aire de stationnement réservée à tous les bateaux qui ne sont",
+      "page": 191,
+      "size": [
+        318,
+        342
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.12.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.13",
+      "caption": "Aire de stationnement réservée à tous les bateaux astreints à",
+      "page": 192,
+      "size": [
+        316,
+        341
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.13.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.14",
+      "caption": "Aire de stationnement réservée à tous les bateaux astreints à",
+      "page": 192,
+      "size": [
+        317,
+        341
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.14.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.15",
+      "caption": "Aire de stationnement réservée à tous les bateaux astreints à",
+      "page": 192,
+      "size": [
+        317,
+        342
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.15.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.5",
+      "caption": "de stationnement réservée aux bateaux de la navigation",
+      "page": 190,
+      "size": [
+        318,
+        339
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.5.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.6",
+      "caption": "de stationnement réservée aux bateaux de la navigation",
+      "page": 190,
+      "size": [
+        318,
+        338
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.6.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.7",
+      "caption": "Aire de stationnement réservée aux bateaux de la navigation",
+      "page": 191,
+      "size": [
+        318,
+        338
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.7.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.8",
+      "caption": "Aire de stationnement réservée aux bateaux autres que ceux",
+      "page": 191,
+      "size": [
+        318,
+        342
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.8.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.5.9",
+      "caption": "Aire de stationnement réservée aux bateaux autres que ceux",
+      "page": 191,
+      "size": [
+        318,
+        338
+      ],
+      "path": "data/assets/rgp/annexe-5-E.5.9.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.6",
+      "caption": "Autorisation d'ancrer (voir article A. 4241-54-3) et de laisser",
+      "page": 192,
+      "size": [
+        319,
+        324
+      ],
+      "path": "data/assets/rgp/annexe-5-E.6.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.7",
+      "caption": "Autorisation de s'amarrer à la rive",
+      "page": 192,
+      "size": [
+        319,
+        324
+      ],
+      "path": "data/assets/rgp/annexe-5-E.7.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.7.1",
+      "caption": "Aire de stationnement réservée au chargement et au",
+      "page": 192,
+      "size": [
+        318,
+        323
+      ],
+      "path": "data/assets/rgp/annexe-5-E.7.1.png"
+    },
+    {
+      "annexe": "annexe-5",
+      "code": "E.8",
+      "caption": "Aire de virage",
+      "page": 192,
+      "size": [
+        318,
+        322
+      ],
+      "path": "data/assets/rgp/annexe-5-E.8.png"
+    }
+  ]
+}
