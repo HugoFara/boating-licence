@@ -144,13 +144,92 @@ persisted in `localStorage`:
 - **Recall-first** (B1)
 - **Confidence rating** (C2)
 - **Spaced review** ordering (C1)
-</content>
-</invoke>
 
-result
-File created successfully... (1 / 2 files)
+## Group E — the illustration system  *(started 2026-08-15)*
 
-Result too long, truncated to 1.0% of 30000. Please retry in a more targeted way if you need the full output.
+This domain is visual and the corpus is not. Counted across every bank:
 
-Now `web/i18n.js` (line 134)
-... (truncated because it is very long)
+| principle | questions | with a figure | missing |
+|---|---:|---:|---:|
+| nav-lights | 196 | 18 | **178** |
+| waterway-signs | 187 | 127 | 60 |
+| give-way | 148 | 11 | **137** |
+| sound-signals | 87 | 11 | 76 |
+| day-shapes | 70 | 3 | **67** |
+| iala-buoyage | 49 | 7 | 42 |
+
+**560 of 737** principle-tagged questions ship without a picture; both French banks
+(292 questions) and the INT bank (57) have **none at all**. Worse, 27 German
+questions are *unanswerable as shipped* — their stem points at a figure ("Welches
+Fahrzeug führt **diese** Signalkörper?") that was never ingested.
+
+Obtaining the missing images does not work, and that is the structural point: the 95
+we have are scraped rasters from two sources with **incompatible reuse terms** —
+ONI/RNL via Fedlex (public domain) and ELWIS GIFs (§5(2) UrhG, verbatim only). A
+diagram acquired for one country's bank may not be reused in another's, which is
+exactly what the harmonised core in [`scope.md`](scope.md) is supposed to enable.
+
+### The way out: derive, don't obtain
+
+Four of the six families are **geometry, not artwork** — the law describes them:
+
+* **day shapes** — balls, cones, cylinders, diamonds, hourglasses in a vertical line
+* **nav-lights** — arcs at 112°30′ / 135° / 225°, by colour and height
+* **sound-signals** — a timeline of short and long blasts
+* **iala-buoyage** — shape + colour bands + topmark + rhythm
+
+So the figure is *generated from the article that prescribes it*, under the project's
+own licence — which makes one drawing valid in **every** bank and language. Only
+`waterway-signs` is genuine pictogram artwork, and it is the family already best
+covered (127/187).
+
+### The discipline (same as questions)
+
+`src/questions/diagrams.py` holds the spec. Every diagram carries the exact `quote`
+from the article prescribing its shapes, and `tests/test_diagrams.py` reads that
+fragment back out of the KB — **a drawing that drifts from the law fails the build**,
+because a wrong diagram teaches a wrong shape and is worse than no diagram. Nothing
+is drawn from memory (same rule as `memory/source-questions-never-recall`).
+
+Attachment is deliberately narrow. A diagram is attached only where the figure is the
+**subject** of the question, on one of two recorded grounds:
+
+* `deictic` — the stem points at a figure that was never shipped (these are the
+  broken questions; the figure *is* the question);
+* `named-in-stem` — the stem already names the shape in words, so the picture
+  restates it and can give nothing away.
+
+It is **never** attached where the shape is the *answer* ("what signal does a vessel
+unable to manoeuvre show?") — that would turn a question into a giveaway. Those are
+served by the concept card at reveal time instead. Two interlocks re-check the claim
+at build time: the correct answer must still contain the expected wording, and a
+`deictic` stem must still be deictic. When either trips, the assignment **refuses**
+rather than illustrating the wrong thing.
+
+Attaching a figure never touches question text, which is what keeps the German bank
+compliant: the ELWIS catalogue is reusable only *unverändert*, so the diagram is
+added *alongside* the verbatim question exactly like the concept card and the choice
+rationales, and the SVG says in its own source that it is original artwork, not a
+reproduction of any official figure.
+
+### Status
+
+**Day shapes, done:** 10 diagrams, all sourced to SeeStrO 1972 (KVR) Regeln 24–30,
+covering the whole shape vocabulary — ball, cone up/down, cylinder, diamond,
+hourglass, flag "A" — and the 1–3 shape stacks the rules build from them. Six of the
+27 broken German questions are now answerable, and because they scope to `colregs`
+the same figures reach the pooled harmonised core, so an English or French learner
+sees them too.
+
+Next: nav-lights (178 missing, the largest single gap), then sound-signals.
+
+### Adding a diagram (the smallest useful contribution)
+
+1. Add an entry to `DIAGRAMS` in `src/questions/diagrams.py`: the stack of shapes, a
+   title that describes **the shapes and not their meaning**, and a `source` naming
+   the KB unit, the article, and the fragment that prescribes them.
+2. Add an `ASSIGNMENTS` entry only if some question's figure is the subject — with
+   the `why` and the `expect` interlock.
+3. `python run.py diagrams` then `python tests/test_diagrams.py`. The sourcing test
+   is the review: if your quote is not in the law, the diagram does not ship.
+

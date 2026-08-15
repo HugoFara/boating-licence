@@ -619,6 +619,8 @@ def _learn_layer(conn, out_dir, langs, bank_id):
         answers, so a card is only ever written into the banks it is true for);
       * tag every question with its generative ``principle`` (deterministic, in
         place) so the tag ships inside the question JSON via export_json;
+      * render the generated day-shape figures and attach them to the questions
+        that ask about a figure they never shipped;
       * export any review-cleared concept "why" cards per language.
     Concept files are written only when content exists — an empty bank ships no
     file and the player just shows no Learn card (graceful, still 100% offline).
@@ -626,9 +628,15 @@ def _learn_layer(conn, out_dir, langs, bank_id):
     from src.questions import schema as qschema
     from src.questions import principles as principlesmod
     from src.questions import seed_concepts
+    from src.questions import diagrams
     # Idempotent: write_concepts replaces by (id, lang), so re-running a build
     # refreshes the bodies instead of duplicating them.
     qschema.write_concepts(conn, seed_concepts.concepts_for(bank_id, langs))
+    # Generated figures: derived from the article that prescribes the shapes, so they
+    # are rendered fresh every build (byte-identical unless the spec moved) and
+    # attached only where the figure is the SUBJECT of the question.
+    diagrams.render_all(os.path.dirname(__file__))
+    diagrams.attach(conn, bank_id)
     # overwrite=True: the principle tag is fully derived from the current keyword set
     # (no hand-curation), and the question DB persists across builds — so filling only
     # empties would let a tag survive after the keyword that produced it was tightened
@@ -1329,6 +1337,42 @@ def cmd_concepts(args):
     print("  rebundle to ship tags: python run.py web   (and python run.py fr)")
 
 
+def cmd_diagrams(args):
+    """Render the generated figures and attach them to their questions.
+
+    Day shapes are geometry, not artwork — the law describes balls, cones, cylinders
+    and diamonds in a vertical line — so we derive the picture from the article that
+    prescribes it instead of obtaining one. That makes the figure ours under the
+    project licence, hence reusable in every bank and language, unlike a scraped
+    source image. The web bundlers run this too; this command is for inspecting the
+    catalogue or re-rendering after a spec change."""
+    import glob
+    from src.questions import schema as qschema
+    from src.questions import diagrams
+    st = diagrams.render_all(os.path.dirname(__file__))
+    print(f"✓ {st['diagrams']} diagrams rendered ({st['written']} changed) "
+          f"→ {diagrams.OUT_DIR}/")
+    for d in diagrams.DIAGRAMS:
+        shapes = " + ".join(k for k, _ in d["shapes"])
+        print(f"  {d['key']:28s} {shapes:34s} {d['source']['ref']}")
+    total = {"attached": 0, "skipped": 0, "mismatched": 0, "missing": 0}
+    for qdb in sorted(glob.glob(os.path.join(DATA, "questions.*.sqlite"))):
+        bank = os.path.basename(qdb)[len("questions."):-len(".sqlite")]
+        conn = qschema.connect(qdb)
+        s = diagrams.attach(conn, bank, overwrite=args.overwrite)
+        conn.close()
+        for k in total:
+            total[k] += s[k]
+        if s["attached"] or s["skipped"] or s["mismatched"]:
+            print(f"  {os.path.basename(qdb)}: attached {s['attached']} · "
+                  f"kept {s['skipped']} · interlock tripped {s['mismatched']}")
+    if total["mismatched"]:
+        print(f"  ⚠ {total['mismatched']} assignment(s) refused: the cited question no "
+              f"longer carries the expected answer, or its stem no longer points at a "
+              f"figure (catalogue moved — re-read the source, don't force it)")
+    print("  rebundle to ship them: python run.py web")
+
+
 def main():
     ap = argparse.ArgumentParser(description="Boating-licence pipeline")
     sub = ap.add_subparsers(dest="cmd", required=True)
@@ -1386,6 +1430,11 @@ def main():
                         help="tag banks with their generative principle (the 'why' join key)")
     cc.add_argument("--overwrite", action="store_true",
                     help="re-tag even questions that already carry a principle")
+    dg = sub.add_parser("diagrams",
+                        help="render the generated figures (day shapes) and attach "
+                             "them to the questions that ask about one")
+    dg.add_argument("--overwrite", action="store_true",
+                    help="replace an existing figure instead of only filling gaps")
     sub.add_parser("fr", help="build the France permis plaisance banks + web/fr/ "
                               "players (seed-driven; see docs/france.md)")
     sub.add_parser("path-docs", help="regenerate the path-to-permit section of the "
@@ -1422,7 +1471,8 @@ def main():
      "questions": cmd_questions, "draft": cmd_draft, "review": cmd_review,
      "web": cmd_web, "fr": cmd_fr, "path-docs": cmd_path_docs,
      "coverage-docs": cmd_coverage_docs, "check-sources": cmd_check_sources,
-     "validate": cmd_validate, "concepts": cmd_concepts}[args.cmd](args)
+     "validate": cmd_validate, "concepts": cmd_concepts,
+     "diagrams": cmd_diagrams}[args.cmd](args)
 
 
 if __name__ == "__main__":
