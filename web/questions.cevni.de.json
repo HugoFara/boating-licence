@@ -3602,7 +3602,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         1
@@ -4610,7 +4610,7 @@
       "distractor_strategy": "confusion_set",
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
-      "principle": "",
+      "principle": "give-way",
       "difficulty": "unrated",
       "correct": [
         1
