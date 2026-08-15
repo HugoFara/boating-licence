@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Deux bateaux à moteur face à face ; chacun vient sur tribord">
+<!-- Generated figure, derived from COLREG Rule 14(a). Solid hull with a curving arrow = the vessel that keeps out of the way; open hull with a straight arrow = the vessel that holds course. Original artwork; project licence (CC BY-SA 4.0). gen:diagram.v1 -->
+<title>Deux bateaux à moteur face à face ; chacun vient sur tribord</title>
+<rect width="200" height="200" fill="#eaf1f8"/>
+<path d="M86.0,140.0 Q90.0,122.0 116.0,116.0" fill="none" stroke="#5b6b80" stroke-width="2.5"/><polygon points="116.0,116.0 108.0,110.0 110.0,126.0" fill="#5b6b80"/>
+<polygon points="86.0,144.0 95.0,160.0 95.0,186.0 77.0,186.0 77.0,160.0" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2" stroke-linejoin="round"/>
+<path d="M114.0,60.0 Q110.0,78.0 84.0,84.0" fill="none" stroke="#5b6b80" stroke-width="2.5"/><polygon points="84.0,84.0 92.0,90.0 90.0,74.0" fill="#5b6b80"/>
+<polygon points="114.0,56.0 105.0,40.0 105.0,14.0 123.0,14.0 123.0,40.0" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2" stroke-linejoin="round"/>
+</svg>

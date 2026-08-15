@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Rencontre en rivière : le montant laisse la route à l’avalant">
+<!-- Generated figure, derived from BinSchStrO 2012 § 6.04 Nummer 1. Solid hull with a curving arrow = the vessel that keeps out of the way; open hull with a straight arrow = the vessel that holds course. Original artwork; project licence (CC BY-SA 4.0). gen:diagram.v1 -->
+<title>Rencontre en rivière : le montant laisse la route à l’avalant</title>
+<rect width="200" height="200" fill="#eaf1f8"/>
+<rect x="0" y="0" width="26" height="200" fill="#dfe7d8"/><rect x="174" y="0" width="26" height="200" fill="#dfe7d8"/><line x1="26" y1="0" x2="26" y2="200" stroke="#b9c8ab" stroke-width="2"/><line x1="174" y1="0" x2="174" y2="200" stroke="#b9c8ab" stroke-width="2"/><line x1="13" y1="64" x2="13" y2="126" stroke="#8fa87e" stroke-width="2.5"/><polygon points="13,138 7,124 19,124" fill="#8fa87e"/><line x1="187" y1="64" x2="187" y2="126" stroke="#8fa87e" stroke-width="2.5"/><polygon points="187,138 181,124 193,124" fill="#8fa87e"/>
+<path d="M84.0,138.0 Q88.0,120.0 114.0,114.0" fill="none" stroke="#5b6b80" stroke-width="2.5"/><polygon points="114.0,114.0 106.0,108.0 108.0,124.0" fill="#5b6b80"/>
+<polygon points="84.0,142.0 93.0,158.0 93.0,184.0 75.0,184.0 75.0,158.0" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2" stroke-linejoin="round"/>
+<line x1="118.0" y1="66.0" x2="118.0" y2="92.0" stroke="#5b6b80" stroke-width="2.5"/><polygon points="118.0,92.0 123.0,82.0 113.0,82.0" fill="#5b6b80"/>
+<polygon points="118.0,60.0 109.0,44.0 109.0,18.0 127.0,18.0 127.0,44.0" fill="#ffffff" stroke="#1f3a5f" stroke-width="2" stroke-linejoin="round"/>
+</svg>

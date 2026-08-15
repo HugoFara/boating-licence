@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Routes qui se croisent : celui qui voit l’autre sur tribord s’écarte">
+<!-- Generated figure, derived from COLREG Rule 15. Solid hull with a curving arrow = the vessel that keeps out of the way; open hull with a straight arrow = the vessel that holds course. Original artwork; project licence (CC BY-SA 4.0). gen:diagram.v1 -->
+<title>Routes qui se croisent : celui qui voit l’autre sur tribord s’écarte</title>
+<rect width="200" height="200" fill="#eaf1f8"/>
+<path d="M74.0,124.0 Q78.0,106.0 104.0,100.0" fill="none" stroke="#5b6b80" stroke-width="2.5"/><polygon points="104.0,100.0 96.0,94.0 98.0,110.0" fill="#5b6b80"/>
+<polygon points="74.0,128.0 83.0,144.0 83.0,170.0 65.0,170.0 65.0,144.0" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2" stroke-linejoin="round"/>
+<line x1="122.0" y1="74.0" x2="96.0" y2="74.0" stroke="#5b6b80" stroke-width="2.5"/><polygon points="96.0,74.0 106.0,79.0 106.0,69.0" fill="#5b6b80"/>
+<polygon points="128.0,74.0 144.0,65.0 170.0,65.0 170.0,83.0 144.0,83.0" fill="#ffffff" stroke="#1f3a5f" stroke-width="2" stroke-linejoin="round"/>
+</svg>

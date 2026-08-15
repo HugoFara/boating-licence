@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Rattrapage : venir de plus de 22,5° sur l’arrière du travers">
+<!-- Generated figure, derived from COLREG Rule 13(a)-(b). Solid hull with a curving arrow = the vessel that keeps out of the way; open hull with a straight arrow = the vessel that holds course. Original artwork; project licence (CC BY-SA 4.0). gen:diagram.v1 -->
+<title>Rattrapage : venir de plus de 22,5° sur l’arrière du travers</title>
+<rect width="200" height="200" fill="#eaf1f8"/>
+<path d="M100.0,78.0 L172.1,107.8 A78,78 0 0 1 27.9,107.8 Z" fill="#f4c542" fill-opacity="0.30" stroke="#f4c542" stroke-width="1.5"/>
+<line x1="100.0" y1="50.0" x2="100.0" y2="24.0" stroke="#5b6b80" stroke-width="2.5"/><polygon points="100.0,24.0 95.0,34.0 105.0,34.0" fill="#5b6b80"/>
+<polygon points="100.0,56.0 109.0,72.0 109.0,98.0 91.0,98.0 91.0,72.0" fill="#ffffff" stroke="#1f3a5f" stroke-width="2" stroke-linejoin="round"/>
+<path d="M113.5,132.4 Q114.3,114.0 138.9,103.6" fill="none" stroke="#5b6b80" stroke-width="2.5"/><polygon points="138.9,103.6 129.9,99.0 134.7,114.4" fill="#5b6b80"/>
+<polygon points="114.2,136.3 125.8,150.5 130.3,176.1 112.6,179.3 108.1,153.7" fill="#1f3a5f" stroke="#1f3a5f" stroke-width="2" stroke-linejoin="round"/>
+</svg>
