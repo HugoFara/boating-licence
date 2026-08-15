@@ -1688,6 +1688,642 @@ _SEED: list[dict] = [
             },
         },
     },
+    # --- Germany -----------------------------------------------------------------
+    # The SBF bank mixes two regimes in one file: the See blocks answer to the KVR
+    # and the SeeSchStrO, the Binnen blocks to the BinSchStrO. The player keys the
+    # Learn card on `principle` alone, so one card per principle must serve both —
+    # and that is the right shape anyway, because "which waterway am I on?" is
+    # exactly the question a candidate sitting both parts has to answer first.
+    # The bodies therefore contrast the two regimes instead of picking one.
+    {
+        "principle": "give-way",
+        "kind": "principle",
+        "applies": {"de"},
+        "prov": {
+            "ref": "BinSchStrO §§ 6.02, 6.03, 6.04, 6.09, 6.10 · KVR (SeeStrO) "
+                   "Regel 18 · SeeSchStrO § 25",
+            "source": "Binnenschifffahrtsstraßen-Ordnung (BinSchStrO), "
+                      "Seeschifffahrtsstraßen-Ordnung (SeeSchStrO) und "
+                      "Kollisionsverhütungsregeln (KVR/SeeStrO)",
+            "url": "https://www.gesetze-im-internet.de/binschstro_2012/",
+            "as_of": None,
+            "licence": "Gemeinfrei — deutsches Bundesrecht, § 5 Abs. 1 UrhG "
+                       "(gesetze-im-internet.de).",
+        },
+        "lang": {
+            "de": {
+                "title": "Ausweichpflicht: erst die Wasserstraße, dann die Regel",
+                "body": (
+                    "Die häufigste Verwechslung im SBF ist nicht eine falsche Regel, "
+                    "sondern die richtige Regel auf der falschen Wasserstraße. Binnen "
+                    "und See beantworten die Frage «wer weicht aus?» nach zwei "
+                    "verschiedenen Prinzipien. Erst klären, wo man ist — dann ist die "
+                    "Antwort eindeutig.\n\n"
+                    "BINNEN (BinSchStrO): der FLUSS entscheidet.\n"
+                    "— Beim Begegnen muss der Bergfahrer dem Talfahrer einen "
+                    "geeigneten Weg freilassen — der Talfahrer ist schwerer zu "
+                    "stoppen, also weicht der aus, der gegen den Strom fährt "
+                    "(§ 6.04 Nr. 1).\n"
+                    "— Lässt der Bergfahrer den Talfahrer an Backbord vorbeifahren, "
+                    "gibt er kein Zeichen. Will er ihn an Steuerbord vorbeilassen, "
+                    "zeigt er rechtzeitig nach Steuerbord: bei Nacht ein weißes "
+                    "helles Funkellicht, bei Tag eine hellblaue Tafel mit "
+                    "Funkellicht (§ 6.04 Nr. 2 und 3).\n"
+                    "— Ein Kleinfahrzeug steht ganz unten: es muss allen übrigen "
+                    "Fahrzeugen den für deren Kurs und zum Manövrieren nötigen Raum "
+                    "lassen und kann nicht verlangen, dass ihm jemand ausweicht; dem "
+                    "blauen Funkellicht weicht es rechtzeitig nach Steuerbord aus "
+                    "(§ 6.02).\n"
+                    "— Überholt wird nur, nachdem sich der Überholende vergewissert "
+                    "hat, dass es ohne Gefahr geht; der Vorausfahrende muss es "
+                    "erleichtern und nötigenfalls langsamer werden (§ 6.09). "
+                    "Überholt werden darf an Backbord oder an Steuerbord "
+                    "(§ 6.10 Nr. 1) — anders als am Meer gibt es hier eine "
+                    "Verständigung per Schallzeichen, wenn der Vorausfahrende seinen "
+                    "Kurs ändern muss.\n\n"
+                    "SEE (KVR): die GEOMETRIE und die Rangordnung entscheiden.\n"
+                    "— Ein Maschinenfahrzeug in Fahrt muss ausweichen: einem "
+                    "manövrierunfähigen, einem manövrierbehinderten, einem "
+                    "fischenden Fahrzeug und einem Segelfahrzeug. Ein Segelfahrzeug "
+                    "muss den ersten drei ausweichen, ein fischendes Fahrzeug den "
+                    "ersten beiden (Regel 18 a bis c).\n"
+                    "— Diese Rangordnung gilt ausdrücklich nur, «sofern in den "
+                    "Regeln 9, 10 und 13 nicht etwas anderes bestimmt ist» — enges "
+                    "Fahrwasser, Verkehrstrennungsgebiet und Überholen gehen vor.\n\n"
+                    "Und die Ausnahme, die man kennen muss: auf den deutschen "
+                    "Seeschifffahrtsstraßen setzt § 25 SeeSchStrO die KVR-Regeln 9 "
+                    "Buchstabe b bis d, 15 und 18 Buchstabe a bis c außer Kraft. Im "
+                    "Fahrwasser hat die dem Fahrwasserverlauf folgende Schifffahrt "
+                    "Vorfahrt gegenüber Fahrzeugen, die einlaufen, das Fahrwasser "
+                    "queren, darin drehen oder ihren Anker- oder Liegeplatz "
+                    "verlassen — unabhängig davon, ob sie nur dort sicher fahren "
+                    "können. Wer die reine KVR-Kreuzregel anwendet, liegt hier "
+                    "falsch."
+                ),
+            },
+        },
+    },
+    {
+        "principle": "sound-signals",
+        "kind": "principle",
+        "applies": {"de"},
+        "prov": {
+            "ref": "BinSchStrO § 4.01 und Anlage 6 · KVR (SeeStrO) Regel 32, 34",
+            "source": "Binnenschifffahrtsstraßen-Ordnung (BinSchStrO) und "
+                      "Kollisionsverhütungsregeln (KVR/SeeStrO)",
+            "url": "https://www.gesetze-im-internet.de/binschstro_2012/",
+            "as_of": None,
+            "licence": "Gemeinfrei — deutsches Bundesrecht, § 5 Abs. 1 UrhG "
+                       "(gesetze-im-internet.de).",
+        },
+        "lang": {
+            "de": {
+                "title": "Schallzeichen: gleiche Bausteine, zwei Regelwerke",
+                "body": (
+                    "Die Bausteine sind binnen wie see dieselben, das Vokabular und "
+                    "das Drumherum nicht. Wer die Dauern einmal sitzen hat, muss nur "
+                    "noch wissen, welche Ordnung gerade gilt.\n\n"
+                    "Die Bausteine binnen (Anlage 6 BinSchStrO):\n"
+                    "— kurzer Ton: etwa eine Sekunde;\n"
+                    "— langer Ton: etwa vier Sekunden;\n"
+                    "— Pause zwischen zwei aufeinanderfolgenden Tönen: etwa eine "
+                    "Sekunde;\n"
+                    "— «Folge sehr kurzer Töne»: mindestens SECHS Töne von je etwa "
+                    "einer Viertelsekunde, mit ebenso langen Pausen;\n"
+                    "— eine Gruppe von Glockenschlägen dauert etwa vier Sekunden und "
+                    "kann durch Schläge von Metall auf Metall gleicher Dauer ersetzt "
+                    "werden.\n\n"
+                    "Das binnenländische Grundvokabular (Anlage 6, Abschnitt A):\n"
+                    "— 1 langer Ton: «Achtung»;\n"
+                    "— 1 kurzer Ton: «Ich richte meinen Kurs nach Steuerbord»;\n"
+                    "— 2 kurze Töne: «Ich richte meinen Kurs nach Backbord»;\n"
+                    "— 3 kurze Töne: «Meine Maschine geht rückwärts».\n"
+                    "Beim Überholen kommt eine Verständigung hinzu, die es am Meer "
+                    "nicht gibt: «zwei lange, zwei kurze Töne» heißt «ich will an "
+                    "deiner Backbordseite überholen», «zwei lange, ein kurzer Ton» "
+                    "an Steuerbord (§ 6.10 Nr. 2).\n\n"
+                    "Zwei binnenländische Besonderheiten, die gern geprüft werden "
+                    "(§ 4.01):\n"
+                    "— Womit: auf einem Fahrzeug mit Maschinenantrieb, ausgenommen "
+                    "einem Kleinfahrzeug, mit einem mechanisch betriebenen "
+                    "Schallgerät, hoch genug angebracht, dass der Schall nach vorn "
+                    "frei abstrahlt; auf Fahrzeugen ohne Maschinenantrieb und auf "
+                    "Kleinfahrzeugen genügen Schallgerät, Hupe oder Horn.\n"
+                    "— Dazu das LICHT: auf einem Fahrzeug mit Maschinenantrieb muss "
+                    "gleichzeitig mit dem Schallzeichen ein gleich langes gelbes, "
+                    "helles, von allen Seiten sichtbares Lichtzeichen gegeben werden "
+                    "— nicht bei Kleinfahrzeugen und nicht bei Glockenzeichen.\n\n"
+                    "SEE (KVR Regel 32 und 34): ein kurzer Ton dauert etwa eine "
+                    "Sekunde, ein langer Ton vier bis sechs Sekunden — also länger "
+                    "als binnen. Die drei Manöverzeichen lauten gleich (ein kurzer "
+                    "Ton Steuerbord, zwei kurze Backbord, drei kurze rückwärts), und "
+                    "sie dürfen durch Lichtsignale ergänzt werden: ein Blitz, zwei "
+                    "Blitze, drei Blitze in derselben Bedeutung, jeder Blitz etwa "
+                    "eine Sekunde, mit mindestens zehn Sekunden Pause zwischen "
+                    "aufeinanderfolgenden Signalen."
+                ),
+            },
+        },
+    },
+    {
+        "principle": "nav-lights",
+        "kind": "principle",
+        "applies": {"de"},
+        "prov": {
+            "ref": "BinSchStrO §§ 3.01, 3.08, 3.13 · KVR (SeeStrO) Regel 21",
+            "source": "Binnenschifffahrtsstraßen-Ordnung (BinSchStrO) und "
+                      "Kollisionsverhütungsregeln (KVR/SeeStrO)",
+            "url": "https://www.gesetze-im-internet.de/binschstro_2012/",
+            "as_of": None,
+            "licence": "Gemeinfrei — deutsches Bundesrecht, § 5 Abs. 1 UrhG "
+                       "(gesetze-im-internet.de).",
+        },
+        "lang": {
+            "de": {
+                "title": "Lichter: die Winkel sind binnen wie see dieselben",
+                "body": (
+                    "Ein Detail nimmt dem ganzen Kapitel die Hälfte des "
+                    "Lernaufwands: die Sichtbereiche sind in beiden Ordnungen "
+                    "identisch. § 3.01 BinSchStrO und Regel 21 KVR definieren "
+                    "denselben Winkelcode, Wort für Wort deckungsgleich:\n"
+                    "— Topplicht: weiß, über einen Horizontbogen von 225°, von "
+                    "voraus bis beiderseits 22°30' hinter die Querlinie;\n"
+                    "— Seitenlichter: grün an Steuerbord, rot an Backbord, je über "
+                    "112°30' auf der eigenen Seite;\n"
+                    "— Hecklicht: weiß, über 135°, also 67°30' von achteraus nach "
+                    "jeder Seite;\n"
+                    "— von allen Seiten sichtbares Licht (Rundumlicht): 360°.\n"
+                    "112°30' + 112°30' = 225°, und 225° + 135° = 360°: die Bögen "
+                    "decken den Horizont lückenlos ab. Was man sieht, sagt also, wo "
+                    "man steht — beide Ordnungen, dieselbe Geometrie.\n\n"
+                    "Verschieden ist, WER WAS führt.\n"
+                    "— Binnen, einzeln fahrendes Fahrzeug mit Maschinenantrieb "
+                    "(§ 3.08): Topplicht auf dem vorderen Teil, Seitenlichter in "
+                    "gleicher Höhe in einer Ebene senkrecht zur Längsebene, "
+                    "Hecklicht auf dem Achterschiff. Auf Flüssen müssen die "
+                    "Seitenlichter mindestens 1,00 m tiefer als das Topplicht "
+                    "stehen, auf Kanälen nach Möglichkeit ebenso, jedenfalls nicht "
+                    "höher; sie stehen mindestens 1,00 m hinter dem Topplicht und "
+                    "sind binnenbords so abgeblendet, dass das grüne Licht nicht von "
+                    "Backbord und das rote nicht von Steuerbord zu sehen ist.\n"
+                    "— Binnen, Kleinfahrzeug mit Maschinenantrieb (§ 3.13): zwei "
+                    "zulässige Anordnungen — Topplicht (hell statt stark) in gleicher "
+                    "Höhe wie die Seitenlichter und mindestens 1,00 m vor ihnen, dazu "
+                    "Seitenlichter und Hecklicht; oder Topplicht mindestens 1,00 m "
+                    "höher als die Seitenlichter, die dann auch unmittelbar "
+                    "nebeneinander oder in einer einzigen Laterne am oder nahe am Bug "
+                    "in der Schiffsachse gesetzt sein dürfen.\n"
+                    "— See (Regel 21 b): auf einem Fahrzeug von weniger als 20 Metern "
+                    "Länge dürfen die Seitenlichter in einer Zweifarbenlaterne über "
+                    "der Längsachse geführt werden.\n\n"
+                    "Merkhilfe: die Winkel lernt man einmal, die Anbringungshöhen "
+                    "sind das, was binnen tatsächlich abgefragt wird — und dort ist "
+                    "«1,00 m» die Zahl, die immer wiederkehrt."
+                ),
+            },
+        },
+    },
+    {
+        "principle": "waterway-signs",
+        "kind": "principle",
+        "applies": {"de"},
+        "prov": {
+            "ref": "BinSchStrO § 5.01 und Anlage 7 · SeeSchStrO § 5",
+            "source": "Binnenschifffahrtsstraßen-Ordnung (BinSchStrO) und "
+                      "Seeschifffahrtsstraßen-Ordnung (SeeSchStrO)",
+            "url": "https://www.gesetze-im-internet.de/binschstro_2012/",
+            "as_of": None,
+            "licence": "Gemeinfrei — deutsches Bundesrecht, § 5 Abs. 1 UrhG "
+                       "(gesetze-im-internet.de).",
+        },
+        "lang": {
+            "de": {
+                "title": "Schifffahrtszeichen: fünf Familien, dann erst das Bild",
+                "body": (
+                    "Anlage 7 der BinSchStrO ordnet die Schifffahrtszeichen in fünf "
+                    "Familien, und § 5.01 Nummer 1 nennt sie ausdrücklich: VERBOTE, "
+                    "GEBOTE, BESCHRÄNKUNGEN, EMPFEHLUNGEN und HINWEISE. Dort ist "
+                    "zugleich die Bedeutung jedes Zeichens angegeben.\n\n"
+                    "Diese Reihenfolge ist auch eine Rangfolge der Verbindlichkeit, "
+                    "und genau daran hängt die Prüfungsfrage:\n"
+                    "— Verbot: etwas ist untersagt — Durchfahrt, Ankern, "
+                    "Festmachen, Überholen, Begegnen.\n"
+                    "— Gebot: etwas ist zwingend zu tun — eine Richtung nehmen, "
+                    "anhalten, ein Schallzeichen geben.\n"
+                    "— Beschränkung: eine Grenze ist einzuhalten — Höhe, Breite, "
+                    "Tiefe, Geschwindigkeit.\n"
+                    "— Empfehlung: ein Rat, dem man folgen sollte, aber nicht muss.\n"
+                    "— Hinweis: eine Information, die nichts verlangt.\n"
+                    "Die Pflichtenlage folgt also aus der Familie, das Piktogramm "
+                    "sagt nur, worauf sie sich bezieht.\n\n"
+                    "§ 5.01 Nummer 2 sagt, wen es bindet: der Schiffsführer — oder "
+                    "die nach § 1.03 Nummer 3 für Kurs und Geschwindigkeit "
+                    "verantwortliche Person — hat die Anordnung zu BEFOLGEN sowie "
+                    "auf Empfehlung und Hinweis zu ACHTEN. Zwei verschiedene Verben "
+                    "für zwei verschiedene Verbindlichkeiten; die Formulierung ist "
+                    "die Antwort auf «muss ich das?».\n\n"
+                    "Zwei Zeichen wirken unmittelbar auf die Fahrregeln zurück und "
+                    "stehen deshalb im Verkehrskapitel und nicht nur in Anlage 7: "
+                    "das durch Schifffahrtszeichen verbotene Begegnen (§ 6.08) und "
+                    "das Überholverbot durch Schifffahrtszeichen (§ 6.11). Ein "
+                    "Tafelzeichen kann eine Fahrregel also nicht nur ergänzen, "
+                    "sondern aufheben.\n\n"
+                    "Auf See regelt § 5 SeeSchStrO die Schifffahrtszeichen der "
+                    "Seeschifffahrtsstraßen; die Betonnung selbst folgt dem "
+                    "IALA-System und nicht der Tafelzeichen-Systematik der "
+                    "BinSchStrO — noch ein Punkt, an dem zuerst die Frage «welche "
+                    "Wasserstraße?» steht."
+                ),
+            },
+        },
+    },
+    # --- France, inland (RGP = Code des transports, 4e partie + arrêtés) ----------
+    # A third regime again: the RGP turns on montant/avalant and on the special
+    # status of "menues embarcations", so neither the Swiss nor the maritime cards
+    # apply here.
+    {
+        "principle": "give-way",
+        "kind": "principle",
+        "applies": {"fr_eaux_interieures"},
+        "prov": {
+            "ref": "RGP — Code des transports, art. A4241-53-2, -53-3, -53-6, -53-8, "
+                   "-53-10, -53-11, -53-13, -53-37",
+            "source": "Règlement général de police de la navigation intérieure (RGP) "
+                      "— Code des transports, 4e partie",
+            "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000023076481/",
+            "as_of": None,
+            "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — acte officiel "
+                       "français, réutilisable avec attribution.",
+        },
+        "lang": {
+            "fr": {
+                "title": "Priorités en eaux intérieures : le courant d'abord, la menue embarcation en dernier",
+                "body": (
+                    "En rivière, la question n'est pas «qui vient de tribord ?» mais "
+                    "«qui descend ?». Le RGP construit ses priorités sur deux idées "
+                    "qui n'existent ni en mer ni sur un lac : le sens du courant, et "
+                    "le statut particulier des menues embarcations.\n\n"
+                    "1. Le montant s'efface devant l'avalant. En cas de rencontre, "
+                    "les montants doivent, compte tenu des circonstances locales et "
+                    "des mouvements des autres bateaux, réserver aux avalants une "
+                    "route appropriée (art. A4241-53-6 §2). L'avalant, porté par le "
+                    "courant, manœuvre moins bien : c'est donc à celui qui remonte de "
+                    "s'adapter. Sur les secteurs où la route est imposée par la "
+                    "signalisation, les montants ne doivent en aucun cas gêner la "
+                    "marche des avalants et doivent au besoin ralentir ou s'arrêter "
+                    "(art. A4241-53-13).\n\n"
+                    "2. La règle de base reste bâbord sur bâbord : en cas de "
+                    "rencontre avec danger d'abordage, chacun vient sur tribord pour "
+                    "passer à bâbord de l'autre (art. A4241-53-6 §1). Le montant qui "
+                    "laisse la route de l'avalant à bâbord ne donne aucun signal ; "
+                    "s'il la laisse à tribord, il doit montrer en temps utile, à "
+                    "tribord, un feu blanc scintillant ou un panneau bleu clair — de "
+                    "jour comme de nuit (§3 et §4).\n\n"
+                    "3. Les menues embarcations sont tout en bas. Lorsqu'une règle de "
+                    "route ne leur est pas applicable dans leur comportement avec "
+                    "d'autres bateaux, elles doivent laisser à TOUS les autres "
+                    "bateaux, y compris les bateaux rapides, l'espace nécessaire pour "
+                    "suivre leur route et manœuvrer, et ne peuvent exiger que "
+                    "ceux-ci s'écartent en leur faveur (art. A4241-53-3). "
+                    "Symétriquement, un bateau rapide ne peut pas non plus exiger "
+                    "qu'on s'écarte devant lui (art. A4241-53-2) : la vitesse ne "
+                    "donne aucun droit.\n\n"
+                    "4. Dépassement. Il n'est autorisé qu'après que le rattrapant "
+                    "s'est assuré qu'il peut avoir lieu sans danger ; le rattrapé "
+                    "doit le faciliter et ralentir si nécessaire — sauf lorsqu'une "
+                    "menue embarcation rattrape un bateau d'une autre catégorie "
+                    "(art. A4241-53-10). En règle générale on dépasse à bâbord, mais "
+                    "les deux côtés sont permis quand aucun risque d'abordage n'en "
+                    "résulte (art. A4241-53-11 §1).\n\n"
+                    "5. Passages étroits (art. A4241-53-8) : les franchir dans le "
+                    "plus court délai possible ; par visibilité restreinte, émettre "
+                    "un son prolongé avant de s'y engager et le répéter si le passage "
+                    "est long ; et lorsqu'un avalant est sur le point de s'y engager, "
+                    "s'arrêter à l'aval du passage pour le laisser sortir.\n\n"
+                    "Enfin les priorités spéciales : en cas de rencontre ou de "
+                    "croisement, les autres bateaux s'écartent d'un bateau portant la "
+                    "signalisation des bateaux à capacité de manœuvre restreinte, "
+                    "puis de celle des bateaux en train de pêcher — et entre ces "
+                    "deux-là, c'est le pêcheur qui s'écarte (art. A4241-53-37)."
+                ),
+            },
+            "en": {
+                "title": "Right of way on French inland waters: the current first, small craft last",
+                "body": (
+                    "On a river the question is not \"who is on my starboard?\" but "
+                    "\"who is coming downstream?\". The RGP builds its priorities on "
+                    "two ideas that exist neither at sea nor on a lake: the direction "
+                    "of the current, and the special status of \"menues "
+                    "embarcations\" — small craft.\n\n"
+                    "1. The upstream vessel gives way to the downstream one. When "
+                    "meeting, vessels proceeding upstream (montants) must, taking "
+                    "local circumstances and other traffic into account, leave a "
+                    "suitable route to those proceeding downstream (avalants) "
+                    "(art. A4241-53-6 §2). A vessel carried by the current manoeuvres "
+                    "less well, so the one stemming the current adapts. On stretches "
+                    "where the route is imposed by signs, the upstream vessel must on "
+                    "no account impede the downstream one and must slow or stop if "
+                    "necessary (art. A4241-53-13).\n\n"
+                    "2. The base rule is still port to port: when meeting with risk "
+                    "of collision, each turns to starboard so as to pass to the other "
+                    "vessel's port side (art. A4241-53-6 §1). An upstream vessel "
+                    "leaving the downstream vessel's route to port gives no signal; "
+                    "leaving it to starboard, it must show in good time, to "
+                    "starboard, a bright white flashing light or a light-blue board "
+                    "(§3 and §4).\n\n"
+                    "3. Small craft are at the bottom. Where a steering rule does not "
+                    "apply to them in relation to other vessels, they must leave ALL "
+                    "other vessels, fast craft included, the room needed to hold "
+                    "their course and manoeuvre, and cannot require those vessels to "
+                    "give way to them (art. A4241-53-3). Symmetrically, a fast craft "
+                    "cannot demand that others move aside either "
+                    "(art. A4241-53-2): speed confers no right.\n\n"
+                    "4. Overtaking is allowed only once the overtaking vessel has "
+                    "made sure it can be done without danger; the overtaken vessel "
+                    "must facilitate it and slow down if necessary — except where a "
+                    "small craft is overtaking a vessel of another category "
+                    "(art. A4241-53-10). As a rule you overtake to port, but either "
+                    "side is permitted when no risk of collision can arise "
+                    "(art. A4241-53-11 §1).\n\n"
+                    "5. Narrow passages (art. A4241-53-8): cross them as quickly as "
+                    "possible; in restricted visibility sound one prolonged blast "
+                    "before entering and repeat it if the passage is long; and when a "
+                    "downstream vessel is about to enter, stop below the passage and "
+                    "let it come out.\n\n"
+                    "Finally the special priorities: when meeting or crossing, other "
+                    "vessels keep clear of a vessel showing the marks of a vessel "
+                    "restricted in its ability to manoeuvre, then of one showing the "
+                    "marks of a vessel engaged in fishing — and as between those two, "
+                    "the fishing vessel gives way (art. A4241-53-37)."
+                ),
+            },
+        },
+    },
+    {
+        "principle": "waterway-signs",
+        "kind": "principle",
+        "applies": {"fr_eaux_interieures"},
+        "prov": {
+            "ref": "RGP — Code des transports, art. A4241-51-1, A4241-51-2, "
+                   "A4241-48-3, A4241-48-7 et annexe 5 (sections A à E)",
+            "source": "Règlement général de police de la navigation intérieure (RGP) "
+                      "— Code des transports, 4e partie",
+            "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000023076481/",
+            "as_of": None,
+            "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — acte officiel "
+                       "français, réutilisable avec attribution.",
+        },
+        "lang": {
+            "fr": {
+                "title": "Panneaux : la couleur et la bordure disent la famille",
+                "body": (
+                    "C'est l'annexe 5 qui définit les signaux d'interdiction, "
+                    "d'obligation, de restriction, de recommandation et d'indication, "
+                    "ainsi que les signaux auxiliaires (art. A4241-51-1) — et c'est "
+                    "l'annexe 8 qui définit, séparément, les règles de balisage "
+                    "(art. A4241-51-2). Cinq familles, donc, et un cadre visuel qui "
+                    "les annonce avant qu'on ait lu le symbole.\n\n"
+                    "— Bordure ROUGE : le panneau contraint. Un rectangle à bord "
+                    "rouge portant une bande blanche barrée de rouge est le panneau "
+                    "A.1, «interdiction de passer» — le refus le plus net du "
+                    "règlement. Un panneau à bord rouge portant une flèche blanche "
+                    "n'interdit pas mais IMPOSE : c'est un panneau d'obligation "
+                    "(série B), il faut suivre la direction indiquée.\n"
+                    "— Un NOMBRE affiché (« 3,50 m ») annonce une restriction "
+                    "(série C) : hauteur libre, largeur ou profondeur disponible. "
+                    "Le panneau ne dit pas «interdit», il dit «pas au-delà de».\n"
+                    "— Rectangle BLEU à symbole blanc : une indication ou un "
+                    "renseignement (série E) — stationnement autorisé, bac, point de "
+                    "service. Le carré bleu au « P » blanc est le E.5, stationnement "
+                    "autorisé.\n"
+                    "Retenir les trois cadres — bord rouge, nombre, fond bleu — "
+                    "suffit à classer un panneau inconnu avant même d'en comprendre "
+                    "le pictogramme.\n\n"
+                    "Deux règles de forme complètent le tableau : sauf prescription "
+                    "contraire, les panneaux et pavillons prescrits sont "
+                    "RECTANGULAIRES, et leurs couleurs ne doivent être ni passées ni "
+                    "salies (art. A4241-48-3). Et il est interdit d'utiliser des "
+                    "lumières, projecteurs, panneaux, pavillons ou autres objets "
+                    "risquant d'être confondus avec les feux et signaux "
+                    "réglementaires (art. A4241-48-7) — un signal ne vaut que s'il "
+                    "reste non ambigu.\n\n"
+                    "Enfin, un panneau peut modifier la règle de route elle-même : "
+                    "dans une ouverture de pont ou de barrage portant le signal "
+                    "d'interdiction A.10, la navigation n'est permise que dans "
+                    "l'espace compris entre les deux panneaux qui constituent le "
+                    "signal (art. A4241-53-26)."
+                ),
+            },
+            "en": {
+                "title": "Boards: the colour and the border give the family",
+                "body": (
+                    "Annex 5 defines the prohibition, obligation, restriction, "
+                    "recommendation and indication signs, together with the auxiliary "
+                    "signs (art. A4241-51-1) — while annex 8 separately defines the "
+                    "buoyage rules (art. A4241-51-2). Five families, then, and a "
+                    "visual frame that announces each one before you have read the "
+                    "symbol.\n\n"
+                    "— RED border: the board constrains you. A rectangle with a red "
+                    "border carrying a white band crossed in red is board A.1, \"no "
+                    "passage\" — the regulation's flattest refusal. A red-bordered "
+                    "board carrying a white arrow does not forbid but REQUIRES: it is "
+                    "an obligation board (series B) and you must take the direction "
+                    "shown.\n"
+                    "— A NUMBER on the board (\"3.50 m\") announces a restriction "
+                    "(series C): available headroom, width or depth. It does not say "
+                    "\"forbidden\", it says \"no more than\".\n"
+                    "— BLUE rectangle with a white symbol: an indication or piece of "
+                    "information (series E) — berthing permitted, ferry, service "
+                    "point. The blue square with a white \"P\" is E.5, berthing "
+                    "permitted.\n"
+                    "Remembering the three frames — red border, number, blue ground — "
+                    "is enough to classify an unfamiliar board before you understand "
+                    "its pictogram at all.\n\n"
+                    "Two rules of form complete the picture: unless otherwise "
+                    "prescribed, the boards and flags required are RECTANGULAR, and "
+                    "their colours must be neither faded nor soiled "
+                    "(art. A4241-48-3). And it is forbidden to use lights, "
+                    "searchlights, boards, flags or other objects liable to be "
+                    "confused with the regulation lights and signals "
+                    "(art. A4241-48-7) — a signal is only worth anything while it "
+                    "stays unambiguous.\n\n"
+                    "Finally, a board can change the steering rule itself: in a "
+                    "bridge or weir opening carrying prohibition signal A.10, "
+                    "navigation is permitted only in the space between the two boards "
+                    "that make up the signal (art. A4241-53-26)."
+                ),
+            },
+        },
+    },
+    {
+        "principle": "sound-signals",
+        "kind": "principle",
+        "applies": {"fr_eaux_interieures"},
+        "prov": {
+            "ref": "RGP — Code des transports, art. A4241-49-2, -49-3, -49-4, "
+                   "A4241-53-4, -53-8, -53-11, R4241-49",
+            "source": "Règlement général de police de la navigation intérieure (RGP) "
+                      "— Code des transports, 4e partie",
+            "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000023076481/",
+            "as_of": None,
+            "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — acte officiel "
+                       "français, réutilisable avec attribution.",
+        },
+        "lang": {
+            "fr": {
+                "title": "Signaux sonores en rivière : qui doit, qui peut, et quoi dire",
+                "body": (
+                    "Le RGP distingue d'abord une obligation d'une faculté. Tout "
+                    "bateau, À L'EXCEPTION des menues embarcations, fait usage en cas "
+                    "de besoin des signaux sonores réglementaires ; les menues "
+                    "embarcations, elles, PEUVENT les émettre (art. A4241-49-2). La "
+                    "même asymétrie qu'ailleurs dans le règlement : la menue "
+                    "embarcation a moins de devoirs, et moins de droits.\n\n"
+                    "Le vocabulaire de base que le règlement mobilise dans ses "
+                    "propres articles :\n"
+                    "— un son prolongé : «Attention» — c'est aussi le signal à "
+                    "émettre avant de s'engager dans un passage étroit par visibilité "
+                    "restreinte, à répéter si le passage est long "
+                    "(art. A4241-53-8) ;\n"
+                    "— une série de sons TRÈS BREFS : le conducteur qui constate un "
+                    "danger d'abordage doit l'émettre (art. A4241-53-4) ;\n"
+                    "— deux sons prolongés suivis de DEUX sons brefs : «je veux "
+                    "dépasser par bâbord» ; suivis d'UN son bref : «par tribord». Le "
+                    "rattrapé qui peut donner suite répond par un son bref ou deux "
+                    "sons brefs selon le côté (art. A4241-53-11 §2 et §3).\n"
+                    "Le nombre de sons brefs n'est donc pas décoratif : il désigne un "
+                    "côté, et le son prolongé qui le précède dit «attention, je "
+                    "demande quelque chose».\n\n"
+                    "Détresse : un bateau qui veut demander du secours peut émettre "
+                    "des volées de cloche ou des sons prolongés répétés ; ces signaux "
+                    "remplacent ou complètent les signaux visuels de détresse "
+                    "(art. A4241-49-4).\n\n"
+                    "Deux limites. Il est interdit d'employer des signaux sonores "
+                    "autres que ceux prévus, ou de les employer dans d'autres "
+                    "conditions ; l'usage d'autres signaux n'est admis, pour la "
+                    "communication entre bateaux ou avec la terre, qu'à condition "
+                    "qu'ils ne prêtent pas à confusion avec les signaux "
+                    "réglementaires (art. A4241-49-3). Et côté équipement, tous les "
+                    "bateaux sont pourvus d'un dispositif permettant d'émettre des "
+                    "signaux sonores, les bateaux autres que les menues embarcations "
+                    "devant en outre disposer d'une installation de radiotéléphonie "
+                    "(art. R4241-49)."
+                ),
+            },
+            "en": {
+                "title": "Sound signals on French inland waters: who must, who may, and what to say",
+                "body": (
+                    "The RGP starts by separating a duty from an option. Every "
+                    "vessel EXCEPT small craft shall, when needed, use the regulation "
+                    "sound signals; small craft MAY use them (art. A4241-49-2). The "
+                    "same asymmetry as elsewhere in the code: small craft carry fewer "
+                    "duties and fewer rights.\n\n"
+                    "The basic vocabulary the regulation itself puts to work:\n"
+                    "— one prolonged blast: \"Attention\" — and also the signal to "
+                    "give before entering a narrow passage in restricted visibility, "
+                    "repeated if the passage is long (art. A4241-53-8);\n"
+                    "— a series of VERY SHORT blasts: a boatmaster who sees a risk of "
+                    "collision must sound it (art. A4241-53-4);\n"
+                    "— two prolonged blasts followed by TWO short: \"I want to "
+                    "overtake on your port side\"; followed by ONE short: \"on your "
+                    "starboard side\". The overtaken vessel able to comply answers "
+                    "with one short or two short blasts according to the side "
+                    "(art. A4241-53-11 §2 and §3).\n"
+                    "The count of short blasts is therefore not decoration: it names "
+                    "a side, and the prolonged blast in front of it says \"attention, "
+                    "I am asking for something\".\n\n"
+                    "Distress: a vessel wanting help may sound peals of the bell or "
+                    "repeated prolonged blasts; these replace or supplement the "
+                    "visual distress signals (art. A4241-49-4).\n\n"
+                    "Two limits. Sound signals other than those provided for are "
+                    "forbidden, as is using them in other conditions; other signals "
+                    "are admitted for communication between vessels, or with the "
+                    "shore, only provided they cannot be confused with the regulation "
+                    "signals (art. A4241-49-3). As for equipment, every vessel "
+                    "carries a device capable of making sound signals, and vessels "
+                    "other than small craft must in addition have a radiotelephone "
+                    "installation (art. R4241-49)."
+                ),
+            },
+        },
+    },
+    {
+        "principle": "nav-lights",
+        "kind": "principle",
+        "applies": {"fr_eaux_interieures"},
+        "prov": {
+            "ref": "RGP — Code des transports, art. A4241-48-2, -48-5, -48-6, "
+                   "-48-13, -48-20, A4241-53-31",
+            "source": "Règlement général de police de la navigation intérieure (RGP) "
+                      "— Code des transports, 4e partie",
+            "url": "https://www.legifrance.gouv.fr/codes/id/LEGISCTA000023076481/",
+            "as_of": None,
+            "licence": "Licence Ouverte / Open Licence 2.0 (Etalab) — acte officiel "
+                       "français, réutilisable avec attribution.",
+        },
+        "lang": {
+            "fr": {
+                "title": "Feux en eaux intérieures : un feu ne vaut que s'il est lisible",
+                "body": (
+                    "Avant de savoir quel feu montrer, le RGP fixe ce qu'un feu doit "
+                    "ÊTRE. Sauf prescriptions contraires, les feux prescrits montrent "
+                    "une lumière continue et uniforme (art. A4241-48-2) — ni "
+                    "clignotante, ni intermittente, sauf quand le règlement le "
+                    "demande expressément. C'est la règle qui rend un feu "
+                    "interprétable : sa couleur et sa position portent le sens, pas "
+                    "son rythme.\n\n"
+                    "Deux corollaires immédiats :\n"
+                    "— Un feu prescrit qui cesse de fonctionner doit être remplacé "
+                    "SANS DÉLAI par un feu de secours (art. A4241-48-6). Naviguer "
+                    "avec un feu éteint, c'est afficher une autre signalisation que "
+                    "la sienne.\n"
+                    "— Il est interdit d'employer des feux ou signaux autres que ceux "
+                    "prévus ; ils ne sont admis, pour la communication entre bateaux "
+                    "ou entre bateaux et la terre, qu'à condition de ne pas prêter à "
+                    "confusion avec les feux réglementaires (art. A4241-48-5).\n\n"
+                    "Les couleurs suivent la convention universelle : sur une menue "
+                    "embarcation motorisée, le feu de côté de BÂBORD est ROUGE (et "
+                    "celui de tribord vert) — art. A4241-48-13. En stationnement, un "
+                    "bateau porte un feu blanc (art. A4241-48-20).\n\n"
+                    "Un cas propre à la rivière, et très examiné : les feux d'écluse "
+                    "(art. A4241-53-31 §1). Ici le feu ne décrit pas un bateau mais "
+                    "commande un passage — deux feux ROUGES signifient que l'écluse "
+                    "est hors service, un feu rouge que l'accès est interdit, un feu "
+                    "VERT que l'accès est autorisé. C'est le même vocabulaire "
+                    "chromatique que partout ailleurs : rouge = non, vert = oui."
+                ),
+            },
+            "en": {
+                "title": "Lights on French inland waters: a light only counts if it is readable",
+                "body": (
+                    "Before telling you which light to show, the RGP fixes what a "
+                    "light must BE. Unless otherwise prescribed, the required lights "
+                    "show a continuous and uniform light (art. A4241-48-2) — neither "
+                    "flashing nor intermittent except where the regulation expressly "
+                    "asks for it. That is the rule that makes a light readable: its "
+                    "colour and position carry the meaning, not its rhythm.\n\n"
+                    "Two immediate corollaries:\n"
+                    "— A required light that stops working must be replaced WITHOUT "
+                    "DELAY by an emergency light (art. A4241-48-6). Navigating with a "
+                    "light out means displaying somebody else's signature.\n"
+                    "— Lights or signals other than those provided for are forbidden; "
+                    "they are admitted for communication between vessels, or between "
+                    "vessels and the shore, only provided they cannot be confused "
+                    "with the regulation lights (art. A4241-48-5).\n\n"
+                    "The colours follow the universal convention: on a small powered "
+                    "craft the PORT sidelight is RED (and the starboard one green) — "
+                    "art. A4241-48-13. Berthed, a vessel shows a white light "
+                    "(art. A4241-48-20).\n\n"
+                    "One case peculiar to rivers, and heavily examined: lock signals "
+                    "(art. A4241-53-31 §1). Here the light does not describe a vessel "
+                    "but controls a passage — two RED lights mean the lock is out of "
+                    "service, one red light that entry is forbidden, a GREEN light "
+                    "that entry is permitted. The same colour vocabulary as "
+                    "everywhere else: red no, green yes."
+                ),
+            },
+        },
+    },
 ]
 
 
