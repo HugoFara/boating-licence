@@ -26,6 +26,7 @@ RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "raw")
 SPARQL = "https://fedlex.data.admin.ch/sparqlendpoint"
 GII_BASE = "https://www.gesetze-im-internet.de"
 BWB_BASE = "https://repository.officiele-overheidspublicaties.nl/bwb"
+EURLEX_BASE = "https://eur-lex.europa.eu/legal-content"
 HEADERS = {"User-Agent": "boating-licence-study/0.1 (Phase 1 aggregator; personal study tool)"}
 WP_API = "https://fr.wikipedia.org/w/api.php"
 
@@ -306,6 +307,86 @@ def fetch_bwb(src: Source, force: bool = False, lang: str = "nl") -> dict:
 
 
 # --------------------------------------------------------------------------
+# EUR-Lex (EU law): one act, 24 official-language expressions, same CELEX. Reuse
+# is authorised by Commission Decision 2011/833/EU. As with Fedlex we resolve the
+# newest *consolidated* expression rather than pinning a date: EUR-Lex numbers a
+# consolidation "0<base>-<YYYYMMDD>", and the act's ALL page lists every one.
+# --------------------------------------------------------------------------
+
+_CONSOLIDATED = re.compile(r"\b0(\d{4}[LR]\d{4})-(\d{8})\b")
+
+
+def _eurlex_consolidated(celex: str) -> str:
+    """The newest consolidated CELEX for a base CELEX, or "" when the act has
+    never been amended (then the base text *is* the text in force)."""
+    base = celex.lstrip("3")
+    url = f"{EURLEX_BASE}/EN/ALL/?uri=CELEX:{celex}"
+    try:
+        page = _get(url).text
+    except requests.HTTPError:
+        return ""
+    dates = sorted(d for b, d in _CONSOLIDATED.findall(page) if b == base)
+    return f"0{base}-{dates[-1]}" if dates else ""
+
+
+# A rendition is usable only if it carries the ELI article skeleton the parser
+# reads. EUR-Lex does NOT serve the consolidated text with that skeleton in every
+# language — for Directive 2013/53/EU it is structured in EN and DE but a plain
+# unmarked page in NL and FR — and an unmarked page parses to *zero articles*
+# rather than to an error, which is the dangerous kind of failure.
+_STRUCTURED = re.compile(rb'class="eli-subdivision"[^>]*id="art_\d+"')
+
+
+def _eurlex_url(celex: str, lang: str) -> str:
+    return f"{EURLEX_BASE}/{lang.upper()}/TXT/HTML/?uri=CELEX:{celex}"
+
+
+def fetch_eurlex(src: Source, force: bool = False, lang: str = "en") -> dict:
+    """Fetch one EU act in one official language.
+
+    Prefers the newest consolidated version — that is the text in force — and
+    falls back to the act as published in the Official Journal when EUR-Lex has
+    no *structured* consolidated rendition in this language. Which one was taken
+    is recorded per unit (``text_status``), never silently swapped.
+    """
+    cache_key = src.id if lang == "fr" else os.path.join(src.id, lang)
+    manifest_path = _raw_path(cache_key, "manifest.json")
+    if os.path.exists(manifest_path) and not force:
+        with open(manifest_path, encoding="utf-8") as fh:
+            return json.load(fh)
+
+    celex = src.celex or src.id
+    consolidated = _eurlex_consolidated(celex)
+    effective, status = (consolidated, "consolidated") if consolidated else (celex, "as-published")
+    url = _eurlex_url(effective, lang)
+    body = _get(url).content
+    if status == "consolidated" and not _STRUCTURED.search(body):
+        effective, status = celex, "as-published"
+        url = _eurlex_url(effective, lang)
+        body = _get(url).content
+
+    local = _raw_path(cache_key, "act.html")
+    with open(local, "wb") as fh:
+        fh.write(body)
+
+    manifest = {
+        "source_id": src.id, "kind": src.kind, "lang": lang, "retrieved": _today(),
+        # The CELEX actually taken IS the legal version; an act with no
+        # consolidation reports its base CELEX so the staleness check can diff it.
+        "legal_version": effective,
+        "text_status": status,
+        # Recorded even when unused, so it is visible that a newer consolidation
+        # exists in another language and this one is still on the OJ text.
+        "latest_consolidated": consolidated,
+        "files": {"html": {"url": url, "path": os.path.relpath(local)}},
+        "canonical_url": src.url, "celex": celex,
+    }
+    with open(manifest_path, "w", encoding="utf-8") as fh:
+        json.dump(manifest, fh, ensure_ascii=False, indent=2)
+    return manifest
+
+
+# --------------------------------------------------------------------------
 # Wikipedia: pull parsed HTML + revision id per page via the MediaWiki API.
 # --------------------------------------------------------------------------
 
@@ -400,12 +481,14 @@ def fetch_pdf(src: Source, force: bool = False) -> dict:
 
 
 _DISPATCH = {"fedlex": fetch_fedlex, "gii": fetch_gii, "bwb": fetch_bwb,
+             "eurlex": fetch_eurlex,
              "wikipedia": fetch_wikipedia, "html": fetch_html, "pdf": fetch_pdf}
 # Law kinds: one act, fetched (and cached) as a per-language manifestation. The
 # set is about *layout*, not about how many languages exist — `gii` and `bwb` each
-# have exactly one (German, Dutch) and `fedlex` four; all keep their raw cache
-# under data/raw/<id>/<lang>/, which is the layout parse._manifest reads back.
-_PER_LANG_KINDS = {"fedlex", "gii", "bwb"}
+# have exactly one (German, Dutch), `fedlex` four and `eurlex` twenty-four; all
+# four keep their raw cache under data/raw/<id>/<lang>/, which is the layout
+# parse._manifest reads back.
+_PER_LANG_KINDS = {"fedlex", "gii", "bwb", "eurlex"}
 
 
 def fetch_source(src: Source, force: bool = False) -> dict:

@@ -62,6 +62,9 @@ python run.py build --country INT
 # Pays-Bas — klein vaarbewijs (droit néerlandais : aucun droit d'auteur, Auteurswet art. 11)
 python run.py build --country NL
 
+# Actes de l'UE — bateaux de plaisance (catégories de conception), certificats, qualifications
+python run.py build --country EU
+
 # bundle every built bank + assets into the static player
 python run.py web
 python -m http.server -d web 8000   # http://localhost:8000
@@ -115,8 +118,9 @@ documents dédiés, chacun rédigé dans la langue du pays :
 [`docs/germany.md`](docs/germany.md) (Deutsch) ·
 [`docs/switzerland.md`](docs/switzerland.md) (français) ·
 [`docs/netherlands.md`](docs/netherlands.md) (Nederlands) ·
-[`docs/italy.md`](docs/italy.md) (italiano — prévu, pas encore réalisé).
-L'architecture transversale se trouve dans [`docs/scope.md`](docs/scope.md).
+[`docs/italy.md`](docs/italy.md) (italiano — prévu, pas encore réalisé). Les couches
+supranationales sont dans [`docs/eu.md`](docs/eu.md), et l'architecture transversale
+dans [`docs/scope.md`](docs/scope.md).
 
 ### 🇫🇷 France — permis plaisance
 
@@ -235,6 +239,33 @@ permis, pas de bundle player — donc il n'apparaît jamais dans le sélecteur d
   d'autorisation de reproduction a été envoyée à l'UNECE et est en attente. Tant qu'elle
   n'est pas accordée, la base CEVNI reste ancrée via les transpositions nationales pour
   les eaux intérieures, du domaine public, déjà ingérées.
+
+## Actes de l'UE — la couche de droit de l'Union (`EU`)
+
+Un second membre supranational (`src/countries/eu.py`), et un droit d'une autre nature :
+ces actes ne disent pas qui doit céder le passage, ils régissent **le bateau, son
+certificat et votre qualification**. Comme `INT`, il ne sert qu'au sourcing — et il
+**n'ajoute aucune base** à l'arbre des régimes : une catégorie de conception n'est pas
+un troisième code de circulation, c'est du contenu portable valable sous n'importe
+lequel, donc les unités UE alimentent `universal`.
+
+- **Directive 2013/53/UE (bateaux de plaisance)** — directement examinable : l'annexe I
+  fixe les catégories de conception A–D par force du vent et hauteur significative de
+  vague, plus le marquage CE et la plaque constructeur. La **directive (UE) 2016/1629**
+  définit le certificat de navigation intérieure de l'Union ; la **directive (UE)
+  2017/2397** explique pourquoi un certificat néerlandais, allemand ou français est
+  reconnu dans toute l'Union.
+- **Réutilisation explicite.** EUR-Lex autorise la réutilisation de ses documents
+  juridiques à des fins commerciales et non commerciales (**décision 2011/833/UE**) ;
+  textes consolidés en CC BY 4.0, métadonnées en CC0. Les **normes harmonisées EN ISO**
+  restent, elles, des œuvres CEN/ISO vendues à l'unité : citées comme la directive les
+  cite, jamais reproduites.
+- **Un acte, 24 langues.** Les références émises sont **neutres linguistiquement**
+  (`Directive 2013/53/EU art. 12`) et le tagueur associe *(acte, numéro d'article)* → thème,
+  de sorte que la même disposition est la même unité dans chaque version. Vérifié en
+  EN/NL/DE/FR.
+- **Build :** `python run.py build --country EU` → **159 unités**. Détails dans
+  [`docs/eu.md`](docs/eu.md).
 
 ### Tronc commun partagé vs banque nationale
 

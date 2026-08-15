@@ -126,8 +126,9 @@ make the split accurate for a new country:
 > **Theme ids are one global namespace.** `classify()` routes by theme id alone, so
 > two countries sharing an id do not merely look confusing — the first branch in the
 > chain swallows the other country's questions and silently mis-scopes them. This is
-> why the Dutch meteorology theme is `weerkunde` — the Swiss taxonomy already owns
-> `meteorologie`. Pinned by
+> why the Dutch meteorology theme is `weerkunde` (the Swiss one already owns
+> `meteorologie`) and the EU final-provisions theme is `final_provisions` (the COLREG
+> layer already owns `general`). Pinned by
 > `tests/test_countries.py::test_theme_ids_are_one_global_namespace`.
 3. Run `python run.py web` and check the build summary's `global harmonised core:`
    line (per-base counts, pooled over N banks) — national statute should not leak

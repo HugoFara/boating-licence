@@ -61,6 +61,9 @@ python run.py build --country NL
 # the harmonised codes shared by every country (see below)
 python run.py build --country INT
 
+# EU acts — recreational craft (design categories), inland certificates, qualifications
+python run.py build --country EU
+
 # bundle every built bank + assets into the static player
 python run.py web
 python -m http.server -d web 8000   # http://localhost:8000
@@ -110,7 +113,8 @@ in the country's own language: [`docs/france.md`](docs/france.md) (français) ·
 [`docs/switzerland.md`](docs/switzerland.md) (français) ·
 [`docs/netherlands.md`](docs/netherlands.md) (Nederlands) ·
 [`docs/italy.md`](docs/italy.md) (italiano — planned, not yet built). The
-cross-country architecture is in [`docs/scope.md`](docs/scope.md).
+supra-national layers are in [`docs/eu.md`](docs/eu.md), and the cross-country
+architecture in [`docs/scope.md`](docs/scope.md).
 
 ### 🇫🇷 France — permis plaisance
 
@@ -233,6 +237,31 @@ no player bundle — so it never appears in the country picker.
   recorded as a `Reference`; a reproduction-permission request has been sent to UNECE
   and is pending. Until granted, the CEVNI base stays grounded via the public-domain
   national inland enactments already ingested.
+
+## EU acts — the Union-law layer (`EU`)
+
+A second supra-national member (`src/countries/eu.py`), and a different kind of law:
+these acts do not tell you who gives way, they govern **the boat, its certificate
+and your qualification**. Also sourcing-only, and it **adds no base to the regime
+tree** — a design category is not a third traffic code, it is portable content that
+holds under any of them, so EU units ground `universal` and the tree is untouched.
+
+- **Directive 2013/53/EU (recreational craft)** — directly examinable: Annex I fixes
+  design categories A–D by wind force and significant wave height, plus CE marking
+  and the builder's plate. **Directive (EU) 2016/1629** defines the Union inland
+  navigation certificate; **Directive (EU) 2017/2397** is why a Dutch, German or
+  French inland certificate is recognised across the Union.
+- **Reuse is explicit.** EUR-Lex authorises reuse of its legal documents for
+  commercial and non-commercial purposes under **Commission Decision 2011/833/EU**;
+  consolidated texts are CC BY 4.0 and metadata CC0. The **EN ISO harmonised
+  standards** behind "presumption of conformity" are CEN/ISO works, sold per copy —
+  named as the directive names them, never reproduced.
+- **One act, 24 languages.** The parser emits **language-neutral refs**
+  (`Directive 2013/53/EU art. 12`, not the localised `Artikel 12`) and the tagger
+  maps *(act, article number)* → theme, so the same provision is the same unit in
+  every expression. Verified across EN/NL/DE/FR.
+- **Build:** `python run.py build --country EU` → **159 units**. Details in
+  [`docs/eu.md`](docs/eu.md).
 
 ### Shared core vs national bank
 

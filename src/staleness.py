@@ -20,7 +20,8 @@ from upstream first (the network step); without it the check hashes whatever is 
 disk (offline / CI-cache mode). Blessing and checking therefore hash an identical
 file set and stay comparable.
 
-Drift is *graded*: law-grade sources (``fedlex``/``gii``/``bwb``/``pdf``/ELWIS/LEGI) are
+Drift is *graded*: law-grade sources (``fedlex``/``gii``/``bwb``/``eurlex``/
+``pdf``/ELWIS/LEGI) are
 **significant** — a derived question may now be wrong, so the check exits non-zero.
 Reference sources (Wikipedia/HTML prose) are **advisory** — reported, never fatal.
 
@@ -52,8 +53,8 @@ LEGI_KB = os.path.join(ROOT, "src", "fr", "legi_kb.json")
 # Kinds whose drift can invalidate a derived question (vs reference prose). ELWIS
 # and LEGI are law-grade too; they're fingerprinted by dedicated helpers below.
 # Law-grade: a change in these is a change in the rules, so drift is strict.
-# `bwb` is Dutch consolidated law.
-_LAW_KINDS = {"fedlex", "gii", "bwb", "pdf"}
+# `bwb` is Dutch consolidated law, `eurlex` an EU act.
+_LAW_KINDS = {"fedlex", "gii", "bwb", "eurlex", "pdf"}
 
 
 def _grade(kind: str) -> str:
@@ -120,7 +121,8 @@ def _manifest_version(source_id: str) -> str:
 # --------------------------------------------------------------------------
 
 def _fp_fetch_source(src, refresh: bool) -> dict:
-    """Fingerprint a `fetch.py`-tracked source (fedlex/gii/bwb/wikipedia/html/pdf)."""
+    """Fingerprint a `fetch.py`-tracked source (fedlex/gii/bwb/eurlex/wikipedia/
+    html/pdf)."""
     if refresh:
         fetch.fetch_source(src, force=True)
     return {"kind": src.kind, "grade": _grade(src.kind),

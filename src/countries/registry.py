@@ -7,7 +7,7 @@ namespaced by its code with no privileged treatment.
 
 from __future__ import annotations
 
-from . import ch, de, fr, intl, nl
+from . import ch, de, eu, fr, intl, nl
 from .base import Country
 
 COUNTRIES: dict[str, Country] = {
@@ -19,6 +19,10 @@ COUNTRIES: dict[str, Country] = {
     # A sourcing-only member: no permits, so the player skips it and the
     # jurisdictions tree treats it as a base, not a national implementer.
     intl.COUNTRY.code: intl.COUNTRY,
+    # The Union-law layer (recreational craft, inland certificates, qualifications).
+    # Also sourcing-only, and deliberately adds no base to the regime tree: these
+    # acts govern the boat and the certificate, not who gives way.
+    eu.COUNTRY.code: eu.COUNTRY,
 }
 
 # The international/harmonised layer is the project's default: the universal codes

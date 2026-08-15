@@ -526,3 +526,82 @@ the guard.
 3. `python run.py diagrams` then `python tests/test_diagrams.py`. The sourcing test
    is the review: if your quote is not in the law, the diagram does not ship.
 
+
+## Expansion — the Netherlands and the EU layer
+
+Two members joined the registry: **NL** (a full country) and **EU** (a
+sourcing-only Union-law layer). Both are ingestion + model work; neither ships
+questions yet. The detail lives in [`netherlands.md`](netherlands.md) and
+[`eu.md`](eu.md) — what follows is only what was *learned*.
+
+### Dutch law is the cleanest source the project has
+
+Germany has a limitation on copyright (§5(1) UrhG) and France an open licence
+(Etalab). **Auteurswet art. 11** goes further: the right does not exist on Dutch
+legislation at all. KOOP publishes every consolidated state as structured XML,
+indexed by a per-act `manifest.xml` whose `_latestItem` names the state in force —
+so the fetcher never guesses a date — and the annex figures sit beside the XML.
+The BPR alone brought **400+ official plates**: lights and shapes (bijlage 3),
+sound signals (6), waterway signs (7) and IALA-A buoyage (8). Four of the five
+families `diagrams.py` draws, here as the law's own artwork.
+
+### The Dutch tagger is deterministic, and the gate matters
+
+Every Dutch article number carries its chapter — "Artikel 5.01" is in chapter 5,
+and across the whole BPR no article label disagrees with the `<hoofdstuk>` it sits
+in. So the theme is read off the ref rather than guessed from keywords. The trap is
+that the rule is a fact about the two *politiereglementen*, not about Dutch law:
+"Artikel 7.15" of the Binnenvaartregeling is the exam-subject rule, and without a
+gate it would have been filed as a berthing rule. Both that gate and the
+BPR-only annex numbers are pinned by tests verified with negative controls.
+
+### Theme ids turned out to be one global namespace
+
+`scope.classify()` routes a question to its country branch **by theme id alone**.
+Two countries sharing an id do not merely look confusing — the first branch in the
+chain swallows the other's questions and silently mis-scopes them. Adding NL and EU
+produced two collisions (`meteorologie` with Switzerland, `general` with the COLREG
+layer), so the Dutch theme is `weerkunde` and the EU one `final_provisions`, and a
+test now asserts the namespaces stay disjoint. This was a latent bug in the design,
+not something the new countries introduced.
+
+### The EU layer adds no base — deliberately
+
+A design category is not a third traffic code. It is portable content that holds
+under *any* traffic code, which is what `universal` already means, so EU units
+ground `universal` and the regime tree is untouched. A fourth base would have
+shifted every scope decision and the player's National ⟷ Common-core toggle
+underneath it; a test now says so out loud.
+
+### One act, 24 languages — two things that had to change
+
+EUR-Lex localises the word "Article", so refs are emitted **language-neutral**
+(`Directive 2013/53/EU art. 12`) and the tagger maps *(act, article number)* → theme
+instead of matching keywords that would need writing 24 times. Verified by parsing
+the Recreational Craft Directive in EN/NL/DE/FR and asserting identical refs and
+themes with differing text.
+
+Two bugs worth remembering, both of the silent kind:
+
+* **`\b` before `(EU)` never matches.** The preceding character is a space and `(`
+  is not a word character, so every post-2015 act (`(EU) 2016/1629`) fell through to
+  the default theme instead of its range.
+* **EUR-Lex serves the consolidated text unstructured in some languages.** For the
+  RCD it carries the ELI article skeleton in EN and DE but is a plain page in NL and
+  FR — and a plain page parses to *zero articles* rather than to an error. The
+  fetcher now checks for the skeleton, falls back to the Official Journal text, and
+  records which one it took (`text_status`) plus the consolidation it declined
+  (`latest_consolidated`).
+
+### What is not done
+
+* **No Dutch questions yet.** The CBR publishes no catalogue (only sample exams), so
+  the bank has to be law-seeded from the BPR and the Binnenvaartregeling behind the
+  review gate — the Bodensee/BSO route. That is the next task, and it is the larger
+  half of the work.
+* **The 686 Dutch plates are attached to their annex, not to individual signs.** The
+  French RGP plates went one step further (per-code extraction + per-question
+  attachment); the Dutch ones have not.
+* **EU acts are built in English only** so far, though the parser is verified in four
+  languages. Building `--country EU --lang nl/de/fr` is a one-line change per bank
+  once there are questions to ground.

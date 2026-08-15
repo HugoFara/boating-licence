@@ -64,6 +64,9 @@ python run.py build --country INT
 # Niederlande — klein vaarbewijs (niederländisches Recht: kein Urheberrecht, Auteurswet Art. 11)
 python run.py build --country NL
 
+# EU-Rechtsakte — Sportboote (Entwurfskategorien), Binnenschiffszeugnisse, Qualifikationen
+python run.py build --country EU
+
 # bundle every built bank + assets into the static player
 python run.py web
 python -m http.server -d web 8000   # http://localhost:8000
@@ -118,7 +121,8 @@ eigenen Dokumenten, jeweils in der Sprache des Landes verfasst:
 [`docs/switzerland.md`](docs/switzerland.md) (français) ·
 [`docs/netherlands.md`](docs/netherlands.md) (Nederlands) ·
 [`docs/italy.md`](docs/italy.md) (italiano — geplant, noch nicht umgesetzt). Die
-länderübergreifende Architektur steht in [`docs/scope.md`](docs/scope.md).
+supranationalen Ebenen stehen in [`docs/eu.md`](docs/eu.md), die länderübergreifende
+Architektur in [`docs/scope.md`](docs/scope.md).
 
 ### 🇫🇷 Frankreich — permis plaisance
 
@@ -239,6 +243,32 @@ Länderauswähler.
   ein Antrag auf Reproduktionsgenehmigung wurde an die UNECE gesandt und steht aus. Bis
   zur Erteilung bleibt die CEVNI-Basis über die bereits übernommenen gemeinfreien
   nationalen Binnenumsetzungen fundiert.
+
+## EU-Rechtsakte — die Unionsrechts-Ebene (`EU`)
+
+Ein zweites supranationales Mitglied (`src/countries/eu.py`) und Recht anderer Art:
+Diese Akte sagen nicht, wer ausweichen muss, sondern regeln **das Boot, sein Zeugnis
+und Ihre Qualifikation**. Wie `INT` dient es nur der Quellenarbeit — und es **fügt dem
+Regime-Baum keine Basis hinzu**: Eine Entwurfskategorie ist kein dritter Verkehrscode,
+sondern portabler Inhalt, der unter jedem gilt; EU-Einheiten füllen daher `universal`.
+
+- **Richtlinie 2013/53/EU (Sportboote)** — unmittelbar prüfungsrelevant: Anhang I legt
+  die Entwurfskategorien A–D nach Windstärke und signifikanter Wellenhöhe fest, dazu
+  CE-Kennzeichnung und Herstellerplakette. **Richtlinie (EU) 2016/1629** definiert das
+  Unionszeugnis für Binnenschiffe; **Richtlinie (EU) 2017/2397** ist der Grund, warum
+  ein niederländisches, deutsches oder französisches Binnen-Zeugnis unionsweit
+  anerkannt wird.
+- **Nachnutzung ausdrücklich erlaubt.** EUR-Lex gestattet die Nachnutzung seiner
+  Rechtsdokumente kommerziell wie nicht-kommerziell (**Beschluss 2011/833/EU**);
+  konsolidierte Texte CC BY 4.0, Metadaten CC0. Die harmonisierten **EN-ISO-Normen**
+  bleiben CEN/ISO-Werke, die einzeln verkauft werden: benannt wie in der Richtlinie,
+  niemals wiedergegeben.
+- **Ein Akt, 24 Sprachen.** Die Fundstellen sind **sprachneutral**
+  (`Directive 2013/53/EU art. 12`), und der Tagger bildet *(Akt, Artikelnummer)* → Thema
+  ab, sodass dieselbe Vorschrift in jeder Fassung dieselbe Einheit ist. Geprüft in
+  EN/NL/DE/FR.
+- **Build:** `python run.py build --country EU` → **159 Einheiten**. Details in
+  [`docs/eu.md`](docs/eu.md).
 
 ### Gemeinsamer Kern vs. nationale Bank
 
