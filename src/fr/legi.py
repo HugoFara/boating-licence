@@ -70,8 +70,13 @@ class Text:
 
 TEXTS: list[Text] = [
     # Code des transports — 4ᵉ partie (navigation intérieure & transport fluvial).
+    # The numbered articles, plus the RGP's own annexes — which are articles too,
+    # numbered "Annexe N à l'article A4241-…". They were filtered out by the plain
+    # ^[LRAD]4\d{3} form, which left the questions that cite "RGP, annexe 5" pointing
+    # at a reference the KB could not resolve.
     Text("code_transports", "LEGITEXT000023086525", "Code des transports",
-         "Code des transports, art. ", "voies_navigables", num=r"^[LRAD]4\d{3}"),
+         "Code des transports, art. ", "voies_navigables",
+         num=r"^(?:[LRAD]4\d{3}|Annexe \d+ à l'article A4241)"),
     # Code de l'environnement — pollution par les rejets des navires (MARPOL).
     Text("code_environnement", "LEGITEXT000006074220", "Code de l'environnement",
          "Code de l'environnement, art. ", "environnement", num=r"^[LR]218-"),
@@ -208,7 +213,10 @@ def build_kb() -> dict:
                      [(t.source_id,) for t in TEXTS])
     write_units(conn, units)
     set_meta(conn, kb_version=_dt.date.today().isoformat(), country="FR", source="legi")
-    n = export_json(conn, KB_JSON)
+    # only the ingested statutes: kb.fr.sqlite also holds the hand-curated
+    # reference corpus (IALA, SHOM), which is committed separately and must
+    # not be folded into the LEGI corpus by a rebuild.
+    n = export_json(conn, KB_JSON, sources={t.source_id for t in TEXTS})
     conn.close()
     by_src: dict[str, int] = {}
     for u in units:

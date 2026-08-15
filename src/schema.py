@@ -143,10 +143,21 @@ def unit_to_json(u: KnowledgeUnit) -> dict:
     return d
 
 
-def export_json(conn: sqlite3.Connection, path: str) -> int:
-    """Dump the whole KB to a single JSON file (Phase-2 friendly, diffable)."""
+def export_json(conn: sqlite3.Connection, path: str,
+                sources: set[str] | None = None) -> int:
+    """Dump the KB to a single JSON file (Phase-2 friendly, diffable).
+
+    ``sources`` restricts the dump to those source ids. One KB file can hold more
+    than one corpus — France keeps the ingested LEGI law and the hand-curated
+    reference facts in the same database — and each is committed separately, so a
+    dump of *everything* silently folds one into the other."""
     conn.row_factory = sqlite3.Row
-    rows = conn.execute("SELECT * FROM units ORDER BY source_id, ref").fetchall()
+    if sources:
+        ph = ",".join("?" * len(sources))
+        rows = conn.execute(f"SELECT * FROM units WHERE source_id IN ({ph}) "
+                            "ORDER BY source_id, ref", sorted(sources)).fetchall()
+    else:
+        rows = conn.execute("SELECT * FROM units ORDER BY source_id, ref").fetchall()
     out = []
     for r in rows:
         rd = dict(r)
