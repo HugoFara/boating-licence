@@ -4,7 +4,7 @@
     "pool": "universal",
     "scope": "universal",
     "unofficial": true,
-    "generated": "2026-05-31",
+    "generated": "2026-08-15",
     "grounding": "Portable seamanship — valid under any code."
   },
   "questions": [
@@ -51,6 +51,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -98,6 +99,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -145,6 +147,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -192,6 +195,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -239,6 +243,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -286,6 +291,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -333,6 +339,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -380,6 +387,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -427,6 +435,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -474,6 +483,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -521,6 +531,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -568,6 +579,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -615,6 +627,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -662,6 +675,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -710,6 +724,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -757,6 +772,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -804,6 +820,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -851,6 +868,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -898,6 +916,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -945,6 +964,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -992,6 +1012,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -1039,6 +1060,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1086,6 +1108,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1133,6 +1156,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1180,6 +1204,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1227,6 +1252,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1274,6 +1300,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1321,6 +1348,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1368,6 +1396,7 @@
       "generator": "translation:en.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1415,6 +1444,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1462,6 +1492,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1509,6 +1540,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1556,6 +1588,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1603,6 +1636,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1650,6 +1684,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1697,6 +1732,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1744,6 +1780,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1791,6 +1828,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1838,6 +1876,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1885,6 +1924,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1932,6 +1972,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1979,6 +2020,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2026,6 +2068,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2073,6 +2116,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2120,6 +2164,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2167,6 +2212,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2214,6 +2260,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2261,6 +2308,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2308,6 +2356,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2355,6 +2404,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2402,6 +2452,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2449,6 +2500,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2496,6 +2548,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2543,6 +2596,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2590,6 +2644,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2637,6 +2692,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2684,6 +2740,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2731,6 +2788,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2778,6 +2836,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2825,6 +2884,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2872,6 +2932,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2919,6 +2980,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2966,6 +3028,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3013,6 +3076,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3060,6 +3124,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -3108,6 +3173,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3155,6 +3221,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3202,6 +3269,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3249,6 +3317,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -3297,6 +3366,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3344,6 +3414,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3391,6 +3462,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3438,6 +3510,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -3486,6 +3559,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -3534,6 +3608,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3581,6 +3656,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3628,6 +3704,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3675,6 +3752,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3722,6 +3800,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -3770,6 +3849,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3817,6 +3897,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3864,6 +3945,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3911,6 +3993,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -3959,6 +4042,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4006,6 +4090,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4053,6 +4138,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4100,6 +4186,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4147,6 +4234,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4194,6 +4282,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4241,6 +4330,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4288,6 +4378,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4335,6 +4426,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4382,6 +4474,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4429,6 +4522,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4476,6 +4570,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4523,6 +4618,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         1,
         2
@@ -4571,6 +4667,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0,
         2
@@ -4619,6 +4716,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4666,6 +4764,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4713,6 +4812,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4760,6 +4860,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4807,6 +4908,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4854,6 +4956,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4901,6 +5004,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -4949,6 +5053,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4996,6 +5101,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -5044,6 +5150,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5091,6 +5198,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5138,6 +5246,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0,
         2
@@ -5186,6 +5295,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5233,6 +5343,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0,
         2
@@ -5281,6 +5392,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5328,6 +5440,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -5376,6 +5489,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5423,6 +5537,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5470,6 +5585,7 @@
       "generator": "subagent:int.en.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0,
         1

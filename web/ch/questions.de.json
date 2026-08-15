@@ -60,6 +60,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -107,6 +108,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -154,6 +156,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -201,6 +204,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -248,6 +252,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -295,6 +300,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -342,6 +348,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -389,6 +396,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -436,6 +444,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -483,6 +492,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -530,6 +540,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -577,6 +588,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -624,6 +636,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -671,6 +684,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -718,6 +732,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -766,6 +781,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -813,6 +829,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -860,6 +877,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -907,6 +925,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -954,6 +973,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1001,6 +1021,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1048,6 +1069,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1095,6 +1117,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1142,6 +1165,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1189,6 +1213,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1236,6 +1261,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1283,6 +1309,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1330,6 +1357,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1377,6 +1405,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1424,6 +1453,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1471,6 +1501,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1518,6 +1549,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1565,6 +1597,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -1613,6 +1646,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1660,6 +1694,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1707,6 +1742,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1754,6 +1790,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -1802,6 +1839,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1849,6 +1887,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1896,6 +1935,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1943,6 +1983,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1990,6 +2031,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2037,6 +2079,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2084,6 +2127,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2131,6 +2175,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2178,6 +2223,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2225,6 +2271,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2272,6 +2319,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -2320,6 +2368,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2367,6 +2416,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2414,6 +2464,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2461,6 +2512,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2508,6 +2560,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2555,6 +2608,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2602,6 +2656,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2649,6 +2704,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2696,6 +2752,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2743,6 +2800,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2790,6 +2848,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2837,6 +2896,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2884,6 +2944,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2931,6 +2992,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2978,6 +3040,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3025,6 +3088,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3072,6 +3136,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -3119,6 +3184,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3166,6 +3232,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3213,6 +3280,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3260,6 +3328,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3307,6 +3376,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3354,6 +3424,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3401,6 +3472,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3448,6 +3520,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3495,6 +3568,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3542,6 +3616,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3589,6 +3664,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3636,6 +3712,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3683,6 +3760,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3730,6 +3808,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3777,6 +3856,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3824,6 +3904,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3871,6 +3952,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -3918,6 +4000,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3965,6 +4048,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4012,6 +4096,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4059,6 +4144,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4106,6 +4192,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4153,6 +4240,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4200,6 +4288,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4247,6 +4336,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4294,6 +4384,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4341,6 +4432,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -4388,6 +4480,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -4435,6 +4528,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4482,6 +4576,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -4529,6 +4624,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -4576,6 +4672,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4623,6 +4720,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4670,6 +4768,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4717,6 +4816,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4764,6 +4864,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4811,6 +4912,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -4858,6 +4960,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -4905,6 +5008,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4952,6 +5056,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4999,6 +5104,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -5046,6 +5152,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5093,6 +5200,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -5140,6 +5248,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -5187,6 +5296,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5234,6 +5344,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5281,6 +5392,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5328,6 +5440,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5375,6 +5488,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5422,6 +5536,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -5469,6 +5584,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5516,6 +5632,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5563,6 +5680,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -5610,6 +5728,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5657,6 +5776,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5704,6 +5824,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5751,6 +5872,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5798,6 +5920,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5845,6 +5968,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5892,6 +6016,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5939,6 +6064,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5986,6 +6112,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6033,6 +6160,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -6080,6 +6208,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -6127,6 +6256,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -6174,6 +6304,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -6221,6 +6352,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -6268,6 +6400,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6315,6 +6448,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6362,6 +6496,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6409,6 +6544,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6456,6 +6592,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6503,6 +6640,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6550,6 +6688,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6597,6 +6736,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6644,6 +6784,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6691,6 +6832,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6738,6 +6880,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6785,6 +6928,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6832,6 +6976,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6879,6 +7024,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6926,6 +7072,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6973,6 +7120,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7020,6 +7168,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7067,6 +7216,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7114,6 +7264,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7161,6 +7312,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7208,6 +7360,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7255,6 +7408,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7302,6 +7456,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7349,6 +7504,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7396,6 +7552,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7443,6 +7600,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7490,6 +7648,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7537,6 +7696,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7584,6 +7744,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7631,6 +7792,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7678,6 +7840,7 @@
       "generator": "figure:de.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7725,6 +7888,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -7772,6 +7936,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7819,6 +7984,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -7866,6 +8032,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -7913,6 +8080,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -7960,6 +8128,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -8007,6 +8176,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -8054,6 +8224,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8101,6 +8272,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8148,6 +8320,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8195,6 +8368,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8242,6 +8416,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -8289,6 +8464,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8336,6 +8512,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -8383,6 +8560,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8430,6 +8608,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -8477,6 +8656,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -8524,6 +8704,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8571,6 +8752,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -8618,6 +8800,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8665,6 +8848,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -8712,6 +8896,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -8759,6 +8944,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8806,6 +8992,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8853,6 +9040,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8900,6 +9088,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8947,6 +9136,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]

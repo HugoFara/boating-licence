@@ -60,6 +60,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -107,6 +108,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -154,6 +156,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -201,6 +204,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -248,6 +252,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -295,6 +300,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -342,6 +348,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -389,6 +396,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -436,6 +444,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -483,6 +492,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -530,6 +540,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -577,6 +588,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -624,6 +636,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -672,6 +685,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -719,6 +733,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -766,6 +781,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -813,6 +829,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -860,6 +877,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -907,6 +925,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -955,6 +974,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1002,6 +1022,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -1050,6 +1071,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1097,6 +1119,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1144,6 +1167,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1191,6 +1215,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -1239,6 +1264,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1286,6 +1312,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1333,6 +1360,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1380,6 +1408,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1427,6 +1456,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1474,6 +1504,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1521,6 +1552,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1568,6 +1600,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1615,6 +1648,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1662,6 +1696,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1709,6 +1744,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1756,6 +1792,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1803,6 +1840,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1850,6 +1888,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1897,6 +1936,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1944,6 +1984,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1991,6 +2032,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2038,6 +2080,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2085,6 +2128,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2132,6 +2176,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -2180,6 +2225,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2227,6 +2273,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2274,6 +2321,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2321,6 +2369,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2368,6 +2417,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2415,6 +2465,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2462,6 +2513,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2509,6 +2561,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2556,6 +2609,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2603,6 +2657,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2650,6 +2705,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2697,6 +2753,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -2744,6 +2801,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2791,6 +2849,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -2839,6 +2898,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2886,6 +2946,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2933,6 +2994,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -2981,6 +3043,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3028,6 +3091,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3075,6 +3139,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -3122,6 +3187,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3169,6 +3235,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3216,6 +3283,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3263,6 +3331,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3310,6 +3379,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3357,6 +3427,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3404,6 +3475,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -3451,6 +3523,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3498,6 +3571,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3545,6 +3619,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -3592,6 +3667,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3639,6 +3715,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3686,6 +3763,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -3733,6 +3811,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3780,6 +3859,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3827,6 +3907,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3874,6 +3955,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -3921,6 +4003,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -3968,6 +4051,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -4015,6 +4099,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -4062,6 +4147,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4109,6 +4195,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4156,6 +4243,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4203,6 +4291,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4250,6 +4339,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4297,6 +4387,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4344,6 +4435,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4391,6 +4483,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4438,6 +4531,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4485,6 +4579,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4532,6 +4627,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4579,6 +4675,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4626,6 +4723,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4673,6 +4771,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4720,6 +4819,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4767,6 +4867,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4814,6 +4915,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4861,6 +4963,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4908,6 +5011,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4955,6 +5059,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5002,6 +5107,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5049,6 +5155,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -5096,6 +5203,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5143,6 +5251,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5190,6 +5299,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -5237,6 +5347,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -5284,6 +5395,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5331,6 +5443,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5378,6 +5491,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5425,6 +5539,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5472,6 +5587,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5519,6 +5635,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5566,6 +5683,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5613,6 +5731,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5660,6 +5779,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -5707,6 +5827,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5754,6 +5875,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5801,6 +5923,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5848,6 +5971,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5895,6 +6019,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -5942,6 +6067,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5989,6 +6115,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -6036,6 +6163,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -6083,6 +6211,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -6130,6 +6259,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -6177,6 +6307,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6224,6 +6355,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6271,6 +6403,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -6318,6 +6451,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6365,6 +6499,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -6412,6 +6547,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6459,6 +6595,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -6506,6 +6643,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -6553,6 +6691,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -6600,6 +6739,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6647,6 +6787,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -6694,6 +6835,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -6741,6 +6883,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -6788,6 +6931,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6835,6 +6979,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6882,6 +7027,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6929,6 +7075,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6976,6 +7123,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7023,6 +7171,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7070,6 +7219,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7117,6 +7267,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7164,6 +7315,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7211,6 +7363,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -7258,6 +7411,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7305,6 +7459,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -7352,6 +7507,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -7399,6 +7555,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -7446,6 +7603,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -7493,6 +7651,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7540,6 +7699,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7587,6 +7747,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7634,6 +7795,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7681,6 +7843,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7728,6 +7891,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7775,6 +7939,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7822,6 +7987,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7869,6 +8035,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7916,6 +8083,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -7963,6 +8131,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8010,6 +8179,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8057,6 +8227,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8104,6 +8275,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8151,6 +8323,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8198,6 +8371,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8245,6 +8419,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8292,6 +8467,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8339,6 +8515,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8386,6 +8563,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8433,6 +8611,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8480,6 +8659,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8527,6 +8707,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -8574,6 +8755,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8621,6 +8803,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8668,6 +8851,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8715,6 +8899,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8762,6 +8947,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -8809,6 +8995,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -8856,6 +9043,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -8903,6 +9091,7 @@
       "generator": "figure:fr.v1",
       "block": "",
       "principle": "nav-lights",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -8950,6 +9139,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -8997,6 +9187,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -9044,6 +9235,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -9091,6 +9283,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -9138,6 +9331,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -9185,6 +9379,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -9232,6 +9427,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -9279,6 +9475,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -9326,6 +9523,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -9373,6 +9571,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -9420,6 +9619,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -9467,6 +9667,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -9514,6 +9715,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -9561,6 +9763,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -9608,6 +9811,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -9655,6 +9859,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -9702,6 +9907,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -9749,6 +9955,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -9796,6 +10003,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -9843,6 +10051,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -9890,6 +10099,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -9937,6 +10147,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "waterway-signs",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -9984,6 +10195,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -10031,6 +10243,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -10078,6 +10291,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -10125,6 +10339,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -10172,6 +10387,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -10219,6 +10435,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -10266,6 +10483,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]

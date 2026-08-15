@@ -4,7 +4,7 @@
     "pool": "universal",
     "scope": "universal",
     "unofficial": false,
-    "generated": "2026-05-31",
+    "generated": "2026-08-15",
     "grounding": "Portable seamanship — valid under any code."
   },
   "questions": [
@@ -51,6 +51,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -98,6 +99,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -145,6 +147,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -192,6 +195,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -239,6 +243,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -286,6 +291,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -333,6 +339,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -380,6 +387,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -427,6 +435,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -474,6 +483,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -521,6 +531,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -568,6 +579,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -615,6 +627,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -663,6 +676,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -710,6 +724,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -757,6 +772,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -804,6 +820,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -851,6 +868,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -898,6 +916,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -945,6 +964,7 @@
       "generator": "subagent:fr.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -992,6 +1012,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -1039,6 +1060,7 @@
       "generator": "tmpl:figure_recognition.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1086,6 +1108,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1133,6 +1156,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1180,6 +1204,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1227,6 +1252,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1274,6 +1300,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1321,6 +1348,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1368,6 +1396,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1415,6 +1444,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1462,6 +1492,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1509,6 +1540,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1556,6 +1588,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1603,6 +1636,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1650,6 +1684,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1697,6 +1732,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1744,6 +1780,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1791,6 +1828,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1838,6 +1876,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1885,6 +1924,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1932,6 +1972,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1979,6 +2020,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2026,6 +2068,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2073,6 +2116,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2120,6 +2164,7 @@
       "generator": "derive:ref.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2167,6 +2212,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2214,6 +2260,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2261,6 +2308,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2308,6 +2356,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2355,6 +2404,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2402,6 +2452,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2449,6 +2500,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2496,6 +2548,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2543,6 +2596,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2590,6 +2644,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2637,6 +2692,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2684,6 +2740,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2731,6 +2788,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2778,6 +2836,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2825,6 +2884,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]

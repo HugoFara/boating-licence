@@ -11,7 +11,7 @@
     "permis": "eaux_interieures",
     "permis_label": "Permis plaisance — option eaux intérieures",
     "country": "FR",
-    "generated": "2026-05-31",
+    "generated": "2026-08-15",
     "kb_version": "",
     "lang": "en",
     "unofficial": "true",
@@ -67,6 +67,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -114,6 +115,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -161,6 +163,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -208,6 +211,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -255,6 +259,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -302,6 +307,7 @@
       "generator": "seed:fr.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -349,6 +355,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "sound-signals",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -396,6 +403,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -443,6 +451,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -490,6 +499,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -537,6 +547,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -584,6 +595,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -631,6 +643,7 @@
       "generator": "derive:legi.v1",
       "block": "",
       "principle": "iala-buoyage",
+      "difficulty": "unrated",
       "correct": [
         0
       ]

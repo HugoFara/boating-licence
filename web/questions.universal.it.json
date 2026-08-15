@@ -4,7 +4,7 @@
     "pool": "universal",
     "scope": "universal",
     "unofficial": false,
-    "generated": "2026-05-31",
+    "generated": "2026-08-15",
     "grounding": "Portable seamanship — valid under any code."
   },
   "questions": [
@@ -51,6 +51,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -98,6 +99,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -145,6 +147,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -192,6 +195,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -239,6 +243,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -287,6 +292,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -334,6 +340,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -381,6 +388,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -428,6 +436,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -475,6 +484,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -523,6 +533,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -571,6 +582,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "day-shapes",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -618,6 +630,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -665,6 +678,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -712,6 +726,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -759,6 +774,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -806,6 +822,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -853,6 +870,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -900,6 +918,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -947,6 +966,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -994,6 +1014,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1041,6 +1062,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1088,6 +1110,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1135,6 +1158,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1182,6 +1206,7 @@
       "generator": "subagent:it.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1229,6 +1254,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1276,6 +1302,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1323,6 +1350,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1370,6 +1398,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1417,6 +1446,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]

@@ -4,7 +4,7 @@
     "pool": "universal",
     "scope": "universal",
     "unofficial": false,
-    "generated": "2026-05-31",
+    "generated": "2026-08-15",
     "grounding": "Portable seamanship — valid under any code."
   },
   "questions": [
@@ -51,6 +51,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -98,6 +99,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -145,6 +147,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -192,6 +195,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -239,6 +243,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -286,6 +291,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -334,6 +340,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -381,6 +388,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -428,6 +436,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -475,6 +484,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0,
         1
@@ -523,6 +533,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -570,6 +581,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -617,6 +629,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -664,6 +677,7 @@
       "generator": "subagent:de.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -711,6 +725,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -758,6 +773,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -805,6 +821,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -852,6 +869,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -899,6 +917,7 @@
       "generator": "seed:curated.v1",
       "block": "",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -952,6 +971,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1005,6 +1025,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -1058,6 +1079,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1111,6 +1133,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -1164,6 +1187,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -1217,6 +1241,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -1270,6 +1295,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -1323,6 +1349,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -1376,6 +1403,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -1429,6 +1457,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1482,6 +1511,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -1535,6 +1565,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -1588,6 +1619,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -1641,6 +1673,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1694,6 +1727,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -1747,6 +1781,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -1800,6 +1835,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -1853,6 +1889,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -1906,6 +1943,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -1959,6 +1997,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -2012,6 +2051,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -2065,6 +2105,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2118,6 +2159,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -2171,6 +2213,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -2224,6 +2267,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -2277,6 +2321,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -2330,6 +2375,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -2383,6 +2429,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -2436,6 +2483,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -2489,6 +2537,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2542,6 +2591,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2595,6 +2645,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -2648,6 +2699,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -2701,6 +2753,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -2754,6 +2807,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -2807,6 +2861,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -2860,6 +2915,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -2913,6 +2969,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -2966,6 +3023,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -3019,6 +3077,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3072,6 +3131,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -3125,6 +3185,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -3178,6 +3239,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -3231,6 +3293,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -3284,6 +3347,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -3337,6 +3401,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -3390,6 +3455,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -3443,6 +3509,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -3496,6 +3563,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -3549,6 +3617,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -3602,6 +3671,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -3655,6 +3725,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -3708,6 +3779,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -3761,6 +3833,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -3814,6 +3887,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -3867,6 +3941,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -3920,6 +3995,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -3973,6 +4049,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -4026,6 +4103,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4079,6 +4157,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -4132,6 +4211,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4185,6 +4265,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -4238,6 +4319,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -4291,6 +4373,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4344,6 +4427,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -4397,6 +4481,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -4450,6 +4535,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4503,6 +4589,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -4556,6 +4643,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4609,6 +4697,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4662,6 +4751,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4715,6 +4805,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -4768,6 +4859,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4821,6 +4913,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4874,6 +4967,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "give-way",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -4927,6 +5021,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -4980,6 +5075,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5033,6 +5129,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5086,6 +5183,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -5139,6 +5237,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5192,6 +5291,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "basis",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5245,6 +5345,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -5298,6 +5399,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -5351,6 +5453,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5404,6 +5507,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -5457,6 +5561,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5510,6 +5615,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5563,6 +5669,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -5616,6 +5723,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5669,6 +5777,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         1
       ]
@@ -5722,6 +5831,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "spezifisch_binnen",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -5775,6 +5885,7 @@
       "generator": "elwis:fragenkatalog.binnen.2023-08",
       "block": "segeln",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -5828,6 +5939,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -5881,6 +5993,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5934,6 +6047,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -5987,6 +6101,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -6040,6 +6155,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6093,6 +6209,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -6146,6 +6263,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6199,6 +6317,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
@@ -6252,6 +6371,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         2
       ]
@@ -6305,6 +6425,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         0
       ]
@@ -6358,6 +6479,7 @@
       "generator": "elwis:fragenkatalog.see.2023-08",
       "block": "spezifisch_see",
       "principle": "",
+      "difficulty": "unrated",
       "correct": [
         3
       ]
