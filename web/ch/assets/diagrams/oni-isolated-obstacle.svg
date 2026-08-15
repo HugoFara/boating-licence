@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 210" width="120" height="210" role="img" aria-label="Cône pointe en bas, peint en rouge">
+<!-- Generated figure, derived from ONI Annexe 4 – fig. 49 (RS 747.201.1). Original artwork; project licence (CC BY-SA 4.0), not a reproduction of any source figure. gen:diagram.v1 -->
+<title>Cône pointe en bas, peint en rouge</title>
+<rect width="120" height="210" fill="#ffffff"/>
+<rect x="0" y="186" width="120" height="24" fill="#dbe8f4"/>
+<line x1="0" y1="186" x2="120" y2="186" stroke="#9fbdd8" stroke-width="2"/>
+<rect x="58.5" y="42" width="3" height="70" fill="#555"/><polygon points="60.0,76.0 46.5,46.0 73.5,46.0" fill="#d1342f" stroke="#111" stroke-width="1.5" stroke-linejoin="round"/>
+<rect x="56.0" y="108.0" width="8" height="78.0" rx="2" fill="#e9edf2" stroke="#111" stroke-width="1.5"/>
+</svg>

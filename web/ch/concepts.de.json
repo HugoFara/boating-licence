@@ -40,7 +40,13 @@
     "kind": "principle",
     "title": "Schweizer Bezeichnung: die Form gibt die Seite, die Kegel den Quadranten",
     "body": "Auf Schweizer Gewässern tragen zwei Formen das ganze System: der ZYLINDER und der KEGEL. Alles wird in einer einzigen Bezugsrichtung gelesen, «vom See her» — also vom freien Wasser gegen das Ufer.\n\nFahrrinne (Art. 37 Abs. 4; Anhang 4, Fig. 50, 51 und 53):\n— Links, vom See her gesehen: ZYLINDER, rot gestrichen oder ungestrichen.\n— Rechts: KEGEL mit der Spitze nach oben, grün gestrichen oder ungestrichen.\n— Bei Nacht dasselbe als Licht: ROTE Blitzlichter links, GRÜNE rechts.\nDasselbe Paar begrenzt eine Untiefe nahe dem Ufer: Zylinder auf der Seeseite, Kegel auf der Landseite (Fig. 52).\n\nEinzelnes Hindernis (Fig. 49): ein KEGEL MIT DER SPITZE NACH UNTEN, rot gestrichen oder ungestrichen. Die umgekehrte Spitze heisst «das ist kein Fahrrinnenrand, das ist ein Objekt, das zu meiden ist».\n\nAusgedehnte Hindernisse — die Quadrantenzeichen (Fig. 54). Zwei übereinander angebrachte Kegel sagen, in welchem Quadranten das tiefe Wasser liegt:\n— Nord: beide Spitzen NACH OBEN.\n— Süd: beide Spitzen NACH UNTEN.\n— Ost: der untere mit der Spitze nach unten, der obere nach oben (die Grundflächen berühren sich).\n— West: der untere mit der Spitze nach oben, der obere nach unten (die Spitzen berühren sich).\nNord und Süd merkt man sich von selbst: die Spitzen zeigen zur Seite, auf der man vorbeifährt.\n\nNicht zu verwechseln: dies ist die Bezeichnung der Schweizer Binnengewässer. Das maritime IALA-System der Region A mit seinen roten und grünen Lateralzeichen «von See kommend» ist ein anderer Bezugsrahmen.",
-    "figures": [],
+    "figures": [
+      "oni-fairway-port",
+      "oni-fairway-starboard",
+      "oni-isolated-obstacle",
+      "quadrant-north-two-cones-up",
+      "quadrant-south-two-cones-down"
+    ],
     "prov": {
       "ref": "ONI art. 37 et annexe 4, ch. I (fig. 49 à 55) — balisage des chenaux et des obstacles",
       "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",

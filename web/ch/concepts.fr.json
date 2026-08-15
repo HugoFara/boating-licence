@@ -40,7 +40,13 @@
     "kind": "principle",
     "title": "Balisage suisse : la forme donne le côté, les cônes donnent le quadrant",
     "body": "Sur les eaux suisses, deux formes suffisent à tenir le système : le CYLINDRE et le CÔNE. Tout se lit dans un sens de référence unique, «vu du large» — c'est-à-dire depuis l'eau libre vers la rive.\n\nChenal (art. 37, al. 4 ; annexe 4, fig. 50, 51 et 53) :\n— À gauche, vu du large : des CYLINDRES, peints en rouge ou non peints.\n— À droite : des CÔNES pointe en haut, peints en vert ou non peints.\n— De nuit, la même chose en lumière : feux à éclats ROUGES à gauche, VERTS à droite.\nLe même couple sert à border un haut-fond près de la rive : cylindres du côté du large, cônes du côté de la terre (fig. 52).\n\nObstacle isolé (fig. 49) : un CÔNE POINTE EN BAS, peint en rouge ou non peint. La pointe renversée est le signal «ceci n'est pas un bord de chenal, c'est un objet à éviter».\n\nObstacles étendus — les marques de quadrant (fig. 54). Deux cônes superposés disent dans quel quadrant se trouve l'eau profonde :\n— Nord : les deux pointes EN HAUT.\n— Sud : les deux pointes EN BAS.\n— Est : cône inférieur pointe en bas, supérieur pointe en haut (les deux bases se touchent).\n— Ouest : cône inférieur pointe en haut, supérieur pointe en bas (les deux pointes se touchent).\nNord et Sud se retiennent seuls : les pointes montrent le côté où passer. Un exemple de l'annexe donne la lecture complète — les marques indiquent que les eaux profondes se trouvent dans les quadrants Nord et Ouest (fig. 55).\n\nAttention à ne pas mélanger deux systèmes : ce balisage-ci est celui des eaux intérieures suisses. Le balisage maritime IALA région A, avec ses marques latérales rouges et vertes «en venant du large», est un autre référentiel.",
-    "figures": [],
+    "figures": [
+      "oni-fairway-port",
+      "oni-fairway-starboard",
+      "oni-isolated-obstacle",
+      "quadrant-north-two-cones-up",
+      "quadrant-south-two-cones-down"
+    ],
     "prov": {
       "ref": "ONI art. 37 et annexe 4, ch. I (fig. 49 à 55) — balisage des chenaux et des obstacles",
       "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",

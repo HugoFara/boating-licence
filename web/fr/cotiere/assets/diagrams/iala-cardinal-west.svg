@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 210" width="120" height="210" role="img" aria-label="Deux cônes noirs pointe à pointe ; corps jaune à bande noire">
+<!-- Generated figure, derived from IALA R1001 §2.2.4 — marque cardinale Ouest. Original artwork; project licence (CC BY-SA 4.0), not a reproduction of any source figure. gen:diagram.v1 -->
+<title>Deux cônes noirs pointe à pointe ; corps jaune à bande noire</title>
+<rect width="120" height="210" fill="#ffffff"/>
+<rect x="0" y="186" width="120" height="24" fill="#dbe8f4"/>
+<line x1="0" y1="186" x2="120" y2="186" stroke="#9fbdd8" stroke-width="2"/>
+<rect x="58.5" y="42" width="3" height="70" fill="#555"/><polygon points="60.0,57 48.3,31 71.7,31" fill="#1b1b1b" stroke="#111" stroke-width="1.5" stroke-linejoin="round"/><polygon points="60.0,63 48.3,89 71.7,89" fill="#1b1b1b" stroke="#111" stroke-width="1.5" stroke-linejoin="round"/>
+<defs><clipPath id="b"><rect x="45.0" y="108.0" width="30.0" height="78.0" rx="4"/></clipPath></defs><g clip-path="url(#b)"><rect x="45.0" y="108.0" width="30.0" height="26.0" fill="#f2c317"/><rect x="45.0" y="134.0" width="30.0" height="26.0" fill="#1b1b1b"/><rect x="45.0" y="160.0" width="30.0" height="26.0" fill="#f2c317"/></g><rect x="45.0" y="108.0" width="30.0" height="78.0" rx="4" fill="none" stroke="#111" stroke-width="1.5"/>
+</svg>

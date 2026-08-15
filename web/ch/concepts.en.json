@@ -40,7 +40,13 @@
     "kind": "principle",
     "title": "Swiss marking: the shape gives the side, the cones give the quadrant",
     "body": "On Swiss waters two shapes carry the whole system: the CYLINDER and the CONE. Everything is read in a single reference direction, \"seen from the open water\" — that is, from open water towards the shore.\n\nChannel (art. 37, para. 4; annex 4, fig. 50, 51 and 53):\n— On the left, seen from the open water: CYLINDERS, painted red or unpainted.\n— On the right: CONES point upwards, painted green or unpainted.\n— At night the same thing in light: RED flashing lights to the left, GREEN to the right.\nThe same pair edges a shoal near the bank: cylinders on the open-water side, cones on the shore side (fig. 52).\n\nIsolated obstacle (fig. 49): a CONE POINT DOWNWARDS, painted red or unpainted. The inverted point says \"this is not a channel edge, this is an object to avoid\".\n\nExtended obstacles — the quadrant marks (fig. 54). Two cones one above the other say which quadrant holds the deep water:\n— North: both points UP.\n— South: both points DOWN.\n— East: lower cone point down, upper point up (the bases meet).\n— West: lower cone point up, upper point down (the points meet).\nNorth and South remember themselves: the points show the side to pass. An example in the annex gives the full reading — the marks indicate that deep water lies in the North and West quadrants (fig. 55).\n\nDon't mix two systems: this is the marking of Swiss inland waters. Maritime IALA Region A, with its red and green lateral marks \"coming from seaward\", is a different frame of reference.",
-    "figures": [],
+    "figures": [
+      "oni-fairway-port",
+      "oni-fairway-starboard",
+      "oni-isolated-obstacle",
+      "quadrant-north-two-cones-up",
+      "quadrant-south-two-cones-down"
+    ],
     "prov": {
       "ref": "ONI art. 37 et annexe 4, ch. I (fig. 49 à 55) — balisage des chenaux et des obstacles",
       "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",

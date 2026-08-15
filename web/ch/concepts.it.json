@@ -40,7 +40,13 @@
     "kind": "principle",
     "title": "Segnalamento svizzero: la forma dà il lato, i coni il quadrante",
     "body": "Sulle acque svizzere due forme reggono l'intero sistema: il CILINDRO e il CONO. Tutto si legge in un'unica direzione di riferimento, «visto dal largo» — cioè dall'acqua libera verso la riva.\n\nCanale navigabile (art. 37 cpv. 4; allegato 4, fig. 50, 51 e 53):\n— A sinistra, visto dal largo: CILINDRI, dipinti di rosso o non dipinti.\n— A destra: CONI con la punta in alto, dipinti di verde o non dipinti.\n— Di notte lo stesso in luce: luci lampeggianti ROSSE a sinistra, VERDI a destra.\nLa stessa coppia delimita un basso fondale vicino alla riva: cilindri dal lato del largo, coni dal lato di terra (fig. 52).\n\nOstacolo isolato (fig. 49): un CONO CON LA PUNTA IN BASSO, dipinto di rosso o non dipinto. La punta rovesciata dice «questo non è un bordo di canale, è un oggetto da evitare».\n\nOstacoli estesi — i segnali di quadrante (fig. 54). Due coni sovrapposti dicono in quale quadrante si trova l'acqua profonda:\n— Nord: entrambe le punte IN ALTO.\n— Sud: entrambe le punte IN BASSO.\n— Est: il cono inferiore con la punta in basso, quello superiore in alto (le basi si toccano).\n— Ovest: il cono inferiore con la punta in alto, quello superiore in basso (le punte si toccano).\nNord e Sud si ricordano da soli: le punte indicano il lato da cui passare. Un esempio dell'allegato dà la lettura completa — i segnali indicano che le acque profonde si trovano nei quadranti nord e ovest (fig. 55).\n\nDa non confondere: questo è il segnalamento delle acque interne svizzere. Il sistema marittimo IALA regione A, con i suoi segnali laterali rossi e verdi «venendo dal largo», è un altro riferimento.",
-    "figures": [],
+    "figures": [
+      "oni-fairway-port",
+      "oni-fairway-starboard",
+      "oni-isolated-obstacle",
+      "quadrant-north-two-cones-up",
+      "quadrant-south-two-cones-down"
+    ],
     "prov": {
       "ref": "ONI art. 37 et annexe 4, ch. I (fig. 49 à 55) — balisage des chenaux et des obstacles",
       "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
