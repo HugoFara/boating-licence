@@ -12,12 +12,16 @@ UNIVERSAL                         seamanship valid on any water, any country
 │  ├─ CH-INLAND  (implements)     ONI/RNL — Switzerland
 │  ├─ DE-INLAND  (implements)     BinSchStrO
 │  ├─ FR-INLAND  (implements)     RGP — eaux intérieures
-│  ├─ RHINE      (diverges)       CCNR / RheinSchPV
+│  ├─ NL-INLAND  (implements)     BPR — klein vaarbewijs I/II
+│  ├─ RHINE      (diverges)       CCNR / RheinSchPV / RPR 1995
 │  ├─ LEMAN      (diverges)       Franco-Swiss règlement
+│  ├─ GEMEENSCHAPPELIJKE-MAAS (diverges)  NL/BE — chaptered like the BPR
 │  └─ BODENSEE   (excluded)       BSO — its own code; signage NOT portable
 └─ COLREGS                        maritime traffic code (the sea base)
    ├─ DE-MARITIME (implements)    SeeSchStrO / KVR — SBF See, SKS, SSS
-   └─ FR-MARITIME (implements)    RIPAM — option côtière
+   ├─ FR-MARITIME (implements)    RIPAM — option côtière
+   ├─ WESTERSCHELDE (diverges)    NL/BE — collision-rule structure
+   └─ EEMSMONDING   (diverges)    NL/DE — collision-rule structure
 ```
 
 Two modules realise this, kept distinct:
@@ -102,15 +106,29 @@ make the split accurate for a new country:
 1. Confirm which tracks its permits cover. Set `Permit.track` (`inland` /
    `maritime`) on each permit in `src/countries/<code>.py`; when unset, the
    jurisdiction layer infers it from the permit code/label. Each track yields a
-   regime node under `CEVNI` (inland) or `COLREGS` (maritime).
+   regime node under `CEVNI` (inland) or `COLREGS` (maritime). A country with no
+   permit on a track gets no node there — the Netherlands requires no recreational
+   licence at sea, so there is no `NL-MARITIME`, and the klein vaarbewijs II
+   "wateren van maritieme aard" stay inland because in Dutch law they *are*
+   binnenwateren.
 2. Give `src/scope.py` a branch for the country's theme namespace if it differs
    from the Swiss one (the disjoint namespaces let each branch run without touching
    the others). Switzerland uses the default theme rules; **France** has
    `_classify_fr` (keyed on `_FR_THEMES`); **Germany** has `_classify_de` (keyed on
    `_DE_THEMES`) which reads the **exam block** — `spezifisch_see` → `colregs`,
    `spezifisch_binnen` → `cevni` — because the German bank mixes both tracks under
-   shared themes. Extend the markers (`_MARITIME`, `_NATIONAL_*`, `_LOCAL_*`) for the
-   country's sea / statute / local-water vocabulary.
+   shared themes; the **Netherlands** has `_classify_nl` (keyed on `_NL_THEMES`),
+   which defaults its traffic themes to `cevni` and lifts a question to `colregs`
+   only when a frontier sea regime is named (Westerschelde, Eemsmonding, the
+   territorial sea). Extend the markers (`_MARITIME`, `_NATIONAL_*`, `_LOCAL_*`) for
+   the country's sea / statute / local-water vocabulary.
+
+> **Theme ids are one global namespace.** `classify()` routes by theme id alone, so
+> two countries sharing an id do not merely look confusing — the first branch in the
+> chain swallows the other country's questions and silently mis-scopes them. This is
+> why the Dutch meteorology theme is `weerkunde` — the Swiss taxonomy already owns
+> `meteorologie`. Pinned by
+> `tests/test_countries.py::test_theme_ids_are_one_global_namespace`.
 3. Run `python run.py web` and check the build summary's `global harmonised core:`
    line (per-base counts, pooled over N banks) — national statute should not leak
    into a base, and sea content should land in `colregs`, not `universal`.
@@ -150,7 +168,11 @@ core. Only `excluded` regimes are guarded out.
 ## Files
 
 * `src/jurisdictions.py` — the regime tree (`get`, `codes`, `base_of`, `relation`,
-  `track`, `ancestors`, `excluded_regime`, `as_manifest`).
+  `track`, `ancestors`, `excluded_regime`, `as_manifest`). Shared waters are
+  classified from the **reglement's own structure**, not from the map: the
+  Westerschelde and Eemsmonding reglementen are chaptered like the collision rules
+  and cite the Internationale Bepalingen, so they refine COLREGS; the
+  Gemeenschappelijke Maas is chaptered like the BPR, so it refines CEVNI.
 * `src/scope.py` — `classify`, `core_bank`, `ids_by_base`, `bases_present`,
   `scope_counts`, `SCOPES`/`BASES`/`OVERLAYS`.
 * `tests/test_jurisdictions.py`, `tests/test_scope.py` — the contracts.

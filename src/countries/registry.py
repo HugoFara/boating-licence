@@ -7,13 +7,14 @@ namespaced by its code with no privileged treatment.
 
 from __future__ import annotations
 
-from . import ch, de, fr, intl
+from . import ch, de, fr, intl, nl
 from .base import Country
 
 COUNTRIES: dict[str, Country] = {
     ch.COUNTRY.code: ch.COUNTRY,
     de.COUNTRY.code: de.COUNTRY,
     fr.COUNTRY.code: fr.COUNTRY,
+    nl.COUNTRY.code: nl.COUNTRY,
     # The supra-national layer (harmonised codes: COLREG ingested, CEVNI pending).
     # A sourcing-only member: no permits, so the player skips it and the
     # jurisdictions tree treats it as a base, not a national implementer.

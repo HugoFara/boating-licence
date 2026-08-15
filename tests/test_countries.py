@@ -81,6 +81,20 @@ def test_permit_themes_are_valid_for_every_country():
                 assert t in c.themes, f"{c.code}/{code}: unknown theme {t!r}"
 
 
+def test_theme_ids_are_one_global_namespace():
+    """`src/scope.py` routes a question to its country branch **by theme id alone**
+    (`if theme in _FR_THEMES … _DE_THEMES … _NL_THEMES`). So two countries sharing
+    an id do not merely look confusing — the first branch in the chain swallows the
+    other country's questions and silently mis-scopes them. Every taxonomy must
+    therefore stay disjoint from every other."""
+    owners: dict[str, list[str]] = {}
+    for code, c in countries.COUNTRIES.items():
+        for t in c.themes:
+            owners.setdefault(t, []).append(code)
+    clashes = {t: cs for t, cs in owners.items() if len(cs) > 1}
+    assert not clashes, f"theme ids claimed by more than one country: {clashes}"
+
+
 def test_block_counts_sum_to_question_total():
     # where a German permit defines both a question count and blocks, the blocks
     # must partition the paper exactly (e.g. SBF Binnen Motor: 7 + 23 = 30).

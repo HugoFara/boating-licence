@@ -150,6 +150,41 @@ def _classify_de(theme: str, block: str, text: str) -> str:
     return "colregs" if _MARITIME.search(text) else "cevni"
 
 
+# --- Netherlands (Klein Vaarbewijs) --------------------------------------------
+# The Dutch bank is inland by construction: both permits are inland-track (the
+# Netherlands requires no recreational licence at sea), and even the KVB II
+# "wateren van maritieme aard" — Waddenzee, IJsselmeer, Westerschelde — are
+# *binnenwateren* in law, governed by the BPR or a CEVNI/COLREG-derived frontier
+# reglement. So the traffic themes route to CEVNI unless a maritime marker fires,
+# which is what happens for the Westerschelde/Eems questions that sit on a COLREG
+# base. The namespace is disjoint from the Swiss/German/French ones.
+_NL_NATIONAL_THEMES = {"vaarbewijs",              # permit, registration, enforcement
+                       "bijzondere_vaarwegen"}    # per-waterway Dutch provisions
+_NL_UNIVERSAL_THEMES = {"voortstuwing", "veiligheid", "vaarwater", "manoeuvreren",
+                        "milieu", "navigatie", "weerkunde",
+                        "algemene_bepalingen"}
+_NL_TRAFFIC_THEMES = {"optische_tekens", "geluidsseinen", "verkeerstekens",
+                      "betonning", "vaarregels", "ligplaats", "marifoon_radar"}
+_NL_THEMES = _NL_NATIONAL_THEMES | _NL_UNIVERSAL_THEMES | _NL_TRAFFIC_THEMES
+
+# Dutch maritime markers: the frontier/sea regimes whose traffic content sits on
+# the COLREG base rather than on CEVNI.
+_NL_MARITIME = re.compile(
+    r"\b(westerschelde|eemsmonding|territoriale zee|zeegaande|zeeschip|"
+    r"aanvaringen op zee|noordzee)\b", re.I)
+
+
+def _classify_nl(theme: str, text: str) -> str:
+    """Scope a Dutch question (its theme is in :data:`_NL_THEMES`)."""
+    if theme in _NL_NATIONAL_THEMES:
+        return "national"
+    if theme in _NL_UNIVERSAL_THEMES:
+        return "universal"
+    if _NL_MARITIME.search(text) or _MARITIME.search(text):
+        return "colregs"
+    return "cevni"
+
+
 def _haystack(q: "Question") -> str:
     p = q.provenance
     return " ".join((q.stem or "", getattr(p, "ref", "") or "",
@@ -171,12 +206,15 @@ def classify(q: "Question") -> str:
         return "local"
 
     # 1. National theme namespaces routed by their own branch (the Swiss themes
-    #    below are a disjoint set, so they stay untouched):
-    #      France (permis plaisance) and Germany (Sportbootführerschein).
+    #    below are a disjoint set, so they stay untouched): France (permis
+    #    plaisance), Germany (Sportbootführerschein), the Netherlands (klein
+    #    vaarbewijs).
     if theme in _FR_THEMES:
         return _classify_fr(theme, text)
     if theme in _DE_THEMES:
         return _classify_de(theme, getattr(q, "block", "") or "", text)
+    if theme in _NL_THEMES:
+        return _classify_nl(theme, text)
 
     # 2. Named-local water specifics (a lake's winds / its storm-signal operation).
     if theme == "meteorologie" and _LOCAL_METEO.search(text):

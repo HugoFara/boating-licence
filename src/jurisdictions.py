@@ -151,6 +151,34 @@ def _build() -> dict[str, Jurisdiction]:
         refines="CEVNI", relation="diverges", track="inland", members=("CH", "FR"),
         note="Règlement de la navigation sur le Léman — bilateral CH/FR regime over "
              "a CEVNI base; named local winds (bise, joran…).")
+    # The three Dutch frontier regimes. Each was classified from the reglement's
+    # OWN structure, not from where it sits on a map: the Westerschelde and the
+    # Eemsmonding are chaptered like the collision regulations (uitwijken, lichten
+    # en dagmerken, geluids- en lichtseinen) and cite the Internationale Bepalingen
+    # ter voorkoming van aanvaringen op zee, so they refine COLREGS; the
+    # Gemeenschappelijke Maas is chaptered like the BPR (kentekens, optische
+    # tekens, verkeerstekens, vaarregels), so it refines CEVNI. All three *diverge*
+    # rather than exclude — they add local rules to a harmonised base, so their
+    # signage stays portable.
+    reg["WESTERSCHELDE"] = Jurisdiction(
+        code="WESTERSCHELDE", name="Westerschelde (NL/BE)", kind="shared_water",
+        refines="COLREGS", relation="diverges", track="maritime",
+        members=("NL", "BE"),
+        note="Scheepvaartreglement Westerschelde 1990 — Dutch/Belgian regime over "
+             "a COLREG base. A 'water van maritieme aard': klein vaarbewijs II "
+             "territory.")
+    reg["EEMSMONDING"] = Jurisdiction(
+        code="EEMSMONDING", name="Eemsmonding / Emsmündung (NL/DE)",
+        kind="shared_water", refines="COLREGS", relation="diverges",
+        track="maritime", members=("NL", "DE"),
+        note="Scheepvaartreglement Eemsmonding — Dutch/German regime on the Eems "
+             "and the Dollard over a COLREG base; klein vaarbewijs II territory.")
+    reg["GEMEENSCHAPPELIJKE-MAAS"] = Jurisdiction(
+        code="GEMEENSCHAPPELIJKE-MAAS", name="Gemeenschappelijke Maas (NL/BE)",
+        kind="shared_water", refines="CEVNI", relation="diverges", track="inland",
+        members=("NL", "BE"),
+        note="Scheepvaartreglement Gemeenschappelijke Maas — Dutch/Belgian regime "
+             "on the common Meuse, chaptered like the BPR over a CEVNI base.")
     return reg
 
 

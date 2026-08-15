@@ -5,7 +5,7 @@
 Un cadre ouvert pour réviser les **examens théoriques nationaux du permis de
 navigation**, construit **uniquement** à partir de textes de loi du domaine public et
 de références dont la réutilisation est clairement autorisée. Il couvre aujourd'hui
-trois pays — **🇫🇷 France · 🇩🇪 Allemagne · 🇨🇭 Suisse** — derrière un seul
+quatre pays — **🇫🇷 France · 🇩🇪 Allemagne · 🇨🇭 Suisse · 🇳🇱 Pays-Bas** — derrière un seul
 pipeline et un seul player, et il est conçu pour qu'ajouter un pays revienne à créer
 un seul nouveau fichier, et non à forker le projet.
 
@@ -38,6 +38,7 @@ Comment cette règle s'applique selon les pays :
 | 🇫🇷 **France** | Légifrance / DILA LEGI sous **Licence Ouverte / Etalab** (les actes officiels français ne sont pas protégés par le droit d'auteur) | Dérivée du droit ingéré — les banques de QCM propriétaires des opérateurs (La Poste/Dekra/SGS/Bureau Veritas) ne sont **jamais** touchées |
 | 🇩🇪 **Allemagne** | XML de gesetze-im-internet.de, domaine public au titre du **§5(1) UrhG** | Les *amtliche Fragenkataloge* officiels d'**ELWIS** sont réutilisables tels quels au titre du **§5(2) UrhG** (citer www.elwis.de, sans modification) — ingérés en l'état |
 | 🇨🇭 **Suisse** | XML Akoma Ntoso de Fedlex, le droit fédéral suisse est dans le domaine public | Dérivée du droit — la banque sous licence asa reconditionnée par les applications payantes n'est **jamais** touchée |
+| 🇳🇱 **Pays-Bas** | wetten.overheid.nl / KOOP XML — **aucun droit d'auteur n'existe** sur la législation néerlandaise (Auteurswet art. 11) | Dérivées de la loi : le CBR ne publie aucun catalogue, seulement des examens types, qui ne sont **pas** ingérés |
 
 ## Démarrage rapide
 
@@ -57,6 +58,9 @@ python run.py questions
 
 # the harmonised codes shared by every country (see below)
 python run.py build --country INT
+
+# Pays-Bas — klein vaarbewijs (droit néerlandais : aucun droit d'auteur, Auteurswet art. 11)
+python run.py build --country NL
 
 # bundle every built bank + assets into the static player
 python run.py web
@@ -98,7 +102,7 @@ citent.
 
 ## Les pays
 
-Les trois sont de premier rang : chacun correspond à un descripteur dans
+Les quatre sont de premier rang : chacun correspond à un descripteur dans
 `src/countries/` qui déclare ses sources juridiques, sa taxonomie de thèmes d'examen +
 son tagueur, son catalogue de permis, ses règles d'examen et ses régimes régionaux — la
 configuration que consomme le pipeline. Ajouter un pays revient à un seul nouveau
@@ -110,6 +114,7 @@ documents dédiés, chacun rédigé dans la langue du pays :
 [`docs/france.md`](docs/france.md) (français) ·
 [`docs/germany.md`](docs/germany.md) (Deutsch) ·
 [`docs/switzerland.md`](docs/switzerland.md) (français) ·
+[`docs/netherlands.md`](docs/netherlands.md) (Nederlands) ·
 [`docs/italy.md`](docs/italy.md) (italiano — prévu, pas encore réalisé).
 L'architecture transversale se trouve dans [`docs/scope.md`](docs/scope.md).
 
@@ -181,6 +186,31 @@ L'examen théorique du **bateau à moteur catégorie A**, standardisé entre can
   en attente d'une source de technique de voile sous licence libre.
 - **Build :** `python run.py build` + `python run.py questions` → `web/` (la valeur par
   défaut, donc un build nu correspond au build suisse).
+
+### 🇳🇱 Pays-Bas — Klein Vaarbewijs
+
+Le **klein vaarbewijs** en deux niveaux : **KVB I** pour les rivières, canaux et lacs,
+et **KVB II** pour « les autres eaux intérieures » — une liste légale (Westerschelde,
+Oosterschelde, Waddenzee, Eems, Dollard, IJsselmeer, IJmeer, Markermeer sauf la
+Gouwzee), pas une appréciation. Le permis est requis pour les bateaux de 15 à 25 m ou
+tout bateau de moins de 15 m capable de dépasser 20 km/h (*Binnenvaartbesluit* art. 16).
+
+- **La base juridique la plus nette du projet.** Là où l'Allemagne a une *limitation*
+  du droit d'auteur et la France une *licence ouverte*, l'**Auteurswet art. 11** dit que
+  le droit n'existe pas : « Er bestaat geen auteursrecht op wetten, besluiten en
+  verordeningen, door de openbare macht uitgevaardigd. » KOOP publie chaque état
+  consolidé en XML structuré, figures d'annexe comprises, en open data.
+- **Pas de catalogue officiel de questions.** Contrairement à ELWIS, le CBR ne publie
+  que des examens types. Les questions néerlandaises doivent donc être **dérivées de la
+  loi** (BPR + Binnenvaartregeling) derrière le gate de revue — la voie déjà suivie pour
+  le corpus Bodensee/BSO. La loi est ingérée (**782 unités, 686 figures officielles**) ;
+  la banque de questions reste à faire.
+- **Notation par points pondérés, pas par blocs.** KVB I : 40 QCM, 60 min, 1–3 points
+  par question, réussite à 56/80. KVB II : 27 questions (23 QCM + 4 ouvertes), 90 min,
+  1–4 points, réussite à 35/50. 70 % dans les deux cas. Il n'y a **pas d'épreuve
+  pratique** — donc aucune étape `practical` n'est inventée.
+- **Build :** `python run.py build --country NL` → `data/kb.nl.sqlite`. Détails dans
+  [`docs/netherlands.md`](docs/netherlands.md).
 
 ## Codes harmonisés — la couche supranationale (`INT`)
 

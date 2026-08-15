@@ -4,8 +4,9 @@
 
 Ein offenes Framework zum Lernen für **nationale Theorieprüfungen des
 Bootsführerscheins**, das **ausschließlich** auf gemeinfreiem Recht und eindeutig
-weiterverwendbaren Quellen aufbaut. Es deckt heute drei Länder ab —
-**🇫🇷 Frankreich · 🇩🇪 Deutschland · 🇨🇭 Schweiz** — hinter einer Pipeline und einem
+weiterverwendbaren Quellen aufbaut. Es deckt heute vier Länder ab —
+**🇫🇷 Frankreich · 🇩🇪 Deutschland · 🇨🇭 Schweiz · 🇳🇱 Niederlande** — hinter einer
+Pipeline und einem
 Player, und es ist so konzipiert, dass das Hinzufügen eines Landes eine einzige neue
 Datei erfordert, kein Fork.
 
@@ -39,6 +40,7 @@ Wie sich diese Regel pro Land konkret auswirkt:
 | 🇫🇷 **Frankreich** | Légifrance / DILA LEGI unter **Licence Ouverte / Etalab** (französische amtliche Erlasse tragen kein Urheberrecht) | Aus dem übernommenen Recht abgeleitet — die proprietären QCM-Banken der Betreiber (La Poste/Dekra/SGS/Bureau Veritas) werden **nie** angerührt |
 | 🇩🇪 **Deutschland** | gesetze-im-internet.de XML, gemeinfrei nach **§5(1) UrhG** | Die amtlichen **ELWIS** *amtlichen Fragenkataloge* sind nach **§5(2) UrhG** wortgetreu weiterverwendbar (Quelle www.elwis.de angeben, keine Änderung) — unverändert übernommen |
 | 🇨🇭 **Schweiz** | Fedlex Akoma Ntoso XML, schweizerisches Bundesrecht ist gemeinfrei | Aus dem Recht abgeleitet — die asa-lizenzierte Bank, die von den kostenpflichtigen Apps neu verpackt wird, wird **nie** angerührt |
+| 🇳🇱 **Niederlande** | wetten.overheid.nl / KOOP XML — auf niederländischer Gesetzgebung besteht **kein Urheberrecht** (Auteurswet Art. 11) | Aus dem Gesetz abgeleitet: Das CBR veröffentlicht keinen Katalog, nur Musterprüfungen, die **nicht** eingelesen werden |
 
 ## Schnellstart
 
@@ -58,6 +60,9 @@ python run.py questions
 
 # the harmonised codes shared by every country (see below)
 python run.py build --country INT
+
+# Niederlande — klein vaarbewijs (niederländisches Recht: kein Urheberrecht, Auteurswet Art. 11)
+python run.py build --country NL
 
 # bundle every built bank + assets into the static player
 python run.py web
@@ -100,7 +105,7 @@ verknüpft.
 
 ## Die Länder
 
-Alle drei sind gleichwertig: Jedes ist ein Deskriptor in `src/countries/`, der seine
+Alle vier sind gleichwertig: Jedes ist ein Deskriptor in `src/countries/`, der seine
 Rechtsquellen, die Prüfungsthemen-Taxonomie + den Tagger, den Führerschein-Katalog, die
 Prüfungsregeln und die regionalen Regelungen deklariert — die Konfiguration, die die
 Pipeline verarbeitet. Das Hinzufügen eines Landes ist eine neue Datei + eine
@@ -111,6 +116,7 @@ eigenen Dokumenten, jeweils in der Sprache des Landes verfasst:
 [`docs/france.md`](docs/france.md) (français) ·
 [`docs/germany.md`](docs/germany.md) (Deutsch) ·
 [`docs/switzerland.md`](docs/switzerland.md) (français) ·
+[`docs/netherlands.md`](docs/netherlands.md) (Nederlands) ·
 [`docs/italy.md`](docs/italy.md) (italiano — geplant, noch nicht umgesetzt). Die
 länderübergreifende Architektur steht in [`docs/scope.md`](docs/scope.md).
 
@@ -183,6 +189,32 @@ durch die **VKS** (Genfs OCV verwaltet den nationalen Standard auf dem Lac Léma
   `voile`-Thema, in Erwartung einer frei lizenzierten Quelle zur Segeltechnik.
 - **Build:** `python run.py build` + `python run.py questions` → `web/` (der Standard,
   sodass ein nackter Build der Schweizer Build ist).
+
+### 🇳🇱 Niederlande — Klein Vaarbewijs
+
+Das **klein vaarbewijs** in zwei Stufen: **KVB I** für Flüsse, Kanäle und Seen,
+**KVB II** für „die übrigen Binnengewässer" — eine gesetzliche Aufzählung
+(Westerschelde, Oosterschelde, Waddenzee, Eems, Dollard, IJsselmeer, IJmeer,
+Markermeer außer der Gouwzee), keine Ermessensfrage. Pflicht für Fahrzeuge von 15 bis
+25 m sowie für jedes Fahrzeug unter 15 m, das mehr als 20 km/h laufen kann
+(*Binnenvaartbesluit* Art. 16).
+
+- **Die sauberste Rechtsgrundlage im Projekt.** Wo Deutschland eine *Schranke* des
+  Urheberrechts kennt und Frankreich eine *offene Lizenz*, sagt **Auteurswet Art. 11**,
+  dass das Recht gar nicht besteht: „Er bestaat geen auteursrecht op wetten, besluiten
+  en verordeningen, door de openbare macht uitgevaardigd." KOOP veröffentlicht jeden
+  konsolidierten Stand als strukturiertes XML samt Anlagen-Abbildungen als Open Data.
+- **Kein amtlicher Fragenkatalog.** Anders als ELWIS veröffentlicht das CBR nur
+  Musterprüfungen. Die niederländischen Fragen müssen deshalb **aus dem Gesetz
+  abgeleitet** werden (BPR + Binnenvaartregeling) — hinter dem Review-Gate, genau wie
+  beim Bodensee/BSO-Bestand. Das Recht ist eingelesen (**782 Einheiten, 686 amtliche
+  Abbildungen**); die Fragenbank steht noch aus.
+- **Gewichtete Punkte statt Blöcke.** KVB I: 40 Fragen, 60 Min., 1–3 Punkte je Frage,
+  bestanden ab 56/80. KVB II: 27 Fragen (23 MC + 4 offen), 90 Min., 1–4 Punkte,
+  bestanden ab 35/50. Beide 70 %. Es gibt **keine praktische Prüfung** — daher wird
+  auch kein `practical`-Schritt erfunden.
+- **Build:** `python run.py build --country NL` → `data/kb.nl.sqlite`. Details in
+  [`docs/netherlands.md`](docs/netherlands.md).
 
 ## Harmonisierte Codes — die supranationale Ebene (`INT`)
 

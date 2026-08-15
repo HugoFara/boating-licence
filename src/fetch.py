@@ -25,6 +25,7 @@ from .sources import Source, SOURCES
 RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "raw")
 SPARQL = "https://fedlex.data.admin.ch/sparqlendpoint"
 GII_BASE = "https://www.gesetze-im-internet.de"
+BWB_BASE = "https://repository.officiele-overheidspublicaties.nl/bwb"
 HEADERS = {"User-Agent": "boating-licence-study/0.1 (Phase 1 aggregator; personal study tool)"}
 WP_API = "https://fr.wikipedia.org/w/api.php"
 
@@ -232,6 +233,79 @@ def fetch_gii(src: Source, force: bool = False, lang: str = "de") -> dict:
 
 
 # --------------------------------------------------------------------------
+# wetten.overheid.nl / KOOP (Dutch law): the Basis Wetten Bestand publishes every
+# consolidated state of an act ("toestand") as XML in an open repository, indexed
+# by a per-act manifest.xml whose `_latestItem` names the current state. Dutch law
+# carries no copyright at all (Auteurswet art. 11), so this is the cleanest of the
+# three law portals. Single-language (Dutch law is enacted in Dutch only), so
+# there is no per-language manifestation to resolve — unlike Fedlex.
+# --------------------------------------------------------------------------
+
+def _bwb_latest(bwb_id: str) -> tuple[str, str]:
+    """(state_path, in-force date) for the newest consolidated state of an act.
+
+    The manifest's ``_latestItem`` is the authoritative pointer — it is what
+    wetten.overheid.nl itself serves — so we never guess a date.
+    """
+    manifest = _get(f"{BWB_BASE}/{bwb_id}/manifest.xml").text
+    m = re.search(r'_latestItem="([^"]+)"', manifest)
+    if not m:
+        raise RuntimeError(f"[{bwb_id}] BWB manifest names no _latestItem")
+    item = m.group(1)                       # "<date>_0/xml/<id>_<date>_0.xml"
+    date = item.split("_", 1)[0]
+    return item, date
+
+
+# The BPR alone carries 400+ annex figures (every waterway sign, light and sound
+# pattern). Sub-kilobyte PNGs are layout glyphs, not plates — the parser filters
+# on the same threshold the German one uses.
+_BWB_IMG = re.compile(r'<illustratie[^>]*\bnaam="([^"]+)"')
+
+
+def fetch_bwb(src: Source, force: bool = False, lang: str = "nl") -> dict:
+    """Fetch one Dutch act (newest consolidated state) plus its annex figures."""
+    cache_key = src.id if lang == "fr" else os.path.join(src.id, lang)
+    manifest_path = _raw_path(cache_key, "manifest.json")
+    if os.path.exists(manifest_path) and not force:
+        with open(manifest_path, encoding="utf-8") as fh:
+            return json.load(fh)
+
+    bwb_id = src.bwb_id or src.id
+    item, version = _bwb_latest(bwb_id)
+    xml_url = f"{BWB_BASE}/{bwb_id}/{item}"
+    xml_bytes = _get(xml_url).content
+    xml_local = _raw_path(cache_key, "act.xml")
+    with open(xml_local, "wb") as fh:
+        fh.write(xml_bytes)
+    files: dict = {"xml": {"url": xml_url, "path": os.path.relpath(xml_local)}}
+
+    # Figures sit beside the XML in the same state directory.
+    img_base = xml_url.rsplit("/", 1)[0] + "/"
+    images: dict = {}
+    for name in sorted(set(_BWB_IMG.findall(xml_bytes.decode("utf-8", "replace")))):
+        try:
+            data = _get(urllib.parse.urljoin(img_base, name)).content
+        except requests.HTTPError:
+            continue
+        local = _raw_path(cache_key, "images", os.path.basename(name))
+        with open(local, "wb") as fh:
+            fh.write(data)
+        images[name] = {"path": os.path.relpath(local), "bytes": len(data),
+                        "url": urllib.parse.urljoin(img_base, name)}
+    if images:
+        files["images"] = images
+
+    manifest = {
+        "source_id": src.id, "kind": src.kind, "lang": lang, "retrieved": _today(),
+        "legal_version": version, "files": files, "canonical_url": src.url,
+        "bwb_id": bwb_id,
+    }
+    with open(manifest_path, "w", encoding="utf-8") as fh:
+        json.dump(manifest, fh, ensure_ascii=False, indent=2)
+    return manifest
+
+
+# --------------------------------------------------------------------------
 # Wikipedia: pull parsed HTML + revision id per page via the MediaWiki API.
 # --------------------------------------------------------------------------
 
@@ -325,10 +399,13 @@ def fetch_pdf(src: Source, force: bool = False) -> dict:
     return manifest
 
 
-_DISPATCH = {"fedlex": fetch_fedlex, "gii": fetch_gii,
+_DISPATCH = {"fedlex": fetch_fedlex, "gii": fetch_gii, "bwb": fetch_bwb,
              "wikipedia": fetch_wikipedia, "html": fetch_html, "pdf": fetch_pdf}
-# Law sources fetched as a per-language manifestation of one act.
-_PER_LANG_KINDS = {"fedlex", "gii"}
+# Law kinds: one act, fetched (and cached) as a per-language manifestation. The
+# set is about *layout*, not about how many languages exist — `gii` and `bwb` each
+# have exactly one (German, Dutch) and `fedlex` four; all keep their raw cache
+# under data/raw/<id>/<lang>/, which is the layout parse._manifest reads back.
+_PER_LANG_KINDS = {"fedlex", "gii", "bwb"}
 
 
 def fetch_source(src: Source, force: bool = False) -> dict:

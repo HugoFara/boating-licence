@@ -63,6 +63,25 @@ def test_harmonised_inland_signage_is_cevni():
     assert scope.classify(_q("signalisation", "Que signifie ce panneau ?")) == "cevni"
 
 
+def test_dutch_bank_is_cevni_unless_a_frontier_sea_regime_is_named():
+    """Both Dutch permits are inland — even the klein-vaarbewijs-II "wateren van
+    maritieme aard" are binnenwateren in law — so the Dutch traffic themes default
+    to CEVNI. Only the frontier regimes that sit on a COLREG base (Westerschelde,
+    Eemsmonding, the territorial sea) pull a question to COLREGS."""
+    assert scope.classify(
+        _q("vaarregels", "Wie moet uitwijken bij tegengestelde koersen?")) == "cevni"
+    assert scope.classify(
+        _q("betonning", "Wat betekent een stompe groene ton?")) == "cevni"
+    assert scope.classify(
+        _q("vaarregels", "Welke voorrangsregel geldt op de Westerschelde?")) == "colregs"
+    # the permit/registration statute is Dutch overlay, not shareable core
+    assert scope.classify(
+        _q("vaarbewijs", "Wanneer is een klein vaarbewijs vereist?")) == "national"
+    # ... and the seamanship subjects art. 7.15 names stay portable
+    for theme in ("veiligheid", "weerkunde", "voortstuwing", "navigatie"):
+        assert scope.classify(_q(theme, "draagbare kennis")) == "universal", theme
+
+
 def test_maritime_signage_is_colregs():
     # Sea buoyage/lights are COLREGS, not CEVNI — the inland/sea split.
     assert scope.classify(_q("signalisation", "Feux de navigation en mer la nuit")) == "colregs"

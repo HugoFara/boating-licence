@@ -3,10 +3,10 @@
 **Languages:** [English](README.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md)
 
 An open framework for studying **national boating-licence theory exams** built
-**only** from public-domain law and clearly-reusable references. It covers three
-countries today — **🇫🇷 France · 🇩🇪 Germany · 🇨🇭 Switzerland** — behind one
-pipeline and one player, and it is designed so adding a country is one new file,
-not a fork.
+**only** from public-domain law and clearly-reusable references. It covers four
+countries today — **🇫🇷 France · 🇩🇪 Germany · 🇨🇭 Switzerland · 🇳🇱 Netherlands** —
+behind one pipeline and one player, and it is designed so adding a country is one
+new file, not a fork.
 
 For each country it ships three things:
 
@@ -37,6 +37,7 @@ How that rule lands per country:
 | 🇫🇷 **France** | Légifrance / DILA LEGI under **Licence Ouverte / Etalab** (French official acts carry no copyright) | Derived from the ingested law — the proprietary operator QCM banks (La Poste/Dekra/SGS/Bureau Veritas) are **never** touched |
 | 🇩🇪 **Germany** | gesetze-im-internet.de XML, public-domain under **§5(1) UrhG** | The official **ELWIS** *amtliche Fragenkataloge* are reusable verbatim under **§5(2) UrhG** (cite www.elwis.de, no modification) — ingested as-is |
 | 🇨🇭 **Switzerland** | Fedlex Akoma Ntoso XML, Swiss federal law is public-domain | Derived from the law — the asa-licensed bank repackaged by the paid apps is **never** touched |
+| 🇳🇱 **Netherlands** | wetten.overheid.nl / KOOP XML — **no copyright exists** on Dutch legislation (Auteurswet art. 11) | Derived from the law: the CBR publishes no catalogue, only sample exams, which are **not** ingested |
 
 ## Quick start
 
@@ -53,6 +54,9 @@ python run.py questions --country DE
 # Switzerland — cat-A motorboat (Fedlex law + derived questions)
 python run.py build
 python run.py questions
+
+# Netherlands — Klein Vaarbewijs (Dutch law: no copyright at all, Auteurswet art. 11)
+python run.py build --country NL
 
 # the harmonised codes shared by every country (see below)
 python run.py build --country INT
@@ -95,7 +99,7 @@ annex tables and linked to the citing articles.
 
 ## The countries
 
-All three are first-class: each is one descriptor in `src/countries/` declaring its
+All four are first-class: each is one descriptor in `src/countries/` declaring its
 law sources, exam-theme taxonomy + tagger, permit catalogue, exam rules and regional
 regimes — the config the pipeline consumes. Adding a country is one new file + one
 registry line (`src/countries/registry.py`), so parallel work doesn't collide.
@@ -104,6 +108,7 @@ registry line (`src/countries/registry.py`), so parallel work doesn't collide.
 in the country's own language: [`docs/france.md`](docs/france.md) (français) ·
 [`docs/germany.md`](docs/germany.md) (Deutsch) ·
 [`docs/switzerland.md`](docs/switzerland.md) (français) ·
+[`docs/netherlands.md`](docs/netherlands.md) (Nederlands) ·
 [`docs/italy.md`](docs/italy.md) (italiano — planned, not yet built). The
 cross-country architecture is in [`docs/scope.md`](docs/scope.md).
 
@@ -179,6 +184,35 @@ The **category-A motorboat** theory exam, standardized intercantonally by the **
 - **Build:** `python run.py build` + `python run.py questions` → `web/` (the default,
   so a bare build is the Swiss build).
 
+### 🇳🇱 Netherlands — Klein Vaarbewijs
+
+The **klein vaarbewijs** in two grades: **KVB I** for rivers, canals and lakes, and
+**KVB II** for "the other inland waters" — a statutory list (Westerschelde,
+Oosterschelde, Waddenzee, Eems, Dollard, IJsselmeer, IJmeer, Markermeer except the
+Gouwzee), not a judgement call. A licence is required for craft 15–25 m or anything
+under 15 m able to make more than 20 km/h (*Binnenvaartbesluit* art. 16).
+
+- **The cleanest legal ground in the project.** Where Germany has a *limitation* on
+  copyright and France an *open licence*, **Auteurswet art. 11** says the right does
+  not exist: *"Er bestaat geen auteursrecht op wetten, besluiten en verordeningen,
+  door de openbare macht uitgevaardigd."* KOOP publishes every consolidated state as
+  structured XML with its annex figures, as open data.
+- **No official question catalogue.** Unlike ELWIS, the CBR publishes only sample
+  exams. So Dutch questions must be **law-seeded** from the BPR and the
+  Binnenvaartregeling behind the review gate — the route already taken for the
+  Bodensee/BSO set. The law is ingested (**782 units, 686 official figures**); the
+  bank is the next step.
+- **The exam is scored on weighted points, not blocks.** KVB I: 40 MCQs, 60 min,
+  1–3 points each, pass at 56/80. KVB II: 27 questions (23 MCQ + 4 open), 90 min,
+  1–4 points each, pass at 35/50. Both 70 %. There is **no practical exam** — the
+  theory paper is the whole exam, so no `practical` path step is invented.
+- **The annexes are a figure trove.** The BPR alone ships 400+ official PNGs:
+  bijlage 3 (lights and shapes), 6 (sound signals), 7 (waterway signs) and 8 (IALA-A
+  buoyage) — four of the five families `src/questions/diagrams.py` draws, here as
+  official plates inside the law.
+- **Build:** `python run.py build --country NL` → `data/kb.nl.sqlite`. Details in
+  [`docs/netherlands.md`](docs/netherlands.md).
+
 ## Harmonised codes — the supra-national layer (`INT`)
 
 Above the national exams sit the **harmonised navigation codes** every country's bank
@@ -250,15 +284,17 @@ rebuild is byte-identical.
 run.py                 CLI orchestrator (build / questions / draft / review / fr / web)
 src/
   sources.py           approved source registry (provenance + licence)
-  fetch.py             stage 1 — fetch + cache (Fedlex SPARQL, gii xml.zip, DILA LEGI,
-                         USCG PDF, MediaWiki API, HTTP)
+  fetch.py             stage 1 — fetch + cache (Fedlex SPARQL, gii xml.zip, BWB
+                         manifest, EUR-Lex CELEX, DILA LEGI, USCG PDF, MediaWiki, HTTP)
   parse.py             stage 2 — dispatch to parsers
-  parsers/             Akoma Ntoso (CH), gii (DE law XML), COLREG PDF (INT), prose, HTML
+  parsers/             Akoma Ntoso (CH), gii (DE law XML), bwb (NL law XML),
+                         eurlex (EU act HTML), COLREG PDF (INT), prose, HTML
   normalize.py         stage 3 — merge -> SQLite + asset localization
   schema.py            KnowledgeUnit + SQLite DDL + JSON export
   themes.py / cantons.py   CH exam taxonomy + per-canton time variance
-  countries/           country registry — ch.py / de.py / fr.py / intl.py + registry.py
-                         (sources, tagger, themes, permits, regions) consumed by pipeline
+  countries/           country registry — ch.py / de.py / fr.py / nl.py + the
+                         supra-national intl.py (COLREG) and eu.py (Union acts),
+                         + registry.py (sources, tagger, themes, permits, regions)
   jurisdictions.py     the lex-specialis regime tree (universal -> cevni/colregs -> ...)
   scope.py             classify each question (universal/cevni/colregs/national/local)
   fr/                  France content modules (seed, LEGI ingest, derivation, references)

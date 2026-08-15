@@ -11,19 +11,20 @@ import os
 
 from .sources import Source, SOURCES
 from .schema import KnowledgeUnit
-from .parsers import akn, gii, wikipedia, html_generic, colreg
+from .parsers import akn, bwb, gii, wikipedia, html_generic, colreg
 
 RAW_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "raw")
 
 _PARSERS = {
     "fedlex": akn.parse,
     "gii": gii.parse,
+    "bwb": bwb.parse,
     "wikipedia": wikipedia.parse,
     "html": html_generic.parse,
     "pdf": colreg.parse,
 }
 # Law kinds whose act is parsed once per requested language (per-lang raw cache).
-_PER_LANG_KINDS = {"fedlex", "gii"}
+_PER_LANG_KINDS = {"fedlex", "gii", "bwb"}
 
 
 def _manifest(source_id: str, lang: str = "fr") -> dict:
