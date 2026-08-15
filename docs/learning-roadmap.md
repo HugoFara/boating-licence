@@ -433,13 +433,40 @@ because there the board's appearance *is* what is being asked: *"quel pavillon�
 *"quale segnaletica notturna…?"*, *"comment le panneau lettre « A » doit-il être
 présenté ?"*. A bulk attach would have spoiled exactly those three.
 
-**A gap worth naming.** The 34 French inland sign questions cite *"RGP, annexe 5,
-panneau A.1"* and assert appearance in their stems ("panneau rectangulaire à bord
-rouge barré d'une bande blanche horizontale"), but RGP annexe 5 is **not ingested** —
-`kb.fr.sqlite` holds the article text only. The questions are hand-authored seeds, so
-their visual claims currently rest on a citation the repo cannot check. Ingesting that
-annex would both close the provenance gap and unlock the figures; until then those
-questions stay unillustrated.
+**The RGP annexes are now ingested — and annexe 5 turns out to be a stub.** The
+citation *"RGP, annexe 5, panneau A.1"* was real: LEGI carries the annexes as
+articles numbered *"Annexe N à l'article A4241-…"*, which the `^[LRAD]4\d{3}` filter
+had been dropping. All nine are in (`code_transports` 1160 → 1169).
+
+But annexe 5 contains **no sign descriptions at all** — 2 179 characters that say
+*"Vous pouvez consulter les clichés dans le JO n° 200 du 29/08/2013"* and link a PDF.
+Annexe 7 ("caractéristiques techniques") gives sizes, retroreflective film class and
+lettering standards; no colour, no shape. Annexe 3 (vessel signals) is the same shape
+of stub. **The RGP puts every figure in Journal Officiel plates and LEGI carries only
+the surrounding prose**, so French inland sign appearance cannot be text-sourced at
+all. The seed questions' visual claims come from those plates; the honest fix is to
+ingest the JO PDF and extract them, exactly as the ONI pipeline already does for
+Switzerland (`data/assets/oni/image*.png`).
+
+What the annexes *did* unlock is buoyage. **Annexe 8** (18 070 characters,
+"Balisage des voies de navigation intérieure") is real text, and its harbour-entrance
+and restricted-zone marks are described in words:
+
+* *"A bâbord en entrant : dispositif, en général de forme cylindrique, de couleur rouge"*
+* *"A tribord en entrant : dispositif, en général de forme conique, de couleur verte"*
+* *"Couleur : jaune … Voyant (le cas échéant) : un seul « X » jaune"*
+
+So three buoyage diagrams gain a French inland citation, and
+`fr_eaux_interieures` gets a mark strip it did not have. One candidate was refused:
+the groyne mark's *"le caractère d'un cône vert pointe en haut et rouge pointe en
+bas"* does not say whether that is one stacked pair or two bank-dependent variants,
+so nothing is drawn (recorded in `_UNPRESCRIBED`).
+
+The rebuild also exposed a build-order bug: `kb.fr.sqlite` holds the LEGI law *and*
+the hand-curated reference corpus (IALA, SHOM), and `legi build` dumped the whole
+database into the committed LEGI corpus — folding 19 reference units into it.
+`export_json` now takes a `sources` filter, and the two tests that caught it stay as
+the guard.
 
 ### Adding a diagram (the smallest useful contribution)
 

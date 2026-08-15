@@ -904,7 +904,10 @@ def render_buoy(body: str, bands: list[str], topmark: str | None, title: str,
 # lights (they top everything), which is why the vessels below can be drawn at all.
 # Frage 105 and Frage 107 (aground, under and over 50 m) therefore stay
 # unillustrated rather than have us invent a stacking order.
-_UNPRESCRIBED = ("aground: Regel 30 d) fixes the order within each group of lights "
+_UNPRESCRIBED = ("groyne marks (RGP annexe 8): \"le caractère d'un cône vert pointe "
+                 "en haut et rouge pointe en bas\" does not say whether that is one "
+                 "stacked pair or two bank-dependent variants, so nothing is drawn; "
+                 "aground: Regel 30 d) fixes the order within each group of lights "
                  "but not between the anchor lights and the two red all-round "
                  "lights, so no arrangement can be drawn from the source alone")
 
@@ -1442,6 +1445,11 @@ BUOYAGE: list[dict] = [
             "ref": "IALA R1001 §2.1.3 — marque latérale bâbord (région A)",
             "quote": "est ROUGE, de forme cylindrique",
         },
+        "cites": [
+            {"unit": "code_transports-code_des_transports_art_annexe_8_à_larticle_a424",
+             "ref": "Code des transports, annexe 8 à l'art. A4241-51-2 (RGP)",
+             "quote": "A bâbord en entrant : dispositif, en général de forme cylindrique, de couleur rouge"},
+        ],
     },
     {
         "key": "iala-starboard-lateral",
@@ -1453,6 +1461,11 @@ BUOYAGE: list[dict] = [
             "ref": "IALA R1001 §2.1.3 — marque latérale tribord (région A)",
             "quote": "est VERTE, de forme conique",
         },
+        "cites": [
+            {"unit": "code_transports-code_des_transports_art_annexe_8_à_larticle_a424",
+             "ref": "Code des transports, annexe 8 à l'art. A4241-51-2 (RGP)",
+             "quote": "A tribord en entrant : dispositif, en général de forme conique, de couleur verte"},
+        ],
     },
     {
         "key": "iala-cardinal-north",
@@ -1535,6 +1548,11 @@ BUOYAGE: list[dict] = [
             "quote": "Entièrement JAUNE ; voyant éventuel : une croix de Saint-André "
                      "jaune",
         },
+        "cites": [
+            {"unit": "code_transports-code_des_transports_art_annexe_8_à_larticle_a424",
+             "ref": "Code des transports, annexe 8 à l'art. A4241-51-2 (RGP)",
+             "quote": "Voyant (le cas échéant) : un seul \"X\" jaune"},
+        ],
     },
     # ── the Swiss inland scheme: its own system, not IALA ──
     {
