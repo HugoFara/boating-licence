@@ -214,20 +214,52 @@ reproduction of any official figure.
 
 ### Status
 
-**Day shapes, done:** 10 diagrams, all sourced to SeeStrO 1972 (KVR) Regeln 24–30,
+**Day shapes, done:** 10 diagrams sourced to SeeStrO 1972 (KVR) Regeln 24–30,
 covering the whole shape vocabulary — ball, cone up/down, cylinder, diamond,
-hourglass, flag "A" — and the 1–3 shape stacks the rules build from them. Six of the
-27 broken German questions are now answerable, and because they scope to `colregs`
-the same figures reach the pooled harmonised core, so an English or French learner
-sees them too.
+hourglass, flag "A" — and the 1–3 shape stacks the rules build from them.
 
-Next: nav-lights (178 missing, the largest single gap), then sound-signals.
+**Nav-lights, done (sea):** 10 diagrams, a vessel seen from ahead at night. The view
+is not a styling choice — it is the only aspect that shows both sidelights, and it
+forces two facts the drawing must get right:
+
+* **green appears left, red right.** Regel 21 b) puts green to starboard and red to
+  port; bows-on, the vessel's starboard side faces the observer's left. Mirroring
+  that would teach the exact opposite of the Rule, so `test_diagrams.py` pins it.
+* **no sternlight is drawn.** It shines over 135° from right astern (Regel 21 c), so
+  from ahead it cannot be seen. Its absence is part of the lesson.
+
+The vertical layout is likewise dictated: Anlage I §2 f) i) puts masthead lights above
+all other lights, §2 g) keeps sidelights low, §2 i) iii) spaces a three-light line
+evenly, §2 k) puts the forward anchor light higher than the after one. §2 j) is the
+binding constraint on the canvas — the lower of a fishing vessel's two all-round
+lights must clear the sidelights by at least twice its distance from the upper one —
+and that inequality is asserted in the module and in the tests.
+
+The pairs are where the teaching is: Frage 97/98 (not under command) and 102/103
+(restricted in her ability to manoeuvre) differ **only** by the sidelights, because
+the Rules prescribe the identity lights always and the sidelights only *bei Fahrt
+durchs Wasser*. Two pictures say that better than a sentence.
+
+**16 of the 27 broken German questions are now answerable.** They scope to `colregs`,
+so the same figures reach the pooled harmonised core and serve English and French
+learners too.
+
+**Deliberately not drawn.** Regel 30 d) has a vessel aground show the anchor light(s)
+of a) or b) *plus* two red all-round lights "dort, wo sie am besten gesehen werden
+können": the order inside each group is fixed, between them it is not. So Frage 105
+and 107 stay unillustrated rather than have us invent a stacking order — recorded in
+`_UNPRESCRIBED`. Frage 93/94 (towing convoys) need a second vessel and wait for the
+give-way view; the six inland questions need BinSchStrO sourcing, not KVR.
+
+Next: sound-signals (76 missing — a blast timeline, the simplest family left), then
+the inland light questions, then give-way plan views.
 
 ### Adding a diagram (the smallest useful contribution)
 
-1. Add an entry to `DIAGRAMS` in `src/questions/diagrams.py`: the stack of shapes, a
-   title that describes **the shapes and not their meaning**, and a `source` naming
-   the KB unit, the article, and the fragment that prescribes them.
+1. Add an entry to `DAY_SHAPES` or `NAV_LIGHTS` in `src/questions/diagrams.py`: the
+   stack of shapes (or the column of lights, top to bottom, plus whether the vessel
+   is making way), a title that describes **the figure and not its meaning**, and a
+   `source` naming the KB unit, the article, and the fragment that prescribes it.
 2. Add an `ASSIGNMENTS` entry only if some question's figure is the subject — with
    the `why` and the `expect` interlock.
 3. `python run.py diagrams` then `python tests/test_diagrams.py`. The sourcing test

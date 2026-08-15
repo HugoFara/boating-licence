@@ -1,4 +1,4 @@
-"""Generated figures — the day-shapes pilot (roadmap: illustration system).
+"""Generated figures — day shapes and navigation lights (illustration system).
 
 Why this module exists
 ----------------------
@@ -10,10 +10,12 @@ via Fedlex, public domain; ELWIS GIFs, §5(2) UrhG verbatim-only), so a diagram
 obtained for one country's bank cannot legally be reused in another's. That is the
 opposite of what `docs/scope.md` promises for the harmonised core.
 
-The way out is that day shapes are **geometry, not artwork**: the law describes them
-as balls, cones, cylinders, diamonds and hourglasses stacked in a vertical line. So we
-do not *obtain* the picture, we **derive** it — from the article that prescribes it,
-with the same discipline as a question:
+The way out is that both families here are **geometry, not artwork**. The law
+describes day shapes as balls, cones, cylinders, diamonds and hourglasses stacked in
+a vertical line, and it describes lights by colour, arc and vertical order — Regeln
+21–30 for what a vessel shows, Anlage I §2 for where each light sits. So we do not
+*obtain* the picture, we **derive** it — from the article that prescribes it, with
+the same discipline as a question:
 
   * every diagram carries a ``source`` naming the unit, the article and the exact
     ``quote`` that prescribes the shapes. ``tests/test_diagrams.py`` reads that quote
@@ -31,6 +33,10 @@ are attached only where the figure is the *subject* of the question — the
 "which vessel shows these shapes?" pattern — which is exactly the set that is broken
 today. The answer-side questions are served by the concept card instead.
 
+It also declines to draw an arrangement the source does not fix. Where a Rule stacks
+one group of lights on another without saying which sits where, the question stays
+unillustrated rather than have us invent the geometry — see ``_UNPRESCRIBED``.
+
 Output: ``data/assets/diagrams/<key>.svg``. The existing image plumbing takes it from
 there — ``run.py`` relocates any ``data/assets/...`` path into each player bundle, and
 ``web/app.js`` renders ``q.image`` as a plain ``<img>``. No player change is needed.
@@ -41,8 +47,8 @@ from __future__ import annotations
 import os
 import sqlite3
 
-FAMILY = "day-shapes"
-GENERATOR = "gen:diagram.day_shapes.v1"
+GENERATOR = "gen:diagram.v1"
+FAMILIES = ("day-shapes", "nav-lights")
 
 # Where the rendered figures land, relative to the repo root. Under data/assets/ so
 # the per-country and core web bundlers relocate them like any other figure.
@@ -155,6 +161,116 @@ def _esc(s: str) -> str:
              .replace('"', "&quot;"))
 
 
+# ── Nav-lights geometry ───────────────────────────────────────────────────────
+# The view is FROM AHEAD, which is the only aspect that shows both sidelights and
+# is what the "which vessel carries these lights?" questions depict. Two
+# consequences, both load-bearing:
+#
+#   * green appears on the viewer's LEFT and red on the viewer's RIGHT — the
+#     vessel's starboard side faces the observer's left when bows-on. Get this
+#     backwards and the diagram teaches the opposite of Regel 21 b).
+#   * the sternlight is NOT drawn. It shines over 135° from right astern
+#     (Regel 21 c), so from ahead it is invisible — drawing it would be a lie, and
+#     its absence is itself the lesson.
+#
+# The vertical layout is not invented either. Anlage I fixes it:
+#   §2 f) i)  masthead lights higher than all other lights → they head the column
+#   §2 g)     sidelights at most ¾ of the forward masthead height → they sit low
+#   §2 i) iii) three lights in a vertical line are equally spaced → constant pitch
+#   §2 k)     of two anchor lights the forward one is the higher → it leads
+# So a diagram states the order the law states, and nothing more. Where an article
+# leaves the order between two GROUPS of lights open (a vessel aground shows anchor
+# lights "plus" two red all-round, with no rule on which sits where), no diagram is
+# drawn at all — see the note on ``_UNPRESCRIBED`` below.
+_LW, _LH = 160.0, 220.0
+_LCX = _LW / 2
+_L_PITCH = 22.0        # centre-to-centre of two lights in a vertical line
+_L_BOTTOM = 116.0      # the lowest column light; the column grows upward from here
+_L_R = 7.5             # light radius
+_SIDE_DX = 44.0        # sidelights at or near the vessel's sides (Anlage I §3 b)
+_SIDE_Y = 165.0
+_DECK_Y = 172.0
+_NIGHT = "#0d1626"
+
+# The column/sidelight separation is not a styling choice — three clauses of
+# Anlage I §2 bound it, and the drawing has to satisfy all three at once:
+#   g)  sidelights no higher than ¾ of the forward masthead's height
+#   i)  lights in a vertical line evenly spaced, the lowest well clear of the hull
+#   j)  on a fishing vessel the LOWER of the two all-round lights must clear the
+#       sidelights by at least twice its distance from the upper one
+# (j) is the binding one: it forces _L_BOTTOM − _SIDE_Y ≥ 2 × _L_PITCH.
+assert _SIDE_Y - _L_BOTTOM >= 2 * _L_PITCH, "violates Anlage I §2 j)"
+
+# The colours the Rules name. A light is a lens colour, not a shade choice.
+_LIGHT_COLOURS = {
+    "white": "#fdfdf2",
+    "red": "#ef4444",
+    "green": "#22c55e",
+    "yellow": "#facc15",
+}
+
+
+def _light(cx: float, cy: float, colour: str) -> str:
+    """One light: a solid lens inside a soft halo, so colour survives at thumbnail
+    size in the player's figure box."""
+    if colour not in _LIGHT_COLOURS:
+        raise ValueError(f"unknown light colour {colour!r}; "
+                         f"the Rules name {tuple(_LIGHT_COLOURS)}")
+    hue = _LIGHT_COLOURS[colour]
+    return (f'<circle cx="{cx:g}" cy="{cy:g}" r="{_L_R * 2.1:g}" fill="{hue}" '
+            f'opacity="0.22"/>'
+            f'<circle cx="{cx:g}" cy="{cy:g}" r="{_L_R * 1.45:g}" fill="{hue}" '
+            f'opacity="0.35"/>'
+            f'<circle cx="{cx:g}" cy="{cy:g}" r="{_L_R:g}" fill="{hue}" '
+            f'stroke="#00000055" stroke-width="0.75"/>')
+
+
+def render_lights(column: list[str], sidelights: bool, title: str,
+                  source_ref: str = "") -> str:
+    """A vessel seen from ahead at night.
+
+    ``column`` lists the centreline lights **top to bottom**, in the order the Rules
+    prescribe them. ``sidelights`` is the making-way tell: several Rules prescribe
+    the identity lights always but the sidelights only "bei Fahrt durchs Wasser", so
+    their presence or absence is what separates a pair of otherwise identical
+    questions."""
+    if not 1 <= len(column) <= 5:
+        raise ValueError(f"a light column holds 1–5 lights, got {len(column)}")
+    credit = (f"\n<!-- Generated figure, derived from {source_ref}; layout per "
+              f"SeeStrO 1972 Anlage I §2. Original artwork; project licence "
+              f"(CC BY-SA 4.0), not a reproduction of any source figure. "
+              f"{GENERATOR} -->" if source_ref else "")
+    top = _L_BOTTOM - (len(column) - 1) * _L_PITCH
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {_LW:g} {_LH:g}" '
+        f'width="{_LW:g}" height="{_LH:g}" role="img" '
+        f'aria-label="{_esc(title)}">{credit}',
+        f'<title>{_esc(title)}</title>',
+        f'<rect width="{_LW:g}" height="{_LH:g}" fill="{_NIGHT}"/>',
+        # waterline, so the picture reads as a vessel and not a free-floating mast
+        f'<rect x="0" y="196" width="{_LW:g}" height="{_LH - 196:g}" '
+        f'fill="#08101c"/>',
+        # bows-on hull: a stem line down the middle is what makes the aspect legible
+        f'<path d="M{_LCX - 60:g},196 L{_LCX - 50:g},{_DECK_Y:g} '
+        f'L{_LCX + 50:g},{_DECK_Y:g} L{_LCX + 60:g},196 Z" fill="#1c2b45" '
+        f'stroke="#44598a" stroke-width="1.5"/>',
+        f'<line x1="{_LCX:g}" y1="{_DECK_Y:g}" x2="{_LCX:g}" y2="196" '
+        f'stroke="#44598a" stroke-width="1.5"/>',
+        # the mast, carrying the centreline column
+        f'<rect x="{_LCX - 1:g}" y="{top - 10:g}" width="2" '
+        f'height="{_DECK_Y + 6 - (top - 10):g}" fill="#44598a"/>',
+    ]
+    for i, colour in enumerate(column):
+        parts.append(_light(_LCX, top + i * _L_PITCH, colour))
+    if sidelights:
+        # Regel 21 b): green to starboard, red to port. Seen from AHEAD, the vessel's
+        # starboard side is on the observer's left — hence green left, red right.
+        parts.append(_light(_LCX - _SIDE_DX, _SIDE_Y, "green"))
+        parts.append(_light(_LCX + _SIDE_DX, _SIDE_Y, "red"))
+    parts.append("</svg>")
+    return "\n".join(parts) + "\n"
+
+
 # ── The spec ──────────────────────────────────────────────────────────────────
 # One entry per distinct configuration, NOT per question — the whole point is that a
 # handful of diagrams covers hundreds of questions across banks and languages.
@@ -162,7 +278,7 @@ def _esc(s: str) -> str:
 # ``source.quote`` is the load-bearing field: it is the fragment of the cited article
 # that prescribes these shapes, and tests/test_diagrams.py asserts it still occurs in
 # ``source.unit``'s text in the KB. That is what keeps a hand-drawn figure honest.
-DIAGRAMS: list[dict] = [
+DAY_SHAPES: list[dict] = [
     {
         "key": "nuc-two-balls",
         "shapes": [("ball", _INK), ("ball", _INK)],
@@ -266,12 +382,160 @@ DIAGRAMS: list[dict] = [
     },
 ]
 
+# ── Nav-lights: the spec ──────────────────────────────────────────────────────
+# ``column`` is top-to-bottom on the centreline; ``sidelights`` says the vessel is
+# making way through the water (several Rules prescribe the identity lights always
+# and the sidelights only "bei Fahrt durchs Wasser" — that difference is the whole
+# question in more than one pair below).
+#
+# Where a Rule stacks a group of lights on TOP of another group without saying which
+# sits where, no diagram is drawn. Regel 30 d) is the case: a vessel aground shows
+# the anchor light(s) of a) or b) *plus* two red all-round lights "dort, wo sie am
+# besten gesehen werden können" — the law fixes the order inside each group and is
+# silent between them. Anlage I §2 f) i) settles the same question for masthead
+# lights (they top everything), which is why the vessels below can be drawn at all.
+# Frage 105 and Frage 107 (aground, under and over 50 m) therefore stay
+# unillustrated rather than have us invent a stacking order.
+_UNPRESCRIBED = ("aground: Regel 30 d) fixes the order within each group of lights "
+                 "but not between the anchor lights and the two red all-round "
+                 "lights, so no arrangement can be drawn from the source alone")
+
+NAV_LIGHTS: list[dict] = [
+    {
+        "key": "power-driven-under-50m",
+        "column": ["white"], "sidelights": True,
+        "title": "Ein weißes Licht oben, grünes Licht links, rotes Licht rechts",
+        "source": {
+            "unit": "kvr-de-seestro_1972_regel_23",
+            "ref": "SeeStrO 1972 Regel 23 Buchstabe a",
+            "quote": "ein Topplicht vorn; ii) ein zweites Topplicht achterlicher "
+                     "und höher als das vordere; ein Fahrzeug von weniger als 50 "
+                     "Meter Länge kann ein solches Licht führen, ist jedoch nicht "
+                     "dazu verpflichtet",
+        },
+    },
+    {
+        "key": "power-driven-over-50m",
+        "column": ["white", "white"], "sidelights": True,
+        "title": "Zwei weiße Lichter übereinander, grünes Licht links, rotes rechts",
+        "source": {
+            "unit": "kvr-de-seestro_1972_regel_23",
+            "ref": "SeeStrO 1972 Regel 23 Buchstabe a Ziffer ii",
+            "quote": "ein zweites Topplicht achterlicher und höher als das vordere",
+        },
+    },
+    {
+        "key": "nuc-two-red",
+        "column": ["red", "red"], "sidelights": False,
+        "title": "Zwei rote Lichter senkrecht übereinander",
+        "source": {
+            "unit": "kvr-de-seestro_1972_regel_27",
+            "ref": "SeeStrO 1972 Regel 27 Buchstabe a Ziffer i",
+            "quote": "zwei rote Rundumlichter senkrecht übereinander",
+        },
+    },
+    {
+        "key": "nuc-two-red-making-way",
+        "column": ["red", "red"], "sidelights": True,
+        "title": "Zwei rote Lichter übereinander, grünes Licht links, rotes rechts",
+        "source": {
+            "unit": "kvr-de-seestro_1972_regel_27",
+            "ref": "SeeStrO 1972 Regel 27 Buchstabe a Ziffer iii",
+            "quote": "bei Fahrt durchs Wasser zusätzlich zu den unter diesem "
+                     "Buchstaben vorgeschriebenen Lichtern Seitenlichter und ein "
+                     "Hecklicht",
+        },
+    },
+    {
+        "key": "ram-red-white-red",
+        "column": ["red", "white", "red"], "sidelights": False,
+        "title": "Rotes, weißes, rotes Licht senkrecht übereinander",
+        "source": {
+            "unit": "kvr-de-seestro_1972_regel_27",
+            "ref": "SeeStrO 1972 Regel 27 Buchstabe b Ziffer i",
+            "quote": "Das obere und das untere Licht müssen rot, das mittlere muß "
+                     "weiß sein",
+        },
+    },
+    {
+        "key": "ram-making-way",
+        "column": ["white", "red", "white", "red"], "sidelights": True,
+        "title": "Weißes Licht oben, darunter rot-weiß-rot, grünes Licht links, "
+                 "rotes rechts",
+        "source": {
+            "unit": "kvr-de-seestro_1972_regel_27",
+            "ref": "SeeStrO 1972 Regel 27 Buchstabe b Ziffer iii",
+            "quote": "bei Fahrt durchs Wasser zusätzlich zu den unter Ziffer i "
+                     "vorgeschriebenen Lichtern ein Topplicht oder mehrere "
+                     "Topplichter sowie Seitenlichter und ein Hecklicht",
+        },
+    },
+    {
+        "key": "constrained-by-draught",
+        "column": ["white", "white", "red", "red", "red"], "sidelights": True,
+        "title": "Zwei weiße Lichter oben, darunter drei rote, grünes Licht links, "
+                 "rotes rechts",
+        "source": {
+            "unit": "kvr-de-seestro_1972_regel_28",
+            "ref": "SeeStrO 1972 Regel 28",
+            "quote": "drei rote Rundumlichter senkrecht übereinander",
+        },
+    },
+    {
+        "key": "trawler-making-way",
+        "column": ["white", "green", "white"], "sidelights": True,
+        "title": "Weißes Licht oben, darunter grün über weiß, grünes Licht links, "
+                 "rotes rechts",
+        "source": {
+            "unit": "kvr-de-seestro_1972_regel_26",
+            "ref": "SeeStrO 1972 Regel 26 Buchstabe b",
+            "quote": "zwei Rundumlichter senkrecht übereinander, das obere grün und "
+                     "das untere weiß",
+        },
+    },
+    {
+        "key": "fishing-not-trawling",
+        "column": ["red", "white"], "sidelights": False,
+        "title": "Rotes Licht über weißem Licht",
+        "source": {
+            "unit": "kvr-de-seestro_1972_regel_26",
+            "ref": "SeeStrO 1972 Regel 26 Buchstabe c Ziffer i",
+            "quote": "zwei Rundumlichter senkrecht übereinander, das obere rot und "
+                     "das untere weiß",
+        },
+    },
+    {
+        "key": "anchored-two-lights",
+        "column": ["white", "white"], "sidelights": False,
+        "title": "Zwei weiße Lichter senkrecht übereinander",
+        "source": {
+            "unit": "kvr-de-seestro_1972_anlage_i",
+            "ref": "SeeStrO 1972 Anlage I §2 Buchstabe k (mit Regel 30 Buchstabe a)",
+            "quote": "Werden zwei Ankerlichter geführt, so muß das in Regel 30 "
+                     "Buchstabe a Ziffer i vorgeschriebene vordere mindestens 4,5 "
+                     "Meter höher als das hintere angebracht sein",
+        },
+    },
+]
+
+DIAGRAMS: list[dict] = ([{**d, "family": "day-shapes"} for d in DAY_SHAPES]
+                        + [{**d, "family": "nav-lights"} for d in NAV_LIGHTS])
 BY_KEY: dict[str, dict] = {d["key"]: d for d in DIAGRAMS}
 
 
 def path_for(key: str) -> str:
     """Repo-relative path of a rendered diagram (the value stored in Question.image)."""
     return f"{OUT_DIR}/{key}.svg".replace(os.sep, "/")
+
+
+def render_one(d: dict) -> str:
+    """Render one spec entry through its family's renderer."""
+    if d["family"] == "day-shapes":
+        return render(d["shapes"], d["title"], d["source"]["ref"])
+    if d["family"] == "nav-lights":
+        return render_lights(d["column"], d["sidelights"], d["title"],
+                             d["source"]["ref"])
+    raise ValueError(f"unknown family {d['family']!r}; expected one of {FAMILIES}")
 
 
 def render_all(root: str = ".") -> dict:
@@ -281,7 +545,7 @@ def render_all(root: str = ".") -> dict:
     os.makedirs(out, exist_ok=True)
     written = 0
     for d in DIAGRAMS:
-        svg = render(d["shapes"], d["title"], d["source"]["ref"])
+        svg = render_one(d)
         dst = os.path.join(out, f"{d['key']}.svg")
         old = None
         if os.path.exists(dst):
@@ -338,6 +602,37 @@ ASSIGNMENTS: list[dict] = [
      "expect": "tiefgangbehindertes", "key": "draft-cylinder", "why": "deictic"},
     {"bank": "de", "catalogue": "SBF See", "ref": "Frage 112",
      "expect": "fischendes", "key": "fishing-hourglass", "why": "deictic"},
+
+    # nav-lights. Note the pairs that differ ONLY by the sidelights: Frage 97/98
+    # (not under command, underway vs making way) and Frage 102/103 (restricted in
+    # her ability to manoeuvre). The Rules prescribe the identity lights always and
+    # the sidelights only "bei Fahrt durchs Wasser", so the two pictures teach that
+    # distinction better than any sentence could.
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 91",
+     "expect": "weniger als 50 m", "key": "power-driven-under-50m",
+     "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 92",
+     "expect": "50 und mehr Meter", "key": "power-driven-over-50m",
+     "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 97",
+     "expect": "manövrierunfähiges", "key": "nuc-two-red", "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 98",
+     "expect": "manövrierunfähiges Fahrzeug mit Fahrt",
+     "key": "nuc-two-red-making-way", "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 102",
+     "expect": "manövrierbehindertes", "key": "ram-red-white-red", "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 103",
+     "expect": "manövrierbehindertes Fahrzeug mit Fahrt", "key": "ram-making-way",
+     "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 108",
+     "expect": "tiefgangbehindertes", "key": "constrained-by-draught",
+     "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 110",
+     "expect": "Trawler", "key": "trawler-making-way", "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 111",
+     "expect": "nicht trawlt", "key": "fishing-not-trawling", "why": "deictic"},
+    {"bank": "de", "catalogue": "SBF See", "ref": "Frage 115",
+     "expect": "vor Anker", "key": "anchored-two-lights", "why": "deictic"},
 ]
 
 

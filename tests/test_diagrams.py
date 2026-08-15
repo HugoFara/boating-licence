@@ -39,8 +39,7 @@ def _q(qid, stem, answer, ref, source, image=None):
 
 def test_render_is_deterministic_and_self_contained():
     for d in diagrams.DIAGRAMS:
-        a = diagrams.render(d["shapes"], d["title"])
-        b = diagrams.render(d["shapes"], d["title"])
+        a, b = diagrams.render_one(d), diagrams.render_one(d)
         assert a == b, f"{d['key']} does not render deterministically"
         assert a.startswith("<svg ") and a.rstrip().endswith("</svg>")
         # No external reference of any kind: the player is offline-only. (The SVG
@@ -50,20 +49,70 @@ def test_render_is_deterministic_and_self_contained():
             assert forbidden not in body, f"{d['key']} pulls in {forbidden}"
 
 
-def test_every_stack_uses_known_primitives_and_a_legal_height():
+def test_every_spec_is_drawable_by_its_family():
     for d in diagrams.DIAGRAMS:
-        assert 1 <= len(d["shapes"]) <= 3, d["key"]
-        for kind, _colour in d["shapes"]:
-            assert kind in diagrams._PRIMITIVES, f"{d['key']}: {kind}"
+        assert d["family"] in diagrams.FAMILIES, d["key"]
+        if d["family"] == "day-shapes":
+            assert 1 <= len(d["shapes"]) <= 3, d["key"]
+            for kind, _colour in d["shapes"]:
+                assert kind in diagrams._PRIMITIVES, f"{d['key']}: {kind}"
+        else:
+            assert 1 <= len(d["column"]) <= 5, d["key"]
+            for colour in d["column"]:
+                assert colour in diagrams._LIGHT_COLOURS, f"{d['key']}: {colour}"
+            assert isinstance(d["sidelights"], bool), d["key"]
 
 
-def test_one_fixed_canvas_so_shapes_are_comparable():
+def test_one_fixed_canvas_per_family_so_figures_are_comparable():
     """A single cylinder and a three-ball stack must render at the SAME scale — the
-    learner is meant to compare shapes, never sizes. One viewBox for the family is
-    what guarantees that inside the player's fixed-height figure box."""
-    boxes = {diagrams.render(d["shapes"], d["title"]).split('viewBox="')[1].split('"')[0]
-             for d in diagrams.DIAGRAMS}
-    assert len(boxes) == 1, f"diagrams disagree on the canvas: {boxes}"
+    learner is meant to compare shapes, never sizes. One viewBox per family is what
+    guarantees that inside the player's fixed-height figure box."""
+    boxes: dict[str, set] = {}
+    for d in diagrams.DIAGRAMS:
+        box = diagrams.render_one(d).split('viewBox="')[1].split('"')[0]
+        boxes.setdefault(d["family"], set()).add(box)
+    for family, seen in boxes.items():
+        assert len(seen) == 1, f"{family} diagrams disagree on the canvas: {seen}"
+
+
+def test_sidelights_are_drawn_as_seen_from_ahead():
+    """Green to starboard, red to port (Regel 21 b) — and bows-on the vessel's
+    starboard side faces the observer's LEFT. Drawing that mirrored would teach the
+    exact opposite of the Rule, so it is pinned here."""
+    svg = diagrams.render_lights(["white"], True, "t")
+    green_x = red_x = None
+    for chunk in svg.split("<circle ")[1:]:
+        cx = float(chunk.split('cx="')[1].split('"')[0])
+        cy = float(chunk.split('cy="')[1].split('"')[0])
+        if abs(cy - diagrams._SIDE_Y) > 0.01:
+            continue                                  # a column light, not a sidelight
+        if diagrams._LIGHT_COLOURS["green"] in chunk:
+            green_x = cx
+        elif diagrams._LIGHT_COLOURS["red"] in chunk:
+            red_x = cx
+    assert green_x is not None and red_x is not None, "sidelights missing"
+    assert green_x < red_x, "green must be left of red in a bows-on view"
+
+
+def test_no_sternlight_is_ever_drawn():
+    """The sternlight shines 135° from right astern (Regel 21 c), so from ahead it
+    cannot be seen. Every making-way diagram must therefore show sidelights and no
+    light below them — its absence is part of the lesson."""
+    for d in diagrams.DIAGRAMS:
+        if d["family"] != "nav-lights" or not d["sidelights"]:
+            continue
+        svg = diagrams.render_one(d)
+        lows = [float(c.split('cy="')[1].split('"')[0])
+                for c in svg.split("<circle ")[1:]]
+        assert max(lows) <= diagrams._SIDE_Y, f"{d['key']} draws a light abaft"
+
+
+def test_layout_satisfies_the_annex_it_cites():
+    """Anlage I §2 j): on a fishing vessel the lower of the two all-round lights must
+    clear the sidelights by at least twice its distance from the upper one. The
+    module asserts this at import; assert it here too so a geometry tweak that
+    quietly breaks the annex can't ship."""
+    assert diagrams._SIDE_Y - diagrams._L_BOTTOM >= 2 * diagrams._L_PITCH
 
 
 def test_titles_never_leak_the_meaning():

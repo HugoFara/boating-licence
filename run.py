@@ -1353,8 +1353,12 @@ def cmd_diagrams(args):
     print(f"✓ {st['diagrams']} diagrams rendered ({st['written']} changed) "
           f"→ {diagrams.OUT_DIR}/")
     for d in diagrams.DIAGRAMS:
-        shapes = " + ".join(k for k, _ in d["shapes"])
-        print(f"  {d['key']:28s} {shapes:34s} {d['source']['ref']}")
+        if d["family"] == "day-shapes":
+            what = " + ".join(k for k, _ in d["shapes"])
+        else:
+            what = " over ".join(d["column"]) + (" + sidelights" if d["sidelights"]
+                                                 else "")
+        print(f"  {d['key']:28s} {what:42s} {d['source']['ref']}")
     total = {"attached": 0, "skipped": 0, "mismatched": 0, "missing": 0}
     for qdb in sorted(glob.glob(os.path.join(DATA, "questions.*.sqlite"))):
         bank = os.path.basename(qdb)[len("questions."):-len(".sqlite")]
