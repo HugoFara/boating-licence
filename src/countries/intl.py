@@ -17,15 +17,22 @@ Legal boundary (the project's hard rule — only public-domain / clearly-reusabl
   under 17 USC §105. We ingest the USCG "Navigation Rules" PDF and keep only its
   International pages (it prints International and US-Inland on facing pages); the
   IMO's own consolidated edition is copyrighted and is *not* used.
-* **CEVNI — NOT INGESTED.** The canonical UNECE text (Resolution No. 24, now
-  ECE/TRANS/SC.3/115/Rev.6) is **all-rights-reserved**: UN policy requires written
-  permission to reproduce and forbids redistribution / derivative works. It fails
-  the reuse bar, so it is recorded as a :class:`Reference` only; a reproduction-
-  permission request has been sent to the rights holders (UNECE) and is pending.
-  Until/unless granted,
-  the CEVNI base stays grounded via the public-domain national inland enactments
-  already ingested (CH ONI/RNL, DE BinSchStrO/RheinSchPV), which :mod:`src.scope`
-  buckets into ``cevni``.
+* **CEVNI — NOT INGESTED.** Checked against the publication itself
+  (ECE/TRANS/SC.3/115/Rev.6, sixth revised edition, 200 pp., with Corr.1 and
+  Corr.2). It carries exactly one licence statement, on its copyright page:
+  "© 2021 United Nations / **All rights reserved worldwide** / Requests to
+  reproduce excerpts or to photocopy should be addressed to the Copyright
+  Clearance Center at copyright.com", with other rights queries routed to
+  permissions@un.org. It is a **priced sales publication** (Sales No. E.21.II.E.11,
+  ISBN 978-92-1-117274-4) — the strictest category the UN has — with no Creative
+  Commons grant and no free-of-charge clause anywhere in the document. It
+  therefore fails the reuse bar and is recorded as a :class:`Reference` only. A
+  reproduction-permission request was sent to permissions@un.org (the address the
+  publication itself names) and went unanswered; a second attempt is going through
+  the UN Publications online rights form. Until permission is granted, the CEVNI
+  base stays grounded via the public-domain national inland enactments already
+  ingested (CH ONI/RNL, DE BinSchStrO/RheinSchPV, NL BPR/RPR), which
+  :mod:`src.scope` buckets into ``cevni``.
 """
 
 from __future__ import annotations
@@ -38,11 +45,13 @@ LEGAL_BASIS = (
     "Harmonised codes. COLREG (International Regulations for Preventing Collisions "
     "at Sea, 1972) is ingested from the US Coast Guard reproduction — a "
     "US-Government work, public domain under 17 USC §105 (the IMO consolidated "
-    "edition is copyrighted and is not used). CEVNI (UNECE Resolution No. 24) is "
-    "all-rights-reserved (UN permission required) and is therefore NOT ingested: "
-    "it is documented as a reference and the CEVNI base stays grounded via "
-    "public-domain national inland enactments. A reproduction-permission request "
-    "has been sent to UNECE and is pending a response from the rights owners.")
+    "edition is copyrighted and is not used). CEVNI (UNECE Resolution No. 24, "
+    "ECE/TRANS/SC.3/115/Rev.6) is a priced UN sales publication marked \"All "
+    "rights reserved worldwide\" and is therefore NOT ingested: it is documented "
+    "as a reference and the CEVNI base stays grounded via public-domain national "
+    "inland enactments. A reproduction-permission request to permissions@un.org "
+    "went unanswered; a second attempt is going through the UN Publications "
+    "online rights form.")
 
 _COLREG_LICENCE = (
     "Public domain — US Government work (17 USC §105). Verbatim International "
@@ -65,13 +74,16 @@ REFERENCES: tuple[Reference, ...] = (
         name="CEVNI — European Code for Inland Waterways (UNECE Resolution No. 24, "
              "ECE/TRANS/SC.3/115/Rev.6)",
         url="https://unece.org/transport/publications/cevni-european-code-inland-waterways-rev6",
-        note="The harmonised inland traffic code (the CEVNI base). NOT ingested: "
-             "UNECE/UN material is all-rights-reserved — reproduction needs written "
-             "permission and redistribution/derivatives are forbidden, so it fails "
-             "the project's public-domain/clearly-reusable rule. The CEVNI base is "
-             "instead grounded via the public-domain national inland enactments "
-             "already ingested (CH ONI/RNL, DE BinSchStrO/RheinSchPV). A reproduction-"
-             "permission request has been sent to the rights owners and is pending."),
+        note="The harmonised inland traffic code (the CEVNI base). NOT ingested. "
+             "Verified against the publication: its copyright page reads \u00a9 2021 "
+             "United Nations, \"All rights reserved worldwide\", excerpts via the "
+             "Copyright Clearance Center, rights queries to permissions@un.org; it "
+             "is a priced sales publication (Sales No. E.21.II.E.11) with no reuse "
+             "grant anywhere in its 200 pages. The CEVNI base is instead grounded "
+             "via the public-domain national inland enactments already ingested "
+             "(CH ONI/RNL, DE BinSchStrO/RheinSchPV, NL BPR/RPR). A permission "
+             "request to permissions@un.org went unanswered; retrying via the UN "
+             "Publications online rights form."),
 )
 
 # Not a within-country variance, just a single descriptive bucket: the codes here
