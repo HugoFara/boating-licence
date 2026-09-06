@@ -1,6 +1,6 @@
 # Boating-licence — Bootsführerschein-Regeln aus geprüften Quellen lernen
 
-**Sprachen:** [English](README.md) · [Français](README.fr.md) · **Deutsch** · [Italiano](README.it.md)
+**Sprachen:** [English](README.md) · [Français](README.fr.md) · **Deutsch** · [Italiano](README.it.md) · [Nederlands](README.nl.md)
 
 Ein offenes Framework zum Lernen für **nationale Theorieprüfungen des
 Bootsführerscheins**, das **ausschließlich** auf gemeinfreiem Recht und eindeutig
@@ -104,7 +104,7 @@ verknüpft.
 | **Derive / draft** | `run.py draft …` · `run.py fr` | Entwirft Fragen streng **aus übernommenem Quelltext** (ein lexikalischer Grounding-Wächter verwirft wahrscheinliche Halluzinationen), jede an einen maßgeblichen Quellenverweis geheftet. Landet als **`pending`**. |
 | **Catalogue ingest** | `run.py questions --country DE` | Übernimmt einen amtlichen weiterverwendbaren Katalog (Deutschlands ELWIS) **wortgetreu**, jede Frage getaggt + mit ihrer §5-Attribuierung. |
 | **Review** | `run.py review --list / --approve / --reject` | Menschliches Prüf-Gate. Nur `auto_approved`- + `approved`-Fragen werden jemals exportiert. |
-| **Web** | `run.py web` | Exportiert jede freigegebene Bank erneut nach `questions.<lang>.json`, bündelt die Abbildungs-Assets in `web/` und schreibt die sprachspezifischen **Anki-Decks** (`web/anki/`) + **Moodle GIFT**-Dateien (`web/gift/`). |
+| **Web** | `run.py web` | Bündelt jede freigegebene Bank in die statische Site: ein Player-Sub-Bundle pro Land (`web/ch/`, `web/de/`, `web/int/`, `web/nl/`; Frankreich via `run.py fr`), den gebündelten länderübergreifenden Kern (`web/questions.<base>.<lang>.json`) und die sprachspezifischen **Anki-Decks** + **Moodle GIFT**-Dateien in jedem Bundle. |
 
 ## Die Länder
 
@@ -216,8 +216,10 @@ Markermeer außer der Gouwzee), keine Ermessensfrage. Pflicht für Fahrzeuge von
   festgestellte Prüfungsprogramm** — ein ministerieller Rechtsakt nach Art. 11 — und es
   benennt die prüfungsrelevanten Artikel einzeln. Das ist
   `src/countries/nl_examscope.py`: 144 Vorschriften aus sechs Rechtsakten.
-- **234 aus dem Gesetz abgeleitete Fragen**, aus diesen Artikeln formuliert und hinter
-  dem Review-Gate auf **pending** gehalten. Sie haben eine eigene Prüfung
+- **234 aus dem Gesetz abgeleitete Fragen**, aus diesen Artikeln formuliert und durch
+  das Review-Gate gebracht — adversarial gegen den zitierten Quelltext geprüft, bei
+  Ablehnung durch einen Verifikator repariert und erst dann **freigegeben**. Sie haben
+  eine eigene Prüfung
   (`tests/test_nl_questions.py`), deren schärfster Test einen vertauschten Wert fängt:
   eine Zahl in einer richtigen Antwort muss im zitierten Artikel *neben den Wörtern der
   Antwort selbst* stehen.
@@ -225,7 +227,14 @@ Markermeer außer der Gouwzee), keine Ermessensfrage. Pflicht für Fahrzeuge von
   bestanden ab 56/80. KVB II: 27 Fragen (23 MC + 4 offen), 90 Min., 1–4 Punkte,
   bestanden ab 35/50. Beide 70 %. Es gibt **keine praktische Prüfung** — daher wird
   auch kein `practical`-Schritt erfunden.
-- **Build:** `python run.py build --country NL` → `data/kb.nl.sqlite`. Details in
+- **Player:** Das **🇳🇱 Nederland** der Länderleiste öffnet `web/nl/` — mit
+  niederländischer Oberfläche, dem KVB-I/II-Auswahlchip (jeder mit seinem
+  CBR-Prüfungsformat und Timer), den drei Wasserregionen, den Schritten zum Patent und
+  Anki/GIFT-Downloads. Die 209 portablen Fragen fließen außerdem in den gemeinsamen
+  Kern (`questions.cevni.nl.json`, `questions.universal.nl.json`).
+- **Build:** `python run.py build --country NL` → `data/kb.nl.sqlite`; die Fragen
+  werden via `tools/subagent_draft.py` entworfen und verifiziert (draft → verify →
+  ingest → apply), und `run.py web` bündelt `web/nl/`. Details in
   [`docs/netherlands.md`](docs/netherlands.md).
 
 ## Harmonisierte Codes — die supranationale Ebene (`INT`)
@@ -296,15 +305,16 @@ die Prüfungskonfiguration aus ihren `meta` und führt eine chronometrierte **Pr
 sowie einen **Übungs**-Modus mit quellenbelegten Korrekturen aus. Sie können **nach
 Themengebiet lernen** (umschalten, aus welchen Themen ein Durchlauf zieht), den
 **National ⟷ Common-core**-Pool umschalten, und der Ergebnisbildschirm schlüsselt die
-**Punktzahl pro Themengebiet** auf. Die **🇫🇷 / 🇩🇪 / 🇨🇭 Länderleiste** wechselt
+**Punktzahl pro Themengebiet** auf. Die **🌍 / 🇫🇷 / 🇩🇪 / 🇨🇭 / 🇳🇱 Länderleiste** wechselt
 zwischen den nationalen Playern, die jeweils dieselbe Engine mit ihren eigenen
 Prüfungsregeln wiederverwenden. Der Player bietet außerdem das **Anki-Deck** und die
 **Moodle GIFT**-Datei für die aktive Sprache als Ein-Klick-Downloads.
 
 ### Sprachen
 
-Die Player-Oberfläche ist in **Französisch, Deutsch, Italienisch und Englisch**
-übersetzt, und Frageninhalte werden pro Sprache erstellt. Wo das amtliche Recht eines
+Die Player-Oberfläche ist in **Französisch, Deutsch, Italienisch, Englisch und
+Niederländisch** übersetzt, und Frageninhalte werden pro Sprache erstellt. Wo das
+amtliche Recht eines
 Landes nicht in einer Sprache veröffentlicht ist (z. B. Englisch nirgends, Italienisch
 nur in der CH), wird die Bank als **unofficial** gekennzeichnet oder weicht mit einem
 sichtbaren Hinweis auf die maßgebliche Sprache aus. UI-Strings liegen in
@@ -350,9 +360,10 @@ src/
 tools/
   anki.py / gift.py    Anki .apkg/.tsv + Moodle GIFT exporters (stdlib only)
   subagent_*.py        no-API-key drafting/figure/translation pipelines
-web/                   dependency-free static player (index.html, app.js, style.css)
-  fr/ · de/            the France and Germany players (shared engine, own bundles)
-  anki/ · gift/        prebuilt per-language decks / GIFT files (in-page download)
+web/                   dependency-free static player (landing index.html, app.js,
+                         i18n.js, style.css + the pooled questions.<base>.<lang>.json)
+  ch/ · de/ · int/ · nl/ · fr/   the country players (shared engine, own bundles,
+                         each with its Anki decks / GIFT files in-page)
 tests/                 plain-assert tests (run: python tests/test_*.py)
 data/                  generated (gitignored): raw cache, assets, *.sqlite, *.json
 ```

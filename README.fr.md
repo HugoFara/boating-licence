@@ -1,6 +1,6 @@
 # Boating-licence — apprendre les règles de navigation à partir de sources vérifiées
 
-**Langues :** [English](README.md) · **Français** · [Deutsch](README.de.md) · [Italiano](README.it.md)
+**Langues :** [English](README.md) · **Français** · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Nederlands](README.nl.md)
 
 Un cadre ouvert pour réviser les **examens théoriques nationaux du permis de
 navigation**, construit **uniquement** à partir de textes de loi du domaine public et
@@ -101,7 +101,7 @@ citent.
 | **Derive / draft** | `run.py draft …` · `run.py fr` | Rédige des questions strictement **à partir du texte source ingéré** (un garde-fou d'ancrage lexical élimine les hallucinations probables), chacune épinglée à une citation faisant autorité. Arrive au statut **`pending`**. |
 | **Catalogue ingest** | `run.py questions --country DE` | Ingère un catalogue officiel réutilisable (l'ELWIS allemand) **mot pour mot**, chaque question étant taguée + portant son attribution §5. |
 | **Review** | `run.py review --list / --approve / --reject` | Étape de relecture humaine (review gate). Seules les questions `auto_approved` + `approved` sont jamais exportées. |
-| **Web** | `run.py web` | Ré-exporte chaque banque approuvée vers `questions.<lang>.json`, regroupe les ressources de figures dans `web/`, et écrit les **paquets Anki** par langue (`web/anki/`) + les fichiers **Moodle GIFT** (`web/gift/`). |
+| **Web** | `run.py web` | Regroupe chaque banque approuvée dans le site statique : un sous-bundle par pays (`web/ch/`, `web/de/`, `web/int/`, `web/nl/` ; la France via `run.py fr`), le tronc commun mutualisé (`web/questions.<base>.<lang>.json`), et les **paquets Anki** + fichiers **Moodle GIFT** par langue dans chaque bundle. |
 
 ## Les pays
 
@@ -211,8 +211,10 @@ tout bateau de moins de 15 m capable de dépasser 20 km/h (*Binnenvaartbesluit* 
   libre, c'est le **programme d'examen arrêté par le ministre de l'I&W** — un acte
   ministériel relevant de l'art. 11 — et il nomme un à un les articles examinables.
   C'est `src/countries/nl_examscope.py` : 144 dispositions dans six textes.
-- **234 questions dérivées de la loi**, rédigées à partir de ces articles et maintenues
-  **pending** derrière le gate de revue. Elles ont leur propre audit
+- **234 questions dérivées de la loi**, rédigées à partir de ces articles et passées
+  par le gate de revue — vérifiées de manière adversariale contre le texte source
+  cité, réparées quand un vérificateur les rejetait, et seulement alors
+  **approuvées**. Elles ont leur propre audit
   (`tests/test_nl_questions.py`) dont le contrôle le plus tranchant attrape une valeur
   transposée : un nombre figurant dans une bonne réponse doit apparaître dans l'article
   cité *à côté des mots de la réponse elle-même*.
@@ -220,7 +222,14 @@ tout bateau de moins de 15 m capable de dépasser 20 km/h (*Binnenvaartbesluit* 
   par question, réussite à 56/80. KVB II : 27 questions (23 QCM + 4 ouvertes), 90 min,
   1–4 points, réussite à 35/50. 70 % dans les deux cas. Il n'y a **pas d'épreuve
   pratique** — donc aucune étape `practical` n'est inventée.
-- **Build :** `python run.py build --country NL` → `data/kb.nl.sqlite`. Détails dans
+- **Player :** le **🇳🇱 Nederland** de la countrybar ouvre `web/nl/`, avec une
+  interface néerlandaise, le sélecteur de permis KVB I/II (chacun portant son format
+  d'examen CBR et son chronomètre), les trois régions d'eaux, les étapes vers le
+  permis, et les téléchargements Anki/GIFT. Les 209 questions portables alimentent
+  aussi le tronc commun (`questions.cevni.nl.json`, `questions.universal.nl.json`).
+- **Build :** `python run.py build --country NL` → `data/kb.nl.sqlite` ; les questions
+  sont rédigées et vérifiées via `tools/subagent_draft.py` (draft → verify → ingest →
+  apply), et `run.py web` regroupe `web/nl/`. Détails dans
   [`docs/netherlands.md`](docs/netherlands.md).
 
 ## Codes harmonisés — la couche supranationale (`INT`)
@@ -292,15 +301,17 @@ active, lit la configuration d'examen depuis son `meta`, et exécute un **examen
 chronométré et un mode **practice** avec corrections sourcées. Vous pouvez **réviser par
 domaine** (choisir quels thèmes alimentent une session), basculer le pool
 **National ⟷ Common-core**, et l'écran de résultats détaille le **score par domaine**.
-La **countrybar 🇫🇷 / 🇩🇪 / 🇨🇭** bascule entre les players nationaux, chacun réutilisant
-le même moteur avec ses propres règles d'examen. Le player propose aussi le **paquet
-Anki** et le fichier **Moodle GIFT** pour la langue active en téléchargements en un clic.
+La **countrybar 🌍 / 🇫🇷 / 🇩🇪 / 🇨🇭 / 🇳🇱** bascule entre les players nationaux, chacun
+réutilisant le même moteur avec ses propres règles d'examen. Le player propose aussi le
+**paquet Anki** et le fichier **Moodle GIFT** pour la langue active en téléchargements
+en un clic.
 
 ### Langues
 
-L'interface du player est traduite en **français, allemand, italien et anglais**, et le
-contenu des questions est construit par langue. Lorsque le droit officiel d'un pays
-n'est pas publié dans une langue (par ex. l'anglais nulle part, l'italien seulement en
+L'interface du player est traduite en **français, allemand, italien, anglais et
+néerlandais**, et le contenu des questions est construit par langue. Lorsque le droit
+officiel d'un pays n'est pas publié dans une langue (par ex. l'anglais nulle part,
+l'italien seulement en
 CH), la banque est signalée **unofficial** ou se replie sur la langue opérante avec une
 mention visible. Les chaînes d'interface se trouvent dans `web/i18n.js` ; `run.py web`
 émet un `questions.<lang>.json` par langue plus un manifeste `languages.json`.
@@ -345,9 +356,10 @@ src/
 tools/
   anki.py / gift.py    Anki .apkg/.tsv + Moodle GIFT exporters (stdlib only)
   subagent_*.py        no-API-key drafting/figure/translation pipelines
-web/                   dependency-free static player (index.html, app.js, style.css)
-  fr/ · de/            the France and Germany players (shared engine, own bundles)
-  anki/ · gift/        prebuilt per-language decks / GIFT files (in-page download)
+web/                   dependency-free static player (landing index.html, app.js,
+                         i18n.js, style.css + the pooled questions.<base>.<lang>.json)
+  ch/ · de/ · int/ · nl/ · fr/   the country players (shared engine, own bundles,
+                         each with its Anki decks / GIFT files in-page)
 tests/                 plain-assert tests (run: python tests/test_*.py)
 data/                  generated (gitignored): raw cache, assets, *.sqlite, *.json
 ```
