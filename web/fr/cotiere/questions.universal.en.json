@@ -11,7 +11,7 @@
     "permis": "cotiere",
     "permis_label": "Permis plaisance — option côtière",
     "country": "FR",
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "kb_version": "",
     "lang": "en",
     "unofficial": "true",
@@ -31,9 +31,9 @@
       "stem": "Up to what distance from a shelter does the côtière option of the permis plaisance authorise navigation?",
       "choices": [
         {
-          "text": "6 nautical miles",
+          "text": "With no distance limit",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -43,9 +43,9 @@
           "rationale": ""
         },
         {
-          "text": "With no distance limit",
+          "text": "6 nautical miles",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -70,7 +70,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -233,13 +233,13 @@
           "rationale": ""
         },
         {
-          "text": "Between 0 and 100",
+          "text": "Between 1 and 12",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Between 1 and 12",
+          "text": "Between 0 and 100",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -276,12 +276,6 @@
       "stem": "The Beaufort scale, measuring wind force, is graduated from 0 to what value?",
       "choices": [
         {
-          "text": "12",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "10",
           "image": null,
           "is_correct": false,
@@ -291,6 +285,12 @@
           "text": "100",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "12",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -315,7 +315,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -325,15 +325,15 @@
       "stem": "What is the “rule of twelfths” used for?",
       "choices": [
         {
-          "text": "To estimate the water height at a given hour of the tide",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "To calculate the wind force",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "To estimate the water height at a given hour of the tide",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -364,7 +364,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -374,9 +374,9 @@
       "stem": "At sea, what does the regulation say about discharging rubbish and hydrocarbons?",
       "choices": [
         {
-          "text": "It is prohibited",
+          "text": "It is allowed at night",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -386,9 +386,9 @@
           "rationale": ""
         },
         {
-          "text": "It is allowed at night",
+          "text": "It is prohibited",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -413,7 +413,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -423,6 +423,12 @@
       "stem": "What should the boater do with waste produced aboard?",
       "choices": [
         {
+          "text": "Burn it aboard",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Bring it ashore to harbour facilities",
           "image": null,
           "is_correct": true,
@@ -430,12 +436,6 @@
         },
         {
           "text": "Throw it overboard offshore",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Burn it aboard",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -462,7 +462,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -478,13 +478,13 @@
           "rationale": ""
         },
         {
-          "text": "When the current is strongest",
+          "text": "The difference between high and low water",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "The difference between high and low water",
+          "text": "When the current is strongest",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -521,9 +521,9 @@
       "stem": "In the Mediterranean, anchoring on Posidonia seagrass beds is:",
       "choices": [
         {
-          "text": "Regulated, even prohibited (protected beds)",
+          "text": "Recommended because the anchor holds well there",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -533,9 +533,9 @@
           "rationale": ""
         },
         {
-          "text": "Recommended because the anchor holds well there",
+          "text": "Regulated, even prohibited (protected beds)",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -560,7 +560,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -569,12 +569,6 @@
       "kind": "meteo_mc",
       "stem": "According to the rule of twelfths, by which fraction of the tidal range does the water rise during each successive hour, from low water to high water?",
       "choices": [
-        {
-          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
           "image": null,
@@ -585,6 +579,12 @@
           "text": "2/12, 2/12, 2/12, 2/12, 2/12, 2/12",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -609,7 +609,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -717,15 +717,15 @@
       "stem": "On the Channel and Atlantic coasts the tide is of the semi-diurnal type. How many high waters and low waters occur in one day?",
       "choices": [
         {
-          "text": "Two high waters and two low waters",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "One high water and one low water",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Two high waters and two low waters",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -756,7 +756,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -766,6 +766,12 @@
       "stem": "Which tidal coefficient corresponds to the mean spring high and low waters (PMVE/BMVE)?",
       "choices": [
         {
+          "text": "Coefficient 45",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Coefficient 95",
           "image": null,
           "is_correct": true,
@@ -773,12 +779,6 @@
         },
         {
           "text": "Coefficient 120",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Coefficient 45",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -805,7 +805,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -814,12 +814,6 @@
       "kind": "meteo_mc",
       "stem": "When the Earth, Moon and Sun are aligned (full or new moon), which type of tide occurs?",
       "choices": [
-        {
-          "text": "Spring tides (large range)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Neap tides (small range)",
           "image": null,
@@ -830,6 +824,12 @@
           "text": "No tide (permanent slack water)",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Spring tides (large range)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -854,7 +854,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {

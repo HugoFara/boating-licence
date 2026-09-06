@@ -4,7 +4,7 @@
     "pool": "colregs",
     "scope": "colregs",
     "unofficial": false,
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "grounding": "COLREG — International Regulations for Preventing Collisions at Sea, 1972 (canonical, USCG public-domain) + national transpositions."
   },
   "questions": [
@@ -119,13 +119,13 @@
           "rationale": ""
         },
         {
-          "text": "Deux cônes pointes vers le bas ; on passe au sud",
+          "text": "Deux cônes pointes opposées ; on passe à l'ouest",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Deux cônes pointes opposées ; on passe à l'ouest",
+          "text": "Deux cônes pointes vers le bas ; on passe au sud",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -168,13 +168,13 @@
           "rationale": ""
         },
         {
-          "text": "L'entrée principale d'un port",
+          "text": "Une zone de baignade surveillée",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Une zone de baignade surveillée",
+          "text": "L'entrée principale d'un port",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -211,9 +211,9 @@
       "stem": "Comment reconnaît-on le voyant d'une marque cardinale SUD, et de quel côté faut-il passer ?",
       "choices": [
         {
-          "text": "Deux cônes pointes vers le bas ; on passe au sud",
+          "text": "Deux cônes base contre base ; on passe à l'est",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -223,9 +223,9 @@
           "rationale": ""
         },
         {
-          "text": "Deux cônes base contre base ; on passe à l'est",
+          "text": "Deux cônes pointes vers le bas ; on passe au sud",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -250,7 +250,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -259,12 +259,6 @@
       "kind": "rule_mc",
       "stem": "Que signale une marque entièrement JAUNE, éventuellement surmontée d'une croix de Saint-André (X) jaune ?",
       "choices": [
-        {
-          "text": "Une zone ou un dispositif particulier (marque spéciale)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Un danger isolé à éviter",
           "image": null,
@@ -275,6 +269,12 @@
           "text": "Le côté tribord du chenal",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Une zone ou un dispositif particulier (marque spéciale)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -299,7 +299,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -309,6 +309,12 @@
       "stem": "Que signale une marque à bandes verticales rouges et blanches, avec un voyant sphérique rouge ?",
       "choices": [
         {
+          "text": "Le côté tribord d'un chenal",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Des eaux saines tout autour ; on passe de chaque côté",
           "image": null,
           "is_correct": true,
@@ -316,12 +322,6 @@
         },
         {
           "text": "Un danger isolé à contourner",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Le côté tribord d'un chenal",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -348,7 +348,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -357,12 +357,6 @@
       "kind": "rule_mc",
       "stem": "Dans nos eaux, en entrant dans un chenal depuis le large, quel feu et quel voyant éventuel caractérisent une marque latérale de tribord ?",
       "choices": [
-        {
-          "text": "Feu vert, voyant cône vert pointe vers le haut",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Feu rouge, voyant cylindre rouge",
           "image": null,
@@ -373,6 +367,12 @@
           "text": "Feu vert, voyant cône vert pointe vers le bas",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Feu vert, voyant cône vert pointe vers le haut",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -397,7 +397,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -406,12 +406,6 @@
       "kind": "rule_mc",
       "stem": "À l'endroit où un chenal se divise, vous voyez une marque rouge portant une large bande horizontale verte. Que vous indique-t-elle ?",
       "choices": [
-        {
-          "text": "Le chenal préféré est à tribord",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Le chenal préféré est à bâbord",
           "image": null,
@@ -422,6 +416,12 @@
           "text": "Le chenal est obstrué, il faut faire demi-tour",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Le chenal préféré est à tribord",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -446,7 +446,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -455,12 +455,6 @@
       "kind": "rule_mc",
       "stem": "Quel voyant et quel rythme de feu caractérisent une marque cardinale Est, que l'on doit contourner par l'est ?",
       "choices": [
-        {
-          "text": "Deux cônes noirs base à base ; feu blanc VQ(3) toutes les 5 s ou Q(3) toutes les 10 s",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Deux cônes noirs pointes opposées (pointe à pointe) ; feu blanc VQ(9) toutes les 10 s",
           "image": null,
@@ -471,6 +465,12 @@
           "text": "Deux cônes noirs base à base ; feu blanc à occultations groupées",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Deux cônes noirs base à base ; feu blanc VQ(3) toutes les 5 s ou Q(3) toutes les 10 s",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -495,7 +495,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -505,9 +505,9 @@
       "stem": "Une marque montre deux cônes noirs disposés pointe à pointe, un corps jaune avec une large bande horizontale noire, et un feu blanc à scintillements groupés par neuf. De quel côté devez-vous passer ?",
       "choices": [
         {
-          "text": "À l'ouest de la marque",
+          "text": "Au nord de la marque",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -517,9 +517,9 @@
           "rationale": ""
         },
         {
-          "text": "Au nord de la marque",
+          "text": "À l'ouest de la marque",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -544,7 +544,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -560,13 +560,13 @@
           "rationale": ""
         },
         {
-          "text": "Une marque cardinale Nord",
+          "text": "Une marque cardinale Ouest",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Une marque cardinale Ouest",
+          "text": "Une marque cardinale Nord",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -603,9 +603,9 @@
       "stem": "De nuit, un navire à moteur de moins de 50 m faisant route porte des feux de côté. De quelle couleur est le feu de BÂBORD ?",
       "choices": [
         {
-          "text": "Rouge",
+          "text": "Blanc",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -615,9 +615,9 @@
           "rationale": ""
         },
         {
-          "text": "Blanc",
+          "text": "Rouge",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -642,7 +642,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -651,12 +651,6 @@
       "kind": "rule_mc",
       "stem": "En vue d'un autre navire, un navire à moteur émet UN son bref. Qu'annonce-t-il ?",
       "choices": [
-        {
-          "text": "« Je viens sur tribord »",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "« Je viens sur bâbord »",
           "image": null,
@@ -667,6 +661,12 @@
           "text": "« Je bats en arrière »",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "« Je viens sur tribord »",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -691,7 +691,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -701,9 +701,9 @@
       "stem": "Que signifient TROIS sons brefs émis par un navire à moteur en vue d'un autre ?",
       "choices": [
         {
-          "text": "« Mes machines battent en arrière »",
+          "text": "« Je suis échoué »",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -713,9 +713,9 @@
           "rationale": ""
         },
         {
-          "text": "« Je suis échoué »",
+          "text": "« Mes machines battent en arrière »",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -740,7 +740,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -750,9 +750,9 @@
       "stem": "Que signifient au moins CINQ sons brefs et rapprochés ?",
       "choices": [
         {
-          "text": "Un doute / un avertissement sur la manœuvre de l'autre",
+          "text": "Un appel de détresse",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -762,9 +762,9 @@
           "rationale": ""
         },
         {
-          "text": "Un appel de détresse",
+          "text": "Un doute / un avertissement sur la manœuvre de l'autre",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -789,7 +789,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -798,12 +798,6 @@
       "kind": "rule_mc",
       "stem": "Par visibilité réduite (brouillard), quel signal émet un navire à moteur faisant route et ayant de l'erre ?",
       "choices": [
-        {
-          "text": "Un son prolongé toutes les 2 minutes au plus",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Trois sons brefs toutes les minutes",
           "image": null,
@@ -814,6 +808,12 @@
           "text": "Aucun signal n'est nécessaire",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un son prolongé toutes les 2 minutes au plus",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -838,7 +838,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -847,12 +847,6 @@
       "kind": "rule_mc",
       "stem": "Parmi ces moyens, lequel est un signal de détresse PYROTECHNIQUE reconnu en mer ?",
       "choices": [
-        {
-          "text": "Une fusée à parachute rouge",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Un feu vert clignotant",
           "image": null,
@@ -863,6 +857,12 @@
           "text": "Un pavillon jaune hissé",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Une fusée à parachute rouge",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -887,7 +887,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -897,9 +897,9 @@
       "stem": "De nuit, un navire de moins de 50 m au mouillage montre :",
       "choices": [
         {
-          "text": "Un feu blanc visible sur tout l'horizon",
+          "text": "Deux feux verts superposés",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -909,9 +909,9 @@
           "rationale": ""
         },
         {
-          "text": "Deux feux verts superposés",
+          "text": "Un feu blanc visible sur tout l'horizon",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -936,7 +936,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1001,13 +1001,13 @@
           "rationale": ""
         },
         {
-          "text": "Chacun vient sur bâbord",
+          "text": "Le plus rapide s'écarte, l'autre garde son cap",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Le plus rapide s'écarte, l'autre garde son cap",
+          "text": "Chacun vient sur bâbord",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1044,6 +1044,12 @@
       "stem": "Deux navires à moteur suivent des routes qui se croisent avec risque d'abordage. Lequel doit s'écarter ?",
       "choices": [
         {
+          "text": "Le plus grand des deux navires",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Celui qui a l'autre sur son tribord",
           "image": null,
           "is_correct": true,
@@ -1051,12 +1057,6 @@
         },
         {
           "text": "Celui qui a l'autre sur son bâbord",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Le plus grand des deux navires",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1083,7 +1083,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1093,9 +1093,9 @@
       "stem": "Un navire en rattrape un autre. Qui doit s'écarter ?",
       "choices": [
         {
-          "text": "Le navire qui rattrape",
+          "text": "Toujours le voilier",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1105,9 +1105,9 @@
           "rationale": ""
         },
         {
-          "text": "Toujours le voilier",
+          "text": "Le navire qui rattrape",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1132,7 +1132,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1142,6 +1142,12 @@
       "stem": "En l'absence de rattrapage et hors chenal étroit, un navire à moteur rencontre un voilier en train de naviguer à la voile. Qui s'écarte ?",
       "choices": [
         {
+          "text": "Aucun, ils gardent leur cap",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Le navire à moteur",
           "image": null,
           "is_correct": true,
@@ -1149,12 +1155,6 @@
         },
         {
           "text": "Le voilier",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Aucun, ils gardent leur cap",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1181,7 +1181,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {

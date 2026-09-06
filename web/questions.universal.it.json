@@ -4,7 +4,7 @@
     "pool": "universal",
     "scope": "universal",
     "unofficial": false,
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "grounding": "Portable seamanship — valid under any code."
   },
   "questions": [
@@ -119,13 +119,13 @@
           "rationale": ""
         },
         {
-          "text": "L'autorità competente che approva il rapporto sulla sicurezza",
+          "text": "Il responsabile dell'obbligo di diligenza definito all'articolo 17 OCB",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Il responsabile dell'obbligo di diligenza definito all'articolo 17 OCB",
+          "text": "L'autorità competente che approva il rapporto sulla sicurezza",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -162,9 +162,9 @@
       "stem": "Quale tra le seguenti condizioni rientra nella definizione di navigazione in tempo di foschia?",
       "choices": [
         {
-          "text": "La navigazione con nevischio o piogge tempestose",
+          "text": "La navigazione di notte con buona visibilità",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -174,9 +174,9 @@
           "rationale": ""
         },
         {
-          "text": "La navigazione di notte con buona visibilità",
+          "text": "La navigazione con nevischio o piogge tempestose",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -201,7 +201,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -210,12 +210,6 @@
       "kind": "matelotage_mc",
       "stem": "In base al testo, quali affermazioni sulla gassa d'amante sono corrette?",
       "choices": [
-        {
-          "text": "Può essere eseguita velocemente anche con una sola mano.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Può essere sciolta facilmente anche quando il cavo è bagnato.",
           "image": null,
@@ -226,6 +220,12 @@
           "text": "È il nodo che meglio di ogni altro preserva la resistenza iniziale del cavo quando se ne uniscono due.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Può essere eseguita velocemente anche con una sola mano.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -251,7 +251,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -310,15 +310,15 @@
       "stem": "Secondo il testo, quale caratteristica contraddistingue la gassa d'amante?",
       "choices": [
         {
-          "text": "È un nodo ad occhiello che non è scorsoio.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "È un nodo scorsoio che si stringe progressivamente sotto carico.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "È un nodo ad occhiello che non è scorsoio.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -349,7 +349,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -463,15 +463,15 @@
           "rationale": ""
         },
         {
-          "text": "Può essere sciolto anche se la corda è bagnata o ha subito forte trazione.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Una volta eseguito non consente più di variare la distanza dal punto di ancoraggio.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Può essere sciolto anche se la corda è bagnata o ha subito forte trazione.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -497,7 +497,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -507,13 +507,13 @@
       "stem": "In base all'articolo, quali affermazioni sulla riduzione di peso dell'ancora di prua sono corrette?",
       "choices": [
         {
-          "text": "Sui laghi è ammessa una riduzione massima del 50 per cento se il peso era stato calcolato per acque correnti.",
+          "text": "L'autorità competente può richiedere l'allungamento della catena dell'ancora.",
           "image": null,
           "is_correct": true,
           "rationale": ""
         },
         {
-          "text": "L'autorità competente può richiedere l'allungamento della catena dell'ancora.",
+          "text": "Sui laghi è ammessa una riduzione massima del 50 per cento se il peso era stato calcolato per acque correnti.",
           "image": null,
           "is_correct": true,
           "rationale": ""
@@ -563,13 +563,13 @@
           "rationale": ""
         },
         {
-          "text": "Alle preferenze del costruttore del natante.",
+          "text": "Alle norme valide unicamente per le acque correnti.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Alle norme valide unicamente per le acque correnti.",
+          "text": "Alle preferenze del costruttore del natante.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -655,12 +655,6 @@
       "stem": "Secondo il testo, quali sono le caratteristiche del vento di favonio (Föhn) quando arriva a valle sul versante sottovento?",
       "choices": [
         {
-          "text": "È un vento caldo e secco, a volte tempestoso, che favorisce giornate soleggiate",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "È un vento freddo e umido che porta nebbia persistente",
           "image": null,
           "is_correct": false,
@@ -670,6 +664,12 @@
           "text": "È un vento debole e fresco che non incide sulle temperature",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "È un vento caldo e secco, a volte tempestoso, che favorisce giornate soleggiate",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -694,7 +694,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -703,12 +703,6 @@
       "kind": "meteo_mc",
       "stem": "Cosa accade alla corrente d'aria mentre scende sul versante opposto sottovento?",
       "choices": [
-        {
-          "text": "Si scalda per compressione adiabatica, di circa 10 °C ogni 1000 m in discesa",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Si raffredda per espansione, di circa 10 °C ogni 1000 m in discesa",
           "image": null,
@@ -719,6 +713,12 @@
           "text": "Mantiene una temperatura costante perché non perde più umidità",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Si scalda per compressione adiabatica, di circa 10 °C ogni 1000 m in discesa",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -743,7 +743,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -753,9 +753,9 @@
       "stem": "Cosa si forma sul versante sopravento secondo il testo?",
       "choices": [
         {
-          "text": "Lo Stau, creato dalle correnti umide ascendenti, con nubi, pioggia e neve",
+          "text": "Un vento caldo e secco discendente",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -765,9 +765,9 @@
           "rationale": ""
         },
         {
-          "text": "Un vento caldo e secco discendente",
+          "text": "Lo Stau, creato dalle correnti umide ascendenti, con nubi, pioggia e neve",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -792,7 +792,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -801,12 +801,6 @@
       "kind": "meteo_mc",
       "stem": "Quale conseguenza ebbero, dal XV secolo, gli incendi provocati o alimentati dal favonio a Glarona, Altdorf e Meiringen?",
       "choices": [
-        {
-          "text": "Portarono a creare norme e istituzioni di polizia edilizia e del fuoco",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Portarono all'abbandono definitivo di quei villaggi",
           "image": null,
@@ -817,6 +811,12 @@
           "text": "Portarono al divieto totale di navigazione sui laghi",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Portarono a creare norme e istituzioni di polizia edilizia e del fuoco",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -841,7 +841,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -851,6 +851,12 @@
       "stem": "Secondo il testo, quale minaccia rappresentavano un tempo in Svizzera le tempeste dovute al favonio?",
       "choices": [
         {
+          "text": "Una minaccia per le linee ferroviarie di montagna",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Una minaccia per la navigazione, ad esempio lungo i laghi di Uri e Walenstadt",
           "image": null,
           "is_correct": true,
@@ -858,12 +864,6 @@
         },
         {
           "text": "Una minaccia per la produzione agricola di pianura",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Una minaccia per le linee ferroviarie di montagna",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -890,7 +890,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -899,12 +899,6 @@
       "kind": "meteo_mc",
       "stem": "Perché villaggi come Sisikon e Quarten erano costretti a mantenere una certa autarchia?",
       "choices": [
-        {
-          "text": "Perché erano raggiungibili solo per via lacustre",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Perché erano isolati da frequenti valanghe",
           "image": null,
@@ -915,6 +909,12 @@
           "text": "Perché non disponevano di alcun porto",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Perché erano raggiungibili solo per via lacustre",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -939,7 +939,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -949,15 +949,15 @@
       "stem": "Secondo il testo, con quale nome è noto in Argentina lo stesso fenomeno del favonio?",
       "choices": [
         {
-          "text": "Zonda",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Chinook",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Zonda",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -988,7 +988,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -997,12 +997,6 @@
       "kind": "meteo_mc",
       "stem": "Quale affermazione NON è corretta secondo il testo sui nomi assunti dal fenomeno nel mondo?",
       "choices": [
-        {
-          "text": "In Nuova Zelanda, a Christchurch, è chiamato halny",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "In Israele è chiamato sharav o hamsin",
           "image": null,
@@ -1013,6 +1007,12 @@
           "text": "Nella California del Sud è noto come «venti di Santa Ana»",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "In Nuova Zelanda, a Christchurch, è chiamato halny",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1037,7 +1037,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1046,12 +1046,6 @@
       "kind": "meteo_mc",
       "stem": "Come viene chiamato il fenomeno analogo al favonio sulle Montagne Rocciose?",
       "choices": [
-        {
-          "text": "Chinook",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Sharav",
           "image": null,
@@ -1062,6 +1056,12 @@
           "text": "Nor'wester",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Chinook",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1086,7 +1086,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1096,6 +1096,12 @@
       "stem": "Cosa afferma il testo riguardo all'effetto del vento prima che superi la catena montuosa?",
       "choices": [
         {
+          "text": "Determina un raffreddamento immediato delle valli sottovento",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Non incide sulle temperature, se non in base alla natura della massa d'aria a cui è associato",
           "image": null,
           "is_correct": true,
@@ -1103,12 +1109,6 @@
         },
         {
           "text": "Provoca sempre un brusco aumento delle temperature",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Determina un raffreddamento immediato delle valli sottovento",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1135,7 +1135,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1145,9 +1145,9 @@
       "stem": "Quale affermazione NON è corretta riguardo ai venti di caduta provenienti dai quadranti settentrionali?",
       "choices": [
         {
-          "text": "Provocano nubi e precipitazioni persistenti sul versante sottovento",
+          "text": "All'arrivo della massa d'aria fredda che li segue viene meno l'effetto sulle temperature, pur permanendo clima secco",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1157,9 +1157,9 @@
           "rationale": ""
         },
         {
-          "text": "All'arrivo della massa d'aria fredda che li segue viene meno l'effetto sulle temperature, pur permanendo clima secco",
+          "text": "Provocano nubi e precipitazioni persistenti sul versante sottovento",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1184,7 +1184,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1200,13 +1200,13 @@
           "rationale": ""
         },
         {
-          "text": "Condizioni atmosferiche perturbate, con aria molto umida",
+          "text": "Nebbia fitta e precipitazioni continue",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Nebbia fitta e precipitazioni continue",
+          "text": "Condizioni atmosferiche perturbate, con aria molto umida",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1243,15 +1243,15 @@
       "stem": "Che cos’è l’abbattuta (virata in poppa)?",
       "choices": [
         {
-          "text": "La manovra che cambia le mure passando con la poppa attraverso il fil di ruota",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "La manovra di cambio mure portando la prua nel vento",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "La manovra che cambia le mure passando con la poppa attraverso il fil di ruota",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1282,7 +1282,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1292,6 +1292,12 @@
       "stem": "Che cosa si definisce «andatura» nella navigazione a vela?",
       "choices": [
         {
+          "text": "La manovra di cambio delle mure passando con la poppa nel vento",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "I diversi modi di avanzare di un’imbarcazione a vela rispetto alla direzione del vento",
           "image": null,
           "is_correct": true,
@@ -1299,12 +1305,6 @@
         },
         {
           "text": "Un segnale di precedenza tra due imbarcazioni",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "La manovra di cambio delle mure passando con la poppa nel vento",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1331,7 +1331,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1341,6 +1341,12 @@
       "stem": "Che cos’è l’andatura di bolina?",
       "choices": [
         {
+          "text": "La manovra di cambio mure attraverso il fil di ruota",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Un’andatura che consente di risalire il vento, con un angolo rispetto al vento reale tra circa 60° e 37°",
           "image": null,
           "is_correct": true,
@@ -1348,12 +1354,6 @@
         },
         {
           "text": "L’andatura in cui il vento proviene esattamente da poppa",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "La manovra di cambio mure attraverso il fil di ruota",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1380,7 +1380,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1390,15 +1390,15 @@
       "stem": "A che cosa serve il fiocco in un armo a sloop?",
       "choices": [
         {
-          "text": "A mantenere il controllo della prua e a contribuire a bordeggiare (risalire il vento)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A frenare l’imbarcazione nelle andature portanti",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A mantenere il controllo della prua e a contribuire a bordeggiare (risalire il vento)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1429,7 +1429,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {

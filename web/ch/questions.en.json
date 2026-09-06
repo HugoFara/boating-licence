@@ -30,13 +30,13 @@
           "rationale": ""
         },
         {
-          "text": "To the Inland Navigation Ordinance (ONI) itself.",
+          "text": "To the Navigation Regulations for Lake Geneva (RNL).",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "To the Navigation Regulations for Lake Geneva (RNL).",
+          "text": "To the Inland Navigation Ordinance (ONI) itself.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -73,15 +73,15 @@
       "stem": "Among these statements about the definitions in ONI art. 142, which one is FALSE?",
       "choices": [
         {
-          "text": "The \"duty of diligence\" is defined in ONI art. 142 without reference to another ordinance.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The \"safety report\" is a report within the meaning of art. 2, let. e, and art. 17, para. 3, OCEB.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The \"duty of diligence\" is defined in ONI art. 142 without reference to another ordinance.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -112,7 +112,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -121,12 +121,6 @@
       "kind": "definition_mc",
       "stem": "According to ONI art. 142, how are the \"experts\" defined within the meaning of the special provisions of this section?",
       "choices": [
-        {
-          "text": "As the persons referred to in art. 5a, para. 1, let. a, OCEB.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "As the officers of the competent authority of the place of mooring.",
           "image": null,
@@ -137,6 +131,12 @@
           "text": "As the members of a recognized classification society.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "As the persons referred to in art. 5a, para. 1, let. a, OCEB.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -161,7 +161,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -177,13 +177,13 @@
           "rationale": ""
         },
         {
-          "text": "An assembly of non-propelled vessels towed by at least one motorised vessel",
+          "text": "Any group of pleasure craft navigating together",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Any group of pleasure craft navigating together",
+          "text": "An assembly of non-propelled vessels towed by at least one motorised vessel",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -220,12 +220,6 @@
       "stem": "Within the meaning of the ONI, what does the term \"motorized vessel\" designate?",
       "choices": [
         {
-          "text": "A vessel with mechanical propulsion",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A non-propelled vessel towed by another vessel",
           "image": null,
           "is_correct": false,
@@ -235,6 +229,12 @@
           "text": "A floating device such as a dredger or a crane",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A vessel with mechanical propulsion",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -259,7 +259,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -275,13 +275,13 @@
           "rationale": ""
         },
         {
-          "text": "No, only the conditions specifically cited (mist, fog, etc.) are covered.",
+          "text": "Yes, but only conditions caused by smoke from a fire.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Yes, but only conditions caused by smoke from a fire.",
+          "text": "No, only the conditions specifically cited (mist, fog, etc.) are covered.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -465,15 +465,15 @@
       "stem": "Under which condition in particular is authorisation for a nautical event granted according to RNL art. 16?",
       "choices": [
         {
-          "text": "If the prescribed civil liability insurance has been taken out",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "If the event takes place exclusively in Swiss waters",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "If the prescribed civil liability insurance has been taken out",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -504,7 +504,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -513,12 +513,6 @@
       "kind": "frontiere_mc",
       "stem": "When two vessels follow directly opposite courses with a risk of collision, how must they manoeuvre?",
       "choices": [
-        {
-          "text": "Each turns to starboard so as to pass port to port",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Each turns to port so as to pass starboard to starboard",
           "image": null,
@@ -529,6 +523,12 @@
           "text": "Both maintain their course and speed without any manoeuvre",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Each turns to starboard so as to pass port to port",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -553,7 +553,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -562,12 +562,6 @@
       "kind": "frontiere_mc",
       "stem": "When two vessels follow crossing courses with a possible danger of collision, which one must give way?",
       "choices": [
-        {
-          "text": "The vessel that sees the other on its starboard side",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "The vessel that sees the other on its port side",
           "image": null,
@@ -578,6 +572,12 @@
           "text": "The faster of the two vessels",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The vessel that sees the other on its starboard side",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -602,7 +602,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -611,12 +611,6 @@
       "kind": "frontiere_mc",
       "stem": "According to RNL art. 64, which statement is FALSE concerning sailboards and kitesurfs?",
       "choices": [
-        {
-          "text": "Other vessels must give way to sailboards and kitesurfs",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Sailboards and kitesurfs give way to all other vessels",
           "image": null,
@@ -627,6 +621,12 @@
           "text": "Every vessel must give way to a vessel unable to manoeuvre that signals its presence",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Other vessels must give way to sailboards and kitesurfs",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -651,7 +651,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -660,12 +660,6 @@
       "kind": "frontiere_mc",
       "stem": "Faced with a vessel unable to manoeuvre that signals its presence, what must every other vessel do?",
       "choices": [
-        {
-          "text": "Keep clear of that vessel",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Maintain its course and speed",
           "image": null,
@@ -676,6 +670,12 @@
           "text": "Overtake it on the starboard side",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Keep clear of that vessel",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -700,7 +700,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -709,12 +709,6 @@
       "kind": "frontiere_mc",
       "stem": "According to the right-of-way rules, which vessel(s) must a sailing vessel give way to?",
       "choices": [
-        {
-          "text": "Passenger vessels having right of way and towed convoys",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Cargo vessels",
           "image": null,
@@ -725,6 +719,12 @@
           "text": "Rowing boats",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Passenger vessels having right of way and towed convoys",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -750,7 +750,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -759,12 +759,6 @@
       "kind": "frontiere_mc",
       "stem": "When meeting, which vessels must every vessel — apart from priority passenger vessels and towed convoys — keep clear of?",
       "choices": [
-        {
-          "text": "Cargo vessels",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Pleasure craft",
           "image": null,
@@ -775,6 +769,12 @@
           "text": "Sailing sport boats",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Cargo vessels",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -799,7 +799,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -809,6 +809,12 @@
       "stem": "According to RNL art. 84, under what conditions are the boarding and disembarking of passengers authorised?",
       "choices": [
         {
+          "text": "Without mooring if the safety of the passengers appears to be guaranteed",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Only at facilities permitted by the competent authority and after the operator has ensured that the vessel is properly moored",
           "image": null,
           "is_correct": true,
@@ -816,12 +822,6 @@
         },
         {
           "text": "At any point on the shore as soon as the vessel slows down",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Without mooring if the safety of the passengers appears to be guaranteed",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -848,7 +848,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -858,9 +858,9 @@
       "stem": "Concerning the order of use of landing stages, which statement is FALSE according to RNL art. 84?",
       "choices": [
         {
-          "text": "Boarding passengers may access the landing stage at the same time as passengers are disembarking",
+          "text": "The waiting rule does not apply to landing stages equipped with independent entrances and exits",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -870,9 +870,9 @@
           "rationale": ""
         },
         {
-          "text": "The waiting rule does not apply to landing stages equipped with independent entrances and exits",
+          "text": "Boarding passengers may access the landing stage at the same time as passengers are disembarking",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -897,7 +897,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -907,15 +907,15 @@
       "stem": "Which radio channel is designated as the alert channel (Lake Distress) in the equipment of passenger vessels?",
       "choices": [
         {
-          "text": "Channel 16",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Channel 12",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Channel 16",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -946,7 +946,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -955,6 +955,12 @@
       "kind": "frontiere_mc",
       "stem": "Among the communication and information equipment, which items apply only to passenger vessels making an international trip?",
       "choices": [
+        {
+          "text": "The radio installation capable of transmitting on alert channel 16",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "The radar device",
           "image": null,
@@ -965,12 +971,6 @@
           "text": "The rate-of-turn indicator",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "The radio installation capable of transmitting on alert channel 16",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -995,8 +995,8 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -1012,13 +1012,13 @@
           "rationale": ""
         },
         {
-          "text": "At least 500 N per person",
+          "text": "At least 100 N per person",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "At least 100 N per person",
+          "text": "At least 500 N per person",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1055,6 +1055,12 @@
       "stem": "Concerning the inflatable collective lifesaving devices on board passenger vessels, which statements are correct?",
       "choices": [
         {
+          "text": "They must inflate only by manual command, never automatically",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "They must consist of at least two separate air compartments",
           "image": null,
           "is_correct": true,
@@ -1064,12 +1070,6 @@
           "text": "They must maintain a stable trim even if only half of the air compartments are inflated",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "They must inflate only by manual command, never automatically",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -1094,8 +1094,8 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -1111,13 +1111,13 @@
           "rationale": ""
         },
         {
-          "text": "At least 100 N.",
+          "text": "At least 50 N.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "At least 50 N.",
+          "text": "At least 100 N.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1154,12 +1154,6 @@
       "stem": "According to ONI art. 134, above which thresholds must a pleasure or sport boat be provided with an additional lifesaving device that can be thrown into the water?",
       "choices": [
         {
-          "text": "A power output greater than 30 kW, or a sail area exceeding 15 m2 for sailing boats.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A power output greater than 15 kW, or a sail area exceeding 30 m2.",
           "image": null,
           "is_correct": false,
@@ -1169,6 +1163,12 @@
           "text": "A power output greater than 50 kW, or a sail area exceeding 10 m2.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A power output greater than 30 kW, or a sail area exceeding 15 m2 for sailing boats.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1193,7 +1193,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1203,13 +1203,13 @@
       "stem": "Which of these devices are INDIVIDUAL lifesaving appliances within the meaning of the ONI?",
       "choices": [
         {
-          "text": "Lifejackets with collars",
+          "text": "Lifebuoys",
           "image": null,
           "is_correct": true,
           "rationale": ""
         },
         {
-          "text": "Lifebuoys",
+          "text": "Lifejackets with collars",
           "image": null,
           "is_correct": true,
           "rationale": ""
@@ -1253,9 +1253,9 @@
       "stem": "What minimum buoyancy must an individual lifesaving device have (general case)?",
       "choices": [
         {
-          "text": "At least 75 N",
+          "text": "At least 50 N",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1265,9 +1265,9 @@
           "rationale": ""
         },
         {
-          "text": "At least 50 N",
+          "text": "At least 75 N",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1292,7 +1292,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1302,6 +1302,12 @@
       "stem": "For a loaded cargo boat ready to depart to be considered as having sufficient stability, what conditions does the text require?",
       "choices": [
         {
+          "text": "The heeling angle does not exceed 10 degrees, regardless of the position of the deck.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The heeling angle does not exceed 5 degrees and the side of the deck, at its lowest point, does not dip into the water.",
           "image": null,
           "is_correct": true,
@@ -1309,12 +1315,6 @@
         },
         {
           "text": "The heeling angle does not exceed 15 degrees and the deck may dip up to 5 cm.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "The heeling angle does not exceed 10 degrees, regardless of the position of the deck.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1341,7 +1341,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1351,15 +1351,15 @@
       "stem": "What does ONI art. 143a provide regarding the metacentric height of the loaded boat ready to depart?",
       "choices": [
         {
-          "text": "It must not be less than 1 m.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "It must not be less than 0.5 m.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "It must not be less than 1 m.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1390,7 +1390,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1399,12 +1399,6 @@
       "kind": "rule_mc",
       "stem": "According to ONI art. 144, what is the prescribed freeboard for floating equipment?",
       "choices": [
-        {
-          "text": "90 cm in zone 2 and 45 cm in zone 3.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "30 cm in zone 2 and 15 cm in zone 3.",
           "image": null,
@@ -1415,6 +1409,12 @@
           "text": "100 cm in zone 2 and 50 cm in zone 3.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "90 cm in zone 2 and 45 cm in zone 3.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1439,7 +1439,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1498,6 +1498,12 @@
       "stem": "Which of these statements about the collision bulkhead is FALSE according to ONI art. 146?",
       "choices": [
         {
+          "text": "It must be built from the bottom of the hold up to the deck.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "It may include doors and hatches if they are watertight.",
           "image": null,
           "is_correct": true,
@@ -1505,12 +1511,6 @@
         },
         {
           "text": "It must be watertight and built from one side of the hull to the other.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "It must be built from the bottom of the hold up to the deck.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1537,7 +1537,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1547,9 +1547,9 @@
       "stem": "According to ONI art. 146, with how many bulkheads must a cargo boat at least be fitted?",
       "choices": [
         {
-          "text": "At least one collision bulkhead and two bulkheads for the engine room.",
+          "text": "At least one bulkhead for the engine room only.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1559,9 +1559,9 @@
           "rationale": ""
         },
         {
-          "text": "At least one bulkhead for the engine room only.",
+          "text": "At least one collision bulkhead and two bulkheads for the engine room.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1586,7 +1586,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1596,9 +1596,9 @@
       "stem": "Regarding the «CE» marking on sport boats placed on the market, what does ONI art. 148g say?",
       "choices": [
         {
-          "text": "The obligation to affix the «CE» marking is not applicable, but if it has already been affixed in accordance with the EU provisions, it may remain affixed.",
+          "text": "The «CE» marking must be removed if it was affixed in accordance with the EU provisions.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1608,9 +1608,9 @@
           "rationale": ""
         },
         {
-          "text": "The «CE» marking must be removed if it was affixed in accordance with the EU provisions.",
+          "text": "The obligation to affix the «CE» marking is not applicable, but if it has already been affixed in accordance with the EU provisions, it may remain affixed.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1635,7 +1635,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1694,6 +1694,12 @@
       "stem": "ONI art. 150 allows the crew to be reduced by one deckhand, on boats of less than 350 tonnes and in good visibility. Which of these conditions is required?",
       "choices": [
         {
+          "text": "The boat must transport exclusively dangerous goods.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The travel time between the points of departure and arrival does not exceed 45 minutes.",
           "image": null,
           "is_correct": true,
@@ -1701,12 +1707,6 @@
         },
         {
           "text": "The travel time between the points of departure and arrival does not exceed 90 minutes.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "The boat must transport exclusively dangerous goods.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1733,7 +1733,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1742,12 +1742,6 @@
       "kind": "rule_mc",
       "stem": "According to ONI art. 150, what is as a general rule the crew complement of a motorized cargo boat with a loading capacity greater than 1000 t?",
       "choices": [
-        {
-          "text": "2 deckhands.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "1 deckhand.",
           "image": null,
@@ -1758,6 +1752,12 @@
           "text": "3 deckhands.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "2 deckhands.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1782,7 +1782,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1791,12 +1791,6 @@
       "kind": "rule_mc",
       "stem": "According to ONI art. 163, in which case is a construction number not necessary?",
       "choices": [
-        {
-          "text": "For boats that are not built by professionals.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "For all pleasure boats, without exception.",
           "image": null,
@@ -1807,6 +1801,12 @@
           "text": "For priority passenger boats.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "For boats that are not built by professionals.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1831,7 +1831,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1840,12 +1840,6 @@
       "kind": "rule_mc",
       "stem": "According to ONI art. 163, the granting of other derogations (not listed) requires in principle:",
       "choices": [
-        {
-          "text": "The consent of the OFT.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "The agreement of the Federal Council.",
           "image": null,
@@ -1856,6 +1850,12 @@
           "text": "No additional authorization.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The consent of the OFT.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1880,7 +1880,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1889,12 +1889,6 @@
       "kind": "rule_mc",
       "stem": "According to ONI art. 96a, in which case may a collective navigation permit be used?",
       "choices": [
-        {
-          "text": "For breakdown-assistance and towing trips.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "For regular commercial passenger transport.",
           "image": null,
@@ -1905,6 +1899,12 @@
           "text": "For any private leisure trip of the owner.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "For breakdown-assistance and towing trips.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1929,7 +1929,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1945,13 +1945,13 @@
           "rationale": ""
         },
         {
-          "text": "One million francs per accident.",
+          "text": "Five million francs per accident.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Five million francs per accident.",
+          "text": "One million francs per accident.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2043,13 +2043,13 @@
           "rationale": ""
         },
         {
-          "text": "The stronger the tension, the more it tends to slip and come undone.",
+          "text": "Tension has no effect on its locking, which depends on an intermediate mechanical system.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Tension has no effect on its locking, which depends on an intermediate mechanical system.",
+          "text": "The stronger the tension, the more it tends to slip and come undone.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2086,6 +2086,12 @@
       "stem": "According to the text, the bowline is also called:",
       "choices": [
         {
+          "text": "Hangman's knot.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Bowline knot (nœud de bouline).",
           "image": null,
           "is_correct": true,
@@ -2093,12 +2099,6 @@
         },
         {
           "text": "Clove hitch.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Hangman's knot.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2125,7 +2125,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2135,15 +2135,15 @@
       "stem": "Why is the bowline described as the king of knots, according to the text?",
       "choices": [
         {
-          "text": "It is a reliable loop knot that does not slip under tension and unties easily even after strong tension.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "It is the only knot that is impossible to untie once tightened.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "It is a reliable loop knot that does not slip under tension and unties easily even after strong tension.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2174,7 +2174,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2184,6 +2184,12 @@
       "stem": "Why is the bowline described as the “king of knots”?",
       "choices": [
         {
+          "text": "It is used only to join two ropes of the same diameter",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "It is a reliable loop knot that does not slip under tension and unties easily",
           "image": null,
           "is_correct": true,
@@ -2191,12 +2197,6 @@
         },
         {
           "text": "It tightens more and more under tension until it becomes impossible to untie",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "It is used only to join two ropes of the same diameter",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2223,7 +2223,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2232,6 +2232,12 @@
       "kind": "matelotage_mc",
       "stem": "Regarding the methods for making the bowline, which statement(s) does the text confirm?",
       "choices": [
+        {
+          "text": "A single unique method of making it is accepted throughout the world.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "There are several methods for making it, up to 18 including the variants.",
           "image": null,
@@ -2242,12 +2248,6 @@
           "text": "Only two classic methods are recognized for teaching, knitted or prepared.",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "A single unique method of making it is accepted throughout the world.",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -2272,8 +2272,8 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -2283,6 +2283,12 @@
       "stem": "According to the text, what does the hangman's knot illustrate regarding bight knots?",
       "choices": [
         {
+          "text": "It loosens automatically as soon as weight is applied to the loop.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "It can be easily undone if the loop is free, but tightens around the restraint under the weight of the hanged person.",
           "image": null,
           "is_correct": true,
@@ -2290,12 +2296,6 @@
         },
         {
           "text": "It can never be undone, whether the loop is free or restrained.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "It loosens automatically as soon as weight is applied to the loop.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2322,7 +2322,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2332,9 +2332,9 @@
       "stem": "According to the text, what is a bight (ganse)?",
       "choices": [
         {
-          "text": "A curved portion of rope, with no crossing or overlapping.",
+          "text": "A rope braided from three metal strands.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2344,9 +2344,9 @@
           "rationale": ""
         },
         {
-          "text": "A rope braided from three metal strands.",
+          "text": "A curved portion of rope, with no crossing or overlapping.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2371,7 +2371,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2381,9 +2381,9 @@
       "stem": "According to the text, what is the strength of a rope fitted with a bowline compared to a clove hitch?",
       "choices": [
         {
-          "text": "The bowline retains an exceptional strength of 89%, whereas the clove hitch halves it.",
+          "text": "Both knots reduce the rope's strength by exactly half.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2393,9 +2393,9 @@
           "rationale": ""
         },
         {
-          "text": "Both knots reduce the rope's strength by exactly half.",
+          "text": "The bowline retains an exceptional strength of 89%, whereas the clove hitch halves it.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2420,7 +2420,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2430,15 +2430,15 @@
       "stem": "According to the text, which criterion makes it possible to evaluate and choose the most suitable knot?",
       "choices": [
         {
-          "text": "The strength of the knot, in particular whether or not it weakens the rope in case of violent jerks.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The color of the rope used to make it.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The strength of the knot, in particular whether or not it weakens the rope in case of violent jerks.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2469,7 +2469,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2485,13 +2485,13 @@
           "rationale": ""
         },
         {
-          "text": "Knots have never been used outside the maritime domain.",
+          "text": "Knowledge of knots has become completely useless since the appearance of specialized equipment.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Knowledge of knots has become completely useless since the appearance of specialized equipment.",
+          "text": "Knots have never been used outside the maritime domain.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2528,12 +2528,6 @@
       "stem": "According to the text, what is a knot?",
       "choices": [
         {
-          "text": "The intertwining or interlacing of one or more ropes or other flexible, thread-like objects.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Exclusively the interlacing of two rigid metal cables.",
           "image": null,
           "is_correct": false,
@@ -2543,6 +2537,12 @@
           "text": "An assembly of planks intended to reinforce a hull.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The intertwining or interlacing of one or more ropes or other flexible, thread-like objects.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2567,7 +2567,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2675,15 +2675,15 @@
       "stem": "During which period is the Bise clearly dominant on Lake Geneva?",
       "choices": [
         {
-          "text": "In the first half of the year, particularly in spring",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "In high summer, from July to August",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "In the first half of the year, particularly in spring",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2714,7 +2714,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2724,15 +2724,15 @@
       "stem": "Which statement is correct about the storm vaudaire?",
       "choices": [
         {
-          "text": "It is cold: as soon as it appears, the temperature drops and the humidity rises.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "It is warm and dry, raising the temperature as soon as it appears.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "It is cold: as soon as it appears, the temperature drops and the humidity rises.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2763,7 +2763,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2773,13 +2773,13 @@
       "stem": "Concerning the two types of vaudaire, which of these statements is FALSE?",
       "choices": [
         {
-          "text": "The föhn vaudaire appears mainly in March-April as well as in October-November.",
+          "text": "The storm vaudaire appears from April to September.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "The storm vaudaire appears from April to September.",
+          "text": "The föhn vaudaire appears mainly in March-April as well as in October-November.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2822,15 +2822,15 @@
       "stem": "What are the warning signs that announce le Bornan?",
       "choices": [
         {
-          "text": "The build-up of large cumulus and cumulonimbus clouds over the high ground, particularly the Savoy Prealps.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A perfectly clear and stable sky above the Dent d'Oche.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The build-up of large cumulus and cumulonimbus clouds over the high ground, particularly the Savoy Prealps.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2861,7 +2861,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2871,9 +2871,9 @@
       "stem": "Which statements are correct about le Bornan?",
       "choices": [
         {
-          "text": "It can reach 30 to 40 kt and its effects are felt mainly between Rolle and Lutry.",
+          "text": "It is a cold winter wind channelled by the Rhône valley.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2883,9 +2883,9 @@
           "rationale": ""
         },
         {
-          "text": "It is a cold winter wind channelled by the Rhône valley.",
+          "text": "It can reach 30 to 40 kt and its effects are felt mainly between Rolle and Lutry.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2910,8 +2910,8 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -2921,9 +2921,9 @@
       "stem": "From which direction and origin does le joran come?",
       "choices": [
         {
-          "text": "It is a NW wind, relatively cold, that comes down from the Jura towards Lake Geneva.",
+          "text": "It is a NE wind that blows from the Vaud Prealps.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2933,9 +2933,9 @@
           "rationale": ""
         },
         {
-          "text": "It is a NE wind that blows from the Vaud Prealps.",
+          "text": "It is a NW wind, relatively cold, that comes down from the Jura towards Lake Geneva.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2960,7 +2960,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2969,12 +2969,6 @@
       "kind": "meteo_mc",
       "stem": "How do the storm joran and the joran that rises after a cold front compare?",
       "choices": [
-        {
-          "text": "The storm joran is often dangerous because it is sudden and sometimes violent.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "The gusts of the cold-front joran are clearly stronger than those of the storm joran.",
           "image": null,
@@ -2985,6 +2979,12 @@
           "text": "The storm joran blows steadily and is appreciated by sailors.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The storm joran is often dangerous because it is sudden and sometimes violent.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3009,7 +3009,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3019,6 +3019,12 @@
       "stem": "What is the origin of the alternating breezes observed near lakes?",
       "choices": [
         {
+          "text": "The channelling of cold air coming down from the Jura.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The difference in temperature between the water, warmer at night, and the land, warmer during the day.",
           "image": null,
           "is_correct": true,
@@ -3026,12 +3032,6 @@
         },
         {
           "text": "The arrival of an Atlantic disturbance over Lake Geneva.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "The channelling of cold air coming down from the Jura.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3058,7 +3058,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3067,12 +3067,6 @@
       "kind": "meteo_mc",
       "stem": "Which statements are correct about daytime and nighttime breezes?",
       "choices": [
-        {
-          "text": "Daytime breezes blow from the lake towards the shore.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Nighttime breezes generally rise between 5 and 7 p.m.",
           "image": null,
@@ -3083,6 +3077,12 @@
           "text": "Nighttime breezes blow from the shore towards the lake and are very violent winds.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Daytime breezes blow from the lake towards the shore.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3108,7 +3108,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -3118,15 +3118,15 @@
       "stem": "Which weather situation does Le Vent (sudois) correspond to?",
       "choices": [
         {
-          "text": "Low pressure over the British Isles and high pressure over southern Europe.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "High pressure over the British Isles and low pressure over southern Europe.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Low pressure over the British Isles and high pressure over southern Europe.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -3157,7 +3157,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3166,12 +3166,6 @@
       "kind": "figure_recognition",
       "stem": "What does this signal mean?",
       "choices": [
-        {
-          "text": "Boat landing area",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
         {
           "text": "The width of the passage is limited",
           "image": null,
@@ -3182,6 +3176,12 @@
           "text": "Strong wind warning",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Boat landing area",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -3206,7 +3206,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -3216,6 +3216,12 @@
       "stem": "What does this signal mean?",
       "choices": [
         {
+          "text": "Strong wind warning",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Storm warning",
           "image": null,
           "is_correct": true,
@@ -3223,12 +3229,6 @@
         },
         {
           "text": "Dam",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Strong wind warning",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3255,7 +3255,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3265,6 +3265,12 @@
       "stem": "What does this light signal mean?",
       "choices": [
         {
+          "text": "Blue quick-flashing light",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Steady light visible from all sides",
           "image": null,
           "is_correct": true,
@@ -3272,12 +3278,6 @@
         },
         {
           "text": "Quick-flashing light",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Blue quick-flashing light",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3304,7 +3304,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3314,9 +3314,9 @@
       "stem": "At night, which lights must a sailing vessel under motor (sails hoisted or not) carry?",
       "choices": [
         {
-          "text": "A white masthead light, green and red side lights, and a white stern light",
+          "text": "A white masthead light and a tricolour light combining the side lights and the stern light at the top of the mast",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -3326,9 +3326,9 @@
           "rationale": ""
         },
         {
-          "text": "A white masthead light and a tricolour light combining the side lights and the stern light at the top of the mast",
+          "text": "A white masthead light, green and red side lights, and a white stern light",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3353,7 +3353,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3363,15 +3363,15 @@
       "stem": "A sailing vessel under motor may combine its side lights and its stern light into a single tricolour light. Where is this tricolour light placed, and which other light is still required?",
       "choices": [
         {
-          "text": "A white masthead light, with the tricolour light placed at the top of the mast or near it",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A white masthead light, with the tricolour light placed on the stern at water level",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A white masthead light, with the tricolour light placed at the top of the mast or near it",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -3402,7 +3402,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3412,6 +3412,12 @@
       "stem": "At night, which light must a non-motorised vessel sailing alone or in a towed convoy carry?",
       "choices": [
         {
+          "text": "An ordinary yellow light visible from all sides",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "An ordinary white light visible from all sides",
           "image": null,
           "is_correct": true,
@@ -3419,12 +3425,6 @@
         },
         {
           "text": "A white masthead light with green and red side lights",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "An ordinary yellow light visible from all sides",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3451,7 +3451,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3460,12 +3460,6 @@
       "kind": "rule_mc",
       "stem": "At night, which light must a vessel under sail (without motor) carry as a minimum?",
       "choices": [
-        {
-          "text": "An ordinary white light visible from all sides",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Green and red side lights and a white stern light",
           "image": null,
@@ -3476,6 +3470,12 @@
           "text": "A white masthead light and a tricolour light at the top of the mast",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "An ordinary white light visible from all sides",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3500,7 +3500,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3509,6 +3509,12 @@
       "kind": "figure_recognition",
       "stem": "What does this light signal mean?",
       "choices": [
+        {
+          "text": "Tricolour light placed at the top of the mast or near it",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
         {
           "text": "Flashing light",
           "image": null,
@@ -3519,12 +3525,6 @@
           "text": "Fixed light visible from all sides",
           "image": null,
           "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Tricolour light placed at the top of the mast or near it",
-          "image": null,
-          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3549,7 +3549,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -3565,13 +3565,13 @@
           "rationale": ""
         },
         {
-          "text": "The upper light green, the lower light red",
+          "text": "Both lights white",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Both lights white",
+          "text": "The upper light green, the lower light red",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3755,12 +3755,6 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
-          "text": "No mooring",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Green ball",
           "image": null,
           "is_correct": true,
@@ -3768,6 +3762,12 @@
         },
         {
           "text": "The clearance height of the passage is limited",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "No mooring",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3794,7 +3794,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -3804,9 +3804,9 @@
       "stem": "To indicate that it must be protected against wash, which additional lights does a vessel carry at night, in addition to the prescribed lights?",
       "choices": [
         {
-          "text": "An ordinary red light visible from all sides above an ordinary white light visible from all sides",
+          "text": "Two superimposed ordinary red lights visible from all sides",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -3816,9 +3816,9 @@
           "rationale": ""
         },
         {
-          "text": "Two superimposed ordinary red lights visible from all sides",
+          "text": "An ordinary red light visible from all sides above an ordinary white light visible from all sides",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3843,7 +3843,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3852,12 +3852,6 @@
       "kind": "figure_recognition",
       "stem": "What does this signal mean?",
       "choices": [
-        {
-          "text": "A flag whose upper half is red and lower half white",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Swinging a red flag",
           "image": null,
@@ -3868,6 +3862,12 @@
           "text": "Two superimposed white flags",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A flag whose upper half is red and lower half white",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3892,7 +3892,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3902,15 +3902,15 @@
       "stem": "What does this signal mean?",
       "choices": [
         {
-          "text": "Two flags, the upper red and the lower white",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Two superimposed white flags",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Two flags, the upper red and the lower white",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -3941,7 +3941,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3951,15 +3951,15 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
-          "text": "Mandatory stop under certain conditions",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Two white flags one above the other",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Mandatory stop under certain conditions",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -3990,7 +3990,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -4000,13 +4000,13 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
-          "text": "Yellow ball",
+          "text": "Police boats and boats of other services",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Police boats and boats of other services",
+          "text": "Yellow ball",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4098,6 +4098,12 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
+          "text": "Police boats and boats of other services",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
           "text": "Yellow buoys marking each anchor",
           "image": null,
           "is_correct": false,
@@ -4107,12 +4113,6 @@
           "text": "No anchoring",
           "image": null,
           "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Police boats and boats of other services",
-          "image": null,
-          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4137,7 +4137,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -4147,15 +4147,15 @@
       "stem": "What does this light signal mean?",
       "choices": [
         {
-          "text": "Quick-flashing light",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Blue quick-flashing light",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Quick-flashing light",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -4186,7 +4186,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -4245,12 +4245,6 @@
       "stem": "At night, which light must a professional fishing vessel carry?",
       "choices": [
         {
-          "text": "An ordinary yellow light visible from all sides",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "An ordinary white light visible from all sides",
           "image": null,
           "is_correct": false,
@@ -4260,6 +4254,12 @@
           "text": "An ordinary red light visible from all sides",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "An ordinary yellow light visible from all sides",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4284,7 +4284,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4398,13 +4398,13 @@
           "rationale": ""
         },
         {
-          "text": "The letter «K» flag (half on the staff side yellow, the other half blue)",
+          "text": "A white ball visible from all sides",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "A white ball visible from all sides",
+          "text": "The letter «K» flag (half on the staff side yellow, the other half blue)",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4441,6 +4441,12 @@
       "stem": "In the case of underwater diving carried out from a body of water, how must the letter «A» board be displayed?",
       "choices": [
         {
+          "text": "A red flag visible from all sides",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The letter «A» board (white/blue pennant) visible from all sides",
           "image": null,
           "is_correct": true,
@@ -4448,12 +4454,6 @@
         },
         {
           "text": "The letter «A» board facing only towards the shore",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "A red flag visible from all sides",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4480,7 +4480,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4496,13 +4496,13 @@
           "rationale": ""
         },
         {
-          "text": "The width of the passage is limited",
+          "text": "Pass only in the direction indicated",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Pass only in the direction indicated",
+          "text": "The width of the passage is limited",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4545,13 +4545,13 @@
           "rationale": ""
         },
         {
-          "text": "Only an ordinary white light visible from all sides",
+          "text": "A bright white light and a bright green light visible from all sides placed higher than the masthead light",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "A bright white light and a bright green light visible from all sides placed higher than the masthead light",
+          "text": "Only an ordinary white light visible from all sides",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4588,9 +4588,9 @@
       "stem": "At night, how does a vessel in distress signal its situation?",
       "choices": [
         {
-          "text": "By swinging a light in a circular motion",
+          "text": "By showing two fixed superimposed red lights",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -4600,9 +4600,9 @@
           "rationale": ""
         },
         {
-          "text": "By showing two fixed superimposed red lights",
+          "text": "By swinging a light in a circular motion",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4627,7 +4627,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4643,15 +4643,15 @@
           "rationale": ""
         },
         {
-          "text": "Swinging a red flag, or any other suitable object, in a circular motion",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Two superimposed white flags",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Swinging a red flag, or any other suitable object, in a circular motion",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4676,7 +4676,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -4685,12 +4685,6 @@
       "kind": "figure_recognition",
       "stem": "What does this signal mean?",
       "choices": [
-        {
-          "text": "A slow, repeated up-and-down movement of the arms extended to each side",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Permission to moor",
           "image": null,
@@ -4701,6 +4695,12 @@
           "text": "B. in the indicated direction only",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A slow, repeated up-and-down movement of the arms extended to each side",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4725,7 +4725,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4784,15 +4784,15 @@
       "stem": "By day, which flag indicates the side on which passage is NOT clear near a piece of floating equipment or a vessel at work?",
       "choices": [
         {
-          "text": "A red flag",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A flag whose upper half is red and lower half white",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A red flag",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -4823,7 +4823,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4832,12 +4832,6 @@
       "kind": "rule_mc",
       "stem": "By day, which signal indicates the side on which passage is clear near a piece of floating equipment or a vessel at work (two-flag variant)?",
       "choices": [
-        {
-          "text": "Two superimposed flags, the upper red and the lower white",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Two superimposed flags, the upper white and the lower red",
           "image": null,
@@ -4848,6 +4842,12 @@
           "text": "A single red flag",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Two superimposed flags, the upper red and the lower white",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4872,7 +4872,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4882,6 +4882,12 @@
       "stem": "At night, where is the masthead light (bright white light) of a pushed convoy placed?",
       "choices": [
         {
+          "text": "At the centre of the convoy, on the most visible vessel",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "On the leading vessel",
           "image": null,
           "is_correct": true,
@@ -4889,12 +4895,6 @@
         },
         {
           "text": "On the pushing vessel, at the rear of the convoy",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "At the centre of the convoy, on the most visible vessel",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4921,7 +4921,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4931,15 +4931,15 @@
       "stem": "At night, which lights may a professional fishing, sport or motorised pleasure vessel (or a sailing vessel under motor) carry under this simplified variant?",
       "choices": [
         {
-          "text": "A white light visible from all sides and green and red side lights",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A white masthead light, green/red side lights and a separate white stern light",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A white light visible from all sides and green and red side lights",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -4970,7 +4970,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5029,12 +5029,6 @@
       "stem": "What does this sound signal mean?",
       "choices": [
         {
-          "text": "Two lights one above the other",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Peals of a bell",
           "image": null,
           "is_correct": true,
@@ -5042,6 +5036,12 @@
         },
         {
           "text": "Yellow buoys marking each anchor",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Two lights one above the other",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5068,7 +5068,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -5078,15 +5078,15 @@
       "stem": "What does the general prohibition signal (circular board with a red border and a red bar) placed on a body of water mean?",
       "choices": [
         {
-          "text": "No passage",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The channel is limited to a certain distance from the shore",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "No passage",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -5117,7 +5117,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5182,15 +5182,15 @@
           "rationale": ""
         },
         {
-          "text": "No overtaking",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "No mooring",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "No overtaking",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -5215,7 +5215,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -5224,6 +5224,12 @@
       "kind": "figure_recognition",
       "stem": "What does this board mean?",
       "choices": [
+        {
+          "text": "End of a prohibition or an obligation",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "No passage for motorized boats",
           "image": null,
@@ -5234,12 +5240,6 @@
           "text": "No turning",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "End of a prohibition or an obligation",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -5264,7 +5264,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -5274,6 +5274,12 @@
       "stem": "What does this board mean?",
       "choices": [
         {
+          "text": "No turning",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "No creating harmful wash or suction effects",
           "image": null,
           "is_correct": true,
@@ -5281,12 +5287,6 @@
         },
         {
           "text": "No anchoring",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "No turning",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5313,7 +5313,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5322,6 +5322,12 @@
       "kind": "figure_recognition",
       "stem": "What does this board mean?",
       "choices": [
+        {
+          "text": "No navigating outside the indicated limits",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
         {
           "text": "No turning",
           "image": null,
@@ -5332,12 +5338,6 @@
           "text": "No mooring",
           "image": null,
           "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "No navigating outside the indicated limits",
-          "image": null,
-          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5362,7 +5362,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -5421,9 +5421,9 @@
       "stem": "What does this signal mean?",
       "choices": [
         {
-          "text": "Passage prohibited, but prepare to get under way",
+          "text": "Wailing of a siren",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -5433,9 +5433,9 @@
           "rationale": ""
         },
         {
-          "text": "Wailing of a siren",
+          "text": "Passage prohibited, but prepare to get under way",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5460,7 +5460,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5470,12 +5470,6 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
-          "text": "Ferry not moving freely",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Swimming prohibited",
           "image": null,
           "is_correct": true,
@@ -5483,6 +5477,12 @@
         },
         {
           "text": "Recommended direction",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ferry not moving freely",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5509,7 +5509,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -5518,6 +5518,12 @@
       "kind": "figure_recognition",
       "stem": "What does this board mean?",
       "choices": [
+        {
+          "text": "Obligation to sound a whistle",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "Obligation to keep a particular lookout",
           "image": null,
@@ -5528,12 +5534,6 @@
           "text": "Obligation to take the direction indicated by the arrow",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Obligation to sound a whistle",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -5558,7 +5558,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -5574,15 +5574,15 @@
           "rationale": ""
         },
         {
-          "text": "Mandatory stop under certain conditions",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Mandatory to sound the whistle",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Mandatory stop under certain conditions",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5607,7 +5607,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -5617,7 +5617,7 @@
       "stem": "What does this light signal mean?",
       "choices": [
         {
-          "text": "Recommended direction",
+          "text": "No berthing",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5629,7 +5629,7 @@
           "rationale": ""
         },
         {
-          "text": "No berthing",
+          "text": "Recommended direction",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5764,12 +5764,6 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "Mandatory stop under certain conditions",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Mandatory to exercise particular vigilance",
           "image": null,
           "is_correct": true,
@@ -5777,6 +5771,12 @@
         },
         {
           "text": "Mandatory to sound the whistle",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Mandatory stop under certain conditions",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5803,7 +5803,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -5812,6 +5812,12 @@
       "kind": "figure_recognition",
       "stem": "What does this sign mean?",
       "choices": [
+        {
+          "text": "The clearance height of the passage is limited",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
         {
           "text": "Kitesurfing permitted",
           "image": null,
@@ -5822,12 +5828,6 @@
           "text": "Recommended direction",
           "image": null,
           "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "The clearance height of the passage is limited",
-          "image": null,
-          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5852,7 +5852,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -5862,6 +5862,12 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
+          "text": "Recommended direction",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The width of the passage is limited",
           "image": null,
           "is_correct": true,
@@ -5869,12 +5875,6 @@
         },
         {
           "text": "Storm warning",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Recommended direction",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5901,7 +5901,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5911,9 +5911,9 @@
       "stem": "On the « The channel is limited » signal, what does the number shown on the board represent?",
       "choices": [
         {
-          "text": "The distance, in metres, at which vessels must keep clear of the shore",
+          "text": "The minimum water depth in metres",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -5923,9 +5923,9 @@
           "rationale": ""
         },
         {
-          "text": "The minimum water depth in metres",
+          "text": "The distance, in metres, at which vessels must keep clear of the shore",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5950,7 +5950,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5960,6 +5960,12 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
+          "text": "Storm warning",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The draught is limited",
           "image": null,
           "is_correct": true,
@@ -5967,12 +5973,6 @@
         },
         {
           "text": "Strong-wind warning",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Storm warning",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5999,7 +5999,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6009,15 +6009,15 @@
       "stem": "What does the « Recommended passage under bridges » board of type a indicate?",
       "choices": [
         {
-          "text": "A recommended passage for crossing under the bridge in both directions",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A recommended passage in one direction only",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A recommended passage for crossing under the bridge in both directions",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -6048,7 +6048,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6057,12 +6057,6 @@
       "kind": "figure_recognition",
       "stem": "What does this sign mean?",
       "choices": [
-        {
-          "text": "The width of the passage is limited",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
         {
           "text": "Boat landing place",
           "image": null,
@@ -6073,6 +6067,12 @@
           "text": "Pass only in the direction indicated",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "The width of the passage is limited",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -6097,7 +6097,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -6113,15 +6113,15 @@
           "rationale": ""
         },
         {
-          "text": "Pass only in the direction indicated",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The draught is limited",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Pass only in the direction indicated",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6146,7 +6146,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -6156,15 +6156,15 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "End of a prohibition or an obligation",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "No passage for motorized boats",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "End of a prohibition or an obligation",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -6195,7 +6195,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -6211,15 +6211,15 @@
           "rationale": ""
         },
         {
-          "text": "Recommendation to keep within the space indicated in «green»",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Permission to pass",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Recommendation to keep within the space indicated in «green»",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6244,7 +6244,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -6303,7 +6303,7 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "Mooring permitted",
+          "text": "Anchoring permitted",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6315,7 +6315,7 @@
           "rationale": ""
         },
         {
-          "text": "Anchoring permitted",
+          "text": "Mooring permitted",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6352,9 +6352,9 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "Berthing permitted",
+          "text": "Passage permitted",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -6364,9 +6364,9 @@
           "rationale": ""
         },
         {
-          "text": "Passage permitted",
+          "text": "Berthing permitted",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6391,7 +6391,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6400,12 +6400,6 @@
       "kind": "figure_recognition",
       "stem": "What does this board mean?",
       "choices": [
-        {
-          "text": "Anchoring permitted",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Water-skiing permitted",
           "image": null,
@@ -6416,6 +6410,12 @@
           "text": "Berthing permitted",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Anchoring permitted",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6440,7 +6440,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6450,13 +6450,13 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "Anchoring permitted",
+          "text": "Passage permitted",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Passage permitted",
+          "text": "Anchoring permitted",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6499,6 +6499,12 @@
       "stem": "What does this board mean?",
       "choices": [
         {
+          "text": "Windsurfing permitted",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Water-skiing permitted",
           "image": null,
           "is_correct": true,
@@ -6506,12 +6512,6 @@
         },
         {
           "text": "Mooring permitted",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Windsurfing permitted",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6538,7 +6538,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6597,12 +6597,6 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
-          "text": "Kitesurfing permitted",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Storm warning",
           "image": null,
           "is_correct": false,
@@ -6612,6 +6606,12 @@
           "text": "Swimming prohibited",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Kitesurfing permitted",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6636,7 +6636,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6646,9 +6646,9 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
-          "text": "Pass only in the direction indicated",
+          "text": "Recommended direction",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -6658,9 +6658,9 @@
           "rationale": ""
         },
         {
-          "text": "Recommended direction",
+          "text": "Pass only in the direction indicated",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -6685,7 +6685,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -6744,6 +6744,12 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
+          "text": "Ferry not moving freely",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
           "text": "Recommended direction",
           "image": null,
           "is_correct": false,
@@ -6753,12 +6759,6 @@
           "text": "Kitesurfing permitted",
           "image": null,
           "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Ferry not moving freely",
-          "image": null,
-          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6783,7 +6783,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -6793,15 +6793,15 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
-          "text": "Dam",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The draught is limited",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Dam",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -6832,7 +6832,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6842,9 +6842,9 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
-          "text": "Strong-wind warning",
+          "text": "Boat launching place",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -6854,9 +6854,9 @@
           "rationale": ""
         },
         {
-          "text": "Boat launching place",
+          "text": "Strong-wind warning",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -6881,7 +6881,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -6890,6 +6890,12 @@
       "kind": "figure_recognition",
       "stem": "What does this sign mean?",
       "choices": [
+        {
+          "text": "Boat landing place",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
         {
           "text": "Boat launching place",
           "image": null,
@@ -6900,12 +6906,6 @@
           "text": "Dam",
           "image": null,
           "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Boat landing place",
-          "image": null,
-          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6930,7 +6930,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -6940,13 +6940,13 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "No passage for sailing boats",
+          "text": "No passage for motorized boats",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "No passage for motorized boats",
+          "text": "No passage for sailing boats",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6995,13 +6995,13 @@
           "rationale": ""
         },
         {
-          "text": "Dam",
+          "text": "Kitesurfing permitted",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Kitesurfing permitted",
+          "text": "Dam",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7136,9 +7136,9 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "No passage for sailing boats",
+          "text": "No passage for motorized boats",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -7148,9 +7148,9 @@
           "rationale": ""
         },
         {
-          "text": "No passage for motorized boats",
+          "text": "No passage for sailing boats",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -7175,7 +7175,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -7234,12 +7234,6 @@
       "stem": "To mark a shoal near the shore, which marks are used on the open-water side and on the shore side?",
       "choices": [
         {
-          "text": "Open-water side: cylinders; shore side: cones",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Open-water side: cones; shore side: cylinders",
           "image": null,
           "is_correct": false,
@@ -7249,6 +7243,12 @@
           "text": "Open-water side and shore side: yellow floats",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Open-water side: cylinders; shore side: cones",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -7273,7 +7273,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -7289,13 +7289,13 @@
           "rationale": ""
         },
         {
-          "text": "Right side: red cylinders; left side: green cones",
+          "text": "Both sides: cones point down painted red",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Both sides: cones point down painted red",
+          "text": "Right side: red cylinders; left side: green cones",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7332,9 +7332,9 @@
       "stem": "How does a cardinal mark indicate the North quadrant of an extended obstacle?",
       "choices": [
         {
-          "text": "Two cones one above the other, both points up",
+          "text": "Two cones one above the other, the lower cone point down and the upper cone point up",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -7344,9 +7344,9 @@
           "rationale": ""
         },
         {
-          "text": "Two cones one above the other, the lower cone point down and the upper cone point up",
+          "text": "Two cones one above the other, both points up",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -7371,7 +7371,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -7387,13 +7387,13 @@
           "rationale": ""
         },
         {
-          "text": "That the obstacle lies in the North and West quadrants",
+          "text": "That passage is prohibited in the North and West quadrants",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "That passage is prohibited in the North and West quadrants",
+          "text": "That the obstacle lies in the North and West quadrants",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7430,12 +7430,6 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "No passage for motorized boats",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "End of a prohibition or an obligation",
           "image": null,
           "is_correct": false,
@@ -7445,6 +7439,12 @@
           "text": "No windsurfing",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "No passage for motorized boats",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -7469,7 +7469,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -7485,13 +7485,13 @@
           "rationale": ""
         },
         {
-          "text": "Mandatory stop under certain conditions",
+          "text": "No anchoring",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "No anchoring",
+          "text": "Mandatory stop under certain conditions",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7675,7 +7675,7 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "No turning",
+          "text": "End of a prohibition or an obligation",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7687,7 +7687,7 @@
           "rationale": ""
         },
         {
-          "text": "End of a prohibition or an obligation",
+          "text": "No turning",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7724,6 +7724,12 @@
       "stem": "At night, which lights must a sailing vessel under motor (sails hoisted or not) carry?",
       "choices": [
         {
+          "text": "Only an ordinary white light visible from all sides",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "A white masthead light, green and red side lights, and a white stern light",
           "image": null,
           "is_correct": true,
@@ -7731,12 +7737,6 @@
         },
         {
           "text": "A white light visible from all sides and green and red side lights, without a masthead light",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Only an ordinary white light visible from all sides",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7763,7 +7763,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -7871,9 +7871,9 @@
       "stem": "At night, how does a non-motorised vessel navigating alone or in a towed convoy mark itself?",
       "choices": [
         {
-          "text": "By an ordinary white light visible from all sides",
+          "text": "By an ordinary yellow light visible from all sides",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -7883,9 +7883,9 @@
           "rationale": ""
         },
         {
-          "text": "By an ordinary yellow light visible from all sides",
+          "text": "By an ordinary white light visible from all sides",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -7910,7 +7910,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -7920,6 +7920,12 @@
       "stem": "At night, by which light may a vessel under sail (without motor) mark itself in the simplest way?",
       "choices": [
         {
+          "text": "A tricolour light placed at the top of the mast",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "An ordinary white light visible from all sides",
           "image": null,
           "is_correct": true,
@@ -7927,12 +7933,6 @@
         },
         {
           "text": "A white masthead light accompanied by green and red side lights",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "A tricolour light placed at the top of the mast",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7959,7 +7959,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -7968,12 +7968,6 @@
       "kind": "rule_mc",
       "stem": "At night, a vessel under sail carrying side lights and a stern light: what are these lights?",
       "choices": [
-        {
-          "text": "Green and red side lights and a white stern light",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Green and red side lights, a white stern light and a white masthead light",
           "image": null,
@@ -7984,6 +7978,12 @@
           "text": "An ordinary yellow light visible from all sides",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Green and red side lights and a white stern light",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -8008,7 +8008,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -8067,15 +8067,15 @@
       "stem": "What does this signal mean?",
       "choices": [
         {
-          "text": "Additional night marking of priority passenger vessels under way",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Pushed convoys",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Additional night marking of priority passenger vessels under way",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -8106,7 +8106,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -8171,13 +8171,13 @@
           "rationale": ""
         },
         {
-          "text": "Two white lights one above the other about 1 m apart",
+          "text": "A red light above a white light, both visible from all sides",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "A red light above a white light, both visible from all sides",
+          "text": "Two white lights one above the other about 1 m apart",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8214,9 +8214,9 @@
       "stem": "At night, how must floating equipment at a standstill be marked?",
       "choices": [
         {
-          "text": "Lit in such a way that its contours are recognisable",
+          "text": "By a black ball visible from all sides",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -8226,9 +8226,9 @@
           "rationale": ""
         },
         {
-          "text": "By a black ball visible from all sides",
+          "text": "Lit in such a way that its contours are recognisable",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -8253,7 +8253,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -8361,15 +8361,15 @@
       "stem": "By day, by which signal does a priority passenger vessel indicate its priority?",
       "choices": [
         {
-          "text": "A green ball, visible from all sides",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A yellow ball, visible from all sides",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A green ball, visible from all sides",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -8400,7 +8400,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -8459,15 +8459,15 @@
       "stem": "By day, how may a vessel unable to manoeuvre mark itself by means of fixed marks visible from all sides?",
       "choices": [
         {
-          "text": "Two black balls one above the other, about 1 m apart, visible from all sides",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Two green balls one above the other visible from all sides",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Two black balls one above the other, about 1 m apart, visible from all sides",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -8498,7 +8498,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -8514,13 +8514,13 @@
           "rationale": ""
         },
         {
-          "text": "Free side: a red flag; non-free side: a red and white flag",
+          "text": "Free side: a green ball; non-free side: a black ball",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Free side: a green ball; non-free side: a black ball",
+          "text": "Free side: a red flag; non-free side: a red and white flag",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8661,13 +8661,13 @@
           "rationale": ""
         },
         {
-          "text": "A bright green light visible from all sides",
+          "text": "A scintillating yellow light",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "A scintillating yellow light",
+          "text": "A bright green light visible from all sides",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8704,12 +8704,6 @@
       "stem": "What flag does a vessel of the control authorities hoist when it wishes to enter into communication with another vessel?",
       "choices": [
         {
-          "text": "The letter \"K\" flag",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The letter \"A\" board",
           "image": null,
           "is_correct": false,
@@ -8719,6 +8713,12 @@
           "text": "A red flag",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The letter \"K\" flag",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -8743,7 +8743,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -8759,13 +8759,13 @@
           "rationale": ""
         },
         {
-          "text": "At night: a white light swung; by day: a green ball hoisted",
+          "text": "At night: two red lights one above the other; by day: two black balls one above the other",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "At night: two red lights one above the other; by day: two black balls one above the other",
+          "text": "At night: a white light swung; by day: a green ball hoisted",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8802,15 +8802,15 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
-          "text": "Pushed convoys",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Boats navigating alone or tugboats",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Pushed convoys",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -8841,7 +8841,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -8851,9 +8851,9 @@
       "stem": "What signal indicates underwater diving carried out from the shore?",
       "choices": [
         {
-          "text": "A board bearing the letter \"A\"",
+          "text": "A yellow ball visible from all sides",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -8863,9 +8863,9 @@
           "rationale": ""
         },
         {
-          "text": "A yellow ball visible from all sides",
+          "text": "A board bearing the letter \"A\"",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -8890,7 +8890,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -8900,6 +8900,12 @@
       "stem": "What signal does a vessel used for underwater diving carry when the diving is done from a body of water?",
       "choices": [
         {
+          "text": "A flag bearing the letter \"K\"",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "A board bearing the letter \"A\"",
           "image": null,
           "is_correct": true,
@@ -8907,12 +8913,6 @@
         },
         {
           "text": "A white ball visible from all sides",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "A flag bearing the letter \"K\"",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8939,7 +8939,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -8955,13 +8955,13 @@
           "rationale": ""
         },
         {
-          "text": "A yellow ball, visible from all sides",
+          "text": "A green ball, visible from all sides",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "A green ball, visible from all sides",
+          "text": "A yellow ball, visible from all sides",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9004,13 +9004,13 @@
           "rationale": ""
         },
         {
-          "text": "A white ball, visible from all sides",
+          "text": "A green ball, visible from all sides",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "A green ball, visible from all sides",
+          "text": "A white ball, visible from all sides",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9047,13 +9047,13 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
-          "text": "Pleasure boats",
+          "text": "Boats navigating alone or tugboats",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Boats navigating alone or tugboats",
+          "text": "Pleasure boats",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9096,6 +9096,12 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
+          "text": "Boats navigating alone or tugboats",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Pushed convoys",
           "image": null,
           "is_correct": false,
@@ -9105,12 +9111,6 @@
           "text": "Pleasure boats",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Boats navigating alone or tugboats",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -9135,7 +9135,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -9145,9 +9145,9 @@
       "stem": "What does this signal mean?",
       "choices": [
         {
-          "text": "Pushed convoys",
+          "text": "Professional fishing vessels, motorised pleasure craft",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -9157,9 +9157,9 @@
           "rationale": ""
         },
         {
-          "text": "Professional fishing vessels, motorised pleasure craft",
+          "text": "Pushed convoys",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -9184,7 +9184,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -9194,15 +9194,15 @@
       "stem": "At night, which lights may a motorised pleasure craft (or a sailing vessel under motor) carry under this simplified configuration?",
       "choices": [
         {
-          "text": "A white light visible from all sides and green and red side lights",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A white masthead light, green and red side lights and a separate white stern light",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A white light visible from all sides and green and red side lights",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -9233,7 +9233,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -9243,7 +9243,7 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "No anchoring",
+          "text": "No berthing",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9255,7 +9255,7 @@
           "rationale": ""
         },
         {
-          "text": "No berthing",
+          "text": "No anchoring",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9292,9 +9292,9 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "No passage outside the area indicated",
+          "text": "No berthing",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -9304,9 +9304,9 @@
           "rationale": ""
         },
         {
-          "text": "No berthing",
+          "text": "No passage outside the area indicated",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -9331,7 +9331,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -9341,7 +9341,7 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "No passage",
+          "text": "No berthing",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9353,7 +9353,7 @@
           "rationale": ""
         },
         {
-          "text": "No berthing",
+          "text": "No passage",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9445,13 +9445,13 @@
           "rationale": ""
         },
         {
-          "text": "No windsurfing",
+          "text": "No berthing",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "No berthing",
+          "text": "No windsurfing",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9494,13 +9494,13 @@
           "rationale": ""
         },
         {
-          "text": "Obligation to exercise particular vigilance",
+          "text": "Permission to moor",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Permission to moor",
+          "text": "Obligation to exercise particular vigilance",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9537,6 +9537,12 @@
       "stem": "What does this sign mean?",
       "choices": [
         {
+          "text": "Permission to anchor",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Obligation not to exceed the speed indicated (in km/h",
           "image": null,
           "is_correct": true,
@@ -9544,12 +9550,6 @@
         },
         {
           "text": "Prohibition of all overtaking",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Permission to anchor",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9576,7 +9576,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -9586,9 +9586,9 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "Anchoring permitted",
+          "text": "Mandatory to exercise particular vigilance",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -9598,9 +9598,9 @@
           "rationale": ""
         },
         {
-          "text": "Mandatory to exercise particular vigilance",
+          "text": "Anchoring permitted",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -9625,7 +9625,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -9641,13 +9641,13 @@
           "rationale": ""
         },
         {
-          "text": "Permission to make fast",
+          "text": "Permission to anchor",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Permission to anchor",
+          "text": "Permission to make fast",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9684,7 +9684,7 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "Anchoring permitted",
+          "text": "Windsurfing permitted",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9696,7 +9696,7 @@
           "rationale": ""
         },
         {
-          "text": "Windsurfing permitted",
+          "text": "Anchoring permitted",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9739,15 +9739,15 @@
           "rationale": ""
         },
         {
-          "text": "Anchoring permitted",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Mooring permitted",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Anchoring permitted",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -9772,7 +9772,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -9788,13 +9788,13 @@
           "rationale": ""
         },
         {
-          "text": "Anchoring permitted",
+          "text": "Boats navigating alone or tugboats",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Boats navigating alone or tugboats",
+          "text": "Anchoring permitted",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9880,6 +9880,12 @@
       "stem": "What does this board mean?",
       "choices": [
         {
+          "text": "Berthing permitted",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Windsurfing permitted",
           "image": null,
           "is_correct": true,
@@ -9887,12 +9893,6 @@
         },
         {
           "text": "Anchoring permitted",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Berthing permitted",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9919,7 +9919,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -10076,12 +10076,6 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "No overtaking",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "No anchoring",
           "image": null,
           "is_correct": false,
@@ -10091,6 +10085,12 @@
           "text": "No passage",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "No overtaking",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -10115,7 +10115,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -10125,13 +10125,13 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "No mooring",
+          "text": "No kitesurfing",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "No kitesurfing",
+          "text": "No mooring",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10174,7 +10174,7 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "No passage outside the area indicated",
+          "text": "No swimming",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10186,7 +10186,7 @@
           "rationale": ""
         },
         {
-          "text": "No swimming",
+          "text": "No passage outside the area indicated",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10223,12 +10223,6 @@
       "stem": "What does this board mean?",
       "choices": [
         {
-          "text": "No passage",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "No mooring",
           "image": null,
           "is_correct": true,
@@ -10236,6 +10230,12 @@
         },
         {
           "text": "No kitesurfing",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "No passage",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10262,7 +10262,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -10271,12 +10271,6 @@
       "kind": "figure_recognition",
       "stem": "What does this board mean?",
       "choices": [
-        {
-          "text": "No kitesurfing",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
         {
           "text": "No anchoring",
           "image": null,
@@ -10287,6 +10281,12 @@
           "text": "No passage outside the area indicated",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "No kitesurfing",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -10311,7 +10311,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -10321,9 +10321,9 @@
       "stem": "What is observed on a running point of sail (dead downwind)?",
       "choices": [
         {
-          "text": "Rolling increases and an (accidental) gybe threatens",
+          "text": "The sailboat can no longer make headway because it is head to wind",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -10333,9 +10333,9 @@
           "rationale": ""
         },
         {
-          "text": "The sailboat can no longer make headway because it is head to wind",
+          "text": "Rolling increases and an (accidental) gybe threatens",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -10360,7 +10360,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -10425,13 +10425,13 @@
           "rationale": ""
         },
         {
-          "text": "When it sails downwind with the sails wing-on-wing (in scissors)",
+          "text": "When it has right of way over every other boat on the water",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "When it has right of way over every other boat on the water",
+          "text": "When it sails downwind with the sails wing-on-wing (in scissors)",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10468,9 +10468,9 @@
       "stem": "On a light sport dinghy, what is a capsize commonly called and what is its nature?",
       "choices": [
         {
-          "text": "A «capsize»: it is common and harmless",
+          "text": "A «rounding up»: it occurs only when close-hauled",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -10480,9 +10480,9 @@
           "rationale": ""
         },
         {
-          "text": "A «rounding up»: it occurs only when close-hauled",
+          "text": "A «capsize»: it is common and harmless",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -10507,7 +10507,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -10523,13 +10523,13 @@
           "rationale": ""
         },
         {
-          "text": "The change of tack is made by passing head to wind",
+          "text": "It does not change the set of the sails",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "It does not change the set of the sails",
+          "text": "The change of tack is made by passing head to wind",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10572,13 +10572,13 @@
           "rationale": ""
         },
         {
-          "text": "The mainsail, rigged abaft the mast",
+          "text": "A standing-rigging wire that holds the mast up",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "A standing-rigging wire that holds the mast up",
+          "text": "The mainsail, rigged abaft the mast",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10615,15 +10615,15 @@
       "stem": "What happens during a tack (virement de bord)?",
       "choices": [
         {
-          "text": "The side of the boat that was leeward becomes windward, and vice versa",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The sailboat keeps the same tack throughout the manoeuvre",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The side of the boat that was leeward becomes windward, and vice versa",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -10654,7 +10654,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     }
   ]

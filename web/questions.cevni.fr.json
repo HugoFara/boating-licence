@@ -4,7 +4,7 @@
     "pool": "cevni",
     "scope": "cevni",
     "unofficial": false,
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "grounding": "National inland-navigation enactments implementing CEVNI (the UNECE CEVNI text is not redistributable)."
   },
   "questions": [
@@ -15,15 +15,15 @@
       "stem": "Quelle poussée hydrostatique minimale un moyen de sauvetage individuel doit-il avoir (cas général) ?",
       "choices": [
         {
-          "text": "Au moins 75 N",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Au moins 750 N",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Au moins 75 N",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -54,7 +54,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -70,13 +70,13 @@
           "rationale": ""
         },
         {
-          "text": "Au moins 100 N.",
+          "text": "Au moins 50 N.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Au moins 50 N.",
+          "text": "Au moins 100 N.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -113,12 +113,6 @@
       "stem": "Lesquels de ces engins sont des moyens de sauvetage INDIVIDUELS au sens de l’ONI ?",
       "choices": [
         {
-          "text": "Les gilets de sauvetage avec cols",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Les bouées de sauvetage",
           "image": null,
           "is_correct": true,
@@ -128,6 +122,12 @@
           "text": "Les îlots de sauvetage pour l’embarquement",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Les gilets de sauvetage avec cols",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -153,7 +153,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -163,9 +163,9 @@
       "stem": "Selon l'ONI art. 134, à partir de quels seuils un bateau de plaisance ou de sport doit-il être pourvu d'un engin de sauvetage supplémentaire pouvant être jeté à l'eau ?",
       "choices": [
         {
-          "text": "Une puissance supérieure à 30 kW, ou une surface vélique dépassant 15 m2 pour les bateaux à voile.",
+          "text": "Une puissance supérieure à 50 kW, ou une surface vélique dépassant 10 m2.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -175,9 +175,9 @@
           "rationale": ""
         },
         {
-          "text": "Une puissance supérieure à 50 kW, ou une surface vélique dépassant 10 m2.",
+          "text": "Une puissance supérieure à 30 kW, ou une surface vélique dépassant 15 m2 pour les bateaux à voile.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -202,7 +202,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -212,15 +212,15 @@
       "stem": "Que prévoit l'ONI art. 143a concernant la hauteur métacentrique du bateau chargé prêt au départ ?",
       "choices": [
         {
-          "text": "Elle ne doit pas être inférieure à 1 m.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Elle ne doit pas être inférieure à 0,5 m.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Elle ne doit pas être inférieure à 1 m.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -251,7 +251,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -261,6 +261,12 @@
       "stem": "Pour qu'un bateau à marchandises chargé et prêt au départ soit considéré comme ayant une stabilité suffisante, quelles conditions le texte exige-t-il ?",
       "choices": [
         {
+          "text": "L'angle de gîte ne dépasse pas 10 degrés, quelle que soit la position du pont.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "L'angle de gîte ne dépasse pas 5 degrés et le côté du pont, à l'endroit le plus bas, ne plonge pas dans l'eau.",
           "image": null,
           "is_correct": true,
@@ -268,12 +274,6 @@
         },
         {
           "text": "L'angle de gîte ne dépasse pas 15 degrés et le pont peut plonger jusqu'à 5 cm.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "L'angle de gîte ne dépasse pas 10 degrés, quelle que soit la position du pont.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -300,7 +300,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -310,9 +310,9 @@
       "stem": "D'après l'ONI art. 144, quel est le franc-bord prescrit pour les engins flottants ?",
       "choices": [
         {
-          "text": "90 cm en zone 2 et 45 cm en zone 3.",
+          "text": "100 cm en zone 2 et 50 cm en zone 3.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -322,9 +322,9 @@
           "rationale": ""
         },
         {
-          "text": "100 cm en zone 2 et 50 cm en zone 3.",
+          "text": "90 cm en zone 2 et 45 cm en zone 3.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -349,7 +349,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -358,12 +358,6 @@
       "kind": "rule_mc",
       "stem": "Selon l'ONI art. 144, quel est le franc-bord d'un bateau à marchandises non ponté en zone 2 ?",
       "choices": [
-        {
-          "text": "100 cm.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "50 cm.",
           "image": null,
@@ -374,6 +368,12 @@
           "text": "30 cm.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "100 cm.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -398,7 +398,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -408,9 +408,9 @@
       "stem": "Selon l'ONI art. 146, de combien de cloisons un bateau à marchandises doit-il au moins être doté ?",
       "choices": [
         {
-          "text": "Au moins une cloison d'abordage et deux cloisons pour la salle des machines.",
+          "text": "Au moins une cloison pour la salle des machines uniquement.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -420,9 +420,9 @@
           "rationale": ""
         },
         {
-          "text": "Au moins une cloison pour la salle des machines uniquement.",
+          "text": "Au moins une cloison d'abordage et deux cloisons pour la salle des machines.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -447,7 +447,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -463,13 +463,13 @@
           "rationale": ""
         },
         {
-          "text": "Elle doit être étanche et construite d'un côté à l'autre de la coque.",
+          "text": "Elle doit être construite du fond de cale jusqu'au pont.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Elle doit être construite du fond de cale jusqu'au pont.",
+          "text": "Elle doit être étanche et construite d'un côté à l'autre de la coque.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -506,15 +506,15 @@
       "stem": "Concernant le marquage «CE» sur les bateaux de sport mis sur le marché, que dit l'ONI art. 148g ?",
       "choices": [
         {
-          "text": "L'obligation d'apposer le marquage «CE» n'est pas applicable, mais s'il a déjà été apposé conformément aux dispositions de l'UE, il peut rester apposé.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Le marquage «CE» est obligatoire pour tous les bateaux de sport mis sur le marché.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "L'obligation d'apposer le marquage «CE» n'est pas applicable, mais s'il a déjà été apposé conformément aux dispositions de l'UE, il peut rester apposé.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -545,7 +545,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -555,9 +555,9 @@
       "stem": "Dans quelle langue la documentation relative à un bateau de sport doit-elle être présentée à l'autorité compétente selon l'ONI art. 148g ?",
       "choices": [
         {
-          "text": "Dans une langue officielle de la Suisse ou en anglais.",
+          "text": "Uniquement dans la langue du fabricant.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -567,9 +567,9 @@
           "rationale": ""
         },
         {
-          "text": "Uniquement dans la langue du fabricant.",
+          "text": "Dans une langue officielle de la Suisse ou en anglais.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -594,7 +594,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -610,13 +610,13 @@
           "rationale": ""
         },
         {
-          "text": "Le temps de voyage entre les lieux de départ et d'arrivée ne dépasse pas 90 minutes.",
+          "text": "Le bateau doit transporter exclusivement des marchandises dangereuses.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Le bateau doit transporter exclusivement des marchandises dangereuses.",
+          "text": "Le temps de voyage entre les lieux de départ et d'arrivée ne dépasse pas 90 minutes.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -653,15 +653,15 @@
       "stem": "Selon l'ONI art. 150, quel est en règle générale l'effectif de l'équipage d'un bateau à marchandises motorisé d'une capacité de charge supérieure à 1000 t ?",
       "choices": [
         {
-          "text": "2 matelots.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "1 matelot.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "2 matelots.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -692,7 +692,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -701,12 +701,6 @@
       "kind": "rule_mc",
       "stem": "Selon l'ONI art. 163, dans quel cas un numéro de construction n'est-il pas nécessaire ?",
       "choices": [
-        {
-          "text": "Pour les bateaux qui ne sont pas construits par des professionnels.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Pour tous les bateaux de plaisance, sans exception.",
           "image": null,
@@ -717,6 +711,12 @@
           "text": "Pour les bateaux à passagers prioritaires.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Pour les bateaux qui ne sont pas construits par des professionnels.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -741,7 +741,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -757,13 +757,13 @@
           "rationale": ""
         },
         {
-          "text": "L'accord du Conseil fédéral.",
+          "text": "Aucune autorisation supplémentaire.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Aucune autorisation supplémentaire.",
+          "text": "L'accord du Conseil fédéral.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -800,6 +800,12 @@
       "stem": "Que signifie cette signalisation lumineuse ?",
       "choices": [
         {
+          "text": "Feu bleu scintillant",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Feu bleu scintillant » (ONI Annexe 2 – fig. 31)."
+        },
+        {
           "text": "Feu fixe visible de tous les côtés",
           "image": null,
           "is_correct": true,
@@ -810,12 +816,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Feu scintillant » (ONI Annexe 2 – fig. 2)."
-        },
-        {
-          "text": "Feu bleu scintillant",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Feu bleu scintillant » (ONI Annexe 2 – fig. 31)."
         }
       ],
       "provenance": {
@@ -839,7 +839,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -849,6 +849,12 @@
       "stem": "De nuit, quels feux un bateau à voile naviguant au moteur (voiles hissées ou non) doit-il porter ?",
       "choices": [
         {
+          "text": "Un feu de mât blanc et un feu tricolore combinant les feux de côté et le feu de poupe à la pointe du mât",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Un feu de mât blanc, des feux de côté vert et rouge, et un feu de poupe blanc",
           "image": null,
           "is_correct": true,
@@ -856,12 +862,6 @@
         },
         {
           "text": "Uniquement un feu ordinaire blanc visible de tous les côtés",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Un feu de mât blanc et un feu tricolore combinant les feux de côté et le feu de poupe à la pointe du mât",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -888,7 +888,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -904,13 +904,13 @@
           "rationale": ""
         },
         {
-          "text": "Un feu de mât blanc, et le feu tricolore placé sur la poupe au ras de l'eau",
+          "text": "Aucun feu de mât, et un feu de poupe blanc séparé du feu tricolore",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Aucun feu de mât, et un feu de poupe blanc séparé du feu tricolore",
+          "text": "Un feu de mât blanc, et le feu tricolore placé sur la poupe au ras de l'eau",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -947,6 +947,12 @@
       "stem": "De nuit, quel feu un bateau non motorisé naviguant isolément ou en convoi remorqué doit-il porter ?",
       "choices": [
         {
+          "text": "Un feu ordinaire jaune visible de tous les côtés",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Un feu ordinaire blanc visible de tous les côtés",
           "image": null,
           "is_correct": true,
@@ -954,12 +960,6 @@
         },
         {
           "text": "Un feu de mât blanc avec feux de côté vert et rouge",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Un feu ordinaire jaune visible de tous les côtés",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -986,7 +986,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1002,13 +1002,13 @@
           "rationale": ""
         },
         {
-          "text": "Des feux de côté vert et rouge et un feu de poupe blanc",
+          "text": "Un feu de mât blanc et un feu tricolore en haut du mât",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Un feu de mât blanc et un feu tricolore en haut du mât",
+          "text": "Des feux de côté vert et rouge et un feu de poupe blanc",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1051,16 +1051,16 @@
           "rationale": "C'est un autre signal : « Feu scintillant » (ONI Annexe 2 – fig. 2)."
         },
         {
-          "text": "Feu fixe visible de tous les côtés",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Feu fixe visible de tous les côtés » (ONI Annexe 2 – fig. 1)."
-        },
-        {
           "text": "Feu tricolore placé à la pointe du mât ou à proximité de celle-ci",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Feu fixe visible de tous les côtés",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Feu fixe visible de tous les côtés » (ONI Annexe 2 – fig. 1)."
         }
       ],
       "provenance": {
@@ -1084,7 +1084,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -1094,6 +1094,12 @@
       "stem": "De nuit, un bateau porte deux feux superposés visibles de tous les côtés, un feu de poupe et un feu bicolore (ou des feux de côté séparés). Quelles sont les couleurs des deux feux superposés ?",
       "choices": [
         {
+          "text": "Les deux feux blancs",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Le feu supérieur rouge, le feu inférieur vert",
           "image": null,
           "is_correct": true,
@@ -1101,12 +1107,6 @@
         },
         {
           "text": "Le feu supérieur vert, le feu inférieur rouge",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Les deux feux blancs",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1133,7 +1133,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1143,9 +1143,9 @@
       "stem": "De nuit, quel feu un bateau en stationnement doit-il porter ?",
       "choices": [
         {
-          "text": "Un feu ordinaire blanc visible de tous les côtés",
+          "text": "Des feux de côté vert et rouge",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1155,9 +1155,9 @@
           "rationale": ""
         },
         {
-          "text": "Des feux de côté vert et rouge",
+          "text": "Un feu ordinaire blanc visible de tous les côtés",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1182,7 +1182,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1198,16 +1198,16 @@
           "rationale": "C'est un autre signal : « Feu bleu scintillant » (ONI Annexe 2 – fig. 31)."
         },
         {
-          "text": "Feu fixe visible de tous les côtés",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Feu fixe visible de tous les côtés » (ONI Annexe 2 – fig. 1)."
-        },
-        {
           "text": "Feu scintillant",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Feu fixe visible de tous les côtés",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Feu fixe visible de tous les côtés » (ONI Annexe 2 – fig. 1)."
         }
       ],
       "provenance": {
@@ -1231,7 +1231,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -1345,16 +1345,16 @@
           "rationale": "C'est un autre signal : « Interdiction de s’amarrer » (ONI Annexe 4 – fig. 11)."
         },
         {
-          "text": "Ballon vert",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "La hauteur de la passe est limitée",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « La hauteur de la passe est limitée » (ONI Annexe 4 – fig. 23)."
+        },
+        {
+          "text": "Ballon vert",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1378,7 +1378,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -1394,13 +1394,13 @@
           "rationale": ""
         },
         {
-          "text": "Un feu ordinaire blanc au-dessus d'un feu ordinaire rouge, tous deux visibles de tous les côtés",
+          "text": "Deux feux ordinaires rouges superposés visibles de tous les côtés",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Deux feux ordinaires rouges superposés visibles de tous les côtés",
+          "text": "Un feu ordinaire blanc au-dessus d'un feu ordinaire rouge, tous deux visibles de tous les côtés",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1437,6 +1437,12 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
+          "text": "Deux pavillons blancs superposés",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Deux pavillons blancs superposés » (ONI Annexe 2 – fig. 27)."
+        },
+        {
           "text": "Pavillon dont la moitié supérieure est rouge, la moitié inférieure blanche",
           "image": null,
           "is_correct": true,
@@ -1447,12 +1453,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Balancer un pavillon rouge » (ONI Annexe 2 – fig. 39)."
-        },
-        {
-          "text": "Deux pavillons blancs superposés",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Deux pavillons blancs superposés » (ONI Annexe 2 – fig. 27)."
         }
       ],
       "provenance": {
@@ -1476,7 +1476,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1485,12 +1485,6 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce signal ?",
       "choices": [
-        {
-          "text": "Deux pavillons dont le supérieur est rouge, l’inférieur blanc",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Deux pavillons blancs superposés",
           "image": null,
@@ -1502,6 +1496,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Balancer un pavillon rouge » (ONI Annexe 2 – fig. 39)."
+        },
+        {
+          "text": "Deux pavillons dont le supérieur est rouge, l’inférieur blanc",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1525,7 +1525,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1584,16 +1584,16 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
-          "text": "Ballon jaune",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Ballon jaune » (ONI Annexe 2 – fig. 34)."
-        },
-        {
           "text": "Bateaux de la police et d’autres services",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Bateaux de la police et d’autres services » (ONI Annexe 2 – fig. 30)."
+        },
+        {
+          "text": "Ballon jaune",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Ballon jaune » (ONI Annexe 2 – fig. 34)."
         },
         {
           "text": "Bouées jaunes signalant chaque ancrage",
@@ -1633,10 +1633,10 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
-          "text": "Interdiction de virer",
+          "text": "Ballon",
           "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12)."
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation de passer",
@@ -1645,10 +1645,10 @@
           "rationale": "C'est un autre signal : « Autorisation de passer » (ONI Annexe 4 – fig. 32)."
         },
         {
-          "text": "Ballon",
+          "text": "Interdiction de virer",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12)."
         }
       ],
       "provenance": {
@@ -1672,7 +1672,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -1731,6 +1731,12 @@
       "stem": "Que signifie cette signalisation lumineuse ?",
       "choices": [
         {
+          "text": "Feu fixe visible de tous les côtés",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Feu fixe visible de tous les côtés » (ONI Annexe 2 – fig. 1)."
+        },
+        {
           "text": "Feu scintillant",
           "image": null,
           "is_correct": false,
@@ -1741,12 +1747,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Feu fixe visible de tous les côtés",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Feu fixe visible de tous les côtés » (ONI Annexe 2 – fig. 1)."
         }
       ],
       "provenance": {
@@ -1770,7 +1770,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -1779,12 +1779,6 @@
       "kind": "rule_mc",
       "stem": "Quel signal un bateau de la police, des gardes-frontière ou de la surveillance de la pêche hisse-t-il lorsqu'il veut prendre contact avec un autre bateau ?",
       "choices": [
-        {
-          "text": "Le pavillon lettre «K», dont la moitié côté hampe est jaune et l'autre moitié bleue",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Le pavillon lettre «K», dont la moitié supérieure est rouge et l'autre moitié blanche",
           "image": null,
@@ -1795,6 +1789,12 @@
           "text": "Un pavillon entièrement rouge",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Le pavillon lettre «K», dont la moitié côté hampe est jaune et l'autre moitié bleue",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1819,7 +1819,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1835,13 +1835,13 @@
           "rationale": ""
         },
         {
-          "text": "Un feu ordinaire blanc visible de tous les côtés",
+          "text": "Un feu ordinaire rouge visible de tous les côtés",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Un feu ordinaire rouge visible de tous les côtés",
+          "text": "Un feu ordinaire blanc visible de tous les côtés",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1878,12 +1878,6 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
-          "text": "B. dans le seul sens indiqué",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « B. dans le seul sens indiqué » (ONI Annexe 4 – fig. 28)."
-        },
-        {
           "text": "Ballon jaune",
           "image": null,
           "is_correct": true,
@@ -1894,6 +1888,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Obligation de s’arrêter dans certaines conditions » (ONI Annexe 4 – fig. 19)."
+        },
+        {
+          "text": "B. dans le seul sens indiqué",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « B. dans le seul sens indiqué » (ONI Annexe 4 – fig. 28)."
         }
       ],
       "provenance": {
@@ -1917,7 +1917,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -1927,15 +1927,15 @@
       "stem": "Quel signal de jour un bateau qui pêche à la traîne doit-il montrer ?",
       "choices": [
         {
-          "text": "Un ballon blanc",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Un ballon vert visible de tous les côtés",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un ballon blanc",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1966,7 +1966,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1982,13 +1982,13 @@
           "rationale": ""
         },
         {
-          "text": "Le pavillon lettre «K» (moitié côté hampe jaune, l'autre moitié bleue)",
+          "text": "Un ballon blanc visible de tous les côtés",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Un ballon blanc visible de tous les côtés",
+          "text": "Le pavillon lettre «K» (moitié côté hampe jaune, l'autre moitié bleue)",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2025,9 +2025,9 @@
       "stem": "En cas de plongée subaquatique effectuée à partir d'un plan d'eau, comment le panneau lettre «A» doit-il être présenté ?",
       "choices": [
         {
-          "text": "Le panneau lettre «A» (guidon blanc/bleu) visible de tous les côtés",
+          "text": "Un pavillon rouge visible de tous les côtés",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2037,9 +2037,9 @@
           "rationale": ""
         },
         {
-          "text": "Un pavillon rouge visible de tous les côtés",
+          "text": "Le panneau lettre «A» (guidon blanc/bleu) visible de tous les côtés",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2064,7 +2064,7 @@
       "reveal_image": "../assets/oni/image45.png",
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2074,16 +2074,16 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
-          "text": "Balancer un pavillon rouge",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "La largeur de la passe est limitée",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « La largeur de la passe est limitée » (ONI Annexe 4 – fig. 24)."
+        },
+        {
+          "text": "Balancer un pavillon rouge",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "B. dans le seul sens indiqué",
@@ -2113,7 +2113,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2123,9 +2123,9 @@
       "stem": "De nuit, quels feux un bateau motorisé naviguant isolément (ou un remorqueur) doit-il porter ?",
       "choices": [
         {
-          "text": "Un feu de mât (ou de proue) clair blanc, des feux de côté clair vert et clair rouge, et un feu de poupe ordinaire blanc",
+          "text": "Un feu clair blanc et un feu clair vert visible de tous les côtés placé plus haut que le feu de mât",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2135,9 +2135,9 @@
           "rationale": ""
         },
         {
-          "text": "Un feu clair blanc et un feu clair vert visible de tous les côtés placé plus haut que le feu de mât",
+          "text": "Un feu de mât (ou de proue) clair blanc, des feux de côté clair vert et clair rouge, et un feu de poupe ordinaire blanc",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2162,7 +2162,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2221,10 +2221,10 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
-          "text": "Balancer un pavillon rouge",
+          "text": "Deux pavillons blancs superposés",
           "image": null,
           "is_correct": false,
-          "rationale": "C'est un autre signal : « Balancer un pavillon rouge » (ONI Annexe 2 – fig. 39)."
+          "rationale": "C'est un autre signal : « Deux pavillons blancs superposés » (ONI Annexe 2 – fig. 27)."
         },
         {
           "text": "Balancer circulairement un pavillon rouge ou tout autre objet approprié",
@@ -2233,10 +2233,10 @@
           "rationale": ""
         },
         {
-          "text": "Deux pavillons blancs superposés",
+          "text": "Balancer un pavillon rouge",
           "image": null,
           "is_correct": false,
-          "rationale": "C'est un autre signal : « Deux pavillons blancs superposés » (ONI Annexe 2 – fig. 27)."
+          "rationale": "C'est un autre signal : « Balancer un pavillon rouge » (ONI Annexe 2 – fig. 39)."
         }
       ],
       "provenance": {
@@ -2276,16 +2276,16 @@
           "rationale": ""
         },
         {
-          "text": "Autorisation de stationner",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Autorisation de stationner » (ONI Annexe 4 – fig. 33)."
-        },
-        {
           "text": "B. dans le seul sens indiqué",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « B. dans le seul sens indiqué » (ONI Annexe 4 – fig. 28)."
+        },
+        {
+          "text": "Autorisation de stationner",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Autorisation de stationner » (ONI Annexe 4 – fig. 33)."
         }
       ],
       "provenance": {
@@ -2374,13 +2374,13 @@
           "rationale": ""
         },
         {
-          "text": "Un pavillon dont la moitié supérieure est rouge et la moitié inférieure blanche",
+          "text": "Un pavillon entièrement blanc",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Un pavillon entièrement blanc",
+          "text": "Un pavillon dont la moitié supérieure est rouge et la moitié inférieure blanche",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2423,13 +2423,13 @@
           "rationale": ""
         },
         {
-          "text": "Deux pavillons superposés, le supérieur blanc et l'inférieur rouge",
+          "text": "Un pavillon rouge unique",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Un pavillon rouge unique",
+          "text": "Deux pavillons superposés, le supérieur blanc et l'inférieur rouge",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2466,9 +2466,9 @@
       "stem": "De nuit, où est placé le feu de mât (feu clair blanc) d'un convoi poussé ?",
       "choices": [
         {
-          "text": "Sur le bateau de tête",
+          "text": "Au centre du convoi, sur le bateau le plus visible",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2478,9 +2478,9 @@
           "rationale": ""
         },
         {
-          "text": "Au centre du convoi, sur le bateau le plus visible",
+          "text": "Sur le bateau de tête",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2505,7 +2505,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2521,13 +2521,13 @@
           "rationale": ""
         },
         {
-          "text": "Un feu de mât blanc, des feux de côté vert/rouge et un feu de poupe blanc séparé",
+          "text": "Uniquement un feu ordinaire blanc visible de tous les côtés",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Uniquement un feu ordinaire blanc visible de tous les côtés",
+          "text": "Un feu de mât blanc, des feux de côté vert/rouge et un feu de poupe blanc séparé",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2564,15 +2564,15 @@
       "stem": "Selon cette variante, comment les feux de côté d'un bateau de sport/plaisance motorisé (ou voilier au moteur) portant un feu blanc visible de tous les côtés peuvent-ils être disposés dans la zone avant ?",
       "choices": [
         {
-          "text": "Côte à côte dans la zone avant, ou comme feu bicolore",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Combinés avec le feu de poupe en un feu tricolore au sommet du mât",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Côte à côte dans la zone avant, ou comme feu bicolore",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2603,7 +2603,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2662,12 +2662,6 @@
       "stem": "Que signifie le signal général d'interdiction (panneau circulaire à bordure rouge avec barre rouge) placé sur un plan d'eau ?",
       "choices": [
         {
-          "text": "Interdiction de passer",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Le chenal est limité à une certaine distance de la rive",
           "image": null,
           "is_correct": false,
@@ -2677,6 +2671,12 @@
           "text": "Passe recommandée pour franchir un pont",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Interdiction de passer",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2701,7 +2701,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2711,16 +2711,16 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Interdiction d’ancrer",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Fin d’une interdiction ou d’une obligation » (ONI Annexe 4 – fig. 44)."
+        },
+        {
+          "text": "Interdiction d’ancrer",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction du ski nautique",
@@ -2750,7 +2750,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2759,12 +2759,6 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce panneau ?",
       "choices": [
-        {
-          "text": "Interdiction de passer pour bateaux motorisés",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
         {
           "text": "Interdiction de tout dépassement",
           "image": null,
@@ -2776,6 +2770,12 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Interdiction de passer pour bateaux motorisés",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -2799,7 +2799,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -2809,10 +2809,10 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Interdiction de passer pour bateaux motorisés",
+          "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
           "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+          "rationale": "C'est un autre signal : « Fin d’une interdiction ou d’une obligation » (ONI Annexe 4 – fig. 44)."
         },
         {
           "text": "Interdiction de virer",
@@ -2821,10 +2821,10 @@
           "rationale": ""
         },
         {
-          "text": "Fin d’une interdiction ou d’une obligation",
+          "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
           "is_correct": false,
-          "rationale": "C'est un autre signal : « Fin d’une interdiction ou d’une obligation » (ONI Annexe 4 – fig. 44)."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -2907,16 +2907,16 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Interdiction de virer",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
-        {
           "text": "Interdiction de stationner",
           "image": null,
           "is_correct": false,
           "rationale": "Bonne famille, mauvais signal : « Interdiction de stationner » (ONI Annexe 4 – fig. 9). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
+          "text": "Interdiction de virer",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de naviguer en dehors des limites indiquées",
@@ -2956,16 +2956,16 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Interdiction de stationner",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de stationner » (ONI Annexe 4 – fig. 9). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
-        {
           "text": "Interdiction de naviguer à la planche à voile",
           "image": null,
           "is_correct": false,
           "rationale": "Bonne famille, mauvais signal : « Interdiction de naviguer à la planche à voile » (ONI Annexe 4 – fig. 6). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
+          "text": "Interdiction de stationner",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de stationner » (ONI Annexe 4 – fig. 9). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de naviguer en dehors des limites indiquées",
@@ -3005,10 +3005,10 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
-          "text": "Passage interdit, mais préparez-vous à vous mettre en marche",
+          "text": "Hurlement d’une sirène",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Hurlement d’une sirène » (ONI Annexe 4 – fig. 64)."
         },
         {
           "text": "Lieu de mise à terre de bateaux",
@@ -3017,10 +3017,10 @@
           "rationale": "C'est un autre signal : « Lieu de mise à terre de bateaux » (ONI Annexe 4 – fig. 43)."
         },
         {
-          "text": "Hurlement d’une sirène",
+          "text": "Passage interdit, mais préparez-vous à vous mettre en marche",
           "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Hurlement d’une sirène » (ONI Annexe 4 – fig. 64)."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3044,7 +3044,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3054,10 +3054,10 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
-          "text": "Bac ne naviguant pas librement",
+          "text": "Direction recommandée",
           "image": null,
           "is_correct": false,
-          "rationale": "C'est un autre signal : « Bac ne naviguant pas librement » (ONI Annexe 4 – fig. 40)."
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Direction recommandée » (ONI Annexe 4 – fig. 39). La bordure et la couleur donnent la famille avant même le pictogramme."
         },
         {
           "text": "Baignade interdite",
@@ -3066,10 +3066,10 @@
           "rationale": ""
         },
         {
-          "text": "Direction recommandée",
+          "text": "Bac ne naviguant pas librement",
           "image": null,
           "is_correct": false,
-          "rationale": "Vous avez choisi un signal d'une autre famille : « Direction recommandée » (ONI Annexe 4 – fig. 39). La bordure et la couleur donnent la famille avant même le pictogramme."
+          "rationale": "C'est un autre signal : « Bac ne naviguant pas librement » (ONI Annexe 4 – fig. 40)."
         }
       ],
       "provenance": {
@@ -3103,6 +3103,12 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
+          "text": "Obligation de siffler",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Obligation de siffler » (ONI Annexe 4 – fig. 21). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
           "is_correct": false,
@@ -3113,12 +3119,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Obligation de siffler",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Obligation de siffler » (ONI Annexe 4 – fig. 21). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -3142,7 +3142,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -3152,16 +3152,16 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Obligation d’observer une vigilance particulière",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Obligation d’observer une vigilance particulière » (ONI Annexe 4 – fig. 22). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
-        {
           "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Obligation d’observer une vigilance particulière",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Obligation d’observer une vigilance particulière » (ONI Annexe 4 – fig. 22). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Obligation de siffler",
@@ -3191,7 +3191,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -3207,16 +3207,16 @@
           "rationale": "C'est un autre signal : « Direction recommandée » (ONI Annexe 4 – fig. 39)."
         },
         {
-          "text": "Deux feux superposés",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Interdiction de stationner",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Interdiction de stationner » (ONI Annexe 4 – fig. 9)."
+        },
+        {
+          "text": "Deux feux superposés",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3240,7 +3240,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -3249,12 +3249,6 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce panneau ?",
       "choices": [
-        {
-          "text": "Obligation de ne pas dépasser la vitesse indiquée en km/h",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
@@ -3266,6 +3260,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "Bonne famille, mauvais signal : « Obligation de s’arrêter dans certaines conditions » (ONI Annexe 4 – fig. 19). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
+          "text": "Obligation de ne pas dépasser la vitesse indiquée en km/h",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3289,7 +3289,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3348,10 +3348,10 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Obligation de s’arrêter dans certaines conditions",
+          "text": "Obligation de siffler",
           "image": null,
           "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Obligation de s’arrêter dans certaines conditions » (ONI Annexe 4 – fig. 19). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+          "rationale": "Bonne famille, mauvais signal : « Obligation de siffler » (ONI Annexe 4 – fig. 21). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Obligation d’observer une vigilance particulière",
@@ -3360,10 +3360,10 @@
           "rationale": ""
         },
         {
-          "text": "Obligation de siffler",
+          "text": "Obligation de s’arrêter dans certaines conditions",
           "image": null,
           "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Obligation de siffler » (ONI Annexe 4 – fig. 21). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+          "rationale": "Bonne famille, mauvais signal : « Obligation de s’arrêter dans certaines conditions » (ONI Annexe 4 – fig. 19). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -3397,6 +3397,12 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
+          "text": "La hauteur de la passe est limitée",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
           "text": "Kitesurfs autorisés",
           "image": null,
           "is_correct": false,
@@ -3407,12 +3413,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "Vous avez choisi un signal d'une autre famille : « Direction recommandée » (ONI Annexe 4 – fig. 39). La bordure et la couleur donnent la famille avant même le pictogramme."
-        },
-        {
-          "text": "La hauteur de la passe est limitée",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
         }
       ],
       "provenance": {
@@ -3436,7 +3436,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -3446,16 +3446,16 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
-          "text": "La largeur de la passe est limitée",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Avis de tempête",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Avis de tempête » (ONI Annexe 4 – fig. 62)."
+        },
+        {
+          "text": "La largeur de la passe est limitée",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Direction recommandée",
@@ -3485,7 +3485,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3495,15 +3495,15 @@
       "stem": "Sur le signal « Le chenal est limité », que représente le chiffre porté sur le panneau ?",
       "choices": [
         {
-          "text": "La distance, en mètres, à laquelle les bateaux doivent se tenir par rapport à la rive",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "La vitesse maximale autorisée en km/h",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "La distance, en mètres, à laquelle les bateaux doivent se tenir par rapport à la rive",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -3534,7 +3534,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3593,9 +3593,9 @@
       "stem": "Que signale le panneau « Passe recommandée des ponts » de type a ?",
       "choices": [
         {
-          "text": "Une passe recommandée pour franchir le pont dans les deux sens",
+          "text": "Une interdiction de franchir le pont",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -3605,9 +3605,9 @@
           "rationale": ""
         },
         {
-          "text": "Une interdiction de franchir le pont",
+          "text": "Une passe recommandée pour franchir le pont dans les deux sens",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3632,7 +3632,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3740,6 +3740,12 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
+          "text": "Interdiction de virer",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
           "is_correct": false,
@@ -3750,12 +3756,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Interdiction de virer",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -3779,7 +3779,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -3795,16 +3795,16 @@
           "rationale": "Vous avez choisi un signal d'une autre famille : « Obligation de s’arrêter dans certaines conditions » (ONI Annexe 4 – fig. 19). La bordure et la couleur donnent la famille avant même le pictogramme."
         },
         {
-          "text": "Recommandation de se tenir dans l’espace indiqué en «vert»",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Autorisation de passer",
           "image": null,
           "is_correct": false,
           "rationale": "Vous avez choisi un signal d'une autre famille : « Autorisation de passer » (ONI Annexe 4 – fig. 32). La bordure et la couleur donnent la famille avant même le pictogramme."
+        },
+        {
+          "text": "Recommandation de se tenir dans l’espace indiqué en «vert»",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3828,7 +3828,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -3837,6 +3837,12 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce panneau ?",
       "choices": [
+        {
+          "text": "Fin d’une interdiction ou d’une obligation",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Fin d’une interdiction ou d’une obligation » (ONI Annexe 4 – fig. 44)."
+        },
         {
           "text": "Interdiction de toute rencontre et dépassement",
           "image": null,
@@ -3848,12 +3854,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Fin d’une interdiction ou d’une obligation",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Fin d’une interdiction ou d’une obligation » (ONI Annexe 4 – fig. 44)."
         }
       ],
       "provenance": {
@@ -3877,7 +3877,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -3887,16 +3887,16 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Autorisation d’amarrer",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Autorisation d’amarrer » (ONI Annexe 4 – fig. 35). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
-        {
           "text": "Autorisation de passer",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Autorisation d’amarrer",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Autorisation d’amarrer » (ONI Annexe 4 – fig. 35). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation d’ancrer",
@@ -3926,7 +3926,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -3985,12 +3985,6 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Autorisation d’ancrer",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Autorisation du ski nautique",
           "image": null,
           "is_correct": false,
@@ -4001,6 +3995,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "Bonne famille, mauvais signal : « Autorisation de stationner » (ONI Annexe 4 – fig. 33). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
+          "text": "Autorisation d’ancrer",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4024,7 +4024,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4040,16 +4040,16 @@
           "rationale": "Bonne famille, mauvais signal : « Autorisation d’ancrer » (ONI Annexe 4 – fig. 34). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
-          "text": "Autorisation de passer",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Autorisation de passer » (ONI Annexe 4 – fig. 32). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
-        {
           "text": "Autorisation d’amarrer",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Autorisation de passer",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de passer » (ONI Annexe 4 – fig. 32). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -4073,7 +4073,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -4083,10 +4083,10 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Autorisation du ski nautique",
+          "text": "Autorisation de naviguer à la planche à voile",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de naviguer à la planche à voile » (ONI Annexe 4 – fig. 37). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation d’amarrer",
@@ -4095,10 +4095,10 @@
           "rationale": "Bonne famille, mauvais signal : « Autorisation d’amarrer » (ONI Annexe 4 – fig. 35). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
-          "text": "Autorisation de naviguer à la planche à voile",
+          "text": "Autorisation du ski nautique",
           "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Autorisation de naviguer à la planche à voile » (ONI Annexe 4 – fig. 37). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4122,7 +4122,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4132,16 +4132,16 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Autorisation d’amarrer",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Autorisation d’amarrer » (ONI Annexe 4 – fig. 35). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
-        {
           "text": "Autorisation de naviguer à la planche à voile",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Autorisation d’amarrer",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Autorisation d’amarrer » (ONI Annexe 4 – fig. 35). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Autorisation de stationner",
@@ -4171,7 +4171,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -4180,6 +4180,12 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce signal ?",
       "choices": [
+        {
+          "text": "Baignade interdite",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Baignade interdite » (ONI Annexe 4 – fig. 17). La bordure et la couleur donnent la famille avant même le pictogramme."
+        },
         {
           "text": "Kitesurfs autorisés",
           "image": null,
@@ -4191,12 +4197,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Avis de tempête » (ONI Annexe 4 – fig. 62)."
-        },
-        {
-          "text": "Baignade interdite",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Vous avez choisi un signal d'une autre famille : « Baignade interdite » (ONI Annexe 4 – fig. 17). La bordure et la couleur donnent la famille avant même le pictogramme."
         }
       ],
       "provenance": {
@@ -4220,7 +4220,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4279,10 +4279,10 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Interdiction de passer pour bateaux motorisés",
+          "text": "Interdiction d’ancrer",
           "image": null,
           "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction d’ancrer » (ONI Annexe 4 – fig. 10). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction du ski nautique",
@@ -4291,10 +4291,10 @@
           "rationale": ""
         },
         {
-          "text": "Interdiction d’ancrer",
+          "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
           "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction d’ancrer » (ONI Annexe 4 – fig. 10). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -4328,16 +4328,16 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
-          "text": "Direction recommandée",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Direction recommandée » (ONI Annexe 4 – fig. 39)."
-        },
-        {
           "text": "Kitesurfs autorisés",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Kitesurfs autorisés » (ONI Annexe 4 – fig. 38)."
+        },
+        {
+          "text": "Direction recommandée",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Direction recommandée » (ONI Annexe 4 – fig. 39)."
         },
         {
           "text": "Bac ne naviguant pas librement",
@@ -4383,16 +4383,16 @@
           "rationale": ""
         },
         {
-          "text": "Le tirant d’eau est limité",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Le tirant d’eau est limité » (ONI Annexe 4 – fig. 26)."
-        },
-        {
           "text": "Lignes aériennes à haute tension",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Lignes aériennes à haute tension » (ONI Annexe 4 – fig. 45)."
+        },
+        {
+          "text": "Le tirant d’eau est limité",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Le tirant d’eau est limité » (ONI Annexe 4 – fig. 26)."
         }
       ],
       "provenance": {
@@ -4426,6 +4426,12 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
+          "text": "Lieu de mise à l’eau de bateaux",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
           "text": "Avis de fort vent",
           "image": null,
           "is_correct": false,
@@ -4436,12 +4442,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « B. dans le seul sens indiqué » (ONI Annexe 4 – fig. 28)."
-        },
-        {
-          "text": "Lieu de mise à l’eau de bateaux",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
         }
       ],
       "provenance": {
@@ -4465,7 +4465,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -4475,16 +4475,16 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
-          "text": "Lieu de mise à l’eau de bateaux",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Lieu de mise à l’eau de bateaux » (ONI Annexe 4 – fig. 42)."
-        },
-        {
           "text": "Barrage",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Barrage » (ONI Annexe 4 – fig. 41)."
+        },
+        {
+          "text": "Lieu de mise à l’eau de bateaux",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Lieu de mise à l’eau de bateaux » (ONI Annexe 4 – fig. 42)."
         },
         {
           "text": "Lieu de mise à terre de bateaux",
@@ -4524,16 +4524,16 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Interdiction de passer pour bateaux à voile",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Interdiction de passer pour bateaux à voile » (ONI Annexe 4 – fig. 5)."
-        },
-        {
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3)."
+        },
+        {
+          "text": "Interdiction de passer pour bateaux à voile",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Interdiction de passer pour bateaux à voile » (ONI Annexe 4 – fig. 5)."
         },
         {
           "text": "Fin d’une interdiction ou d’une obligation",
@@ -4579,16 +4579,16 @@
           "rationale": ""
         },
         {
-          "text": "Barrage",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Barrage » (ONI Annexe 4 – fig. 41)."
-        },
-        {
           "text": "Kitesurfs autorisés",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Kitesurfs autorisés » (ONI Annexe 4 – fig. 38)."
+        },
+        {
+          "text": "Barrage",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Barrage » (ONI Annexe 4 – fig. 41)."
         }
       ],
       "provenance": {
@@ -4671,9 +4671,9 @@
       "stem": "Comment est signalé un obstacle isolé ?",
       "choices": [
         {
-          "text": "Par un cône pointe en bas, peint en rouge ou non peint",
+          "text": "Par un cylindre peint en rouge ou non peint",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -4683,9 +4683,9 @@
           "rationale": ""
         },
         {
-          "text": "Par un cylindre peint en rouge ou non peint",
+          "text": "Par un cône pointe en bas, peint en rouge ou non peint",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4710,7 +4710,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4719,12 +4719,6 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce panneau ?",
       "choices": [
-        {
-          "text": "Interdiction de passer pour bateaux à voile",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Interdiction de virer",
           "image": null,
@@ -4736,6 +4730,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
+          "text": "Interdiction de passer pour bateaux à voile",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4759,7 +4759,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4867,9 +4867,9 @@
       "stem": "Pour un chenal balisé dans une zone de hauts-fonds, comment sont marqués les côtés droit et gauche vus du large ?",
       "choices": [
         {
-          "text": "Côté droit: des cônes verts; côté gauche: des cylindres rouges",
+          "text": "Les deux côtés: des cônes pointe en bas peints en rouge",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -4879,9 +4879,9 @@
           "rationale": ""
         },
         {
-          "text": "Les deux côtés: des cônes pointe en bas peints en rouge",
+          "text": "Côté droit: des cônes verts; côté gauche: des cylindres rouges",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4906,7 +4906,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4965,15 +4965,15 @@
       "stem": "Des marques cardinales signalent un haut-fonds étendu en indiquant les quadrants Nord et Ouest. Qu'indiquent-elles ?",
       "choices": [
         {
-          "text": "Que les eaux profondes se trouvent dans les quadrants Nord et Ouest",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Que l'obstacle se trouve dans les quadrants Nord et Ouest",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Que les eaux profondes se trouvent dans les quadrants Nord et Ouest",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -5004,7 +5004,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5013,12 +5013,6 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce panneau ?",
       "choices": [
-        {
-          "text": "Interdiction de passer pour bateaux motorisés",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
         {
           "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
@@ -5030,6 +5024,12 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Interdiction de passer pour bateaux motorisés",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux motorisés » (ONI Annexe 4 – fig. 3). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -5053,7 +5053,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -5062,6 +5062,12 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce signal sonore ?",
       "choices": [
+        {
+          "text": "Interdiction d’ancrer",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Interdiction d’ancrer » (ONI Annexe 4 – fig. 10)."
+        },
         {
           "text": "Volées de cloches continues",
           "image": null,
@@ -5073,12 +5079,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Obligation de s’arrêter dans certaines conditions » (ONI Annexe 4 – fig. 19)."
-        },
-        {
-          "text": "Interdiction d’ancrer",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Interdiction d’ancrer » (ONI Annexe 4 – fig. 10)."
         }
       ],
       "provenance": {
@@ -5102,7 +5102,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5112,16 +5112,16 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
-          "text": "Baignade interdite",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Baignade interdite » (ONI Annexe 4 – fig. 17)."
-        },
-        {
           "text": "Hurlement d’une sirène",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Baignade interdite",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Baignade interdite » (ONI Annexe 4 – fig. 17)."
         },
         {
           "text": "B. dans le seul sens indiqué",
@@ -5151,7 +5151,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -5160,6 +5160,12 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce panneau ?",
       "choices": [
+        {
+          "text": "Interdiction de toute rencontre et dépassement",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de toute rencontre et dépassement » (ONI Annexe 4 – fig. 8). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
         {
           "text": "Interdiction de virer",
           "image": null,
@@ -5171,12 +5177,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Interdiction de toute rencontre et dépassement",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de toute rencontre et dépassement » (ONI Annexe 4 – fig. 8). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -5200,7 +5200,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -5210,16 +5210,16 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Interdiction de passer pour bateaux à voile",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux à voile » (ONI Annexe 4 – fig. 5). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
-        {
           "text": "Interdiction du ski nautique",
           "image": null,
           "is_correct": false,
           "rationale": "Bonne famille, mauvais signal : « Interdiction du ski nautique » (ONI Annexe 4 – fig. 4). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
+          "text": "Interdiction de passer pour bateaux à voile",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer pour bateaux à voile » (ONI Annexe 4 – fig. 5). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de toute rencontre et dépassement",
@@ -5259,10 +5259,10 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Interdiction de virer",
+          "text": "Fin d’une interdiction ou d’une obligation",
           "image": null,
           "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+          "rationale": "C'est un autre signal : « Fin d’une interdiction ou d’une obligation » (ONI Annexe 4 – fig. 44)."
         },
         {
           "text": "Interdiction de stationner",
@@ -5271,10 +5271,10 @@
           "rationale": ""
         },
         {
-          "text": "Fin d’une interdiction ou d’une obligation",
+          "text": "Interdiction de virer",
           "image": null,
           "is_correct": false,
-          "rationale": "C'est un autre signal : « Fin d’une interdiction ou d’une obligation » (ONI Annexe 4 – fig. 44)."
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de virer » (ONI Annexe 4 – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -5357,15 +5357,15 @@
       "stem": "Un bateau à voile naviguant au moteur peut, au lieu de feux de côté et d'un feu de poupe séparés, combiner ces feux. Comment et où ce feu combiné est-il disposé, en plus du feu de mât blanc ?",
       "choices": [
         {
-          "text": "Un feu tricolore combinant feux de côté et feu de poupe, placé à la pointe du mât ou à proximité",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Un feu bicolore placé dans la zone avant, le feu de poupe restant séparé",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un feu tricolore combinant feux de côté et feu de poupe, placé à la pointe du mât ou à proximité",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -5396,7 +5396,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5406,6 +5406,12 @@
       "stem": "De nuit, quels feux un bateau ou engin flottant remorqué doit-il porter ?",
       "choices": [
         {
+          "text": "Un seul feu ordinaire blanc visible de tous les côtés",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Un feu de mât ordinaire blanc et un feu de poupe ordinaire blanc",
           "image": null,
           "is_correct": true,
@@ -5413,12 +5419,6 @@
         },
         {
           "text": "Un feu de mât blanc, des feux de côté vert et rouge, et un feu de poupe blanc",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Un seul feu ordinaire blanc visible de tous les côtés",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5445,7 +5445,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5510,13 +5510,13 @@
           "rationale": ""
         },
         {
-          "text": "Un feu de mât blanc accompagné de feux de côté vert et rouge",
+          "text": "Un feu tricolore placé à la pointe du mât",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Un feu tricolore placé à la pointe du mât",
+          "text": "Un feu de mât blanc accompagné de feux de côté vert et rouge",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5553,15 +5553,15 @@
       "stem": "De nuit, un bateau naviguant à voile portant des feux de côté et un feu de poupe : quels sont ces feux ?",
       "choices": [
         {
-          "text": "Feux de côté vert et rouge et feu de poupe blanc",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Feux de côté vert et rouge, feu de poupe blanc et feu de mât blanc",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Feux de côté vert et rouge et feu de poupe blanc",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -5592,7 +5592,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5601,12 +5601,6 @@
       "kind": "figure_recognition",
       "stem": "Que signifie cette signalisation lumineuse ?",
       "choices": [
-        {
-          "text": "Feu tricolore placé à la pointe du mât ou à proximité de celle-ci",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Soit pavillon rouge et pavillon blanc",
           "image": null,
@@ -5618,6 +5612,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Bateaux naviguant isolément ou remorqueurs » (RNL Annexe I – fig. 4)."
+        },
+        {
+          "text": "Feu tricolore placé à la pointe du mât ou à proximité de celle-ci",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5641,7 +5641,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5657,16 +5657,16 @@
           "rationale": ""
         },
         {
-          "text": "Convois poussés",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Convois poussés » (RNL Annexe I – fig. 5)."
-        },
-        {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Bateaux naviguant isolément ou remorqueurs » (RNL Annexe I – fig. 4)."
+        },
+        {
+          "text": "Convois poussés",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Convois poussés » (RNL Annexe I – fig. 5)."
         }
       ],
       "provenance": {
@@ -5700,9 +5700,9 @@
       "stem": "De nuit, comment un bateau devenu incapable de manœuvrer signale-t-il sa situation, en plus de ses feux ordinaires ?",
       "choices": [
         {
-          "text": "En balançant un feu rouge et/ou en émettant le signal sonore réglementaire",
+          "text": "En montrant un ballon vert visible de tous les côtés",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -5712,9 +5712,9 @@
           "rationale": ""
         },
         {
-          "text": "En montrant un ballon vert visible de tous les côtés",
+          "text": "En balançant un feu rouge et/ou en émettant le signal sonore réglementaire",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5739,7 +5739,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5755,13 +5755,13 @@
           "rationale": ""
         },
         {
-          "text": "Deux feux blancs superposés à environ 1 m l'un de l'autre",
+          "text": "Un feu rouge au-dessus d'un feu blanc, tous deux visibles de tous les côtés",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Un feu rouge au-dessus d'un feu blanc, tous deux visibles de tous les côtés",
+          "text": "Deux feux blancs superposés à environ 1 m l'un de l'autre",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5798,9 +5798,9 @@
       "stem": "De nuit, comment un engin flottant en stationnement doit-il être signalé ?",
       "choices": [
         {
-          "text": "Éclairé de telle manière que ses contours soient reconnaissables",
+          "text": "Par un ballon noir visible de tous les côtés",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -5810,9 +5810,9 @@
           "rationale": ""
         },
         {
-          "text": "Par un ballon noir visible de tous les côtés",
+          "text": "Éclairé de telle manière que ses contours soient reconnaissables",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5837,7 +5837,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5853,13 +5853,13 @@
           "rationale": ""
         },
         {
-          "text": "Côté libre : feu ordinaire blanc seul ; côté non libre : feu ordinaire blanc au-dessus d'un feu rouge",
+          "text": "Côté libre : feu vert ; côté non libre : feu rouge",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Côté libre : feu vert ; côté non libre : feu rouge",
+          "text": "Côté libre : feu ordinaire blanc seul ; côté non libre : feu ordinaire blanc au-dessus d'un feu rouge",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5896,12 +5896,6 @@
       "stem": "De nuit, comment les ancrages d'un bateau sont-ils signalés sur l'eau ?",
       "choices": [
         {
-          "text": "Par des bouées portant un feu ordinaire blanc",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Par des bouées portant un feu ordinaire rouge",
           "image": null,
           "is_correct": false,
@@ -5911,6 +5905,12 @@
           "text": "Par des ballons noirs visibles de tous les côtés",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Par des bouées portant un feu ordinaire blanc",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5935,7 +5935,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5945,6 +5945,12 @@
       "stem": "De jour, par quel signal un bateau à passagers prioritaire indique-t-il sa priorité ?",
       "choices": [
         {
+          "text": "Un ballon blanc, visible de tous les côtés",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Un ballon vert, visible de tous les côtés",
           "image": null,
           "is_correct": true,
@@ -5952,12 +5958,6 @@
         },
         {
           "text": "Un ballon jaune, visible de tous les côtés",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Un ballon blanc, visible de tous les côtés",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5984,7 +5984,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6092,12 +6092,6 @@
       "stem": "De jour, un bateau effectuant des travaux : que montre-t-il du côté où le passage est libre, et du côté où il n'est pas libre ?",
       "choices": [
         {
-          "text": "Côté libre : un pavillon rouge et blanc (ou un pavillon rouge et un pavillon blanc) ; côté non libre : un pavillon rouge",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Côté libre : un pavillon rouge ; côté non libre : un pavillon rouge et blanc",
           "image": null,
           "is_correct": false,
@@ -6107,6 +6101,12 @@
           "text": "Côté libre : un ballon vert ; côté non libre : un ballon noir",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Côté libre : un pavillon rouge et blanc (ou un pavillon rouge et un pavillon blanc) ; côté non libre : un pavillon rouge",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6131,7 +6131,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6190,16 +6190,16 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
-          "text": "Soit pavillon rouge et pavillon blanc",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Interdiction de passer en dehors de l’espace indiqué",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Interdiction de passer en dehors de l’espace indiqué » (RNL Annexe III – fig. 10)."
+        },
+        {
+          "text": "Soit pavillon rouge et pavillon blanc",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Bateaux naviguant isolément ou remorqueurs",
@@ -6229,7 +6229,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6239,6 +6239,12 @@
       "stem": "Quel feu spécial portent les bateaux des autorités de contrôle, des services d'incendie et de sauvetage lorsqu'ils sont en intervention ?",
       "choices": [
         {
+          "text": "Un feu jaune scintillant",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Un feu bleu scintillant",
           "image": null,
           "is_correct": true,
@@ -6246,12 +6252,6 @@
         },
         {
           "text": "Un feu vert clair visible de tous les côtés",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Un feu jaune scintillant",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6278,7 +6278,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6337,15 +6337,15 @@
       "stem": "Comment un bateau en détresse appelle-t-il à l'aide, de nuit comme de jour ?",
       "choices": [
         {
-          "text": "De nuit : un feu rouge agité circulairement ; de jour : un pavillon rouge ou autre objet agité circulairement",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "De nuit : un feu blanc balancé ; de jour : un ballon vert hissé",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "De nuit : un feu rouge agité circulairement ; de jour : un pavillon rouge ou autre objet agité circulairement",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -6376,7 +6376,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6392,16 +6392,16 @@
           "rationale": "C'est un autre signal : « Convois poussés » (RNL Annexe I – fig. 5)."
         },
         {
-          "text": "Bateaux naviguant isolément ou remorqueurs",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Bateaux de plaisance",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Bateaux de plaisance » (RNL Annexe I – fig. 6)."
+        },
+        {
+          "text": "Bateaux naviguant isolément ou remorqueurs",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6425,7 +6425,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -6441,13 +6441,13 @@
           "rationale": ""
         },
         {
-          "text": "Un pavillon portant la lettre « K »",
+          "text": "Un ballon jaune visible de tous les côtés",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Un ballon jaune visible de tous les côtés",
+          "text": "Un pavillon portant la lettre « K »",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6484,15 +6484,15 @@
       "stem": "Quel signal porte un bateau utilisé pour la plongée subaquatique lorsque la plongée se fait à partir d'un plan d'eau ?",
       "choices": [
         {
-          "text": "Un panneau portant la lettre « A »",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Un ballon blanc visible de tous les côtés",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un panneau portant la lettre « A »",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -6523,7 +6523,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6532,12 +6532,6 @@
       "kind": "rule_mc",
       "stem": "Quel signal porte un bateau pêchant à la traîne et remorquant un ou plusieurs flotteurs ou écarteurs ?",
       "choices": [
-        {
-          "text": "Un ballon blanc, visible de tous les côtés",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Un ballon jaune, visible de tous les côtés",
           "image": null,
@@ -6548,6 +6542,12 @@
           "text": "Un ballon vert, visible de tous les côtés",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un ballon blanc, visible de tous les côtés",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6572,7 +6572,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6582,15 +6582,15 @@
       "stem": "Quel signal porte un bateau de pêche professionnelle en opération ?",
       "choices": [
         {
-          "text": "Un ballon jaune, visible de tous les côtés",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Un ballon blanc, visible de tous les côtés",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un ballon jaune, visible de tous les côtés",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -6621,7 +6621,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6630,6 +6630,12 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce signal ?",
       "choices": [
+        {
+          "text": "Convois poussés",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
         {
           "text": "Bateaux de plaisance",
           "image": null,
@@ -6641,12 +6647,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Bateaux naviguant isolément ou remorqueurs » (RNL Annexe I – fig. 4)."
-        },
-        {
-          "text": "Convois poussés",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
         }
       ],
       "provenance": {
@@ -6670,7 +6670,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -6686,16 +6686,16 @@
           "rationale": "C'est un autre signal : « Convois poussés » (RNL Annexe I – fig. 5)."
         },
         {
-          "text": "Bateaux de plaisance",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Bateaux naviguant isolément ou remorqueurs » (RNL Annexe I – fig. 4)."
+        },
+        {
+          "text": "Bateaux de plaisance",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6719,7 +6719,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -6778,9 +6778,9 @@
       "stem": "De nuit, quels feux un bateau de plaisance motorisé (ou à voile naviguant au moteur) peut-il porter selon cette configuration simplifiée ?",
       "choices": [
         {
-          "text": "Un feu blanc visible de tous les côtés et des feux de côté vert et rouge",
+          "text": "Un feu ordinaire jaune visible de tous les côtés",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -6790,9 +6790,9 @@
           "rationale": ""
         },
         {
-          "text": "Un feu ordinaire jaune visible de tous les côtés",
+          "text": "Un feu blanc visible de tous les côtés et des feux de côté vert et rouge",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6817,7 +6817,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6876,16 +6876,16 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Interdiction de passer en dehors de l’espace indiqué",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
           "is_correct": false,
           "rationale": "Bonne famille, mauvais signal : « Interdiction de pratiquer la planche à voile » (RNL Annexe III – fig. 11). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
+          "text": "Interdiction de passer en dehors de l’espace indiqué",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de stationner",
@@ -6915,7 +6915,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6980,16 +6980,16 @@
           "rationale": "Bonne famille, mauvais signal : « Interdiction de pratiquer la planche à voile » (RNL Annexe III – fig. 11). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
-          "text": "Interdiction de se baigner",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Interdiction de passer",
           "image": null,
           "is_correct": false,
           "rationale": "Bonne famille, mauvais signal : « Interdiction de passer » (RNL Annexe III – fig. 1). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
+          "text": "Interdiction de se baigner",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7013,7 +7013,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -7023,16 +7023,16 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Interdiction des kitesurfs",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Interdiction de pratiquer la planche à voile",
           "image": null,
           "is_correct": false,
           "rationale": "Bonne famille, mauvais signal : « Interdiction de pratiquer la planche à voile » (RNL Annexe III – fig. 11). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
+          "text": "Interdiction des kitesurfs",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de stationner",
@@ -7062,7 +7062,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -7072,16 +7072,16 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Obligation de prendre la direction indiquée par la flèche",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
           "is_correct": false,
           "rationale": "Bonne famille, mauvais signal : « Obligation d’observer une vigilance particulière » (RNL Annexe III – fig. 16). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
+          "text": "Obligation de prendre la direction indiquée par la flèche",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation de stationner",
@@ -7111,7 +7111,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -7121,10 +7121,10 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Obligation de ne pas dépasser la vitesse indiquée (en km/h",
+          "text": "Autorisation d’ancrer",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Autorisation d’ancrer » (RNL Annexe III – fig. 19). La bordure et la couleur donnent la famille avant même le pictogramme."
         },
         {
           "text": "Interdiction de tout dépassement",
@@ -7133,10 +7133,10 @@
           "rationale": "Vous avez choisi un signal d'une autre famille : « Interdiction de tout dépassement » (RNL Annexe III – fig. 5). La bordure et la couleur donnent la famille avant même le pictogramme."
         },
         {
-          "text": "Autorisation d’ancrer",
+          "text": "Obligation de ne pas dépasser la vitesse indiquée (en km/h",
           "image": null,
-          "is_correct": false,
-          "rationale": "Vous avez choisi un signal d'une autre famille : « Autorisation d’ancrer » (RNL Annexe III – fig. 19). La bordure et la couleur donnent la famille avant même le pictogramme."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7160,7 +7160,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -7176,16 +7176,16 @@
           "rationale": "Vous avez choisi un signal d'une autre famille : « Autorisation d’ancrer » (RNL Annexe III – fig. 19). La bordure et la couleur donnent la famille avant même le pictogramme."
         },
         {
-          "text": "Interdiction de pratiquer la planche à voile",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Vous avez choisi un signal d'une autre famille : « Interdiction de pratiquer la planche à voile » (RNL Annexe III – fig. 11). La bordure et la couleur donnent la famille avant même le pictogramme."
-        },
-        {
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Interdiction de pratiquer la planche à voile",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Vous avez choisi un signal d'une autre famille : « Interdiction de pratiquer la planche à voile » (RNL Annexe III – fig. 11). La bordure et la couleur donnent la famille avant même le pictogramme."
         }
       ],
       "provenance": {
@@ -7209,7 +7209,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -7268,6 +7268,12 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
+          "text": "Autorisation de pratiquer la planche à voile",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de pratiquer la planche à voile » (RNL Annexe III – fig. 21). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
           "text": "Autorisation d’ancrer",
           "image": null,
           "is_correct": false,
@@ -7278,12 +7284,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Autorisation de pratiquer la planche à voile",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Autorisation de pratiquer la planche à voile » (RNL Annexe III – fig. 21). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7307,7 +7307,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -7323,16 +7323,16 @@
           "rationale": "Bonne famille, mauvais signal : « Autorisation de stationner » (RNL Annexe III – fig. 18). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
-          "text": "Autorisation d’ancrer",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Autorisation de s’amarrer",
           "image": null,
           "is_correct": false,
           "rationale": "Bonne famille, mauvais signal : « Autorisation de s’amarrer » (RNL Annexe III – fig. 20). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
+          "text": "Autorisation d’ancrer",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7356,7 +7356,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -7366,10 +7366,10 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
-          "text": "Deux signaux lumineux",
+          "text": "Bateaux naviguant isolément ou remorqueurs",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Bateaux naviguant isolément ou remorqueurs » (RNL Annexe I – fig. 4)."
         },
         {
           "text": "Autorisation d’ancrer",
@@ -7378,10 +7378,10 @@
           "rationale": "C'est un autre signal : « Autorisation d’ancrer » (RNL Annexe III – fig. 19)."
         },
         {
-          "text": "Bateaux naviguant isolément ou remorqueurs",
+          "text": "Deux signaux lumineux",
           "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Bateaux naviguant isolément ou remorqueurs » (RNL Annexe I – fig. 4)."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7405,7 +7405,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -7415,10 +7415,10 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Autorisation de stationner",
+          "text": "Autorisation de s’amarrer",
           "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Autorisation de stationner » (RNL Annexe III – fig. 18). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorisation d’ancrer",
@@ -7427,10 +7427,10 @@
           "rationale": "Bonne famille, mauvais signal : « Autorisation d’ancrer » (RNL Annexe III – fig. 19). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
-          "text": "Autorisation de s’amarrer",
+          "text": "Autorisation de stationner",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Autorisation de stationner » (RNL Annexe III – fig. 18). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7454,7 +7454,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -7470,16 +7470,16 @@
           "rationale": ""
         },
         {
-          "text": "Autorisation d’ancrer",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Autorisation d’ancrer » (RNL Annexe III – fig. 19). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
-        {
           "text": "Autorisation de stationner",
           "image": null,
           "is_correct": false,
           "rationale": "Bonne famille, mauvais signal : « Autorisation de stationner » (RNL Annexe III – fig. 18). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
+          "text": "Autorisation d’ancrer",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Autorisation d’ancrer » (RNL Annexe III – fig. 19). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7513,16 +7513,16 @@
       "stem": "Que signifie ce signal ?",
       "choices": [
         {
-          "text": "Kitesurfs autorisés",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Obligation d’observer une vigilance particulière",
           "image": null,
           "is_correct": false,
           "rationale": "Vous avez choisi un signal d'une autre famille : « Obligation d’observer une vigilance particulière » (RNL Annexe III – fig. 16). La bordure et la couleur donnent la famille avant même le pictogramme."
+        },
+        {
+          "text": "Kitesurfs autorisés",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Interdiction de passer",
@@ -7552,7 +7552,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -7561,6 +7561,12 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce panneau ?",
       "choices": [
+        {
+          "text": "Interdiction de se baigner",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de se baigner » (RNL Annexe III – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
         {
           "text": "Interdiction de passer pour bateaux motorisés",
           "image": null,
@@ -7572,12 +7578,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "Bonne famille, mauvais signal : « Interdiction de pratiquer la planche à voile » (RNL Annexe III – fig. 11). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
-        {
-          "text": "Interdiction de se baigner",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de se baigner » (RNL Annexe III – fig. 12). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7601,7 +7601,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -7611,16 +7611,16 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Interdiction de pratiquer la planche à voile",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de pratiquer la planche à voile » (RNL Annexe III – fig. 11). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
-        {
           "text": "Interdiction du ski nautique ou de l’utilisation d’engins analogues",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Interdiction de pratiquer la planche à voile",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de pratiquer la planche à voile » (RNL Annexe III – fig. 11). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de stationner",
@@ -7650,7 +7650,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -7659,12 +7659,6 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce panneau ?",
       "choices": [
-        {
-          "text": "Interdiction de tout dépassement",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Interdiction d’ancrer",
           "image": null,
@@ -7676,6 +7670,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "Bonne famille, mauvais signal : « Interdiction de passer » (RNL Annexe III – fig. 1). Ici c'est le pictogramme, et lui seul, qui fait la différence."
+        },
+        {
+          "text": "Interdiction de tout dépassement",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7699,7 +7699,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -7708,12 +7708,6 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce panneau ?",
       "choices": [
-        {
-          "text": "Interdiction de s’amarrer",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de s’amarrer » (RNL Annexe III – fig. 8). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
         {
           "text": "Interdiction des kitesurfs",
           "image": null,
@@ -7725,6 +7719,12 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Interdiction de s’amarrer",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de s’amarrer » (RNL Annexe III – fig. 8). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7748,7 +7748,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -7758,16 +7758,16 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Interdiction de passer en dehors de l’espace indiqué",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer en dehors de l’espace indiqué » (RNL Annexe III – fig. 10). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
-        {
           "text": "Interdiction d’ancrer",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Interdiction de passer en dehors de l’espace indiqué",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer en dehors de l’espace indiqué » (RNL Annexe III – fig. 10). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction de se baigner",
@@ -7797,7 +7797,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -7807,16 +7807,16 @@
       "stem": "Que signifie ce panneau ?",
       "choices": [
         {
-          "text": "Interdiction de passer",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer » (RNL Annexe III – fig. 1). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
-        {
           "text": "Interdiction de s’amarrer",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Interdiction de passer",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Interdiction de passer » (RNL Annexe III – fig. 1). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
           "text": "Interdiction des kitesurfs",
@@ -7846,7 +7846,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -7862,16 +7862,16 @@
           "rationale": "Bonne famille, mauvais signal : « Interdiction des kitesurfs » (RNL Annexe III – fig. 13). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         },
         {
-          "text": "Interdiction d’ancrer",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Bonne famille, mauvais signal : « Interdiction d’ancrer » (RNL Annexe III – fig. 7). Ici c'est le pictogramme, et lui seul, qui fait la différence."
-        },
-        {
           "text": "Interdiction de passer en dehors de l’espace indiqué",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Interdiction d’ancrer",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Bonne famille, mauvais signal : « Interdiction d’ancrer » (RNL Annexe III – fig. 7). Ici c'est le pictogramme, et lui seul, qui fait la différence."
         }
       ],
       "provenance": {
@@ -7895,7 +7895,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -7911,13 +7911,13 @@
           "rationale": ""
         },
         {
-          "text": "Entrée autorisée",
+          "text": "Sortie de l'écluse seulement",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Sortie de l'écluse seulement",
+          "text": "Entrée autorisée",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8003,6 +8003,12 @@
       "stem": "Dans le sas d'une écluse, comment doit-on tenir ses amarres pendant l'éclusée ?",
       "choices": [
         {
+          "text": "Retirer toutes les amarres",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Les tenir et les ajuster, sans les frapper à poste fixe",
           "image": null,
           "is_correct": true,
@@ -8010,12 +8016,6 @@
         },
         {
           "text": "Les frapper solidement à un taquet fixe",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Retirer toutes les amarres",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8042,7 +8042,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -8101,6 +8101,12 @@
       "stem": "À une écluse, que signifient DEUX feux rouges ?",
       "choices": [
         {
+          "text": "La sortie est obligatoire",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "L'écluse est hors service",
           "image": null,
           "is_correct": true,
@@ -8108,12 +8114,6 @@
         },
         {
           "text": "L'entrée est immédiatement autorisée",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "La sortie est obligatoire",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8140,7 +8140,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -8248,15 +8248,15 @@
       "stem": "Lorsqu'un bateau bénéficiant d'un droit de priorité de passage aux écluses approche des garages d'écluses ou y stationne, comment doivent se comporter les autres bateaux ?",
       "choices": [
         {
-          "text": "Ils doivent lui faciliter au maximum le passage",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Ils conservent leur tour de passage dans l'ordre d'arrivée",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ils doivent lui faciliter au maximum le passage",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -8287,7 +8287,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -8296,12 +8296,6 @@
       "kind": "rule_mc",
       "stem": "Pendant les périodes normales de navigation, quelle est la durée maximale pendant laquelle le gestionnaire peut exceptionnellement autoriser un bateau à stationner dans les garages d'écluses ?",
       "choices": [
-        {
-          "text": "Dix jours",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Trois jours",
           "image": null,
@@ -8312,6 +8306,12 @@
           "text": "Trente jours",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Dix jours",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -8336,7 +8336,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -8345,12 +8345,6 @@
       "kind": "rule_mc",
       "stem": "Concernant les passerelles et autres dépendances des écluses et barrages, quelle règle s'applique ?",
       "choices": [
-        {
-          "text": "Il est interdit d'y stationner et d'y circuler, sauf si elles sont aménagées pour servir de passage public.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "On peut s'y tenir librement, y compris sur les ponts mobiles pendant la manœuvre.",
           "image": null,
@@ -8361,6 +8355,12 @@
           "text": "La circulation y est autorisée à condition de porter un équipement individuel de flottabilité.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Il est interdit d'y stationner et d'y circuler, sauf si elles sont aménagées pour servir de passage public.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -8385,7 +8385,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -8395,15 +8395,15 @@
       "stem": "À quelle condition un rattrapant peut-il entreprendre un dépassement ?",
       "choices": [
         {
-          "text": "Seulement après s'être assuré que la manœuvre peut avoir lieu sans danger.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Seulement après avoir reçu l'autorisation explicite du bateau rattrapé.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Seulement après s'être assuré que la manœuvre peut avoir lieu sans danger.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -8434,7 +8434,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -8444,6 +8444,12 @@
       "stem": "Sur un secteur où la route à suivre est imposée par signalisation, quelle obligation s'impose aux bateaux montants vis-à-vis des avalants ?",
       "choices": [
         {
+          "text": "Ils doivent émettre un son prolongé avant de croiser le chenal.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Ils ne doivent en aucun cas gêner la marche des avalants et doivent au besoin ralentir ou s'arrêter.",
           "image": null,
           "is_correct": true,
@@ -8451,12 +8457,6 @@
         },
         {
           "text": "Ils ont la priorité et les avalants doivent s'écarter pour les laisser passer.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Ils doivent émettre un son prolongé avant de croiser le chenal.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8483,7 +8483,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -8499,13 +8499,13 @@
           "rationale": ""
         },
         {
-          "text": "Pas moins de 10 m.",
+          "text": "Pas moins de 100 m.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Pas moins de 100 m.",
+          "text": "Pas moins de 10 m.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8548,13 +8548,13 @@
           "rationale": ""
         },
         {
-          "text": "Il est toujours autorisé de les laisser traîner pour ralentir le bateau.",
+          "text": "Il est obligatoire de les laisser traîner lors de la navigation à la dérive.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Il est obligatoire de les laisser traîner lors de la navigation à la dérive.",
+          "text": "Il est toujours autorisé de les laisser traîner pour ralentir le bateau.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8591,15 +8591,15 @@
       "stem": "Quelle obligation s'impose aux bateaux rapides vis-à-vis des autres bateaux ?",
       "choices": [
         {
-          "text": "Ils doivent laisser aux autres bateaux l'espace nécessaire pour suivre leur route et pour manœuvrer, sans pouvoir exiger qu'ils s'écartent en leur faveur.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Ils sont prioritaires et les autres bateaux doivent s'écarter de leur route.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ils doivent laisser aux autres bateaux l'espace nécessaire pour suivre leur route et pour manœuvrer, sans pouvoir exiger qu'ils s'écartent en leur faveur.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -8630,7 +8630,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -8646,13 +8646,13 @@
           "rationale": ""
         },
         {
-          "text": "Comme un bateau naviguant à la dérive, donc en infraction.",
+          "text": "Comme un bateau avalant tenu de céder le passage.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Comme un bateau avalant tenu de céder le passage.",
+          "text": "Comme un bateau naviguant à la dérive, donc en infraction.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8695,13 +8695,13 @@
           "rationale": ""
         },
         {
-          "text": "À tout moment, car les bacs sont prioritaires sur les autres bateaux lors de la traversée.",
+          "text": "Seulement après avoir émis un son prolongé pour avertir tous les bateaux approchants.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Seulement après avoir émis un son prolongé pour avertir tous les bateaux approchants.",
+          "text": "À tout moment, car les bacs sont prioritaires sur les autres bateaux lors de la traversée.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8744,13 +8744,13 @@
           "rationale": ""
         },
         {
-          "text": "Pas à moins de 100 m de son arrière.",
+          "text": "Pas à moins de 500 m de son arrière.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Pas à moins de 500 m de son arrière.",
+          "text": "Pas à moins de 100 m de son arrière.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8787,15 +8787,15 @@
       "stem": "Un conducteur constate un danger d'abordage. Que doit-il faire ?",
       "choices": [
         {
-          "text": "Émettre une série de sons très brefs.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Émettre un son prolongé unique.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Émettre une série de sons très brefs.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -8826,7 +8826,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -8835,12 +8835,6 @@
       "kind": "rule_mc",
       "stem": "Concernant la vitesse du bateau, quelle obligation incombe au conducteur ?",
       "choices": [
-        {
-          "text": "Veiller à une vitesse compatible avec les caractéristiques des eaux et des ouvrages d'art, sans descendre sous les minima ni dépasser les maxima fixés.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Maintenir en permanence la vitesse maximale autorisée pour fluidifier le trafic.",
           "image": null,
@@ -8851,6 +8845,12 @@
           "text": "Adapter librement sa vitesse, aucune limite minimale ne pouvant lui être imposée.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Veiller à une vitesse compatible avec les caractéristiques des eaux et des ouvrages d'art, sans descendre sous les minima ni dépasser les maxima fixés.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -8875,7 +8875,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -8885,9 +8885,9 @@
       "stem": "Un membre d'équipage détermine temporairement la route et la vitesse du bateau. Quelle est sa situation au regard des prescriptions de conduite ?",
       "choices": [
         {
-          "text": "Il est également responsable, dans cette mesure, de l'observation des prescriptions imposées au conducteur.",
+          "text": "Il devient le seul responsable, déchargeant entièrement le conducteur.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -8897,9 +8897,9 @@
           "rationale": ""
         },
         {
-          "text": "Il devient le seul responsable, déchargeant entièrement le conducteur.",
+          "text": "Il est également responsable, dans cette mesure, de l'observation des prescriptions imposées au conducteur.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -8924,7 +8924,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -8940,13 +8940,13 @@
           "rationale": ""
         },
         {
-          "text": "À terre, à condition de garder le bateau en vue.",
+          "text": "À bord uniquement lorsque le bateau se déplace effectivement.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "À bord uniquement lorsque le bateau se déplace effectivement.",
+          "text": "À terre, à condition de garder le bateau en vue.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8983,12 +8983,6 @@
       "stem": "En eaux intérieures, vis-à-vis des grands bateaux, des bacs et des bateaux assurant un service régulier, les menues embarcations (plaisance) doivent :",
       "choices": [
         {
-          "text": "S'écarter de leur route",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Garder leur route, étant prioritaires",
           "image": null,
           "is_correct": false,
@@ -8998,6 +8992,12 @@
           "text": "Les obliger à s'arrêter",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "S'écarter de leur route",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -9022,7 +9022,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -9032,6 +9032,12 @@
       "stem": "En règle générale sur une voie intérieure, de quel côté un bateau doit-il tenir sa route ?",
       "choices": [
         {
+          "text": "Au milieu du chenal",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Sur sa droite (tribord)",
           "image": null,
           "is_correct": true,
@@ -9039,12 +9045,6 @@
         },
         {
           "text": "Sur sa gauche (bâbord)",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Au milieu du chenal",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9071,7 +9071,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -9081,15 +9081,15 @@
       "stem": "Dans un passage étroit (sous un pont, un chenal resserré) où le croisement est impossible, que doit faire le conducteur ?",
       "choices": [
         {
-          "text": "S'assurer que le passage est libre avant de s'engager",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "S'engager toujours en premier",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "S'assurer que le passage est libre avant de s'engager",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -9120,7 +9120,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -9129,12 +9129,6 @@
       "kind": "rule_mc",
       "stem": "Sur une rivière à courant, lorsqu'un montant et un avalant se rencontrent, qui est prioritaire ?",
       "choices": [
-        {
-          "text": "L'avalant (qui descend le courant)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Le montant (qui remonte le courant)",
           "image": null,
@@ -9145,6 +9139,12 @@
           "text": "Le plus grand des deux bateaux",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "L'avalant (qui descend le courant)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -9169,7 +9169,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -9179,6 +9179,12 @@
       "stem": "Sur un plan d'eau sans courant, deux bateaux à moteur se rencontrent face à face. Que font-ils ?",
       "choices": [
         {
+          "text": "Ils s'arrêtent tous les deux",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Chacun vient sur tribord",
           "image": null,
           "is_correct": true,
@@ -9186,12 +9192,6 @@
         },
         {
           "text": "Chacun vient sur bâbord",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Ils s'arrêtent tous les deux",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9218,7 +9218,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -9228,15 +9228,15 @@
       "stem": "En navigation intérieure, de quel côté un bateau en dépasse-t-il normalement un autre ?",
       "choices": [
         {
-          "text": "Par bâbord (à gauche) du bateau rattrapé",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Toujours par tribord",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Par bâbord (à gauche) du bateau rattrapé",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -9267,7 +9267,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -9277,15 +9277,15 @@
       "stem": "Sur une voie intérieure, que signifie en règle générale UN son prolongé émis par un bateau ?",
       "choices": [
         {
-          "text": "« Attention »",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "« Je fais demi-tour »",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "« Attention »",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -9316,7 +9316,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -9326,6 +9326,12 @@
       "stem": "De jour, quel signal un bac ne naviguant pas librement doit-il porter ?",
       "choices": [
         {
+          "text": "Un feu clair vert visible de tous les côtés",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Un ballon vert placé à une hauteur d'au moins 5 m",
           "image": null,
           "is_correct": true,
@@ -9333,12 +9339,6 @@
         },
         {
           "text": "Un cône vert pointe en bas placé à au moins 3 m",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Un feu clair vert visible de tous les côtés",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9365,7 +9365,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -9473,15 +9473,15 @@
       "stem": "Parmi les moyens visuels suivants, lequel n'est PAS prévu pour qu'un bateau en détresse demande du secours ?",
       "choices": [
         {
-          "text": "Un pavillon jaune hissé en tête de mât",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Des fusées ou bombes projetant des étoiles rouges lancées une à une à de courts intervalles",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un pavillon jaune hissé en tête de mât",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -9512,7 +9512,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -9521,12 +9521,6 @@
       "kind": "rule_mc",
       "stem": "Pour qu'un cylindre de signalisation soit considéré comme suffisamment visible, quelles dimensions minimales doit-il avoir ?",
       "choices": [
-        {
-          "text": "Une hauteur d'au moins 0,80 m et un diamètre d'au moins 0,50 m",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Une hauteur d'au moins 0,60 m et un diamètre d'au moins 0,60 m",
           "image": null,
@@ -9537,6 +9531,12 @@
           "text": "Une hauteur d'au moins 1,00 m et un diamètre d'au moins 0,80 m",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Une hauteur d'au moins 0,80 m et un diamètre d'au moins 0,50 m",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -9561,7 +9561,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -9571,6 +9571,12 @@
       "stem": "À quelle condition l'usage de feux ou signaux autres que ceux prévus par la réglementation sur la signalisation est-il admis ?",
       "choices": [
         {
+          "text": "Pour tout usage, dès lors que le bateau est en stationnement",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Pour la communication entre bateaux ou entre bateaux et la terre, à condition qu'ils ne prêtent pas à confusion avec les feux ou signaux mentionnés",
           "image": null,
           "is_correct": true,
@@ -9578,12 +9584,6 @@
         },
         {
           "text": "Uniquement de nuit et après autorisation de l'autorité chargée de la police de la navigation",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Pour tout usage, dès lors que le bateau est en stationnement",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9610,7 +9610,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -9669,9 +9669,9 @@
       "stem": "Que dit la réglementation au sujet de l'emploi de lumières, projecteurs, panneaux, pavillons ou flammes à bord ?",
       "choices": [
         {
-          "text": "Il est interdit d'utiliser des lumières ou objets risquant d'être confondus avec les feux et signaux réglementaires",
+          "text": "Les projecteurs éblouissants sont permis s'ils sont orientés vers la rive",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -9681,9 +9681,9 @@
           "rationale": ""
         },
         {
-          "text": "Les projecteurs éblouissants sont permis s'ils sont orientés vers la rive",
+          "text": "Il est interdit d'utiliser des lumières ou objets risquant d'être confondus avec les feux et signaux réglementaires",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -9708,7 +9708,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -9718,9 +9718,9 @@
       "stem": "Vous conduisez un bateau qui n'est pas une menue embarcation. Que prévoit la réglementation concernant les signaux sonores réglementaires ?",
       "choices": [
         {
-          "text": "Il doit, en cas de besoin, faire usage des signaux sonores réglementaires.",
+          "text": "Il est dispensé d'émettre tout signal sonore réglementaire.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -9730,9 +9730,9 @@
           "rationale": ""
         },
         {
-          "text": "Il est dispensé d'émettre tout signal sonore réglementaire.",
+          "text": "Il doit, en cas de besoin, faire usage des signaux sonores réglementaires.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -9757,7 +9757,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -9773,13 +9773,13 @@
           "rationale": ""
         },
         {
-          "text": "À condition qu'ils soient émis uniquement à l'approche d'une écluse.",
+          "text": "À condition qu'ils soient plus puissants que les signaux réglementaires.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "À condition qu'ils soient plus puissants que les signaux réglementaires.",
+          "text": "À condition qu'ils soient émis uniquement à l'approche d'une écluse.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9816,12 +9816,6 @@
       "stem": "Pour demander du secours, quel signal sonore un bateau en détresse peut-il émettre ?",
       "choices": [
         {
-          "text": "Des volées de cloche ou des sons prolongés répétés",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Un seul son bref suivi d'un silence d'une minute",
           "image": null,
           "is_correct": false,
@@ -9831,6 +9825,12 @@
           "text": "Trois sons brefs émis une seule fois",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Des volées de cloche ou des sons prolongés répétés",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -9855,7 +9855,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -9865,15 +9865,15 @@
       "stem": "Où sont définis les signaux d'interdiction, d'obligation, de restriction, de recommandation et d'indication de la voie de navigation intérieure, ainsi que leur signification ?",
       "choices": [
         {
-          "text": "Dans l'annexe 5.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Dans l'annexe 7.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Dans l'annexe 5.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -9904,7 +9904,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -9914,6 +9914,12 @@
       "stem": "Où sont définies les règles de balisage applicables sur la voie de navigation intérieure, en amont du premier obstacle à la navigation des navires ?",
       "choices": [
         {
+          "text": "Dans l'annexe 4.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Dans l'annexe 8.",
           "image": null,
           "is_correct": true,
@@ -9921,12 +9927,6 @@
         },
         {
           "text": "Dans l'annexe 5.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Dans l'annexe 4.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -9953,7 +9953,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -9963,6 +9963,12 @@
       "stem": "En matière d'équipement, quelle obligation s'applique aux bateaux, à l'exception des menues embarcations ?",
       "choices": [
         {
+          "text": "Disposer en toutes circonstances d'un système d'identification automatique (AIS)",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Être équipés d'une installation de radiotéléphonie",
           "image": null,
           "is_correct": true,
@@ -9970,12 +9976,6 @@
         },
         {
           "text": "Embarquer obligatoirement un appareil radar de navigation",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Disposer en toutes circonstances d'un système d'identification automatique (AIS)",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10002,7 +10002,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -10012,9 +10012,9 @@
       "stem": "Dans quel cas l'usage d'un appareil radar de navigation s'impose-t-il à un bateau ?",
       "choices": [
         {
-          "text": "Pour certains bateaux ou certaines situations de navigation déterminés par arrêté ministériel",
+          "text": "Uniquement pour les menues embarcations motorisées",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -10024,9 +10024,9 @@
           "rationale": ""
         },
         {
-          "text": "Uniquement pour les menues embarcations motorisées",
+          "text": "Pour certains bateaux ou certaines situations de navigation déterminés par arrêté ministériel",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -10051,7 +10051,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -10060,12 +10060,6 @@
       "kind": "rule_mc",
       "stem": "Sur une voie navigable, que signifie un panneau rectangulaire à bord rouge barré d'une bande blanche horizontale ?",
       "choices": [
-        {
-          "text": "Interdiction de passer",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Obligation de s'arrêter pour faire le plein",
           "image": null,
@@ -10076,6 +10070,12 @@
           "text": "Recommandation de ralentir",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Interdiction de passer",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -10100,7 +10100,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -10110,9 +10110,9 @@
       "stem": "De nuit, un bateau motorisé faisant route en eaux intérieures porte un feu à bâbord. De quelle couleur est-il ?",
       "choices": [
         {
-          "text": "Rouge",
+          "text": "Jaune",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -10122,9 +10122,9 @@
           "rationale": ""
         },
         {
-          "text": "Jaune",
+          "text": "Rouge",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -10149,7 +10149,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -10159,15 +10159,15 @@
       "stem": "De nuit, un bateau stationnant à l'écart de la rive, hors d'un port, porte le plus souvent :",
       "choices": [
         {
-          "text": "Un feu blanc visible de tous côtés",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Un feu rouge clignotant",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un feu blanc visible de tous côtés",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -10198,7 +10198,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -10208,6 +10208,12 @@
       "stem": "En navigation intérieure, à quoi reconnaît-on un panneau d'INTERDICTION ?",
       "choices": [
         {
+          "text": "À sa forme triangulaire verte",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "À son bord rouge",
           "image": null,
           "is_correct": true,
@@ -10215,12 +10221,6 @@
         },
         {
           "text": "À sa couleur entièrement bleue",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "À sa forme triangulaire verte",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10247,7 +10247,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -10257,9 +10257,9 @@
       "stem": "Que donne, en règle générale, un panneau rectangulaire BLEU à symbole blanc ?",
       "choices": [
         {
-          "text": "Une indication / un renseignement",
+          "text": "Un danger immédiat",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -10269,9 +10269,9 @@
           "rationale": ""
         },
         {
-          "text": "Un danger immédiat",
+          "text": "Une indication / un renseignement",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -10296,7 +10296,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -10306,6 +10306,12 @@
       "stem": "Un panneau carré BLEU portant la lettre « P » blanche signifie :",
       "choices": [
         {
+          "text": "Port de plaisance à 1 km",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Stationnement autorisé",
           "image": null,
           "is_correct": true,
@@ -10313,12 +10319,6 @@
         },
         {
           "text": "Stationnement interdit",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Port de plaisance à 1 km",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10345,7 +10345,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -10355,6 +10355,12 @@
       "stem": "Un panneau à bord rouge portant une flèche blanche indique :",
       "choices": [
         {
+          "text": "Une zone de baignade",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Une obligation de suivre la direction indiquée",
           "image": null,
           "is_correct": true,
@@ -10362,12 +10368,6 @@
         },
         {
           "text": "Une simple recommandation",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Une zone de baignade",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10394,7 +10394,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -10410,13 +10410,13 @@
           "rationale": ""
         },
         {
-          "text": "La distance jusqu'à la prochaine écluse",
+          "text": "Le numéro de la voie d'eau",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Le numéro de la voie d'eau",
+          "text": "La distance jusqu'à la prochaine écluse",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10502,15 +10502,15 @@
       "stem": "Dans une section où l'ancrage est interdit de façon générale par un règlement particulier de police, dans quelles conditions un bateau peut-il néanmoins ancrer ?",
       "choices": [
         {
-          "text": "Seulement dans les secteurs indiqués par le panneau E.6, et du côté de la voie où ce panneau est placé",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Partout dans la section, à condition de signaler le bateau de nuit",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Seulement dans les secteurs indiqués par le panneau E.6, et du côté de la voie où ce panneau est placé",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -10541,7 +10541,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -10600,6 +10600,12 @@
       "stem": "À une aire de stationnement, en l'absence d'autres prescriptions, comment les bateaux doivent-ils se ranger ?",
       "choices": [
         {
+          "text": "À couple en partant de la rive opposée au panneau",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Bord à bord en partant de la rive, du côté de la voie où le panneau est placé",
           "image": null,
           "is_correct": true,
@@ -10607,12 +10613,6 @@
         },
         {
           "text": "En une seule rangée alignée le long du milieu du chenal",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "À couple en partant de la rive opposée au panneau",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10639,7 +10639,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -10698,6 +10698,12 @@
       "stem": "Pour un bateau au stationnement et sans conducteur, à qui incombe la responsabilité de mettre en place la garde ou la surveillance requise ?",
       "choices": [
         {
+          "text": "Le gestionnaire du port ou de l'aire de stationnement",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Le propriétaire, l'armateur ou un autre exploitant",
           "image": null,
           "is_correct": true,
@@ -10705,12 +10711,6 @@
         },
         {
           "text": "L'autorité chargée de la police de la navigation",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Le gestionnaire du port ou de l'aire de stationnement",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10737,7 +10737,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -10796,6 +10796,12 @@
       "stem": "Comment le conducteur d'un bateau doit-il réagir aux ordres particuliers donnés par les fonctionnaires et agents chargés de la police de la navigation en vue de la sécurité ou du bon ordre de la navigation ?",
       "choices": [
         {
+          "text": "Il n'est tenu de s'y conformer que sur les voies maritimes, jamais sur les voies intérieures.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Il se conforme aux ordres particuliers donnés en vue de la sécurité ou du bon ordre de la navigation.",
           "image": null,
           "is_correct": true,
@@ -10803,12 +10809,6 @@
         },
         {
           "text": "Il peut refuser de s'y conformer s'il estime sa propre route prioritaire.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Il n'est tenu de s'y conformer que sur les voies maritimes, jamais sur les voies intérieures.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -10835,7 +10835,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -10845,15 +10845,15 @@
       "stem": "Quelle obligation incombe au conducteur d'un bateau envers les fonctionnaires et agents chargés de la police de la navigation qui constatent des infractions ?",
       "choices": [
         {
-          "text": "Leur donner les facilités nécessaires pour exercer leur mission de constatation des infractions.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Quitter immédiatement les lieux pour ne pas entraver leur intervention.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Leur donner les facilités nécessaires pour exercer leur mission de constatation des infractions.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -10884,7 +10884,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -10893,12 +10893,6 @@
       "kind": "rule_mc",
       "stem": "Que doit faire le conducteur d'un bateau à l'égard des documents dont la présence à bord est obligatoire ?",
       "choices": [
-        {
-          "text": "Les présenter à toute réquisition des agents chargés de la police de la navigation.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Les transmettre uniquement par voie postale dans les huit jours suivant la demande.",
           "image": null,
@@ -10909,6 +10903,12 @@
           "text": "Les présenter seulement aux agents porteurs d'une réquisition écrite d'un juge.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Les présenter à toute réquisition des agents chargés de la police de la navigation.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -10933,7 +10933,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -10943,9 +10943,9 @@
       "stem": "Au sens du règlement général de police (RGP), qu'est-ce qu'une « menue embarcation » ?",
       "choices": [
         {
-          "text": "Un bateau de moins de 20 mètres",
+          "text": "Un bateau de moins de 15 mètres uniquement",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -10955,9 +10955,9 @@
           "rationale": ""
         },
         {
-          "text": "Un bateau de moins de 15 mètres uniquement",
+          "text": "Un bateau de moins de 20 mètres",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -10982,7 +10982,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -10992,15 +10992,15 @@
       "stem": "Où le stationnement (l'arrêt) d'un bateau est-il en principe interdit sur une voie navigable ?",
       "choices": [
         {
-          "text": "Sous les ponts et dans les passages étroits",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Le long de tous les quais aménagés",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Sous les ponts et dans les passages étroits",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -11031,7 +11031,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -11041,6 +11041,12 @@
       "stem": "Pour limiter le batillage (les remous qui érodent les berges et secouent les bateaux amarrés), que doit faire le conducteur près des rives ?",
       "choices": [
         {
+          "text": "Naviguer au plus près de la berge",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Réduire sa vitesse",
           "image": null,
           "is_correct": true,
@@ -11048,12 +11054,6 @@
         },
         {
           "text": "Augmenter sa vitesse pour passer vite",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Naviguer au plus près de la berge",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -11080,7 +11080,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -11090,6 +11090,12 @@
       "stem": "En navigation intérieure, que désigne un bateau « avalant » ?",
       "choices": [
         {
+          "text": "Un bateau à l'arrêt contre la berge",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Un bateau qui descend le courant",
           "image": null,
           "is_correct": true,
@@ -11097,12 +11103,6 @@
         },
         {
           "text": "Un bateau qui remonte le courant",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Un bateau à l'arrêt contre la berge",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -11129,7 +11129,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -11139,15 +11139,15 @@
       "stem": "Le long d'un fleuve ou d'un canal, comment repère-t-on sa position ?",
       "choices": [
         {
-          "text": "Par les points kilométriques (bornes des rives)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Par la latitude et la longitude seules",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Par les points kilométriques (bornes des rives)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -11178,7 +11178,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -11188,6 +11188,12 @@
       "stem": "Avant de passer sous un pont ou une ligne électrique, que doit vérifier le conducteur ?",
       "choices": [
         {
+          "text": "Que son ancre est mouillée",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Que son tirant d'air est inférieur à la hauteur libre",
           "image": null,
           "is_correct": true,
@@ -11195,12 +11201,6 @@
         },
         {
           "text": "Que sa vitesse est maximale",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Que son ancre est mouillée",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -11227,7 +11227,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     }
   ]

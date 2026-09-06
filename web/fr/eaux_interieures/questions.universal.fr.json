@@ -11,7 +11,7 @@
     "permis": "eaux_interieures",
     "permis_label": "Permis plaisance — option eaux intérieures",
     "country": "FR",
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "kb_version": "",
     "lang": "fr",
     "unofficial": "false",
@@ -31,6 +31,12 @@
       "stem": "La marque d'identification (immatriculation) d'un bateau doit être :",
       "choices": [
         {
+          "text": "Facultative pour la plaisance",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Apposée visiblement et lisiblement sur la coque",
           "image": null,
           "is_correct": true,
@@ -38,12 +44,6 @@
         },
         {
           "text": "Conservée uniquement dans les papiers du bord",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Facultative pour la plaisance",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -70,7 +70,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -178,9 +178,9 @@
       "stem": "Pour limiter l'érosion des berges et le dérangement de la faune, le plaisancier doit surtout :",
       "choices": [
         {
-          "text": "Réduire sa vitesse et son batillage près des rives",
+          "text": "S'amarrer dans les roselières",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -190,9 +190,9 @@
           "rationale": ""
         },
         {
-          "text": "S'amarrer dans les roselières",
+          "text": "Réduire sa vitesse et son batillage près des rives",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -217,7 +217,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -282,13 +282,13 @@
           "rationale": ""
         },
         {
-          "text": "Remplir le plus vite possible",
+          "text": "Rincer le réservoir à l'eau du canal",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Rincer le réservoir à l'eau du canal",
+          "text": "Remplir le plus vite possible",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -325,15 +325,15 @@
       "stem": "Un déversement, à partir de votre bateau, d'une substance de nature à créer un danger pour la navigation s'est produit. Que devez-vous faire ?",
       "choices": [
         {
-          "text": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire, en indiquant la nature et l'endroit du déversement.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Ne rien signaler tant que le déversement n'entrave pas totalement la section d'eau.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire, en indiquant la nature et l'endroit du déversement.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -364,7 +364,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -380,13 +380,13 @@
           "rationale": ""
         },
         {
-          "text": "Un carnet de contrôle des huiles usées, obligatoire uniquement à bord des menues embarcations.",
+          "text": "Une attestation annuelle de vidange délivrée par le gestionnaire de la voie d'eau.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Une attestation annuelle de vidange délivrée par le gestionnaire de la voie d'eau.",
+          "text": "Un carnet de contrôle des huiles usées, obligatoire uniquement à bord des menues embarcations.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -423,6 +423,12 @@
       "stem": "Quelle obligation s'impose à toute personne se trouvant à bord d'un bateau ?",
       "choices": [
         {
+          "text": "Suivre uniquement les ordres relatifs à l'embarquement et au débarquement.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Se conformer aux ordres donnés par le conducteur dans l'intérêt de la sécurité de la navigation et de l'ordre à bord.",
           "image": null,
           "is_correct": true,
@@ -430,12 +436,6 @@
         },
         {
           "text": "N'obéir au conducteur que si elle fait partie de l'équipage rémunéré du bateau.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Suivre uniquement les ordres relatifs à l'embarquement et au débarquement.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -462,7 +462,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -521,9 +521,9 @@
       "stem": "Concernant les ancres relevées et les objets dépassant des côtés d'un bateau, quelle règle s'applique ?",
       "choices": [
         {
-          "text": "Aucun objet susceptible de compromettre la sécurité ne doit déborder sur les côtés, et les ancres relevées ne doivent pas dépasser le fond ou la quille du bateau.",
+          "text": "Les ancres relevées doivent rester au-dessus de la ligne de flottaison, mais peuvent dépasser la quille du bateau.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -533,9 +533,9 @@
           "rationale": ""
         },
         {
-          "text": "Les ancres relevées doivent rester au-dessus de la ligne de flottaison, mais peuvent dépasser la quille du bateau.",
+          "text": "Aucun objet susceptible de compromettre la sécurité ne doit déborder sur les côtés, et les ancres relevées ne doivent pas dépasser le fond ou la quille du bateau.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -560,7 +560,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -576,13 +576,13 @@
           "rationale": ""
         },
         {
-          "text": "N'avertir les autorités que si le bateau transporte des marchandises dangereuses.",
+          "text": "Laisser le bateau en place et attendre l'intervention obligatoire du gestionnaire sans intervenir.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Laisser le bateau en place et attendre l'intervention obligatoire du gestionnaire sans intervenir.",
+          "text": "N'avertir les autorités que si le bateau transporte des marchandises dangereuses.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -619,12 +619,6 @@
       "stem": "Quelle obligation pèse sur le conducteur d'un bateau en périodes de glaces ou de crues ?",
       "choices": [
         {
-          "text": "Renforcer les amarres de son bateau, la glace étant brisée autour de la flottaison par lui ou sous sa responsabilité.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Détacher entièrement le bateau de la rive pour le laisser dériver librement avec les glaces.",
           "image": null,
           "is_correct": false,
@@ -634,6 +628,12 @@
           "text": "Confier obligatoirement le brisage de la glace au gestionnaire de la voie d'eau, jamais au conducteur.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Renforcer les amarres de son bateau, la glace étant brisée autour de la flottaison par lui ou sous sa responsabilité.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -658,7 +658,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     }
   ]

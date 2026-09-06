@@ -11,7 +11,7 @@
     "permis": "cotiere",
     "permis_label": "Permis plaisance — option côtière",
     "country": "FR",
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "kb_version": "",
     "lang": "en",
     "unofficial": "true",
@@ -31,12 +31,6 @@
       "stem": "Coming from seaward (IALA region A), what colour and shape is a PORT-hand lateral mark?",
       "choices": [
         {
-          "text": "Red, can-shaped",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Green, conical",
           "image": null,
           "is_correct": false,
@@ -46,6 +40,12 @@
           "text": "Yellow, spherical",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Red, can-shaped",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -70,7 +70,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -80,6 +80,12 @@
       "stem": "Coming from seaward (region A), what colour and shape is a STARBOARD-hand lateral mark?",
       "choices": [
         {
+          "text": "Black and red, with spheres",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Green, conical",
           "image": null,
           "is_correct": true,
@@ -87,12 +93,6 @@
         },
         {
           "text": "Red, can-shaped",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Black and red, with spheres",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -119,7 +119,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -128,12 +128,6 @@
       "kind": "rule_mc",
       "stem": "How is a NORTH cardinal mark's topmark recognised, and which side do you pass?",
       "choices": [
-        {
-          "text": "Two cones pointing up; pass to the north",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Two cones pointing down; pass to the south",
           "image": null,
@@ -144,6 +138,12 @@
           "text": "Two cones point-to-point; pass to the west",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Two cones pointing up; pass to the north",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -168,7 +168,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -178,15 +178,15 @@
       "stem": "What does a black mark with red horizontal bands, topped by two black spheres, indicate?",
       "choices": [
         {
-          "text": "An isolated danger surrounded by safe water",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The main harbour entrance",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "An isolated danger surrounded by safe water",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -217,7 +217,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -226,12 +226,6 @@
       "kind": "rule_mc",
       "stem": "What does a mark with red and white vertical stripes and a red spherical topmark indicate?",
       "choices": [
-        {
-          "text": "Safe water all around; pass on either side",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "An isolated danger to avoid",
           "image": null,
@@ -242,6 +236,12 @@
           "text": "The starboard side of a channel",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Safe water all around; pass on either side",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -266,7 +266,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -276,9 +276,9 @@
       "stem": "Two power-driven vessels meet on directly opposite (head-on) courses with risk of collision. What must each do?",
       "choices": [
         {
-          "text": "Each alters to starboard",
+          "text": "The faster one keeps clear, the other holds course",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -288,9 +288,9 @@
           "rationale": ""
         },
         {
-          "text": "The faster one keeps clear, the other holds course",
+          "text": "Each alters to starboard",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -315,7 +315,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -423,9 +423,9 @@
       "stem": "Not overtaking and outside a narrow channel, a power-driven vessel meets a vessel under sail. Which one keeps clear?",
       "choices": [
         {
-          "text": "The power-driven vessel",
+          "text": "Neither, both hold their course",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -435,9 +435,9 @@
           "rationale": ""
         },
         {
-          "text": "Neither, both hold their course",
+          "text": "The power-driven vessel",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -462,7 +462,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -570,6 +570,12 @@
       "stem": "In sight of another vessel, a power-driven vessel sounds ONE short blast. What is it signalling?",
       "choices": [
         {
+          "text": "“I am operating astern”",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "“I am altering to starboard”",
           "image": null,
           "is_correct": true,
@@ -577,12 +583,6 @@
         },
         {
           "text": "“I am altering to port”",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "“I am operating astern”",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -609,7 +609,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -618,12 +618,6 @@
       "kind": "rule_mc",
       "stem": "What do THREE short blasts from a power-driven vessel in sight of another mean?",
       "choices": [
-        {
-          "text": "“I am operating astern propulsion”",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "“I am altering to port”",
           "image": null,
@@ -634,6 +628,12 @@
           "text": "“I am aground”",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "“I am operating astern propulsion”",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -658,7 +658,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -668,15 +668,15 @@
       "stem": "What do at least FIVE short and rapid blasts mean?",
       "choices": [
         {
-          "text": "Doubt / a warning about the other's manoeuvre",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "An invitation to cross ahead",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Doubt / a warning about the other's manoeuvre",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -707,7 +707,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -716,12 +716,6 @@
       "kind": "rule_mc",
       "stem": "In restricted visibility (fog), what signal does a power-driven vessel underway and making way sound?",
       "choices": [
-        {
-          "text": "One prolonged blast at least every 2 minutes",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Three short blasts every minute",
           "image": null,
@@ -732,6 +726,12 @@
           "text": "No signal is required",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "One prolonged blast at least every 2 minutes",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -756,7 +756,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -765,12 +765,6 @@
       "kind": "rule_mc",
       "stem": "Which of these is a recognised PYROTECHNIC distress signal at sea?",
       "choices": [
-        {
-          "text": "A red parachute flare",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "A flashing green light",
           "image": null,
@@ -781,6 +775,12 @@
           "text": "A hoisted yellow flag",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A red parachute flare",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -805,7 +805,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -815,15 +815,15 @@
       "stem": "How is a SOUTH cardinal mark's topmark recognised, and which side do you pass?",
       "choices": [
         {
-          "text": "Two cones pointing down; pass to the south",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Two cones pointing up; pass to the north",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Two cones pointing down; pass to the south",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -854,7 +854,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -919,13 +919,13 @@
           "rationale": ""
         },
         {
-          "text": "The middle of the channel",
+          "text": "The edge on its port side",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "The edge on its port side",
+          "text": "The middle of the channel",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -962,15 +962,15 @@
       "stem": "At night, a vessel under 50 m at anchor shows:",
       "choices": [
         {
-          "text": "An all-round white light",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "An all-round red light",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "An all-round white light",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1001,7 +1001,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1010,12 +1010,6 @@
       "kind": "rule_mc",
       "stem": "In our waters, when entering a channel from seaward, which light and optional topmark identify a starboard-hand mark?",
       "choices": [
-        {
-          "text": "Green light, with a green cone topmark point up",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Red light, with a red cylinder (can) topmark",
           "image": null,
@@ -1026,6 +1020,12 @@
           "text": "Green light, with a green cone topmark point down",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Green light, with a green cone topmark point up",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1050,7 +1050,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1060,6 +1060,12 @@
       "stem": "Where a channel divides, you see a red mark with a single broad green horizontal band. What does it tell you?",
       "choices": [
         {
+          "text": "The channel is blocked and you must turn back",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The preferred channel is to starboard",
           "image": null,
           "is_correct": true,
@@ -1067,12 +1073,6 @@
         },
         {
           "text": "The preferred channel is to port",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "The channel is blocked and you must turn back",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1099,7 +1099,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1109,15 +1109,15 @@
       "stem": "Which topmark and light rhythm identify an East cardinal mark, which must be passed on its east side?",
       "choices": [
         {
-          "text": "Two black cones base to base; white VQ(3) every 5 s or Q(3) every 10 s",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Two black cones point to point; white VQ(9) every 10 s",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Two black cones base to base; white VQ(3) every 5 s or Q(3) every 10 s",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1148,7 +1148,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1157,12 +1157,6 @@
       "kind": "rule_mc",
       "stem": "A mark shows two black cones arranged point to point, a yellow body with a single broad black horizontal band, and a white light flashing in groups of nine. On which side must you pass?",
       "choices": [
-        {
-          "text": "To the west of the mark",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "To the east of the mark",
           "image": null,
@@ -1173,6 +1167,12 @@
           "text": "To the north of the mark",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "To the west of the mark",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1197,7 +1197,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1207,6 +1207,12 @@
       "stem": "A mark carries two black cones with points downward, a yellow body on top and black below, and shows a white light of quick flashes Q(6) followed by one long flash. Which mark is it?",
       "choices": [
         {
+          "text": "A West cardinal mark",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "A South cardinal mark",
           "image": null,
           "is_correct": true,
@@ -1214,12 +1220,6 @@
         },
         {
           "text": "A North cardinal mark",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "A West cardinal mark",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1246,7 +1246,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     }
   ]

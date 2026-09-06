@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import random
 import sqlite3
 from dataclasses import dataclass, field, asdict, replace
 
@@ -211,6 +212,24 @@ def make_question_id(unit_id: str, stem: str, variant: str = "") -> str:
     slug = "".join(c for c in unit_id.lower() if c.isalnum() or c == "-")[:40]
     digest = hashlib.sha1(f"{unit_id}|{stem}|{variant}".encode()).hexdigest()[:8]
     return f"q-{slug}-{digest}"
+
+
+def shuffle_choices(q: Question) -> None:
+    """Permute a question's choices IN PLACE for display, so the correct answer
+    doesn't sit at a predictable position ("answer A" is a tell — generators emit
+    the keyed option first). Deterministic: seeded from the question id (sha1, not
+    the per-run-salted builtin hash()), so rebuilds are byte-stable and every
+    export of the same question agrees. Only the positions move — texts, images,
+    rationales and is_correct flags travel with their option; callers that publish
+    `Question.correct` indices must recompute them AFTER the shuffle. The bank DB
+    keeps the canonical authored order (the Anki/GIFT round-trip matches by
+    position); this is a display-layer permutation only, same contract as the
+    ELWIS ingest (src/questions/elwis.py). The `|display` salt keeps this seed
+    independent of the generators' own build-time shuffles (elwis `_seed(qid)`,
+    figures): applying one permutation twice would send σ²(0) back to position 0
+    far too often (½ of 4-option questions), re-biasing exactly what this fixes."""
+    seed = int(hashlib.sha1(f"{q.id}|display".encode()).hexdigest()[:8], 16)
+    random.Random(seed).shuffle(q.choices)
 
 
 # --- validation ----------------------------------------------------------------
@@ -541,7 +560,9 @@ def export_json(conn: sqlite3.Connection, path: str,
     default only review-cleared questions are emitted — the public licence/quality
     gate. When `lang` is given, only that language's questions are written and the
     meta is stamped with `lang` (+ `unofficial` for non-grounded languages, i.e.
-    EN). Returns the number written."""
+    EN). Choice order is permuted for display (shuffle_choices — deterministic,
+    seeded by id); `correct` indices follow the permuted order. Returns the number
+    written."""
     conn.row_factory = sqlite3.Row
     rows = conn.execute("SELECT * FROM questions ORDER BY theme, id").fetchall()
     out = []
@@ -551,8 +572,9 @@ def export_json(conn: sqlite3.Connection, path: str,
         if lang is not None and r["lang"] != lang:
             continue
         q = _row_to_question(conn, r)
+        shuffle_choices(q)                # display order — answer position must not be a tell
         d = asdict(q)
-        d["correct"] = q.correct          # convenience for the player
+        d["correct"] = q.correct          # convenience for the player (post-shuffle indices)
         out.append(d)
     meta = {k: v for k, v in conn.execute("SELECT key, value FROM meta")}
     if lang is not None:

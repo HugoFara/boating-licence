@@ -4,7 +4,7 @@
     "pool": "cevni",
     "scope": "cevni",
     "unofficial": false,
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "grounding": "National inland-navigation enactments implementing CEVNI (the UNECE CEVNI text is not redistributable)."
   },
   "questions": [
@@ -15,15 +15,15 @@
       "stem": "In base all'art. 123 ONI, nel caso di impianti per carburanti volatili, dove devono giungere le tubazioni di riempimento?",
       "choices": [
         {
-          "text": "Al ponte o fuori bordo.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Direttamente nel compartimento delle macchine.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Al ponte o fuori bordo.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -54,7 +54,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -63,12 +63,6 @@
       "kind": "rule_mc",
       "stem": "Secondo l'art. 123 ONI, come devono essere i serbatoi per il carburante a bordo?",
       "choices": [
-        {
-          "text": "Isolati, fissati solidamente e, se necessario, muniti di paratie frangiflutti.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Liberi di muoversi nello scafo per compensare il rollio.",
           "image": null,
@@ -79,6 +73,12 @@
           "text": "Privi di raccordi accessibili per ragioni di sicurezza.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Isolati, fissati solidamente e, se necessario, muniti di paratie frangiflutti.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -103,7 +103,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -113,6 +113,12 @@
       "stem": "In base all'art. 134 ONI, su quali natanti motorizzati deve trovarsi, oltre ai mezzi di salvataggio, anche un salvagente con sagola di lancio galleggiante di almeno 10 m?",
       "choices": [
         {
+          "text": "Solo sui battelli a vela con superficie velica inferiore a 15 m2.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Sulle imbarcazioni da diporto e sportive motorizzate con potenza di propulsione superiore a 30 kW.",
           "image": null,
           "is_correct": true,
@@ -120,12 +126,6 @@
         },
         {
           "text": "Su tutti i battelli a remi senza eccezioni.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Solo sui battelli a vela con superficie velica inferiore a 15 m2.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -152,7 +152,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -168,13 +168,13 @@
           "rationale": ""
         },
         {
-          "text": "Almeno 750 N.",
+          "text": "Almeno 100 N.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Almeno 100 N.",
+          "text": "Almeno 750 N.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -211,12 +211,6 @@
       "stem": "Secondo l'art. 143a ONI, quale altezza metacentrica minima deve avere il battello per il trasporto di merci pronto all'esercizio e a pieno carico?",
       "choices": [
         {
-          "text": "Non inferiore a 1,00 m.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Non inferiore a 0,50 m.",
           "image": null,
           "is_correct": false,
@@ -226,6 +220,12 @@
           "text": "Non inferiore a 2,50 m.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Non inferiore a 1,00 m.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -250,7 +250,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -260,6 +260,12 @@
       "stem": "In base all'art. 143a ONI, quale delle seguenti affermazioni sulla prova di stabilità NON è corretta?",
       "choices": [
         {
+          "text": "Per i momenti di sbandamento deve valere una pressione laterale del vento di 0,25 kN/m2.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "L'angolo d'inclinazione trasversale a pieno carico con i carichi esterni indicati può superare liberamente i 15 gradi.",
           "image": null,
           "is_correct": true,
@@ -267,12 +273,6 @@
         },
         {
           "text": "La stabilità è comprovata se l'angolo d'inclinazione trasversale non supera 5 gradi.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Per i momenti di sbandamento deve valere una pressione laterale del vento di 0,25 kN/m2.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -299,7 +299,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -308,12 +308,6 @@
       "kind": "rule_mc",
       "stem": "Secondo l'art. 146 ONI, di quante paratie devono disporre almeno i battelli per il trasporto di merci?",
       "choices": [
-        {
-          "text": "Almeno una paratia di collisione e due paratie per il compartimento delle macchine.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Almeno cinque paratie stagne lungo tutto lo scafo.",
           "image": null,
@@ -324,6 +318,12 @@
           "text": "Nessuna paratia, salvo richiesta dell'autorità.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Almeno una paratia di collisione e due paratie per il compartimento delle macchine.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -348,7 +348,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -407,12 +407,6 @@
       "stem": "In base all'art. 148 ONI, quale obbligo hanno le imprese che gestiscono battelli per il trasporto di merci utilizzati principalmente per oltre 12 persone?",
       "choices": [
         {
-          "text": "Devono disporre di un piano d'emergenza per mettere tempestivamente in sicurezza le persone a bordo.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Devono rinunciare a trasportare qualsiasi merce a bordo.",
           "image": null,
           "is_correct": false,
@@ -422,6 +416,12 @@
           "text": "Sono esonerate da qualsiasi misura di sicurezza per i passeggeri.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Devono disporre di un piano d'emergenza per mettere tempestivamente in sicurezza le persone a bordo.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -446,7 +446,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -456,6 +456,12 @@
       "stem": "Secondo l'art. 148 ONI, quali disposizioni si applicano alla costruzione e all'attrezzatura dei battelli per passeggeri?",
       "choices": [
         {
+          "text": "Nessuna disposizione specifica oltre alle regole generali di navigazione.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Le disposizioni dell'ordinanza del 14 marzo 1994.",
           "image": null,
           "is_correct": true,
@@ -463,12 +469,6 @@
         },
         {
           "text": "Esclusivamente le norme tecniche della direttiva UE sulle imbarcazioni da diporto.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Nessuna disposizione specifica oltre alle regole generali di navigazione.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -495,7 +495,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -511,13 +511,13 @@
           "rationale": ""
         },
         {
-          "text": "Esclusivamente nella lingua del Paese di fabbricazione dell'imbarcazione.",
+          "text": "Solo in francese o in tedesco, mai in inglese.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Solo in francese o in tedesco, mai in inglese.",
+          "text": "Esclusivamente nella lingua del Paese di fabbricazione dell'imbarcazione.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -603,6 +603,12 @@
       "stem": "In base all'art. 150 ONI, per rinunciare a un marinaio su battelli con capacità di carico inferiore a 350 t in buona visibilità diurna, quale durata massima di navigazione tra partenza e arrivo è ammessa?",
       "choices": [
         {
+          "text": "Non più di 30 minuti.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Non più di 45 minuti.",
           "image": null,
           "is_correct": true,
@@ -610,12 +616,6 @@
         },
         {
           "text": "Non più di 90 minuti.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Non più di 30 minuti.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -642,7 +642,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -651,12 +651,6 @@
       "kind": "rule_mc",
       "stem": "Secondo l'art. 150 ONI, di norma quanti marinai compongono l'equipaggio di un battello motorizzato per il trasporto di merci con capacità di carico oltre 1000 t?",
       "choices": [
-        {
-          "text": "2 marinai.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "1 marinaio.",
           "image": null,
@@ -667,6 +661,12 @@
           "text": "3 marinai.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "2 marinai.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -691,7 +691,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -701,15 +701,15 @@
       "stem": "In base all'art. 163 ONI, in quale caso l'autorità competente può autorizzare il traino simultaneo di più di due sciatori nautici?",
       "choices": [
         {
-          "text": "In determinati settori a scopo di allenamento.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Ovunque sul lago durante il fine settimana.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "In determinati settori a scopo di allenamento.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -740,7 +740,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -750,6 +750,12 @@
       "stem": "Secondo l'art. 163 ONI, quale condizione vale per le deroghe non espressamente elencate nel capoverso 1?",
       "choices": [
         {
+          "text": "Sono sempre vietate in qualsiasi circostanza.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Possono essere consentite soltanto con l'accordo dell'Ufficio federale dei trasporti.",
           "image": null,
           "is_correct": true,
@@ -757,12 +763,6 @@
         },
         {
           "text": "Possono essere decise autonomamente dal conduttore del natante.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Sono sempre vietate in qualsiasi circostanza.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -789,7 +789,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -799,15 +799,15 @@
       "stem": "Di notte, quali fanali deve mostrare un battello a vela che naviga a motore (con o senza vela), nella configurazione con fanale d'albero?",
       "choices": [
         {
-          "text": "Fanale d'albero bianco, fanali laterali verde e rosso, fanale di poppa bianco",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Solo un fanale ordinario a luce bianca visibile per tutto l'orizzonte",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Fanale d'albero bianco, fanali laterali verde e rosso, fanale di poppa bianco",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -838,7 +838,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -848,15 +848,15 @@
       "stem": "Un battello a vela che naviga a motore può riunire i fanali laterali e il fanale di poppa in un unico fanale. Di che tipo di fanale si tratta e dove va collocato?",
       "choices": [
         {
-          "text": "Un fanale d'albero tricolore, collocato sulla punta dell'albero o nelle sue vicinanze",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Un fanale laterale combinato, collocato nella parte anteriore del natante",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un fanale d'albero tricolore, collocato sulla punta dell'albero o nelle sue vicinanze",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -887,7 +887,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -903,13 +903,13 @@
           "rationale": ""
         },
         {
-          "text": "Un fanale d'albero tricolore sulla punta dell'albero",
+          "text": "Fanale d'albero bianco con fanali laterali verde e rosso",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Fanale d'albero bianco con fanali laterali verde e rosso",
+          "text": "Un fanale d'albero tricolore sulla punta dell'albero",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -946,15 +946,15 @@
       "stem": "Quale fanale deve mostrare di notte un natante senza motore che naviga isolato o in convoglio rimorchiato?",
       "choices": [
         {
-          "text": "Un fanale ordinario a luce bianca visibile per tutto l'orizzonte",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Fanali laterali verde e rosso e un fanale di poppa bianco",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un fanale ordinario a luce bianca visibile per tutto l'orizzonte",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -985,7 +985,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1044,6 +1044,12 @@
       "stem": "Per i fanali a luce visibile per tutto l'orizzonte collocati verticalmente uno sopra l'altro, quale combinazione di colori è corretta?",
       "choices": [
         {
+          "text": "Entrambi i fanali a luce bianca",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Il fanale superiore a luce rossa, quello inferiore a luce verde",
           "image": null,
           "is_correct": true,
@@ -1051,12 +1057,6 @@
         },
         {
           "text": "Il fanale superiore a luce verde, quello inferiore a luce rossa",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Entrambi i fanali a luce bianca",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1083,7 +1083,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1099,13 +1099,13 @@
           "rationale": ""
         },
         {
-          "text": "Una luce ordinaria rossa sopra una luce ordinaria bianca",
+          "text": "Una luce ordinaria gialla, visibile per tutto l'orizzonte",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Una luce ordinaria gialla, visibile per tutto l'orizzonte",
+          "text": "Una luce ordinaria rossa sopra una luce ordinaria bianca",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1142,9 +1142,9 @@
       "stem": "Oltre ai fanali d'albero, laterali e di poppa, quale segnale luminoso supplementare distingue di notte un battello con precedenza?",
       "choices": [
         {
-          "text": "Un fanale chiaro a luce verde visibile per tutto l'orizzonte, almeno 1 m più in alto del fanale d'albero",
+          "text": "Una luce ordinaria gialla visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1154,9 +1154,9 @@
           "rationale": ""
         },
         {
-          "text": "Una luce ordinaria gialla visibile per tutto l'orizzonte",
+          "text": "Un fanale chiaro a luce verde visibile per tutto l'orizzonte, almeno 1 m più in alto del fanale d'albero",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1181,7 +1181,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1191,6 +1191,12 @@
       "stem": "Come segnala di notte un natante adibito alla protezione contro il moto ondoso, in più dei fanali prescritti?",
       "choices": [
         {
+          "text": "Una luce ordinaria verde visibile per tutto l'orizzonte, collocata sopra la luce bianca",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Una luce ordinaria rossa visibile per tutto l'orizzonte, collocata sopra la luce ordinaria bianca visibile per tutto l'orizzonte",
           "image": null,
           "is_correct": true,
@@ -1198,12 +1204,6 @@
         },
         {
           "text": "Una luce ordinaria bianca visibile per tutto l'orizzonte, collocata sopra un'altra luce bianca visibile per tutto l'orizzonte",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Una luce ordinaria verde visibile per tutto l'orizzonte, collocata sopra la luce bianca",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1230,7 +1230,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1240,9 +1240,9 @@
       "stem": "Quale bandiera segnala di giorno la protezione contro il moto ondoso?",
       "choices": [
         {
-          "text": "Una bandiera con la metà superiore rossa e la metà inferiore bianca",
+          "text": "Due bandiere bianche sovrapposte",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1252,9 +1252,9 @@
           "rationale": ""
         },
         {
-          "text": "Due bandiere bianche sovrapposte",
+          "text": "Una bandiera con la metà superiore rossa e la metà inferiore bianca",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1279,7 +1279,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1289,15 +1289,15 @@
       "stem": "In alternativa alla bandiera bicolore, quale segnale diurno può essere usato per la protezione contro il moto ondoso?",
       "choices": [
         {
-          "text": "Due bandiere, quella superiore rossa e quella inferiore bianca",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Due bandiere bianche sovrapposte",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Due bandiere, quella superiore rossa e quella inferiore bianca",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1328,7 +1328,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1337,12 +1337,6 @@
       "kind": "rule_mc",
       "stem": "Come segnala di notte un natante con ancoraggi pericolosi?",
       "choices": [
-        {
-          "text": "Una luce ordinaria bianca visibile per tutto l'orizzonte, collocata sopra la luce bianca di stazionamento visibile per tutto l'orizzonte",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Una luce ordinaria rossa visibile per tutto l'orizzonte, collocata sopra la luce bianca di stazionamento",
           "image": null,
@@ -1353,6 +1347,12 @@
           "text": "Una sola luce ordinaria gialla visibile per tutto l'orizzonte",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Una luce ordinaria bianca visibile per tutto l'orizzonte, collocata sopra la luce bianca di stazionamento visibile per tutto l'orizzonte",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1377,7 +1377,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1387,15 +1387,15 @@
       "stem": "Quale segnale diurno indica la presenza di ancoraggi pericolosi?",
       "choices": [
         {
-          "text": "Due bandiere bianche sovrapposte",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Una bandiera con la metà superiore rossa e la metà inferiore bianca",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Due bandiere bianche sovrapposte",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1426,7 +1426,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1442,13 +1442,13 @@
           "rationale": ""
         },
         {
-          "text": "Con luci rosse visibili da tutti i lati che contrassegnano ciascun ancoraggio",
+          "text": "Con palloni bianchi posti su ciascun ancoraggio",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Con palloni bianchi posti su ciascun ancoraggio",
+          "text": "Con luci rosse visibili da tutti i lati che contrassegnano ciascun ancoraggio",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1485,10 +1485,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Obbligo di osservare una prudenza particolare",
+          "text": "Divieto per i natanti motorizzati",
           "image": null,
           "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di osservare una prudenza particolare» (ONI Allegato 4 – fig. 22). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto per i natanti motorizzati» (ONI Allegato 4 – fig. 3). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Boe gialle che segnalino ciascun ancoraggio",
@@ -1497,10 +1497,10 @@
           "rationale": ""
         },
         {
-          "text": "Divieto per i natanti motorizzati",
+          "text": "Obbligo di osservare una prudenza particolare",
           "image": null,
           "is_correct": false,
-          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto per i natanti motorizzati» (ONI Allegato 4 – fig. 3). Qui è il pittogramma, e solo lui, a fare la differenza."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di osservare una prudenza particolare» (ONI Allegato 4 – fig. 22). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -1534,12 +1534,6 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Luce blu intermittente",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Larghezza limitata del passaggio",
           "image": null,
           "is_correct": false,
@@ -1550,6 +1544,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "È un altro segnale: «Obbligo di fermarsi in determinate condizioni» (ONI Allegato 4 – fig. 19)."
+        },
+        {
+          "text": "Luce blu intermittente",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1573,7 +1573,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1582,12 +1582,6 @@
       "kind": "rule_mc",
       "stem": "I battelli della polizia, della sorveglianza di frontiera o della vigilanza sulla pesca che intendono entrare in comunicazione con altri natanti issano una bandiera. Quale?",
       "choices": [
-        {
-          "text": "La bandiera della lettera «K», con la metà lato asta gialla e l'altra metà blu",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "La bandiera della lettera «A», con la metà lato asta bianca e l'altra metà blu",
           "image": null,
@@ -1598,6 +1592,12 @@
           "text": "Una bandiera con la metà superiore rossa e la metà inferiore bianca",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "La bandiera della lettera «K», con la metà lato asta gialla e l'altra metà blu",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1622,7 +1622,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1632,9 +1632,9 @@
       "stem": "Quale fanale distingue di notte un'imbarcazione di un pescatore professionista durante la pesca?",
       "choices": [
         {
-          "text": "Una luce ordinaria gialla visibile per tutto l'orizzonte",
+          "text": "Una luce ordinaria rossa sopra una luce ordinaria bianca",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1644,9 +1644,9 @@
           "rationale": ""
         },
         {
-          "text": "Una luce ordinaria rossa sopra una luce ordinaria bianca",
+          "text": "Una luce ordinaria gialla visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1671,7 +1671,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1680,12 +1680,6 @@
       "kind": "rule_mc",
       "stem": "Quale segnale diurno deve mostrare un'imbarcazione impegnata nella pesca con la sciabica?",
       "choices": [
-        {
-          "text": "Un pallone bianco",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Una bandiera della lettera «A», metà bianca e metà blu",
           "image": null,
@@ -1696,6 +1690,12 @@
           "text": "Due bandiere bianche sovrapposte",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un pallone bianco",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1720,7 +1720,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1729,12 +1729,6 @@
       "kind": "rule_mc",
       "stem": "Quale segnale contrassegna un'immersione subacquea svolta da riva?",
       "choices": [
-        {
-          "text": "Una tavola della lettera «A» (a due punte), con la metà lato asta bianca e l'altra metà blu",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Una bandiera della lettera «K», con la metà lato asta gialla e l'altra metà blu",
           "image": null,
@@ -1745,6 +1739,12 @@
           "text": "Una bandiera con la metà superiore rossa e la metà inferiore bianca",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Una tavola della lettera «A» (a due punte), con la metà lato asta bianca e l'altra metà blu",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1769,7 +1769,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1778,12 +1778,6 @@
       "kind": "rule_mc",
       "stem": "Come va contrassegnata un'immersione subacquea svolta al largo?",
       "choices": [
-        {
-          "text": "Con una tavola della lettera «A» (metà bianca, metà blu) visibile per tutto l'orizzonte",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Con un pallone bianco visibile per tutto l'orizzonte",
           "image": null,
@@ -1794,6 +1788,12 @@
           "text": "Con una luce ordinaria gialla visibile per tutto l'orizzonte",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Con una tavola della lettera «A» (metà bianca, metà blu) visibile per tutto l'orizzonte",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1818,7 +1818,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1827,12 +1827,6 @@
       "kind": "rule_mc",
       "stem": "Come segnala la propria condizione, di notte, un natante impossibilitato a manovrare?",
       "choices": [
-        {
-          "text": "Agitando un fanale",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Agitando un fanale con movimento rotatorio",
           "image": null,
@@ -1843,6 +1837,12 @@
           "text": "Mostrando una luce ordinaria rossa sopra una bianca",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Agitando un fanale",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1867,7 +1867,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1926,15 +1926,15 @@
       "stem": "Quali fanali deve mostrare di notte un battello motorizzato isolato o che ne rimorchia altri?",
       "choices": [
         {
-          "text": "Fanale d'albero (o di prua) bianco, fanali laterali verde e rosso, fanale di poppa bianco",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Solo un fanale ordinario a luce bianca visibile per tutto l'orizzonte",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Fanale d'albero (o di prua) bianco, fanali laterali verde e rosso, fanale di poppa bianco",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1965,7 +1965,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1975,15 +1975,15 @@
       "stem": "Come si segnala di notte un natante in difficoltà che chiede soccorso?",
       "choices": [
         {
-          "text": "Agitando un fanale con movimento rotatorio",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Agitando un fanale senza movimento rotatorio",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Agitando un fanale con movimento rotatorio",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2014,7 +2014,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2024,10 +2024,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Chiusa",
+          "text": "Agitare una bandiera rossa oppure un altro oggetto appropriato con movimento rotatorio",
           "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Chiusa» (ONI Allegato 4 – fig. 41)."
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Boe gialle che segnalino ciascun ancoraggio",
@@ -2036,10 +2036,10 @@
           "rationale": "È un altro segnale: «Boe gialle che segnalino ciascun ancoraggio» (ONI Allegato 2 – fig. 29)."
         },
         {
-          "text": "Agitare una bandiera rossa oppure un altro oggetto appropriato con movimento rotatorio",
+          "text": "Chiusa",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Chiusa» (ONI Allegato 4 – fig. 41)."
         }
       ],
       "provenance": {
@@ -2063,7 +2063,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -2073,6 +2073,12 @@
       "stem": "Quale gesto costituisce un segnale di soccorso da parte di una persona in difficoltà?",
       "choices": [
         {
+          "text": "Tenere entrambe le braccia immobili sopra la testa",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Alzare e abbassare lentamente le braccia allargate",
           "image": null,
           "is_correct": true,
@@ -2080,12 +2086,6 @@
         },
         {
           "text": "Agitare un fanale con movimento rotatorio",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Tenere entrambe le braccia immobili sopra la testa",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2112,7 +2112,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2122,15 +2122,15 @@
       "stem": "Di notte, come va segnalato un impianto galleggiante (o un natante incagliato/affondato) sul lato dove il passaggio è libero e su quello dove è ostacolato?",
       "choices": [
         {
-          "text": "Lato libero: un fanale ordinario rosso e un fanale ordinario bianco; lato ostacolato: un fanale ordinario rosso",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Lato libero: un fanale ordinario rosso; lato ostacolato: un fanale ordinario rosso e uno bianco",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Lato libero: un fanale ordinario rosso e un fanale ordinario bianco; lato ostacolato: un fanale ordinario rosso",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2161,7 +2161,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2171,15 +2171,15 @@
       "stem": "Di giorno, come si segnala con bandiere un impianto galleggiante sul lato dove il passaggio è libero e su quello dove è ostacolato?",
       "choices": [
         {
-          "text": "Lato libero: bandiera con metà superiore rossa e metà inferiore bianca; lato ostacolato: bandiera rossa",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Lato libero: bandiera rossa; lato ostacolato: bandiera con metà rossa e metà bianca",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Lato libero: bandiera con metà superiore rossa e metà inferiore bianca; lato ostacolato: bandiera rossa",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2210,7 +2210,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2226,13 +2226,13 @@
           "rationale": ""
         },
         {
-          "text": "Lato libero: due bandiere bianche sovrapposte; lato ostacolato: bandiera rossa",
+          "text": "Lato libero: bandiera rossa; lato ostacolato: due bandiere rossa e bianca sovrapposte",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Lato libero: bandiera rossa; lato ostacolato: due bandiere rossa e bianca sovrapposte",
+          "text": "Lato libero: due bandiere bianche sovrapposte; lato ostacolato: bandiera rossa",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2269,15 +2269,15 @@
       "stem": "Quali fanali contraddistinguono di notte un convoglio spinto?",
       "choices": [
         {
-          "text": "Fanale d'albero bianco sul natante di testa, fanali laterali verde e rosso, fanale di poppa bianco",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Un fanale ordinario a luce bianca visibile per tutto l'orizzonte sul natante di testa",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Fanale d'albero bianco sul natante di testa, fanali laterali verde e rosso, fanale di poppa bianco",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2308,7 +2308,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2416,6 +2416,12 @@
       "stem": "Quale significato ha il segnale di divieto generale di passaggio?",
       "choices": [
         {
+          "text": "Passaggio raccomandato in entrambi i sensi",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Divieto di passaggio",
           "image": null,
           "is_correct": true,
@@ -2423,12 +2429,6 @@
         },
         {
           "text": "Obbligo di ridurre la velocità",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Passaggio raccomandato in entrambi i sensi",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2455,7 +2455,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2471,16 +2471,16 @@
           "rationale": ""
         },
         {
-          "text": "Obbligo di fermarsi in determinate condizioni",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di fermarsi in determinate condizioni» (ONI Allegato 4 – fig. 19). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
-        },
-        {
           "text": "Tavole a vela autorizzate",
           "image": null,
           "is_correct": false,
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Tavole a vela autorizzate» (ONI Allegato 4 – fig. 37). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
+        {
+          "text": "Obbligo di fermarsi in determinate condizioni",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di fermarsi in determinate condizioni» (ONI Allegato 4 – fig. 19). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -2514,16 +2514,16 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Divieto d’ormeggiare",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Divieto di incrociare e sorpassare",
           "image": null,
           "is_correct": false,
           "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di incrociare e sorpassare» (ONI Allegato 4 – fig. 8). Qui è il pittogramma, e solo lui, a fare la differenza."
+        },
+        {
+          "text": "Divieto d’ormeggiare",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorizzazione di passaggio",
@@ -2553,7 +2553,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2569,16 +2569,16 @@
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Tavole a vela autorizzate» (ONI Allegato 4 – fig. 37). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
-          "text": "Divieto di cagionare moto ondoso o risucchi",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13). Qui è il pittogramma, e solo lui, a fare la differenza."
-        },
-        {
           "text": "Divieto di virare",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Divieto di cagionare moto ondoso o risucchi",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -2602,7 +2602,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -2661,10 +2661,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Kite surf autorizzati",
+          "text": "Divieto d’ormeggiare",
           "image": null,
           "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Kite surf autorizzati» (ONI Allegato 4 – fig. 38). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto d’ormeggiare» (ONI Allegato 4 – fig. 11). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Divieto di navigare fuori dei limiti indicati",
@@ -2673,10 +2673,10 @@
           "rationale": ""
         },
         {
-          "text": "Divieto d’ormeggiare",
+          "text": "Kite surf autorizzati",
           "image": null,
           "is_correct": false,
-          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto d’ormeggiare» (ONI Allegato 4 – fig. 11). Qui è il pittogramma, e solo lui, a fare la differenza."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Kite surf autorizzati» (ONI Allegato 4 – fig. 38). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -2716,16 +2716,16 @@
           "rationale": "Famiglia giusta, segnale sbagliato: «Divieto d’ormeggiare» (ONI Allegato 4 – fig. 11). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
-          "text": "Divieto di navigare fuori dei limiti indicati",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Autorizzazione di passaggio",
           "image": null,
           "is_correct": false,
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione di passaggio» (ONI Allegato 4 – fig. 32). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
+        {
+          "text": "Divieto di navigare fuori dei limiti indicati",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2749,7 +2749,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -2759,10 +2759,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Divieto d’accesso, ancorché occorra preparare il proseguimento della rotta",
+          "text": "Divieto per i natanti motorizzati",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto per i natanti motorizzati» (ONI Allegato 4 – fig. 3). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Obbligo di fermarsi in determinate condizioni",
@@ -2771,10 +2771,10 @@
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di fermarsi in determinate condizioni» (ONI Allegato 4 – fig. 19). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
-          "text": "Divieto per i natanti motorizzati",
+          "text": "Divieto d’accesso, ancorché occorra preparare il proseguimento della rotta",
           "image": null,
-          "is_correct": false,
-          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto per i natanti motorizzati» (ONI Allegato 4 – fig. 3). Qui è il pittogramma, e solo lui, a fare la differenza."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -2798,7 +2798,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2808,16 +2808,16 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Posto per toglieredall'acqua i natanti",
-          "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Posto per toglieredall'acqua i natanti» (ONI Allegato 4 – fig. 43)."
-        },
-        {
           "text": "Linea ad alta tensione",
           "image": null,
           "is_correct": false,
           "rationale": "È un altro segnale: «Linea ad alta tensione» (ONI Allegato 4 – fig. 45)."
+        },
+        {
+          "text": "Posto per toglieredall'acqua i natanti",
+          "image": null,
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Posto per toglieredall'acqua i natanti» (ONI Allegato 4 – fig. 43)."
         },
         {
           "text": "Divieto di balneazione",
@@ -2857,10 +2857,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Agitare una bandiera rossa",
+          "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Agitare una bandiera rossa» (ONI Allegato 2 – fig. 39)."
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Raccomandazione di dirigersi nel senso della freccia",
@@ -2869,10 +2869,10 @@
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Raccomandazione di dirigersi nel senso della freccia» (ONI Allegato 4 – fig. 39). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
-          "text": "Obbligo di prendere la direzione indicata dalla freccia",
+          "text": "Agitare una bandiera rossa",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Agitare una bandiera rossa» (ONI Allegato 2 – fig. 39)."
         }
       ],
       "provenance": {
@@ -2896,7 +2896,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -2912,16 +2912,16 @@
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
-          "text": "Luce blu intermittente",
-          "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
-        },
-        {
           "text": "Obbligo di fermarsi in determinate condizioni",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Luce blu intermittente",
+          "image": null,
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
         }
       ],
       "provenance": {
@@ -2945,7 +2945,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -2955,16 +2955,16 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Divieto di navigare fuori dei limiti indicati",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di navigare fuori dei limiti indicati» (ONI Allegato 4 – fig. 14). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
-        },
-        {
           "text": "Agitare una bandiera rossa",
           "image": null,
           "is_correct": false,
           "rationale": "È un altro segnale: «Agitare una bandiera rossa» (ONI Allegato 2 – fig. 39)."
+        },
+        {
+          "text": "Divieto di navigare fuori dei limiti indicati",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di navigare fuori dei limiti indicati» (ONI Allegato 4 – fig. 14). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Obbligo di non superare la velocità indicata in chilometri orari km/h",
@@ -3004,16 +3004,16 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Obbligo di emettere un segnale acustico",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Tavole a vela autorizzate",
           "image": null,
           "is_correct": false,
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Tavole a vela autorizzate» (ONI Allegato 4 – fig. 37). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
+        {
+          "text": "Obbligo di emettere un segnale acustico",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di incrociare e sorpassare",
@@ -3043,7 +3043,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3052,6 +3052,12 @@
       "kind": "figure_recognition",
       "stem": "Che cosa significa questo segnale?",
       "choices": [
+        {
+          "text": "Autorizzazione di stazionare",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione di stazionare» (ONI Allegato 4 – fig. 33). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
         {
           "text": "Obbligo di osservare una prudenza particolare",
           "image": null,
@@ -3063,12 +3069,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione d’ormeggiare» (ONI Allegato 4 – fig. 35). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
-        },
-        {
-          "text": "Autorizzazione di stazionare",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione di stazionare» (ONI Allegato 4 – fig. 33). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -3092,7 +3092,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3102,10 +3102,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Linea ad alta tensione",
+          "text": "Posto per mettere in acqua i natanti",
           "image": null,
           "is_correct": false,
-          "rationale": "È un altro segnale: «Linea ad alta tensione» (ONI Allegato 4 – fig. 45)."
+          "rationale": "È un altro segnale: «Posto per mettere in acqua i natanti» (ONI Allegato 4 – fig. 42)."
         },
         {
           "text": "Altezza del passaggio limitata (al di sopra del pelo d’acqua)",
@@ -3114,10 +3114,10 @@
           "rationale": ""
         },
         {
-          "text": "Posto per mettere in acqua i natanti",
+          "text": "Linea ad alta tensione",
           "image": null,
           "is_correct": false,
-          "rationale": "È un altro segnale: «Posto per mettere in acqua i natanti» (ONI Allegato 4 – fig. 42)."
+          "rationale": "È un altro segnale: «Linea ad alta tensione» (ONI Allegato 4 – fig. 45)."
         }
       ],
       "provenance": {
@@ -3151,6 +3151,12 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
+          "text": "Larghezza limitata del passaggio",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
           "is_correct": false,
@@ -3161,12 +3167,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "È un altro segnale: «Avviso di tempesta» (ONI Allegato 4 – fig. 60)."
-        },
-        {
-          "text": "Larghezza limitata del passaggio",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
         }
       ],
       "provenance": {
@@ -3190,7 +3190,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -3200,9 +3200,9 @@
       "stem": "Su un segnale che indica il restringimento della via navigabile, cosa rappresenta il numero riportato?",
       "choices": [
         {
-          "text": "La distanza in metri dalla riva alla quale devono tenersi i natanti",
+          "text": "La profondità minima dell'acqua in metri",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -3212,9 +3212,9 @@
           "rationale": ""
         },
         {
-          "text": "La profondità minima dell'acqua in metri",
+          "text": "La distanza in metri dalla riva alla quale devono tenersi i natanti",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3239,7 +3239,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3255,16 +3255,16 @@
           "rationale": ""
         },
         {
-          "text": "Divieto di cagionare moto ondoso o risucchi",
-          "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13)."
-        },
-        {
           "text": "Avviso di tempesta",
           "image": null,
           "is_correct": false,
           "rationale": "È un altro segnale: «Avviso di tempesta» (ONI Allegato 4 – fig. 60)."
+        },
+        {
+          "text": "Divieto di cagionare moto ondoso o risucchi",
+          "image": null,
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13)."
         }
       ],
       "provenance": {
@@ -3298,9 +3298,9 @@
       "stem": "Quale segnale indica il passaggio raccomandato sotto i ponti per la navigazione nei due sensi?",
       "choices": [
         {
-          "text": "Passaggio raccomandato sotto i ponti, per la navigazione nei due sensi",
+          "text": "Divieto di passaggio sotto i ponti",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -3310,9 +3310,9 @@
           "rationale": ""
         },
         {
-          "text": "Divieto di passaggio sotto i ponti",
+          "text": "Passaggio raccomandato sotto i ponti, per la navigazione nei due sensi",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3337,7 +3337,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3346,12 +3346,6 @@
       "kind": "figure_recognition",
       "stem": "Che cosa significa questo segnale?",
       "choices": [
-        {
-          "text": "Obbligo di prendere la direzione indicata dalla freccia",
-          "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Obbligo di prendere la direzione indicata dalla freccia» (ONI Allegato 4 – fig. 18)."
-        },
         {
           "text": "Autorizzazione di passaggio",
           "image": null,
@@ -3363,6 +3357,12 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Obbligo di prendere la direzione indicata dalla freccia",
+          "image": null,
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Obbligo di prendere la direzione indicata dalla freccia» (ONI Allegato 4 – fig. 18)."
         }
       ],
       "provenance": {
@@ -3386,7 +3386,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -3396,10 +3396,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Divieto di stazionare",
+          "text": "Fine di un divieto o di un obbligo",
           "image": null,
           "is_correct": false,
-          "rationale": "È un altro segnale: «Divieto di stazionare» (ONI Allegato 4 – fig. 9)."
+          "rationale": "È un altro segnale: «Fine di un divieto o di un obbligo» (ONI Allegato 4 – fig. 44)."
         },
         {
           "text": "Per la navigazione solo nel senso dal quale il segnale è visibile",
@@ -3408,10 +3408,10 @@
           "rationale": ""
         },
         {
-          "text": "Fine di un divieto o di un obbligo",
+          "text": "Divieto di stazionare",
           "image": null,
           "is_correct": false,
-          "rationale": "È un altro segnale: «Fine di un divieto o di un obbligo» (ONI Allegato 4 – fig. 44)."
+          "rationale": "È un altro segnale: «Divieto di stazionare» (ONI Allegato 4 – fig. 9)."
         }
       ],
       "provenance": {
@@ -3445,6 +3445,12 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
+          "text": "Divieto per i natanti motorizzati",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
           "text": "Tavole a vela autorizzate",
           "image": null,
           "is_correct": false,
@@ -3455,12 +3461,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di prendere la direzione indicata dalla freccia» (ONI Allegato 4 – fig. 18). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
-        },
-        {
-          "text": "Divieto per i natanti motorizzati",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
         }
       ],
       "provenance": {
@@ -3484,7 +3484,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -3494,10 +3494,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Divieto per lo sci nautico",
+          "text": "Divieto di balneazione",
           "image": null,
           "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto per lo sci nautico» (ONI Allegato 4 – fig. 4). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di balneazione» (ONI Allegato 4 – fig. 17). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Raccomandazione di tenersi entro lo spazio indicato con il colore «verde»",
@@ -3506,10 +3506,10 @@
           "rationale": ""
         },
         {
-          "text": "Divieto di balneazione",
+          "text": "Divieto per lo sci nautico",
           "image": null,
           "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di balneazione» (ONI Allegato 4 – fig. 17). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto per lo sci nautico» (ONI Allegato 4 – fig. 4). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -3543,16 +3543,16 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Obbligo di emettere un segnale acustico",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di emettere un segnale acustico» (ONI Allegato 4 – fig. 21). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
-        },
-        {
           "text": "Posto per mettere in acqua i natanti",
           "image": null,
           "is_correct": false,
           "rationale": "È un altro segnale: «Posto per mettere in acqua i natanti» (ONI Allegato 4 – fig. 42)."
+        },
+        {
+          "text": "Obbligo di emettere un segnale acustico",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di emettere un segnale acustico» (ONI Allegato 4 – fig. 21). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Raccomandazione di tenersi entro lo spazio indicato con il colore «verde»",
@@ -3592,6 +3592,12 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
+          "text": "Obbligo di fermarsi in determinate condizioni",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di fermarsi in determinate condizioni» (ONI Allegato 4 – fig. 19). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
+        {
           "text": "Autorizzazione di praticare lo sci nautico",
           "image": null,
           "is_correct": false,
@@ -3602,12 +3608,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Obbligo di fermarsi in determinate condizioni",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di fermarsi in determinate condizioni» (ONI Allegato 4 – fig. 19). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -3631,7 +3631,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -3641,10 +3641,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Autorizzazione di stazionare",
+          "text": "Posto per mettere in acqua i natanti",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Posto per mettere in acqua i natanti» (ONI Allegato 4 – fig. 42)."
         },
         {
           "text": "Divieto d’ormeggiare",
@@ -3653,10 +3653,10 @@
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto d’ormeggiare» (ONI Allegato 4 – fig. 11). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
-          "text": "Posto per mettere in acqua i natanti",
+          "text": "Autorizzazione di stazionare",
           "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Posto per mettere in acqua i natanti» (ONI Allegato 4 – fig. 42)."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3680,7 +3680,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3745,16 +3745,16 @@
           "rationale": "Famiglia giusta, segnale sbagliato: «Kite surf autorizzati» (ONI Allegato 4 – fig. 38). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
-          "text": "Autorizzazione d’ormeggiare",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Fine di un divieto o di un obbligo",
           "image": null,
           "is_correct": false,
           "rationale": "È un altro segnale: «Fine di un divieto o di un obbligo» (ONI Allegato 4 – fig. 44)."
+        },
+        {
+          "text": "Autorizzazione d’ormeggiare",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3778,7 +3778,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -3794,16 +3794,16 @@
           "rationale": "È un altro segnale: «Larghezza limitata del passaggio» (ONI Allegato 4 – fig. 24)."
         },
         {
-          "text": "Divieto di cagionare moto ondoso o risucchi",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
-        },
-        {
           "text": "Autorizzazione di praticare lo sci nautico",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Divieto di cagionare moto ondoso o risucchi",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -3827,7 +3827,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -3843,16 +3843,16 @@
           "rationale": ""
         },
         {
-          "text": "Luce blu intermittente",
-          "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
-        },
-        {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
           "is_correct": false,
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di prendere la direzione indicata dalla freccia» (ONI Allegato 4 – fig. 18). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
+        {
+          "text": "Luce blu intermittente",
+          "image": null,
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
         }
       ],
       "provenance": {
@@ -3886,10 +3886,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Autorizzazione di praticare lo sci nautico",
+          "text": "Kite surf autorizzati",
           "image": null,
-          "is_correct": false,
-          "rationale": "Famiglia giusta, segnale sbagliato: «Autorizzazione di praticare lo sci nautico» (ONI Allegato 4 – fig. 36). Qui è il pittogramma, e solo lui, a fare la differenza."
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto di cagionare moto ondoso o risucchi",
@@ -3898,10 +3898,10 @@
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
-          "text": "Kite surf autorizzati",
+          "text": "Autorizzazione di praticare lo sci nautico",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Famiglia giusta, segnale sbagliato: «Autorizzazione di praticare lo sci nautico» (ONI Allegato 4 – fig. 36). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -3925,7 +3925,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -3935,10 +3935,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Raccomandazione di dirigersi nel senso della freccia",
+          "text": "Larghezza limitata del passaggio",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Larghezza limitata del passaggio» (ONI Allegato 4 – fig. 24)."
         },
         {
           "text": "Luce blu intermittente",
@@ -3947,10 +3947,10 @@
           "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
         },
         {
-          "text": "Larghezza limitata del passaggio",
+          "text": "Raccomandazione di dirigersi nel senso della freccia",
           "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Larghezza limitata del passaggio» (ONI Allegato 4 – fig. 24)."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3974,7 +3974,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4033,16 +4033,16 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Divieto per lo sci nautico",
-          "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Divieto per lo sci nautico» (ONI Allegato 4 – fig. 4)."
-        },
-        {
           "text": "Autorizzazione di passaggio",
           "image": null,
           "is_correct": false,
           "rationale": "È un altro segnale: «Autorizzazione di passaggio» (ONI Allegato 4 – fig. 32)."
+        },
+        {
+          "text": "Divieto per lo sci nautico",
+          "image": null,
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Divieto per lo sci nautico» (ONI Allegato 4 – fig. 4)."
         },
         {
           "text": "Chiatta di traghetto che non naviga liberamente",
@@ -4131,6 +4131,12 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
+          "text": "Chiatta di traghetto che non naviga liberamente",
+          "image": null,
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Chiatta di traghetto che non naviga liberamente» (ONI Allegato 4 – fig. 40)."
+        },
+        {
           "text": "Autorizzazione di stazionare",
           "image": null,
           "is_correct": false,
@@ -4141,12 +4147,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Chiatta di traghetto che non naviga liberamente",
-          "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Chiatta di traghetto che non naviga liberamente» (ONI Allegato 4 – fig. 40)."
         }
       ],
       "provenance": {
@@ -4170,7 +4170,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -4179,12 +4179,6 @@
       "kind": "figure_recognition",
       "stem": "Che cosa significa questo segnale?",
       "choices": [
-        {
-          "text": "Posto per toglieredall'acqua i natanti",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Avviso di tempesta",
           "image": null,
@@ -4196,6 +4190,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
+        },
+        {
+          "text": "Posto per toglieredall'acqua i natanti",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4219,7 +4219,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4229,10 +4229,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Fine di un divieto o di un obbligo",
+          "text": "Posto per mettere in acqua i natanti",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Posto per mettere in acqua i natanti» (ONI Allegato 4 – fig. 42)."
         },
         {
           "text": "Divieto per i natanti motorizzati",
@@ -4241,10 +4241,10 @@
           "rationale": "È un altro segnale: «Divieto per i natanti motorizzati» (ONI Allegato 4 – fig. 3)."
         },
         {
-          "text": "Posto per mettere in acqua i natanti",
+          "text": "Fine di un divieto o di un obbligo",
           "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Posto per mettere in acqua i natanti» (ONI Allegato 4 – fig. 42)."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4268,7 +4268,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4327,9 +4327,9 @@
       "stem": "Quale significato ha il segnale relativo allo stazionamento dei natanti?",
       "choices": [
         {
-          "text": "Autorizzazione di stazionamento",
+          "text": "Obbligo di stazionamento",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -4339,9 +4339,9 @@
           "rationale": ""
         },
         {
-          "text": "Obbligo di stazionamento",
+          "text": "Autorizzazione di stazionamento",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4366,7 +4366,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4376,9 +4376,9 @@
       "stem": "Come è segnalato un ostacolo isolato?",
       "choices": [
         {
-          "text": "Con un cono con il vertice verso il basso, verniciato in rosso o non verniciato",
+          "text": "Con un cilindro verniciato in rosso",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -4388,9 +4388,9 @@
           "rationale": ""
         },
         {
-          "text": "Con un cilindro verniciato in rosso",
+          "text": "Con un cono con il vertice verso il basso, verniciato in rosso o non verniciato",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4415,7 +4415,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4431,16 +4431,16 @@
           "rationale": ""
         },
         {
-          "text": "Divieto di incrociare e sorpassare",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di incrociare e sorpassare» (ONI Allegato 4 – fig. 8). Qui è il pittogramma, e solo lui, a fare la differenza."
-        },
-        {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
           "is_correct": false,
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di prendere la direzione indicata dalla freccia» (ONI Allegato 4 – fig. 18). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
+        {
+          "text": "Divieto di incrociare e sorpassare",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di incrociare e sorpassare» (ONI Allegato 4 – fig. 8). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -4474,15 +4474,15 @@
       "stem": "Nella segnalazione dell'idrovia, quale forma e colore hanno i segnali che ne delimitano i lati?",
       "choices": [
         {
-          "text": "Cilindri verniciati in rosso e coni con il vertice verso l'alto verniciati in verde",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Cilindri verniciati in verde e coni con il vertice verso il basso verniciati in rosso",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Cilindri verniciati in rosso e coni con il vertice verso l'alto verniciati in verde",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -4513,7 +4513,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4522,12 +4522,6 @@
       "kind": "rule_mc",
       "stem": "Per segnalare un basso fondale in prossimità della riva, quali segnali si trovano sul lato verso il largo e quali sul lato verso terra?",
       "choices": [
-        {
-          "text": "Cilindri sul lato verso il largo e coni sul lato verso terra",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Coni sul lato verso il largo e cilindri sul lato verso terra",
           "image": null,
@@ -4538,6 +4532,12 @@
           "text": "Cilindri su entrambi i lati",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Cilindri sul lato verso il largo e coni sul lato verso terra",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4562,7 +4562,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4578,13 +4578,13 @@
           "rationale": ""
         },
         {
-          "text": "Cilindri rossi sul lato destro e coni verdi sul lato sinistro, visti dal largo",
+          "text": "Coni verdi su entrambi i lati, visti dal largo",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Coni verdi su entrambi i lati, visti dal largo",
+          "text": "Cilindri rossi sul lato destro e coni verdi sul lato sinistro, visti dal largo",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4621,9 +4621,9 @@
       "stem": "Come è segnalato un ostacolo esteso nel quadrante sud?",
       "choices": [
         {
-          "text": "Due coni sovrapposti con i due vertici rivolti verso il basso",
+          "text": "Un solo cono con il vertice rivolto verso il basso",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -4633,9 +4633,9 @@
           "rationale": ""
         },
         {
-          "text": "Un solo cono con il vertice rivolto verso il basso",
+          "text": "Due coni sovrapposti con i due vertici rivolti verso il basso",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4660,7 +4660,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4676,13 +4676,13 @@
           "rationale": ""
         },
         {
-          "text": "Due coni sovrapposti con i due vertici rivolti verso il basso",
+          "text": "Due coni sovrapposti con i vertici contrapposti",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Due coni sovrapposti con i vertici contrapposti",
+          "text": "Due coni sovrapposti con i due vertici rivolti verso il basso",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4719,10 +4719,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Avviso di vento forte",
+          "text": "Luce blu intermittente",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
         },
         {
           "text": "Boe gialle che segnalino ciascun ancoraggio",
@@ -4731,10 +4731,10 @@
           "rationale": "È un altro segnale: «Boe gialle che segnalino ciascun ancoraggio» (ONI Allegato 2 – fig. 29)."
         },
         {
-          "text": "Luce blu intermittente",
+          "text": "Avviso di vento forte",
           "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Luce blu intermittente» (ONI Allegato 2 – fig. 31)."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4758,7 +4758,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4768,10 +4768,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Divieto di navigare con le tavole a vela",
+          "text": "Avviso di tempesta",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Avviso di tempesta» (ONI Allegato 4 – fig. 60)."
         },
         {
           "text": "Divieto di cagionare moto ondoso o risucchi",
@@ -4780,10 +4780,10 @@
           "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
-          "text": "Avviso di tempesta",
+          "text": "Divieto di navigare con le tavole a vela",
           "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Avviso di tempesta» (ONI Allegato 4 – fig. 60)."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4807,7 +4807,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4866,12 +4866,6 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Divieto di navigare fuori dei limiti indicati",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di navigare fuori dei limiti indicati» (ONI Allegato 4 – fig. 14). Qui è il pittogramma, e solo lui, a fare la differenza."
-        },
-        {
           "text": "Divieto di sorpasso",
           "image": null,
           "is_correct": true,
@@ -4882,6 +4876,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di cagionare moto ondoso o risucchi» (ONI Allegato 4 – fig. 13). Qui è il pittogramma, e solo lui, a fare la differenza."
+        },
+        {
+          "text": "Divieto di navigare fuori dei limiti indicati",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di navigare fuori dei limiti indicati» (ONI Allegato 4 – fig. 14). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -4905,7 +4905,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -4915,16 +4915,16 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Divieto di incrociare e sorpassare",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Divieto di stazionare",
           "image": null,
           "is_correct": false,
           "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di stazionare» (ONI Allegato 4 – fig. 9). Qui è il pittogramma, e solo lui, a fare la differenza."
+        },
+        {
+          "text": "Divieto di incrociare e sorpassare",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Luce blu intermittente",
@@ -4954,7 +4954,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4963,12 +4963,6 @@
       "kind": "figure_recognition",
       "stem": "Che cosa significa questo segnale?",
       "choices": [
-        {
-          "text": "Divieto di stazionare",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Raccomandazione di dirigersi nel senso della freccia",
           "image": null,
@@ -4980,6 +4974,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione d’ormeggiare» (ONI Allegato 4 – fig. 35). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
+        {
+          "text": "Divieto di stazionare",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5003,7 +5003,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5013,9 +5013,9 @@
       "stem": "Di notte, quali fanali deve portare un veliero che naviga a motore (con o senza vela)?",
       "choices": [
         {
-          "text": "Fuoco d'albero bianco, fuochi laterali verde e rosso, fuoco di poppa bianco",
+          "text": "Un unico fuoco ordinario bianco visibile per tutto l'orizzonte",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -5025,9 +5025,9 @@
           "rationale": ""
         },
         {
-          "text": "Un unico fuoco ordinario bianco visibile per tutto l'orizzonte",
+          "text": "Fuoco d'albero bianco, fuochi laterali verde e rosso, fuoco di poppa bianco",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5052,7 +5052,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5062,15 +5062,15 @@
       "stem": "Su un veliero che naviga a motore, in cosa possono essere riuniti i fuochi laterali e il fuoco di poppa?",
       "choices": [
         {
-          "text": "In un fuoco d'albero tricolore collocato sulla punta dell'albero o nelle sue vicinanze",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "In un unico fuoco di poppa bianco visibile per tutto l'orizzonte",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "In un fuoco d'albero tricolore collocato sulla punta dell'albero o nelle sue vicinanze",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -5101,7 +5101,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5110,12 +5110,6 @@
       "kind": "rule_mc",
       "stem": "Quale fanale può portare di notte una nave la cui potenza propulsiva non supera 6 kW, o un'imbarcazione da diporto lunga al massimo 7 m con velocità non superiore a 7 nodi?",
       "choices": [
-        {
-          "text": "Un fuoco ordinario bianco",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Un fuoco d'albero tricolore",
           "image": null,
@@ -5126,6 +5120,12 @@
           "text": "Fuochi laterali verde e rosso più un fuoco di poppa bianco",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un fuoco ordinario bianco",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5150,7 +5150,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5166,13 +5166,13 @@
           "rationale": ""
         },
         {
-          "text": "Fuochi laterali verde e rosso e un fuoco di poppa bianco",
+          "text": "Un fuoco d'albero tricolore",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Un fuoco d'albero tricolore",
+          "text": "Fuochi laterali verde e rosso e un fuoco di poppa bianco",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5215,13 +5215,13 @@
           "rationale": ""
         },
         {
-          "text": "Un fuoco d'albero bianco con fuochi laterali verde e rosso",
+          "text": "Un fuoco ordinario rosso visibile per tutto l'orizzonte",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Un fuoco ordinario rosso visibile per tutto l'orizzonte",
+          "text": "Un fuoco d'albero bianco con fuochi laterali verde e rosso",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5264,13 +5264,13 @@
           "rationale": ""
         },
         {
-          "text": "Un fuoco d'albero tricolore sulla punta dell'albero",
+          "text": "Un fuoco d'albero bianco con fuoco di poppa bianco",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Un fuoco d'albero bianco con fuoco di poppa bianco",
+          "text": "Un fuoco d'albero tricolore sulla punta dell'albero",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5356,9 +5356,9 @@
       "stem": "Dove va collocato il fuoco d'albero tricolore su un veliero che naviga a vela?",
       "choices": [
         {
-          "text": "Sulla punta dell'albero o nelle sue vicinanze",
+          "text": "A prua, al livello della coperta",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -5368,9 +5368,9 @@
           "rationale": ""
         },
         {
-          "text": "A prua, al livello della coperta",
+          "text": "Sulla punta dell'albero o nelle sue vicinanze",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5395,7 +5395,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5405,10 +5405,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Divieto d’ormeggiare",
+          "text": "Segnaletica notturna supplementare per le navi passeggeri prioritarie in servizio",
           "image": null,
-          "is_correct": false,
-          "rationale": "È un altro segnale: «Divieto d’ormeggiare» (RNL Allegato III – fig. 8)."
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorizzazione di stazionare",
@@ -5417,10 +5417,10 @@
           "rationale": "È un altro segnale: «Autorizzazione di stazionare» (RNL Allegato III – fig. 18)."
         },
         {
-          "text": "Segnaletica notturna supplementare per le navi passeggeri prioritarie in servizio",
+          "text": "Divieto d’ormeggiare",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "È un altro segnale: «Divieto d’ormeggiare» (RNL Allegato III – fig. 8)."
         }
       ],
       "provenance": {
@@ -5444,7 +5444,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -5460,13 +5460,13 @@
           "rationale": ""
         },
         {
-          "text": "Un solo fuoco rosso agitato",
+          "text": "Due palloni neri sovrapposti",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Due palloni neri sovrapposti",
+          "text": "Un solo fuoco rosso agitato",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5503,9 +5503,9 @@
       "stem": "Quale fanale porta in stazionamento, di notte, ogni nave o apparecchio galleggiante?",
       "choices": [
         {
-          "text": "Un fuoco ordinario bianco",
+          "text": "Un fuoco d'albero tricolore",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -5515,9 +5515,9 @@
           "rationale": ""
         },
         {
-          "text": "Un fuoco d'albero tricolore",
+          "text": "Un fuoco ordinario bianco",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5542,7 +5542,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5552,15 +5552,15 @@
       "stem": "Di notte, su una nave o apparecchio galleggiante che effettua lavori, quali fuochi indicano il lato dove il transito è libero?",
       "choices": [
         {
-          "text": "Un fuoco ordinario rosso e un fuoco ordinario bianco",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Un solo fuoco ordinario rosso",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un fuoco ordinario rosso e un fuoco ordinario bianco",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -5591,7 +5591,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5607,13 +5607,13 @@
           "rationale": ""
         },
         {
-          "text": "Con boe che portano un fuoco ordinario rosso",
+          "text": "Con palloni gialli visibili da tutti i lati",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Con palloni gialli visibili da tutti i lati",
+          "text": "Con boe che portano un fuoco ordinario rosso",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5650,6 +5650,12 @@
       "stem": "Quale segnale diurno portano le navi passeggeri prioritarie?",
       "choices": [
         {
+          "text": "Un pallone giallo visibile da tutti i lati",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Un pallone verde visibile da tutti i lati",
           "image": null,
           "is_correct": true,
@@ -5657,12 +5663,6 @@
         },
         {
           "text": "Un pallone bianco visibile da tutti i lati",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Un pallone giallo visibile da tutti i lati",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5689,7 +5689,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5797,15 +5797,15 @@
       "stem": "Di giorno, su una nave che effettua lavori, come viene segnalato il lato dove il transito non è libero?",
       "choices": [
         {
-          "text": "Con una bandiera rossa",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Con una bandiera rossa e bianca",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Con una bandiera rossa",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -5836,7 +5836,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5846,6 +5846,12 @@
       "stem": "Di notte, quali fuochi portano le navi e gli impianti galleggianti da proteggere contro gli urti d'onda?",
       "choices": [
         {
+          "text": "Un solo fuoco ordinario bianco",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Un fuoco ordinario rosso e un fuoco ordinario bianco",
           "image": null,
           "is_correct": true,
@@ -5853,12 +5859,6 @@
         },
         {
           "text": "Due fuochi rossi sovrapposti",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Un solo fuoco ordinario bianco",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5885,7 +5885,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5944,12 +5944,6 @@
       "stem": "Quale fanale distingue le navi d'intervento delle autorità di sorveglianza, dei servizi antincendio e di salvataggio?",
       "choices": [
         {
-          "text": "Un fuoco intermittente azzurro",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Un fuoco intermittente rosso",
           "image": null,
           "is_correct": false,
@@ -5959,6 +5953,12 @@
           "text": "Un fuoco ordinario giallo visibile da tutti i lati",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un fuoco intermittente azzurro",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5983,7 +5983,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6042,12 +6042,6 @@
       "stem": "Quale segnale di pericolo si dà di notte per chiedere soccorso?",
       "choices": [
         {
-          "text": "Un fuoco rosso agitato circolarmente",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Una bandiera rossa agitata circolarmente",
           "image": null,
           "is_correct": false,
@@ -6057,6 +6051,12 @@
           "text": "Un fuoco intermittente azzurro",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un fuoco rosso agitato circolarmente",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6081,7 +6081,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6091,9 +6091,9 @@
       "stem": "Quale segnale di pericolo si dà di giorno per chiedere soccorso?",
       "choices": [
         {
-          "text": "Una bandiera rossa o altro oggetto agitati circolarmente",
+          "text": "Un pallone nero visibile da tutti i lati",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -6103,9 +6103,9 @@
           "rationale": ""
         },
         {
-          "text": "Un pallone nero visibile da tutti i lati",
+          "text": "Una bandiera rossa o altro oggetto agitati circolarmente",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6130,7 +6130,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6140,6 +6140,12 @@
       "stem": "Quale segnale contrassegna i tuffi subacquei effettuati da terra?",
       "choices": [
         {
+          "text": "Un pallone bianco visibile da tutti i lati",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Una tavola secondo la lettera «A»",
           "image": null,
           "is_correct": true,
@@ -6147,12 +6153,6 @@
         },
         {
           "text": "Una bandiera secondo la lettera «K»",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Un pallone bianco visibile da tutti i lati",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6179,7 +6179,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6188,12 +6188,6 @@
       "kind": "rule_mc",
       "stem": "Quale segnale portano le navi usate per i tuffi subacquei effettuati al largo?",
       "choices": [
-        {
-          "text": "Una tavola secondo la lettera «A»",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Un pallone giallo visibile da tutti i lati",
           "image": null,
@@ -6204,6 +6198,12 @@
           "text": "Una bandiera rossa",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Una tavola secondo la lettera «A»",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6228,7 +6228,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6238,15 +6238,15 @@
       "stem": "Quale segnale diurno mostra una nave che pesca alla traina trainando uno o più galleggianti o espansori?",
       "choices": [
         {
-          "text": "Un pallone bianco visibile da tutti i lati",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Un pallone giallo visibile da tutti i lati",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un pallone bianco visibile da tutti i lati",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -6277,7 +6277,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6293,13 +6293,13 @@
           "rationale": ""
         },
         {
-          "text": "Un pallone bianco visibile da tutti i lati",
+          "text": "Un pallone verde visibile da tutti i lati",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Un pallone verde visibile da tutti i lati",
+          "text": "Un pallone bianco visibile da tutti i lati",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6336,15 +6336,15 @@
       "stem": "Di notte, quali fanali può portare un'imbarcazione da diporto motorizzata (o nave da pesca professionale o veliero a motore) con un solo fuoco visibile per tutto l'orizzonte?",
       "choices": [
         {
-          "text": "Un fuoco bianco visibile per tutto l'orizzonte più fuochi laterali verde e rosso",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Un fuoco d'albero bianco, fuochi laterali e un fuoco di poppa bianco",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un fuoco bianco visibile per tutto l'orizzonte più fuochi laterali verde e rosso",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -6375,7 +6375,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6434,6 +6434,12 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
+          "text": "Kite surf autorizzati",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Kite surf autorizzati» (RNL Allegato III – fig. 22). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
+        {
           "text": "Divieto d’ormeggiare",
           "image": null,
           "is_correct": false,
@@ -6444,12 +6450,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Kite surf autorizzati",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Kite surf autorizzati» (RNL Allegato III – fig. 22). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -6473,7 +6473,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -6587,16 +6587,16 @@
           "rationale": ""
         },
         {
-          "text": "Tavole a vela autorizzate",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Tavole a vela autorizzate» (RNL Allegato III – fig. 21). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
-        },
-        {
           "text": "Autorizzazione di gettare l’ancora",
           "image": null,
           "is_correct": false,
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione di gettare l’ancora» (RNL Allegato III – fig. 19). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
+        {
+          "text": "Tavole a vela autorizzate",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Tavole a vela autorizzate» (RNL Allegato III – fig. 21). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -6630,10 +6630,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Obbligo di prendere la direzione indicata dalla freccia",
+          "text": "Divieto per le tavole a vela",
           "image": null,
           "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di prendere la direzione indicata dalla freccia» (RNL Allegato III – fig. 14). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto per le tavole a vela» (RNL Allegato III – fig. 11). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Divieto per il kite surf",
@@ -6642,10 +6642,10 @@
           "rationale": ""
         },
         {
-          "text": "Divieto per le tavole a vela",
+          "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
           "is_correct": false,
-          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto per le tavole a vela» (RNL Allegato III – fig. 11). Qui è il pittogramma, e solo lui, a fare la differenza."
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di prendere la direzione indicata dalla freccia» (RNL Allegato III – fig. 14). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -6685,16 +6685,16 @@
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto d’ormeggiare» (RNL Allegato III – fig. 8). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
-          "text": "Obbligo di prendere la direzione indicata dalla freccia",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Obbligo di non superare la velocità indicata (in km/h",
           "image": null,
           "is_correct": false,
           "rationale": "Famiglia giusta, segnale sbagliato: «Obbligo di non superare la velocità indicata (in km/h» (RNL Allegato III – fig. 15). Qui è il pittogramma, e solo lui, a fare la differenza."
+        },
+        {
+          "text": "Obbligo di prendere la direzione indicata dalla freccia",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6718,7 +6718,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -6727,6 +6727,12 @@
       "kind": "figure_recognition",
       "stem": "Che cosa significa questo segnale?",
       "choices": [
+        {
+          "text": "Autorizzazione d’ormeggiare",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione d’ormeggiare» (RNL Allegato III – fig. 20). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
         {
           "text": "Divieto di stazionare",
           "image": null,
@@ -6738,12 +6744,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Autorizzazione d’ormeggiare",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione d’ormeggiare» (RNL Allegato III – fig. 20). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -6767,7 +6767,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -6776,6 +6776,12 @@
       "kind": "figure_recognition",
       "stem": "Che cosa significa questo segnale?",
       "choices": [
+        {
+          "text": "Kite surf autorizzati",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Kite surf autorizzati» (RNL Allegato III – fig. 22). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
         {
           "text": "Divieto per le tavole a vela",
           "image": null,
@@ -6787,12 +6793,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Kite surf autorizzati",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Kite surf autorizzati» (RNL Allegato III – fig. 22). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -6816,7 +6816,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -6826,16 +6826,16 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Autorizzazione di praticare lo sci nautico o di usare apparecchi analoghi",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Divieto di balneazione",
           "image": null,
           "is_correct": false,
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di balneazione» (RNL Allegato III – fig. 12). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
+        {
+          "text": "Autorizzazione di praticare lo sci nautico o di usare apparecchi analoghi",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Divieto per le navi motorizzate",
@@ -6865,7 +6865,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6874,6 +6874,12 @@
       "kind": "figure_recognition",
       "stem": "Che cosa significa questo segnale?",
       "choices": [
+        {
+          "text": "Obbligo di non superare la velocità indicata (in km/h",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di non superare la velocità indicata (in km/h» (RNL Allegato III – fig. 15). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
         {
           "text": "Obbligo di osservare una prudenza particolare",
           "image": null,
@@ -6885,12 +6891,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Obbligo di non superare la velocità indicata (in km/h",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di non superare la velocità indicata (in km/h» (RNL Allegato III – fig. 15). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -6914,7 +6914,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -6923,6 +6923,12 @@
       "kind": "figure_recognition",
       "stem": "Che cosa significa questo segnale?",
       "choices": [
+        {
+          "text": "Autorizzazione di gettare l’ancora",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
         {
           "text": "Obbligo di prendere la direzione indicata dalla freccia",
           "image": null,
@@ -6934,12 +6940,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di stazionare» (RNL Allegato III – fig. 6). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
-        },
-        {
-          "text": "Autorizzazione di gettare l’ancora",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
         }
       ],
       "provenance": {
@@ -6963,7 +6963,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -6972,12 +6972,6 @@
       "kind": "figure_recognition",
       "stem": "Che cosa significa questo segnale?",
       "choices": [
-        {
-          "text": "Due segnali luminosi",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Divieto di balneazione",
           "image": null,
@@ -6989,6 +6983,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "È un altro segnale: «Divieto per le navi motorizzate» (RNL Allegato III – fig. 3)."
+        },
+        {
+          "text": "Due segnali luminosi",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7012,7 +7012,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -7022,16 +7022,16 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Obbligo di osservare una prudenza particolare",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di osservare una prudenza particolare» (RNL Allegato III – fig. 16). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
-        },
-        {
           "text": "Autorizzazione d’ormeggiare",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Obbligo di osservare una prudenza particolare",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Obbligo di osservare una prudenza particolare» (RNL Allegato III – fig. 16). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto di passaggio",
@@ -7061,7 +7061,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -7070,6 +7070,12 @@
       "kind": "figure_recognition",
       "stem": "Che cosa significa questo segnale?",
       "choices": [
+        {
+          "text": "Tavole a vela autorizzate",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
         {
           "text": "Divieto di gettare l’ancora",
           "image": null,
@@ -7081,12 +7087,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Divieto di balneazione» (RNL Allegato III – fig. 12). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
-        },
-        {
-          "text": "Tavole a vela autorizzate",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
         }
       ],
       "provenance": {
@@ -7110,7 +7110,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -7175,16 +7175,16 @@
           "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di balneazione» (RNL Allegato III – fig. 12). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
-          "text": "Divieto per le navi motorizzate",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "O una bandiera rossa e una bandiera bianca",
           "image": null,
           "is_correct": false,
           "rationale": "È un altro segnale: «O una bandiera rossa e una bandiera bianca» (RNL Allegato I – fig. 34)."
+        },
+        {
+          "text": "Divieto per le navi motorizzate",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7208,7 +7208,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -7218,16 +7218,16 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Tavole a vela autorizzate",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Tavole a vela autorizzate» (RNL Allegato III – fig. 21). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
-        },
-        {
           "text": "Kite surf autorizzati",
           "image": null,
           "is_correct": false,
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Kite surf autorizzati» (RNL Allegato III – fig. 22). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+        },
+        {
+          "text": "Tavole a vela autorizzate",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Tavole a vela autorizzate» (RNL Allegato III – fig. 21). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
           "text": "Divieto di praticare lo sci nautico o di usare apparecchi analoghi",
@@ -7267,10 +7267,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Autorizzazione di stazionare",
+          "text": "Divieto di sorpasso",
           "image": null,
-          "is_correct": false,
-          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione di stazionare» (RNL Allegato III – fig. 18). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Autorizzazione d’ormeggiare",
@@ -7279,10 +7279,10 @@
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione d’ormeggiare» (RNL Allegato III – fig. 20). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
-          "text": "Divieto di sorpasso",
+          "text": "Autorizzazione di stazionare",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione di stazionare» (RNL Allegato III – fig. 18). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         }
       ],
       "provenance": {
@@ -7306,7 +7306,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -7316,10 +7316,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Divieto di stazionare",
+          "text": "Divieto di navigare fuori dai limiti indicati",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di navigare fuori dai limiti indicati» (RNL Allegato III – fig. 10). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Autorizzazione d’ormeggiare",
@@ -7328,10 +7328,10 @@
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione d’ormeggiare» (RNL Allegato III – fig. 20). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
-          "text": "Divieto di navigare fuori dai limiti indicati",
+          "text": "Divieto di stazionare",
           "image": null,
-          "is_correct": false,
-          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di navigare fuori dai limiti indicati» (RNL Allegato III – fig. 10). Qui è il pittogramma, e solo lui, a fare la differenza."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7355,7 +7355,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -7364,6 +7364,12 @@
       "kind": "figure_recognition",
       "stem": "Che cosa significa questo segnale?",
       "choices": [
+        {
+          "text": "Divieto di sorpasso",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di sorpasso» (RNL Allegato III – fig. 5). Qui è il pittogramma, e solo lui, a fare la differenza."
+        },
         {
           "text": "Obbligo di osservare una prudenza particolare",
           "image": null,
@@ -7375,12 +7381,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Divieto di sorpasso",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di sorpasso» (RNL Allegato III – fig. 5). Qui è il pittogramma, e solo lui, a fare la differenza."
         }
       ],
       "provenance": {
@@ -7404,7 +7404,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -7414,10 +7414,10 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Divieto d’ormeggiare",
+          "text": "Divieto per il kite surf",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto per il kite surf» (RNL Allegato III – fig. 13). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Autorizzazione d’ormeggiare",
@@ -7426,10 +7426,10 @@
           "rationale": "Ha scelto un segnale di un'altra famiglia: «Autorizzazione d’ormeggiare» (RNL Allegato III – fig. 20). Il bordo e il colore danno la famiglia prima ancora del pittogramma."
         },
         {
-          "text": "Divieto per il kite surf",
+          "text": "Divieto d’ormeggiare",
           "image": null,
-          "is_correct": false,
-          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto per il kite surf» (RNL Allegato III – fig. 13). Qui è il pittogramma, e solo lui, a fare la differenza."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -7453,7 +7453,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -7463,16 +7463,16 @@
       "stem": "Che cosa significa questo segnale?",
       "choices": [
         {
-          "text": "Divieto di gettare l’ancora",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di gettare l’ancora» (RNL Allegato III – fig. 7). Qui è il pittogramma, e solo lui, a fare la differenza."
-        },
-        {
           "text": "Divieto di navigare fuori dai limiti indicati",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Divieto di gettare l’ancora",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Famiglia giusta, segnale sbagliato: «Divieto di gettare l’ancora» (RNL Allegato III – fig. 7). Qui è il pittogramma, e solo lui, a fare la differenza."
         },
         {
           "text": "Kite surf autorizzati",
@@ -7502,7 +7502,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     }
   ]

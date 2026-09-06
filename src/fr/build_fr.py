@@ -438,6 +438,13 @@ def build() -> dict:
             _img, _rev = _figs.get(_q.id, ("", ""))
             _q.image = _relocate_asset(_img, out_dir) or None
             _q.reveal_image = _relocate_asset(_rev, out_dir) or None
+        # Display-order permutation, AFTER the DB write (the bank keeps the canonical
+        # authored order — the Anki/GIFT round-trip matches by position) and BEFORE
+        # any payload: the per-lang files, the questions.json fallback and the core
+        # sub-bundles below are all built from these same objects, so they share one
+        # deterministic shuffled order (seeded by id — schema.shuffle_choices).
+        for _q in all_q:
+            qschema.shuffle_choices(_q)
 
         # Per-language bank JSON (player-shaped, with per-lang chrome in meta).
         langs_present = [lg for lg in LANGS if by_lang[lg]]

@@ -11,7 +11,7 @@
     "permis": "cotiere",
     "permis_label": "Permis plaisance — option côtière",
     "country": "FR",
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "kb_version": "",
     "lang": "en",
     "unofficial": "true",
@@ -30,12 +30,6 @@
       "stem": "Coming from seaward (IALA region A), what colour and shape is a PORT-hand lateral mark?",
       "choices": [
         {
-          "text": "Red, can-shaped",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Green, conical",
           "image": null,
           "is_correct": false,
@@ -45,6 +39,12 @@
           "text": "Yellow, spherical",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Red, can-shaped",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -69,7 +69,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -79,6 +79,12 @@
       "stem": "Coming from seaward (region A), what colour and shape is a STARBOARD-hand lateral mark?",
       "choices": [
         {
+          "text": "Black and red, with spheres",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Green, conical",
           "image": null,
           "is_correct": true,
@@ -86,12 +92,6 @@
         },
         {
           "text": "Red, can-shaped",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Black and red, with spheres",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -118,7 +118,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -127,12 +127,6 @@
       "kind": "rule_mc",
       "stem": "How is a NORTH cardinal mark's topmark recognised, and which side do you pass?",
       "choices": [
-        {
-          "text": "Two cones pointing up; pass to the north",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Two cones pointing down; pass to the south",
           "image": null,
@@ -143,6 +137,12 @@
           "text": "Two cones point-to-point; pass to the west",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Two cones pointing up; pass to the north",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -167,7 +167,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -177,15 +177,15 @@
       "stem": "What does a black mark with red horizontal bands, topped by two black spheres, indicate?",
       "choices": [
         {
-          "text": "An isolated danger surrounded by safe water",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The main harbour entrance",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "An isolated danger surrounded by safe water",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -216,7 +216,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -225,12 +225,6 @@
       "kind": "rule_mc",
       "stem": "What does a mark with red and white vertical stripes and a red spherical topmark indicate?",
       "choices": [
-        {
-          "text": "Safe water all around; pass on either side",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "An isolated danger to avoid",
           "image": null,
@@ -241,6 +235,12 @@
           "text": "The starboard side of a channel",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Safe water all around; pass on either side",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -265,7 +265,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -275,9 +275,9 @@
       "stem": "Two power-driven vessels meet on directly opposite (head-on) courses with risk of collision. What must each do?",
       "choices": [
         {
-          "text": "Each alters to starboard",
+          "text": "The faster one keeps clear, the other holds course",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -287,9 +287,9 @@
           "rationale": ""
         },
         {
-          "text": "The faster one keeps clear, the other holds course",
+          "text": "Each alters to starboard",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -314,7 +314,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -422,9 +422,9 @@
       "stem": "Not overtaking and outside a narrow channel, a power-driven vessel meets a vessel under sail. Which one keeps clear?",
       "choices": [
         {
-          "text": "The power-driven vessel",
+          "text": "Neither, both hold their course",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -434,9 +434,9 @@
           "rationale": ""
         },
         {
-          "text": "Neither, both hold their course",
+          "text": "The power-driven vessel",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -461,7 +461,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -569,6 +569,12 @@
       "stem": "In sight of another vessel, a power-driven vessel sounds ONE short blast. What is it signalling?",
       "choices": [
         {
+          "text": "“I am operating astern”",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "“I am altering to starboard”",
           "image": null,
           "is_correct": true,
@@ -576,12 +582,6 @@
         },
         {
           "text": "“I am altering to port”",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "“I am operating astern”",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -608,7 +608,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -617,12 +617,6 @@
       "kind": "rule_mc",
       "stem": "What do THREE short blasts from a power-driven vessel in sight of another mean?",
       "choices": [
-        {
-          "text": "“I am operating astern propulsion”",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "“I am altering to port”",
           "image": null,
@@ -633,6 +627,12 @@
           "text": "“I am aground”",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "“I am operating astern propulsion”",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -657,7 +657,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -667,15 +667,15 @@
       "stem": "What do at least FIVE short and rapid blasts mean?",
       "choices": [
         {
-          "text": "Doubt / a warning about the other's manoeuvre",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "An invitation to cross ahead",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Doubt / a warning about the other's manoeuvre",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -706,7 +706,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -715,12 +715,6 @@
       "kind": "rule_mc",
       "stem": "In restricted visibility (fog), what signal does a power-driven vessel underway and making way sound?",
       "choices": [
-        {
-          "text": "One prolonged blast at least every 2 minutes",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Three short blasts every minute",
           "image": null,
@@ -731,6 +725,12 @@
           "text": "No signal is required",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "One prolonged blast at least every 2 minutes",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -755,7 +755,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -764,12 +764,6 @@
       "kind": "rule_mc",
       "stem": "Which of these is a recognised PYROTECHNIC distress signal at sea?",
       "choices": [
-        {
-          "text": "A red parachute flare",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "A flashing green light",
           "image": null,
@@ -780,6 +774,12 @@
           "text": "A hoisted yellow flag",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A red parachute flare",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -804,7 +804,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -814,9 +814,9 @@
       "stem": "Up to what distance from a shelter does the côtière option of the permis plaisance authorise navigation?",
       "choices": [
         {
-          "text": "6 nautical miles",
+          "text": "With no distance limit",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -826,9 +826,9 @@
           "rationale": ""
         },
         {
-          "text": "With no distance limit",
+          "text": "6 nautical miles",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -853,7 +853,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -862,12 +862,6 @@
       "kind": "rule_mc",
       "stem": "For coastal navigation (up to 6 miles from a shelter), what minimum buoyancy must the personal flotation device have under Division 240?",
       "choices": [
-        {
-          "text": "100 N",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "50 N",
           "image": null,
@@ -878,6 +872,12 @@
           "text": "10 N",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "100 N",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -902,7 +902,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -961,12 +961,6 @@
       "stem": "How many people may legally be carried aboard a pleasure boat?",
       "choices": [
         {
-          "text": "The maximum set by the builder",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "As many as there are lifejackets aboard",
           "image": null,
           "is_correct": false,
@@ -976,6 +970,12 @@
           "text": "No limit at sea",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The maximum set by the builder",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1000,7 +1000,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1114,13 +1114,13 @@
           "rationale": ""
         },
         {
-          "text": "Between 0 and 100",
+          "text": "Between 1 and 12",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Between 1 and 12",
+          "text": "Between 0 and 100",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1157,12 +1157,6 @@
       "stem": "The Beaufort scale, measuring wind force, is graduated from 0 to what value?",
       "choices": [
         {
-          "text": "12",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "10",
           "image": null,
           "is_correct": false,
@@ -1172,6 +1166,12 @@
           "text": "100",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "12",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1196,7 +1196,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1206,15 +1206,15 @@
       "stem": "What is the “rule of twelfths” used for?",
       "choices": [
         {
-          "text": "To estimate the water height at a given hour of the tide",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "To calculate the wind force",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "To estimate the water height at a given hour of the tide",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1245,7 +1245,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1353,15 +1353,15 @@
       "stem": "Above what engine power is the permis plaisance required?",
       "choices": [
         {
-          "text": "More than 4.5 kW (≈ 6 hp)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "More than 1 kW",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "More than 4.5 kW (≈ 6 hp)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1392,7 +1392,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1402,9 +1402,9 @@
       "stem": "From what age can the permis plaisance (côtière option) be obtained?",
       "choices": [
         {
-          "text": "16 years",
+          "text": "18 years",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1414,9 +1414,9 @@
           "rationale": ""
         },
         {
-          "text": "18 years",
+          "text": "16 years",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1441,7 +1441,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1451,9 +1451,9 @@
       "stem": "At sea, what does the regulation say about discharging rubbish and hydrocarbons?",
       "choices": [
         {
-          "text": "It is prohibited",
+          "text": "It is allowed at night",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1463,9 +1463,9 @@
           "rationale": ""
         },
         {
-          "text": "It is allowed at night",
+          "text": "It is prohibited",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1490,7 +1490,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1500,6 +1500,12 @@
       "stem": "What should the boater do with waste produced aboard?",
       "choices": [
         {
+          "text": "Burn it aboard",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Bring it ashore to harbour facilities",
           "image": null,
           "is_correct": true,
@@ -1507,12 +1513,6 @@
         },
         {
           "text": "Throw it overboard offshore",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Burn it aboard",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1539,7 +1539,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1549,15 +1549,15 @@
       "stem": "How is a SOUTH cardinal mark's topmark recognised, and which side do you pass?",
       "choices": [
         {
-          "text": "Two cones pointing down; pass to the south",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Two cones pointing up; pass to the north",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Two cones pointing down; pass to the south",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1588,7 +1588,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1653,13 +1653,13 @@
           "rationale": ""
         },
         {
-          "text": "The middle of the channel",
+          "text": "The edge on its port side",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "The edge on its port side",
+          "text": "The middle of the channel",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1696,15 +1696,15 @@
       "stem": "At night, a vessel under 50 m at anchor shows:",
       "choices": [
         {
-          "text": "An all-round white light",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "An all-round red light",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "An all-round white light",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1735,7 +1735,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1800,13 +1800,13 @@
           "rationale": ""
         },
         {
-          "text": "When the current is strongest",
+          "text": "The difference between high and low water",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "The difference between high and low water",
+          "text": "When the current is strongest",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1843,12 +1843,6 @@
       "stem": "Within the 300-metre coastal band from the shore, what is the navigation speed generally limited to?",
       "choices": [
         {
-          "text": "5 knots",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "20 knots",
           "image": null,
           "is_correct": false,
@@ -1858,6 +1852,12 @@
           "text": "No speed limit",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "5 knots",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1882,7 +1882,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1892,9 +1892,9 @@
       "stem": "A radio message beginning with “PAN PAN” corresponds to which priority level?",
       "choices": [
         {
-          "text": "Urgency",
+          "text": "Safety (weather bulletin)",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1904,9 +1904,9 @@
           "rationale": ""
         },
         {
-          "text": "Safety (weather bulletin)",
+          "text": "Urgency",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1931,7 +1931,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1941,9 +1941,9 @@
       "stem": "In the Mediterranean, anchoring on Posidonia seagrass beds is:",
       "choices": [
         {
-          "text": "Regulated, even prohibited (protected beds)",
+          "text": "Recommended because the anchor holds well there",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1953,9 +1953,9 @@
           "rationale": ""
         },
         {
-          "text": "Recommended because the anchor holds well there",
+          "text": "Regulated, even prohibited (protected beds)",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1980,7 +1980,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1989,12 +1989,6 @@
       "kind": "rule_mc",
       "stem": "In our waters, when entering a channel from seaward, which light and optional topmark identify a starboard-hand mark?",
       "choices": [
-        {
-          "text": "Green light, with a green cone topmark point up",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Red light, with a red cylinder (can) topmark",
           "image": null,
@@ -2005,6 +1999,12 @@
           "text": "Green light, with a green cone topmark point down",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Green light, with a green cone topmark point up",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2029,7 +2029,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2039,6 +2039,12 @@
       "stem": "Where a channel divides, you see a red mark with a single broad green horizontal band. What does it tell you?",
       "choices": [
         {
+          "text": "The channel is blocked and you must turn back",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The preferred channel is to starboard",
           "image": null,
           "is_correct": true,
@@ -2046,12 +2052,6 @@
         },
         {
           "text": "The preferred channel is to port",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "The channel is blocked and you must turn back",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2078,7 +2078,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2088,15 +2088,15 @@
       "stem": "Which topmark and light rhythm identify an East cardinal mark, which must be passed on its east side?",
       "choices": [
         {
-          "text": "Two black cones base to base; white VQ(3) every 5 s or Q(3) every 10 s",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Two black cones point to point; white VQ(9) every 10 s",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Two black cones base to base; white VQ(3) every 5 s or Q(3) every 10 s",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2127,7 +2127,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2136,12 +2136,6 @@
       "kind": "rule_mc",
       "stem": "A mark shows two black cones arranged point to point, a yellow body with a single broad black horizontal band, and a white light flashing in groups of nine. On which side must you pass?",
       "choices": [
-        {
-          "text": "To the west of the mark",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "To the east of the mark",
           "image": null,
@@ -2152,6 +2146,12 @@
           "text": "To the north of the mark",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "To the west of the mark",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2176,7 +2176,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2186,6 +2186,12 @@
       "stem": "A mark carries two black cones with points downward, a yellow body on top and black below, and shows a white light of quick flashes Q(6) followed by one long flash. Which mark is it?",
       "choices": [
         {
+          "text": "A West cardinal mark",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "A South cardinal mark",
           "image": null,
           "is_correct": true,
@@ -2193,12 +2199,6 @@
         },
         {
           "text": "A North cardinal mark",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "A West cardinal mark",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2225,7 +2225,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2234,12 +2234,6 @@
       "kind": "meteo_mc",
       "stem": "According to the rule of twelfths, by which fraction of the tidal range does the water rise during each successive hour, from low water to high water?",
       "choices": [
-        {
-          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
           "image": null,
@@ -2250,6 +2244,12 @@
           "text": "2/12, 2/12, 2/12, 2/12, 2/12, 2/12",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2274,7 +2274,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2382,15 +2382,15 @@
       "stem": "On the Channel and Atlantic coasts the tide is of the semi-diurnal type. How many high waters and low waters occur in one day?",
       "choices": [
         {
-          "text": "Two high waters and two low waters",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "One high water and one low water",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Two high waters and two low waters",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2421,7 +2421,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2431,6 +2431,12 @@
       "stem": "Which tidal coefficient corresponds to the mean spring high and low waters (PMVE/BMVE)?",
       "choices": [
         {
+          "text": "Coefficient 45",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Coefficient 95",
           "image": null,
           "is_correct": true,
@@ -2438,12 +2444,6 @@
         },
         {
           "text": "Coefficient 120",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Coefficient 45",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2470,7 +2470,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2479,12 +2479,6 @@
       "kind": "meteo_mc",
       "stem": "When the Earth, Moon and Sun are aligned (full or new moon), which type of tide occurs?",
       "choices": [
-        {
-          "text": "Spring tides (large range)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Neap tides (small range)",
           "image": null,
@@ -2495,6 +2489,12 @@
           "text": "No tide (permanent slack water)",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Spring tides (large range)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2519,7 +2519,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {

@@ -27,13 +27,13 @@
           "rationale": ""
         },
         {
-          "text": "Two white lights in a vertical line",
+          "text": "Two red lights in a vertical line",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Two red lights in a vertical line",
+          "text": "Two white lights in a vertical line",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -70,9 +70,9 @@
       "stem": "Under COLREG Annex II, which of the following conditions apply to the additional signals for fishing vessels fishing in close proximity?",
       "choices": [
         {
-          "text": "The lights shall be at least 0.9 meter apart and visible all around the horizon at a distance of at least 1 mile",
+          "text": "The lights shall be placed at the same level as the lights prescribed in Rule 26(b)(i) and (c)(i)",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -82,9 +82,9 @@
           "rationale": ""
         },
         {
-          "text": "The lights shall be placed at the same level as the lights prescribed in Rule 26(b)(i) and (c)(i)",
+          "text": "The lights shall be at least 0.9 meter apart and visible all around the horizon at a distance of at least 1 mile",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -109,7 +109,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -119,6 +119,12 @@
       "stem": "According to COLREG Rule 38, which of the following time-limited exemptions applies for nine years after the date of entry into force of the Regulations?",
       "choices": [
         {
+          "text": "The installation of lights with ranges prescribed in Rule 22",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The requirements for sound signal appliances prescribed in Annex III",
           "image": null,
           "is_correct": true,
@@ -126,12 +132,6 @@
         },
         {
           "text": "The repositioning of masthead lights on vessels of less than 150 meters in length",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "The installation of lights with ranges prescribed in Rule 22",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -158,7 +158,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -168,6 +168,12 @@
       "stem": "Under COLREG Rule 38, which of the following exemptions from the current Regulations is granted on a permanent basis?",
       "choices": [
         {
+          "text": "The requirements for sound signal appliances prescribed in Annex III",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The repositioning of lights as a result of conversion from Imperial to metric units and rounding off measurement figures",
           "image": null,
           "is_correct": true,
@@ -175,12 +181,6 @@
         },
         {
           "text": "The installation of lights with ranges prescribed in Rule 22",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "The requirements for sound signal appliances prescribed in Annex III",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -207,7 +207,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -216,6 +216,12 @@
       "kind": "rule_mc",
       "stem": "Which of the following statements about special rules and the COLREG Rules is correct?",
       "choices": [
+        {
+          "text": "Traffic separation schemes may only be adopted by individual coastal States, not by the Organization",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "Special rules made by an appropriate authority for harbors, rivers or inland waterways shall conform as closely as possible to these Rules",
           "image": null,
@@ -226,12 +232,6 @@
           "text": "A Government may make special rules for ships of war with respect to additional station or signal lights",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Traffic separation schemes may only be adopted by individual coastal States, not by the Organization",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -256,8 +256,8 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -316,15 +316,15 @@
       "stem": "Under COLREG Rule 2, who may be exonerated from the consequences of neglecting to comply with these Rules?",
       "choices": [
         {
-          "text": "No vessel, owner, master or crew is exonerated from the consequences of any neglect to comply",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The owner of a vessel is exonerated if the master was solely at fault",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "No vessel, owner, master or crew is exonerated from the consequences of any neglect to comply",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -355,7 +355,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -365,6 +365,12 @@
       "stem": "When may a departure from these Rules be necessary?",
       "choices": [
         {
+          "text": "When operating in harbor waters governed by port authority regulations",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "When special circumstances, including the limitations of the vessels involved, make a departure necessary to avoid immediate danger",
           "image": null,
           "is_correct": true,
@@ -372,12 +378,6 @@
         },
         {
           "text": "When the master decides that strict compliance would slow the vessel",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "When operating in harbor waters governed by port authority regulations",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -404,7 +404,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -470,13 +470,13 @@
           "rationale": ""
         },
         {
-          "text": "An unbroken light over an arc of the horizon of 225 degrees, showing from right ahead to 22.5 degrees abaft the beam on either side.",
+          "text": "An unbroken light over an arc of the horizon of 360 degrees.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "An unbroken light over an arc of the horizon of 360 degrees.",
+          "text": "An unbroken light over an arc of the horizon of 225 degrees, showing from right ahead to 22.5 degrees abaft the beam on either side.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -513,6 +513,12 @@
       "stem": "Under COLREG Rule 21, what color is shown on the port side as part of the sidelights, and over what arc?",
       "choices": [
         {
+          "text": "A white light showing an unbroken light over an arc of 135 degrees on the port side.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "A red light showing an unbroken light over an arc of 112.5 degrees from right ahead to 22.5 degrees abaft the beam on the port side.",
           "image": null,
           "is_correct": true,
@@ -520,12 +526,6 @@
         },
         {
           "text": "A green light showing an unbroken light over an arc of 112.5 degrees from right ahead to 22.5 degrees abaft the beam on the port side.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "A white light showing an unbroken light over an arc of 135 degrees on the port side.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -552,7 +552,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -562,9 +562,9 @@
       "stem": "Under COLREG Rule 22, what is the minimum visibility range required for a masthead light on a vessel of 50 meters or more in length?",
       "choices": [
         {
-          "text": "6 miles.",
+          "text": "3 miles.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -574,9 +574,9 @@
           "rationale": ""
         },
         {
-          "text": "3 miles.",
+          "text": "6 miles.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -601,7 +601,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -611,13 +611,13 @@
       "stem": "According to COLREG Rule 22, which lights on a vessel of 12 meters or more but less than 50 meters in length are required to be visible at a minimum range of 2 miles?",
       "choices": [
         {
-          "text": "A sidelight and a sternlight.",
+          "text": "A towing light and a sternlight.",
           "image": null,
           "is_correct": true,
           "rationale": ""
         },
         {
-          "text": "A towing light and a sternlight.",
+          "text": "A sidelight and a sternlight.",
           "image": null,
           "is_correct": true,
           "rationale": ""
@@ -661,6 +661,12 @@
       "stem": "A power-driven vessel underway is required to exhibit which of the following? Select all that apply.",
       "choices": [
         {
+          "text": "An all-round flashing yellow light",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "A masthead light forward and sidelights",
           "image": null,
           "is_correct": true,
@@ -670,12 +676,6 @@
           "text": "A sternlight",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "An all-round flashing yellow light",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -700,8 +700,8 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -760,6 +760,12 @@
       "stem": "A sailing vessel of less than 7 meters in length cannot exhibit the prescribed sidelights and sternlight. What is she required to have ready at hand?",
       "choices": [
         {
+          "text": "A bell to be sounded at one-minute intervals",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "An electric torch or lighted lantern showing a white light to be exhibited in sufficient time to prevent collision",
           "image": null,
           "is_correct": true,
@@ -767,12 +773,6 @@
         },
         {
           "text": "A red flare to be discharged when another vessel approaches",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "A bell to be sounded at one-minute intervals",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -799,7 +799,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -957,12 +957,6 @@
       "stem": "According to COLREG Rule 28, what optional signals may a vessel constrained by her draft exhibit in addition to the lights prescribed for power-driven vessels?",
       "choices": [
         {
-          "text": "Three all-round red lights in a vertical line, or a cylinder.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Two all-round red lights in a vertical line, or a ball.",
           "image": null,
           "is_correct": false,
@@ -972,6 +966,12 @@
           "text": "Three all-round white lights in a vertical line.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Three all-round red lights in a vertical line, or a cylinder.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -996,7 +996,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1006,6 +1006,12 @@
       "stem": "According to COLREG Rule 29, what lights must a vessel engaged on pilotage duty exhibit at or near the masthead?",
       "choices": [
         {
+          "text": "A single all-round white light at the masthead.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Two all-round lights in a vertical line, the upper being white and the lower red.",
           "image": null,
           "is_correct": true,
@@ -1013,12 +1019,6 @@
         },
         {
           "text": "Two all-round lights in a vertical line, the upper being red and the lower white.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "A single all-round white light at the masthead.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1045,7 +1045,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1054,12 +1054,6 @@
       "kind": "rule_mc",
       "stem": "Under COLREG Rule 29, which additional lights must a pilot vessel on pilotage duty exhibit when underway?",
       "choices": [
-        {
-          "text": "Sidelights and a sternlight, in addition to the masthead all-round lights.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "An all-round flashing yellow light.",
           "image": null,
@@ -1070,6 +1064,12 @@
           "text": "A second masthead light abaft of and higher than the forward one.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Sidelights and a sternlight, in addition to the masthead all-round lights.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1094,7 +1094,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1110,15 +1110,15 @@
           "rationale": ""
         },
         {
-          "text": "Three balls in a vertical line",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "An all-round flashing yellow light",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Three balls in a vertical line",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1144,7 +1144,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -1160,13 +1160,13 @@
           "rationale": ""
         },
         {
-          "text": "A vessel of less than 50 meters in length at anchor",
+          "text": "A vessel of 100 meters or more in length at anchor",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "A vessel of 100 meters or more in length at anchor",
+          "text": "A vessel of less than 50 meters in length at anchor",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1203,9 +1203,9 @@
       "stem": "Under COLREG Rule 31, what must a seaplane or WIG craft do when it is impracticable to exhibit lights and shapes of the prescribed characteristics or positions?",
       "choices": [
         {
-          "text": "Exhibit lights and shapes as closely similar in characteristics and position as is possible.",
+          "text": "Display only a single all-round white light until full compliance is restored.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1215,9 +1215,9 @@
           "rationale": ""
         },
         {
-          "text": "Display only a single all-round white light until full compliance is restored.",
+          "text": "Exhibit lights and shapes as closely similar in characteristics and position as is possible.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1242,7 +1242,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1252,6 +1252,12 @@
       "stem": "COLREG Rule 31 applies to which types of craft when it is impracticable to comply with the normal light and shape requirements?",
       "choices": [
         {
+          "text": "Any vessel less than 12 meters in length.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "A seaplane and a WIG craft.",
           "image": null,
           "is_correct": true,
@@ -1259,12 +1265,6 @@
         },
         {
           "text": "A seaplane only.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Any vessel less than 12 meters in length.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1291,7 +1291,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1301,15 +1301,15 @@
       "stem": "Under COLREG Rule 32, which of the following correctly describes a 'short blast' AND a 'whistle'?",
       "choices": [
         {
-          "text": "A short blast is about one second's duration; a whistle is any sound signaling appliance capable of producing the prescribed blasts",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A short blast is about one second's duration; a whistle must produce only high-pitched tones",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A short blast is about one second's duration; a whistle is any sound signaling appliance capable of producing the prescribed blasts",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1340,7 +1340,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1350,6 +1350,12 @@
       "stem": "According to COLREG Rule 32, what is the duration of a 'prolonged blast'?",
       "choices": [
         {
+          "text": "From two to three seconds",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "From four to six seconds",
           "image": null,
           "is_correct": true,
@@ -1357,12 +1363,6 @@
         },
         {
           "text": "About one second",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "From two to three seconds",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1389,7 +1389,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1398,12 +1398,6 @@
       "kind": "rule_mc",
       "stem": "Under COLREG Rule 33, which of the following statements about a vessel of less than 12 meters in length is correct?",
       "choices": [
-        {
-          "text": "She is not obliged to carry the prescribed sound signaling appliances but shall be provided with some other means of making an efficient sound signal if she does not carry them",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "She is required to carry a whistle but not a bell",
           "image": null,
@@ -1414,6 +1408,12 @@
           "text": "She is exempt from all sound signal requirements",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "She is not obliged to carry the prescribed sound signaling appliances but shall be provided with some other means of making an efficient sound signal if she does not carry them",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1438,7 +1438,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1454,13 +1454,13 @@
           "rationale": ""
         },
         {
-          "text": "A whistle and a bell only",
+          "text": "A whistle and a gong only",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "A whistle and a gong only",
+          "text": "A whistle and a bell only",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1497,9 +1497,9 @@
       "stem": "According to COLREG Rule 36, which of the following conditions apply to any light used to attract the attention of another vessel?",
       "choices": [
         {
-          "text": "It shall be such that it cannot be mistaken for any aid to navigation",
+          "text": "It shall not be used in conjunction with sound signals",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1509,9 +1509,9 @@
           "rationale": ""
         },
         {
-          "text": "It shall not be used in conjunction with sound signals",
+          "text": "It shall be such that it cannot be mistaken for any aid to navigation",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1536,7 +1536,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1545,12 +1545,6 @@
       "kind": "rule_mc",
       "stem": "Under COLREG Rule 36, which of the following actions is explicitly stated as something to be avoided when using lights to attract the attention of another vessel?",
       "choices": [
-        {
-          "text": "The use of high intensity intermittent or revolving lights, such as strobe lights",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Directing a searchlight toward the danger",
           "image": null,
@@ -1561,6 +1555,12 @@
           "text": "Using sound signals that cannot be mistaken for authorized signals",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The use of high intensity intermittent or revolving lights, such as strobe lights",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1585,7 +1585,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1595,15 +1595,15 @@
       "stem": "Under COLREG Rule 12, how is the windward side of a vessel defined for the purposes of this Rule?",
       "choices": [
         {
-          "text": "The side on which the mainsail is carried",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "The side opposite to that on which the mainsail is carried or, in the case of a square-rigged vessel, the side opposite to that on which the largest fore-and-aft sail is carried",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "The side on which the mainsail is carried",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1634,7 +1634,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -1650,13 +1650,13 @@
           "rationale": ""
         },
         {
-          "text": "The vessel which is to leeward shall keep out of the way",
+          "text": "The larger vessel shall keep out of the way",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "The larger vessel shall keep out of the way",
+          "text": "The vessel which is to leeward shall keep out of the way",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1693,6 +1693,12 @@
       "stem": "Under COLREG Rule 13, from what direction must a vessel be approaching for it to be deemed an overtaking vessel?",
       "choices": [
         {
+          "text": "From a direction abeam of the vessel being overtaken",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "From a direction more than 22.5 degrees abaft the beam of the vessel being overtaken",
           "image": null,
           "is_correct": true,
@@ -1700,12 +1706,6 @@
         },
         {
           "text": "From a direction forward of the beam of the vessel being overtaken",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "From a direction abeam of the vessel being overtaken",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1732,7 +1732,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1792,15 +1792,15 @@
       "stem": "According to COLREG Rule 14, which of the following indicate that a head-on situation exists by night?",
       "choices": [
         {
-          "text": "A vessel could see the masthead lights of the other in a line or nearly in a line and/or both sidelights",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A vessel can see only the sternlight of the other vessel",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A vessel could see the masthead lights of the other in a line or nearly in a line and/or both sidelights",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1831,7 +1831,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0,
+        1,
         2
       ]
     },
@@ -1842,12 +1842,6 @@
       "stem": "Under COLREG Rule 14, when two power-driven vessels meet on reciprocal or nearly reciprocal courses so as to involve risk of collision, what action shall each vessel take?",
       "choices": [
         {
-          "text": "Each shall alter her course to starboard so that each shall pass on the port side of the other",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The vessel on the starboard side shall keep out of the way",
           "image": null,
           "is_correct": false,
@@ -1857,6 +1851,12 @@
           "text": "Each shall reduce speed and maintain her course",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Each shall alter her course to starboard so that each shall pass on the port side of the other",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1881,7 +1881,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1891,6 +1891,12 @@
       "stem": "Two power-driven vessels are crossing so as to involve risk of collision. Which vessel is required to keep out of the way?",
       "choices": [
         {
+          "text": "The faster of the two vessels",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The vessel which has the other on her own starboard side",
           "image": null,
           "is_correct": true,
@@ -1898,12 +1904,6 @@
         },
         {
           "text": "The vessel which has the other on her own port side",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "The faster of the two vessels",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1930,7 +1930,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1939,12 +1939,6 @@
       "kind": "rule_mc",
       "stem": "In a crossing situation involving risk of collision, what action shall the give-way vessel avoid if the circumstances of the case admit?",
       "choices": [
-        {
-          "text": "Crossing ahead of the other vessel",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Altering course to starboard",
           "image": null,
@@ -1955,6 +1949,12 @@
           "text": "Reducing speed",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Crossing ahead of the other vessel",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1979,7 +1979,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1988,6 +1988,12 @@
       "kind": "rule_mc",
       "stem": "Under COLREG Rule 17, when two power-driven vessels are in a crossing situation, which course alteration is restricted for the stand-on vessel if she takes action under Rule 17(a)(ii)?",
       "choices": [
+        {
+          "text": "Reducing speed to allow the give-way vessel to pass",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "Altering course to starboard for a vessel on her port side",
           "image": null,
@@ -1998,12 +2004,6 @@
           "text": "Altering course to port for a vessel on her own port side",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Reducing speed to allow the give-way vessel to pass",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -2028,7 +2028,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -2087,6 +2087,12 @@
       "stem": "How shall a seaplane on the water generally behave with respect to other vessels?",
       "choices": [
         {
+          "text": "She shall comply with the Rules of this Part only when underway at taxiing speed",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "She shall keep well clear of all vessels and avoid impeding their navigation",
           "image": null,
           "is_correct": true,
@@ -2094,12 +2100,6 @@
         },
         {
           "text": "She has priority over all surface vessels and need not keep clear",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "She shall comply with the Rules of this Part only when underway at taxiing speed",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2126,7 +2126,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2135,12 +2135,6 @@
       "kind": "rule_mc",
       "stem": "Which vessels must a power-driven vessel underway keep out of the way of? (Select all that apply from the options below.)",
       "choices": [
-        {
-          "text": "A vessel not under command and a vessel restricted in her ability to maneuver",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "A sailing vessel and a vessel engaged in fishing",
           "image": null,
@@ -2151,6 +2145,12 @@
           "text": "Any vessel that is anchored or moored",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A vessel not under command and a vessel restricted in her ability to maneuver",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2176,7 +2176,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -2186,9 +2186,9 @@
       "stem": "What speed requirement applies to every vessel navigating in or near an area of restricted visibility?",
       "choices": [
         {
-          "text": "Every vessel shall proceed at a safe speed adapted to the prevailing circumstances and conditions of restricted visibility",
+          "text": "Every vessel shall stop and wait until visibility improves",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2198,9 +2198,9 @@
           "rationale": ""
         },
         {
-          "text": "Every vessel shall stop and wait until visibility improves",
+          "text": "Every vessel shall proceed at a safe speed adapted to the prevailing circumstances and conditions of restricted visibility",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2225,7 +2225,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2241,15 +2241,15 @@
           "rationale": ""
         },
         {
-          "text": "An alteration of course towards a vessel abeam or abaft the beam",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "An alteration of course to starboard for a vessel forward of the beam",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "An alteration of course towards a vessel abeam or abaft the beam",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2275,7 +2275,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -2285,15 +2285,15 @@
       "stem": "According to COLREG Rule 5, by what means shall a vessel maintain a proper look-out?",
       "choices": [
         {
-          "text": "By sight and hearing as well as by all available means appropriate in the prevailing circumstances and conditions",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "By sight alone during daylight hours",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "By sight and hearing as well as by all available means appropriate in the prevailing circumstances and conditions",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2324,7 +2324,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2333,12 +2333,6 @@
       "kind": "rule_mc",
       "stem": "What is the purpose of maintaining a proper look-out under COLREG Rule 5?",
       "choices": [
-        {
-          "text": "To make a full appraisal of the situation and of the risk of collision",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "To identify vessels by name and flag state",
           "image": null,
@@ -2349,6 +2343,12 @@
           "text": "To log all vessels within a 5-mile radius",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "To make a full appraisal of the situation and of the risk of collision",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2373,7 +2373,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2433,12 +2433,6 @@
       "stem": "Under COLREG Rule 6, a vessel proceeding at a safe speed must be able to do which of the following?",
       "choices": [
         {
-          "text": "Take proper and effective action to avoid collision and be stopped within a distance appropriate to the prevailing circumstances and conditions",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Maintain a steady course regardless of visibility",
           "image": null,
           "is_correct": false,
@@ -2448,6 +2442,12 @@
           "text": "Continuously monitor radar to detect vessels at long range",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Take proper and effective action to avoid collision and be stopped within a distance appropriate to the prevailing circumstances and conditions",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2472,7 +2472,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2482,7 +2482,7 @@
       "stem": "Under COLREG Rule 7, when shall risk of collision be deemed to exist?",
       "choices": [
         {
-          "text": "If the compass bearing of an approaching vessel does not appreciably change",
+          "text": "If there is any doubt as to whether risk of collision exists",
           "image": null,
           "is_correct": true,
           "rationale": ""
@@ -2494,7 +2494,7 @@
           "rationale": ""
         },
         {
-          "text": "If there is any doubt as to whether risk of collision exists",
+          "text": "If the compass bearing of an approaching vessel does not appreciably change",
           "image": null,
           "is_correct": true,
           "rationale": ""
@@ -2532,12 +2532,6 @@
       "stem": "Which of the following does COLREG Rule 7 prohibit when determining risk of collision?",
       "choices": [
         {
-          "text": "Using long-range radar scanning to obtain early warning",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Making assumptions on the basis of scanty information, especially scanty radar information",
           "image": null,
           "is_correct": true,
@@ -2545,6 +2539,12 @@
         },
         {
           "text": "Conducting radar plotting or equivalent systematic observation of detected objects",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Using long-range radar scanning to obtain early warning",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2571,7 +2571,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -2580,12 +2580,6 @@
       "kind": "rule_mc",
       "stem": "Which of the following is correct regarding alteration of course or speed to avoid collision?",
       "choices": [
-        {
-          "text": "The alteration shall, if circumstances admit, be large enough to be readily apparent to another vessel observing visually or by radar",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "A succession of small alterations of course and/or speed should be avoided",
           "image": null,
@@ -2596,6 +2590,12 @@
           "text": "An alteration of speed alone is always preferable to an alteration of course",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The alteration shall, if circumstances admit, be large enough to be readily apparent to another vessel observing visually or by radar",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2621,7 +2621,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -2631,15 +2631,15 @@
       "stem": "What characteristics must an action taken to avoid collision have, if circumstances admit?",
       "choices": [
         {
-          "text": "It shall be positive, made in ample time and with due regard to the observance of good seamanship",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "It shall always consist of a reduction in speed rather than an alteration of course",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "It shall be positive, made in ample time and with due regard to the observance of good seamanship",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2670,7 +2670,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2735,15 +2735,15 @@
           "rationale": ""
         },
         {
-          "text": "A sailing vessel",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A power-driven vessel of 20 meters or more in length",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A sailing vessel",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2769,7 +2769,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     }
   ]

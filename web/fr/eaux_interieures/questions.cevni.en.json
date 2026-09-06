@@ -11,7 +11,7 @@
     "permis": "eaux_interieures",
     "permis_label": "Permis plaisance — option eaux intérieures",
     "country": "FR",
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "kb_version": "",
     "lang": "en",
     "unofficial": "true",
@@ -31,6 +31,12 @@
       "stem": "Under the inland navigation police regulation (RGP), what is a “small craft” (menue embarcation)?",
       "choices": [
         {
+          "text": "A vessel under 15 metres only",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "A vessel under 20 metres",
           "image": null,
           "is_correct": true,
@@ -38,12 +44,6 @@
         },
         {
           "text": "Any vessel under 24 metres",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "A vessel under 15 metres only",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -70,7 +70,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -80,6 +80,12 @@
       "stem": "Where is mooring (stopping) of a vessel generally prohibited on a waterway?",
       "choices": [
         {
+          "text": "Nowhere — mooring is unrestricted",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Under bridges and in narrow passages",
           "image": null,
           "is_correct": true,
@@ -87,12 +93,6 @@
         },
         {
           "text": "Along every fitted quay",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Nowhere — mooring is unrestricted",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -119,7 +119,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -129,6 +129,12 @@
       "stem": "To limit wash (the wake that erodes banks and rocks moored boats), what must the driver do near the banks?",
       "choices": [
         {
+          "text": "Hug the bank as close as possible",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Reduce speed",
           "image": null,
           "is_correct": true,
@@ -136,12 +142,6 @@
         },
         {
           "text": "Increase speed to pass quickly",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Hug the bank as close as possible",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -168,7 +168,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -227,6 +227,12 @@
       "stem": "Which light authorises entry into a lock?",
       "choices": [
         {
+          "text": "Two red lights",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The green light",
           "image": null,
           "is_correct": true,
@@ -234,12 +240,6 @@
         },
         {
           "text": "The red light",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Two red lights",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -266,7 +266,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -325,6 +325,12 @@
       "stem": "On a waterway, what does a rectangular sign with a red border and a white horizontal bar mean?",
       "choices": [
         {
+          "text": "Recommendation to slow down",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "No passage / no entry",
           "image": null,
           "is_correct": true,
@@ -332,12 +338,6 @@
         },
         {
           "text": "Obligation to stop and refuel",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Recommendation to slow down",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -364,7 +364,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -374,6 +374,12 @@
       "stem": "On an inland waterway, what does ONE prolonged blast from a vessel generally mean?",
       "choices": [
         {
+          "text": "“I am stopped”",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "“Attention”",
           "image": null,
           "is_correct": true,
@@ -381,12 +387,6 @@
         },
         {
           "text": "“I am turning around”",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "“I am stopped”",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -413,7 +413,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -423,9 +423,9 @@
       "stem": "At night, a power-driven vessel underway on inland waters shows a light to port. What colour is it?",
       "choices": [
         {
-          "text": "Red",
+          "text": "Yellow",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -435,9 +435,9 @@
           "rationale": ""
         },
         {
-          "text": "Yellow",
+          "text": "Red",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -462,7 +462,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -472,9 +472,9 @@
       "stem": "At night, a vessel moored away from the bank, outside a harbour, most often shows:",
       "choices": [
         {
-          "text": "An all-round white light",
+          "text": "No light",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -484,9 +484,9 @@
           "rationale": ""
         },
         {
-          "text": "No light",
+          "text": "An all-round white light",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -511,7 +511,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -521,15 +521,15 @@
       "stem": "On inland waters, with respect to large vessels, ferries and vessels on a regular service, small craft (pleasure boats) must:",
       "choices": [
         {
-          "text": "Keep out of their way",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Hold their course, having priority",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Keep out of their way",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -560,7 +560,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -576,13 +576,13 @@
           "rationale": ""
         },
         {
-          "text": "To its left (port)",
+          "text": "In the middle of the channel",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "In the middle of the channel",
+          "text": "To its left (port)",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -619,9 +619,9 @@
       "stem": "In a narrow passage (under a bridge, a tight channel) where crossing is impossible, what must the driver do?",
       "choices": [
         {
-          "text": "Make sure the passage is clear before entering",
+          "text": "Speed up to force through",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -631,9 +631,9 @@
           "rationale": ""
         },
         {
-          "text": "Speed up to force through",
+          "text": "Make sure the passage is clear before entering",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -658,7 +658,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -668,15 +668,15 @@
       "stem": "On inland waters, what is a “down-bound” (avalant) vessel?",
       "choices": [
         {
-          "text": "A vessel going downstream",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A vessel going upstream",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A vessel going downstream",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -707,7 +707,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -717,6 +717,12 @@
       "stem": "Along a river or canal, how is your position located?",
       "choices": [
         {
+          "text": "By nautical miles",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "By kilometre points (bank markers)",
           "image": null,
           "is_correct": true,
@@ -724,12 +730,6 @@
         },
         {
           "text": "By latitude and longitude alone",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "By nautical miles",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -756,7 +756,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -772,13 +772,13 @@
           "rationale": ""
         },
         {
-          "text": "That its speed is at maximum",
+          "text": "That its anchor is down",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "That its anchor is down",
+          "text": "That its speed is at maximum",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -815,6 +815,12 @@
       "stem": "At a lock, who sets the order and manner in which vessels enter?",
       "choices": [
         {
+          "text": "Each driver, freely",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The lock-keeper and the lock's signs",
           "image": null,
           "is_correct": true,
@@ -822,12 +828,6 @@
         },
         {
           "text": "The fastest vessel",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Each driver, freely",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -854,7 +854,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -870,13 +870,13 @@
           "rationale": ""
         },
         {
-          "text": "Entry is immediately authorised",
+          "text": "Exit is compulsory",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Exit is compulsory",
+          "text": "Entry is immediately authorised",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -968,13 +968,13 @@
           "rationale": ""
         },
         {
-          "text": "An absolute prohibition",
+          "text": "An immediate danger",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "An immediate danger",
+          "text": "An absolute prohibition",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1011,15 +1011,15 @@
       "stem": "A square BLUE sign bearing a white letter “P” means:",
       "choices": [
         {
-          "text": "Mooring permitted",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Mooring prohibited",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Mooring permitted",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1050,7 +1050,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1060,6 +1060,12 @@
       "stem": "A red-bordered sign bearing a white arrow indicates:",
       "choices": [
         {
+          "text": "A bathing area",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "An obligation to follow the shown direction",
           "image": null,
           "is_correct": true,
@@ -1067,12 +1073,6 @@
         },
         {
           "text": "A mere recommendation",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "A bathing area",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1099,7 +1099,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1115,13 +1115,13 @@
           "rationale": ""
         },
         {
-          "text": "The distance to the next lock",
+          "text": "The waterway's number",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "The waterway's number",
+          "text": "The distance to the next lock",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1158,6 +1158,12 @@
       "stem": "On a flowing river, when an up-bound and a down-bound vessel meet, which has priority?",
       "choices": [
         {
+          "text": "The larger of the two vessels",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The down-bound vessel",
           "image": null,
           "is_correct": true,
@@ -1165,12 +1171,6 @@
         },
         {
           "text": "The up-bound vessel",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "The larger of the two vessels",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1197,7 +1197,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1213,13 +1213,13 @@
           "rationale": ""
         },
         {
-          "text": "Each alters to port",
+          "text": "They both stop",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "They both stop",
+          "text": "Each alters to port",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1256,12 +1256,6 @@
       "stem": "On inland waters, on which side does a vessel normally overtake another?",
       "choices": [
         {
-          "text": "On the port (left) side of the overtaken vessel",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Always on the starboard side",
           "image": null,
           "is_correct": false,
@@ -1271,6 +1265,12 @@
           "text": "By passing very close to it",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "On the port (left) side of the overtaken vessel",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1295,7 +1295,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1304,12 +1304,6 @@
       "kind": "rule_mc",
       "stem": "At a bridge or weir opening bearing prohibition sign A.10, where is navigation permitted?",
       "choices": [
-        {
-          "text": "Only in the space between the two panels making up the sign",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Anywhere in the opening, except in the centre of the channel",
           "image": null,
@@ -1320,6 +1314,12 @@
           "text": "Preferably between the two panels, but without prohibition elsewhere",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Only in the space between the two panels making up the sign",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1344,7 +1344,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1353,12 +1353,6 @@
       "kind": "rule_mc",
       "stem": "An opening of a fixed bridge is marked by one or more red lights. What must you conclude?",
       "choices": [
-        {
-          "text": "The opening is forbidden to navigation.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "The opening is recommended as the preferred passage in both directions.",
           "image": null,
@@ -1369,6 +1363,12 @@
           "text": "The opening is reserved for upbound boats only.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The opening is forbidden to navigation.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1393,7 +1393,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1403,6 +1403,12 @@
       "stem": "When a vessel holding a right of priority at locks approaches the lock lay-bys or is moored there, how must the other vessels behave?",
       "choices": [
         {
+          "text": "They must immediately leave the lock lay-by",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "They must facilitate its passage as much as possible",
           "image": null,
           "is_correct": true,
@@ -1410,12 +1416,6 @@
         },
         {
           "text": "They keep their turn according to order of arrival",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "They must immediately leave the lock lay-by",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1442,7 +1442,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1452,9 +1452,9 @@
       "stem": "During normal navigation periods, what is the maximum duration for which the manager may exceptionally authorise a vessel to moor in lock lay-bys?",
       "choices": [
         {
-          "text": "Ten days",
+          "text": "Thirty days",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1464,9 +1464,9 @@
           "rationale": ""
         },
         {
-          "text": "Thirty days",
+          "text": "Ten days",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1491,7 +1491,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1507,13 +1507,13 @@
           "rationale": ""
         },
         {
-          "text": "One may stand on them freely, including on movable bridges during operation.",
+          "text": "Moving about on them is allowed provided one wears a personal flotation device.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Moving about on them is allowed provided one wears a personal flotation device.",
+          "text": "One may stand on them freely, including on movable bridges during operation.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1550,15 +1550,15 @@
       "stem": "Under what condition may an overtaking vessel begin to overtake?",
       "choices": [
         {
-          "text": "Only after making sure that the manoeuvre can be carried out without danger.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Only after receiving explicit permission from the vessel being overtaken.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Only after making sure that the manoeuvre can be carried out without danger.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1589,7 +1589,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1598,12 +1598,6 @@
       "kind": "rule_mc",
       "stem": "On a stretch where the course to follow is imposed by signs, what obligation applies to upstream-bound vessels with regard to downstream-bound vessels?",
       "choices": [
-        {
-          "text": "They must in no case impede downstream-bound vessels and must if necessary slow down or stop.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "They have priority and downstream-bound vessels must keep clear to let them pass.",
           "image": null,
@@ -1614,6 +1608,12 @@
           "text": "They must sound a prolonged blast before crossing the channel.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "They must in no case impede downstream-bound vessels and must if necessary slow down or stop.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1638,7 +1638,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1648,6 +1648,12 @@
       "stem": "Except when overtaking or passing, what is the minimum distance a vessel may approach a pushed convoy carrying the dangerous-goods marking?",
       "choices": [
         {
+          "text": "No closer than 100 m.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "No closer than 50 m.",
           "image": null,
           "is_correct": true,
@@ -1655,12 +1661,6 @@
         },
         {
           "text": "No closer than 10 m.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "No closer than 100 m.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1687,7 +1687,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1697,9 +1697,9 @@
       "stem": "What does the basic rule provide concerning anchors, cables or chains during navigation?",
       "choices": [
         {
-          "text": "In principle, it is prohibited to let them drag.",
+          "text": "It is mandatory to let them drag when drifting.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1709,9 +1709,9 @@
           "rationale": ""
         },
         {
-          "text": "It is mandatory to let them drag when drifting.",
+          "text": "In principle, it is prohibited to let them drag.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1736,7 +1736,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1795,9 +1795,9 @@
       "stem": "How should a vessel that drifts downstream bow-pointed upstream with its engine running ahead be regarded?",
       "choices": [
         {
-          "text": "As a vessel proceeding upstream, not as drifting.",
+          "text": "As a vessel proceeding downstream required to give way.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1807,9 +1807,9 @@
           "rationale": ""
         },
         {
-          "text": "As a vessel proceeding downstream required to give way.",
+          "text": "As a vessel proceeding upstream, not as drifting.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1834,7 +1834,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1844,9 +1844,9 @@
       "stem": "Under what condition may a ferry begin to cross the inland waterway?",
       "choices": [
         {
-          "text": "Only after making sure the crossing can be made without danger and without forcing other vessels to make a sudden change in course or speed.",
+          "text": "Only after sounding one prolonged blast to warn all approaching vessels.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1856,9 +1856,9 @@
           "rationale": ""
         },
         {
-          "text": "Only after sounding one prolonged blast to warn all approaching vessels.",
+          "text": "Only after making sure the crossing can be made without danger and without forcing other vessels to make a sudden change in course or speed.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1883,7 +1883,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1892,12 +1892,6 @@
       "kind": "rule_mc",
       "stem": "What minimum distance must a vessel keep from the stern of a vessel showing the signals for mine-clearance operations?",
       "choices": [
-        {
-          "text": "Not within 1,000 m of its stern.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Not within 100 m of its stern.",
           "image": null,
@@ -1908,6 +1902,12 @@
           "text": "Not within 500 m of its stern.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Not within 1,000 m of its stern.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1932,7 +1932,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1942,6 +1942,12 @@
       "stem": "A boatmaster observes a risk of collision. What must he do?",
       "choices": [
         {
+          "text": "Increase speed to clear the channel as quickly as possible.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Sound a series of very short blasts.",
           "image": null,
           "is_correct": true,
@@ -1949,12 +1955,6 @@
         },
         {
           "text": "Sound a single prolonged blast.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Increase speed to clear the channel as quickly as possible.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1981,7 +1981,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1997,13 +1997,13 @@
           "rationale": ""
         },
         {
-          "text": "Always maintain the maximum authorised speed to keep traffic flowing.",
+          "text": "Freely set his speed, as no minimum limit may ever be imposed on him.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Freely set his speed, as no minimum limit may ever be imposed on him.",
+          "text": "Always maintain the maximum authorised speed to keep traffic flowing.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2040,15 +2040,15 @@
       "stem": "A crew member temporarily determines the vessel's course and speed. What is his position with regard to the steering rules?",
       "choices": [
         {
-          "text": "He is also responsible, to that extent, for compliance with the requirements imposed on the boatmaster.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "He bears no responsibility, the appointed boatmaster alone remaining liable.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "He is also responsible, to that extent, for compliance with the requirements imposed on the boatmaster.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2079,7 +2079,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2089,9 +2089,9 @@
       "stem": "While the vessel is under way, where must the boatmaster be?",
       "choices": [
         {
-          "text": "On board the vessel.",
+          "text": "On board only when the vessel is actually moving.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2101,9 +2101,9 @@
           "rationale": ""
         },
         {
-          "text": "On board only when the vessel is actually moving.",
+          "text": "On board the vessel.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2128,7 +2128,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2187,15 +2187,15 @@
       "stem": "Unless otherwise prescribed, what characteristic must the prescribed signalling lights display?",
       "choices": [
         {
-          "text": "A continuous and uniform light",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A regularly flashing light",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A continuous and uniform light",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2226,7 +2226,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2235,12 +2235,6 @@
       "kind": "rule_mc",
       "stem": "Unless otherwise prescribed, what shape must the panels and flags required by the on-board signalling rules have?",
       "choices": [
-        {
-          "text": "Rectangular",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Triangular",
           "image": null,
@@ -2251,6 +2245,12 @@
           "text": "Circular",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Rectangular",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2275,7 +2275,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2291,13 +2291,13 @@
           "rationale": ""
         },
         {
-          "text": "Rockets or shells throwing red stars fired one at a time at short intervals",
+          "text": "A light signal made up of the group ...---... (SOS) in Morse code",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "A light signal made up of the group ...---... (SOS) in Morse code",
+          "text": "Rockets or shells throwing red stars fired one at a time at short intervals",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2334,15 +2334,15 @@
       "stem": "For a signalling cylinder to be considered sufficiently visible, what minimum dimensions must it have?",
       "choices": [
         {
-          "text": "A height of at least 0.80 m and a diameter of at least 0.50 m",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A height of at least 0.60 m and a diameter of at least 0.60 m",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A height of at least 0.80 m and a diameter of at least 0.50 m",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2373,7 +2373,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2389,13 +2389,13 @@
           "rationale": ""
         },
         {
-          "text": "Only at night and after authorisation from the authority responsible for navigation policing",
+          "text": "For any use, as long as the vessel is moored",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "For any use, as long as the vessel is moored",
+          "text": "Only at night and after authorisation from the authority responsible for navigation policing",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2432,12 +2432,6 @@
       "stem": "When a prescribed signalling light fails to work, what must the operator do?",
       "choices": [
         {
-          "text": "Replace it without delay with an emergency light",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Stop navigating until the light is permanently repaired",
           "image": null,
           "is_correct": false,
@@ -2447,6 +2441,12 @@
           "text": "Wait until the next port to report the failure, with no other measure",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Replace it without delay with an emergency light",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2471,7 +2471,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2480,12 +2480,6 @@
       "kind": "rule_mc",
       "stem": "What does the regulation say about the use of lights, searchlights, panels, flags or pennants on board?",
       "choices": [
-        {
-          "text": "It is forbidden to use lights or objects liable to be confused with the regulatory lights and signals",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Any advertising lighting is allowed provided it is switched off at night",
           "image": null,
@@ -2496,6 +2490,12 @@
           "text": "Dazzling searchlights are permitted if they are aimed towards the bank",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "It is forbidden to use lights or objects liable to be confused with the regulatory lights and signals",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2520,7 +2520,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2530,6 +2530,12 @@
       "stem": "You are operating a vessel that is not a small craft. What does the regulation require regarding the prescribed sound signals?",
       "choices": [
         {
+          "text": "It is exempt from giving any prescribed sound signal.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "It must, when needed, use the prescribed sound signals.",
           "image": null,
           "is_correct": true,
@@ -2537,12 +2543,6 @@
         },
         {
           "text": "It may give these signals only when navigating at night.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "It is exempt from giving any prescribed sound signal.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2569,7 +2569,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2579,15 +2579,15 @@
       "stem": "Under what condition is the use of sound signals other than the prescribed ones permitted between vessels or between a vessel and the shore?",
       "choices": [
         {
-          "text": "Provided they cannot be confused with the prescribed signals.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Provided they are given only when approaching a lock.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Provided they cannot be confused with the prescribed signals.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2618,7 +2618,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2628,6 +2628,12 @@
       "stem": "To call for help, what sound signal may a vessel in distress give?",
       "choices": [
         {
+          "text": "Three short blasts given only once",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Bell peals or repeated prolonged blasts",
           "image": null,
           "is_correct": true,
@@ -2635,12 +2641,6 @@
         },
         {
           "text": "A single short blast followed by a one-minute silence",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Three short blasts given only once",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2667,7 +2667,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2683,13 +2683,13 @@
           "rationale": ""
         },
         {
-          "text": "In annex 7.",
+          "text": "In annex 8.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "In annex 8.",
+          "text": "In annex 7.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2775,9 +2775,9 @@
       "stem": "Regarding equipment, what obligation applies to vessels, except for small craft?",
       "choices": [
         {
-          "text": "Be equipped with a radiotelephone installation",
+          "text": "Have an automatic identification system (AIS) in all circumstances",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2787,9 +2787,9 @@
           "rationale": ""
         },
         {
-          "text": "Have an automatic identification system (AIS) in all circumstances",
+          "text": "Be equipped with a radiotelephone installation",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2814,7 +2814,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2830,13 +2830,13 @@
           "rationale": ""
         },
         {
-          "text": "For all vessels without exception as soon as they navigate at night",
+          "text": "Only for motorised small craft",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Only for motorised small craft",
+          "text": "For all vessels without exception as soon as they navigate at night",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2873,6 +2873,12 @@
       "stem": "At a berthing area marked by sign B.12, what obligation applies to all vessels?",
       "choices": [
         {
+          "text": "Run their onboard generator to feed power into the shore network",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Connect to an operational shore-side electrical connection point to fully cover their electricity needs during the stay",
           "image": null,
           "is_correct": true,
@@ -2880,12 +2886,6 @@
         },
         {
           "text": "Switch off all electrical equipment and remain completely powered down during the stay",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Run their onboard generator to feed power into the shore network",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2912,7 +2912,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2971,15 +2971,15 @@
       "stem": "For mooring or warping, which of the following is a vessel NOT permitted to use?",
       "choices": [
         {
-          "text": "A handrail or a metal ladder",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A mooring bollard provided for that purpose",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A handrail or a metal ladder",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -3010,7 +3010,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3019,12 +3019,6 @@
       "kind": "rule_mc",
       "stem": "At a berthing/parking area, absent any other instructions, how must vessels arrange themselves?",
       "choices": [
-        {
-          "text": "Side by side starting from the bank, on the side of the waterway where the sign is placed",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "In a single row aligned along the middle of the channel",
           "image": null,
@@ -3035,6 +3029,12 @@
           "text": "Rafted together starting from the bank opposite the sign",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Side by side starting from the bank, on the side of the waterway where the sign is placed",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3059,7 +3059,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3068,12 +3068,6 @@
       "kind": "rule_mc",
       "stem": "At a berthing area where a special-berth indication sign (type E.5.4 to E.5.15) is set up, who may berth there?",
       "choices": [
-        {
-          "text": "Only the categories of vessel to which the sign applies, and only on the side of the waterway where the sign is placed.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "All vessels, on both sides of the waterway, with no category restriction.",
           "image": null,
@@ -3084,6 +3078,12 @@
           "text": "The categories of vessel covered by the sign, but on either side of the waterway indifferently.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Only the categories of vessel to which the sign applies, and only on the side of the waterway where the sign is placed.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3108,7 +3108,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3118,6 +3118,12 @@
       "stem": "For a berthed vessel with no boatmaster aboard, who is responsible for setting up the required watch or supervision?",
       "choices": [
         {
+          "text": "The manager of the harbour or berthing area",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The owner, operator or other person running the vessel",
           "image": null,
           "is_correct": true,
@@ -3125,12 +3131,6 @@
         },
         {
           "text": "The authority in charge of navigation policing",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "The manager of the harbour or berthing area",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3157,7 +3157,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3173,13 +3173,13 @@
           "rationale": ""
         },
         {
-          "text": "The load may reduce visibility as long as a lookout is posted at the bow of the vessel.",
+          "text": "The load must never exceed the height of the wheelhouse, regardless of visibility.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "The load must never exceed the height of the wheelhouse, regardless of visibility.",
+          "text": "The load may reduce visibility as long as a lookout is posted at the bow of the vessel.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3216,15 +3216,15 @@
       "stem": "How must the master of a vessel respond to the specific orders given by the officials and agents in charge of navigation policing for the safety or good order of navigation?",
       "choices": [
         {
-          "text": "He complies with the specific orders given for the safety or good order of navigation.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "He may refuse to comply if he considers his own course to have priority.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "He complies with the specific orders given for the safety or good order of navigation.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -3255,7 +3255,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3265,9 +3265,9 @@
       "stem": "What obligation does the master of a vessel have towards the officials and agents in charge of navigation policing who record offences?",
       "choices": [
         {
-          "text": "Give them the facilities needed to carry out their task of recording offences.",
+          "text": "Provide assistance only if the agents first present him with a judicial warrant.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -3277,9 +3277,9 @@
           "rationale": ""
         },
         {
-          "text": "Provide assistance only if the agents first present him with a judicial warrant.",
+          "text": "Give them the facilities needed to carry out their task of recording offences.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3304,7 +3304,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3313,12 +3313,6 @@
       "kind": "rule_mc",
       "stem": "What must the master of a vessel do regarding the documents that must be kept on board?",
       "choices": [
-        {
-          "text": "Produce them upon any request by the agents in charge of navigation policing.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Send them by post only, within eight days of the request.",
           "image": null,
@@ -3329,6 +3323,12 @@
           "text": "Produce them only to agents holding a written requisition from a judge.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Produce them upon any request by the agents in charge of navigation policing.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3353,7 +3353,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     }
   ]

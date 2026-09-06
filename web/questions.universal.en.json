@@ -4,7 +4,7 @@
     "pool": "universal",
     "scope": "universal",
     "unofficial": true,
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "grounding": "Portable seamanship — valid under any code."
   },
   "questions": [
@@ -21,13 +21,13 @@
           "rationale": ""
         },
         {
-          "text": "To the Inland Navigation Ordinance (ONI) itself.",
+          "text": "To the Navigation Regulations for Lake Geneva (RNL).",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "To the Navigation Regulations for Lake Geneva (RNL).",
+          "text": "To the Inland Navigation Ordinance (ONI) itself.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -64,15 +64,15 @@
       "stem": "Among these statements about the definitions in ONI art. 142, which one is FALSE?",
       "choices": [
         {
-          "text": "The \"duty of diligence\" is defined in ONI art. 142 without reference to another ordinance.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The \"safety report\" is a report within the meaning of art. 2, let. e, and art. 17, para. 3, OCEB.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The \"duty of diligence\" is defined in ONI art. 142 without reference to another ordinance.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -103,7 +103,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -112,12 +112,6 @@
       "kind": "definition_mc",
       "stem": "According to ONI art. 142, how are the \"experts\" defined within the meaning of the special provisions of this section?",
       "choices": [
-        {
-          "text": "As the persons referred to in art. 5a, para. 1, let. a, OCEB.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "As the officers of the competent authority of the place of mooring.",
           "image": null,
@@ -128,6 +122,12 @@
           "text": "As the members of a recognized classification society.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "As the persons referred to in art. 5a, para. 1, let. a, OCEB.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -152,7 +152,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -168,13 +168,13 @@
           "rationale": ""
         },
         {
-          "text": "An assembly of non-propelled vessels towed by at least one motorised vessel",
+          "text": "Any group of pleasure craft navigating together",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Any group of pleasure craft navigating together",
+          "text": "An assembly of non-propelled vessels towed by at least one motorised vessel",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -211,12 +211,6 @@
       "stem": "Within the meaning of the ONI, what does the term \"motorized vessel\" designate?",
       "choices": [
         {
-          "text": "A vessel with mechanical propulsion",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A non-propelled vessel towed by another vessel",
           "image": null,
           "is_correct": false,
@@ -226,6 +220,12 @@
           "text": "A floating device such as a dredger or a crane",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A vessel with mechanical propulsion",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -250,7 +250,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -266,13 +266,13 @@
           "rationale": ""
         },
         {
-          "text": "No, only the conditions specifically cited (mist, fog, etc.) are covered.",
+          "text": "Yes, but only conditions caused by smoke from a fire.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Yes, but only conditions caused by smoke from a fire.",
+          "text": "No, only the conditions specifically cited (mist, fog, etc.) are covered.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -462,13 +462,13 @@
           "rationale": ""
         },
         {
-          "text": "The stronger the tension, the more it tends to slip and come undone.",
+          "text": "Tension has no effect on its locking, which depends on an intermediate mechanical system.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Tension has no effect on its locking, which depends on an intermediate mechanical system.",
+          "text": "The stronger the tension, the more it tends to slip and come undone.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -505,6 +505,12 @@
       "stem": "According to the text, the bowline is also called:",
       "choices": [
         {
+          "text": "Hangman's knot.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Bowline knot (nœud de bouline).",
           "image": null,
           "is_correct": true,
@@ -512,12 +518,6 @@
         },
         {
           "text": "Clove hitch.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Hangman's knot.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -544,7 +544,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -554,15 +554,15 @@
       "stem": "Why is the bowline described as the king of knots, according to the text?",
       "choices": [
         {
-          "text": "It is a reliable loop knot that does not slip under tension and unties easily even after strong tension.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "It is the only knot that is impossible to untie once tightened.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "It is a reliable loop knot that does not slip under tension and unties easily even after strong tension.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -593,7 +593,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -603,6 +603,12 @@
       "stem": "Why is the bowline described as the “king of knots”?",
       "choices": [
         {
+          "text": "It is used only to join two ropes of the same diameter",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "It is a reliable loop knot that does not slip under tension and unties easily",
           "image": null,
           "is_correct": true,
@@ -610,12 +616,6 @@
         },
         {
           "text": "It tightens more and more under tension until it becomes impossible to untie",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "It is used only to join two ropes of the same diameter",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -642,7 +642,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -651,6 +651,12 @@
       "kind": "matelotage_mc",
       "stem": "Regarding the methods for making the bowline, which statement(s) does the text confirm?",
       "choices": [
+        {
+          "text": "A single unique method of making it is accepted throughout the world.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "There are several methods for making it, up to 18 including the variants.",
           "image": null,
@@ -661,12 +667,6 @@
           "text": "Only two classic methods are recognized for teaching, knitted or prepared.",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "A single unique method of making it is accepted throughout the world.",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -691,8 +691,8 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -702,6 +702,12 @@
       "stem": "According to the text, what does the hangman's knot illustrate regarding bight knots?",
       "choices": [
         {
+          "text": "It loosens automatically as soon as weight is applied to the loop.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "It can be easily undone if the loop is free, but tightens around the restraint under the weight of the hanged person.",
           "image": null,
           "is_correct": true,
@@ -709,12 +715,6 @@
         },
         {
           "text": "It can never be undone, whether the loop is free or restrained.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "It loosens automatically as soon as weight is applied to the loop.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -741,7 +741,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -751,9 +751,9 @@
       "stem": "According to the text, what is a bight (ganse)?",
       "choices": [
         {
-          "text": "A curved portion of rope, with no crossing or overlapping.",
+          "text": "A rope braided from three metal strands.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -763,9 +763,9 @@
           "rationale": ""
         },
         {
-          "text": "A rope braided from three metal strands.",
+          "text": "A curved portion of rope, with no crossing or overlapping.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -790,7 +790,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -800,9 +800,9 @@
       "stem": "According to the text, what is the strength of a rope fitted with a bowline compared to a clove hitch?",
       "choices": [
         {
-          "text": "The bowline retains an exceptional strength of 89%, whereas the clove hitch halves it.",
+          "text": "Both knots reduce the rope's strength by exactly half.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -812,9 +812,9 @@
           "rationale": ""
         },
         {
-          "text": "Both knots reduce the rope's strength by exactly half.",
+          "text": "The bowline retains an exceptional strength of 89%, whereas the clove hitch halves it.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -839,7 +839,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -849,15 +849,15 @@
       "stem": "According to the text, which criterion makes it possible to evaluate and choose the most suitable knot?",
       "choices": [
         {
-          "text": "The strength of the knot, in particular whether or not it weakens the rope in case of violent jerks.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The color of the rope used to make it.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The strength of the knot, in particular whether or not it weakens the rope in case of violent jerks.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -888,7 +888,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -904,13 +904,13 @@
           "rationale": ""
         },
         {
-          "text": "Knots have never been used outside the maritime domain.",
+          "text": "Knowledge of knots has become completely useless since the appearance of specialized equipment.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Knowledge of knots has become completely useless since the appearance of specialized equipment.",
+          "text": "Knots have never been used outside the maritime domain.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -947,12 +947,6 @@
       "stem": "According to the text, what is a knot?",
       "choices": [
         {
-          "text": "The intertwining or interlacing of one or more ropes or other flexible, thread-like objects.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Exclusively the interlacing of two rigid metal cables.",
           "image": null,
           "is_correct": false,
@@ -962,6 +956,12 @@
           "text": "An assembly of planks intended to reinforce a hull.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The intertwining or interlacing of one or more ropes or other flexible, thread-like objects.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -986,7 +986,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -995,12 +995,6 @@
       "kind": "figure_recognition",
       "stem": "What does this signal mean?",
       "choices": [
-        {
-          "text": "Boat landing area",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
         {
           "text": "The width of the passage is limited",
           "image": null,
@@ -1011,6 +1005,12 @@
           "text": "Strong wind warning",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Boat landing area",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -1035,7 +1035,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -1045,6 +1045,12 @@
       "stem": "What does this signal mean?",
       "choices": [
         {
+          "text": "Strong wind warning",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Storm warning",
           "image": null,
           "is_correct": true,
@@ -1052,12 +1058,6 @@
         },
         {
           "text": "Dam",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Strong wind warning",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1084,7 +1084,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1094,9 +1094,9 @@
       "stem": "What is observed on a running point of sail (dead downwind)?",
       "choices": [
         {
-          "text": "Rolling increases and an (accidental) gybe threatens",
+          "text": "The sailboat can no longer make headway because it is head to wind",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1106,9 +1106,9 @@
           "rationale": ""
         },
         {
-          "text": "The sailboat can no longer make headway because it is head to wind",
+          "text": "Rolling increases and an (accidental) gybe threatens",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1133,7 +1133,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1198,13 +1198,13 @@
           "rationale": ""
         },
         {
-          "text": "When it sails downwind with the sails wing-on-wing (in scissors)",
+          "text": "When it has right of way over every other boat on the water",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "When it has right of way over every other boat on the water",
+          "text": "When it sails downwind with the sails wing-on-wing (in scissors)",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1241,9 +1241,9 @@
       "stem": "On a light sport dinghy, what is a capsize commonly called and what is its nature?",
       "choices": [
         {
-          "text": "A «capsize»: it is common and harmless",
+          "text": "A «rounding up»: it occurs only when close-hauled",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1253,9 +1253,9 @@
           "rationale": ""
         },
         {
-          "text": "A «rounding up»: it occurs only when close-hauled",
+          "text": "A «capsize»: it is common and harmless",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1280,7 +1280,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1296,13 +1296,13 @@
           "rationale": ""
         },
         {
-          "text": "The change of tack is made by passing head to wind",
+          "text": "It does not change the set of the sails",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "It does not change the set of the sails",
+          "text": "The change of tack is made by passing head to wind",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1345,13 +1345,13 @@
           "rationale": ""
         },
         {
-          "text": "The mainsail, rigged abaft the mast",
+          "text": "A standing-rigging wire that holds the mast up",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "A standing-rigging wire that holds the mast up",
+          "text": "The mainsail, rigged abaft the mast",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1388,15 +1388,15 @@
       "stem": "What happens during a tack (virement de bord)?",
       "choices": [
         {
-          "text": "The side of the boat that was leeward becomes windward, and vice versa",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The sailboat keeps the same tack throughout the manoeuvre",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The side of the boat that was leeward becomes windward, and vice versa",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1427,7 +1427,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1437,9 +1437,9 @@
       "stem": "At sea, what does the regulation say about discharging rubbish and hydrocarbons?",
       "choices": [
         {
-          "text": "It is prohibited",
+          "text": "It is allowed at night",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1449,9 +1449,9 @@
           "rationale": ""
         },
         {
-          "text": "It is allowed at night",
+          "text": "It is prohibited",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1476,7 +1476,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1486,6 +1486,12 @@
       "stem": "What should the boater do with waste produced aboard?",
       "choices": [
         {
+          "text": "Burn it aboard",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Bring it ashore to harbour facilities",
           "image": null,
           "is_correct": true,
@@ -1493,12 +1499,6 @@
         },
         {
           "text": "Throw it overboard offshore",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Burn it aboard",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1525,7 +1525,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1535,9 +1535,9 @@
       "stem": "In the Mediterranean, anchoring on Posidonia seagrass beds is:",
       "choices": [
         {
-          "text": "Regulated, even prohibited (protected beds)",
+          "text": "Recommended because the anchor holds well there",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1547,9 +1547,9 @@
           "rationale": ""
         },
         {
-          "text": "Recommended because the anchor holds well there",
+          "text": "Regulated, even prohibited (protected beds)",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1574,7 +1574,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1583,12 +1583,6 @@
       "kind": "meteo_mc",
       "stem": "The Beaufort scale, measuring wind force, is graduated from 0 to what value?",
       "choices": [
-        {
-          "text": "12",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "10",
           "image": null,
@@ -1599,6 +1593,12 @@
           "text": "100",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "12",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1623,7 +1623,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1737,13 +1737,13 @@
           "rationale": ""
         },
         {
-          "text": "Between 0 and 100",
+          "text": "Between 1 and 12",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Between 1 and 12",
+          "text": "Between 0 and 100",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1780,15 +1780,15 @@
       "stem": "What is the “rule of twelfths” used for?",
       "choices": [
         {
-          "text": "To estimate the water height at a given hour of the tide",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "To calculate the wind force",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "To estimate the water height at a given hour of the tide",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1819,7 +1819,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1835,13 +1835,13 @@
           "rationale": ""
         },
         {
-          "text": "When the current is strongest",
+          "text": "The difference between high and low water",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "The difference between high and low water",
+          "text": "When the current is strongest",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1878,12 +1878,6 @@
       "stem": "According to the rule of twelfths, by which fraction of the tidal range does the water rise during each successive hour, from low water to high water?",
       "choices": [
         {
-          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
           "image": null,
           "is_correct": false,
@@ -1893,6 +1887,12 @@
           "text": "2/12, 2/12, 2/12, 2/12, 2/12, 2/12",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1917,7 +1917,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2025,15 +2025,15 @@
       "stem": "On the Channel and Atlantic coasts the tide is of the semi-diurnal type. How many high waters and low waters occur in one day?",
       "choices": [
         {
-          "text": "Two high waters and two low waters",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "One high water and one low water",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Two high waters and two low waters",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2064,7 +2064,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2074,6 +2074,12 @@
       "stem": "Which tidal coefficient corresponds to the mean spring high and low waters (PMVE/BMVE)?",
       "choices": [
         {
+          "text": "Coefficient 45",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Coefficient 95",
           "image": null,
           "is_correct": true,
@@ -2081,12 +2087,6 @@
         },
         {
           "text": "Coefficient 120",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Coefficient 45",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2113,7 +2113,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2122,12 +2122,6 @@
       "kind": "meteo_mc",
       "stem": "When the Earth, Moon and Sun are aligned (full or new moon), which type of tide occurs?",
       "choices": [
-        {
-          "text": "Spring tides (large range)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Neap tides (small range)",
           "image": null,
@@ -2138,6 +2132,12 @@
           "text": "No tide (permanent slack water)",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Spring tides (large range)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2162,7 +2162,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2221,9 +2221,9 @@
       "stem": "Up to what distance from a shelter does the côtière option of the permis plaisance authorise navigation?",
       "choices": [
         {
-          "text": "6 nautical miles",
+          "text": "With no distance limit",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2233,9 +2233,9 @@
           "rationale": ""
         },
         {
-          "text": "With no distance limit",
+          "text": "6 nautical miles",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2260,7 +2260,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2319,9 +2319,9 @@
       "stem": "What should the boater do with waste water (black water) on inland waters?",
       "choices": [
         {
-          "text": "Hold it in a tank and empty it ashore",
+          "text": "Discharge it far from the banks",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2331,9 +2331,9 @@
           "rationale": ""
         },
         {
-          "text": "Discharge it far from the banks",
+          "text": "Hold it in a tank and empty it ashore",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2358,7 +2358,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2367,12 +2367,6 @@
       "kind": "rule_mc",
       "stem": "On inland waters, discharging hydrocarbons, waste water or rubbish into the waterway is:",
       "choices": [
-        {
-          "text": "Prohibited",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Allowed in small amounts",
           "image": null,
@@ -2383,6 +2377,12 @@
           "text": "Free outside harbours",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Prohibited",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2407,7 +2407,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2417,6 +2417,12 @@
       "stem": "To limit bank erosion and disturbance to wildlife, the boater should above all:",
       "choices": [
         {
+          "text": "Moor in the reed beds",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Reduce speed and wash near the banks",
           "image": null,
           "is_correct": true,
@@ -2424,12 +2430,6 @@
         },
         {
           "text": "Run at full speed in the centre",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Moor in the reed beds",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2456,7 +2456,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2564,6 +2564,12 @@
       "stem": "Which document concerning waste oils must be kept on board a motorized boat?",
       "choices": [
         {
+          "text": "An annual oil-change certificate issued by the waterway manager.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "A valid waste-oil control logbook, on board every motorized boat or floating craft (except small craft).",
           "image": null,
           "is_correct": true,
@@ -2571,12 +2577,6 @@
         },
         {
           "text": "A waste-oil control logbook, required only on board small craft.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "An annual oil-change certificate issued by the waterway manager.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2603,7 +2603,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2613,15 +2613,15 @@
       "stem": "What obligation applies to any person on board a vessel?",
       "choices": [
         {
-          "text": "Comply with the orders given by the boatmaster in the interest of the safety of navigation and order on board.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Obey the boatmaster only if she is part of the vessel's paid crew.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Comply with the orders given by the boatmaster in the interest of the safety of navigation and order on board.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2652,7 +2652,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2662,15 +2662,15 @@
       "stem": "When a disaster (fire or incident) breaks out on board, what must the boatmaster do?",
       "choices": [
         {
-          "text": "Take all necessary measures to control the incident and immediately notify the waterway manager or owner as well as the territorially competent CODIS.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Wait for the rescue services to arrive before undertaking any action to fight the incident.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Take all necessary measures to control the incident and immediately notify the waterway manager or owner as well as the territorially competent CODIS.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2701,7 +2701,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2711,6 +2711,12 @@
       "stem": "Regarding raised anchors and objects protruding from the sides of a vessel, which rule applies?",
       "choices": [
         {
+          "text": "Raised anchors must stay above the waterline but may extend below the keel of the vessel.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "No object liable to compromise safety may protrude from the sides, and raised anchors must not extend below the bottom or keel of the vessel.",
           "image": null,
           "is_correct": true,
@@ -2718,12 +2724,6 @@
         },
         {
           "text": "Objects may protrude from the sides provided they are marked by a flag during the day.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Raised anchors must stay above the waterline but may extend below the keel of the vessel.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2750,7 +2750,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2766,13 +2766,13 @@
           "rationale": ""
         },
         {
-          "text": "Notify the authorities only if the vessel is carrying dangerous goods.",
+          "text": "Leave the vessel in place and wait for the manager's mandatory intervention without acting.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Leave the vessel in place and wait for the manager's mandatory intervention without acting.",
+          "text": "Notify the authorities only if the vessel is carrying dangerous goods.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2858,6 +2858,12 @@
       "stem": "A vessel's identification mark (registration) must be:",
       "choices": [
         {
+          "text": "Optional for pleasure craft",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Displayed visibly and legibly on the hull",
           "image": null,
           "is_correct": true,
@@ -2865,12 +2871,6 @@
         },
         {
           "text": "Kept only in the boat's papers",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Optional for pleasure craft",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2897,7 +2897,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2913,13 +2913,13 @@
           "rationale": ""
         },
         {
-          "text": "Only the fuel level",
+          "text": "Nothing — checks are the lock's job",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Nothing — checks are the lock's job",
+          "text": "Only the fuel level",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2962,13 +2962,13 @@
           "rationale": ""
         },
         {
-          "text": "Two white lights in a vertical line",
+          "text": "Two red lights in a vertical line",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Two red lights in a vertical line",
+          "text": "Two white lights in a vertical line",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3005,9 +3005,9 @@
       "stem": "Under COLREG Annex II, which of the following conditions apply to the additional signals for fishing vessels fishing in close proximity?",
       "choices": [
         {
-          "text": "The lights shall be at least 0.9 meter apart and visible all around the horizon at a distance of at least 1 mile",
+          "text": "The lights shall be placed at the same level as the lights prescribed in Rule 26(b)(i) and (c)(i)",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -3017,9 +3017,9 @@
           "rationale": ""
         },
         {
-          "text": "The lights shall be placed at the same level as the lights prescribed in Rule 26(b)(i) and (c)(i)",
+          "text": "The lights shall be at least 0.9 meter apart and visible all around the horizon at a distance of at least 1 mile",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3044,7 +3044,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3054,6 +3054,12 @@
       "stem": "According to COLREG Rule 38, which of the following time-limited exemptions applies for nine years after the date of entry into force of the Regulations?",
       "choices": [
         {
+          "text": "The installation of lights with ranges prescribed in Rule 22",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The requirements for sound signal appliances prescribed in Annex III",
           "image": null,
           "is_correct": true,
@@ -3061,12 +3067,6 @@
         },
         {
           "text": "The repositioning of masthead lights on vessels of less than 150 meters in length",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "The installation of lights with ranges prescribed in Rule 22",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3093,7 +3093,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3103,6 +3103,12 @@
       "stem": "Under COLREG Rule 38, which of the following exemptions from the current Regulations is granted on a permanent basis?",
       "choices": [
         {
+          "text": "The requirements for sound signal appliances prescribed in Annex III",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The repositioning of lights as a result of conversion from Imperial to metric units and rounding off measurement figures",
           "image": null,
           "is_correct": true,
@@ -3110,12 +3116,6 @@
         },
         {
           "text": "The installation of lights with ranges prescribed in Rule 22",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "The requirements for sound signal appliances prescribed in Annex III",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3142,7 +3142,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3151,6 +3151,12 @@
       "kind": "rule_mc",
       "stem": "Which of the following statements about special rules and the COLREG Rules is correct?",
       "choices": [
+        {
+          "text": "Traffic separation schemes may only be adopted by individual coastal States, not by the Organization",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "Special rules made by an appropriate authority for harbors, rivers or inland waterways shall conform as closely as possible to these Rules",
           "image": null,
@@ -3161,12 +3167,6 @@
           "text": "A Government may make special rules for ships of war with respect to additional station or signal lights",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Traffic separation schemes may only be adopted by individual coastal States, not by the Organization",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -3191,8 +3191,8 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -3251,15 +3251,15 @@
       "stem": "Under COLREG Rule 2, who may be exonerated from the consequences of neglecting to comply with these Rules?",
       "choices": [
         {
-          "text": "No vessel, owner, master or crew is exonerated from the consequences of any neglect to comply",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The owner of a vessel is exonerated if the master was solely at fault",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "No vessel, owner, master or crew is exonerated from the consequences of any neglect to comply",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -3290,7 +3290,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3300,6 +3300,12 @@
       "stem": "When may a departure from these Rules be necessary?",
       "choices": [
         {
+          "text": "When operating in harbor waters governed by port authority regulations",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "When special circumstances, including the limitations of the vessels involved, make a departure necessary to avoid immediate danger",
           "image": null,
           "is_correct": true,
@@ -3307,12 +3313,6 @@
         },
         {
           "text": "When the master decides that strict compliance would slow the vessel",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "When operating in harbor waters governed by port authority regulations",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3339,7 +3339,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3405,13 +3405,13 @@
           "rationale": ""
         },
         {
-          "text": "An unbroken light over an arc of the horizon of 225 degrees, showing from right ahead to 22.5 degrees abaft the beam on either side.",
+          "text": "An unbroken light over an arc of the horizon of 360 degrees.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "An unbroken light over an arc of the horizon of 360 degrees.",
+          "text": "An unbroken light over an arc of the horizon of 225 degrees, showing from right ahead to 22.5 degrees abaft the beam on either side.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3448,6 +3448,12 @@
       "stem": "Under COLREG Rule 21, what color is shown on the port side as part of the sidelights, and over what arc?",
       "choices": [
         {
+          "text": "A white light showing an unbroken light over an arc of 135 degrees on the port side.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "A red light showing an unbroken light over an arc of 112.5 degrees from right ahead to 22.5 degrees abaft the beam on the port side.",
           "image": null,
           "is_correct": true,
@@ -3455,12 +3461,6 @@
         },
         {
           "text": "A green light showing an unbroken light over an arc of 112.5 degrees from right ahead to 22.5 degrees abaft the beam on the port side.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "A white light showing an unbroken light over an arc of 135 degrees on the port side.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3487,7 +3487,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3497,9 +3497,9 @@
       "stem": "Under COLREG Rule 22, what is the minimum visibility range required for a masthead light on a vessel of 50 meters or more in length?",
       "choices": [
         {
-          "text": "6 miles.",
+          "text": "3 miles.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -3509,9 +3509,9 @@
           "rationale": ""
         },
         {
-          "text": "3 miles.",
+          "text": "6 miles.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3536,7 +3536,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3546,13 +3546,13 @@
       "stem": "According to COLREG Rule 22, which lights on a vessel of 12 meters or more but less than 50 meters in length are required to be visible at a minimum range of 2 miles?",
       "choices": [
         {
-          "text": "A sidelight and a sternlight.",
+          "text": "A towing light and a sternlight.",
           "image": null,
           "is_correct": true,
           "rationale": ""
         },
         {
-          "text": "A towing light and a sternlight.",
+          "text": "A sidelight and a sternlight.",
           "image": null,
           "is_correct": true,
           "rationale": ""
@@ -3596,6 +3596,12 @@
       "stem": "A power-driven vessel underway is required to exhibit which of the following? Select all that apply.",
       "choices": [
         {
+          "text": "An all-round flashing yellow light",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "A masthead light forward and sidelights",
           "image": null,
           "is_correct": true,
@@ -3605,12 +3611,6 @@
           "text": "A sternlight",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "An all-round flashing yellow light",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -3635,8 +3635,8 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -3695,6 +3695,12 @@
       "stem": "A sailing vessel of less than 7 meters in length cannot exhibit the prescribed sidelights and sternlight. What is she required to have ready at hand?",
       "choices": [
         {
+          "text": "A bell to be sounded at one-minute intervals",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "An electric torch or lighted lantern showing a white light to be exhibited in sufficient time to prevent collision",
           "image": null,
           "is_correct": true,
@@ -3702,12 +3708,6 @@
         },
         {
           "text": "A red flare to be discharged when another vessel approaches",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "A bell to be sounded at one-minute intervals",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3734,7 +3734,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3892,12 +3892,6 @@
       "stem": "According to COLREG Rule 28, what optional signals may a vessel constrained by her draft exhibit in addition to the lights prescribed for power-driven vessels?",
       "choices": [
         {
-          "text": "Three all-round red lights in a vertical line, or a cylinder.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Two all-round red lights in a vertical line, or a ball.",
           "image": null,
           "is_correct": false,
@@ -3907,6 +3901,12 @@
           "text": "Three all-round white lights in a vertical line.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Three all-round red lights in a vertical line, or a cylinder.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3931,7 +3931,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3941,6 +3941,12 @@
       "stem": "According to COLREG Rule 29, what lights must a vessel engaged on pilotage duty exhibit at or near the masthead?",
       "choices": [
         {
+          "text": "A single all-round white light at the masthead.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Two all-round lights in a vertical line, the upper being white and the lower red.",
           "image": null,
           "is_correct": true,
@@ -3948,12 +3954,6 @@
         },
         {
           "text": "Two all-round lights in a vertical line, the upper being red and the lower white.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "A single all-round white light at the masthead.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3980,7 +3980,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3989,12 +3989,6 @@
       "kind": "rule_mc",
       "stem": "Under COLREG Rule 29, which additional lights must a pilot vessel on pilotage duty exhibit when underway?",
       "choices": [
-        {
-          "text": "Sidelights and a sternlight, in addition to the masthead all-round lights.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "An all-round flashing yellow light.",
           "image": null,
@@ -4005,6 +3999,12 @@
           "text": "A second masthead light abaft of and higher than the forward one.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Sidelights and a sternlight, in addition to the masthead all-round lights.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4029,7 +4029,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4045,15 +4045,15 @@
           "rationale": ""
         },
         {
-          "text": "Three balls in a vertical line",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "An all-round flashing yellow light",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Three balls in a vertical line",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4079,7 +4079,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -4095,13 +4095,13 @@
           "rationale": ""
         },
         {
-          "text": "A vessel of less than 50 meters in length at anchor",
+          "text": "A vessel of 100 meters or more in length at anchor",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "A vessel of 100 meters or more in length at anchor",
+          "text": "A vessel of less than 50 meters in length at anchor",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4138,9 +4138,9 @@
       "stem": "Under COLREG Rule 31, what must a seaplane or WIG craft do when it is impracticable to exhibit lights and shapes of the prescribed characteristics or positions?",
       "choices": [
         {
-          "text": "Exhibit lights and shapes as closely similar in characteristics and position as is possible.",
+          "text": "Display only a single all-round white light until full compliance is restored.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -4150,9 +4150,9 @@
           "rationale": ""
         },
         {
-          "text": "Display only a single all-round white light until full compliance is restored.",
+          "text": "Exhibit lights and shapes as closely similar in characteristics and position as is possible.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4177,7 +4177,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4187,6 +4187,12 @@
       "stem": "COLREG Rule 31 applies to which types of craft when it is impracticable to comply with the normal light and shape requirements?",
       "choices": [
         {
+          "text": "Any vessel less than 12 meters in length.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "A seaplane and a WIG craft.",
           "image": null,
           "is_correct": true,
@@ -4194,12 +4200,6 @@
         },
         {
           "text": "A seaplane only.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Any vessel less than 12 meters in length.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4226,7 +4226,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4236,15 +4236,15 @@
       "stem": "Under COLREG Rule 32, which of the following correctly describes a 'short blast' AND a 'whistle'?",
       "choices": [
         {
-          "text": "A short blast is about one second's duration; a whistle is any sound signaling appliance capable of producing the prescribed blasts",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A short blast is about one second's duration; a whistle must produce only high-pitched tones",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A short blast is about one second's duration; a whistle is any sound signaling appliance capable of producing the prescribed blasts",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -4275,7 +4275,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4285,6 +4285,12 @@
       "stem": "According to COLREG Rule 32, what is the duration of a 'prolonged blast'?",
       "choices": [
         {
+          "text": "From two to three seconds",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "From four to six seconds",
           "image": null,
           "is_correct": true,
@@ -4292,12 +4298,6 @@
         },
         {
           "text": "About one second",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "From two to three seconds",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4324,7 +4324,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4333,12 +4333,6 @@
       "kind": "rule_mc",
       "stem": "Under COLREG Rule 33, which of the following statements about a vessel of less than 12 meters in length is correct?",
       "choices": [
-        {
-          "text": "She is not obliged to carry the prescribed sound signaling appliances but shall be provided with some other means of making an efficient sound signal if she does not carry them",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "She is required to carry a whistle but not a bell",
           "image": null,
@@ -4349,6 +4343,12 @@
           "text": "She is exempt from all sound signal requirements",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "She is not obliged to carry the prescribed sound signaling appliances but shall be provided with some other means of making an efficient sound signal if she does not carry them",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4373,7 +4373,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4389,13 +4389,13 @@
           "rationale": ""
         },
         {
-          "text": "A whistle and a bell only",
+          "text": "A whistle and a gong only",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "A whistle and a gong only",
+          "text": "A whistle and a bell only",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4432,9 +4432,9 @@
       "stem": "According to COLREG Rule 36, which of the following conditions apply to any light used to attract the attention of another vessel?",
       "choices": [
         {
-          "text": "It shall be such that it cannot be mistaken for any aid to navigation",
+          "text": "It shall not be used in conjunction with sound signals",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -4444,9 +4444,9 @@
           "rationale": ""
         },
         {
-          "text": "It shall not be used in conjunction with sound signals",
+          "text": "It shall be such that it cannot be mistaken for any aid to navigation",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4471,7 +4471,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4480,12 +4480,6 @@
       "kind": "rule_mc",
       "stem": "Under COLREG Rule 36, which of the following actions is explicitly stated as something to be avoided when using lights to attract the attention of another vessel?",
       "choices": [
-        {
-          "text": "The use of high intensity intermittent or revolving lights, such as strobe lights",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Directing a searchlight toward the danger",
           "image": null,
@@ -4496,6 +4490,12 @@
           "text": "Using sound signals that cannot be mistaken for authorized signals",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The use of high intensity intermittent or revolving lights, such as strobe lights",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4520,7 +4520,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4530,15 +4530,15 @@
       "stem": "Under COLREG Rule 12, how is the windward side of a vessel defined for the purposes of this Rule?",
       "choices": [
         {
-          "text": "The side on which the mainsail is carried",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "The side opposite to that on which the mainsail is carried or, in the case of a square-rigged vessel, the side opposite to that on which the largest fore-and-aft sail is carried",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "The side on which the mainsail is carried",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -4569,7 +4569,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -4585,13 +4585,13 @@
           "rationale": ""
         },
         {
-          "text": "The vessel which is to leeward shall keep out of the way",
+          "text": "The larger vessel shall keep out of the way",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "The larger vessel shall keep out of the way",
+          "text": "The vessel which is to leeward shall keep out of the way",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4628,6 +4628,12 @@
       "stem": "Under COLREG Rule 13, from what direction must a vessel be approaching for it to be deemed an overtaking vessel?",
       "choices": [
         {
+          "text": "From a direction abeam of the vessel being overtaken",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "From a direction more than 22.5 degrees abaft the beam of the vessel being overtaken",
           "image": null,
           "is_correct": true,
@@ -4635,12 +4641,6 @@
         },
         {
           "text": "From a direction forward of the beam of the vessel being overtaken",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "From a direction abeam of the vessel being overtaken",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4667,7 +4667,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4727,15 +4727,15 @@
       "stem": "According to COLREG Rule 14, which of the following indicate that a head-on situation exists by night?",
       "choices": [
         {
-          "text": "A vessel could see the masthead lights of the other in a line or nearly in a line and/or both sidelights",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A vessel can see only the sternlight of the other vessel",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A vessel could see the masthead lights of the other in a line or nearly in a line and/or both sidelights",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -4766,7 +4766,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0,
+        1,
         2
       ]
     },
@@ -4777,12 +4777,6 @@
       "stem": "Under COLREG Rule 14, when two power-driven vessels meet on reciprocal or nearly reciprocal courses so as to involve risk of collision, what action shall each vessel take?",
       "choices": [
         {
-          "text": "Each shall alter her course to starboard so that each shall pass on the port side of the other",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "The vessel on the starboard side shall keep out of the way",
           "image": null,
           "is_correct": false,
@@ -4792,6 +4786,12 @@
           "text": "Each shall reduce speed and maintain her course",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Each shall alter her course to starboard so that each shall pass on the port side of the other",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4816,7 +4816,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4826,6 +4826,12 @@
       "stem": "Two power-driven vessels are crossing so as to involve risk of collision. Which vessel is required to keep out of the way?",
       "choices": [
         {
+          "text": "The faster of the two vessels",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "The vessel which has the other on her own starboard side",
           "image": null,
           "is_correct": true,
@@ -4833,12 +4839,6 @@
         },
         {
           "text": "The vessel which has the other on her own port side",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "The faster of the two vessels",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4865,7 +4865,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4874,12 +4874,6 @@
       "kind": "rule_mc",
       "stem": "In a crossing situation involving risk of collision, what action shall the give-way vessel avoid if the circumstances of the case admit?",
       "choices": [
-        {
-          "text": "Crossing ahead of the other vessel",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Altering course to starboard",
           "image": null,
@@ -4890,6 +4884,12 @@
           "text": "Reducing speed",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Crossing ahead of the other vessel",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4914,7 +4914,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4923,6 +4923,12 @@
       "kind": "rule_mc",
       "stem": "Under COLREG Rule 17, when two power-driven vessels are in a crossing situation, which course alteration is restricted for the stand-on vessel if she takes action under Rule 17(a)(ii)?",
       "choices": [
+        {
+          "text": "Reducing speed to allow the give-way vessel to pass",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "Altering course to starboard for a vessel on her port side",
           "image": null,
@@ -4933,12 +4939,6 @@
           "text": "Altering course to port for a vessel on her own port side",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Reducing speed to allow the give-way vessel to pass",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -4963,7 +4963,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -5022,6 +5022,12 @@
       "stem": "How shall a seaplane on the water generally behave with respect to other vessels?",
       "choices": [
         {
+          "text": "She shall comply with the Rules of this Part only when underway at taxiing speed",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "She shall keep well clear of all vessels and avoid impeding their navigation",
           "image": null,
           "is_correct": true,
@@ -5029,12 +5035,6 @@
         },
         {
           "text": "She has priority over all surface vessels and need not keep clear",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "She shall comply with the Rules of this Part only when underway at taxiing speed",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5061,7 +5061,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5070,12 +5070,6 @@
       "kind": "rule_mc",
       "stem": "Which vessels must a power-driven vessel underway keep out of the way of? (Select all that apply from the options below.)",
       "choices": [
-        {
-          "text": "A vessel not under command and a vessel restricted in her ability to maneuver",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "A sailing vessel and a vessel engaged in fishing",
           "image": null,
@@ -5086,6 +5080,12 @@
           "text": "Any vessel that is anchored or moored",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A vessel not under command and a vessel restricted in her ability to maneuver",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5111,7 +5111,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -5121,9 +5121,9 @@
       "stem": "What speed requirement applies to every vessel navigating in or near an area of restricted visibility?",
       "choices": [
         {
-          "text": "Every vessel shall proceed at a safe speed adapted to the prevailing circumstances and conditions of restricted visibility",
+          "text": "Every vessel shall stop and wait until visibility improves",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -5133,9 +5133,9 @@
           "rationale": ""
         },
         {
-          "text": "Every vessel shall stop and wait until visibility improves",
+          "text": "Every vessel shall proceed at a safe speed adapted to the prevailing circumstances and conditions of restricted visibility",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5160,7 +5160,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5176,15 +5176,15 @@
           "rationale": ""
         },
         {
-          "text": "An alteration of course towards a vessel abeam or abaft the beam",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "An alteration of course to starboard for a vessel forward of the beam",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "An alteration of course towards a vessel abeam or abaft the beam",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5210,7 +5210,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -5220,15 +5220,15 @@
       "stem": "According to COLREG Rule 5, by what means shall a vessel maintain a proper look-out?",
       "choices": [
         {
-          "text": "By sight and hearing as well as by all available means appropriate in the prevailing circumstances and conditions",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "By sight alone during daylight hours",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "By sight and hearing as well as by all available means appropriate in the prevailing circumstances and conditions",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -5259,7 +5259,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5268,12 +5268,6 @@
       "kind": "rule_mc",
       "stem": "What is the purpose of maintaining a proper look-out under COLREG Rule 5?",
       "choices": [
-        {
-          "text": "To make a full appraisal of the situation and of the risk of collision",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "To identify vessels by name and flag state",
           "image": null,
@@ -5284,6 +5278,12 @@
           "text": "To log all vessels within a 5-mile radius",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "To make a full appraisal of the situation and of the risk of collision",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5308,7 +5308,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5368,12 +5368,6 @@
       "stem": "Under COLREG Rule 6, a vessel proceeding at a safe speed must be able to do which of the following?",
       "choices": [
         {
-          "text": "Take proper and effective action to avoid collision and be stopped within a distance appropriate to the prevailing circumstances and conditions",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Maintain a steady course regardless of visibility",
           "image": null,
           "is_correct": false,
@@ -5383,6 +5377,12 @@
           "text": "Continuously monitor radar to detect vessels at long range",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Take proper and effective action to avoid collision and be stopped within a distance appropriate to the prevailing circumstances and conditions",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5407,7 +5407,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5417,7 +5417,7 @@
       "stem": "Under COLREG Rule 7, when shall risk of collision be deemed to exist?",
       "choices": [
         {
-          "text": "If the compass bearing of an approaching vessel does not appreciably change",
+          "text": "If there is any doubt as to whether risk of collision exists",
           "image": null,
           "is_correct": true,
           "rationale": ""
@@ -5429,7 +5429,7 @@
           "rationale": ""
         },
         {
-          "text": "If there is any doubt as to whether risk of collision exists",
+          "text": "If the compass bearing of an approaching vessel does not appreciably change",
           "image": null,
           "is_correct": true,
           "rationale": ""
@@ -5467,12 +5467,6 @@
       "stem": "Which of the following does COLREG Rule 7 prohibit when determining risk of collision?",
       "choices": [
         {
-          "text": "Using long-range radar scanning to obtain early warning",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Making assumptions on the basis of scanty information, especially scanty radar information",
           "image": null,
           "is_correct": true,
@@ -5480,6 +5474,12 @@
         },
         {
           "text": "Conducting radar plotting or equivalent systematic observation of detected objects",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Using long-range radar scanning to obtain early warning",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5506,7 +5506,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -5515,12 +5515,6 @@
       "kind": "rule_mc",
       "stem": "Which of the following is correct regarding alteration of course or speed to avoid collision?",
       "choices": [
-        {
-          "text": "The alteration shall, if circumstances admit, be large enough to be readily apparent to another vessel observing visually or by radar",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "A succession of small alterations of course and/or speed should be avoided",
           "image": null,
@@ -5531,6 +5525,12 @@
           "text": "An alteration of speed alone is always preferable to an alteration of course",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "The alteration shall, if circumstances admit, be large enough to be readily apparent to another vessel observing visually or by radar",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5556,7 +5556,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -5566,15 +5566,15 @@
       "stem": "What characteristics must an action taken to avoid collision have, if circumstances admit?",
       "choices": [
         {
-          "text": "It shall be positive, made in ample time and with due regard to the observance of good seamanship",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "It shall always consist of a reduction in speed rather than an alteration of course",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "It shall be positive, made in ample time and with due regard to the observance of good seamanship",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -5605,7 +5605,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5670,15 +5670,15 @@
           "rationale": ""
         },
         {
-          "text": "A sailing vessel",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "A power-driven vessel of 20 meters or more in length",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "A sailing vessel",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5704,7 +5704,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     }
   ]

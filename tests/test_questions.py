@@ -14,7 +14,8 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from src.questions import (Question, Choice, Provenance, ExamConfig,  # noqa: E402
     make_question_id, validate, score, grade_exam, grade_exam_blocks,
-    connect, write_questions, set_meta, export_json, load_questions)
+    connect, write_questions, set_meta, export_json, load_questions,
+    shuffle_choices)
 
 
 def _prov(unit_id="u", ref="r"):
@@ -153,6 +154,59 @@ def test_persistence_and_export_gate():
         for f in (db, js):
             if os.path.exists(f):
                 os.remove(f)
+
+
+def test_export_display_shuffle():
+    # Generators emit the keyed option first; the export must permute choice
+    # positions so "answer A" is not a tell — deterministically (seeded by id),
+    # keeping `correct` aligned with the shuffled flags, permuting (never
+    # rewriting) option content, and leaving the DB in canonical authored order
+    # (the Anki/GIFT round-trip matches by position).
+    db, js = "data/_qtest_shuffle.sqlite", "data/_qtest_shuffle.json"
+    for f in (db, js):
+        if os.path.exists(f):
+            os.remove(f)
+    try:
+        qs = []
+        for i in range(24):
+            q = _rule_q(f"q-shuf{i:02d}", correct=(0,) if i % 4 else (0, 1))
+            q.review_status = "auto_approved"
+            qs.append(q)
+        conn = connect(db)
+        set_meta(conn, schema="v1")
+        write_questions(conn, qs)
+        export_json(conn, js, exportable_only=True)
+        first = open(js, encoding="utf-8").read()
+        export_json(conn, js, exportable_only=True)
+        assert first == open(js, encoding="utf-8").read(), "shuffle must be deterministic"
+        moved = 0
+        for qd in json.loads(first)["questions"]:
+            flags = [i for i, c in enumerate(qd["choices"]) if c["is_correct"]]
+            assert qd["correct"] == flags, "correct must index the SHUFFLED choices"
+            assert sorted(c["text"] for c in qd["choices"]) == ["a", "b", "c"], \
+                "options must be permuted, not rewritten"
+            if flags != [0]:
+                moved += 1
+        assert moved, "shuffle should move answers off position 0"
+        # the bank keeps the canonical authored order (keyed option first)
+        assert all(0 in q.correct for q in load_questions(conn))
+        conn.close()
+    finally:
+        for f in (db, js):
+            if os.path.exists(f):
+                os.remove(f)
+
+
+def test_shuffle_choices_in_place_pure_permutation():
+    q = _rule_q("q-perm", correct=(1,))
+    before = [(c.text, c.is_correct) for c in q.choices]
+    shuffle_choices(q)
+    assert sorted((c.text, c.is_correct) for c in q.choices) == sorted(before)
+    assert q.correct == [i for i, c in enumerate(q.choices) if c.is_correct]
+    again = _rule_q("q-perm", correct=(1,))
+    shuffle_choices(again)
+    assert [c.text for c in again.choices] == [c.text for c in q.choices], \
+        "same id → same permutation"
 
 
 def test_invalid_batch_rejected():

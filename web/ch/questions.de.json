@@ -24,6 +24,12 @@
       "stem": "Worauf bezieht sich die in ONI Art. 142 definierte «Risikoanalyse»?",
       "choices": [
         {
+          "text": "Auf Regeln im Sinne von Artikel 5 SBV",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Auf eine Analyse im Sinne von Artikel 2 Buchstabe d der Schiffbauverordnung (SBV)",
           "image": null,
           "is_correct": true,
@@ -31,12 +37,6 @@
         },
         {
           "text": "Auf einen Bericht im Sinne von Artikel 17 Absatz 3 SBV",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Auf Regeln im Sinne von Artikel 5 SBV",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -63,7 +63,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -73,6 +73,12 @@
       "stem": "Welche Aussage zu den in ONI Art. 142 definierten Begriffen ist FALSCH?",
       "choices": [
         {
+          "text": "Der Sachverständigenprüfbericht ist ein Bericht im Sinne von Artikel 2 Buchstabe f SBV",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Die Sorgfaltsregeln sind Regeln im Sinne von Artikel 2 Buchstabe d SBV",
           "image": null,
           "is_correct": true,
@@ -80,12 +86,6 @@
         },
         {
           "text": "Der Sicherheitsbericht ist ein Bericht im Sinne von Artikel 2 Buchstabe e und 17 Absatz 3 SBV",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Der Sachverständigenprüfbericht ist ein Bericht im Sinne von Artikel 2 Buchstabe f SBV",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -112,7 +112,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -171,12 +171,6 @@
       "stem": "Was bedeutet «Fahrt bei unsichtigem Wetter» nach RNL Art. 71?",
       "choices": [
         {
-          "text": "Schifffahrt bei Tag und bei Nacht bei Nebel, Dunst, Schneetreiben oder schwerem Regenfall",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Schifffahrt ausschliesslich bei Tageslicht unter eingeschränkter Sicht",
           "image": null,
           "is_correct": false,
@@ -186,6 +180,12 @@
           "text": "Schifffahrt nur bei Nacht ohne ausreichende Beleuchtung",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Schifffahrt bei Tag und bei Nacht bei Nebel, Dunst, Schneetreiben oder schwerem Regenfall",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -210,7 +210,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -219,12 +219,6 @@
       "kind": "definition_mc",
       "stem": "Welche Wetterbedingungen werden in RNL Art. 71 ausdrücklich als unsichtiges Wetter genannt?",
       "choices": [
-        {
-          "text": "Nebel und Schneetreiben",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Starker Wind und hoher Wellengang",
           "image": null,
@@ -235,6 +229,12 @@
           "text": "Gewitter und Blitzschlag",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Nebel und Schneetreiben",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -259,7 +259,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -324,13 +324,13 @@
           "rationale": ""
         },
         {
-          "text": "Wenn die Veranstaltung ausschliesslich auf schweizerischem Gebiet stattfindet.",
+          "text": "Wenn ausschliesslich motorlose Schiffe teilnehmen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Wenn ausschliesslich motorlose Schiffe teilnehmen.",
+          "text": "Wenn die Veranstaltung ausschliesslich auf schweizerischem Gebiet stattfindet.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -367,9 +367,9 @@
       "stem": "Was muss die verantwortliche Person im Steuerstand während der Fahrt eines Fahrgastschiffes nach RNL art. 3 ständig tun?",
       "choices": [
         {
-          "text": "Die Sprechfunkanlage nach Art. 86a auf Kanal 16 (Seenot) auf Empfang geschaltet halten",
+          "text": "Die Sprechfunkanlage ausgeschaltet lassen, um Ablenkung zu vermeiden",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -379,9 +379,9 @@
           "rationale": ""
         },
         {
-          "text": "Die Sprechfunkanlage ausgeschaltet lassen, um Ablenkung zu vermeiden",
+          "text": "Die Sprechfunkanlage nach Art. 86a auf Kanal 16 (Seenot) auf Empfang geschaltet halten",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -406,7 +406,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -416,9 +416,9 @@
       "stem": "Wie ist die Begegnung zweier Schiffe auf entgegengesetztem oder nahezu entgegengesetztem Kurs nach RNL art. 62 grundsätzlich zu regeln?",
       "choices": [
         {
-          "text": "Jedes Schiff hält nach Steuerbord, sodass sie Backbord an Backbord aneinander vorbeifahren.",
+          "text": "Beide Schiffe müssen sofort anhalten und das jeweils andere passieren lassen.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -428,9 +428,9 @@
           "rationale": ""
         },
         {
-          "text": "Beide Schiffe müssen sofort anhalten und das jeweils andere passieren lassen.",
+          "text": "Jedes Schiff hält nach Steuerbord, sodass sie Backbord an Backbord aneinander vorbeifahren.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -455,7 +455,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -464,12 +464,6 @@
       "kind": "frontiere_mc",
       "stem": "Zwei Schiffe fahren auf kreuzendem Kurs, sodass die Gefahr eines Zusammenstosses nicht auszuschliessen ist. Welches Schiff muss ausweichen?",
       "choices": [
-        {
-          "text": "Das Schiff, das das andere auf seiner Steuerbordseite hat",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Das Schiff, das das andere auf seiner Backbordseite hat",
           "image": null,
@@ -480,6 +474,12 @@
           "text": "Das jeweils grössere und schnellere Schiff",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Das Schiff, das das andere auf seiner Steuerbordseite hat",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -504,7 +504,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -514,9 +514,9 @@
       "stem": "Welche Aussage zur Vorrangregelung nach RNL art. 64 trifft NICHT zu?",
       "choices": [
         {
-          "text": "Segelbretter und Drachensegelbretter haben Vorrang vor allen anderen Schiffen.",
+          "text": "Ruderboote müssen allen Schiffen mit Maschinenantrieb ausweichen, ausgenommen bestimmten vorrangigen Schiffen.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -526,9 +526,9 @@
           "rationale": ""
         },
         {
-          "text": "Ruderboote müssen allen Schiffen mit Maschinenantrieb ausweichen, ausgenommen bestimmten vorrangigen Schiffen.",
+          "text": "Segelbretter und Drachensegelbretter haben Vorrang vor allen anderen Schiffen.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -553,7 +553,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -563,9 +563,9 @@
       "stem": "Einem manövrierunfähigen Schiff, das die Zeichen nach Artikel 33 oder 38 führt, müssen ausweichen:",
       "choices": [
         {
-          "text": "Alle Schiffe",
+          "text": "Nur die Güterschiffe und Schleppverbände",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -575,9 +575,9 @@
           "rationale": ""
         },
         {
-          "text": "Nur die Güterschiffe und Schleppverbände",
+          "text": "Alle Schiffe",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -602,7 +602,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -611,12 +611,6 @@
       "kind": "frontiere_mc",
       "stem": "Auf welchem Kanal muss die Sprechfunkanlage eines Fahrgastschiffes nach RNL art. 86a für den Seenotruf senden können?",
       "choices": [
-        {
-          "text": "Kanal 16",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Kanal 12",
           "image": null,
@@ -627,6 +621,12 @@
           "text": "Kanal K",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Kanal 16",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -651,7 +651,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -661,9 +661,9 @@
       "stem": "Welche Aussage zur Ausrüstung von Fahrgastschiffen nach RNL art. 86a ist korrekt?",
       "choices": [
         {
-          "text": "Die Pflicht zur Ausrüstung mit Radargerät und Wendeanzeiger gilt nur für Schiffe in internationaler Fahrt.",
+          "text": "Die interne Sprechverbindung darf von allen Fahrgästen frei benutzt werden.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -673,9 +673,9 @@
           "rationale": ""
         },
         {
-          "text": "Die interne Sprechverbindung darf von allen Fahrgästen frei benutzt werden.",
+          "text": "Die Pflicht zur Ausrüstung mit Radargerät und Wendeanzeiger gilt nur für Schiffe in internationaler Fahrt.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -700,7 +700,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -710,13 +710,13 @@
       "stem": "Welche Anforderungen gelten gemäss RNL art. 86f für Sammelrettungsmittel auf Fahrgastschiffen?",
       "choices": [
         {
-          "text": "Sie müssen resistent gegen Öl und Erdölderivate sein und Temperaturen bis einschliesslich 50 °C aushalten.",
+          "text": "Sie müssen mit einer Leine am Schiff befestigt werden können, damit sie nicht abtreiben.",
           "image": null,
           "is_correct": true,
           "rationale": ""
         },
         {
-          "text": "Sie müssen mit einer Leine am Schiff befestigt werden können, damit sie nicht abtreiben.",
+          "text": "Sie müssen resistent gegen Öl und Erdölderivate sein und Temperaturen bis einschliesslich 50 °C aushalten.",
           "image": null,
           "is_correct": true,
           "rationale": ""
@@ -760,15 +760,15 @@
       "stem": "Welche Auftriebskraft müssen Sammelrettungsmittel an Bord eines Fahrgastschiffes im Süsswasser pro Person mindestens aufweisen?",
       "choices": [
         {
-          "text": "Mindestens 750 N pro Person",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Mindestens 75 N pro Person",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Mindestens 750 N pro Person",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -799,7 +799,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -809,15 +809,15 @@
       "stem": "Welche Mindestauftriebskraft müssen Einzelrettungsmittel grundsätzlich aufweisen?",
       "choices": [
         {
-          "text": "Mindestens 75 N.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Mindestens 100 N.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Mindestens 75 N.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -848,7 +848,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -858,6 +858,12 @@
       "stem": "Welche Aussage zu den Rettungsgeräten nach diesem Artikel trifft NICHT zu?",
       "choices": [
         {
+          "text": "Auf Schiffen muss für jede Person ein Einzelrettungsmittel oder ein Platz in einem Sammelrettungsmittel vorhanden sein.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Aufblasbare Rettungswesten werden nicht anerkannt.",
           "image": null,
           "is_correct": true,
@@ -865,12 +871,6 @@
         },
         {
           "text": "Vergnügungsschiffe und Sportboote mit mehr als 30 kW Antriebsleistung benötigen zusätzlich ein Rettungswurfgerät.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Auf Schiffen muss für jede Person ein Einzelrettungsmittel oder ein Platz in einem Sammelrettungsmittel vorhanden sein.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -897,7 +897,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -956,12 +956,6 @@
       "stem": "Welchen Wert darf die metazentrische Höhe des betriebsbereiten, beladenen Schiffes nicht unterschreiten?",
       "choices": [
         {
-          "text": "1,00 m.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "0,25 m.",
           "image": null,
           "is_correct": false,
@@ -971,6 +965,12 @@
           "text": "5,00 m.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "1,00 m.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -995,7 +995,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1060,13 +1060,13 @@
           "rationale": ""
         },
         {
-          "text": "Ein seitlicher Winddruck von 2,5 kN/m².",
+          "text": "Ein seitlicher Winddruck von 0,05 kN/m².",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Ein seitlicher Winddruck von 0,05 kN/m².",
+          "text": "Ein seitlicher Winddruck von 2,5 kN/m².",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1103,6 +1103,12 @@
       "stem": "Welche Anforderung gilt für das Kollisionsschott?",
       "choices": [
         {
+          "text": "Es muss nur bis zur halben Schiffshöhe geführt werden.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Es muss wasserdicht sein, von Bordwand zu Bordwand reichen und darf keine Türen oder Öffnungen enthalten.",
           "image": null,
           "is_correct": true,
@@ -1110,12 +1116,6 @@
         },
         {
           "text": "Es darf mit verschliessbaren wasserdichten Türen versehen sein.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Es muss nur bis zur halben Schiffshöhe geführt werden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1142,7 +1142,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1151,12 +1151,6 @@
       "kind": "rule_mc",
       "stem": "Mit welchen Schotten müssen Güterschiffe nach diesem Artikel mindestens versehen sein?",
       "choices": [
-        {
-          "text": "Mit einem Kollisionsschott und zwei Maschinenraumschotten.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Mit zwei Kollisionsschotten und einem Maschinenraumschott.",
           "image": null,
@@ -1167,6 +1161,12 @@
           "text": "Mit einem einzigen Kollisionsschott und keinem Maschinenraumschott.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Mit einem Kollisionsschott und zwei Maschinenraumschotten.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1191,7 +1191,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1201,6 +1201,12 @@
       "stem": "In welcher Sprache sind den zuständigen Behörden die Unterlagen vorzulegen?",
       "choices": [
         {
+          "text": "In einer beliebigen EU-Amtssprache.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "In einer schweizerischen Amtssprache oder in Englisch.",
           "image": null,
           "is_correct": true,
@@ -1208,12 +1214,6 @@
         },
         {
           "text": "Ausschliesslich in Deutsch.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "In einer beliebigen EU-Amtssprache.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1240,7 +1240,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1305,13 +1305,13 @@
           "rationale": ""
         },
         {
-          "text": "Das Schiff hat eine Tragfähigkeit von weniger als 350 t und es herrschen gute Sichtverhältnisse bei Tag.",
+          "text": "Im Steuerstand befindet sich ein betriebsbereites Funkgerät mit ständigem Kontakt zu einer Landstelle.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Im Steuerstand befindet sich ein betriebsbereites Funkgerät mit ständigem Kontakt zu einer Landstelle.",
+          "text": "Das Schiff hat eine Tragfähigkeit von weniger als 350 t und es herrschen gute Sichtverhältnisse bei Tag.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1348,6 +1348,12 @@
       "stem": "Wie gross ist in der Regel die Besatzung eines Güterschiffs mit Maschinenantrieb und einer Tragfähigkeit bis 1000 t?",
       "choices": [
         {
+          "text": "3 Matrosen.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "1 Matrose.",
           "image": null,
           "is_correct": true,
@@ -1355,12 +1361,6 @@
         },
         {
           "text": "2 Matrosen.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "3 Matrosen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1387,7 +1387,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1396,12 +1396,6 @@
       "kind": "rule_mc",
       "stem": "Ab welchem tieferen Messwert gilt bei Führern eines motorisierten Schiffs die Angetrunkenheit als erwiesen (mit unterschriftlicher Anerkennung)?",
       "choices": [
-        {
-          "text": "Bei 0,25 mg/l und mehr, aber weniger als 0,40 mg/l.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Bei 0,25 mg/l und mehr, aber weniger als 0,55 mg/l.",
           "image": null,
@@ -1412,6 +1406,12 @@
           "text": "Bei 0,05 mg/l und mehr, aber weniger als 0,40 mg/l.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Bei 0,25 mg/l und mehr, aber weniger als 0,40 mg/l.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1436,7 +1436,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1452,13 +1452,13 @@
           "rationale": ""
         },
         {
-          "text": "Frühestens 60 Minuten nach dem Trinkende, ohne Ausnahme.",
+          "text": "Sofort, sobald die kontrollierte Person das Trinken beendet hat.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Sofort, sobald die kontrollierte Person das Trinken beendet hat.",
+          "text": "Frühestens 60 Minuten nach dem Trinkende, ohne Ausnahme.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1495,15 +1495,15 @@
       "stem": "Welche Voraussetzungen muss der Antragsteller beim Erwerb des schweizerischen Ausweises erfüllen?",
       "choices": [
         {
-          "text": "Die medizinischen Voraussetzungen nach Art. 82 sowie das Mindestalter für die jeweilige Kategorie.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Eine erneute theoretische und praktische Prüfung in allen Fällen.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Die medizinischen Voraussetzungen nach Art. 82 sowie das Mindestalter für die jeweilige Kategorie.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1534,7 +1534,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1550,13 +1550,13 @@
           "rationale": ""
         },
         {
-          "text": "Alle Touristen, die ein Schiff für einen Tag mieten.",
+          "text": "Personen, die seit mehr als drei Monaten in der Schweiz Wohnsitz haben.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Personen, die seit mehr als drei Monaten in der Schweiz Wohnsitz haben.",
+          "text": "Alle Touristen, die ein Schiff für einen Tag mieten.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1599,15 +1599,15 @@
           "rationale": ""
         },
         {
-          "text": "Statt seiner sollte ein Schotstek verwendet werden",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Nach Belastung lässt er sich stets mühelos von Hand lösen",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Statt seiner sollte ein Schotstek verwendet werden",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1633,7 +1633,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -1692,6 +1692,12 @@
       "stem": "Was sagt das Ashley-Buch der Knoten über den Kreuzknoten als Verbindungsknoten?",
       "choices": [
         {
+          "text": "Er kippt bei Seilen mit ungleichem Durchmesser besonders selten um",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Er sollte unter keinen Umständen zum Verbinden von Seilen verwendet werden",
           "image": null,
           "is_correct": true,
@@ -1699,12 +1705,6 @@
         },
         {
           "text": "Er ist der sicherste Knoten zum Zusammenbinden zweier Enden",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Er kippt bei Seilen mit ungleichem Durchmesser besonders selten um",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1731,7 +1731,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1740,12 +1740,6 @@
       "kind": "matelotage_mc",
       "stem": "Wie lässt sich der noch nicht belastete Kreuzknoten gemäss dem Text lösen?",
       "choices": [
-        {
-          "text": "Durch Zusammenschieben der Enden oder durch Auseinanderziehen zweier Enden derselben Bucht",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Nur mit Hilfe eines Werkzeugs",
           "image": null,
@@ -1756,6 +1750,12 @@
           "text": "Ausschliesslich durch Erhitzen des Seils",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Durch Zusammenschieben der Enden oder durch Auseinanderziehen zweier Enden derselben Bucht",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1780,7 +1780,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1789,6 +1789,12 @@
       "kind": "matelotage_mc",
       "stem": "Welche Angaben zur Knotenfestigkeit des Kreuzknotens stimmen mit dem Text überein?",
       "choices": [
+        {
+          "text": "Bei geflochtenem Polypropylen-Seil erreicht sie rund 90 %",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "Sie beträgt etwa 45 %",
           "image": null,
@@ -1799,12 +1805,6 @@
           "text": "Bei geschlagenem Polypropylen-Tauwerk liegt sie bei etwa 36 bis 42 %",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Bei geflochtenem Polypropylen-Seil erreicht sie rund 90 %",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -1829,8 +1829,8 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -1840,15 +1840,15 @@
       "stem": "Wofür eignet sich der Kreuzknoten gemäss dem Text?",
       "choices": [
         {
-          "text": "Als Bindeknoten zum Verschnüren von Paketen oder Bündeln",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Zum Verbinden zweier Kletter- oder Sicherungsseile",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Als Bindeknoten zum Verschnüren von Paketen oder Bündeln",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1879,7 +1879,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1889,15 +1889,15 @@
       "stem": "Welche Aussage zum Palstek beim Klettern ist gemäss dem Text FALSCH?",
       "choices": [
         {
-          "text": "Nach dem Weltcup 1992 in St. Pölten durfte weiterhin uneingeschränkt mit dem Palstek angeseilt werden",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Der Palstek diente bis Anfang der 1970er Jahre als verlässlicher Anseilknoten",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Nach dem Weltcup 1992 in St. Pölten durfte weiterhin uneingeschränkt mit dem Palstek angeseilt werden",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1928,7 +1928,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1937,12 +1937,6 @@
       "kind": "matelotage_mc",
       "stem": "Welches Verhalten zeigt der Palstek gemäss dem Text unter Ringbelastung?",
       "choices": [
-        {
-          "text": "Er öffnet sich bei mehreren ungleich gerichteten Kräften an der Schlaufe bei 1,5 bis 1,6 kN",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Er hält jeder Ringbelastung ohne Aufziehen stand",
           "image": null,
@@ -1953,6 +1947,12 @@
           "text": "Er wird unter Ringbelastung fester und lässt sich danach nicht mehr lösen",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Er öffnet sich bei mehreren ungleich gerichteten Kräften an der Schlaufe bei 1,5 bis 1,6 kN",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1977,7 +1977,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2036,6 +2036,12 @@
       "stem": "Wo erreicht die Bise ihre grössten Stärken?",
       "choices": [
         {
+          "text": "In den Hochalpen, wo sie als warmer Talwind auftritt.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Im Genferseeraum, mit Mittelwinden um 60 km/h und Böen über 100 km/h (bise noire).",
           "image": null,
           "is_correct": true,
@@ -2043,12 +2049,6 @@
         },
         {
           "text": "Am Bodensee, wo sie regelmässig über 8 Beaufort erreicht.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "In den Hochalpen, wo sie als warmer Talwind auftritt.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2075,7 +2075,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2134,6 +2134,12 @@
       "stem": "Aus welcher Richtung weht die Bise und welche Eigenschaften hat sie?",
       "choices": [
         {
+          "text": "Aus Westen, mild und mit anhaltendem Regen verbunden.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Aus Norden, Nordosten oder Osten, schneidend kalt, trocken und aufhellend.",
           "image": null,
           "is_correct": true,
@@ -2141,12 +2147,6 @@
         },
         {
           "text": "Aus Südwesten, warm, feucht und bewölkungsbringend.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Aus Westen, mild und mit anhaltendem Regen verbunden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2173,7 +2173,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2183,9 +2183,9 @@
       "stem": "Welche Auswirkungen haben diese Föhneffekte an Geländestufen?",
       "choices": [
         {
-          "text": "Auflösung tiefer Wolkenschichten bei deutlich verbesserter Sicht und höheren Temperaturen.",
+          "text": "Bildung dichten Nebels und deutliches Absinken der Temperatur.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2195,9 +2195,9 @@
           "rationale": ""
         },
         {
-          "text": "Bildung dichten Nebels und deutliches Absinken der Temperatur.",
+          "text": "Auflösung tiefer Wolkenschichten bei deutlich verbesserter Sicht und höheren Temperaturen.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2222,7 +2222,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2232,6 +2232,12 @@
       "stem": "Welche Aussage zu diesen Föhneffekten trifft gemäss dem Text NICHT zu?",
       "choices": [
         {
+          "text": "Es bildet sich eine starke, aber nur wenige hundert Meter flache Temperaturinversion.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Die Windgeschwindigkeit nimmt dabei stark zu.",
           "image": null,
           "is_correct": true,
@@ -2239,12 +2245,6 @@
         },
         {
           "text": "Die Effekte treten grossräumig auf und sind nicht auf einzelne Täler begrenzt.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Es bildet sich eine starke, aber nur wenige hundert Meter flache Temperaturinversion.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2271,7 +2271,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2281,15 +2281,15 @@
       "stem": "Wann treten schwächere Föhneffekte im Lee niedrigerer Geländestufen typischerweise auf?",
       "choices": [
         {
-          "text": "Bei starker Warmluftadvektion in den Wintermonaten.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Bei starker Sonneneinstrahlung an heissen Sommertagen.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Bei starker Warmluftadvektion in den Wintermonaten.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2320,7 +2320,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2330,13 +2330,13 @@
       "stem": "Wie verhält sich der Joran statique typischerweise in seinem Verlauf?",
       "choices": [
         {
-          "text": "Er beginnt mit schweren Böen aus wechselnder Richtung.",
+          "text": "Er verstetigt sich nach einiger Zeit bei drei bis sechs Beaufort aus Nordwest.",
           "image": null,
           "is_correct": true,
           "rationale": ""
         },
         {
-          "text": "Er verstetigt sich nach einiger Zeit bei drei bis sechs Beaufort aus Nordwest.",
+          "text": "Er beginnt mit schweren Böen aus wechselnder Richtung.",
           "image": null,
           "is_correct": true,
           "rationale": ""
@@ -2380,15 +2380,15 @@
       "stem": "Zu welcher Jahreszeit und Tageszeit ist der Joran statique typischerweise zu beobachten?",
       "choices": [
         {
-          "text": "Meist zwischen Mai und Juli am frühen Abend.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Vor allem im Hochwinter (Dezember bis Februar) am Morgen.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Meist zwischen Mai und Juli am frühen Abend.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2419,7 +2419,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2429,9 +2429,9 @@
       "stem": "Welche Aussage zum Joran statique ist gemäss dem Text FALSCH?",
       "choices": [
         {
-          "text": "Bei Bise (Ostwind) kommt es häufiger zu Joran.",
+          "text": "Der betroffene Südfuss des Jura erstreckt sich über 170 km.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2441,9 +2441,9 @@
           "rationale": ""
         },
         {
-          "text": "Der betroffene Südfuss des Jura erstreckt sich über 170 km.",
+          "text": "Bei Bise (Ostwind) kommt es häufiger zu Joran.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2468,7 +2468,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2477,12 +2477,6 @@
       "kind": "meteo_mc",
       "stem": "Durch wie viele verschiedene meteorologische Ursachen kann der Vaudaire hervorgerufen werden?",
       "choices": [
-        {
-          "text": "Durch drei verschiedene meteorologische Ursachen.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Durch genau eine einzige Ursache, nämlich Föhn.",
           "image": null,
@@ -2493,6 +2487,12 @@
           "text": "Durch fünf verschiedene Ursachen.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Durch drei verschiedene meteorologische Ursachen.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2517,7 +2517,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2527,6 +2527,12 @@
       "stem": "Aus welcher Richtung und über welchen Weg fliesst der Vaudaire zum Genfersee?",
       "choices": [
         {
+          "text": "Aus östlicher Richtung entlang des Bodensees.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Aus südlicher Richtung aus den Alpen durch das Rhonetal und das Chablais über das Seebecken.",
           "image": null,
           "is_correct": true,
@@ -2534,12 +2540,6 @@
         },
         {
           "text": "Aus nördlicher Richtung über den Jura ins Mittelland.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Aus östlicher Richtung entlang des Bodensees.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2566,7 +2566,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2625,12 +2625,6 @@
       "stem": "Ein Segelschiff fährt unter Motor und führt die Seitenlichter und das Hecklicht in einem Dreifarben-Topplicht an der Mastspitze. Welches zusätzliche Licht ist vorgeschrieben?",
       "choices": [
         {
-          "text": "Ein weisses Topplicht",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
           "is_correct": false,
@@ -2640,6 +2634,12 @@
           "text": "Ein grünes helles Rundumlicht mindestens 1 m über dem Topplicht",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ein weisses Topplicht",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2664,7 +2664,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2680,13 +2680,13 @@
           "rationale": ""
         },
         {
-          "text": "Topplicht weiss hell, Seitenlichter grün und rot hell sowie Hecklicht weiss",
+          "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Ein gelbes gewöhnliches Rundumlicht",
+          "text": "Topplicht weiss hell, Seitenlichter grün und rot hell sowie Hecklicht weiss",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2772,9 +2772,9 @@
       "stem": "Welches Licht darf ein Segelschiff führen, das unter Segel fährt?",
       "choices": [
         {
-          "text": "Ein weisses gewöhnliches Rundumlicht",
+          "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2784,9 +2784,9 @@
           "rationale": ""
         },
         {
-          "text": "Ein gelbes gewöhnliches Rundumlicht",
+          "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2811,7 +2811,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2821,9 +2821,9 @@
       "stem": "Bei zwei senkrecht übereinander angebrachten Rundumlichtern (zusätzlich zu Hecklicht und Seitenlichtern): welche Farben haben diese Rundumlichter?",
       "choices": [
         {
-          "text": "Das obere Licht ist rot, das untere grün",
+          "text": "Beide Lichter sind weiss",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2833,9 +2833,9 @@
           "rationale": ""
         },
         {
-          "text": "Beide Lichter sind weiss",
+          "text": "Das obere Licht ist rot, das untere grün",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2860,7 +2860,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2870,9 +2870,9 @@
       "stem": "Welches Licht führt ein stillliegendes Schiff?",
       "choices": [
         {
-          "text": "Ein weisses gewöhnliches Rundumlicht",
+          "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2882,9 +2882,9 @@
           "rationale": ""
         },
         {
-          "text": "Ein gelbes gewöhnliches Rundumlicht",
+          "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2909,7 +2909,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2919,15 +2919,15 @@
       "stem": "Welches zusätzliche Licht kennzeichnet ein Vorrangschiff über dem Topplicht?",
       "choices": [
         {
-          "text": "Ein grünes helles Rundumlicht mindestens 1 m höher als das Topplicht",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Ein rotes gewöhnliches Rundumlicht über einem weissen Rundumlicht",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ein grünes helles Rundumlicht mindestens 1 m höher als das Topplicht",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2958,7 +2958,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2974,13 +2974,13 @@
           "rationale": ""
         },
         {
-          "text": "Ein grünes helles Rundumlicht über dem Topplicht",
+          "text": "Ein weisses gewöhnliches Rundumlicht über einem weissen Rundumlicht",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Ein weisses gewöhnliches Rundumlicht über einem weissen Rundumlicht",
+          "text": "Ein grünes helles Rundumlicht über dem Topplicht",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3017,6 +3017,12 @@
       "stem": "Mit welcher Flagge verlangt ein Schiff bei Tag Schutz gegen Wellenschlag?",
       "choices": [
         {
+          "text": "Zwei weisse Flaggen übereinander",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Eine Flagge, deren obere Hälfte rot und deren untere Hälfte weiss ist",
           "image": null,
           "is_correct": true,
@@ -3024,12 +3030,6 @@
         },
         {
           "text": "Eine Flagge, deren obere Hälfte weiss und deren untere Hälfte rot ist",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Zwei weisse Flaggen übereinander",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3056,7 +3056,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3121,13 +3121,13 @@
           "rationale": ""
         },
         {
-          "text": "Durch rote Rundumlichter",
+          "text": "Durch gelbe Rundumlichter",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Durch gelbe Rundumlichter",
+          "text": "Durch rote Rundumlichter",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3164,6 +3164,12 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
+          "text": "Gelbe Schwimmkörper als Bezeichnung der einzelnen Verankerungen",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
           "text": "Stelle zum Auswassern von Schiffen",
           "image": null,
           "is_correct": false,
@@ -3174,12 +3180,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "Das ist ein anderes Zeichen: „Beschränkte Durchfahrtsbreite“ (ONI Anhang 4 – fig. 24)."
-        },
-        {
-          "text": "Gelbe Schwimmkörper als Bezeichnung der einzelnen Verankerungen",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
         }
       ],
       "provenance": {
@@ -3203,7 +3203,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -3212,12 +3212,6 @@
       "kind": "figure_recognition",
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
-        {
-          "text": "Blaues Blinklicht",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
@@ -3229,6 +3223,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "Das ist ein anderes Zeichen: „Wehr“ (ONI Anhang 4 – fig. 41)."
+        },
+        {
+          "text": "Blaues Blinklicht",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -3252,7 +3252,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3311,12 +3311,6 @@
       "stem": "Welches Licht dürfen Schiffe der Berufsfischer führen?",
       "choices": [
         {
-          "text": "Ein gelbes gewöhnliches Rundumlicht",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
           "is_correct": false,
@@ -3326,6 +3320,12 @@
           "text": "Ein rotes gewöhnliches Rundumlicht über einem weissen Rundumlicht",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ein gelbes gewöhnliches Rundumlicht",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3350,7 +3350,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3366,13 +3366,13 @@
           "rationale": ""
         },
         {
-          "text": "Die Flagge «K» (Hälfte am Stock gelb, die andere blau)",
+          "text": "Ein weisser Ball",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Ein weisser Ball",
+          "text": "Die Flagge «K» (Hälfte am Stock gelb, die andere blau)",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3409,9 +3409,9 @@
       "stem": "Wie wird das Tauchen vom Gewässer aus gekennzeichnet?",
       "choices": [
         {
-          "text": "Durch die von allen Seiten sichtbare Tafel «A» (Doppelstander, eine Hälfte weiss, die andere blau)",
+          "text": "Durch eine rote Flagge",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -3421,9 +3421,9 @@
           "rationale": ""
         },
         {
-          "text": "Durch eine rote Flagge",
+          "text": "Durch die von allen Seiten sichtbare Tafel «A» (Doppelstander, eine Hälfte weiss, die andere blau)",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3448,7 +3448,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3458,6 +3458,12 @@
       "stem": "Mit welchem Zeichen macht sich ein manövrierunfähiges Schiff nachts bemerkbar?",
       "choices": [
         {
+          "text": "Durch ein rotes Rundumlicht über einem weissen Rundumlicht",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Durch das Schwenken eines Lichtes",
           "image": null,
           "is_correct": true,
@@ -3465,12 +3471,6 @@
         },
         {
           "text": "Durch das kreisförmige Schwenken eines Lichtes",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Durch ein rotes Rundumlicht über einem weissen Rundumlicht",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3497,7 +3497,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3556,15 +3556,15 @@
       "stem": "Welche Lichter führt ein einzeln fahrendes oder schleppendes Schiff mit Maschinenantrieb?",
       "choices": [
         {
-          "text": "Topp- oder Buglicht weiss hell, Seitenlichter grün und rot hell, Hecklicht weiss gewöhnlich",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Topp- oder Buglicht weiss hell, Seitenlichter grün und rot hell, Hecklicht weiss gewöhnlich",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -3595,7 +3595,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3605,15 +3605,15 @@
       "stem": "Mit welchem Zeichen zeigt ein Schiff an, dass es in Not ist und Hilfe braucht?",
       "choices": [
         {
-          "text": "Durch das kreisförmige Schwenken eines Lichtes",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Durch das Schwenken eines Lichtes hin und her",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Durch das kreisförmige Schwenken eines Lichtes",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -3644,7 +3644,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3660,16 +3660,16 @@
           "rationale": ""
         },
         {
-          "text": "Verbot des Fahrens mit Segelschiffen",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Verbot des Fahrens mit Segelschiffen“ (ONI Anhang 4 – fig. 5)."
-        },
-        {
           "text": "Erlaubnis zum Stillliegen",
           "image": null,
           "is_correct": false,
           "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Stillliegen“ (ONI Anhang 4 – fig. 33)."
+        },
+        {
+          "text": "Verbot des Fahrens mit Segelschiffen",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Verbot des Fahrens mit Segelschiffen“ (ONI Anhang 4 – fig. 5)."
         }
       ],
       "provenance": {
@@ -3801,12 +3801,6 @@
       "stem": "Wie kennzeichnet ein Schiff bei der Arbeit bei Tag mit Flaggen die Seite, an der vorbeigefahren werden kann, bzw. die Seite, an der nicht vorbeigefahren werden kann?",
       "choices": [
         {
-          "text": "Vorbei: Flagge oben rot, unten weiss; nicht vorbei: rote Flagge",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Vorbei: rote Flagge; nicht vorbei: Flagge oben rot, unten weiss",
           "image": null,
           "is_correct": false,
@@ -3816,6 +3810,12 @@
           "text": "Vorbei: weisse Flagge; nicht vorbei: zwei weisse Flaggen übereinander",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Vorbei: Flagge oben rot, unten weiss; nicht vorbei: rote Flagge",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3840,7 +3840,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -3850,15 +3850,15 @@
       "stem": "Wo ist bei einem Schubverband das weisse helle Topplicht anzubringen?",
       "choices": [
         {
-          "text": "Auf dem vordersten Schiff",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Auf dem hintersten Schiff",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Auf dem vordersten Schiff",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -3889,7 +3889,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3905,13 +3905,13 @@
           "rationale": ""
         },
         {
-          "text": "Einem zusätzlichen weissen Hecklicht und keinen Seitenlichtern",
+          "text": "Einem gelben Rundumlicht",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Einem gelben Rundumlicht",
+          "text": "Einem zusätzlichen weissen Hecklicht und keinen Seitenlichtern",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3948,15 +3948,15 @@
       "stem": "Welche Bedeutung hat das allgemeine Verbotszeichen am Fahrwasser?",
       "choices": [
         {
-          "text": "Verbot der Durchfahrt",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Gebot, unter bestimmten Bedingungen anzuhalten",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Verbot der Durchfahrt",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -3987,7 +3987,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3996,6 +3996,12 @@
       "kind": "figure_recognition",
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
+        {
+          "text": "Verbot, schädlichen Wellenschlag oder Sog zu erzeugen",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot, schädlichen Wellenschlag oder Sog zu erzeugen“ (ONI Anhang 4 – fig. 13). Hier entscheidet allein das Piktogramm."
+        },
         {
           "text": "Schwenken einer roten Flagge",
           "image": null,
@@ -4007,12 +4013,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Verbot, schädlichen Wellenschlag oder Sog zu erzeugen",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Richtige Familie, falsches Zeichen: „Verbot, schädlichen Wellenschlag oder Sog zu erzeugen“ (ONI Anhang 4 – fig. 13). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -4036,7 +4036,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -4095,16 +4095,16 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Wendeverbot",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Überholverbot",
           "image": null,
           "is_correct": false,
           "rationale": "Richtige Familie, falsches Zeichen: „Überholverbot“ (ONI Anhang 4 – fig. 7). Hier entscheidet allein das Piktogramm."
+        },
+        {
+          "text": "Wendeverbot",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Oder",
@@ -4134,7 +4134,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4143,6 +4143,12 @@
       "kind": "figure_recognition",
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
+        {
+          "text": "Blaues Blinklicht",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Blaues Blinklicht“ (ONI Anhang 2 – fig. 31)."
+        },
         {
           "text": "Verbot, schädlichen Wellenschlag oder Sog zu erzeugen",
           "image": null,
@@ -4154,12 +4160,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "Das ist ein anderes Zeichen: „Schwenken einer roten Flagge“ (ONI Anhang 2 – fig. 39)."
-        },
-        {
-          "text": "Blaues Blinklicht",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Blaues Blinklicht“ (ONI Anhang 2 – fig. 31)."
         }
       ],
       "provenance": {
@@ -4183,7 +4183,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4438,15 +4438,15 @@
       "stem": "Welche Bedeutung hat das Gebotszeichen, das anhalten verlangt?",
       "choices": [
         {
-          "text": "Gebot, unter bestimmten Bedingungen anzuhalten",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Verbot der Durchfahrt für alle Schiffe",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Gebot, unter bestimmten Bedingungen anzuhalten",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -4477,7 +4477,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4493,16 +4493,16 @@
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot des Wasserskifahrens“ (ONI Anhang 4 – fig. 4). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
-          "text": "Erlaubnis zum Stillliegen",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Stillliegen“ (ONI Anhang 4 – fig. 33). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
-        },
-        {
           "text": "Gebot, die in Stundenkilometern (km/h) angegebene Geschwindigkeit nicht zu überschreiten",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Erlaubnis zum Stillliegen",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Stillliegen“ (ONI Anhang 4 – fig. 33). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -4526,7 +4526,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -4535,12 +4535,6 @@
       "kind": "figure_recognition",
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
-        {
-          "text": "Verbotenes Stillliegen",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbotenes Stillliegen“ (ONI Anhang 4 – fig. 9). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
-        },
         {
           "text": "Erlaubnis zur Durchfahrt",
           "image": null,
@@ -4552,6 +4546,12 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Verbotenes Stillliegen",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbotenes Stillliegen“ (ONI Anhang 4 – fig. 9). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -4575,7 +4575,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -4585,16 +4585,16 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Gebot, besondere Vorsicht walten zu lassen",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Nicht freifahrende Fähre",
           "image": null,
           "is_correct": false,
           "rationale": "Das ist ein anderes Zeichen: „Nicht freifahrende Fähre“ (ONI Anhang 4 – fig. 40)."
+        },
+        {
+          "text": "Gebot, besondere Vorsicht walten zu lassen",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Stelle zum Auswassern von Schiffen",
@@ -4624,7 +4624,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -4689,16 +4689,16 @@
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Fahren mit Segelbrettern“ (ONI Anhang 4 – fig. 37). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
-          "text": "Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot der Durchfahrt für Schiffe mit Maschinenantrieb“ (ONI Anhang 4 – fig. 3). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
-        },
-        {
           "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot der Durchfahrt für Schiffe mit Maschinenantrieb“ (ONI Anhang 4 – fig. 3). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -4722,7 +4722,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -4731,12 +4731,6 @@
       "kind": "rule_mc",
       "stem": "Ein Zeichen zeigt an, dass das Fahrwasser eingeengt ist, mit einer Zahl. Was bedeutet diese Zahl?",
       "choices": [
-        {
-          "text": "Den Abstand in Metern, in dem sich Schiffe vom Ufer entfernt halten sollen",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Die höchstzulässige Geschwindigkeit in km/h",
           "image": null,
@@ -4747,6 +4741,12 @@
           "text": "Die Wassertiefe in Metern im eingeengten Bereich",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Den Abstand in Metern, in dem sich Schiffe vom Ufer entfernt halten sollen",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4771,7 +4771,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4787,16 +4787,16 @@
           "rationale": "Das ist ein anderes Zeichen: „Sturmwarnung“ (ONI Anhang 4 – fig. 61)."
         },
         {
-          "text": "Begrenzte Wassertiefe",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
           "image": null,
           "is_correct": false,
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Fahren mit Drachensegelbrettern“ (ONI Anhang 4 – fig. 38). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+        },
+        {
+          "text": "Begrenzte Wassertiefe",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4820,7 +4820,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -4830,9 +4830,9 @@
       "stem": "Welche Bedeutung hat das Zeichen für die empfohlene Durchfahrt bei Brücken (für Verkehr in beiden Richtungen)?",
       "choices": [
         {
-          "text": "Empfohlene Durchfahrt bei Brücken für Verkehr in beiden Richtungen",
+          "text": "Empfohlene Durchfahrt nur für Verkehr in einer Richtung",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -4842,9 +4842,9 @@
           "rationale": ""
         },
         {
-          "text": "Empfohlene Durchfahrt nur für Verkehr in einer Richtung",
+          "text": "Empfohlene Durchfahrt bei Brücken für Verkehr in beiden Richtungen",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4869,7 +4869,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4879,10 +4879,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Oder",
+          "text": "Überholverbot",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Überholverbot“ (ONI Anhang 4 – fig. 7)."
         },
         {
           "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
@@ -4891,10 +4891,10 @@
           "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Fahren mit Drachensegelbrettern“ (ONI Anhang 4 – fig. 38)."
         },
         {
-          "text": "Überholverbot",
+          "text": "Oder",
           "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Überholverbot“ (ONI Anhang 4 – fig. 7)."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -4918,7 +4918,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -4927,6 +4927,12 @@
       "kind": "figure_recognition",
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
+        {
+          "text": "Wendeverbot",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Wendeverbot“ (ONI Anhang 4 – fig. 12)."
+        },
         {
           "text": "Sturmwarnung",
           "image": null,
@@ -4938,12 +4944,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Wendeverbot",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Wendeverbot“ (ONI Anhang 4 – fig. 12)."
         }
       ],
       "provenance": {
@@ -4967,7 +4967,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -4977,10 +4977,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Blaues Blinklicht",
+          "text": "Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
           "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Blaues Blinklicht“ (ONI Anhang 2 – fig. 31)."
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Überholverbot",
@@ -4989,10 +4989,10 @@
           "rationale": "Richtige Familie, falsches Zeichen: „Überholverbot“ (ONI Anhang 4 – fig. 7). Hier entscheidet allein das Piktogramm."
         },
         {
-          "text": "Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
+          "text": "Blaues Blinklicht",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Blaues Blinklicht“ (ONI Anhang 2 – fig. 31)."
         }
       ],
       "provenance": {
@@ -5016,7 +5016,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -5032,16 +5032,16 @@
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot des Wasserskifahrens“ (ONI Anhang 4 – fig. 4). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
-          "text": "Stelle zum Auswassern von Schiffen",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Stelle zum Auswassern von Schiffen“ (ONI Anhang 4 – fig. 43)."
-        },
-        {
           "text": "Empfehlung, sich auf der mit «grün» bezeichneten Fahrwasserseite zu halten",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Stelle zum Auswassern von Schiffen",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Stelle zum Auswassern von Schiffen“ (ONI Anhang 4 – fig. 43)."
         }
       ],
       "provenance": {
@@ -5065,7 +5065,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -5075,10 +5075,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Beschränkte Durchfahrtsbreite",
+          "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
           "image": null,
           "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Beschränkte Durchfahrtsbreite“ (ONI Anhang 4 – fig. 24). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Fahren mit Drachensegelbrettern“ (ONI Anhang 4 – fig. 38). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Empfehlung, sich auf der mit «grün» bezeichneten Fahrwasserseite zu halten",
@@ -5087,10 +5087,10 @@
           "rationale": ""
         },
         {
-          "text": "Erlaubnis zum Fahren mit Drachensegelbrettern",
+          "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
           "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Fahren mit Drachensegelbrettern“ (ONI Anhang 4 – fig. 38). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Beschränkte Durchfahrtsbreite“ (ONI Anhang 4 – fig. 24). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -5124,10 +5124,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Erlaubnis zur Durchfahrt",
+          "text": "Erlaubnis zum Ankern",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Richtige Familie, falsches Zeichen: „Erlaubnis zum Ankern“ (ONI Anhang 4 – fig. 34). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Festmacheverbot",
@@ -5136,10 +5136,10 @@
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Festmacheverbot“ (ONI Anhang 4 – fig. 11). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
-          "text": "Erlaubnis zum Ankern",
+          "text": "Erlaubnis zur Durchfahrt",
           "image": null,
-          "is_correct": false,
-          "rationale": "Richtige Familie, falsches Zeichen: „Erlaubnis zum Ankern“ (ONI Anhang 4 – fig. 34). Hier entscheidet allein das Piktogramm."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5163,7 +5163,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5173,16 +5173,16 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Stelle zum Einwassern von Schiffen",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Stelle zum Einwassern von Schiffen“ (ONI Anhang 4 – fig. 42)."
-        },
-        {
           "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
           "is_correct": false,
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Beschränkte Durchfahrtsbreite“ (ONI Anhang 4 – fig. 24). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+        },
+        {
+          "text": "Stelle zum Einwassern von Schiffen",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Stelle zum Einwassern von Schiffen“ (ONI Anhang 4 – fig. 42)."
         },
         {
           "text": "Erlaubnis zum Stillliegen",
@@ -5222,12 +5222,6 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Schwenken einer roten Flagge",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Schwenken einer roten Flagge“ (ONI Anhang 2 – fig. 39)."
-        },
-        {
           "text": "Erlaubnis zum Ankern",
           "image": null,
           "is_correct": true,
@@ -5238,6 +5232,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Ankerverbot“ (ONI Anhang 4 – fig. 10). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+        },
+        {
+          "text": "Schwenken einer roten Flagge",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Schwenken einer roten Flagge“ (ONI Anhang 2 – fig. 39)."
         }
       ],
       "provenance": {
@@ -5261,7 +5261,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -5320,10 +5320,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Verbot, schädlichen Wellenschlag oder Sog zu erzeugen",
+          "text": "Erlaubnis zum Wasserskifahren",
           "image": null,
-          "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot, schädlichen Wellenschlag oder Sog zu erzeugen“ (ONI Anhang 4 – fig. 13). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Überholverbot",
@@ -5332,10 +5332,10 @@
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Überholverbot“ (ONI Anhang 4 – fig. 7). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
-          "text": "Erlaubnis zum Wasserskifahren",
+          "text": "Verbot, schädlichen Wellenschlag oder Sog zu erzeugen",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot, schädlichen Wellenschlag oder Sog zu erzeugen“ (ONI Anhang 4 – fig. 13). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -5359,7 +5359,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -5369,10 +5369,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Erlaubnis zum Fahren mit Segelbrettern",
+          "text": "Verbot des Fahrens mit Segelschiffen",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot des Fahrens mit Segelschiffen“ (ONI Anhang 4 – fig. 5). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Erlaubnis zum Festmachen",
@@ -5381,10 +5381,10 @@
           "rationale": "Richtige Familie, falsches Zeichen: „Erlaubnis zum Festmachen“ (ONI Anhang 4 – fig. 35). Hier entscheidet allein das Piktogramm."
         },
         {
-          "text": "Verbot des Fahrens mit Segelschiffen",
+          "text": "Erlaubnis zum Fahren mit Segelbrettern",
           "image": null,
-          "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot des Fahrens mit Segelschiffen“ (ONI Anhang 4 – fig. 5). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5408,7 +5408,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5467,16 +5467,16 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Verbot des Wasserskifahrens",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Verbot des Wasserskifahrens“ (ONI Anhang 4 – fig. 4)."
-        },
-        {
           "text": "Empfohlene Fahrrichtung",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Verbot des Wasserskifahrens",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Verbot des Wasserskifahrens“ (ONI Anhang 4 – fig. 4)."
         },
         {
           "text": "Ankerverbot",
@@ -5506,7 +5506,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -5516,10 +5516,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Ankerverbot",
+          "text": "Starkwindwarnung",
           "image": null,
           "is_correct": false,
-          "rationale": "Richtige Familie, falsches Zeichen: „Ankerverbot“ (ONI Anhang 4 – fig. 10). Hier entscheidet allein das Piktogramm."
+          "rationale": "Das ist ein anderes Zeichen: „Starkwindwarnung“ (ONI Anhang 4 – fig. 60)."
         },
         {
           "text": "Verbot des Wasserskifahrens",
@@ -5528,10 +5528,10 @@
           "rationale": ""
         },
         {
-          "text": "Starkwindwarnung",
+          "text": "Ankerverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Starkwindwarnung“ (ONI Anhang 4 – fig. 60)."
+          "rationale": "Richtige Familie, falsches Zeichen: „Ankerverbot“ (ONI Anhang 4 – fig. 10). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -5565,10 +5565,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Badeverbot",
+          "text": "Begrenzte Wassertiefe",
           "image": null,
           "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Badeverbot“ (ONI Anhang 4 – fig. 17)."
+          "rationale": "Das ist ein anderes Zeichen: „Begrenzte Wassertiefe“ (ONI Anhang 4 – fig. 26)."
         },
         {
           "text": "Nicht freifahrende Fähre",
@@ -5577,10 +5577,10 @@
           "rationale": ""
         },
         {
-          "text": "Begrenzte Wassertiefe",
+          "text": "Badeverbot",
           "image": null,
           "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Begrenzte Wassertiefe“ (ONI Anhang 4 – fig. 26)."
+          "rationale": "Das ist ein anderes Zeichen: „Badeverbot“ (ONI Anhang 4 – fig. 17)."
         }
       ],
       "provenance": {
@@ -5614,10 +5614,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Überholverbot",
+          "text": "Wehr",
           "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Überholverbot“ (ONI Anhang 4 – fig. 7)."
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Sturmwarnung",
@@ -5626,10 +5626,10 @@
           "rationale": "Das ist ein anderes Zeichen: „Sturmwarnung“ (ONI Anhang 4 – fig. 61)."
         },
         {
-          "text": "Wehr",
+          "text": "Überholverbot",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Überholverbot“ (ONI Anhang 4 – fig. 7)."
         }
       ],
       "provenance": {
@@ -5653,7 +5653,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -5712,10 +5712,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Wehr",
+          "text": "Erlaubnis zum Ankern",
           "image": null,
           "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Wehr“ (ONI Anhang 4 – fig. 41)."
+          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Ankern“ (ONI Anhang 4 – fig. 34)."
         },
         {
           "text": "Stelle zum Auswassern von Schiffen",
@@ -5724,10 +5724,10 @@
           "rationale": ""
         },
         {
-          "text": "Erlaubnis zum Ankern",
+          "text": "Wehr",
           "image": null,
           "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Ankern“ (ONI Anhang 4 – fig. 34)."
+          "rationale": "Das ist ein anderes Zeichen: „Wehr“ (ONI Anhang 4 – fig. 41)."
         }
       ],
       "provenance": {
@@ -5767,16 +5767,16 @@
           "rationale": "Das ist ein anderes Zeichen: „Sturmwarnung“ (ONI Anhang 4 – fig. 61)."
         },
         {
-          "text": "Ankerverbot",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Ankerverbot“ (ONI Anhang 4 – fig. 10)."
-        },
-        {
           "text": "Ende eines Verbotes oder Gebotes",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Ankerverbot",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Ankerverbot“ (ONI Anhang 4 – fig. 10)."
         }
       ],
       "provenance": {
@@ -5800,7 +5800,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -5810,16 +5810,16 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Erlaubnis zum Wasserskifahren",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Wasserskifahren“ (ONI Anhang 4 – fig. 36)."
-        },
-        {
           "text": "Hochspannungs-Freileitung",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Erlaubnis zum Wasserskifahren",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Wasserskifahren“ (ONI Anhang 4 – fig. 36)."
         },
         {
           "text": "Oder",
@@ -5849,7 +5849,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -5908,6 +5908,12 @@
       "stem": "Wie wird ein einzelnes Hindernis im Gewässer bezeichnet?",
       "choices": [
         {
+          "text": "Durch einen Zylinder, rot bemalt",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Durch einen Kegel mit der Spitze nach unten, rot bemalt oder unbemalt",
           "image": null,
           "is_correct": true,
@@ -5915,12 +5921,6 @@
         },
         {
           "text": "Durch einen Kegel mit der Spitze nach oben, grün bemalt",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Durch einen Zylinder, rot bemalt",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5947,7 +5947,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5956,12 +5956,6 @@
       "kind": "figure_recognition",
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
-        {
-          "text": "Verbot des Fahrens mit Segelschiffen",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Erlaubnis zur Durchfahrt",
           "image": null,
@@ -5973,6 +5967,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "Richtige Familie, falsches Zeichen: „Festmacheverbot“ (ONI Anhang 4 – fig. 11). Hier entscheidet allein das Piktogramm."
+        },
+        {
+          "text": "Verbot des Fahrens mit Segelschiffen",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -5996,7 +5996,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6012,13 +6012,13 @@
           "rationale": ""
         },
         {
-          "text": "Grüner Zylinder und roter Kegel mit der Spitze nach unten",
+          "text": "Roter Kegel mit der Spitze nach unten und grüner Zylinder",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Roter Kegel mit der Spitze nach unten und grüner Zylinder",
+          "text": "Grüner Zylinder und roter Kegel mit der Spitze nach unten",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6061,13 +6061,13 @@
           "rationale": ""
         },
         {
-          "text": "Ein Kegel",
+          "text": "Ein Kegel mit der Spitze nach unten",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Ein Kegel mit der Spitze nach unten",
+          "text": "Ein Kegel",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6104,9 +6104,9 @@
       "stem": "Ein Fahrwasser in untiefem Gebiet wird markiert. Welche Zeichen stehen auf der vom Gewässer aus gesehen rechten Seite?",
       "choices": [
         {
-          "text": "Grüne Kegel",
+          "text": "Rote Kegel mit der Spitze nach unten",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -6116,9 +6116,9 @@
           "rationale": ""
         },
         {
-          "text": "Rote Kegel mit der Spitze nach unten",
+          "text": "Grüne Kegel",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6143,7 +6143,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6153,6 +6153,12 @@
       "stem": "Wie wird ein ausgedehntes Hindernis im nördlichen Quadrant bezeichnet?",
       "choices": [
         {
+          "text": "Zwei Kegel, der untere mit der Spitze nach unten, der obere mit der Spitze nach oben",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Zwei übereinander angebrachte Kegel, beide mit der Spitze nach oben",
           "image": null,
           "is_correct": true,
@@ -6160,12 +6166,6 @@
         },
         {
           "text": "Zwei übereinander angebrachte Kegel, beide mit der Spitze nach unten",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Zwei Kegel, der untere mit der Spitze nach unten, der obere mit der Spitze nach oben",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6192,7 +6192,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6208,13 +6208,13 @@
           "rationale": ""
         },
         {
-          "text": "Im östlichen und im südlichen Quadrant",
+          "text": "Im nördlichen und im östlichen Quadrant",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Im nördlichen und im östlichen Quadrant",
+          "text": "Im östlichen und im südlichen Quadrant",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6251,6 +6251,12 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
+          "text": "Erlaubnis zum Stillliegen",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Stillliegen“ (ONI Anhang 4 – fig. 33). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+        },
+        {
           "text": "Hochspannungs-Freileitung",
           "image": null,
           "is_correct": false,
@@ -6261,12 +6267,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Erlaubnis zum Stillliegen",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Stillliegen“ (ONI Anhang 4 – fig. 33). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -6290,7 +6290,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -6300,16 +6300,16 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Gebot, ein Schallzeichen zu geben",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Gebot, ein Schallzeichen zu geben“ (ONI Anhang 4 – fig. 21)."
-        },
-        {
           "text": "Hochspannungs-Freileitung",
           "image": null,
           "is_correct": false,
           "rationale": "Das ist ein anderes Zeichen: „Hochspannungs-Freileitung“ (ONI Anhang 4 – fig. 45)."
+        },
+        {
+          "text": "Gebot, ein Schallzeichen zu geben",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Gebot, ein Schallzeichen zu geben“ (ONI Anhang 4 – fig. 21)."
         },
         {
           "text": "Starkwindwarnung",
@@ -6349,16 +6349,16 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Erlaubnis zum Wasserskifahren",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Wasserskifahren“ (ONI Anhang 4 – fig. 36)."
-        },
-        {
           "text": "Sturmwarnung",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Erlaubnis zum Wasserskifahren",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Wasserskifahren“ (ONI Anhang 4 – fig. 36)."
         },
         {
           "text": "Gebot, ein Schallzeichen zu geben",
@@ -6388,7 +6388,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -6404,16 +6404,16 @@
           "rationale": "Das ist ein anderes Zeichen: „Ende eines Verbotes oder Gebotes“ (ONI Anhang 4 – fig. 44)."
         },
         {
-          "text": "Blaues Blinklicht",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Blaues Blinklicht“ (ONI Anhang 2 – fig. 31)."
-        },
-        {
           "text": "Überholverbot",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Blaues Blinklicht",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Blaues Blinklicht“ (ONI Anhang 2 – fig. 31)."
         }
       ],
       "provenance": {
@@ -6437,7 +6437,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -6447,10 +6447,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Beschränkte Durchfahrtsbreite",
+          "text": "Stelle zum Einwassern von Schiffen",
           "image": null,
           "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Beschränkte Durchfahrtsbreite“ (ONI Anhang 4 – fig. 24). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+          "rationale": "Das ist ein anderes Zeichen: „Stelle zum Einwassern von Schiffen“ (ONI Anhang 4 – fig. 42)."
         },
         {
           "text": "Verbot des Begegnens und Überholens",
@@ -6459,10 +6459,10 @@
           "rationale": ""
         },
         {
-          "text": "Stelle zum Einwassern von Schiffen",
+          "text": "Beschränkte Durchfahrtsbreite",
           "image": null,
           "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Stelle zum Einwassern von Schiffen“ (ONI Anhang 4 – fig. 42)."
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Beschränkte Durchfahrtsbreite“ (ONI Anhang 4 – fig. 24). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -6496,10 +6496,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Verbotenes Stillliegen",
+          "text": "Verbot des Fahrens mit Segelbrettern",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot des Fahrens mit Segelbrettern“ (ONI Anhang 4 – fig. 6). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Blaues Blinklicht",
@@ -6508,10 +6508,10 @@
           "rationale": "Das ist ein anderes Zeichen: „Blaues Blinklicht“ (ONI Anhang 2 – fig. 31)."
         },
         {
-          "text": "Verbot des Fahrens mit Segelbrettern",
+          "text": "Verbotenes Stillliegen",
           "image": null,
-          "is_correct": false,
-          "rationale": "Richtige Familie, falsches Zeichen: „Verbot des Fahrens mit Segelbrettern“ (ONI Anhang 4 – fig. 6). Hier entscheidet allein das Piktogramm."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -6535,7 +6535,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6545,9 +6545,9 @@
       "stem": "Ein Segelschiff fährt nachts unter Motor (mit oder ohne gesetzte Segel). Welche Lichter führt es nach RNL?",
       "choices": [
         {
-          "text": "Topplicht weiss, Seitenlichter grün und rot, Hecklicht weiss",
+          "text": "Seitenlichter und Hecklicht in einem Dreifarben-Topplicht an der Mastspitze",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -6557,9 +6557,9 @@
           "rationale": ""
         },
         {
-          "text": "Seitenlichter und Hecklicht in einem Dreifarben-Topplicht an der Mastspitze",
+          "text": "Topplicht weiss, Seitenlichter grün und rot, Hecklicht weiss",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6584,7 +6584,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6593,12 +6593,6 @@
       "kind": "rule_mc",
       "stem": "Ein Segelschiff fährt nachts unter Motor und nutzt die Variante mit Dreifarben-Topplicht. Welche Bezeichnung ist korrekt?",
       "choices": [
-        {
-          "text": "Topplicht weiss; Seitenlichter und Hecklicht vereint in einem Dreifarben-Topplicht an oder nahe der Mastspitze",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Topplicht weiss, getrennte Seitenlichter grün und rot, separates weisses Hecklicht",
           "image": null,
@@ -6609,6 +6603,12 @@
           "text": "Nur ein weisses gewöhnliches Rundumlicht",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Topplicht weiss; Seitenlichter und Hecklicht vereint in einem Dreifarben-Topplicht an oder nahe der Mastspitze",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6633,7 +6633,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6642,12 +6642,6 @@
       "kind": "rule_mc",
       "stem": "Ein Motorschiff mit höchstens 6 kW Antriebsleistung bzw. ein Vergnügungsschiff von höchstens 7 m Länge und höchstens 7 Knoten darf nachts welches Licht führen?",
       "choices": [
-        {
-          "text": "Ein weisses gewöhnliches Licht",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Topplicht weiss, Seitenlichter grün und rot, Hecklicht weiss",
           "image": null,
@@ -6658,6 +6652,12 @@
           "text": "Ein Dreifarben-Topplicht an der Mastspitze",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ein weisses gewöhnliches Licht",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6682,7 +6682,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6692,9 +6692,9 @@
       "stem": "Welche Lichter führen geschleppte Schiffe und schwimmende Geräte nachts nach RNL?",
       "choices": [
         {
-          "text": "Topplicht und Hecklicht, je ein weisses gewöhnliches Licht",
+          "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -6704,9 +6704,9 @@
           "rationale": ""
         },
         {
-          "text": "Ein gelbes gewöhnliches Rundumlicht",
+          "text": "Topplicht und Hecklicht, je ein weisses gewöhnliches Licht",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6731,7 +6731,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6741,6 +6741,12 @@
       "stem": "Welches Licht führt ein einzeln oder im Schleppverband fahrendes Schiff ohne Maschinenantrieb nachts nach RNL?",
       "choices": [
         {
+          "text": "Ein gelbes gewöhnliches Rundumlicht",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
           "is_correct": true,
@@ -6748,12 +6754,6 @@
         },
         {
           "text": "Topplicht weiss, Seitenlichter grün und rot, Hecklicht weiss",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6780,7 +6780,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6796,13 +6796,13 @@
           "rationale": ""
         },
         {
-          "text": "Ein grüner Ball, von allen Seiten sichtbar",
+          "text": "Ein blaues Blitzlicht",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Ein blaues Blitzlicht",
+          "text": "Ein grüner Ball, von allen Seiten sichtbar",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6839,15 +6839,15 @@
       "stem": "Ein Segelschiff unter Segel führt nachts Seitenlichter und ein Hecklicht. Welche Farben sind korrekt?",
       "choices": [
         {
-          "text": "Seitenlichter grün und rot, Hecklicht weiss",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Seitenlichter rot und weiss, Hecklicht grün",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Seitenlichter grün und rot, Hecklicht weiss",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -6878,7 +6878,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6888,15 +6888,15 @@
       "stem": "Ein Segelschiff unter Segel nutzt nachts die zusammengefasste Lichtervariante. Wie ist diese korrekt bezeichnet?",
       "choices": [
         {
-          "text": "Ein Dreifarben-Topplicht an oder nahe an der Mastspitze",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Ein weisses gewöhnliches Rundumlicht",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ein Dreifarben-Topplicht an oder nahe an der Mastspitze",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -6927,7 +6927,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6936,6 +6936,12 @@
       "kind": "figure_recognition",
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
+        {
+          "text": "Erlaubnis zum Stillliegen",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Stillliegen“ (RNL Anhang III – fig. 18)."
+        },
         {
           "text": "Zusätzliche Nachtbezeichung der Fahrgastschiffe mit Vorrang in Fahrt",
           "image": null,
@@ -6947,12 +6953,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "Das ist ein anderes Zeichen: „Liegeverbot“ (RNL Anhang III – fig. 6)."
-        },
-        {
-          "text": "Erlaubnis zum Stillliegen",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Stillliegen“ (RNL Anhang III – fig. 18)."
         }
       ],
       "provenance": {
@@ -6976,7 +6976,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6986,15 +6986,15 @@
       "stem": "Wie bezeichnet ein manövrierunfähiges Schiff sich nachts zusätzlich nach RNL?",
       "choices": [
         {
-          "text": "Schwenken eines roten Lichtes und/oder Abgabe des vorgeschriebenen Schallzeichens",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Zwei schwarze Bälle übereinander, von allen Seiten sichtbar",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Schwenken eines roten Lichtes und/oder Abgabe des vorgeschriebenen Schallzeichens",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -7025,7 +7025,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -7035,9 +7035,9 @@
       "stem": "Welche zusätzliche Lichterbezeichnung darf ein manövrierunfähiges Schiff nachts führen?",
       "choices": [
         {
-          "text": "Zwei rote Rundumlichter mindestens 1 m übereinander, von allen Seiten sichtbar",
+          "text": "Ein grüner Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -7047,9 +7047,9 @@
           "rationale": ""
         },
         {
-          "text": "Ein grüner Ball, von allen Seiten sichtbar",
+          "text": "Zwei rote Rundumlichter mindestens 1 m übereinander, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -7074,7 +7074,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -7083,12 +7083,6 @@
       "kind": "rule_mc",
       "stem": "Welches Licht führen alle Schiffe und schwimmenden Geräte beim Stillliegen nachts nach RNL?",
       "choices": [
-        {
-          "text": "Ein weisses gewöhnliches Licht",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Ein rotes gewöhnliches Licht über einem weissen gewöhnlichen Licht",
           "image": null,
@@ -7099,6 +7093,12 @@
           "text": "Ein gelber Ball, von allen Seiten sichtbar",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ein weisses gewöhnliches Licht",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -7123,7 +7123,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -7182,15 +7182,15 @@
       "stem": "Wie werden Verankerungen nachts nach RNL bezeichnet?",
       "choices": [
         {
-          "text": "Bojen mit weissem gewöhnlichem Licht",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Bojen mit gelbem gewöhnlichem Licht",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Bojen mit weissem gewöhnlichem Licht",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -7221,7 +7221,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -7231,9 +7231,9 @@
       "stem": "Wie bezeichnen sich Fahrgastschiffe mit Vorrang in Fahrt bei Tag nach RNL?",
       "choices": [
         {
-          "text": "Grüner Ball, von allen Seiten sichtbar",
+          "text": "Zwei schwarze Bälle übereinander",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -7243,9 +7243,9 @@
           "rationale": ""
         },
         {
-          "text": "Zwei schwarze Bälle übereinander",
+          "text": "Grüner Ball, von allen Seiten sichtbar",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -7270,7 +7270,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -7286,13 +7286,13 @@
           "rationale": ""
         },
         {
-          "text": "Zwei schwarze Bälle im Abstand von etwa 1 m übereinander",
+          "text": "Grüner Ball, von allen Seiten sichtbar",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Grüner Ball, von allen Seiten sichtbar",
+          "text": "Zwei schwarze Bälle im Abstand von etwa 1 m übereinander",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7329,6 +7329,12 @@
       "stem": "Welche zusätzliche Tagbezeichnung darf ein manövrierunfähiges Schiff führen?",
       "choices": [
         {
+          "text": "Schwenken einer roten Flagge",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Zwei schwarze Bälle im Abstand von etwa 1 m übereinander, von allen Seiten sichtbar",
           "image": null,
           "is_correct": true,
@@ -7336,12 +7342,6 @@
         },
         {
           "text": "Zwei rote Rundumlichter übereinander",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Schwenken einer roten Flagge",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7368,7 +7368,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -7384,13 +7384,13 @@
           "rationale": ""
         },
         {
-          "text": "Eine rot-weisse Flagge",
+          "text": "Eine rote und eine weisse Flagge nebeneinander",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Eine rote und eine weisse Flagge nebeneinander",
+          "text": "Eine rot-weisse Flagge",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7433,13 +7433,13 @@
           "rationale": ""
         },
         {
-          "text": "Nur ein weisses gewöhnliches Rundumlicht",
+          "text": "Zwei rote Rundumlichter übereinander",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Zwei rote Rundumlichter übereinander",
+          "text": "Nur ein weisses gewöhnliches Rundumlicht",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7482,13 +7482,13 @@
           "rationale": ""
         },
         {
-          "text": "Eine rote Flagge",
+          "text": "Zwei schwarze Bälle übereinander",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Zwei schwarze Bälle übereinander",
+          "text": "Eine rote Flagge",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7525,16 +7525,16 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Oder eine rote und eine weisse Flagge",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Erlaubnis zum Festmachen",
           "image": null,
           "is_correct": false,
           "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Festmachen“ (RNL Anhang III – fig. 20)."
+        },
+        {
+          "text": "Oder eine rote und eine weisse Flagge",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Erlaubnis zum Segelbrettfahren",
@@ -7564,7 +7564,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -7580,13 +7580,13 @@
           "rationale": ""
         },
         {
-          "text": "Ein grünes helles Rundumlicht",
+          "text": "Ein gelbes gewöhnliches Rundumlicht",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Ein gelbes gewöhnliches Rundumlicht",
+          "text": "Ein grünes helles Rundumlicht",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7623,15 +7623,15 @@
       "stem": "Womit signalisiert ein Schiff der Überwachungsbehörden, dass es mit anderen Schiffen Verbindung aufnehmen will?",
       "choices": [
         {
-          "text": "Mit der Flagge, Buchstabe «K»",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Mit einem blauen Blitzlicht",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Mit der Flagge, Buchstabe «K»",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -7662,7 +7662,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -7672,15 +7672,15 @@
       "stem": "Wie gibt man ein Notzeichen bei Nacht nach RNL?",
       "choices": [
         {
-          "text": "Rotes, kreisförmig geschwenktes Licht",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Schwenken einer roten Flagge",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Rotes, kreisförmig geschwenktes Licht",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -7711,7 +7711,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -7721,15 +7721,15 @@
       "stem": "Wie wird das Tauchen vom Land aus nach RNL gekennzeichnet?",
       "choices": [
         {
-          "text": "Mit der Tafel, Buchstabe «A»",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Mit einem weissen Ball, von allen Seiten sichtbar",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Mit der Tafel, Buchstabe «A»",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -7760,7 +7760,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -7819,6 +7819,12 @@
       "stem": "Wie kennzeichnet sich ein Schiff, das mit der Schleppangel fischt und Schwimmer oder Spreizer schleppt?",
       "choices": [
         {
+          "text": "Grüner Ball, von allen Seiten sichtbar",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Weisser Ball, von allen Seiten sichtbar",
           "image": null,
           "is_correct": true,
@@ -7826,12 +7832,6 @@
         },
         {
           "text": "Gelber Ball, von allen Seiten sichtbar",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Grüner Ball, von allen Seiten sichtbar",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7858,7 +7858,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -7874,13 +7874,13 @@
           "rationale": ""
         },
         {
-          "text": "Weisser Ball, von allen Seiten sichtbar",
+          "text": "Grüner Ball, von allen Seiten sichtbar",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Grüner Ball, von allen Seiten sichtbar",
+          "text": "Weisser Ball, von allen Seiten sichtbar",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -7966,6 +7966,12 @@
       "stem": "Vergnügungsschiffe mit Maschinenantrieb sowie Segelschiffe unter Motor führen nachts in dieser Variante welche Lichter?",
       "choices": [
         {
+          "text": "Topplicht weiss und ein weisses Hecklicht ohne Seitenlichter",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Ein weisses Rundumlicht sowie Seitenlichter grün und rot",
           "image": null,
           "is_correct": true,
@@ -7973,12 +7979,6 @@
         },
         {
           "text": "Ein einzelnes weisses gewöhnliches Licht",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Topplicht weiss und ein weisses Hecklicht ohne Seitenlichter",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -8005,7 +8005,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -8015,16 +8015,16 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Richtige Familie, falsches Zeichen: „Verbot, ausserhalb der angezeigten Fläche zu fahren“ (RNL Anhang III – fig. 10). Hier entscheidet allein das Piktogramm."
-        },
-        {
           "text": "Gebot, besondere Vorsicht walten zu lassen",
           "image": null,
           "is_correct": false,
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Gebot, besondere Vorsicht walten zu lassen“ (RNL Anhang III – fig. 16). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+        },
+        {
+          "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot, ausserhalb der angezeigten Fläche zu fahren“ (RNL Anhang III – fig. 10). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Verbot der Durchfahrt",
@@ -8064,10 +8064,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
+          "text": "Zwei Lichtzeichen",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Zwei Lichtzeichen“ (RNL Anhang III – fig. 2)."
         },
         {
           "text": "Verbot des Drachensegelbrettfahrens",
@@ -8076,10 +8076,10 @@
           "rationale": "Richtige Familie, falsches Zeichen: „Verbot des Drachensegelbrettfahrens“ (RNL Anhang III – fig. 13). Hier entscheidet allein das Piktogramm."
         },
         {
-          "text": "Zwei Lichtzeichen",
+          "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
           "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Zwei Lichtzeichen“ (RNL Anhang III – fig. 2)."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8103,7 +8103,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -8113,16 +8113,16 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Erlaubnis zum Ankern",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Ankern“ (RNL Anhang III – fig. 19). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
-        },
-        {
           "text": "Verbot des Segelbrettfahrens",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Erlaubnis zum Ankern",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Ankern“ (RNL Anhang III – fig. 19). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Zwei Lichtzeichen",
@@ -8152,7 +8152,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -8162,16 +8162,16 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Verbot des Segelbrettfahrens",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Richtige Familie, falsches Zeichen: „Verbot des Segelbrettfahrens“ (RNL Anhang III – fig. 11). Hier entscheidet allein das Piktogramm."
-        },
-        {
           "text": "Zwei Lichtzeichen",
           "image": null,
           "is_correct": false,
           "rationale": "Das ist ein anderes Zeichen: „Zwei Lichtzeichen“ (RNL Anhang III – fig. 2)."
+        },
+        {
+          "text": "Verbot des Segelbrettfahrens",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot des Segelbrettfahrens“ (RNL Anhang III – fig. 11). Hier entscheidet allein das Piktogramm."
         },
         {
           "text": "Badeverbot",
@@ -8217,16 +8217,16 @@
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Ankern“ (RNL Anhang III – fig. 19). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
-          "text": "Zwei Lichtzeichen",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Zwei Lichtzeichen“ (RNL Anhang III – fig. 2)."
-        },
-        {
           "text": "Verbot des Drachensegelbrettfahrens",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Zwei Lichtzeichen",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Zwei Lichtzeichen“ (RNL Anhang III – fig. 2)."
         }
       ],
       "provenance": {
@@ -8250,7 +8250,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -8266,16 +8266,16 @@
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Liegeverbot“ (RNL Anhang III – fig. 6). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
-          "text": "Gebot, die durch den Pfeil angezeigte Richtung einzuschlagen",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Erlaubnis zum Festmachen",
           "image": null,
           "is_correct": false,
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Festmachen“ (RNL Anhang III – fig. 20). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+        },
+        {
+          "text": "Gebot, die durch den Pfeil angezeigte Richtung einzuschlagen",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8299,7 +8299,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -8308,12 +8308,6 @@
       "kind": "figure_recognition",
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
-        {
-          "text": "Erlaubnis zum Ankern",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Ankern“ (RNL Anhang III – fig. 19). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
-        },
         {
           "text": "Erlaubnis zum Drachensegelbrettfahren",
           "image": null,
@@ -8325,6 +8319,12 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Erlaubnis zum Ankern",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Ankern“ (RNL Anhang III – fig. 19). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -8348,7 +8348,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -8358,10 +8358,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Gebot, besondere Vorsicht walten zu lassen",
+          "text": "Erlaubnis zum Stillliegen",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Stillliegen“ (RNL Anhang III – fig. 18). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Liegeverbot",
@@ -8370,10 +8370,10 @@
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Liegeverbot“ (RNL Anhang III – fig. 6). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
-          "text": "Erlaubnis zum Stillliegen",
+          "text": "Gebot, besondere Vorsicht walten zu lassen",
           "image": null,
-          "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Stillliegen“ (RNL Anhang III – fig. 18). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8397,7 +8397,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -8407,16 +8407,16 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Erlaubnis zum Fahren mit Wasserskis oder ähnlichen Geräten",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Oder eine rote und eine weisse Flagge",
           "image": null,
           "is_correct": false,
           "rationale": "Das ist ein anderes Zeichen: „Oder eine rote und eine weisse Flagge“ (RNL Anhang I – fig. 34)."
+        },
+        {
+          "text": "Erlaubnis zum Fahren mit Wasserskis oder ähnlichen Geräten",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         },
         {
           "text": "Ankerverbot",
@@ -8446,7 +8446,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -8456,10 +8456,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Erlaubnis zum Stillliegen",
+          "text": "Überholverbot",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Überholverbot“ (RNL Anhang III – fig. 5). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Verbot der Durchfahrt",
@@ -8468,10 +8468,10 @@
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot der Durchfahrt“ (RNL Anhang III – fig. 1). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
-          "text": "Überholverbot",
+          "text": "Erlaubnis zum Stillliegen",
           "image": null,
-          "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Überholverbot“ (RNL Anhang III – fig. 5). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8495,7 +8495,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -8505,10 +8505,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Erlaubnis zum Ankern",
+          "text": "Zwei Lichtzeichen",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Zwei Lichtzeichen“ (RNL Anhang III – fig. 2)."
         },
         {
           "text": "Oder eine rote und eine weisse Flagge",
@@ -8517,10 +8517,10 @@
           "rationale": "Das ist ein anderes Zeichen: „Oder eine rote und eine weisse Flagge“ (RNL Anhang I – fig. 34)."
         },
         {
-          "text": "Zwei Lichtzeichen",
+          "text": "Erlaubnis zum Ankern",
           "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Zwei Lichtzeichen“ (RNL Anhang III – fig. 2)."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8544,7 +8544,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -8560,16 +8560,16 @@
           "rationale": "Das ist ein anderes Zeichen: „Erlaubnis zum Festmachen“ (RNL Anhang III – fig. 20)."
         },
         {
-          "text": "Zwei Lichtzeichen",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Festmacheverbot",
           "image": null,
           "is_correct": false,
           "rationale": "Das ist ein anderes Zeichen: „Festmacheverbot“ (RNL Anhang III – fig. 8)."
+        },
+        {
+          "text": "Zwei Lichtzeichen",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8593,7 +8593,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -8602,6 +8602,12 @@
       "kind": "figure_recognition",
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
+        {
+          "text": "Erlaubnis zum Segelbrettfahren",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Richtige Familie, falsches Zeichen: „Erlaubnis zum Segelbrettfahren“ (RNL Anhang III – fig. 21). Hier entscheidet allein das Piktogramm."
+        },
         {
           "text": "Erlaubnis zum Festmachen",
           "image": null,
@@ -8613,12 +8619,6 @@
           "image": null,
           "is_correct": false,
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Verbot des Drachensegelbrettfahrens“ (RNL Anhang III – fig. 13). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
-        },
-        {
-          "text": "Erlaubnis zum Segelbrettfahren",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Richtige Familie, falsches Zeichen: „Erlaubnis zum Segelbrettfahren“ (RNL Anhang III – fig. 21). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -8642,7 +8642,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -8658,16 +8658,16 @@
           "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Liegeverbot“ (RNL Anhang III – fig. 6). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
-          "text": "Erlaubnis zum Segelbrettfahren",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Erlaubnis zum Festmachen",
           "image": null,
           "is_correct": false,
           "rationale": "Richtige Familie, falsches Zeichen: „Erlaubnis zum Festmachen“ (RNL Anhang III – fig. 20). Hier entscheidet allein das Piktogramm."
+        },
+        {
+          "text": "Erlaubnis zum Segelbrettfahren",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8691,7 +8691,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -8750,16 +8750,16 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Oder eine rote und eine weisse Flagge",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Das ist ein anderes Zeichen: „Oder eine rote und eine weisse Flagge“ (RNL Anhang I – fig. 34)."
-        },
-        {
           "text": "A. 2 Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Oder eine rote und eine weisse Flagge",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Das ist ein anderes Zeichen: „Oder eine rote und eine weisse Flagge“ (RNL Anhang I – fig. 34)."
         },
         {
           "text": "Liegeverbot",
@@ -8789,7 +8789,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -8798,6 +8798,12 @@
       "kind": "figure_recognition",
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
+        {
+          "text": "Erlaubnis zum Drachensegelbrettfahren",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Drachensegelbrettfahren“ (RNL Anhang III – fig. 22). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+        },
         {
           "text": "Badeverbot",
           "image": null,
@@ -8809,12 +8815,6 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
-        },
-        {
-          "text": "Erlaubnis zum Drachensegelbrettfahren",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Drachensegelbrettfahren“ (RNL Anhang III – fig. 22). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         }
       ],
       "provenance": {
@@ -8838,7 +8838,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -8848,10 +8848,10 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Überholverbot",
+          "text": "Erlaubnis zum Segelbrettfahren",
           "image": null,
-          "is_correct": true,
-          "rationale": ""
+          "is_correct": false,
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Segelbrettfahren“ (RNL Anhang III – fig. 21). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
@@ -8860,10 +8860,10 @@
           "rationale": "Richtige Familie, falsches Zeichen: „Verbot, ausserhalb der angezeigten Fläche zu fahren“ (RNL Anhang III – fig. 10). Hier entscheidet allein das Piktogramm."
         },
         {
-          "text": "Erlaubnis zum Segelbrettfahren",
+          "text": "Überholverbot",
           "image": null,
-          "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Erlaubnis zum Segelbrettfahren“ (RNL Anhang III – fig. 21). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -8887,7 +8887,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -8995,12 +8995,6 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Verbot des Segelbrettfahrens",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Richtige Familie, falsches Zeichen: „Verbot des Segelbrettfahrens“ (RNL Anhang III – fig. 11). Hier entscheidet allein das Piktogramm."
-        },
-        {
           "text": "Festmacheverbot",
           "image": null,
           "is_correct": true,
@@ -9011,6 +9005,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "Richtige Familie, falsches Zeichen: „Verbot des Drachensegelbrettfahrens“ (RNL Anhang III – fig. 13). Hier entscheidet allein das Piktogramm."
+        },
+        {
+          "text": "Verbot des Segelbrettfahrens",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Richtige Familie, falsches Zeichen: „Verbot des Segelbrettfahrens“ (RNL Anhang III – fig. 11). Hier entscheidet allein das Piktogramm."
         }
       ],
       "provenance": {
@@ -9034,7 +9034,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -9044,16 +9044,16 @@
       "stem": "Was bedeutet dieses Signal?",
       "choices": [
         {
-          "text": "Gebot, besondere Vorsicht walten zu lassen",
-          "image": null,
-          "is_correct": false,
-          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Gebot, besondere Vorsicht walten zu lassen“ (RNL Anhang III – fig. 16). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
-        },
-        {
           "text": "Liegeverbot",
           "image": null,
           "is_correct": false,
           "rationale": "Richtige Familie, falsches Zeichen: „Liegeverbot“ (RNL Anhang III – fig. 6). Hier entscheidet allein das Piktogramm."
+        },
+        {
+          "text": "Gebot, besondere Vorsicht walten zu lassen",
+          "image": null,
+          "is_correct": false,
+          "rationale": "Sie haben ein Zeichen einer anderen Familie gewählt: „Gebot, besondere Vorsicht walten zu lassen“ (RNL Anhang III – fig. 16). Rand und Farbe nennen die Familie schon vor dem Piktogramm."
         },
         {
           "text": "Verbot, ausserhalb der angezeigten Fläche zu fahren",
@@ -9093,15 +9093,15 @@
       "stem": "Wodurch unterscheidet sich die Halse von der Wende?",
       "choices": [
         {
-          "text": "Bei der Halse geht das Fahrzeug mit dem Heck durch den Wind",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Bei der Halse geht das Fahrzeug mit dem Bug durch den Wind",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Bei der Halse geht das Fahrzeug mit dem Heck durch den Wind",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -9132,7 +9132,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -9191,9 +9191,9 @@
       "stem": "Was geschieht, wenn ein Segelboot den kleinstmöglichen segelbaren Winkel zum Wind unterschreitet?",
       "choices": [
         {
-          "text": "Es wird kein Vortrieb mehr erzeugt und die Segel killen (flattern)",
+          "text": "Es wird automatisch eine Patenthalse ausgelöst",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -9203,9 +9203,9 @@
           "rationale": ""
         },
         {
-          "text": "Es wird automatisch eine Patenthalse ausgelöst",
+          "text": "Es wird kein Vortrieb mehr erzeugt und die Segel killen (flattern)",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -9230,7 +9230,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -9240,9 +9240,9 @@
       "stem": "Was muss die Crew tun, wenn der Spinnaker das Boot außer Kontrolle zu bringen droht?",
       "choices": [
         {
-          "text": "Sofort die Spinnakerschoten loswerfen, um den Druck zu reduzieren",
+          "text": "Das Ruder hart anluven und den Kurs halten",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -9252,9 +9252,9 @@
           "rationale": ""
         },
         {
-          "text": "Das Ruder hart anluven und den Kurs halten",
+          "text": "Sofort die Spinnakerschoten loswerfen, um den Druck zu reduzieren",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -9279,7 +9279,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {

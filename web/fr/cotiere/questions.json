@@ -11,7 +11,7 @@
     "permis": "cotiere",
     "permis_label": "Permis plaisance — option côtière",
     "country": "FR",
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "kb_version": "",
     "lang": "fr",
     "unofficial": "false",
@@ -134,13 +134,13 @@
           "rationale": ""
         },
         {
-          "text": "Deux cônes pointes vers le bas ; on passe au sud",
+          "text": "Deux cônes pointes opposées ; on passe à l'ouest",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Deux cônes pointes opposées ; on passe à l'ouest",
+          "text": "Deux cônes pointes vers le bas ; on passe au sud",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -183,13 +183,13 @@
           "rationale": ""
         },
         {
-          "text": "L'entrée principale d'un port",
+          "text": "Une zone de baignade surveillée",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Une zone de baignade surveillée",
+          "text": "L'entrée principale d'un port",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -226,6 +226,12 @@
       "stem": "Que signale une marque à bandes verticales rouges et blanches, avec un voyant sphérique rouge ?",
       "choices": [
         {
+          "text": "Le côté tribord d'un chenal",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Des eaux saines tout autour ; on passe de chaque côté",
           "image": null,
           "is_correct": true,
@@ -233,12 +239,6 @@
         },
         {
           "text": "Un danger isolé à contourner",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Le côté tribord d'un chenal",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -265,7 +265,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -281,13 +281,13 @@
           "rationale": ""
         },
         {
-          "text": "Chacun vient sur bâbord",
+          "text": "Le plus rapide s'écarte, l'autre garde son cap",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Le plus rapide s'écarte, l'autre garde son cap",
+          "text": "Chacun vient sur bâbord",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -324,6 +324,12 @@
       "stem": "Deux navires à moteur suivent des routes qui se croisent avec risque d'abordage. Lequel doit s'écarter ?",
       "choices": [
         {
+          "text": "Le plus grand des deux navires",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Celui qui a l'autre sur son tribord",
           "image": null,
           "is_correct": true,
@@ -331,12 +337,6 @@
         },
         {
           "text": "Celui qui a l'autre sur son bâbord",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Le plus grand des deux navires",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -363,7 +363,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -373,9 +373,9 @@
       "stem": "Un navire en rattrape un autre. Qui doit s'écarter ?",
       "choices": [
         {
-          "text": "Le navire qui rattrape",
+          "text": "Toujours le voilier",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -385,9 +385,9 @@
           "rationale": ""
         },
         {
-          "text": "Toujours le voilier",
+          "text": "Le navire qui rattrape",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -412,7 +412,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -422,6 +422,12 @@
       "stem": "En l'absence de rattrapage et hors chenal étroit, un navire à moteur rencontre un voilier en train de naviguer à la voile. Qui s'écarte ?",
       "choices": [
         {
+          "text": "Aucun, ils gardent leur cap",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Le navire à moteur",
           "image": null,
           "is_correct": true,
@@ -429,12 +435,6 @@
         },
         {
           "text": "Le voilier",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Aucun, ils gardent leur cap",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -461,7 +461,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -520,9 +520,9 @@
       "stem": "De nuit, un navire à moteur de moins de 50 m faisant route porte des feux de côté. De quelle couleur est le feu de BÂBORD ?",
       "choices": [
         {
-          "text": "Rouge",
+          "text": "Blanc",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -532,9 +532,9 @@
           "rationale": ""
         },
         {
-          "text": "Blanc",
+          "text": "Rouge",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -559,7 +559,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -568,12 +568,6 @@
       "kind": "rule_mc",
       "stem": "En vue d'un autre navire, un navire à moteur émet UN son bref. Qu'annonce-t-il ?",
       "choices": [
-        {
-          "text": "« Je viens sur tribord »",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "« Je viens sur bâbord »",
           "image": null,
@@ -584,6 +578,12 @@
           "text": "« Je bats en arrière »",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "« Je viens sur tribord »",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -608,7 +608,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -618,9 +618,9 @@
       "stem": "Que signifient TROIS sons brefs émis par un navire à moteur en vue d'un autre ?",
       "choices": [
         {
-          "text": "« Mes machines battent en arrière »",
+          "text": "« Je suis échoué »",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -630,9 +630,9 @@
           "rationale": ""
         },
         {
-          "text": "« Je suis échoué »",
+          "text": "« Mes machines battent en arrière »",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -657,7 +657,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -667,9 +667,9 @@
       "stem": "Que signifient au moins CINQ sons brefs et rapprochés ?",
       "choices": [
         {
-          "text": "Un doute / un avertissement sur la manœuvre de l'autre",
+          "text": "Un appel de détresse",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -679,9 +679,9 @@
           "rationale": ""
         },
         {
-          "text": "Un appel de détresse",
+          "text": "Un doute / un avertissement sur la manœuvre de l'autre",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -706,7 +706,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -715,12 +715,6 @@
       "kind": "rule_mc",
       "stem": "Par visibilité réduite (brouillard), quel signal émet un navire à moteur faisant route et ayant de l'erre ?",
       "choices": [
-        {
-          "text": "Un son prolongé toutes les 2 minutes au plus",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Trois sons brefs toutes les minutes",
           "image": null,
@@ -731,6 +725,12 @@
           "text": "Aucun signal n'est nécessaire",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Un son prolongé toutes les 2 minutes au plus",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -755,7 +755,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -764,12 +764,6 @@
       "kind": "rule_mc",
       "stem": "Parmi ces moyens, lequel est un signal de détresse PYROTECHNIQUE reconnu en mer ?",
       "choices": [
-        {
-          "text": "Une fusée à parachute rouge",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Un feu vert clignotant",
           "image": null,
@@ -780,6 +774,12 @@
           "text": "Un pavillon jaune hissé",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Une fusée à parachute rouge",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -804,7 +804,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -813,12 +813,6 @@
       "kind": "rule_mc",
       "stem": "Jusqu'à quelle distance d'un abri le permis plaisance option côtière autorise-t-il la navigation ?",
       "choices": [
-        {
-          "text": "6 milles nautiques",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "2 milles nautiques",
           "image": null,
@@ -829,6 +823,12 @@
           "text": "Sans aucune limite de distance",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "6 milles nautiques",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -853,7 +853,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -863,9 +863,9 @@
       "stem": "Pour la navigation côtière (jusqu'à 6 milles d'un abri), quelle flottabilité minimale doit avoir l'équipement individuel de flottabilité (brassière) selon la Division 240 ?",
       "choices": [
         {
-          "text": "100 N",
+          "text": "10 N",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -875,9 +875,9 @@
           "rationale": ""
         },
         {
-          "text": "10 N",
+          "text": "100 N",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -902,7 +902,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -912,15 +912,15 @@
       "stem": "À quel programme de navigation correspond la catégorie de conception « C » d'un bateau de plaisance ?",
       "choices": [
         {
-          "text": "À proximité de la côte (force 6, vagues 2 m)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "En haute mer sans restriction",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "À proximité de la côte (force 6, vagues 2 m)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -951,7 +951,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1010,15 +1010,15 @@
       "stem": "Sur une carte marine, par rapport à quel niveau les profondeurs (sondes) sont-elles indiquées ?",
       "choices": [
         {
-          "text": "Le zéro hydrographique (plus basses mers)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Le niveau moyen de la mer",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Le zéro hydrographique (plus basses mers)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1049,7 +1049,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1058,12 +1058,6 @@
       "kind": "meteo_mc",
       "stem": "Qu'appelle-t-on le « marnage » ?",
       "choices": [
-        {
-          "text": "La différence de hauteur entre pleine mer et basse mer",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "La vitesse du courant de marée",
           "image": null,
@@ -1074,6 +1068,12 @@
           "text": "La durée d'une marée",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "La différence de hauteur entre pleine mer et basse mer",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1098,7 +1098,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1108,9 +1108,9 @@
       "stem": "Entre quelles valeurs le coefficient de marée varie-t-il ?",
       "choices": [
         {
-          "text": "Entre 20 et 120",
+          "text": "Entre 1 et 12",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1120,9 +1120,9 @@
           "rationale": ""
         },
         {
-          "text": "Entre 1 et 12",
+          "text": "Entre 20 et 120",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1147,7 +1147,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1163,13 +1163,13 @@
           "rationale": ""
         },
         {
-          "text": "10",
+          "text": "100",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "100",
+          "text": "10",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1206,9 +1206,9 @@
       "stem": "À quoi sert la « règle des douzièmes » ?",
       "choices": [
         {
-          "text": "Estimer la hauteur d'eau à une heure donnée de la marée",
+          "text": "Mesurer la dérive due au courant",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1218,9 +1218,9 @@
           "rationale": ""
         },
         {
-          "text": "Mesurer la dérive due au courant",
+          "text": "Estimer la hauteur d'eau à une heure donnée de la marée",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1245,7 +1245,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1310,13 +1310,13 @@
           "rationale": ""
         },
         {
-          "text": "L'urgence",
+          "text": "La sécurité",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "La sécurité",
+          "text": "L'urgence",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1359,13 +1359,13 @@
           "rationale": ""
         },
         {
-          "text": "Plus de 1 kW",
+          "text": "Plus de 50 ch",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Plus de 50 ch",
+          "text": "Plus de 1 kW",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1408,13 +1408,13 @@
           "rationale": ""
         },
         {
-          "text": "14 ans",
+          "text": "18 ans",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "18 ans",
+          "text": "14 ans",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1451,9 +1451,9 @@
       "stem": "En mer, que dit la réglementation sur le rejet des détritus et des hydrocarbures ?",
       "choices": [
         {
-          "text": "Il est interdit",
+          "text": "Il est autorisé la nuit",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1463,9 +1463,9 @@
           "rationale": ""
         },
         {
-          "text": "Il est autorisé la nuit",
+          "text": "Il est interdit",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1490,7 +1490,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1500,15 +1500,15 @@
       "stem": "Que doit faire le plaisancier de ses déchets produits à bord ?",
       "choices": [
         {
-          "text": "Les rapporter à terre dans les installations portuaires",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Les jeter au large",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Les rapporter à terre dans les installations portuaires",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1539,7 +1539,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1549,9 +1549,9 @@
       "stem": "Comment reconnaît-on le voyant d'une marque cardinale SUD, et de quel côté faut-il passer ?",
       "choices": [
         {
-          "text": "Deux cônes pointes vers le bas ; on passe au sud",
+          "text": "Deux cônes base contre base ; on passe à l'est",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1561,9 +1561,9 @@
           "rationale": ""
         },
         {
-          "text": "Deux cônes base contre base ; on passe à l'est",
+          "text": "Deux cônes pointes vers le bas ; on passe au sud",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1588,7 +1588,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1597,12 +1597,6 @@
       "kind": "rule_mc",
       "stem": "Que signale une marque entièrement JAUNE, éventuellement surmontée d'une croix de Saint-André (X) jaune ?",
       "choices": [
-        {
-          "text": "Une zone ou un dispositif particulier (marque spéciale)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Un danger isolé à éviter",
           "image": null,
@@ -1613,6 +1607,12 @@
           "text": "Le côté tribord du chenal",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Une zone ou un dispositif particulier (marque spéciale)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1637,7 +1637,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1696,9 +1696,9 @@
       "stem": "De nuit, un navire de moins de 50 m au mouillage montre :",
       "choices": [
         {
-          "text": "Un feu blanc visible sur tout l'horizon",
+          "text": "Deux feux verts superposés",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1708,9 +1708,9 @@
           "rationale": ""
         },
         {
-          "text": "Deux feux verts superposés",
+          "text": "Un feu blanc visible sur tout l'horizon",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1735,7 +1735,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1745,6 +1745,12 @@
       "stem": "Sur un bateau à moteur conduit à la barre franche, pourquoi le conducteur doit-il porter le coupe-circuit (cordon) relié à lui ?",
       "choices": [
         {
+          "text": "Il sert d'antivol au port",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Il coupe le moteur si le conducteur tombe à l'eau",
           "image": null,
           "is_correct": true,
@@ -1752,12 +1758,6 @@
         },
         {
           "text": "Il augmente la vitesse du moteur",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Il sert d'antivol au port",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1784,7 +1784,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1800,13 +1800,13 @@
           "rationale": ""
         },
         {
-          "text": "Le moment où le courant est le plus fort",
+          "text": "La différence entre pleine et basse mer",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "La différence entre pleine et basse mer",
+          "text": "Le moment où le courant est le plus fort",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1843,6 +1843,12 @@
       "stem": "Dans la bande littorale des 300 mètres à partir du rivage, à quelle vitesse la navigation est-elle en principe limitée ?",
       "choices": [
         {
+          "text": "Aucune limite de vitesse",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "5 nœuds",
           "image": null,
           "is_correct": true,
@@ -1850,12 +1856,6 @@
         },
         {
           "text": "20 nœuds",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Aucune limite de vitesse",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1882,7 +1882,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1892,6 +1892,12 @@
       "stem": "Un message radio commençant par « PAN PAN » correspond à quel degré de priorité ?",
       "choices": [
         {
+          "text": "La sécurité (bulletin météo)",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "L'urgence",
           "image": null,
           "is_correct": true,
@@ -1899,12 +1905,6 @@
         },
         {
           "text": "La détresse",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "La sécurité (bulletin météo)",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1931,7 +1931,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1941,6 +1941,12 @@
       "stem": "En Méditerranée, sur les herbiers de posidonie, le mouillage de l'ancre est :",
       "choices": [
         {
+          "text": "Recommandé car l'ancre y tient bien",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Réglementé, voire interdit (herbiers protégés)",
           "image": null,
           "is_correct": true,
@@ -1948,12 +1954,6 @@
         },
         {
           "text": "Libre et sans conséquence",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Recommandé car l'ancre y tient bien",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1980,7 +1980,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1989,12 +1989,6 @@
       "kind": "rule_mc",
       "stem": "Dans nos eaux, en entrant dans un chenal depuis le large, quel feu et quel voyant éventuel caractérisent une marque latérale de tribord ?",
       "choices": [
-        {
-          "text": "Feu vert, voyant cône vert pointe vers le haut",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Feu rouge, voyant cylindre rouge",
           "image": null,
@@ -2005,6 +1999,12 @@
           "text": "Feu vert, voyant cône vert pointe vers le bas",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Feu vert, voyant cône vert pointe vers le haut",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2029,7 +2029,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2038,12 +2038,6 @@
       "kind": "rule_mc",
       "stem": "À l'endroit où un chenal se divise, vous voyez une marque rouge portant une large bande horizontale verte. Que vous indique-t-elle ?",
       "choices": [
-        {
-          "text": "Le chenal préféré est à tribord",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Le chenal préféré est à bâbord",
           "image": null,
@@ -2054,6 +2048,12 @@
           "text": "Le chenal est obstrué, il faut faire demi-tour",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Le chenal préféré est à tribord",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2078,7 +2078,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2087,12 +2087,6 @@
       "kind": "rule_mc",
       "stem": "Quel voyant et quel rythme de feu caractérisent une marque cardinale Est, que l'on doit contourner par l'est ?",
       "choices": [
-        {
-          "text": "Deux cônes noirs base à base ; feu blanc VQ(3) toutes les 5 s ou Q(3) toutes les 10 s",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Deux cônes noirs pointes opposées (pointe à pointe) ; feu blanc VQ(9) toutes les 10 s",
           "image": null,
@@ -2103,6 +2097,12 @@
           "text": "Deux cônes noirs base à base ; feu blanc à occultations groupées",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Deux cônes noirs base à base ; feu blanc VQ(3) toutes les 5 s ou Q(3) toutes les 10 s",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2127,7 +2127,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2137,9 +2137,9 @@
       "stem": "Une marque montre deux cônes noirs disposés pointe à pointe, un corps jaune avec une large bande horizontale noire, et un feu blanc à scintillements groupés par neuf. De quel côté devez-vous passer ?",
       "choices": [
         {
-          "text": "À l'ouest de la marque",
+          "text": "Au nord de la marque",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2149,9 +2149,9 @@
           "rationale": ""
         },
         {
-          "text": "Au nord de la marque",
+          "text": "À l'ouest de la marque",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2176,7 +2176,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2192,13 +2192,13 @@
           "rationale": ""
         },
         {
-          "text": "Une marque cardinale Nord",
+          "text": "Une marque cardinale Ouest",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Une marque cardinale Ouest",
+          "text": "Une marque cardinale Nord",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2235,15 +2235,15 @@
       "stem": "Selon la règle des douzièmes, de quelle fraction du marnage l'eau monte-t-elle au cours de chaque heure successive, de la basse mer à la pleine mer ?",
       "choices": [
         {
-          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2274,7 +2274,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2284,15 +2284,15 @@
       "stem": "Comment désigne-t-on la marée descendante, durant laquelle le niveau baisse vers la basse mer ?",
       "choices": [
         {
-          "text": "Le jusant",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Le flot",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Le jusant",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2323,7 +2323,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2339,13 +2339,13 @@
           "rationale": ""
         },
         {
-          "text": "Mésotidal",
+          "text": "Microtidal",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Microtidal",
+          "text": "Mésotidal",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2382,6 +2382,12 @@
       "stem": "Sur les côtes de la Manche et de l'Atlantique, la marée est de type semi-diurne. Combien de pleines mers et de basses mers observe-t-on en une journée ?",
       "choices": [
         {
+          "text": "Trois pleines mers et trois basses mers",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Deux pleines mers et deux basses mers",
           "image": null,
           "is_correct": true,
@@ -2389,12 +2395,6 @@
         },
         {
           "text": "Une pleine mer et une basse mer",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Trois pleines mers et trois basses mers",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2421,7 +2421,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2431,6 +2431,12 @@
       "stem": "À quel coefficient de marée correspondent les pleines et basses mers de vive-eau moyenne (PMVE/BMVE) ?",
       "choices": [
         {
+          "text": "Coefficient 45",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Coefficient 95",
           "image": null,
           "is_correct": true,
@@ -2438,12 +2444,6 @@
         },
         {
           "text": "Coefficient 120",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Coefficient 45",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2470,7 +2470,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2480,6 +2480,12 @@
       "stem": "Lorsque la Terre, la Lune et le Soleil sont alignés (pleine ou nouvelle lune), quel type de marée observe-t-on ?",
       "choices": [
         {
+          "text": "Une absence de marée (étale permanent)",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Des vives-eaux (grand marnage)",
           "image": null,
           "is_correct": true,
@@ -2487,12 +2493,6 @@
         },
         {
           "text": "Des mortes-eaux (faible marnage)",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Une absence de marée (étale permanent)",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2519,7 +2519,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2528,12 +2528,6 @@
       "kind": "meteo_mc",
       "stem": "À quel niveau de référence le zéro hydrographique, auquel sont rapportées les sondes des cartes marines, est-il choisi en France ?",
       "choices": [
-        {
-          "text": "Au voisinage des plus basses mers astronomiques",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Au niveau moyen de la mer",
           "image": null,
@@ -2544,6 +2538,12 @@
           "text": "Au voisinage des plus hautes mers astronomiques",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Au voisinage des plus basses mers astronomiques",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2568,7 +2568,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     }
   ]

@@ -4,7 +4,7 @@
     "pool": "universal",
     "scope": "universal",
     "unofficial": false,
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "grounding": "Portable seamanship — valid under any code."
   },
   "questions": [
@@ -15,6 +15,12 @@
       "stem": "Worauf bezieht sich die in ONI Art. 142 definierte «Risikoanalyse»?",
       "choices": [
         {
+          "text": "Auf Regeln im Sinne von Artikel 5 SBV",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Auf eine Analyse im Sinne von Artikel 2 Buchstabe d der Schiffbauverordnung (SBV)",
           "image": null,
           "is_correct": true,
@@ -22,12 +28,6 @@
         },
         {
           "text": "Auf einen Bericht im Sinne von Artikel 17 Absatz 3 SBV",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Auf Regeln im Sinne von Artikel 5 SBV",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -54,7 +54,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -64,6 +64,12 @@
       "stem": "Welche Aussage zu den in ONI Art. 142 definierten Begriffen ist FALSCH?",
       "choices": [
         {
+          "text": "Der Sachverständigenprüfbericht ist ein Bericht im Sinne von Artikel 2 Buchstabe f SBV",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Die Sorgfaltsregeln sind Regeln im Sinne von Artikel 2 Buchstabe d SBV",
           "image": null,
           "is_correct": true,
@@ -71,12 +77,6 @@
         },
         {
           "text": "Der Sicherheitsbericht ist ein Bericht im Sinne von Artikel 2 Buchstabe e und 17 Absatz 3 SBV",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Der Sachverständigenprüfbericht ist ein Bericht im Sinne von Artikel 2 Buchstabe f SBV",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -103,7 +103,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -162,12 +162,6 @@
       "stem": "Was bedeutet «Fahrt bei unsichtigem Wetter» nach RNL Art. 71?",
       "choices": [
         {
-          "text": "Schifffahrt bei Tag und bei Nacht bei Nebel, Dunst, Schneetreiben oder schwerem Regenfall",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Schifffahrt ausschliesslich bei Tageslicht unter eingeschränkter Sicht",
           "image": null,
           "is_correct": false,
@@ -177,6 +171,12 @@
           "text": "Schifffahrt nur bei Nacht ohne ausreichende Beleuchtung",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Schifffahrt bei Tag und bei Nacht bei Nebel, Dunst, Schneetreiben oder schwerem Regenfall",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -201,7 +201,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -210,12 +210,6 @@
       "kind": "definition_mc",
       "stem": "Welche Wetterbedingungen werden in RNL Art. 71 ausdrücklich als unsichtiges Wetter genannt?",
       "choices": [
-        {
-          "text": "Nebel und Schneetreiben",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Starker Wind und hoher Wellengang",
           "image": null,
@@ -226,6 +220,12 @@
           "text": "Gewitter und Blitzschlag",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Nebel und Schneetreiben",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -250,7 +250,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -266,15 +266,15 @@
           "rationale": ""
         },
         {
-          "text": "Statt seiner sollte ein Schotstek verwendet werden",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Nach Belastung lässt er sich stets mühelos von Hand lösen",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Statt seiner sollte ein Schotstek verwendet werden",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -300,7 +300,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -359,6 +359,12 @@
       "stem": "Was sagt das Ashley-Buch der Knoten über den Kreuzknoten als Verbindungsknoten?",
       "choices": [
         {
+          "text": "Er kippt bei Seilen mit ungleichem Durchmesser besonders selten um",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Er sollte unter keinen Umständen zum Verbinden von Seilen verwendet werden",
           "image": null,
           "is_correct": true,
@@ -366,12 +372,6 @@
         },
         {
           "text": "Er ist der sicherste Knoten zum Zusammenbinden zweier Enden",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Er kippt bei Seilen mit ungleichem Durchmesser besonders selten um",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -398,7 +398,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -407,12 +407,6 @@
       "kind": "matelotage_mc",
       "stem": "Wie lässt sich der noch nicht belastete Kreuzknoten gemäss dem Text lösen?",
       "choices": [
-        {
-          "text": "Durch Zusammenschieben der Enden oder durch Auseinanderziehen zweier Enden derselben Bucht",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Nur mit Hilfe eines Werkzeugs",
           "image": null,
@@ -423,6 +417,12 @@
           "text": "Ausschliesslich durch Erhitzen des Seils",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Durch Zusammenschieben der Enden oder durch Auseinanderziehen zweier Enden derselben Bucht",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -447,7 +447,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -456,6 +456,12 @@
       "kind": "matelotage_mc",
       "stem": "Welche Angaben zur Knotenfestigkeit des Kreuzknotens stimmen mit dem Text überein?",
       "choices": [
+        {
+          "text": "Bei geflochtenem Polypropylen-Seil erreicht sie rund 90 %",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "Sie beträgt etwa 45 %",
           "image": null,
@@ -466,12 +472,6 @@
           "text": "Bei geschlagenem Polypropylen-Tauwerk liegt sie bei etwa 36 bis 42 %",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Bei geflochtenem Polypropylen-Seil erreicht sie rund 90 %",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -496,8 +496,8 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0,
-        1
+        1,
+        2
       ]
     },
     {
@@ -507,15 +507,15 @@
       "stem": "Wofür eignet sich der Kreuzknoten gemäss dem Text?",
       "choices": [
         {
-          "text": "Als Bindeknoten zum Verschnüren von Paketen oder Bündeln",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Zum Verbinden zweier Kletter- oder Sicherungsseile",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Als Bindeknoten zum Verschnüren von Paketen oder Bündeln",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -546,7 +546,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -556,15 +556,15 @@
       "stem": "Welche Aussage zum Palstek beim Klettern ist gemäss dem Text FALSCH?",
       "choices": [
         {
-          "text": "Nach dem Weltcup 1992 in St. Pölten durfte weiterhin uneingeschränkt mit dem Palstek angeseilt werden",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Der Palstek diente bis Anfang der 1970er Jahre als verlässlicher Anseilknoten",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Nach dem Weltcup 1992 in St. Pölten durfte weiterhin uneingeschränkt mit dem Palstek angeseilt werden",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -595,7 +595,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -604,12 +604,6 @@
       "kind": "matelotage_mc",
       "stem": "Welches Verhalten zeigt der Palstek gemäss dem Text unter Ringbelastung?",
       "choices": [
-        {
-          "text": "Er öffnet sich bei mehreren ungleich gerichteten Kräften an der Schlaufe bei 1,5 bis 1,6 kN",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Er hält jeder Ringbelastung ohne Aufziehen stand",
           "image": null,
@@ -620,6 +614,12 @@
           "text": "Er wird unter Ringbelastung fester und lässt sich danach nicht mehr lösen",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Er öffnet sich bei mehreren ungleich gerichteten Kräften an der Schlaufe bei 1,5 bis 1,6 kN",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -644,7 +644,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -703,15 +703,15 @@
       "stem": "Wodurch unterscheidet sich die Halse von der Wende?",
       "choices": [
         {
-          "text": "Bei der Halse geht das Fahrzeug mit dem Heck durch den Wind",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Bei der Halse geht das Fahrzeug mit dem Bug durch den Wind",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Bei der Halse geht das Fahrzeug mit dem Heck durch den Wind",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -742,7 +742,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -801,9 +801,9 @@
       "stem": "Was geschieht, wenn ein Segelboot den kleinstmöglichen segelbaren Winkel zum Wind unterschreitet?",
       "choices": [
         {
-          "text": "Es wird kein Vortrieb mehr erzeugt und die Segel killen (flattern)",
+          "text": "Es wird automatisch eine Patenthalse ausgelöst",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -813,9 +813,9 @@
           "rationale": ""
         },
         {
-          "text": "Es wird automatisch eine Patenthalse ausgelöst",
+          "text": "Es wird kein Vortrieb mehr erzeugt und die Segel killen (flattern)",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -840,7 +840,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -850,9 +850,9 @@
       "stem": "Was muss die Crew tun, wenn der Spinnaker das Boot außer Kontrolle zu bringen droht?",
       "choices": [
         {
-          "text": "Sofort die Spinnakerschoten loswerfen, um den Druck zu reduzieren",
+          "text": "Das Ruder hart anluven und den Kurs halten",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -862,9 +862,9 @@
           "rationale": ""
         },
         {
-          "text": "Das Ruder hart anluven und den Kurs halten",
+          "text": "Sofort die Spinnakerschoten loswerfen, um den Druck zu reduzieren",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -889,7 +889,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -948,9 +948,9 @@
       "stem": "Wie hat sich ein Schiffsführer bei Hochwasser zu verhalten?",
       "choices": [
         {
-          "text": "Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.",
+          "text": "Er muss die Geschwindigkeit anpassen und soweit wie möglich in seiner Fahrtrichtung links fahren, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -966,9 +966,9 @@
           "rationale": ""
         },
         {
-          "text": "Er muss die Geschwindigkeit anpassen und soweit wie möglich in seiner Fahrtrichtung links fahren, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.",
+          "text": "Er muss die Geschwindigkeit anpassen und soweit wie möglich in der Fahrwassermitte bleiben, gegebenenfalls besondere Geschwindigkeitsbegrenzungen und Fahrtbeschränkungen beachten.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -993,7 +993,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        3
       ]
     },
     {
@@ -1058,6 +1058,12 @@
       "stem": "Was versteht man unter Ebbe?",
       "choices": [
         {
+          "text": "Der niedrigste Wasserstand einer Tide.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Das Fallen des Wassers vom Hochwasser zum folgenden Niedrigwasser.",
           "image": null,
           "is_correct": true,
@@ -1065,12 +1071,6 @@
         },
         {
           "text": "Die Differenz zwischen Hoch- und Niedrigwasser.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Der niedrigste Wasserstand einer Tide.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1103,7 +1103,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1113,15 +1113,15 @@
       "stem": "Was versteht man unter Flut?",
       "choices": [
         {
-          "text": "Der höchste Wasserstand einer Tide.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Das Steigen des Wassers vom Niedrigwasser zum folgenden Hochwasser.",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Den Zeitraum vom Niedrigwasser zum folgenden Hochwasser.",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1131,7 +1131,7 @@
           "rationale": ""
         },
         {
-          "text": "Den Zeitraum vom Niedrigwasser zum folgenden Hochwasser.",
+          "text": "Der höchste Wasserstand einer Tide.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1158,7 +1158,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -1168,7 +1168,7 @@
       "stem": "Was versteht man unter einer Tide?",
       "choices": [
         {
-          "text": "Der Zeitraum zwischen einem Hochwasser und dem nächstfolgenden Niedrigwasser.",
+          "text": "Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Hochwasser.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1186,7 +1186,7 @@
           "rationale": ""
         },
         {
-          "text": "Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Hochwasser.",
+          "text": "Der Zeitraum zwischen einem Hochwasser und dem nächstfolgenden Niedrigwasser.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1223,12 +1223,6 @@
       "stem": "Was versteht man unter einem Niedrigwasser?",
       "choices": [
         {
-          "text": "Fallen des Wassers nach Eintritt des höchsten Wasserstands.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Eintritt des niedrigsten Wasserstands beim Übergang vom Fallen zum Steigen.",
           "image": null,
           "is_correct": true,
@@ -1242,6 +1236,12 @@
         },
         {
           "text": "Eintritt des höchsten Wasserstands beim Übergang vom Steigen zum Fallen.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Fallen des Wassers nach Eintritt des höchsten Wasserstands.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1268,7 +1268,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -1278,7 +1278,13 @@
       "stem": "Was versteht man unter einem Hochwasser?",
       "choices": [
         {
-          "text": "Fallen des Wassers nach Eintritt des höchsten Wasserstands.",
+          "text": "Eintritt des höchsten Wasserstands beim Übergang vom Steigen zum Fallen.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Steigen des Wassers nach Eintritt des niedrigsten Wasserstands.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1290,13 +1296,7 @@
           "rationale": ""
         },
         {
-          "text": "Eintritt des höchsten Wasserstands beim Übergang vom Steigen zum Fallen.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Steigen des Wassers nach Eintritt des niedrigsten Wasserstands.",
+          "text": "Fallen des Wassers nach Eintritt des höchsten Wasserstands.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1323,7 +1323,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -1333,13 +1333,7 @@
       "stem": "Was versteht man unter \"Tidenhub\"?",
       "choices": [
         {
-          "text": "Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Hochwasser.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Unterschied zwischen den Höhen zweier aufeinanderfolgender Hochwasser.",
+          "text": "Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Niedrigwasser.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1351,7 +1345,13 @@
           "rationale": ""
         },
         {
-          "text": "Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Niedrigwasser.",
+          "text": "Unterschied zwischen den Höhen zweier aufeinanderfolgender Hochwasser.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Der Zeitraum zwischen einem Niedrigwasser und dem nächstfolgenden Hochwasser.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1378,7 +1378,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -1387,6 +1387,12 @@
       "kind": "official_mc",
       "stem": "Wo sind für einen bestimmten Ort die Angaben über Hoch- und Niedrigwasserzeiten und den Tidenhub zu finden?",
       "choices": [
+        {
+          "text": "Im Gezeitenatlas des Bundesamtes für Seeschifffahrt und Hydrographie.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "In der Flutvorhersage des Bundesamtes für Seeschifffahrt und Hydrographie.",
           "image": null,
@@ -1401,12 +1407,6 @@
         },
         {
           "text": "Im Mondphasenkalender der Bundesanstalt für Gewässerkunde.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Im Gezeitenatlas des Bundesamtes für Seeschifffahrt und Hydrographie.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1433,7 +1433,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -1449,7 +1449,7 @@
           "rationale": ""
         },
         {
-          "text": "Windstärken von 0 bis 12 und die Auswirkungen auf die Küste.",
+          "text": "Den Tidenhub an der Küste bei Vollmond und bei Neumond.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1461,7 +1461,7 @@
           "rationale": ""
         },
         {
-          "text": "Den Tidenhub an der Küste bei Vollmond und bei Neumond.",
+          "text": "Windstärken von 0 bis 12 und die Auswirkungen auf die Küste.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1504,12 +1504,6 @@
           "rationale": ""
         },
         {
-          "text": "Wenn es weder vor Anker liegt noch an Land festgemacht ist noch auf Grund sitzt.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Wenn es weder auf Grund sitzt noch vor Anker liegt noch manövrierbehindert oder manövrierunfähig ist.",
           "image": null,
           "is_correct": false,
@@ -1519,6 +1513,12 @@
           "text": "Wenn es weder an Land festgemacht ist noch vor Anker liegt noch Fahrt durchs Wasser macht.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Wenn es weder vor Anker liegt noch an Land festgemacht ist noch auf Grund sitzt.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1543,7 +1543,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        3
       ]
     },
     {
@@ -1608,7 +1608,7 @@
       "stem": "Welche Gefahren können entstehen, wenn ein kleines von einem größeren Fahrzeug überholt wird?",
       "choices": [
         {
-          "text": "Das kleinere Fahrzeug kann durch Stau, Sog oder Schwell aus dem Kurs laufen und kollidieren oder kentern, in flachen Gewässern extrem versetzt werden.",
+          "text": "Das größere Fahrzeug kann durch Stau, Sog oder Schwell aus dem Kurs laufen und kollidieren oder querschlagen, in flachen Gewässern auf Grund laufen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1626,7 +1626,7 @@
           "rationale": ""
         },
         {
-          "text": "Das größere Fahrzeug kann durch Stau, Sog oder Schwell aus dem Kurs laufen und kollidieren oder querschlagen, in flachen Gewässern auf Grund laufen.",
+          "text": "Das kleinere Fahrzeug kann durch Stau, Sog oder Schwell aus dem Kurs laufen und kollidieren oder kentern, in flachen Gewässern extrem versetzt werden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1663,9 +1663,9 @@
       "stem": "Woran kann man erkennen, ob der Anker hält?",
       "choices": [
         {
-          "text": "Wenn beim Handauflegen auf die Ankerkette oder -leine kein Rucken zu verspüren ist und sich die Ankerpeilung nicht ändert.",
+          "text": "Wenn beim Handauflegen auf die Ankerkette oder -leine kein Rucken zu verspüren ist und sich die Ankerpeilung ändert.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1675,9 +1675,9 @@
           "rationale": ""
         },
         {
-          "text": "Wenn beim Handauflegen auf die Ankerkette oder -leine kein Rucken zu verspüren ist und sich die Ankerpeilung ändert.",
+          "text": "Wenn beim Handauflegen auf die Ankerkette oder -leine kein Rucken zu verspüren ist und sich die Ankerpeilung nicht ändert.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1708,7 +1708,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1718,25 +1718,25 @@
       "stem": "Was muss beim Tanken beachtet werden?",
       "choices": [
         {
-          "text": "Fenster schließen, keine elektrischen Schalter betätigen, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Motor abstellen, keine elektrischen Schalter betätigen, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer.",
           "image": null,
           "is_correct": true,
           "rationale": ""
         },
         {
-          "text": "Motor abstellen, Feuerlöscher bereithalten, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer.",
+          "text": "Fenster schließen, keine elektrischen Schalter betätigen, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
           "text": "Motor in Leerlaufstellung, keine elektrischen Schalter betätigen, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Motor abstellen, Feuerlöscher bereithalten, Vorbereitung gegen das Überlaufen von Kraftstoff treffen, kein offenes Feuer.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1763,7 +1763,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -1779,6 +1779,12 @@
           "rationale": ""
         },
         {
+          "text": "Kraftstoff- und Wassertank auffüllen und das Bordnetz aufladen.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Fahrzeug seefest hinterlassen und den Hafenmeister verständigen.",
           "image": null,
           "is_correct": false,
@@ -1786,12 +1792,6 @@
         },
         {
           "text": "Tagestank schließen und Kraftstofffilter entwässern.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Kraftstoff- und Wassertank auffüllen und das Bordnetz aufladen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1828,19 +1828,7 @@
       "stem": "Wie oft muss man aufblasbare Rettungsmittel warten lassen?",
       "choices": [
         {
-          "text": "Jährlich und nach jedem Einsatz oder Übungsgebrauch.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Jährlich, jeweils vor Beginn der Wassersportsaison.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Entsprechend der Herstellerangabe, mindestens alle 3 Jahre.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1849,6 +1837,18 @@
           "text": "Entsprechend der Herstellerangabe, mindestens alle 2 Jahre.",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Jährlich und nach jedem Einsatz oder Übungsgebrauch.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Entsprechend der Herstellerangabe, mindestens alle 3 Jahre.",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -1873,7 +1873,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        1
       ]
     },
     {
@@ -1883,7 +1883,7 @@
       "stem": "Was ist in Kanälen verboten?",
       "choices": [
         {
-          "text": "Überholen.",
+          "text": "Begegnen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1901,7 +1901,7 @@
           "rationale": ""
         },
         {
-          "text": "Begegnen.",
+          "text": "Überholen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1938,6 +1938,12 @@
       "stem": "Wie sind Anker am Tage bezeichnet, die die Schifffahrt behindern können?",
       "choices": [
         {
+          "text": "Mit einem gelben Döpper.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
           "text": "Mit einem weißen Döpper.",
           "image": null,
           "is_correct": false,
@@ -1947,12 +1953,6 @@
           "text": "Mit einem roten Döpper.",
           "image": null,
           "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Mit einem gelben Döpper.",
-          "image": null,
-          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1983,7 +1983,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -1999,7 +1999,7 @@
           "rationale": ""
         },
         {
-          "text": "Einfahrt verboten, Schließen der Schleuse wird vorbereitet.",
+          "text": "Ausfahrt verboten, Schließen der Schleuse wird vorbereitet.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2011,7 +2011,7 @@
           "rationale": ""
         },
         {
-          "text": "Ausfahrt verboten, Schließen der Schleuse wird vorbereitet.",
+          "text": "Einfahrt verboten, Schließen der Schleuse wird vorbereitet.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2048,12 +2048,6 @@
       "stem": "In welcher Reihenfolge fahren Fahrzeuge, die nicht Kleinfahrzeuge sind, und Kleinfahrzeuge, die gemeinsam geschleust werden sollen, in die Schleuse ein?",
       "choices": [
         {
-          "text": "Kleinfahrzeuge fahren nach den Fahrzeugen, die nicht Kleinfahrzeuge sind und ohne Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Kleinfahrzeuge fahren vor den Fahrzeugen, die nicht Kleinfahrzeuge sind und ohne Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
           "image": null,
           "is_correct": false,
@@ -2061,6 +2055,12 @@
         },
         {
           "text": "Kleinfahrzeuge fahren vor den Fahrzeugen, die nicht Kleinfahrzeuge sind und vor Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Kleinfahrzeuge fahren nach den Fahrzeugen, die nicht Kleinfahrzeuge sind und ohne Aufforderung durch die Schleusenaufsicht in die Schleuse ein.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2109,12 +2109,6 @@
           "rationale": ""
         },
         {
-          "text": "Das erste Kleinfahrzeug muss so weit einfahren, dass es beim Füllen der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Das erste Kleinfahrzeug muss so weit einfahren, dass es beim Leeren der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
           "image": null,
           "is_correct": false,
@@ -2122,6 +2116,12 @@
         },
         {
           "text": "Das letzte Kleinfahrzeug muss so weit einfahren, dass es beim Füllen der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Das erste Kleinfahrzeug muss so weit einfahren, dass es beim Füllen der Schleuse nicht auf den Drempel aufsetzen kann. Die Festmacherleinen sind so zu bedienen, dass Stöße gegen Schleusenwände, Schleusentore, andere Fahrzeuge vermieden werden und ein sicheres Fieren der Leinen möglich ist.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2170,15 +2170,15 @@
           "rationale": ""
         },
         {
-          "text": "An Bord sammeln und bei einer Liegestelle an Land stellen.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "An Bord sammeln und an Land in den entsprechenden Abfallsammelbehältern umweltgerecht entsorgen.",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "An Bord sammeln und bei einer Liegestelle an Land stellen.",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -2203,7 +2203,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        2
       ]
     },
     {
@@ -2212,18 +2212,6 @@
       "kind": "official_mc",
       "stem": "Warum ist es bei der Schleusendurchfahrt verboten, Autoreifen als Fender zu benutzen?",
       "choices": [
-        {
-          "text": "Autoreifen erzeugen schwarze Farbspuren am Boot und an der Schleusenmauer.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Autoreifen sind nicht schwimmfähig und können in den Schleusen zu erheblichen Störungen führen.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Autoreifen sind schwimmfähig und können in der Schleuse zu erheblichen Störungen führen.",
           "image": null,
@@ -2234,6 +2222,18 @@
           "text": "Autoreifen erzeugen eine zu hohe Reibung.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Autoreifen erzeugen schwarze Farbspuren am Boot und an der Schleusenmauer.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Autoreifen sind nicht schwimmfähig und können in den Schleusen zu erheblichen Störungen führen.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2258,7 +2258,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        3
       ]
     },
     {
@@ -2268,9 +2268,9 @@
       "stem": "Was wird unter einem \"Kimmkieler\" verstanden?",
       "choices": [
         {
-          "text": "Eine Yacht mit zwei Seitenschwertern.",
+          "text": "Eine Yacht mit zwei Seitenkielen.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2280,9 +2280,9 @@
           "rationale": ""
         },
         {
-          "text": "Eine Yacht mit zwei Seitenkielen.",
+          "text": "Eine Yacht mit zwei Seitenschwertern.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2313,7 +2313,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -2323,19 +2323,13 @@
       "stem": "Worin besteht der Vorteil eines Kimmkielers gegenüber anderen Kielbooten?",
       "choices": [
         {
-          "text": "Der Kiel lässt sich aufholen.",
+          "text": "Sein Tiefgang ist größer.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Er kann problemlos aufrecht trocken fallen.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Sein Tiefgang ist größer.",
+          "text": "Der Kiel lässt sich aufholen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2344,6 +2338,12 @@
           "text": "Die Abdrift ist geringer als bei anderen Kielbooten.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Er kann problemlos aufrecht trocken fallen.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2368,7 +2368,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        3
       ]
     },
     {
@@ -2384,12 +2384,6 @@
           "rationale": ""
         },
         {
-          "text": "Eine Yacht mit flach gehendem Ballastkiel und zusätzlichem aufholbarem Schwert.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Eine Yacht mit einem aufholbaren Ballastkiel.",
           "image": null,
           "is_correct": false,
@@ -2399,6 +2393,12 @@
           "text": "Eine Yacht mit zwei Seitenkielen.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Eine Yacht mit flach gehendem Ballastkiel und zusätzlichem aufholbarem Schwert.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2423,7 +2423,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        3
       ]
     },
     {
@@ -2432,12 +2432,6 @@
       "kind": "official_mc",
       "stem": "Wodurch wirken die Bodenlenzventile einer Jolle, die unterhalb der Wasserlinie liegen?",
       "choices": [
-        {
-          "text": "Durch das Druckgefälle zwischen Luft- und Wasserdruck.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
         {
           "text": "Durch die Schwerkraft fließt das Wasser außenbords.",
           "image": null,
@@ -2454,6 +2448,12 @@
           "text": "Durch den Sog, der bei Fahrt durchs Wasser entsteht.",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Durch das Druckgefälle zwischen Luft- und Wasserdruck.",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -2478,7 +2478,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        2
       ]
     },
     {
@@ -2488,15 +2488,15 @@
       "stem": "Was wird unter \"Formstabilität\" verstanden?",
       "choices": [
         {
-          "text": "Die Fähigkeit eines Schiffes, sich nach einer Kenterung wieder von selbst aufzurichten.",
+          "text": "Die Fähigkeit eines Schiffes beim Loslassen der Pinne den Kurs beizubehalten.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Die Fähigkeit eines Schiffes beim Loslassen der Pinne den Kurs beizubehalten.",
+          "text": "Die Fähigkeit eines Schiffes, durch seine Rumpfform der Krängung entgegenzuwirken.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2506,9 +2506,9 @@
           "rationale": ""
         },
         {
-          "text": "Die Fähigkeit eines Schiffes, durch seine Rumpfform der Krängung entgegenzuwirken.",
+          "text": "Die Fähigkeit eines Schiffes, sich nach einer Kenterung wieder von selbst aufzurichten.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -2533,7 +2533,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        1
       ]
     },
     {
@@ -2543,25 +2543,25 @@
       "stem": "Was wird unter \"Gewichtsstabilität\" verstanden?",
       "choices": [
         {
-          "text": "Die Fähigkeit eines Schiffes, durch seinen tief liegenden Ballast der Krängung entgegenzuwirken.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Die Möglichkeit durch ein hohes Crewgewicht der Krängung entgegenzuwirken.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Die Möglichkeit durch zusätzlichen Innenballast die Krängung zu verringern.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
+          "text": "Die Fähigkeit eines Schiffes, durch seinen tief liegenden Ballast der Krängung entgegenzuwirken.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
           "text": "Die Fähigkeit eines Schiffes, durch seine Rumpfform der Krängung entgegenzuwirken.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Die Möglichkeit durch ein hohes Crewgewicht der Krängung entgegenzuwirken.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2588,7 +2588,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2597,6 +2597,12 @@
       "kind": "official_mc",
       "stem": "Welche Boote sind vorwiegend \"gewichtsstabil\"?",
       "choices": [
+        {
+          "text": "Trimarane sind vorwiegend \"gewichtsstabil\".",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "Kielyachten sind vorwiegend \"gewichtsstabil\".",
           "image": null,
@@ -2611,12 +2617,6 @@
         },
         {
           "text": "Jollen sind vorwiegend \"gewichtsstabil\".",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Trimarane sind vorwiegend \"gewichtsstabil\".",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2643,7 +2643,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2653,13 +2653,13 @@
       "stem": "Welche Boote sind vorwiegend \"formstabil\"?",
       "choices": [
         {
-          "text": "Kielyachten sind vorwiegend \"formstabil\".",
+          "text": "Kielschwertyachten sind vorwiegend \"formstabil\".",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Kielschwertyachten sind vorwiegend \"formstabil\".",
+          "text": "Kielyachten sind vorwiegend \"formstabil\".",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2714,13 +2714,13 @@
           "rationale": ""
         },
         {
-          "text": "Durch Ausfahren von sogenannten Trimmklappen oder eines Zusatzschwertes.",
+          "text": "Durch Verlagerung von Innenballast.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Durch Verlagerung von Innenballast.",
+          "text": "Durch Ausfahren von sogenannten Trimmklappen oder eines Zusatzschwertes.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2763,13 +2763,7 @@
       "stem": "Wie verändert sich das aufrichtende Kraftmoment einer Jolle bei Krängung?",
       "choices": [
         {
-          "text": "Es nimmt anfangs ab und erreicht ein Maximum, wenn Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Es nimmt anfangs ab und erreicht sein Minimum, bis Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
+          "text": "Es nimmt anfangs ab bis zu einem Minimum, von da wieder zu, bis Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2781,7 +2775,13 @@
           "rationale": ""
         },
         {
-          "text": "Es nimmt anfangs ab bis zu einem Minimum, von da wieder zu, bis Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
+          "text": "Es nimmt anfangs ab und erreicht ein Maximum, wenn Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Es nimmt anfangs ab und erreicht sein Minimum, bis Auftriebs- und Gewichtsschwerpunkt übereinander liegen, anschließend kentert die Jolle.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2808,7 +2808,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -2817,12 +2817,6 @@
       "kind": "official_mc",
       "stem": "Wie verändert sich das aufrichtende Kraftmoment einer Kielyacht bei stetig zunehmender Krängung?",
       "choices": [
-        {
-          "text": "Es nimmt bis zum Erreichen des kritischen Winkels von 90° ab.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
         {
           "text": "Es nimmt bis zum Erreichen des kritischen Winkels zu, der bei etwa 70° liegt.",
           "image": null,
@@ -2837,6 +2831,12 @@
         },
         {
           "text": "Es nimmt bis 90° Krängung ab und dann stetig zu.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Es nimmt bis zum Erreichen des kritischen Winkels von 90° ab.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2863,7 +2863,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -2872,6 +2872,18 @@
       "kind": "official_mc",
       "stem": "Wodurch kann eine Pinnensteuerung auch bei Krängung des Bootes sicher erreicht und bedient werden?",
       "choices": [
+        {
+          "text": "Durch das Ausreiten mit Hilfe des Trapezes.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Durch Verstellen des Travellers.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "Durch Ersetzen der Pinne durch ein Rad.",
           "image": null,
@@ -2882,18 +2894,6 @@
           "text": "Durch einen Pinnenausleger.",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Durch Verstellen des Travellers.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Durch das Ausreiten mit Hilfe des Trapezes.",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -2918,7 +2918,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        3
       ]
     },
     {
@@ -2928,15 +2928,15 @@
       "stem": "Warum sollte Tauwerk an Bord stets ordentlich aufgeschossen werden?",
       "choices": [
         {
-          "text": "Damit es im Gebrauchsfall klar liegt.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Damit es nicht durch UV-Strahlung beschädigt wird.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Damit es im Gebrauchsfall klar liegt.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2973,7 +2973,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2983,19 +2983,7 @@
       "stem": "Warum sollten Fallen stets ordentlich aufgeschossen werden?",
       "choices": [
         {
-          "text": "Damit sie trocknen können und nicht verrotten.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Damit sie nicht durch UV-Strahlung beschädigt werden.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Damit sie nicht mit den Schoten verwechselt werden können.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3004,6 +2992,18 @@
           "text": "Damit sie im Gebrauchsfall schnell und sicher gefiert werden können.",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Damit sie trocknen können und nicht verrotten.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Damit sie nicht mit den Schoten verwechselt werden können.",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -3028,7 +3028,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        1
       ]
     },
     {
@@ -3044,6 +3044,12 @@
           "rationale": ""
         },
         {
+          "text": "Vorliek, Unterliek, Achterliek.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Kopf, Hals, Schothorn.",
           "image": null,
           "is_correct": true,
@@ -3051,12 +3057,6 @@
         },
         {
           "text": "Kopf, Hals, Nock.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Vorliek, Unterliek, Achterliek.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3083,7 +3083,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -3105,13 +3105,13 @@
           "rationale": ""
         },
         {
-          "text": "Vorstag, Unterwant, Achterstag.",
+          "text": "Kopf, Hals, Schothorn.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Kopf, Hals, Schothorn.",
+          "text": "Vorstag, Unterwant, Achterstag.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3148,7 +3148,7 @@
       "stem": "Weshalb dürfen Segel nicht über einen längeren Zeitraum killen?",
       "choices": [
         {
-          "text": "Killen lässt das Boot bei stärkerem Wind kentern.",
+          "text": "Killen führt zu Verletzungen der Besatzung.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3166,7 +3166,7 @@
           "rationale": ""
         },
         {
-          "text": "Killen führt zu Verletzungen der Besatzung.",
+          "text": "Killen lässt das Boot bei stärkerem Wind kentern.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3203,12 +3203,6 @@
       "stem": "Warum müssen auch kleine Schäden an den Segeln sofort repariert werden?",
       "choices": [
         {
-          "text": "Weil es nur noch bei Flaute eingesetzt werden kann.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Weil Feuchtigkeit in das Segel eindringen kann.",
           "image": null,
           "is_correct": false,
@@ -3216,6 +3210,12 @@
         },
         {
           "text": "Weil dadurch der Vortrieb des Segels leidet.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Weil es nur noch bei Flaute eingesetzt werden kann.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3264,6 +3264,12 @@
           "rationale": ""
         },
         {
+          "text": "An der Nationalflagge am Heck.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "An den Trimmfäden im Großsegel.",
           "image": null,
           "is_correct": false,
@@ -3273,12 +3279,6 @@
           "text": "An Flaggen oder anderen Anzeichen an Land.",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "An der Nationalflagge am Heck.",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -3303,7 +3303,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        3
       ]
     },
     {
@@ -3319,12 +3319,6 @@
           "rationale": ""
         },
         {
-          "text": "Der scheinbare Wind.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Der wahre Wind.",
           "image": null,
           "is_correct": false,
@@ -3334,6 +3328,12 @@
           "text": "Der Fahrtwind.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Der scheinbare Wind.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3358,7 +3358,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        3
       ]
     },
     {
@@ -3368,7 +3368,7 @@
       "stem": "Wann kommen wahrer Wind und scheinbarer Wind auf einem segelnden Boot aus der gleichen Richtung?",
       "choices": [
         {
-          "text": "Auf Amwindkurs.",
+          "text": "Auf Raumschotkurs.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3380,13 +3380,13 @@
           "rationale": ""
         },
         {
-          "text": "Auf Raumschotkurs.",
+          "text": "Auf Halbwindkurs.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Auf Halbwindkurs.",
+          "text": "Auf Amwindkurs.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3423,7 +3423,7 @@
       "stem": "Warum ist der scheinbare Wind auf einem Vorwindkurs schwächer als der wahre Wind?",
       "choices": [
         {
-          "text": "Der scheinbare Wind ist unabhängig von der Windrichtung immer schwächer als der wahre Wind.",
+          "text": "Der scheinbare Wind wird durch den Unterdruck am Segel entlang abgebremst.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3435,13 +3435,13 @@
           "rationale": ""
         },
         {
-          "text": "Der wahre Wind wird durch den Fahrtwind abgebremst.",
+          "text": "Der scheinbare Wind ist unabhängig von der Windrichtung immer schwächer als der wahre Wind.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Der scheinbare Wind wird durch den Unterdruck am Segel entlang abgebremst.",
+          "text": "Der wahre Wind wird durch den Fahrtwind abgebremst.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3478,25 +3478,25 @@
       "stem": "Warum ist der scheinbare Wind auf einem Kurs hoch am Wind stärker als der wahre Wind?",
       "choices": [
         {
-          "text": "Da sich auf diesem Kurs der wahre Wind und der Fahrtwind in Richtung und Stärke addieren.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Da sich auf diesem Kurs eine Düse zwischen Fock- und Großsegel bildet, die den Wind verstärkt.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Da der scheinbare Wind unabhängig von der Windrichtung immer stärker als der wahre Wind ist.",
+          "text": "Da sich auf diesem Kurs der wahre Wind und der Fahrtwind in Richtung und Stärke addieren.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Da der wahre Wind beim Amwindkurs stärker ist als bei raumen Kursen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Da der wahre Wind beim Amwindkurs stärker ist als bei raumen Kursen.",
+          "text": "Da der scheinbare Wind unabhängig von der Windrichtung immer stärker als der wahre Wind ist.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3523,7 +3523,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -3533,7 +3533,7 @@
       "stem": "Auf einem Amwindkurs wurde gerefft. Ein entgegenkommendes Boot gleichen Typs segelt ungerefft. Wie lässt sich das erklären?",
       "choices": [
         {
-          "text": "Boote sind stabiler, wenn der Wind achterlicher einfällt.",
+          "text": "Der wahre Wind staut sich am Segel bei Raumschotkurs und ist deshalb schwächer.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3545,7 +3545,7 @@
           "rationale": ""
         },
         {
-          "text": "Der wahre Wind staut sich am Segel bei Raumschotkurs und ist deshalb schwächer.",
+          "text": "Boote sind stabiler, wenn der Wind achterlicher einfällt.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3588,12 +3588,6 @@
       "stem": "Warum raumt beim Einfallen einer Bö auf Amwindkurs der scheinbare Wind?",
       "choices": [
         {
-          "text": "Da die Windrichtung durch die Segelstellung beeinflusst wird, verändert sich auch der scheinbare Wind.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Da der Fahrtwind zunächst gleich bleibt, der wahre Wind jedoch zunimmt, kommt der daraus resultierende scheinbare Wind raumer.",
           "image": null,
           "is_correct": true,
@@ -3607,6 +3601,12 @@
         },
         {
           "text": "Da durch den Trimm des Bootes sich der Kurs automatisch ändert, wenn der Wind zunimmt.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Da die Windrichtung durch die Segelstellung beeinflusst wird, verändert sich auch der scheinbare Wind.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3633,7 +3633,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -3643,9 +3643,9 @@
       "stem": "Beim Einfallen einer Bö auf Amwindkurs raumt der scheinbare Wind. Welchen Nutzen kann auf der Kreuz daraus gezogen werden?",
       "choices": [
         {
-          "text": "Segel etwas fieren, um die Bö in Krängung umzusetzen.",
+          "text": "Mitluven, um weitere Höhe zu gewinnen.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -3655,9 +3655,9 @@
           "rationale": ""
         },
         {
-          "text": "Mitluven, um weitere Höhe zu gewinnen.",
+          "text": "Segel etwas fieren, um die Bö in Krängung umzusetzen.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -3688,7 +3688,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -3698,7 +3698,13 @@
       "stem": "Wie sollte das Schwert einer Jolle auf Vorwindkurs gefahren werden und warum?",
       "choices": [
         {
-          "text": "Es sollte nie ganz aufgeholt werden, da es sonst bei einer Kenterung zum Aufrichten der Jolle nicht mehr greifbar ist.",
+          "text": "Es sollte aufgeholt werden. Dadurch vermindert sich der Reibungswiderstand, aber auch die Gefahr der Kenterung bei einer unfreiwilligen Halse.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Es sollte bei stärkerem Wind ganz aufgeholt werden, um die Steuerfähigkeit der Jolle zu verbessern.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3710,15 +3716,9 @@
           "rationale": ""
         },
         {
-          "text": "Es sollte bei stärkerem Wind ganz aufgeholt werden, um die Steuerfähigkeit der Jolle zu verbessern.",
+          "text": "Es sollte nie ganz aufgeholt werden, da es sonst bei einer Kenterung zum Aufrichten der Jolle nicht mehr greifbar ist.",
           "image": null,
           "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Es sollte aufgeholt werden. Dadurch vermindert sich der Reibungswiderstand, aber auch die Gefahr der Kenterung bei einer unfreiwilligen Halse.",
-          "image": null,
-          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -3743,7 +3743,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        0
       ]
     },
     {
@@ -3759,13 +3759,13 @@
           "rationale": ""
         },
         {
-          "text": "Die Abdrift nimmt ab, das Boot wird aufgrund des geringeren Wasserwiderstandes schneller.",
+          "text": "Die Abdrift wird kleiner, die Krängung nimmt ab.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Die Abdrift wird kleiner, die Krängung nimmt ab.",
+          "text": "Die Abdrift nimmt ab, das Boot wird aufgrund des geringeren Wasserwiderstandes schneller.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3869,13 +3869,13 @@
           "rationale": ""
         },
         {
-          "text": "Das Vorliek killt, das Achterliek wird übermäßig gereckt.",
+          "text": "Das Achterliek killt, das Vorliek wird übermäßig gereckt.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Das Achterliek killt, das Vorliek wird übermäßig gereckt.",
+          "text": "Das Vorliek killt, das Achterliek wird übermäßig gereckt.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -3918,18 +3918,6 @@
       "stem": "Wie wirkt sich ein Holepunkt, der zu weit achtern liegt, auf Stand und Beanspruchung des Vorsegels aus?",
       "choices": [
         {
-          "text": "Das Unterliek killt, das Achterliek wird übermäßig gereckt.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Das Achterliek killt, das Vorliek wird übermäßig gereckt.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Das Vorliek killt, das Unterliek wird übermäßig gereckt.",
           "image": null,
           "is_correct": false,
@@ -3939,6 +3927,18 @@
           "text": "Das Achterliek killt, das Unterliek wird übermäßig gereckt.",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Das Achterliek killt, das Vorliek wird übermäßig gereckt.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Das Unterliek killt, das Achterliek wird übermäßig gereckt.",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -3963,7 +3963,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        1
       ]
     },
     {
@@ -3973,25 +3973,25 @@
       "stem": "Wie muss ein Segel bei leichtem Wind getrimmt werden?",
       "choices": [
         {
-          "text": "Die Schoten müssen dicht geholt werden.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Das Segel soll bauchig stehen.",
           "image": null,
           "is_correct": true,
           "rationale": ""
         },
         {
-          "text": "Das Segel soll flach getrimmt werden.",
+          "text": "Die Schoten müssen dicht geholt werden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
           "text": "Die Schoten müssen gefiert werden.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Das Segel soll flach getrimmt werden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4018,7 +4018,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -4028,13 +4028,13 @@
       "stem": "Wie muss ein Segel bei starkem Wind getrimmt werden?",
       "choices": [
         {
-          "text": "Die Schoten müssen gefiert werden.",
+          "text": "Die Schoten müssen dicht geholt werden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Die Schoten müssen dicht geholt werden.",
+          "text": "Es soll bauchig getrimmt werden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4046,7 +4046,7 @@
           "rationale": ""
         },
         {
-          "text": "Es soll bauchig getrimmt werden.",
+          "text": "Die Schoten müssen gefiert werden.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4083,9 +4083,9 @@
       "stem": "Wie beeinflusst ein Unterliekstrecker den Trimm des Segels?",
       "choices": [
         {
-          "text": "Je nach Zugkraft wird der untere Teil des Vorsegels bauchiger oder flacher.",
+          "text": "Je nach Zugkraft wird der untere Teil des Großsegels bauchiger oder flacher.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -4095,15 +4095,15 @@
           "rationale": ""
         },
         {
-          "text": "Je nach Zugkraft wird der achtere Teil des Vorsegels bauchiger oder flacher.",
+          "text": "Je nach Zugkraft wird der untere Teil des Vorsegels bauchiger oder flacher.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Je nach Zugkraft wird der untere Teil des Großsegels bauchiger oder flacher.",
+          "text": "Je nach Zugkraft wird der achtere Teil des Vorsegels bauchiger oder flacher.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -4128,7 +4128,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        0
       ]
     },
     {
@@ -4137,12 +4137,6 @@
       "kind": "official_mc",
       "stem": "Um auf Amwindkursen eine Jolle auf Kurs zu halten, muss die Pinne stets stark von der Seite der Segel weggezogen werden. Wie kann der Trimmfehler behoben werden?",
       "choices": [
-        {
-          "text": "Vorsegel flacher trimmen; Gewichtsverlagerung nach achtern.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
         {
           "text": "Großsegel flacher trimmen; Gewichtsverlagerung nach achtern.",
           "image": null,
@@ -4157,6 +4151,12 @@
         },
         {
           "text": "Vorsegel flacher trimmen; Gewichtsverlagerung nach vorne.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Vorsegel flacher trimmen; Gewichtsverlagerung nach achtern.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4183,7 +4183,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        0
       ]
     },
     {
@@ -4199,13 +4199,13 @@
           "rationale": ""
         },
         {
-          "text": "Großsegel bauchiger trimmen, Gewichtsverlagerung nach hinten.",
+          "text": "Großsegel flacher trimmen, Gewichtsverlagerung nach vorn.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Großsegel flacher trimmen, Gewichtsverlagerung nach vorn.",
+          "text": "Großsegel bauchiger trimmen, Gewichtsverlagerung nach hinten.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4260,13 +4260,13 @@
           "rationale": ""
         },
         {
-          "text": "Keinen.",
+          "text": "Bis 45° Krängung nimmt die Luvgierigkeit zu, dann wieder ab.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Bis 45° Krängung nimmt die Luvgierigkeit zu, dann wieder ab.",
+          "text": "Keinen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4309,6 +4309,12 @@
           "rationale": ""
         },
         {
+          "text": "1 Wende, 2 Halse, 3 Q-Wende.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
           "text": "1 Wende, 2 Q-Wende, 3 Halse.",
           "image": null,
           "is_correct": false,
@@ -4318,12 +4324,6 @@
           "text": "1 Halse, 2 Wende, 3 Q-Wende.",
           "image": null,
           "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "1 Wende, 2 Halse, 3 Q-Wende.",
-          "image": null,
-          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4348,7 +4348,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        1
       ]
     },
     {
@@ -4358,12 +4358,6 @@
       "stem": "Was ist mit Schwert und Ruder einer Jolle zu tun, wenn das Boot an einer Boje liegen gelassen wird?",
       "choices": [
         {
-          "text": "Schwert und Ruder absenken, damit das Boot frei schwojen kann.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Schwert aufholen, Ruder absenken, damit das Boot frei schwojen kann.",
           "image": null,
           "is_correct": false,
@@ -4371,6 +4365,12 @@
         },
         {
           "text": "Schwert absenken, Ruder aufholen, damit das Boot frei schwojen kann.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Schwert und Ruder absenken, damit das Boot frei schwojen kann.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4413,7 +4413,7 @@
       "stem": "Ein Segelboot segelt am Wind, plötzlich bricht das Luvwant. Welches Manöver ist sinnvoll?",
       "choices": [
         {
-          "text": "Q-Wende.",
+          "text": "Aufschießer.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4425,13 +4425,13 @@
           "rationale": ""
         },
         {
-          "text": "Aufschießer.",
+          "text": "Halse.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Halse.",
+          "text": "Q-Wende.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4468,19 +4468,13 @@
       "stem": "Ein Segelboot segelt bei starkem Wind nur unter Großsegel auf Amwindkurs. Plötzlich bricht das Vorstag. Was ist sofort zu unternehmen?",
       "choices": [
         {
-          "text": "Einen Aufschießer fahren.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Dichtholen und Anluven.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Eine Halse fahren.",
+          "text": "Einen Aufschießer fahren.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4489,6 +4483,12 @@
           "text": "Abfallen auf Vorwindkurs.",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Eine Halse fahren.",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -4513,7 +4513,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        2
       ]
     },
     {
@@ -4522,6 +4522,18 @@
       "kind": "official_mc",
       "stem": "Ein Segelboot segelt bei starkem Wind nur unter Großsegel auf Amwindkurs. Plötzlich bricht das Vorstag. Womit kann das gebrochene Vorstag schnell provisorisch ersetzt werden?",
       "choices": [
+        {
+          "text": "Durch die Fock oder ein Fall.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Durch die Fockschot oder eine Reffleine.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
         {
           "text": "Durch die Vor- oder die Achterleine.",
           "image": null,
@@ -4532,18 +4544,6 @@
           "text": "Durch die Fockschot oder das Großfall.",
           "image": null,
           "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Durch die Fockschot oder eine Reffleine.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Durch die Fock oder ein Fall.",
-          "image": null,
-          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4568,7 +4568,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        0
       ]
     },
     {
@@ -4584,15 +4584,15 @@
           "rationale": ""
         },
         {
-          "text": "Sportboote ohne Antriebsmaschine oder solche mit einer größten, nicht überschreitbaren Nutzleistung von 11,03 Kilowatt (15 PS) bei Verwendung eines Verbrennungsmotors bzw. 7,5 Kilowatt bei Verwendung eines Elektromotors Betriebsart S1 (Dauerbetrieb) oder weniger.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Sportboote unter Segel mit einer Rumpflänge unter 20 m und solche deren Antriebsmaschine nicht benutzt wird.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Sportboote ohne Antriebsmaschine oder solche mit einer größten, nicht überschreitbaren Nutzleistung von 11,03 Kilowatt (15 PS) bei Verwendung eines Verbrennungsmotors bzw. 7,5 Kilowatt bei Verwendung eines Elektromotors Betriebsart S1 (Dauerbetrieb) oder weniger.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -4623,7 +4623,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -4645,15 +4645,15 @@
           "rationale": ""
         },
         {
-          "text": "Die Verpflichtung zur Beachtung der Vorsichtsmaßregeln und Sicherheitsregeln der Verkehrsvorschriften und der Grundregeln für das Verhalten im Verkehr.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Die Verpflichtung zur Beachtung von Vorsichtsmaßregeln über die Verkehrsvorschriften hinaus, die Seemannsbrauch oder besondere Umstände des Falles erfordern.",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Die Verpflichtung zur Beachtung der Vorsichtsmaßregeln und Sicherheitsregeln der Verkehrsvorschriften und der Grundregeln für das Verhalten im Verkehr.",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -4678,7 +4678,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        2
       ]
     },
     {
@@ -4700,13 +4700,13 @@
           "rationale": ""
         },
         {
-          "text": "Ausweichmanöver des Kurshalters und des Ausweichpflichtigen.",
+          "text": "Ausweichmanöver des Ausweichpflichtigen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Ausweichmanöver des Ausweichpflichtigen.",
+          "text": "Ausweichmanöver des Kurshalters und des Ausweichpflichtigen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4743,7 +4743,7 @@
       "stem": "Wann ist das \"Manöver des letzten Augenblicks\" durchzuführen?",
       "choices": [
         {
-          "text": "Es muss durchgeführt werden, wenn ein Zusammenstoß durch Manöver des Kurshalters allein nicht mehr vermieden werden kann.",
+          "text": "Es muss kurz vor der Kollision durchgeführt werden, wenn sonst ein Zusammenstoß durch Manöver des Kurshalters allein nicht mehr vermieden werden kann.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4755,13 +4755,13 @@
           "rationale": ""
         },
         {
-          "text": "Es muss kurz vor der Kollision durchgeführt werden, wenn sonst ein Zusammenstoß durch Manöver des Kurshalters allein nicht mehr vermieden werden kann.",
+          "text": "Es muss im letzten Augenblick von jedem durchgeführt werden, wenn ein Zusammenstoß sonst nicht mehr vermieden werden kann.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Es muss im letzten Augenblick von jedem durchgeführt werden, wenn ein Zusammenstoß sonst nicht mehr vermieden werden kann.",
+          "text": "Es muss durchgeführt werden, wenn ein Zusammenstoß durch Manöver des Kurshalters allein nicht mehr vermieden werden kann.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4798,7 +4798,13 @@
       "stem": "Wann ist ein Fahrzeug manövrierunfähig?",
       "choices": [
         {
-          "text": "Wenn es wegen der Art seines Einsatzes behindert ist und deshalb nicht so wie vorgeschrieben manövrieren und daher einem anderen Fahrzeug nicht ausweichen kann.",
+          "text": "Wenn es mit Netzen, Leinen, Schleppnetzen oder anderen Fanggeräten fischt, welche die Manövrierfähigkeit einschränken.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Wenn es wegen seines Tiefgangs im Verhältnis zu der vorhandenen Tiefe und Breite des befahrbaren Gewässers erheblich behindert ist, von seinem zu verfolgenden Kurs abzuweichen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4810,13 +4816,7 @@
           "rationale": ""
         },
         {
-          "text": "Wenn es wegen seines Tiefgangs im Verhältnis zu der vorhandenen Tiefe und Breite des befahrbaren Gewässers erheblich behindert ist, von seinem zu verfolgenden Kurs abzuweichen.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Wenn es mit Netzen, Leinen, Schleppnetzen oder anderen Fanggeräten fischt, welche die Manövrierfähigkeit einschränken.",
+          "text": "Wenn es wegen der Art seines Einsatzes behindert ist und deshalb nicht so wie vorgeschrieben manövrieren und daher einem anderen Fahrzeug nicht ausweichen kann.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4843,7 +4843,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -4853,13 +4853,19 @@
       "stem": "Wann ist ein Fahrzeug manövrierbehindert?",
       "choices": [
         {
-          "text": "Wenn es mit Netzen, Leinen, Schleppnetzen oder anderen Fanggeräten fischt, welche die Manövrierfähigkeit einschränken.",
+          "text": "Wenn es wegen seines Tiefgangs im Verhältnis zu der vorhandenen Tiefe und Breite des befahrbaren Gewässers erheblich behindert ist, von seinem zu verfolgenden Kurs abzuweichen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Wenn es wegen seines Tiefgangs im Verhältnis zu der vorhandenen Tiefe und Breite des befahrbaren Gewässers erheblich behindert ist, von seinem zu verfolgenden Kurs abzuweichen.",
+          "text": "Wenn es wegen außergewöhnlicher Umstände, z. B. Ausfall der Ruder- oder Maschinenanlage, nicht so wie vorgeschrieben manövrieren und daher einem anderen Fahrzeug nicht ausweichen kann.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Wenn es mit Netzen, Leinen, Schleppnetzen oder anderen Fanggeräten fischt, welche die Manövrierfähigkeit einschränken.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4868,12 +4874,6 @@
           "text": "Wenn es wegen der Art seines Einsatzes behindert ist und deshalb nicht so wie vorgeschrieben manövrieren und daher einem anderen Fahrzeug nicht ausweichen kann.",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Wenn es wegen außergewöhnlicher Umstände, z. B. Ausfall der Ruder- oder Maschinenanlage, nicht so wie vorgeschrieben manövrieren und daher einem anderen Fahrzeug nicht ausweichen kann.",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -4898,7 +4898,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        3
       ]
     },
     {
@@ -4907,18 +4907,6 @@
       "kind": "official_mc",
       "stem": "Wie muss sich ein Ausweichpflichtiger gegenüber einem Kurshalter verhalten?",
       "choices": [
-        {
-          "text": "Die Fahrt ist auf das für die Steuerfähigkeit erforderliche Mindestmaß zu reduzieren; im Zweifelsfall muss ganz aufgestoppt werden.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Das Ausweichmanöver muss frühzeitig, durchgreifend und klar erkennbar durchgeführt werden.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Das Manöver des letzten Augenblicks ist durchzuführen. Es muss so ausgewichen werden, wie es zur Vermeidung eines Zusammenstoßes am dienlichsten ist.",
           "image": null,
@@ -4929,6 +4917,18 @@
           "text": "Der Kurs muss bei Annäherung an den Kurshalter Schritt für Schritt so angepasst werden, dass das Heck des Anderen sicher umfahren wird.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Die Fahrt ist auf das für die Steuerfähigkeit erforderliche Mindestmaß zu reduzieren; im Zweifelsfall muss ganz aufgestoppt werden.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Das Ausweichmanöver muss frühzeitig, durchgreifend und klar erkennbar durchgeführt werden.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -4953,7 +4953,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        3
       ]
     },
     {
@@ -4963,7 +4963,7 @@
       "stem": "Wie hat sich ein Maschinenfahrzeug bei Kollisionsgefahr in einem Einbahnweg eines Verkehrstrennungsgebietes gegenüber einem Maschinenfahrzeug zu verhalten, das den Einbahnweg von Steuerbord kommend quert?",
       "choices": [
         {
-          "text": "Es muss das Manöver des letzten Augenblicks durchführen.",
+          "text": "Es darf die sichere Durchfahrt des Maschinenfahrzeugs nicht behindern.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -4981,7 +4981,7 @@
           "rationale": ""
         },
         {
-          "text": "Es darf die sichere Durchfahrt des Maschinenfahrzeugs nicht behindern.",
+          "text": "Es muss das Manöver des letzten Augenblicks durchführen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5024,7 +5024,7 @@
           "rationale": ""
         },
         {
-          "text": "3,4 Knoten.",
+          "text": "3,8 Knoten.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5036,7 +5036,7 @@
           "rationale": ""
         },
         {
-          "text": "3,8 Knoten.",
+          "text": "3,4 Knoten.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5073,15 +5073,15 @@
       "stem": "Wie hoch, soweit die Nordsee-Befahrens-Verordnung (NordSBefV) nicht ausdrücklich etwas anderes bestimmt, ist die maximale Geschwindigkeit, die ein Maschinenfahrzeug in Nationalparken im Bereich der Nordsee fahren darf?",
       "choices": [
         {
-          "text": "10 Knoten Fahrt über Grund.",
+          "text": "10 Knoten Fahrt durchs Wasser.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "12 Knoten über Grund.",
+          "text": "10 Knoten Fahrt über Grund.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -5091,9 +5091,9 @@
           "rationale": ""
         },
         {
-          "text": "10 Knoten Fahrt durchs Wasser.",
+          "text": "12 Knoten über Grund.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5118,7 +5118,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        3
       ]
     },
     {
@@ -5128,15 +5128,15 @@
       "stem": "Was versteht man unter dem Geschwindigkeitsbegriff \"Knoten\"?",
       "choices": [
         {
-          "text": "Das sind die von Mittag bis Mittag zurückgelegten Seemeilen.",
+          "text": "Das sind die in einer Stunde zurückgelegten Kilometer.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Das sind die in einer Stunde zurückgelegten Seemeilen.",
+          "text": "Das sind die von Mittag bis Mittag zurückgelegten Seemeilen.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -5146,9 +5146,9 @@
           "rationale": ""
         },
         {
-          "text": "Das sind die in einer Stunde zurückgelegten Kilometer.",
+          "text": "Das sind die in einer Stunde zurückgelegten Seemeilen.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5173,7 +5173,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        3
       ]
     },
     {
@@ -5183,7 +5183,7 @@
       "stem": "Was bedeutet folgendes Zeichen?",
       "choices": [
         {
-          "text": "Strom in Richtung Nordwest; Stärke: 3 Knoten; Tidegebiet.",
+          "text": "Strom aus Richtung Nordwest; Stärke: 3 Knoten; Tidegebiet.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5195,7 +5195,7 @@
           "rationale": ""
         },
         {
-          "text": "Strom aus Richtung Nordwest; Stärke: 3 Knoten; Tidegebiet.",
+          "text": "Strom in Richtung Nordwest; Stärke: 3 Knoten; Tidegebiet.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5238,25 +5238,25 @@
       "stem": "Was bedeutet auf einem Schiff eines der folgenden Signale?",
       "choices": [
         {
-          "text": "Fahrzeug in Seenot.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Fahrzeug ist manövrierbehindert.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Fahrzeug mit gefährlichen Gütern.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
+          "text": "Fahrzeug in Seenot.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
           "text": "Fahrzeug vor Anker mit mehr als 100 m Länge.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Fahrzeug ist manövrierbehindert.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5283,7 +5283,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5299,6 +5299,12 @@
           "rationale": ""
         },
         {
+          "text": "Mit entsprechendem Mittel neutralisieren.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Mit Lappen aufnehmen und umweltgerecht entsorgen.",
           "image": null,
           "is_correct": true,
@@ -5306,12 +5312,6 @@
         },
         {
           "text": "Räume lüften und abwarten.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Mit entsprechendem Mittel neutralisieren.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5338,7 +5338,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -5348,18 +5348,6 @@
       "stem": "Welche Auswirkungen kann das Erreichen der Hochwassermarke I für die Sportschifffahrt haben?",
       "choices": [
         {
-          "text": "Verbot der Schifffahrt bei Nacht und unsichtigem Wetter.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Einstellung der Schifffahrt.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Geschwindigkeitsbeschränkung und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
           "image": null,
           "is_correct": true,
@@ -5367,6 +5355,18 @@
         },
         {
           "text": "Überholverbot und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Verbot der Schifffahrt bei Nacht und unsichtigem Wetter.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Einstellung der Schifffahrt.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5393,7 +5393,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        0
       ]
     },
     {
@@ -5409,7 +5409,7 @@
           "rationale": ""
         },
         {
-          "text": "Verbot der Schifffahrt bei Nacht und unsichtigem Wetter.",
+          "text": "Geschwindigkeitsbeschränkung und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5421,7 +5421,7 @@
           "rationale": ""
         },
         {
-          "text": "Geschwindigkeitsbeschränkung und Fahrverbot für Fahrzeuge ohne Sprechfunk.",
+          "text": "Verbot der Schifffahrt bei Nacht und unsichtigem Wetter.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5464,15 +5464,15 @@
           "rationale": ""
         },
         {
-          "text": "Nebel, Schneefall, starker Regen.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Dunkelheit, Nebel, Schneefall, starker Regen.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Nebel, Schneefall, starker Regen.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -5503,7 +5503,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        2
       ]
     },
     {
@@ -5513,13 +5513,19 @@
       "stem": "Wie muss ein Fahrzeug ausgerüstet sein, um bei unsichtigem Wetter zu fahren?",
       "choices": [
         {
-          "text": "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage ohne ATIS.",
+          "text": "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage für den Seefunkdienst.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage für den Seefunkdienst.",
+          "text": "Mit einer Radaranlage ohne Wendeanzeiger und einer Sprechfunkanlage für den Binnenschifffahrtsfunk.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage ohne ATIS.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5528,12 +5534,6 @@
           "text": "Mit einer für die Binnenschifffahrt zugelassenen funktionsfähigen Radaranlage und einer Sprechfunkanlage für den Binnenschifffahrtsfunk.",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Mit einer Radaranlage ohne Wendeanzeiger und einer Sprechfunkanlage für den Binnenschifffahrtsfunk.",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -5558,7 +5558,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        3
       ]
     },
     {
@@ -5568,9 +5568,9 @@
       "stem": "Was ist zu beachten, wenn während der Fahrt unsichtiges Wetter eintritt?",
       "choices": [
         {
-          "text": "Auf bestimmten Wasserstraßen ist ohne Radar und Sprechfunk die Fahrt unverzüglich einzustellen.",
+          "text": "Auf allen Wasserstraßen ist ohne Radar und Sprechfunk die Fahrt unverzüglich einzustellen.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -5580,13 +5580,13 @@
           "rationale": ""
         },
         {
-          "text": "Auf allen Wasserstraßen ist ohne Radar und ECDIS die Fahrt unverzüglich einzustellen.",
+          "text": "Auf bestimmten Wasserstraßen ist ohne Radar und Sprechfunk die Fahrt unverzüglich einzustellen.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         },
         {
-          "text": "Auf allen Wasserstraßen ist ohne Radar und Sprechfunk die Fahrt unverzüglich einzustellen.",
+          "text": "Auf allen Wasserstraßen ist ohne Radar und ECDIS die Fahrt unverzüglich einzustellen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5613,7 +5613,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -5623,25 +5623,25 @@
       "stem": "Welchen Vorteil bietet ein Radarreflektor auf einem Sportboot?",
       "choices": [
         {
-          "text": "Bessere Erkennbarkeit des Sportbootes auf Radarbildschirmen.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Bessere Erkennbarkeit des Sportbootes bei Taglicht.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Bessere Erkennbarkeit des Sportbootes bei Nacht.",
+          "text": "Bessere Erkennbarkeit des Sportbootes auf Radarbildschirmen.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Bessere Erkennbarkeit des Sportbootes bei unsichtigem Wetter.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Bessere Erkennbarkeit des Sportbootes bei unsichtigem Wetter.",
+          "text": "Bessere Erkennbarkeit des Sportbootes bei Nacht.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5668,7 +5668,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -5677,6 +5677,12 @@
       "kind": "official_mc",
       "stem": "Was ist bei Sturmwarnung vom Schiffsführer eines Sportbootes unter Segel auf einem größeren Gewässer zu veranlassen?",
       "choices": [
+        {
+          "text": "Rettungsweste anlegen. Segel bergen, versuchen einen Hafen oder eine geschützte Bucht anzulaufen.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
         {
           "text": "Rettungsweste anlegen. Segel setzen, versuchen die Gewässermitte anzulaufen.",
           "image": null,
@@ -5693,12 +5699,6 @@
           "text": "Rettungsweste bereit halten. Segel bergen, versuchen, einen Hafen oder eine geschützte Bucht anzulaufen.",
           "image": null,
           "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Rettungsweste anlegen. Segel bergen, versuchen einen Hafen oder eine geschützte Bucht anzulaufen.",
-          "image": null,
-          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5723,7 +5723,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        0
       ]
     },
     {
@@ -5745,13 +5745,13 @@
           "rationale": ""
         },
         {
-          "text": "Besseres Wetter, Sonne.",
+          "text": "Schlechtes Wetter ist nicht zu erwarten.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Schlechtes Wetter ist nicht zu erwarten.",
+          "text": "Besseres Wetter, Sonne.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5794,9 +5794,9 @@
           "rationale": ""
         },
         {
-          "text": "Besseres Wetter, Sonne.",
+          "text": "Schlechtes Wetter, Starkwind oder Sturm.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -5806,9 +5806,9 @@
           "rationale": ""
         },
         {
-          "text": "Schlechtes Wetter, Starkwind oder Sturm.",
+          "text": "Besseres Wetter, Sonne.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5833,7 +5833,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        1
+        3
       ]
     },
     {
@@ -5843,7 +5843,7 @@
       "stem": "Was bedeutet Radarfahrt?",
       "choices": [
         {
-          "text": "Eine Fahrt am Tage mit Radar.",
+          "text": "Eine Fahrt bei Nacht mit Radar.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5861,7 +5861,7 @@
           "rationale": ""
         },
         {
-          "text": "Eine Fahrt bei Nacht mit Radar.",
+          "text": "Eine Fahrt am Tage mit Radar.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5898,19 +5898,13 @@
       "stem": "Wozu dienen Segellatten?",
       "choices": [
         {
-          "text": "Der Möglichkeit das Segel auch bei Starkwind nutzen zu können.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Der Erleichterung des Reffens.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Der Verhinderung des Killens von Segeln.",
+          "text": "Der Möglichkeit das Segel auch bei Starkwind nutzen zu können.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -5919,6 +5913,12 @@
           "text": "Der Formgebung und Aussteifung des Segels.",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Der Verhinderung des Killens von Segeln.",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -5943,7 +5943,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        2
       ]
     },
     {
@@ -5952,6 +5952,12 @@
       "kind": "official_mc",
       "stem": "Was bedeutet \"in Sicht befindlich\"?",
       "choices": [
+        {
+          "text": "Wenn jedes Fahrzeug vom anderen optisch wahrgenommen werden kann.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
         {
           "text": "Wenn jedes Fahrzeug auch bei unsichtigem Wetter optisch wahrgenommen werden kann.",
           "image": null,
@@ -5968,12 +5974,6 @@
           "text": "Wenn jeder Fahrzeugführer vom anderen optisch wahrgenommen werden kann.",
           "image": null,
           "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Wenn jedes Fahrzeug vom anderen optisch wahrgenommen werden kann.",
-          "image": null,
-          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -5998,7 +5998,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        0
       ]
     },
     {
@@ -6007,12 +6007,6 @@
       "kind": "official_mc",
       "stem": "Wie lang sollte eine Schleppleine bei starkem Seegang sein?",
       "choices": [
-        {
-          "text": "Mindestens zwei- oder dreifache Wellenlänge.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Mindestens zwei- oder dreifache Wellenhöhe.",
           "image": null,
@@ -6023,6 +6017,12 @@
           "text": "Mindestens zwei- oder dreifache Schiffslänge.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Mindestens zwei- oder dreifache Wellenlänge.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -6053,7 +6053,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6063,13 +6063,7 @@
       "stem": "Warum sollte bei starkem Seegang die Fahrt vermindert werden?",
       "choices": [
         {
-          "text": "Um Schäden durch Seeschlag zu vermeiden.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Um Schiffs- und Wellenlänge nicht in Resonanz zu bringen.",
+          "text": "Um das Austauchen der Schraube zu vermeiden und Kraftstoff zu sparen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6081,7 +6075,13 @@
           "rationale": ""
         },
         {
-          "text": "Um das Austauchen der Schraube zu vermeiden und Kraftstoff zu sparen.",
+          "text": "Um Schäden durch Seeschlag zu vermeiden.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Um Schiffs- und Wellenlänge nicht in Resonanz zu bringen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6108,7 +6108,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -6118,7 +6118,7 @@
       "stem": "Womit muss bei rasch fallendem Luftdruck gerechnet werden?",
       "choices": [
         {
-          "text": "Mit einer Wetterverschlechterung.",
+          "text": "Mit Schwachwind oder Windstille.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6130,7 +6130,7 @@
           "rationale": ""
         },
         {
-          "text": "Mit Schwachwind oder Windstille.",
+          "text": "Mit einer Wetterverschlechterung.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6173,12 +6173,6 @@
       "stem": "Was bedeuten die in der Wetterkarte abgebildeten Isobaren?",
       "choices": [
         {
-          "text": "Orte gleichen Luftdrucks.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Orte gleicher Wolkenbildung.",
           "image": null,
           "is_correct": false,
@@ -6194,6 +6188,12 @@
           "text": "Orte gleicher Luftfeuchtigkeit.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Orte gleichen Luftdrucks.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -6218,7 +6218,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        3
       ]
     },
     {
@@ -6228,19 +6228,7 @@
       "stem": "Was zeigt die folgende Abbildung?",
       "choices": [
         {
-          "text": "Abbildung eines Tiefdruckgebietes auf der Südhalbkugel mit Warmfront vor der Kaltfront, Angabe des Luftdrucks in hPa, Darstellung des Kalt- und Warmluftstroms.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Abbildung eines Tiefdruckgebietes auf der Nordhalbkugel mit Kaltfront vor der Warmfront, Angabe des Luftdrucks in hPa, Warmfront südlich, Kaltfront nördlich des Zentrums.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Abbildung eines Tiefdruckgebietes auf der Südhalbkugel mit Kalt- und Warmfront, Isobaren mit Angabe des Luftdrucks in hPa, kalte und warme Luftströmung.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6249,6 +6237,18 @@
           "text": "Abbildung eines Tiefdruckgebietes auf der Nordhalbkugel mit Warm- und Kaltfront, Isobaren mit Angabe des Luftdrucks in hPa, warme und kalte Luftströmung.",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Abbildung eines Tiefdruckgebietes auf der Südhalbkugel mit Warmfront vor der Kaltfront, Angabe des Luftdrucks in hPa, Darstellung des Kalt- und Warmluftstroms.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Abbildung eines Tiefdruckgebietes auf der Südhalbkugel mit Kalt- und Warmfront, Isobaren mit Angabe des Luftdrucks in hPa, kalte und warme Luftströmung.",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -6273,7 +6273,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        1
       ]
     },
     {
@@ -6283,25 +6283,25 @@
       "stem": "Für welche Windstärken wird eine Starkwindwarnung herausgegeben?",
       "choices": [
         {
-          "text": "Windstärke 6 und 7 der Beaufortskala.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Windstärke 4 bis 5 der Beaufortskala.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Windstärke 7 bis 8 der Beaufortskala.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
+          "text": "Windstärke 6 und 7 der Beaufortskala.",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
           "text": "Windstärke 5 und 6 der Beaufortskala.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Windstärke 4 bis 5 der Beaufortskala.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6328,7 +6328,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6350,15 +6350,15 @@
           "rationale": ""
         },
         {
-          "text": "Windstärke 7 und mehr der Beaufortskala.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Windstärke 8 und mehr der Beaufortskala.",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Windstärke 7 und mehr der Beaufortskala.",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -6383,7 +6383,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        2
       ]
     },
     {
@@ -6393,13 +6393,19 @@
       "stem": "Was ist in amtlichen Wetterberichten unter \"frischem Wind\" zu verstehen?",
       "choices": [
         {
-          "text": "Windstärke 7 der Beaufortskala.",
+          "text": "Windstärke 4 der Beaufortskala.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Windstärke 4 der Beaufortskala.",
+          "text": "Windstärke 6 der Beaufortskala.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Windstärke 7 der Beaufortskala.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6408,12 +6414,6 @@
           "text": "Windstärke 5 der Beaufortskala.",
           "image": null,
           "is_correct": true,
-          "rationale": ""
-        },
-        {
-          "text": "Windstärke 6 der Beaufortskala.",
-          "image": null,
-          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -6438,7 +6438,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        3
       ]
     },
     {
@@ -6448,15 +6448,15 @@
       "stem": "Welche Sicherheitsmaßnahmen sind auf See vor Eintritt von schwerem Wetter (Starkwind, Sturm) zu treffen?",
       "choices": [
         {
-          "text": "Verschlusszustand herbeiführen, lose Gegenstände festzurren, Rettungsweste anlegen und andere Rettungsmittel bereithalten; wenn erforderlich und möglich Schutzhafen anlaufen.",
+          "text": "Türen schließen, lose Gegenstände festzurren, Rettungsweste und andere Rettungsmittel bereithalten, Seenotsignalmittel zum Einsatz vorbereiten.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Verschlusszustand herbeiführen, lose Gegenstände festzurren, Rettungsweste und andere Rettungsmittel bereithalten, Seenotsignalmittel zum Einsatz vorbereiten.",
+          "text": "Verschlusszustand herbeiführen, lose Gegenstände festzurren, Rettungsweste anlegen und andere Rettungsmittel bereithalten; wenn erforderlich und möglich Schutzhafen anlaufen.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -6466,7 +6466,7 @@
           "rationale": ""
         },
         {
-          "text": "Türen schließen, lose Gegenstände festzurren, Rettungsweste und andere Rettungsmittel bereithalten, Seenotsignalmittel zum Einsatz vorbereiten.",
+          "text": "Verschlusszustand herbeiführen, lose Gegenstände festzurren, Rettungsweste und andere Rettungsmittel bereithalten, Seenotsignalmittel zum Einsatz vorbereiten.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6493,7 +6493,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -6503,19 +6503,13 @@
       "stem": "Wie verhindert man das Überbordfallen von Personen bei starkem Seegang?",
       "choices": [
         {
-          "text": "Sicherheitsleinen bzw. -gurte aufschießen, Sicherheitsgurt anlegen und in die Reling einpicken.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
           "text": "Sicherheitsleinen bzw. -gurte spannen, Besatzung an Deck sammeln. Rettungswesten anlegen.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Besatzung in der Plicht versammeln, Rettungswesten anlegen, Sicherheitsleinen bzw. -gurte spannen.",
+          "text": "Sicherheitsleinen bzw. -gurte aufschießen, Sicherheitsgurt anlegen und in die Reling einpicken.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -6524,6 +6518,12 @@
           "text": "Sicherheitsleinen bzw. -gurte spannen, Sicherheitsgurt anlegen und an den dafür vorgesehenen Stellen einpicken.",
           "image": null,
           "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Besatzung in der Plicht versammeln, Rettungswesten anlegen, Sicherheitsleinen bzw. -gurte spannen.",
+          "image": null,
+          "is_correct": false,
           "rationale": ""
         }
       ],
@@ -6548,7 +6548,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        3
+        2
       ]
     }
   ]

@@ -11,7 +11,7 @@
     "permis": "cotiere",
     "permis_label": "Permis plaisance — option côtière",
     "country": "FR",
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "kb_version": "",
     "lang": "fr",
     "unofficial": "false",
@@ -31,12 +31,6 @@
       "stem": "Jusqu'à quelle distance d'un abri le permis plaisance option côtière autorise-t-il la navigation ?",
       "choices": [
         {
-          "text": "6 milles nautiques",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "2 milles nautiques",
           "image": null,
           "is_correct": false,
@@ -46,6 +40,12 @@
           "text": "Sans aucune limite de distance",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "6 milles nautiques",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -70,7 +70,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -80,15 +80,15 @@
       "stem": "À quel programme de navigation correspond la catégorie de conception « C » d'un bateau de plaisance ?",
       "choices": [
         {
-          "text": "À proximité de la côte (force 6, vagues 2 m)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "En haute mer sans restriction",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "À proximité de la côte (force 6, vagues 2 m)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -119,7 +119,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -129,15 +129,15 @@
       "stem": "Sur une carte marine, par rapport à quel niveau les profondeurs (sondes) sont-elles indiquées ?",
       "choices": [
         {
-          "text": "Le zéro hydrographique (plus basses mers)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Le niveau moyen de la mer",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Le zéro hydrographique (plus basses mers)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -168,7 +168,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -177,12 +177,6 @@
       "kind": "meteo_mc",
       "stem": "Qu'appelle-t-on le « marnage » ?",
       "choices": [
-        {
-          "text": "La différence de hauteur entre pleine mer et basse mer",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "La vitesse du courant de marée",
           "image": null,
@@ -193,6 +187,12 @@
           "text": "La durée d'une marée",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "La différence de hauteur entre pleine mer et basse mer",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -217,7 +217,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -227,9 +227,9 @@
       "stem": "Entre quelles valeurs le coefficient de marée varie-t-il ?",
       "choices": [
         {
-          "text": "Entre 20 et 120",
+          "text": "Entre 1 et 12",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -239,9 +239,9 @@
           "rationale": ""
         },
         {
-          "text": "Entre 1 et 12",
+          "text": "Entre 20 et 120",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -266,7 +266,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -282,13 +282,13 @@
           "rationale": ""
         },
         {
-          "text": "10",
+          "text": "100",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "100",
+          "text": "10",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -325,9 +325,9 @@
       "stem": "À quoi sert la « règle des douzièmes » ?",
       "choices": [
         {
-          "text": "Estimer la hauteur d'eau à une heure donnée de la marée",
+          "text": "Mesurer la dérive due au courant",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -337,9 +337,9 @@
           "rationale": ""
         },
         {
-          "text": "Mesurer la dérive due au courant",
+          "text": "Estimer la hauteur d'eau à une heure donnée de la marée",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -364,7 +364,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -374,9 +374,9 @@
       "stem": "En mer, que dit la réglementation sur le rejet des détritus et des hydrocarbures ?",
       "choices": [
         {
-          "text": "Il est interdit",
+          "text": "Il est autorisé la nuit",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -386,9 +386,9 @@
           "rationale": ""
         },
         {
-          "text": "Il est autorisé la nuit",
+          "text": "Il est interdit",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -413,7 +413,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -423,15 +423,15 @@
       "stem": "Que doit faire le plaisancier de ses déchets produits à bord ?",
       "choices": [
         {
-          "text": "Les rapporter à terre dans les installations portuaires",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Les jeter au large",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Les rapporter à terre dans les installations portuaires",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -462,7 +462,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -478,13 +478,13 @@
           "rationale": ""
         },
         {
-          "text": "Le moment où le courant est le plus fort",
+          "text": "La différence entre pleine et basse mer",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "La différence entre pleine et basse mer",
+          "text": "Le moment où le courant est le plus fort",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -521,6 +521,12 @@
       "stem": "En Méditerranée, sur les herbiers de posidonie, le mouillage de l'ancre est :",
       "choices": [
         {
+          "text": "Recommandé car l'ancre y tient bien",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Réglementé, voire interdit (herbiers protégés)",
           "image": null,
           "is_correct": true,
@@ -528,12 +534,6 @@
         },
         {
           "text": "Libre et sans conséquence",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Recommandé car l'ancre y tient bien",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -560,7 +560,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -570,15 +570,15 @@
       "stem": "Selon la règle des douzièmes, de quelle fraction du marnage l'eau monte-t-elle au cours de chaque heure successive, de la basse mer à la pleine mer ?",
       "choices": [
         {
-          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -609,7 +609,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -619,15 +619,15 @@
       "stem": "Comment désigne-t-on la marée descendante, durant laquelle le niveau baisse vers la basse mer ?",
       "choices": [
         {
-          "text": "Le jusant",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Le flot",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Le jusant",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -658,7 +658,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -674,13 +674,13 @@
           "rationale": ""
         },
         {
-          "text": "Mésotidal",
+          "text": "Microtidal",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Microtidal",
+          "text": "Mésotidal",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -717,6 +717,12 @@
       "stem": "Sur les côtes de la Manche et de l'Atlantique, la marée est de type semi-diurne. Combien de pleines mers et de basses mers observe-t-on en une journée ?",
       "choices": [
         {
+          "text": "Trois pleines mers et trois basses mers",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Deux pleines mers et deux basses mers",
           "image": null,
           "is_correct": true,
@@ -724,12 +730,6 @@
         },
         {
           "text": "Une pleine mer et une basse mer",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Trois pleines mers et trois basses mers",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -756,7 +756,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -766,6 +766,12 @@
       "stem": "À quel coefficient de marée correspondent les pleines et basses mers de vive-eau moyenne (PMVE/BMVE) ?",
       "choices": [
         {
+          "text": "Coefficient 45",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Coefficient 95",
           "image": null,
           "is_correct": true,
@@ -773,12 +779,6 @@
         },
         {
           "text": "Coefficient 120",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Coefficient 45",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -805,7 +805,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -815,6 +815,12 @@
       "stem": "Lorsque la Terre, la Lune et le Soleil sont alignés (pleine ou nouvelle lune), quel type de marée observe-t-on ?",
       "choices": [
         {
+          "text": "Une absence de marée (étale permanent)",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Des vives-eaux (grand marnage)",
           "image": null,
           "is_correct": true,
@@ -822,12 +828,6 @@
         },
         {
           "text": "Des mortes-eaux (faible marnage)",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Une absence de marée (étale permanent)",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -854,7 +854,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -863,12 +863,6 @@
       "kind": "meteo_mc",
       "stem": "À quel niveau de référence le zéro hydrographique, auquel sont rapportées les sondes des cartes marines, est-il choisi en France ?",
       "choices": [
-        {
-          "text": "Au voisinage des plus basses mers astronomiques",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Au niveau moyen de la mer",
           "image": null,
@@ -879,6 +873,12 @@
           "text": "Au voisinage des plus hautes mers astronomiques",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Au voisinage des plus basses mers astronomiques",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -903,7 +903,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     }
   ]

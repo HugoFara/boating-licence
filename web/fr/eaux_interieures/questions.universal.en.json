@@ -11,7 +11,7 @@
     "permis": "eaux_interieures",
     "permis_label": "Permis plaisance — option eaux intérieures",
     "country": "FR",
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "kb_version": "",
     "lang": "en",
     "unofficial": "true",
@@ -31,6 +31,12 @@
       "stem": "A vessel's identification mark (registration) must be:",
       "choices": [
         {
+          "text": "Optional for pleasure craft",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Displayed visibly and legibly on the hull",
           "image": null,
           "is_correct": true,
@@ -38,12 +44,6 @@
         },
         {
           "text": "Kept only in the boat's papers",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Optional for pleasure craft",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -70,7 +70,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -86,13 +86,13 @@
           "rationale": ""
         },
         {
-          "text": "Only the fuel level",
+          "text": "Nothing — checks are the lock's job",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Nothing — checks are the lock's job",
+          "text": "Only the fuel level",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -129,12 +129,6 @@
       "stem": "On inland waters, discharging hydrocarbons, waste water or rubbish into the waterway is:",
       "choices": [
         {
-          "text": "Prohibited",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Allowed in small amounts",
           "image": null,
           "is_correct": false,
@@ -144,6 +138,12 @@
           "text": "Free outside harbours",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Prohibited",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -168,7 +168,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -178,6 +178,12 @@
       "stem": "To limit bank erosion and disturbance to wildlife, the boater should above all:",
       "choices": [
         {
+          "text": "Moor in the reed beds",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Reduce speed and wash near the banks",
           "image": null,
           "is_correct": true,
@@ -185,12 +191,6 @@
         },
         {
           "text": "Run at full speed in the centre",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Moor in the reed beds",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -217,7 +217,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -227,9 +227,9 @@
       "stem": "What should the boater do with waste water (black water) on inland waters?",
       "choices": [
         {
-          "text": "Hold it in a tank and empty it ashore",
+          "text": "Discharge it far from the banks",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -239,9 +239,9 @@
           "rationale": ""
         },
         {
-          "text": "Discharge it far from the banks",
+          "text": "Hold it in a tank and empty it ashore",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -266,7 +266,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -374,6 +374,12 @@
       "stem": "Which document concerning waste oils must be kept on board a motorized boat?",
       "choices": [
         {
+          "text": "An annual oil-change certificate issued by the waterway manager.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "A valid waste-oil control logbook, on board every motorized boat or floating craft (except small craft).",
           "image": null,
           "is_correct": true,
@@ -381,12 +387,6 @@
         },
         {
           "text": "A waste-oil control logbook, required only on board small craft.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "An annual oil-change certificate issued by the waterway manager.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -413,7 +413,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -423,15 +423,15 @@
       "stem": "What obligation applies to any person on board a vessel?",
       "choices": [
         {
-          "text": "Comply with the orders given by the boatmaster in the interest of the safety of navigation and order on board.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Obey the boatmaster only if she is part of the vessel's paid crew.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Comply with the orders given by the boatmaster in the interest of the safety of navigation and order on board.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -462,7 +462,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -472,15 +472,15 @@
       "stem": "When a disaster (fire or incident) breaks out on board, what must the boatmaster do?",
       "choices": [
         {
-          "text": "Take all necessary measures to control the incident and immediately notify the waterway manager or owner as well as the territorially competent CODIS.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Wait for the rescue services to arrive before undertaking any action to fight the incident.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Take all necessary measures to control the incident and immediately notify the waterway manager or owner as well as the territorially competent CODIS.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -511,7 +511,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -521,6 +521,12 @@
       "stem": "Regarding raised anchors and objects protruding from the sides of a vessel, which rule applies?",
       "choices": [
         {
+          "text": "Raised anchors must stay above the waterline but may extend below the keel of the vessel.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "No object liable to compromise safety may protrude from the sides, and raised anchors must not extend below the bottom or keel of the vessel.",
           "image": null,
           "is_correct": true,
@@ -528,12 +534,6 @@
         },
         {
           "text": "Objects may protrude from the sides provided they are marked by a flag during the day.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Raised anchors must stay above the waterline but may extend below the keel of the vessel.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -560,7 +560,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -576,13 +576,13 @@
           "rationale": ""
         },
         {
-          "text": "Notify the authorities only if the vessel is carrying dangerous goods.",
+          "text": "Leave the vessel in place and wait for the manager's mandatory intervention without acting.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Leave the vessel in place and wait for the manager's mandatory intervention without acting.",
+          "text": "Notify the authorities only if the vessel is carrying dangerous goods.",
           "image": null,
           "is_correct": false,
           "rationale": ""

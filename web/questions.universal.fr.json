@@ -4,7 +4,7 @@
     "pool": "universal",
     "scope": "universal",
     "unofficial": false,
-    "generated": "2026-08-15",
+    "generated": "2026-09-06",
     "grounding": "Portable seamanship — valid under any code."
   },
   "questions": [
@@ -21,13 +21,13 @@
           "rationale": ""
         },
         {
-          "text": "À l'ordonnance sur la navigation intérieure (ONI) elle-même.",
+          "text": "Au règlement de la navigation sur le Léman (RNL).",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Au règlement de la navigation sur le Léman (RNL).",
+          "text": "À l'ordonnance sur la navigation intérieure (ONI) elle-même.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -64,15 +64,15 @@
       "stem": "Parmi ces affirmations sur les définitions de l'art. 142 ONI, laquelle est FAUSSE ?",
       "choices": [
         {
-          "text": "Le « devoir de diligence » est défini à l'art. 142 ONI sans renvoi à une autre ordonnance.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Le « rapport de sécurité » est un rapport au sens des art. 2, let. e, et 17, al. 3, OCEB.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Le « devoir de diligence » est défini à l'art. 142 ONI sans renvoi à une autre ordonnance.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -103,7 +103,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -119,13 +119,13 @@
           "rationale": ""
         },
         {
-          "text": "Comme les agents de l'autorité compétente du lieu de stationnement.",
+          "text": "Comme les membres d'une société de classification reconnue.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Comme les membres d'une société de classification reconnue.",
+          "text": "Comme les agents de l'autorité compétente du lieu de stationnement.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -211,9 +211,9 @@
       "stem": "Qu’est-ce qu’un « convoi poussé » selon l’ONI ?",
       "choices": [
         {
-          "text": "Une composition de bateaux non propulsés réunis en un ensemble rigide, poussée par au moins un bateau à moteur",
+          "text": "Tout groupe de bateaux de plaisance naviguant ensemble",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -223,9 +223,9 @@
           "rationale": ""
         },
         {
-          "text": "Tout groupe de bateaux de plaisance naviguant ensemble",
+          "text": "Une composition de bateaux non propulsés réunis en un ensemble rigide, poussée par au moins un bateau à moteur",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -250,7 +250,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -364,13 +364,13 @@
           "rationale": ""
         },
         {
-          "text": "Uniquement la navigation de nuit par brouillard épais.",
+          "text": "Uniquement la navigation de jour lorsque la pluie est accompagnée de vent fort.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Uniquement la navigation de jour lorsque la pluie est accompagnée de vent fort.",
+          "text": "Uniquement la navigation de nuit par brouillard épais.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -407,9 +407,9 @@
       "stem": "Que confirme le texte au sujet du nœud de chaise hors tension ?",
       "choices": [
         {
-          "text": "Il est facile à défaire, même mouillé et après avoir subi une traction très forte ou un resserrement dû au dessèchement.",
+          "text": "Il ne peut être réglé qu'en exerçant une forte tension sur le dormant.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -419,9 +419,9 @@
           "rationale": ""
         },
         {
-          "text": "Il ne peut être réglé qu'en exerçant une forte tension sur le dormant.",
+          "text": "Il est facile à défaire, même mouillé et après avoir subi une traction très forte ou un resserrement dû au dessèchement.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -446,7 +446,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -455,12 +455,6 @@
       "kind": "matelotage_mc",
       "stem": "Selon le texte, comment réagit le nœud de chaise lorsque la tension augmente ?",
       "choices": [
-        {
-          "text": "Plus la tension est forte, plus il se bloque, tout en se dénouant tout aussi aisément.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Plus la tension est forte, plus il a tendance à glisser et à se défaire.",
           "image": null,
@@ -471,6 +465,12 @@
           "text": "La tension n'a aucun effet sur son blocage, qui dépend d'un système mécanique intermédiaire.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Plus la tension est forte, plus il se bloque, tout en se dénouant tout aussi aisément.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -495,7 +495,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -511,13 +511,13 @@
           "rationale": ""
         },
         {
-          "text": "Nœud de cabestan.",
+          "text": "Nœud de pendu.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Nœud de pendu.",
+          "text": "Nœud de cabestan.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -560,13 +560,13 @@
           "rationale": ""
         },
         {
-          "text": "C'est le seul nœud impossible à dénouer une fois serré.",
+          "text": "Il ne peut être réalisé qu'avec un outil spécialisé et à deux mains.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Il ne peut être réalisé qu'avec un outil spécialisé et à deux mains.",
+          "text": "C'est le seul nœud impossible à dénouer une fois serré.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -603,12 +603,6 @@
       "stem": "Concernant les méthodes de réalisation du nœud de chaise, quelle(s) affirmation(s) le texte confirme-t-il ?",
       "choices": [
         {
-          "text": "Il existe plusieurs méthodes de réalisation, jusqu'à 18 avec les variantes.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Il ne reste que deux méthodes classiques reconnues pour l'enseignement, tricotée ou préparée.",
           "image": null,
           "is_correct": true,
@@ -618,6 +612,12 @@
           "text": "Une seule méthode unique de réalisation est admise dans le monde entier.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Il existe plusieurs méthodes de réalisation, jusqu'à 18 avec les variantes.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -643,7 +643,7 @@
       "difficulty": "unrated",
       "correct": [
         0,
-        1
+        2
       ]
     },
     {
@@ -653,9 +653,9 @@
       "stem": "Pourquoi le nœud de chaise est-il qualifié de « roi des nœuds » ?",
       "choices": [
         {
-          "text": "C’est un nœud de boucle fiable qui ne glisse pas sous tension et se dénoue facilement",
+          "text": "Il sert uniquement à raccorder deux cordages de même diamètre",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -665,9 +665,9 @@
           "rationale": ""
         },
         {
-          "text": "Il sert uniquement à raccorder deux cordages de même diamètre",
+          "text": "C’est un nœud de boucle fiable qui ne glisse pas sous tension et se dénoue facilement",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -692,7 +692,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -701,12 +701,6 @@
       "kind": "matelotage_mc",
       "stem": "D'après le texte, qu'est-ce qu'une ganse ?",
       "choices": [
-        {
-          "text": "Une portion de cordage courbée, sans croisement ni chevauchement.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Un croisement serré de deux extrémités de corde.",
           "image": null,
@@ -717,6 +711,12 @@
           "text": "Une corde tressée à partir de trois brins métalliques.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Une portion de cordage courbée, sans croisement ni chevauchement.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -741,7 +741,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -757,13 +757,13 @@
           "rationale": ""
         },
         {
-          "text": "Il ne peut jamais être défait, que la boucle soit libre ou entravée.",
+          "text": "Il se desserre automatiquement dès qu'on applique un poids sur la boucle.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Il se desserre automatiquement dès qu'on applique un poids sur la boucle.",
+          "text": "Il ne peut jamais être défait, que la boucle soit libre ou entravée.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -806,13 +806,13 @@
           "rationale": ""
         },
         {
-          "text": "La couleur de la corde utilisée pour le confectionner.",
+          "text": "Le prix d'achat de la cordelette.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Le prix d'achat de la cordelette.",
+          "text": "La couleur de la corde utilisée pour le confectionner.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -849,9 +849,9 @@
       "stem": "Selon le texte, quelle est la résistance d'une corde munie d'un nœud de chaise comparée à un nœud de cabestan ?",
       "choices": [
         {
-          "text": "Le nœud de chaise conserve une résistance exceptionnelle de 89 %, alors que le cabestan la réduit de moitié.",
+          "text": "Les deux nœuds réduisent la résistance de la corde exactement de moitié.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -861,9 +861,9 @@
           "rationale": ""
         },
         {
-          "text": "Les deux nœuds réduisent la résistance de la corde exactement de moitié.",
+          "text": "Le nœud de chaise conserve une résistance exceptionnelle de 89 %, alors que le cabestan la réduit de moitié.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -888,7 +888,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -897,12 +897,6 @@
       "kind": "matelotage_mc",
       "stem": "D'après le texte, quelle affirmation sur l'usage des nœuds est correcte ?",
       "choices": [
-        {
-          "text": "L'art des nœuds trouve principalement son essor dans la marine à la voile puis dans le nautisme de sport ou de loisir.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Les nœuds n'ont jamais été utilisés en dehors du domaine maritime.",
           "image": null,
@@ -913,6 +907,12 @@
           "text": "La connaissance des nœuds est devenue totalement inutile depuis l'apparition d'équipements spécialisés.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "L'art des nœuds trouve principalement son essor dans la marine à la voile puis dans le nautisme de sport ou de loisir.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -937,7 +937,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -947,15 +947,15 @@
       "stem": "Selon le texte, qu'est-ce qu'un nœud ?",
       "choices": [
         {
-          "text": "L'enlacement ou l'entrecroisement d'une ou de plusieurs cordes ou autres objets flexibles de forme filaire.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Exclusivement l'entrecroisement de deux câbles métalliques rigides.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "L'enlacement ou l'entrecroisement d'une ou de plusieurs cordes ou autres objets flexibles de forme filaire.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -986,7 +986,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -995,12 +995,6 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce signal ?",
       "choices": [
-        {
-          "text": "Lieu de mise à terre de bateaux",
-          "image": null,
-          "is_correct": false,
-          "rationale": "C'est un autre signal : « Lieu de mise à terre de bateaux » (ONI Annexe 4 – fig. 43)."
-        },
         {
           "text": "La largeur de la passe est limitée",
           "image": null,
@@ -1012,6 +1006,12 @@
           "image": null,
           "is_correct": true,
           "rationale": ""
+        },
+        {
+          "text": "Lieu de mise à terre de bateaux",
+          "image": null,
+          "is_correct": false,
+          "rationale": "C'est un autre signal : « Lieu de mise à terre de bateaux » (ONI Annexe 4 – fig. 43)."
         }
       ],
       "provenance": {
@@ -1035,7 +1035,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        2
+        1
       ]
     },
     {
@@ -1044,12 +1044,6 @@
       "kind": "figure_recognition",
       "stem": "Que signifie ce signal ?",
       "choices": [
-        {
-          "text": "Avis de tempête",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Barrage",
           "image": null,
@@ -1061,6 +1055,12 @@
           "image": null,
           "is_correct": false,
           "rationale": "C'est un autre signal : « Avis de fort vent » (ONI Annexe 4 – fig. 61)."
+        },
+        {
+          "text": "Avis de tempête",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
         }
       ],
       "provenance": {
@@ -1084,7 +1084,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1094,9 +1094,9 @@
       "stem": "Qu’observe-t-on à l’allure du vent arrière ?",
       "choices": [
         {
-          "text": "Le roulis s’accentue et l’empannage menace",
+          "text": "Le voilier ne peut plus avancer car il est face au vent",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1106,9 +1106,9 @@
           "rationale": ""
         },
         {
-          "text": "Le voilier ne peut plus avancer car il est face au vent",
+          "text": "Le roulis s’accentue et l’empannage menace",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1133,7 +1133,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1142,12 +1142,6 @@
       "kind": "rule_mc",
       "stem": "À l’allure du vent debout, que doit faire le voilier pour pouvoir progresser à l’aide de ses voiles ?",
       "choices": [
-        {
-          "text": "S’écarter d’environ 45° de l’axe du vent (30° sur les voiliers de régate les plus performants)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Maintenir son cap exactement face au vent en bordant ses voiles au maximum",
           "image": null,
@@ -1158,6 +1152,12 @@
           "text": "Établir le spinnaker pour capter le vent venant de l’avant",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "S’écarter d’environ 45° de l’axe du vent (30° sur les voiliers de régate les plus performants)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1182,7 +1182,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1247,13 +1247,13 @@
           "rationale": ""
         },
         {
-          "text": "Le « naufrage » : il entraîne presque toujours la perte du bateau",
+          "text": "L’« auloffée » : elle ne survient qu’au près serré",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "L’« auloffée » : elle ne survient qu’au près serré",
+          "text": "Le « naufrage » : il entraîne presque toujours la perte du bateau",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1290,15 +1290,15 @@
       "stem": "Qu’est-ce qui caractérise l’empannage par rapport au virement de bord ?",
       "choices": [
         {
-          "text": "Le changement d’amure se fait en passant par le vent arrière",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Le changement d’amure se fait en passant par le vent debout",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Le changement d’amure se fait en passant par le vent arrière",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1329,7 +1329,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1339,6 +1339,12 @@
       "stem": "Qu’est-ce que le foc sur un voilier ?",
       "choices": [
         {
+          "text": "Un câble du gréement dormant qui maintient le mât",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Une voile d’avant de forme triangulaire, retenue à l’étai par son guindant",
           "image": null,
           "is_correct": true,
@@ -1346,12 +1352,6 @@
         },
         {
           "text": "La voile principale gréée en arrière du mât",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Un câble du gréement dormant qui maintient le mât",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1378,7 +1378,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1388,15 +1388,15 @@
       "stem": "Que se passe-t-il lors d’un virement de bord ?",
       "choices": [
         {
-          "text": "Le côté du bateau qui était sous le vent passe au vent, et vice-versa",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Le voilier conserve la même amure tout au long de la manœuvre",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Le côté du bateau qui était sous le vent passe au vent, et vice-versa",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1427,7 +1427,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1437,9 +1437,9 @@
       "stem": "En mer, que dit la réglementation sur le rejet des détritus et des hydrocarbures ?",
       "choices": [
         {
-          "text": "Il est interdit",
+          "text": "Il est autorisé la nuit",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1449,9 +1449,9 @@
           "rationale": ""
         },
         {
-          "text": "Il est autorisé la nuit",
+          "text": "Il est interdit",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1476,7 +1476,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1486,15 +1486,15 @@
       "stem": "Que doit faire le plaisancier de ses déchets produits à bord ?",
       "choices": [
         {
-          "text": "Les rapporter à terre dans les installations portuaires",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Les jeter au large",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Les rapporter à terre dans les installations portuaires",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1525,7 +1525,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1535,6 +1535,12 @@
       "stem": "En Méditerranée, sur les herbiers de posidonie, le mouillage de l'ancre est :",
       "choices": [
         {
+          "text": "Recommandé car l'ancre y tient bien",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Réglementé, voire interdit (herbiers protégés)",
           "image": null,
           "is_correct": true,
@@ -1542,12 +1548,6 @@
         },
         {
           "text": "Libre et sans conséquence",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Recommandé car l'ancre y tient bien",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1574,7 +1574,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1590,13 +1590,13 @@
           "rationale": ""
         },
         {
-          "text": "10",
+          "text": "100",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "100",
+          "text": "10",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1633,15 +1633,15 @@
       "stem": "Sur une carte marine, par rapport à quel niveau les profondeurs (sondes) sont-elles indiquées ?",
       "choices": [
         {
-          "text": "Le zéro hydrographique (plus basses mers)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Le niveau moyen de la mer",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Le zéro hydrographique (plus basses mers)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1672,7 +1672,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1681,12 +1681,6 @@
       "kind": "meteo_mc",
       "stem": "Qu'appelle-t-on le « marnage » ?",
       "choices": [
-        {
-          "text": "La différence de hauteur entre pleine mer et basse mer",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "La vitesse du courant de marée",
           "image": null,
@@ -1697,6 +1691,12 @@
           "text": "La durée d'une marée",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "La différence de hauteur entre pleine mer et basse mer",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1721,7 +1721,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1731,9 +1731,9 @@
       "stem": "Entre quelles valeurs le coefficient de marée varie-t-il ?",
       "choices": [
         {
-          "text": "Entre 20 et 120",
+          "text": "Entre 1 et 12",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1743,9 +1743,9 @@
           "rationale": ""
         },
         {
-          "text": "Entre 1 et 12",
+          "text": "Entre 20 et 120",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1770,7 +1770,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1780,9 +1780,9 @@
       "stem": "À quoi sert la « règle des douzièmes » ?",
       "choices": [
         {
-          "text": "Estimer la hauteur d'eau à une heure donnée de la marée",
+          "text": "Mesurer la dérive due au courant",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -1792,9 +1792,9 @@
           "rationale": ""
         },
         {
-          "text": "Mesurer la dérive due au courant",
+          "text": "Estimer la hauteur d'eau à une heure donnée de la marée",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -1819,7 +1819,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -1835,13 +1835,13 @@
           "rationale": ""
         },
         {
-          "text": "Le moment où le courant est le plus fort",
+          "text": "La différence entre pleine et basse mer",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "La différence entre pleine et basse mer",
+          "text": "Le moment où le courant est le plus fort",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -1878,15 +1878,15 @@
       "stem": "Selon la règle des douzièmes, de quelle fraction du marnage l'eau monte-t-elle au cours de chaque heure successive, de la basse mer à la pleine mer ?",
       "choices": [
         {
-          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "1/12, 3/12, 4/12, 4/12, 3/12, 1/12",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "1/12, 2/12, 3/12, 3/12, 2/12, 1/12",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1917,7 +1917,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1927,15 +1927,15 @@
       "stem": "Comment désigne-t-on la marée descendante, durant laquelle le niveau baisse vers la basse mer ?",
       "choices": [
         {
-          "text": "Le jusant",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Le flot",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Le jusant",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -1966,7 +1966,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -1982,13 +1982,13 @@
           "rationale": ""
         },
         {
-          "text": "Mésotidal",
+          "text": "Microtidal",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Microtidal",
+          "text": "Mésotidal",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2025,6 +2025,12 @@
       "stem": "Sur les côtes de la Manche et de l'Atlantique, la marée est de type semi-diurne. Combien de pleines mers et de basses mers observe-t-on en une journée ?",
       "choices": [
         {
+          "text": "Trois pleines mers et trois basses mers",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Deux pleines mers et deux basses mers",
           "image": null,
           "is_correct": true,
@@ -2032,12 +2038,6 @@
         },
         {
           "text": "Une pleine mer et une basse mer",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Trois pleines mers et trois basses mers",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2064,7 +2064,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2074,6 +2074,12 @@
       "stem": "À quel coefficient de marée correspondent les pleines et basses mers de vive-eau moyenne (PMVE/BMVE) ?",
       "choices": [
         {
+          "text": "Coefficient 45",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Coefficient 95",
           "image": null,
           "is_correct": true,
@@ -2081,12 +2087,6 @@
         },
         {
           "text": "Coefficient 120",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Coefficient 45",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2113,7 +2113,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2123,6 +2123,12 @@
       "stem": "Lorsque la Terre, la Lune et le Soleil sont alignés (pleine ou nouvelle lune), quel type de marée observe-t-on ?",
       "choices": [
         {
+          "text": "Une absence de marée (étale permanent)",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Des vives-eaux (grand marnage)",
           "image": null,
           "is_correct": true,
@@ -2130,12 +2136,6 @@
         },
         {
           "text": "Des mortes-eaux (faible marnage)",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Une absence de marée (étale permanent)",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2162,7 +2162,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2171,12 +2171,6 @@
       "kind": "meteo_mc",
       "stem": "À quel niveau de référence le zéro hydrographique, auquel sont rapportées les sondes des cartes marines, est-il choisi en France ?",
       "choices": [
-        {
-          "text": "Au voisinage des plus basses mers astronomiques",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "Au niveau moyen de la mer",
           "image": null,
@@ -2187,6 +2181,12 @@
           "text": "Au voisinage des plus hautes mers astronomiques",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Au voisinage des plus basses mers astronomiques",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2211,7 +2211,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2220,12 +2220,6 @@
       "kind": "rule_mc",
       "stem": "Jusqu'à quelle distance d'un abri le permis plaisance option côtière autorise-t-il la navigation ?",
       "choices": [
-        {
-          "text": "6 milles nautiques",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
         {
           "text": "2 milles nautiques",
           "image": null,
@@ -2236,6 +2230,12 @@
           "text": "Sans aucune limite de distance",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "6 milles nautiques",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2260,7 +2260,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2270,15 +2270,15 @@
       "stem": "À quel programme de navigation correspond la catégorie de conception « C » d'un bateau de plaisance ?",
       "choices": [
         {
-          "text": "À proximité de la côte (force 6, vagues 2 m)",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "En haute mer sans restriction",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "À proximité de la côte (force 6, vagues 2 m)",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2309,7 +2309,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2417,9 +2417,9 @@
       "stem": "Pour limiter l'érosion des berges et le dérangement de la faune, le plaisancier doit surtout :",
       "choices": [
         {
-          "text": "Réduire sa vitesse et son batillage près des rives",
+          "text": "S'amarrer dans les roselières",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2429,9 +2429,9 @@
           "rationale": ""
         },
         {
-          "text": "S'amarrer dans les roselières",
+          "text": "Réduire sa vitesse et son batillage près des rives",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2456,7 +2456,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2472,13 +2472,13 @@
           "rationale": ""
         },
         {
-          "text": "Remplir le plus vite possible",
+          "text": "Rincer le réservoir à l'eau du canal",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Rincer le réservoir à l'eau du canal",
+          "text": "Remplir le plus vite possible",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2515,15 +2515,15 @@
       "stem": "Un déversement, à partir de votre bateau, d'une substance de nature à créer un danger pour la navigation s'est produit. Que devez-vous faire ?",
       "choices": [
         {
-          "text": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire, en indiquant la nature et l'endroit du déversement.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Ne rien signaler tant que le déversement n'entrave pas totalement la section d'eau.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Aviser sans délai l'autorité chargée de la police de la navigation et le gestionnaire, en indiquant la nature et l'endroit du déversement.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         },
         {
@@ -2554,7 +2554,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2570,13 +2570,13 @@
           "rationale": ""
         },
         {
-          "text": "Un carnet de contrôle des huiles usées, obligatoire uniquement à bord des menues embarcations.",
+          "text": "Une attestation annuelle de vidange délivrée par le gestionnaire de la voie d'eau.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Une attestation annuelle de vidange délivrée par le gestionnaire de la voie d'eau.",
+          "text": "Un carnet de contrôle des huiles usées, obligatoire uniquement à bord des menues embarcations.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2613,6 +2613,12 @@
       "stem": "Quelle obligation s'impose à toute personne se trouvant à bord d'un bateau ?",
       "choices": [
         {
+          "text": "Suivre uniquement les ordres relatifs à l'embarquement et au débarquement.",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Se conformer aux ordres donnés par le conducteur dans l'intérêt de la sécurité de la navigation et de l'ordre à bord.",
           "image": null,
           "is_correct": true,
@@ -2620,12 +2626,6 @@
         },
         {
           "text": "N'obéir au conducteur que si elle fait partie de l'équipage rémunéré du bateau.",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Suivre uniquement les ordres relatifs à l'embarquement et au débarquement.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2652,7 +2652,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
@@ -2711,9 +2711,9 @@
       "stem": "Concernant les ancres relevées et les objets dépassant des côtés d'un bateau, quelle règle s'applique ?",
       "choices": [
         {
-          "text": "Aucun objet susceptible de compromettre la sécurité ne doit déborder sur les côtés, et les ancres relevées ne doivent pas dépasser le fond ou la quille du bateau.",
+          "text": "Les ancres relevées doivent rester au-dessus de la ligne de flottaison, mais peuvent dépasser la quille du bateau.",
           "image": null,
-          "is_correct": true,
+          "is_correct": false,
           "rationale": ""
         },
         {
@@ -2723,9 +2723,9 @@
           "rationale": ""
         },
         {
-          "text": "Les ancres relevées doivent rester au-dessus de la ligne de flottaison, mais peuvent dépasser la quille du bateau.",
+          "text": "Aucun objet susceptible de compromettre la sécurité ne doit déborder sur les côtés, et les ancres relevées ne doivent pas dépasser le fond ou la quille du bateau.",
           "image": null,
-          "is_correct": false,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2750,7 +2750,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2766,13 +2766,13 @@
           "rationale": ""
         },
         {
-          "text": "N'avertir les autorités que si le bateau transporte des marchandises dangereuses.",
+          "text": "Laisser le bateau en place et attendre l'intervention obligatoire du gestionnaire sans intervenir.",
           "image": null,
           "is_correct": false,
           "rationale": ""
         },
         {
-          "text": "Laisser le bateau en place et attendre l'intervention obligatoire du gestionnaire sans intervenir.",
+          "text": "N'avertir les autorités que si le bateau transporte des marchandises dangereuses.",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2809,12 +2809,6 @@
       "stem": "Quelle obligation pèse sur le conducteur d'un bateau en périodes de glaces ou de crues ?",
       "choices": [
         {
-          "text": "Renforcer les amarres de son bateau, la glace étant brisée autour de la flottaison par lui ou sous sa responsabilité.",
-          "image": null,
-          "is_correct": true,
-          "rationale": ""
-        },
-        {
           "text": "Détacher entièrement le bateau de la rive pour le laisser dériver librement avec les glaces.",
           "image": null,
           "is_correct": false,
@@ -2824,6 +2818,12 @@
           "text": "Confier obligatoirement le brisage de la glace au gestionnaire de la voie d'eau, jamais au conducteur.",
           "image": null,
           "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Renforcer les amarres de son bateau, la glace étant brisée autour de la flottaison par lui ou sous sa responsabilité.",
+          "image": null,
+          "is_correct": true,
           "rationale": ""
         }
       ],
@@ -2848,7 +2848,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        2
       ]
     },
     {
@@ -2858,6 +2858,12 @@
       "stem": "La marque d'identification (immatriculation) d'un bateau doit être :",
       "choices": [
         {
+          "text": "Facultative pour la plaisance",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
           "text": "Apposée visiblement et lisiblement sur la coque",
           "image": null,
           "is_correct": true,
@@ -2865,12 +2871,6 @@
         },
         {
           "text": "Conservée uniquement dans les papiers du bord",
-          "image": null,
-          "is_correct": false,
-          "rationale": ""
-        },
-        {
-          "text": "Facultative pour la plaisance",
           "image": null,
           "is_correct": false,
           "rationale": ""
@@ -2897,7 +2897,7 @@
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
-        0
+        1
       ]
     },
     {
