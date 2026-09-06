@@ -207,11 +207,11 @@
        "correct": false
       },
       {
-       "text": "Van de spudpalen van een ander schip",
+       "text": "Van de voorwerpen welke daartoe zijn bestemd",
        "correct": false
       }
      ],
-     "explanation": "BPR artikel 7.04, derde lid: bij meren of verhalen mag geen gebruik worden gemaakt van andere voorwerpen dan die welke daartoe zijn bestemd."
+     "explanation": "BPR artikel 7.04, derde lid: bij meren of verhalen mag geen gebruik worden gemaakt van andere voorwerpen dan die welke daartoe zijn bestemd; de daartoe bestemde voorwerpen mogen dus wel worden gebruikt."
     }
    ]
   },
@@ -247,7 +247,7 @@
      "polarity": "affirmative",
      "choices": [
       {
-       "text": "Dat een ander schip langszijde komt of vastmaakt en daarover gemeenschap met de wal heeft",
+       "text": "Dat een ander schip langszijde komt of langszijde daarvan vastmaakt en daarover gemeenschap met de wal heeft, anders dan om te laden of te lossen",
        "correct": true
       },
       {

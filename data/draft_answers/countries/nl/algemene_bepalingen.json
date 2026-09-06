@@ -8,7 +8,7 @@
      "polarity": "affirmative",
      "choices": [
       {
-       "text": "Een schip waarvan de lengte minder dan 20 m bedraagt",
+       "text": "Een schip waarvan de lengte minder dan 20 m bedraagt, zulks met uitzondering van een schip dat een groot schip sleept, assisteert, duwt of langszijde vastgemaakt meevoert, een passagiersschip, een veerpont die vaart op een vaarweg van klasse II of hoger, een vissersschip en een duwbak",
        "correct": true
       },
       {
@@ -20,7 +20,7 @@
        "correct": false
       }
      ],
-     "explanation": "BPR artikel 1.01 onder A: een klein schip is een schip waarvan de lengte minder dan 20 m bedraagt, met een aantal uitzonderingen zoals een passagiersschip."
+     "explanation": "BPR artikel 1.01, onder A, 4°: een klein schip is een schip waarvan de lengte minder dan 20 m bedraagt, zulks met uitzondering van een schip dat een groot schip sleept, assisteert, duwt of langszijde vastgemaakt meevoert, een passagiersschip, een veerpont op een vaarweg van klasse II of hoger, een vissersschip en een duwbak."
     },
     {
      "stem": "Wat is volgens het BPR een groot schip?",
@@ -458,11 +458,11 @@
    "ref": "Binnenvaartpolitiereglement Artikel 2.02",
    "questions": [
     {
-     "stem": "Welke kentekens moeten op een klein schip zijn aangebracht?",
+     "stem": "Welke kentekens moeten ingevolge artikel 2.02, eerste lid, op een klein schip zijn aangebracht?",
      "polarity": "affirmative",
      "choices": [
       {
-       "text": "De naam van het schip en, op een in het oog vallende plaats, de naam en de woonplaats van de eigenaar",
+       "text": "Hetzij de naam van het schip of een kenspreuk, hetzij de naam van de instelling waaraan het schip toebehoort, alsmede de naam en de woonplaats van de eigenaar op een in het oog vallende plaats",
        "correct": true
       },
       {
@@ -474,7 +474,7 @@
        "correct": false
       }
      ],
-     "explanation": "BPR artikel 2.02, eerste lid: op een klein schip moeten de naam van het schip en de naam en woonplaats van de eigenaar zijn aangebracht."
+     "explanation": "BPR artikel 2.02, eerste lid, onder a en b: naam van het schip (of kenspreuk, dan wel de naam van de instelling) aan de buitenzijde, en naam en woonplaats van de eigenaar op een in het oog vallende plaats. Het derde lid verklaart het eerste lid niet van toepassing op snelle motorboten met het registratieteken van artikel 8.02, door spierkracht voortbewogen schepen en zeilschepen korter dan 7 m."
     },
     {
      "stem": "Welk kenteken volstaat op een bijboot van een schip?",

@@ -649,7 +649,7 @@
    "ref": "Binnenvaartpolitiereglement Artikel 6.19",
    "questions": [
     {
-     "stem": "Wat moet een schip doen dat het «blijf weg» sein hoort en een koers in de richting van het gevaarsgebied voorligt?",
+     "stem": "Wat moet een schip doen dat het in artikel 4.04 bedoelde sein hoort en een koers in de richting van het gevaarsgebied voorligt?",
      "polarity": "affirmative",
      "choices": [
       {
@@ -668,7 +668,7 @@
      "explanation": "BPR artikel 6.19, eerste lid onder a: een schip dat het sein hoort en een koers in de richting van het gevaarsgebied voorligt moet zich zover mogelijk verwijderd houden en zo nodig keren."
     },
     {
-     "stem": "Waarvoor moet de schipper onmiddellijk zorg dragen wanneer hij het «blijf weg» sein hoort?",
+     "stem": "Waarvoor moet de schipper onmiddellijk zorg dragen wanneer hij het in artikel 4.04 bedoelde sein hoort?",
      "polarity": "affirmative",
      "choices": [
       {
@@ -1509,7 +1509,7 @@
      "explanation": "BPR artikel 6.10, eerste lid: in beginsel moet de oploper aan bakboord van de opgelopene voorbijlopen; is daartoe ruimte, dan mag hij aan stuurboord voorbijlopen."
     },
     {
-     "stem": "Aan welke zijde moet een zeilschip dat een ander zeilschip oploopt zo mogelijk voorbijlopen?",
+     "stem": "Aan welke zijde moet een klein zeilschip dat een ander zeilschip oploopt zo mogelijk voorbijlopen?",
      "polarity": "affirmative",
      "choices": [
       {
@@ -1725,7 +1725,7 @@
     },
     {
      "stem": "Is waterskiën volgens het BPR toegestaan?",
-     "polarity": "negative",
+     "polarity": "affirmative",
      "choices": [
       {
        "text": "Nee, het is verboden, maar de bevoegde autoriteit kan vaarwegen aanwijzen waar het verbod overdag niet geldt",
@@ -1752,7 +1752,7 @@
      "polarity": "affirmative",
      "choices": [
       {
-       "text": "Gezeten zijn op de voor hem bestemde zitplaats en te allen tijde gebruik maken van de technische inrichting die de voortstuwing stopt bij onderbreking van de besturing",
+       "text": "Gezeten zijn op de voor hem bestemde zitplaats en te allen tijde gebruik maken van de technische inrichting, bedoeld in artikel 8.03, onderdeel d",
        "correct": true
       },
       {
@@ -2035,7 +2035,7 @@
    "ref": "Binnenvaartpolitiereglement Artikel 8.04",
    "questions": [
     {
-     "stem": "Wie draagt er mede zorg voor dat de regels over registratie en inrichting van een snelle motorboot worden nageleefd?",
+     "stem": "Wie draagt er mede zorg voor dat niet in strijd met de artikelen 8.01, 8.02 en 8.03 wordt gehandeld?",
      "polarity": "affirmative",
      "choices": [
       {

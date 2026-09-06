@@ -28,7 +28,7 @@
    "ref": "Scheepvaartverkeerswet Artikel 35a",
    "questions": [
     {
-     "stem": "Wat moet de houder van een vaarbewijs doen tegen wie proces-verbaal wordt opgemaakt wegens een in artikel 35b genoemd voorschrift?",
+     "stem": "Wat moet de houder van een vaarbewijs doen tegen wie proces-verbaal wordt opgemaakt wegens overtreding van een voorschrift als bedoeld in artikel 35b, eerste lid, in de gevallen bedoeld in artikel 35a, tweede lid, onderdelen a, b of c?",
      "polarity": "affirmative",
      "choices": [
       {
@@ -44,7 +44,7 @@
        "correct": false
       }
      ],
-     "explanation": "SVW artikel 35a, eerste lid: de houder overhandigt zijn vaarbewijs op eerste vordering aan de opsporingsambtenaar."
+     "explanation": "SVW artikel 35a, eerste lid: in de gevallen van het tweede lid, onderdelen a, b of c, overhandigt de houder zijn vaarbewijs op eerste vordering aan de opsporingsambtenaar."
     },
     {
      "stem": "Boven welk ademalcoholgehalte kan de officier van justitie een ingevorderd vaarbewijs onder zich houden?",
@@ -189,7 +189,7 @@
        "correct": true
       },
       {
-       "text": "Aan degene die de leeftijd van 16 jaar nog niet heeft bereikt",
+       "text": "Aan degene die de leeftijd van 20 jaar heeft bereikt",
        "correct": false
       },
       {
@@ -197,7 +197,7 @@
        "correct": false
       }
      ],
-     "explanation": "Binnenvaartwet artikel 27, eerste lid onder a: een vaarbewijs wordt niet afgegeven aan degene die de leeftijd van 18 jaar nog niet heeft bereikt."
+     "explanation": "Binnenvaartwet artikel 27, eerste lid onder a: een vaarbewijs wordt niet afgegeven aan degene die de leeftijd van 18 jaar nog niet heeft bereikt (behoudens de uitzondering voor kwalificatiecertificaten van bemanningsleden die geen schipper zijn); de overige weigeringsgronden staan in de onderdelen b tot en met d."
     },
     {
      "stem": "Aan wie wordt verder geen vaarbewijs afgegeven?",

@@ -76,7 +76,7 @@
    "ref": "Binnenvaartpolitiereglement Artikel 9.04",
    "questions": [
     {
-     "stem": "Aan welke motoreis moet een klein schip voldoen op de in bijlage 15 vermelde vaarwegen?",
+     "stem": "Aan welke motoreis moet een klein schip voldoen op de in bijlage 15, onder a, vermelde vaarwegen?",
      "polarity": "affirmative",
      "choices": [
       {
@@ -92,7 +92,7 @@
        "correct": false
       }
      ],
-     "explanation": "BPR artikel 9.04, eerste lid: op die vaarwegen mag een klein schip slechts varen met een motor die voor onmiddellijk gebruik gereed is en waarmee ten minste 6 kilometer per uur ten opzichte van het water kan worden gehandhaafd."
+     "explanation": "BPR artikel 9.04, eerste lid: op de in bijlage 15, onder a, vermelde vaarwegen mag een klein schip slechts varen indien het is voorzien van een motor die voor onmiddellijk gebruik gereed is en waarmee een snelheid van ten minste 6 kilometer per uur ten opzichte van het water kan worden gehandhaafd."
     },
     {
      "stem": "Is het op die vaarwegen toegestaan het vaarwater op te kruisen?",
