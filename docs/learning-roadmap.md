@@ -595,10 +595,10 @@ Two bugs worth remembering, both of the silent kind:
 
 ### What is not done
 
-* **No Dutch questions yet.** The CBR publishes no catalogue (only sample exams), so
-  the bank has to be law-seeded from the BPR and the Binnenvaartregeling behind the
-  review gate — the Bodensee/BSO route. That is the next task, and it is the larger
-  half of the work.
+* ~~No Dutch questions yet~~ — **since done.** The CBR publishes no catalogue (only
+  sample exams), so the bank was law-seeded from the BPR and the Binnenvaartregeling
+  behind the review gate — the Bodensee/BSO route. It landed: 234 questions,
+  adversarially verified and approved, served at `web/nl/`.
 * **The 686 Dutch plates are attached to their annex, not to individual signs.** The
   French RGP plates went one step further (per-code extraction + per-question
   attachment); the Dutch ones have not.
@@ -608,8 +608,9 @@ Two bugs worth remembering, both of the silent kind:
 
 ## The Dutch question bank — what a law-seeded bank costs
 
-234 questions, drafted from the 117 articles the Dutch exam programme names, held
-`pending`. Three things were learned that generalise beyond the Netherlands.
+234 questions, drafted from the 131 articles the Dutch exam programme names, taken
+through the review gate to `approved`. Three things were learned that generalise
+beyond the Netherlands.
 
 ### A permissive default can be switched off by a disclaimer
 
@@ -669,8 +670,11 @@ in `prose.py`, so every Dutch grounding score had been computed against the *Fre
 stopword list. Adding it dropped exactly one question below threshold — a paraphrase
 of what two *other* articles say, which is precisely what the guard is for.
 
-### What is deliberately not done
+### The review gate, run
 
-The bank stays `pending`. The project's verify pass is meant to be an independent
-agent told to default FAIL; the author of these questions is not that. Approval is a
-human decision and is recorded as one.
+The bank no longer stays `pending`. The verify pass ran as designed — an independent
+agent told to default FAIL, holding every draft against the cited article text: 219
+passed first review; 15 were rejected on substantive grounds (an over-broad scope, a
+wrong cross-reference, a distractor the source does not cover, an inverted polarity),
+repaired, and re-judged 15/15 PASS. All 234 are `approved`; every verdict is
+recorded in `data/verdicts/countries/nl/`, and `web/nl/` serves the result.

@@ -106,6 +106,10 @@ Omdat per vraag een ander gewicht geldt, wordt dit gemodelleerd als
 `scoring="all_or_nothing"` op punten (net als het Zwitserse VKS-examen) en niet als
 blokken (het Duitse SBF-model).
 
+De speler weegt elke vraag gelijk (3 punten): de oefenconfiguratie wordt gestempeld
+als 40 vragen / 60 min / 120 punten / geslaagd vanaf 84 (70 %). De precieze
+CBR-weging per vraag blijft als `volatile`-feit in `src/countries/nl.py` staan.
+
 ## Onderwerpen (thema-taxonomie)
 
 De taxonomie is niet verzonnen: **Binnenvaartregeling art. 7.15** somt de
@@ -183,7 +187,7 @@ Rijn (`RHINE`, RPR/CCR) telt Nederland al als deelnemer.
 
 ## De vragenbank
 
-**234 vragen**, afgeleid uit 117 artikelen die het examenprogramma noemt
+**234 vragen**, afgeleid uit 131 artikelen die het examenprogramma noemt
 (`data/questions.nl.sqlite`). Verdeling:
 
 | Thema | Vragen |
@@ -197,10 +201,15 @@ Rijn (`RHINE`, RPR/CCR) telt Nederland al als deelnemer.
 | Geluidsseinen | 6 |
 | Marifoon en radar | 4 |
 
-Elke vraag heeft precies drie antwoorden, hangt aan één artikel, draagt een
-verklaring met de vindplaats, en is **pending**: law-seeded vragen zijn geen
-officiële catalogus, dus niets bereikt de speler voordat een mens ze goedkeurt
-(`python run.py review --list`).
+Elke vraag heeft precies drie antwoorden, hangt aan één artikel en draagt een
+verklaring met de vindplaats. Alle 234 zijn **approved** — law-seeded vragen zijn
+geen officiële catalogus, dus niets bereikte de speler voordat de review gate ze
+toetste: een onafhankelijke controleur (niet de auteur) legde elke draft naast de
+geciteerde wettekst. 219 gingen in één keer door; 15 kregen een FAIL met een
+inhoudelijke reden (te ruime reikwijdte, een foute artikelverwijzing, een distractor
+die de bron niet dekt, een omgedraaide polariteit), werden gerepareerd en opnieuw
+geoordeeld — 15/15 PASS. Het verdictlogboek (`data/verdicts/countries/nl/`) is
+leidend: alleen een PASS komt in de bank.
 
 ### De audit (`tests/test_nl_questions.py`)
 
@@ -222,10 +231,25 @@ laatste de scherpste is:
   zijn 15/20/25, en één verwisseling maakt een fout antwoord waar. De controle is
   geverifieerd met een opzettelijk omgedraaide sleutel: die wordt gevangen.
 
+## De speler (`web/nl`)
+
+`python run.py web` bouwt de Nederlandse bundel: 234 vragen, twee examens
+(KVB I — 40 vragen/60 min, KVB II — 27 vragen/90 min), de wettelijke vaargebieden
+en de aanvraagstappen uit `src/countries/nl.py`. Anki-decks en GIFT-export zitten
+in de bundel; de Nederlandse UI-vertaling in `web/i18n.js` (`nl`).
+
+Van de 234 vragen zijn er 209 overdraagbaar (174 `cevni`, 35 `universal`); zij
+worden met de banken van de andere landen gepoold in de gedeelde kern op de
+`web/`-root (`web/questions.cevni.nl.json`, `web/questions.universal.nl.json`).
+De 25 nationaal-eigen vragen (Binnenvaartwet/-besluit/-regeling, vaarbewijs)
+blijven NL-specifiek.
+
+> KVB II krijgt in de speler zijn eigen examenvorm (27 vragen/90 min), maar put
+> nog uit dezelfde vragenpool als KVB I: de extra KVB II-reglementen zijn niet
+> ingestiet (zie hieronder).
+
 ## Wat nog open staat
 
-* **Goedkeuring.** Alle 234 vragen staan pending. De review gate is bewust dicht: de
-  auteur van deze vragen is niet hun onafhankelijke controleur.
 * **Niet ingestiet.** Scheepvaartreglement Westerschelde 1990, Scheepvaartreglement
   Eemsmonding en Scheepvaartreglement Gemeenschappelijke Maas staan als
   :class:`Reference` vast (vrij van auteursrecht, maar nog niet nodig).
