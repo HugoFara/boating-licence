@@ -317,7 +317,7 @@ def _landing_html() -> str:
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<nav class="countrybar"><a href="../">🏠 Accueil</a> · <a href="../int/">🌍 Code commun</a> · <a href="../ch/">🇨🇭 Suisse</a> · <a href="../de/">🇩🇪 Deutschland</a> · <span class="on">🇫🇷 France</span></nav>
+<nav class="countrybar"><a href="../">🏠 Accueil</a> · <a href="../int/">🌍 Code commun</a> · <a href="../ch/">🇨🇭 Suisse</a> · <a href="../de/">🇩🇪 Deutschland</a> · <a href="../nl/">🇳🇱 Nederland</a> · <span class="on">🇫🇷 France</span></nav>
 <main id="app">
   <section class="screen">
     <h1>Permis plaisance — France</h1>
@@ -351,6 +351,7 @@ def _nav(option: str) -> str:
             links.append(f'<a href="../{code}/">{label}</a>')
     return ('<a href="../../">🏠 Accueil</a> · <a href="../../int/">🌍 Code commun</a> · '
             '<a href="../../ch/">🇨🇭 Suisse</a> · <a href="../../de/">🇩🇪 Deutschland</a> · '
+            '<a href="../../nl/">🇳🇱 Nederland</a> · '
             '<a href="../">🇫🇷 France</a> · ' + " · ".join(links))
 
 

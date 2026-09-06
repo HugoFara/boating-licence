@@ -198,6 +198,10 @@
       "it": {
         "path": "../questions.universal.it.json",
         "count": 30
+      },
+      "nl": {
+        "path": "../questions.universal.nl.json",
+        "count": 35
       }
     },
     "cevni": {
@@ -216,6 +220,10 @@
       "it": {
         "path": "../questions.cevni.it.json",
         "count": 153
+      },
+      "nl": {
+        "path": "../questions.cevni.nl.json",
+        "count": 174
       }
     },
     "colregs": {

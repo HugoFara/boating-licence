@@ -1,0 +1,1727 @@
+{
+  "meta": {
+    "lang": "nl",
+    "pool": "universal",
+    "scope": "universal",
+    "unofficial": false,
+    "generated": "2026-09-07",
+    "grounding": "Portable seamanship — valid under any code."
+  },
+  "questions": [
+    {
+      "id": "q-binnenvaartbesluit-nl-binnenvaartbesluit-3c20e014",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat verstaat het Binnenvaartbesluit onder een duwboot?",
+      "choices": [
+        {
+          "text": "Een schip dat is bestemd of wordt gebruikt voor het duwen van schepen en niet bestemd is voor het zelfstandig vervoeren van goederen",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Een schip dat is bestemd voor het slepen van schepen",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Een drijvend bouwsel met permanente ligplaats voor de levering van brandstof",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "binnenvaartbesluit-nl-binnenvaartbesluit_artikel_1-8b75455f",
+        "ref": "Binnenvaartbesluit Artikel 1",
+        "source": "Binnenvaartbesluit",
+        "url": "https://wetten.overheid.nl/BWBR0025631",
+        "as_of": "2025-06-01",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Binnenvaartbesluit artikel 1: duwboot is een schip dat is bestemd of wordt gebruikt voor het duwen van schepen en niet bestemd is voor het zelfstandig vervoeren van goederen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-binnenvaartbesluit-nl-binnenvaartbesluit-bcc5f881",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat verstaat het Binnenvaartbesluit onder de lengte van een schip?",
+      "choices": [
+        {
+          "text": "De grootste lengte van de scheepsromp in meters, het roer en de boegspriet niet inbegrepen",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "De grootste lengte inclusief het roer en de boegspriet",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "De afstand tussen de loodlijnen van het schip",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "binnenvaartbesluit-nl-binnenvaartbesluit_artikel_1-8b75455f",
+        "ref": "Binnenvaartbesluit Artikel 1",
+        "source": "Binnenvaartbesluit",
+        "url": "https://wetten.overheid.nl/BWBR0025631",
+        "as_of": "2025-06-01",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Binnenvaartbesluit artikel 1: lengte is de grootste lengte van de scheepsromp in meters, het roer en de boegspriet niet inbegrepen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-binnenvaartwet-nl-binnenvaartwetartikel1-12777171",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat verstaat de Binnenvaartwet onder binnenwateren?",
+      "choices": [
+        {
+          "text": "Wateren die in Nederland zijn gelegen binnen een langs de Nederlandse kust gaande, bij ministeriële regeling aan te wijzen lijn",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Alle wateren binnen de territoriale zee van Nederland",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Uitsluitend de rivieren en kanalen in beheer bij het Rijk",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "binnenvaartwet-nl-binnenvaartwet_artikel_1-517e6226",
+        "ref": "Binnenvaartwet Artikel 1",
+        "source": "Binnenvaartwet",
+        "url": "https://wetten.overheid.nl/BWBR0023009",
+        "as_of": "2025-06-01",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Binnenvaartwet artikel 1: binnenwateren zijn wateren die in Nederland zijn gelegen binnen een langs de Nederlandse kust gaande, bij ministeriële regeling aan te wijzen lijn.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-binnenvaartwet-nl-binnenvaartwetartikel1-bc0178de",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wie is volgens de Binnenvaartwet een bemanningslid?",
+      "choices": [
+        {
+          "text": "Uitsluitend de schipper en de stuurman",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ieder die zich als schipper, stuurman, machinist, matroos of deksman aan boord van een schip bevindt",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Iedere passagier die meehelpt bij het meren",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "binnenvaartwet-nl-binnenvaartwet_artikel_1-517e6226",
+        "ref": "Binnenvaartwet Artikel 1",
+        "source": "Binnenvaartwet",
+        "url": "https://wetten.overheid.nl/BWBR0023009",
+        "as_of": "2025-06-01",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Binnenvaartwet artikel 1: bemanningslid is ieder die zich als schipper, stuurman, machinist, volmatroos, matroos-motordrijver, matroos, lichtmatroos, lid van het veiligheidspersoneel of deksman aan boord bevindt.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-0f45323a",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Waar staat welke scheepsbescheiden aan boord aanwezig moeten zijn?",
+      "choices": [
+        {
+          "text": "In het Handboek voor de radiocommunicatie in de binnenvaart",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "In bijlage 13 van het reglement",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "In bijlage 7 van het reglement",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_110-dc964c12",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.10",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.10, eerste lid: aan boord moeten de in bijlage 13 bedoelde scheepsbescheiden en andere documenten aanwezig zijn.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-1350e11b",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Moet de schipper tijdens de vaart aan boord zijn?",
+      "choices": [
+        {
+          "text": "Nee, hij mag het schip vanaf de wal aansturen",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ja, de schipper moet tijdens de vaart aan boord zijn",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Alleen wanneer het schip een groot schip is",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_102-140b6736",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.02",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.02, vierde lid: de schipper moet tijdens de vaart aan boord zijn; de schipper van een drijvend werktuig ook wanneer het werktuig in bedrijf is.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-14ec46f2",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wie is verantwoordelijk voor de naleving van de bepalingen van het BPR?",
+      "choices": [
+        {
+          "text": "De schipper, tenzij uit die bepalingen blijkt dat de naleving aan anderen is opgedragen",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "De eigenaar van het schip in alle gevallen",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "De bevoegde autoriteit van het vaargebied",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_102-140b6736",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.02",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.02, tweede lid: de schipper is verantwoordelijk voor de naleving van de bepalingen van dit reglement, tenzij daaruit blijkt dat de naleving aan anderen is opgedragen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-1b905606",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Welke minimumleeftijd geldt voor het sturen van een snelle motorboot?",
+      "choices": [
+        {
+          "text": "18 jaar",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "12 jaar",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "16 jaar",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_109-511ae400",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.09",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.09, eerste lid onder a: voor het sturen van een snelle motorboot geldt een minimumleeftijd van 18 jaar.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-1c199ec4",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat mag een schip niet doen met een verkeersteken?",
+      "choices": [
+        {
+          "text": "Het fotograferen vanaf het water",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Het gebruiken om daaraan te meren of te verhalen, het beschadigen of het ongeschikt maken voor zijn bestemming",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Het passeren aan de zijde waar het is aangebracht",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_113-23b5a6aa",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.13",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.13, eerste lid: een schip mag verkeerstekens niet gebruiken om daaraan te meren of te verhalen, ze niet beschadigen en ze niet ongeschikt voor hun bestemming maken.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-21613444",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat is volgens het BPR een groot schip?",
+      "choices": [
+        {
+          "text": "Elk schip met een lengte van meer dan 40 m",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Elk schip dat bedrijfsmatig goederen vervoert",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Een schip niet zijnde een klein schip",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_101-5435ab80",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.01",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.01 onder A, 3°: een groot schip is een schip niet zijnde een klein schip.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-2b06ba7d",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat is volgens het BPR een klein schip?",
+      "choices": [
+        {
+          "text": "Een schip waarvan de lengte minder dan 15 m bedraagt",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Een schip waarvan de lengte minder dan 20 m bedraagt, zulks met uitzondering van een schip dat een groot schip sleept, assisteert, duwt of langszijde vastgemaakt meevoert, een passagiersschip, een veerpont die vaart op een vaarweg van klasse II of hoger, een vissersschip en een duwbak",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Een schip waarvan de lengte minder dan 25 m bedraagt",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_101-5435ab80",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.01",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.01, onder A, 4°: een klein schip is een schip waarvan de lengte minder dan 20 m bedraagt, zulks met uitzondering van een schip dat een groot schip sleept, assisteert, duwt of langszijde vastgemaakt meevoert, een passagiersschip, een veerpont op een vaarweg van klasse II of hoger, een vissersschip en een duwbak.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-2fb40c21",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wie moet de aanwijzingen opvolgen die de schipper geeft in het belang van de veiligheid van de scheepvaart?",
+      "choices": [
+        {
+          "text": "Uitsluitend de leden van de bemanning",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ieder ander die zich aan boord van het schip bevindt",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Uitsluitend de eigenaar van het schip",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_103-cfc8386d",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.03",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.03, tweede lid: ieder ander die zich aan boord bevindt moet de aanwijzingen opvolgen die de schipper geeft in het belang van de veiligheid van de scheepvaart of van de goede orde aan boord.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-3e4b1131",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Aan wie moeten de scheepsbescheiden op verzoek worden overhandigd?",
+      "choices": [
+        {
+          "text": "Aan iedere schipper die erom vraagt",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Aan de ambtenaren belast met toezicht of opsporing van de bevoegde autoriteit",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Uitsluitend aan de eigenaar van het schip",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_110-dc964c12",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.10",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.10, eerste lid: de bescheiden moeten op verzoek worden overhandigd aan de ambtenaren belast met toezicht of opsporing van de bevoegde autoriteit.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-54f03822",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Onder welke voorwaarde mogen werkzaamheden buiten boord worden uitgevoerd?",
+      "choices": [
+        {
+          "text": "Uitsluitend met toestemming van de bevoegde autoriteit",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Uitsluitend bij stilliggende schepen en uitsluitend indien van de overige scheepvaart geen gevaar te verwachten valt",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Uitsluitend tijdens de vaart met verminderde snelheid",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_108-84421a36",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.08",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.08, tweede lid: werkzaamheden buiten boord mogen uitsluitend bij stilliggende schepen worden uitgevoerd en alleen als van de overige scheepvaart geen gevaar te verwachten valt.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-618f73f3",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Welke kentekens moeten ingevolge artikel 2.02, eerste lid, op een klein schip zijn aangebracht?",
+      "choices": [
+        {
+          "text": "Uitsluitend een registratienummer aan de buitenzijde",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Hetzij de naam van het schip of een kenspreuk, hetzij de naam van de instelling waaraan het schip toebehoort, alsmede de naam en de woonplaats van de eigenaar op een in het oog vallende plaats",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Uitsluitend de naam van de verzekeraar",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_202-6216c67d",
+        "ref": "Binnenvaartpolitiereglement Artikel 2.02",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 2.02, eerste lid, onder a en b: naam van het schip (of kenspreuk, dan wel de naam van de instelling) aan de buitenzijde, en naam en woonplaats van de eigenaar op een in het oog vallende plaats. Het derde lid verklaart het eerste lid niet van toepassing op snelle motorboten met het registratieteken van artikel 8.02, door spierkracht voortbewogen schepen en zeilschepen korter dan 7 m.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-69a9b4a9",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat moet de schipper doen als het reglement geen uitdrukkelijk voorschrift geeft?",
+      "choices": [
+        {
+          "text": "De vaart staken tot de bevoegde autoriteit een aanwijzing geeft",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Alle voorzorgsmaatregelen nemen die volgens goede zeemanschap of door de omstandigheden zijn geboden",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "De regels van het Rijnvaartpolitiereglement toepassen",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_104-82b957f1",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.04",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.04: de schipper moet, ook bij ontbreken van uitdrukkelijke voorschriften, alle voorzorgsmaatregelen nemen die volgens goede zeemanschap of door de omstandigheden zijn geboden.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-7581fd22",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Welk kenteken volstaat op een bijboot van een schip?",
+      "choices": [
+        {
+          "text": "Een kenteken waaruit kan worden opgemaakt wie de eigenaar is",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Een registratieteken zoals voor snelle motorboten",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "De volledige naam en woonplaats van de eigenaar in Latijnse letters",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_202-6216c67d",
+        "ref": "Binnenvaartpolitiereglement Artikel 2.02",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 2.02, tweede lid: op een bijboot behoeft slechts een kenteken te zijn aangebracht waaruit kan worden opgemaakt wie de eigenaar is.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-9d76aa6d",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wanneer moeten opvarenden van een schip bestemd voor bedrijfsmatig vervoer een reddingsvest dragen?",
+      "choices": [
+        {
+          "text": "Bij het van of aan boord gaan als er gevaar voor in het water vallen bestaat, bij verblijf in de bijboot en bij werkzaamheden buiten boord",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Uitsluitend tijdens het schutten in een sluis",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Uitsluitend bij slecht zicht",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_108-84421a36",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.08",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.08, eerste lid: reddingsvesten moeten onder meer worden gedragen bij het van of aan boord gaan met gevaar voor in het water vallen, bij verblijf in de bijboot en bij werkzaamheden buiten boord.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-cb7e9c84",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat moet de schipper doen als zijn schip een voorwerp verliest waardoor gevaar voor de scheepvaart kan ontstaan?",
+      "choices": [
+        {
+          "text": "Onverwijld kennis geven aan de dichtstbijzijnde bevoegde autoriteit en zo nauwkeurig mogelijk de plaats aangeven",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Het voorwerp binnen 24 uur zelf bergen zonder melding",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Het verlies pas aan het einde van de reis melden",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_112-0034ec18",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.12",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.12, derde lid: de schipper moet onverwijld kennis geven aan de dichtstbijzijnde bevoegde autoriteit en daarbij zo nauwkeurig mogelijk de plaats aangeven waar het voorwerp is verloren.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-ccba092f",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat moet de schipper doen als hij een verkeersteken heeft verplaatst of beschadigd?",
+      "choices": [
+        {
+          "text": "De melding binnen dertig dagen schriftelijk doen",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Onverwijld kennis geven aan de dichtstbijzijnde bevoegde autoriteit",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Het teken zelf herstellen en niets melden",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_113-23b5a6aa",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.13",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.13, tweede lid: de schipper moet daarvan onverwijld kennis geven aan de dichtstbijzijnde bevoegde autoriteit.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-cef366b2",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Welke minimumleeftijd geldt voor het sturen van een klein open motorschip met een lengte van minder dan 7 m waarvan de hoogst bereikbare snelheid niet meer is dan 13 km per uur?",
+      "choices": [
+        {
+          "text": "18 jaar",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "12 jaar",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "16 jaar",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_109-511ae400",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.09",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.09, eerste lid onder c: voor zo'n klein open motorschip geldt een minimumleeftijd van 12 jaar.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-bpr-nl-binnenvaartpolitiereglementartike-db74b81a",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat moet een schip doen met een anker waarvan geen gebruik wordt gemaakt?",
+      "choices": [
+        {
+          "text": "Het anker geheel voorhalen",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Het anker op de bodem laten liggen",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Het anker aan een boei bevestigen",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "bpr-nl-binnenvaartpolitiereglement_artikel_112-0034ec18",
+        "ref": "Binnenvaartpolitiereglement Artikel 1.12",
+        "source": "Binnenvaartpolitiereglement (BPR)",
+        "url": "https://wetten.overheid.nl/BWBR0003628",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "BPR artikel 1.12, tweede lid: een schip moet een anker waarvan geen gebruik wordt gemaakt geheel voorhalen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rpr-nl-rijnvaartpolitiereglement1995arti-1d249994",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat moet aan boord van een schip op de Rijn aanwezig zijn, met uitzondering van een klein schip en een duwbak?",
+      "choices": [
+        {
+          "text": "Een exemplaar van het Binnenvaartpolitiereglement",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Een bijgewerkt exemplaar van het reglement, eventueel elektronisch raadpleegbaar",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Een papieren waterkaart van de gehele Rijn",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "rpr-nl-rijnvaartpolitiereglement_1995_artikel_111-db2f8259",
+        "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.11",
+        "source": "Rijnvaartpolitiereglement 1995 (RPR)",
+        "url": "https://wetten.overheid.nl/BWBR0006923",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RPR artikel 1.11, eerste lid: aan boord moet een bijgewerkt exemplaar van dit reglement aanwezig zijn; een elektronisch exemplaar dat op ieder moment geraadpleegd kan worden is eveneens toegestaan.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rpr-nl-rijnvaartpolitiereglement1995arti-5d5482ee",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat moet een lid van de bemanning doen ten aanzien van de aanwijzingen van de schipper?",
+      "choices": [
+        {
+          "text": "De aanwijzingen opvolgen die de schipper binnen de grenzen van diens verantwoordelijkheid geeft en meewerken aan de naleving van het reglement",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "De aanwijzingen uitsluitend opvolgen wanneer zij schriftelijk zijn gegeven",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "De aanwijzingen alleen opvolgen bij slecht zicht",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "rpr-nl-rijnvaartpolitiereglement_1995_artikel_103-d8a60e5c",
+        "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.03",
+        "source": "Rijnvaartpolitiereglement 1995 (RPR)",
+        "url": "https://wetten.overheid.nl/BWBR0006923",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RPR artikel 1.03, eerste lid: een bemanningslid moet de aanwijzingen van de schipper opvolgen en meewerken aan de naleving van dit reglement.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rpr-nl-rijnvaartpolitiereglement1995arti-5effdc3a",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Welk gevolg moet de schipper op de Rijn krachtens de algemene plicht tot waakzaamheid mede voorkomen?",
+      "choices": [
+        {
+          "text": "Dat het schip te laat op zijn bestemming aankomt",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Dat het milieu in ernstige mate kan worden beïnvloed",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Dat het schip brandstof verbruikt boven het gemiddelde",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "rpr-nl-rijnvaartpolitiereglement_1995_artikel_104-6fedb2ec",
+        "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.04",
+        "source": "Rijnvaartpolitiereglement 1995 (RPR)",
+        "url": "https://wetten.overheid.nl/BWBR0006923",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RPR artikel 1.04 onder d: de schipper moet mede voorkomen dat het milieu in ernstige mate kan worden beïnvloed.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rpr-nl-rijnvaartpolitiereglement1995arti-5fc47a2d",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Voor welke schepen geldt die leeftijdsvoorwaarde niet?",
+      "choices": [
+        {
+          "text": "Voor veerponten",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Voor alle kleine schepen",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Voor kleine schepen zonder motor",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "rpr-nl-rijnvaartpolitiereglement_1995_artikel_109-4978a1c8",
+        "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.09",
+        "source": "Rijnvaartpolitiereglement 1995 (RPR)",
+        "url": "https://wetten.overheid.nl/BWBR0006923",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RPR artikel 1.09, tweede lid: de voorwaarde aangaande de leeftijd geldt niet voor kleine schepen zonder motor.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rpr-nl-rijnvaartpolitiereglement1995arti-79268131",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat is volgens het RPR een duwstel?",
+      "choices": [
+        {
+          "text": "Een hecht samenstel van schepen waarvan er ten minste één is geplaatst vóór het motorschip dat dient voor het voortbewegen van het samenstel",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Een samenstel van schepen dat door één of meer motorschepen wordt gesleept",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Twee schepen die langszijde van elkaar zijn vastgemaakt",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "rpr-nl-rijnvaartpolitiereglement_1995_artikel_101-a07dfaf1",
+        "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.01",
+        "source": "Rijnvaartpolitiereglement 1995 (RPR)",
+        "url": "https://wetten.overheid.nl/BWBR0006923",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RPR artikel 1.01 onder e: een duwstel is een hecht samenstel van schepen waarvan er ten minste één vóór het voortbewegende motorschip is geplaatst.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rpr-nl-rijnvaartpolitiereglement1995arti-8cdbc32c",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wie is nog meer verantwoordelijk voor de naleving van het reglement?",
+      "choices": [
+        {
+          "text": "Uitsluitend de eigenaar van het schip",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Uitsluitend de bevoegde autoriteit",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Ieder die zich aan boord bevindt en tijdelijk zelfstandig de koers en de snelheid van het schip bepaalt",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "rpr-nl-rijnvaartpolitiereglement_1995_artikel_103-d8a60e5c",
+        "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.03",
+        "source": "Rijnvaartpolitiereglement 1995 (RPR)",
+        "url": "https://wetten.overheid.nl/BWBR0006923",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RPR artikel 1.03, derde lid: een bemanningslid en ieder ander die tijdelijk zelfstandig de koers en de snelheid bepaalt is eveneens verantwoordelijk voor de naleving van dit reglement.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rpr-nl-rijnvaartpolitiereglement1995arti-9666162f",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat is de schipper verplicht wanneer een schip in zijn nabijheid door een ongeval is getroffen waarbij personen gevaar lopen?",
+      "choices": [
+        {
+          "text": "Onverwijld bijstand te verlenen, voor zover dit met de veiligheid van zijn eigen schip is te verenigen",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Af te wachten tot een reddingsvaartuig ter plaatse is",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Uitsluitend de positie van het getroffen schip door te geven",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "rpr-nl-rijnvaartpolitiereglement_1995_artikel_116-bd8d4cc2",
+        "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.16",
+        "source": "Rijnvaartpolitiereglement 1995 (RPR)",
+        "url": "https://wetten.overheid.nl/BWBR0006923",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RPR artikel 1.16, tweede lid: de schipper is verplicht onverwijld bijstand te verlenen, voor zover dit met de veiligheid van zijn schip is te verenigen.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rpr-nl-rijnvaartpolitiereglement1995arti-a1e97de3",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Welke minimumleeftijd geldt op de Rijn voor de persoon die het roer bedient?",
+      "choices": [
+        {
+          "text": "16 jaar",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "18 jaar",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "12 jaar",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "rpr-nl-rijnvaartpolitiereglement_1995_artikel_109-4978a1c8",
+        "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.09",
+        "source": "Rijnvaartpolitiereglement 1995 (RPR)",
+        "url": "https://wetten.overheid.nl/BWBR0006923",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RPR artikel 1.09, eerste lid: tijdens de vaart moet het roer worden bediend door ten minste één daartoe bekwaam persoon die de leeftijd van 16 jaar heeft bereikt.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        0
+      ]
+    },
+    {
+      "id": "q-rpr-nl-rijnvaartpolitiereglement1995arti-e15a41c7",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Waaruit blijkt op de Rijn dat de schipper de vereiste bekwaamheid bezit?",
+      "choices": [
+        {
+          "text": "Uit een verklaring van de eigenaar van het schip",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Uit een geldig kwalificatiecertificaat schipper overeenkomstig het Reglement betreffende het Scheepvaartpersoneel op de Rijn",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Uit een aantekening in het scheepsdagboek",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "rpr-nl-rijnvaartpolitiereglement_1995_artikel_102-2a699604",
+        "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.02",
+        "source": "Rijnvaartpolitiereglement 1995 (RPR)",
+        "url": "https://wetten.overheid.nl/BWBR0006923",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RPR artikel 1.02, eerste lid: de schipper wordt geacht de vereiste bekwaamheid te hebben indien hij houder is van een geldig kwalificatiecertificaat schipper overeenkomstig het Reglement betreffende het Scheepvaartpersoneel op de Rijn.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-rpr-nl-rijnvaartpolitiereglement1995arti-eeb9dde7",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat is volgens het RPR een sleep?",
+      "choices": [
+        {
+          "text": "Een schip dat langszijde van een ander schip is vastgemaakt",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Een hecht samenstel waarbij een schip vóór het motorschip is geplaatst",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Een samenstel van één of meer schepen, drijvende inrichtingen of drijvende voorwerpen dat door één of meer motorschepen wordt gesleept",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "rpr-nl-rijnvaartpolitiereglement_1995_artikel_101-a07dfaf1",
+        "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.01",
+        "source": "Rijnvaartpolitiereglement 1995 (RPR)",
+        "url": "https://wetten.overheid.nl/BWBR0006923",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RPR artikel 1.01 onder d: een sleep is een samenstel van één of meer schepen, drijvende inrichtingen of drijvende voorwerpen dat door één of meer motorschepen wordt gesleept.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        2
+      ]
+    },
+    {
+      "id": "q-rpr-nl-rijnvaartpolitiereglement1995arti-f0fbc4eb",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Wat moet de schipper doen bij een ongeval dat de opvarenden van zijn schip in gevaar brengt?",
+      "choices": [
+        {
+          "text": "Uitsluitend de bevoegde autoriteit waarschuwen en wachten",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Alle hem ten dienste staande middelen tot hun redding aanwenden",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Het schip zo snel mogelijk naar de dichtstbijzijnde haven brengen",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "rpr-nl-rijnvaartpolitiereglement_1995_artikel_116-bd8d4cc2",
+        "ref": "Rijnvaartpolitiereglement 1995 Artikel 1.16",
+        "source": "Rijnvaartpolitiereglement 1995 (RPR)",
+        "url": "https://wetten.overheid.nl/BWBR0006923",
+        "as_of": "2026-06-17",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "RPR artikel 1.16, eerste lid: bij een ongeval dat de opvarenden in gevaar brengt moet de schipper alle hem ten dienste staande middelen tot hun redding aanwenden.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-vaststellingsbesluitbpr-nl-vaststellings-b2cdbfa5",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Op welke vaarwegen geldt het Binnenvaartpolitiereglement níét?",
+      "choices": [
+        {
+          "text": "Op het IJsselmeer en het Markermeer",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Op de Boven-Rijn, de Waal, het Pannerdensch Kanaal, de Neder-Rijn en de Lek",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        },
+        {
+          "text": "Op alle kanalen in beheer bij het Rijk",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "vaststellingsbesluit_bpr-nl-vaststellingsbesluit_binnenvaartpolitiereglement-7f47af4c",
+        "ref": "Vaststellingsbesluit Binnenvaartpolitiereglement Artikel 2",
+        "source": "Vaststellingsbesluit Binnenvaartpolitiereglement",
+        "url": "https://wetten.overheid.nl/BWBR0003627",
+        "as_of": "2025-01-01",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "negative",
+      "image": null,
+      "points": 3,
+      "explanation": "Vaststellingsbesluit BPR artikel 2, eerste lid onder a: het BPR geldt niet op de Boven-Rijn, de Waal, het Pannerdensch Kanaal, de Neder-Rijn en de Lek.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        1
+      ]
+    },
+    {
+      "id": "q-vaststellingsbesluitbpr-nl-vaststellings-f2ac6770",
+      "theme": "algemene_bepalingen",
+      "kind": "definition_mc",
+      "stem": "Welk zeegat is eveneens uitgezonderd van het toepassingsgebied van het BPR?",
+      "choices": [
+        {
+          "text": "De Waddenzee met het Eemskanaal",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "Het IJsselmeer met het Markermeer",
+          "image": null,
+          "is_correct": false,
+          "rationale": ""
+        },
+        {
+          "text": "De Westerschelde met haar mondingen",
+          "image": null,
+          "is_correct": true,
+          "rationale": ""
+        }
+      ],
+      "provenance": {
+        "unit_id": "vaststellingsbesluit_bpr-nl-vaststellingsbesluit_binnenvaartpolitiereglement-7f47af4c",
+        "ref": "Vaststellingsbesluit Binnenvaartpolitiereglement Artikel 2",
+        "source": "Vaststellingsbesluit Binnenvaartpolitiereglement",
+        "url": "https://wetten.overheid.nl/BWBR0003627",
+        "as_of": "2025-01-01",
+        "licence": "Public domain — Dutch law carries no copyright (Auteurswet art. 11). Consolidated text + annex figures via wetten.overheid.nl / KOOP open data."
+      },
+      "lang": "nl",
+      "polarity": "affirmative",
+      "image": null,
+      "points": 3,
+      "explanation": "Vaststellingsbesluit BPR artikel 2, eerste lid onder c: de Westerschelde met haar mondingen valt buiten het toepassingsgebied van het BPR.",
+      "review_status": "approved",
+      "distractor_strategy": "n/a",
+      "generator": "subagent:nl.nl.v1",
+      "block": "",
+      "principle": "",
+      "reveal_image": null,
+      "difficulty": "unrated",
+      "correct": [
+        2
+      ]
+    }
+  ]
+}

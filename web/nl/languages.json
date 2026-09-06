@@ -1,0 +1,189 @@
+{
+  "default": "nl",
+  "supported": [
+    "nl"
+  ],
+  "available": {
+    "nl": {
+      "count": 234,
+      "unofficial": false
+    }
+  },
+  "permits": [
+    {
+      "code": "KVB-1",
+      "drive": "motor+sail",
+      "track": "inland",
+      "label": "Klein Vaarbewijs I (rivieren, kanalen en meren)",
+      "note": "Vereist voor schepen van 15 tot 20 m, pleziervaartuigen van 15 tot 25 m, en elk schip korter dan 15 m dat sneller dan 20 km/u door het water kan (Binnenvaartbesluit art. 16 lid 1). Geldig op alle binnenwateren behalve de wateren van maritieme aard (Binnenvaartbesluit art. 16 lid 2 en 4).",
+      "questions": 40,
+      "time_limit_min": 60,
+      "mandatory": true,
+      "themes": [
+        "algemene_bepalingen",
+        "optische_tekens",
+        "geluidsseinen",
+        "marifoon_radar",
+        "verkeerstekens",
+        "betonning",
+        "vaarregels",
+        "ligplaats",
+        "bijzondere_vaarwegen",
+        "vaarbewijs",
+        "voortstuwing",
+        "veiligheid",
+        "vaarwater",
+        "manoeuvreren",
+        "milieu"
+      ]
+    },
+    {
+      "code": "KVB-2",
+      "drive": "motor+sail",
+      "track": "inland",
+      "label": "Klein Vaarbewijs II (alle binnenwateren)",
+      "note": "Vereist voor de vaart op de overige binnenwateren — de wateren van maritieme aard: Westerschelde, Oosterschelde, Waddenzee, Eems, Dollard, IJsselmeer, IJmeer, Markermeer (met uitzondering van de Gouwzee) (Binnenvaartbesluit art. 16 lid 3, Binnenvaartregeling art. 7.11b lid 2). Het klein vaarbewijs geldt tevens als ICC voor de binnenvaart (Binnenvaartregeling bijlage 7.3).",
+      "questions": 27,
+      "time_limit_min": 90,
+      "mandatory": true,
+      "themes": [
+        "algemene_bepalingen",
+        "optische_tekens",
+        "geluidsseinen",
+        "marifoon_radar",
+        "verkeerstekens",
+        "betonning",
+        "vaarregels",
+        "ligplaats",
+        "bijzondere_vaarwegen",
+        "vaarbewijs",
+        "voortstuwing",
+        "veiligheid",
+        "vaarwater",
+        "manoeuvreren",
+        "milieu",
+        "navigatie",
+        "weerkunde"
+      ]
+    }
+  ],
+  "extension_themes": [
+    "manoeuvreren",
+    "navigatie",
+    "vaarwater",
+    "voortstuwing",
+    "weerkunde"
+  ],
+  "path": [
+    {
+      "code": "age",
+      "body": {
+        "nl": "Een vaarbewijs wordt niet afgegeven aan wie de leeftijd van 18 jaar nog niet heeft bereikt (Binnenvaartwet art. 27 lid 1 onder a). Voor het afleggen van het theorie-examen zelf stelt het CBR geen leeftijdsgrens — de grens zit op de afgifte."
+      },
+      "source": "Binnenvaartwet art. 27 lid 1 onder a",
+      "url": "https://wetten.overheid.nl/BWBR0023009#Hoofdstuk5_Paragraaf2_Artikel27",
+      "as_of": "2026-08-15",
+      "volatile": false,
+      "region_scope": "",
+      "permit_scope": []
+    },
+    {
+      "code": "medical",
+      "body": {
+        "nl": "Voor het klein vaarbewijs volstaat een gezondheidsverklaring (niet ouder dan 26 weken) in plaats van een geneeskundige verklaring; een geneeskundig onderzoek blijft achterwege als daaruit blijkt dat u lichamelijk en geestelijk voldoende geschikt bent (Binnenvaartbesluit art. 20 lid 2, art. 26 lid 1)."
+      },
+      "source": "Binnenvaartbesluit art. 20 lid 2 en art. 26",
+      "url": "https://wetten.overheid.nl/BWBR0025631#Hoofdstuk4_Paragraaf2_Artikel20",
+      "as_of": "2026-08-15",
+      "volatile": false,
+      "region_scope": "",
+      "permit_scope": []
+    },
+    {
+      "code": "application",
+      "body": {
+        "nl": "Bij de aanvraag legt u de gezondheidsverklaring over en het getuigschrift van het afgelegde examen (Binnenvaartbesluit art. 20 lid 1). Het examen wordt afgenomen door het CBR (Centraal Bureau Rijvaardigheidsbewijzen, Binnenvaartregeling art. 1.1); het vaarbewijs zelf wordt door de minister afgegeven."
+      },
+      "source": "Binnenvaartbesluit art. 20 lid 1",
+      "url": "https://wetten.overheid.nl/BWBR0025631#Hoofdstuk4_Paragraaf2_Artikel20",
+      "as_of": "2026-08-15",
+      "volatile": false,
+      "region_scope": "",
+      "permit_scope": []
+    },
+    {
+      "code": "fees",
+      "body": {
+        "nl": "Examengeld CBR: € 53,15 voor het theorie-examen Klein Vaarbewijs I. Toeslagen voor extra tijd (€ 13,50) of individuele begeleiding (€ 41,60) komen daar bovenop. De kosten van een vaarschool of cursus staan hier los van."
+      },
+      "source": "CBR — theorie-examen Klein Vaarbewijs I",
+      "url": "https://www.cbr.nl/nl/recreatievaart-ppl-rzam/nl-1/theorie-examen-klein-vaarbewijs-1",
+      "as_of": "2026-08-15",
+      "volatile": true,
+      "region_scope": "",
+      "permit_scope": []
+    },
+    {
+      "code": "validity",
+      "body": {
+        "nl": "Het klein vaarbewijs wordt afgegeven volgens het model \"klein vaarbewijs/ICC voor de binnenvaart\" en geldt daarmee tevens als International Certificate for Operators of Pleasure Craft (Binnenvaartregeling bijlage 7.3)."
+      },
+      "source": "Binnenvaartregeling bijlage 7.3",
+      "url": "https://wetten.overheid.nl/BWBR0025958#Bijlage7.3",
+      "as_of": "2026-08-15",
+      "volatile": true,
+      "region_scope": "",
+      "permit_scope": []
+    }
+  ],
+  "regions": [
+    {
+      "code": "binnenwateren",
+      "name": "Rivieren, kanalen en meren (BPR)",
+      "note": "Het landelijke BPR-gebied; klein vaarbewijs I volstaat.",
+      "primary": true
+    },
+    {
+      "code": "maritieme_wateren",
+      "name": "Wateren van maritieme aard (KVB II)",
+      "note": "Binnenvaartregeling art. 7.11b lid 2: Westerschelde, Oosterschelde, Waddenzee, Eems, Dollard, IJsselmeer, IJmeer, Markermeer (met uitzondering van de Gouwzee). Hier is klein vaarbewijs II vereist.",
+      "primary": false
+    },
+    {
+      "code": "rijn",
+      "name": "Rijn, Waal, Lek en Pannerdensch Kanaal (RPR)",
+      "note": "Rijnvaartpolitiereglement 1995 (CCR) in plaats van het BPR; wijkt af van het BPR maar blijft op de CEVNI-basis.",
+      "primary": false
+    }
+  ],
+  "country_default": "NL",
+  "core": {
+    "universal": {
+      "nl": {
+        "path": "../questions.universal.nl.json",
+        "count": 35
+      }
+    },
+    "cevni": {
+      "nl": {
+        "path": "../questions.cevni.nl.json",
+        "count": 174
+      }
+    }
+  },
+  "coverage": null,
+  "anki": {
+    "nl": {
+      "apkg": "anki/boating-licence.nl.apkg",
+      "tsv": "anki/boating-licence.nl.tsv",
+      "count": 234,
+      "images": 0
+    }
+  },
+  "gift": {
+    "nl": {
+      "gift": "gift/boating-licence.nl.gift",
+      "count": 234
+    }
+  }
+}

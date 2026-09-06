@@ -507,7 +507,8 @@ def _player_html(lang: str, nav: str, title: str) -> str:
 # sub-bundle (web/<code>/) the landing is one level up (prefix "../"); the France
 # option players sit one level deeper, so they pass prefix "../../".
 _COUNTRY_NAV = [("", "🏠 Accueil"), ("int", "🌍 Code commun"), ("ch", "🇨🇭 Suisse"),
-                ("de", "🇩🇪 Deutschland"), ("fr", "🇫🇷 France")]
+                ("de", "🇩🇪 Deutschland"), ("nl", "🇳🇱 Nederland"),
+                ("fr", "🇫🇷 France")]
 
 
 def _countrybar(active: str, prefix: str = "../") -> str:
@@ -864,6 +865,140 @@ def _build_int_web(web: str, core_avail: dict | None = None) -> dict | None:
     return {"questions": n_en, "copied": copied}
 
 
+def _build_nl_web(web: str, core_avail: dict | None = None) -> dict | None:
+    """Bundle the Dutch bank into web/nl/ — a single-language (nl) player on the
+    Klein Vaarbewijs I/II theory, with the permit picker (point-scored like CH, so
+    informational), Anki/GIFT downloads and the shared common-core toggle (the
+    pooled CEVNI/universal questions in nl). The CBR publishes no official question
+    catalogue (see src/countries/nl.py), so this is a law-seeded bank: the practice
+    config is stamped from the KVB-1 exam shape declared in the country module
+    (40 questions / 60 min / the 70 % pass mark — CBR-sourced, volatile). The bank
+    weights every question uniformly (3 pts), so the 70 % mark is applied to the
+    drawn total (40 × 3 = 120 pts, pass at 84); the permit notes carry the exact
+    CBR figures (1–3 pts/question, 80 pts, 56 to pass). Returns stats, or None if
+    the NL bank hasn't been built (draft + verify it via tools/subagent_draft.py)."""
+    import shutil
+    from src.questions import schema as qschema
+    from src import jurisdictions
+    from tools import anki, gift
+    qdb, _ = _qpaths("NL")
+    if not os.path.exists(qdb):
+        return None
+    web_nl = os.path.join(web, "nl")
+    for sub in ("assets", "anki", "gift"):
+        d = os.path.join(web_nl, sub)
+        if os.path.exists(d):
+            shutil.rmtree(d)
+    os.makedirs(web_nl, exist_ok=True)
+    conn = qschema.connect(qdb)
+    copied = 0
+
+    def relocate(p):
+        nonlocal copied
+        if not p:
+            return p
+        rel = p[len("data/"):] if p.startswith("data/") else p
+        src = os.path.join(os.path.dirname(__file__), p)
+        dst = os.path.join(web_nl, rel)
+        if os.path.exists(src):
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            shutil.copy2(src, dst)
+            copied += 1
+        return rel
+
+    nl_country = countries.get("NL")
+    kvb1 = nl_country.permits["KVB-1"].exam
+
+    def bundle(out_name, lang):
+        tmp = os.path.join(web_nl, f"_{out_name}.tmp")
+        qschema.export_json(conn, tmp, exportable_only=True, lang=lang)
+        data = json.load(open(tmp, encoding="utf-8"))
+        os.remove(tmp)
+        pts_per = max((q["points"] for q in data["questions"]), default=1)
+        total_pts = kvb1.questions * pts_per
+        pass_pts = int(round(total_pts * kvb1.pass_points / kvb1.total_points))
+        data["meta"].update({
+            "ui_title": "Klein Vaarbewijs — theorie-examen (oefenen)",
+            "ui_h1": "Klein Vaarbewijs — theorie",
+            "ui_subtitle": "KVB I en II · Nederlandse binnenwateren — uit de wet "
+                           "afgeleide vragen",
+            "ui_sourcenote": "Bron: Nederlandse wetgeving via wetten.overheid.nl "
+                             "(Auteurswet art. 11 — geen auteursrecht op wetten). "
+                             "Het CBR publiceert geen officiële vragenbank; dit is "
+                             "een oefenbank, geen officieel examen.",
+            "exam_questions": kvb1.questions, "total_points": total_pts,
+            "points_per_question": pts_per, "pass_points": pass_pts,
+            "time_limit_min": kvb1.time_limit_min, "scoring": kvb1.scoring,
+            "canton": "", "canton_code": "",
+        })
+        for q in data["questions"]:
+            q["image"] = relocate(q.get("image"))
+            q["reveal_image"] = relocate(q.get("reveal_image"))
+            for c in q["choices"]:
+                c["image"] = relocate(c.get("image"))
+        with open(os.path.join(web_nl, out_name), "w", encoding="utf-8") as fh:
+            json.dump(data, fh, ensure_ascii=False, indent=2)
+        return len(data["questions"])
+
+    _learn_layer(conn, web_nl, ["nl"], "nl")   # principle tags + concept cards (before export)
+    total = bundle("questions.json", None)
+    n_nl = bundle("questions.nl.json", "nl")
+
+    anki_dir, gift_dir = os.path.join(web_nl, "anki"), os.path.join(web_nl, "gift")
+    anki_avail, gift_avail = {}, {}
+    n, n_img = anki.export_to(conn, anki_dir, "nl")
+    if n:
+        anki_avail["nl"] = {"apkg": "anki/boating-licence.nl.apkg",
+                            "tsv": "anki/boating-licence.nl.tsv",
+                            "count": n, "images": n_img}
+    ng = gift.export_to(conn, gift_dir, "nl")
+    if ng:
+        gift_avail["nl"] = {"gift": "gift/boating-licence.nl.gift", "count": ng}
+    conn.close()
+
+    # KVB I (rivers/canals/lakes) and KVB II (the maritime-nature waters) share the
+    # point-scored theory shape, so — like the Swiss categories — the picker is
+    # informational: it names each permit, its CBR exam format (the note) and its
+    # timer, without block-grading the paper.
+    permits = [{
+        "code": p.code,
+        "drive": p.drive,
+        "track": jurisdictions.permit_track(p),
+        "label": p.label,
+        "note": p.note,
+        "questions": p.exam.questions,
+        "time_limit_min": p.exam.time_limit_min,
+        "mandatory": p.mandatory,
+        "themes": list(p.themes),
+    } for p in nl_country.permits.values()]
+    manifest = {
+        "default": "nl", "supported": ["nl"],
+        "available": {"nl": {"count": n_nl, "unofficial": False}},
+        "permits": permits,
+        # Study-only themes (not drawn in exam mode) — the KVB programme's
+        # practical-side subjects, from src/countries/nl_themes.py.
+        "extension_themes": sorted(nl_country.extension_themes),
+        # Path-to-permit steps (age/medical/application/fees/validity), Dutch-only
+        # bodies — there is no practical exam for the klein vaarbewijs.
+        "path": nl_country.path_manifest(),
+        "regions": [{"code": r.code, "name": r.name, "note": r.note,
+                     "primary": r.primary} for r in nl_country.regions.values()],
+        "country_default": "NL",
+        "core": _core_refs(core_avail, ["nl"]),
+        # Derived bank, coverage not yet measured against a catalogue (the CBR
+        # publishes none) → None and the player hides the banner.
+        "coverage": _validate.load_lock().get("banks", {}).get("NL"),
+        "anki": anki_avail, "gift": gift_avail,
+    }
+    with open(os.path.join(web_nl, "languages.json"), "w", encoding="utf-8") as fh:
+        json.dump(manifest, fh, ensure_ascii=False, indent=2)
+    title = "Klein Vaarbewijs — theorie-examen (oefenen)"
+    with open(os.path.join(web_nl, "index.html"), "w", encoding="utf-8") as fh:
+        fh.write(_player_html("nl", _countrybar("nl"), title))
+    return {"questions": n_nl, "permits": len(permits), "copied": copied,
+            "anki": list(anki_avail), "gift": list(gift_avail)}
+
+
 def _core_refs(core_avail: dict | None, langs: list[str]) -> dict:
     """Rewrite the shared harmonised-core manifest for a country sub-bundle: keep
     the given languages, point each base bundle one level up (the core JSON lives
@@ -880,7 +1015,7 @@ def _core_refs(core_avail: dict | None, langs: list[str]) -> dict:
 def cmd_web(args):
     """Bundle the static site under web/. The root web/ is a country-picker landing
     (committed source); each country is its own player sub-bundle (web/ch, web/de,
-    web/int; France via `run.py fr`) reusing the shared engine (web/app.js,
+    web/int, web/nl; France via `run.py fr`) reusing the shared engine (web/app.js,
     i18n.js, style.css). The GLOBAL harmonised core (questions.<base>.<lang>.json
     + its images in web/assets/) lives at the root and is shared by every player,
     referenced one level up as ../."""
@@ -1010,6 +1145,14 @@ def cmd_web(args):
               f"{de['permits']} permits · {de['copied']} images")
     else:
         print("  🇩🇪 web/de/: skipped (run `python run.py questions --country DE`)")
+    nl = _build_nl_web(web, core_avail)
+    if nl:
+        print(f"  🇳🇱 web/nl/: {nl['questions']} questions · "
+              f"{nl['permits']} permits · {nl['copied']} images · "
+              f"anki {','.join(nl['anki']) or '—'} gift {','.join(nl['gift']) or '—'}")
+    else:
+        print("  🇳🇱 web/nl/: skipped (draft + verify the NL bank first: "
+              "tools/subagent_draft.py ingest/verify-apply nl NL)")
     print(f"  countries: {', '.join(countries.codes())} · "
           f"jurisdictions: {len(jurisdictions.codes())} regimes")
     print(f"  France: run `python run.py fr` (web/fr/). "

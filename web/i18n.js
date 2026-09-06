@@ -1,15 +1,17 @@
 "use strict";
-/* UI translations for the player. The four languages match the project scope:
- * FR/DE/IT have officially-published Swiss law to ground questions against; EN
- * has no official legal text, so English content (when present) is a clearly
- * labelled *unofficial study translation*. These tables cover the UI chrome
- * only — question text comes from the per-language questions.<lang>.json bank,
- * falling back to French where a language's bank isn't built yet. */
+/* UI translations for the player. The five languages match the project scope:
+ * FR/DE/IT have officially-published Swiss law to ground questions against; NL
+ * grounds its own bank in Dutch law (Auteurswet art. 11 — no copyright on
+ * legislation); EN has no official legal text, so English content (when present)
+ * is a clearly labelled *unofficial study translation*. These tables cover the
+ * UI chrome only — question text comes from the per-language
+ * questions.<lang>.json bank, falling back to French where a language's bank
+ * isn't built yet. */
 
-const LANGS = ["fr", "de", "it", "en"];
+const LANGS = ["fr", "de", "it", "en", "nl"];
 const DEFAULT_LANG = "fr";
 
-const LANG_NAMES = { fr: "Français", de: "Deutsch", it: "Italiano", en: "English" };
+const LANG_NAMES = { fr: "Français", de: "Deutsch", it: "Italiano", en: "English", nl: "Nederlands" };
 
 const THEME_LABELS = {
   fr: {
@@ -45,6 +47,27 @@ const THEME_LABELS = {
     gezeiten: "Gezeiten und Strömung",
     umweltschutz: "Umweltschutz",
     recht_dokumente: "Recht und Dokumente",
+    // Netherlands — Klein Vaarbewijs (its own taxonomy). Listed here, in exam
+    // order, because DEFAULT_LANG (fr) keys define the domain display order; the
+    // labels actually shown come from the `nl` map below (the NL bundle is
+    // Dutch-only). Distinct ids, so the other banks are unaffected.
+    algemene_bepalingen: "Algemene bepalingen en kentekens",
+    optische_tekens: "Optische tekens van schepen (lichten en dagmerken)",
+    geluidsseinen: "Geluidsseinen",
+    marifoon_radar: "Marifoon, radar en Inland AIS",
+    verkeerstekens: "Verkeerstekens",
+    betonning: "Markering van het vaarwater (betonning)",
+    vaarregels: "Vaarregels",
+    ligplaats: "Ligplaats nemen",
+    bijzondere_vaarwegen: "Bijzondere bepalingen per vaarweg",
+    vaarbewijs: "Vaarbewijs, registratie en handhaving",
+    voortstuwing: "Behandeling van de voortstuwingswerktuigen",
+    veiligheid: "Veiligheidsmaatregelen",
+    vaarwater: "Waterwegen en omstandigheden van het vaarwater",
+    manoeuvreren: "Varen, manoeuvreren en bijzondere omstandigheden",
+    milieu: "Milieu en afvalstoffen",
+    navigatie: "Nautische bescheiden, koers- en plaatsbepaling",
+    weerkunde: "Meteorologie",
   },
   de: {
     definitions: "Begriffe",
@@ -101,6 +124,27 @@ const THEME_LABELS = {
     sound_light_signals: "Sound and light signals",
     exemptions: "Exemptions",
     annexes: "Technical annexes",
+  },
+  nl: {
+    // Netherlands — Klein Vaarbewijs taxonomy (shown in the web/nl/ player),
+    // in the exam-programme order of src/countries/nl_themes.py.
+    algemene_bepalingen: "Algemene bepalingen en kentekens",
+    optische_tekens: "Optische tekens van schepen (lichten en dagmerken)",
+    geluidsseinen: "Geluidsseinen",
+    marifoon_radar: "Marifoon, radar en Inland AIS",
+    verkeerstekens: "Verkeerstekens",
+    betonning: "Markering van het vaarwater (betonning)",
+    vaarregels: "Vaarregels",
+    ligplaats: "Ligplaats nemen",
+    bijzondere_vaarwegen: "Bijzondere bepalingen per vaarweg",
+    vaarbewijs: "Vaarbewijs, registratie en handhaving",
+    voortstuwing: "Behandeling van de voortstuwingswerktuigen",
+    veiligheid: "Veiligheidsmaatregelen",
+    vaarwater: "Waterwegen en omstandigheden van het vaarwater",
+    manoeuvreren: "Varen, manoeuvreren en bijzondere omstandigheden",
+    milieu: "Milieu en afvalstoffen",
+    navigatie: "Nautische bescheiden, koers- en plaatsbepaling",
+    weerkunde: "Meteorologie",
   },
 };
 
@@ -448,6 +492,82 @@ const STRINGS = {
       "<b>Could not load the questions.</b> First run " +
       "<code>python run.py questions &amp;&amp; python run.py web</code>, then serve the folder.",
   },
+  nl: {
+    pageTitle: "Klein Vaarbewijs — theorie-examen (oefenen)",
+    h1: "Klein Vaarbewijs — theorie",
+    subtitle: "KVB I en II · Nederlandse binnenwateren",
+    demoBanner:
+      "<strong>Uit de wet afgeleide vragenbank.</strong> Het CBR publiceert géén " +
+      "officiële vragenbank — deze vragen zijn afgeleid van het Nederlandse recht " +
+      "(BPR, SVW, Binnenvaartwet en aanverwante regelingen, wetten.overheid.nl) en " +
+      "vrij herbruikbaar (Auteurswet art. 11). Dit is géén officieel examen: doe " +
+      "vóór uw examen een proefexamen uit een officiële bron.",
+    fallbackBanner:
+      "Vragen weergegeven in het Nederlands — de vertaling {lang} is in opbouw.",
+    unofficialBanner:
+      "Onofficiële studievertaling. Alleen de Nederlandse wettekst is authentiek.",
+    cfgQuestions: "Vragen",
+    cfgDuration: "Duur",
+    cfgSuccess: "Slagen",
+    cfgScale: "Puntenschaal",
+    cfgAvailable: "Beschikbaar",
+    cfgPartial: "(van {target} beoogd — vragenbank in opbouw)",
+    minUnit: "min",
+    points: "punten",
+    ptsPerQuestion: "{n} ptn/vraag",
+    availableQuestions: "{n} vragen",
+    btnExam: "Proefexamen (met tijdslimiet)",
+    btnPractice: "Vrij oefenen",
+    btnRestart: "Opnieuw beginnen",
+    btnValidate: "Controleren",
+    btnNext: "Volgende",
+    btnFinish: "Afronden",
+    btnSeeResult: "Bekijk het resultaat",
+    sourceNote:
+      "Bron: Nederlandse wetgeving via wetten.overheid.nl (Auteurswet art. 11 — " +
+      "geen auteursrecht op wetten). Geen vragen uit commerciële banken.",
+    progress: "Vraag {i} / {n}",
+    multiHint: "Een of twee antwoorden kunnen juist zijn.",
+    kbdHint: "Toetsen 1-3 om te (de)selecteren · Enter om te controleren.",
+    altSignal: "te herkennen signaal",
+    resultTitle: "Resultaat",
+    detailedCorrection: "Gedetailleerde correctie",
+    passed: "Geslaagd",
+    failed: "Niet geslaagd",
+    scoreLine: "{earned} / {total} punten (drempel {pass})",
+    faultPoints: "Foutpunten:",
+    duration: "Duur:",
+    partialExam:
+      "Gedeeltelijk examen: {n} van {target} vragen beschikbaar. Indicatieve score.",
+    yourChoice: "(uw keuze)",
+    sourceLabel: "Bron",
+    stateOf: "(stand {date})",
+    figureTag: "[figuur]",
+    footTagline: "Vrij studiehulpmiddel · opgebouwd uit primaire rechtsbronnen",
+    chooseDomains: "Studeren per domein:",
+    choosePermit: "Vaarbewijs (examen):",
+    cfgPermit: "Vaarbewijs",
+    studyOnly: "Studiedomein — buiten het theorie-examen.",
+    scoreLineCount: "{correct} / {total} goede antwoorden",
+    poolLabel: "Vragenbank:",
+    poolNational: "Nationale bank",
+    poolCore: "Gemeenschappelijke kern",
+    poolHint: "De gemeenschappelijke kern bevat alleen overdraagbare vragen: " +
+      "universele zeemanschap en de geharmoniseerde vaarcode (CEVNI op de " +
+      "binnenwateren, COLREG op zee). De nationale bank voegt het eigen " +
+      "Nederlandse recht toe.",
+    domainAll: "Alles selecteren",
+    domainNone: "Alles deselecteren",
+    byDomain: "Score per domein",
+    ankiTitle: "Offline studeren met Anki:",
+    ankiApkg: "Anki-pakket (.apkg, {n} kaarten)",
+    ankiTsv: "Bewerkbare tabel (.tsv)",
+    giftBtn: "Moodle (GIFT)",
+    ankiHint: "Importeer de .apkg in Anki (computer/mobiel) of de .gift in Moodle. Met de .tsv kunt u correcties voorstellen.",
+    loadError:
+      "<b>Kan de vragen niet laden.</b> Voer eerst " +
+      "<code>python run.py web</code> uit en serveer daarna de map.",
+  },
 };
 
 /* Pick the active language: explicit ?lang=, then saved choice, then the
@@ -568,6 +688,28 @@ const LEARN_STRINGS = {
     dueQuestions: "{n} questions due",
     learnWhy: "Why? — understand the rule",
   },
+  nl: {
+    studySettings: "Oefenopties:",
+    practiceOnly: "Deze opties gelden alleen voor vrij oefenen — het proefexamen blijft ongewijzigd.",
+    optRecall: "Eerst antwoorden",
+    optRecallHint: "Verbergt de opties: bedenk uw antwoord voordat u ze ziet (actief ophalen).",
+    optConfidence: "Zekerheid aangeven",
+    optConfidenceHint: "Geef aan of u zeker bent; zeker-foute antwoorden komen als eerste terug.",
+    optSpaced: "Gespreide herhaling",
+    optSpacedHint: "Toont eerst vragen die aan de beurt, nieuw of fout beantwoord zijn, met thema-afwisseling.",
+    recallPrompt: "Formuleer uw antwoord en toon dan de opties.",
+    recallJot: "Noteer uw antwoord (optioneel)",
+    recallReveal: "Toon de opties",
+    confAsk: "Weet u het zeker?",
+    confSure: "Zeker",
+    confUnsure: "Onzeker",
+    diagYouChose: "Uw antwoord:",
+    diagCorrect: "Juiste antwoord:",
+    hcError: "Zeker fout beantwoord — herhaal dit eerst.",
+    cfgDue: "Te herhalen",
+    dueQuestions: "{n} vragen te herhalen",
+    learnWhy: "Waarom? — begrijp de regel",
+  },
 };
 for (const l in LEARN_STRINGS) STRINGS[l] = Object.assign(STRINGS[l] || {}, LEARN_STRINGS[l]);
 
@@ -628,6 +770,19 @@ const PATH_STRINGS = {
     pathVerified: "verified {date}",
     pathVolatile: "may change — verify",
   },
+  nl: {
+    pathTitle: "Van theorie naar vaarbewijs: de stappen naast het examen",
+    pathIntro: "Slagen voor de theorie is niet genoeg. Hier is de rest van het traject, volgens officiële bronnen.",
+    pathStep_age: "Minimumleeftijd",
+    pathStep_medical: "Gezondheidsverklaring & geschiktheid",
+    pathStep_first_aid: "Eerste hulp",
+    pathStep_practical: "Praktijkexamen",
+    pathStep_application: "Aanvraag & inschrijving",
+    pathStep_fees: "Examengeld",
+    pathStep_validity: "Geldigheid & vernieuwing",
+    pathVerified: "geverifieerd op {date}",
+    pathVolatile: "kan wijzigen — controleer",
+  },
 };
 for (const l in PATH_STRINGS) STRINGS[l] = Object.assign(STRINGS[l] || {}, PATH_STRINGS[l]);
 
@@ -665,6 +820,13 @@ const COVERAGE_STRINGS = {
     coverageTrack: "{base} <b>{demo}%</b> (unknown {unknown}%)",
     coverageBase_cevni: "inland code", coverageBase_colregs: "sea code",
     coverageBase_universal: "seamanship",
+  },
+  nl: {
+    coverageOfficial: "✓ Dit is de <b>officiële catalogus</b> — het examen put uit dezelfde bank.",
+    coverageDerived: "Bank <b>afgeleid van het recht</b>, niet de officiële examencatalogus. <b>Aantoonbaar gedekt</b> deel van de geharmoniseerde kern: {tracks}. De rest is <i>onbekend</i> (noch gedekt, noch gefaald). Voor uw examen: doe een <b>proefexamen uit een officiële bron</b>.",
+    coverageTrack: "{base} <b>{demo}&nbsp;%</b> (onbekend&nbsp;{unknown}&nbsp;%)",
+    coverageBase_cevni: "binnenvaartcode", coverageBase_colregs: "zeecode",
+    coverageBase_universal: "zeemanschap",
   },
 };
 for (const l in COVERAGE_STRINGS) STRINGS[l] = Object.assign(STRINGS[l] || {}, COVERAGE_STRINGS[l]);
