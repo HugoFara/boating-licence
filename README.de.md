@@ -2,6 +2,8 @@
 
 **Sprachen:** [English](README.md) · [Français](README.fr.md) · **Deutsch** · [Italiano](README.it.md) · [Nederlands](README.nl.md)
 
+<p align="center"><img src="docs/img/landing.png" width="640" alt="Die Startseite: ein Regime wählen — der harmonisierte COLREG-Kern, Schweiz, Deutschland, Niederlande oder Frankreich."></p>
+
 Ein offenes Framework zum Lernen für **nationale Theorieprüfungen des
 Bootsführerscheins**, das **ausschließlich** auf gemeinfreiem Recht und eindeutig
 weiterverwendbaren Quellen aufbaut. Es deckt heute vier Länder ab —

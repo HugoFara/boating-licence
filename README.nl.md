@@ -2,6 +2,8 @@
 
 **Talen:** [English](README.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · **Nederlands**
 
+<p align="center"><img src="docs/img/landing.png" width="640" alt="De startpagina: kies een regime — de geharmoniseerde COLREG-kern, Zwitserland, Duitsland, Nederland of Frankrijk."></p>
+
 Een open raamwerk voor het studeren van **nationale theorie-examens voor het
 vaarbewijs**, gebouwd **uitsluitend** uit wetgeving in het publieke domein en
 referenties die duidelijk herbruikbaar zijn. Het dekt vandaag vier landen —

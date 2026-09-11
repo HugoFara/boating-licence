@@ -2,6 +2,8 @@
 
 **Langues :** [English](README.md) · **Français** · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Nederlands](README.nl.md)
 
+<p align="center"><img src="docs/img/landing.png" width="640" alt="La page d'accueil : choisir un régime — le tronc commun COLREG, la Suisse, l'Allemagne, les Pays-Bas ou la France."></p>
+
 Un cadre ouvert pour réviser les **examens théoriques nationaux du permis de
 navigation**, construit **uniquement** à partir de textes de loi du domaine public et
 de références dont la réutilisation est clairement autorisée. Il couvre aujourd'hui

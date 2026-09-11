@@ -2,6 +2,8 @@
 
 **Languages:** [English](README.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Nederlands](README.nl.md)
 
+<p align="center"><img src="docs/img/landing.png" width="640" alt="The landing page: pick a regime — the harmonised COLREG core, Switzerland, Germany, the Netherlands or France."></p>
+
 An open framework for studying **national boating-licence theory exams** built
 **only** from public-domain law and clearly-reusable references. It covers four
 countries today — **🇫🇷 France · 🇩🇪 Germany · 🇨🇭 Switzerland · 🇳🇱 Netherlands** —

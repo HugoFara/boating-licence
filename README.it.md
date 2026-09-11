@@ -2,6 +2,8 @@
 
 **Lingue:** [English](README.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · **Italiano** · [Nederlands](README.nl.md)
 
+<p align="center"><img src="docs/img/landing.png" width="640" alt="La pagina iniziale: scegliere un regime — il nucleo comune COLREG, Svizzera, Germania, Paesi Bassi o Francia."></p>
+
 Un framework aperto per lo studio degli **esami teorici per la patente nautica
 nazionale**, costruito **esclusivamente** a partire da norme di pubblico dominio e
 da riferimenti chiaramente riutilizzabili. Oggi copre quattro Paesi —
