@@ -316,3 +316,41 @@ button:disabled { opacity: .5; cursor: default; }
 .concept-figures img { height: 104px; width: auto; max-width: 100%; flex: 0 0 auto; }
 .concept-body .src { color: var(--muted); font-size: .85rem; margin-top: 10px; }
 .concept-body .src a { color: var(--accent-dark); }
+
+/* Learn tab — the theory as a syllabus: one collapsible section per theme, the
+   "why" cards first, then the cited articles grouped by act. An article with
+   shipped text opens inline; one without is a plain link row. */
+button.ghost { background: transparent; }
+button.ghost:hover { border-color: var(--accent); color: var(--accent-dark); }
+.learn-theme {
+  margin-top: 12px; padding: 2px 14px 8px;
+  background: var(--card); border: 1px solid var(--line); border-radius: 8px;
+}
+.learn-theme > summary {
+  cursor: pointer; padding: 10px 2px; font-weight: 600; color: var(--accent-dark);
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+}
+.learn-theme[open] > summary { border-bottom: 1px solid var(--line); margin-bottom: 8px; }
+.learn-theme .chipn {
+  font-size: .78rem; font-variant-numeric: tabular-nums; font-weight: 400;
+  padding: 0 6px; border-radius: 999px; background: rgba(0,0,0,.08); color: var(--muted);
+}
+.learn-h { margin: 14px 0 6px; font-size: .95rem; color: var(--muted); font-weight: 600; }
+.learn-body .concept-card { margin-top: 8px; }
+.learn-act { margin: 8px 0 12px; }
+.learn-act h4 { margin: 8px 0 4px; font-size: .92rem; color: var(--fg); }
+.learn-ref { border-top: 1px solid var(--line); }
+.learn-ref > summary { cursor: pointer; padding: 7px 2px; color: var(--accent-dark); }
+.learn-ref.plain { padding: 7px 2px; }
+.learn-ref.plain a { color: var(--accent-dark); }
+.learn-lang { color: var(--muted); font-size: .82rem; }
+.learn-text {
+  margin: 4px 0 12px; padding: 10px 14px; border-left: 4px solid var(--accent);
+  background: var(--bg); border-radius: 0 8px 8px 0; line-height: 1.55;
+}
+.learn-text p { margin: 6px 0; }
+.learn-ref-title { color: var(--muted); font-size: .85rem; margin-bottom: 4px; }
+.learn-text .src { color: var(--muted); font-size: .82rem; margin-top: 8px; }
+.learn-text .src a { color: var(--accent-dark); }
+.learn-licence { font-style: italic; }
+.learn-figure { height: 150px; margin: 6px 0 8px; }

@@ -8,7 +8,7 @@
  * the answer. UI strings + theme labels come from i18n.js. */
 
 const $ = (id) => document.getElementById(id);
-const screens = ["start", "quiz", "results"];
+const screens = ["start", "learn", "quiz", "results"];
 function show(name) {
   screens.forEach((s) => $("screen-" + s).classList.toggle("hidden", s !== name));
 }
@@ -16,6 +16,7 @@ function show(name) {
 let LANG = DEFAULT_LANG;   // active UI language (from i18n.js)
 let BANK = [];             // all questions for the active content language
 let CONCEPTS = {};         // principle -> "why" explainer map (optional, may be {})
+let READING = {};          // unit_id -> cited article text (reading.<lang>.json, optional)
 let CFG = {};              // exam config from meta
 let META = {};             // raw meta of the loaded bank
 let MANIFEST = {};         // languages.json (per-language counts + Anki downloads)
@@ -214,6 +215,21 @@ async function fetchConcepts(lang) {
   return {};
 }
 
+/* The cited-articles bank (reading.<lang>.json): unit_id -> {ref, title, text,
+ * source, url, licence, as_of, lang}, the verbatim KB text of every article an
+ * exportable question in this language cites (redistributable licences only —
+ * src/questions/reading.py). Optional: absent file ⇒ the Learn tab shows the
+ * citation links without inline text. No language fallback: the text IS the
+ * language-specific artefact, and each bundle's units are keyed per language. */
+async function fetchReading(lang) {
+  try {
+    const r = await fetch(`reading.${lang}.json`, { cache: "no-store" });
+    if (!r.ok) return {};
+    const data = await r.json();
+    return data && data.units && typeof data.units === "object" ? data.units : {};
+  } catch (e) { return {}; }
+}
+
 /* The build manifest (languages.json) carries per-language Anki download links.
  * Optional: the player still works if it's missing (downloads just hide). */
 async function loadManifest() {
@@ -226,10 +242,11 @@ async function loadManifest() {
 async function loadContent() {
   FELL_BACK = false; UNOFFICIAL = false;
   const data = await fetchBank(LANG);
-  if (!data) { BANK = []; META = {}; CONCEPTS = {}; return false; }
+  if (!data) { BANK = []; META = {}; CONCEPTS = {}; READING = {}; return false; }
   BANK = data.questions || [];
   META = data.meta || {};
   CONCEPTS = await fetchConcepts(LANG);
+  READING = await fetchReading(LANG);
   UNOFFICIAL = String(META.unofficial || "") === "true" || META.unofficial === true;
   CFG = {
     questions: +META.exam_questions || 60,
@@ -277,6 +294,12 @@ function applyStaticStrings() {
   $("loop-proof").innerHTML = S("ui_demo", "demoBanner");
   $("btn-exam").textContent = T("btnExam");
   $("btn-practice").textContent = T("btnPractice");
+  if ($("btn-learn")) {
+    $("btn-learn").textContent = T("btnLearn");
+    $("t-learntitle").textContent = T("learnTitle");
+    $("t-learnintro").textContent = T("learnIntro");
+    $("btn-learn-back").textContent = T("learnBack");
+  }
   $("t-sourcenote").textContent = S("ui_sourcenote", "sourceNote");
   $("t-resulttitle").textContent = T("resultTitle");
   $("btn-restart").textContent = T("btnRestart");
@@ -736,9 +759,11 @@ function renderStart() {
   if (BANK.length === 0) {
     $("config-summary").innerHTML = T("loadError");
     $("btn-exam").disabled = $("btn-practice").disabled = true;
+    if ($("btn-learn")) $("btn-learn").disabled = true;
     return;
   }
   $("btn-exam").disabled = $("btn-practice").disabled = false;
+  if ($("btn-learn")) $("btn-learn").disabled = false;
 
   renderPools();
   renderDomains();
@@ -768,6 +793,10 @@ function renderStart() {
 
   $("btn-exam").onclick = () => startRun("exam");
   $("btn-practice").onclick = () => startRun("practice");
+  if ($("btn-learn")) {
+    $("btn-learn").onclick = () => { renderLearn(); show("learn"); window.scrollTo(0, 0); };
+    $("btn-learn-back").onclick = () => show("start");
+  }
   $("btn-restart").onclick = () => show("start");
   $("btn-action").onclick = onAction;
 }
@@ -1035,11 +1064,165 @@ function revealFigureHtml(q) {
     <img src="${q.reveal_image}" alt="${escapeHtml(T("altSignal"))}"></div>`;
 }
 
+/* --- Learn tab: read the theory before drilling it ---------------------------
+ * The start screen's third action. Per theme, in the canonical exam order and
+ * scoped like the practice draw (active pool + permit), it lists:
+ *   1. the "why" concept cards for every principle the theme's questions test
+ *      (the same cards the reveal shows, here readable up front);
+ *   2. every source those questions cite, grouped by act, one row per article
+ *      with the number of questions it backs — and the article text inline
+ *      when the bundle ships it (READING), else just the official link.
+ * Nothing here is authored for the tab: it is the bank's own provenance turned
+ * into a syllabus, so a theme with no questions has no reading, by design. A
+ * "practice this theme" button narrows the domain filter and starts a run. */
+function learnThemes() {
+  const order = Object.keys(THEME_LABELS[DEFAULT_LANG]);
+  const scope = permitThemeSet();
+  const by = {};
+  for (const q of BANK) {
+    if (scope && !scope.has(q.theme)) continue;
+    (by[q.theme] ||= []).push(q);
+  }
+  return Object.keys(by)
+    .sort((a, b) => order.indexOf(a) - order.indexOf(b))
+    .map((t) => ({ theme: t, questions: by[t] }));
+}
+
+/* Group a theme's citations: act -> article -> {ref, url, unit_id, image, n}.
+ * Rows within an act are sorted with numeric collation, so "art. 9" comes before
+ * "art. 13" and "fig. 2" before "fig. 10" — the source's own reading order. */
+function learnSources(questions) {
+  const acts = new Map();
+  for (const q of questions) {
+    const p = q.provenance || {};
+    const act = p.source || T("sourceLabel");
+    const key = p.ref || p.url || "";
+    if (!key) continue;
+    const rows = acts.get(act) || (acts.set(act, new Map()), acts.get(act));
+    const row = rows.get(key) || (rows.set(key, { ref: p.ref || p.url, url: p.url || "",
+                                                  unit_id: p.unit_id || "", image: "", n: 0 }), rows.get(key));
+    row.n++;
+    // An annex figure IS the article: show it with its caption. The question that
+    // cites it carries the figure either as its stem image or, when the figure is
+    // the answer (image choices), as the reveal image.
+    if (!row.image) row.image = q.image || q.reveal_image || "";
+    // Prefer a unit id whose text actually shipped (an article may be cited under
+    // the same ref by units of two languages in an unofficial-translation bank).
+    if (!READING[row.unit_id] && READING[p.unit_id]) row.unit_id = p.unit_id;
+  }
+  for (const [act, rows] of acts) {
+    const sorted = [...rows.values()].sort((a, b) =>
+      a.ref.localeCompare(b.ref, LANG, { numeric: true, sensitivity: "base" }));
+    acts.set(act, new Map(sorted.map((r) => [r.ref, r])));
+  }
+  return acts;
+}
+
+/* Verbatim article text → paragraphs. The KB stores an article flat, so two
+ * structures worth a line break are re-derived for display only (the data ships
+ * untouched): alinéa numbers glued to the previous sentence ("…amarrer.2 Celui
+ * qui…" — only when a letter precedes the full stop, so "RS 747.201.1" never
+ * splits) and lettered items after a colon or semicolon ("…par: a. «analyse»…"). */
+function readingParagraphs(text) {
+  const t = String(text || "")
+    .replace(/([\p{L})])\.(\d{1,2})\s(?=\p{Lu})/gu, "$1.\n$2 ")
+    .replace(/([:;])\s?([a-z])\.\s/g, "$1\n$2. ");
+  return t.split(/\n+/).filter((p) => p.trim())
+    .map((p) => `<p>${escapeHtml(p.trim())}</p>`).join("");
+}
+
+function learnRefHtml(row) {
+  const u = READING[row.unit_id];
+  const link = row.url
+    ? `<a href="${escapeHtml(row.url)}" target="_blank" rel="noopener">${escapeHtml(row.ref)}</a>`
+    : escapeHtml(row.ref);
+  const count = `<span class="chipn">${T("learnBacks", { n: row.n })}</span>`;
+  if (!u || !u.text) {
+    return `<div class="learn-ref plain">${link} ${count}</div>`;
+  }
+  const foreign = u.lang && u.lang !== LANG ? ` <span class="learn-lang">(${escapeHtml(u.lang)})</span>` : "";
+  const title = u.title ? `<div class="learn-ref-title">${escapeHtml(u.title)}</div>` : "";
+  const fig = row.image
+    ? `<div class="figure learn-figure"><img src="${escapeHtml(row.image)}" alt="" loading="lazy"></div>` : "";
+  const asof = u.as_of ? ` · ${escapeHtml(T("learnAsOf", { date: u.as_of }))}` : "";
+  const src = row.url || u.url
+    ? `<a href="${escapeHtml(row.url || u.url)}" target="_blank" rel="noopener">${escapeHtml(u.source || row.ref)}</a>`
+    : escapeHtml(u.source || "");
+  return `<details class="learn-ref">
+    <summary>${escapeHtml(row.ref)}${foreign} ${count}</summary>
+    <div class="learn-text">${title}${fig}${readingParagraphs(u.text)}
+      <div class="src">${escapeHtml(T("sourceLabel"))}&nbsp;: ${src}${asof}
+        ${u.licence ? ` · <span class="learn-licence">${escapeHtml(u.licence)}</span>` : ""}</div>
+    </div></details>`;
+}
+
+function learnThemeHtml(entry, open) {
+  const { theme, questions } = entry;
+  // Concept cards: one per distinct principle among this theme's questions.
+  const seen = new Set();
+  const cards = questions.map((q) => {
+    if (!q.principle || seen.has(q.principle) || !CONCEPTS[q.principle]) return "";
+    seen.add(q.principle);
+    return conceptHtml(q, true);
+  }).join("");
+  const acts = learnSources(questions);
+  let nRead = 0;
+  // An official question catalogue (DE: ELWIS) cites itself — every row would be
+  // "Frage N" → the same PDF. That is not reading; collapse the act to one link
+  // with the count, and keep per-article rows only for the law it also cites.
+  const catalogue = !!(MANIFEST.coverage && MANIFEST.coverage.official);
+  const sources = [...acts.entries()].map(([act, rows]) => {
+    const list = [...rows.values()];
+    const anyText = list.some((r) => READING[r.unit_id]);
+    if (catalogue && !anyText) {
+      const n = list.reduce((a, r) => a + r.n, 0);
+      return `<div class="learn-act">${learnRefHtml({ ref: act, url: list[0].url, unit_id: "", n })}</div>`;
+    }
+    const items = list.map((r) => { if (READING[r.unit_id]) nRead++; return learnRefHtml(r); }).join("");
+    return `<div class="learn-act"><h4>${escapeHtml(act)}</h4>${items}</div>`;
+  }).join("");
+  const study = extensionThemes().has(theme) ? " ✦" : "";
+  const summary = `${escapeHtml(themeLabel(LANG, theme))}${study}
+    <span class="chipn">${T("learnCount", { n: questions.length })}</span>`;
+  const readNote = nRead
+    ? `<p class="fine">${escapeHtml(T("learnHasText", { n: nRead }))}</p>`
+    : `<p class="fine">${escapeHtml(T("learnLinksOnly"))}</p>`;
+  return `<details class="learn-theme" data-theme="${escapeHtml(theme)}" ${open ? "open" : ""}>
+    <summary>${summary}</summary>
+    <div class="learn-body">
+      ${cards ? `<h3 class="learn-h">${escapeHtml(T("learnConcepts"))}</h3>${cards}` : ""}
+      <h3 class="learn-h">${escapeHtml(T("learnSources"))}</h3>
+      ${readNote}${sources}
+      <div class="actions">
+        <button type="button" class="learn-practice" data-theme="${escapeHtml(theme)}">${escapeHtml(T("learnPractice"))}</button>
+      </div>
+    </div></details>`;
+}
+
+function renderLearn() {
+  const box = $("learn");
+  if (!box) return;
+  const themes = learnThemes();
+  // Open the theme the learner has already narrowed practice to (a single
+  // selected domain); otherwise every section starts collapsed as a syllabus.
+  const active = activeDomains();
+  const openOne = active.length === 1 ? active[0] : null;
+  box.innerHTML = themes.map((e) => learnThemeHtml(e, e.theme === openOne)).join("");
+  box.querySelectorAll(".learn-practice").forEach((b) => {
+    b.onclick = () => {
+      SELECTED = new Set([b.dataset.theme]);
+      try { localStorage.setItem("domains", JSON.stringify([...SELECTED])); } catch (e) {}
+      renderStart();
+      startRun("practice");
+    };
+  });
+}
+
 /* The "why" Learn card (roadmap group A): a collapsible explainer for the
  * generative principle this question tests (IALA logic, the give-way hierarchy…),
  * so a value or rule stops being arbitrary and becomes reconstructable. Shown
  * only when a sourced concept exists for q.principle — otherwise nothing. */
-function conceptHtml(q) {
+function conceptHtml(q, asSyllabus) {
   const c = q.principle && CONCEPTS[q.principle];
   if (!c || !c.body) return "";
   const p = c.prov || {};
@@ -1051,7 +1234,10 @@ function conceptHtml(q) {
     ? `<div class="src">${escapeHtml(T("sourceLabel"))}&nbsp;: ${src}</div>` : "";
   const body = String(c.body).split(/\n\n+/)
     .map((para) => `<p>${escapeHtml(para)}</p>`).join("");
-  const head = c.title ? `<h4>${escapeHtml(c.title)}</h4>` : "";
+  // At reveal the summary asks "why?" and the title heads the body; in the Learn
+  // tab several cards sit side by side, so the title IS the summary.
+  const label = asSyllabus && c.title ? c.title : T("learnWhy");
+  const head = c.title && !asSyllabus ? `<h4>${escapeHtml(c.title)}</h4>` : "";
   // The vocabulary strip: the generated figures for this principle, drawn from the
   // article that prescribes each one. It belongs HERE and not on a question stem —
   // the card opens at reveal, so it can show what an answer looks like, which is
@@ -1060,7 +1246,7 @@ function conceptHtml(q) {
     ? `<div class="concept-figures">` + c.figures.map((f) =>
         `<img src="assets/diagrams/${encodeURIComponent(f)}.svg" alt="" loading="lazy">`
       ).join("") + `</div>` : "";
-  return `<details class="concept-card"><summary>${escapeHtml(T("learnWhy"))}</summary>
+  return `<details class="concept-card"><summary>${escapeHtml(label)}</summary>
     <div class="concept-body">${head}${figs}${body}${srcLine}</div></details>`;
 }
 

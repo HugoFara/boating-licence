@@ -4,7 +4,7 @@
     "pool": "cevni",
     "scope": "cevni",
     "unofficial": false,
-    "generated": "2026-09-07",
+    "generated": "2026-09-11",
     "grounding": "National inland-navigation enactments implementing CEVNI (the UNECE CEVNI text is not redistributable)."
   },
   "questions": [
@@ -1422,7 +1422,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:nl.nl.v1",
       "block": "",
-      "principle": "",
+      "principle": "day-shapes",
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
@@ -1765,7 +1765,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:nl.nl.v1",
       "block": "",
-      "principle": "",
+      "principle": "day-shapes",
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
@@ -2010,7 +2010,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:nl.nl.v1",
       "block": "",
-      "principle": "",
+      "principle": "day-shapes",
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
@@ -2108,7 +2108,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:nl.nl.v1",
       "block": "",
-      "principle": "",
+      "principle": "day-shapes",
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
@@ -2598,7 +2598,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:nl.nl.v1",
       "block": "",
-      "principle": "",
+      "principle": "day-shapes",
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
@@ -2696,7 +2696,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:nl.nl.v1",
       "block": "",
-      "principle": "",
+      "principle": "day-shapes",
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
@@ -2745,7 +2745,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:nl.nl.v1",
       "block": "",
-      "principle": "",
+      "principle": "day-shapes",
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
@@ -2843,7 +2843,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:nl.nl.v1",
       "block": "",
-      "principle": "",
+      "principle": "day-shapes",
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
@@ -2990,7 +2990,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:nl.nl.v1",
       "block": "",
-      "principle": "",
+      "principle": "day-shapes",
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [
@@ -3333,7 +3333,7 @@
       "distractor_strategy": "n/a",
       "generator": "subagent:nl.nl.v1",
       "block": "",
-      "principle": "",
+      "principle": "day-shapes",
       "reveal_image": null,
       "difficulty": "unrated",
       "correct": [

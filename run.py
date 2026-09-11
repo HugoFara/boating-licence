@@ -462,6 +462,7 @@ def _player_html(lang: str, nav: str, title: str) -> str:
     <div class="actions">
       <button id="btn-exam" class="primary"></button>
       <button id="btn-practice"></button>
+      <button id="btn-learn" class="ghost"></button>
     </div>
     <p class="fine" id="t-sourcenote"></p>
     <div id="anki-dl" class="anki-dl hidden"></div>
@@ -470,6 +471,14 @@ def _player_html(lang: str, nav: str, title: str) -> str:
       <p class="fine" id="t-pathintro"></p>
       <div id="path-steps"></div>
     </details>
+  </section>
+  <section id="screen-learn" class="screen hidden">
+    <h2 id="t-learntitle"></h2>
+    <p class="sub" id="t-learnintro"></p>
+    <div id="learn"></div>
+    <div class="actions">
+      <button id="btn-learn-back" class="primary"></button>
+    </div>
   </section>
   <section id="screen-quiz" class="screen hidden">
     <header class="quizbar">
@@ -568,6 +577,7 @@ def _build_de_web(web: str, core_avail: dict | None = None) -> dict | None:
         return len(data["questions"])
 
     _learn_layer(conn, web_de, ["de"], "de")         # principle tags + concept cards
+    _reading_layer(conn, web_de, ["de"], "DE")       # cited articles for the Learn tab
     total = bundle("questions.json", None)          # back-compat (all langs = de)
     n_de = bundle("questions.de.json", "de")         # the player's preferred bundle
     meta = {k: v for k, v in conn.execute("SELECT key, value FROM meta")}
@@ -670,6 +680,31 @@ def _learn_layer(conn, out_dir, langs, bank_id):
                     shutil.copy2(src, os.path.join(fig_dir, f"{key}.svg"))
 
 
+def _reading_layer(conn, out_dir, langs, country_code):
+    """Ship the cited law articles (reading.<lang>.json) for the Learn tab: the
+    KB text of every unit an exportable question in that language cites, gated
+    on a redistributable licence (src/questions/reading.py). Written only when
+    at least one unit resolves — a bank whose provenance ids are not KB units
+    (the official ELWIS catalogue, the seed-driven FR banks) ships no file and
+    the player's Learn tab falls back to the citation links."""
+    from src.questions import reading
+    kb_path, _ = _kbpaths(country_code)
+    written = {}
+    for lg in langs:
+        tmp = os.path.join(out_dir, f"_reading.{lg}.tmp")
+        n = reading.export_reading_json(conn, kb_path, tmp, lg, exportable_only=True)
+        dst = os.path.join(out_dir, f"reading.{lg}.json")
+        if n:
+            os.replace(tmp, dst)
+            written[lg] = n
+        else:
+            if os.path.exists(tmp):
+                os.remove(tmp)
+            if os.path.exists(dst):          # stale file from an earlier build
+                os.remove(dst)
+    return written
+
+
 def _build_ch_web(web: str, core_avail: dict | None = None) -> dict | None:
     """Bundle the Swiss bank into web/ch/ — multilingual (fr/de/it + unofficial en),
     canton picker (no permits), Anki/GIFT downloads, and the shared common-core
@@ -720,6 +755,7 @@ def _build_ch_web(web: str, core_avail: dict | None = None) -> dict | None:
 
     langs = qschema.languages_present(conn, exportable_only=True)
     _learn_layer(conn, web_ch, langs, "ch")   # principle tags + concept cards (before export)
+    _reading_layer(conn, web_ch, langs, "CH")  # cited articles for the Learn tab
     total = bundle("questions.json", None)
     per_lang = {lg: bundle(f"questions.{lg}.json", lg) for lg in langs}
 
@@ -848,6 +884,7 @@ def _build_int_web(web: str, core_avail: dict | None = None) -> dict | None:
         return len(data["questions"])
 
     _learn_layer(conn, web_int, ["en"], "int")  # principle tags + concept cards (before export)
+    _reading_layer(conn, web_int, ["en"], "INT")  # cited articles for the Learn tab
     bundle("questions.json", None)
     n_en = bundle("questions.en.json", "en")
     conn.close()
@@ -941,6 +978,7 @@ def _build_nl_web(web: str, core_avail: dict | None = None) -> dict | None:
         return len(data["questions"])
 
     _learn_layer(conn, web_nl, ["nl"], "nl")   # principle tags + concept cards (before export)
+    _reading_layer(conn, web_nl, ["nl"], "NL")  # cited articles for the Learn tab
     total = bundle("questions.json", None)
     n_nl = bundle("questions.nl.json", "nl")
 

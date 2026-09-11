@@ -1,0 +1,1618 @@
+{
+  "meta": {
+    "lang": "de",
+    "count": 161
+  },
+  "units": {
+    "matelotage_wp_de-matelotage__kreuzknoten__nachteile-9c8a0a24": {
+      "ref": "Matelotage — Kreuzknoten : Nachteile",
+      "title": "Kreuzknoten — Nachteile",
+      "text": "Die einfache Ausführung hat den Kreuzknoten sehr bekannt gemacht. Dennoch halten viele Fachleute ihn für ungeeignet zum Verbinden von Seilen, wenn davon Leben, Gesundheit oder Werte abhängen. Aufgrund von Sicherheitsbedenken wurde der Kreuzknoten aus der Feuerwehr-Dienstvorschrift gestrichen. Es geschieht häufig, dass ein Kreuzknoten falsch ausgeführt oder falsch belastet wird: Die Belastbarkeit des Kreuzknotens ist sehr stark von den Eigenschaften des verwendeten Seils abhängig: Auch beim Verbinden von Leinen ungleicher Stärke neigt der Kreuzknoten zum Kippen in den Ankerstich. Stattdessen wäre ein Schotstek zu verwenden. Der Kreuzknoten lässt sich nach Belastung oft nur noch durch Zuhilfenahme von Werkzeug lösen. Das Standard- und Referenzwerk Ashley-Buch der Knoten betrachtet den Kreuzknoten ebenfalls skeptisch: „Einer der besten, aber am häufigsten missbrauchten Knoten ist der Kreuzknoten oder Reffknoten. Als Bändselknoten zum Reffen oder Bergen von Segeln oder um Pakete, Rollen und Bündel zu verschnüren ist er von unschätzbarem Wert. Aber als Verbindungsknoten (um zwei Enden zusammenzubinden) hat der Kreuzknoten wahrscheinlich mehr Tote und Verletzte auf dem Gewissen als das Versagen eines halben Dutzends anderer Knoten zusammen.“ „Unter gar keinen Umständen sollte er zum Verbinden von Seilen verwendet werden. Insbesondere bei Seilen mit ungleichem Durchmesser, unterschiedlicher Steifigkeit oder Reibung, neigt er zum Umkippen. Mit Ausnahme seiner eigentlicher Verwendung zum Verschnüren von Gegenständen, sollte dieser Knoten gemieden werden.“",
+      "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+      "url": "https://de.wikipedia.org/wiki/Kreuzknoten",
+      "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required.",
+      "as_of": "265196307",
+      "lang": "de"
+    },
+    "matelotage_wp_de-matelotage__kreuzknoten__verwendung-c4f51c1b": {
+      "ref": "Matelotage — Kreuzknoten : Verwendung",
+      "title": "Kreuzknoten — Verwendung",
+      "text": "Der Kreuzknoten ist der flachste aller Knoten, weshalb Weber ihn zum Verbinden der Fäden benutzen. Er geht glatt durch das Auge der Litze des Webschaftes . Bei ihnen heißt er auch oft nur einfach Weberknoten . Er eignet sich als Bindeknoten zum Verschnüren von Paketen oder Bündeln. Sehr bekannt ist seine Verwendung als Schuhbindeknoten (dabei wird er doppelt auf Slip gelegt ). Grundsätzlich ist dieser Knoten leicht zu erlernen und auszuführen. Er kann mit halben Schlägen zusätzlich gesichert werden. Die Qualität der Verbindung hängt stark vom Material der verbundenen Enden ab. Zum Verbinden zweier Seile (z. B. Kletter- oder Sicherungsseile) ist der Kreuzknoten nicht geeignet, er bietet keine ausreichende Sicherheit. Sofern der Kreuzknoten noch nicht belastet wurde, kann er entweder durch Zusammenschieben der Enden gelöst werden oder indem man die zwei Enden derselben Bucht auseinanderzieht: Dann kippt er zum Ankerstich um und das andere Ende lässt sich abziehen. Auf Slip gelegt , ist er auch unter Belastung zu öffnen. Der Kreuzknoten hat eine Knotenfestigkeit von etwa 45 %. Bei geschlagenem Tauwerk aus Polypropylen beträgt die Knotenfestigkeit etwa 36 bis 42 %. Ein geflochtenes Polypropylen-Seil erreicht eine Knotenfestigkeit von 37 %. Bei doppelt geflochtenen Nylon-Seilen mit 0,5 Zoll Durchmesser löste sich der Knoten, bevor das Seil brach.",
+      "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+      "url": "https://de.wikipedia.org/wiki/Kreuzknoten",
+      "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required.",
+      "as_of": "265196307",
+      "lang": "de"
+    },
+    "matelotage_wp_de-matelotage__palstek__klettern-82bdeab9": {
+      "ref": "Matelotage — Palstek : Klettern",
+      "title": "Palstek — Klettern",
+      "text": "Bis Anfang der 1970er Jahre diente der Palstek als verlässlicher Anseilknoten und fand Eingang in die Alpinliteratur. Im November 1965 kam es jedoch während einer Bergrettungsübung am Peilstein in Niederösterreich zum Absturz dreier Bergretter durch einen sich öffnenden Palstek. In Versuchen unter anderem durch Wastl Mariner fand man in den Folgemonaten heraus, dass sich der Palstek zwar bei Belastung als Anseilknoten bis zum Bruch des Seiles im Knoten hält, jedoch unter Ringbelastung aufzieht. Das heißt, bei mehreren ungleich gerichteten Kräften an der Schlaufe öffnet sich der Knoten bei 1,5 bis 1,6 kN. Als Ersatz wurde schließlich der Achterknoten eingeführt. Er hat eine große Knotenfestigkeit und öffnet sich auch unter Ringbelastung nicht. Trotz Veröffentlichung in der Fachliteratur wurde der Palstek selbst Jahrzehnte später noch verwendet, wobei es zu weiteren tödlichen Unfällen nach Ringbelastungen kam (z. B. 1981 am Les Droites und 1983 am Olperer ). Nach einem weiteren schweren Unfall mit einem sich öffnenden Palstek beim Weltcup 1992 in St. Pölten durfte nur noch mit Achterknoten angeseilt werden. Dessen Verwendung wurde inzwischen auf internationaler Wettkampfrichter-Ebene festgelegt. Die Abwandlungen Doppelter Palstek und Bulin 1.5 werden zum Anseilen häufig verwendet.",
+      "source": "Wikipedia (DE) — Knoten (Seemannschaft)",
+      "url": "https://de.wikipedia.org/wiki/Palstek",
+      "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required.",
+      "as_of": "266678182",
+      "lang": "de"
+    },
+    "meteo_wp_de-météo__bise__présentation-0e4a3f42": {
+      "ref": "Météo — Bise : Présentation",
+      "title": "Bise — Présentation",
+      "text": "Die Bise oder der Biswind ist ein im Südwesten des deutschen Sprachraums (Südbaden, Schweiz, Vorarlberg) bekanntes Wort für einen aus Norden, Nordosten oder Osten wehenden, schneidend kalten, trockenen und aufhellenden Wind . Die Fachsprache der Meteorologie dagegen beschränkt das Wort auf ein regionales Schweizer Windsystem, das nur im Schweizer Mittelland auftritt. Der meist trockene, kalte Wind aus Ost bis Nordost im schweizerischen Mittelland wird von aus dem Nordosten Europas nach Mitteleuropa strömender Kontinentalluft gespeist, wenn im Europa nördlich der Schweiz hoher und im Mittelmeerraum tiefer Druck herrscht. Im Sommer bedeutet eine Bisenlage meistens schönes Wetter mit angenehm kühlen Temperaturen. Im Winter liegt in niederen Lagen häufig Hochnebel oder starker Dunst . Wegen der sich gegen Westen hin verengenden Kanalisierung durch die Alpen und den Jura erreicht die Bise ihre grössten Stärken im Genferseeraum , wo bei klassischer Bisenlage nicht selten mittlere Windgeschwindigkeiten von 60 km/h und Böen ­spitzen bis über 100 km/h registriert werden (bise noire) . Am Bodensee ist die Bise schwächer und äussert sich als relativ kühler Nord- bis Nordostwind mit meist weniger als 6 Beaufort (40–50 km/h). Das Wort Bise, erstmals in den Schriften Notkers III. von St. Gallen belegt, ist ein alemannisches Wort, dessen Herkunft unsicher ist. Vermutlich gehört es zur Wortsippe von althochdeutsch bĭsōn ‚umher-, einherstürmen‘; Versuche, das Wort als Entlehnung aus dem Galloromanischen herzuleiten oder mit Brise zu verbinden, werden heute abgelehnt.",
+      "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+      "url": "https://de.wikipedia.org/wiki/Bise",
+      "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required.",
+      "as_of": "255748921",
+      "lang": "de"
+    },
+    "meteo_wp_de-météo__föhn__föhneffekte_an_geländestufen_mittel-e6d99a13": {
+      "ref": "Météo — Föhn : Föhneffekte an Geländestufen, Mittelgebirgen",
+      "title": "Föhn — Föhneffekte an Geländestufen, Mittelgebirgen",
+      "text": "Weniger bekannt, in der Praxis aber recht verbreitet, sind schwächere Föhneffekte im Lee von niedrigeren Geländestufen und Mittelgebirgszügen. Typischerweise treten solche Effekte bei starker Warmluftadvektion in den Wintermonaten auf. Die warme Luftmasse kann sich mangels Sonneneinstrahlung und aufgrund von Nebel/Hochnebelbildung nicht bis in die tiefen Lagen durchsetzen, es kommt zur Ausbildung einer starken, aber nur wenige hundert Meter flachen Temperaturinversion. Ist die großräumige Luftströmung von einer Hochfläche oder einem Mittelgebirgszug in Richtung Tiefebene gerichtet, so wandert die bodennahe Kaltluftschicht in Richtung Tiefland ab und wird durch die wärmere und trockenere Luft aus höheren Luftschichten ersetzt. Hier kommt es zur Auflösung tiefer Wolkenschichten bei deutlich verbesserter Sicht und höheren Temperaturen. Diese Effekte treten großräumiger auf, sind nicht auf einzelne Täler begrenzt und können sich noch relativ weit von der Geländeschwelle entfernt bemerkbar machen. Die Windgeschwindigkeit nimmt dabei nur unwesentlich zu. Typische Regionen mit Föhneffekten sind: in Deutschland",
+      "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+      "url": "https://de.wikipedia.org/wiki/Föhn",
+      "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required.",
+      "as_of": "265635909",
+      "lang": "de"
+    },
+    "meteo_wp_de-météo__joran__joran_statique-a8264b44": {
+      "ref": "Météo — Joran : Joran statique",
+      "title": "Joran — Joran statique",
+      "text": "Der Joran statique , auch Le Joran d'orage (‚ Unwetter -Joran‘) genannt, ist ein katabatischer Fallwind, der meist zwischen Mai und Juli am frühen Abend zu beobachten ist. Die Bedingungen, die zum Joran statique führen, sind bis anhin noch wenig erforscht und es existieren nur wenige Veröffentlichungen dazu. Da der betroffene Südfuss des Jura sich über 170 km erstreckt, kann nicht von einem normalen, kleinräumigen Bergwind gesprochen werden. Für Entstehung und Ausprägung sind bestimmte Temperatur- und Luftdruckgegensätze zwischen dem Juranordfuss und dem Jurasüdfuss ausschlaggebend. Insbesondere die Temperaturunterschiede zwischen Jurahöhen und Jurasüdfuss sind bestimmend für Stärke der Böengeschwindigkeit, wie auch die mittlere Windgeschwindigkeit. Diese werden durch die Beschattung der Jurahänge durch die sinkende Sonne am Abend, aber auch durch Bewölkung (Vorzeichen sind u. a. grosse, schwarze Cumulus -Wolken sowie Gewitter und die dadurch bedingte Abkühlung durch Niederschläge) hervorgerufen. Es ist zu vermuten, dass dieses Phänomen durch inverse Temperaturschichtungen in der Höhe verstärkt wird. Diese labilen Luftmassen in 1500–2500 m Höhe verhindern zusätzlich den vertikalen Austausch der Luftmassen. Bei Bise (Ostwind) kommt es seltener zu Joran. Nach Untersuchungen von Baki (2007) entsteht Joran statique meistens, wenn tagsüber ruhige Wetterlagen vorherrschend waren (schwachwindig oder kein Wind). Typischerweise beginnt er mit schweren Böen aus wechselnder Richtung, bevor er sich nach einer gewissen Zeit bei drei bis sechs Beaufort aus Nordwest verstetigt und schliesslich über den südlichen Ufern der Juraseen abklingt.",
+      "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+      "url": "https://de.wikipedia.org/wiki/Joran",
+      "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required.",
+      "as_of": "219703445",
+      "lang": "de"
+    },
+    "meteo_wp_de-météo__vaudaire__présentation-15f3655d": {
+      "ref": "Météo — Vaudaire : Présentation",
+      "title": "Vaudaire — Présentation",
+      "text": "Der Vaudaire (französisch la vaudaire ) ist ein kräftiger bis stürmischer Wind in der Region am Genfersee . Der gelegentlich aus südlicher Richtung aus den Alpen durch das Rhonetal und das Chablais über das Seebecken fließende Wind kann durch drei verschiedene meteorologische Ursachen hervorgerufen werden. Einerseits kann bei einer Großwetterlage mit einem über den Alpenkamm strömenden Wind Föhn im Rhonetal entstehen, der dann als starker trockener und warmer Wind erscheint. Und andererseits können bei kräftigen Gewittern im unteren Wallis kühle, feuchte Sturmwinde zum Genfersee hin auftreten. Und drittens kommt es vor, dass bei Regenfällen im Wallis und gleichzeitig im Gebiet der Voralpen liegender warmer Luft ein Kaltwind durch das Rhonetal abfließt und ebenfalls den See erreicht. Der Vaudaire richtet manchmal erhebliche Sachschäden in der Region am Genfersee und an den Schiffen auf dem See an, so wie am Mittwoch, dem 12. August 2020. Vaudaire war auch der Name eines Frachtschiffs auf dem Genfersee vom Typ barque du Léman , das von 1894 bis 1952 vor allem für den Transport von Steinen aus den Steinbrüchen von Meillerie eingesetzt wurde.",
+      "source": "Wikipedia (DE) — Winde (Bise, Joran, Vaudaire, Föhn)",
+      "url": "https://de.wikipedia.org/wiki/Vaudaire",
+      "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required.",
+      "as_of": "211014174",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_10-cc2366af": {
+      "ref": "ONI Anhang 2 – fig. 10",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 4b — Absatz 3 Buchstaben a und b; Segelschiffe mit oder ohne gesetzte Segel unter Motor; Topplicht:; weisses Licht; Seitenlichter:; grünes Licht; rotes Licht; Hecklicht:; weisses Licht; Die Seitenlichter dürfen im vorderen Bereich nebeneinander oder als Kombinations-Seitenlicht angebracht sein.",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_11-c6f5c231": {
+      "ref": "ONI Anhang 2 – fig. 11",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 4c — Absatz 4; Segelschiffe unter Motor; Topplicht:; weisses Licht; Seitenlichter und Hecklicht in einem Dreifarben-Topplicht an oder nahe der Mastspitze",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_12-e84201ce": {
+      "ref": "ONI Anhang 2 – fig. 12",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 5 — Absatz 5; Auf Schiffen, deren Antriebsleistung nicht mehr als 6 kW beträgt, und auf Sportbooten oder Vergnügungsschiffen, deren Länge 7 m und deren Geschwindigkeit über Grund 7 Knoten nicht übersteigt: weisses gewöhnliches Licht",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_14-480fe34e": {
+      "ref": "ONI Anhang 2 – fig. 14",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 7 — Schiffe ohne Maschinenantrieb; Artikel 25 Absatz 1; einzeln oder im Schleppverband fahrende Schiffe; weisses gewöhnliches Rundumlicht.",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_15-5bab20c3": {
+      "ref": "ONI Anhang 2 – fig. 15",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 8 — Absatz 2; Segelschiffe, die unter Segel fahren; weisses gewöhnliches Rundumlicht",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_18-58d55761": {
+      "ref": "ONI Anhang 2 – fig. 18",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 9b — Absatz 3; zwei senkrecht übereinander angebrachte Rundumlichter, ein Hecklicht sowie ein Kombinations-Seitenlicht oder getrennte Seitenlichter; die Rundumlichter sind dort anzubringen, wo sie am besten sichtbar sind; das obere Licht ist rot, das untere grün.",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_19-3b6b2be2": {
+      "ref": "ONI Anhang 2 – fig. 19",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 10 — Schiffe beim Stillliegen; Artikel 26 Absatz 1; weisses gewöhnliches Rundumlicht",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_21-b5942005": {
+      "ref": "ONI Anhang 2 – fig. 21",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 12 — Vorrangschiffe; Artikel 27 Buchstabe a; Topplicht:; weisses helles Licht; Seitenlichter:; grünes helles Licht; rotes helles Licht; Hecklicht:; weisses gewöhnliches Licht und zusätzl. mindestens 1 m höher als das Topplicht:; grünes helles Rundumlicht",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_23-6ba35e1f": {
+      "ref": "ONI Anhang 2 – fig. 23",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 14 — Schutz gegen Wellenschlag; Artikel 28 Buchstabe a; zusätzlich zu den vorgeschriebenen Lichtern: rotes gewöhnliches Rundumlicht über weissem gewöhnlichem Rundumlicht",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_24-9d06c7bf": {
+      "ref": "ONI Anhang 2 – fig. 24",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 15 — Buchstabe b; Flagge, deren obere Hälfte rot, die untere Hälfte weiss ist",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_26-5106f233": {
+      "ref": "ONI Anhang 2 – fig. 26",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 17 — Gefährliche Verankerungen; Artikel 29 Absatz 1 Buchstabe a; weisses gewöhnliches Rundumlicht über dem weissen Rundumlicht nach Abs. 1",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_28-222a9ce0": {
+      "ref": "ONI Anhang 2 – fig. 28",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 19 — Absatz 2; wenn es die Sicherheit der Schifffahrt erfordert: weisse Rundumlichter als Bezeichnung der einzelnen Verankerungen",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_29-d05860dd": {
+      "ref": "ONI Anhang 2 – fig. 29",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 20 — gelbe Schwimmkörper als Bezeichnung der einzelnen Verankerungen",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_31-14115477": {
+      "ref": "ONI Anhang 2 – fig. 31",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 22 — blaues Blinklicht",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_32-ff36f4ba": {
+      "ref": "ONI Anhang 2 – fig. 32",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 23 — Absatz 2; – Schiffe der Polizei der Grenzbewachung oder der Fischereiaufsicht; wenn sie mit anderen Schiffen Verbindung aufnehmen wollen: Flagge, Buchstabe «K» (Flagge, deren Hälfte am Stock gelb, die andere Hälfte blau ist)",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_33-23d97ab7": {
+      "ref": "ONI Anhang 2 – fig. 33",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 24 — Fischereischiffe; Artikel 31 Absatz 1 Buchstabe a; – Schiffe der Berufsfischer; gelbes gewöhnliches Rundumlicht",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_36-d9e84ff1": {
+      "ref": "ONI Anhang 2 – fig. 36",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 27 — Zeichen beim Tauchen; Artikel 32 Absatz 1; – beim Tauchen vom Land aus; Tafel, Buchstabe «A» (Doppelstander, dessen Hälfte am Stock weiss, die andere Hälfte blau ist)",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_37-34467af6": {
+      "ref": "ONI Anhang 2 – fig. 37",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 28 — Absatz 2; – beim Tauchen vom Gewässer aus; Tafel, Buchstabe «A» (Doppelstander, dessen Hälfte am Stock weiss, die andere Hälfte blau ist) von allen Seiten sichtbar",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_38-53d52640": {
+      "ref": "ONI Anhang 2 – fig. 38",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 29 — Manövrierunfähige Schiffe; Artikel 51 Absatz 1; Schwenken eines Lichtes",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_39-e292fc59": {
+      "ref": "ONI Anhang 2 – fig. 39",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 30 — Schwenken einer roten Flagge",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_4-472cb691": {
+      "ref": "ONI Anhang 2 – fig. 4",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 1 — Schiffe mit Maschinenantrieb; Artikel 24 Absatz 1; – einzeln fahrende oder schleppende Schiffe; Topp- oder Buglicht: weisses helles Licht; Seitenlichter: grünes helles Licht rotes helles Licht; Hecklicht:weisses gewöhnliches Licht",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_40-4375847d": {
+      "ref": "ONI Anhang 2 – fig. 40",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 31 — Schiffe in Not; Artikel 58 Buchstabe a; kreisförmiges Schwenken eines Lichtes",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_41-6278cdc9": {
+      "ref": "ONI Anhang 2 – fig. 41",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 32 — kreisförmiges Schwenken einer roten Flagge oder eines sonstigen geeigneten Gegenstandes",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_42-d651f01b": {
+      "ref": "ONI Anhang 2 – fig. 42",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 33 — Buchstabe f; langsames und wiederholtes Heben und Senken der ausgestreckten Arme",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_43-9c80f953": {
+      "ref": "ONI Anhang 2 – fig. 43",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 34 — Schwimmende Geräte, Schiffe bei der Arbeit und festgefahrene oder gesunkene Schiffe; Artikel 71 Absatz 1 Buchstabe a; – nach der Seite oder den Seiten, wo vorbeigefahren werden kann:; rotes gewöhnliches Licht: weisses gewöhnliches Licht; – nach der Seite oder den Seiten, wo nicht vorbeigefahren werden kann:; rotes gewöhnliches Licht",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_44-75c1d8f4": {
+      "ref": "ONI Anhang 2 – fig. 44",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 35 — Buchstabe b; – nach der Seite oder den Seiten, wo vorbeigefahren werden kann:; Flagge, deren obere Hälfte rot, die untere Hälfte weiss ist; – nach der Seite oder den Seiten, wo nicht vorbeigefahren werden kann:; rote Flagge",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_5-717845ea": {
+      "ref": "ONI Anhang 2 – fig. 5",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 1a — – Schubverbände; Topplicht: weisses helles Licht auf dem vordersten Schiff; Seitenlichter: grünes helles Licht rotes helles Licht; Hecklicht: weisses gewöhnliches Licht",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_2__fig_8-758b586d": {
+      "ref": "ONI Anhang 2 – fig. 8",
+      "title": "Anhang 2 — Sichtzeichen der Schiffe",
+      "text": "Anhang 2, ch. 4 — Absätze 2 Buchstabe b und 3 Buchstabe d; Schiffe der Berufsfischer, Sportboote und Vergnügungsschiffe mit Maschinenantrieb sowie Segelschiffe, die unter Motor fahren; weisses Rundumlicht; Seitenlichter:; grünes Licht; rotes Licht",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_1-6aba2aed": {
+      "ref": "ONI Anhang 4 – fig. 1",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Verbot der Durchfahrt; allgemeines Verbotszeichen",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_10-ad80403a": {
+      "ref": "ONI Anhang 4 – fig. 10",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Ankerverbot",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_11-e479e4fd": {
+      "ref": "ONI Anhang 4 – fig. 11",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Festmacheverbot",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_12-fa4f4581": {
+      "ref": "ONI Anhang 4 – fig. 12",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Wendeverbot",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_13-61fd8aaa": {
+      "ref": "ONI Anhang 4 – fig. 13",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Verbot, schädlichen Wellenschlag oder Sog zu erzeugen",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_14-59bab8ac": {
+      "ref": "ONI Anhang 4 – fig. 14",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Verbot, ausserhalb der angezeigten Begrenzungen zu fahren",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_15-84b186b6": {
+      "ref": "ONI Anhang 4 – fig. 15",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Verbot, ausserhalb der angezeigten Begrenzungen zu fahren",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_16-2ec98114": {
+      "ref": "ONI Anhang 4 – fig. 16",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Durchfahrt verboten, aber Weiterfahrt; vorbereiten",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_17-31e3f5d4": {
+      "ref": "ONI Anhang 4 – fig. 17",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Badeverbot",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_18-1b92f27e": {
+      "ref": "ONI Anhang 4 – fig. 18",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Gebot, die durch den Pfeil angegebene Richtung einzuschlagen",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_19-4914336e": {
+      "ref": "ONI Anhang 4 – fig. 19",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Gebot, unter bestimmten Bedingungen; anzuhalten",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_20-c7f19be7": {
+      "ref": "ONI Anhang 4 – fig. 20",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Gebot, die in Stundenkilometern (km/h) angegebene Geschwindigkeit nicht zu überschreiten",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_21-ed68c4ef": {
+      "ref": "ONI Anhang 4 – fig. 21",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Gebot, ein Schallzeichen zu geben",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_22-18141c92": {
+      "ref": "ONI Anhang 4 – fig. 22",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Gebot, besondere Vorsicht walten zu lassen",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_23-48a232ba": {
+      "ref": "ONI Anhang 4 – fig. 23",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Beschränkung der Durchfahrtshöhe (über dem Wasserspiegel)",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_24-4d5c807d": {
+      "ref": "ONI Anhang 4 – fig. 24",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Beschränkte Durchfahrtsbreite",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_25-b4e22cc7": {
+      "ref": "ONI Anhang 4 – fig. 25",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Das Fahrwasser ist eingeengt; die Zahl auf dem Zeichen gibt den Abstand in Metern (m) an, in dem sich Schiffe vom Ufer entfernt halten sollen",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_26-a9e360f1": {
+      "ref": "ONI Anhang 4 – fig. 26",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Begrenzte Wassertiefe",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_27-d317a2b3": {
+      "ref": "ONI Anhang 4 – fig. 27",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Empfohlene Durchfahrt bei Brücken; für Verkehr in beiden Richtungen",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_28-54fb1333": {
+      "ref": "ONI Anhang 4 – fig. 28",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — oder",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_29-be8dd8b3": {
+      "ref": "ONI Anhang 4 – fig. 29",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — oder",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_3-55aa2cca": {
+      "ref": "ONI Anhang 4 – fig. 3",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_30-d6c36f48": {
+      "ref": "ONI Anhang 4 – fig. 30",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Empfehlung, sich auf der mit «grün» bezeichneten Fahrwasserseite zu halten",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_31-80c8c0d9": {
+      "ref": "ONI Anhang 4 – fig. 31",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Empfehlung, sich auf der mit «grün» bezeichneten Fahrwasserseite zu halten",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_32-45fa4e21": {
+      "ref": "ONI Anhang 4 – fig. 32",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Erlaubnis zur Durchfahrt",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_33-d6990bbf": {
+      "ref": "ONI Anhang 4 – fig. 33",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Erlaubnis zum Stillliegen",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_34-09700582": {
+      "ref": "ONI Anhang 4 – fig. 34",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Erlaubnis zum Ankern",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_35-0b759a15": {
+      "ref": "ONI Anhang 4 – fig. 35",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Erlaubnis zum Festmachen",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_36-250151e2": {
+      "ref": "ONI Anhang 4 – fig. 36",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Erlaubnis zum Wasserskifahren",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_37-59c35db5": {
+      "ref": "ONI Anhang 4 – fig. 37",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Erlaubnis zum Fahren mit Segelbrettern",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_38-8df80290": {
+      "ref": "ONI Anhang 4 – fig. 38",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Erlaubnis zum Fahren mit Drachensegelbrettern",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_39-c88555cf": {
+      "ref": "ONI Anhang 4 – fig. 39",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Empfohlene Fahrrichtung",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_4-aa588ca4": {
+      "ref": "ONI Anhang 4 – fig. 4",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Verbot des Wasserskifahrens",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_40-a2157015": {
+      "ref": "ONI Anhang 4 – fig. 40",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Nicht freifahrende Fähre",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_41-4086f120": {
+      "ref": "ONI Anhang 4 – fig. 41",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Wehr",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_42-66a32b7f": {
+      "ref": "ONI Anhang 4 – fig. 42",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Stelle zum Einwassern von Schiffen",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_43-eb4d6fcb": {
+      "ref": "ONI Anhang 4 – fig. 43",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Stelle zum Auswassern von Schiffen",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_44-976bdc47": {
+      "ref": "ONI Anhang 4 – fig. 44",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Ende eines Verbotes oder Gebotes",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_45-f7bab8ea": {
+      "ref": "ONI Anhang 4 – fig. 45",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Hochspannungs-Freileitung",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_48-50a73687": {
+      "ref": "ONI Anhang 4 – fig. 48",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Beispiel:; Anhalten zwecks Zollabfertigung",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_49-84db8b28": {
+      "ref": "ONI Anhang 4 – fig. 49",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Einzelne Hindernisse; Kegel mit Spitze nach unten rot bemalt oder unbemalt",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_5-9f2afa60": {
+      "ref": "ONI Anhang 4 – fig. 5",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Verbot des Fahrens mit Segelschiffen",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_50-d5b0e778": {
+      "ref": "ONI Anhang 4 – fig. 50",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Fahrwasserbezeichnung; Zylinder rot bemalt oder unbemalt; Kegel mit Spitze nach oben grün bemalt oder unbemalt",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_52-6e4633c7": {
+      "ref": "ONI Anhang 4 – fig. 52",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Beispiel:; Bezeichnung einer Untiefe in Ufernähe; seeseitig:; Zylinder; landseitig:; Kegel",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_53-ccf139ed": {
+      "ref": "ONI Anhang 4 – fig. 53",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Beispiel:; Bezeichnung eines Fahrwassers in untiefem Gebiet; auf der vom Gewässer aus gesehen rechten Seite:; grüne Kegel; auf der vom Gewässer aus gesehen linken Seite:; rote Zylinder",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_54-3743f209": {
+      "ref": "ONI Anhang 4 – fig. 54",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Ausgedehnte Hindernisse; im nördlichen Quadrant: zwei übereinander angebrachte Kegel, beide mit der Spitze nach oben; im östlichen Quadrant: zwei übereinander angebrachte Kegel, der untere mit der Spitze nach unten, der obere mit der Spitze nach oben; im südlichen Quadrant: zwei übereinander angebrachte Kegel, beide mit der Spitze nach unten; im westlichen Quadrant: zwei übereinander angebrachte Kegel, der untere mit der Spitze nach oben, der obere mit der Spitze nach unten.",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_55-d5c65096": {
+      "ref": "ONI Anhang 4 – fig. 55",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Beispiel:; Ausgedehnte Untiefe; Die Zeichen zeigen an, dass sich im nördlichen und im westlichen Quadrant tiefes Wasser befindet.",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_6-25cfa6de": {
+      "ref": "ONI Anhang 4 – fig. 6",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Verbot des Fahrens mit Segelbrettern",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_60-6d7e9e8d": {
+      "ref": "ONI Anhang 4 – fig. 60",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Starkwindwarnung",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_61-20c82d8c": {
+      "ref": "ONI Anhang 4 – fig. 61",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Sturmwarnung",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_7-1c0cdf91": {
+      "ref": "ONI Anhang 4 – fig. 7",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Überholverbot",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_8-5047d8b4": {
+      "ref": "ONI Anhang 4 – fig. 8",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Verbot des Begegnens und Überholens",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_anhang_4__fig_9-640557e6": {
+      "ref": "ONI Anhang 4 – fig. 9",
+      "title": "Anhang 4 — Schifffahrtszeichen",
+      "text": "Anhang 4 — Verbotenes Stillliegen",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_art_134-3ddc1ad3": {
+      "ref": "ONI art. 134",
+      "title": "Baubestimmungen › Gemeinsame Bestimmungen › Ausrüstung — Rettungsgeräte",
+      "text": "1 Als Rettungsgeräte werden Einzel- und Sammelrettungsmittel anerkannt. Als Einzelrettungsmittel gelten Rettungswesten mit Kragen und Rettungsringe. Rettungsinseln für den Einstieg und Rettungsboote gelten als Sammelrettungsmittel.2 Einzelgeräte müssen mindestens 75 N Auftrieb haben; ausgenommen sind Einzelgeräte auf Schiffen nach Artikel 134a.2bis Aufblasbare Rettungswesten werden anerkannt, wenn der Aufblasvorgang automatisch oder von Hand ausgelöst wird.3 Die Anforderungen an Rettungsinseln für den Einstieg und an Rettungsboote richten sich nach der Schiffbauverordnung vom 14. März 19944 Auf Schiffen muss für jede an Bord befindliche Person ein Einzelrettungsmittel oder ein Platz in einem Sammelrettungsmittel vorhanden sein.4bis Die Bestimmung von Absatz 4 gilt nicht:a.für Ruderboote (Art. 2 Bst. a Ziff. 11), für Schiffe, welche die Anforderungen in Artikel 16 Absatz 2bis erfüllen, sowie für wettkampftaugliche Wassersportgeräte (Art. 134a Abs. 1), sofern sie auf Seen in der inneren und äusseren Uferzone verkehren;b. für Fahrgastschiffe. Der Bestand und die Zusammensetzung der Rettungsmittel auf Fahrgastschiffen richten sich nach den Bestimmungen der Schiffbauverordnung vom 14. März 19945 Vergnügungsschiffe und Sportboote mit einer Antriebsleistung von mehr als 30 kW sowie Segelschiffe mit mehr als 15 m2 Segelfläche benötigen zusätzlich zu den in Absatz 4 genannten Rettungsgeräten ein geeignetes Rettungswurfgerät mit mindestens 75 N Auftrieb mit einer schwimmfähigen Wurfleine von mindestens 10 m Länge.6 Der Auftrieb der Rettungswesten für Kinder unter zwölf Jahren ist nicht vorgeschrieben. Es dürfen jedoch nur passende Rettungswesten mit Kragen verwendet werden.7 …",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_art_142-1b69a547": {
+      "ref": "ONI art. 142",
+      "title": "Baubestimmungen › Besondere Bestimmungen für Güterschiffe und schwimmende Geräte — Begriffe",
+      "text": "Zur Anwendung der besonderen Bestimmungen dieses Abschnittes werden die nachfolgenden Begriffe definiert:a. Risikoanalyse: eine Analyse im Sinne von Artikel 2 Buchstabe d der Schiffbauverordnung vom 14. März 1994b. Sicherheitsbericht: ein Bericht im Sinne von Artikel 2 Buchstabe e und 17 Absatz 3 SBV;c. Sachverständiger: eine Person im Sinne von Artikel 5a Absatz 1 Buch-stabe a SBV;d. Sachverständigenprüfbericht: ein Bericht im Sinne von Artikel 2 Buch-stabe f SBV;e. Sorgfaltsregeln: Regeln im Sinne von Artikel 5 SBV.",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_art_143a-2b95f4ff": {
+      "ref": "ONI art. 143a",
+      "title": "Baubestimmungen › Besondere Bestimmungen für Güterschiffe und schwimmende Geräte — Stabilität von Güterschiffen",
+      "text": "1 Für Güterschiffe, die ihre Ladung überwiegend an Deck führen sowie für solche, bei denen auf Grund der Bauweise oder der Anordnung der Ladung ungünstige Stabilitätseigenschaften zu erwarten sind, ist ein rechnerischer Nachweis der ausreichenden Stabilität zu erbringen. In Zweifelsfällen entscheidet die zuständige Behörde, ob ein Nachweis vorzulegen ist.2 Der Nachweis gilt als erbracht, wenn der Krängungswinkel des betriebsbereiten, beladenen Schiffes unter Ansatz der nachfolgend aufgeführten äusseren Belastungen 5 Grad nicht übersteigt und Seite Deck an der tiefsten Stelle nicht ins Wasser eintaucht. Die Metazentrische Höhe des betriebsbereiten, beladenen Schiffes darf 1,00 m nicht unterschreiten.3 Der Einfluss allfälliger freier Flüssigkeitsoberflächen auf die Stabilität ist zu berücksichtigen.4 Sofern die Lage des Gewichtsschwerpunktes des betriebsbereiten, unbeladenen Schiffes aus einer Berechnung mit hinreichender Genauigkeit bestimmt werden kann, ist kein Krängungsversuch nötig.5 Für die krängenden Momente sind mindestens folgende Lastannahmen gleichzeitig zu treffen:a. seitlicher Winddruck von 0,25 kN/m2;b. krängendes Moment aus Zentrifugalkräften bei Drehkreisfahrt hierin bedeuten:LCWL Länge in der Konstruktionswasserlinie in mc Beiwert, von der Bauwerft oder dem Betreiber des Schiffes festzulegen, jedoch nicht kleiner als 0,4v Geschwindigkeit des Schiffes in ruhigem, tiefen Wasser bei Nennleistung des/der Motoren in m/sT Tiefgang des voll beladenen Schiffes in mD Verdrängung des voll beladenen Schiffes in tKG Höhe des Gewichtsschwerpunktes über Oberkante Kiel in m6 Ist aus dem praktischen Betrieb des Schiffes das Auftreten weiterer krängender Momente zu erwarten, so sind diese bei der Berechnung des Krängungswinkels ebenfalls zu berücksichtigen.7 Lassen die örtlichen Einsatzverhältnisse höhere Winddrücke erwarten, so kann die zuständige Behörde entsprechende Zuschläge für den Winddruck vorschreiben.",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_art_144-f8acab15": {
+      "ref": "ONI art. 144",
+      "title": "Baubestimmungen › Besondere Bestimmungen für Güterschiffe und schwimmende Geräte — Freibord",
+      "text": "1 Der Freibord der Güterschiffe richtet sich nach dem Fahrgebiet, in dem sie verkehren.2 Der Freibord, gemessen von der Tiefladewasserlinie bis zum tiefsten Punkt der Oberkante Schale, beträgt:a.bei Schiffen mit festem, durchgehendem Deck ohne Decksprung und ohne Aufbauten:– 30 cm für Zone 2– 15 cm für Zone 3b.bei offenen Schiffen:– 100 cm für Zone 2– 50 cm für Zone 33 Bei Schiffen mit Decksprung oder mit Aufbauten kann der Freibord nach Absatz 2 Buchstabe a reduziert werden, jedoch höchstens auf:– 10 cm für Zone 2–   5 cm für Zone 3Die Berechnung des Freibordes erfolgt in diesem Fall nach Anhang 14.4 Aufbauten dürfen in der Freibordrechnung nach Absatz 3 nur berücksichtigt werden, wenn:a. ihre mittlere Breite mindestens 60 Prozent der Schiffsbreite auf halber Länge des betreffenden Aufbaues beträgt;b. sie bis zur Höhe des Sicherheitsabstandes wasserdicht sind.5 Der Freibord der schwimmenden Geräte beträgt:a. 90 cm für Zone 2;b. 45 cm für Zone 3.6 Der Freibord kann angemessen verringert werden, wenn durch eine Stabilitätsberechnung nachgewiesen wird, dass bei ungünstigster Beladung des schwimmenden Gerätes und bei Ansatz der krängenden Momente nach Absatz 7 der kleinste Restfreibord im gekrängten Zustand 20 cm nicht unterschreitet. Die Stabilitätsberechnung muss auf den Ergebnissen eines Krängungsversuches mit dem vollständig ausgerüsteten, betriebsbereiten schwimmenden Gerät basieren. Der Einfluss allfälliger freier Flüssigkeitsoberflächen ist zu berücksichtigen.7 Für die krängenden Momente sind mindestens folgende Lastannahmen gleichzeitig zu treffen:a. seitlicher Winddruck von 0,25 kN/m2;b. einseitige Lastverschiebung entsprechend den zu erwartenden Belastungen im praktischen Betrieb;c. sonstige äussere Belastungen (z. B. Zentrifugalkräfte, Queranströmung, Seilzugkräfte etc.).8 Sofern die örtlichen Einsatzverhältnisse höhere Winddrücke erwarten lassen, kann die zuständige Behörde entsprechende Zuschläge vorschreiben.",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_art_146-3d8b5ade": {
+      "ref": "ONI art. 146",
+      "title": "Baubestimmungen › Besondere Bestimmungen für Güterschiffe und schwimmende Geräte — Schiffskörper",
+      "text": "1 Die Dimensionierung der Bauteile der Schiffskörper von Güterschiffen und schwimmenden Geräten muss den Vorschriften einer anerkannten Klassifikationsgesellschaft entsprechen.2 Die Schiffe müssen mindestens mit einem Kollisionsschott und zwei Maschinenraumschotten versehen sein. Befindet sich der Maschinenraum am hinteren Schiffsende, so kann das zweite Maschinenraumschott entfallen.3 Das Kollisionsschott muss vom Schnittpunkt des Vorstevens mit der Tiefladewasserlinie einen Abstand von 1/12 bis 1/8 der Länge in dieser Wasserlinie aufweisen. Ist dieser Abstand kleiner, so ist durch eine Berechnung nachzuweisen, dass das betriebsbereite, vollständig beladene Schiff schwimmfähig bleibt, wenn die beiden vordersten Räume überflutet werden. Der Nachweis kann entfallen, wenn das Schiff im Bereich bis 1/8 der Länge in dieser Wasserlinie, gemessen ab dem Schnittpunkt der Tiefladewasserlinie mit dem Vorsteven, beidseitig über wasserdichte Abteilungen verfügt, deren Breite auf jeder Schiffsseite an jeder Stelle mindestens 1/5 der Breite des Rumpfes in der Tiefladewasserlinie aufweist.4 Der Nachweis der Schwimmfähigkeit bei Überflutung der beiden vordersten Räume gilt als erbracht, wenn das Schiff in allen Zwischenzuständen der Überflutung und im Endzustand nicht so tief eintaucht, dass Seite Deck überflutet wird. Bei der Berechnung sind Krängungen durch allfällige einseitige Überflutungen zu berücksichtigen.5 Das Kollisionsschott muss wasserdicht sein und von Bordwand zu Bordwand reichen. Es muss vom Schiffsboden bis zum Deck geführt werden und darf keine Türen, Einstiegsluken, Mannlöcher oder sonstige Öffnungen enthalten.",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_art_148g-51d988c7": {
+      "ref": "ONI art. 148g",
+      "title": "Baubestimmungen › Besondere Bestimmungen für Sportboote — Inverkehrbringen von Sportbooten, unvollständigen oder umgebauten Sportbooten und Bauteilen",
+      "text": "1 Sportboote, unvollständige Sportboote, Sportboote, bei denen ein grösserer Umbau vorgenommen wird, oder Bauteile dürfen nur in Verkehr gebracht, auf dem Markt bereitgestellt oder in Betrieb genommen werden, wenn eine Konformitätsbewertung nach Artikel 148h durchgeführt wurde und die beteiligten Wirtschaftsakteure oder privaten Importeure ihre Pflichten nach den für sie geltenden Bestimmungen der EU-Sportboot-Richtliniea. Artikel 4 und dem in dieser Bestimmung genannten Anhang I;b. Artikel 7–12; sowiec. Artikel 25 und dem in dieser Bestimmung genannten Anhang IX.2 Die Pflicht, die CE-Kennzeichnung anzubringen, gilt nicht. Soweit die CE-Kennzeichnung in Übereinstimmung mit den Vorschriften der EU bereits angebracht ist, kann sie belassen werden.3 Das Bundesamt für Verkehr bezeichnet im Einvernehmen mit dem Staatssekretariat für Wirtschaft die technischen Normen, die geeignet sind, die grundlegenden Anforderungen an Sportboote, an unvollständige Sportboote, an Sportboote, bei denen ein grösserer Umbau vorgenommen wird, oder an Bauteile in Bezug auf den Entwurf und den Bau von Sportbooten sowie in Bezug auf Geräuschemissionen zu konkretisieren. Es lässt die technischen Normen mit Titel und Fundstelle im Bundesblatt veröffentlichen.4 Werden Sportboote, unvollständige Sportboote, Sportboote, bei denen ein grösserer Umbau vorgenommen wird, oder Bauteile gemäss den technischen Normen nach Absatz 3 hergestellt, so wird vermutet, dass die grundlegenden Sicherheitsanforderungen erfüllt sind.5 Werden diese Normen nicht oder nur teilweise angewendet, so muss der Inverkehrbringer nachweisen können, dass die grundlegenden Sicherheitsanforderungen auf andere Weise eingehalten werden.6 Die Unterlagen oder die zu ihrer Beurteilung erforderlichen Auskünfte sind den zuständigen Behörden in einer schweizerischen Amtssprache oder in Englisch vorzulegen beziehungsweise zu erteilen. Bei Vorlage in Englisch kann die zuständige Behörde die teilweise oder vollständige Übersetzung in eine schweizerische Amtssprache verlangen.",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_art_150-7991254d": {
+      "ref": "ONI art. 150",
+      "title": "Besatzung — Güterschiffe",
+      "text": "1 Der Bestand der Besatzung auf Güterschiffen wird durch die zuständige Behörde festgesetzt.2 Er beträgt in der Regel:a. auf Schiffen mit Maschinenantrieb– mit einer Tragfähigkeit bis 1000 t 1 Matrose– mit einer Tragfähigkeit über 1000 t 2 Matrosenb. auf Schiffen, die geschleppt werden 1 Matrosec. auf Schubverbänden – mit einer totalen Tragfähigkeit bis 1000 t 1 Matrose– mit einer totalen Tragfähigkeit über 1000 t 2 Matrosen3 Er kann erhöht werden, wenn:a. es die Verhältnisse der Schifffahrt und die Bauart der Schiffe erfordern, insbesondere bei aussergewöhnlicher Anordnung der Deckaufbauten;b. der Schiffsführer nicht ohne Schwierigkeit gleichzeitig Ruder und Antriebsmaschinen bedienen kann und die Steuerstände nicht für sämtliche Schiffsmanöver genügend Überblick gewähren;c. Antriebsmaschinen nicht durch den Schiffsführer ferngesteuert und die Maschinenkontrolle nicht durch ein anderes ausgebildetes und zum Sollbestand gehörendes Besatzungsmitglied besorgt werden kann;d. die Ladung während der Fahrt eine besondere Überwachung erfordert.4 Er kann auf Schiffen mit einer Tragfähigkeit von weniger als 350 t und bei guten Sichtverhältnissen während des Tages um einen Matrosen vermindert werden, sofern folgende Bedingungen erfüllt sind:a. das betreffende Schiff verkehrt zwischen Orten, von denen es jederzeit beobachtet werden kann. Auf den Sichtkontakt kann verzichtet werden, wenn die Fahrt zwischen Abgangs- und Zielort auf andere geeignete Weise zuverlässig überwacht werden kann;b. die Fahrzeit zwischen Abgangs- und Zielort beträgt nicht mehr als 45 Minuten;c. das Schiff muss im Steuerstand mit einem betriebsbereiten Funkgerät ausgerüstet sein, welches ununterbrochen den Kontakt zu einer Stelle des Betriebes an Land ermöglicht, die während der Fahrt des Schiffes ständig besetzt ist;d. am Zielort muss bei Ankunft des Schiffes eine Person zum Festmachen bereit stehen.5 Sofern die örtlichen Gegebenheiten es erfordern, kann die zuständige Behörde weitere Auflagen machen.",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_art_40c-8ee7753a": {
+      "ref": "ONI art. 40c",
+      "title": "Verkehrsvorschriften › Kontrolle der Fahrfähigkeit — Durchführung der Atemalkoholprobe mit einem Testgerät und Anerkennung der Werte",
+      "text": "1 Die Atemalkoholprobe mit einem Testgerät darf durchgeführt werden:a. frühestens 20 Minuten nach dem Trinkende; oderb. nach der Vornahme einer Mundspülung unter Beachtung allfälliger Angaben des Geräteherstellers.2 Die Testgeräte müssen die Anforderungen der Messmittelverordnung vom 15. Februar 20063 Die Handhabung der Testgeräte zur Durchführung von Atemalkoholproben richtet sich nach den Vorschriften, die das Bundesamt für Strassen gestützt auf Artikel 11 Absatz 5 der Strassenverkehrskontrollverordnung vom 28. März 20074 Für die Probe sind zwei Messungen erforderlich. Weichen diese um mehr als 0,05 mg/l voneinander ab, so sind zwei neue Messungen vorzunehmen. Ergeben auch diese Messungen eine Differenz von mehr als 0,05 mg/l und bestehen Hinweise auf eine Alkoholisierung, so ist eine Atemalkoholprobe mit einem Messgerät durchzuführen oder eine Blutuntersuchung anzuordnen.5 Ist die Differenz der Messungen nach Absatz 4 nicht grösser als 0,05 mg/l, so ist der tiefere Wert der beiden Messungen massgebend. Die Fahrunfähigkeit wegen Alkoholeinwirkung (Angetrunkenheit) gilt als erwiesen, wenn folgende Voraussetzungen erfüllt sind:a. motorisierte Schiffe: die kontrollierte Person war an der Führung eines motorisierten Schiffs beteiligt, der tiefere Wert der beiden Messungen entspricht einer Atemalkoholkonzentration von 0,25 mg/l und mehr, aber weniger als 0,40 mg/l und die Person anerkennt diesen Wert unterschriftlich; b. motorlose Schiffe: die kontrollierte Person war an der Führung eines motorlosen Schiffs beteiligt, der tiefere Wert der beiden Messungen entspricht einer Atemalkoholkonzentration von 0,25 mg/l und mehr, aber weniger als 0,55 mg/l und die Person anerkennt diesen Wert unterschriftlich.6 Für eine Person, die an der Führung eines für den gewerbsmässigen Einsatz bestimmten Schiffs beteiligt war, gilt eine Fahrunfähigkeit nach Artikel 40abis Absatz 1 als erwiesen, wenn der tiefere Wert der beiden Messungen einer Atemalkoholkonzentration von 0,05 mg/l und mehr, aber weniger als 0,40 mg/l entspricht und die betroffene Person diesen Wert unterschriftlich anerkennt.",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "oni-de-oni_art_91a-e93d0fd1": {
+      "ref": "ONI art. 91a",
+      "title": "Zulassungsbestimmungen › Schiffsführer › Internationale und ausländische Dokumente — Erwerb des schweizerischen Führerausweises",
+      "text": "1 Einen schweizerischen Führerausweis benötigen:a. Personen, die seit mehr als zwölf Monaten in der Schweiz Wohnsitz haben;b. Personen, die in der Schweiz immatrikulierte Schiffe der Ausweiskategorien B, C und E gewerbsmässig führen. 2 Dem Inhaber eines gültigen internationalen oder ausländischen Ausweises wird durch den Wohnsitzkanton der schweizerische Schiffsführerausweis ohne theoretische oder praktische Prüfung erteilt. Der Ausweis muss in einem Staat erworben worden sein, der in Bezug auf Ausbildung und Prüfung den schweizerischen Bestimmungen entsprechende Anforderungen stellt und der gegenüber Inhabern schweizerischer Führerausweise Gegenrecht hält.3 Das Bundesamt für Verkehr führt eine Liste dieser Staaten. Es legt fest, welche Kategorie eines internationalen oder ausländischen Ausweises in eine entsprechende Kategorie eines schweizerischen Ausweises umgeschrieben wird und ob der Geltungsbereich einzuschränken ist.4 Beim Erwerb des schweizerischen Ausweises muss der Antragsteller die medizinischen Voraussetzungen nach Artikel 82 erfüllen. Er muss ausserdem zum Zeitpunkt des Erwerbs des schweizerischen Ausweises das in Artikel 82 vorgeschriebene Mindestalter für die jeweilige Ausweiskategorie erreicht haben.5 Der schweizerische Ausweis wird nur solchen Personen ausgestellt, die zum Zeitpunkt des Erwerbs des internationalen oder ausländischen Ausweises ihren Wohnsitz in dem Staat hatten, in dem die Prüfung abgelegt wurde. Im Ausland erworbene Ausweise von Personen mit Wohnsitz in der Schweiz können ebenfalls anerkannt werden, wenn der Erwerb während eines Aufenthaltes von mindestens zwölf zusammenhängenden Monaten im Ausstellerstaat erfolgte.6 …",
+      "source": "Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337/fr",
+      "licence": "Public domain — Swiss federal law (freely reusable).",
+      "as_of": "2022-01-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_10-16cd0852": {
+      "ref": "RNL Anhang I – fig. 10",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 7 — II. A. 1 Abs. 3 Bst. a und b; Segelschiffe mit oder ohne gesetzte Segel unter Motor:; Topplicht: weisses Licht; Seitenlichter: grünes Licht; rotes Licht; Hecklicht: weisses Licht; Die Seitenlichter dürfen im vorderen Bereich nebeneinander oder als Kombinations-Seitenlicht angebracht sein.",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_11-98fbb126": {
+      "ref": "RNL Anhang I – fig. 11",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 8 — II. A. 1 Abs. 4; Segelschiffe unter Motor:; Topplicht: weisses Licht; Seitenlichter und Hecklicht in einem Dreifarben-Topplicht an oder nahe der Mastspitze",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_12-18843102": {
+      "ref": "RNL Anhang I – fig. 12",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 9 — II. A. 1 Abs. 5; Auf Schiffen, deren Antriebsleistung nicht mehr als 6 kW beträgt, und auf Vergnügungsschiffen, deren Länge 7 m und deren Geschwindigkeit über Grund 7 Knoten nicht übersteigt: weisses gewöhnliches Licht",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_14-b138c524": {
+      "ref": "RNL Anhang I – fig. 14",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 11 — Geschleppte Schiffe und schwimmende Geräte:; Topplicht: weisses gewöhnliches Licht; Hecklicht: weisses gewöhnliches Licht",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_16-cae38470": {
+      "ref": "RNL Anhang I – fig. 16",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 13 — II. A. 4 Abs. 1; Einzeln oder im Schleppverband fahrende Schiffe:; weisses gewöhnliches Rundumlicht",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_17-8edca506": {
+      "ref": "RNL Anhang I – fig. 17",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 14 — II. A. 4 Abs. 2; Segelschiffe, die unter Segel fahren:; weisses gewöhnliches Rundumlicht",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_18-5b7ef3f7": {
+      "ref": "RNL Anhang I – fig. 18",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 15 — II. A. 4 Abs. 2 Bst. a und b; Segelschiffe, die unter Segel fahren:; Seitenlichter: grünes Licht; rotes Licht; Die Seitenlichter dürfen im vorderen Bereich nebeneinander oder als Kombinations-Seitenlicht angebracht sein.; Hecklicht: weisses Licht",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_19-76b00987": {
+      "ref": "RNL Anhang I – fig. 19",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 16 — II. A. 4 Abs. 2 Bst. c; Dreifarben-Topplicht an oder nahe an der Mastspitze",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_20-be6b2f54": {
+      "ref": "RNL Anhang I – fig. 20",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 17 — Zusätzliche Nachtbezeichung der Fahrgastschiffe mit Vorrang in Fahrt:",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_21-7cf9d28b": {
+      "ref": "RNL Anhang I – fig. 21",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 18 — II. A. 7 Abs. 1 Bst. a; Manövrierunfähige Schiffe:; Zusätzliche Bezeichnung: Schwenken eines roten Lichtes und/oder Abgabe des vorgeschriebenen Schallzeichens.",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_22-27ba7349": {
+      "ref": "RNL Anhang I – fig. 22",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 19 — Abs. 1 Bst. b; Manövrierunfähige Schiffe:; Zusätzliche Bezeichnung: Zwei im Abstand von mindestens 1 m übereinander rote Rundumlichter an geeigneter Stelle und in einer solchen Höhe, dass sie von allen Seiten sichtbar sind, und/oder Abgabe des vorgeschriebenen Schallzeichens.",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_23-f3aeaf68": {
+      "ref": "RNL Anhang I – fig. 23",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 20 — II. B. 1 Abs. 1; Alle Schiffe und schwimmende Geräte:; weisses gewöhnliches Licht",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_25-b2b35219": {
+      "ref": "RNL Anhang I – fig. 25",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 22 — Schiffe und schwimmende Geräte, die Arbeiten, Peilungen oder Messungen durchführen:; auf der oder den Seiten, wo die Durchfahrt frei ist:; rotes gewöhnliches Licht weisses gewöhnliches Licht; auf der oder den Seiten, wo die Durchfahrt nicht frei ist:; rotes gewöhnliches Licht",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_26-b6503b21": {
+      "ref": "RNL Anhang I – fig. 26",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 23 — Verankerungen:; Bojen mit weissem gewöhnlichem Licht",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_27-abf3a958": {
+      "ref": "RNL Anhang I – fig. 27",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 24 — III. A. 1; Fahrgastschiffe mit Vorrang in Fahrt:; grüner Ball, von allen Seiten sichtbar",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_28-813f5d0c": {
+      "ref": "RNL Anhang I – fig. 28",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 25 — III. A .2 Abs. 1 Bst. a; Manövrierunfähige Schiffe:; Schwenken einer roten Flagge und/oder Abgabe des vorgeschriebenen Schallzeichens oder beides gleichzeitig.",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_29-60cbb507": {
+      "ref": "RNL Anhang I – fig. 29",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 26 — III. A. 2 Abs. 1 Bst. b; Manövrierunfähige Schiffe:; zwei in einem Abstand von ungefähr 1 m übereinander gesetzte, schwarze Bälle an geeigneter Stelle und in einer solchen Höhe, dass sie von allen Seiten sichtbar sind.",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_30-5c019f02": {
+      "ref": "RNL Anhang I – fig. 30",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 27 — III. B. 1; Schiffe und schwimmende Geräte, die Arbeiten, Peilungen oder Messungen durchführen:; auf der oder den Seiten, wo die Durchfahrt frei ist:; entweder eine eine rot-weisse Flagge oder eine rote und eine weisse Flagge; auf der oder den Seiten, wo die Durchfahrt nicht frei ist:; eine rote Flagge",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_32-41224985": {
+      "ref": "RNL Anhang I – fig. 32",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 29 — Schiffe, schwimmende Geräte, Schwimmkörper und schwimmende Anlagen, die gegen Wellenschlag zu schützen sind:; bei Nacht:; rotes gewöhnliches Licht weisses gewöhnliches Licht",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_33-7d848edb": {
+      "ref": "RNL Anhang I – fig. 33",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 30 — bei Tag:; entweder eine rot-weisse Flagge",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_34-77ba67c2": {
+      "ref": "RNL Anhang I – fig. 34",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 31 — oder eine rote und eine weisse Flagge",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_35-87a936c0": {
+      "ref": "RNL Anhang I – fig. 35",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 32 — Schiffe der Überwachungsbehörde im Einsatz:; Schiffe der Überwachungsbehörden, der Feuerwehr und der Rettungsdienste:; blaues Blitzlicht",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_37-fcaaf30e": {
+      "ref": "RNL Anhang I – fig. 37",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 34 — Schiffe der Überwachungsbehörden, die mit anderen Schiffen Verbindung aufnehmen wollen:; Flagge, Buchstabe «K»",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_38-1f0e6acc": {
+      "ref": "RNL Anhang I – fig. 38",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 35 — Notzeichen:; bei Nacht:; rotes kreisförmig geschwenktes Licht; bei Tag:; kreisförmiges Schwenken einer rote Flagge oder eines sonstigen Gegenstandes; oder jedes andere Notzeichen nach Artikel 43",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_40-16c77d0e": {
+      "ref": "RNL Anhang I – fig. 40",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 37 — Zeichen beim Tauchen:; beim Tauchen vom Land aus:; Tafel, Buchstabe «A»",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_41-b89d3fc2": {
+      "ref": "RNL Anhang I – fig. 41",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 38 — Schiffe, die zu Tauchzwecken eingesetzt sind:; beim Tauchen vom Gewässer aus:; Tafel, Buchstabe «A»",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_42-14e86e13": {
+      "ref": "RNL Anhang I – fig. 42",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 39 — Fischereischiffe und Netze:; Schiffe, die mit der Schleppangel fischen und einen oder mehrere Schwimmer oder Spreizer schleppen:; weisser Ball, von allen Seiten sichtbar",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_43-77c91171": {
+      "ref": "RNL Anhang I – fig. 43",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 40 — Schiffe der Berufsfischer beim Fang:; gelber Ball, von allen Seiten sichtbar; Bezeichnung der Netze, die dicht unter dem Wasserspiegel gesetzt sind:",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_8-6050a41c": {
+      "ref": "RNL Anhang I – fig. 8",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 5 — II. A. 1 Abs. 2 Bst. b und Abs. 3 Bst. d; Schiffe der Berufsfischer, Vergnügungsschiffe mit Maschinenantrieb, Segelschiffe unter Motor:; weisses Rundumlicht; Seitenlichter: grünes Licht; rotes Licht",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_i__fig_9-69683a46": {
+      "ref": "RNL Anhang I – fig. 9",
+      "title": "Anhang I — Sichtzeichen der Schiffe, der schwimmenden Geräte und der schwimmenden Anlagen",
+      "text": "Anhang I, ch. 6 — II. A. 1 Abs. 3 Bst. c und d; Vergnügungsschiffe mit Maschinenantrieb, Segelschiffe mit oder ohne gesetzte Segel unter Motor:; weisses Rundumlicht; Seitenlichter: grünes Licht; rotes Licht",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_1-e2f0a4e2": {
+      "ref": "RNL Anhang III – fig. 1",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Verbot der Durchfahrt",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_10-cc91d2a1": {
+      "ref": "RNL Anhang III – fig. 10",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Verbot, ausserhalb der angezeigten Fläche zu fahren",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_11-8f898cd9": {
+      "ref": "RNL Anhang III – fig. 11",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Verbot des Segelbrettfahrens",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_12-c541a971": {
+      "ref": "RNL Anhang III – fig. 12",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Badeverbot",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_13-7175cb38": {
+      "ref": "RNL Anhang III – fig. 13",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Verbot des Drachensegelbrettfahrens",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_14-99633ba6": {
+      "ref": "RNL Anhang III – fig. 14",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Gebot, die durch den Pfeil angezeigte Richtung einzuschlagen",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_15-110409ef": {
+      "ref": "RNL Anhang III – fig. 15",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Gebot, die in km/h angegebene Geschwindigkeit nicht zu überschreiten",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_16-bab2870d": {
+      "ref": "RNL Anhang III – fig. 16",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Gebot, besondere Vorsicht walten zu lassen",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_17-74eb17d2": {
+      "ref": "RNL Anhang III – fig. 17",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Erlaubnis zum Fahren mit Wasserskis oder ähnlichen Geräten",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_18-599de8af": {
+      "ref": "RNL Anhang III – fig. 18",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Erlaubnis zum Stillliegen",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_19-bf620217": {
+      "ref": "RNL Anhang III – fig. 19",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Erlaubnis zum Ankern",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_2-1d7678a9": {
+      "ref": "RNL Anhang III – fig. 2",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — zwei Lichtzeichen",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_20-ba4187b4": {
+      "ref": "RNL Anhang III – fig. 20",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Erlaubnis zum Festmachen",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_21-f858291b": {
+      "ref": "RNL Anhang III – fig. 21",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Erlaubnis zum Segelbrettfahren",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_22-ca7ff7cf": {
+      "ref": "RNL Anhang III – fig. 22",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Erlaubnis zum Drachensegelbrettfahren",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_3-aa71bddb": {
+      "ref": "RNL Anhang III – fig. 3",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — A. 2 Verbot der Durchfahrt für Schiffe mit Maschinenantrieb",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_4-1ef8f92d": {
+      "ref": "RNL Anhang III – fig. 4",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Verbot des Wasserskifahrens oder des Fahrens mit ähnlichen Geräten",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_5-7d473401": {
+      "ref": "RNL Anhang III – fig. 5",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Überholverbot",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_6-f13ad18b": {
+      "ref": "RNL Anhang III – fig. 6",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Liegeverbot",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_7-e5689d81": {
+      "ref": "RNL Anhang III – fig. 7",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Ankerverbot",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_8-9a78a476": {
+      "ref": "RNL Anhang III – fig. 8",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Festmacheverbot",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_anhang_iii__fig_9-a1eafdcc": {
+      "ref": "RNL Anhang III – fig. 9",
+      "title": "Anhang III — Sichtzeichen",
+      "text": "Anhang III — Verbot, ausserhalb der angezeigten Fläche zu fahren",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_art_16-74e86be7": {
+      "ref": "RNL art. 16",
+      "title": "Veranstaltungen auf dem Wasser",
+      "text": "1 Wettfahrten, Festlichkeiten auf dem Wasser und sonstige Veranstaltungen, die zu Ansammlungen von Schiffen oder zu Verkehrsbehinderungen führen können, bedürfen der Bewilligung der zuständigen Behörde. Bei einer Veranstaltung, die auf dem Gebiet beider Länder stattfindet, setzen sich die zuständigen Behörden gegenseitig über die erteilten Bewilligungen in Kenntnis.2 Die Bewilligung wird nur erteilt, wenn:a. von der Veranstaltung keine wesentlichen Beeinträchtigungen der Schifffahrt, der Wasserqualität, der Ausübung der Fischerei oder der Umwelt zu erwarten sind, oder diese durch Auflagen oder Bedingungen verhindert werden können, und die Sicherheit der betroffenen Personen gewährleistet ist;b. die vorgeschriebene Haftpflichtversicherung abgeschlossen ist.3 Bei der Bewilligung von nautischen Veranstaltungen kann die zuständige Behörde Ausnahmen von einzelnen Bestimmungen dieses Reglements zulassen, wenn die Sicherheit der Schifffahrt nicht beeinträchtigt wird.",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_art_3-600d0f45": {
+      "ref": "RNL art. 3",
+      "title": "Pflichten der Besatzung und der übrigen Personen an Bord",
+      "text": "1 Die Mitglieder der Besatzung haben die Anweisungen zu befolgen, die ihnen der Schiffsführer im Rahmen seiner Verantwortlichkeit erteilt. Sie haben zur Einhaltung des Reglements beizutragen.2 Alle übrigen an Bord befindlichen Personen haben die Anweisungen zu befolgen, die ihnen der Schiffsführer im Interesse der Sicherheit der Schifffahrt und der Ordnung an Bord erteilt.3 Während der Fahrt eines Fahrgastschiffes muss die verantwortliche Person im Steuerstand die nach Art. 86a vorgesehene Sprechfunkanlage ständig auf Kanal 16 (Seenot) auf Empfang geschaltet haben.4 Die Besatzung an Bord eines Schiffes ist verpflichtet, die erforderlichen Vorkehrungen zu treffen, damit die Anzahl Personen an Bord bekannt ist und nötigenfalls die französischen und schweizerischen Rettungsdienste darüber in Kenntnis gesetzt werden können.",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_art_62-788b1b04": {
+      "ref": "RNL art. 62",
+      "title": "Begegnen",
+      "text": "Vorbehältlich der Sonderbestimmungen der Artikel 61, 64 und 65 wird die Begegnung zwischen Schiffen wie folgt geregelt:a. Beim Begegnen dürfen Schiffe, deren Kurs die Gefahr eines Zusammen-stosses ausschliesst, ihren Kurs und ihre Geschwindigkeit nicht so ändern, dass die Gefahr eines Zusammenstosses entstehen könnte;b. fahren zwei Schiffe so auf kreuzendem Kurs, dass die Gefahr eines Zusammenstosses nicht auszuschliessen ist, muss das Schiff, welches das andere auf seiner Steuerbordseite hat, ausweichen;c. fahren zwei Schiffe auf entgegengesetztem oder nahezu entgegengesetztem Kurs so, dass die Gefahr eines Zusammenstosses nicht auszuschliessen ist, muss jedes nach Steuerbord halten, dass sie Backbord an Backbord aneinander vorbeifahren können;d. abweichend von obigem Buchstaben c kann der Schiffsführer bei Landemanövern verlangen, dass die Vorbeifahrt Steuerbord an Steuerbord stattfindet, wenn er sich vergewissert hat, dass dies ohne Gefahr möglich ist. In diesem Fall muss er «zwei kurze Töne» geben. Das andere Schiff hat gleichfalls «zwei kurze Töne» zu geben und an Steuerbord den erforderlichen Raum zu lassen.",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_art_64-68c3bed8": {
+      "ref": "RNL art. 64",
+      "title": "Vorrang",
+      "text": "1 Abweichend von den Vorrangbestimmungen in Absatz 2 dieses Artikels müssen alle Schiffe einem manövrierunfähigen Schiff ausweichen, das die Zeichen nach Artikel 33 oder 38 führt.2 Abweichend von den Bestimmungen der Artikel 62 und 63 und ungeachtet des Artikels 61 müssen beim Begegnen und Überholen ausweichen:a. den Fahrgastschiffen mit Vorrang und den Schleppverbänden alle anderen Schiffe;b. den Güterschiffen alle Schiffe, ausgenommen Fahrgastschiffe mit Vorrang und Schleppverbände;c. den Schiffen der Berufsfischer beim Fang, welche den Ball nach Artikel 45 Absatz 2 führen, alle Schiffe, ausgenommen Fahrgastschiffe mit Vorrang, Schleppverbände und Güterschiffe;d. den Segelschiffen alle Schiffe, ausgenommen Fahrgastschiffe mit Vorrang, Schleppverbände, Güterschiffe und Schiffe der Berufsfischer beim Fang, welche den Ball nach Artikel 45 Absatz 2 führen;e. den Ruderbooten alle Schiffe mit Maschinenantrieb, ausgenommen Fahrgastschiffe mit Vorrang, Schleppverbände, Güterschiffe und Schiffe der Berufsfischer beim Fang, welche den Ball nach Artikel 45 Absatz 2 führen;f. Segelbretter und Drachensegelbretter allen anderen Schiffen.",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_art_71-b854fa2a": {
+      "ref": "RNL art. 71",
+      "title": "Fahrt bei unsichtigem Wetter – Begriffsbestimmung",
+      "text": "Fahrt bei unsichtigem Wetter bedeutet Schifffahrt – bei Tag und bei Nacht – bei Nebel, Dunst, Schneetreiben, schwerem Regenfall sowie unter andern Umständen, durch welche die Sichtverhältnisse in gleicher Weise eingeschränkt werden.",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_art_86a-04ed09d4": {
+      "ref": "RNL art. 86a",
+      "title": "Kommunikations- und Informationseinrichtung",
+      "text": "1 Fahrgastschiffe sind mit den folgenden Kommunikations- und Informationseinrichtungen auszurüsten:a. einem Radargerät;b.  einem Wendeanzeiger;c. einer Sprechfunkanlage, die auf den nachstehenden Kanälen senden kann: Kanal 16 (Seenotruf), Kanal K zur Koordination des Einsatzes der Rettungskräfte (wird ausschliesslich in der Schweiz verwendet) und Kanal 12 für den Betrieb;d. einer Sprechverbindung, mit der Alarm gegeben und innerhalb des Schiffes zwischen dem Steuerstand und den Fahrgasträumen in beide Richtungen kommuniziert werden kann; diese Verbindung darf ausschliesslich vom Bordpersonal benutzt werden.2 Die Vorschriften nach Absatz 1 Buchstaben a und b gelten nur für Schiffe in internationaler Fahrt.3 Zusätzlich zur in Absatz 1 vorgesehenen Ausrüstung müssen Fahrgastschiffe, deren Besatzung auf eine Person beschränkt ist, mit Kommunikationsmitteln ausgerüstet sein, mit denen eine direkte Verbindung zur Zentrale des Schifffahrtunternehmens oder zu den Rettungsdiensten möglich ist.",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "rnl-de-rnl_art_86f-e3384396": {
+      "ref": "RNL art. 86f",
+      "title": "Sammelrettungsmittel",
+      "text": "1 Die Sammelrettungsmittel an Bord eines Fahrgastschiffes müssen von der am Schiffsstandort zuständigen Behörde genehmigt werden.2 Zusätzlich zu den nationalen, am Standort eines Fahrgastschiffes geltenden Vorschriften, müssen die Sammelrettungsmittel:a. einfach und rasch ins Wasser gelassen werden können;b. im Süsswasser pro Person eine Auftriebskraft von mindestens 750 N haben;c.  aus einem geeigneten Material hergestellt und resistent gegen Öl und Erdölderivate sein sowie Temperaturen von bis einschliesslich 50 °C aushalten;d. mit einer Leine ausgerüstet sein, die am Schiff befestigt werden kann, um zu vermeiden, dass sie abtreiben;e. eine stabile Schwimmlage einnehmen und beibehalten, insbesondere beim Einsteigen von Personen;f. über eine gut leserliche Beschriftung verfügen, aus der ihr Verwendungszweck als Rettungsmittel sowie die maximale Anzahl Personen hervorgeht, die darin einen Sitzplatz finden;g. rückstrahlend orangefarbig sein oder von allen Seiten sichtbare rückstrahlende Markierungen von mindestens 100 cm2 aufweisen;h. mit geeigneten Einrichtungen für den Zugang von den Evakuierungsflächen in die Sammelrettungsmittel versehen sein, wenn der vertikale Abstand zwischen dem Deck der Evakuierungsflächen und der Ebene der grössten Einsenkung des Schiffes grösser als 1 m ist.3 Die aufblasbaren Sammelrettungsmittel an Bord von Fahrgastschiffen müssen zudem:a. aus mindestens zwei getrennten Luftkammern bestehen;b.  sich beim Zuwasserbringen automatisch aufblasen oder durch Handauslösung aufgeblasen werden können;c. bei jeder vorkommenden Belastung, auch wenn nur die Hälfte der Luftkammern aufgeblasen ist, eine stabile Schwimmlage einnehmen und beibehalten;d. gemäss den Herstellerangaben und in Übereinstimmung mit den geltenden nationalen Bestimmungen geprüft und gewartet werden.",
+      "source": "Règlement de la navigation sur le Léman (RNL), RS 747.221.1",
+      "url": "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993/fr",
+      "licence": "Public domain — Franco-Swiss convention / Swiss federal law.",
+      "as_of": "2019-06-01",
+      "lang": "de"
+    },
+    "voile_wp_de-voile__halse__présentation-af64e196": {
+      "ref": "Voile — Halse : Présentation",
+      "title": "Halse — Présentation",
+      "text": "Halse bezeichnet ein Manöver beim Segeln , bei dem ein Fahrzeug mit dem Heck durch den Wind geht und die Segel anschließend auf der anderen Schiffsseite geführt werden. Im Unterschied zum Schiften ist eine Halse immer mit einer Änderung des Kurses verbunden. Der Begriff leitet sich von den Halsen ab: Leinen, die am Hals eines Rahsegels angeschlagen sind, um das Segel auf einem Am-Wind-Kurs nach vorn zu holen. Bei kräftigem Wind bedarf das Halsen mit Schratseglern großer Aufmerksamkeit. Bei unsauberer technischer Ausführung kommt es zu einer Patenthalse , bei der der Großbaum unkontrolliert auf die andere Seite umschlägt. Für Rahsegler ist eine Halse weniger anspruchsvoll. Das Manöver, bei dem das Fahrzeug mit dem Bug durch den Wind geht, heißt Wende . Anstatt einer Halse kann bei grobem Wetter und unerfahrener Besatzung eine Q-Wende gefahren werden.",
+      "source": "Wikipedia (DE) — Segeln (Technik)",
+      "url": "https://de.wikipedia.org/wiki/Halse",
+      "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required.",
+      "as_of": "263252823",
+      "lang": "de"
+    },
+    "voile_wp_de-voile__kreuzen_segeln__wie_man_gegen_den_wind_se-3542e7b9": {
+      "ref": "Voile — Kreuzen (Segeln) : Wie man gegen den Wind segeln kann",
+      "title": "Kreuzen (Segeln) — Wie man gegen den Wind segeln kann",
+      "text": "Die wesentliche Wirkung wird durch den sogenannten Tragflächeneffekt hervorgerufen, der ähnlich wie bei den Tragflächen eines Flugzeugs wirkt. Nähere Erläuterungen dazu finden sich im Artikel Segeln, Abschnitt Windströmung am Segel . Ein weiterer Effekt entsteht durch die Umlenkung der Windkraft durch Segel und Kiel: Das Segel steht in einem kleineren Winkel zum Wind als die Längslinie des Boots. Nur der rechtwinklig zum Segel stehende Anteil W Q der Windkraft W wirkt auf den Mast und somit auf das Boot. Der zum Segel parallele Anteil W L streicht wirkungslos längs am Segel vorbei. Da Segel und Bootskiel schräg zueinander stehen, wirkt W Q zwar quer zum Segel, aber eben schräg zum Kiel auf das Boot. Von dieser schrägen Kraft führt wiederum nur der parallel zum Kiel wirkende Anteil der Kraft zu einer Bewegung, der andere Teil bewirkt nur unerwünschte Krängung und Abdrift.",
+      "source": "Wikipedia (DE) — Segeln (Technik)",
+      "url": "https://de.wikipedia.org/wiki/Kreuzen_(Segeln)",
+      "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required.",
+      "as_of": "220628617",
+      "lang": "de"
+    },
+    "voile_wp_de-voile__kurse_zum_wind__im_wind-8a5c2480": {
+      "ref": "Voile — Kurse zum Wind : Im Wind",
+      "title": "Kurse zum Wind — Im Wind",
+      "text": "Wenn der kleinstmöglich segelbare Winkel zum Wind unterschritten wird, dann wird kein Vortrieb mehr erzeugt. Das Boot steht dann nahezu im Wind und die Segel killen (flattern). Ein Ziel, das in diesem Wind-Sektor liegt, kann nur durch Kreuzen angelaufen werden. Die als Wendewinkel bezeichnete Größe des nicht segelbaren Wind-Sektors ist ein Maß für die Kreuzeigenschaften eines Segelschiffs; kleine Wendewinkel bedeuten gute Kreuzeigenschaften. Das Segelmanöver, bei dem der Bug des Schiffs zum Aufstoppen (Anhalten des Schiffs) in den Wind gedreht wird, wird als Aufschießer bezeichnet.",
+      "source": "Wikipedia (DE) — Segeln (Technik)",
+      "url": "https://de.wikipedia.org/wiki/Kurse_zum_Wind",
+      "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required.",
+      "as_of": "259477073",
+      "lang": "de"
+    },
+    "voile_wp_de-voile__spinnaker__gefahren_mit_dem_spinnaker-8b9c5044": {
+      "ref": "Voile — Spinnaker : Gefahren mit dem Spinnaker",
+      "title": "Spinnaker — Gefahren mit dem Spinnaker",
+      "text": "Als sehr großes und (vor allem im Top) breites Segel entfaltet es seine Qualitäten vor dem Wind. Fällt der Wind mehr von seitlich ein, entwickelt sich im Strömungsprofil eine starke Querkraft, die für Krängung und Widerstand sorgt. Einfallende Böen oder Wellen können bei großen Spinnakern die Querkräfte so weit erhöhen, dass die Ruderkräfte nicht ausreichen, um das Boot auf Kurs zu halten. Jollen können dadurch kentern, Segelyachten querschlagen . Der Steuermann verliert dabei die Kontrolle über die Yacht, die Yacht schießt in den Wind und legt sich auf die Seite ( Sonnenschuss ). Um den völligen Kontrollverlust zu verhindern, muss die Crew bei Anzeichen dieser Gefahr sofort die Spinnakerschoten loswerfen, um den Druck zu reduzieren. Deshalb werden keine Achtknoten in diese Schoten gesteckt. Weitere Lösungsansätze existieren in Form des Parasail , der eine Öffnung mit Flügel im oberen Bereich des Spinnakers hat und so in Böen Druck aus dem Segel ableitet.",
+      "source": "Wikipedia (DE) — Segeln (Technik)",
+      "url": "https://de.wikipedia.org/wiki/Spinnaker",
+      "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required.",
+      "as_of": "263288179",
+      "lang": "de"
+    },
+    "voile_wp_de-voile__wende_segeln__présentation-6fbd2588": {
+      "ref": "Voile — Wende (Segeln) : Présentation",
+      "title": "Wende (Segeln) — Présentation",
+      "text": "Als Wende wird ein Manöver beim Segeln bezeichnet. Beim Wenden erfolgt ein Kurswechsel , bei dem das Schiff mit dem Bug durch den Wind geht, das heißt der Wind kommt während des Manövers kurzzeitig von vorne. Im Gegensatz dazu geht das Boot bei einer Halse mit dem Heck durch den Wind.",
+      "source": "Wikipedia (DE) — Segeln (Technik)",
+      "url": "https://de.wikipedia.org/wiki/Wende_(Segeln)",
+      "licence": "CC BY-SA 4.0 — Wikipedia (DE), attribution required.",
+      "as_of": "267107815",
+      "lang": "de"
+    }
+  }
+}

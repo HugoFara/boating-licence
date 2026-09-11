@@ -830,3 +830,81 @@ const COVERAGE_STRINGS = {
   },
 };
 for (const l in COVERAGE_STRINGS) STRINGS[l] = Object.assign(STRINGS[l] || {}, COVERAGE_STRINGS[l]);
+
+/* Learn tab: the theory behind the questions, readable before drilling. Per theme
+ * it lists the "why" concept cards and every cited article (with the verbatim
+ * text when the bundle ships reading.<lang>.json). Merged into STRINGS like the
+ * tables above; any key a language misses falls back to French via t(). */
+const READING_STRINGS = {
+  fr: {
+    btnLearn: "Lire la théorie",
+    learnTitle: "La théorie, thème par thème",
+    learnIntro: "Chaque thème rassemble les règles à comprendre et les articles que ses questions citent — le texte officiel, tel quel, quand la licence permet de le reproduire.",
+    learnBack: "Retour",
+    learnConcepts: "Comprendre la règle",
+    learnSources: "Articles cités par les questions",
+    learnPractice: "S'entraîner sur ce thème",
+    learnCount: "{n} questions",
+    learnBacks: "{n} q.",
+    learnHasText: "{n} articles lisibles ici, hors ligne. Les autres renvoient au texte officiel.",
+    learnLinksOnly: "Ce lot ne contient pas le texte des articles : les liens mènent au texte officiel.",
+    learnAsOf: "état au {date}",
+  },
+  de: {
+    btnLearn: "Theorie lesen",
+    learnTitle: "Die Theorie, Thema für Thema",
+    learnIntro: "Jedes Thema versammelt die Regeln zum Verstehen und die Artikel, die seine Fragen zitieren — der amtliche Text im Wortlaut, wo die Lizenz die Wiedergabe erlaubt.",
+    learnBack: "Zurück",
+    learnConcepts: "Die Regel verstehen",
+    learnSources: "Von den Fragen zitierte Artikel",
+    learnPractice: "Dieses Thema üben",
+    learnCount: "{n} Fragen",
+    learnBacks: "{n} Fr.",
+    learnHasText: "{n} Artikel hier offline lesbar. Die übrigen verweisen auf den amtlichen Text.",
+    learnLinksOnly: "Dieses Paket enthält den Artikeltext nicht: Die Links führen zum amtlichen Text.",
+    learnAsOf: "Stand {date}",
+  },
+  it: {
+    btnLearn: "Leggere la teoria",
+    learnTitle: "La teoria, tema per tema",
+    learnIntro: "Ogni tema raccoglie le regole da capire e gli articoli citati dalle sue domande — il testo ufficiale, tale e quale, dove la licenza ne consente la riproduzione.",
+    learnBack: "Indietro",
+    learnConcepts: "Capire la regola",
+    learnSources: "Articoli citati dalle domande",
+    learnPractice: "Esercitarsi su questo tema",
+    learnCount: "{n} domande",
+    learnBacks: "{n} dom.",
+    learnHasText: "{n} articoli leggibili qui, offline. Gli altri rimandano al testo ufficiale.",
+    learnLinksOnly: "Questo pacchetto non contiene il testo degli articoli: i link portano al testo ufficiale.",
+    learnAsOf: "stato al {date}",
+  },
+  en: {
+    btnLearn: "Read the theory",
+    learnTitle: "The theory, theme by theme",
+    learnIntro: "Each theme gathers the rules to understand and the articles its questions cite — the official text, verbatim, where the licence allows reproduction.",
+    learnBack: "Back",
+    learnConcepts: "Understand the rule",
+    learnSources: "Articles cited by the questions",
+    learnPractice: "Practise this theme",
+    learnCount: "{n} questions",
+    learnBacks: "{n} q.",
+    learnHasText: "{n} articles readable here, offline. The others link to the official text.",
+    learnLinksOnly: "This bundle ships no article text: the links open the official text.",
+    learnAsOf: "as of {date}",
+  },
+  nl: {
+    btnLearn: "Theorie lezen",
+    learnTitle: "De theorie, thema voor thema",
+    learnIntro: "Elk thema bundelt de regels om te begrijpen en de artikelen die zijn vragen aanhalen — de officiële tekst, letterlijk, waar de licentie overname toestaat.",
+    learnBack: "Terug",
+    learnConcepts: "De regel begrijpen",
+    learnSources: "Door de vragen aangehaalde artikelen",
+    learnPractice: "Dit thema oefenen",
+    learnCount: "{n} vragen",
+    learnBacks: "{n} vr.",
+    learnHasText: "{n} artikelen hier offline leesbaar. De overige verwijzen naar de officiële tekst.",
+    learnLinksOnly: "Deze bundel bevat de artikeltekst niet: de links openen de officiële tekst.",
+    learnAsOf: "stand {date}",
+  },
+};
+for (const l in READING_STRINGS) STRINGS[l] = Object.assign(STRINGS[l] || {}, READING_STRINGS[l]);

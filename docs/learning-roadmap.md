@@ -136,6 +136,32 @@ generative (a small rule-set reconstructs hundreds of answers). So the pilot is
 **Remaining for Group A:** author the sourced concept bodies (sourced-only, never
 invented) behind the review gate — the cards light up the moment content exists.
 
+### Reading layer — the theory before the questions (2026-09-11)
+
+The "why" cards only ever opened *after* a question. A learner who wants to read
+the theory first had nowhere to go. Two additions, both derived from the bank
+rather than authored for the purpose:
+
+- **Learn tab** (`web/app.js renderLearn`, the start screen's third action):
+  per theme, in exam order and scoped like the practice draw, the concept cards
+  for the principles that theme tests, then every source its questions cite —
+  grouped by act, one row per article with the number of questions it backs,
+  and a "practise this theme" button that narrows the domain filter. Nothing is
+  curated: the syllabus is the provenance, so a theme with no questions has no
+  reading, by design.
+- **Cited-article bundle** (`src/questions/reading.py` → `reading.<lang>.json`):
+  the verbatim KB text of every unit an exportable question cites, gated on a
+  redistributable licence (public-domain law, CC BY, Etalab). Small by
+  construction (CH/fr ≈ 150 KB; NL ≈ 270 KB) and the Learn tab opens each
+  article inline; annex figures show with their caption. Where the bank's
+  provenance is not a KB unit — the official ELWIS catalogue (collapsed to one
+  link per act), the seed-driven FR banks — no file ships and the rows fall
+  back to the official link.
+
+Still open (deliverable 3 of the same scoping): a **curated external reading
+list** per country (official handbooks, catalogues, courses) — a `ReadingRef`
+next to `PathStep`, sourced-only with a verification date, never from memory.
+
 ## Settings the player gains (practice only)
 
 A JS-built practice-settings panel (no per-country HTML change needed), each toggle

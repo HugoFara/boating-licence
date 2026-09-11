@@ -22,6 +22,7 @@ from ..questions import schema as qschema
 from ..questions import principles as principlesmod
 from ..questions import seed_concepts
 from ..questions import diagrams as _diagrams
+from ..questions import reading
 from ..questions.schema import Question, Choice, Provenance, make_question_id, validate
 from .. import scope
 from .. import validate as _validate
@@ -50,6 +51,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 DATA_DIR = os.path.join(ROOT, "data")
 WEB_DIR = os.path.join(ROOT, "web")
 FR_WEB = os.path.join(WEB_DIR, "fr")
+FR_KB = os.path.join(DATA_DIR, "kb.fr.sqlite")   # the ingested French law (run.py build --country FR)
 
 LANGS = ("fr", "en")          # FR authoritative, EN unofficial study aid
 DEFAULT_LANG = "fr"
@@ -265,6 +267,7 @@ def _player_html(asset_prefix: str, nav: str, title: str) -> str:
     <div class="actions">
       <button id="btn-exam" class="primary"></button>
       <button id="btn-practice"></button>
+      <button id="btn-learn" class="ghost"></button>
     </div>
     <p class="fine" id="t-sourcenote"></p>
     <div id="anki-dl" class="anki-dl hidden"></div>
@@ -273,6 +276,14 @@ def _player_html(asset_prefix: str, nav: str, title: str) -> str:
       <p class="fine" id="t-pathintro"></p>
       <div id="path-steps"></div>
     </details>
+  </section>
+  <section id="screen-learn" class="screen hidden">
+    <h2 id="t-learntitle"></h2>
+    <p class="sub" id="t-learnintro"></p>
+    <div id="learn"></div>
+    <div class="actions">
+      <button id="btn-learn-back" class="primary"></button>
+    </div>
   </section>
   <section id="screen-quiz" class="screen hidden">
     <header class="quizbar">
@@ -463,6 +474,17 @@ def build() -> dict:
                 os.replace(ctmp, os.path.join(out_dir, f"concepts.{lg}.json"))
             elif os.path.exists(ctmp):
                 os.remove(ctmp)
+            # cited law text for the Learn tab (only written when a cited unit
+            # resolves in kb.fr — the seed-driven banks cite their own seed ids,
+            # so today this ships nothing and the tab falls back to the links)
+            rtmp = os.path.join(out_dir, f"_reading.{lg}.tmp")
+            rdst = os.path.join(out_dir, f"reading.{lg}.json")
+            if reading.export_reading_json(conn, FR_KB, rtmp, lg, exportable_only=True):
+                os.replace(rtmp, rdst)
+            else:
+                for stale in (rtmp, rdst):
+                    if os.path.exists(stale):
+                        os.remove(stale)
         # Ship the figures those cards reference. Nothing else copies them: a card's
         # vocabulary strip hangs off the principle, not off any one question, so it
         # never passes through the question-image relocation above.
