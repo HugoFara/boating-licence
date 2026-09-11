@@ -1078,9 +1078,16 @@ function revealFigureHtml(q) {
 function learnThemes() {
   const order = Object.keys(THEME_LABELS[DEFAULT_LANG]);
   const scope = permitThemeSet();
+  // A block exam (DE) is composed from the permit's blocks, so the syllabus in
+  // scope is those blocks' questions — the SBF-See paper never draws a Binnen
+  // question even though both catalogues share the theme taxonomy.
+  const permit = currentPermit();
+  const blocks = blocksMode() && permit && Array.isArray(permit.blocks)
+    ? new Set(permit.blocks.map((b) => b.block)) : null;
   const by = {};
   for (const q of BANK) {
     if (scope && !scope.has(q.theme)) continue;
+    if (blocks && !blocks.has(q.block)) continue;
     (by[q.theme] ||= []).push(q);
   }
   return Object.keys(by)
@@ -1199,6 +1206,92 @@ function learnThemeHtml(entry, open) {
     </div></details>`;
 }
 
+/* --- Where to study: the reading list, with coverage --------------------------
+ * MANIFEST.reading (src/countries/<code>.py ReadingRef): the official programme,
+ * the law, published catalogues, sample exams, guides and — flagged, never
+ * endorsed — commercial handbooks, each verified on a dated page. Scoped to the
+ * active permit like the path panel. Coverage is computed HERE, against the
+ * bank in scope, so it follows the permit the learner picked:
+ *   themes — share of the in-scope questions whose theme the resource addresses
+ *            (question count stands in for syllabus weight: the one proxy the
+ *            project has for every regime, and what the exam draw itself uses);
+ *   cited  — when the resource is a citable text (`match`), the share of
+ *            questions whose provenance names it: exact, not claimed.
+ * `basis` says how the theme list was established (programme / toc /
+ * publisher / units) and is shown, so a publisher's claim reads as one. */
+function readingRefs() {
+  const refs = Array.isArray(MANIFEST.reading) ? MANIFEST.reading : [];
+  const permit = currentPermit();
+  return refs.filter((r) => {
+    const scope = Array.isArray(r.permit_scope) ? r.permit_scope : [];
+    return scope.length === 0 || (permit && scope.includes(permit.code));
+  });
+}
+
+function readingCoverage(ref, questions, present) {
+  const themes = new Set((ref.themes || []).filter((t) => present.has(t)));
+  const m = String(ref.match || "").toLowerCase();
+  let inThemes = 0, cited = 0;
+  for (const q of questions) {
+    if (themes.has(q.theme)) inThemes++;
+    if (m && String((q.provenance || {}).source || "").toLowerCase().includes(m)) cited++;
+  }
+  const n = questions.length || 1;
+  return { themePct: Math.round((100 * inThemes) / n),
+           citedPct: m ? Math.round((100 * cited) / n) : null,
+           themes: [...themes] };
+}
+
+function readingRefHtml(ref, questions, present) {
+  const cov = readingCoverage(ref, questions, present);
+  const body = (ref.body || {})[LANG] || (ref.body || {})[MANIFEST.default] ||
+    Object.values(ref.body || {})[0] || "";
+  const kindKey = "learnKind_" + ref.kind;
+  const kind = T(kindKey) === kindKey ? ref.kind : T(kindKey);
+  const tags = [
+    `<span class="tag kind">${escapeHtml(kind)}</span>`,
+    ref.official ? `<span class="tag official">${escapeHtml(T("learnOfficial"))}</span>` : "",
+    `<span class="tag ${ref.cost === "paid" ? "paid" : "free"}">${escapeHtml(T(ref.cost === "paid" ? "learnPaid" : "learnFree"))}</span>`,
+    ref.lang ? `<span class="tag">${escapeHtml(ref.lang)}</span>` : "",
+  ].join("");
+  const themeNames = cov.themes.map((t) => themeLabel(LANG, t)).join(" · ");
+  const basisKey = "learnBasis_" + ref.basis;
+  const basis = T(basisKey) === basisKey ? "" : T(basisKey);
+  // An official-catalogue bank cites the catalogue, never the law behind it: a
+  // "cited by 0 %" on the ordinance would read as "irrelevant", which is the
+  // opposite of the truth. Show the citation axis only where it measures.
+  const catalogue = !!(MANIFEST.coverage && MANIFEST.coverage.official);
+  const cited = cov.citedPct == null || (catalogue && cov.citedPct === 0) ? "" :
+    `<div class="cov-row"><span class="cov-label">${escapeHtml(T("learnCited", { pct: cov.citedPct }))}</span>
+      <span class="cov-bar"><i style="width:${cov.citedPct}%"></i></span></div>`;
+  const price = ref.price ? ` · ${escapeHtml(ref.price)}` : "";
+  return `<div class="reading-ref">
+    <div class="reading-h"><a href="${escapeHtml(ref.url)}" target="_blank" rel="noopener">${escapeHtml(ref.title)}</a></div>
+    <div class="reading-pub">${escapeHtml(ref.publisher || "")}${price}</div>
+    <div class="reading-tags">${tags}</div>
+    <p class="reading-body">${escapeHtml(body)}</p>
+    <div class="cov">
+      <div class="cov-row"><span class="cov-label">${escapeHtml(T("learnCovers", { pct: cov.themePct }))}</span>
+        <span class="cov-bar"><i style="width:${cov.themePct}%"></i></span></div>
+      ${cited}
+      <div class="fine">${themeNames ? escapeHtml(T("learnThemes")) + " " + escapeHtml(themeNames) + (basis ? " — " : "") : ""}${escapeHtml(basis)}</div>
+    </div>
+    <div class="fine reading-src">${escapeHtml(T("pathVerified", { date: ref.as_of || "" }))}${ref.source && ref.source !== ref.url ? ` · <a href="${escapeHtml(ref.source)}" target="_blank" rel="noopener">${escapeHtml(T("sourceLabel"))}</a>` : ""}</div>
+  </div>`;
+}
+
+function renderReading(themes) {
+  const refs = readingRefs();
+  if (!refs.length) return "";
+  const questions = themes.flatMap((e) => e.questions);
+  const present = new Set(themes.map((e) => e.theme));
+  return `<section class="reading">
+    <h3 class="learn-h">${escapeHtml(T("learnWhere"))}</h3>
+    <p class="fine">${escapeHtml(T("learnWhereIntro"))}</p>
+    ${refs.map((r) => readingRefHtml(r, questions, present)).join("")}
+  </section>`;
+}
+
 function renderLearn() {
   const box = $("learn");
   if (!box) return;
@@ -1207,7 +1300,9 @@ function renderLearn() {
   // selected domain); otherwise every section starts collapsed as a syllabus.
   const active = activeDomains();
   const openOne = active.length === 1 ? active[0] : null;
-  box.innerHTML = themes.map((e) => learnThemeHtml(e, e.theme === openOne)).join("");
+  box.innerHTML = renderReading(themes) +
+    `<h3 class="learn-h">${escapeHtml(T("learnByTheme"))}</h3>` +
+    themes.map((e) => learnThemeHtml(e, e.theme === openOne)).join("");
   box.querySelectorAll(".learn-practice").forEach((b) => {
     b.onclick = () => {
       SELECTED = new Set([b.dataset.theme]);

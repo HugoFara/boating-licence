@@ -13,7 +13,7 @@ analogue of the Swiss public-domain basis. Build it with `python run.py fr`.
 
 from __future__ import annotations
 
-from .base import Country, Permit, ExamRules, PathStep, Region, Reference
+from .base import Country, Permit, ExamRules, PathStep, ReadingRef, Region, Reference
 from ..fr import themes_fr, exam_fr
 
 LEGAL_BASIS = (
@@ -96,6 +96,123 @@ PERMITS: dict[str, Permit] = {
 # Languages fr + en (the bank's two). The mandatory practical TRAINING (3 h 30,
 # certified by the centre) replaces a practical exam — there is no on-water test.
 _MER = "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur"
+
+# --- Where to learn the theory --------------------------------------------------
+# Verified 2026-09-11. The arrêté du 28 septembre 2007 IS the syllabus: its art.
+# 1.2 (côtière) and 2.2 (eaux intérieures) enumerate the programme de formation
+# théorique — balisage, règles de barre et de route, signaux, feux et marques,
+# sécurité, réglementation du titre, VHF/SMDSM, environnement, météo, carte marine,
+# écluses / voies et plans d'eau, écluses et barrages, stationnement, vocabulaire,
+# règles de route, signalisation visuelle et sonore, signalisation des bateaux,
+# menues embarcations, radiotéléphonie fluviale (basis "programme"). The law
+# behind each theme is free on Légifrance (RIPAM, RGP in the Code des transports,
+# Division 240). One commercial code per option is listed on the strength of the
+# theme list its publisher prints (basis "toc": Vagnon côtière — météo, carte
+# marine, marées, sécurité, environnement, règles de barre et de route, feux et
+# marques, signaux, balisage, réglementation, VHF; Vagnon eaux intérieures —
+# vocabulaire, réseau fluvial, règles de circulation, balisage et signalisation
+# visuelle, réglementation, radiotéléphonie).
+_ARRETE_2007 = "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/"
+_RIPAM = "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/"
+_RGP = ("https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/"
+        "LEGISCTA000027232795/")
+_D240 = "https://www.mer.gouv.fr/la-division-240"
+_VAGNON_COT = ("https://www.vagnon.fr/9791027107131-code-vagnon-2026-permis-plaisance-"
+               "option-cotiere-group.html")
+_VAGNON_EI = ("https://www.vagnon.fr/9791027107155-code-vagnon-2026-permis-plaisance-"
+              "option-eaux-interieures.html")
+_COT = themes_fr.OPTION_THEMES["cotiere"]
+_EI = themes_fr.OPTION_THEMES["eaux_interieures"]
+
+READING: tuple[ReadingRef, ...] = (
+    ReadingRef(
+        code="arrete_2007_programme", kind="programme",
+        title="Arrêté du 28 septembre 2007 — programme de formation théorique "
+              "(art. 1.2 côtière, art. 2.2 eaux intérieures)",
+        publisher="Légifrance (DILA)", url=_ARRETE_2007, lang="fr", cost="free",
+        official=True, themes=_COT + _EI, basis="programme",
+        source=_ARRETE_2007, as_of="2026-09-11",
+        body={"fr": "Le référentiel officiel : la liste des thèmes que l'épreuve "
+                    "théorique (40 questions, 5 erreurs admises) peut interroger, "
+                    "option par option, et les 5 h minimum de formation en salle.",
+              "en": "The official syllabus: the themes the theory test (40 "
+                    "questions, 5 errors allowed) may ask, option by option, and "
+                    "the 5 h minimum of classroom training."}),
+    ReadingRef(
+        code="mer_gouv_permis", kind="guide",
+        title="Le permis plaisance — page officielle du ministère de la Mer",
+        publisher="mer.gouv.fr", url=_MER, lang="fr", cost="free", official=True,
+        themes=("reglementation",), basis="toc",
+        source=_MER, as_of="2026-09-11",
+        body={"fr": "Les options, l'épreuve (40 questions, 5 erreurs admises), la "
+                    "réforme 2022 et la brochure « Le permis plaisance » à télécharger.",
+              "en": "The options, the test (40 questions, 5 errors allowed), the 2022 "
+                    "reform and the downloadable 'Le permis plaisance' brochure."}),
+    ReadingRef(
+        code="ripam", kind="law",
+        title="RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+        publisher="Légifrance (DILA)", url=_RIPAM, lang="fr", cost="free", official=True,
+        themes=("regles_route", "feux_signaux"), basis="toc", match="RIPAM",
+        permit_scope=("cotiere",), source=_RIPAM, as_of="2026-09-11",
+        body={"fr": "Le texte des règles de barre et de route, des feux et marques "
+                    "et des signaux sonores en mer — la source de ces trois thèmes.",
+              "en": "The text of the steering and sailing rules, lights and shapes "
+                    "and sound signals at sea — the source of those three themes."}),
+    ReadingRef(
+        code="rgp", kind="law",
+        title="Règlement général de police de la navigation intérieure (RGP) — "
+              "Code des transports, art. R. 4241-1 et s.",
+        publisher="Légifrance (DILA)", url=_RGP, lang="fr", cost="free", official=True,
+        themes=("voies_navigables", "ecluses", "signalisation_fluviale", "regles_route",
+                "reglementation"), basis="toc",
+        match="Règlement général de police", permit_scope=("eaux_interieures",),
+        source=_RGP, as_of="2026-09-11",
+        body={"fr": "La transposition française du CEVNI : règles de route, "
+                    "signalisation des voies et des bateaux, écluses, stationnement.",
+              "en": "France's CEVNI transposition: rules of the road, waterway and "
+                    "vessel signs, locks, mooring."}),
+    ReadingRef(
+        code="division_240", kind="law",
+        title="Division 240 — matériel de sécurité des navires de plaisance de moins de 24 m",
+        publisher="mer.gouv.fr", url=_D240, lang="fr", cost="free", official=True,
+        themes=("securite",), basis="toc", match="Division 240",
+        permit_scope=("cotiere",), source=_D240, as_of="2026-09-11",
+        body={"fr": "L'armement de sécurité obligatoire selon la distance d'un abri "
+                    "(basique, côtier, semi-hauturier, hauturier).",
+              "en": "The mandatory safety equipment by distance from shelter "
+                    "(basique, côtier, semi-hauturier, hauturier)."}),
+    ReadingRef(
+        code="vagnon_cotiere", kind="handbook",
+        title="Code Vagnon 2026 — Permis plaisance, option côtière",
+        publisher="Éditions Vagnon", url=_VAGNON_COT, lang="fr", cost="paid",
+        official=False, themes=_COT, basis="toc",
+        price="15,50 € (ISBN 979-10-2710-713-1)", permit_scope=("cotiere",),
+        source=_VAGNON_COT, as_of="2026-09-11",
+        body={"fr": "Le code le plus répandu ; annonce les thèmes météo, carte marine, "
+                    "marées, sécurité, environnement, règles de barre et de route, "
+                    "feux et marques, signaux, balisage, réglementation, VHF, « selon "
+                    "l'épreuve officielle ». Ni recommandation ni affiliation.",
+              "en": "The most widespread code book; lists weather, charts, tides, "
+                    "safety, environment, rules of the road, lights and shapes, "
+                    "signals, buoyage, regulations, VHF, 'per the official test'. "
+                    "Neither a recommendation nor an affiliation."}),
+    ReadingRef(
+        code="vagnon_eaux_interieures", kind="handbook",
+        title="Code Vagnon 2026 — Permis plaisance, option eaux intérieures",
+        publisher="Éditions Vagnon", url=_VAGNON_EI, lang="fr", cost="paid",
+        official=False,
+        themes=("voies_navigables", "regles_route", "signalisation_fluviale",
+                "reglementation"), basis="toc",
+        price="14,50 € (ISBN 979-10-2710-715-5)", permit_scope=("eaux_interieures",),
+        source=_VAGNON_EI, as_of="2026-09-11",
+        body={"fr": "Annonce le vocabulaire, le réseau fluvial et les voies navigables, "
+                    "les règles de circulation, le balisage et la signalisation "
+                    "visuelle, la réglementation, la radiotéléphonie. Ni "
+                    "recommandation ni affiliation.",
+              "en": "Lists vocabulary, the river network and waterways, traffic "
+                    "rules, buoyage and visual signalling, regulations, radio. "
+                    "Neither a recommendation nor an affiliation."}),
+)
 
 PATH: tuple[PathStep, ...] = (
     PathStep(
@@ -194,5 +311,6 @@ COUNTRY = Country(
     default_region=DEFAULT_REGION,
     references=REFERENCES,
     path=PATH,
+    reading=READING,
     legal_basis=LEGAL_BASIS,
 )

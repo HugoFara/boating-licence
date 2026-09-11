@@ -354,3 +354,26 @@ button.ghost:hover { border-color: var(--accent); color: var(--accent-dark); }
 .learn-text .src a { color: var(--accent-dark); }
 .learn-licence { font-style: italic; }
 .learn-figure { height: 150px; margin: 6px 0 8px; }
+
+/* Where to study: one card per reference, coverage as two thin bars (by theme,
+   and — for a citable text — by actual citation), the basis of the theme list
+   spelled out so a publisher's claim never reads like a measurement. */
+.reading-ref { padding: 10px 0; border-top: 1px solid var(--line); }
+.reading-ref:first-of-type { border-top: none; }
+.reading-h a { color: var(--accent-dark); font-weight: 600; }
+.reading-pub { color: var(--muted); font-size: .85rem; }
+.reading-tags { display: flex; gap: 6px; flex-wrap: wrap; margin: 6px 0; }
+.tag {
+  font-size: .75rem; padding: 1px 8px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); background: var(--card);
+}
+.tag.official { border-color: var(--accent); color: var(--accent-dark); }
+.tag.free { border-color: var(--ok); color: var(--ok); }
+.tag.paid { border-color: #7a5b00; color: #7a5b00; }
+.reading-body { margin: 6px 0; line-height: 1.45; }
+.cov { margin: 6px 0 4px; }
+.cov-row { display: flex; align-items: center; gap: 10px; margin: 3px 0; flex-wrap: wrap; }
+.cov-label { min-width: 16em; font-size: .85rem; color: var(--fg); }
+.cov-bar { flex: 1 1 120px; height: 8px; border-radius: 999px; background: var(--line); overflow: hidden; }
+.cov-bar i { display: block; height: 100%; background: var(--accent); }
+.reading-src a { color: var(--accent-dark); }

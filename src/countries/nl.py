@@ -32,7 +32,7 @@ from __future__ import annotations
 
 from ..sources import Source
 from . import nl_examscope, nl_themes
-from .base import Country, ExamRules, PathStep, Permit, Reference, Region
+from .base import Country, ExamRules, PathStep, Permit, ReadingRef, Reference, Region
 
 LEGAL_BASIS = (
     "Nederlands recht kent géén auteursrecht op wetgeving: Auteurswet art. 11 — "
@@ -198,6 +198,120 @@ _CBR_KVB1 = ("https://www.cbr.nl/nl/recreatievaart-ppl-rzam/nl-1/"
              "theorie-examen-klein-vaarbewijs-1")
 _REGELING73 = "https://wetten.overheid.nl/BWBR0025958#Bijlage7.3"
 
+# --- Where to learn the theory --------------------------------------------------
+# Verified 2026-09-11. The CBR publishes, per exam, an *examendocument* holding the
+# ministerial examenprogramma, the afbakening and the toetsmatrijs — the exact
+# syllabus with points per topic (KVB1: 40 questions / 80 points, cesuur 56;
+# A wettelijke bepalingen 35 pt, B techniek/veiligheid 12, C vaarwater/weer 16,
+# D varen/manoeuvreren 17). That document is the syllabus (basis "programme").
+# The law is free on wetten.overheid.nl (basis "units"). The ANWB course book is
+# listed on the strength of its published table of contents (basis "toc": ch. 1
+# wetten en reglementen, 2 techniek/veiligheid/milieu, 3 vaarwater/weer, 4 praktijk
+# van het varen, further chapters KVB2). "Varen doe je Samen" is the free
+# safety-campaign knowledge base of Rijkswaterstaat, provinces, KNRM and the
+# Watersportverbond; its themes follow its section list (basis "toc").
+_CBR_KVB1 = "https://www.cbr.nl/nl/recreatievaart-ppl-rzam/recreatievaart/theorie-examen-kvb1"
+_CBR_KVB2 = "https://www.cbr.nl/nl/recreatievaart-ppl-rzam/recreatievaart/theorie-examen-kvb2"
+_CBR_DOC1 = "https://www.cbr.nl/nl/service/nl/artikel/examendocument-kvb1"
+_CBR_DOC2 = "https://www.cbr.nl/nl/service/nl/artikel/examendocument-kvb2"
+_CBR_SAMPLE1 = "https://www.cbr.nl/nl/service/nl/artikel/voorbeeldexamen-kvb1"
+_ANWB = "https://www.anwb.nl/webwinkel/p/140952/anwb-cursusboek-klein-vaarbewijs-i-en-ii"
+_VDJS = "https://varendoejesamen.nl/"
+
+READING: tuple[ReadingRef, ...] = (
+    ReadingRef(
+        code="cbr_examendocument_kvb1", kind="programme",
+        title="Examendocument Klein Vaarbewijs 1 — examenprogramma, afbakening en toetsmatrijs",
+        publisher="CBR, divisie CCV (programma vastgesteld door de Minister van I&W)",
+        url=_CBR_DOC1, lang="nl", cost="free", official=True,
+        themes=nl_themes.PERMIT_THEMES["KVB-1"], basis="programme",
+        permit_scope=("KVB-1",), source=_CBR_DOC1, as_of="2026-09-11",
+        body={"nl": "Het officiële examenprogramma met per onderwerp de te behalen "
+                    "punten (40 vragen, 80 punten, geslaagd bij 56): wettelijke "
+                    "bepalingen 35, techniek en veiligheid 12, vaarwater en weer 16, "
+                    "varen en manoeuvreren 17. Ingangsdatum 1 januari 2020."}),
+    ReadingRef(
+        code="cbr_examendocument_kvb2", kind="programme",
+        title="Examendocument Klein Vaarbewijs 2 — examenprogramma, afbakening en toetsmatrijs",
+        publisher="CBR, divisie CCV (programma vastgesteld door de Minister van I&W)",
+        url=_CBR_DOC2, lang="nl", cost="free", official=True,
+        themes=nl_themes.PERMIT_THEMES["KVB-2"], basis="programme",
+        permit_scope=("KVB-2",), source=_CBR_KVB2, as_of="2026-09-11",
+        body={"nl": "Het officiële examenprogramma voor het aanvullende examen KVB2 "
+                    "(alle binnenwateren): navigatie en weerkunde bovenop de KVB1-stof."}),
+    ReadingRef(
+        code="cbr_voorbeeldexamen_kvb1", kind="sample_exam",
+        title="Voorbeeldexamen Klein Vaarbewijs 1",
+        publisher="CBR", url=_CBR_SAMPLE1, lang="nl", cost="free", official=True,
+        themes=nl_themes.PERMIT_THEMES["KVB-1"], basis="programme",
+        permit_scope=("KVB-1",), source=_CBR_KVB1, as_of="2026-09-11",
+        body={"nl": "Het officiële voorbeeldexamen van het CBR, met daarnaast de "
+                    "woordenlijst en de «struikelblokken bij het examen»."}),
+    ReadingRef(
+        code="bpr", kind="law",
+        title="Binnenvaartpolitiereglement (BPR)",
+        publisher="wetten.overheid.nl (KOOP)", url="https://wetten.overheid.nl/BWBR0003628/",
+        lang="nl", cost="free", official=True, themes=(), basis="units",
+        source_id="bpr", match="Binnenvaartpolitiereglement",
+        source="https://wetten.overheid.nl/BWBR0003628/", as_of="2026-09-11",
+        body={"nl": "Het reglement waaruit het grootste deel van de wettelijke "
+                    "bepalingen (35 van de 80 punten) komt: lichten, dagtekens, "
+                    "geluidsseinen, marifoon, vaarregels, stilliggen, snelle "
+                    "motorboten. Geen auteursrecht (Auteurswet art. 11)."}),
+    ReadingRef(
+        code="rpr", kind="law",
+        title="Rijnvaartpolitiereglement 1995 (RPR)",
+        publisher="wetten.overheid.nl (KOOP)", url="https://wetten.overheid.nl/BWBR0006923/",
+        lang="nl", cost="free", official=True, themes=(), basis="units",
+        source_id="rpr", match="Rijnvaartpolitiereglement",
+        source="https://wetten.overheid.nl/BWBR0006923/", as_of="2026-09-11",
+        body={"nl": "De Rijnregels, in het examen gevraagd «in het bijzonder voor "
+                    "zover afwijkend van het BPR» (Rijn, Waal, Lek)."}),
+    ReadingRef(
+        code="svw", kind="law",
+        title="Scheepvaartverkeerswet (SVW)",
+        publisher="wetten.overheid.nl (KOOP)", url="https://wetten.overheid.nl/BWBR0004364/",
+        lang="nl", cost="free", official=True, themes=(), basis="units",
+        source_id="svw", match="Scheepvaartverkeerswet",
+        source="https://wetten.overheid.nl/BWBR0004364/", as_of="2026-09-11",
+        body={"nl": "De wet als basis van de scheepvaartreglementen: varen onder "
+                    "invloed, ademtest, intrekking van het vaarbewijs."}),
+    ReadingRef(
+        code="binnenvaartwet", kind="law",
+        title="Binnenvaartwet (BVW)",
+        publisher="wetten.overheid.nl (KOOP)", url="https://wetten.overheid.nl/BWBR0023009/",
+        lang="nl", cost="free", official=True, themes=(), basis="units",
+        source_id="binnenvaartwet", match="Binnenvaartwet",
+        source="https://wetten.overheid.nl/BWBR0023009/", as_of="2026-09-11",
+        body={"nl": "Het belang van de BVW voor de recreatievaart: de "
+                    "vaarbewijsplicht en haar grenzen."}),
+    ReadingRef(
+        code="varen_doe_je_samen", kind="guide",
+        title="Varen doe je Samen! — kennisbank veilig varen",
+        publisher="Rijkswaterstaat, provincies, KNRM, Watersportverbond e.a.",
+        url=_VDJS, lang="nl", cost="free", official=True,
+        themes=("vaarregels", "voortstuwing", "veiligheid", "marifoon_radar",
+                "vaarwater", "manoeuvreren"), basis="toc",
+        source=_VDJS, as_of="2026-09-11",
+        body={"nl": "Gratis campagnemateriaal van de vaarwegbeheerders: "
+                    "vaarregels, motoronderhoud, brandpreventie, reddingsvesten, "
+                    "knooppunten, marifoonkaart. Geen examenstof, wel de praktijk "
+                    "erachter."}),
+    ReadingRef(
+        code="anwb_cursusboek", kind="handbook",
+        title="ANWB Cursusboek Klein Vaarbewijs I en II (30e druk)",
+        publisher="ANWB / Uitgeverij Hollandia", url=_ANWB, lang="nl", cost="paid",
+        official=False, themes=nl_themes.PERMIT_THEMES["KVB-2"], basis="toc",
+        price="zie ANWB-webwinkel (ISBN 978 90 641 0807 5)",
+        source="https://hollandia-boeken.nl/wp-content/uploads/2024/05/9789064108075_sample.pdf",
+        as_of="2026-09-11",
+        body={"nl": "Het meest verspreide cursusboek; de hoofdstukken volgen de "
+                    "volgorde van de exameneisen (1 wetten en reglementen, 2 "
+                    "techniek, veiligheid en milieu, 3 het vaarwater en het weer, "
+                    "4 de praktijk van het varen; verdere hoofdstukken KVB2). "
+                    "Geen aanbeveling — een voorbeeld van de commerciële boeken."}),
+)
+
 PATH: tuple[PathStep, ...] = (
     PathStep(
         code="age", source="Binnenvaartwet art. 27 lid 1 onder a", url=_WET27,
@@ -275,6 +389,7 @@ COUNTRY = Country(
     default_region=DEFAULT_REGION,
     references=REFERENCES,
     path=PATH,
+    reading=READING,
     legal_basis=LEGAL_BASIS,
     # The Dutch code puts its most examinable rules in long articles (head-on,
     # crossing, small-craft lights, locks all exceed the default 2200-character

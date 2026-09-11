@@ -96,6 +96,124 @@
       "permit_scope": []
     }
   ],
+  "reading": [
+    {
+      "code": "arrete_2007_programme",
+      "kind": "programme",
+      "title": "Arrêté du 28 septembre 2007 — programme de formation théorique (art. 1.2 côtière, art. 2.2 eaux intérieures)",
+      "publisher": "Légifrance (DILA)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+      "lang": "fr",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "securite",
+        "balisage",
+        "regles_route",
+        "feux_signaux",
+        "meteo_maree",
+        "reglementation",
+        "environnement",
+        "voies_navigables",
+        "ecluses",
+        "signalisation_fluviale",
+        "regles_route",
+        "securite",
+        "reglementation",
+        "environnement"
+      ],
+      "basis": "programme",
+      "body": {
+        "fr": "Le référentiel officiel : la liste des thèmes que l'épreuve théorique (40 questions, 5 erreurs admises) peut interroger, option par option, et les 5 h minimum de formation en salle.",
+        "en": "The official syllabus: the themes the theory test (40 questions, 5 errors allowed) may ask, option by option, and the 5 h minimum of classroom training."
+      },
+      "source": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+      "as_of": "2026-09-11",
+      "match": "",
+      "source_id": "",
+      "price": "",
+      "permit_scope": []
+    },
+    {
+      "code": "rgp",
+      "kind": "law",
+      "title": "Règlement général de police de la navigation intérieure (RGP) — Code des transports, art. R. 4241-1 et s.",
+      "publisher": "Légifrance (DILA)",
+      "url": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+      "lang": "fr",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "voies_navigables",
+        "ecluses",
+        "signalisation_fluviale",
+        "regles_route",
+        "reglementation"
+      ],
+      "basis": "toc",
+      "body": {
+        "fr": "La transposition française du CEVNI : règles de route, signalisation des voies et des bateaux, écluses, stationnement.",
+        "en": "France's CEVNI transposition: rules of the road, waterway and vessel signs, locks, mooring."
+      },
+      "source": "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000023086525/LEGISCTA000027232795/",
+      "as_of": "2026-09-11",
+      "match": "Règlement général de police",
+      "source_id": "",
+      "price": "",
+      "permit_scope": []
+    },
+    {
+      "code": "mer_gouv_permis",
+      "kind": "guide",
+      "title": "Le permis plaisance — page officielle du ministère de la Mer",
+      "publisher": "mer.gouv.fr",
+      "url": "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur",
+      "lang": "fr",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "reglementation"
+      ],
+      "basis": "toc",
+      "body": {
+        "fr": "Les options, l'épreuve (40 questions, 5 erreurs admises), la réforme 2022 et la brochure « Le permis plaisance » à télécharger.",
+        "en": "The options, the test (40 questions, 5 errors allowed), the 2022 reform and the downloadable 'Le permis plaisance' brochure."
+      },
+      "source": "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur",
+      "as_of": "2026-09-11",
+      "match": "",
+      "source_id": "",
+      "price": "",
+      "permit_scope": []
+    },
+    {
+      "code": "vagnon_eaux_interieures",
+      "kind": "handbook",
+      "title": "Code Vagnon 2026 — Permis plaisance, option eaux intérieures",
+      "publisher": "Éditions Vagnon",
+      "url": "https://www.vagnon.fr/9791027107155-code-vagnon-2026-permis-plaisance-option-eaux-interieures.html",
+      "lang": "fr",
+      "cost": "paid",
+      "official": false,
+      "themes": [
+        "voies_navigables",
+        "regles_route",
+        "signalisation_fluviale",
+        "reglementation"
+      ],
+      "basis": "toc",
+      "body": {
+        "fr": "Annonce le vocabulaire, le réseau fluvial et les voies navigables, les règles de circulation, le balisage et la signalisation visuelle, la réglementation, la radiotéléphonie. Ni recommandation ni affiliation.",
+        "en": "Lists vocabulary, the river network and waterways, traffic rules, buoyage and visual signalling, regulations, radio. Neither a recommendation nor an affiliation."
+      },
+      "source": "https://www.vagnon.fr/9791027107155-code-vagnon-2026-permis-plaisance-option-eaux-interieures.html",
+      "as_of": "2026-09-11",
+      "match": "",
+      "source_id": "",
+      "price": "14,50 € (ISBN 979-10-2710-715-5)",
+      "permit_scope": []
+    }
+  ],
   "core": {
     "universal": {
       "fr": {

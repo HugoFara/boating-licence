@@ -107,6 +107,51 @@ class PathStep:
 
 
 @dataclass(frozen=True)
+class ReadingRef:
+    """One place to *learn the theory* before drilling it: the official exam
+    programme, the law itself, a published question catalogue, a sample exam,
+    an official guide, or a commercial handbook. The player's Learn tab lists
+    them under "where to study", each with a **coverage** figure — how much of
+    what the exam asks the resource addresses.
+
+    Same discipline as :class:`PathStep`: every entry is authored from a page
+    that was actually read (``source`` + ``as_of``), never from memory. A
+    commercial handbook is listed only where its own product page states what
+    it covers, and is marked ``cost="paid"``; listing is not endorsement.
+
+    Coverage is computed by the player from the bank it has loaded, so it
+    respects the active permit/pool, on two axes:
+
+    * ``themes`` — the exam themes the resource addresses. ``basis`` says how
+      that list was established, so the reader can weigh it:
+      ``"programme"`` (the resource *is* the official syllabus — covers all),
+      ``"toc"`` (its table of contents was read), ``"publisher"`` (the
+      publisher's own claim, no TOC seen), ``"units"`` (an ingested law: the
+      themes its KB units are tagged with, filled at bundle time from
+      ``source_id``).
+    * ``match`` — a substring of ``provenance.source``; when set, the player
+      also reports the share of questions that cite this very text.
+    """
+    code: str                                      # stable slug
+    kind: str                                      # "programme"|"law"|"catalogue"|"sample_exam"|"guide"|"handbook"
+    title: str
+    publisher: str
+    url: str
+    lang: str                                      # language(s) of the resource, e.g. "fr" / "de/fr/it"
+    cost: str                                      # "free" | "paid"
+    official: bool                                 # published by the state / the exam authority
+    themes: tuple[str, ...]                        # exam themes it addresses (see basis)
+    basis: str                                     # "programme" | "toc" | "publisher" | "units"
+    body: dict                                     # {lang: one sentence — what it is, why read it}
+    source: str                                    # the page the entry was verified on
+    as_of: str                                     # ISO date it was verified
+    match: str = ""                                # provenance.source substring ⇒ citation share
+    source_id: str = ""                            # ingested KB source id (basis "units")
+    price: str = ""                                # as displayed on the source page (volatile)
+    permit_scope: tuple[str, ...] = ()             # () ⇒ every permit; else specific codes
+
+
+@dataclass(frozen=True)
 class Country:
     """The full description of one country's exam domain."""
     code: str                                      # ISO 3166-1 alpha-2 ("CH", "DE")
@@ -125,6 +170,8 @@ class Country:
     # practical exam / application / fees / validity) that turn a passed theory
     # paper into an actual licence. Empty for sourcing-only members (INT).
     path: tuple = ()                               # tuple[PathStep, ...]
+    # Where to learn the theory: programme, law, catalogues, guides, handbooks.
+    reading: tuple = ()                            # tuple[ReadingRef, ...]
     legal_basis: str = ""
     # Maps a prose-drafted question's theme -> the exam-block id it belongs to,
     # for countries whose prose pool feeds a block-structured exam (DE: the BSO
@@ -163,3 +210,24 @@ class Country:
                  "url": s.url, "as_of": s.as_of, "volatile": s.volatile,
                  "region_scope": s.region_scope,
                  "permit_scope": list(s.permit_scope)} for s in steps]
+
+    # Display order for the reading list: the syllabus first, then what is free
+    # and official, then the rest — a learner should meet the programme and the
+    # law before any commercial handbook.
+    _READING_ORDER = ("programme", "catalogue", "sample_exam", "law", "guide", "handbook")
+
+    def reading_manifest(self) -> list[dict]:
+        """Reading references for the player/docs. ``themes`` for ``basis ==
+        "units"`` entries is left empty here and filled by the bundler from the
+        KB (it needs the ingested units); everything else ships as authored."""
+        order = {k: i for i, k in enumerate(self._READING_ORDER)}
+        refs = sorted(self.reading,
+                      key=lambda r: (order.get(r.kind, 99), not r.official,
+                                     r.cost != "free", r.code))
+        return [{"code": r.code, "kind": r.kind, "title": r.title,
+                 "publisher": r.publisher, "url": r.url, "lang": r.lang,
+                 "cost": r.cost, "official": r.official,
+                 "themes": list(r.themes), "basis": r.basis, "body": dict(r.body),
+                 "source": r.source, "as_of": r.as_of, "match": r.match,
+                 "source_id": r.source_id, "price": r.price,
+                 "permit_scope": list(r.permit_scope)} for r in refs]

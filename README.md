@@ -295,9 +295,12 @@ tracked invariant. See `docs/scope.md`.
 
 `web/` is dependency-free vanilla JS. It loads the active language's bank, reads the
 exam config from its `meta`, and runs a chronometered **exam** and a **practice** mode
-with source-cited corrections. You can **study by domain** (toggle which themes a run
-draws from), flip the **National ⟷ Common-core** pool, and the results screen breaks
-the **score down per domain**. The **🌍 / 🇫🇷 / 🇩🇪 / 🇨🇭 / 🇳🇱 countrybar** switches
+with source-cited corrections, plus a **Learn** tab: the theory theme by theme (the
+"why" cards, every cited article — inline where the licence allows) and a sourced
+**where-to-study list** (programme, law, catalogues, guides, flagged paid handbooks)
+with each entry's **coverage** of the bank, by theme and by citation. You can **study by
+domain** (toggle which themes a run draws from), flip the **National ⟷ Common-core**
+pool, and the results screen breaks the **score down per domain**. The **🌍 / 🇫🇷 / 🇩🇪 / 🇨🇭 / 🇳🇱 countrybar** switches
 between the national players, each reusing the same engine with its own exam rules.
 The player also
 offers the **Anki deck** and **Moodle GIFT** file for the active language as one-click

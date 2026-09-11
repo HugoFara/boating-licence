@@ -96,6 +96,148 @@
       "permit_scope": []
     }
   ],
+  "reading": [
+    {
+      "code": "arrete_2007_programme",
+      "kind": "programme",
+      "title": "Arrêté du 28 septembre 2007 — programme de formation théorique (art. 1.2 côtière, art. 2.2 eaux intérieures)",
+      "publisher": "Légifrance (DILA)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+      "lang": "fr",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "securite",
+        "balisage",
+        "regles_route",
+        "feux_signaux",
+        "meteo_maree",
+        "reglementation",
+        "environnement",
+        "voies_navigables",
+        "ecluses",
+        "signalisation_fluviale",
+        "regles_route",
+        "securite",
+        "reglementation",
+        "environnement"
+      ],
+      "basis": "programme",
+      "body": {
+        "fr": "Le référentiel officiel : la liste des thèmes que l'épreuve théorique (40 questions, 5 erreurs admises) peut interroger, option par option, et les 5 h minimum de formation en salle.",
+        "en": "The official syllabus: the themes the theory test (40 questions, 5 errors allowed) may ask, option by option, and the 5 h minimum of classroom training."
+      },
+      "source": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000428843/",
+      "as_of": "2026-09-11",
+      "match": "",
+      "source_id": "",
+      "price": "",
+      "permit_scope": []
+    },
+    {
+      "code": "division_240",
+      "kind": "law",
+      "title": "Division 240 — matériel de sécurité des navires de plaisance de moins de 24 m",
+      "publisher": "mer.gouv.fr",
+      "url": "https://www.mer.gouv.fr/la-division-240",
+      "lang": "fr",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "securite"
+      ],
+      "basis": "toc",
+      "body": {
+        "fr": "L'armement de sécurité obligatoire selon la distance d'un abri (basique, côtier, semi-hauturier, hauturier).",
+        "en": "The mandatory safety equipment by distance from shelter (basique, côtier, semi-hauturier, hauturier)."
+      },
+      "source": "https://www.mer.gouv.fr/la-division-240",
+      "as_of": "2026-09-11",
+      "match": "Division 240",
+      "source_id": "",
+      "price": "",
+      "permit_scope": []
+    },
+    {
+      "code": "ripam",
+      "kind": "law",
+      "title": "RIPAM — Règlement international pour prévenir les abordages en mer (COLREG 1972)",
+      "publisher": "Légifrance (DILA)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+      "lang": "fr",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "regles_route",
+        "feux_signaux"
+      ],
+      "basis": "toc",
+      "body": {
+        "fr": "Le texte des règles de barre et de route, des feux et marques et des signaux sonores en mer — la source de ces trois thèmes.",
+        "en": "The text of the steering and sailing rules, lights and shapes and sound signals at sea — the source of those three themes."
+      },
+      "source": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000305722/",
+      "as_of": "2026-09-11",
+      "match": "RIPAM",
+      "source_id": "",
+      "price": "",
+      "permit_scope": []
+    },
+    {
+      "code": "mer_gouv_permis",
+      "kind": "guide",
+      "title": "Le permis plaisance — page officielle du ministère de la Mer",
+      "publisher": "mer.gouv.fr",
+      "url": "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur",
+      "lang": "fr",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "reglementation"
+      ],
+      "basis": "toc",
+      "body": {
+        "fr": "Les options, l'épreuve (40 questions, 5 erreurs admises), la réforme 2022 et la brochure « Le permis plaisance » à télécharger.",
+        "en": "The options, the test (40 questions, 5 errors allowed), the 2022 reform and the downloadable 'Le permis plaisance' brochure."
+      },
+      "source": "https://www.mer.gouv.fr/le-permis-plaisance-permis-de-conduire-les-bateaux-de-plaisance-moteur",
+      "as_of": "2026-09-11",
+      "match": "",
+      "source_id": "",
+      "price": "",
+      "permit_scope": []
+    },
+    {
+      "code": "vagnon_cotiere",
+      "kind": "handbook",
+      "title": "Code Vagnon 2026 — Permis plaisance, option côtière",
+      "publisher": "Éditions Vagnon",
+      "url": "https://www.vagnon.fr/9791027107131-code-vagnon-2026-permis-plaisance-option-cotiere-group.html",
+      "lang": "fr",
+      "cost": "paid",
+      "official": false,
+      "themes": [
+        "securite",
+        "balisage",
+        "regles_route",
+        "feux_signaux",
+        "meteo_maree",
+        "reglementation",
+        "environnement"
+      ],
+      "basis": "toc",
+      "body": {
+        "fr": "Le code le plus répandu ; annonce les thèmes météo, carte marine, marées, sécurité, environnement, règles de barre et de route, feux et marques, signaux, balisage, réglementation, VHF, « selon l'épreuve officielle ». Ni recommandation ni affiliation.",
+        "en": "The most widespread code book; lists weather, charts, tides, safety, environment, rules of the road, lights and shapes, signals, buoyage, regulations, VHF, 'per the official test'. Neither a recommendation nor an affiliation."
+      },
+      "source": "https://www.vagnon.fr/9791027107131-code-vagnon-2026-permis-plaisance-option-cotiere-group.html",
+      "as_of": "2026-09-11",
+      "match": "",
+      "source_id": "",
+      "price": "15,50 € (ISBN 979-10-2710-713-1)",
+      "permit_scope": []
+    }
+  ],
   "core": {
     "universal": {
       "fr": {

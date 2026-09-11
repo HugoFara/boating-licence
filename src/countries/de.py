@@ -23,7 +23,7 @@ from __future__ import annotations
 
 from ..sources import Source
 from . import de_themes
-from .base import Country, ExamBlock, ExamRules, PathStep, Permit, Reference, Region
+from .base import Country, ExamBlock, ExamRules, PathStep, Permit, ReadingRef, Reference, Region
 
 # --- 2025–26 reform, still in flux (show as "pending", never as settled law) ---
 REFORM_NOTE = (
@@ -105,12 +105,12 @@ REFERENCES: tuple[Reference, ...] = (
     Reference(
         name="Amtlicher Fragenkatalog SBF See (≈300 Fragen)",
         url="https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/"
-            "Fragenkatalog-See/Fragenkatalog-See-neu-node.html",
+            "Fragenkatalog-See/Fragenkatalog-See-node.html",
         note=_CATALOG_NOTE),
     Reference(
         name="Amtlicher Fragenkatalog SBF Binnen (≈300 Fragen)",
         url="https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/"
-            "Fragenkatalog-Binnen/Fragenkatalog-Binnen-neu-node.html",
+            "Fragenkatalog-Binnen/Fragenkatalog-Binnen-node.html",
         note=_CATALOG_NOTE),
     Reference(
         name="Fragenkatalog SKS (Sportküstenschifferschein)",
@@ -266,6 +266,101 @@ _DMYV_FEES = "https://dmyv-pzrlp.de/gebuehrenseite-neu/"
 _LRA_BSEE = ("https://www.bodenseekreis.de/verkehr-wirtschaft/schifffahrt/"
              "bodenseeschifferpatent/schifferpatentpruefung/")
 
+# --- Where to learn the theory --------------------------------------------------
+# Verified 2026-09-11. Germany is the one regime whose exam questions are
+# published verbatim by the state (ELWIS, Stand 01.08.2023), so the catalogue IS
+# the syllabus and covers everything by construction (basis "programme"); the
+# federal ordinances behind it are free on gesetze-im-internet.de (basis "units").
+# One commercial textbook per licence is listed on its publisher's own claim
+# ("das gesamte Lehr- und Prüfungsstoff … mit amtlichem Fragenkatalog") — no
+# table of contents is published online, hence basis "publisher", not "toc".
+_ELWIS_BINNEN = ("https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/"
+                 "Fragenkatalog-Binnen/Fragenkatalog-Binnen-node.html")
+_ELWIS_SEE = ("https://www.elwis.de/DE/Sportschifffahrt/Sportbootfuehrerscheine/"
+              "Fragenkatalog-See/Fragenkatalog-See-node.html")
+_BINNEN_PERMITS = ("SBF-Binnen-Motor", "SBF-Binnen-Segeln", "SBF-Binnen-Motor-Segeln")
+_SEE_PERMITS = ("SBF-See", "SKS", "SSS", "SHS")
+_BODENSEE_PERMITS = ("Bodensee-A", "Bodensee-D")
+
+READING: tuple[ReadingRef, ...] = (
+    ReadingRef(
+        code="elwis_binnen", kind="catalogue",
+        title="Amtlicher Fragen- und Antwortenkatalog SBF Binnen (Stand 01.08.2023)",
+        publisher="ELWIS — Generaldirektion Wasserstraßen und Schifffahrt",
+        url=_ELWIS_BINNEN, lang="de", cost="free", official=True,
+        themes=de_themes.PERMIT_THEMES["SBF-Binnen-Motor-Segeln"], basis="programme",
+        match="ELWIS Fragenkatalog SBF Binnen", permit_scope=_BINNEN_PERMITS,
+        source=_ELWIS_BINNEN, as_of="2026-09-11",
+        body={"de": "Die Prüfungsfragen selbst, amtlich und kostenlos: Basisfragen "
+                    "1–72, spezifische Fragen Binnen 73–253, Segeln 254–300. In "
+                    "diesem Katalog ist immer Antwort a die richtige."}),
+    ReadingRef(
+        code="elwis_see", kind="catalogue",
+        title="Amtlicher Fragen- und Antwortenkatalog SBF See (Stand 01.08.2023)",
+        publisher="ELWIS — Generaldirektion Wasserstraßen und Schifffahrt",
+        url=_ELWIS_SEE, lang="de", cost="free", official=True,
+        themes=de_themes.PERMIT_THEMES["SBF-See"], basis="programme",
+        match="ELWIS Fragenkatalog SBF See", permit_scope=_SEE_PERMITS,
+        source=_ELWIS_SEE, as_of="2026-09-11",
+        body={"de": "Die Prüfungsfragen selbst, amtlich und kostenlos: Basisfragen "
+                    "und spezifische Fragen See, dazu die Navigationsaufgaben mit "
+                    "Seekartenausschnitt."}),
+    ReadingRef(
+        code="binschstro", kind="law",
+        title="Binnenschifffahrtsstraßen-Ordnung (BinSchStrO)",
+        publisher="Bundesministerium der Justiz — gesetze-im-internet.de",
+        url="https://www.gesetze-im-internet.de/binschstro_2012/", lang="de",
+        cost="free", official=True, themes=(), basis="units",
+        source_id="binschstro", match="BinSchStrO", permit_scope=_BINNEN_PERMITS,
+        source="https://www.gesetze-im-internet.de/binschstro_2012/", as_of="2026-09-11",
+        body={"de": "Die Verkehrsordnung der Binnenschifffahrtsstraßen, aus der die "
+                    "spezifischen Binnen-Fragen abgeleitet sind. Gemeinfrei (§5 UrhG)."}),
+    ReadingRef(
+        code="seeschstro", kind="law",
+        title="Seeschifffahrtsstraßen-Ordnung (SeeSchStrO)",
+        publisher="Bundesministerium der Justiz — gesetze-im-internet.de",
+        url="https://www.gesetze-im-internet.de/seeschstro_1971/", lang="de",
+        cost="free", official=True, themes=(), basis="units",
+        source_id="seeschstro", match="SeeSchStrO", permit_scope=_SEE_PERMITS,
+        source="https://www.gesetze-im-internet.de/seeschstro_1971/", as_of="2026-09-11",
+        body={"de": "Die Verkehrsordnung der Seeschifffahrtsstraßen (Küste, Häfen, "
+                    "Flussmündungen). Gemeinfrei (§5 UrhG)."}),
+    ReadingRef(
+        code="kvr", kind="law",
+        title="Kollisionsverhütungsregeln (KVR / COLREG 1972)",
+        publisher="Bundesministerium der Justiz — gesetze-im-internet.de",
+        url="https://www.gesetze-im-internet.de/seestro_1972/", lang="de",
+        cost="free", official=True, themes=(), basis="units",
+        source_id="kvr", match="KVR", permit_scope=_SEE_PERMITS,
+        source="https://www.gesetze-im-internet.de/seestro_1972/", as_of="2026-09-11",
+        body={"de": "Die internationalen Ausweich-, Lichter- und Signalregeln auf "
+                    "See, in der deutschen Verordnungsfassung. Gemeinfrei (§5 UrhG)."}),
+    ReadingRef(
+        code="bso", kind="law",
+        title="Bodensee-Schifffahrts-Ordnung (BSO), SR 747.223.1",
+        publisher="Fedlex (trinational DE/AT/CH)",
+        url="https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de", lang="de",
+        cost="free", official=True, themes=(), basis="units",
+        source_id="bso", match="Bodensee-Schifffahrts-Ordnung", permit_scope=_BODENSEE_PERMITS,
+        source="https://www.fedlex.admin.ch/eli/cc/1976/1338_1338_1338/de", as_of="2026-09-11",
+        body={"de": "Die Verkehrsordnung des Bodensees, aus der die hiesigen "
+                    "Bodensee-Fragen abgeleitet sind (der amtliche Katalog ist nicht "
+                    "frei lizenziert). Gemeinfrei."}),
+    ReadingRef(
+        code="dk_sbf_see", kind="handbook",
+        title="Sportbootführerschein See — mit amtlichem Fragenkatalog (Overschmidt/Bark)",
+        publisher="Delius Klasing", url="https://shop.delius-klasing.de/sportbootfuehrerschein-see-p-2003700/",
+        lang="de", cost="paid", official=False,
+        themes=de_themes.PERMIT_THEMES["SBF-See"], basis="publisher",
+        price="39,90 € (43. Aufl. 2026, ISBN 978-3-667-12901-7)", permit_scope=_SEE_PERMITS,
+        source="https://shop.delius-klasing.de/sportbootfuehrerschein-see-p-2003700/",
+        as_of="2026-09-11",
+        body={"de": "Verbreitetes Lehrbuch; laut Verlag «der gesamte Lehr- und "
+                    "Prüfungsstoff» samt amtlichem Fragenkatalog und 15 "
+                    "Seekartenausschnitten. Keine Empfehlung — ein Beispiel für "
+                    "die kommerziellen Lehrbücher."}),
+)
+
 PATH: tuple[PathStep, ...] = (
     # --- federal Sportbootführerschein (DMYV/DSV) ---
     PathStep(
@@ -359,6 +454,7 @@ COUNTRY = Country(
     default_region=DEFAULT_REGION,
     references=REFERENCES,
     path=PATH,
+    reading=READING,
     legal_basis=LEGAL_BASIS,
     # BSO-seeded prose questions belong to the Bodensee-Schifferpatent Sachgebiete.
     prose_block_for=de_themes.bodensee_block_for,

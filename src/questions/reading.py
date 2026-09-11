@@ -105,3 +105,45 @@ def export_reading_json(qconn: sqlite3.Connection, kb_path: str, out_path: str,
     with open(out_path, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, indent=2)
     return len(units)
+
+
+# --- the "where to study" list -------------------------------------------------
+# A ReadingRef with basis "units" is an ingested law: its theme list is not
+# authored but derived from the themes the KB tagged its units with. The keyword
+# tagger leaves a little noise on a long act (one "Wetterkunde" unit in a traffic
+# ordinance), so a theme counts only when it holds at least MIN_UNITS units AND
+# MIN_SHARE of the act — enough to be a subject the act actually treats.
+MIN_UNITS = 3
+MIN_SHARE = 0.02
+
+
+def unit_themes(kb_path: str, source_id: str) -> list[str]:
+    """Themes an ingested source substantively covers, by unit count (desc)."""
+    if not source_id or not os.path.exists(kb_path):
+        return []
+    kb = sqlite3.connect(kb_path)
+    try:
+        rows = kb.execute("SELECT theme, COUNT(*) FROM units WHERE source_id = ? "
+                          "GROUP BY theme ORDER BY COUNT(*) DESC", (source_id,)).fetchall()
+    finally:
+        kb.close()
+    total = sum(n for _, n in rows)
+    return [t for t, n in rows if n >= MIN_UNITS and n / total >= MIN_SHARE] if total else []
+
+
+def manifest_for(country, kb_path: str, permit: str | None = None) -> list[dict]:
+    """The country's reading list for a bundle manifest: ``basis == "units"``
+    entries get their themes from the KB; with ``permit`` set (a bundle that is
+    one permit/option and ships no permit table — France), entries scoped to
+    other permits are dropped and the scope cleared so the player shows them."""
+    out = []
+    for ref in country.reading_manifest():
+        scope = ref.get("permit_scope") or []
+        if permit is not None:
+            if scope and permit not in scope:
+                continue
+            ref["permit_scope"] = []
+        if ref.get("basis") == "units" and not ref.get("themes"):
+            ref["themes"] = unit_themes(kb_path, ref.get("source_id", ""))
+        out.append(ref)
+    return out

@@ -117,7 +117,7 @@
         "nl": "Examengeld CBR: € 53,15 voor het theorie-examen Klein Vaarbewijs I. Toeslagen voor extra tijd (€ 13,50) of individuele begeleiding (€ 41,60) komen daar bovenop. De kosten van een vaarschool of cursus staan hier los van."
       },
       "source": "CBR — theorie-examen Klein Vaarbewijs I",
-      "url": "https://www.cbr.nl/nl/recreatievaart-ppl-rzam/nl-1/theorie-examen-klein-vaarbewijs-1",
+      "url": "https://www.cbr.nl/nl/recreatievaart-ppl-rzam/recreatievaart/theorie-examen-kvb1",
       "as_of": "2026-08-15",
       "volatile": true,
       "region_scope": "",
@@ -133,6 +133,303 @@
       "as_of": "2026-08-15",
       "volatile": true,
       "region_scope": "",
+      "permit_scope": []
+    }
+  ],
+  "reading": [
+    {
+      "code": "cbr_examendocument_kvb1",
+      "kind": "programme",
+      "title": "Examendocument Klein Vaarbewijs 1 — examenprogramma, afbakening en toetsmatrijs",
+      "publisher": "CBR, divisie CCV (programma vastgesteld door de Minister van I&W)",
+      "url": "https://www.cbr.nl/nl/service/nl/artikel/examendocument-kvb1",
+      "lang": "nl",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "algemene_bepalingen",
+        "optische_tekens",
+        "geluidsseinen",
+        "marifoon_radar",
+        "verkeerstekens",
+        "betonning",
+        "vaarregels",
+        "ligplaats",
+        "bijzondere_vaarwegen",
+        "vaarbewijs",
+        "voortstuwing",
+        "veiligheid",
+        "vaarwater",
+        "manoeuvreren",
+        "milieu"
+      ],
+      "basis": "programme",
+      "body": {
+        "nl": "Het officiële examenprogramma met per onderwerp de te behalen punten (40 vragen, 80 punten, geslaagd bij 56): wettelijke bepalingen 35, techniek en veiligheid 12, vaarwater en weer 16, varen en manoeuvreren 17. Ingangsdatum 1 januari 2020."
+      },
+      "source": "https://www.cbr.nl/nl/service/nl/artikel/examendocument-kvb1",
+      "as_of": "2026-09-11",
+      "match": "",
+      "source_id": "",
+      "price": "",
+      "permit_scope": [
+        "KVB-1"
+      ]
+    },
+    {
+      "code": "cbr_examendocument_kvb2",
+      "kind": "programme",
+      "title": "Examendocument Klein Vaarbewijs 2 — examenprogramma, afbakening en toetsmatrijs",
+      "publisher": "CBR, divisie CCV (programma vastgesteld door de Minister van I&W)",
+      "url": "https://www.cbr.nl/nl/service/nl/artikel/examendocument-kvb2",
+      "lang": "nl",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "algemene_bepalingen",
+        "optische_tekens",
+        "geluidsseinen",
+        "marifoon_radar",
+        "verkeerstekens",
+        "betonning",
+        "vaarregels",
+        "ligplaats",
+        "bijzondere_vaarwegen",
+        "vaarbewijs",
+        "voortstuwing",
+        "veiligheid",
+        "vaarwater",
+        "manoeuvreren",
+        "milieu",
+        "navigatie",
+        "weerkunde"
+      ],
+      "basis": "programme",
+      "body": {
+        "nl": "Het officiële examenprogramma voor het aanvullende examen KVB2 (alle binnenwateren): navigatie en weerkunde bovenop de KVB1-stof."
+      },
+      "source": "https://www.cbr.nl/nl/recreatievaart-ppl-rzam/recreatievaart/theorie-examen-kvb2",
+      "as_of": "2026-09-11",
+      "match": "",
+      "source_id": "",
+      "price": "",
+      "permit_scope": [
+        "KVB-2"
+      ]
+    },
+    {
+      "code": "cbr_voorbeeldexamen_kvb1",
+      "kind": "sample_exam",
+      "title": "Voorbeeldexamen Klein Vaarbewijs 1",
+      "publisher": "CBR",
+      "url": "https://www.cbr.nl/nl/service/nl/artikel/voorbeeldexamen-kvb1",
+      "lang": "nl",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "algemene_bepalingen",
+        "optische_tekens",
+        "geluidsseinen",
+        "marifoon_radar",
+        "verkeerstekens",
+        "betonning",
+        "vaarregels",
+        "ligplaats",
+        "bijzondere_vaarwegen",
+        "vaarbewijs",
+        "voortstuwing",
+        "veiligheid",
+        "vaarwater",
+        "manoeuvreren",
+        "milieu"
+      ],
+      "basis": "programme",
+      "body": {
+        "nl": "Het officiële voorbeeldexamen van het CBR, met daarnaast de woordenlijst en de «struikelblokken bij het examen»."
+      },
+      "source": "https://www.cbr.nl/nl/recreatievaart-ppl-rzam/recreatievaart/theorie-examen-kvb1",
+      "as_of": "2026-09-11",
+      "match": "",
+      "source_id": "",
+      "price": "",
+      "permit_scope": [
+        "KVB-1"
+      ]
+    },
+    {
+      "code": "binnenvaartwet",
+      "kind": "law",
+      "title": "Binnenvaartwet (BVW)",
+      "publisher": "wetten.overheid.nl (KOOP)",
+      "url": "https://wetten.overheid.nl/BWBR0023009/",
+      "lang": "nl",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "vaarbewijs",
+        "veiligheid"
+      ],
+      "basis": "units",
+      "body": {
+        "nl": "Het belang van de BVW voor de recreatievaart: de vaarbewijsplicht en haar grenzen."
+      },
+      "source": "https://wetten.overheid.nl/BWBR0023009/",
+      "as_of": "2026-09-11",
+      "match": "Binnenvaartwet",
+      "source_id": "binnenvaartwet",
+      "price": "",
+      "permit_scope": []
+    },
+    {
+      "code": "bpr",
+      "kind": "law",
+      "title": "Binnenvaartpolitiereglement (BPR)",
+      "publisher": "wetten.overheid.nl (KOOP)",
+      "url": "https://wetten.overheid.nl/BWBR0003628/",
+      "lang": "nl",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "vaarregels",
+        "optische_tekens",
+        "bijzondere_vaarwegen",
+        "algemene_bepalingen",
+        "ligplaats",
+        "marifoon_radar",
+        "geluidsseinen"
+      ],
+      "basis": "units",
+      "body": {
+        "nl": "Het reglement waaruit het grootste deel van de wettelijke bepalingen (35 van de 80 punten) komt: lichten, dagtekens, geluidsseinen, marifoon, vaarregels, stilliggen, snelle motorboten. Geen auteursrecht (Auteurswet art. 11)."
+      },
+      "source": "https://wetten.overheid.nl/BWBR0003628/",
+      "as_of": "2026-09-11",
+      "match": "Binnenvaartpolitiereglement",
+      "source_id": "bpr",
+      "price": "",
+      "permit_scope": []
+    },
+    {
+      "code": "rpr",
+      "kind": "law",
+      "title": "Rijnvaartpolitiereglement 1995 (RPR)",
+      "publisher": "wetten.overheid.nl (KOOP)",
+      "url": "https://wetten.overheid.nl/BWBR0006923/",
+      "lang": "nl",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "vaarregels",
+        "algemene_bepalingen",
+        "optische_tekens",
+        "bijzondere_vaarwegen",
+        "ligplaats",
+        "verkeerstekens",
+        "geluidsseinen",
+        "milieu",
+        "marifoon_radar"
+      ],
+      "basis": "units",
+      "body": {
+        "nl": "De Rijnregels, in het examen gevraagd «in het bijzonder voor zover afwijkend van het BPR» (Rijn, Waal, Lek)."
+      },
+      "source": "https://wetten.overheid.nl/BWBR0006923/",
+      "as_of": "2026-09-11",
+      "match": "Rijnvaartpolitiereglement",
+      "source_id": "rpr",
+      "price": "",
+      "permit_scope": []
+    },
+    {
+      "code": "svw",
+      "kind": "law",
+      "title": "Scheepvaartverkeerswet (SVW)",
+      "publisher": "wetten.overheid.nl (KOOP)",
+      "url": "https://wetten.overheid.nl/BWBR0004364/",
+      "lang": "nl",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "vaarbewijs",
+        "veiligheid",
+        "verkeerstekens"
+      ],
+      "basis": "units",
+      "body": {
+        "nl": "De wet als basis van de scheepvaartreglementen: varen onder invloed, ademtest, intrekking van het vaarbewijs."
+      },
+      "source": "https://wetten.overheid.nl/BWBR0004364/",
+      "as_of": "2026-09-11",
+      "match": "Scheepvaartverkeerswet",
+      "source_id": "svw",
+      "price": "",
+      "permit_scope": []
+    },
+    {
+      "code": "varen_doe_je_samen",
+      "kind": "guide",
+      "title": "Varen doe je Samen! — kennisbank veilig varen",
+      "publisher": "Rijkswaterstaat, provincies, KNRM, Watersportverbond e.a.",
+      "url": "https://varendoejesamen.nl/",
+      "lang": "nl",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "vaarregels",
+        "voortstuwing",
+        "veiligheid",
+        "marifoon_radar",
+        "vaarwater",
+        "manoeuvreren"
+      ],
+      "basis": "toc",
+      "body": {
+        "nl": "Gratis campagnemateriaal van de vaarwegbeheerders: vaarregels, motoronderhoud, brandpreventie, reddingsvesten, knooppunten, marifoonkaart. Geen examenstof, wel de praktijk erachter."
+      },
+      "source": "https://varendoejesamen.nl/",
+      "as_of": "2026-09-11",
+      "match": "",
+      "source_id": "",
+      "price": "",
+      "permit_scope": []
+    },
+    {
+      "code": "anwb_cursusboek",
+      "kind": "handbook",
+      "title": "ANWB Cursusboek Klein Vaarbewijs I en II (30e druk)",
+      "publisher": "ANWB / Uitgeverij Hollandia",
+      "url": "https://www.anwb.nl/webwinkel/p/140952/anwb-cursusboek-klein-vaarbewijs-i-en-ii",
+      "lang": "nl",
+      "cost": "paid",
+      "official": false,
+      "themes": [
+        "algemene_bepalingen",
+        "optische_tekens",
+        "geluidsseinen",
+        "marifoon_radar",
+        "verkeerstekens",
+        "betonning",
+        "vaarregels",
+        "ligplaats",
+        "bijzondere_vaarwegen",
+        "vaarbewijs",
+        "voortstuwing",
+        "veiligheid",
+        "vaarwater",
+        "manoeuvreren",
+        "milieu",
+        "navigatie",
+        "weerkunde"
+      ],
+      "basis": "toc",
+      "body": {
+        "nl": "Het meest verspreide cursusboek; de hoofdstukken volgen de volgorde van de exameneisen (1 wetten en reglementen, 2 techniek, veiligheid en milieu, 3 het vaarwater en het weer, 4 de praktijk van het varen; verdere hoofdstukken KVB2). Geen aanbeveling — een voorbeeld van de commerciële boeken."
+      },
+      "source": "https://hollandia-boeken.nl/wp-content/uploads/2024/05/9789064108075_sample.pdf",
+      "as_of": "2026-09-11",
+      "match": "",
+      "source_id": "",
+      "price": "zie ANWB-webwinkel (ISBN 978 90 641 0807 5)",
       "permit_scope": []
     }
   ],

@@ -39,7 +39,7 @@ from __future__ import annotations
 
 from ..sources import Source
 from . import intl_themes
-from .base import Country, Reference, Region
+from .base import Country, ReadingRef, Reference, Region
 
 LEGAL_BASIS = (
     "Harmonised codes. COLREG (International Regulations for Preventing Collisions "
@@ -94,6 +94,38 @@ REGIONS: dict[str, Region] = {
                      note="Supra-national; applies above any national regime."),
 }
 
+# --- Where to learn the theory --------------------------------------------------
+# Verified 2026-09-11. The harmonised layer has no exam of its own, so its reading
+# list is the canonical text plus the free USCG handbook that prints each Rule
+# beside a figure (both public-domain US Government works). Parts A–E and the
+# Annexes are the theme taxonomy here, so both cover every theme by construction.
+_NAVCEN = "https://www.navcen.uscg.gov/navigation-rules-amalgamated"
+_HANDBOOK = ("https://www.navcen.uscg.gov/sites/default/files/pdf/navRules/Handbook/"
+             "Nav%20Rules%20Handbook_Corrected_08-12-2024.pdf")
+_ALL = tuple(intl_themes.THEMES)
+
+READING: tuple[ReadingRef, ...] = (
+    ReadingRef(
+        code="colreg_text", kind="law",
+        title="COLREG 1972 — International Regulations for Preventing Collisions at Sea "
+              "(USCG Navigation Rules, international pages)",
+        publisher="US Coast Guard Navigation Center", url=_NAVCEN, lang="en",
+        cost="free", official=True, themes=(), basis="units", source_id="colreg",
+        match="COLREG", source=_NAVCEN, as_of="2026-09-11",
+        body={"en": "The canonical text, Parts A–E and Annexes I–IV, as published "
+                    "by the USCG (public domain). Every question here cites it."}),
+    ReadingRef(
+        code="uscg_handbook", kind="guide",
+        title="USCG Navigation Rules and Regulations Handbook (corrected 2024-08-12)",
+        publisher="US Coast Guard Navigation Center", url=_HANDBOOK, lang="en",
+        cost="free", official=True, themes=_ALL, basis="toc",
+        source=_NAVCEN, as_of="2026-09-11",
+        body={"en": "A side-by-side textual and graphical presentation of each "
+                    "Rule — the lights, shapes and signals drawn next to the text. "
+                    "Free PDF; the US-Inland columns do not apply outside the US."}),
+)
+
+
 COUNTRY = Country(
     code="INT",
     name="International (harmonised codes)",
@@ -107,5 +139,6 @@ COUNTRY = Country(
     regions=REGIONS,
     default_region="global",
     references=REFERENCES,
+    reading=READING,
     legal_basis=LEGAL_BASIS,
 )

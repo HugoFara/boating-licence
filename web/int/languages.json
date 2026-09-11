@@ -29,5 +29,62 @@
       }
     }
   },
-  "default_track": "maritime"
+  "default_track": "maritime",
+  "reading": [
+    {
+      "code": "colreg_text",
+      "kind": "law",
+      "title": "COLREG 1972 — International Regulations for Preventing Collisions at Sea (USCG Navigation Rules, international pages)",
+      "publisher": "US Coast Guard Navigation Center",
+      "url": "https://www.navcen.uscg.gov/navigation-rules-amalgamated",
+      "lang": "en",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "steering_sailing",
+        "lights_shapes",
+        "sound_light_signals",
+        "annexes",
+        "general"
+      ],
+      "basis": "units",
+      "body": {
+        "en": "The canonical text, Parts A–E and Annexes I–IV, as published by the USCG (public domain). Every question here cites it."
+      },
+      "source": "https://www.navcen.uscg.gov/navigation-rules-amalgamated",
+      "as_of": "2026-09-11",
+      "match": "COLREG",
+      "source_id": "colreg",
+      "price": "",
+      "permit_scope": []
+    },
+    {
+      "code": "uscg_handbook",
+      "kind": "guide",
+      "title": "USCG Navigation Rules and Regulations Handbook (corrected 2024-08-12)",
+      "publisher": "US Coast Guard Navigation Center",
+      "url": "https://www.navcen.uscg.gov/sites/default/files/pdf/navRules/Handbook/Nav%20Rules%20Handbook_Corrected_08-12-2024.pdf",
+      "lang": "en",
+      "cost": "free",
+      "official": true,
+      "themes": [
+        "general",
+        "steering_sailing",
+        "lights_shapes",
+        "sound_light_signals",
+        "exemptions",
+        "annexes"
+      ],
+      "basis": "toc",
+      "body": {
+        "en": "A side-by-side textual and graphical presentation of each Rule — the lights, shapes and signals drawn next to the text. Free PDF; the US-Inland columns do not apply outside the US."
+      },
+      "source": "https://www.navcen.uscg.gov/navigation-rules-amalgamated",
+      "as_of": "2026-09-11",
+      "match": "",
+      "source_id": "",
+      "price": "",
+      "permit_scope": []
+    }
+  ]
 }

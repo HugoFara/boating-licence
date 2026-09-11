@@ -107,3 +107,73 @@ def test_no_kb_or_no_resolvable_ids_writes_nothing():
     assert not os.path.exists(out)
     qc.close()
     os.remove(q_path); os.remove(kb_path)
+
+
+# --- the "where to study" list -----------------------------------------------
+from src import countries                                           # noqa: E402
+from src.countries.base import ReadingRef                           # noqa: E402
+
+_BASIS = {"programme", "toc", "publisher", "units"}
+_KINDS = {"programme", "law", "catalogue", "sample_exam", "guide", "handbook"}
+
+
+def test_every_reading_ref_is_sourced_and_well_formed():
+    """Same discipline as PathStep: a verified page + date on every entry, themes
+    inside the country's taxonomy, permit scopes naming real permits, and a
+    body in the country's default language."""
+    seen_any = False
+    for code in ("CH", "DE", "NL", "FR", "INT"):
+        c = countries.get(code)
+        assert c.reading, code
+        for r in c.reading:
+            seen_any = True
+            assert isinstance(r, ReadingRef)
+            assert r.kind in _KINDS and r.basis in _BASIS, r.code
+            assert r.url.startswith("https://") and r.source.startswith("https://"), r.code
+            assert r.as_of >= "2026-09-11", r.code
+            assert r.cost in ("free", "paid"), r.code
+            assert c.default_lang in r.body, r.code
+            for t in r.themes:
+                assert t in c.themes, (r.code, t)
+            for p in r.permit_scope:
+                assert p in c.permits, (r.code, p)
+            if r.basis == "units":
+                assert r.source_id and not r.themes, r.code   # filled at bundle time
+            else:
+                assert r.themes, r.code
+            if r.cost == "paid":
+                assert not r.official or code == "CH", r.code  # the vks manual is the one official paid item
+    assert seen_any
+
+
+def test_unit_themes_filters_tagger_noise():
+    kb_path = _tmp(".sqlite")
+    kb = kbschema.connect(kb_path)
+    units = [_u(f"a-{i}", "Public domain") for i in range(10)]
+    for u in units[:8]:
+        u.theme = "signalisation"
+    units[8].theme = "lois"; units[9].theme = "lois"       # 2 units: below MIN_UNITS
+    kbschema.write_units(kb, units)
+    kb.close()
+    assert reading.unit_themes(kb_path, "oni") == ["signalisation"]
+    assert reading.unit_themes(kb_path, "nope") == []
+    assert reading.unit_themes(kb_path + ".missing", "oni") == []
+    os.remove(kb_path)
+
+
+def test_manifest_for_scopes_and_fills():
+    fr = countries.get("FR")
+    cot = reading.manifest_for(fr, "/nonexistent", permit="cotiere")
+    ei = reading.manifest_for(fr, "/nonexistent", permit="eaux_interieures")
+    codes_c = {r["code"] for r in cot}
+    codes_e = {r["code"] for r in ei}
+    assert "ripam" in codes_c and "ripam" not in codes_e
+    assert "rgp" in codes_e and "rgp" not in codes_c
+    assert "arrete_2007_programme" in codes_c & codes_e
+    assert all(r["permit_scope"] == [] for r in cot + ei)   # scope resolved at bundle time
+    # ordering: the programme leads, handbooks trail
+    assert cot[0]["kind"] == "programme" and cot[-1]["kind"] == "handbook"
+    # a full manifest keeps scopes for the player to resolve
+    de = reading.manifest_for(countries.get("DE"), "/nonexistent")
+    assert any(r["permit_scope"] for r in de)
+    assert all(r["themes"] == [] for r in de if r["basis"] == "units")   # no KB ⇒ empty, not invented

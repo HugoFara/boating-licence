@@ -529,6 +529,9 @@ def build() -> dict:
             # Path-to-permit steps (common to both options); the player renders them
             # in its "from theory to licence" panel. Additive — banks unchanged.
             "path": fr_country.COUNTRY.path_manifest(),
+            # Where to learn the theory, narrowed to this option (the FR players
+            # ship no permit table, so the scoping happens here, not in the player).
+            "reading": reading.manifest_for(fr_country.COUNTRY, FR_KB, permit=option),
             "core": core,
             # Honest catalogue-coverage banner, from the committed lock. The FR lock
             # entry pools both options; keep the base this option actually examines

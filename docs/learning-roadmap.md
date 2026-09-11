@@ -158,9 +158,44 @@ rather than authored for the purpose:
   link per act), the seed-driven FR banks — no file ships and the rows fall
   back to the official link.
 
-Still open (deliverable 3 of the same scoping): a **curated external reading
-list** per country (official handbooks, catalogues, courses) — a `ReadingRef`
-next to `PathStep`, sourced-only with a verification date, never from memory.
+### Where to study — the reading list, with coverage (2026-09-11)
+
+`ReadingRef` (next to `PathStep` in `src/countries/base.py`; lists in each
+country module) names where to *learn* the theory: the official programme, the
+law, published catalogues, sample exams, guides and — flagged, never endorsed —
+one commercial handbook per regime. Every entry was read on the day it is dated
+(`source` + `as_of`); nothing is from memory. The sourcing pass found:
+
+| Regime | The syllabus is… | Free official reading | Paid, listed on its own TOC/claim |
+|---|---|---|---|
+| CH | not published (VKS: "no official question documents"); the vks manual is "the basis" | ONI, RNL (Fedlex); vks navapp demo | vks manual *Naviguez dans les eaux suisses* (CHF 89, with the official questions) |
+| DE | the ELWIS catalogue itself (Stand 01.08.2023) | ELWIS Binnen/See; BinSchStrO, SeeSchStrO, KVR, BSO | Delius Klasing *SBF See* (publisher's claim only) |
+| NL | the CBR *examendocument* (programma + afbakening + toetsmatrijs, points per topic) | examendocument KVB1/KVB2, voorbeeldexamen; BPR, RPR, SVW, BVW; *Varen doe je Samen* | ANWB *Cursusboek* (TOC read from the publisher's sample) |
+| FR | arrêté du 28/09/2007 art. 1.2 / 2.2 (theme lists) | the arrêté, mer.gouv.fr, RIPAM, RGP, Division 240 | Code Vagnon per option (theme list on the product page) |
+| INT | — (sourcing layer) | COLREG text, USCG Navigation Rules Handbook | — |
+
+Two stale ELWIS landing URLs in `de.py` REFERENCES (404 today) were repointed.
+
+**Coverage** ("how much a source covers what is to learn") is computed in the
+player (`readingCoverage`), against the bank in scope of the active permit —
+DE narrows to the permit's exam blocks, so the SBF-See list never counts Binnen
+questions — on two axes:
+
+1. *by theme* — share of the in-scope questions whose theme the resource
+   addresses. Question count stands in for syllabus weight: the one proxy the
+   project has for every regime (NL's official point weights are quoted in the
+   entry body but not yet used as weights — an open refinement).
+2. *by citation* — for a citable text (`match`), the share of questions whose
+   provenance names it. Exact, not claimed. Hidden on an official-catalogue bank
+   where it would read 0 % for the very law the catalogue tests.
+
+The theme list's provenance is shown next to the figure (`basis`): *programme*
+(the resource is the syllabus), *toc* (its table of contents was read),
+*publisher* (the publisher's own claim, no TOC online — the vks manual, Delius
+Klasing), *units* (an ingested law: the themes its KB units carry, ≥ 3 units and
+≥ 2 % of the act, `src/questions/reading.py:unit_themes`). Measured today, e.g.
+BPR is cited by 73 % of the NL questions and the RGP by 85 % of the FR inland
+ones; the Vagnon eaux-intérieures code lists themes worth 70 % of that bank.
 
 ## Settings the player gains (practice only)
 

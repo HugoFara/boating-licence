@@ -23,6 +23,7 @@ import sqlite3
 import sys
 
 from src import countries, fetch, parse as parse_stage, normalize as normalize_stage
+from src.questions import reading
 from src import validate as _validate
 
 DATA = os.path.join(os.path.dirname(__file__), "data")
@@ -610,6 +611,8 @@ def _build_de_web(web: str, core_avail: dict | None = None) -> dict | None:
         # Path-to-permit steps, scoped by permit (federal SBF vs Bodensee). The
         # player filters by the active permit; additive — questions.de.json unchanged.
         "path": countries.get("DE").path_manifest(),
+        # Where to learn the theory (Learn tab), with per-permit scoping.
+        "reading": reading.manifest_for(countries.get("DE"), _kbpaths("DE")[0]),
         # DE IS the official ELWIS catalogue — the yardstick, not a derived bank.
         # The player shows a high-confidence note rather than a coverage figure.
         "coverage": {"official": True},
@@ -687,7 +690,6 @@ def _reading_layer(conn, out_dir, langs, country_code):
     at least one unit resolves — a bank whose provenance ids are not KB units
     (the official ELWIS catalogue, the seed-driven FR banks) ships no file and
     the player's Learn tab falls back to the citation links."""
-    from src.questions import reading
     kb_path, _ = _kbpaths(country_code)
     written = {}
     for lg in langs:
@@ -807,6 +809,7 @@ def _build_ch_web(web: str, core_avail: dict | None = None) -> dict | None:
         # application/fees/validity) rendered in the player's "how to get the
         # licence" panel. Additive — does not touch questions.<lang>.json.
         "path": ch_country.path_manifest(),
+        "reading": reading.manifest_for(ch_country, _kbpaths("CH")[0]),
         "cantons": cantons.as_manifest(),
         "canton_default": cantons.DEFAULT_CANTON,
         "core": _core_refs(core_avail, sorted(qschema.LANGS)),
@@ -893,6 +896,7 @@ def _build_int_web(web: str, core_avail: dict | None = None) -> dict | None:
         "available": {"en": {"count": n_en, "unofficial": False}},
         "core": _core_refs(core_avail, ["en"]),
         "default_track": "maritime",
+        "reading": reading.manifest_for(countries.get("INT"), _kbpaths("INT")[0]),
     }
     with open(os.path.join(web_int, "languages.json"), "w", encoding="utf-8") as fh:
         json.dump(manifest, fh, ensure_ascii=False, indent=2)
@@ -1019,6 +1023,7 @@ def _build_nl_web(web: str, core_avail: dict | None = None) -> dict | None:
         # Path-to-permit steps (age/medical/application/fees/validity), Dutch-only
         # bodies — there is no practical exam for the klein vaarbewijs.
         "path": nl_country.path_manifest(),
+        "reading": reading.manifest_for(nl_country, _kbpaths("NL")[0]),
         "regions": [{"code": r.code, "name": r.name, "note": r.note,
                      "primary": r.primary} for r in nl_country.regions.values()],
         "country_default": "NL",

@@ -11,7 +11,7 @@ from __future__ import annotations
 
 from .. import cantons, sources, themes
 from ..questions import schema
-from .base import Country, ExamRules, PathStep, Permit, Region
+from .base import Country, ExamRules, PathStep, Permit, ReadingRef, Region
 
 
 def _exam(cfg: "schema.ExamConfig") -> ExamRules:
@@ -175,6 +175,102 @@ _PATH: tuple[PathStep, ...] = (
         }),
 )
 
+# --- Where to learn the theory --------------------------------------------------
+# Verified 2026-09-11. The VKS (Vereinigung der Schifffahrtsämter / Association des
+# services de la navigation) publishes the one official manual and the learning
+# app that carries the official exam questions; the cantons sell the manual and
+# publish no theme list of their own — the Bern office states the manual "forms
+# the basis of the necessary theoretical knowledge", which is why it is listed as
+# covering every exam theme on the publisher's word (basis "publisher"). The law
+# itself is free on Fedlex and is what every question here cites (basis "units").
+_VKS_MANUAL = "https://www.vks.ch/fr/publications/manuels-didactiques"
+_VKS_DEMO = "https://www.vks.ch/fr/informations/demo-theorie-de-la-navigation"
+_BE_THEORY = ("https://www.svsa.sid.be.ch/fr/start/schifffahrt/schiffsfuehrerausweis/"
+              "informationen-schiffstheoriepruefung.html")
+_ONI = "https://www.fedlex.admin.ch/eli/cc/1979/337_337_337"
+_RNL = "https://www.fedlex.admin.ch/eli/cc/1978/1994_1993_1993"
+_EXAM_THEMES = themes.PERMIS_THEMES["A"]
+
+_READING: tuple[ReadingRef, ...] = (
+    ReadingRef(
+        code="vks_manual", kind="handbook",
+        title="Naviguez dans les eaux suisses / Gute Fahrt auf schweizerischen "
+              "Gewässern / Navighiamo nelle acque svizzere — manuel didactique",
+        publisher="vks — Association des services de la navigation, Berne",
+        url=_VKS_MANUAL, lang="fr/de/it", cost="paid", official=True,
+        themes=_EXAM_THEMES, basis="publisher", price="CHF 89.00 (15e éd., 2025)",
+        source=_BE_THEORY, as_of="2026-09-11",
+        body={
+            "fr": "Le manuel officiel de la vks, « base des connaissances théoriques "
+                  "nécessaires » selon les offices cantonaux ; il inclut un accès "
+                  "de 12 mois à l'application navapp avec les questions d'examen "
+                  "officielles. Commande auprès du service cantonal de la navigation.",
+            "de": "Das offizielle vks-Lehrmittel — laut den kantonalen Ämtern die "
+                  "«Grundlage der nötigen Theoriekenntnisse»; enthält 12 Monate "
+                  "Zugang zur Lern-App navapp mit den offiziellen Prüfungsfragen. "
+                  "Bestellung beim kantonalen Schifffahrtsamt.",
+            "it": "Il manuale ufficiale della vks, «base delle conoscenze teoriche "
+                  "necessarie» secondo gli uffici cantonali; include 12 mesi di "
+                  "accesso all'app navapp con le domande d'esame ufficiali. "
+                  "Ordinazione presso il servizio cantonale della navigazione.",
+            "en": "The official vks manual — the cantonal offices call it 'the "
+                  "basis of the necessary theoretical knowledge'; includes 12 "
+                  "months of the navapp learning app with the official exam "
+                  "questions. Order from your cantonal navigation office.",
+        }),
+    ReadingRef(
+        code="vks_demo", kind="sample_exam",
+        title="Démo navapp vks — application d'apprentissage et examen de démonstration",
+        publisher="vks — Association des services de la navigation, Berne",
+        url=_VKS_DEMO, lang="fr/de/it", cost="free", official=True,
+        themes=_EXAM_THEMES, basis="publisher",
+        source=_VKS_DEMO, as_of="2026-09-11",
+        body={
+            "fr": "Version de démonstration gratuite de l'application officielle et "
+                  "de l'examen théorique (choisir la catégorie Bateau).",
+            "de": "Kostenlose Demoversion der offiziellen Lern-App und der "
+                  "Theorieprüfung (Kategorie Schiff wählen).",
+            "it": "Versione dimostrativa gratuita dell'app ufficiale e dell'esame "
+                  "teorico (scegliere la categoria Battello).",
+            "en": "Free demo of the official learning app and of the theory exam "
+                  "(pick the Boat category).",
+        }),
+    ReadingRef(
+        code="oni", kind="law",
+        title="Ordonnance sur la navigation intérieure (ONI), RS 747.201.1",
+        publisher="Confédération suisse — Fedlex",
+        url=_ONI + "/fr", lang="fr/de/it", cost="free", official=True,
+        themes=(), basis="units", match="ONI", source_id="oni",
+        source=_ONI + "/fr", as_of="2026-09-11",
+        body={
+            "fr": "Le texte de loi que l'examen interroge : règles de route, feux, "
+                  "signaux, signalisation (annexes), équipement. Domaine public.",
+            "de": "Der Gesetzestext, den die Prüfung abfragt: Fahrregeln, Lichter, "
+                  "Signale, Schifffahrtszeichen (Anhänge), Ausrüstung. Gemeinfrei.",
+            "it": "Il testo di legge su cui verte l'esame: regole di rotta, fanali, "
+                  "segnali, segnaletica (allegati), equipaggiamento. Pubblico dominio.",
+            "en": "The statute the exam tests: rules of the road, lights, signals, "
+                  "waterway signs (annexes), equipment. Public domain.",
+        }),
+    ReadingRef(
+        code="rnl", kind="law",
+        title="Règlement de la navigation sur le Léman (RNL), RS 0.747.221.11",
+        publisher="Confédération suisse — Fedlex (accord franco-suisse)",
+        url=_RNL + "/fr", lang="fr/de/it", cost="free", official=True,
+        themes=(), basis="units", match="RNL", source_id="rnl",
+        source=_RNL + "/fr", as_of="2026-09-11",
+        body={
+            "fr": "Les règles propres au lac Léman (eaux frontalières) : là où le "
+                  "RNL diffère de l'ONI, c'est lui qui fait foi sur le lac.",
+            "de": "Die Sonderregeln für den Genfersee (Grenzgewässer): wo das RNL "
+                  "von der BSV abweicht, gilt es auf dem See.",
+            "it": "Le regole proprie del Lemano (acque di confine): dove il RNL "
+                  "differisce dall'ONI, sul lago fa stato il RNL.",
+            "en": "The Lake Geneva rules (border waters): where the RNL departs "
+                  "from the ONI, the RNL governs on the lake.",
+        }),
+)
+
 
 COUNTRY = Country(
     code="CH",
@@ -189,6 +285,7 @@ COUNTRY = Country(
     regions=_REGIONS,
     default_region=cantons.DEFAULT_CANTON,
     path=_PATH,
+    reading=_READING,
     legal_basis=("Public-domain federal/cantonal law (URG/LDA Art. 5) + openly "
                  "licensed references; theory exam standardised intercantonally "
                  "by the VKS."),
