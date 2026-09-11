@@ -24,6 +24,19 @@ class ExamBlock:
 
 
 @dataclass(frozen=True)
+class ExamSlot:
+    """One question slot of an official test matrix (NL: the CBR *toetsmatrijs*):
+    the toetsterm it draws from, the theme that toetsterm maps to, and the
+    points that one question carries. A paper composed slot by slot has the
+    official weighting — a give-way question is worth 3, a definitions one 1 —
+    which is what ``total_points`` and the pass mark are stated against."""
+    code: str                                      # toetsterm id, e.g. "A.11"
+    label: str                                     # as printed in the matrix
+    theme: str                                     # exam theme the slot draws from
+    points: int
+
+
+@dataclass(frozen=True)
 class ExamRules:
     """How a sitting is assembled and graded. Two scoring regimes are modelled:
 
@@ -31,6 +44,10 @@ class ExamRules:
       ``total_points`` are needed (per-question all-or-nothing).
     * ``blocks`` — the German SBF system; each :class:`ExamBlock` carries its own
       pass minimum and the candidate must clear every block.
+
+    ``slots`` (optional, all_or_nothing only) is the official test matrix: when
+    present the paper is one question per slot, each worth that slot's points,
+    and the matrix must add up to ``questions`` / ``total_points`` exactly.
     """
     questions: int
     time_limit_min: int
@@ -39,7 +56,15 @@ class ExamRules:
     points_per_question: int | None = None
     total_points: int | None = None
     blocks: tuple[ExamBlock, ...] = ()
+    slots: tuple[ExamSlot, ...] = ()               # official test matrix, if published
     note: str = ""
+
+    def theme_weights(self) -> dict[str, int]:
+        """Official points per theme from the matrix (empty without one)."""
+        out: dict[str, int] = {}
+        for sl in self.slots:
+            out[sl.theme] = out.get(sl.theme, 0) + sl.points
+        return out
 
 
 @dataclass(frozen=True)

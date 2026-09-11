@@ -517,7 +517,8 @@ function currentCanton() {
 }
 
 function examMinutes() {
-  if (blocksMode()) {                       // German SBF: time is per permit
+  // German SBF: time is per permit; so is a matrix paper (KVB-1 60 min, KVB-2 90).
+  if (blocksMode() || permitSlots()) {
     const p = currentPermit();
     return (p && +p.time_limit_min) || CFG.timeLimitMin;
   }
@@ -777,14 +778,22 @@ function renderStart() {
   if (blocksMode()) {
     $("config-summary").innerHTML = blockConfigHtml(avail);
   } else {
-    const examN = Math.min(CFG.questions, avail);
-    const partial = examN < CFG.questions
-      ? " " + T("cfgPartial", { target: CFG.questions }) : "";
+    const shape = examShape();
+    // With a matrix, the paper is as many questions as slots the bank can fill.
+    const examN = shape.slots
+      ? shape.slots.filter((sl) => bankForRun().some((q) => q.theme === sl.theme)).length
+      : Math.min(shape.questions, avail);
+    const partial = examN < shape.questions
+      ? " " + T("cfgPartial", { target: shape.questions }) : "";
+    const scale = shape.slots
+      ? T("cfgSlotScale", { min: Math.min(...shape.slots.map((sl) => +sl.points)),
+                            max: Math.max(...shape.slots.map((sl) => +sl.points)) })
+      : T("ptsPerQuestion", { n: CFG.pointsPer });
     $("config-summary").innerHTML = `
       <div><b>${T("cfgQuestions")}</b> ${examN}${partial}</div>
       <div><b>${T("cfgDuration")}</b> ${examMinutes()} ${T("minUnit")}</div>
-      <div><b>${T("cfgSuccess")}</b> ${CFG.passPoints}/${CFG.totalPoints} ${T("points")}</div>
-      <div><b>${T("cfgScale")}</b> ${T("ptsPerQuestion", { n: CFG.pointsPer })} · ${escapeHtml(cantonLabel())}</div>
+      <div><b>${T("cfgSuccess")}</b> ${shape.passPoints}/${shape.totalPoints} ${T("points")}</div>
+      <div><b>${T("cfgScale")}</b> ${scale} · ${escapeHtml(cantonLabel())}</div>
       <div><b>${T("cfgAvailable")}</b> ${T("availableQuestions", { n: avail })}</div>
       ${PRACTICE.spaced ? `<div><b>${T("cfgDue")}</b> ${T("dueQuestions", { n: dueCount(bankForRun()) })}</div>` : ""}`;
   }
@@ -822,6 +831,58 @@ async function boot() {
   restorePermit();
   renderStart();
   show("start");
+}
+
+/* --- Official test matrix (NL: the CBR toetsmatrijs) ----------------------------
+ * A permit may ship `slots`: one entry per question of the real paper, each
+ * naming the theme it draws from and the points it carries. Then the exam is
+ * composed slot by slot with the official weighting, and scored against the
+ * permit's own totals rather than the bank-wide defaults. */
+function permitSlots() {
+  const p = currentPermit();
+  return p && Array.isArray(p.slots) && p.slots.length ? p.slots : null;
+}
+
+/* Official points per theme from the matrix — the syllabus weights. */
+function syllabusWeights() {
+  const slots = permitSlots();
+  if (!slots) return null;
+  const w = {};
+  for (const sl of slots) w[sl.theme] = (w[sl.theme] || 0) + (+sl.points || 0);
+  return w;
+}
+
+/* The exam shape in force: the permit's matrix totals when it has one, else the
+ * bank meta (CFG). Keeps the start-screen summary, the draw and the scoring on
+ * the same numbers when the learner switches permit (KVB-1 ↔ KVB-2). */
+function examShape() {
+  const p = currentPermit();
+  const slots = permitSlots();
+  if (slots && p.total_points && p.pass_points) {
+    return { questions: slots.length, totalPoints: +p.total_points,
+             passPoints: +p.pass_points, slots };
+  }
+  return { questions: CFG.questions, totalPoints: CFG.totalPoints,
+           passPoints: CFG.passPoints, slots: null };
+}
+
+/* Slot-composed draw: one question per matrix row, from that row's theme, worth
+ * that row's points — the paper's real weighting. A slot whose theme has no
+ * question left is skipped (the bank may not yet hold a subject the matrix
+ * lists), which the partial-exam note and the scaled pass mark then report
+ * rather than hide. Copies carry the slot's points; the bank stays untouched. */
+function drawBySlots(pool, slots) {
+  const byTheme = {};
+  for (const q of pool) (byTheme[q.theme] ||= []).push(q);
+  for (const tk in byTheme) shuffle(byTheme[tk]);
+  const out = [];
+  for (const sl of slots) {
+    const bucket = byTheme[sl.theme];
+    if (!bucket || !bucket.length) continue;
+    const q = Object.assign({}, bucket.pop(), { points: +sl.points || 0, slot: sl.code });
+    out.push(q);
+  }
+  return shuffle(out);
 }
 
 /* Theme-balanced draw: round-robin across themes (shuffled within each) so the
@@ -868,10 +929,11 @@ function startRun(mode) {
       const ext = extensionThemes();
       if (ext.size) pool = pool.filter((q) => !ext.has(q.theme));
     }
-    const n = Math.min(CFG.questions, pool.length);
+    const shape = examShape();
+    const n = Math.min(shape.questions, pool.length);
     questions = mode === "practice"
       ? (PRACTICE.spaced ? drawSpaced(pool.slice()) : shuffle(pool.slice()))
-      : drawBalanced(pool.slice(), n);
+      : (shape.slots ? drawBySlots(pool, shape.slots) : drawBalanced(pool.slice(), n));
   }
   state = {
     mode, questions, i: 0,
@@ -1229,17 +1291,45 @@ function readingRefs() {
 }
 
 function readingCoverage(ref, questions, present) {
-  const themes = new Set((ref.themes || []).filter((t) => present.has(t)));
   const m = String(ref.match || "").toLowerCase();
-  let inThemes = 0, cited = 0;
-  for (const q of questions) {
-    if (themes.has(q.theme)) inThemes++;
-    if (m && String((q.provenance || {}).source || "").toLowerCase().includes(m)) cited++;
+  const weights = syllabusWeights();
+  // With an official matrix the syllabus IS the matrix: a resource covers the
+  // points of the themes it addresses, out of the paper's total — whether or not
+  // this bank already holds questions for them. Without one, question count in
+  // the bank stands in for weight, over the themes present.
+  const themes = weights
+    ? new Set((ref.themes || []).filter((t) => weights[t]))
+    : new Set((ref.themes || []).filter((t) => present.has(t)));
+  let themePct;
+  if (weights) {
+    const total = Object.values(weights).reduce((a, b) => a + b, 0) || 1;
+    const got = [...themes].reduce((a, t) => a + weights[t], 0);
+    themePct = Math.round((100 * got) / total);
+  } else {
+    let inThemes = 0;
+    for (const q of questions) if (themes.has(q.theme)) inThemes++;
+    themePct = Math.round((100 * inThemes) / (questions.length || 1));
   }
-  const n = questions.length || 1;
-  return { themePct: Math.round((100 * inThemes) / n),
-           citedPct: m ? Math.round((100 * cited) / n) : null,
+  let cited = 0;
+  if (m) for (const q of questions) {
+    if (String((q.provenance || {}).source || "").toLowerCase().includes(m)) cited++;
+  }
+  return { themePct, weighted: !!weights,
+           citedPct: m ? Math.round((100 * cited) / (questions.length || 1)) : null,
            themes: [...themes] };
+}
+
+/* How much of the official paper this bank can already ask: the points of the
+ * matrix themes that have at least one question here, out of the total. Shown
+ * above the reading list so a 100 %-coverage handbook is read against a bank
+ * that may itself cover only part of the paper. */
+function bankSyllabusCoverage(present) {
+  const weights = syllabusWeights();
+  if (!weights) return null;
+  const total = Object.values(weights).reduce((a, b) => a + b, 0) || 1;
+  const got = Object.keys(weights).filter((t) => present.has(t)).reduce((a, t) => a + weights[t], 0);
+  return { got, total, pct: Math.round((100 * got) / total),
+           missing: Object.keys(weights).filter((t) => !present.has(t)) };
 }
 
 function readingRefHtml(ref, questions, present) {
@@ -1271,7 +1361,7 @@ function readingRefHtml(ref, questions, present) {
     <div class="reading-tags">${tags}</div>
     <p class="reading-body">${escapeHtml(body)}</p>
     <div class="cov">
-      <div class="cov-row"><span class="cov-label">${escapeHtml(T("learnCovers", { pct: cov.themePct }))}</span>
+      <div class="cov-row"><span class="cov-label">${escapeHtml(T(cov.weighted ? "learnCoversPoints" : "learnCovers", { pct: cov.themePct }))}</span>
         <span class="cov-bar"><i style="width:${cov.themePct}%"></i></span></div>
       ${cited}
       <div class="fine">${themeNames ? escapeHtml(T("learnThemes")) + " " + escapeHtml(themeNames) + (basis ? " — " : "") : ""}${escapeHtml(basis)}</div>
@@ -1285,9 +1375,15 @@ function renderReading(themes) {
   if (!refs.length) return "";
   const questions = themes.flatMap((e) => e.questions);
   const present = new Set(themes.map((e) => e.theme));
+  const bank = bankSyllabusCoverage(present);
+  const p = currentPermit();
+  const bankLine = bank
+    ? `<p class="fine bank-cov">${escapeHtml(T("learnBankCovers", { got: bank.got, total: bank.total, pct: bank.pct }))}${
+        bank.missing.length ? " " + escapeHtml(T("learnBankMissing", { themes: bank.missing.map((t) => themeLabel(LANG, t)).join(", ") })) : ""}${
+        p && p.slots_source ? ` <span class="fine">(${escapeHtml(p.slots_source)})</span>` : ""}</p>` : "";
   return `<section class="reading">
     <h3 class="learn-h">${escapeHtml(T("learnWhere"))}</h3>
-    <p class="fine">${escapeHtml(T("learnWhereIntro"))}</p>
+    <p class="fine">${escapeHtml(T("learnWhereIntro"))}</p>${bankLine}
     ${refs.map((r) => readingRefHtml(r, questions, present)).join("")}
   </section>`;
 }
@@ -1410,9 +1506,10 @@ function finish() {
   // domain-filtered practice, or a bank still smaller than the exam size — e.g.
   // France's growing seed). Otherwise a partial bank could never reach the
   // absolute threshold and would always "fail".
-  const passMark = total >= CFG.totalPoints
-    ? CFG.passPoints
-    : Math.round((CFG.passPoints / CFG.totalPoints) * total);
+  const shape = examShape();
+  const passMark = total >= shape.totalPoints
+    ? shape.passPoints
+    : Math.round((shape.passPoints / shape.totalPoints) * total);
   const passed = earned >= passMark;
   const mins = Math.round((Date.now() - state.startedAt) / 60000);
 
@@ -1421,8 +1518,8 @@ function finish() {
     <div class="scoreline">${T("scoreLine", { earned: `<b>${earned}</b>`, total, pass: passMark })}</div>
     <div class="scoreline">${escapeHtml(T("faultPoints"))} <b>${total - earned}</b></div>
     <div class="scoreline">${escapeHtml(T("duration"))} ${mins} ${T("minUnit")}</div>
-    ${state.questions.length < CFG.questions
-      ? `<p class="fine">${T("partialExam", { n: state.questions.length, target: CFG.questions })}</p>` : ""}`;
+    ${state.questions.length < shape.questions
+      ? `<p class="fine">${T("partialExam", { n: state.questions.length, target: shape.questions })}</p>` : ""}`;
 
   $("breakdown").innerHTML = domainBreakdownHtml();
   $("review").innerHTML = state.questions.map((q, n) => reviewItem(q, n)).join("");

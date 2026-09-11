@@ -182,9 +182,10 @@ DE narrows to the permit's exam blocks, so the SBF-See list never counts Binnen
 questions — on two axes:
 
 1. *by theme* — share of the in-scope questions whose theme the resource
-   addresses. Question count stands in for syllabus weight: the one proxy the
-   project has for every regime (NL's official point weights are quoted in the
-   entry body but not yet used as weights — an open refinement).
+   addresses. Question count stands in for syllabus weight where no official
+   weighting is published. **NL has one** (see below): there the figure is the
+   share of the paper's official *points* the resource's themes carry, out of
+   the whole matrix — whether or not this bank holds questions for them yet.
 2. *by citation* — for a citable text (`match`), the share of questions whose
    provenance names it. Exact, not claimed. Hidden on an official-catalogue bank
    where it would read 0 % for the very law the catalogue tests.
@@ -196,6 +197,31 @@ Klasing), *units* (an ingested law: the themes its KB units carry, ≥ 3 units a
 ≥ 2 % of the act, `src/questions/reading.py:unit_themes`). Measured today, e.g.
 BPR is cited by 73 % of the NL questions and the RGP by 85 % of the FR inland
 ones; the Vagnon eaux-intérieures code lists themes worth 70 % of that bank.
+
+### The NL exam with its official point weights (2026-09-11)
+
+The CBR *examendocument* prints a **toetsmatrijs**: one row per question of
+the paper, with its toetsterm and points. Both are now encoded verbatim in
+`src/countries/nl_themes.py:TOETSMATRIJS` and attached to the permits as
+`ExamRules.slots` (`ExamSlot` in `base.py`), each row mapped to a theme by the
+same chapter rule the tagger uses. KVB1: 40 slots / 80 points, cesuur 56 — A
+wettelijke bepalingen 35 (vaarregels alone 21), B techniek/veiligheid 12, C
+vaarwater/weer 16, D manoeuvreren 17. KVB2: 27 / 50, cesuur 35 — E ruime
+wateren 13, F navigatie 37. A test pins the sums.
+
+The player composes an NL exam **slot by slot** (`drawBySlots`): one question
+per row from that row's theme, worth that row's points — a give-way question
+counts 3, a definitions one 1 — scored against the permit's own totals and
+time (KVB-2: 90 min), and a slot the bank cannot fill is skipped and reported.
+That reporting is the useful part: measured today the NL bank fills **18 of 40
+KVB1 slots (35 of 80 points)** and 8 of 27 for KVB2 — the law-seeded bank has
+no questions yet for B (voortstuwing, veiligheid), C's vaarwater/betonning/
+verkeerstekens or D (manoeuvreren). The Learn tab says so above the reading
+list ("this bundle holds questions for 35 of 80 points"), so a 100 %-coverage
+handbook is read against a bank that itself covers 44 % of the paper.
+Closing that gap is content work (the subjects have no statute to derive
+from) — the matrix now says exactly how many points each missing subject is
+worth.
 
 ## Settings the player gains (practice only)
 

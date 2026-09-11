@@ -921,6 +921,7 @@ def _build_nl_web(web: str, core_avail: dict | None = None) -> dict | None:
     import shutil
     from src.questions import schema as qschema
     from src import jurisdictions
+    from src.countries import nl_themes
     from tools import anki, gift
     qdb, _ = _qpaths("NL")
     if not os.path.exists(qdb):
@@ -1012,6 +1013,15 @@ def _build_nl_web(web: str, core_avail: dict | None = None) -> dict | None:
         "time_limit_min": p.exam.time_limit_min,
         "mandatory": p.mandatory,
         "themes": list(p.themes),
+        # The CBR toetsmatrijs: one slot per question with its points. The
+        # player composes the exam slot by slot (official weighting, e.g. a
+        # give-way question is worth 3), scores against these totals, and
+        # weighs a reading resource's coverage by points rather than by count.
+        "pass_points": p.exam.pass_points,
+        "total_points": p.exam.total_points,
+        "slots": [{"code": sl.code, "label": sl.label, "theme": sl.theme,
+                   "points": sl.points} for sl in p.exam.slots],
+        "slots_source": nl_themes.TOETSMATRIJS_SOURCE if p.exam.slots else "",
     } for p in nl_country.permits.values()]
     manifest = {
         "default": "nl", "supported": ["nl"],

@@ -35,7 +35,252 @@
         "vaarwater",
         "manoeuvreren",
         "milieu"
-      ]
+      ],
+      "pass_points": 56,
+      "total_points": 80,
+      "slots": [
+        {
+          "code": "A.1",
+          "label": "Scheepvaartverkeerswet, Binnenvaartwet, Binnenvaartbesluit, Wetboek van Koophandel",
+          "theme": "vaarbewijs",
+          "points": 1
+        },
+        {
+          "code": "A.3",
+          "label": "Toepassingsgebied alle scheepvaartreglementen; Vaststellingsbesluit BPR; BPR op RPR-gebied",
+          "theme": "algemene_bepalingen",
+          "points": 1
+        },
+        {
+          "code": "A.4",
+          "label": "BPR definities en algemene bepalingen, Hfdst. 1 en 2",
+          "theme": "algemene_bepalingen",
+          "points": 1
+        },
+        {
+          "code": "A.6",
+          "label": "BPR navigatielichten, Hfdst. 3",
+          "theme": "optische_tekens",
+          "points": 2
+        },
+        {
+          "code": "A.7",
+          "label": "BPR dagtekens, Hfdst. 3",
+          "theme": "optische_tekens",
+          "points": 2
+        },
+        {
+          "code": "A.8",
+          "label": "BPR geluidsseinen, Hfdst. 4, bijlage 6",
+          "theme": "geluidsseinen",
+          "points": 1
+        },
+        {
+          "code": "A.9",
+          "label": "BPR marifoon inrichting en gebruik, Hfdst. 4, bijlage 9",
+          "theme": "marifoon_radar",
+          "points": 2
+        },
+        {
+          "code": "A.11",
+          "label": "BPR vaarregels, art. 1.04, 1.05 en 6.01 t/m 6.05",
+          "theme": "vaarregels",
+          "points": 3
+        },
+        {
+          "code": "A.12",
+          "label": "BPR vaarregels, art. 6.07 t/m 6.11",
+          "theme": "vaarregels",
+          "points": 3
+        },
+        {
+          "code": "A.13",
+          "label": "BPR vaarregels, art. 6.12 t/m 6.16",
+          "theme": "vaarregels",
+          "points": 3
+        },
+        {
+          "code": "A.14",
+          "label": "BPR vaarregels, art. 6.17 t/m 6.23",
+          "theme": "vaarregels",
+          "points": 3
+        },
+        {
+          "code": "A.15",
+          "label": "BPR bruggen, sluizen, art. 6.24 – 6.28",
+          "theme": "vaarregels",
+          "points": 2
+        },
+        {
+          "code": "A.16",
+          "label": "BPR slecht zicht, art. 6.29 – 6.33",
+          "theme": "vaarregels",
+          "points": 2
+        },
+        {
+          "code": "A.17",
+          "label": "BPR stilliggen, Hfdst. 7",
+          "theme": "ligplaats",
+          "points": 2
+        },
+        {
+          "code": "A.18",
+          "label": "BPR snelle motorboten, Hfdst. 8",
+          "theme": "vaarregels",
+          "points": 2
+        },
+        {
+          "code": "A.19",
+          "label": "BPR kleine schepen, Hfdst. 9",
+          "theme": "bijzondere_vaarwegen",
+          "points": 1
+        },
+        {
+          "code": "A.20",
+          "label": "RPR definities en algemene bepalingen, dagtekens en verlichting",
+          "theme": "algemene_bepalingen",
+          "points": 1
+        },
+        {
+          "code": "A.21",
+          "label": "RPR vaarregels",
+          "theme": "vaarregels",
+          "points": 3
+        },
+        {
+          "code": "B.1",
+          "label": "Accu's en elektriciteit, motorkennis, oliedruk en koelwater",
+          "theme": "voortstuwing",
+          "points": 2
+        },
+        {
+          "code": "B.4",
+          "label": "Brandpreventie en brandbestrijding",
+          "theme": "veiligheid",
+          "points": 3
+        },
+        {
+          "code": "B.5",
+          "label": "Reddingsmiddelen",
+          "theme": "veiligheid",
+          "points": 2
+        },
+        {
+          "code": "B.7",
+          "label": "Veiligheidsmiddelen (gas)",
+          "theme": "veiligheid",
+          "points": 3
+        },
+        {
+          "code": "B.8",
+          "label": "Veiligheidsmiddelen (overig)",
+          "theme": "veiligheid",
+          "points": 2
+        },
+        {
+          "code": "C.1",
+          "label": "Betonning",
+          "theme": "betonning",
+          "points": 2
+        },
+        {
+          "code": "C.2",
+          "label": "Oeververlichting en lichtkarakters",
+          "theme": "betonning",
+          "points": 2
+        },
+        {
+          "code": "C.3",
+          "label": "Aflezen hoogteschalen (brug)",
+          "theme": "vaarwater",
+          "points": 1
+        },
+        {
+          "code": "C.4",
+          "label": "Aflezen peilschalen (waterpeil)",
+          "theme": "vaarwater",
+          "points": 1
+        },
+        {
+          "code": "C.5",
+          "label": "Berekenen vaarwegdiepte en brughoogte",
+          "theme": "vaarwater",
+          "points": 3
+        },
+        {
+          "code": "C.6",
+          "label": "Meteorologie termen",
+          "theme": "vaarwater",
+          "points": 1
+        },
+        {
+          "code": "C.7",
+          "label": "Meteorologie druksystemen",
+          "theme": "vaarwater",
+          "points": 2
+        },
+        {
+          "code": "C.8",
+          "label": "Tekens langs de vaarweg, verboden en geboden",
+          "theme": "verkeerstekens",
+          "points": 2
+        },
+        {
+          "code": "C.9",
+          "label": "Tekens langs de vaarweg, andere dan verboden en geboden",
+          "theme": "verkeerstekens",
+          "points": 2
+        },
+        {
+          "code": "D.1",
+          "label": "Schroef- en roerwerking",
+          "theme": "manoeuvreren",
+          "points": 2
+        },
+        {
+          "code": "D.3",
+          "label": "Ankeren",
+          "theme": "manoeuvreren",
+          "points": 2
+        },
+        {
+          "code": "D.4",
+          "label": "Zuiging en golfslag, ontmoeten en voorbijlopen",
+          "theme": "manoeuvreren",
+          "points": 2
+        },
+        {
+          "code": "D.5",
+          "label": "Schutten en dode hoek",
+          "theme": "manoeuvreren",
+          "points": 2
+        },
+        {
+          "code": "D.6",
+          "label": "Slepen, man-overboord en bijzondere omstandigheden",
+          "theme": "manoeuvreren",
+          "points": 2
+        },
+        {
+          "code": "D.7",
+          "label": "Zonder boegschroef aankomen, wegvaren, keren zonder wind/stroom",
+          "theme": "manoeuvreren",
+          "points": 2
+        },
+        {
+          "code": "D.8",
+          "label": "Zonder boegschroef aankomen, wegvaren, keren met wind/stroom",
+          "theme": "manoeuvreren",
+          "points": 2
+        },
+        {
+          "code": "D.9",
+          "label": "Met boegschroef aankomen, wegvaren, keren met of zonder wind/stroom",
+          "theme": "manoeuvreren",
+          "points": 3
+        }
+      ],
+      "slots_source": "CBR — Examendocument Klein Vaarbewijs 1 / 2, toetsmatrijs (ingangsdatum 1 januari 2020)"
     },
     {
       "code": "KVB-2",
@@ -64,7 +309,174 @@
         "milieu",
         "navigatie",
         "weerkunde"
-      ]
+      ],
+      "pass_points": 35,
+      "total_points": 50,
+      "slots": [
+        {
+          "code": "E.1",
+          "label": "Toepassingsgebied SRW en SRE/BVA en aangrenzend BPR- en SRKGT-gebied",
+          "theme": "bijzondere_vaarwegen",
+          "points": 1
+        },
+        {
+          "code": "E.2",
+          "label": "SRW definities en verantwoordelijkheden (art. 2, 3)",
+          "theme": "bijzondere_vaarwegen",
+          "points": 1
+        },
+        {
+          "code": "E.3",
+          "label": "SRW algemene bepalingen (art. 4, 6, 7), redegebied, diverse art.",
+          "theme": "bijzondere_vaarwegen",
+          "points": 1
+        },
+        {
+          "code": "E.4",
+          "label": "SRW uitwijkbepalingen (art. 9 t/m 19)",
+          "theme": "bijzondere_vaarwegen",
+          "points": 2
+        },
+        {
+          "code": "E.5",
+          "label": "SRW lichten, dagmerken, geluidsseinen (art. 23 t/m 31, 35, 37)",
+          "theme": "bijzondere_vaarwegen",
+          "points": 2
+        },
+        {
+          "code": "E.7",
+          "label": "SRW lichten, dagmerken, kleine schepen (art. 41)",
+          "theme": "bijzondere_vaarwegen",
+          "points": 2
+        },
+        {
+          "code": "E.8",
+          "label": "SRW vaarregels kleine schepen (art. 9 t/m 19 en 42)",
+          "theme": "bijzondere_vaarwegen",
+          "points": 2
+        },
+        {
+          "code": "E.12",
+          "label": "BPR vaarregels op de Waddenzee, IJsselmeer, Markermeer, IJmeer en Oosterschelde (art. 6.16, 6.17)",
+          "theme": "vaarregels",
+          "points": 2
+        },
+        {
+          "code": "F.1",
+          "label": "Meteorologie, termen en druksystemen",
+          "theme": "weerkunde",
+          "points": 2
+        },
+        {
+          "code": "F.2",
+          "label": "Meteorologie, fronten",
+          "theme": "weerkunde",
+          "points": 2
+        },
+        {
+          "code": "F.3",
+          "label": "Bronnen voor veilige vaart (kaart, stroomatlas, gids, BaZ)",
+          "theme": "navigatie",
+          "points": 1
+        },
+        {
+          "code": "F.4a",
+          "label": "Kaartlezen, kaarttekens (I)",
+          "theme": "navigatie",
+          "points": 1
+        },
+        {
+          "code": "F.4b",
+          "label": "Kaartlezen, kaarttekens (II)",
+          "theme": "navigatie",
+          "points": 1
+        },
+        {
+          "code": "F.5",
+          "label": "Betonning, cardinaal",
+          "theme": "betonning",
+          "points": 1
+        },
+        {
+          "code": "F.6",
+          "label": "Betonning overig",
+          "theme": "betonning",
+          "points": 1
+        },
+        {
+          "code": "F.7a",
+          "label": "Getij algemeen (I)",
+          "theme": "navigatie",
+          "points": 2
+        },
+        {
+          "code": "F.7b",
+          "label": "Getij algemeen (II)",
+          "theme": "navigatie",
+          "points": 2
+        },
+        {
+          "code": "F.9",
+          "label": "Getij verticaal, berekeningen",
+          "theme": "navigatie",
+          "points": 2
+        },
+        {
+          "code": "F.10",
+          "label": "Koersbepaling algemeen",
+          "theme": "navigatie",
+          "points": 1
+        },
+        {
+          "code": "F.11",
+          "label": "Koersbepaling berekeningen I (KK > WK en WK > KK)",
+          "theme": "navigatie",
+          "points": 2
+        },
+        {
+          "code": "F.12",
+          "label": "Koersbepaling berekeningen II (met drift)",
+          "theme": "navigatie",
+          "points": 3
+        },
+        {
+          "code": "F.13",
+          "label": "Koersbepaling berekeningen III (met stroom, eventueel drift)",
+          "theme": "navigatie",
+          "points": 3
+        },
+        {
+          "code": "F.22",
+          "label": "GPS",
+          "theme": "navigatie",
+          "points": 1
+        },
+        {
+          "code": "F.24",
+          "label": "Kaartpassen Markermeer — positie, koers, afstand, drift (deel I)",
+          "theme": "navigatie",
+          "points": 4
+        },
+        {
+          "code": "F.25",
+          "label": "Kaartpassen Markermeer — deel II",
+          "theme": "navigatie",
+          "points": 2
+        },
+        {
+          "code": "F.26",
+          "label": "Kaartpassen Waddenzee — positie, koers, afstand, drift (deel I)",
+          "theme": "navigatie",
+          "points": 4
+        },
+        {
+          "code": "F.27",
+          "label": "Kaartpassen Waddenzee — deel II",
+          "theme": "navigatie",
+          "points": 2
+        }
+      ],
+      "slots_source": "CBR — Examendocument Klein Vaarbewijs 1 / 2, toetsmatrijs (ingangsdatum 1 januari 2020)"
     }
   ],
   "extension_themes": [

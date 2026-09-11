@@ -32,7 +32,7 @@ from __future__ import annotations
 
 from ..sources import Source
 from . import nl_examscope, nl_themes
-from .base import Country, ExamRules, PathStep, Permit, ReadingRef, Reference, Region
+from .base import Country, ExamRules, ExamSlot, PathStep, Permit, ReadingRef, Reference, Region
 
 LEGAL_BASIS = (
     "Nederlands recht kent géén auteursrecht op wetgeving: Auteurswet art. 11 — "
@@ -154,6 +154,12 @@ MARITIEME_WATEREN = ("Westerschelde", "Oosterschelde", "Waddenzee", "Eems",
                      "Dollard", "IJsselmeer", "IJmeer",
                      "Markermeer (met uitzondering van de Gouwzee)")
 
+def _slots(permit: str) -> tuple[ExamSlot, ...]:
+    """The CBR toetsmatrijs as exam slots (src/countries/nl_themes.py)."""
+    return tuple(ExamSlot(code=c, label=l, theme=t, points=p)
+                 for c, l, t, p in nl_themes.TOETSMATRIJS[permit])
+
+
 PERMITS: dict[str, Permit] = {
     "KVB-1": Permit(
         code="KVB-1", label="Klein Vaarbewijs I (rivieren, kanalen en meren)",
@@ -163,7 +169,7 @@ PERMITS: dict[str, Permit] = {
         # passes at 70 % of the total — the same shape as the Swiss VKS paper, so
         # it is modelled as all_or_nothing on points rather than as blocks.
         exam=ExamRules(questions=40, time_limit_min=60, scoring="all_or_nothing",
-                       pass_points=56, total_points=80,
+                       pass_points=56, total_points=80, slots=_slots("KVB-1"),
                        note="40 meerkeuzevragen in 60 minuten; 1 tot 3 punten per "
                             "vraag, 80 punten totaal, geslaagd vanaf 56 punten "
                             "(70 %). Bron: CBR (examenformat, niet wettelijk "
@@ -175,7 +181,7 @@ PERMITS: dict[str, Permit] = {
         themes=nl_themes.PERMIT_THEMES["KVB-2"], drive="motor+sail",
         track="inland",
         exam=ExamRules(questions=27, time_limit_min=90, scoring="all_or_nothing",
-                       pass_points=35, total_points=50,
+                       pass_points=35, total_points=50, slots=_slots("KVB-2"),
                        note="27 vragen (23 meerkeuze + 4 open) in 90 minuten; 1 tot "
                             "4 punten per vraag, 50 punten totaal, geslaagd vanaf "
                             "35 punten (70 %). Komt bovenop KVB I. Bron: CBR."),

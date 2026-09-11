@@ -377,3 +377,4 @@ button.ghost:hover { border-color: var(--accent); color: var(--accent-dark); }
 .cov-bar { flex: 1 1 120px; height: 8px; border-radius: 999px; background: var(--line); overflow: hidden; }
 .cov-bar i { display: block; height: 100%; background: var(--accent); }
 .reading-src a { color: var(--accent-dark); }
+.bank-cov { margin: 0 0 8px; }

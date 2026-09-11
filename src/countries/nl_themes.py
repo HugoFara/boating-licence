@@ -65,6 +65,103 @@ THEMES: dict[str, str] = {
 EXTENSION_THEMES: frozenset[str] = frozenset(
     {"voortstuwing", "vaarwater", "manoeuvreren", "navigatie", "weerkunde"})
 
+# --- the official test matrices (CBR toetsmatrijs) ------------------------------
+# The CBR examendocument per exam (hoofdstuk 3, "Toetsmatrijs", ingangsdatum
+# 1 januari 2020; read 2026-09-11 from
+#   https://www.cbr.nl/nl/service/nl/artikel/examendocument-kvb1  (21 pp.)
+#   https://www.cbr.nl/nl/service/nl/artikel/examendocument-kvb2  (17 pp.))
+# prints one row per toetsterm: its question number(s), count and points. That is
+# the exact weighting of the paper — KVB1: 40 questions, 80 points, cesuur 56
+# (A wettelijke bepalingen 18 q/35 pt · B techniek/veiligheid 5/12 · C vaarwater/
+# weer 9/16 · D varen/manoeuvreren 8/17); KVB2: 27 questions, 50 points, cesuur 35
+# (E wettelijke bepalingen ruime wateren 8/13 · F navigatie 19/37).
+#
+# Each row is mapped to a theme of this taxonomy by the same rule the tagger
+# uses — a BPR toetsterm names its chapter, and _CHAPTER_THEME decides (so
+# "snelle motorboten, Hfdst. 8" is a steering-rules slot and "kleine schepen,
+# Hfdst. 9" a per-waterway one, exactly as the ingested articles are filed).
+# Non-BPR rows follow the subject the programme puts them under: KVB1's
+# "elementaire meteorologie" sits inside subject C (vaarwater) by art. 7.15 lid 1,
+# whereas KVB2's meteorologie is its own subject (weerkunde); the SRW rows of
+# KVB2 are the Westerschelde regime — per-waterway provisions. Labels are the
+# matrix's own wording, abridged.
+TOETSMATRIJS: dict[str, tuple[tuple[str, str, str, int], ...]] = {
+    "KVB-1": (
+        ("A.1", "Scheepvaartverkeerswet, Binnenvaartwet, Binnenvaartbesluit, Wetboek van Koophandel", "vaarbewijs", 1),
+        ("A.3", "Toepassingsgebied alle scheepvaartreglementen; Vaststellingsbesluit BPR; BPR op RPR-gebied", "algemene_bepalingen", 1),
+        ("A.4", "BPR definities en algemene bepalingen, Hfdst. 1 en 2", "algemene_bepalingen", 1),
+        ("A.6", "BPR navigatielichten, Hfdst. 3", "optische_tekens", 2),
+        ("A.7", "BPR dagtekens, Hfdst. 3", "optische_tekens", 2),
+        ("A.8", "BPR geluidsseinen, Hfdst. 4, bijlage 6", "geluidsseinen", 1),
+        ("A.9", "BPR marifoon inrichting en gebruik, Hfdst. 4, bijlage 9", "marifoon_radar", 2),
+        ("A.11", "BPR vaarregels, art. 1.04, 1.05 en 6.01 t/m 6.05", "vaarregels", 3),
+        ("A.12", "BPR vaarregels, art. 6.07 t/m 6.11", "vaarregels", 3),
+        ("A.13", "BPR vaarregels, art. 6.12 t/m 6.16", "vaarregels", 3),
+        ("A.14", "BPR vaarregels, art. 6.17 t/m 6.23", "vaarregels", 3),
+        ("A.15", "BPR bruggen, sluizen, art. 6.24 – 6.28", "vaarregels", 2),
+        ("A.16", "BPR slecht zicht, art. 6.29 – 6.33", "vaarregels", 2),
+        ("A.17", "BPR stilliggen, Hfdst. 7", "ligplaats", 2),
+        ("A.18", "BPR snelle motorboten, Hfdst. 8", "vaarregels", 2),
+        ("A.19", "BPR kleine schepen, Hfdst. 9", "bijzondere_vaarwegen", 1),
+        ("A.20", "RPR definities en algemene bepalingen, dagtekens en verlichting", "algemene_bepalingen", 1),
+        ("A.21", "RPR vaarregels", "vaarregels", 3),
+        ("B.1", "Accu's en elektriciteit, motorkennis, oliedruk en koelwater", "voortstuwing", 2),
+        ("B.4", "Brandpreventie en brandbestrijding", "veiligheid", 3),
+        ("B.5", "Reddingsmiddelen", "veiligheid", 2),
+        ("B.7", "Veiligheidsmiddelen (gas)", "veiligheid", 3),
+        ("B.8", "Veiligheidsmiddelen (overig)", "veiligheid", 2),
+        ("C.1", "Betonning", "betonning", 2),
+        ("C.2", "Oeververlichting en lichtkarakters", "betonning", 2),
+        ("C.3", "Aflezen hoogteschalen (brug)", "vaarwater", 1),
+        ("C.4", "Aflezen peilschalen (waterpeil)", "vaarwater", 1),
+        ("C.5", "Berekenen vaarwegdiepte en brughoogte", "vaarwater", 3),
+        ("C.6", "Meteorologie termen", "vaarwater", 1),
+        ("C.7", "Meteorologie druksystemen", "vaarwater", 2),
+        ("C.8", "Tekens langs de vaarweg, verboden en geboden", "verkeerstekens", 2),
+        ("C.9", "Tekens langs de vaarweg, andere dan verboden en geboden", "verkeerstekens", 2),
+        ("D.1", "Schroef- en roerwerking", "manoeuvreren", 2),
+        ("D.3", "Ankeren", "manoeuvreren", 2),
+        ("D.4", "Zuiging en golfslag, ontmoeten en voorbijlopen", "manoeuvreren", 2),
+        ("D.5", "Schutten en dode hoek", "manoeuvreren", 2),
+        ("D.6", "Slepen, man-overboord en bijzondere omstandigheden", "manoeuvreren", 2),
+        ("D.7", "Zonder boegschroef aankomen, wegvaren, keren zonder wind/stroom", "manoeuvreren", 2),
+        ("D.8", "Zonder boegschroef aankomen, wegvaren, keren met wind/stroom", "manoeuvreren", 2),
+        ("D.9", "Met boegschroef aankomen, wegvaren, keren met of zonder wind/stroom", "manoeuvreren", 3),
+    ),
+    "KVB-2": (
+        ("E.1", "Toepassingsgebied SRW en SRE/BVA en aangrenzend BPR- en SRKGT-gebied", "bijzondere_vaarwegen", 1),
+        ("E.2", "SRW definities en verantwoordelijkheden (art. 2, 3)", "bijzondere_vaarwegen", 1),
+        ("E.3", "SRW algemene bepalingen (art. 4, 6, 7), redegebied, diverse art.", "bijzondere_vaarwegen", 1),
+        ("E.4", "SRW uitwijkbepalingen (art. 9 t/m 19)", "bijzondere_vaarwegen", 2),
+        ("E.5", "SRW lichten, dagmerken, geluidsseinen (art. 23 t/m 31, 35, 37)", "bijzondere_vaarwegen", 2),
+        ("E.7", "SRW lichten, dagmerken, kleine schepen (art. 41)", "bijzondere_vaarwegen", 2),
+        ("E.8", "SRW vaarregels kleine schepen (art. 9 t/m 19 en 42)", "bijzondere_vaarwegen", 2),
+        ("E.12", "BPR vaarregels op de Waddenzee, IJsselmeer, Markermeer, IJmeer en Oosterschelde (art. 6.16, 6.17)", "vaarregels", 2),
+        ("F.1", "Meteorologie, termen en druksystemen", "weerkunde", 2),
+        ("F.2", "Meteorologie, fronten", "weerkunde", 2),
+        ("F.3", "Bronnen voor veilige vaart (kaart, stroomatlas, gids, BaZ)", "navigatie", 1),
+        ("F.4a", "Kaartlezen, kaarttekens (I)", "navigatie", 1),
+        ("F.4b", "Kaartlezen, kaarttekens (II)", "navigatie", 1),
+        ("F.5", "Betonning, cardinaal", "betonning", 1),
+        ("F.6", "Betonning overig", "betonning", 1),
+        ("F.7a", "Getij algemeen (I)", "navigatie", 2),
+        ("F.7b", "Getij algemeen (II)", "navigatie", 2),
+        ("F.9", "Getij verticaal, berekeningen", "navigatie", 2),
+        ("F.10", "Koersbepaling algemeen", "navigatie", 1),
+        ("F.11", "Koersbepaling berekeningen I (KK > WK en WK > KK)", "navigatie", 2),
+        ("F.12", "Koersbepaling berekeningen II (met drift)", "navigatie", 3),
+        ("F.13", "Koersbepaling berekeningen III (met stroom, eventueel drift)", "navigatie", 3),
+        ("F.22", "GPS", "navigatie", 1),
+        ("F.24", "Kaartpassen Markermeer — positie, koers, afstand, drift (deel I)", "navigatie", 4),
+        ("F.25", "Kaartpassen Markermeer — deel II", "navigatie", 2),
+        ("F.26", "Kaartpassen Waddenzee — positie, koers, afstand, drift (deel I)", "navigatie", 4),
+        ("F.27", "Kaartpassen Waddenzee — deel II", "navigatie", 2),
+    ),
+}
+TOETSMATRIJS_SOURCE = "CBR — Examendocument Klein Vaarbewijs 1 / 2, toetsmatrijs (ingangsdatum 1 januari 2020)"
+TOETSMATRIJS_AS_OF = "2026-09-11"
+
+
 # Which themes each permit's exam draws on (Binnenvaartregeling art. 7.15).
 _KVB1 = ("algemene_bepalingen", "optische_tekens", "geluidsseinen",
          "marifoon_radar", "verkeerstekens", "betonning", "vaarregels",

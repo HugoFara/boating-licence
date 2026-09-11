@@ -213,3 +213,27 @@ if __name__ == "__main__":
         fn()
         print(f"ok  {fn.__name__}")
     print(f"\n{len(fns)} tests passed")
+
+
+# --- the CBR toetsmatrijs as exam slots --------------------------------------
+def test_toetsmatrijs_adds_up_to_the_official_paper():
+    """KVB1: 40 questions / 80 points (A 35, B 12, C 16, D 17); KVB2: 27 / 50
+    (E 13, F 37) — the CBR examendocument totals, and every slot theme is one of
+    the permit's themes."""
+    from src.countries import nl, nl_themes
+    for code, n, total, subtotals in (
+            ("KVB-1", 40, 80, {"A": 35, "B": 12, "C": 16, "D": 17}),
+            ("KVB-2", 27, 50, {"E": 13, "F": 37})):
+        p = nl.PERMITS[code]
+        slots = p.exam.slots
+        assert len(slots) == n == p.exam.questions
+        assert sum(s.points for s in slots) == total == p.exam.total_points
+        by = {}
+        for s in slots:
+            by[s.code[0]] = by.get(s.code[0], 0) + s.points
+            assert s.theme in p.themes, (code, s.code, s.theme)
+            assert s.theme in nl_themes.THEMES
+            assert 1 <= s.points <= 4
+        assert by == subtotals, (code, by)
+        assert len({s.code for s in slots}) == n          # codes unique
+        assert sum(p.exam.theme_weights().values()) == total
