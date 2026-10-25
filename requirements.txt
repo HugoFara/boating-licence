@@ -1,5 +1,5 @@
-requests>=2.31
-lxml>=5.0
+requests>=2.33
+lxml>=6.1
 beautifulsoup4>=4.12
 pymupdf>=1.24
 

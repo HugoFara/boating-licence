@@ -122,18 +122,18 @@ def have_pdf() -> bool:
     return os.path.exists(PDF)
 
 
-def _fitz():
+def _pymupdf():
     try:
-        import fitz                       # PyMuPDF, already a dependency
+        import pymupdf                    # already a dependency
     except ImportError as exc:            # pragma: no cover
         raise SystemExit("PyMuPDF is required: pip install -r requirements.txt") from exc
-    return fitz
+    return pymupdf
 
 
 def _open():
     if not have_pdf():
         raise SystemExit(_MISSING)
-    return _fitz().open(PDF)
+    return _pymupdf().open(PDF)
 
 
 def _page_image(doc, page: int):

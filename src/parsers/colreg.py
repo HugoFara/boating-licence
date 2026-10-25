@@ -93,12 +93,12 @@ def _roman(s: str) -> int:
 
 
 def parse(src: Source, manifest: dict) -> list[KnowledgeUnit]:
-    import fitz                                  # PyMuPDF (declared in requirements)
+    import pymupdf                               # declared in requirements
 
     pdf_path = os.path.join(os.path.dirname(__file__), "..", "..",
                             manifest["files"]["pdf"]["path"])
     lang = manifest.get("lang", "en")
-    doc = fitz.open(pdf_path)
+    doc = pymupdf.open(pdf_path)
     lines = _clean_lines(doc, _intl_pages(doc))
 
     prov = dict(source_id=src.id, source_name=src.name, source_url=src.url,
